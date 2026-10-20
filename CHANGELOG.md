@@ -8,6 +8,14 @@
 
 ## [Unreleased]
 
+### M2 viewer MVP 完成（2026-10-20）
+
+- **VIEW-1/2/3 全部落地**：`viewer/` 零构建静态图谱浏览器（D-007），已部署 GitHub Pages：<https://8bitkevin.github.io/china-curriculum-taxonomy/viewer/>
+- 图谱浏览：按册分组列表（入度/出度徽章）、年级/领域过滤、搜索、`#id=` 深链；详情含完整先修链/解锁树（每条边附「必需/有益」与理由）、掌握证据、测评问法（孩子姓名自定义替换 `{{name}}`）、课标对齐与教材锚点
+- 质量自查页签：指标卡与清单，口径与 `scripts/report.mjs` 一致
+- `viewer/logic.js` 纯逻辑层与渲染分离：Node 测试 7 个（环防御、菱形去重、指标口径、过滤、占位符替换），总测试 16 个
+- 三个用户故事（家长查卡点 / 开发者浏览子图 / 维护者自查）经真实浏览器逐条验证通过
+
 ### M1 质量地基完成（2026-10-20）
 
 - **决策拍板**：D-009 远端仓库（GitHub 公开 `8bitkevin/china-curriculum-taxonomy`）、D-012 高中教材人教 A 版、D-006 教材跟版策略——`textbook.editionYear` 必填字段落地，v0.1 全量标注 2022（2022 课标版印次）
