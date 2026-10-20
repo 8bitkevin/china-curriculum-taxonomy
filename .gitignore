@@ -1,0 +1,14 @@
+# 教材 PDF 仅作本地校验源，不入库、不分发（版权属于出版社）
+textbooks/
+
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+*.log
+
+# 系统
+.DS_Store
+Thumbs.db

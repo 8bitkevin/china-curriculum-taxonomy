@@ -1,0 +1,25 @@
+# 许可说明
+
+本仓库按内容类型分层授权（多层许可，与 os-taxonomy 的做法一致）：
+
+| 层 | 内容 | 许可 |
+|---|---|---|
+| 数据库层 | 微主题集合、结构、ID、主题↔主题与主题↔课标的关系数据 | **ODbL 1.0** |
+| 内容层 | 微主题名称/描述/证据/测评问法、依赖理由等原创文本 | **CC BY-SA 4.0** |
+| 脚本层 | `scripts/` 验证与构建工具（改编自 os-taxonomy 的 ODbL 代码） | **ODbL 1.0** |
+
+第三方内容**不在**授权范围内：
+
+- **教材**：人教版《义务教育教科书》等教材的任何原文、扫描件、PDF —— 版权属于各出版社，本仓库不收录、不分发；
+- **课程标准**：《义务教育数学课程标准（2022 年版）》原文 —— 本仓库仅收录自建代码与自拟短标题（codes-only 策略），使用课标请以教育部官方发布为准。
+
+权威许可全文：
+
+- ODbL 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+- CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/deed.zh
+
+署名要求：使用本数据需注明
+
+> china-curriculum-taxonomy · 基于 Marble Skill Taxonomy 数据模型 · 原创内容以 CC BY-SA 4.0 与 ODbL 1.0 发布
+
+衍生数据库须以相同许可开放（ODbL 的 share-alike 仅约束数据库本身，不约束基于它构建的产品）。
