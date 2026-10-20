@@ -168,48 +168,53 @@ def download(path: str, dest: str, tree: dict) -> None:
 # ---------------------------------------------------------------- 匹配计划
 
 def match_primary(tree: dict) -> list:
-    """小学：{g}年级{v}册 + 体育合册。本地名 {学科}{g}年级{v}册.pdf。"""
+    """小学：{g}年级{v}册 + 体育合册。本地名 {学科}{g}年级{v}册.pdf。
+    计划保留完整树路径（小学文件直接位于版本目录下，但以完整路径为准更稳）。"""
     plan = []
     for subject, rel in PRIMARY.items():
         prefix = f"小学/{rel}/"
-        names = [os.path.basename(p) for p in tree if p.startswith(prefix)]
+        paths = [p for p in tree if p.startswith(prefix)]
         for g in GRADES:
             for v in VOLUMES:
-                hit = next((n for n in names if subject in n and f"{g}年级{v}册" in n), None)
+                hit = next(
+                    (p for p in paths if subject in p and f"{g}年级{v}册" in p), None
+                )
                 if hit:
-                    plan.append((prefix + hit, f"{subject}{g}年级{v}册.pdf"))
+                    plan.append((hit, f"{subject}{g}年级{v}册.pdf"))
         if subject == "体育与健康":
             for lo, hi in COMBINED_PAIRS:
                 hit = next(
-                    (n for n in names if subject in n and f"{lo}至{hi}年级全一册" in n), None
+                    (p for p in paths if subject in p and f"{lo}至{hi}年级全一册" in p),
+                    None,
                 )
                 if hit:
-                    plan.append((prefix + hit, f"{subject}{lo}至{hi}年级全一册.pdf"))
+                    plan.append((hit, f"{subject}{lo}至{hi}年级全一册.pdf"))
     return plan
 
 
 def match_junior(tree: dict) -> list:
-    """初中：{g}年级{v}册 / {g}年级全一册，历史册名变体归一。本地名 初中{学科}…。"""
+    """初中：{g}年级{v}册 / {g}年级全一册，历史册名变体归一。本地名 初中{学科}…。
+    远端版本目录下还有一层年级子目录，计划必须保留完整树路径。"""
     plan = []
     for subject, rel in JUNIOR.items():
         prefix = f"初中/{rel}/"
-        names = [os.path.basename(p) for p in tree if p.startswith(prefix)]
+        paths = [p for p in tree if p.startswith(prefix)]
         aliases = JUNIOR_ALIASES.get(subject, [subject])
         for g in JH_GRADES:
             for v in VOLUMES + ["全一册"]:
                 hit = next(
                     (
-                        n
-                        for n in names
-                        if n.startswith("义务教育教科书")
-                        and any(a in n for a in aliases)
-                        and f"{g}年级{v}" in n
+                        p
+                        for p in paths
+                        if os.path.basename(p).startswith("义务教育教科书")
+                        and any(a in os.path.basename(p) for a in aliases)
+                        and f"{g}年级{v}" in p
                     ),
                     None,
                 )
                 if hit:
                     suffix = v if v == "全一册" else v + "册"
-                    plan.append((prefix + hit, f"初中{subject}{g}年级{suffix}.pdf"))
+                    plan.append((hit, f"初中{subject}{g}年级{suffix}.pdf"))
     return plan
 
 
