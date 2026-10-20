@@ -8,6 +8,17 @@
 
 ## [Unreleased]
 
+### 新增：「3D 全景」页签——纯手写 Canvas 伪 3D，零依赖（2026-10-20）
+
+对标并增强 [Marble curriculum](https://withmarble.com/curriculum/) 的 3D 可视化：
+
+- 语义化 3D 布局：X 轴 = 年级/学期推进，Z 轴 = 四大领域泳道，Y 轴 = 先修链深度（最长路径分层）；弱力导向微调避免重叠，节点大小映射连接度
+- 交互：拖拽旋转 / 滚轮缩放 / 点击拾取（PointerEvent + click 双兜底）/ 搜索回车飞行定位 / Esc 取消 / 复位视角
+- 点选任意主题：先修闭包按 BFS 层级渐变橙色发光、解锁闭包青色发光、其余雾化暗淡——一眼看清「为了学它，先要会什么；学好它，将来解锁什么」
+- 实线 = hard 依赖、虚线 = soft 依赖；距离雾化 + 标签距离 LOD（近处全亮、远景淡出）+ 标签贪心防碰撞
+- 入场逐年级浮现动画 + 闲置自动缓旋；详情卡（描述 / 先修与解锁计数）一键跳回图谱浏览并带 hash 深链
+- 新增 `viewer/closure.js`（BFS 传递闭包，含环防御）及单元测试
+
 ### M2 viewer MVP 完成（2026-10-20）
 
 - **VIEW-1/2/3 全部落地**：`viewer/` 零构建静态图谱浏览器（D-007），已部署 GitHub Pages：<https://8bitkevin.github.io/china-curriculum-taxonomy/viewer/>

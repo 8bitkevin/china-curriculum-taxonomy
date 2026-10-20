@@ -163,6 +163,99 @@ table.qt th { background: var(--bg); font-size: 12.5px; color: var(--muted); fon
   border-top: 1px solid var(--line); background: var(--panel);
 }
 
+/* ---------- 3D 全景 ---------- */
+.g3 { flex: 1; display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+.g3[hidden] { display: none; }
+
+.g3-toolbar {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center;
+  padding: 10px 16px; background: var(--panel); border-bottom: 1px solid var(--line);
+}
+.g3-domains { display: flex; flex-wrap: wrap; gap: 6px; }
+.g3-chip {
+  font: inherit; font-size: 12.5px; border: 1px solid var(--line); border-radius: 999px;
+  background: #fff; color: var(--ink); padding: 3px 12px 3px 22px; cursor: pointer;
+  position: relative;
+}
+.g3-chip::before {
+  content: ""; position: absolute; left: 9px; top: 50%; transform: translateY(-50%);
+  width: 8px; height: 8px; border-radius: 50%; background: var(--c, #94a3b8);
+}
+.g3-chip[data-on] { background: #f8fafc; }
+.g3-chip:not([data-on]) { opacity: .45; text-decoration: line-through; }
+.g3-right { margin-left: auto; display: flex; gap: 8px; }
+.g3-search {
+  font: inherit; font-size: 13px; padding: 5px 10px; border: 1px solid var(--line);
+  border-radius: 8px; width: 210px; background: #fff;
+}
+.g3-reset {
+  font: inherit; font-size: 13px; padding: 5px 10px; border: 1px solid var(--line);
+  border-radius: 8px; background: #fff; cursor: pointer; color: var(--muted);
+}
+.g3-reset:hover { color: var(--ink); }
+
+.g3-stage { position: relative; flex: 1; min-height: 420px; background: #0b1020; }
+.g3-canvas { position: absolute; inset: 0; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+.g3-canvas:active { cursor: grabbing; }
+
+.g3-legend {
+  position: absolute; left: 14px; bottom: 12px; display: flex; flex-direction: column; gap: 5px;
+  font-size: 12px; color: #cbd5e1; background: rgba(10,14,26,.55); backdrop-filter: blur(4px);
+  padding: 8px 12px; border-radius: 9px; pointer-events: none;
+}
+.g3-legend .dot {
+  display: inline-block; width: 9px; height: 9px; border-radius: 50%;
+  background: var(--c); margin-right: 6px; vertical-align: -1px;
+}
+.g3-legend .line { display: inline-block; width: 22px; height: 0; border-top: 2px solid #94a3b8; margin-right: 6px; vertical-align: 3px; }
+.g3-legend .line.dash { border-top-style: dashed; }
+
+.g3-tip {
+  position: absolute; pointer-events: none; z-index: 5; display: none;
+  background: rgba(10,14,26,.92); color: #f1f5f9; border: 1px solid rgba(148,163,184,.3);
+  border-radius: 8px; padding: 7px 11px; font-size: 12.5px; max-width: 260px;
+  flex-direction: column; gap: 2px;
+}
+.g3-tip.show { display: flex; }
+.g3-tip .muted { color: #94a3b8; font-size: 11.5px; }
+
+.g3-card {
+  position: absolute; right: 14px; top: 14px; z-index: 6; width: 320px; max-width: calc(100% - 28px);
+  background: rgba(13,18,33,.94); border: 1px solid rgba(148,163,184,.28);
+  border-radius: 12px; padding: 14px 16px; color: #e2e8f0; display: none;
+  box-shadow: 0 10px 40px rgba(0,0,0,.45); backdrop-filter: blur(6px);
+}
+.g3-card.show { display: block; }
+.g3-card h3 { margin: 0 26px 6px 0; font-size: 16px; color: #fff; }
+.g3-card-x {
+  position: absolute; right: 8px; top: 6px; border: 0; background: none; color: #94a3b8;
+  font-size: 18px; cursor: pointer; padding: 2px 8px; border-radius: 6px;
+}
+.g3-card-x:hover { color: #fff; background: rgba(148,163,184,.15); }
+.g3-card-meta { font-size: 12px; color: #94a3b8; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.g3-card-desc { font-size: 12.5px; line-height: 1.6; color: #cbd5e1; margin: 10px 0; }
+.g3-card-stats { display: flex; gap: 16px; font-size: 12.5px; color: #94a3b8; margin-bottom: 12px; }
+.g3-card-stats b { font-size: 16px; }
+.g3-card-open {
+  font: inherit; font-size: 13px; width: 100%; padding: 8px; cursor: pointer;
+  border-radius: 8px; border: 1px solid rgba(148,163,184,.35);
+  background: rgba(59,130,246,.16); color: #bfdbfe;
+}
+.g3-card-open:hover { background: rgba(59,130,246,.3); color: #fff; }
+
+.g3-hint {
+  position: absolute; left: 50%; bottom: 12px; transform: translateX(-50%);
+  font-size: 12px; color: #94a3b8; pointer-events: none; white-space: nowrap;
+  background: rgba(10,14,26,.72); padding: 3px 12px; border-radius: 999px;
+  border: 1px solid rgba(148,163,184,.18);
+}
+
+@media (max-width: 900px) {
+  .g3-search { width: 140px; }
+  .g3-card { width: calc(100% - 28px); }
+  .g3-legend { display: none; }
+}
+
 @media (max-width: 900px) {
   .layout { flex-direction: column; }
   .side { width: 100%; max-height: 45vh; border-right: 0; border-bottom: 1px solid var(--line); }

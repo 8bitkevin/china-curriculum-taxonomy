@@ -5,6 +5,7 @@ import {
   buildIndex, prereqTree, unlockTree, treeStats,
   qualityMetrics, filterTopics, renderPrompt,
 } from './logic.js';
+import { Graph3D, buildLayout } from './graph3d.js';
 
 const DATA_BASE = '../data/';
 const TYPE_ZH = {
@@ -57,6 +58,7 @@ function initControls() {
     state.childName = e.target.value; renderDetail();
   });
   $('#tab-graph').addEventListener('click', () => switchView('graph'));
+  $('#tab-graph3d').addEventListener('click', () => switchView('graph3d'));
   $('#tab-quality').addEventListener('click', () => switchView('quality'));
   window.addEventListener('hashchange', applyHash);
 }
@@ -64,11 +66,15 @@ function initControls() {
 function switchView(view) {
   state.view = view;
   $('#tab-graph').classList.toggle('active', view === 'graph');
+  $('#tab-graph3d').classList.toggle('active', view === 'graph3d');
   $('#tab-quality').classList.toggle('active', view === 'quality');
   const qp = $('#quality-panel');
   if (qp) qp.style.display = view === 'quality' ? '' : 'none';
-  $('.side').style.display = view === 'quality' ? 'none' : '';
-  $('#detail').style.display = view === 'quality' ? 'none' : '';
+  $('.side').style.display = view === 'graph' ? '' : 'none';
+  $('#detail').style.display = view === 'graph' ? '' : 'none';
+  const g3 = $('#graph3d-mount');
+  g3.hidden = view !== 'graph3d';
+  if (view === 'graph3d') initGraph3D();
 }
 
 function applyHash() {
@@ -233,6 +239,17 @@ function renderQuality() {
     <div class="sec"><h3>类型分布</h3><table class="qt"><tr><th>类型</th><th>主题</th><th></th></tr>${distRows(m.byType.map(([k, n]) => [TYPE_ZH[k] ?? k, n]), m.topicCount)}</table></div>`;
 
   $('#detail').parentElement.appendChild(el);
+}
+
+// ---------- 3D 全景（惰性初始化一次） ----------
+let graph3d = null;
+function initGraph3D() {
+  if (graph3d) { graph3d.resize(); return; }
+  graph3d = new Graph3D($('#graph3d-mount'), buildLayout(state.index), {
+    onOpenTopic: (id) => { switchView('graph'); selectTopic(id); },
+  });
+  // 调试钩子：控制台可检查相机/选中状态
+  window.__g3 = graph3d;
 }
 
 load().catch((err) => {
