@@ -1,0 +1,8 @@
+# 数据文件的字节稳定性至关重要（manifest 记录 sha256/bytes），
+# 任何行尾转换都会破坏校验和。全库强制 LF。
+* text=auto eol=lf
+
+# 二进制
+*.pdf binary
+*.png binary
+*.gif binary
