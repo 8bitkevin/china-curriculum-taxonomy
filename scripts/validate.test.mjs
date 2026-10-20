@@ -134,3 +134,36 @@ test('assessmentPrompt 缺少 {{name}} 占位符应被拒绝', () => {
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+test('依赖边引用已废弃主题应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    const dep = readJson(root, 'deprecated.json');
+    dep.entries.push({ id: 'ct_g1a_02', reason: 'fixture：模拟已废弃但仍被引用', deprecatedAt: '2026-10-20' });
+    dep.entryCount = dep.entries.length;
+    writeJson(root, 'deprecated.json', dep);
+    refreshChecksum(root, 'deprecated.json');
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /依赖边引用已废弃主题 ct_g1a_02（prerequisiteId）/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('废弃登记的 replacedBy 指向未知主题应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    const dep = readJson(root, 'deprecated.json');
+    dep.entries.push({ id: 'ct_g9z_99', reason: 'fixture：替代目标不存在',
+      replacedBy: ['ct_g9z_98'], deprecatedAt: '2026-10-20' });
+    dep.entryCount = dep.entries.length;
+    writeJson(root, 'deprecated.json', dep);
+    refreshChecksum(root, 'deprecated.json');
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /replacedBy 指向未知主题 ct_g9z_98/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});

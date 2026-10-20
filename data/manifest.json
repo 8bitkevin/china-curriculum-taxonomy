@@ -6,6 +6,7 @@
     "topics": 83,
     "dependencies": 108,
     "standards": 27,
+    "deprecated": 0,
     "byGrade": {
       "1年级上": 24,
       "1年级下": 20,
@@ -39,6 +40,10 @@
     "curriculum-standards.json": {
       "bytes": 7003,
       "sha256": "b1f5f131cd05fe4a7603941bca1251c0ab8f78cd6d40d8bb78f60cbdbb6cc4e2"
+    },
+    "deprecated.json": {
+      "bytes": 348,
+      "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     }
   }
 }

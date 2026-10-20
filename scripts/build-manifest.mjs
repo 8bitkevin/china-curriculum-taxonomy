@@ -24,6 +24,7 @@ const dump = (value) => `${JSON.stringify(value, null, 2)}\n`;
 const topicsDoc = read('data/topics.json');
 const depsDoc = read('data/dependencies.json');
 const standardsDoc = read('data/curriculum-standards.json');
+const deprecatedDoc = read('data/deprecated.json');
 
 // 1) 注入 prerequisites 冗余字段（从依赖边派生，去重排序）
 const prereqOf = new Map();
@@ -45,7 +46,7 @@ for (const t of topicsDoc.topics) {
   byGrade[k] = (byGrade[k] ?? 0) + 1;
 }
 const files = {};
-for (const name of ['topics.json', 'dependencies.json', 'curriculum-standards.json']) {
+for (const name of ['topics.json', 'dependencies.json', 'curriculum-standards.json', 'deprecated.json']) {
   const bytes = readFileSync(resolve(ROOT, 'data', name));
   files[name] = { bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') };
 }
@@ -57,6 +58,7 @@ const manifest = {
     topics: topicsDoc.topics.length,
     dependencies: depsDoc.dependencies.length,
     standards: standardsDoc.curricula.reduce((n, c) => n + c.topics.length, 0),
+    deprecated: deprecatedDoc.entries.length,
     byGrade,
   },
   coverage: {

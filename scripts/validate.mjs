@@ -122,6 +122,31 @@ for (const d of deps) {
   }
 }
 
+// --- 废弃主题登记（DATA-4） ---------------------------------------------------
+{
+  const dep = load('data/deprecated.json');
+  errors.push(...checkSchema(dep, load('schema/deprecated.schema.json'), 'data/deprecated.json'));
+  check(dep.entryCount === dep.entries.length, `deprecated: entryCount ${dep.entryCount} != ${dep.entries.length}`);
+  const deprecatedIds = new Set();
+  for (const e of dep.entries) {
+    if (deprecatedIds.has(e.id)) errors.push(`废弃登记重复 id: ${e.id}`);
+    deprecatedIds.add(e.id);
+    check(!topicIds.has(e.id), `废弃主题 ${e.id} 仍存在于 topics.json（应先移除再登记）`);
+    for (const r of e.replacedBy ?? []) {
+      check(topicIds.has(r), `废弃登记 ${e.id}: replacedBy 指向未知主题 ${r}`);
+    }
+  }
+  for (const d of deps) {
+    check(!deprecatedIds.has(d.topicId), `依赖边引用已废弃主题 ${d.topicId}（topicId）`);
+    check(!deprecatedIds.has(d.prerequisiteId), `依赖边引用已废弃主题 ${d.prerequisiteId}（prerequisiteId）`);
+  }
+  for (const t of topics) {
+    for (const p of t.prerequisites ?? []) {
+      check(!deprecatedIds.has(p), `主题 ${t.id}: prerequisites 引用已废弃主题 ${p}`);
+    }
+  }
+}
+
 // --- topic → 课标引用 --------------------------------------------------------
 let dangling = 0;
 for (const t of topics) {

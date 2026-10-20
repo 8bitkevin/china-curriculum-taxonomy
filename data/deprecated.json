@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "note": "废弃主题登记（D-003：id 一经合入 main 即冻结、永不复用；拆分/合并/勘误时把旧 id 移出 topics.json 后在此登记，保证下游引用方可追溯）。validate 强制：被废弃 id 不得再出现在 topics/dependencies/prerequisites 中。",
+  "entryCount": 0,
+  "entries": []
+}
