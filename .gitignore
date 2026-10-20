@@ -1,6 +1,9 @@
 # 教材 PDF 仅作本地校验源，不入库、不分发（版权属于出版社）
 textbooks/
 
+# 仓库树缓存（fetch-textbooks.py 调试/干跑用）
+.ct-tree.json
+
 # Python
 __pycache__/
 *.pyc
