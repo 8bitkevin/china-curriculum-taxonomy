@@ -60,10 +60,11 @@ const manifest = {
     byGrade,
   },
   coverage: {
+    scope: 'K12（小学 1-6 / 初中 7-9 / 高中 10-12）',
     subjects: ['数学'],
-    grades: [1, 2],
+    grades: [...new Set(topicsDoc.topics.map(t => t.grade))].sort((a, b) => a - b),
     textbookSeries: ['人教版（义务教育教科书·数学，2022 课标）'],
-    note: '第一学段（1–2 年级）先行发布；3–6 年级为规划中。',
+    note: 'K12 定位：当前发布为义务教育数学第一学段（1-2 年级）；3-6 年级、初中、高中按 DEV-PLAN 里程碑推进。',
   },
   files,
 };

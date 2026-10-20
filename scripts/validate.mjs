@@ -59,7 +59,7 @@ for (const t of topics) {
   if (topicIds.has(t.id)) errors.push(`重复主题 id: ${t.id}`);
   topicIds.add(t.id);
   byId.set(t.id, t);
-  check(t.textbook.publisher === '人教版', `主题 ${t.id}: 目前仅支持人教版，实际 ${t.textbook.publisher}`);
+  check(t.textbook.publisher.startsWith('人教'), `主题 ${t.id}: 目前仅支持人教系教材（人教版/人教A版/人教B版），实际 ${t.textbook.publisher}`);
   check(t.textbook.grade === t.grade, `主题 ${t.id}: grade ${t.grade} 与教材 grade ${t.textbook.grade} 不一致`);
   check(t.textbook.volume === t.semester, `主题 ${t.id}: semester ${t.semester} 与教材 volume ${t.textbook.volume} 不一致`);
   // 中国一年级入学约 6 岁：年龄带宽 = 年级 + 4 .. 年级 + 7
