@@ -1,300 +1,396 @@
-// viewer/graph3d.js — 3D 全景知识图谱（纯手写 Canvas 伪 3D，零依赖，D-007）。
-//
-// 设计（对标 withmarble.com/curriculum 并超越）：
-//   1. X 轴 = 年级学期（K12 学习进程，越靠右越进阶），Z 轴 = 领域分道，
-//      Y 高度 = 依赖深度（越高前置越多）——坐标有教育语义，不是随机力导向；
-//   2. 点击节点：完整先修传递闭包按层渐变高亮 + 解锁闭包青色，
-//      其余淡出成星尘，「一条发光的学习路径」；
-//   3. 边有 hard（实线）/ soft（虚线）语义；
-//   4. 详情卡展示理由/证据/测评问法，可跳转主视图深链；
-//   5. 中文标签分级：重点节点常显、近处显示、hover/选中必显；
-//   6. 无 three.js / 无 CDN：透视投影 + painter 排序手写，离线可用。
+// 3D 全景（WebGL）：视觉对标 withmarble.com/curriculum/
+// 依赖 index.html 先加载 vendor/three.min.js（r128, MIT, 全局 THREE）。
+// 布局：竖直纺锤 + 四领域螺旋上升——Y=年级（1→12 向上生长），
+// 领域按方位角成四股藤蔓，半径随年级张开；先修深度微调半径。
+// 交互：惯性拖拽旋转 / 滚轮缩放 / 点击拾取 / 搜索飞行 / Esc / 复位；
+// 选中后先修闭包橙色分层高亮、解锁闭包青色、其余变暗，路径节点浮现中文标签。
 
 import { buildPrereqClosure, buildUnlockClosure } from './closure.js';
 
-export const DOMAIN_COLORS = {
-  '数与代数': [59, 130, 246],    // 蓝
-  '图形与几何': [16, 185, 129],  // 绿
-  '统计与概率': [217, 119, 6],   // 琥珀
-  '综合与实践': [139, 92, 246],  // 紫
+const DOMAIN_COLORS = {
+  '数与代数': 0x60a5fa,
+  '图形与几何': 0x34d399,
+  '统计与概率': 0xfbbf24,
+  '综合与实践': 0xa78bfa,
 };
-const PREREQ_COLOR = [249, 115, 22];   // 先修链：橙（近亮远暗）
-const UNLOCK_COLOR = [6, 182, 212];    // 解锁链：青
+const PREREQ_COLOR = 0xf97316;
+const UNLOCK_COLOR = 0x06b6d4;
+const DIM_FACTOR = 0.22;
 
-// ---------------------------------------------------------------- 布局
-
-/** 语义网格 + 弱力导向微调：返回带 3D 坐标的节点与边。 */
+// ---------- 布局（纺锤螺旋） ----------
 export function buildLayout(index) {
   const domains = [...new Set(index.topics.map((t) => t.domain))];
-  const depDepth = dependencyDepth(index);
-    const nodes = index.topics.map((t) => {
-      const sx = (t.grade - 1) * 14 + (t.semester === '上' ? -2.2 : 2.2);
-      const sz = (domains.indexOf(t.domain) - (domains.length - 1) / 2) * 20;
-      const jitter = hash01(t.id);
-      return {
-        id: t.id, topic: t,
-        x: sx + (jitter - 0.5) * 6,
-        y: depDepth.get(t.id) * 2.6 + (hash01(t.id + 'y') - 0.5) * 2.6,
-        z: sz + (hash01(t.id + 'z') - 0.5) * 7,
-        r: 1.1 + Math.min(1.4, ((index.prereqsOf.get(t.id)?.length ?? 0) +
-        (index.unlocksOf.get(t.id)?.length ?? 0)) * 0.12),
-      };
-    });
-  // 弱力导向：连接节点轻微互聚，网格语义主导（迭代少、结果稳定）
+  const nodes = index.topics.map((t) => {
+    const d = domains.indexOf(t.domain);
+    const gy = (t.grade - 1) * 3.1 + (t.semester === '上' ? 0 : 1.55);
+    // 四股螺旋：领域基础方位角 + 随年级缓慢扭转
+    const theta = (d / domains.length) * Math.PI * 2 + (t.grade - 1) * 0.42
+      + (hash01(t.id) - 0.5) * 0.5;
+    const radius = 4.5 + t.grade * 1.85 + (hash01(t.id + 'r') - 0.5) * 3.2;
+    const degree = (index.prereqsOf.get(t.id)?.length ?? 0)
+      + (index.unlocksOf.get(t.id)?.length ?? 0);
+    return {
+      id: t.id, topic: t,
+      x: Math.cos(theta) * radius + (hash01(t.id + 'x') - 0.5) * 3.4,
+      y: gy + (hash01(t.id + 'y') - 0.5) * 2.6,
+      z: Math.sin(theta) * radius + (hash01(t.id + 'z') - 0.5) * 3.4,
+      // 幂律尺寸：多数小、少数枢纽大（Marble 观感）
+      r: 0.34 + Math.min(1.5, Math.pow(degree, 0.8) * 0.16),
+    };
+  });
   const byId = new Map(nodes.map((n) => [n.id, n]));
-  const edges = index.deps.map((d) => ({
-    a: byId.get(d.prerequisiteId), b: byId.get(d.topicId),
-    strength: d.strength, reason: d.reason,
+  const edges = index.deps.map((e) => ({
+    a: byId.get(e.prerequisiteId),
+    b: byId.get(e.topicId),
+    strength: e.strength,
   })).filter((e) => e.a && e.b);
-  for (let iter = 0; iter < 60; iter++) {
-    for (const e of edges) {
-      const dx = e.b.x - e.a.x, dz = e.b.z - e.a.z;
-      e.a.x += dx * 0.002; e.a.z += dz * 0.002;
-      e.b.x -= dx * 0.002; e.b.z -= dz * 0.002;
-    }
-    for (let i = 0; i < nodes.length; i++) {
-      for (let j = i + 1; j < nodes.length; j++) {
-        const p = nodes[i], q = nodes[j];
-        const dx = q.x - p.x, dz = q.z - p.z;
-        const d2 = dx * dx + dz * dz;
-        if (d2 < 4 && d2 > 1e-6) {
-          const push = (4 - d2) * 0.02 / Math.sqrt(d2);
-          p.x -= dx * push; p.z -= dz * push;
-          q.x += dx * push; q.z += dz * push;
-        }
-      }
-    }
-  }
   return { nodes, edges, domains };
 }
 
-/** 依赖深度（BFS 分层）：越深说明立在越长的先修链之上。 */
-function dependencyDepth(index) {
-  const depth = new Map(index.topics.map((t) => [t.id, 0]));
-  let changed = true;
-  let guard = 0;
-  while (changed && guard++ < 100) {
-    changed = false;
-    for (const d of index.deps) {
-      const next = (depth.get(d.prerequisiteId) ?? 0) + 1;
-      if (next > (depth.get(d.topicId) ?? 0)) {
-        depth.set(d.topicId, next); changed = true;
-      }
-    }
-  }
-  return depth;
-}
-
-function hash01(s) {
+const hash01 = (s) => {
   let h = 2166136261;
   for (let i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
   return ((h >>> 0) % 10000) / 10000;
-}
+};
 
-// ---------------------------------------------------------------- 引擎
-
+// ---------- 主类 ----------
 export class Graph3D {
-  constructor(mount, layout, { onOpenTopic } = {}) {
+  constructor(mount, layout, opts = {}) {
     this.layout = layout;
-    this.onOpenTopic = onOpenTopic;
-    this.yaw = -0.5; this.pitch = 0.6; this.dist = 96;
-    this.target = { x: layoutCenter(layout.nodes, 'x'), y: 4, z: 0 };
-    this.selected = null;      // 节点 id
+    this.onOpenTopic = opts.onOpenTopic;
+    this.selected = null;
     this.hover = null;
-    this.filters = { domains: new Set(), grades: new Set() }; // 空集 = 全部
-    this.appear = 0;           // 入场动画进度 0..1
-    this.autoSpin = true;
+    this.filters = new Set(layout.domains);
+    this.closures = new Map();
+    this.appear = 0;                 // 入场进度 0→1
+    this.t0 = performance.now();
     this.lastInteract = performance.now();
+    this.vel = { t: 0, p: 0 };       // 旋转惯性
+    this.orbit = { theta: -Math.PI / 2 + 0.35, phi: 1.12, radius: 62 };
+    this.flyAnim = null;
+    this.labels = [];
 
     this.dom = this.buildDom(mount);
-    this.canvas = this.dom.canvas;
-    this.ctx = this.canvas.getContext('2d');
-    this.resize();
+    this.initScene(mount);
     this.bindEvents();
-    this.closures = { prereq: new Map(), unlock: new Map() };
-
-    const t0 = performance.now();
-    const tick = (now) => {
-      const dt = Math.min(0.05, (now - this.lastT || 16) / 1000);
-      this.lastT = now;
-      this.appear = Math.min(1, (now - t0) / 2600);
-      if (this.autoSpin && now - this.lastInteract > 3200) this.yaw += dt * 0.12;
-      this.render();
-      this.raf = requestAnimationFrame(tick);
-    };
-    this.raf = requestAnimationFrame(tick);
+    this.renderLoop = this.renderLoop.bind(this);
+    requestAnimationFrame(this.renderLoop);
   }
 
   buildDom(mount) {
     mount.innerHTML = `
       <div class="g3-toolbar">
-        <div class="g3-domains"></div>
-        <div class="g3-right">
-          <input class="g3-search" type="search" placeholder="搜索主题，回车飞行定位">
-          <button class="g3-reset" type="button" title="重置视角">重置视角</button>
-        </div>
+        <input class="g3-search" type="search" placeholder="搜索微主题…" />
+        <button class="g3-reset" type="button">复位视角</button>
       </div>
-      <div class="g3-stage">
-        <canvas class="g3-canvas"></canvas>
-        <div class="g3-legend"></div>
-        <div class="g3-tip"></div>
-        <div class="g3-card"></div>
-        <div class="g3-hint">拖拽旋转 · 滚轮缩放 · 点击节点追踪先修路径</div>
-      </div>`;
+      <div class="g3-legend"></div>
+      <div class="g3-tip"></div>
+      <div class="g3-labels"></div>
+      <div class="g3-card"></div>
+      <div class="g3-hint">拖拽旋转 · 滚轮缩放 · 点击节点追踪先修路径</div>`;
     const $ = (s) => mount.querySelector(s);
-    // 领域过滤按钮
-    const box = $('.g3-domains');
-    for (const d of this.layout.domains) {
-      const b = document.createElement('button');
-      b.type = 'button'; b.className = 'g3-chip'; b.textContent = d;
-      b.dataset.on = '1';
-      b.style.setProperty('--c', `rgb(${DOMAIN_COLORS[d].join(',')})`);
-      b.addEventListener('click', () => {
-        if (b.dataset.on) { delete b.dataset.on; this.filters.domains.add(d); }
-        else { b.dataset.on = '1'; this.filters.domains.delete(d); }
-      });
-      box.appendChild(b);
-    }
-    // 图例
+    // 图例：色点 + 领域名 + 数量，点击切换显隐
     const legend = $('.g3-legend');
-    legend.innerHTML = `
-      <div><i class="dot" style="--c:rgb(${PREREQ_COLOR.join(',')})"></i>先修链（点击后高亮）</div>
-      <div><i class="dot" style="--c:rgb(${UNLOCK_COLOR.join(',')})"></i>解锁方向</div>
-      <div><i class="line solid"></i>必需 hard</div>
-      <div><i class="line dash"></i>有益 soft</div>`;
+    for (const d of this.layout.domains) {
+      const count = this.layout.nodes.filter((n) => n.topic.domain === d).length;
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'g3-lg-item';
+      b.innerHTML = `<i style="background:#${(DOMAIN_COLORS[d] ?? 0x94a3b8).toString(16).padStart(6, '0')}"></i>
+        <span>${esc(d)}</span><em>${count}</em>`;
+      b.addEventListener('click', () => {
+        if (this.filters.has(d)) this.filters.delete(d); else this.filters.add(d);
+        b.classList.toggle('off', !this.filters.has(d));
+        this.refreshVisibility();
+      });
+      legend.appendChild(b);
+    }
     const search = $('.g3-search');
     search.addEventListener('keydown', (e) => {
       if (e.key !== 'Enter') return;
-      const q = search.value.trim().toLowerCase();
-      const hit = this.layout.nodes.find((n) =>
-        n.topic.name.toLowerCase().includes(q) || n.id.toLowerCase().includes(q));
+      const q = search.value.trim();
+      if (!q) return;
+      const hit = this.layout.nodes.find((n) => n.topic.name.includes(q))
+        ?? this.layout.nodes.find((n) => n.topic.id === q);
       if (hit) this.select(hit.id, { fly: true });
-      else this.flashTip('没有匹配的主题');
+      else { this.flashTip(`未找到「${q}」`); }
+      search.blur();
     });
     $('.g3-reset').addEventListener('click', () => {
-      this.yaw = -0.5; this.pitch = 0.6; this.dist = 96;
-      this.target = { x: layoutCenter(this.layout.nodes, 'x'), y: 4, z: 0 };
+      this.orbit = { theta: -Math.PI / 2 + 0.35, phi: 1.12, radius: 62 };
+      this.center = this.layoutCenterY();
+      this.vel = { t: 0, p: 0 };
       this.lastInteract = performance.now();
     });
-    return { canvas: $('.g3-canvas'), tip: $('.g3-tip'), card: $('.g3-card'), search };
-  }
-
-  resize() {
-    const dpr = Math.min(2, window.devicePixelRatio || 1);
-    const r = this.canvas.parentElement.getBoundingClientRect();
-    this.canvas.width = Math.max(320, r.width) * dpr;
-    this.canvas.height = Math.max(360, r.height) * dpr;
-    this.canvas.style.width = `${r.width}px`; this.canvas.style.height = `${r.height}px`;
-    this.ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    this.W = r.width; this.H = r.height;
-  }
-
-  bindEvents() {
-    const c = this.canvas;
-    let drag = null, suppressClick = false;
-    c.addEventListener('pointerdown', (e) => {
-      drag = { x: e.clientX, y: e.clientY, moved: false };
-      c.setPointerCapture(e.pointerId);
-      this.lastInteract = performance.now();
-    });
-    c.addEventListener('pointermove', (e) => {
-      this.lastInteract = performance.now();
-      if (drag) {
-        const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
-        if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
-        this.yaw += dx * 0.006;
-        this.pitch = clamp(this.pitch + dy * 0.005, 0.08, 1.35);
-        drag.x = e.clientX; drag.y = e.clientY;
-      } else {
-        this.updateHover(e.offsetX, e.offsetY);
-      }
-    });
-    c.addEventListener('pointerup', () => {
-      // 拖拽后的 click 不应触发拾取
-      suppressClick = Boolean(drag?.moved);
-      drag = null;
-    });
-    // 拾取挂 click：覆盖真实点击、辅助技术激活与无 PointerEvent 的环境
-    c.addEventListener('click', (e) => {
-      if (suppressClick) { suppressClick = false; return; }
-      this.clickPick(e.offsetX, e.offsetY);
-    });
-    c.addEventListener('wheel', (e) => {
-      e.preventDefault();
-      this.dist = clamp(this.dist * (e.deltaY > 0 ? 1.1 : 0.9), 28, 320);
-      this.lastInteract = performance.now();
-    }, { passive: false });
-    window.addEventListener('resize', () => this.resize());
     window.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') this.select(null);
+      if (e.key === 'Escape' && this.selected !== null) this.select(null);
     });
+    return { mount, search, tip: $('.g3-tip'), labels: $('.g3-labels'), card: $('.g3-card') };
   }
 
-  // ---- 投影 ----
-  project(p) {
-    const cx = Math.cos(this.yaw), sx = Math.sin(this.yaw);
-    const cp = Math.cos(this.pitch), sp = Math.sin(this.pitch);
-    let x = p.x - this.target.x, y = p.y - this.target.y, z = p.z - this.target.z;
-    let x1 = x * cx + z * sx, z1 = -x * sx + z * cx;      // yaw
-    let y1 = y * cp - z1 * sp, z2 = y * sp + z1 * cp;      // pitch
-    const zc = z2 + this.dist;
-    if (zc < 6) return null;
-    const f = Math.min(this.W, this.H) * 1.38;
-    const k = f / zc;
-    return { sx: this.W / 2 + x1 * k, sy: this.H / 2 - y1 * k, k, zc };
+  layoutCenterY() {
+    const ys = this.layout.nodes.map((n) => n.y);
+    return { x: 0, y: (Math.min(...ys) + Math.max(...ys)) / 2, z: 0 };
   }
 
-  nodeVisible(n) {
-    const { domains, grades } = this.filters;
-    if (domains.size && !domains.has(n.topic.domain)) return false;
-    if (grades.size && !grades.has(n.topic.grade)) return false;
-    return true;
+  initScene(mount) {
+    const W = mount.clientWidth || 800, H = mount.clientHeight || 500;
+    this.scene = new THREE.Scene();
+    this.scene.fog = new THREE.FogExp2(0x0a0e14, 0.0045);
+    this.camera = new THREE.PerspectiveCamera(50, W / H, 0.1, 600);
+    this.center = this.layoutCenterY();
+
+    this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+    this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+    this.renderer.setSize(W, H);
+    this.renderer.setClearColor(0x0a0e14, 1);
+    mount.insertBefore(this.renderer.domElement, mount.firstChild);
+
+    this.buildStars();
+    this.buildNodes();
+    this.buildEdges();
+    this.buildSelRing();
+    this.buildGradeRings();
   }
 
-  // ---- 高亮闭包（惰性计算） ----
-  closureOf(id) {
-    if (!this.closures.prereq.has(id)) {
-      this.closures.prereq.set(id, buildPrereqClosure(this.layout, id));
-      this.closures.unlock.set(id, buildUnlockClosure(this.layout, id));
-      if (this.closures.prereq.size > 64) this.closures = { prereq: new Map(), unlock: new Map() };
+  // 背景星尘：数百个 1px 白点（远近两层视差）
+  buildStars() {
+    const N = 700;
+    const pos = new Float32Array(N * 3);
+    for (let i = 0; i < N; i++) {
+      const r = 70 + hash01('s' + i) * 160;
+      const t = hash01('st' + i) * Math.PI * 2;
+      const p = Math.acos(2 * hash01('sp' + i) - 1);
+      pos[i * 3] = r * Math.sin(p) * Math.cos(t);
+      pos[i * 3 + 1] = r * Math.cos(p) * 0.6 + this.center.y;
+      pos[i * 3 + 2] = r * Math.sin(p) * Math.sin(t);
     }
-    return { p: this.closures.prereq.get(id), u: this.closures.unlock.get(id) };
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    this.stars = new THREE.Points(g, new THREE.PointsMaterial({
+      color: 0xbfcae0, size: 0.55, sizeAttenuation: true,
+      transparent: true, opacity: 0.4, depthWrite: false,
+    }));
+    this.scene.add(this.stars);
   }
 
-  select(id, { fly = false } = {}) {
-    this.selected = id;
-    this.renderCard(id);
-    if (id && fly) {
-      const n = this.layout.nodes.find((x) => x.id === id);
-      if (n) {
-        this.target = { x: n.x, y: n.y, z: n.z };
-        this.dist = Math.min(this.dist, 46);
+  buildNodes() {
+    this.nodeMesh = new THREE.InstancedMesh(
+      new THREE.SphereGeometry(1, 20, 16),
+      new THREE.MeshBasicMaterial({ toneMapped: false }), this.layout.nodes.length);
+    this.nodeMesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+    this.nodeIdx = new Map(this.layout.nodes.map((n, i) => [n.id, i]));
+    this.scene.add(this.nodeMesh);
+    // 路径节点的辉光贴点（加色混合，选中时重建）
+    this.glowTex = makeGlowTexture();
+    this.glow = new THREE.Points(new THREE.BufferGeometry(), new THREE.PointsMaterial({
+      map: this.glowTex, vertexColors: true, size: 3.2, transparent: true,
+      opacity: 0.45, blending: THREE.AdditiveBlending, depthWrite: false,
+      sizeAttenuation: true,
+    }));
+    this.scene.add(this.glow);
+    this.refreshColors(); this.refreshMatrices(1);
+  }
+
+  buildEdges() {
+    // 底图：极淡星尘网（全部边）
+    const pos = new Float32Array(this.layout.edges.length * 6);
+    this.layout.edges.forEach((e, i) => {
+      pos.set([e.a.x, e.a.y, e.a.z, e.b.x, e.b.y, e.b.z], i * 6);
+    });
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    this.edgeMesh = new THREE.LineSegments(g, new THREE.LineBasicMaterial({
+      color: 0x8ea3bd, transparent: true, opacity: 0.10, depthWrite: false,
+    }));
+    this.scene.add(this.edgeMesh);
+    // 高亮路径（选中时重建）
+    this.pathMesh = new THREE.LineSegments(new THREE.BufferGeometry(),
+      new THREE.LineBasicMaterial({ vertexColors: true, transparent: true, opacity: 0.95 }));
+    this.scene.add(this.pathMesh);
+  }
+
+  buildSelRing() {
+    // 选中节点的外圈圆环（Marble 式标记），带微弱脉动
+    this.ringTex = makeRingTexture();
+    this.selRing = new THREE.Sprite(new THREE.SpriteMaterial({
+      map: this.ringTex, color: 0xffffff, transparent: true, opacity: 0.95,
+      depthTest: false, depthWrite: false,
+    }));
+    this.selRing.scale.setScalar(3.4);
+    this.selRing.visible = false;
+    this.scene.add(this.selRing);
+  }
+
+  // 年级刻度：每学年起始高度的淡环 + 「N年级」小字
+  buildGradeRings() {
+    const grades = [...new Set(this.layout.nodes.map((n) => n.topic.grade))].sort((a, b) => a - b);
+    this.gradeGroup = new THREE.Group();
+    for (const g of grades) {
+      const y = (g - 1) * 3.1;
+      const pts = [];
+      for (let i = 0; i <= 72; i++) {
+        const a = (i / 72) * Math.PI * 2;
+        pts.push(new THREE.Vector3(Math.cos(a) * 3.2, y, Math.sin(a) * 3.2));
+      }
+      const ring = new THREE.Line(new THREE.BufferGeometry().setFromPoints(pts),
+        new THREE.LineBasicMaterial({ color: 0x8ea3bd, transparent: true, opacity: 0.12 }));
+      this.gradeGroup.add(ring);
+      const label = makeTextSprite(`${g}年级`, 'rgba(190,200,220,0.75)', 60);
+      label.position.set(0, y, 0);
+      label.scale.setScalar(4.4);
+      this.gradeGroup.add(label);
+    }
+    this.scene.add(this.gradeGroup);
+  }
+
+  // ---------- 状态刷新 ----------
+  nodeVisible(n) { return this.filters.has(n.topic.domain); }
+
+  refreshVisibility() {
+    const v = this.selected;
+    this.select(v ?? null, { keepCard: v != null });
+  }
+
+  refreshColors() {
+    const sel = this.selected;
+    const cl = sel ? this.closureOf(sel) : null;
+    const c = new THREE.Color();
+    this.layout.nodes.forEach((n, i) => {
+      let col = DOMAIN_COLORS[n.topic.domain] ?? 0x94a3b8;
+      let f = 1;
+      if (cl) {
+        if (n.id === sel) { col = 0xffffff; f = 1; }
+        else if (cl.p.set.has(n.id)) { col = PREREQ_COLOR; f = 1 - Math.min(0.55, (cl.p.layer.get(n.id) - 1) * 0.12); }
+        else if (cl.u.set.has(n.id)) { col = UNLOCK_COLOR; f = 0.95; }
+        else { f = DIM_FACTOR; }
+      }
+      if (!this.nodeVisible(n)) f *= 0.06;
+      c.setHex(col).multiplyScalar(f);
+      this.nodeMesh.setColorAt(i, c);
+    });
+    this.nodeMesh.instanceColor.needsUpdate = true;
+  }
+
+  refreshMatrices(appear) {
+    const m = new THREE.Matrix4();
+    const sel = this.selected;
+    const cl = sel ? this.closureOf(sel) : null;
+    this.layout.nodes.forEach((n, i) => {
+      let s = n.r * appear;
+      if (cl && (n.id === sel)) s *= 1.22;
+      else if (cl && (cl.p.set.has(n.id) || cl.u.set.has(n.id))) s *= 1.18;
+      m.makeScale(s, s, s);
+      m.setPosition(n.x, n.y, n.z);
+      this.nodeMesh.setMatrixAt(i, m);
+    });
+    this.nodeMesh.instanceMatrix.needsUpdate = true;
+  }
+
+  refreshGlow() {
+    const sel = this.selected;
+    const cl = sel ? this.closureOf(sel) : null;
+    const ids = cl ? [sel, ...cl.p.set, ...cl.u.set].filter((x) => x !== sel) : [];
+    const pos = new Float32Array(ids.length * 3);
+    const col = new Float32Array(ids.length * 3);
+    const c = new THREE.Color();
+    ids.forEach((id, i) => {
+      const n = this.layout.nodes[this.nodeIdx.get(id)];
+      pos.set([n.x, n.y, n.z], i * 3);
+      const isP = cl.p.set.has(id);
+      c.setHex(isP ? PREREQ_COLOR : UNLOCK_COLOR).multiplyScalar(isP ? 0.9 : 0.7);
+      col.set([c.r, c.g, c.b], i * 3);
+    });
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    g.setAttribute('color', new THREE.BufferAttribute(col, 3));
+    this.glow.geometry.dispose();
+    this.glow.geometry = g;
+  }
+
+  refreshPath() {
+    const sel = this.selected;
+    const cl = sel ? this.closureOf(sel) : null;
+    const segs = [];
+    if (cl) {
+      for (const e of this.layout.edges) {
+        const inP = cl.p.set.has(e.a.id) && cl.p.set.has(e.b.id) && cl.p.edgeKeys.has(ek(e));
+        const inU = cl.u.set.has(e.a.id) && cl.u.set.has(e.b.id) && cl.u.edgeKeys.has(ek(e));
+        if (inP || inU) segs.push([e.a, e.b, inP ? PREREQ_COLOR : UNLOCK_COLOR]);
       }
     }
-    if (!id) this.dom.card.classList.remove('show');
+    const pos = new Float32Array(segs.length * 6);
+    const col = new Float32Array(segs.length * 6);
+    const c = new THREE.Color();
+    segs.forEach(([a, b, hex], i) => {
+      pos.set([a.x, a.y, a.z, b.x, b.y, b.z], i * 6);
+      c.setHex(hex);
+      col.set([c.r, c.g, c.b, c.r, c.g, c.b], i * 6);
+    });
+    const g = new THREE.BufferGeometry();
+    g.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+    g.setAttribute('color', new THREE.BufferAttribute(col, 3));
+    this.pathMesh.geometry.dispose();
+    this.pathMesh.geometry = g;
+    this.pathMesh.visible = segs.length > 0;
   }
 
-  renderCard(id) {
-    const card = this.dom.card;
-    if (!id) return;
-    const n = this.layout.nodes.find((x) => x.id === id);
+  // ---------- 选择 ----------
+  closureOf(id) {
+    if (this.closures.has(id)) return this.closures.get(id);
+    const v = { p: buildPrereqClosure(this.layout, id), u: buildUnlockClosure(this.layout, id) };
+    if (this.closures.size > 64) this.closures.clear();
+    this.closures.set(id, v);
+    return v;
+  }
+
+  select(id, { fly = false, keepCard = false } = {}) {
+    this.selected = id;
+    if (id == null) this.closures.clear();
+    this.refreshColors(); this.refreshMatrices(Math.max(this.appear, 0.001));
+    this.refreshGlow(); this.refreshPath();
+    if (id != null) {
+      const n = this.layout.nodes[this.nodeIdx.get(id)];
+      this.selRing.visible = true;
+      this.selRing.position.set(n.x, n.y, n.z);
+      if (fly) this.flyTo(n);
+      this.renderCard(n);
+    } else {
+      this.selRing.visible = false;
+      if (!keepCard) this.dom.card.classList.remove('show');
+    }
+    this.lastInteract = performance.now();
+  }
+
+  flyTo(n) {
+    this.flyAnim = {
+      t0: performance.now(), dur: 900,
+      from: { ...this.orbit, c: { ...this.center } },
+      to: {
+        theta: this.orbit.theta, phi: Math.min(this.orbit.phi, 1.05),
+        radius: Math.min(this.orbit.radius, 48),
+        c: { x: n.x * 0.4, y: n.y * 0.78, z: n.z * 0.4 },
+      },
+    };
+  }
+
+  renderCard(n) {
     const t = n.topic;
-    const { p, u } = this.closureOf(id);
+    const { p, u } = this.closureOf(t.id);
+    const card = this.dom.card;
+    const dhex = '#' + (DOMAIN_COLORS[t.domain] ?? 0x94a3b8).toString(16).padStart(6, '0');
     card.innerHTML = `
       <button class="g3-card-x" type="button" title="关闭">×</button>
+      <div class="g3-card-kicker"><i style="background:${dhex}"></i>${esc(t.domain)} · ${t.grade}年级${t.semester}册</div>
       <h3>${esc(t.name)}</h3>
-      <div class="g3-card-meta">
-        <span class="badge d-${esc(t.domain)}">${esc(t.domain)}</span>
-        ${t.grade}年级${t.semester}册 · ${esc(t.id)}
-      </div>
       <p class="g3-card-desc">${esc(t.description)}</p>
       <div class="g3-card-stats">
-        <span><b style="color:rgb(${PREREQ_COLOR.join(',')})">${p.set.size}</b> 个先修（含间接）</span>
-        <span><b style="color:rgb(${UNLOCK_COLOR.join(',')})">${u.set.size}</b> 个被解锁</span>
+        <div><b style="color:#fb923c">${p.set.size}</b><span>个先修（含间接）</span></div>
+        <div><b style="color:#22d3ee">${u.set.size}</b><span>个被解锁</span></div>
       </div>
       <button class="g3-card-open" type="button">查看完整先修链与测评问法 →</button>`;
     card.querySelector('.g3-card-x').addEventListener('click', () => this.select(null));
-    card.querySelector('.g3-card-open').addEventListener('click', () => this.onOpenTopic?.(id));
+    card.querySelector('.g3-card-open').addEventListener('click', () => this.onOpenTopic?.(n.id));
     card.classList.add('show');
   }
 
@@ -304,216 +400,211 @@ export class Graph3D {
     setTimeout(() => tip.classList.remove('show'), 1600);
   }
 
-  // ---- 拾取 ----
-  pick(mx, my) {
-    let best = null, bd = 18 * 18;
-    for (const n of this.layout.nodes) {
-      if (!this.nodeVisible(n)) continue;
-      const s = this.screen.get(n.id);
-      if (!s) continue;
-      const dx = s.sx - mx, dy = s.sy - my, d2 = dx * dx + dy * dy;
-      if (d2 < bd) { bd = d2; best = n; }
-    }
-    return best;
-  }
+  // ---------- 交互 ----------
+  bindEvents() {
+    const c = this.renderer.domElement;
+    const ray = new THREE.Raycaster();
+    const ptr = new THREE.Vector2();
+    let drag = null, suppressClick = false;
 
-  updateHover(mx, my) {
-    const hit = this.pick(mx, my);
-    const id = hit?.id ?? null;
-    if (id !== this.hover) {
-      this.hover = id;
-      this.canvas.style.cursor = id ? 'pointer' : 'grab';
-    }
-    const tip = this.dom.tip;
-    if (hit) {
-      const t = hit.topic;
-      tip.innerHTML = `<b>${esc(t.name)}</b><span class="muted">${t.grade}年级${t.semester}册 · ${esc(t.domain)}</span>`;
-      tip.classList.add('show');
-      tip.style.left = `${mx + 14}px`; tip.style.top = `${my - 8}px`;
-    } else if (!tip.dataset.pinned) {
-      tip.classList.remove('show');
-    }
-  }
+    const castAt = (mx, my) => {
+      const r = c.getBoundingClientRect();
+      ptr.set(((mx - r.left) / r.width) * 2 - 1, -((my - r.top) / r.height) * 2 + 1);
+      ray.setFromCamera(ptr, this.camera);
+      const hit = ray.intersectObject(this.nodeMesh)[0];
+      if (!hit || hit.instanceId == null) return null;
+      const n = this.layout.nodes[hit.instanceId];
+      return this.nodeVisible(n) ? n : null;
+    };
 
-  clickPick(mx, my) {
-    const hit = this.pick(mx, my);
-    this.select(hit?.id ?? null);
-  }
-
-  // ---- 渲染 ----
-  render() {
-    const { ctx, W, H } = this;
-    ctx.clearRect(0, 0, W, H);
-    // 背景：深空渐变
-    const bg = ctx.createLinearGradient(0, 0, 0, H);
-    bg.addColorStop(0, '#0b1020'); bg.addColorStop(1, '#101830');
-    ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
-
-    const sel = this.selected;
-    const cl = sel ? this.closureOf(sel) : null;
-
-    this.screen = new Map();
-    const items = [];
-    for (const n of this.layout.nodes) {
-      const s = this.project(n);
-      if (!s) continue;
-      this.screen.set(n.id, s);
-      items.push({ n, s });
-    }
-    // 深度排序（远 → 近）
-    items.sort((a, b) => b.s.zc - a.s.zc);
-
-    // 地面参考网格（X=年级, Z=领域）
-    this.drawGrid(ctx);
-
-    // 边
-    for (const e of this.layout.edges) {
-      const sa = this.screen.get(e.a.id), sb = this.screen.get(e.b.id);
-      if (!sa || !sb) continue;
-      if (!this.nodeVisible(e.a) || !this.nodeVisible(e.b)) continue;
-      // 入场动画：边随进度显现（除以 13 覆盖 K12 全学段）
-      const appearAt = (e.a.topic.grade + (e.a.topic.semester === '下' ? 0.5 : 0)) / 13;
-      if (this.appear < appearAt) continue;
-      const onPath = cl && (
-        cl.p.set.has(e.b.id) && cl.p.set.has(e.a.id) && cl.p.edgeKeys.has(key(e)) ||
-        cl.u.set.has(e.a.id) && cl.u.set.has(e.b.id) && cl.u.edgeKeys.has(key(e)));
-      const dim = sel && !onPath;
-      // 雾化按相机相对深度：zc 越大于 dist（越远）越淡
-      const rel = Math.min(sa.zc, sb.zc) / Math.max(1, this.dist);
-      const fog = clamp(1.55 - 0.55 * rel, 0.04, 1);
-      ctx.beginPath();
-      ctx.moveTo(sa.sx, sa.sy);
-      // 轻微弧线（控制点抬高）
-      const mx = (sa.sx + sb.sx) / 2, my2 = (sa.sy + sb.sy) / 2 - 6;
-      ctx.quadraticCurveTo(mx, my2, sb.sx, sb.sy);
-      if (onPath) {
-        const col = cl.p.edgeKeys.has(key(e)) ? PREREQ_COLOR : UNLOCK_COLOR;
-        ctx.strokeStyle = `rgba(${col.join(',')},0.95)`;
-        ctx.lineWidth = 2.2;
-        ctx.shadowColor = `rgba(${col.join(',')},0.85)`;
-        ctx.shadowBlur = 7;
+    c.addEventListener('pointerdown', (e) => {
+      drag = { x: e.clientX, y: e.clientY, moved: false };
+      this.lastInteract = performance.now();
+    });
+    c.addEventListener('pointermove', (e) => {
+      this.lastInteract = performance.now();
+      if (drag) {
+        const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
+        this.orbit.theta -= dx * 0.0052;
+        this.orbit.phi = clamp(this.orbit.phi - dy * 0.0042, 0.25, 1.5);
+        this.vel = { t: -dx * 0.0052, p: -dy * 0.0042 };
+        drag.x = e.clientX; drag.y = e.clientY;
       } else {
-        ctx.strokeStyle = `rgba(148,163,184,${(dim ? 0.05 : 0.16) * fog})`;
-        ctx.lineWidth = 1;
-        ctx.shadowBlur = 0;
-        ctx.setLineDash(e.strength === 'soft' ? [3, 5] : []);
+        const n = castAt(e.clientX, e.clientY);
+        this.hover = n?.id ?? null;
+        c.style.cursor = n ? 'pointer' : 'grab';
+        const tip = this.dom.tip;
+        if (n) {
+          tip.innerHTML = `<b>${esc(n.topic.name)}</b><span class="muted">${n.topic.grade}年级${n.topic.semester}册 · ${esc(n.topic.domain)}</span>`;
+          tip.classList.add('show');
+          tip.style.left = `${e.clientX - c.getBoundingClientRect().left + 14}px`;
+          tip.style.top = `${e.clientY - c.getBoundingClientRect().top - 8}px`;
+        } else tip.classList.remove('show');
       }
-      ctx.stroke();
-      ctx.setLineDash([]);
-      ctx.shadowBlur = 0;
-    }
+    });
+    c.addEventListener('pointerup', () => {
+      suppressClick = Boolean(drag?.moved);
+      drag = null;
+    });
+    c.addEventListener('pointerleave', () => { this.hover = null; this.dom.tip.classList.remove('show'); });
+    c.addEventListener('click', (e) => {
+      if (suppressClick) { suppressClick = false; return; }
+      const n = castAt(e.clientX, e.clientY);
+      this.select(n?.id ?? null, { fly: Boolean(n) });
+    });
+    c.addEventListener('wheel', (e) => {
+      e.preventDefault();
+      this.orbit.radius = clamp(this.orbit.radius * (e.deltaY > 0 ? 1.09 : 0.92), 14, 170);
+      this.lastInteract = performance.now();
+    }, { passive: false });
+    this.resizeHandler = () => this.resize();
+    window.addEventListener('resize', this.resizeHandler);
+  }
 
-    // 节点
-    const labelQueue = [];
-    for (const { n, s } of items) {
+  resize() {
+    const mount = this.dom.mount;
+    const W = mount.clientWidth || 800, H = mount.clientHeight || 500;
+    this.camera.aspect = W / H;
+    this.camera.updateProjectionMatrix();
+    this.renderer.setSize(W, H);
+  }
+
+  // ---------- 渲染循环 ----------
+  renderLoop(ts) {
+    requestAnimationFrame(this.renderLoop);
+    const t = ts ?? performance.now();
+
+    // 入场：按年级自下而上浮现
+    if (this.appear < 1) {
+      this.appear = clamp((t - this.t0) / 2400, 0, 1);
+      this.refreshMatrices(easeOut(this.appear));
+    }
+    // 惯性衰减 + 闲置自转
+    if (this.appear >= 1) {
+      this.orbit.theta += this.vel.t; this.orbit.phi = clamp(this.orbit.phi + this.vel.p, 0.25, 1.5);
+      this.vel = { t: this.vel.t * 0.93, p: this.vel.p * 0.93 };
+      if (t - this.lastInteract > 3600) this.orbit.theta += 0.0018;
+    }
+    // 飞行动画
+    if (this.flyAnim) {
+      const f = this.flyAnim, k = clamp((t - f.t0) / f.dur, 0, 1), e = easeOut(k);
+      this.orbit.theta = lerp(f.from.theta, f.to.theta, e);
+      this.orbit.phi = lerp(f.from.phi, f.to.phi, e);
+      this.orbit.radius = lerp(f.from.radius, f.to.radius, e);
+      this.center = { x: lerp(f.from.c.x, f.to.c.x, e), y: lerp(f.from.c.y, f.to.c.y, e), z: lerp(f.from.c.z, f.to.c.z, e) };
+      if (k >= 1) this.flyAnim = null;
+    }
+    // 相机
+    const { theta, phi, radius } = this.orbit;
+    this.camera.position.set(
+      this.center.x + radius * Math.sin(phi) * Math.cos(theta),
+      this.center.y + radius * Math.cos(phi),
+      this.center.z + radius * Math.sin(phi) * Math.sin(theta));
+    this.camera.lookAt(this.center.x, this.center.y, this.center.z);
+
+    // 选中环微脉动
+    if (this.selRing.visible) {
+      const s = 3.2 + Math.sin(t * 0.004) * 0.25;
+      this.selRing.scale.set(s, s, 1);
+      this.selRing.material.rotation += 0.01;
+    }
+    this.stars.rotation.y = theta * 0.12;
+
+    this.updateLabels();
+    this.renderer.render(this.scene, this.camera);
+  }
+
+  // 路径节点标签：投影到屏幕的 DOM（贪心防碰撞）
+  updateLabels() {
+    const sel = this.selected;
+    const host = this.dom.labels;
+    const cl = sel ? this.closureOf(sel) : null;
+    const ids = cl ? [sel, ...[...cl.p.set], ...[...cl.u.set]] : [];
+    const need = ids.length + 1;
+    while (this.labels.length < need) {
+      const el = document.createElement('div');
+      el.className = 'g3-label';
+      host.appendChild(el);
+      this.labels.push(el);
+    }
+    const v = new THREE.Vector3();
+    const items = [];
+    for (const id of ids) {
+      const n = this.layout.nodes[this.nodeIdx.get(id)];
       if (!this.nodeVisible(n)) continue;
-      const appearAt = n.topic.grade / 13;
-      const a = clamp((this.appear - appearAt) * 4, 0, 1);
-      if (a <= 0) continue;
-      const base = DOMAIN_COLORS[n.topic.domain] ?? [148, 163, 184];
-      const isSel = n.id === sel;
-      const inP = cl?.p.set.has(n.id), inU = cl?.u.set.has(n.id);
-      const onPath = inP || inU || isSel;
-      const dim = sel && !onPath;
-      const rel = s.zc / Math.max(1, this.dist);
-      const fog = clamp(1.55 - 0.55 * rel, 0.06, 1);
-      let color = base, glow = 4 + n.r * 1.4, alpha = fog * a;
-      if (isSel) { color = [255, 255, 255]; glow = 13; }
-      else if (inP) {
-        const layer = cl.p.layer.get(n.id);
-        color = mix(PREREQ_COLOR, [120, 60, 20], Math.min(0.75, (layer - 1) * 0.16));
-        glow = 8;
-      } else if (inU) { color = UNLOCK_COLOR; glow = 7; }
-      else if (dim) { alpha *= 0.16; glow = 0; }
-      const r = Math.max(1.6, n.r * s.k * 0.9);
-      if (n.id === this.hover || isSel) { glow = Math.max(glow, 11); }
-      ctx.beginPath();
-      ctx.arc(s.sx, s.sy, r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(${color.map(Math.round).join(',')},${alpha})`;
-      ctx.shadowColor = `rgba(${color.map(Math.round).join(',')},${alpha})`;
-      ctx.shadowBlur = glow;
-      ctx.fill();
-      ctx.shadowBlur = 0;
-      // 标签分级：选中/hover 恒显；大节点近处显示
-      const show = n.id === this.hover || isSel || onPath ||
-        (!dim && n.r > 1.9 && s.k > 7);
-      if (show) labelQueue.push({ n, s, r, alpha, onPath, prio: (n.id === this.hover || isSel) ? 3 : onPath ? 2 : 1 });
+      v.set(n.x, n.y, n.z).project(this.camera);
+      if (v.z > 1 || v.z < -1) continue;
+      const r = this.renderer.domElement.getBoundingClientRect();
+      const x = (v.x * 0.5 + 0.5) * r.width, y = (-v.y * 0.5 + 0.5) * r.height;
+      const dist = this.camera.position.distanceTo(new THREE.Vector3(n.x, n.y, n.z));
+      items.push({ id, n, x, y, dist });
     }
-    // 标签最后画（不被节点盖住）；贪心防碰撞：关键标签优先占位，普通标签重叠则让位
-    ctx.font = '12.5px "PingFang SC","Microsoft YaHei",sans-serif';
-    ctx.textAlign = 'left';
-    labelQueue.sort((a, b) => (b.prio - a.prio) || (a.s.zc - b.s.zc));
+    items.sort((a, b) => a.dist - b.dist);
     const placed = [];
-    const overlaps = (x, y, w, h) => placed.some((r2) =>
-      x < r2.x + r2.w + 3 && x + w + 3 > r2.x && y < r2.y + r2.h + 2 && y + h + 2 > r2.y);
-    for (const { n, s, r, alpha, onPath, prio } of labelQueue) {
-      const text = n.topic.name;
-      // 标签距离 LOD：远处标签淡出（选中/hover 除外），避免远景叠压
-      const kFade = prio === 3 ? 1 : clamp((s.k - 4.6) / 3.2, 0, 1);
-      if (kFade <= 0.04) continue;
-      const la = alpha * kFade;
-      const pad = 2;
-      const w = ctx.measureText(text).width + pad * 2;
-      const h = 15;
-      // 候选位：节点右侧、左侧、上方
-      const cands = [
-        [s.sx + r + 5, s.sy - 7.5],
-        [s.sx - r - 5 - w, s.sy - 7.5],
-        [s.sx - w / 2, s.sy - r - 19],
-      ];
-      let box = null;
-      for (const [x, y] of cands) {
-        if (x < 2 || y < 2 || x + w > W - 2 || y + h > H - 2) continue;
-        if (!overlaps(x, y, w, h)) { box = [x, y]; break; }
+    let li = 0;
+    for (const it of items) {
+      const el = this.labels[li++];
+      if (!el) break;
+      const isSel = it.id === sel;
+      const isP = cl.p.set.has(it.id);
+      el.textContent = it.n.topic.name;
+      el.className = `g3-label${isSel ? ' sel' : isP ? ' p' : ' u'}`;
+      const w = el.offsetWidth || 60, h = 18;
+      let x = it.x + 10, y = it.y - 9;
+      if (placed.some((p2) => x < p2.x + p2.w + 2 && x + w + 2 > p2.x && y < p2.y + h + 1 && y + h + 1 > p2.y)) {
+        y = it.y - 26 - placed.length * 2; // 撞位则上移错开
       }
-      if (!box) {
-        // 普通标签全部撞位则放弃；关键标签（选中/hover/路径）不丢弃
-        if (prio < 2) continue;
-        box = cands[0];
-      }
-      placed.push({ x: box[0], y: box[1], w, h });
-      ctx.fillStyle = `rgba(10,14,26,${Math.min(0.6, la * 0.55)})`;
-      ctx.fillRect(box[0], box[1], w, h);
-      ctx.fillStyle = onPath || n.id === this.hover
-        ? `rgba(255,255,255,${Math.min(1, la + 0.25)})`
-        : `rgba(203,213,225,${la * 0.9})`;
-      ctx.fillText(text, box[0] + pad, box[1] + 11.5);
+      placed.push({ x, y, w, h });
+      el.style.transform = `translate(${Math.round(x)}px,${Math.round(y)}px)`;
+      el.style.opacity = clamp(1.6 - it.dist / 70, 0.45, 1);
+      el.style.display = 'block';
     }
-  }
-
-  drawGrid(ctx) {
-    const grades = [...new Set(this.layout.nodes.map((n) => n.topic.grade))].sort((a, b) => a - b);
-    ctx.strokeStyle = 'rgba(148,163,184,0.10)';
-    ctx.lineWidth = 1;
-    const y0 = -0.5;
-    for (const g of grades) {
-      const x = (g - 1) * 14;
-      const corners = [[x, y0, -24], [x, y0, 24]];
-      const pts = corners.map((c) => this.project({ x: c[0], y: c[1], z: c[2] }));
-      if (pts.every(Boolean)) {
-        ctx.beginPath();
-        ctx.moveTo(pts[0].sx, pts[0].sy);
-        ctx.lineTo(pts[1].sx, pts[1].sy);
-        ctx.stroke();
-        if (this.project({ x, y: y0, z: 0 })?.k > 5) {
-          ctx.fillStyle = 'rgba(148,163,184,0.4)';
-          ctx.font = '11px "PingFang SC","Microsoft YaHei",sans-serif';
-          ctx.textAlign = 'center';
-          const lp = this.project({ x, y: y0, z: 26 });
-          if (lp) ctx.fillText(`${g}年级`, lp.sx, lp.sy);
-          ctx.textAlign = 'left';
-        }
-      }
-    }
+    for (let i = li; i < this.labels.length; i++) this.labels[i].style.display = 'none';
   }
 }
 
-function layoutCenter(nodes, axis) {
-  const vs = nodes.map((n) => n[axis]);
-  return (Math.min(...vs) + Math.max(...vs)) / 2;
+// ---------- 纹理工具 ----------
+function makeGlowTexture() {
+  const c = document.createElement('canvas'); c.width = c.height = 64;
+  const g = c.getContext('2d');
+  const rg = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+  rg.addColorStop(0, 'rgba(255,255,255,0.9)');
+  rg.addColorStop(0.35, 'rgba(255,255,255,0.28)');
+  rg.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = rg; g.fillRect(0, 0, 64, 64);
+  const tex = new THREE.CanvasTexture(c);
+  return tex;
 }
+function makeRingTexture() {
+  const c = document.createElement('canvas'); c.width = c.height = 96;
+  const g = c.getContext('2d');
+  g.strokeStyle = 'rgba(255,255,255,0.95)';
+  g.lineWidth = 5;
+  g.beginPath(); g.arc(48, 48, 38, 0, Math.PI * 2); g.stroke();
+  return new THREE.CanvasTexture(c);
+}
+function makeTextSprite(text, color, px) {
+  const c = document.createElement('canvas');
+  const g = c.getContext('2d');
+  g.font = `${px}px "PingFang SC","Microsoft YaHei",sans-serif`;
+  const w = Math.ceil(g.measureText(text).width) + 8;
+  c.width = w; c.height = px * 1.3;
+  const g2 = c.getContext('2d');
+  g2.font = `${px}px "PingFang SC","Microsoft YaHei",sans-serif`;
+  g2.fillStyle = color;
+  g2.textBaseline = 'middle';
+  g2.fillText(text, 4, c.height / 2);
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({
+    map: new THREE.CanvasTexture(c), transparent: true, depthWrite: false,
+  }));
+  sp.scale.set(w / px * 1.2, c.height / px * 1.2, 1);
+  return sp;
+}
+
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
-const mix = (a, b, t) => a.map((v, i) => v + (b[i] - v) * t);
+const lerp = (a, b, t) => a + (b - a) * t;
+const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+const ek = (e) => `${e.a.id}->${e.b.id}`;
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
   (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const key = (e) => `${e.a.id}->${e.b.id}`;

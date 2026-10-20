@@ -8,6 +8,16 @@
 
 ## [Unreleased]
 
+### 重写：「3D 全景」升级为 three.js WebGL 渲染（决策 D-013）
+
+对标 [withmarble.com/curriculum](https://withmarble.com/curriculum/) 的深空星系观感（其页面源码不开源，仓库仅开放数据；本实现为原创代码复刻其视觉范式）：
+
+- `viewer/vendor/three.min.js`（r128，MIT，本地 vendor 单文件）——零构建、无 npm 依赖原则不变
+- 布局改为**纺锤螺旋星系**：Y 轴 = 年级向上生长（地面年级刻度环），四大领域按方位角成四股藤蔓缓慢扭转，半径随年级张开；节点尺寸幂律分布（多数小、枢纽大）
+- 深空氛围：#0a0e14 背景 + FogExp2 指数雾 + 700 颗背景星尘（两层视差）+ 极淡星尘网连线
+- 交互升级：惯性拖拽旋转（速度阻尼）、闲置自转、点击后相机飞行聚焦、raycaster 拾取（深度遮挡正确）
+- 选中叙事保留并增强：先修闭包橙色分层发光 + 解锁闭包青色发光 + 路径节点中文标签（屏幕投影 DOM）+ 大数字详情卡 + 脉动选中环
+
 ### 新增：「3D 全景」页签——纯手写 Canvas 伪 3D，零依赖（2026-10-20）
 
 对标并增强 [Marble curriculum](https://withmarble.com/curriculum/) 的 3D 可视化：
