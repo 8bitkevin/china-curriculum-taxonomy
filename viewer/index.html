@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中国 K12 课程知识图谱 · 数学</title>
+<meta name="description" content="微主题 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">图</span>
+    <div>
+      <h1>中国 K12 课程知识图谱</h1>
+      <p id="brand-sub">数学 · 加载数据中…</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <nav class="tabs" role="tablist">
+      <button id="tab-graph" class="tab active" type="button">图谱浏览</button>
+      <button id="tab-quality" class="tab" type="button">质量自查</button>
+    </nav>
+    <label class="ctl">搜索
+      <input id="search" type="search" placeholder="如：凑十法 / 分与合" autocomplete="off">
+    </label>
+    <label class="ctl">年级
+      <select id="grade"><option value="0">全部</option></select>
+    </label>
+    <label class="ctl">领域
+      <select id="domain"><option value="">全部</option></select>
+    </label>
+    <label class="ctl">孩子姓名
+      <input id="child-name" type="text" value="孩子" maxlength="12" title="用于测评问法的称呼">
+    </label>
+  </div>
+</header>
+
+<main class="layout">
+  <aside id="side" class="side">
+    <div class="side-head">
+      <span id="list-title">主题列表</span>
+      <span id="list-count" class="muted"></span>
+    </div>
+    <div id="list" class="list"></div>
+  </aside>
+
+  <section id="detail" class="detail">
+    <div class="placeholder" id="detail-placeholder">
+      <p>从左侧选择一个微主题，或直接搜索（试试「凑十法」）。</p>
+      <p class="muted">点击任一主题可查看：<b>向上</b>的完整先修链（每条边附理由）、<b>向下</b>的解锁树、掌握证据与测评问法。</p>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <span><a href="https://github.com/8bitkevin/china-curriculum-taxonomy" target="_blank" rel="noopener">GitHub</a> ·
+  数据 <a href="https://github.com/8bitkevin/china-curriculum-taxonomy#许可" target="_blank" rel="noopener">ODbL 1.0 / CC BY-SA 4.0</a> ·
+  浏览器直接 fetch <code>data/*.json</code> 即可集成</span>
+</footer>
+
+<script type="module" src="viewer.js"></script>
+</body>
+</html>

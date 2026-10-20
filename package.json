@@ -10,7 +10,7 @@
     "toc": "python scripts/fetch-textbooks.py --toc",
     "manifest": "node scripts/build-manifest.mjs",
     "validate": "node scripts/validate.mjs",
-    "test": "node --test scripts/*.test.mjs",
+    "test": "node --test scripts/*.test.mjs viewer/*.test.mjs",
     "extract-toc": "python scripts/extract-toc.py",
     "toc-check": "python scripts/extract-toc.py --check",
     "report": "node scripts/report.mjs"
