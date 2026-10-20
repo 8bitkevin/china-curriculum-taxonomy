@@ -1,0 +1,43 @@
+{
+  "taxonomy": "china-curriculum-taxonomy",
+  "version": "v0.1",
+  "generatedAt": "2026-10-20",
+  "counts": {
+    "topics": 83,
+    "dependencies": 107,
+    "standards": 27,
+    "byGrade": {
+      "1年级上": 24,
+      "1年级下": 20,
+      "2年级上": 22,
+      "2年级下": 17
+    }
+  },
+  "coverage": {
+    "subjects": [
+      "数学"
+    ],
+    "grades": [
+      1,
+      2
+    ],
+    "textbookSeries": [
+      "人教版（义务教育教科书·数学，2022 课标）"
+    ],
+    "note": "第一学段（1–2 年级）先行发布；3–6 年级为规划中。"
+  },
+  "files": {
+    "topics.json": {
+      "bytes": 90585,
+      "sha256": "b3d4146fbcb56482b8098596ca3257db7622560cf5dfbdcc22ebf003c597693d"
+    },
+    "dependencies.json": {
+      "bytes": 16461,
+      "sha256": "0dc8b4f9212929ee8bbb82e33ef07b74f09961d743a9b4af6a1f190c0a09bf03"
+    },
+    "curriculum-standards.json": {
+      "bytes": 7003,
+      "sha256": "b1f5f131cd05fe4a7603941bca1251c0ab8f78cd6d40d8bb78f60cbdbb6cc4e2"
+    }
+  }
+}

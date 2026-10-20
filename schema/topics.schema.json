@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/topics.schema.json",
+  "title": "中国课程知识图谱 — 微主题",
+  "type": "object",
+  "required": ["schemaVersion", "version", "topicCount", "topics"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "version": { "type": "string" },
+    "note": { "type": "string" },
+    "topicCount": { "type": "integer", "minimum": 0 },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id", "type", "subject", "domain", "name", "description",
+          "grade", "semester", "ageRangeStart", "ageRangeEnd",
+          "evidence", "standards", "textbook"
+        ],
+        "properties": {
+          "id": { "type": "string", "pattern": "^ct_" },
+          "type": {
+            "type": "string",
+            "enum": ["CONCEPTUAL", "PROCEDURAL", "REPRESENTATIONAL", "LANGUAGE", "META"],
+            "description": "概念性 / 过程性 / 表征性 / 语言性 / 元认知"
+          },
+          "subject": { "type": "string", "description": "学科，如「数学」" },
+          "domain": {
+            "type": "string",
+            "enum": ["数与代数", "图形与几何", "统计与概率", "综合与实践"],
+            "description": "2022 版课标四大领域"
+          },
+          "name": { "type": "string", "minLength": 1 },
+          "description": { "type": "string", "minLength": 1, "description": "家长能看懂的通俗描述" },
+          "grade": { "type": "integer", "minimum": 1, "maximum": 6 },
+          "semester": { "type": "string", "enum": ["上", "下"] },
+          "ageRangeStart": { "type": "integer", "minimum": 3, "maximum": 18 },
+          "ageRangeEnd": { "type": "integer", "minimum": 3, "maximum": 18 },
+          "evidence": {
+            "type": "array", "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "description": "掌握该主题的可观察证据标准"
+          },
+          "assessmentPrompt": {
+            "type": ["string", "null"],
+            "description": "自然语言测评问法；{{name}} 为孩子姓名占位符"
+          },
+          "standards": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+:" },
+            "description": "课标条目代码，指向 curriculum-standards.json"
+          },
+          "textbook": {
+            "type": "object",
+            "required": ["publisher", "grade", "volume", "unit"],
+            "properties": {
+              "publisher": { "type": "string", "description": "教材版本，如「人教版」" },
+              "grade": { "type": "integer", "minimum": 1, "maximum": 6 },
+              "volume": { "type": "string", "enum": ["上", "下"] },
+              "unit": { "type": ["string", "integer"], "description": "所属单元号或单元名" }
+            },
+            "additionalProperties": false
+          },
+          "prerequisites": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^ct_" },
+            "description": "冗余便利字段；权威数据在 dependencies.json，两者必须一致"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

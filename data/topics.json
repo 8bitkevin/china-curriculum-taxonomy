@@ -1,0 +1,2462 @@
+{
+  "schemaVersion": 1,
+  "version": "v0.1",
+  "note": "中国小学课程知识图谱·微主题（第一学段：人教版数学 1-2 年级）。id 规则：ct_g{年级}{a|b学期}_{序号}。",
+  "topicCount": 83,
+  "topics": [
+    {
+      "id": "ct_g1a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数一数：10 以内的点数",
+      "description": "入学第一课：能把物体一个一个地数出来，手口一致地点数 1~10 个物品，并说出总数。这是所有数概念的地基——先会「数得清」，才谈得上「认数字」。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "手口一致地点数 10 个以内的物品，不重数、不漏数",
+        "数完后能说出「一共有几个」，理解最后一个数就是总数"
+      ],
+      "assessmentPrompt": "给{{name}} 8 颗扣子，请{{name}}一边点一边数，最后问「一共有几颗？」看是否手口一致并说出总数。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 1
+      }
+    },
+    {
+      "id": "ct_g1a_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "比多少：一一对应",
+      "description": "用「一个对一个」连线或摆放的方法比较两组物品谁多谁少，理解「同样多」「多」「少」的含义。一一对应是后面学习减法（相差多少）的思维原型。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "把两组物品一一对应摆放后，能指出谁多、谁少或同样多",
+        "能用「 比 多」「 和 同样多」这样的句式说清比较结果"
+      ],
+      "assessmentPrompt": "摆 5 个苹果和 4 个梨，让{{name}}配对连一连，问：「哪种水果多？多几个是怎么看出来的？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 1
+      }
+    },
+    {
+      "id": "ct_g1a_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "上、下、前、后",
+      "description": "用「上下前后」描述物体之间的位置关系，并理解位置是相对的——同一辆汽车，相对后面的车是「前」，相对前面的车是「后」。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用上下前后准确描述两个物体的位置（如「书在桌子上面」）",
+        "能判断参照物变化后的位置关系（A 在 B 前面，B 在 A 后面）"
+      ],
+      "assessmentPrompt": "把铅笔盒放在书的上面，问{{name}}：「铅笔盒在哪里？书在哪里？」再交换位置问一次。",
+      "standards": [
+        "csmath-2022:S1.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 2
+      }
+    },
+    {
+      "id": "ct_g1a_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "左、右",
+      "description": "分清自己的左手和右手，再以自己为参照用左右描述位置。「左右」比「上下前后」难，因为它依赖方向感，且随面向改变而变化。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按指令举左手、右手，摸左耳、右耳",
+        "能说出「我的右边是某某」，并在转身后重新判断"
+      ],
+      "assessmentPrompt": "请{{name}}举起右手，再说说坐在{{name}}右边的是谁；然后让{{name}}转身，再问一遍看会不会重新判断。",
+      "standards": [
+        "csmath-2022:S1.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 2
+      }
+    },
+    {
+      "id": "ct_g1a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "1~5 的认识",
+      "description": "认识数字 1~5：理解每个数既表示「几个」（基数），会认、会读、会写这五个数字，并能在实物、图形和数字之间建立联系。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "看数字能摆出对应数量的物品，看物品能说出对应数字",
+        "能规范书写 1~5，笔顺正确、不写反"
+      ],
+      "assessmentPrompt": "出示数字卡片「4」，让{{name}}拿出 4 支铅笔；再问「3 的邻居是几和几？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_g1a_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "5 以内数的大小比较（>、<、=）",
+      "description": "比较 5 以内两个数的大小，并认识三个数学符号「>」「<」「=」，能把比较结果写成 3>2、4=4 这样的式子。这是孩子第一次用符号表达数学关系。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能判断 5 以内两个数谁大谁小，并说明理由",
+        "能用 >、<、= 正确连接两个数，开口朝大数"
+      ],
+      "assessmentPrompt": "问{{name}}：「3 和 5，中间该填什么符号？」再让孩子用小棒摆出验证。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_02",
+        "ct_g1a_05"
+      ]
+    },
+    {
+      "id": "ct_g1a_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "第几（序数）",
+      "description": "区分「几个」和「第几个」：4 个人排队，「4 个」表示总人数，「第 4 个」表示排的位置。基数与序数的区分是低年级常见的认知难点。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按要求圈出「第 3 个」或「3 个」物品，两者不混淆",
+        "排队时能回答「从前往后数你是第几个」"
+      ],
+      "assessmentPrompt": "摆一排 5 只小动物，让{{name}}「圈出从左数第 2 只」和「圈出 2 只」，看是否区分清楚。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_05"
+      ]
+    },
+    {
+      "id": "ct_g1a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分与合（2~5 的组成）",
+      "description": "把一个数拆成两部分、再把两部分合成一个数，如 4 可以分成 1 和 3、2 和 2。数的组成是加减法的心算基础——想「分与合」，才算得快。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能有序说出 5 以内各数的所有分法，不重不漏",
+        "看到「3 和 2」能立刻说「合起来是 5」，看到 5 能说出一组分法"
+      ],
+      "assessmentPrompt": "把 4 颗豆子分到两只手里，让{{name}}猜「这只手有 1 颗，另一只手有几颗？」换不同分法多试几次。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_05"
+      ]
+    },
+    {
+      "id": "ct_g1a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "5 以内的加法",
+      "description": "理解加法的含义——把两部分合在一起用加法，并会用「数的组成」口算 5 以内的加法，如 2+3=5。会用加法解决「一共有多少」的简单问题。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用小棒或画圈解释 2+3 为什么等于 5",
+        "3 秒内口答 5 以内加法，正确率稳定",
+        "能看图口述「原来有 2 只鸟，又飞来 1 只，一共 3 只」并列式"
+      ],
+      "assessmentPrompt": "问{{name}}：「左边 2 朵花，右边 3 朵花，一共有几朵？用加法怎么列式？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05",
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_05",
+        "ct_g1a_08"
+      ]
+    },
+    {
+      "id": "ct_g1a_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "5 以内的减法",
+      "description": "理解减法的含义——从总数里去掉一部分用减法，并会用数的组成口算 5 以内的减法。能用减法回答「还剩多少」的问题，初步体会加减法互逆。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用摆小棒演示 5-2 的过程并说出剩下 3",
+        "能看图口述「原来 5 只，飞走 2 只，还剩 3 只」并列式",
+        "能由 2+3=5 直接说出 5-2=3 和 5-3=2"
+      ],
+      "assessmentPrompt": "拿 5 支铅笔，拿走 2 支，问{{name}}：「还剩几支？怎么列式？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05",
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_08",
+        "ct_g1a_09"
+      ]
+    },
+    {
+      "id": "ct_g1a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "0 的认识",
+      "description": "理解 0 的两层含义：表示「一个也没有」，也表示起点（直尺上的 0）。会读写 0，会算与 0 有关的加减法（如 3+0=3、3-0=3、3-3=0）。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "盘子里没有苹果时，能用 0 表示数量",
+        "能说出直尺上 0 的位置和作用（起点）",
+        "能正确计算含 0 的加减法各 3 题"
+      ],
+      "assessmentPrompt": "问{{name}}：「盘子里原来 3 个苹果，全吃完了，还剩几个？列式是？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01",
+        "csmath-2022:S1.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_05"
+      ]
+    },
+    {
+      "id": "ct_g1a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "认识立体图形：长方体、正方体、圆柱、球",
+      "description": "通过摸、滚、搭积木，直观辨认四种立体图形：四四方方的长方体、正正方方的正方体、能滚也能立住的圆柱、到处滚的球。这是图形认知的起点，只做直观辨认，不讲特征定义。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能从一堆物品中挑出长方体、正方体、圆柱、球并说对名字",
+        "能说出哪些形状容易滚动、哪些容易堆高，并动手验证"
+      ],
+      "assessmentPrompt": "给{{name}}一盒积木，请{{name}}分别找出「像盒子一样的」和「像球一样的」形状，说说摸起来有什么不一样。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 4
+      }
+    },
+    {
+      "id": "ct_g1a_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "6~10 的认识与组成",
+      "description": "把数扩展到 10：认、读、写 6~10，掌握它们的顺序和大小，熟练掌握各数的组成（尤其是 10 的组成）。10 的组成是后续「凑十法」进位加法的直接基础。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按顺序数、倒着数 0~10，并在数轴（直尺）上找位置",
+        "能有序说出 10 的五组组成（1和9、2和8、3和7、4和6、5和5）",
+        "能用 10 以内数比较大小并填 >、<、="
+      ],
+      "assessmentPrompt": "问{{name}}：「10 可以分成 3 和几？4 和 6 合起来是几？」要求脱口而出。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1a_05",
+        "ct_g1a_06"
+      ]
+    },
+    {
+      "id": "ct_g1a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "10 以内的加减法",
+      "description": "利用数的组成熟练口算 10 以内全部加减法。这是小学计算的第一道关口，要求达到「脱口而出」的熟练度，直接决定 20 以内进位加退位减的学习质量。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "10 以内加减法口算 20 题在 3 分钟内完成，正确率 95% 以上",
+        "能用一幅图写出两加两减四个算式（如 4+3、3+4、7-3、7-4）"
+      ],
+      "assessmentPrompt": "每天用卡片随机考{{name}} 10 以内加减法 20 题，记录用时和正确率，观察一周是否稳定。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1a_09",
+        "ct_g1a_10",
+        "ct_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_g1a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "连加、连减",
+      "description": "计算 10 以内的三数连加（如 3+2+4）和连减（如 9-2-3）：按从左到右的顺序分两步算，先记住第一步的得数。训练「记住中间结果」的多步计算习惯。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说清连加连减「先算什么、再算什么」并写出第一步得数",
+        "能用故事解释算式（如「先飞来 2 只，又飞来 4 只」）"
+      ],
+      "assessmentPrompt": "给{{name}} 3 颗糖，再给 2 颗，又给 4 颗，问一共有几颗？让{{name}}列连加算式并说说先算哪步。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1a_14"
+      ]
+    },
+    {
+      "id": "ct_g1a_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加减混合",
+      "description": "计算既有加又有减的混合算式（如 4+3-2、8-5+4），同样从左到右依次算。能看图讲出「来了又走」的过程并列式，为以后的两步应用题做准备。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确计算 10 以内加减混合 10 题，运算顺序不乱",
+        "能根据「湖里 4 只鹅，游走 1 只又游来 2 只」的图意列式"
+      ],
+      "assessmentPrompt": "摆 6 辆小汽车，开走 2 辆又开来 3 辆，让{{name}}列式计算现在有几辆。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1a_15"
+      ]
+    },
+    {
+      "id": "ct_g1a_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "11~20 各数的认识",
+      "description": "会数、会读 11~20 各数，理解它们的组成：十和几合起来是十几（1 个十和 3 个一组成 13）。通过捆小棒体会「十」是计数单位，这是位值制思想的萌芽。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能数出 11~20 根小棒，并主动把 10 根捆成一捆再数",
+        "能说出 15 里有 1 个十和 5 个一，反过来也能由组成说数"
+      ],
+      "assessmentPrompt": "给{{name}}一把小棒（14 根左右），问：「怎样摆让别人一眼看出是十几？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_g1a_18",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "十位与个位（读数、写数）",
+      "description": "认识计数器和数位：从右边起第一位是个位，第二位是十位。个位上的数表示几个一，十位上的数表示几个十。能在计数器上拨出、写出 11~20 各数。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "在计数器上拨 13 时，十位拨 1 颗、个位拨 3 颗，并能解释原因",
+        "能读写 11~20 各数，明白「11」两个 1 含义不同"
+      ],
+      "assessmentPrompt": "在计数器上拨出 16，让{{name}}写出这个数，并问：「十位的 1 和个位的 6 各表示什么？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_17"
+      ]
+    },
+    {
+      "id": "ct_g1a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "10 加几和相应的减法",
+      "description": "口算 10+3、13-3、13-10 这类算式：利用数的组成直接得结果（1 个十和 3 个一是 13）。这是位值制的第一次计算应用，也是后面学习整十数加减的基础。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能由组成快速口算 10 加几与相应的减法",
+        "能解释 13-10 为什么等于 3（去掉 1 个十剩下 3 个一）"
+      ],
+      "assessmentPrompt": "问{{name}}：「10+7 等于几？17-10 呢？你是怎么想的？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_14",
+        "ct_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_g1a_20",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "认识钟表：整时",
+      "description": "认识钟面上的时针和分针，会认整时：分针指向 12，时针指向几就是几时。能结合生活说出「7 时起床、8 时上课」这样的时间安排。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能区分时针（短粗）和分针（细长）并说出名字",
+        "能正确认读钟面上的整时，并会写「7 时」或「7:00」"
+      ],
+      "assessmentPrompt": "拨一个 9 时的钟面，问{{name}}：「现在是几时？你是看哪根针判断的？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_g1a_21",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "认识钟表：半时",
+      "description": "会认半时：分针指向 6，时针走过几就是几时半。理解「半时」是把 1 时分成两半过了一半，能认读「7 时半」这样的时刻。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能认读半时，并说出「时针走过 2，分针指 6，是 2 时半」",
+        "能在钟面上拨出指定的整时和半时"
+      ],
+      "assessmentPrompt": "拨 8 时半，问{{name}}：「现在是几时？为什么不是 9 时半？」（时针走过 8 还没到 9）",
+      "standards": [
+        "csmath-2022:S1.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1a_20"
+      ]
+    },
+    {
+      "id": "ct_g1a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "凑十法：9 加几",
+      "description": "学习 20 以内进位加法的核心方法「凑十法」：算 9+4 时，把 4 拆成 1 和 3，9 加 1 凑成 10，10 加 3 得 13。理解「凑成十更好算」的道理，是本学期计算的重中之重。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能边摆小棒边说清 9+4 的凑十过程（拆小数、凑大数）",
+        "能脱离实物用「看大数、拆小数、凑成十」口算 9 加几"
+      ],
+      "assessmentPrompt": "问{{name}}：「9+6 你是怎么算的？把谁拆开？为什么拆它？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 8
+      },
+      "prerequisites": [
+        "ct_g1a_13",
+        "ct_g1a_14"
+      ]
+    },
+    {
+      "id": "ct_g1a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "凑十法迁移：8、7、6 加几",
+      "description": "把凑十法迁移到 8+5、7+6、6+9 等算式：拆小数凑大数（或拆大数凑小数），熟练计算 20 以内所有进位加法。方法上允许灵活选择，关键是理解算理而非死记步骤。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能口算 8、7、6 加几的进位加法并说清凑十思路",
+        "对同一题能说出不同凑十方案（如 8+5 拆 5 或拆 8）并比较"
+      ],
+      "assessmentPrompt": "让{{name}}算 8+7，追问：「除了把 7 拆成 2 和 5，还能怎么凑十？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 8
+      },
+      "prerequisites": [
+        "ct_g1a_22"
+      ]
+    },
+    {
+      "id": "ct_g1a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "20 以内进位加法（含 5、4、3、2 加几）与解决问题",
+      "description": "完成 20 以内进位加法全部口算（小数加大数可交换位置想大算式），达到熟练；会用进位加法解决「原来有多少」的反叙问题和「一共多少」的实际问题。为一年级下册的退位减法打基础。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "20 以内进位加法口算 20 题在 3 分钟内完成，正确率 95% 以上",
+        "能解决「领走 7 个气球后还剩 5 个，原来有几个」这类反叙求原数问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「4+8 不好想？能不能想一个你熟的算式？」（交换想 8+4）再考：「借走 9 本书还剩 4 本，原来有几本？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.06",
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 8
+      },
+      "prerequisites": [
+        "ct_g1a_19",
+        "ct_g1a_23"
+      ]
+    },
+    {
+      "id": "ct_g1b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "认识平面图形：长方形、正方形、三角形、圆、平行四边形",
+      "description": "通过描、画、拼、摆，直观辨认五种平面图形。重点是体会「面在体上」——用积木的一个面蘸印泥能印出平面图形，建立平面图形与立体图形的联系。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能从图形堆里辨认并说出五种平面图形的名字",
+        "能用立体图形的面印出或描出对应的平面图形，说出「面从体上来」"
+      ],
+      "assessmentPrompt": "给{{name}}一个圆柱积木，问：「能不能用它画出一个圆？」再问长方体能画出什么。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_g1b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形的拼组",
+      "description": "用相同的小图形拼成大图形：两个一样的长方形拼成大长方形或正方形、几个三角形拼成四边形等。在拼搭中直观感受图形之间的变换与关系，发展空间观念。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用 2 个同样的三角形拼出平行四边形、用 4 个拼出大三角形",
+        "能说出「一张正方形纸对折一次能变成什么图形」并演示"
+      ],
+      "assessmentPrompt": "给{{name}}几张相同的三角形纸片，试试能拼出哪些图形；再问：「一张正方形纸对折一次能变成什么图形」并演示。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_g1b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "十几减 9（破十法）",
+      "description": "学习 20 以内退位减法的核心方法：算 13-9 时，个位 3 减 9 不够减，把 13 拆成 10 和 3，先用 10-9=1，再加 3 得 4（破十法）；也可以想 9 加几等于 13（想加算减）。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能边摆小棒边讲清 13-9 的破十过程",
+        "能分别用破十法和想加算减两种方法算同一题"
+      ],
+      "assessmentPrompt": "问{{name}}：「13-9 你是怎么算的？还有别的算法吗？」观察能否说清「先算 10 减 9」。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1a_24"
+      ]
+    },
+    {
+      "id": "ct_g1b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "十几减 8、7、6 及十几减 5、4、3、2",
+      "description": "把退位减法推广到全部 20 以内退位减法，方法自主选择（破十、平十、想加算减均可），目标是熟练口算。到一年级末，20 以内加减法要全部过关。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "20 以内退位减法口算 20 题在 3 分钟内完成，正确率 95% 以上",
+        "对 15-8 能至少说清一种算法的步骤"
+      ],
+      "assessmentPrompt": "随机考{{name}} 10 道退位减法，记录用时和正确率，连续几天观察是否稳定达标。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_03"
+      ]
+    },
+    {
+      "id": "ct_g1b_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "含有多余条件的解决问题",
+      "description": "读实际问题时分清「有用条件」和「多余条件」：题目给三个信息，只有两个与问题有关，要先筛选再列式。这是从「看数列式」走向「读题分析」的关键一步。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用横线划掉题目中的多余条件并说明「为什么用不上」",
+        "能独立完成「求另一个加数」的问题（如一共 14 只，白兔 8 只，黑兔几只）"
+      ],
+      "assessmentPrompt": "读题给{{name}}听：「一共 15 只鸭，白鸭 9 只，河边有 3 棵树，灰鸭有几只？」看{{name}}是否忽略树的个数。",
+      "standards": [
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_04"
+      ]
+    },
+    {
+      "id": "ct_g1b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "分类与整理（按标准分类）",
+      "description": "把一堆物品按给定标准分类（如按颜色、按形状），再自定标准分类，并把分类结果整理成图或表。分类是统计的起点：先会「分」，才会「数」和「比」。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按指定标准把物品分堆，做到不重不漏",
+        "能换一个标准重新分一次，并说出两次分法的不同"
+      ],
+      "assessmentPrompt": "把铅笔、橡皮、尺子混在一起（有红有蓝），让{{name}}先按种类分、再按颜色分，说说两次结果有什么不同。",
+      "standards": [
+        "csmath-2022:S1.SP.DC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_g1b_07",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "象形统计图与简单统计表",
+      "description": "把分类结果「一个对一个」摆成一列列的图（象形统计图），或填成带数字的表格（简单统计表），直观比较「谁多谁少、多几个」。第一次经历「收集—整理—表达—分析」的完整统计过程。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能把分类结果整理成象形图，并回答「哪种最多、多几辆」",
+        "能按表格要求把数填对，并根据表提出一个数学问题"
+      ],
+      "assessmentPrompt": "数一数小区停车场三种车的数量，让{{name}}画成一列一列的图，问：「哪种车最多？比最少的多种几辆？」",
+      "standards": [
+        "csmath-2022:S1.SP.DE.01",
+        "csmath-2022:S1.SP.DC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1a_02",
+        "ct_g1b_06"
+      ]
+    },
+    {
+      "id": "ct_g1b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内的数数与数的组成",
+      "description": "一个一个、十个十个地数到 100，认识整十数；知道 100 以内的数由几个十和几个一组成（如 42 里有 4 个十和 2 个一）。体会「10 个一是 1 个十、10 个十是 1 个百」。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能十个十个地数到 100，也能从任意数接着数（如从 47 数到 53）",
+        "捆小棒摆出 34，能说出是 3 个十和 4 个一；反过来由组成摆数"
+      ],
+      "assessmentPrompt": "问{{name}}：「十个十个数，50 后面是几？68 里有几个十和几个一？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1a_17"
+      ]
+    },
+    {
+      "id": "ct_g1b_09",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内的读数、写数与百数表",
+      "description": "认识数位顺序（个位、十位、百位），在计数器上拨珠读写 100 以内的数；在百数表里发现数的排列规律（横看、竖看、斜看），感受数之间的联系。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能在计数器上拨出 45 并写出、读出这个数",
+        "能说出「67」十位和个位上各是几、各表示什么",
+        "能在百数表空格里填出缺的数，并说出竖列相邻两数相差 10"
+      ],
+      "assessmentPrompt": "给{{name}}一张挖空的百数表片段（如 45、46、55 的邻格），让{{name}}补完整并说说发现的规律。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1a_18",
+        "ct_g1b_08"
+      ]
+    },
+    {
+      "id": "ct_g1b_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内数的顺序与大小比较",
+      "description": "比较 100 以内两个数的大小：先比十位（十位大的数大），十位相同再比个位。能用「多得多、多一些、少得多、少一些」描述两个数相差的程度，发展数感。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确比较两个两位数的大小并说明「先看哪一位」",
+        "能用「多得多/多一些」准确描述 25 与 30、25 与 80 的差别"
+      ],
+      "assessmentPrompt": "问{{name}}：「53 和 58 谁大？你是怎么比的？」再问：「25 和 80，用『多得多』说一句话。」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1a_06",
+        "ct_g1b_09"
+      ]
+    },
+    {
+      "id": "ct_g1b_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整十数加一位数及相应的减法",
+      "description": "口算 30+4、34-4、34-30 这类算式：利用数的组成（3 个十和 4 个一合成 34）直接得结果。既是位值制的应用，也是后续两位数加减计算的口算基础。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能口算整十数加一位数和相应减法，并说清想法",
+        "能解决「一箱酸奶 30 瓶，再拿 4 瓶，一共几瓶」这类问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「40+8 等于几？48-40 呢？你是怎么想的？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.03",
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1b_08"
+      ]
+    },
+    {
+      "id": "ct_g1b_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "认识人民币：元、角、分",
+      "description": "认识人民币的单位元、角、分和各面额钱币，知道 1 元=10 角、1 角=10 分。能认币、换钱（一张 5 角换 5 张 1 角），体会元角分之间的十进关系。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能认出各种面额的人民币并说出单位",
+        "能完成换钱：1 元能换几张 5 角、几张 1 角",
+        "能数出几元几角（如 1 张 1 元 + 3 枚 1 角 是 1 元 3 角）"
+      ],
+      "assessmentPrompt": "玩购物游戏：一支铅笔 8 角，给{{name}} 1 元，应找回几角？怎样付最方便？",
+      "standards": [
+        "csmath-2022:S1.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1b_10"
+      ]
+    },
+    {
+      "id": "ct_g1b_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "人民币的简单计算",
+      "description": "进行元角分的简单加减计算（单位相同才相加减，如 5 角+8 角=13 角=1 元 3 角），并用人民币知识解决购物问题：应付多少、找回多少、怎样付钱。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能进行几元几角的加减并正确换算单位",
+        "能解决「买两样东西共多少钱、付 10 元找回几元」的购物问题"
+      ],
+      "assessmentPrompt": "模拟商店：橡皮 1 元 2 角、本子 3 元 5 角，问{{name}}：「两样都买要付多少钱？付 5 元应找回多少？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1b_11",
+        "ct_g1b_12"
+      ]
+    },
+    {
+      "id": "ct_g1b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整十数加、减整十数",
+      "description": "口算 30+40、70-30 这类算式：想「3 个十加 4 个十是 7 个十」，方法与 10 以内加减法一致，只是计数单位变成了「十」。渗透相同单位才能相加减的思想。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能口算整十数加减整十数并说清「按几个十来算」",
+        "能解决「左边 30 朵花、右边 40 朵，一共几朵」的实际问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「30+40 你是怎么想的？如果按 3 加 4 等于 7，为什么得数是 70？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1b_11"
+      ]
+    },
+    {
+      "id": "ct_g1b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数加一位数、整十数（不进位）",
+      "description": "口算 34+3 和 34+30：加一位数只把个位相加（先算 4+3），加整十数只把十位相加（先算 30+30）。在对比中体会「相同数位上的数才能直接相加」。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能区分并正确口算两位数加一位数、加整十数两类题",
+        "能说出 34+3 和 34+30 「先算什么」有何不同"
+      ],
+      "assessmentPrompt": "出两道题 42+5 和 42+50，问{{name}}：「先算的是哪一步？为什么不一样？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_14",
+        "ct_g1b_14"
+      ]
+    },
+    {
+      "id": "ct_g1b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数减一位数、整十数（不退位）",
+      "description": "口算 36-4 和 36-20：减一位数先算个位（6-4），减整十数先算十位（30-20）。与加法对应，巩固「相同数位直接相加减」的法则。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确口算两位数减一位数、减整十数",
+        "能解释 36-4 先算 6-4，而 36-20 先算 30-20 的原因"
+      ],
+      "assessmentPrompt": "考{{name}}：57-4 和 57-40 各等于几？先算的是哪一位？",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1b_15"
+      ]
+    },
+    {
+      "id": "ct_g1b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数加、减一位数（进位与退位口算）",
+      "description": "口算 36+8（个位满十向十位进一，得 44）和 36-8（个位不够减，退一当十，得 28）。这是一年级口算的最后难关，熟练后才能支撑二年级的竖式笔算。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说清 36+8 先算 6+8=14、再算 30+14 的两步过程",
+        "进位加退位减口算 10 题正确 9 题以上"
+      ],
+      "assessmentPrompt": "问{{name}}：「36+8 怎么算？26 这个答案错在哪里？」（可能忘了进位）",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_22",
+        "ct_g1b_15",
+        "ct_g1b_16"
+      ]
+    },
+    {
+      "id": "ct_g1b_18",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小括号",
+      "description": "认识小括号：算式里有小括号的，要先算小括号里面的。比较 10-(2+3) 和 10-2+3 的不同结果，体会括号改变运算顺序的作用。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确计算含小括号的加减混合算式",
+        "能举例说明同一个式子加不加括号结果不同"
+      ],
+      "assessmentPrompt": "写两道题 12-(5+2) 和 12-5+2，问{{name}}：「结果一样吗？先算哪里？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g1a_16"
+      ]
+    },
+    {
+      "id": "ct_g1b_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "找规律（重复排列）",
+      "description": "发现并描述简单的排列规律，如红黄蓝、红黄蓝地重复；能接着往下摆、往下画，并自己创造一个有规律的新排列。找规律是从具体计算走向发现结构的第一步。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能找出图形或数列的重复规律并说出「一组是什么」",
+        "能按规律接着画至少两组，并自创一个规律让家长猜"
+      ],
+      "assessmentPrompt": "摆一串「△○○△○○△」，问{{name}}：「下一个是什么？规律的一组是什么？」再让{{name}}自己摆一个新规律。",
+      "standards": [
+        "csmath-2022:S1.NA.QR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_g1b_20",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "摆一摆，想一想（位值探索）",
+      "description": "用 2 个圆片在数位表上摆出不同的数（2、11、20），发现圆片个数与所摆数的各数位数字之和的关系。在动手摆与有序思考中，综合运用位值知识，体验「有序枚举才不重不漏」的思维方法。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能用 3 个圆片摆出 3、12、21、30 全部四个数，不重不漏",
+        "能发现并说出「每个数的十位加个位都等于圆片数」"
+      ],
+      "assessmentPrompt": "给{{name}} 4 个圆片和一张数位表，问：「能摆出几个不同的数？怎样摆才能一个不漏？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1b_09"
+      ]
+    },
+    {
+      "id": "ct_g2a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "统一长度单位的必要",
+      "description": "用不同物品量同一张桌子（用铅笔量是 3 支，用橡皮量是 8 块），发现「量同一物体，单位不同结果就不同」，从而理解统一计量单位的必要性。这是测量概念的起点。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能解释为什么用不同物品量同一物体结果不同",
+        "量物体时会主动选择同一物品作单位，一个接一个不留空不重叠"
+      ],
+      "assessmentPrompt": "让{{name}}分别用铅笔和回形针量同一本书的边，问：「为什么数量不一样？怎样才能让大家的答案一样？」",
+      "standards": [
+        "csmath-2022:S1.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_g2a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "厘米的认识与测量",
+      "description": "认识长度单位厘米（cm），建立 1 厘米的长度观念（食指宽约 1 厘米），会用刻度尺量线段和物体长度：把 0 刻度对准一端，读另一端的刻度。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用尺子正确量出物体长度（从 0 刻度量起），读数准确",
+        "不是从 0 量起时（如从 3 量到 9），会用大数减小数得出长度",
+        "能用两指比出大约 1 厘米有多长"
+      ],
+      "assessmentPrompt": "让{{name}}量一支铅笔的长度，追问：「如果从尺子的 3 厘米刻度开始量到 12 厘米处，铅笔到底多长？」",
+      "standards": [
+        "csmath-2022:S1.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_g2a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "米的认识、线段与估测",
+      "description": "认识米（m），知道 1 米=100 厘米，会用米尺量较长物体；认识线段是直的、有两个端点、可量长度，会画定长线段；能先估再量，养成估测意识。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能量黑板、教室的长并选对单位（米还是厘米）",
+        "会画一条 5 厘米长的线段，标出端点",
+        "估一本书的长再实测，误差在合理范围内"
+      ],
+      "assessmentPrompt": "问{{name}}：「量操场该用米还是厘米？1 米大约到你身体的哪里？」再让{{name}}画一条 7 厘米的线段。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g2a_02"
+      ]
+    },
+    {
+      "id": "ct_g2a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内不进位加法竖式",
+      "description": "学习竖式笔算两位数加两位数（不进位）：相同数位对齐，从个位加起，如 34+23。竖式是笔算的基本形式，对齐和顺序两条规则要一开始就规范。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用竖式正确计算不进位加法，数位对得齐、格式规范",
+        "能说出「为什么 3 要和 2 对齐、4 要和 3 对齐」"
+      ],
+      "assessmentPrompt": "让{{name}}用竖式算 43+36，边写边说：「先写什么、先算哪位、为什么对齐？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_15"
+      ]
+    },
+    {
+      "id": "ct_g2a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内进位加法竖式",
+      "description": "竖式计算两位数加两位数的进位加法：个位相加满十，向十位进 1（如 36+35=71）。重点养成「进位标记」和「算十位时加进位 1」的习惯，计算后能验算。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能规范书写进位小 1，正确计算进位加法",
+        "能用交换加数再算一遍的方法验算结果",
+        "能解决「两班一共多少人」的实际问题"
+      ],
+      "assessmentPrompt": "让{{name}}竖式计算 47+26，检查是否标进位、十位是否加了进上来的 1。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07",
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_17",
+        "ct_g2a_04"
+      ]
+    },
+    {
+      "id": "ct_g2a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内不退位减法竖式",
+      "description": "竖式计算两位数减两位数（不退位）：相同数位对齐，从个位减起，如 67-24。规范竖式格式，能结合情境解决「比多少、还剩」的问题。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用竖式正确计算不退位减法",
+        "能列式解决「大船比小船多坐几人」的问题"
+      ],
+      "assessmentPrompt": "让{{name}}用竖式算 58-23，说一说从哪位算起、每一步算的是什么。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_16",
+        "ct_g2a_04"
+      ]
+    },
+    {
+      "id": "ct_g2a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "100 以内退位减法竖式",
+      "description": "竖式计算退位减法：个位不够减，从十位退 1 当 10 再减（如 51-36=15）。重点养成「退位点」标记和「十位要先减去退走的 1」的习惯。这是低年级笔算的最大难点之一。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能规范标记退位点，正确计算退位减法",
+        "能用「差加减数等于被减数」验算",
+        "连续 10 道退位减竖式正确 9 道以上"
+      ],
+      "assessmentPrompt": "让{{name}}竖式计算 62-48，重点看：个位怎么处理？十位算的是几减几？",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1b_17",
+        "ct_g2a_06"
+      ]
+    },
+    {
+      "id": "ct_g2a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "连加、连减和加减混合笔算",
+      "description": "用竖式或简便写法计算三个两位数的连加、连减和加减混合（如 28+34+22、82-40-16），学会能口算的步骤用口算简化。能解决「两站上客下客后剩几人」的两步问题。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确计算 100 以内连加连减加减混合，会分步列竖式",
+        "能解决乘车问题：「车上原有 67 人，下 25 人上 28 人，现在几人」"
+      ],
+      "assessmentPrompt": "给{{name}}一道乘车问题，让{{name}}说清先算什么、再算什么，并列出综合算式。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.07",
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g2a_05",
+        "ct_g2a_07"
+      ]
+    },
+    {
+      "id": "ct_g2a_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求比一个数多（少）几的数",
+      "description": "分析「比一个数多几/少几」的数量关系：知道「红花比黄花多 7 朵」，求红花就是用加法（大数=小数+相差数）。与一年级「求相差数」相反方向，是低年级应用题的重点题型。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能画示意图（一一对应摆条形）表示「谁多谁少、相差几」",
+        "能正确判断用加法还是减法，并说清理由",
+        "会提「比一个数多几/少几」的数学问题"
+      ],
+      "assessmentPrompt": "「小明有 25 张卡片，小丽的比他多 13 张，小丽有几张？」让{{name}}画一画再列式，追问：为什么用加法？",
+      "standards": [
+        "csmath-2022:S1.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1a_02",
+        "ct_g2a_07"
+      ]
+    },
+    {
+      "id": "ct_g2a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角的初步认识",
+      "description": "认识角：一个顶点、两条边；会从实物和图形中辨认角，知道角的大小与边画得长短无关，与两边张开程度有关；会画角、数角。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能指出角的顶点和边，正确数出图中角的个数",
+        "能用活动角演示「张口越大角越大」，并说明边变长角不变"
+      ],
+      "assessmentPrompt": "剪两把纸扇（一把边长一把边短但张口相同），问{{name}}：「哪个角大？」看是否被边长误导。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_g2a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直角、锐角、钝角",
+      "description": "认识直角，会用三角尺上的直角判断一个角是不是直角；直观辨认比直角小的锐角和比直角大的钝角。会在方格纸上画直角。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "会用三角尺的直角比一比，判断直角、锐角、钝角",
+        "能在生活中找到直角（书角、门角）并验证"
+      ],
+      "assessmentPrompt": "画一个 60° 左右的角，让{{name}}用三角尺判断是锐角还是钝角，说说怎么比的。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g2a_10"
+      ]
+    },
+    {
+      "id": "ct_g2a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法的初步认识",
+      "description": "从相同加数连加（3+3+3+3）引出乘法：求几个相同加数的和可以用乘法算，写作 3×4=12，读作「3 乘 4」。认识乘号，理解乘法算式中每部分的含义，体会乘法是加法的简便运算。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能把相同加数连加算式改写成乘法算式，并说出各数含义",
+        "看到 5×4 能画出图或摆出实物表示（5 个 4 或 4 个 5）",
+        "能区分 4+4+3 为什么不能直接改写成乘法"
+      ],
+      "assessmentPrompt": "摆 3 盘苹果、每盘 4 个，让{{name}}用加法和乘法两种算式求总数，并说说乘法算式里每个数的意思。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g1a_15"
+      ]
+    },
+    {
+      "id": "ct_g2a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "5 的乘法口诀",
+      "description": "编并背 5 的乘法口诀（一五得五……五五二十五），理解每句口诀对应的乘法算式，能用口诀计算 5×几和几×5。从 5 入手因为学生熟悉「5 个 5 个数」，容易体会口诀的来历。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能按顺序背出 5 的口诀，并能打乱顺序口答 5×3、5×6",
+        "能由「三五十五」一句说出两个乘法算式"
+      ],
+      "assessmentPrompt": "问{{name}}：「5×7 用哪句口诀？这句口诀还能算哪个算式？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g2a_12"
+      ]
+    },
+    {
+      "id": "ct_g2a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "2、3、4 的乘法口诀",
+      "description": "编并背 2、3、4 的乘法口诀（如二三得六、四四十六），能用口诀算相应的乘法算式，解决「每份几个、有几份」的简单乘法问题。逐步积累口诀量，理解相邻口诀间的联系。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能熟练背出 2、3、4 的口诀并正确计算",
+        "忘了「三四十二」时，能想到用「三个四相加」或相邻口诀推出来"
+      ],
+      "assessmentPrompt": "考{{name}}：4×3 等于几？如果忘了口诀，你还有什么办法算出来？",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08",
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g2a_13"
+      ]
+    },
+    {
+      "id": "ct_g2a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "6 的乘法口诀与乘加乘减",
+      "description": "编并背 6 的乘法口诀（到六六三十六）；学习乘加乘减（如 4×3+2），能看图列出不同算式（如 3 个 6 多 1，可列 6×3+1 或 6×4-5）。乘加乘减帮助灵活运用口诀、发展运算策略。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能熟练背 6 的口诀并正确计算",
+        "能计算 6×4-5 这类乘加乘减两步式题（先算乘法）",
+        "能对同一幅图（如 3 盘 5 个多 2 个）列出乘加和乘减两种算式"
+      ],
+      "assessmentPrompt": "摆 4 盘桃、每盘 6 个，再放 3 个单独的，让{{name}}用两种方法算总数（乘加、乘减）。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g2a_14"
+      ]
+    },
+    {
+      "id": "ct_g2a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "观察物体（一）：从不同方向看",
+      "description": "观察实物和立体图形，发现从前后左右不同方向看到的形状不同；能辨认从某个方向看到的图是什么样子。初步发展空间观念和「换位观察」意识。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能判断一张照片是从物体的哪一面拍的",
+        "四个方向观察同一个玩具，能画出/选出每个方向看到的样子"
+      ],
+      "assessmentPrompt": "放一只玩具汽车，让{{name}}从前面、侧面、后面分别看，问：「从上面看是什么样？和前面看一样吗？」",
+      "standards": [
+        "csmath-2022:S1.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_g2a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "7 的乘法口诀",
+      "description": "编并背 7 的乘法口诀（到七七四十九），结合「七星瓢虫、一星期 7 天」等情境理解意义。能解决「一个星期上 5 天课，7 个星期上几天」这类问题。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能熟练背 7 的口诀，打乱顺序口答正确",
+        "能解决与 7 有关的实际问题（如 7 辆车有几个轮子）"
+      ],
+      "assessmentPrompt": "问{{name}}：「一个星期 7 天，8 个星期多少天？用哪句口诀？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08",
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2a_15"
+      ]
+    },
+    {
+      "id": "ct_g2a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "8 的乘法口诀",
+      "description": "编并背 8 的乘法口诀（到八八六十四），能熟练用口诀计算，解决与 8 有关的实际问题（如一只螃蟹 8 条腿）。口诀量增大后，注意用规律帮助记忆（每多一个 8 就加 8）。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能熟练背 8 的口诀并正确计算",
+        "能利用「口诀间相差 8」的规律回忆忘记的口诀"
+      ],
+      "assessmentPrompt": "问{{name}}：「忘了六八多少，怎么办？」（想五八四十加八，或七八五十六减八）",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2a_17"
+      ]
+    },
+    {
+      "id": "ct_g2a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "9 的乘法口诀",
+      "description": "编并背 9 的乘法口诀（到九九八十一），发现 9 的口诀特殊规律（积的十位与个位之和是 9、几个 9 就比几个 10 少几）。至此表内乘法口诀全部学完，要能整体熟练背诵。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能背出全部 9 的口诀并正确计算",
+        "能说出至少一条 9 的口诀规律并用于记忆",
+        "能默写完整口诀表，乱序抽查 20 句全对"
+      ],
+      "assessmentPrompt": "和{{name}}玩口诀对答：家长说「四九」，孩子接「三十六」；再问「9 的口诀有什么好记的规律？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2a_18"
+      ]
+    },
+    {
+      "id": "ct_g2a_20",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "认识时间：时与分",
+      "description": "认识时间单位时和分：钟面上一大格是 5 分，一圈 60 分；知道 1 时=60 分。会读写几时几分（分针走过几个大格就是几个 5 分）。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能 5 分 5 分地数出分针指的分钟数",
+        "能读写 7:15、8:40 这样的几时几分，写法规范",
+        "能说出 1 时=60 分并演示时针走一大格时分针正好走一圈"
+      ],
+      "assessmentPrompt": "拨 9:35 的钟面，让{{name}}读出来；追问：「分针指 7 为什么是 35 分？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1a_21",
+        "ct_g2a_13"
+      ]
+    },
+    {
+      "id": "ct_g2a_21",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "时间的计算与合理安排",
+      "description": "计算简单经过时间（如 8:20 到 9:00 经过了 40 分），并能结合作息表合理安排时间。把钟表知识与加减法结合，是「量」的第一次综合计算应用。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能算出一节课 40 分钟、从 8:30 到几点结束",
+        "能看作息时间表回答「什么时刻做什么、中间经过多久」"
+      ],
+      "assessmentPrompt": "问{{name}}：「动画 8:15 开始，放到 8:55 结束，放了多少分钟？你是怎么算的？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g2a_20"
+      ]
+    },
+    {
+      "id": "ct_g2a_22",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "量一量，比一比（综合实践）",
+      "description": "综合运用测量和比较知识：测量身边物体的长度、用「身体尺」（拃、步）估测，通过比较建立长度的量感（如教室长约几米、铅笔约几厘米）。体验测量在生活中的应用。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "会选择合适单位和工具测量不同长度的物体",
+        "能用步测估出一段距离并说明理由（一步约 40 厘米，走了 20 步约 8 米）"
+      ],
+      "assessmentPrompt": "让{{name}}先估客厅的长度再量一量，说说估计和实测差多少、下次怎么估更准。",
+      "standards": [
+        "csmath-2022:S1.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g2a_03"
+      ]
+    },
+    {
+      "id": "ct_g2b_01",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "数据的调查与记录",
+      "description": "经历简单的数据收集过程：用举手、投票等方式调查全班同学最喜欢的水果，并用画「正」字、画√、画圈等方法动态记录数据，最后整理成统计表并回答问题。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "会用画「正」字的方法记录现场收集的数据",
+        "能根据记录填写统计表，并回答「最多的比最少的多几人」"
+      ],
+      "assessmentPrompt": "和{{name}}统计全家人一周内最爱的水果：先设计怎么记，再用画正字记录，最后说说从数据里发现了什么。",
+      "standards": [
+        "csmath-2022:S1.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 1
+      },
+      "prerequisites": [
+        "ct_g1b_07"
+      ]
+    },
+    {
+      "id": "ct_g2b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "平均分",
+      "description": "理解平均分：每份分得同样多。能把 12 个苹果平均分成 3 份（每份 4 个），也能按每 2 个一份去分（分成 6 份）。平均分是除法概念的基础，动手分的过程比结论更重要。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能动手把物品平均分成几份，并检查「每份一样多」",
+        "能区分「平均分成 3 份」和「每 3 个一份」两种分法的不同问法"
+      ],
+      "assessmentPrompt": "给{{name}} 15 颗糖：「平均分给 3 个人，每人几颗？」再问：「每 2 颗装一袋，能装几袋，还剩不剩？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_g2b_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除法的初步认识",
+      "description": "认识除法：把平均分的过程用除法算式表示（12÷3=4），认识除号，知道算式各部分名称（被除数、除数、商），能说出算式表示「把 12 平均分成 3 份，每份是 4」。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能把平均分的结果写成除法算式，并说出每个数的含义",
+        "看到 18÷6 能摆出或画出它表示的平均分过程"
+      ],
+      "assessmentPrompt": "让{{name}}分 18 根小棒到 6 个盘子里，列除法算式，说一说被除数、除数、商各是几、各表示什么。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g2b_02"
+      ]
+    },
+    {
+      "id": "ct_g2b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用 2~6 的乘法口诀求商",
+      "description": "用「想乘算除」求商：算 12÷3，想「三（四）十二」，商是 4。体会乘除法互逆关系，熟练计算表内除法（2~6 部分），并解决「平均分后每份几、能分几份」的问题。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出求商时想的是哪句口诀",
+        "能由 3×4=12 直接写出 12÷3 和 12÷4 的商",
+        "能解决「18 元买 3 元一支的笔，能买几支」的问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「12÷4 等于几？你想的是哪句口诀？」再考一道买东西的问题。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.09",
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 2
+      },
+      "prerequisites": [
+        "ct_g2a_14",
+        "ct_g2b_03"
+      ]
+    },
+    {
+      "id": "ct_g2b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "轴对称图形初步",
+      "description": "通过折纸、剪窗花认识轴对称图形：对折后完全重合的图形是轴对称图形，折痕是对称轴。能辨认轴对称图形，能找出或画出简单图形的对称轴。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用对折的方法检验并挑出轴对称图形",
+        "能剪出一个轴对称图形（先对折再剪）并指出对称轴",
+        "能说出生活中 3 个轴对称的例子（蝴蝶、剪纸、天安门）"
+      ],
+      "assessmentPrompt": "给{{name}}几张图形卡片（心形、平行四边形、字母 S、字母 A），问：「哪些对折后能完全重合？折折看。」",
+      "standards": [
+        "csmath-2022:S1.GS.MT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1b_02"
+      ]
+    },
+    {
+      "id": "ct_g2b_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平移与旋转初步",
+      "description": "直观认识平移（物体沿直线移动，如推拉窗、电梯）和旋转（绕一点转动，如风车、摩天轮），能区分并举例，能在方格纸上判断图形平移几格后的位置。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能判断常见物体的运动是平移还是旋转并说明理由",
+        "能在方格纸上把简单图形平移几格并画出"
+      ],
+      "assessmentPrompt": "问{{name}}：「电梯上升、风扇转动、推拉抽屉，各是什么运动？生活中还有哪些？」",
+      "standards": [
+        "csmath-2022:S1.GS.MT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 3
+      },
+      "prerequisites": [
+        "ct_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_g2b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用 7~9 的乘法口诀求商",
+      "description": "用 7~9 的口诀求商（如 56÷8 想「七八五十六」），至此表内除法全部学完。要求达到「乘法口诀及其逆用」整体熟练：给一句口诀能写两乘两除四个算式。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "表内除法口算 20 题 2 分钟内完成，正确率 95% 以上",
+        "能由「六八四十八」写出 6×8、8×6、48÷6、48÷8 四个算式"
+      ],
+      "assessmentPrompt": "和{{name}}玩口诀接龙：家长说口诀前半句，孩子接结果并说出对应的除法算式。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g2a_19",
+        "ct_g2b_04"
+      ]
+    },
+    {
+      "id": "ct_g2b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "份总关系与乘除法问题",
+      "description": "分析「每份几个×几份=总数」的份总关系：知道每份和份数用乘法求总数；知道总数和份数用除法求每份；知道总数和每份用除法求份数。会根据同一情境提出并解决乘、除两类问题。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能画图表示份总关系（几个几），正确选择乘或除",
+        "能用同一幅图编一道乘法问题和两道除法问题"
+      ],
+      "assessmentPrompt": "「每盒 6 块巧克力，5 盒一共多少块？」让{{name}}列式后追问：「30 块装 5 盒，每盒几块？30 块每 6 块一盒，装几盒？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 4
+      },
+      "prerequisites": [
+        "ct_g2a_12",
+        "ct_g2b_07"
+      ]
+    },
+    {
+      "id": "ct_g2b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "混合运算的顺序",
+      "description": "掌握两级运算的运算顺序：只有加减或只有乘除，从左到右；有乘除又有加减，先算乘除后算加减；有括号先算括号里的。会写脱式计算的过程（等号对齐，一步步算）。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确判断先算什么，并规范写出脱式过程",
+        "对比题如 24-8+4 和 24-(8+4)、5×8-6 和 5×(8-6) 都能算对",
+        "能纠正「先算加减」的典型错误并说明原因"
+      ],
+      "assessmentPrompt": "让{{name}}计算 20-8÷2，追问：「先算哪步？为什么不是先算 20 减 8？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 5
+      },
+      "prerequisites": [
+        "ct_g1b_18",
+        "ct_g2b_04"
+      ]
+    },
+    {
+      "id": "ct_g2b_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有余数的除法：含义",
+      "description": "分东西分不完有剩余时，用有余数的除法表示（13÷4=3……1）。理解余数是被除数分完「完整的几份」后剩下的部分，会读、写有余数的除法算式。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "摆小棒分 13 根、每 4 根一份，能列出 13÷4=3……1 并说出各数含义",
+        "能判断一个除法算式里商和余数各表示什么"
+      ],
+      "assessmentPrompt": "给{{name}} 14 颗豆子每 4 颗装一袋：「能装几袋？剩几颗？算式怎么写？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2a_19",
+        "ct_g2b_03"
+      ]
+    },
+    {
+      "id": "ct_g2b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "余数与除数的关系",
+      "description": "通过摆小棒发现规律：余数一定比除数小（余数=除数说明还能再分一份）。能利用这个规律判断对错（如 17÷5=2……7 是错的）和进行除法试商。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出「余数必须比除数小」并解释原因",
+        "能发现「用一堆小棒摆四边形，余数只可能是 1、2、3」这类规律"
+      ],
+      "assessmentPrompt": "问{{name}}：「13÷4=2……5 对不对？为什么？」（余数 5 还能再分一份 4）",
+      "standards": [
+        "csmath-2022:S1.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2b_10"
+      ]
+    },
+    {
+      "id": "ct_g2b_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有余数除法的竖式与解决问题",
+      "description": "学写除法竖式（含余数），理解竖式各部分的来源；解决租船、购物类问题：10 人划船每船坐 3 人，至少要 4 条船（进一法）；20 元买 3 元一枝的花，最多买 6 枝（去尾法）。会根据问题判断「进一」还是「去尾」。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能规范书写除法竖式并计算有余数的除法",
+        "解决「至少/最多」问题时能解释商加 1 或舍去余数的理由"
+      ],
+      "assessmentPrompt": "「22 个同学去划船，每条船最多坐 4 人，至少要租几条船？」让{{name}}列式，追问：为什么 5 条不够、为什么是 6 条？",
+      "standards": [
+        "csmath-2022:S1.NA.NO.10",
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 6
+      },
+      "prerequisites": [
+        "ct_g2b_04",
+        "ct_g2b_11"
+      ]
+    },
+    {
+      "id": "ct_g2b_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "1000 以内数的认识",
+      "description": "一个一个、一十一十、一百一百地数，认识计数单位「千」：10 个一百是一千。知道 1000 以内的数由几个百、几个十和几个一组成，能估一估一大盒豆子大约有多少（培养数感）。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能从 480 一个一个数到 500、从 190 十个十个数到 260",
+        "能在计数器上拨出 305 并说出组成（3 个百和 5 个一）",
+        "读数写数正确：三百零四写作 304，中间的 0 不能丢"
+      ],
+      "assessmentPrompt": "问{{name}}：「999 再加 1 是多少？由几个百、几个十、几个一组成？」在计数器上拨一拨。",
+      "standards": [
+        "csmath-2022:S1.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1b_10"
+      ]
+    },
+    {
+      "id": "ct_g2b_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "10000 以内的数的认识与比较",
+      "description": "认识万：10 个一千是一万；掌握万以内数位顺序表（个、十、百、千、万），能读写万以内的数（含中间和末尾有 0 的情形），比较万以内数的大小（先比位数，位数相同从最高位比起）。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能按数位顺序表写出 5070 并读对（五千零七十）",
+        "能比较 3980 和 4025 的大小并说清「先比什么」",
+        "能说出「一个数从右边起第三位是什么位」"
+      ],
+      "assessmentPrompt": "写 4008 让{{name}}读，再问：「中间有两个 0 怎么读？末尾的 0 呢？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g2b_13"
+      ]
+    },
+    {
+      "id": "ct_g2b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整百、整千数的加减法口算",
+      "description": "口算整百整千数加减法（如 800+600、1300-500）：想「8 个百加 6 个百是 14 个百」。能结合买电器等情境解决万以内数的简单加减问题。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能口算整百整千加减法并说清算理（按几个百/千来想）",
+        "能解决「冰箱 2000 元，比洗衣机贵 800 元，洗衣机多少元」"
+      ],
+      "assessmentPrompt": "问{{name}}：「900+700 怎么想？电视 1500 元和电饭锅 800 元一共多少元？」",
+      "standards": [
+        "csmath-2022:S1.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 7
+      },
+      "prerequisites": [
+        "ct_g1b_14",
+        "ct_g2b_14"
+      ]
+    },
+    {
+      "id": "ct_g2b_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "克与千克",
+      "description": "认识质量单位克（g）和千克（kg）：1 千克=1000 克。会看秤指针读质量，能掂一掂建立量感（1 枚 2 分硬币约 1 克，两袋盐约 1 千克），能选择合适的质量单位。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出克与千克的关系并正确选择单位（一个苹果约 200 克）",
+        "能读出盘秤/电子秤上的质量示数",
+        "能比较「1500 克和 2 千克」谁重"
+      ],
+      "assessmentPrompt": "让{{name}}掂一掂一袋盐（500 克）和两袋盐，问：「两袋是多少克？合多少千克？一枚硬币大约多重？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 8
+      },
+      "prerequisites": [
+        "ct_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_g2b_17",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数学广角：简单推理",
+      "description": "用「不是……就是……」和排除法做简单推理：知道小红拿的不是数学书也不是语文书，推出她拿的是品德书。会用连线或表格整理信息，有条理地表达推理过程。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用排除法两步推出结论并说清每步理由",
+        "能解决简单的数独（3×3 或 4×4 填数）问题"
+      ],
+      "assessmentPrompt": "出题：三个盒子分别装红、黄、蓝球。红球不在 1 号盒，黄球在 3 号盒。让{{name}}推理各盒装什么，说清理由。",
+      "standards": [
+        "csmath-2022:S1.NA.QR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 9
+      },
+      "prerequisites": [
+        "ct_g1b_19"
+      ]
+    }
+  ]
+}

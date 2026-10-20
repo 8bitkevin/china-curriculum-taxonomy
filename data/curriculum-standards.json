@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 1,
+  "codeScheme": {
+    "id": "cct-code-v1",
+    "description": "本仓库自建的稳定课标条目代码，格式 学段.领域.子领域.序号（如 S1.NA.NO.01）。官方课程标准原文无条目编号；此代码仅为数据引用便利，不代表官方编号。学段：S1=一（1-2 年级）、S2=二（3-4 年级）、S3=三（5-6 年级）。领域：NA=数与代数、GS=图形与几何、SP=统计与概率、IP=综合与实践。子领域：NO=数与运算、QR=数量关系、CM=图形的认识与测量、MT=图形的位置与运动、DC=数据分类、DE=数据的收集整理与表达。"
+  },
+  "codesOnlySources": [
+    "csmath-2022"
+  ],
+  "curriculumCount": 1,
+  "curricula": [
+    {
+      "slug": "csmath-2022",
+      "title": "义务教育数学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "textIncluded": false,
+      "topicCount": 27,
+      "topics": [
+        {
+          "key": "csmath-2022:S1.NA.NO.01",
+          "code": "S1.NA.NO.01",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "10以内数的认识（数数、基数、读写、大小、序数）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.02",
+          "code": "S1.NA.NO.02",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "20以内数的认识与位值初步"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.03",
+          "code": "S1.NA.NO.03",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "100以内数的认识与数位"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.04",
+          "code": "S1.NA.NO.04",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "万以内数的认识与数位顺序"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.05",
+          "code": "S1.NA.NO.05",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "10以内数的加减法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.06",
+          "code": "S1.NA.NO.06",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "20以内进位加法与退位减法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.07",
+          "code": "S1.NA.NO.07",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "100以内数的加减法（口算与竖式）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.08",
+          "code": "S1.NA.NO.08",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "表内乘法（乘法意义与口诀）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.09",
+          "code": "S1.NA.NO.09",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "表内除法（平均分与用口诀求商）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.10",
+          "code": "S1.NA.NO.10",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "有余数的除法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.01",
+          "code": "S1.NA.QR.01",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "一一对应与比多少"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.02",
+          "code": "S1.NA.QR.02",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "加减法实际问题（总量与部分量、差比关系）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.03",
+          "code": "S1.NA.QR.03",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "份总关系与乘除法实际问题"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.04",
+          "code": "S1.NA.QR.04",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "混合运算的运算顺序"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.05",
+          "code": "S1.NA.QR.05",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：人民币"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.06",
+          "code": "S1.NA.QR.06",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：钟表与时、分"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.07",
+          "code": "S1.NA.QR.07",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：克与千克"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.08",
+          "code": "S1.NA.QR.08",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "探索简单的排列规律"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.01",
+          "code": "S1.GS.CM.01",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长方体、正方体、圆柱、球的直观辨认"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.02",
+          "code": "S1.GS.CM.02",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长方形、正方形、三角形、圆、平行四边形的直观辨认"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.03",
+          "code": "S1.GS.CM.03",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "角与直角、锐角、钝角的初步认识"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.04",
+          "code": "S1.GS.CM.04",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长度单位（厘米、米）与线段、测量、估测"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.01",
+          "code": "S1.GS.MT.01",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "用上下、前后、左右描述相对位置"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.02",
+          "code": "S1.GS.MT.02",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "从不同方向观察物体"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.03",
+          "code": "S1.GS.MT.03",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "图形运动初步：轴对称、平移、旋转"
+        },
+        {
+          "key": "csmath-2022:S1.SP.DC.01",
+          "code": "S1.SP.DC.01",
+          "stage": 1,
+          "domain": "统计与概率",
+          "title": "按给定标准分类、自定标准分类"
+        },
+        {
+          "key": "csmath-2022:S1.SP.DE.01",
+          "code": "S1.SP.DE.01",
+          "stage": 1,
+          "domain": "统计与概率",
+          "title": "数据的收集、记录与简单整理（象形图、简单统计表）"
+        }
+      ]
+    }
+  ]
+}
