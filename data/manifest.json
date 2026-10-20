@@ -29,8 +29,8 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 90698,
-      "sha256": "8373480f2f579df963ee75cb89b8cd832121057c579d39297dcd9740d40a75f5"
+      "bytes": 93105,
+      "sha256": "e2eebcb20c86f99bcb537f35f5f7a97a3231f1f3a2744b8c9efe6959abab49ef"
     },
     "dependencies.json": {
       "bytes": 16461,

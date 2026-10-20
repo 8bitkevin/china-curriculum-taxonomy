@@ -27,7 +27,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       }
     },
     {
@@ -53,7 +54,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       }
     },
     {
@@ -79,7 +81,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       }
     },
     {
@@ -105,7 +108,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       }
     },
     {
@@ -131,7 +135,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_01"
@@ -160,7 +165,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -190,7 +196,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -219,7 +226,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -250,7 +258,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_05",
@@ -282,7 +291,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_08",
@@ -314,7 +324,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -343,7 +354,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       }
     },
     {
@@ -370,7 +382,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_05",
@@ -400,7 +413,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_09",
@@ -431,7 +445,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_14"
@@ -460,7 +475,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_15"
@@ -489,7 +505,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_13"
@@ -518,7 +535,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_17"
@@ -547,7 +565,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_14",
@@ -577,7 +596,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_13"
@@ -606,7 +626,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_20"
@@ -635,7 +656,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8
+        "unit": 8,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_13",
@@ -665,7 +687,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8
+        "unit": 8,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_22"
@@ -695,7 +718,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8
+        "unit": 8,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_19",
@@ -725,7 +749,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -754,7 +779,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -783,7 +809,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_24"
@@ -812,7 +839,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_03"
@@ -841,7 +869,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_04"
@@ -870,7 +899,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -900,7 +930,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -930,7 +961,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_17"
@@ -960,7 +992,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_18",
@@ -990,7 +1023,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_06",
@@ -1021,7 +1055,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_08"
@@ -1051,7 +1086,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_10"
@@ -1080,7 +1116,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_11",
@@ -1110,7 +1147,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_11"
@@ -1139,7 +1177,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_14",
@@ -1169,7 +1208,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_15"
@@ -1198,7 +1238,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_22",
@@ -1229,7 +1270,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_16"
@@ -1258,7 +1300,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_13"
@@ -1287,7 +1330,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_09"
@@ -1316,7 +1360,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_02"
@@ -1346,7 +1391,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_01"
@@ -1376,7 +1422,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_02"
@@ -1405,7 +1452,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_15"
@@ -1436,7 +1484,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_17",
@@ -1466,7 +1515,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_16",
@@ -1497,7 +1547,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_17",
@@ -1528,7 +1579,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_05",
@@ -1559,7 +1611,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -1589,7 +1642,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -1618,7 +1672,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_10"
@@ -1648,7 +1703,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_15"
@@ -1677,7 +1733,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_12"
@@ -1707,7 +1764,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_13"
@@ -1737,7 +1795,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_14"
@@ -1766,7 +1825,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -1796,7 +1856,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_15"
@@ -1825,7 +1886,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_17"
@@ -1855,7 +1917,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_18"
@@ -1885,7 +1948,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_21",
@@ -1915,7 +1979,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_20"
@@ -1944,7 +2009,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_03"
@@ -1973,7 +2039,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 1
+        "unit": 1,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_07"
@@ -2002,7 +2069,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1a_02"
@@ -2031,7 +2099,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2b_02"
@@ -2062,7 +2131,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 2
+        "unit": 2,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_14",
@@ -2093,7 +2163,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_02"
@@ -2122,7 +2193,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 3
+        "unit": 3,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -2151,7 +2223,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_19",
@@ -2181,7 +2254,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 4
+        "unit": 4,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_12",
@@ -2212,7 +2286,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 5
+        "unit": 5,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_18",
@@ -2242,7 +2317,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_19",
@@ -2272,7 +2348,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2b_10"
@@ -2302,7 +2379,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6
+        "unit": 6,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2b_04",
@@ -2333,7 +2411,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_10"
@@ -2363,7 +2442,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2b_13"
@@ -2392,7 +2472,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7
+        "unit": 7,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_14",
@@ -2423,7 +2504,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 8
+        "unit": 8,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g2a_01"
@@ -2452,7 +2534,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 9
+        "unit": 9,
+        "editionYear": 2022
       },
       "prerequisites": [
         "ct_g1b_19"

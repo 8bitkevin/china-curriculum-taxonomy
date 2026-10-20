@@ -53,12 +53,13 @@
           },
           "textbook": {
             "type": "object",
-            "required": ["publisher", "grade", "volume", "unit"],
+            "required": ["publisher", "grade", "volume", "unit", "editionYear"],
             "properties": {
               "publisher": { "type": "string", "description": "教材版本，如「人教版」" },
               "grade": { "type": "integer", "minimum": 1, "maximum": 12 },
               "volume": { "type": "string", "enum": ["上", "下"] },
-              "unit": { "type": ["string", "integer"], "description": "所属单元号或单元名" }
+              "unit": { "type": ["string", "integer"], "description": "所属单元号或单元名" },
+              "editionYear": { "type": "integer", "minimum": 2000, "maximum": 2100, "description": "教材印次/版次年（D-006：按学期跟进新版，跟版时重校对应册）" }
             },
             "additionalProperties": false
           },

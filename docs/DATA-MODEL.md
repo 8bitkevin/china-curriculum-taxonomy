@@ -16,7 +16,7 @@
 | `evidence` | string[] | **可观察**的掌握证据（家长能照着判断），≥1 条 |
 | `assessmentPrompt` | string\|null | 口头测评问法，必须含 `{{name}}` 占位符 |
 | `standards` | string[] | `csmath-2022:S{学段}.{领域}.{子领域}.{序号}`，指向 curriculum-standards |
-| `textbook` | object | `{publisher, grade, volume, unit}`：教材锚点；`grade/volume` 必须与主题 `grade/semester` 一致（validate 强制） |
+| `textbook` | object | `{publisher, grade, volume, unit, editionYear}`：教材锚点；`grade/volume` 必须与主题 `grade/semester` 一致（validate 强制）；`editionYear` 为教材版次年（如 2022 = 2022 课标版首印），跟版重校时更新（D-006） |
 | `prerequisites` | string[] | **冗余字段，勿手编**：由 `npm run manifest` 从依赖边自动注入，validate 强制与 dependencies.json 一致 |
 
 ## data/dependencies.json — 先修边
