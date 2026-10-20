@@ -12,6 +12,7 @@
     "validate": "node scripts/validate.mjs",
     "test": "node --test scripts/*.test.mjs",
     "extract-toc": "python scripts/extract-toc.py",
-    "toc-check": "python scripts/extract-toc.py --check"
+    "toc-check": "python scripts/extract-toc.py --check",
+    "report": "node scripts/report.mjs"
   }
 }

@@ -4,7 +4,7 @@
   "generatedAt": "2026-10-20",
   "counts": {
     "topics": 83,
-    "dependencies": 107,
+    "dependencies": 108,
     "standards": 27,
     "byGrade": {
       "1年级上": 24,
@@ -29,12 +29,12 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 93105,
-      "sha256": "e2eebcb20c86f99bcb537f35f5f7a97a3231f1f3a2744b8c9efe6959abab49ef"
+      "bytes": 93159,
+      "sha256": "f4c5911e3426c3f4ef719ba47131a50e31bfba447f967b534459b9340a7fb9dd"
     },
     "dependencies.json": {
-      "bytes": 16461,
-      "sha256": "0dc8b4f9212929ee8bbb82e33ef07b74f09961d743a9b4af6a1f190c0a09bf03"
+      "bytes": 19705,
+      "sha256": "75633c2cb8bbebe6fcbfbbdb87e5bd91293e63ab8b3c2c0941a1f6bb9f77efe2"
     },
     "curriculum-standards.json": {
       "bytes": 7003,

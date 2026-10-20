@@ -2,117 +2,655 @@
   "schemaVersion": 1,
   "version": "v0.1",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 107,
+  "edgeCount": 108,
   "dependencies": [
-    { "topicId": "ct_g1a_05", "prerequisiteId": "ct_g1a_01", "strength": "hard", "reason": "先会手口一致点数，才能把数量和数字 1~5 对应起来" },
-    { "topicId": "ct_g1a_06", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "比较 5 以内数的大小，前提是先认识这些数" },
-    { "topicId": "ct_g1a_06", "prerequisiteId": "ct_g1a_02", "strength": "soft", "reason": "一一对应的比较经验，迁移到用数直接比大小" },
-    { "topicId": "ct_g1a_07", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "「第几」建立在已认识 1~5 各数的基础上" },
-    { "topicId": "ct_g1a_08", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "数的分与合是对已认识的数进行拆分组合" },
-    { "topicId": "ct_g1a_09", "prerequisiteId": "ct_g1a_08", "strength": "hard", "reason": "加法的口算方法就是想数的组成（合）" },
-    { "topicId": "ct_g1a_09", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "加法算式里的数都在 5 以内，需先认识" },
-    { "topicId": "ct_g1a_10", "prerequisiteId": "ct_g1a_09", "strength": "hard", "reason": "减法含义（去掉一部分）在加法（合并）的基础上对比理解" },
-    { "topicId": "ct_g1a_10", "prerequisiteId": "ct_g1a_08", "strength": "hard", "reason": "减法的口算方法同样是想数的组成（分）" },
-    { "topicId": "ct_g1a_11", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "0 表示「一个也没有」，是在认识 1~5 后的扩展" },
-    { "topicId": "ct_g1a_13", "prerequisiteId": "ct_g1a_05", "strength": "hard", "reason": "6~10 的认识是 1~5 认数经验的直接扩展" },
-    { "topicId": "ct_g1a_13", "prerequisiteId": "ct_g1a_06", "strength": "soft", "reason": "已有的比大小经验迁移到 10 以内" },
-    { "topicId": "ct_g1a_14", "prerequisiteId": "ct_g1a_09", "strength": "hard", "reason": "10 以内加法在 5 以内加法基础上扩展" },
-    { "topicId": "ct_g1a_14", "prerequisiteId": "ct_g1a_10", "strength": "hard", "reason": "10 以内减法在 5 以内减法基础上扩展" },
-    { "topicId": "ct_g1a_14", "prerequisiteId": "ct_g1a_13", "strength": "hard", "reason": "口算依赖 6~10 各数的组成熟练" },
-    { "topicId": "ct_g1a_15", "prerequisiteId": "ct_g1a_14", "strength": "hard", "reason": "连加连减是两个一步加减法的串联" },
-    { "topicId": "ct_g1a_16", "prerequisiteId": "ct_g1a_15", "strength": "hard", "reason": "加减混合在连加连减「依次计算」的基础上再变化运算符号" },
-    { "topicId": "ct_g1a_17", "prerequisiteId": "ct_g1a_13", "strength": "hard", "reason": "11~20 以 10 以内数为基数，按「十和几」组建" },
-    { "topicId": "ct_g1a_18", "prerequisiteId": "ct_g1a_17", "strength": "hard", "reason": "数位（十位个位）是 11~20 数组成的符号化表达" },
-    { "topicId": "ct_g1a_19", "prerequisiteId": "ct_g1a_18", "strength": "hard", "reason": "10 加几的口算直接按数位组成得结果" },
-    { "topicId": "ct_g1a_19", "prerequisiteId": "ct_g1a_14", "strength": "soft", "reason": "已有 10 以内加减法技能支撑这类算式的理解" },
-    { "topicId": "ct_g1a_20", "prerequisiteId": "ct_g1a_13", "strength": "soft", "reason": "认读钟面数字需要先认识 1~10" },
-    { "topicId": "ct_g1a_21", "prerequisiteId": "ct_g1a_20", "strength": "hard", "reason": "半时的认读建立在整时（分针指 12）的对照之上" },
-    { "topicId": "ct_g1a_22", "prerequisiteId": "ct_g1a_14", "strength": "hard", "reason": "凑十法第二步 10 加几用到 10 以内加法" },
-    { "topicId": "ct_g1a_22", "prerequisiteId": "ct_g1a_13", "strength": "hard", "reason": "凑十的核心就是 10 的组成（9 和 1 凑成十）" },
-    { "topicId": "ct_g1a_23", "prerequisiteId": "ct_g1a_22", "strength": "hard", "reason": "8、7、6 加几是把 9 加几的凑十方法迁移" },
-    { "topicId": "ct_g1a_24", "prerequisiteId": "ct_g1a_23", "strength": "hard", "reason": "小数加大数交换后仍用凑十法计算" },
-    { "topicId": "ct_g1a_24", "prerequisiteId": "ct_g1a_19", "strength": "soft", "reason": "凑十后的 10 加几一步直接得结果" },
-
-    { "topicId": "ct_g1b_01", "prerequisiteId": "ct_g1a_12", "strength": "hard", "reason": "平面图形通过「描立体图形的面」获得，先认立体图形" },
-    { "topicId": "ct_g1b_02", "prerequisiteId": "ct_g1b_01", "strength": "hard", "reason": "拼组前必须先能辨认各种平面图形" },
-    { "topicId": "ct_g1b_03", "prerequisiteId": "ct_g1a_24", "strength": "hard", "reason": "退位减法的主算法「想加算减」依赖 20 以内进位加法熟练" },
-    { "topicId": "ct_g1b_04", "prerequisiteId": "ct_g1b_03", "strength": "hard", "reason": "十几减 8、7、6 等是破十法从减 9 的迁移推广" },
-    { "topicId": "ct_g1b_05", "prerequisiteId": "ct_g1b_04", "strength": "hard", "reason": "筛选条件后仍需正确计算 20 以内减法" },
-    { "topicId": "ct_g1b_06", "prerequisiteId": "ct_g1a_12", "strength": "soft", "reason": "按形状分类时用到立体图形的辨认经验" },
-    { "topicId": "ct_g1b_07", "prerequisiteId": "ct_g1b_06", "strength": "hard", "reason": "统计图和统计表是分类结果的整理表达" },
-    { "topicId": "ct_g1b_07", "prerequisiteId": "ct_g1a_02", "strength": "soft", "reason": "象形统计图一列一列对应摆放，用到一一对应经验" },
-    { "topicId": "ct_g1b_08", "prerequisiteId": "ct_g1a_17", "strength": "hard", "reason": "100 以内数的组成是「十几由十和几组成」的扩展" },
-    { "topicId": "ct_g1b_09", "prerequisiteId": "ct_g1b_08", "strength": "hard", "reason": "读数写数建立在数的组成之上" },
-    { "topicId": "ct_g1b_09", "prerequisiteId": "ct_g1a_18", "strength": "hard", "reason": "读写两位数用到个位十位的数位概念" },
-    { "topicId": "ct_g1b_10", "prerequisiteId": "ct_g1b_09", "strength": "hard", "reason": "比较大小要借助数的顺序和位值（先比十位）" },
-    { "topicId": "ct_g1b_10", "prerequisiteId": "ct_g1a_06", "strength": "soft", "reason": "5 以内比大小的符号经验迁移到两位数" },
-    { "topicId": "ct_g1b_11", "prerequisiteId": "ct_g1b_08", "strength": "hard", "reason": "整十数加一位数按数的组成直接得出" },
-    { "topicId": "ct_g1b_12", "prerequisiteId": "ct_g1b_10", "strength": "soft", "reason": "认识人民币面额时需要相应的认数基础" },
-    { "topicId": "ct_g1b_13", "prerequisiteId": "ct_g1b_12", "strength": "hard", "reason": "人民币计算必须先认识单位与面额" },
-    { "topicId": "ct_g1b_13", "prerequisiteId": "ct_g1b_11", "strength": "soft", "reason": "元角分换算与整十数加一位数的组成思路一致" },
-    { "topicId": "ct_g1b_14", "prerequisiteId": "ct_g1b_11", "strength": "hard", "reason": "整十数加减整十数按「几个十」思考，是组成的运算化" },
-    { "topicId": "ct_g1b_15", "prerequisiteId": "ct_g1b_14", "strength": "hard", "reason": "两位数加一位数/整十数分拆为整十数加减与 10 以内加减两步" },
-    { "topicId": "ct_g1b_15", "prerequisiteId": "ct_g1a_14", "strength": "hard", "reason": "个位相加部分用到 10 以内加法" },
-    { "topicId": "ct_g1b_16", "prerequisiteId": "ct_g1b_15", "strength": "hard", "reason": "减法口算与加法口算法则对称：相同数位相减" },
-    { "topicId": "ct_g1b_17", "prerequisiteId": "ct_g1b_15", "strength": "hard", "reason": "进位口算是不进位口算加上「满十进一」" },
-    { "topicId": "ct_g1b_17", "prerequisiteId": "ct_g1b_16", "strength": "hard", "reason": "退位口算是不退位口算加上「退一当十」" },
-    { "topicId": "ct_g1b_17", "prerequisiteId": "ct_g1a_22", "strength": "soft", "reason": "凑十的思路同样适用于两位数加一位数的进位" },
-    { "topicId": "ct_g1b_18", "prerequisiteId": "ct_g1a_16", "strength": "hard", "reason": "小括号改变的是加减混合的顺序，先懂混合运算" },
-    { "topicId": "ct_g1b_19", "prerequisiteId": "ct_g1a_13", "strength": "soft", "reason": "按数列找规律需要 10 以内数的顺序感" },
-    { "topicId": "ct_g1b_20", "prerequisiteId": "ct_g1b_09", "strength": "hard", "reason": "摆数活动综合运用数位与读写数知识" },
-
-    { "topicId": "ct_g2a_01", "prerequisiteId": "ct_g1a_02", "strength": "soft", "reason": "用不同物品量长度本质是一一对应比较" },
-    { "topicId": "ct_g2a_02", "prerequisiteId": "ct_g2a_01", "strength": "hard", "reason": "先用不同单位测量产生冲突，才能理解厘米作为统一单位" },
-    { "topicId": "ct_g2a_03", "prerequisiteId": "ct_g2a_02", "strength": "hard", "reason": "米与厘米的关系、线段测量都以厘米的认识为基础" },
-    { "topicId": "ct_g2a_04", "prerequisiteId": "ct_g1b_15", "strength": "hard", "reason": "竖式是不进位口算「相同数位相加」的竖式化" },
-    { "topicId": "ct_g2a_05", "prerequisiteId": "ct_g2a_04", "strength": "hard", "reason": "进位加竖式在不进位竖式基础上加「满十进一」" },
-    { "topicId": "ct_g2a_05", "prerequisiteId": "ct_g1b_17", "strength": "soft", "reason": "口算进位的经验帮助理解竖式的进位" },
-    { "topicId": "ct_g2a_06", "prerequisiteId": "ct_g1b_16", "strength": "hard", "reason": "不退位减竖式对应两位数减的口算结构" },
-    { "topicId": "ct_g2a_06", "prerequisiteId": "ct_g2a_04", "strength": "hard", "reason": "竖式的对齐与从个位算起规则在加法竖式中先建立" },
-    { "topicId": "ct_g2a_07", "prerequisiteId": "ct_g2a_06", "strength": "hard", "reason": "退位减竖式在不退位竖式基础上加「退一当十」" },
-    { "topicId": "ct_g2a_07", "prerequisiteId": "ct_g1b_17", "strength": "soft", "reason": "口算退位经验帮助理解竖式的退位" },
-    { "topicId": "ct_g2a_08", "prerequisiteId": "ct_g2a_05", "strength": "hard", "reason": "连加笔算按进位加法逐步进行" },
-    { "topicId": "ct_g2a_08", "prerequisiteId": "ct_g2a_07", "strength": "hard", "reason": "连减、混合笔算按退位减法逐步进行" },
-    { "topicId": "ct_g2a_09", "prerequisiteId": "ct_g2a_07", "strength": "hard", "reason": "求比一个数多（少）几的数用两位数加减法计算" },
-    { "topicId": "ct_g2a_09", "prerequisiteId": "ct_g1a_02", "strength": "soft", "reason": "画一一对应的条形图分析差比关系" },
-    { "topicId": "ct_g2a_10", "prerequisiteId": "ct_g1b_01", "strength": "soft", "reason": "辨认角的图形经验来自平面图形的直观认识" },
-    { "topicId": "ct_g2a_11", "prerequisiteId": "ct_g2a_10", "strength": "hard", "reason": "锐角钝角都以直角为参照来辨认" },
-    { "topicId": "ct_g2a_12", "prerequisiteId": "ct_g1a_15", "strength": "hard", "reason": "乘法的本质是相同加数的连加" },
-    { "topicId": "ct_g2a_13", "prerequisiteId": "ct_g2a_12", "strength": "hard", "reason": "口诀是乘法意义的逐句固化（几个 5 相加）" },
-    { "topicId": "ct_g2a_14", "prerequisiteId": "ct_g2a_13", "strength": "hard", "reason": "2、3、4 的口诀按 5 的口诀的方法类推编制" },
-    { "topicId": "ct_g2a_15", "prerequisiteId": "ct_g2a_14", "strength": "hard", "reason": "6 的口诀在已有口诀经验上继续扩展" },
-    { "topicId": "ct_g2a_16", "prerequisiteId": "ct_g1a_12", "strength": "soft", "reason": "观察立体图形时用到四种立体图形的辨认" },
-    { "topicId": "ct_g2a_17", "prerequisiteId": "ct_g2a_15", "strength": "hard", "reason": "7 的口诀继续在口诀编制经验上扩展" },
-    { "topicId": "ct_g2a_18", "prerequisiteId": "ct_g2a_17", "strength": "hard", "reason": "8 的口诀可用相邻的 7 的口诀帮助记忆" },
-    { "topicId": "ct_g2a_19", "prerequisiteId": "ct_g2a_18", "strength": "hard", "reason": "9 的口诀用 8 的口诀加 9 推出，规律逐步积累" },
-    { "topicId": "ct_g2a_20", "prerequisiteId": "ct_g1a_21", "strength": "hard", "reason": "几时几分是整时半时认读的细化（5 分一格）" },
-    { "topicId": "ct_g2a_20", "prerequisiteId": "ct_g2a_13", "strength": "hard", "reason": "数分针要 5 个 5 个地数，直接用 5 的口诀" },
-    { "topicId": "ct_g2a_21", "prerequisiteId": "ct_g2a_20", "strength": "hard", "reason": "经过时间的计算以会读写几时几分为前提" },
-    { "topicId": "ct_g2a_22", "prerequisiteId": "ct_g2a_03", "strength": "hard", "reason": "综合测量活动运用厘米、米和线段知识" },
-
-    { "topicId": "ct_g2b_01", "prerequisiteId": "ct_g1b_07", "strength": "hard", "reason": "调查记录是分类整理活动的统计化升级" },
-    { "topicId": "ct_g2b_02", "prerequisiteId": "ct_g1a_02", "strength": "soft", "reason": "平均分「每份同样多」的判断用到一一对应" },
-    { "topicId": "ct_g2b_03", "prerequisiteId": "ct_g2b_02", "strength": "hard", "reason": "除法算式是平均分过程的符号表示" },
-    { "topicId": "ct_g2b_04", "prerequisiteId": "ct_g2b_03", "strength": "hard", "reason": "求商前要先理解除法算式求的是什么" },
-    { "topicId": "ct_g2b_04", "prerequisiteId": "ct_g2a_14", "strength": "hard", "reason": "「想乘算除」依赖 2~6 的乘法口诀熟练" },
-    { "topicId": "ct_g2b_05", "prerequisiteId": "ct_g1b_02", "strength": "soft", "reason": "折纸拼组的操作经验帮助理解对折重合" },
-    { "topicId": "ct_g2b_06", "prerequisiteId": "ct_g1b_01", "strength": "soft", "reason": "判断图形运动需要平面图形的辨认基础" },
-    { "topicId": "ct_g2b_07", "prerequisiteId": "ct_g2b_04", "strength": "hard", "reason": "用 7~9 口诀求商是求商方法的直接扩展" },
-    { "topicId": "ct_g2b_07", "prerequisiteId": "ct_g2a_19", "strength": "hard", "reason": "需要 7~9 的乘法口诀全部熟练" },
-    { "topicId": "ct_g2b_08", "prerequisiteId": "ct_g2b_07", "strength": "hard", "reason": "份总关系的除法问题用口诀求商解决" },
-    { "topicId": "ct_g2b_08", "prerequisiteId": "ct_g2a_12", "strength": "hard", "reason": "份总关系的乘法问题以乘法意义为核心" },
-    { "topicId": "ct_g2b_09", "prerequisiteId": "ct_g2b_04", "strength": "hard", "reason": "混合运算里含乘除法，需先会求商" },
-    { "topicId": "ct_g2b_09", "prerequisiteId": "ct_g1b_18", "strength": "hard", "reason": "「有括号先算括号里」的规则在一年级已引入" },
-    { "topicId": "ct_g2b_10", "prerequisiteId": "ct_g2b_03", "strength": "hard", "reason": "有余数除法是平均分出现剩余时的除法表示" },
-    { "topicId": "ct_g2b_10", "prerequisiteId": "ct_g2a_19", "strength": "soft", "reason": "口诀熟练帮助快速找到最接近的商" },
-    { "topicId": "ct_g2b_11", "prerequisiteId": "ct_g2b_10", "strength": "hard", "reason": "余数与除数的关系在摆分活动中对有余数除法观察得到" },
-    { "topicId": "ct_g2b_12", "prerequisiteId": "ct_g2b_11", "strength": "hard", "reason": "试商和判断商是否合适直接用「余数小于除数」" },
-    { "topicId": "ct_g2b_12", "prerequisiteId": "ct_g2b_04", "strength": "hard", "reason": "竖式求商的思考方法与口算求商一致" },
-    { "topicId": "ct_g2b_13", "prerequisiteId": "ct_g1b_10", "strength": "hard", "reason": "千以内数是百以内数的认识（组成、读写、比较）的扩展" },
-    { "topicId": "ct_g2b_14", "prerequisiteId": "ct_g2b_13", "strength": "hard", "reason": "万以内数位顺序是千以内数位（个十百千）的继续扩展" },
-    { "topicId": "ct_g2b_15", "prerequisiteId": "ct_g2b_14", "strength": "hard", "reason": "整百整千口算按「几个百/千」思考，依赖数位组成" },
-    { "topicId": "ct_g2b_15", "prerequisiteId": "ct_g1b_14", "strength": "soft", "reason": "与整十数加减整十数的算理同构" },
-    { "topicId": "ct_g2b_16", "prerequisiteId": "ct_g2a_01", "strength": "soft", "reason": "质量单位的学习重演「统一单位」的必要性" },
-    { "topicId": "ct_g2b_17", "prerequisiteId": "ct_g1b_19", "strength": "soft", "reason": "找规律中的观察与有序思考是推理的启蒙" }
+    {
+      "topicId": "ct_g1a_04",
+      "prerequisiteId": "ct_g1a_03",
+      "strength": "hard",
+      "reason": "左右以自身为参照、随观察者转向而变化，难于上下前后；教学中先建立上下前后，再引入左右"
+    },
+    {
+      "topicId": "ct_g1a_05",
+      "prerequisiteId": "ct_g1a_01",
+      "strength": "hard",
+      "reason": "先会手口一致点数，才能把数量和数字 1~5 对应起来"
+    },
+    {
+      "topicId": "ct_g1a_06",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "比较 5 以内数的大小，前提是先认识这些数"
+    },
+    {
+      "topicId": "ct_g1a_06",
+      "prerequisiteId": "ct_g1a_02",
+      "strength": "soft",
+      "reason": "一一对应的比较经验，迁移到用数直接比大小"
+    },
+    {
+      "topicId": "ct_g1a_07",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "「第几」建立在已认识 1~5 各数的基础上"
+    },
+    {
+      "topicId": "ct_g1a_08",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "数的分与合是对已认识的数进行拆分组合"
+    },
+    {
+      "topicId": "ct_g1a_09",
+      "prerequisiteId": "ct_g1a_08",
+      "strength": "hard",
+      "reason": "加法的口算方法就是想数的组成（合）"
+    },
+    {
+      "topicId": "ct_g1a_09",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "加法算式里的数都在 5 以内，需先认识"
+    },
+    {
+      "topicId": "ct_g1a_10",
+      "prerequisiteId": "ct_g1a_09",
+      "strength": "hard",
+      "reason": "减法含义（去掉一部分）在加法（合并）的基础上对比理解"
+    },
+    {
+      "topicId": "ct_g1a_10",
+      "prerequisiteId": "ct_g1a_08",
+      "strength": "hard",
+      "reason": "减法的口算方法同样是想数的组成（分）"
+    },
+    {
+      "topicId": "ct_g1a_11",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "0 表示「一个也没有」，是在认识 1~5 后的扩展"
+    },
+    {
+      "topicId": "ct_g1a_13",
+      "prerequisiteId": "ct_g1a_05",
+      "strength": "hard",
+      "reason": "6~10 的认识是 1~5 认数经验的直接扩展"
+    },
+    {
+      "topicId": "ct_g1a_13",
+      "prerequisiteId": "ct_g1a_06",
+      "strength": "soft",
+      "reason": "已有的比大小经验迁移到 10 以内"
+    },
+    {
+      "topicId": "ct_g1a_14",
+      "prerequisiteId": "ct_g1a_09",
+      "strength": "hard",
+      "reason": "10 以内加法在 5 以内加法基础上扩展"
+    },
+    {
+      "topicId": "ct_g1a_14",
+      "prerequisiteId": "ct_g1a_10",
+      "strength": "hard",
+      "reason": "10 以内减法在 5 以内减法基础上扩展"
+    },
+    {
+      "topicId": "ct_g1a_14",
+      "prerequisiteId": "ct_g1a_13",
+      "strength": "hard",
+      "reason": "口算依赖 6~10 各数的组成熟练"
+    },
+    {
+      "topicId": "ct_g1a_15",
+      "prerequisiteId": "ct_g1a_14",
+      "strength": "hard",
+      "reason": "连加连减是两个一步加减法的串联"
+    },
+    {
+      "topicId": "ct_g1a_16",
+      "prerequisiteId": "ct_g1a_15",
+      "strength": "hard",
+      "reason": "加减混合在连加连减「依次计算」的基础上再变化运算符号"
+    },
+    {
+      "topicId": "ct_g1a_17",
+      "prerequisiteId": "ct_g1a_13",
+      "strength": "hard",
+      "reason": "11~20 以 10 以内数为基数，按「十和几」组建"
+    },
+    {
+      "topicId": "ct_g1a_18",
+      "prerequisiteId": "ct_g1a_17",
+      "strength": "hard",
+      "reason": "数位（十位个位）是 11~20 数组成的符号化表达"
+    },
+    {
+      "topicId": "ct_g1a_19",
+      "prerequisiteId": "ct_g1a_18",
+      "strength": "hard",
+      "reason": "10 加几的口算直接按数位组成得结果"
+    },
+    {
+      "topicId": "ct_g1a_19",
+      "prerequisiteId": "ct_g1a_14",
+      "strength": "soft",
+      "reason": "已有 10 以内加减法技能支撑这类算式的理解"
+    },
+    {
+      "topicId": "ct_g1a_20",
+      "prerequisiteId": "ct_g1a_13",
+      "strength": "soft",
+      "reason": "认读钟面数字需要先认识 1~10"
+    },
+    {
+      "topicId": "ct_g1a_21",
+      "prerequisiteId": "ct_g1a_20",
+      "strength": "hard",
+      "reason": "半时的认读建立在整时（分针指 12）的对照之上"
+    },
+    {
+      "topicId": "ct_g1a_22",
+      "prerequisiteId": "ct_g1a_14",
+      "strength": "hard",
+      "reason": "凑十法第二步 10 加几用到 10 以内加法"
+    },
+    {
+      "topicId": "ct_g1a_22",
+      "prerequisiteId": "ct_g1a_13",
+      "strength": "hard",
+      "reason": "凑十的核心就是 10 的组成（9 和 1 凑成十）"
+    },
+    {
+      "topicId": "ct_g1a_23",
+      "prerequisiteId": "ct_g1a_22",
+      "strength": "hard",
+      "reason": "8、7、6 加几是把 9 加几的凑十方法迁移"
+    },
+    {
+      "topicId": "ct_g1a_24",
+      "prerequisiteId": "ct_g1a_23",
+      "strength": "hard",
+      "reason": "小数加大数交换后仍用凑十法计算"
+    },
+    {
+      "topicId": "ct_g1a_24",
+      "prerequisiteId": "ct_g1a_19",
+      "strength": "soft",
+      "reason": "凑十后的 10 加几一步直接得结果"
+    },
+    {
+      "topicId": "ct_g1b_01",
+      "prerequisiteId": "ct_g1a_12",
+      "strength": "hard",
+      "reason": "平面图形通过「描立体图形的面」获得，先认立体图形"
+    },
+    {
+      "topicId": "ct_g1b_02",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "hard",
+      "reason": "拼组前必须先能辨认各种平面图形"
+    },
+    {
+      "topicId": "ct_g1b_03",
+      "prerequisiteId": "ct_g1a_24",
+      "strength": "hard",
+      "reason": "退位减法的主算法「想加算减」依赖 20 以内进位加法熟练"
+    },
+    {
+      "topicId": "ct_g1b_04",
+      "prerequisiteId": "ct_g1b_03",
+      "strength": "hard",
+      "reason": "十几减 8、7、6 等是破十法从减 9 的迁移推广"
+    },
+    {
+      "topicId": "ct_g1b_05",
+      "prerequisiteId": "ct_g1b_04",
+      "strength": "hard",
+      "reason": "筛选条件后仍需正确计算 20 以内减法"
+    },
+    {
+      "topicId": "ct_g1b_06",
+      "prerequisiteId": "ct_g1a_12",
+      "strength": "soft",
+      "reason": "按形状分类时用到立体图形的辨认经验"
+    },
+    {
+      "topicId": "ct_g1b_07",
+      "prerequisiteId": "ct_g1b_06",
+      "strength": "hard",
+      "reason": "统计图和统计表是分类结果的整理表达"
+    },
+    {
+      "topicId": "ct_g1b_07",
+      "prerequisiteId": "ct_g1a_02",
+      "strength": "soft",
+      "reason": "象形统计图一列一列对应摆放，用到一一对应经验"
+    },
+    {
+      "topicId": "ct_g1b_08",
+      "prerequisiteId": "ct_g1a_17",
+      "strength": "hard",
+      "reason": "100 以内数的组成是「十几由十和几组成」的扩展"
+    },
+    {
+      "topicId": "ct_g1b_09",
+      "prerequisiteId": "ct_g1b_08",
+      "strength": "hard",
+      "reason": "读数写数建立在数的组成之上"
+    },
+    {
+      "topicId": "ct_g1b_09",
+      "prerequisiteId": "ct_g1a_18",
+      "strength": "hard",
+      "reason": "读写两位数用到个位十位的数位概念"
+    },
+    {
+      "topicId": "ct_g1b_10",
+      "prerequisiteId": "ct_g1b_09",
+      "strength": "hard",
+      "reason": "比较大小要借助数的顺序和位值（先比十位）"
+    },
+    {
+      "topicId": "ct_g1b_10",
+      "prerequisiteId": "ct_g1a_06",
+      "strength": "soft",
+      "reason": "5 以内比大小的符号经验迁移到两位数"
+    },
+    {
+      "topicId": "ct_g1b_11",
+      "prerequisiteId": "ct_g1b_08",
+      "strength": "hard",
+      "reason": "整十数加一位数按数的组成直接得出"
+    },
+    {
+      "topicId": "ct_g1b_12",
+      "prerequisiteId": "ct_g1b_10",
+      "strength": "soft",
+      "reason": "认识人民币面额时需要相应的认数基础"
+    },
+    {
+      "topicId": "ct_g1b_13",
+      "prerequisiteId": "ct_g1b_12",
+      "strength": "hard",
+      "reason": "人民币计算必须先认识单位与面额"
+    },
+    {
+      "topicId": "ct_g1b_13",
+      "prerequisiteId": "ct_g1b_11",
+      "strength": "soft",
+      "reason": "元角分换算与整十数加一位数的组成思路一致"
+    },
+    {
+      "topicId": "ct_g1b_14",
+      "prerequisiteId": "ct_g1b_11",
+      "strength": "hard",
+      "reason": "整十数加减整十数按「几个十」思考，是组成的运算化"
+    },
+    {
+      "topicId": "ct_g1b_15",
+      "prerequisiteId": "ct_g1b_14",
+      "strength": "hard",
+      "reason": "两位数加一位数/整十数分拆为整十数加减与 10 以内加减两步"
+    },
+    {
+      "topicId": "ct_g1b_15",
+      "prerequisiteId": "ct_g1a_14",
+      "strength": "hard",
+      "reason": "个位相加部分用到 10 以内加法"
+    },
+    {
+      "topicId": "ct_g1b_16",
+      "prerequisiteId": "ct_g1b_15",
+      "strength": "hard",
+      "reason": "减法口算与加法口算法则对称：相同数位相减"
+    },
+    {
+      "topicId": "ct_g1b_17",
+      "prerequisiteId": "ct_g1b_15",
+      "strength": "hard",
+      "reason": "进位口算是不进位口算加上「满十进一」"
+    },
+    {
+      "topicId": "ct_g1b_17",
+      "prerequisiteId": "ct_g1b_16",
+      "strength": "hard",
+      "reason": "退位口算是不退位口算加上「退一当十」"
+    },
+    {
+      "topicId": "ct_g1b_17",
+      "prerequisiteId": "ct_g1a_22",
+      "strength": "soft",
+      "reason": "凑十的思路同样适用于两位数加一位数的进位"
+    },
+    {
+      "topicId": "ct_g1b_18",
+      "prerequisiteId": "ct_g1a_16",
+      "strength": "hard",
+      "reason": "小括号改变的是加减混合的顺序，先懂混合运算"
+    },
+    {
+      "topicId": "ct_g1b_19",
+      "prerequisiteId": "ct_g1a_13",
+      "strength": "soft",
+      "reason": "按数列找规律需要 10 以内数的顺序感"
+    },
+    {
+      "topicId": "ct_g1b_20",
+      "prerequisiteId": "ct_g1b_09",
+      "strength": "hard",
+      "reason": "摆数活动综合运用数位与读写数知识"
+    },
+    {
+      "topicId": "ct_g2a_01",
+      "prerequisiteId": "ct_g1a_02",
+      "strength": "soft",
+      "reason": "用不同物品量长度本质是一一对应比较"
+    },
+    {
+      "topicId": "ct_g2a_02",
+      "prerequisiteId": "ct_g2a_01",
+      "strength": "hard",
+      "reason": "先用不同单位测量产生冲突，才能理解厘米作为统一单位"
+    },
+    {
+      "topicId": "ct_g2a_03",
+      "prerequisiteId": "ct_g2a_02",
+      "strength": "hard",
+      "reason": "米与厘米的关系、线段测量都以厘米的认识为基础"
+    },
+    {
+      "topicId": "ct_g2a_04",
+      "prerequisiteId": "ct_g1b_15",
+      "strength": "hard",
+      "reason": "竖式是不进位口算「相同数位相加」的竖式化"
+    },
+    {
+      "topicId": "ct_g2a_05",
+      "prerequisiteId": "ct_g2a_04",
+      "strength": "hard",
+      "reason": "进位加竖式在不进位竖式基础上加「满十进一」"
+    },
+    {
+      "topicId": "ct_g2a_05",
+      "prerequisiteId": "ct_g1b_17",
+      "strength": "soft",
+      "reason": "口算进位的经验帮助理解竖式的进位"
+    },
+    {
+      "topicId": "ct_g2a_06",
+      "prerequisiteId": "ct_g1b_16",
+      "strength": "hard",
+      "reason": "不退位减竖式对应两位数减的口算结构"
+    },
+    {
+      "topicId": "ct_g2a_06",
+      "prerequisiteId": "ct_g2a_04",
+      "strength": "hard",
+      "reason": "竖式的对齐与从个位算起规则在加法竖式中先建立"
+    },
+    {
+      "topicId": "ct_g2a_07",
+      "prerequisiteId": "ct_g2a_06",
+      "strength": "hard",
+      "reason": "退位减竖式在不退位竖式基础上加「退一当十」"
+    },
+    {
+      "topicId": "ct_g2a_07",
+      "prerequisiteId": "ct_g1b_17",
+      "strength": "soft",
+      "reason": "口算退位经验帮助理解竖式的退位"
+    },
+    {
+      "topicId": "ct_g2a_08",
+      "prerequisiteId": "ct_g2a_05",
+      "strength": "hard",
+      "reason": "连加笔算按进位加法逐步进行"
+    },
+    {
+      "topicId": "ct_g2a_08",
+      "prerequisiteId": "ct_g2a_07",
+      "strength": "hard",
+      "reason": "连减、混合笔算按退位减法逐步进行"
+    },
+    {
+      "topicId": "ct_g2a_09",
+      "prerequisiteId": "ct_g2a_07",
+      "strength": "hard",
+      "reason": "求比一个数多（少）几的数用两位数加减法计算"
+    },
+    {
+      "topicId": "ct_g2a_09",
+      "prerequisiteId": "ct_g1a_02",
+      "strength": "soft",
+      "reason": "画一一对应的条形图分析差比关系"
+    },
+    {
+      "topicId": "ct_g2a_10",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "soft",
+      "reason": "辨认角的图形经验来自平面图形的直观认识"
+    },
+    {
+      "topicId": "ct_g2a_11",
+      "prerequisiteId": "ct_g2a_10",
+      "strength": "hard",
+      "reason": "锐角钝角都以直角为参照来辨认"
+    },
+    {
+      "topicId": "ct_g2a_12",
+      "prerequisiteId": "ct_g1a_15",
+      "strength": "hard",
+      "reason": "乘法的本质是相同加数的连加"
+    },
+    {
+      "topicId": "ct_g2a_13",
+      "prerequisiteId": "ct_g2a_12",
+      "strength": "hard",
+      "reason": "口诀是乘法意义的逐句固化（几个 5 相加）"
+    },
+    {
+      "topicId": "ct_g2a_14",
+      "prerequisiteId": "ct_g2a_13",
+      "strength": "hard",
+      "reason": "2、3、4 的口诀按 5 的口诀的方法类推编制"
+    },
+    {
+      "topicId": "ct_g2a_15",
+      "prerequisiteId": "ct_g2a_14",
+      "strength": "hard",
+      "reason": "6 的口诀在已有口诀经验上继续扩展"
+    },
+    {
+      "topicId": "ct_g2a_16",
+      "prerequisiteId": "ct_g1a_12",
+      "strength": "soft",
+      "reason": "观察立体图形时用到四种立体图形的辨认"
+    },
+    {
+      "topicId": "ct_g2a_17",
+      "prerequisiteId": "ct_g2a_15",
+      "strength": "hard",
+      "reason": "7 的口诀继续在口诀编制经验上扩展"
+    },
+    {
+      "topicId": "ct_g2a_18",
+      "prerequisiteId": "ct_g2a_17",
+      "strength": "hard",
+      "reason": "8 的口诀可用相邻的 7 的口诀帮助记忆"
+    },
+    {
+      "topicId": "ct_g2a_19",
+      "prerequisiteId": "ct_g2a_18",
+      "strength": "hard",
+      "reason": "9 的口诀用 8 的口诀加 9 推出，规律逐步积累"
+    },
+    {
+      "topicId": "ct_g2a_20",
+      "prerequisiteId": "ct_g1a_21",
+      "strength": "hard",
+      "reason": "几时几分是整时半时认读的细化（5 分一格）"
+    },
+    {
+      "topicId": "ct_g2a_20",
+      "prerequisiteId": "ct_g2a_13",
+      "strength": "hard",
+      "reason": "数分针要 5 个 5 个地数，直接用 5 的口诀"
+    },
+    {
+      "topicId": "ct_g2a_21",
+      "prerequisiteId": "ct_g2a_20",
+      "strength": "hard",
+      "reason": "经过时间的计算以会读写几时几分为前提"
+    },
+    {
+      "topicId": "ct_g2a_22",
+      "prerequisiteId": "ct_g2a_03",
+      "strength": "hard",
+      "reason": "综合测量活动运用厘米、米和线段知识"
+    },
+    {
+      "topicId": "ct_g2b_01",
+      "prerequisiteId": "ct_g1b_07",
+      "strength": "hard",
+      "reason": "调查记录是分类整理活动的统计化升级"
+    },
+    {
+      "topicId": "ct_g2b_02",
+      "prerequisiteId": "ct_g1a_02",
+      "strength": "soft",
+      "reason": "平均分「每份同样多」的判断用到一一对应"
+    },
+    {
+      "topicId": "ct_g2b_03",
+      "prerequisiteId": "ct_g2b_02",
+      "strength": "hard",
+      "reason": "除法算式是平均分过程的符号表示"
+    },
+    {
+      "topicId": "ct_g2b_04",
+      "prerequisiteId": "ct_g2b_03",
+      "strength": "hard",
+      "reason": "求商前要先理解除法算式求的是什么"
+    },
+    {
+      "topicId": "ct_g2b_04",
+      "prerequisiteId": "ct_g2a_14",
+      "strength": "hard",
+      "reason": "「想乘算除」依赖 2~6 的乘法口诀熟练"
+    },
+    {
+      "topicId": "ct_g2b_05",
+      "prerequisiteId": "ct_g1b_02",
+      "strength": "soft",
+      "reason": "折纸拼组的操作经验帮助理解对折重合"
+    },
+    {
+      "topicId": "ct_g2b_06",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "soft",
+      "reason": "判断图形运动需要平面图形的辨认基础"
+    },
+    {
+      "topicId": "ct_g2b_07",
+      "prerequisiteId": "ct_g2b_04",
+      "strength": "hard",
+      "reason": "用 7~9 口诀求商是求商方法的直接扩展"
+    },
+    {
+      "topicId": "ct_g2b_07",
+      "prerequisiteId": "ct_g2a_19",
+      "strength": "hard",
+      "reason": "需要 7~9 的乘法口诀全部熟练"
+    },
+    {
+      "topicId": "ct_g2b_08",
+      "prerequisiteId": "ct_g2b_07",
+      "strength": "hard",
+      "reason": "份总关系的除法问题用口诀求商解决"
+    },
+    {
+      "topicId": "ct_g2b_08",
+      "prerequisiteId": "ct_g2a_12",
+      "strength": "hard",
+      "reason": "份总关系的乘法问题以乘法意义为核心"
+    },
+    {
+      "topicId": "ct_g2b_09",
+      "prerequisiteId": "ct_g2b_04",
+      "strength": "hard",
+      "reason": "混合运算里含乘除法，需先会求商"
+    },
+    {
+      "topicId": "ct_g2b_09",
+      "prerequisiteId": "ct_g1b_18",
+      "strength": "hard",
+      "reason": "「有括号先算括号里」的规则在一年级已引入"
+    },
+    {
+      "topicId": "ct_g2b_10",
+      "prerequisiteId": "ct_g2b_03",
+      "strength": "hard",
+      "reason": "有余数除法是平均分出现剩余时的除法表示"
+    },
+    {
+      "topicId": "ct_g2b_10",
+      "prerequisiteId": "ct_g2a_19",
+      "strength": "soft",
+      "reason": "口诀熟练帮助快速找到最接近的商"
+    },
+    {
+      "topicId": "ct_g2b_11",
+      "prerequisiteId": "ct_g2b_10",
+      "strength": "hard",
+      "reason": "余数与除数的关系在摆分活动中对有余数除法观察得到"
+    },
+    {
+      "topicId": "ct_g2b_12",
+      "prerequisiteId": "ct_g2b_11",
+      "strength": "hard",
+      "reason": "试商和判断商是否合适直接用「余数小于除数」"
+    },
+    {
+      "topicId": "ct_g2b_12",
+      "prerequisiteId": "ct_g2b_04",
+      "strength": "hard",
+      "reason": "竖式求商的思考方法与口算求商一致"
+    },
+    {
+      "topicId": "ct_g2b_13",
+      "prerequisiteId": "ct_g1b_10",
+      "strength": "hard",
+      "reason": "千以内数是百以内数的认识（组成、读写、比较）的扩展"
+    },
+    {
+      "topicId": "ct_g2b_14",
+      "prerequisiteId": "ct_g2b_13",
+      "strength": "hard",
+      "reason": "万以内数位顺序是千以内数位（个十百千）的继续扩展"
+    },
+    {
+      "topicId": "ct_g2b_15",
+      "prerequisiteId": "ct_g2b_14",
+      "strength": "hard",
+      "reason": "整百整千口算按「几个百/千」思考，依赖数位组成"
+    },
+    {
+      "topicId": "ct_g2b_15",
+      "prerequisiteId": "ct_g1b_14",
+      "strength": "soft",
+      "reason": "与整十数加减整十数的算理同构"
+    },
+    {
+      "topicId": "ct_g2b_16",
+      "prerequisiteId": "ct_g2a_01",
+      "strength": "soft",
+      "reason": "质量单位的学习重演「统一单位」的必要性"
+    },
+    {
+      "topicId": "ct_g2b_17",
+      "prerequisiteId": "ct_g1b_19",
+      "strength": "soft",
+      "reason": "找规律中的观察与有序思考是推理的启蒙"
+    }
   ]
 }

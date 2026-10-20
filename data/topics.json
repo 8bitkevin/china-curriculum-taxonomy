@@ -110,7 +110,10 @@
         "volume": "上",
         "unit": 2,
         "editionYear": 2022
-      }
+      },
+      "prerequisites": [
+        "ct_g1a_03"
+      ]
     },
     {
       "id": "ct_g1a_05",
