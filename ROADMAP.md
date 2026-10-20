@@ -1,5 +1,7 @@
 # 路线图
 
+> 里程碑、需求与验收标准的权威文档是 [docs/DEV-PLAN.md](docs/DEV-PLAN.md)；已定/待定决策见 [docs/DECISIONS.md](docs/DECISIONS.md)。本文件保留技术 backlog 细目，与 DEV-PLAN 的需求编号对应。
+
 按价值与依赖关系排序的迭代计划。每项一个 PR 或一串 PR，完成后在 CHANGELOG 记录。
 
 ## 近期（数据横向扩展）
