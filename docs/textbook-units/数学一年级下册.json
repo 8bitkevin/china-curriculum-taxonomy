@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学一年级下册",
+  "pdf": {
+    "file": "数学一年级下册.pdf",
+    "sha256": "00e450e1c867e901e17aa41231b88ca3d99540747524ed5a7777ed5a0e7fe960",
+    "pages": 110,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "认识图形(二)",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "20以内的退位减法",
+      "page": 8
+    },
+    {
+      "index": 3,
+      "title": "分类与整理",
+      "page": 27
+    },
+    {
+      "index": 4,
+      "title": "100以内数的认识",
+      "page": 33
+    },
+    {
+      "index": 5,
+      "title": "认识人民币",
+      "page": 52
+    },
+    {
+      "index": 6,
+      "title": "100以内的加法和减法(一)",
+      "page": 61
+    },
+    {
+      "index": 7,
+      "title": "找规律",
+      "page": 83
+    },
+    {
+      "index": 8,
+      "title": "总复习",
+      "page": 90
+    }
+  ]
+}

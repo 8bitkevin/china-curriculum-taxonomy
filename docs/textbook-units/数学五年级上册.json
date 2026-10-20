@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学五年级上册",
+  "pdf": {
+    "file": "数学五年级上册.pdf",
+    "sha256": "1d5af3b39e4e7bec4ef7e59faa9535c1e5b06bc7349977dc6d40a2f6c6200bcb",
+    "pages": 124,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "小数乘法",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "位置",
+      "page": 19
+    },
+    {
+      "index": 3,
+      "title": "小数除法",
+      "page": 24
+    },
+    {
+      "index": 4,
+      "title": "可能性",
+      "page": 44
+    },
+    {
+      "index": 5,
+      "title": "简易方程",
+      "page": 52
+    },
+    {
+      "index": 6,
+      "title": "多边形的面积",
+      "page": 84
+    },
+    {
+      "index": 7,
+      "title": "数学广角——植树问题",
+      "page": 104
+    },
+    {
+      "index": 8,
+      "title": "总复习",
+      "page": 109
+    }
+  ]
+}

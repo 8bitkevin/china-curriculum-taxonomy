@@ -14,7 +14,7 @@
 ## 中期（质量与工具）
 
 - [ ] **质量报告脚本** `scripts/report.mjs`：分册/领域/类型分布、边密度、孤岛主题（入度出度均为 0）、assessmentPrompt 覆盖率，输出 Markdown 供 PR 附带
-- [ ] **目录提取正式化** `scripts/extract-toc.mjs`：从 PDF 提取结构化单元目录 JSON 存 `docs/textbook-units/`，作为「教材基线」留档（记录每册 PDF 的 SHA-256），供后续教材改版时 diff
+- [x] **目录提取正式化** `scripts/extract-toc.py`（TOOL-1 ✅）：数学 23 册基线已留档 `docs/textbook-units/`（17 册 PDF 文本提取 + 6 册扫描版人工基线，记录 SHA-256，`--check` 可校验），供后续教材改版时 diff
 - [ ] **CI（GitHub Actions）**：push/PR 自动跑 `npm run validate && npm test`；main 分支保护
 - [ ] **负例测试扩充**：环注入、跨年级倒挂边（先修年级高于本体年级）告警等
 - [ ] **跨学段衔接链抽查**：小学→初中（分数→分式、自然数→实数）、初中→高中（二次函数→幂指对函数→导数）依赖边专项复核

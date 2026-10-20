@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学二年级下册",
+  "pdf": {
+    "file": "数学二年级下册.pdf",
+    "sha256": "f8f224ad2c44ffcd50d00c46ae444024cb1772b8c5b1ec2ced08fbb5680113e9",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "数据收集和整理",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "表内除法(一)",
+      "page": 7
+    },
+    {
+      "index": 3,
+      "title": "图形的运动(一)",
+      "page": 28
+    },
+    {
+      "index": 4,
+      "title": "表内除法(二)",
+      "page": 36
+    },
+    {
+      "index": 5,
+      "title": "混合运算",
+      "page": 46
+    },
+    {
+      "index": 6,
+      "title": "有余数的除法",
+      "page": 57
+    },
+    {
+      "index": 7,
+      "title": "万以内数的认识",
+      "page": 72
+    },
+    {
+      "index": 8,
+      "title": "克和千克",
+      "page": 98
+    },
+    {
+      "index": 9,
+      "title": "数学广角 —— 推理",
+      "page": 106
+    },
+    {
+      "index": 10,
+      "title": "总复习",
+      "page": 110
+    }
+  ]
+}

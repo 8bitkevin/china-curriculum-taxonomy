@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学一年级上册",
+  "pdf": {
+    "file": "数学一年级上册.pdf",
+    "sha256": "a8e880217c456db68bb363cadba9e235263197d375243a5d0850d4f9131562d4",
+    "pages": 118,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "准备课",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "位置",
+      "page": 9
+    },
+    {
+      "index": 3,
+      "title": "5以内数的认识和加减法",
+      "page": 14
+    },
+    {
+      "index": 4,
+      "title": "认识图形(一)",
+      "page": 34
+    },
+    {
+      "index": 5,
+      "title": "6~10的认识和加减法",
+      "page": 39
+    },
+    {
+      "index": 6,
+      "title": "11~20各数的认识",
+      "page": 73
+    },
+    {
+      "index": null,
+      "title": "数学乐园",
+      "page": 82
+    },
+    {
+      "index": 7,
+      "title": "认识钟表",
+      "page": 84
+    },
+    {
+      "index": 8,
+      "title": "20以内的进位加法",
+      "page": 88
+    },
+    {
+      "index": 9,
+      "title": "总复习",
+      "page": 104
+    }
+  ]
+}

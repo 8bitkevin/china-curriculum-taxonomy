@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中数学八年级上册",
+  "pdf": {
+    "file": "初中数学八年级上册.pdf",
+    "sha256": "925db6f76d1881b46f51dace670226e2d1edede9b51d161e1828284d444ec8aa",
+    "pages": 170,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 11,
+      "title": "三角形",
+      "page": null,
+      "sections": [
+        {
+          "no": "11.1",
+          "title": "与三角形有关的线段",
+          "page": 2
+        },
+        {
+          "no": "11.2",
+          "title": "与三角形有关的角",
+          "page": 11
+        },
+        {
+          "no": "11.3",
+          "title": "多边形及其内角和",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "title": "全等三角形",
+      "page": null,
+      "sections": [
+        {
+          "no": "12.1",
+          "title": "全等三角形",
+          "page": 31
+        },
+        {
+          "no": "12.2",
+          "title": "三角形全等的判定",
+          "page": 35
+        },
+        {
+          "no": "12.3",
+          "title": "角的平分线的性质",
+          "page": 48
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "title": "轴对称",
+      "page": null,
+      "sections": [
+        {
+          "no": "13.1",
+          "title": "轴对称",
+          "page": 58
+        },
+        {
+          "no": "13.2",
+          "title": "画轴对称图形",
+          "page": 67
+        },
+        {
+          "no": "13.3",
+          "title": "等腰三角形",
+          "page": 75
+        },
+        {
+          "no": "13.4",
+          "title": "课题学习 最短路径问题",
+          "page": 85
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "title": "整式的乘法与因式分解",
+      "page": null,
+      "sections": [
+        {
+          "no": "14.1",
+          "title": "整式的乘法",
+          "page": 95
+        },
+        {
+          "no": "14.2",
+          "title": "乘法公式",
+          "page": 107
+        },
+        {
+          "no": "14.3",
+          "title": "因式分解",
+          "page": 114
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "title": "分式",
+      "page": null,
+      "sections": [
+        {
+          "no": "15.1",
+          "title": "分式",
+          "page": 127
+        },
+        {
+          "no": "15.2",
+          "title": "分式的运算",
+          "page": 135
+        },
+        {
+          "no": "15.3",
+          "title": "分式方程",
+          "page": 149
+        }
+      ]
+    }
+  ]
+}

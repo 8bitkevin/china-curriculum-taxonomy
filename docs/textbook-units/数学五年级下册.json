@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学五年级下册",
+  "pdf": {
+    "file": "数学五年级下册.pdf",
+    "sha256": "657e1547074668dbb50f2bf37f13c20f292127be64c26c5334190aa34d06de83",
+    "pages": 131,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "观察物体(三)",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "因数和倍数",
+      "page": 5
+    },
+    {
+      "index": 3,
+      "title": "长方体和正方体",
+      "page": 18
+    },
+    {
+      "index": 4,
+      "title": "分数的意义和性质",
+      "page": 45
+    },
+    {
+      "index": 5,
+      "title": "图形的运动(三)",
+      "page": 83
+    },
+    {
+      "index": 6,
+      "title": "分数的加法和减法",
+      "page": 89
+    },
+    {
+      "index": 7,
+      "title": "折线统计图",
+      "page": 104
+    },
+    {
+      "index": 8,
+      "title": "数学广角——找次品",
+      "page": 112
+    },
+    {
+      "index": 9,
+      "title": "总复习",
+      "page": 115
+    }
+  ]
+}

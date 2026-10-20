@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中数学九年级上册",
+  "pdf": {
+    "file": "初中数学九年级上册.pdf",
+    "sha256": "e7d67c69b27f619b357aed9f8426a2c66e8064cf90860dabf8aa17eff050ad1c",
+    "pages": 163,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 21,
+      "title": "一元二次方程",
+      "page": null,
+      "sections": [
+        {
+          "no": "21.1",
+          "title": "一元二次方程",
+          "page": 2
+        },
+        {
+          "no": "21.2",
+          "title": "解一元二次方程",
+          "page": 5
+        },
+        {
+          "no": "21.3",
+          "title": "实际问题与一元二次方程",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "title": "二次函数",
+      "page": null,
+      "sections": [
+        {
+          "no": "22.1",
+          "title": "二次函数的图象和性质",
+          "page": 28
+        },
+        {
+          "no": "22.2",
+          "title": "二次函数与一元二次方程",
+          "page": 43
+        },
+        {
+          "no": "22.3",
+          "title": "实际问题与二次函数",
+          "page": 49
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "title": "旋转",
+      "page": null,
+      "sections": [
+        {
+          "no": "23.1",
+          "title": "图形的旋转",
+          "page": 59
+        },
+        {
+          "no": "23.2",
+          "title": "中心对称",
+          "page": 64
+        },
+        {
+          "no": "23.3",
+          "title": "课题学习 图案设计",
+          "page": 72
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "title": "圆",
+      "page": null,
+      "sections": [
+        {
+          "no": "24.1",
+          "title": "圆的有关性质",
+          "page": 79
+        },
+        {
+          "no": "24.2",
+          "title": "点和圆、直线和圆的位置关系",
+          "page": 92
+        },
+        {
+          "no": "24.3",
+          "title": "正多边形和圆",
+          "page": 105
+        },
+        {
+          "no": "24.4",
+          "title": "弧长和扇形面积",
+          "page": 111
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "title": "概率初步",
+      "page": null,
+      "sections": [
+        {
+          "no": "25.1",
+          "title": "随机事件与概率",
+          "page": 127
+        },
+        {
+          "no": "25.2",
+          "title": "用列举法求概率",
+          "page": 136
+        },
+        {
+          "no": "25.3",
+          "title": "用频率估计概率",
+          "page": 142
+        }
+      ]
+    }
+  ]
+}

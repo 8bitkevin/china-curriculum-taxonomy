@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学六年级下册",
+  "pdf": {
+    "file": "数学六年级下册.pdf",
+    "sha256": "7e0e76e739c7ac65013c7eb9bfad0f7ef632b2d05cc8d5a1d0970c4b93aab18b",
+    "pages": 122,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-20",
+  "units": [
+    {
+      "index": 1,
+      "title": "负数",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "百分数(二)",
+      "page": 8
+    },
+    {
+      "index": 3,
+      "title": "圆柱与圆锥",
+      "page": 16
+    },
+    {
+      "index": 4,
+      "title": "比例",
+      "page": 38
+    },
+    {
+      "index": 5,
+      "title": "数学广角—鸽巢问题",
+      "page": 67
+    },
+    {
+      "index": 6,
+      "title": "整理和复习",
+      "page": 71
+    }
+  ]
+}
