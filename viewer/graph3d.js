@@ -74,7 +74,7 @@ export class Graph3D {
     this.initScene(mount);
     this.bindEvents();
     this.renderLoop = this.renderLoop.bind(this);
-    requestAnimationFrame(this.renderLoop);
+    this.renderLoop(); // 首帧同步渲染：rAF 被后台暂停时画面也不至于空白
   }
 
   buildDom(mount) {
