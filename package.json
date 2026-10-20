@@ -1,7 +1,7 @@
 {
   "name": "china-curriculum-taxonomy",
   "version": "0.1.0",
-  "description": "中国小学课程知识图谱：微主题 + 先修依赖图 + 2022 版课程标准对齐（对齐 os-taxonomy 数据模型）",
+  "description": "中国 K12 课程知识图谱：微主题 + 先修依赖图 + 国家课程标准对齐（小学/初中/高中，数据模型对齐 os-taxonomy）",
   "private": true,
   "type": "module",
   "license": "SEE LICENSE IN README.md",

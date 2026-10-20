@@ -6,12 +6,12 @@
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
-| `id` | `ct_g{年级}{a\|b}_{序号}` | `a`=上学期 `b`=下学期；合入 main 后冻结，永不复用 |
+| `id` | `ct_g{年级}{a\|b}_{序号}` | `a`=上学期 `b`=下学期；年级 1–6 小学、7–9 初中（7=初一）、10–12 高中（10=高一）；合入 main 后冻结，永不复用 |
 | `type` | 枚举 | `CONCEPTUAL` 概念 / `PROCEDURAL` 过程技能 / `REPRESENTATIONAL` 表征（数位、钟面、统计图等符号系统）/ `LANGUAGE` 数学语言 / `META` 思维与方法（推理、有序枚举） |
 | `domain` | 枚举 | 2022 课标四大领域：`数与代数` `图形与几何` `统计与概率` `综合与实践` |
 | `name` | string | 主题名，尽量沿用教材课时惯用语（如「凑十法：9 加几」） |
 | `description` | string | **家长可读**的一段话：学什么 + 为什么重要；不写教学术语堆砌 |
-| `grade` / `semester` | 1–6 / `上`\|`下` | 中国学制定位 |
+| `grade` / `semester` | 1–12 / `上`\|`下` | K12 学制定位：1–6 小学、7–9 初中、10–12 高中 |
 | `ageRangeStart` / `ageRangeEnd` | int | 按入学 6 周岁推算；validate 校验 `grade+4 ≤ start ≤ grade+6` |
 | `evidence` | string[] | **可观察**的掌握证据（家长能照着判断），≥1 条 |
 | `assessmentPrompt` | string\|null | 口头测评问法，必须含 `{{name}}` 占位符 |
@@ -33,7 +33,7 @@
 
 - `codesOnlySources: ["csmath-2022"]` → 该来源条目**不得有** `data` 字段（validate 强制，防原文泄漏）
 - 条目 `title` 为**自拟概括**（如「10以内数的认识（数数、基数、读写、大小、序数）」），不是课标原文
-- 代码由本仓库分配，规则见文件内 `codeScheme.description`；新增学段（S2/S3）时先扩此文件再引用
+- 代码由本仓库分配，规则见文件内 `codeScheme.description`；义务教育学段用 `S1`–`S4`（S4=初中第四学段，规划中），高中学段规划为 `H{册}` 前缀（另一套课标：《普通高中课程标准（2017 年版 2020 修订）》）；新增学段时先扩此文件再引用
 
 ## data/manifest.json — 清单（生成物，勿手编）
 
