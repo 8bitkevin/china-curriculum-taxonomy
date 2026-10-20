@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 数据完整性校验（schema + 引用 + DAG + 校验和）
+        run: npm run validate
+      - name: 负例测试
+        run: npm test
+      - name: 质量报告可生成
+        run: node scripts/report.mjs --out "$RUNNER_TEMP/report.md"
