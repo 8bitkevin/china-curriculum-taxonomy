@@ -1,16 +1,16 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 612,
-    "dependencies": 1005,
+    "topics": 636,
+    "dependencies": 1035,
     "standards": 275,
     "deprecated": 0,
     "byGrade": {
       "1年级上": 49,
       "1年级下": 44,
-      "2年级上": 22,
+      "2年级上": 46,
       "2年级下": 17,
       "3年级上": 32,
       "3年级下": 28,
@@ -57,18 +57,19 @@
       "人教A版·2019 年版",
       "人教版·2012 年版",
       "人教版·2022 年版",
-      "统编版·2016 年版"
+      "统编版·2016 年版",
+      "统编版·2017 年版"
     ],
     "note": "覆盖 数学、语文（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 669152,
-      "sha256": "657d0ae6b753c0c8f9e47a24c0787816ac115cc3ba83bdc7c7616b843b41d65d"
+      "bytes": 695397,
+      "sha256": "ec5a97e1f11da1ba120cd9706a665f07616ca66c900012f02f8e22ad8dacb0bb"
     },
     "dependencies.json": {
-      "bytes": 192880,
-      "sha256": "e9a276e3afe77c14848058ef7bdfaf80b2b9a9e5f553cfd96f3a60f0378848de"
+      "bytes": 198778,
+      "sha256": "a857512087632a29ed6d8a56469622dff4ceb4ab76cb5ca4a80ac2bdb3359987"
     },
     "curriculum-standards.json": {
       "bytes": 64741,

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1005,
+  "edgeCount": 1035,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6033,6 +6033,186 @@
       "prerequisiteId": "ct_yw_g1b_01",
       "strength": "soft",
       "reason": "形声字规律提高认字效率，支撑识字量目标"
+    },
+    {
+      "topicId": "ct_yw_g2a_01",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "部首查字法以偏旁知识为前提：先认得部首，才查得了字典"
+    },
+    {
+      "topicId": "ct_yw_g2a_01",
+      "prerequisiteId": "ct_yw_g1b_03",
+      "strength": "soft",
+      "reason": "与音序查字法互补：会读查音序、不会读查部首，方法迁移降低学习成本"
+    },
+    {
+      "topicId": "ct_yw_g2a_02",
+      "prerequisiteId": "ct_yw_g1b_01",
+      "strength": "hard",
+      "reason": "形声字家族识字是一年级形声字规律（青字族）的扩大家族应用"
+    },
+    {
+      "topicId": "ct_yw_g2a_03",
+      "prerequisiteId": "ct_yw_g1b_01",
+      "strength": "hard",
+      "reason": "形近字辨析的核心方法就是看形旁表义"
+    },
+    {
+      "topicId": "ct_yw_g2a_04",
+      "prerequisiteId": "ct_yw_g1b_04",
+      "strength": "hard",
+      "reason": "抄写速度与整洁建立在合体字结构书写规范之上"
+    },
+    {
+      "topicId": "ct_yw_g2a_05",
+      "prerequisiteId": "ct_yw_g1b_05",
+      "strength": "hard",
+      "reason": "默读要求在心里读长句，长句停顿技能是默读理解的前提"
+    },
+    {
+      "topicId": "ct_yw_g2a_06",
+      "prerequisiteId": "ct_yw_g1b_10",
+      "strength": "hard",
+      "reason": "读出对话语气是分角色朗读对话的进阶：从分角色到读出性格"
+    },
+    {
+      "topicId": "ct_yw_g2a_07",
+      "prerequisiteId": "ct_yw_g1b_06",
+      "strength": "hard",
+      "reason": "联系上下文猜词义之后，进一步联系生活经验理解整句"
+    },
+    {
+      "topicId": "ct_yw_g2a_08",
+      "prerequisiteId": "ct_yw_g1b_07",
+      "strength": "hard",
+      "reason": "从找出信息到把信息按顺序组织成步骤"
+    },
+    {
+      "topicId": "ct_yw_g2a_08",
+      "prerequisiteId": "ct_yw_g1a_21",
+      "strength": "soft",
+      "reason": "讲小故事的顺序经验迁移为梳理课文过程"
+    },
+    {
+      "topicId": "ct_yw_g2a_09",
+      "prerequisiteId": "ct_yw_g1b_08",
+      "strength": "hard",
+      "reason": "古诗诵读延续一年级，从背到能说画面"
+    },
+    {
+      "topicId": "ct_yw_g2a_10",
+      "prerequisiteId": "ct_yw_g1b_09",
+      "strength": "hard",
+      "reason": "寓言道理是简单推断（从情节到寓意）的文学化应用"
+    },
+    {
+      "topicId": "ct_yw_g2a_11",
+      "prerequisiteId": "ct_yw_g1b_11",
+      "strength": "hard",
+      "reason": "按顺序讲故事是听故事讲故事的复述版进阶"
+    },
+    {
+      "topicId": "ct_yw_g2a_12",
+      "prerequisiteId": "ct_yw_g2a_11",
+      "strength": "hard",
+      "reason": "看图讲故事需要顺序讲述能力，再补全图间联系"
+    },
+    {
+      "topicId": "ct_yw_g2a_12",
+      "prerequisiteId": "ct_yw_g1a_21",
+      "strength": "soft",
+      "reason": "一年级看图讲小故事的经验直接迁移"
+    },
+    {
+      "topicId": "ct_yw_g2a_13",
+      "prerequisiteId": "ct_yw_g1b_12",
+      "strength": "hard",
+      "reason": "商量是礼貌求助的进阶：从请求帮助到协商改变"
+    },
+    {
+      "topicId": "ct_yw_g2a_14",
+      "prerequisiteId": "ct_yw_g1b_23",
+      "strength": "hard",
+      "reason": "写玩具的几句话从两三句连贯写话发展而来"
+    },
+    {
+      "topicId": "ct_yw_g2a_15",
+      "prerequisiteId": "ct_yw_g2a_14",
+      "strength": "soft",
+      "reason": "留言条正文仍是一段清楚的话，写话能力迁移到固定格式"
+    },
+    {
+      "topicId": "ct_yw_g2a_16",
+      "prerequisiteId": "ct_yw_g1b_23",
+      "strength": "hard",
+      "reason": "多幅图写一段话是一下两三句连贯写话的扩容"
+    },
+    {
+      "topicId": "ct_yw_g2a_16",
+      "prerequisiteId": "ct_yw_g2a_12",
+      "strength": "hard",
+      "reason": "看图写话先要看图讲得出，口头是笔头的先行"
+    },
+    {
+      "topicId": "ct_yw_g2a_17",
+      "prerequisiteId": "ct_yw_g1b_21",
+      "strength": "soft",
+      "reason": "叠词句式积累与句式仿说同属语言形式的积累运用"
+    },
+    {
+      "topicId": "ct_yw_g2a_18",
+      "prerequisiteId": "ct_yw_g2a_17",
+      "strength": "soft",
+      "reason": "叠词的节奏感帮助体会拟人句的生动表达"
+    },
+    {
+      "topicId": "ct_yw_g2a_19",
+      "prerequisiteId": "ct_yw_g1a_16",
+      "strength": "hard",
+      "reason": "量词整理是一年级量词初步使用的系统化扩容"
+    },
+    {
+      "topicId": "ct_yw_g2a_19",
+      "prerequisiteId": "ct_yw_g1b_16",
+      "strength": "soft",
+      "reason": "延续词语归类方法，从类别词到量词短语群"
+    },
+    {
+      "topicId": "ct_yw_g2a_20",
+      "prerequisiteId": "ct_yw_g1b_18",
+      "strength": "hard",
+      "reason": "整本童话阅读是整本童谣集阅读的进阶：页数更多、有情节"
+    },
+    {
+      "topicId": "ct_yw_g2a_21",
+      "prerequisiteId": "ct_yw_g2a_06",
+      "strength": "soft",
+      "reason": "读反问句的语气（强调、上扬）依托对话语气朗读经验"
+    },
+    {
+      "topicId": "ct_yw_g2a_22",
+      "prerequisiteId": "ct_yw_g1b_20",
+      "strength": "hard",
+      "reason": "日积月累从名言扩展到古诗与谚语，积累习惯延续"
+    },
+    {
+      "topicId": "ct_yw_g2a_23",
+      "prerequisiteId": "ct_yw_g1b_15",
+      "strength": "hard",
+      "reason": "讲手工过程是「一边说一边做」游戏规则讲解的进阶：步骤更长更细"
+    },
+    {
+      "topicId": "ct_yw_g2a_24",
+      "prerequisiteId": "ct_yw_g1b_24",
+      "strength": "hard",
+      "reason": "识字量逐年累进，自查方法延续并新增易错字本"
+    },
+    {
+      "topicId": "ct_yw_g2a_24",
+      "prerequisiteId": "ct_yw_g2a_03",
+      "strength": "soft",
+      "reason": "形近字同音字辨析直接服务于减少错别字"
     }
   ]
 }

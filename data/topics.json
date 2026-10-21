@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 612,
+  "topicCount": 636,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -18897,6 +18897,742 @@
       "prerequisites": [
         "ct_yw_g1a_25",
         "ct_yw_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "部首查字法：查不认识的字",
+      "description": "遇到不知道读音的字，会取偏旁数笔画查部首，再数除部首外的笔画找到字。音序查字法查「会读的字」，部首查字法查「不会读的字」——两法齐备，字典才真正好用。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出部首查字法三步骤并独立查出生字",
+        "能判断「狐、狸」查反犬旁、「闻」查门字框"
+      ],
+      "assessmentPrompt": "写一个{{name}}不认识的字（如「雏」），请{{name}}用部首查字法查出读音和意思，说出查什么部、再数几画。",
+      "standards": [
+        "cschinese-2022:S1.LZ.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地二",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1a_10",
+        "ct_yw_g1b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "形声字家族扩认：木字旁、草字头的字",
+      "description": "用形声规律成家族识字（木字旁：桐枫柏桦；草字头：菊荷芦苇）。二年级识字量陡增，靠规律成串认是不掉队的关键。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能读《树之歌》并说出这些树名的共同偏旁",
+        "能举出草字头的字并说都和植物有关"
+      ],
+      "assessmentPrompt": "写「桐、柏、荷、菊」，请{{name}}分两组并说理由，再各补一个同家族的字。",
+      "standards": [
+        "cschinese-2022:S1.LZ.03",
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "识字（第二单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_03",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "形近字与同音字辨析",
+      "description": "区分长得很像的字（锋—峰—蜂、园—圆）和读音相同的字（做—作），并能选字填空。错别字多从二年级开始冒头，辨析要从「形旁表义」入手根治。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出「峰、锋、蜂」的不同偏旁和用法并正确选填",
+        "听写中同音字错误能自己发现并改对"
+      ],
+      "assessmentPrompt": "出题「山（峰/锋）」「蜜（蜂/锋）」「刀（锋/峰）」，请{{name}}选择并说明理由。",
+      "standards": [
+        "cschinese-2022:S1.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地六",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "抄写句子：又快又整洁",
+      "description": "抄写句子做到不丢字、不改字、标点照抄，字迹工整、行款整齐。抄写是最朴素的书写训练，为写话和做笔记打速度与准确底子。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "限时抄写一句 20 字的话无一错漏",
+        "抄写的字大小均匀、写在横格中间"
+      ],
+      "assessmentPrompt": "让{{name}}抄一句课文（「植物妈妈的办法很多很多」），抄完逐字对比检查有没有漏字错字。",
+      "standards": [
+        "cschinese-2022:S1.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地一",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_05",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "默读起步：不出声、不指读",
+      "description": "开始学习默读：眼睛看、嘴巴不出声、手指不点字。默读比朗读快得多，是中高年级阅读的主要方式，二年级起步正当时。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "默读一篇短文不出声不指读",
+        "默读后能说出课文大意"
+      ],
+      "assessmentPrompt": "请{{name}}不出声读完一篇没读过的短文，观察嘴唇是否动、手指是否点字，读完问讲了什么。",
+      "standards": [
+        "cschinese-2022:S2.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第三单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "读出对话的语气",
+      "description": "朗读对话能根据角色和心情读出语气（坐井观天里小鸟的耐心、青蛙的自信）。从「读正确」到「读得像」，理解开始通过声音外显。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能分角色朗读对话，语气与角色相符",
+        "能说说为什么这句话要读得大声/小声、快/慢"
+      ],
+      "assessmentPrompt": "和{{name}}分角色读《坐井观天》，{{name}}读青蛙，听「天不过井口那么大」是否读出自以为是。",
+      "standards": [
+        "cschinese-2022:S1.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第五单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "联系生活实际理解句子",
+      "description": "读到「雾是个淘气的孩子」，能想想生活里的雾、自己淘气的样子来理解句子。把自己放进课文，是理解抽象句子最有效的路径。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能结合生活经验说说对句子的理解",
+        "能举一个生活里类似的例子解释课文内容"
+      ],
+      "assessmentPrompt": "读「雾把大海藏了起来」，问{{name}}：为什么说雾「藏」东西？它像谁？你见过大雾天吗，什么样？",
+      "standards": [
+        "cschinese-2022:S2.LZ.03",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第七单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "借助词句和图示梳理课文：曹冲称象",
+      "description": "能按顺序说出曹冲称象的步骤（赶象上船—画线—装石头—称石头），并用简单示意图标出来。把课文「过程类内容」变成步骤，是读说明性内容的启蒙。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用「先…再…然后…最后…」讲清称象步骤",
+        "能给连环画排出正确顺序"
+      ],
+      "assessmentPrompt": "读完《曹冲称象》，请{{name}}用四张简笔画或四句话排出称象的步骤。",
+      "standards": [
+        "cschinese-2022:S1.YD.03",
+        "cschinese-2022:S2.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第三单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1a_21",
+        "ct_yw_g1b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_09",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗诵读：登鹳雀楼、望庐山瀑布等",
+      "description": "背诵《登鹳雀楼》《望庐山瀑布》《夜宿山寺》《敕勒歌》，感受诗里山川的壮美（白日依山尽、飞流直下三千尺）。读背之外，开始说说「诗里的画面」。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确背诵四首古诗",
+        "能用自己的话说出「飞流直下三千尺」看到的景象"
+      ],
+      "assessmentPrompt": "请{{name}}背《望庐山瀑布》并闭上眼睛想想瀑布的样子，说说诗里哪个词让你觉得瀑布很壮观。",
+      "standards": [
+        "cschinese-2022:S2.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第四单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_10",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "寓言的道理：坐井观天、我要的是葫芦",
+      "description": "读完寓言能说出道理（看问题不能像青蛙那样坐井观天；只想要结果不管原因，葫芦终会落掉）。从故事到道理，是从具体到抽象的第一级台阶。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用自己的话说出寓言讲的道理",
+        "能把道理联系到自己的一件事"
+      ],
+      "assessmentPrompt": "问{{name}}：种葫芦的人错在哪里？如果他来问你，你会怎么劝他？",
+      "standards": [
+        "cschinese-2022:S2.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第五单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_11",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "按顺序讲故事：小蝌蚪找妈妈",
+      "description": "能按时间/过程顺序讲故事（小蝌蚪长出后腿—长出前腿—尾巴变短—变成青蛙）。顺序词是叙述的骨架，讲清楚顺序是复述的核心。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用顺序词完整讲述课文故事",
+        "讲故事时不会前后颠倒"
+      ],
+      "assessmentPrompt": "请{{name}}看图讲《小蝌蚪找妈妈》，注意听是否用上「先、接着、后来、最后」。",
+      "standards": [
+        "cschinese-2022:S2.YD.04",
+        "cschinese-2022:S1.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第一单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_12",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "看图讲故事：讲清图间联系",
+      "description": "看多幅图讲故事，能讲出图与图之间发生了什么（上一幅到下一幅中间的情节）。补全「图外之意」是从看图到叙事的关键一跳。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能看着连环画讲完整故事",
+        "能说出图与图之间省略的情节"
+      ],
+      "assessmentPrompt": "给{{name}}看 4 幅连环画，请{{name}}讲给家人听；讲到跳页处追问「中间发生了什么」。",
+      "standards": [
+        "cschinese-2022:S1.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "口语交际（第六单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1a_21",
+        "ct_yw_g2a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：用商量的语气",
+      "description": "想让别人改变安排时用商量的语气（「可以吗？」「行吗？」），而不是命令。商量是解决同伴冲突的语言工具。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "提要求时能用上商量句式和礼貌用语",
+        "被拒绝后能提出备选方案"
+      ],
+      "assessmentPrompt": "情境演练：{{name}}想看的动画片和爸爸的球赛同时开始，请{{name}}用商量的语气和爸爸谈。",
+      "standards": [
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "口语交际（第五单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写话：写喜欢的玩具",
+      "description": "写自己喜欢的玩具：是什么样、怎么玩、为什么喜欢，写出 3–5 句连贯的话。这是第一篇「介绍事物」的小作文，练观察加表达。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能围绕玩具写出样子和玩法各一到两句",
+        "会写的字用拼音代替不成障碍"
+      ],
+      "assessmentPrompt": "请{{name}}抱着最喜欢的玩具说三句话（什么样、怎么玩、为什么喜欢），说完写下来。",
+      "standards": [
+        "cschinese-2022:S2.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地三（写话）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_15",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "学写留言条",
+      "description": "掌握留言条三要素格式：写给谁（顶格称呼）、什么事（另起一行空两格）、谁写的和日期（右下角）。应用文格式规范从留言条起步。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能按格式写一张要素齐全的留言条",
+        "知道什么事要写清时间地点"
+      ],
+      "assessmentPrompt": "情境：{{name}}放学去同学家写作业，请{{name}}给妈妈写张留言条；检查称呼、正文、署名、日期四处。",
+      "standards": [
+        "cschinese-2022:S2.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地四（写话）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g2a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_16",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "看图写话：多幅图写成一段话",
+      "description": "看多幅图写一段话：每幅图写一两句，用上时间地点、人物事件，结尾写想法。二年级写话的主战场，直接对接三年级习作。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能看 3–4 幅图写出一段话，内容连贯不漏主要情节",
+        "句末标点基本正确"
+      ],
+      "assessmentPrompt": "给{{name}}一组「扶老奶奶过马路」的看图写话题，写完一起数：写清时间了吗？写清谁了吗？结果呢？",
+      "standards": [
+        "cschinese-2022:S2.BD.01",
+        "cschinese-2022:S2.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地七（写话）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_23",
+        "ct_yw_g2a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_17",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": " AABB、ABB 式词语的积累运用",
+      "description": "认识并积累叠词（大大小小、许许多多；喜洋洋、笑眯眯），会在句子中用。叠词让语言有节奏有画面，是词句积累中最「上口」的一类。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出 AABB、ABB 式词语各三个以上",
+        "能仿写「金灿灿」式新词并造句"
+      ],
+      "assessmentPrompt": "说「高」——请{{name}}说出 AABB 式（高高低低）；再指太阳问：像「绿油油」这样说太阳，可以怎么说？",
+      "standards": [
+        "cschinese-2022:S2.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地一",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_18",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "拟人句的初步认识",
+      "description": "发现把事物当人写的句子（雾「藏」东西、雪孩子会跑会救火），并试着说一句。拟人是儿童最自然亲近的修辞，也是作文生动的第一法宝。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能从课文中找出拟人句并说说它把什么当人写",
+        "能仿说一句拟人句（小草点点头）"
+      ],
+      "assessmentPrompt": "说「风把树叶吹得响」——请{{name}}换个说法，让风像人一样做事；再问：这样写好在哪里？",
+      "standards": [
+        "cschinese-2022:S2.SL.02",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第七单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g2a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_19",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "量词短语与场景词语整理",
+      "description": "整理「一只海鸥、一片沙滩、一艘军舰」式量词短语和校园、四季场景词群。量词搭配是低年级语病高发区，成串整理胜过逐个纠正。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确搭配常见量词（一（ ）鱼塘、一（ ）翠竹）",
+        "能按场景（海边/校园）整理出词语群"
+      ],
+      "assessmentPrompt": "出「一（ ）石桥、一（ ）队旗、一（ ）铜号」，请{{name}}填量词并再组两个同类短语。",
+      "standards": [
+        "cschinese-2022:S2.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "识字（第二单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1a_16",
+        "ct_yw_g1b_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_20",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "快乐读书吧：读整本童话",
+      "description": "课外共读整本童话（《小鲤鱼跳龙门》《孤独的小螃蟹》等），读完能讲讲最喜欢的角色。从注音读物过渡到章节书，阅读耐力从这里练起。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能读完一本 50 页左右的童话书",
+        "能说出书中最喜欢的角色和一件事"
+      ],
+      "assessmentPrompt": "陪{{name}}读《小鲤鱼跳龙门》，每天 10 页，读完请{{name}}讲讲小鲤鱼一路上遇到了什么。",
+      "standards": [
+        "cschinese-2022:S1.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "快乐读书吧",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_21",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "反问句的认识",
+      "description": "认识反问句（「天不过井口那么大，还用飞那么远吗？」），知道它其实是在强调肯定的意思，并能把反问句换成陈述句。反问是课文里最常见的句式变化，读不懂就容易读反。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能判断哪句是反问句",
+        "能把「叶子上的虫还用治？」改成陈述句而不变意思"
+      ],
+      "assessmentPrompt": "读「这不就是我们的学校吗？」，问{{name}}：这句话的意思是「是」还是「不是」？能换成不带问号的说法吗？",
+      "standards": [
+        "cschinese-2022:S2.YD.02",
+        "cschinese-2022:S2.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "课文（第五单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g2a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_22",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "日积月累：江雪、小儿垂钓与谚语",
+      "description": "背诵《江雪》《小儿垂钓》和「己所不欲，勿施于人」等名句谚语，知道大意。积累的面从古诗扩到名言谚语，为语言库存添种。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能背诵本册日积月累篇目",
+        "能大致说出「己所不欲勿施于人」的意思"
+      ],
+      "assessmentPrompt": "请{{name}}背《江雪》，再问：这么冷的天，老翁为什么还在钓鱼？诗人想说什么？（能谈感受即可）",
+      "standards": [
+        "cschinese-2022:S2.YD.06",
+        "cschinese-2022:S1.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "语文园地六",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_23",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：介绍做手工的过程",
+      "description": "能按步骤介绍自己做手工的过程（先折…再剪…最后贴…），并边说边展示。程序说明的口头版，和写留言条一样是「实用语言」训练。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用顺序词讲清手工步骤",
+        "听的人能照着做出来"
+      ],
+      "assessmentPrompt": "请{{name}}教折一只纸船，只许说和做，看你能不能照着折出来——检验步骤是否讲清。",
+      "standards": [
+        "cschinese-2022:S1.BD.01",
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "口语交际（第三单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g2a_24",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "二上识字量自查：认 450 写 250",
+      "description": "二年级上册要求认识 450 字、会写 250 字（累计认 850、写 450）。自查之外，开始建立自己的「易错字本」。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "生字表随机抽查认对率 90% 以上",
+        "已把常错的 5–10 个字记进易错字本并会纠正"
+      ],
+      "assessmentPrompt": "听写「观、忙、如、已」等易错字 10 个，请{{name}}自己批改并把错的收进易错字本。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04",
+        "cschinese-2022:S2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "识字（第二单元）",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_yw_g1b_24",
+        "ct_yw_g2a_03"
       ]
     }
   ]
