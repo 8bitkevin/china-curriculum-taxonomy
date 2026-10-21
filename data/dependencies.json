@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.10.0",
+  "version": "1.11.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1237,
+  "edgeCount": 1263,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7425,6 +7425,162 @@
       "prerequisiteId": "ct_yw_g5a_24",
       "strength": "hard",
       "reason": "识字量自查逐年累进，重心转向成语俗语运用"
+    },
+    {
+      "topicId": "ct_yw_g6a_01",
+      "prerequisiteId": "ct_yw_g5a_01",
+      "strength": "hard",
+      "reason": "提速阅读（五上）之后，有目的地阅读让速度有了方向：读法随任务定制"
+    },
+    {
+      "topicId": "ct_yw_g6a_01",
+      "prerequisiteId": "ct_yw_g5b_09",
+      "strength": "soft",
+      "reason": "非连续性文本的多栏信息提取经验支撑任务式选读"
+    },
+    {
+      "topicId": "ct_yw_g6a_02",
+      "prerequisiteId": "ct_yw_g5a_06",
+      "strength": "hard",
+      "reason": "借物抒情的『物→人』联想是从内容想开去的具体样式，本课泛化为普遍策略"
+    },
+    {
+      "topicId": "ct_yw_g6a_03",
+      "prerequisiteId": "ct_yw_g4b_14",
+      "strength": "hard",
+      "reason": "从言行读人物升级为小说三要素的框架化分析"
+    },
+    {
+      "topicId": "ct_yw_g6a_04",
+      "prerequisiteId": "ct_yw_g4a_10",
+      "strength": "hard",
+      "reason": "点面结合从初步尝试（四上游戏作文）到自觉技法（场面描写单元要素）"
+    },
+    {
+      "topicId": "ct_yw_g6a_05",
+      "prerequisiteId": "ct_yw_g3a_06",
+      "strength": "hard",
+      "reason": "三年级的中心句意识成长为『围绕中心意思选材谋篇』的全文级技能"
+    },
+    {
+      "topicId": "ct_yw_g6a_05",
+      "prerequisiteId": "ct_yw_g5a_13",
+      "strength": "soft",
+      "reason": "列提纲习惯支撑围绕中心组织多事例"
+    },
+    {
+      "topicId": "ct_yw_g6a_06",
+      "prerequisiteId": "ct_yw_g5b_06",
+      "strength": "hard",
+      "reason": "文言阅读继续：从寓言幽默进到知音与艺术之理，谈理解的比重加大"
+    },
+    {
+      "topicId": "ct_yw_g6a_07",
+      "prerequisiteId": "ct_yw_g5b_01",
+      "strength": "hard",
+      "reason": "古典名著猜读训练过『读不熟句式不慌』的能力，迁移到鲁迅早期白话"
+    },
+    {
+      "topicId": "ct_yw_g6a_08",
+      "prerequisiteId": "ct_yw_g5a_18",
+      "strength": "hard",
+      "reason": "景情对应分析升级为用自己的话完整描绘意境"
+    },
+    {
+      "topicId": "ct_yw_g6a_09",
+      "prerequisiteId": "ct_yw_g4b_10",
+      "strength": "hard",
+      "reason": "变形记是反转想象的视角化极致：身份变→世界变"
+    },
+    {
+      "topicId": "ct_yw_g6a_10",
+      "prerequisiteId": "ct_yw_g3a_07",
+      "strength": "hard",
+      "reason": "『现象+想法』的微型议论在四上已有雏形，本课要求事例论证完整"
+    },
+    {
+      "topicId": "ct_yw_g6a_11",
+      "prerequisiteId": "ct_yw_g6a_03",
+      "strength": "hard",
+      "reason": "虚构小说写作直接应用小说三要素框架"
+    },
+    {
+      "topicId": "ct_yw_g6a_11",
+      "prerequisiteId": "ct_yw_g4b_12",
+      "strength": "soft",
+      "reason": "故事新编的情节改造经验迁移到生活小说创编"
+    },
+    {
+      "topicId": "ct_yw_g6a_12",
+      "prerequisiteId": "ct_yw_g4a_11",
+      "strength": "hard",
+      "reason": "应用文格式谱系（留言条→书信→倡议书）继续扩展"
+    },
+    {
+      "topicId": "ct_yw_g6a_13",
+      "prerequisiteId": "ct_yw_g4b_10",
+      "strength": "hard",
+      "reason": "『我学会了』的过程+波折写法直接迁移到拿手好戏"
+    },
+    {
+      "topicId": "ct_yw_g6a_14",
+      "prerequisiteId": "ct_yw_g5a_08",
+      "strength": "hard",
+      "reason": "细节传情的阅读经验反哺『用场景代替抒情』的写作"
+    },
+    {
+      "topicId": "ct_yw_g6a_15",
+      "prerequisiteId": "ct_yw_g5b_18",
+      "strength": "hard",
+      "reason": "讲解员的条理与台风经验升级为正式演讲"
+    },
+    {
+      "topicId": "ct_yw_g6a_15",
+      "prerequisiteId": "ct_yw_g5a_21",
+      "strength": "soft",
+      "reason": "分条讲述的人物介绍为演讲的事例组织供方法"
+    },
+    {
+      "topicId": "ct_yw_g6a_16",
+      "prerequisiteId": "ct_yw_g2b_07",
+      "strength": "soft",
+      "reason": "说服类表达自二年级『写理由』起步，本课要求预判质疑的完整说服链"
+    },
+    {
+      "topicId": "ct_yw_g6a_17",
+      "prerequisiteId": "ct_yw_g3b_18",
+      "strength": "hard",
+      "reason": "两面讨论的听辨能力升级为找共识提折中的协商"
+    },
+    {
+      "topicId": "ct_yw_g6a_18",
+      "prerequisiteId": "ct_yw_g4b_01",
+      "strength": "hard",
+      "reason": "现代诗的画面想象迁移到艺术文本的文字通感"
+    },
+    {
+      "topicId": "ct_yw_g6a_19",
+      "prerequisiteId": "ct_yw_g5a_02",
+      "strength": "hard",
+      "reason": "说明方法识别之上，体会说明中的情感态度"
+    },
+    {
+      "topicId": "ct_yw_g6a_20",
+      "prerequisiteId": "ct_yw_g5b_20",
+      "strength": "hard",
+      "reason": "从古典长篇到现代成长小说，整本阅读的类型再扩展"
+    },
+    {
+      "topicId": "ct_yw_g6a_21",
+      "prerequisiteId": "ct_yw_g4a_22",
+      "strength": "hard",
+      "reason": "动词品析的方法升级为主动推敲自己用词的习惯"
+    },
+    {
+      "topicId": "ct_yw_g6a_22",
+      "prerequisiteId": "ct_yw_g5b_22",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进，重心转向文言与书面语汇"
     }
   ]
 }

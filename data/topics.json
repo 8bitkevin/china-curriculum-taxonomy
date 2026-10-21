@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.10.0",
+  "version": "1.11.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 801,
+  "topicCount": 823,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -24727,6 +24727,689 @@
       },
       "prerequisites": [
         "ct_yw_g5a_24"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "阅读策略：有目的地阅读",
+      "description": "带着任务选读法：为完成「竹节人制作指南」读课文要精读步骤，为「宇宙有没有生命」找答案要跳读筛选。策略三连星收官站——读法为目的服务，这是终身阅读的元技能。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能根据任务说出该精读哪些段、跳过哪些段",
+        "同一文本能为两个不同任务提取不同信息"
+      ],
+      "assessmentPrompt": "给{{name}}《竹节人》课文和两个任务（①写制作说明书 ②讲一个老师也玩竹节人的故事），看{{name}}分别为任务各读哪几段。",
+      "standards": [
+        "cschinese-2022:S3.YD.01",
+        "cschinese-2022:S3.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第三单元（策略单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_01",
+        "ct_yw_g5b_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "从所读的内容想开去",
+      "description": "读《丁香结》想到「结，是解不完的；人生中的问题也是解不完的」——从课文联想到人生与生活。阅读的顶层动作：读进去，还要想开去，书才算读到了自己身上。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能由课文内容生发一处有质量的联想",
+        "能区分「内容复述」和「想开去」"
+      ],
+      "assessmentPrompt": "读完《丁香结》问{{name}}：你生活里有什么「解不完的结」？宗璞为什么说「不然岂不太平淡无味」？",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S3.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_03",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "小说阅读：情节、环境、人物",
+      "description": "读《桥》《穷人》，用小说三要素分析：山洪的环境渲染、老支书的人物刻画、桑娜「忐忑不安」的心理描写如何推动情节。文学阅读从此有了小说的专业框架——初中名著阅读的地基。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能分别指出课文的情节线、环境描写作用、人物形象特点",
+        "能说说如果删去环境描写损失什么"
+      ],
+      "assessmentPrompt": "问{{name}}：《桥》开头的山洪描写能不能删？它和结尾「她来祭奠两个人」的秘密有什么关系？老汉是个怎样的人？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S3.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "点面结合写场面",
+      "description": "写活动场面（多彩的活动、运动会的狼牙山五壮士式群像）：先「面」铺开全场，再「点」聚焦两三个人特写。场面描写从四年级的初步尝试到六年级的自觉运用，记叙文最出彩的技法。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "习作点面结构清晰",
+        "「点」的特写有动作语言神态细节"
+      ],
+      "assessmentPrompt": "请{{name}}写「拔河比赛」：第一段写全班（面），第二段只写队尾大个子同学（点），第三段写胜利瞬间（点面结合）。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_05",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "围绕中心意思写",
+      "description": "习作单元核心：先定中心（「忙」「悔」一个字），再选不同事例从不同侧面表达中心（《夏天里的成长》《盼》都是范文）。「中心统帅材料」是从写作文到会写作文的分水岭。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能围绕一个中心选两三个不同角度的事例",
+        "能删掉与中心无关的段落"
+      ],
+      "assessmentPrompt": "请{{name}}以「悔」为中心写作文：先列三个不同的事例（选两个写入），写完把与「悔」无关的句子画出来删一删。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3a_06",
+        "ct_yw_g5a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言二则：伯牙鼓琴与书戴嵩画牛",
+      "description": "《伯牙鼓琴》读「知音」之谊（巍巍乎若太山、汤汤乎若流水），《书戴嵩画牛》悟「耕当问奴，织当问婢」——艺术要从生活真实出发。六年级文言能借助注释通读并谈出自己的理解。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能背诵《伯牙鼓琴》",
+        "能讲出两则各自的道理并联系生活"
+      ],
+      "assessmentPrompt": "请{{name}}背「伯牙鼓琴，锺子期听之」，问：为什么锺子期死后再无人听琴？牧童笑画错在哪里？画家错在哪？",
+      "standards": [
+        "cschinese-2022:S3.YD.05",
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5b_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_07",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "鲁迅单元：少年闰土与好的故事",
+      "description": "读《少年闰土》《好的故事》《我的伯父鲁迅先生》，认识鲁迅笔下的人物与那个年代的语言风貌（其间有一个十一二岁的少年……），理解「俯首甘为孺子牛」的鲁迅。接触现代文学的高峰，跨过白话初创期的语言门槛。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出闰土给「我」讲的几件事及其形象",
+        "对鲁迅初期白话的句式（「他们都和我一样」等）能读懂不慌"
+      ],
+      "assessmentPrompt": "问{{name}}：闰土心里有哪些「无穷无尽的稀奇的事」？「四角的天空」说明「我」的生活怎样？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第八单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_08",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗描绘意境：浪淘沙与江南春",
+      "description": "背《浪淘沙》《江南春》《书湖阴先生壁》《宿建德江》《西江月·夜行黄沙道中》，学会用自己的话描绘诗中画面（「九曲黄河万里沙」的壮阔、「水村山郭酒旗风」的江南）。从背诵到「说意境」，诗感落地。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能背诵本册五首诗词",
+        "能用自己的话把一首诗的意境说成一段画面"
+      ],
+      "assessmentPrompt": "请{{name}}背《西江月·夜行黄沙道中》，然后闭眼把「稻花香里说丰年」的夜路讲给家人听。",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S2.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第一/第六单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "想象习作：变形记",
+      "description": "变形为另一种事物（一条幸福的蚯蚓、地球自述）后写「我的」经历：视角变、世界就变（变小后一滴雨是海）。想象作文的高级形态：设定一致性——变形后的所见所想都要符合新身份。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "全程保持变形后的视角",
+        "世界因变形而不同（细节随视角变）"
+      ],
+      "assessmentPrompt": "请{{name}}写「我变成了一只蚂蚁」：雨点有多大？面包屑是什么山？遇到人类鞋子怎么办？全程不能变回人的视角。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：___让生活更美好",
+      "description": "半命题作文「××让生活更美好」（阅读/运动/旅行）：观点+事例+感受，是微型的夹叙夹议。初中议论文的种子在这里埋下——用事例证明一个看法。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "观点明确且有具体事例支撑",
+        "事例与感受结合，不说空话"
+      ],
+      "assessmentPrompt": "请{{name}}写「阅读让生活更美好」：先补全题目，再用一个自己的真实事例证明，结尾回到「美好」在哪。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：笔尖流出的故事（虚构小说）",
+      "description": "创编生活小说（开满丁香花的校园、月光下的村庄）：设定环境、设计情节波折、塑造人物。小说三要素（本册第四单元所学）从阅读转入写作——虚构故事的完整操练。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "故事有环境、情节（含波折）、人物",
+        "虚构合理不生硬"
+      ],
+      "assessmentPrompt": "请{{name}}用「环境：黄昏的车站；人物：卖花的老人和一个赶路的学生」编一个有转折的小故事。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_12",
+        "ct_yw_g6a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "应用文：学写倡议书",
+      "description": "写倡议书（节约用水、垃圾分类）：标题—称呼—正文（为什么倡议+具体做法）—署名日期，号召要具体可行。倡议书是「为公共事务写作」的启蒙——你的文字可以推动一群人。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "格式正确",
+        "倡议理由清楚、做法分条具体可行"
+      ],
+      "assessmentPrompt": "请{{name}}给小区写「文明养犬倡议书」：为什么倡议、三条做法、落款齐全；贴到家庭群征集签名。",
+      "standards": [
+        "cschinese-2022:S4.BD.04",
+        "cschinese-2022:S4.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我的拿手好戏",
+      "description": "写自己的拿手好戏（做菜、魔方、钓鱼）：怎么练成的、最精彩的一次、趣事或教训。展示类记叙文三段式：来历—亮相—花絮，写出「戏」的味儿。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "重点写「最精彩的一次」有细节",
+        "趣事或教训让文章有起伏"
+      ],
+      "assessmentPrompt": "请{{name}}写「我的拿手好戏——煎鸡蛋」：学艺经过一句带过，重点写最成功（或翻车）那次的现场。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：有你，真好",
+      "description": "用第二人称给一个重要的人写「有你，真好」：具体场景+真情流露（「那天大雨，你把伞倾向我这边」）。抒情文的克制美学：不喊「真好」，而是让场景替你说。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "第二人称运用自然贯穿",
+        "用两三个具体场景传情"
+      ],
+      "assessmentPrompt": "请{{name}}写「外婆，有你真好」：不用「真好」这个词超过一次，用三个场景让读者自己感到「真好」。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第八单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_15",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：演讲",
+      "description": "做一次有准备的演讲（祖国在我心中）：观点鲜明、材料有说服力、开场抓住人、结尾有力，加上适当的手势与停顿。演讲是口语表达的皇冠——写稿、记稿、台风三位一体。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "演讲观点清楚、有两个以上事例",
+        "能脱稿、有眼神交流和手势"
+      ],
+      "assessmentPrompt": "请{{name}}就「读书比刷短视频划算」准备 3 分钟演讲并站到全家面前讲；家人按观点/事例/台风三项打分。",
+      "standards": [
+        "cschinese-2022:S3.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "口语交际（第二单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_21",
+        "ct_yw_g5b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_16",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：请支持我（说服）",
+      "description": "为争取支持做准备（请投我一票做班委）：亮出想法、列理由、预判对方顾虑并回应。说服的全流程：主张—理由—预案，比「求求你」高级一个量级。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "说清主张和两三条理由",
+        "能应对一次质疑不慌乱"
+      ],
+      "assessmentPrompt": "请{{name}}说服家长同意养狗/换手机：先说想法，列三条理由，并预回答「谁遛狗/影响学习怎么办」。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "口语交际（第四单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g2b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：意见不同怎么办",
+      "description": "围绕争议（春节能不能放鞭炮）协商：准确把握别人的观点、换位思考、找共识、提折中方案。协商三步走——听懂对方、亮出自己、寻找交集，比辩论更难也更有用。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能复述对方观点不失真",
+        "能提出双方都能接受的折中方案"
+      ],
+      "assessmentPrompt": "家庭议题「周末先写作业还是先玩」：请{{name}}先复述爸妈观点，再说自己的想法，最后提一个折中方案表决。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "口语交际（第六单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_18",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "艺术之美：月光曲与京剧",
+      "description": "读《月光曲》《京剧趣谈》，借助语言文字展开想象：皮鞋匠眼前出现的海面月光图如何随琴声起伏，马鞭、亮相的虚实之妙。艺术类文本的读法：文字通感，想象补画。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用语言描绘月光曲段落的画面变化",
+        "能说说京剧虚拟化表演的妙处"
+      ],
+      "assessmentPrompt": "放一段《月光曲》请{{name}}边听边读课文第九自然段，说说音乐由平静到汹涌时皮鞋匠眼前的海面怎么变。",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_19",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "科普阅读中的家国与地球",
+      "description": "读《只有一个地球》《青山不老》《三黑和土地》，体会说明中的情感与责任——地球的可爱与易碎、老人种树的坚持、翻身后土地的甜。语文课的科学人文主义：知识之外还有态度。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出课文说明的重点与抒发的情感",
+        "能把课文观点与生活选择联系起来"
+      ],
+      "assessmentPrompt": "问{{name}}：「只有一个地球」这个标题好在哪里？读完你能为地球做的一件小事是什么？",
+      "standards": [
+        "cschinese-2022:S3.YD.02",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_20",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本成长小说：童年与爱的教育",
+      "description": "快乐读书吧「笑与泪，经历与成长」：读高尔基《童年》、《小英雄雨来》或《爱的教育》，关注人物成长弧线（阿廖沙在苦难中长出光明）。成长小说整本阅读，为初中名著导读（童年是初中必读）提前铺路。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "读完一本成长小说",
+        "能梳理主人公的成长大事记与变化"
+      ],
+      "assessmentPrompt": "请{{name}}读《童年》，做「阿廖沙成长线」：挨打—交朋友—母亲去世…每记一件事标出他学到了什么。",
+      "standards": [
+        "cschinese-2022:S3.YD.07",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "快乐读书吧",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_21",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "推敲：用词的准确与生动",
+      "description": "像「春风又绿江南岸」品「绿」字那样推敲用词：换词比较（「闯」进教室 vs「跑」进教室），体会每个词的能量。锤炼语言的自觉，是六年级习作从通顺到精彩的临门一脚。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能通过换词比较说出用词好坏",
+        "习作初稿后能主动替换两处更准的词"
+      ],
+      "assessmentPrompt": "给{{name}}句子「太阳升起来了」，请换「升」为别的词试三个，比比哪个更有画面，说说为什么。",
+      "standards": [
+        "cschinese-2022:S2.SL.02",
+        "cschinese-2022:S3.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "语文园地",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g6a_22",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "六上字词自查：认 180 写 175",
+      "description": "六年级上册认 180 写 175（累计约 2980/2155）。新字学习接近尾声，字词学习的主战场转向：文言词语、书面语汇、成语典故的系统积累。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "听写正确率 85% 以上",
+        "能正确读写本册文言课文中的常用文言词"
+      ],
+      "assessmentPrompt": "听写「日寇、奋战、悬崖、沸腾、豪迈」等 15 词；再请{{name}}解释「善哉、巍巍、拊掌」三个文言词。",
+      "standards": [
+        "cschinese-2022:S3.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "各单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g5b_22"
       ]
     }
   ]
