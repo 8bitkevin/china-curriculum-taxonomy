@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.8.0",
+  "version": "1.9.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 755,
+  "topicCount": 779,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -23304,6 +23304,746 @@
       },
       "prerequisites": [
         "ct_yw_g4a_24"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "阅读策略：提高阅读速度",
+      "description": "连词成句地读（一眼看一个词群）、不回读、带着问题快速抓关键信息（将相和、地道战都是长文）。策略单元三连星的第三站（预测→提问→提速），为海量阅读和考试限时阅读装上引擎。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "千字课文能在 3 分钟内读完并答对主要问题",
+        "读时不出声、不指读、不回读"
+      ],
+      "assessmentPrompt": "计时让{{name}}读《将相和》（约 1500 字），读完问三个问题（蔺相如为什么完璧归赵？渑池会上怎样？将相为什么不和又和好？），看正确率。",
+      "standards": [
+        "cschinese-2022:S3.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第二单元（策略单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "说明文阅读：列数字、作比较、打比方",
+      "description": "读《太阳》《松鼠》，认识常用说明方法：列数字（130 万个地球）、作比较、打比方、举例子，体会不同方法让说明更准确或更生动。说明文阅读从此有了「工具清单」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断句用了什么说明方法",
+        "能说说同写动物，《太阳》和《松鼠》语言风格有何不同（平实/生动）"
+      ],
+      "assessmentPrompt": "给句子「太阳离我们约有一亿五千万千米远」，问{{name}}：用了什么方法？换成「很远很远」哪个好？为什么？",
+      "standards": [
+        "cschinese-2022:S3.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "说明文习作：介绍一种事物",
+      "description": "习作单元落笔：选一种事物（恐龙、微波炉、火星），分段从几方面介绍，恰当用说明方法，写准确也可以有点趣味。说明文写作与阅读互为镜像，是五年级习作的新大陆。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "从至少三方面介绍事物且分段清楚",
+        "全文至少用到两种说明方法且用得恰当"
+      ],
+      "assessmentPrompt": "请{{name}}写「扫地机器人的自述」：样子、怎么工作、与扫帚比好在哪；写完数数用了哪几种说明方法。",
+      "standards": [
+        "cschinese-2022:S3.YD.02",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3b_05",
+        "ct_yw_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "缩写故事：摘录与改写",
+      "description": "把长故事缩成短故事：删减次要情节（对话变转述）、保留主干（猎人海力布→缩写到三分之一）。缩写练的是概括力的笔头版——什么该留、什么该并、什么该删。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "缩写后情节完整且长度约为原文三分之一",
+        "对话改转述自然"
+      ],
+      "assessmentPrompt": "请{{name}}把《猎人海力布》缩写成 200 字，写完检查：起因经过结果在吗？大白蛇的对话变成转述了吗？",
+      "standards": [
+        "cschinese-2022:S2.YD.04",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "民间故事：创造性复述",
+      "description": "读《牛郎织女》，学会创造性复述：换角色讲（以老牛的口吻）、给情节「添油加醋」、变换顺序设置悬念。复述的第三次升级：从详细→简要→创造性，讲故事成为表达个性的事。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能换一个角色复述故事且情节不走样",
+        "能给某段情节合理扩充细节"
+      ],
+      "assessmentPrompt": "请{{name}}以「老牛」的口吻讲牛郎织女相识的经过：「那天我对牛郎说……」，听有没有老牛的语气。",
+      "standards": [
+        "cschinese-2022:S2.YD.04",
+        "cschinese-2022:S2.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_06",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "借物抒情：白鹭与落花生",
+      "description": "读《白鹭》《落花生》，发现作者表面写物、其实写人（花生朴素有用=做人不图虚名）。「借物抒情/言志」是散文与咏物诗共用的密码，从诗延伸到散文。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出「物」与「人」的对应点",
+        "能选一种事物仿说一段借物喻人的话（竹子→有节气的人）"
+      ],
+      "assessmentPrompt": "问{{name}}：父亲说花生「矮矮地长在地上」，其实是希望我们做什么样的人？竹子可以借来说什么人？",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "结合资料理解课文",
+      "description": "读《圆明园的毁灭》《少年中国说》时查背景资料（圆明园文物、清末历史），资料帮课文「长出上下文」。这一策略打通课内外，是研究性阅读的起点。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能查找并筛选与课文相关的背景资料",
+        "能说出资料帮助自己读懂了哪一句"
+      ],
+      "assessmentPrompt": "读《圆明园的毁灭》前，请{{name}}查「十二兽首」现在在哪里，再读课文问：了解这些后，「化为灰烬」四个字读起来有什么不同？",
+      "standards": [
+        "cschinese-2022:S3.YD.06",
+        "cschinese-2022:S3.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_08",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "场景细节中的深情：慈母情深",
+      "description": "读《慈母情深》《父爱之舟》，品场景和细节（龟裂的手、塞钱的动作），体会作者怎样把感情藏在细节里而不直说。情感阅读从「读懂事件」到「读懂细节」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能找出最打动自己的细节并分析妙处",
+        "能区分「直接抒情」和「细节传情」"
+      ],
+      "assessmentPrompt": "读「母亲掏衣兜，掏出一卷揉得皱皱的毛票」，问{{name}}：为什么不直接写「母亲给了我钱」？这卷毛票让你想到什么？",
+      "standards": [
+        "cschinese-2022:S3.YD.03",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_09",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "静态描写与动态描写",
+      "description": "读《鸟的天堂》《月迹》，分辨静态描写（夜晚的大榕树静立）与动态描写（群鸟飞闹），体会动静结合的画面感。描写的两副笔墨，读得出才写得出。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断段落是静态还是动态描写",
+        "能对同一景物各写一句静态和动态描写"
+      ],
+      "assessmentPrompt": "读《鸟的天堂》两次经过的段落，问：哪次静哪次动？请{{name}}写「课间的操场」一句静一句动。",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：___即景（写出变化）",
+      "description": "写一处景物的变化（日落即景、雨中即景）：按时间或位置顺序，重点写出景物的动态变化。「即景」题练的是观察的连续性和描写的镜头感。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "按一定顺序写出景物变化过程",
+        "至少有一处动态描写细腻传神"
+      ],
+      "assessmentPrompt": "傍晚和{{name}}看一次日落，每 5 分钟记一句；回家按时间顺序写成「日落即景」，把变化串起来。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_06",
+        "ct_yw_g5a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我的心爱之物",
+      "description": "写心爱之物（陪伴多年的玩偶、第一辆自行车）：写样子、写来历、写和它的事，物中有情。写物+叙事+抒情的综合演练。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "写清物品的样子与来历",
+        "有一件与物有关的事，情感自然流露"
+      ],
+      "assessmentPrompt": "请{{name}}抱着心爱之物先口述「它怎么来的、最喜欢和它干嘛」，再写成习作；结尾看看感情出来了吗。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g2a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：「漫画」老师",
+      "description": "像漫画一样用夸张放大老师最突出的特点（数学老师的「顺风耳」），配上典型事例。写人作文的新武器：抓一个特点写透，而不是面面俱到。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "特点鲜明夸张但真实",
+        "事例能证明特点且有趣"
+      ],
+      "assessmentPrompt": "请{{name}}挑一位老师，说出 TA 最突出的一点（爱拖堂？口头禅？），用一件事放大它写下来；念给家人猜是谁。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：二十年后的家乡（列提纲）",
+      "description": "想象二十年后家乡的变化，先列提纲（开头—变化分几段—结尾）再动笔。五年级习作流程的新要求：列提纲——先搭骨架再长肉，长文不打草稿乱写。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "动笔前有提纲且按提纲写作",
+        "想象的变化有生活依据不是胡想"
+      ],
+      "assessmentPrompt": "请{{name}}写「二十年后回母校」：先列三段提纲（校园/课堂/同学），每段提纲写一个关键词，再扩写成文。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我想对您说",
+      "description": "用书信体向爸爸妈妈说心里话：说感谢、说委屈、提建议，写出真实想法。应用文格式+真情实感的合练，很多孩子借此第一次「认真」跟父母说话。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "书信格式正确",
+        "说真话有事例支撑，不是套话"
+      ],
+      "assessmentPrompt": "请{{name}}给爸爸或妈妈写一封「我想对您说」的信，说一件一直想说没说出口的事；写完真的交给对方。",
+      "standards": [
+        "cschinese-2022:S4.BD.04",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_15",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：推荐一本书",
+      "description": "推荐一本好书：书的基本信息、最打动你的内容（不剧透全貌）、推荐理由。好书推荐是读后感的轻量版，也是初中「名著导读」题型的远亲。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "推荐理由具体（人物/情节/收获），不是「很好看」",
+        "能引起读者兴趣又不剧透结局"
+      ],
+      "assessmentPrompt": "请{{name}}写《夏洛的网》推荐卡：一句话简介+两条理由+一个不剧透的悬念；全家投票想不想读。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第八单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g2b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_16",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言名句：古人谈读书",
+      "description": "读背《古人谈读书》三则（敏而好学，不耻下问；读书有三到；士人读书），明白读书要虚心、专心、下功夫。文言文第一次成组出现——从故事文言走向论述文言。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能熟读成诵并说出每则大意",
+        "能结合自己谈一条读书体会"
+      ],
+      "assessmentPrompt": "请{{name}}背「读书有三到，谓心到、眼到、口到」，问：你读书时哪一「到」常缺席？朱熹会怎么提醒你？",
+      "standards": [
+        "cschinese-2022:S3.YD.05",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第八单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "爱国诗词：示儿、题临安邸、己亥杂诗",
+      "description": "背《示儿》《题临安邸》《己亥杂诗》，体会陆游「但悲不见九州同」的遗恨、龚自珍「不拘一格降人才」的呐喊。爱国主题诗群连读，诗史互相印证。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能背诵三首诗",
+        "能结合时代背景说说诗人的期盼"
+      ],
+      "assessmentPrompt": "请{{name}}背《示儿》后问：陆游临终最放不下什么？「家祭无忘告乃翁」要告诉爹爹什么好消息？",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S2.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_15",
+        "ct_yw_g5a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_18",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词三首：山居秋暝、枫桥夜泊、长相思",
+      "description": "背《山居秋暝》《枫桥夜泊》《长相思》，体会「月落乌啼霜满天」的愁与「明月松间照」的静——景语皆情语。诗词鉴赏进入「景与情」的对应分析。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能背诵三首诗词",
+        "能说出同一轮月亮在不同诗里的不同情绪"
+      ],
+      "assessmentPrompt": "请{{name}}背《枫桥夜泊》，问：诗人睡不着，「愁」的是什么？哪些景物都在陪他失眠？",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_19",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：制定班级公约",
+      "description": "集体制定班级公约：人人提案、分类归纳、举手表决。程序性讨论的完整体验——规则怎样从「老师定」变成「大家定」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能提出一条具体可执行的公约条目",
+        "能对条目可执行性发表意见"
+      ],
+      "assessmentPrompt": "全家开「家庭公约修订会」：{{name}}提两条新公约，说明理由，全家表决；通过的第二天试行。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S2.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "口语交际（第一单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_19"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_20",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：父母之爱大家谈",
+      "description": "围绕父母之爱的不同表现（严厉/宠溺/放手）发表看法，观点+事例支撑，也倾听不同意见。家庭话题的课堂讨论，理性表达与共情并重。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能亮明观点并举出事例",
+        "能回应不同观点并寻找共识"
+      ],
+      "assessmentPrompt": "讨论「爸妈该不该查看我的聊天记录」：请{{name}}先说观点，再讲一个事例，最后回应「爸妈是担心你」这一面。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "口语交际（第六单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g3b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_21",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：我最喜欢的人物形象",
+      "description": "用「分条讲述」介绍最喜欢的文学人物：人物是谁—来自哪部书—性格特点—典型事例。条理化口头表达的进阶，为演讲做准备。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能分条讲述且每条有内容",
+        "事例最能体现人物特点"
+      ],
+      "assessmentPrompt": "请{{name}}做一张人物卡（名字/出处/三个特点/一个事例），照卡给家人介绍自己最喜欢的书中人物。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "口语交际（第八单元）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_22",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "民间故事整本阅读：一千零一夜",
+      "description": "课外读《中国民间故事》《一千零一夜》《非洲民间故事》，比较不同民族故事的智慧与想象。民间故事口耳相传、版本众多——读「没有定本的书」也是种能力。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "读完一本民间故事集",
+        "能比较中外故事里的相似母题（智慧人物、善恶报应）"
+      ],
+      "assessmentPrompt": "请{{name}}读完《一千零一夜》里的两个故事，找找和中国民间故事的相同配方（穷人靠智慧翻身？），聊聊哪里不同。",
+      "standards": [
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "快乐读书吧",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_23",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "读书方法：忆读书与长生果",
+      "description": "从冰心《忆读书》、叶文玲《我的「长生果」》里提炼读书方法（读书好、多读书、读好书；做笔记、读写结合），整理自己的读书方法清单。读「关于读书的书」，元认知升级。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出三条以上适合自己的读书方法",
+        "积累本/读书笔记持续使用"
+      ],
+      "assessmentPrompt": "和{{name}}各自写下「我的读书三招」，交换补充；再一起把{{name}}的招数贴在书桌上。",
+      "standards": [
+        "cschinese-2022:S3.YD.07",
+        "cschinese-2022:S3.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "第八单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g5a_24",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "五上字词自查：认 200 写 220",
+      "description": "五年级上册认 200 字、会写 220 字（累计约 2600/1830）。识字进入收尾期，新字少而难（缥缈、凛冽），重点是精确和运用。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "听写正确率 85% 以上",
+        "能在习作中正确使用本册新词"
+      ],
+      "assessmentPrompt": "听写「爱慕、体面、上瘾、馈赠、吩咐、酬劳」等 15 词，并请{{name}}任选三个各造一句。",
+      "standards": [
+        "cschinese-2022:S3.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "各单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4b_23"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.8.0",
+  "version": "1.9.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1183,
+  "edgeCount": 1210,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7101,6 +7101,168 @@
       "prerequisiteId": "ct_yw_g4b_16",
       "strength": "soft",
       "reason": "童话对比手法的理解帮助新编设计情节反差"
+    },
+    {
+      "topicId": "ct_yw_g5a_01",
+      "prerequisiteId": "ct_yw_g4a_01",
+      "strength": "hard",
+      "reason": "策略三连星：提问（四上）之后，提高速度让提问与检索更高效"
+    },
+    {
+      "topicId": "ct_yw_g5a_02",
+      "prerequisiteId": "ct_yw_g3b_14",
+      "strength": "hard",
+      "reason": "说明性课文的『几方面写清楚』升级为识别具体说明方法"
+    },
+    {
+      "topicId": "ct_yw_g5a_03",
+      "prerequisiteId": "ct_yw_g5a_02",
+      "strength": "hard",
+      "reason": "习作单元读写一体：先学方法再写说明文"
+    },
+    {
+      "topicId": "ct_yw_g5a_03",
+      "prerequisiteId": "ct_yw_g3b_05",
+      "strength": "soft",
+      "reason": "整合信息写作的经验用于多方面介绍事物"
+    },
+    {
+      "topicId": "ct_yw_g5a_04",
+      "prerequisiteId": "ct_yw_g4a_18",
+      "strength": "hard",
+      "reason": "缩写是简要复述的笔头版：抓主弃次落到纸上"
+    },
+    {
+      "topicId": "ct_yw_g5a_05",
+      "prerequisiteId": "ct_yw_g3b_03",
+      "strength": "hard",
+      "reason": "创造性复述在详细复述的『全』之上加『变』（角色/细节/顺序）"
+    },
+    {
+      "topicId": "ct_yw_g5a_06",
+      "prerequisiteId": "ct_yw_g4b_13",
+      "strength": "hard",
+      "reason": "咏物诗的言志经验迁移到散文的借物抒情"
+    },
+    {
+      "topicId": "ct_yw_g5a_07",
+      "prerequisiteId": "ct_yw_g4b_21",
+      "strength": "soft",
+      "reason": "科普整本的查证习惯支持背景资料检索策略"
+    },
+    {
+      "topicId": "ct_yw_g5a_08",
+      "prerequisiteId": "ct_yw_g4a_22",
+      "strength": "hard",
+      "reason": "动作神态品析升级为场景细节中读情感"
+    },
+    {
+      "topicId": "ct_yw_g5a_09",
+      "prerequisiteId": "ct_yw_g4b_15",
+      "strength": "hard",
+      "reason": "景物描写分析深化：从变化顺序到动静两态"
+    },
+    {
+      "topicId": "ct_yw_g5a_10",
+      "prerequisiteId": "ct_yw_g4b_06",
+      "strength": "hard",
+      "reason": "即景写作按变化顺序写，与游记的空间顺序互补成完整写景序列"
+    },
+    {
+      "topicId": "ct_yw_g5a_10",
+      "prerequisiteId": "ct_yw_g5a_09",
+      "strength": "hard",
+      "reason": "动态静态描写方法直接供即景写作调用"
+    },
+    {
+      "topicId": "ct_yw_g5a_11",
+      "prerequisiteId": "ct_yw_g2a_14",
+      "strength": "soft",
+      "reason": "从二年级写心爱玩具到五年级写心爱之物，情感深度递进"
+    },
+    {
+      "topicId": "ct_yw_g5a_12",
+      "prerequisiteId": "ct_yw_g4a_08",
+      "strength": "hard",
+      "reason": "『漫画』老师的夸张式特点写法是写人特写训练的延续"
+    },
+    {
+      "topicId": "ct_yw_g5a_13",
+      "prerequisiteId": "ct_yw_g4b_04",
+      "strength": "soft",
+      "reason": "列提纲与小标题概括同构：先分块再成文"
+    },
+    {
+      "topicId": "ct_yw_g5a_14",
+      "prerequisiteId": "ct_yw_g4a_11",
+      "strength": "hard",
+      "reason": "书信格式已会，本课加上『说真心话』的内容要求"
+    },
+    {
+      "topicId": "ct_yw_g5a_15",
+      "prerequisiteId": "ct_yw_g2b_18",
+      "strength": "soft",
+      "reason": "推荐书与推荐动画片同属说服性推荐，书面版要求更系统"
+    },
+    {
+      "topicId": "ct_yw_g5a_16",
+      "prerequisiteId": "ct_yw_g4a_05",
+      "strength": "hard",
+      "reason": "文言从叙事短文进阶到论述名句组文"
+    },
+    {
+      "topicId": "ct_yw_g5a_17",
+      "prerequisiteId": "ct_yw_g4a_15",
+      "strength": "hard",
+      "reason": "边塞诗的家国之情延展到近代爱国诗组，结合资料理解（g5a_07）同用"
+    },
+    {
+      "topicId": "ct_yw_g5a_18",
+      "prerequisiteId": "ct_yw_g4a_14",
+      "strength": "hard",
+      "reason": "从哲理诗的理趣到景情对应的赏析，诗词鉴赏维度继续增加"
+    },
+    {
+      "topicId": "ct_yw_g5a_19",
+      "prerequisiteId": "ct_yw_g4a_19",
+      "strength": "hard",
+      "reason": "环境讨论的小组成果经验升级为完整的提案—归纳—表决程序"
+    },
+    {
+      "topicId": "ct_yw_g5a_20",
+      "prerequisiteId": "ct_yw_g3b_18",
+      "strength": "hard",
+      "reason": "两面说理的讨论框架用于家庭话题，观点+事例要求更高"
+    },
+    {
+      "topicId": "ct_yw_g5a_21",
+      "prerequisiteId": "ct_yw_g4a_21",
+      "strength": "hard",
+      "reason": "讲历史人物故事的提纲卡经验迁移到文学人物介绍"
+    },
+    {
+      "topicId": "ct_yw_g5a_22",
+      "prerequisiteId": "ct_yw_g4a_23",
+      "strength": "hard",
+      "reason": "从神话集到民间故事集，口传文学的版本意识是新收获"
+    },
+    {
+      "topicId": "ct_yw_g5a_23",
+      "prerequisiteId": "ct_yw_g4b_22",
+      "strength": "hard",
+      "reason": "摘录批注的实践之上，从名家的读书经验里提炼方法清单"
+    },
+    {
+      "topicId": "ct_yw_g5a_24",
+      "prerequisiteId": "ct_yw_g4b_23",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进，进入精确运用期"
+    },
+    {
+      "topicId": "ct_yw_g5a_17",
+      "prerequisiteId": "ct_yw_g5a_07",
+      "strength": "soft",
+      "reason": "结合资料策略在爱国诗群阅读中直接运用（查时代背景）"
     }
   ]
 }
