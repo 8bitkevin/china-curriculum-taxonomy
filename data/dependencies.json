@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.57.0",
+  "version": "1.58.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2031,
+  "edgeCount": 2046,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12189,6 +12189,96 @@
       "prerequisiteId": "ct_hx_g9b_13",
       "strength": "soft",
       "reason": "初中营养素与合成材料知识在此获得结构化学解释"
+    },
+    {
+      "topicId": "ct_sw_g7a_02",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "hard",
+      "reason": "生态系统的概念建立在生物与环境关系之上"
+    },
+    {
+      "topicId": "ct_sw_g7a_03",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "soft",
+      "reason": "观察生物从宏观特征到微观结构需要显微镜工具"
+    },
+    {
+      "topicId": "ct_sw_g7a_04",
+      "prerequisiteId": "ct_sw_g7a_03",
+      "strength": "hard",
+      "reason": "观察细胞结构依赖显微镜与装片制作技能"
+    },
+    {
+      "topicId": "ct_sw_g7a_05",
+      "prerequisiteId": "ct_sw_g7a_04",
+      "strength": "hard",
+      "reason": "分裂分化以细胞结构知识为基础（染色体在细胞核）"
+    },
+    {
+      "topicId": "ct_sw_g7a_06",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "soft",
+      "reason": "植物类群的学习延续生物与环境适应的观点"
+    },
+    {
+      "topicId": "ct_sw_g7a_07",
+      "prerequisiteId": "ct_sw_g7a_06",
+      "strength": "hard",
+      "reason": "种子结构知识建立在种子植物类群认识之上"
+    },
+    {
+      "topicId": "ct_sw_g7a_08",
+      "prerequisiteId": "ct_sw_g7a_07",
+      "strength": "hard",
+      "reason": "植株生长以种子萌发为起点"
+    },
+    {
+      "topicId": "ct_sw_g7a_09",
+      "prerequisiteId": "ct_sw_g7a_08",
+      "strength": "hard",
+      "reason": "开花结果是植株生长成熟的繁殖阶段"
+    },
+    {
+      "topicId": "ct_sw_g7a_10",
+      "prerequisiteId": "ct_sw_g7a_04",
+      "strength": "hard",
+      "reason": "光合作用的场所在叶绿体——细胞结构知识"
+    },
+    {
+      "topicId": "ct_sw_g7a_10",
+      "prerequisiteId": "ct_sw_g7a_02",
+      "strength": "soft",
+      "reason": "光合作用是生产者的功能基础（生态系统视角）"
+    },
+    {
+      "topicId": "ct_sw_g7a_11",
+      "prerequisiteId": "ct_sw_g7a_10",
+      "strength": "hard",
+      "reason": "呼吸作用与光合对比学习，先光合后呼吸"
+    },
+    {
+      "topicId": "ct_sw_g7a_12",
+      "prerequisiteId": "ct_sw_g7a_08",
+      "strength": "hard",
+      "reason": "水分无机盐运输以根尖结构与吸收知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g7a_12",
+      "prerequisiteId": "ct_sw_g7a_05",
+      "strength": "soft",
+      "reason": "导管筛管属于输导组织——分化的产物"
+    },
+    {
+      "topicId": "ct_sw_g7a_13",
+      "prerequisiteId": "ct_sw_g7a_10",
+      "strength": "hard",
+      "reason": "植被保护的生态价值以光合作用（氧气有机物生产）为科学依据"
+    },
+    {
+      "topicId": "ct_sw_g7a_13",
+      "prerequisiteId": "ct_sw_g7a_02",
+      "strength": "soft",
+      "reason": "植被是生态系统的生产者基础"
     }
   ]
 }

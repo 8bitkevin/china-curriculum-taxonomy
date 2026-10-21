@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.57.0",
+  "version": "1.58.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1436,
+  "topicCount": 1449,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -44507,6 +44507,398 @@
       "prerequisites": [
         "ct_hx_g12a_03",
         "ct_hx_g9b_13"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "name": "生物的特征与生态因素",
+      "description": "生物的七大特征（需要营养、能呼吸、能排出废物、能生长繁殖、对外界刺激有反应等）；环境影响生物（光温度水）与生物适应环境、影响环境。生物学的开篇之问：什么是「活」的。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能判断病毒、机器人、珊瑚是不是生物并说理由",
+        "能区分环境对生物的影响与生物对环境的适应"
+      ],
+      "assessmentPrompt": "问{{name}}：机器人能运动算生物吗？骆驼刺的根特别长是什么关系（适应）？蚯蚓松土是什么关系（影响）？",
+      "standards": [
+        "csbiology-2022:S4.BE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元 生物和生物圈",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_sw_g7a_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "name": "生态系统的组成与食物链",
+      "description": "生态系统的组成（生物部分：生产者消费者分解者；非生物部分：阳光空气水等）；食物链的写法（从生产者开始到最高消费者、不含分解者与箭头方向指向捕食者）；生态系统的自动调节能力有限。生物学的核心组织观念——生命之网。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能写出「草→兔→鹰」等食物链并数出营养级",
+        "能说明有毒物质为什么会沿食物链积累"
+      ],
+      "assessmentPrompt": "问{{name}}：一条食物链为什么最多 4–5 个环节？DDT 在鹰体内最多说明了什么？湿地生态系统自动调节能力强在哪？",
+      "standards": [
+        "csbiology-2022:S4.BE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元 生物和生物圈",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_03",
+      "type": "PROCEDURAL",
+      "subject": "生物学",
+      "domain": "生物体的结构层次",
+      "name": "显微镜的使用与临时装片",
+      "description": "显微镜操作流程（取镜安放—对光—放片—调焦—观察：先低后高、先降后升）；制作临时装片（擦滴撕展盖染吸）；放大倍数=目镜×物镜。打开微观世界的钥匙——生物学第一个也是最重要的工具。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能独立完成对光与观察到清晰物像",
+        "能说明视野暗、物像偏左怎么调"
+      ],
+      "assessmentPrompt": "问{{name}}：物像在视野左上角要往哪移装片？从低倍换高倍后视野变亮还是变暗？盖盖玻片为什么要 45° 缓放？",
+      "standards": [
+        "csbiology-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元 生物体的结构层次",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物体的结构层次",
+      "name": "细胞的结构：动植物细胞对比",
+      "description": "动物细胞（细胞膜细胞质细胞核）与植物细胞（多了细胞壁、液泡、叶绿体）的结构与功能；细胞膜控制物质进出、细胞核含遗传物质、叶绿体线粒体是能量转换器。结构与功能相适应——生物学的第一原理在此亮相。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能画出动植物细胞结构图并标名称",
+        "能说出各结构的功能与两者的三点差异"
+      ],
+      "assessmentPrompt": "问{{name}}：切洋葱流出的辛辣汁液来自什么结构？菠菜挤出的汁为什么绿色？动物细胞为什么没有细胞壁？",
+      "standards": [
+        "csbiology-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元 生物体的结构层次",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_03"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物体的结构层次",
+      "name": "细胞分裂、分化与结构层次",
+      "description": "细胞分裂（一变二、染色体平均分配）使细胞数目增多，分化形成不同组织；植物六种组织与动物四大组织；细胞→组织→器官→系统（动物）→个体。从细胞到个体——多细胞生物的「建筑学」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能区分分裂与分化的结果",
+        "能排列细胞到个体的结构层次顺序"
+      ],
+      "assessmentPrompt": "问{{name}}：一粒种子长成大树靠分裂还是分化？胃是器官还是组织？为什么说上皮组织像「外墙」？",
+      "standards": [
+        "csbiology-2022:S4.ST.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元 生物体的结构层次",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_06",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "绿色植物的类群：从藻到种子",
+      "description": "植物的进化阶梯：藻类（无根茎分化）→苔藓（监测空气污染）→蕨类（有输导组织、煤的来源）→种子植物（裸子被子）。生物多样性的植物版图——适应陆地的进化史诗。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能比较四类植物的器官分化与生殖方式",
+        "能各举两例说明与人类的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么苔藓可以作为空气污染的指示植物？肾蕨与松树谁靠种子繁殖？被子植物为什么成为最繁盛的类群？",
+      "standards": [
+        "csbiology-2022:S4.PL.01",
+        "csbiology-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_07",
+      "type": "PROCEDURAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "种子的结构与萌发",
+      "description": "菜豆种子（子叶两片、无胚乳）与玉米种子（一片子叶、有胚乳）的结构对比——胚是新植物的幼体；萌发的自身条件（完整有活力胚）与环境条件（适宜温度、一定水分、充足空气）；对照实验设计。生命的起点实验课——三大探究实验之一。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能识别种子结构并说出各部分将来发育成什么",
+        "能设计三组对照实验探究萌发条件"
+      ],
+      "assessmentPrompt": "问{{name}}：炒熟的种子能萌发吗？探究「水分」条件需要哪两组对照？玉米种子为什么遇碘变蓝（胚乳含淀粉）？",
+      "standards": [
+        "csbiology-2022:S4.PL.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_08",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "植株的生长：根尖与无机盐",
+      "description": "根尖四区（根冠分生区伸长区成熟区——分生区分裂、伸长区伸长得最长）；枝条由芽发育；植株生长需要含氮磷钾的无机盐（缺氮黄叶、缺磷紫叶、缺钾倒伏）。庄稼为什么施肥——植物营养的三要素。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能排列根尖四区并说明各区功能",
+        "能根据症状判断缺哪种无机盐"
+      ],
+      "assessmentPrompt": "问{{name}}：根的生长靠哪两个区？种庄稼「疯长叶不结果」可能是哪种肥太多？浇花过于频繁为什么烂根？",
+      "standards": [
+        "csbiology-2022:S4.PL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_09",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "开花与结果：传粉与受精",
+      "description": "花的结构（花蕊是主要部分：雄蕊花药里有花粉、雌蕊子房里有胚珠）；传粉（自花/异花）与受精（花粉管两个精子——双受精伏笔）；子房发育成果实、胚珠发育成种子。春天为什么开花——被子植物繁殖的完整剧本。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能对应子房→果实、胚珠→种子的发育关系",
+        "能解释玉米缺粒与人工授粉"
+      ],
+      "assessmentPrompt": "问{{name}}：我们吃的桃子肉由什么发育来？葵花籽是果实还是种子？大棚里为什么放养蜜蜂？",
+      "standards": [
+        "csbiology-2022:S4.PL.01",
+        "csbiology-2022:S4.GE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_10",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "光合作用：实验、过程与意义",
+      "description": "经典实验串（普利斯特利、萨克斯——遮光对照淀粉变蓝、恩吉尔曼）；光合作用场所（叶绿体）、条件（光）、原料（二氧化碳水）、产物（有机物氧气）与表达式；绿色植物是生态系统的基石。生物学最重要的生理过程——地球生命的能量入口。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能设计验证「光是光合作用条件」的实验",
+        "能写出光合作用文字表达式并说明意义"
+      ],
+      "assessmentPrompt": "问{{name}}：天竺葵暗处理一昼夜再遮光，滴碘后遮光处不变蓝说明什么？为什么说绿色植物是「生产者」？卧室放很多植物过夜好吗？",
+      "standards": [
+        "csbiology-2022:S4.PL.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_02",
+        "ct_sw_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_11",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "呼吸作用与光合作用的关系",
+      "description": "呼吸作用（线粒体、有光无光都进行、吸氧放二氧化碳、分解有机物释放能量）；与光合作用的对比（场所条件原料产物相反、白天两者并存）。植物的「收支两条线」——白天既赚（光合）也花（呼吸）。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能从五个维度对比光合与呼吸",
+        "能解释堆放的菜堆会发热的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：夜晚植物只进行什么作用？粮堆为什么会发热？新疆的瓜果为什么特别甜（昼夜温差）？",
+      "standards": [
+        "csbiology-2022:S4.PL.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_12",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "植物的生活",
+      "name": "蒸腾作用与水分运输",
+      "description": "蒸腾作用（气孔是门户——保卫细胞控制开闭）拉动力促进根吸水；导管向上运水、筛管向下运有机物；蒸腾的意义（降温、促进吸水运输、提高湿度）。夏天树荫凉快的秘密——植物的「空调系统」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能解释移栽植物为什么要去叶遮阴",
+        "能区分导管与筛管的运输物"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说「大树底下好乘凉」？扦插枝条下端插入红墨水，红墨水走的是什么管？气孔什么时候张开？",
+      "standards": [
+        "csbiology-2022:S4.PL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 生物圈中的绿色植物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_05",
+        "ct_sw_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_sw_g7a_13",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "name": "爱护植被，绿化祖国",
+      "description": "我国植被的主要类型（草原荒漠热带雨林落叶阔叶林等）与面临问题（过度放牧、乱砍滥伐——荒漠化）；植树节与退耕还林还草。生态文明的第一课——绿色植物与人类的命运共同体。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出我国森林覆盖率低带来的问题",
+        "能提出两条保护植被的措施"
+      ],
+      "assessmentPrompt": "问{{name}}：我国植树节是哪天？草原退化的原因和对策？为什么说「绿水青山就是金山银山」从生态角度？",
+      "standards": [
+        "csbiology-2022:S4.BE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元 爱护植被，绿化祖国",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_02",
+        "ct_sw_g7a_10"
       ]
     }
   ]

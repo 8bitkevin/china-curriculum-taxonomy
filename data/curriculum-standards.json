@@ -14,9 +14,11 @@
     "csphysics-2022",
     "hsphysics-2017",
     "cschemistry-2022",
-    "hschemistry-2017"
+    "hschemistry-2017",
+    "csbiology-2022",
+    "hsbiology-2017"
   ],
-  "curriculumCount": 10,
+  "curriculumCount": 12,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -3109,6 +3111,294 @@
         }
       ],
       "topicCount": 23
+    },
+    {
+      "slug": "csbiology-2022",
+      "title": "义务教育生物学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csbiology-2022:S4.ST.01",
+          "code": "S4.ST.01",
+          "stage": 4,
+          "domain": "生物体的结构层次",
+          "title": "细胞是生命活动的基本单位：显微镜观察与细胞结构"
+        },
+        {
+          "key": "csbiology-2022:S4.ST.02",
+          "code": "S4.ST.02",
+          "stage": 4,
+          "domain": "生物体的结构层次",
+          "title": "细胞分裂、分化与组织器官系统"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.01",
+          "code": "S4.PL.01",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "绿色植物的类群与种子萌发"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.02",
+          "code": "S4.PL.02",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "光合作用与呼吸作用"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.03",
+          "code": "S4.PL.03",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "蒸腾作用与水分无机盐运输"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.01",
+          "code": "S4.HB.01",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "人体的营养、消化、呼吸与循环"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.02",
+          "code": "S4.HB.02",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "泌尿、神经调节与激素调节"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.03",
+          "code": "S4.HB.03",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "人类的生殖与发育"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.04",
+          "code": "S4.HB.04",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "传染病、免疫与健康生活"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.01",
+          "code": "S4.BD.01",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "动物的主要类群及其与环境适应"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.02",
+          "code": "S4.BD.02",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "细菌真菌病毒与微生物应用"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.03",
+          "code": "S4.BD.03",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "生物分类的方法与多样性保护"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.01",
+          "code": "S4.GE.01",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "生殖与发育的多种方式"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.02",
+          "code": "S4.GE.02",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "基因、性状、遗传变异的基本规律"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.03",
+          "code": "S4.GE.03",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "生物进化的历程与原因"
+        },
+        {
+          "key": "csbiology-2022:S4.BE.01",
+          "code": "S4.BE.01",
+          "stage": 4,
+          "domain": "生物与环境",
+          "title": "生态系统的组成、食物网与物质能量流动"
+        },
+        {
+          "key": "csbiology-2022:S4.BE.02",
+          "code": "S4.BE.02",
+          "stage": 4,
+          "domain": "生物与环境",
+          "title": "生物与环境的关系、人与生物圈"
+        }
+      ],
+      "topicCount": 17
+    },
+    {
+      "slug": "hsbiology-2017",
+      "title": "普通高中生物学课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsbiology-2017:H1.MC.01",
+          "code": "H1.MC.01",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的分子组成：水、无机盐、蛋白质、核酸、糖类与脂质"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.02",
+          "code": "H1.MC.02",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的基本结构与生物膜系统"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.03",
+          "code": "H1.MC.03",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "物质的跨膜运输"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.04",
+          "code": "H1.MC.04",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "酶与 ATP 在细胞代谢中的作用"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.05",
+          "code": "H1.MC.05",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞呼吸与光合作用的过程与相互关系"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.06",
+          "code": "H1.MC.06",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的生命历程：增殖、分化、衰老、凋亡与癌变"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.01",
+          "code": "H2.GE.01",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "遗传的分子基础：DNA 结构、复制与基因表达"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.02",
+          "code": "H2.GE.02",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "遗传的基本规律：分离与自由组合"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.03",
+          "code": "H2.GE.03",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "伴性遗传与人类遗传病"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.04",
+          "code": "H2.GE.04",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "可遗传变异的来源：基因突变、重组与染色体变异"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.05",
+          "code": "H2.GE.05",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "现代生物进化理论"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.01",
+          "code": "H3.HR.01",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "内环境与稳态"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.02",
+          "code": "H3.HR.02",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "神经调节：兴奋的传导与传递"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.03",
+          "code": "H3.HR.03",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "体液调节与免疫调节"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.04",
+          "code": "H3.HR.04",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "植物激素调节"
+        },
+        {
+          "key": "hsbiology-2017:H4.BE.01",
+          "code": "H4.BE.01",
+          "stage": 5,
+          "domain": "生物与环境",
+          "title": "种群与群落"
+        },
+        {
+          "key": "hsbiology-2017:H4.BE.02",
+          "code": "H4.BE.02",
+          "stage": 5,
+          "domain": "生物与环境",
+          "title": "生态系统的结构与功能、稳定性"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.01",
+          "code": "H5.BT.01",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "发酵工程与传统发酵技术"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.02",
+          "code": "H5.BT.02",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "细胞工程：植物组织培养与克隆"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.03",
+          "code": "H5.BT.03",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "基因工程：工具、步骤与应用"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.04",
+          "code": "H5.BT.04",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "生态工程与生物技术的安全伦理"
+        }
+      ],
+      "topicCount": 21
     }
   ]
 }
