@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.11.0",
+  "version": "1.12.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1263,
+  "edgeCount": 1287,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7581,6 +7581,150 @@
       "prerequisiteId": "ct_yw_g5b_22",
       "strength": "hard",
       "reason": "识字量自查逐年累进，重心转向文言与书面语汇"
+    },
+    {
+      "topicId": "ct_yw_g6b_01",
+      "prerequisiteId": "ct_yw_g6a_05",
+      "strength": "hard",
+      "reason": "围绕中心选材之后，进一步决定各部分笔墨多少：详略是中心的刻度"
+    },
+    {
+      "topicId": "ct_yw_g6b_02",
+      "prerequisiteId": "ct_yw_g5a_04",
+      "strength": "hard",
+      "reason": "梗概是缩写的整本书版：同样的取舍逻辑，更大的文本量"
+    },
+    {
+      "topicId": "ct_yw_g6b_03",
+      "prerequisiteId": "ct_yw_g5a_08",
+      "strength": "hard",
+      "reason": "细节传情的阅读积累升级为融情于景事的写作自觉"
+    },
+    {
+      "topicId": "ct_yw_g6b_03",
+      "prerequisiteId": "ct_yw_g6a_14",
+      "strength": "soft",
+      "reason": "『有你真好』的场景传情练习是本单元的直接前站"
+    },
+    {
+      "topicId": "ct_yw_g6b_04",
+      "prerequisiteId": "ct_yw_g4b_13",
+      "strength": "hard",
+      "reason": "墨梅的言志经验正式扩展为托物言志诗群（马/石灰/竹）"
+    },
+    {
+      "topicId": "ct_yw_g6b_05",
+      "prerequisiteId": "ct_yw_g6a_10",
+      "strength": "hard",
+      "reason": "『让生活更美好』的观点+事例雏形扩展为多事例支撑的议论文骨架"
+    },
+    {
+      "topicId": "ct_yw_g6b_06",
+      "prerequisiteId": "ct_yw_g6a_06",
+      "strength": "hard",
+      "reason": "文言继续进阶：从艺术之理到学习之道与论辩之趣"
+    },
+    {
+      "topicId": "ct_yw_g6b_06",
+      "prerequisiteId": "ct_yw_g5b_06",
+      "strength": "soft",
+      "reason": "杨氏之子的应答机智与两小儿辩日的论辩同属思辨性文言"
+    },
+    {
+      "topicId": "ct_yw_g6b_07",
+      "prerequisiteId": "ct_yw_g6a_08",
+      "strength": "hard",
+      "reason": "意境描绘能力支撑十首毕业诵读的主题化品读"
+    },
+    {
+      "topicId": "ct_yw_g6b_08",
+      "prerequisiteId": "ct_yw_g4b_08",
+      "strength": "hard",
+      "reason": "科幻想象是奇思妙想的逻辑化升级：设定自洽成为硬要求"
+    },
+    {
+      "topicId": "ct_yw_g6b_09",
+      "prerequisiteId": "ct_yw_g5a_14",
+      "strength": "soft",
+      "reason": "书信体表达心声的经验支持心愿的文体自选"
+    },
+    {
+      "topicId": "ct_yw_g6b_10",
+      "prerequisiteId": "ct_yw_g4a_11",
+      "strength": "hard",
+      "reason": "毕业应用文群是书信格式的多场景扩展（赠言/主持词/纪念册）"
+    },
+    {
+      "topicId": "ct_yw_g6b_10",
+      "prerequisiteId": "ct_yw_g5b_03",
+      "strength": "soft",
+      "reason": "综合性学习的策划-制作-分享流程迁移到毕业活动"
+    },
+    {
+      "topicId": "ct_yw_g6b_11",
+      "prerequisiteId": "ct_yw_g5b_17",
+      "strength": "hard",
+      "reason": "课本剧讨论的协商经验升级为有焦点的读书讨论会"
+    },
+    {
+      "topicId": "ct_yw_g6b_11",
+      "prerequisiteId": "ct_yw_g3b_18",
+      "strength": "soft",
+      "reason": "两面说理的讨论框架用于名著人物的争议话题"
+    },
+    {
+      "topicId": "ct_yw_g6b_12",
+      "prerequisiteId": "ct_yw_g3b_02",
+      "strength": "hard",
+      "reason": "多角度理解（寓言）的能力迁移到名著人物的多面评价"
+    },
+    {
+      "topicId": "ct_yw_g6b_13",
+      "prerequisiteId": "ct_yw_g6a_20",
+      "strength": "hard",
+      "reason": "成长小说整本阅读之后，扩展到外国长篇名著"
+    },
+    {
+      "topicId": "ct_yw_g6b_14",
+      "prerequisiteId": "ct_yw_g6a_21",
+      "strength": "hard",
+      "reason": "推敲用词的语言维修改扩展为内容+语言双维润色"
+    },
+    {
+      "topicId": "ct_yw_g6b_14",
+      "prerequisiteId": "ct_yw_g5b_21",
+      "strength": "soft",
+      "reason": "互评修改的流程经验用于毕业前的自我修订"
+    },
+    {
+      "topicId": "ct_yw_g6b_15",
+      "prerequisiteId": "ct_yw_g4a_15",
+      "strength": "soft",
+      "reason": "爱国诗群积累的家国情怀延伸到革命传统的集中阅读"
+    },
+    {
+      "topicId": "ct_yw_g6b_16",
+      "prerequisiteId": "ct_yw_g5a_23",
+      "strength": "hard",
+      "reason": "读书方法清单化之后，升级为全学科知识的自主整理复习"
+    },
+    {
+      "topicId": "ct_yw_g6b_17",
+      "prerequisiteId": "ct_yw_g6a_22",
+      "strength": "hard",
+      "reason": "识字自查的终点：小学 3000 字收官核验"
+    },
+    {
+      "topicId": "ct_yw_g6b_18",
+      "prerequisiteId": "ct_yw_g4b_03",
+      "strength": "hard",
+      "reason": "『推测要有依据』的实证意识发展为科学精神的系统认识"
+    },
+    {
+      "topicId": "ct_yw_g6b_18",
+      "prerequisiteId": "ct_yw_g4a_01",
+      "strength": "soft",
+      "reason": "提问策略是科学好奇心的阅读表达"
     }
   ]
 }

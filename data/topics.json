@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.11.0",
+  "version": "1.12.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 823,
+  "topicCount": 841,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -25410,6 +25410,568 @@
       },
       "prerequisites": [
         "ct_yw_g5b_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "详略得当：分清内容的主次",
+      "description": "读《北京的春节》发现老舍把腊八、除夕、初一、元宵写得详，其他日子一笔带过——详略有致才有节奏。写作同步学：家乡的风俗哪部分最独特就写详，其余从略。「详略」是谋篇的核心刻度。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出课文中哪几部分详写并分析为什么",
+        "习作能自主决定详略并说出理由"
+      ],
+      "assessmentPrompt": "请{{name}}写「家乡的春节」：先列六个环节（扫尘/贴春联/年夜饭/拜年/放炮/元宵），圈出最要详写的一个并说明为什么。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g6a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作品梗概",
+      "description": "为整本书写梗概（鲁滨逊漂流记）：理清书脉络—筛选主线（舍支线）—合并成段—过渡自然。梗概是五年级缩写故事的全书版，也是初中「名著导读」题型的直接考点。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "梗概保留主线情节且字数约为原书的百分之一",
+        "读梗概能了解全书骨架"
+      ],
+      "assessmentPrompt": "请{{name}}读完《鲁滨逊漂流记》后写 400 字梗概：只留「流落荒岛—建家园—救星期五—回英国」主线，支线（如大战野人群细节）合并或删。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "让真情自然流露",
+      "description": "习作单元（匆匆/那个星期天）：把情感融入具体的人事景物中——光线渐渐暗下去的院子就是「我」的失望，不直说「我很伤心」。抒情文的最高技法是「藏」：情感藏在细节里自己渗出来。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "习作用景物或事件传情而非直接喊出",
+        "情感有变化过程（盼望—焦急—失望）"
+      ],
+      "assessmentPrompt": "请{{name}}写「等待成绩公布的下午」：不许出现「紧张」「害怕」两个词，用环境和身体感受把心情写出来。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第三单元（习作单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_08",
+        "ct_yw_g6a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_04",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "托物言志：马诗、石灰吟、竹石",
+      "description": "背《马诗》《石灰吟》《竹石》：李贺借马写抱负、于谦借石灰写清白、郑燮借竹写风骨。咏物诗三件套——写物、写人、写志一一对应，「托物言志」正式命名并掌握。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵三首诗",
+        "能逐一说明每首诗物与志的对应关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「粉骨碎身浑不怕」的到底是石灰还是于谦？「任尔东西南北风」竹子在挺什么？请{{name}}各用一句话说对应关系。",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S2.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_05",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "用具体事例说明观点",
+      "description": "读《真理诞生于一百个问号之后》：谢皮罗看洗澡水漩涡、酸碱发明等三个事例撑起一个观点——议论文的骨架（观点+事例链）在语文课首次完整亮相。为初中议论文阅读与写作搭好桥。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能梳理事例如何共同支撑观点",
+        "能仿照结构用两个事例说明一个观点"
+      ],
+      "assessmentPrompt": "请{{name}}用「有毅力才能成事」或自选观点，找两个真实事例（人物/自己）写成一段小议论文。",
+      "standards": [
+        "cschinese-2022:S4.YD.05",
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g6a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言二则：学弈与两小儿辩日",
+      "description": "《学弈》讲专心致志（一人专心一人分心，结果不同），《两小儿辩日》看两小儿有理有据地辩、孔子坦承「不能决」。小学文言收官：能读、能讲、还能评价其中的人物与道理。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵两则并讲出大意",
+        "能说说两小儿各自的理由及孔子「不能决」的可贵"
+      ],
+      "assessmentPrompt": "问{{name}}：两个小孩辩太阳，谁说得有道理？孔子答不上来丢人吗？《学弈》里同一个老师为什么教出两种结果？",
+      "standards": [
+        "cschinese-2022:S3.YD.05",
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5b_06",
+        "ct_yw_g6a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词诵读十首：小学收官",
+      "description": "诵读《采薇（节选）》《送元二使安西》《春夜喜雨》《早春呈水部张十八员外》《江上渔者》《泊船瓜洲》《游园不值》《卜算子·送鲍浩然之浙东》《浣溪沙》《清平乐·春归何处》——小学六年古诗积累的毕业检阅：边送别边春雨边哲思，读出味道来。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能熟练诵读十首并背诵其中八首以上",
+        "能按主题（送别/春景/言志）给十首分组"
+      ],
+      "assessmentPrompt": "办家庭「飞花令」：以「春」「月」为令各接三句；再请{{name}}从十首里挑两首同主题的比一比情感异同。",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "古诗词诵读",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g6a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：插上科学的翅膀飞",
+      "description": "写科幻故事（时光机、火星学校）：科学设定+故事情节双轮驱动——设定要自洽（有了传送门，交通规则会怎么变？），情节要好看。想象作文的终点站：幻想也要讲逻辑。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "科幻设定贯穿全文自洽",
+        "故事有情节冲突不只是设定介绍"
+      ],
+      "assessmentPrompt": "请{{name}}写「如果记忆可以下载」：设定一项规则（谁可用/有什么副作用），编一个因它而起的故事，设定不能中途变卦。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：心愿",
+      "description": "围绕「心愿」写作（希望爸爸戒烟、想去看看大海）：选合适的方式表达——记事、书信或日记体，把心愿的由来和期待写动人。文体自选是六年级的新自由度：形式为内容服务。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "文体选择与心愿内容匹配",
+        "心愿由来具体可信"
+      ],
+      "assessmentPrompt": "请{{name}}写「我的心愿」：先想用什么文体（一封信？一件事？），说说为什么选它，再动笔。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "毕业季应用文：赠言、信、主持词、纪念册",
+      "description": "毕业综合运用：写毕业赠言（真诚不套话）、给老师同学的信、联欢会主持词（串场词）、策划成长纪念册（栏目+选材）。小学所有应用文与活动能力的毕业汇演。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能写出三句以上有个性的毕业赠言",
+        "能独立拟一份联欢会串场词或纪念册栏目方案"
+      ],
+      "assessmentPrompt": "请{{name}}为家庭「小学毕业庆祝会」当主持人：写开场白、两个节目串词、结束语；再给班主任写一张毕业留言卡。",
+      "standards": [
+        "cschinese-2022:S4.BD.04",
+        "cschinese-2022:S4.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "综合性学习（第六单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_11",
+        "ct_yw_g5b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_11",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：同读一本书",
+      "description": "围绕同一本书（鲁滨逊漂流记）小组讨论：围绕话题（鲁滨逊值不值得学习？）各亮观点、引书中内容作证。读书讨论会=演讲+倾听+引用证据的合成演练，初中「名著导读讨论课」的预演。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "发言能引用书中具体情节作依据",
+        "能回应他人对同一情节的不同解读"
+      ],
+      "assessmentPrompt": "全家同读《鲁滨逊漂流记》某章后开讨论会：议题「鲁滨逊救星期五是善意还是需要？」请{{name}}先亮观点并引原文。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "口语交际（第二单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_18",
+        "ct_yw_g5b_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_12",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "名著人物的多面评价",
+      "description": "评价鲁滨逊、尼尔斯、汤姆·索亚这样的名著人物：既看冒险精神，也看时代局限（鲁滨逊的「主人」心态）。人物评价从「好人/坏人」进化为「多面+证据+时代视角」——文学评论的思维雏形。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能从两个以上侧面评价同一人物",
+        "每个判断都有书中情节作证"
+      ],
+      "assessmentPrompt": "问{{name}}：汤姆·索亚离家出走是勇敢还是任性？请分别找两个情节证明两种说法，再说你的综合判断。",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_13",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本世界名著：漫步世界名著花园",
+      "description": "快乐读书吧收官：读《鲁滨逊漂流记》《骑鹅旅行记》《汤姆·索亚历险记》任一整本（或爱丽丝漫游奇境），了解作品背景再读。小学课外阅读的终点高度：读外国长篇原著（青少版），读出人物、读出主题。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "读完一本外国长篇名著",
+        "能结合时代背景谈人物选择（鲁滨逊为什么想回家？）"
+      ],
+      "assessmentPrompt": "请{{name}}一个月读完《汤姆·索亚历险记》，做一张「人物追踪卡」（三个特点+各一件事），并回答：马克·吐温想通过汤姆表扬什么？",
+      "standards": [
+        "cschinese-2022:S3.YD.07",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "快乐读书吧",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g6a_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_14",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "修改与润色：内容、语言双维",
+      "description": "毕业前的修改力升级：内容维（详略调整、中心再聚焦）+语言维（推敲用词、删冗句）双管齐下，改出「自己满意的一篇」。好作文是改出来的——这是小学留给初中的写作习惯。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能对旧作完成内容与语言两处实质性修改并说明理由",
+        "能对比说出修改前后差异"
+      ],
+      "assessmentPrompt": "请{{name}}翻出本学期最不满意的一篇习作，做两件事：调整一处详略、替换三处用词，改后朗读录音对比。",
+      "standards": [
+        "cschinese-2022:S3.SL.03",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "语文园地",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5b_21",
+        "ct_yw_g6a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_15",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：奋斗的历程",
+      "description": "读红色经典（《十六年前的回忆》《为人民服务》、金色的鱼钩），制作小诗集或故事集，在班级分享。革命文化主题的集中阅读——从课本单元走向自主搜集整理。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能讲出两个革命人物的故事及其精神",
+        "参与完成一份红色主题小集子"
+      ],
+      "assessmentPrompt": "请{{name}}读《金色的鱼钩》后再找一个长征故事，做「英雄卡片」（人物/事件/一句话精神），讲给全家听。",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S4.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "综合性学习（第四单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_16",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "初小衔接：文言、名著与自主复习",
+      "description": "毕业总复习的自主化：自己整理六年的字词句诗文清单（易错字表、古诗文名句卡、文言实词起步），预告初中语文的三大新地形（长文言文、整本名著必读、议论文）。会自己复习，是初中的第一份通行证。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "有一份自己整理的毕业复习资料（清单/卡片任一）",
+        "能说出初中语文与小学的三点不同"
+      ],
+      "assessmentPrompt": "请{{name}}做「我的语文六年底牌」小册子：易错字 20 个、古诗名句 10 句、文言词 10 个、习作得意句 5 句，开学送给初中的自己。",
+      "standards": [
+        "cschinese-2022:S3.SL.02",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "毕业总复习",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_17",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "小学识字收官：累计 3000 字",
+      "description": "六年级下册后小学识字任务收官：累计认识约 3000 字、会写约 2500 字——达到课标要求，足以阅读一般出版物。行楷书写开始尝试，为初中笔记提速做准备。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "随机抽查小学字表认对率 95% 以上",
+        "书写有一定的速度且卷面整洁"
+      ],
+      "assessmentPrompt": "从六年内学过的生字里随机抽 30 个请{{name}}认读、听写 15 个，统计正确率；再抄一段话计时看速度。",
+      "standards": [
+        "cschinese-2022:S3.LZ.01",
+        "cschinese-2022:S2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "各单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g6a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g6b_18",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "科学精神：好奇、提问与实证",
+      "description": "读《表里的生物》《他们那时候多有趣啊》，感受科学精神的三要素：好奇（小时候以为表里有个生物）、不断追问、用证据说话。语文课为科学素养送行——带着问号上中学。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能从课文中找出体现好奇与实证的细节",
+        "能提出一个自己想追问的科学问题并设计验证思路"
+      ],
+      "assessmentPrompt": "问{{name}}：小冯至为什么断定表里有个生物？他后来的新看法说明科学精神里什么最重要？请{{name}}提一个自己好奇的问题并说说怎么验证。",
+      "standards": [
+        "cschinese-2022:S3.YD.02",
+        "cschinese-2022:S2.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_01",
+        "ct_yw_g4b_03"
       ]
     }
   ]
