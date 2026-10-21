@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.62.0",
+  "version": "1.63.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2097,
+  "edgeCount": 2105,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12585,6 +12585,54 @@
       "prerequisiteId": "ct_sw_g8b_04",
       "strength": "soft",
       "reason": "基因工程的变异本质与初中变异概念呼应"
+    },
+    {
+      "topicId": "ct_ls_g7a_02",
+      "prerequisiteId": "ct_ls_g7a_01",
+      "strength": "hard",
+      "reason": "百家争鸣是春秋战国社会剧变（变法争雄）在思想上的反映"
+    },
+    {
+      "topicId": "ct_ls_g7a_03",
+      "prerequisiteId": "ct_ls_g7a_02",
+      "strength": "hard",
+      "reason": "秦的统治思想（法家）直接源于百家争鸣中法家主张"
+    },
+    {
+      "topicId": "ct_ls_g7a_04",
+      "prerequisiteId": "ct_ls_g7a_03",
+      "strength": "hard",
+      "reason": "汉承秦制并修补（郡国并行到推恩令），大一统在秦的骨架上完成"
+    },
+    {
+      "topicId": "ct_ls_g7a_05",
+      "prerequisiteId": "ct_ls_g7a_04",
+      "strength": "hard",
+      "reason": "东汉末年分裂接续两汉的衰亡，江南开发承接北方战乱人口南迁"
+    },
+    {
+      "topicId": "ct_ls_g7b_01",
+      "prerequisiteId": "ct_ls_g7a_05",
+      "strength": "hard",
+      "reason": "隋的统一结束了魏晋南北朝近四百年的分立"
+    },
+    {
+      "topicId": "ct_ls_g7b_02",
+      "prerequisiteId": "ct_ls_g7b_01",
+      "strength": "hard",
+      "reason": "贞观开元盛世建立在隋制（运河科举）的物质与制度基础上"
+    },
+    {
+      "topicId": "ct_ls_g7b_03",
+      "prerequisiteId": "ct_ls_g7b_02",
+      "strength": "hard",
+      "reason": "宋代经济繁荣承接唐中后期经济重心南移的趋势"
+    },
+    {
+      "topicId": "ct_ls_g7b_04",
+      "prerequisiteId": "ct_ls_g7b_03",
+      "strength": "hard",
+      "reason": "元朝在宋代经济繁荣的基础上完成更大规模的统一与治理"
     }
   ]
 }

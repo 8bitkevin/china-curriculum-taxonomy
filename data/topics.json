@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.62.0",
+  "version": "1.63.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1490,
+  "topicCount": 1499,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -46161,6 +46161,273 @@
       "prerequisites": [
         "ct_sw_g10b_02",
         "ct_sw_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g7a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "史前时代与早期国家：夏商周",
+      "description": "北京人与农耕起源（河姆渡种稻半坡种粟）；禅让到世袭（夏启）、分封制与青铜文明（司母戊鼎）；春秋五霸战国七雄与商鞅变法。中华文明的起步跑——从原始人群到早期国家的三千年。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能排出夏商周更替顺序并说分封制作用",
+        "能说明商鞅变法为什么使秦国强大"
+      ],
+      "assessmentPrompt": "问{{name}}：禅让制和世袭制有什么不同？分封制像「分公司」吗？商鞅变法哪一条对打仗最管用？",
+      "standards": [
+        "cshistory-2022:S4.AC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一、二单元",
+        "editionYear": 2016
+      }
+    },
+    {
+      "id": "ct_ls_g7a_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "百家争鸣与孔孟老韩",
+      "description": "春秋战国社会巨变催生思想爆发：孔子仁与教育（私学）、老子道法自然、墨家兼爱、法家中央集权。轴心时代的东方智慧——中国思想的源头水库。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能匹配各家学派与主张",
+        "能说明法家思想为什么被秦国采纳"
+      ],
+      "assessmentPrompt": "问{{name}}：孔子「仁」和墨子「兼爱」一样吗？秦国为什么选法家不选儒家？",
+      "standards": [
+        "cshistory-2022:S4.AC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g7a_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "秦统一与中央集权制度",
+      "description": "秦灭六国（前 221）；皇帝制度、郡县制、统一文字货币度量衡；长城灵渠；秦速亡（暴政与陈胜吴广起义）。第一个统一多民族国家——「百代都行秦政法」的制度奠基。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说明郡县制与分封制的区别",
+        "能分析秦为什么二世而亡"
+      ],
+      "assessmentPrompt": "问{{name}}：秦始皇「车同轨书同文」对国家统一有什么用？郡县制的县长由谁任命？秦亡于郡县制吗？",
+      "standards": [
+        "cshistory-2022:S4.AC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "大一统的汉朝：从文景到汉武",
+      "description": "文景之治（休养生息）；汉武帝大一统（推恩令、罢黜百家独尊儒术、盐铁专卖、北击匈奴）；张骞通西域与丝绸之路。中华民族之名与大一统格局的定型——汉帝国的盛世工程。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能列举汉武帝巩固大一统的四项措施",
+        "能说明丝绸之路的双向意义"
+      ],
+      "assessmentPrompt": "问{{name}}：推恩令「推」掉了什么？为什么说张骞是「凿空」西域？丝绸之路只卖丝绸吗？",
+      "standards": [
+        "cshistory-2022:S4.AC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7a_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g7a_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "三国两晋南北朝：分立与交融",
+      "description": "官渡赤壁与三国鼎立；北民南迁与江南开发；北魏孝文帝改革（迁都洛阳、说汉话穿汉服通婚姻）；科技文化（祖冲之圆周率、王羲之书法）。分裂时代的暗线——民族交融与经济重心南移的伏笔。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说明孝文帝改革为什么促进民族交融",
+        "能解释江南得到开发的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说赤壁之战为三国鼎立奠定了基础？「白骨露于野」的时代江南为什么反而发展？孝文帝为什么要「汉化」？",
+      "standards": [
+        "cshistory-2022:S4.AC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g7b_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "隋唐：大运河与科举制",
+      "description": "隋的统一与大运河（贯通南北的大动脉）；科举制的创立（分科考试选官——寒门上升通道的打通）；隋亡唐兴。制度创新的巅峰时代——一条河与一张考卷改变中国。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能评价大运河「罪在当代功在千秋」",
+        "能说明科举制取代九品中正制的进步性"
+      ],
+      "assessmentPrompt": "问{{name}}：大运河的中心与南北端点在哪？科举制和「上品无寒门」有什么不同？为什么说科举影响了一千多年？",
+      "standards": [
+        "cshistory-2022:S4.AC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_ls_g7b_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "盛唐气象与中外交流",
+      "description": "贞观之治与开元盛世（农业手工业商业的繁荣）；文成公主入藏、鉴真东渡、玄奘西行；唐诗与长安城。开放包容的盛世样本——为什么全世界在唐人街纪念这个朝代。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能举三例说明唐朝的开放包容",
+        "能从长安城布局读出商业繁荣"
+      ],
+      "assessmentPrompt": "问{{name}}：鉴真和玄奘方向相反，各自去做什么？唐朝妇女能骑马打球说明什么？为什么唐诗那么自信？",
+      "standards": [
+        "cshistory-2022:S4.AC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g7b_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "宋元：经济革命与市民社会",
+      "description": "北宋结束分裂与重文轻武；经济革命（占城稻、景德镇瓷器、交子——世界最早纸币、市舶司海外贸易）；三大发明成熟（活字印刷指南针火药）；宋词元曲与《清明上河图》。中国古代经济的高峰——货币、城市与市民文化的世界级领先。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明宋代商业革命的三项表现",
+        "能举三大发明外传的路线与影响"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说交子的出现很了不起？《清明上河图》里能找到哪些商业信息？宋朝为什么「重文」？",
+      "standards": [
+        "cshistory-2022:S4.AC.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7b_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g7b_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "元朝大一统与行省制度",
+      "description": "成吉思汗统一蒙古与忽必烈建元；行省制度（中国省制的开端）与宣政院管辖西藏（西藏正式纳入版图）；澎湖巡检司管台湾。马背上的帝国如何治理农耕中国——多元一体的制度智慧。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明行省制度的影响",
+        "能指出西藏台湾纳入中央管辖的机构"
+      ],
+      "assessmentPrompt": "问{{name}}：今天的「省」从哪个朝代来？宣政院管哪里？元朝的疆域给中国留下了什么？",
+      "standards": [
+        "cshistory-2022:S4.AC.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_ls_g7b_03"
       ]
     }
   ]

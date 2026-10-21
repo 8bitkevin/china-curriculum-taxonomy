@@ -16,9 +16,11 @@
     "cschemistry-2022",
     "hschemistry-2017",
     "csbiology-2022",
-    "hsbiology-2017"
+    "hsbiology-2017",
+    "cshistory-2022",
+    "hshistory-2017"
   ],
-  "curriculumCount": 12,
+  "curriculumCount": 14,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -3399,6 +3401,196 @@
         }
       ],
       "topicCount": 21
+    },
+    {
+      "slug": "cshistory-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cshistory-2022:S4.AC.01",
+          "code": "S4.AC.01",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "史前与夏商周：早期国家的产生与社会变革"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.02",
+          "code": "S4.AC.02",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "秦汉：统一多民族国家的建立和巩固"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.03",
+          "code": "S4.AC.03",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "三国至南北朝：政权分立与民族交融"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.04",
+          "code": "S4.AC.04",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "隋唐：繁荣与开放的时代"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.05",
+          "code": "S4.AC.05",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "辽宋夏金元：民族关系发展和社会变化"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.06",
+          "code": "S4.AC.06",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "明清：统一多民族国家的巩固与发展"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.01",
+          "code": "S4.MC.01",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "晚清时期的内忧外患与救亡图存"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.02",
+          "code": "S4.MC.02",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "辛亥革命与中华民国的建立"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.03",
+          "code": "S4.MC.03",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "新民主主义革命的兴起与胜利"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.04",
+          "code": "S4.MC.04",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "近代经济、社会生活与教育文化"
+        },
+        {
+          "key": "cshistory-2022:S4.WA.01",
+          "code": "S4.WA.01",
+          "stage": 4,
+          "domain": "世界古代史",
+          "title": "古代亚非欧文明与封建时代"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.01",
+          "code": "S4.WM.01",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "走向近代：文艺复兴、新航路与资本主义制度确立"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.02",
+          "code": "S4.WM.02",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "两次工业革命与殖民地人民的反抗"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.03",
+          "code": "S4.WM.03",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "第一次世界大战与战后初期的世界"
+        },
+        {
+          "key": "cshistory-2022:S4.WC.01",
+          "code": "S4.WC.01",
+          "stage": 4,
+          "domain": "世界现代史",
+          "title": "经济大危机、二战与战后世界格局"
+        },
+        {
+          "key": "cshistory-2022:S4.WC.02",
+          "code": "S4.WC.02",
+          "stage": 4,
+          "domain": "世界现代史",
+          "title": "冷战后的世界与科技文化发展"
+        },
+        {
+          "key": "cshistory-2022:S4.SA.01",
+          "code": "S4.SA.01",
+          "stage": 4,
+          "domain": "跨学科主题",
+          "title": "史料实证与时空观念的方法训练"
+        }
+      ],
+      "topicCount": 17
+    },
+    {
+      "slug": "hshistory-2017",
+      "title": "普通高中历史课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hshistory-2017:H1.OA.01",
+          "code": "H1.OA.01",
+          "stage": 5,
+          "domain": "中外历史纲要（上）",
+          "title": "中国古代政治制度与社会治理"
+        },
+        {
+          "key": "hshistory-2017:H1.OA.02",
+          "code": "H1.OA.02",
+          "stage": 5,
+          "domain": "中外历史纲要（上）",
+          "title": "中国近现代史通览：从救亡图存到民族复兴"
+        },
+        {
+          "key": "hshistory-2017:H1.OB.01",
+          "code": "H1.OB.01",
+          "stage": 5,
+          "domain": "中外历史纲要（下）",
+          "title": "世界古代与中古文明多元发展"
+        },
+        {
+          "key": "hshistory-2017:H1.OB.02",
+          "code": "H1.OB.02",
+          "stage": 5,
+          "domain": "中外历史纲要（下）",
+          "title": "世界近现代：全球联系的建立与格局演变"
+        },
+        {
+          "key": "hshistory-2017:H2.NG.01",
+          "code": "H2.NG.01",
+          "stage": 5,
+          "domain": "国家制度与社会治理",
+          "title": "政治体制、官员选拔与法律教化"
+        },
+        {
+          "key": "hshistory-2017:H2.ES.01",
+          "code": "H2.ES.01",
+          "stage": 5,
+          "domain": "经济与社会生活",
+          "title": "食物生产、商业贸易与村镇城市"
+        },
+        {
+          "key": "hshistory-2017:H2.CE.01",
+          "code": "H2.CE.01",
+          "stage": 5,
+          "domain": "文化交流与传播",
+          "title": "源远流长的中华文化、世界文化多样性与交流"
+        }
+      ],
+      "topicCount": 7
     }
   ]
 }
