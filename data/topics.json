@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.26.0",
+  "version": "1.27.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1055,
+  "topicCount": 1067,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -32628,6 +32628,380 @@
       },
       "prerequisites": [
         "ct_yy_g3b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "学校场所与楼层：on the first floor",
+      "description": "掌握学校场所词（playground、library、canteen、teacher's office、art room）和楼层表达（on the first/second floor），会问 Where is the teachers' office? 并指路（This way, please.）。用英语逛校园——空间语言再加一层。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出六个学校场所",
+        "能用楼层+方位回答场所位置"
+      ],
+      "assessmentPrompt": "画一张学校简图问{{name}}：Where is the library? 要求答出楼层和 It's next to...",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 1 My school",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "时间表达：What time is it?",
+      "description": "掌握整点与半点表达（It's 6 o'clock. / It's 9:30.）和作息句型 It's time for breakfast. / It's time to get up.（for+名词，to+动词）。时间是用出来的——每天看钟说英语，一周就熟。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能读出五种钟面时间",
+        "能对 for/to 两种句式正确配对"
+      ],
+      "assessmentPrompt": "指着 7:30 问{{name}}：What time is it? 再问：该上学了用哪个句型说？(It's time to go to school / for school)",
+      "standards": [
+        "csenglish-2022:S3.GR.06",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 2 What time is it?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "天气表达：What's the weather like?",
+      "description": "掌握天气词（cold、cool、warm、hot、sunny、rainy、snowy、windy、cloudy）和天气问答 What's the weather like in Beijing? — It's rainy. 每天的天气播报是最好坚持的口语习惯。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说八种天气",
+        "能播报三个城市的天气"
+      ],
+      "assessmentPrompt": "和{{name}}看天气图当小主播：Good morning! This is Beijing. It's sunny...播三个城市。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 3 Weather",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "these/those：this/that 的复数世界",
+      "description": "掌握指示代词复数 these/those 和问答 What are these/those? — They're... / Are these...? — Yes, they are. / No, they aren't. 从 this/that 到 these/those——单复数系统在指代上补完最后一格。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能根据远近与单复数正确选用四词",
+        "能用 Are these...? 猜农场动物三轮"
+      ],
+      "assessmentPrompt": "指近处两只玩具鸭问 What are these? 再指远处一群问 What are those? 看{{name}}的回答是否用 They're。",
+      "standards": [
+        "csenglish-2022:S2.GR.02",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 4 At the farm",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3b_04",
+        "ct_yy_g4a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "衣服与物主：Whose hat is this?",
+      "description": "掌握衣服词（hat、skirt、dress、shirt、pants）和物主疑问 Whose coat is this? — It's mine/yours/Sarah's. / Whose pants are these? — They're your father's. whose 的两副面孔（单数 is/复数 are）与名词所有格（'s）一起学。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能就单数/复数衣物正确用 Whose... is/are 提问",
+        "会用 's 表示某人的衣物"
+      ],
+      "assessmentPrompt": "混放家人的三件衣物问{{name}}：Whose sweater is this? 看 's 所有格与 mine/yours 的应答。",
+      "standards": [
+        "csenglish-2022:S2.GR.02",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 5 My clothes",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "购物英语：How much is it?",
+      "description": "掌握购物全流程对话：Can I help you? — Yes. This skirt is pretty. How much is it? — It's 89 yuan. I'll take it. 加上尺码（small/large）与颜色挑选。实用英语的高光单元——学会了真能用。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能完成五句以上的完整购物对话",
+        "会问价、砍场景表述和付款"
+      ],
+      "assessmentPrompt": "摆几件「商品」开店：{{name}}当顾客买一件衣服，必须说出 Can I help you 应答、颜色喜好、问价、成交四步。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 6 Shopping",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_07",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "R 音节：ar/or/ir/ur/er 的发音",
+      "description": "掌握 r 音节规律：car（ar/ɑː/）、horse（or/ɔː/）、bird（ir/ɜː/）、nurse（ur/ɜː/）、water（er/ə/）——bossy r 让元音改道。拼读规则第三层：从此读新词又多一族。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能按 r 音节规律拼读 15 个新词",
+        "能区分 ir 和 er 的发音（bird/water）"
+      ],
+      "assessmentPrompt": "写 farm、fork、girl、turn、sister 请{{name}}朗读并说出每词的字母组合；考新词 burn。",
+      "standards": [
+        "csenglish-2022:S2.PH.02",
+        "csenglish-2022:S3.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "各单元 Let's spell",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "小主播：天气与作息播报",
+      "description": "综合听说任务：像主播一样播报今日天气 + 城市天气 + 温馨提示（It's cold. Put on your coat.）。连贯输出四五句不再是难事——语用有了真实听众。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能连贯播报四句以上不卡顿",
+        "语音语调有播报腔"
+      ],
+      "assessmentPrompt": "请{{name}}录制 30 秒「家庭天气台」播报：问候+本地天气+两地天气+穿衣建议，全家当观众。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 2-3 综合任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_02",
+        "ct_yy_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "Story time：读懂小故事并复述",
+      "description": "读每单元的小故事（Zoom and Zip 的趣事）：借助图片读懂情节，能抓「谁—想干什么—结果」并简单复述。四年级阅读的收官形态——从读对话到读叙事小文本。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能独立读懂 60 词左右的故事",
+        "能用三句话复述故事大意"
+      ],
+      "assessmentPrompt": "读 Zoom 买鞋的故事后问{{name}}：Who? What does he want? What happens? 请用三句英语说。",
+      "standards": [
+        "csenglish-2022:S2.RD.01",
+        "csenglish-2022:S3.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "各单元 Story time",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "仿写 My day：时间轴作息表",
+      "description": "仿照课文用时间轴写一天作息（I get up at 6:30. I go to school at 7:20. ... 五句以上）。写作第一次有了「篇章」的样子：时间顺序就是天然的篇章结构。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能写出五句按时序排列的作息",
+        "时间表达与动词形式基本正确"
+      ],
+      "assessmentPrompt": "请{{name}}画一天的作息时间轴，配五句英语；重点检查 at + 时间 和 It's time to... 的用法。",
+      "standards": [
+        "csenglish-2022:S3.WR.01",
+        "csenglish-2022:S2.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 2 写作任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_10",
+        "ct_yy_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_11",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化：地球两端的天气与时差",
+      "description": "通过天气单元认识世界城市（Sydney、London、New York）的天气差异与时差（北京中午，纽约睡觉）。全球视野的启蒙：同一个时刻，世界不一样。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出三个英语国家城市名",
+        "知道南北半球季节相反"
+      ],
+      "assessmentPrompt": "问{{name}}：北京是夏天，Sydney 是什么季节？现在晚上 8 点，New York 是白天还是晚上？",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 3 文化内容",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "四下词汇自查：累计约 280 词",
+      "description": "四年级收官：新增约 70 词（学校、时间、天气、衣服、购物），累计约 280。两学年下来，小学过半词汇已在手——日常场景基本都能说上几句。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "图卡认词正确率 85% 以上",
+        "能就五个场景（天气/购物/时间/学校/农场）各做一段对话"
+      ],
+      "assessmentPrompt": "抽 20 词图卡；再从五个场景抽签，请{{name}}和家长各做四句情境对话。",
+      "standards": [
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_12"
       ]
     }
   ]

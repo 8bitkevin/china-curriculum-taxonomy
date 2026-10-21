@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.26.0",
+  "version": "1.27.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1538,
+  "edgeCount": 1553,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9231,6 +9231,96 @@
       "prerequisiteId": "ct_yy_g3b_12",
       "strength": "hard",
       "reason": "词汇自查跨册累进（140→210），新增造句要求"
+    },
+    {
+      "topicId": "ct_yy_g4b_01",
+      "prerequisiteId": "ct_yy_g4a_04",
+      "strength": "hard",
+      "reason": "学校场所与楼层指路建立在 Where is 与方位介词基础上"
+    },
+    {
+      "topicId": "ct_yy_g4b_02",
+      "prerequisiteId": "ct_yy_g3a_08",
+      "strength": "hard",
+      "reason": "数字与 How old 问答扩展到时间表达（几点几分）"
+    },
+    {
+      "topicId": "ct_yy_g4b_03",
+      "prerequisiteId": "ct_yy_g3a_04",
+      "strength": "soft",
+      "reason": "颜色形容词的描述经验迁移到天气形容词"
+    },
+    {
+      "topicId": "ct_yy_g4b_04",
+      "prerequisiteId": "ct_yy_g4a_01",
+      "strength": "hard",
+      "reason": "名词复数知识支撑 these/those 复数指代"
+    },
+    {
+      "topicId": "ct_yy_g4b_04",
+      "prerequisiteId": "ct_yy_g3b_04",
+      "strength": "hard",
+      "reason": "this/that 单数问答框架平移到复数 these/those"
+    },
+    {
+      "topicId": "ct_yy_g4b_05",
+      "prerequisiteId": "ct_yy_g4b_04",
+      "strength": "hard",
+      "reason": "Whose 单复数问法沿用 is/are 的单复数选择"
+    },
+    {
+      "topicId": "ct_yy_g4b_06",
+      "prerequisiteId": "ct_yy_g4a_05",
+      "strength": "hard",
+      "reason": "点餐的 I'd like 句式迁移到购物的挑选与成交"
+    },
+    {
+      "topicId": "ct_yy_g4b_07",
+      "prerequisiteId": "ct_yy_g4a_07",
+      "strength": "hard",
+      "reason": "拼读规则递进：magic e 长音之后学 r 音节"
+    },
+    {
+      "topicId": "ct_yy_g4b_08",
+      "prerequisiteId": "ct_yy_g4b_03",
+      "strength": "hard",
+      "reason": "天气播报任务直接调用天气词汇与问答"
+    },
+    {
+      "topicId": "ct_yy_g4b_08",
+      "prerequisiteId": "ct_yy_g4b_02",
+      "strength": "soft",
+      "reason": "作息提示语（It's time to...）融入播报内容"
+    },
+    {
+      "topicId": "ct_yy_g4b_09",
+      "prerequisiteId": "ct_yy_g3a_11",
+      "strength": "hard",
+      "reason": "朗读表演对话升级为读懂叙事故事并复述"
+    },
+    {
+      "topicId": "ct_yy_g4b_10",
+      "prerequisiteId": "ct_yy_g4a_10",
+      "strength": "hard",
+      "reason": "受控仿写从三句话扩展到时间轴五句小语篇"
+    },
+    {
+      "topicId": "ct_yy_g4b_10",
+      "prerequisiteId": "ct_yy_g4b_02",
+      "strength": "hard",
+      "reason": "作息写作直接运用时间表达句型"
+    },
+    {
+      "topicId": "ct_yy_g4b_11",
+      "prerequisiteId": "ct_yy_g3b_01",
+      "strength": "hard",
+      "reason": "国家名词汇延伸到世界城市与半球概念"
+    },
+    {
+      "topicId": "ct_yy_g4b_12",
+      "prerequisiteId": "ct_yy_g4a_12",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（210→280），新增情境对话要求"
     }
   ]
 }
