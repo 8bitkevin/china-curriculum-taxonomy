@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.7.0",
+  "version": "1.8.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 732,
+  "topicCount": 755,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -22591,6 +22591,719 @@
       },
       "prerequisites": [
         "ct_yw_g3b_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "现代诗阅读：繁星与绿",
+      "description": "读冰心《繁星》和艾青《绿》等现代诗，体会诗的韵律和画面（「所有的绿集中起来，挤在一起」），知道现代诗不押韵也有节奏。第一次正式把「现代诗」当作一种文体来读。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能流畅朗读并背诵指定短诗",
+        "能说说诗中一个意象带给自己的感受"
+      ],
+      "assessmentPrompt": "请{{name}}朗读《繁星（七一）》：「月明的园中，藤萝的叶下，母亲的膝上」，问：这三个画面里藏着什么样的感情？",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g2b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：轻叩诗歌大门、编小诗集",
+      "description": "收集喜欢的诗（古诗、现代诗、儿童诗），分类抄录、配插图，合作编成小诗集并开朗诵会。从读诗到「做一本诗集」，诗歌第一次成为可以动手玩的对象。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "参与编成一本有目录有分类的小诗集",
+        "能独立完成一首小诗的创作"
+      ],
+      "assessmentPrompt": "和{{name}}办家庭诗歌朗诵会：{{name}}挑三首诗朗读，再自己写一首四行小诗（写春天或写妈妈）收进家庭诗集。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第三单元（综合性学习）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_09",
+        "ct_yw_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "科普文阅读：合理推测的依据",
+      "description": "读《琥珀》，看科学家怎样从一块琥珀推测出千万年前的故事，每一步推测都要有依据（苍蝇蜘蛛同时在→松脂裹住）。从提问题升级到检验「推测是否有据」——语文课里的科学论证。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出琥珀形成的推测链条及每步依据",
+        "能对推测提出自己的质疑或补充"
+      ],
+      "assessmentPrompt": "读完《琥珀》问{{name}}：为什么说「从那块琥珀可以推测发生在千万年前的故事」？推测的每一步靠什么撑着？",
+      "standards": [
+        "cschinese-2022:S2.YD.02",
+        "cschinese-2022:S2.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_01",
+        "ct_yw_g4a_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "长文章把握主要内容：列小标题",
+      "description": "读《小英雄雨来》这样分部分的长课文，给每部分列小标题（游泳—上学—掩护—智逃），再用小标题串联说主要内容。小标题是攻克长文的拐杖，五六年级读整本书全靠它。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能给长课文每部分列出简短小标题",
+        "能借助小标题说出全文主要内容"
+      ],
+      "assessmentPrompt": "请{{name}}读《小英雄雨来》第一部分，用不超过 6 个字起小标题；六个部分完成后串起来讲故事。",
+      "standards": [
+        "cschinese-2022:S2.YD.03",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_05",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "大作家怎样写动物：明贬实褒",
+      "description": "读老舍《猫》《母鸡》和丰子恺《白鹅》，发现「古怪」「架子十足」这些看似抱怨的词其实全是喜欢——这叫明贬实褒；再看总分结构怎么把动物特点写活。阅读的乐趣从情节转向语言的妙处。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能找出明贬实褒的语句并说明为什么是喜欢",
+        "能仿说一句明贬实褒的话（我家狗真讨厌，天天黏着我）"
+      ],
+      "assessmentPrompt": "读「鹅的架子十足」，问：丰子恺讨厌这只鹅吗？从哪看出来的？请{{name}}用这种「嗔怪式夸奖」说说家里的人或宠物。",
+      "standards": [
+        "cschinese-2022:S2.YD.02",
+        "cschinese-2022:S2.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_06",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "游记写作：按游览顺序写",
+      "description": "习作单元核心：写「游×××」，按游览顺序（进门—假山—湖边—出口）移步换景，过渡句自然（「走进大门，映入眼帘的是……」）。游记是空间顺序写作的第一课。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "习作按游览路线推进，方位清楚",
+        "有自然的位置过渡句，不写成景点清单"
+      ],
+      "assessmentPrompt": "请{{name}}写「游植物园」：先画路线图（进口→温室→草坪→出口），再照图写；检查每段是否换了一个地方。",
+      "standards": [
+        "cschinese-2022:S2.BD.02",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3a_06",
+        "ct_yw_g4b_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我的乐园",
+      "description": "写自己的乐园（外婆家的院子、班级图书角）：乐园什么样、在那里干什么、为什么快乐。写地方+写感受的组合，为高年级写景抒情打底。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "写清乐园的样子和常做的事",
+        "写出快乐的感受有具体事例"
+      ],
+      "assessmentPrompt": "问{{name}}：你的乐园是哪里？在那里最爱干什么？请{{name}}写下来，让读者也想去看看。",
+      "standards": [
+        "cschinese-2022:S2.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "想象习作：我的奇思妙想",
+      "description": "发明一样神奇的东西（会飞的汽车、万能书包），写清它的样子和功能。想象文的新要求：外观+功能+使用场景，结构上像一份「产品介绍」——想象开始有章法。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "写清发明物的样子和至少两项功能",
+        "功能描述有使用场景"
+      ],
+      "assessmentPrompt": "请{{name}}设计「未来书包」：长什么样？有什么本领？什么时候用？写完当推销员介绍给家人。",
+      "standards": [
+        "cschinese-2022:S2.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我的动物朋友（情境介绍）",
+      "description": "在具体情境里介绍动物朋友（小狗走丢了请人帮忙找——写清长相习性）。情境写作是新意：同样是写动物，目的不同、重点就不同。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "介绍重点符合情境需要（寻狗启事重长相特征）",
+        "有与情境匹配的称呼和语气"
+      ],
+      "assessmentPrompt": "情境：家里要出差，请邻居帮忙照顾仓鼠一周。请{{name}}写一段介绍让邻居会照顾它：吃什么、怕什么、怎么陪。",
+      "standards": [
+        "cschinese-2022:S2.BD.01",
+        "cschinese-2022:S2.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我学会了××（过程加波折）",
+      "description": "写学会一样新本领的过程（骑车、包饺子），重点写遇到的困难和怎么克服的。「波折意识」是本课关键词：一帆风顺的作文不好看，卡壳与突破才是故事。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "写出学习过程中的至少一个困难及克服办法",
+        "心情变化随过程起伏"
+      ],
+      "assessmentPrompt": "请{{name}}写「我学会了骑自行车」，必须写清摔了几次、最想放弃的时刻和最后成功的一幕。",
+      "standards": [
+        "cschinese-2022:S2.BD.02",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：我的「自画像」",
+      "description": "向新老师介绍自己：外貌、性格、爱好、特长，每个特点配事例，写出一个立体的我。多特点+事例支撑是写人作文的完全体，也为五年级写他人做全准备。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "至少写出自己三个特点且各有事例",
+        "特点有主次不平均用力"
+      ],
+      "assessmentPrompt": "请{{name}}写「我的自画像」给新老师：写外貌时别列五官，挑最有特点的一处写；三个特点各配一件事。",
+      "standards": [
+        "cschinese-2022:S2.BD.01",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：故事新编",
+      "description": "给老故事编新结局或新情节（龟兔赛跑第二次比赛）。新编的要诀：保留人物关系、改变条件或结局，翻出新意。经典重构是创意写作的高阶玩法。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "新故事与原故事人物设定衔接",
+        "情节有新意而不是复述原文"
+      ],
+      "assessmentPrompt": "请{{name}}编「第二次龟兔赛跑」：这次兔子还睡觉吗？路上发生了什么新情况？写出与原版不同的结局。",
+      "standards": [
+        "cschinese-2022:S2.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第八单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3a_04",
+        "ct_yw_g4b_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "田园诗与咏物诗：村居生活与墨梅",
+      "description": "背《四时田园杂兴》《宿新市徐公店》《清平乐·村居》《芙蓉楼送辛渐》《塞下曲》《墨梅》，读出田园的趣与「不要人夸好颜色，只留清气满乾坤」的品格。咏物言志——物与人的关系第一次点破。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能背诵本册古诗",
+        "能说说墨梅的「清气」指什么样的人"
+      ],
+      "assessmentPrompt": "请{{name}}背《墨梅》，问：王冕为什么说「不要人夸好颜色」？他真正想说什么？",
+      "standards": [
+        "cschinese-2022:S2.YD.06",
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第一/第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_14",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "英雄人物品质：从言行中读人",
+      "description": "读《「诺曼底号」遇难记》《黄继光》《小英雄雨来》，从人物的语言动作（哈尔威船长的指挥、雨来挨打不吐一字）体会品质。读人物=读言行+读品质，是文学阅读的核心动作。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能引用人物言行证明其品质",
+        "能比较不同英雄人物的共同点"
+      ],
+      "assessmentPrompt": "问{{name}}：哈尔威船长说「必须把 60 人救出去」时在想什么？从这句话和随后的动作，你看到怎样的船长？",
+      "standards": [
+        "cschinese-2022:S2.YD.02",
+        "cschinese-2022:S2.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第六/第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3a_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_15",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "景物描写的作用：海上日出",
+      "description": "读《海上日出》《记金华的双龙洞》，体会怎样按景物变化写景（日出前—时—后颜色光亮的变化），景物描写带着心情。写景阅读为游记写作互为镜像。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出日出描写中景物的变化顺序",
+        "能摘录一处景物描写并说说好在哪"
+      ],
+      "assessmentPrompt": "请{{name}}读《海上日出》第二三段，画出表示颜色的词，说说太阳升起过程中天色怎么变。",
+      "standards": [
+        "cschinese-2022:S2.YD.02",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_16",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "童话的对比手法：巨人的花园",
+      "description": "读《巨人的花园》《宝葫芦的秘密》《海的女儿》，发现对比的魔力（花园冬天/春天、巨人自私/醒悟），奇妙情节背后是人心。文学分析工具箱再添一件：对比。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能找出童话中的前后对比并解释作用",
+        "能说说巨人变化的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：巨人不在时花园什么样？他砌墙后呢？拆除围墙后呢？三次变化说明什么道理？",
+      "standards": [
+        "cschinese-2022:S2.YD.05",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "第八单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g2a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：说新闻",
+      "description": "清楚转述一条新闻：说清时间地点事件，再说自己的看法，不添油加醋。信息时代的基本素养：转述准确+观点分开。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能完整转述新闻五要素",
+        "能区分「新闻说的」和「我认为的」"
+      ],
+      "assessmentPrompt": "请{{name}}看完一条新闻联播片段后转述给没看的家人，说完补一句「我的看法是……」。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.YD.12"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "口语交际（第二单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_18",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：自我介绍",
+      "description": "不同场合的自我介绍重点不同（转学见新同学重爱好、竞选班长重能力），学会看场合选内容。语用的「场合意识」正式登场。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "同一自我能按场合准备两个版本",
+        "介绍时长控制在一分钟左右"
+      ],
+      "assessmentPrompt": "请{{name}}准备两个自我介绍：一个给新班主任（30 秒），一个给夏令营室友（讲兴趣爱好），比较有什么不同。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "口语交际（第七单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g1a_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_19",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "冒号与分号：总分与并列的标点",
+      "description": "学会用冒号提示下文（猫的性格实在有些古怪：说它……），认识分号并列分句的用法。标点从「句末三兄弟」进阶到句中标点，句子结构的雷达更精细。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用冒号写一个总分句",
+        "能正确朗读含分号的长句并说出并列关系"
+      ],
+      "assessmentPrompt": "请{{name}}用「我家的小狗本领可多：」开头写一个总分句，注意冒号后怎么接。",
+      "standards": [
+        "cschinese-2022:S2.LZ.03",
+        "cschinese-2022:S2.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "语文园地",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_20",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "病句的常见类型与修改",
+      "description": "识别三类常见病句：成分残缺（通过……使……缺主语）、搭配不当（提高水平≠提高兴趣）、语序不当，并用修改符号改正。病句修改是语感的技术化体检，四下系统化。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断病句类型并说出病因",
+        "能用修改符号规范改正"
+      ],
+      "assessmentPrompt": "给{{name}}三句病句：「通过这次活动，使我明白团结。」「我们要养成阅读。」「博物馆展出了两千多年前新出土的文物」，请诊断+开方。",
+      "standards": [
+        "cschinese-2022:S3.SL.03",
+        "cschinese-2022:S2.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "语文园地",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_21",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本科普阅读：十万个为什么",
+      "description": "读米·伊林《十万个为什么》或中国版科普整本书，带着问题读、用学到的知识解释生活现象（为什么刀要磨亮）。快乐读书吧四下主题：科普——课外阅读的版图从文学扩展到科学。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能读完一本科普书",
+        "能用书里的知识解释一个生活现象"
+      ],
+      "assessmentPrompt": "请{{name}}读完《十万个为什么》挑一个最惊讶的知识讲给你听，再一起去厨房验证一个（比如铁锅生锈）。",
+      "standards": [
+        "cschinese-2022:S3.YD.07",
+        "cschinese-2022:S3.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "快乐读书吧",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_22",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "摘录笔记与批注并用",
+      "description": "读书时把好词好句摘抄进积累本（注明出处），旁边写一两句批注感想。积累+思考双轨并行，为五年级写读后感备料。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "积累本摘录超过 20 条且各有批注",
+        "能在习作中化用摘录的句子"
+      ],
+      "assessmentPrompt": "请{{name}}本周读书时摘三句最喜欢的句子，每句旁边写「为什么喜欢」；周末挑一句用在日记里。",
+      "standards": [
+        "cschinese-2022:S3.SL.02",
+        "cschinese-2022:S3.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "语文园地",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g4b_23",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "四下字词自查：累计认 2350 写 1610",
+      "description": "四年级收官：本册认 250 写 250，累计约 2350/1610。中期识字任务过半，查字典、语境辨析已是常规工具，词汇量足以支撑独立阅读少年读物。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "听写正确率 85% 以上",
+        "能独立阅读少年版长篇并理解"
+      ],
+      "assessmentPrompt": "听写「效率、灿烂、足迹、尘土、怠慢、供养」等 15 词；再请{{name}}读一页少年读物复述大意。",
+      "standards": [
+        "cschinese-2022:S2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "各单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_24"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.7.0",
+  "version": "1.8.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1156,
+  "edgeCount": 1183,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6939,6 +6939,168 @@
       "prerequisiteId": "ct_yw_g4a_01",
       "strength": "soft",
       "reason": "提问（策略单元）之后用批注（第六单元）把问题与感想落到书页上"
+    },
+    {
+      "topicId": "ct_yw_g4b_01",
+      "prerequisiteId": "ct_yw_g2b_08",
+      "strength": "hard",
+      "reason": "儿童诗朗读的节奏经验迁移到现代诗，新增强意象与情感体会"
+    },
+    {
+      "topicId": "ct_yw_g4b_02",
+      "prerequisiteId": "ct_yw_g4b_01",
+      "strength": "hard",
+      "reason": "编诗集与写小诗以现代诗阅读的语感为前提"
+    },
+    {
+      "topicId": "ct_yw_g4b_02",
+      "prerequisiteId": "ct_yw_g3b_09",
+      "strength": "soft",
+      "reason": "综合性学习的活动-整理-成果流程与三下传统节日综合学习同构"
+    },
+    {
+      "topicId": "ct_yw_g4b_03",
+      "prerequisiteId": "ct_yw_g4a_16",
+      "strength": "hard",
+      "reason": "科普阅读从『问题—研究—应用』链条进阶到检验推测依据"
+    },
+    {
+      "topicId": "ct_yw_g4b_03",
+      "prerequisiteId": "ct_yw_g4a_01",
+      "strength": "soft",
+      "reason": "提问策略在读科普文找依据中持续使用"
+    },
+    {
+      "topicId": "ct_yw_g4b_04",
+      "prerequisiteId": "ct_yw_g4a_17",
+      "strength": "hard",
+      "reason": "长文小标题是『把握主要内容』在长文本上的操作化"
+    },
+    {
+      "topicId": "ct_yw_g4b_05",
+      "prerequisiteId": "ct_yw_g4a_22",
+      "strength": "hard",
+      "reason": "品析动词神态词的鉴赏力升级到明贬实褒的语言风格赏析"
+    },
+    {
+      "topicId": "ct_yw_g4b_06",
+      "prerequisiteId": "ct_yw_g3a_06",
+      "strength": "hard",
+      "reason": "游记的空间顺序与写景的中心句段落互补，构成完整写景能力"
+    },
+    {
+      "topicId": "ct_yw_g4b_06",
+      "prerequisiteId": "ct_yw_g4b_15",
+      "strength": "soft",
+      "reason": "读课文中的游记范例（双龙洞）直接为游记写作供样"
+    },
+    {
+      "topicId": "ct_yw_g4b_07",
+      "prerequisiteId": "ct_yw_g4a_13",
+      "strength": "hard",
+      "reason": "写乐园从推荐地方升级：加入个人感受与事例"
+    },
+    {
+      "topicId": "ct_yw_g4b_08",
+      "prerequisiteId": "ct_yw_g3b_10",
+      "strength": "hard",
+      "reason": "奇思妙想是想象习作的结构化：样子+功能+场景"
+    },
+    {
+      "topicId": "ct_yw_g4b_09",
+      "prerequisiteId": "ct_yw_g4a_08",
+      "strength": "hard",
+      "reason": "情境化写动物从写家人特点的『事例支撑』方法迁移"
+    },
+    {
+      "topicId": "ct_yw_g4b_10",
+      "prerequisiteId": "ct_yw_g4a_06",
+      "strength": "hard",
+      "reason": "『我学会了』按过程+波折写，是把事情写清楚的应用深化"
+    },
+    {
+      "topicId": "ct_yw_g4b_11",
+      "prerequisiteId": "ct_yw_g3b_11",
+      "strength": "hard",
+      "reason": "自画像=多特点写人（一事见特点的复数版）"
+    },
+    {
+      "topicId": "ct_yw_g4b_12",
+      "prerequisiteId": "ct_yw_g3a_04",
+      "strength": "hard",
+      "reason": "故事新编以续写故事的『接得上』为前提，再要求翻出新意"
+    },
+    {
+      "topicId": "ct_yw_g4b_13",
+      "prerequisiteId": "ct_yw_g4a_14",
+      "strength": "hard",
+      "reason": "古诗积累继续：从哲理诗到咏物言志"
+    },
+    {
+      "topicId": "ct_yw_g4b_14",
+      "prerequisiteId": "ct_yw_g3a_15",
+      "strength": "hard",
+      "reason": "从童话人物情感体验到从言行读英雄品质，人物阅读深化"
+    },
+    {
+      "topicId": "ct_yw_g4b_15",
+      "prerequisiteId": "ct_yw_g3a_17",
+      "strength": "soft",
+      "reason": "精彩语段背诵积累的语料支撑景物描写的赏析"
+    },
+    {
+      "topicId": "ct_yw_g4b_16",
+      "prerequisiteId": "ct_yw_g2a_10",
+      "strength": "soft",
+      "reason": "寓言的『故事说理』经验迁移到童话对比手法的理解"
+    },
+    {
+      "topicId": "ct_yw_g4b_17",
+      "prerequisiteId": "ct_yw_g3b_04",
+      "strength": "hard",
+      "reason": "说新闻是转述的高要求版：要素全+不变形+加观点"
+    },
+    {
+      "topicId": "ct_yw_g4b_18",
+      "prerequisiteId": "ct_yw_g1a_20",
+      "strength": "soft",
+      "reason": "自我介绍的场合意识是低年级『介绍自己』的进阶"
+    },
+    {
+      "topicId": "ct_yw_g4b_19",
+      "prerequisiteId": "ct_yw_g3b_20",
+      "strength": "soft",
+      "reason": "引语标点经验扩展到冒号分号的句中结构"
+    },
+    {
+      "topicId": "ct_yw_g4b_20",
+      "prerequisiteId": "ct_yw_g3b_21",
+      "strength": "hard",
+      "reason": "在修改符号使用的基础上按病句类型系统化诊断"
+    },
+    {
+      "topicId": "ct_yw_g4b_21",
+      "prerequisiteId": "ct_yw_g3b_15",
+      "strength": "hard",
+      "reason": "科普整本阅读延续科普课文阅读的方法与兴趣"
+    },
+    {
+      "topicId": "ct_yw_g4b_22",
+      "prerequisiteId": "ct_yw_g4a_02",
+      "strength": "hard",
+      "reason": "批注与摘录结合，读思写一体"
+    },
+    {
+      "topicId": "ct_yw_g4b_23",
+      "prerequisiteId": "ct_yw_g4a_24",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进，中段过半"
+    },
+    {
+      "topicId": "ct_yw_g4b_12",
+      "prerequisiteId": "ct_yw_g4b_16",
+      "strength": "soft",
+      "reason": "童话对比手法的理解帮助新编设计情节反差"
     }
   ]
 }

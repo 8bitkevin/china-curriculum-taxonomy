@@ -1,10 +1,10 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 732,
-    "dependencies": 1156,
+    "topics": 755,
+    "dependencies": 1183,
     "standards": 275,
     "deprecated": 0,
     "byGrade": {
@@ -15,7 +15,7 @@
       "3年级上": 56,
       "3年级下": 52,
       "4年级上": 54,
-      "4年级下": 31,
+      "4年级下": 54,
       "5年级上": 26,
       "5年级下": 26,
       "6年级上": 27,
@@ -60,18 +60,19 @@
       "统编版·2016 年版",
       "统编版·2017 年版",
       "统编版·2018 年版",
-      "统编版·2019 年版"
+      "统编版·2019 年版",
+      "统编版·2020 年版"
     ],
     "note": "覆盖 数学、语文（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 802209,
-      "sha256": "7312daa29c15c792d8739fa555f200350dc1b328143c6b6ce6ab3ef1a565c4e0"
+      "bytes": 828364,
+      "sha256": "c6493267fb6f9400ea8c7f2fa509d1345070b74b25680c06ecb7a8cbd0271c3c"
     },
     "dependencies.json": {
-      "bytes": 222304,
-      "sha256": "f55b56491999aabbfabb14ee975e7a96910cd2076868d16543964cca6608b5be"
+      "bytes": 227586,
+      "sha256": "eea248721c15d9968eec8fa3c72575ad5d75cc6abb475052a2cf3fa02e34ce42"
     },
     "curriculum-standards.json": {
       "bytes": 64741,
