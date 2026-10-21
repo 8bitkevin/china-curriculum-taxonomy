@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.8.0",
+  "version": "0.9.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 256,
+  "topicCount": 283,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -7861,6 +7861,839 @@
         "ct_g2b_02",
         "ct_g4b_31",
         "ct_g5a_26"
+      ]
+    },
+    {
+      "id": "ct_g6a_01",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数乘整数",
+      "description": "3/10 × 3：就是 3 个 3/10 相加，得 9/10。分子乘整数、分母不变，能约分的先约再乘——分数运算的第一课，加法的升级版。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能讲清分数乘整数的算理并正确计算",
+        "养成先约分再相乘的习惯"
+      ],
+      "assessmentPrompt": "问{{name}}：「3/10×3 怎么算？4/9×6 先做什么再乘？结果是什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_01",
+        "ct_g5b_11"
+      ]
+    },
+    {
+      "id": "ct_g6a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数乘分数",
+      "description": "1/2 的 1/4 是多少？折纸看看：把 1/2 再平均分 4 份取 1 份，是 1/8。分子乘分子、分母乘分母——「取一部分的一部分」，分数乘分数的意义全在这张纸上。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用折纸或画图解释分数乘分数的算理",
+        "能正确计算并化简分数乘分数"
+      ],
+      "assessmentPrompt": "问{{name}}：「1/2×1/4 为什么等于 1/8？画个图讲给妈妈听。3/4×2/5 是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_01"
+      ]
+    },
+    {
+      "id": "ct_g6a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数乘法的混合运算与简算",
+      "description": "运算顺序与整数相同，运算律照样有效：1/4×1/3×4 = 1/4×4×1/3——结合律先凑整。分数世界的四则规则全面接管，简算意识不能放假。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确计算分数乘法混合运算",
+        "能用运算律进行分数乘法简算"
+      ],
+      "assessmentPrompt": "让{{name}}简算 5/7×19×7/10，说出用了什么运算律。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_04",
+        "ct_g6a_02"
+      ]
+    },
+    {
+      "id": "ct_g6a_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "倒数的认识",
+      "description": "乘积是 1 的两个数互为倒数：3/8 的倒数是 8/3，2 的倒数是 1/2。1 的倒数还是 1，0 没有倒数。倒数不「倒着写」，而是「分子分母调换位」。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确写出分数、整数、小数的倒数",
+        "能说明 0 为什么没有倒数"
+      ],
+      "assessmentPrompt": "问{{name}}：「7/9 的倒数是谁？0.5 的倒数呢？1 和 0 的倒数各是什么？互为倒数是什么意思？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_03",
+        "ct_g6a_02"
+      ]
+    },
+    {
+      "id": "ct_g6a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数的几分之几是多少",
+      "description": "20 米的 3/4 是多少？20×3/4 = 15 米。求「几分之几」用乘法——和「求一个数的几倍」一模一样，只是倍数换成了分数。线段图是理解它的最佳助手。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用线段图分析「几分之几」问题",
+        "能正确列乘法算式解决实际问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「40 页的书读了 3/8，读了多少页？先画线段图再列式。为什么用乘法？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_16",
+        "ct_g6a_03"
+      ]
+    },
+    {
+      "id": "ct_g6a_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用方向和距离确定位置",
+      "description": "「北偏东 30° 方向 500 米处」：以观测点为中心，用量角器量角度，用比例尺算距离。方向 + 距离 + 角度，海陆空定位的通用语言。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能根据条件在平面图上标出物体位置",
+        "能描述物体相对观测点的方向（含偏角）和距离"
+      ],
+      "assessmentPrompt": "问{{name}}：「灯塔在船的北偏东 25° 方向 40 千米处，在图上画出来。北偏东 25° 是从哪条线往哪边量 25°？」",
+      "standards": [
+        "csmath-2022:S3.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_02",
+        "ct_g4a_10"
+      ]
+    },
+    {
+      "id": "ct_g6a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "描述并绘制简单路线图",
+      "description": "从起点向东偏北 30° 走 300 米，再向北偏西 20° 走 200 米……每一段都要换一次观测点。会画路线图的孩子，自带「人肉导航」。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能分段描述路线（方向、角度、距离）",
+        "能根据描述绘制路线图并确定终点位置"
+      ],
+      "assessmentPrompt": "让{{name}}描述从家到学校的路线（每段说清方向和大约距离），并画出示意图。",
+      "standards": [
+        "csmath-2022:S3.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_06"
+      ]
+    },
+    {
+      "id": "ct_g6a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数除以整数",
+      "description": "4/5 ÷ 2：把 4/5 平均分 2 份，每份是 2/5；也可以想成取 4/5 的 1/2，即 4/5 × 1/2。除以 2 就是乘 1/2——「化除为乘」的种子在此发芽。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用两种思路解释分数除以整数",
+        "能正确计算分数除以整数"
+      ],
+      "assessmentPrompt": "问{{name}}：「4/5÷2 怎么算？为什么除以 2 可以变成乘 1/2？画图说说道理。」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_01"
+      ]
+    },
+    {
+      "id": "ct_g6a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一个数除以分数（除以一个数等于乘它的倒数）",
+      "description": "2 ÷ 1/3：1 里面有 3 个 1/3，2 里面就有 6 个——2×3=6。除以任何非零数都等于乘它的倒数。分数除法的通关密码，一行搞定。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能解释除以分数等于乘倒数的道理",
+        "能正确计算整数、分数除以分数"
+      ],
+      "assessmentPrompt": "问{{name}}：「2÷1/3 为什么等于 6？3/4÷3/8 怎么算？除法的法则用一句话怎么说？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_04",
+        "ct_g6a_08"
+      ]
+    },
+    {
+      "id": "ct_g6a_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数混合运算",
+      "description": "分数四则混合运算顺序与整数完全一样：先乘除后加减，有括号先算括号。运算体系大统一——整数、小数、分数，同一套规则走天下。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确计算分数混合运算（含小括号）",
+        "计算过程能约分的及时约分"
+      ],
+      "assessmentPrompt": "让{{name}}算 1/2+1/4÷1/8，先说运算顺序再算。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_03",
+        "ct_g6a_09"
+      ]
+    },
+    {
+      "id": "ct_g6a_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "已知一个数的几分之几是多少，求这个数",
+      "description": "「一本书读了 3/8 正好 60 页，全书多少页？」60÷3/8 = 160 页，或设全书 x 页列方程 x×3/8=60。乘除互逆 + 方程思想，两条路都通。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用算术法或方程法解答此类问题",
+        "能通过线段图找准量与分率的对应关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「一桶水用去 2/5 正好 8 千克，这桶水多重？用方程和算术两种方法各做一遍。」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_18",
+        "ct_g6a_05",
+        "ct_g6a_10"
+      ]
+    },
+    {
+      "id": "ct_g6a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "工程问题（单位「1」的威力）",
+      "description": "甲队独修 12 天完成，乙队 18 天——合修几天？不知总长没关系，把总量看作 1：1÷(1/12+1/18) = 7.2 天。假设「1」的魔法，让没有数据的问题现出原形。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能把工作总量看作 1 并用分数表示工作效率",
+        "能正确解答工程问题并检验合理性"
+      ],
+      "assessmentPrompt": "问{{name}}：「修一条路甲 10 天乙 15 天，合修几天？总长不知道怎么列式？1/10 表示什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_11"
+      ]
+    },
+    {
+      "id": "ct_g6a_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "比的意义（与除法、分数的关系）",
+      "description": "两面旗长 3 米宽 2 米，长宽比是 3:2。比的前项除以后项就是比值——比、除法、分数是三胞胎：a:b = a÷b = a/b（后项不能为 0）。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能读写比、求比值并说出各部分名称",
+        "能说清比与除法、分数的联系与区别"
+      ],
+      "assessmentPrompt": "问{{name}}：「3:2 的比值是多少？比的前项后项和除法里的什么对应？比的后项能是 0 吗，为什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_12",
+        "ct_g6a_09"
+      ]
+    },
+    {
+      "id": "ct_g6a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "比的基本性质与化简比",
+      "description": "比的前项后项同乘或同除同一个数（0 除外），比值不变——又是商不变规律的亲戚。化简比就是把比变成最简整数比：0.5:0.75 = 2:3。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能化简整数比、分数比、小数比",
+        "知道化简比与求比值的区别（结果是比 vs 数）"
+      ],
+      "assessmentPrompt": "问{{name}}：「12:18 化简比是多少？0.25:0.5 呢？化简比和求比值一样吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_13",
+        "ct_g6a_13"
+      ]
+    },
+    {
+      "id": "ct_g6a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "按比分配",
+      "description": "把 100 公顷地按 3:2 种玉米和大豆：总共 5 份，玉米 3/5、大豆 2/5。按比分配 = 先求总份数再求每份（或化成分数乘法）——稀释药水、配制混凝土全用它。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用份数法或分数法解决按比分配问题",
+        "能验算结果是否符合给定的比"
+      ],
+      "assessmentPrompt": "问{{name}}：「84 元奖学金按 4:3 分给两人，各得多少？先求什么？怎么验算？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_02",
+        "ct_g6a_14"
+      ]
+    },
+    {
+      "id": "ct_g6a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的认识（圆心、半径、直径）",
+      "description": "圆是到定点的距离等于定长的点的集合：定点是圆心（O），定长是半径（r），d=2r。圆有无数条半径直径，「圆，一中同长也」——两千年前墨子就懂。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "知道圆的各部分名称及半径直径关系",
+        "会用圆规画指定大小的圆并解释道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么车轮做成圆的？画半径 2 厘米的圆，圆规两脚间开几厘米？直径和半径什么关系？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_01",
+        "ct_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_g6a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的周长与圆周率",
+      "description": "绕圆一周的长度叫周长。周长÷直径总是一个固定的数——圆周率 π≈3.14。C = πd = 2πr。祖冲之把它算到小数点后 7 位，领跑世界近千年。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "知道圆周率的含义并能正确使用 C=πd 公式",
+        "能解决与周长相关的实际问题（绕圈、滚一圈）"
+      ],
+      "assessmentPrompt": "问{{name}}：「直径 10 厘米的圆周长多少？自行车轮直径 66 厘米转一圈走多远（π 取 3.14）？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_25",
+        "ct_g6a_16"
+      ]
+    },
+    {
+      "id": "ct_g6a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的面积",
+      "description": "把圆切成无数小扇形拼起来，拼成近似长方形：长是 πr、宽是 r——S = πr²。切得越细越像长方形，极限思想在小学的惊鸿一瞥。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能描述圆面积公式的推导过程",
+        "能正确计算圆的面积（含已知周长求面积）"
+      ],
+      "assessmentPrompt": "问{{name}}：「半径 3 厘米的圆面积多少？πr² 里的 r² 是什么意思？公式是怎么从长方形变出来的？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_19",
+        "ct_g6a_17"
+      ]
+    },
+    {
+      "id": "ct_g6a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆环与组合图形的面积",
+      "description": "光盘 = 大圆挖去小圆：S = π(R² - r²)；「外圆内方」「外方内圆」是中华传统的经典组合。图形组合千变万化，加减策略以一敌百。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能计算圆环面积",
+        "能解决外方内圆、外圆内方等组合图形面积问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「环岛外半径 20 米内半径 10 米，环形路面面积多少？怎么算最快？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_22",
+        "ct_g6a_18"
+      ]
+    },
+    {
+      "id": "ct_g6a_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "百分数的意义与读写",
+      "description": "表示一个数是另一个数的百分之几的数叫百分数（%），又叫百分率、百分比。衣服成分、投篮命中率、电量——百分数天生为「比较」而生。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确读写百分数并说出其意义",
+        "能举例说明百分数与分数意义上的区别（百分数不带单位）"
+      ],
+      "assessmentPrompt": "问{{name}}：「75% 表示什么？一袋米重 75% 千克对吗？为什么？你能说出三个生活中的百分数吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_11",
+        "ct_g5b_16"
+      ]
+    },
+    {
+      "id": "ct_g6a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "百分数与分数、小数的互化",
+      "description": "75% = 3/4 = 0.75：百分数化小数去 % 小数点左移两位；化分数写成一百分之几再约分。三个家族自由串门，比较计算随心换装。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能熟练进行百分数、分数、小数互化",
+        "记住常用互化值（1/2=50%、1/4=25%、1/8=12.5%）"
+      ],
+      "assessmentPrompt": "问{{name}}：「3/8 化成百分数是多少？0.6% 化成小数呢？5/6 呢，怎么处理除不尽？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_16",
+        "ct_g6a_20"
+      ]
+    },
+    {
+      "id": "ct_g6a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数是另一个数的百分之几（百分率）",
+      "description": "合格率 = 合格数÷总数×100%，出勤率、发芽率、含糖率同理——都懂「谁占谁的百分之几」。百分率最多 100%（发芽率 120% 一定算错了）。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确计算各种百分率",
+        "能判断百分率的合理范围并解释出错原因"
+      ],
+      "assessmentPrompt": "问{{name}}：「50 件产品 46 件合格，合格率多少？命中率、发芽率会超过 100% 吗？为什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_15",
+        "ct_g6a_21"
+      ]
+    },
+    {
+      "id": "ct_g6a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数的百分之几是多少",
+      "description": "40 的 25% 是多少？40×25% = 10。求「百分之几」用乘法——与求几分之几完全同构。百分数只是换了马甲的分数。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能正确求一个数的百分之几",
+        "能解决折扣等简单实际问题（九折=90%）"
+      ],
+      "assessmentPrompt": "问{{name}}：「定价 80 元的书打七五折多少钱？40 的 25% 怎么算最快？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_05",
+        "ct_g6a_22"
+      ]
+    },
+    {
+      "id": "ct_g6a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数比另一个数多（少）百分之几",
+      "description": "从 40 增加到 50，多百分之几？多 10，10 是 40 的 25%——单位「1」是原量！「增产 25%」和「是原来的 125%」要会互译，谁除以谁是关键。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能找准单位「1」正确计算增减幅度",
+        "能区分「多百分之几」与「是百分之几」两种问法"
+      ],
+      "assessmentPrompt": "问{{name}}：「水费从 40 元涨到 50 元，涨了百分之几？50 比 40 多 25%，那 40 比 50 少 25% 对吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_23"
+      ]
+    },
+    {
+      "id": "ct_g6a_25",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "扇形统计图与统计图的选择",
+      "description": "整个圆代表总量 100%，每个扇形是一部分占的百分比：一眼看出「谁占大头」。条形比多少、折线看趋势、扇形看占比——选图先想「要说明什么」。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能读懂扇形统计图并计算部分数量",
+        "能根据目的选择合适的统计图"
+      ],
+      "assessmentPrompt": "问{{name}}：「展示家庭月支出各项占比用什么图？扇形图里所有百分比之和是多少？支出 35% 是食品，共 2000 元，食品花多少？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_25",
+        "ct_g6a_20"
+      ]
+    },
+    {
+      "id": "ct_g6a_26",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：数与形（一）奇数和与正方形数",
+      "description": "1+3+5+7 = 16 = 4²：把奇数摆成 L 形，正好拼成边长 4 的正方形！从 1 开始的 n 个奇数之和是 n²。数助形直观、形帮数简洁——数形结合百般好。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用图形解释奇数和规律并计算 1+3+…+19",
+        "能举出一个「以形助数」的例子"
+      ],
+      "assessmentPrompt": "问{{name}}：「1+3+5+…+99 等于多少？不用加法，用正方形想一想为什么。」",
+      "standards": [
+        "csmath-2022:S3.IP.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_27",
+        "ct_g4b_23"
+      ]
+    },
+    {
+      "id": "ct_g6a_27",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：数与形（二）分数数列求和",
+      "description": "1/2 + 1/4 + 1/8 + … 永远加不完，但画个正方形图：剩余部分越来越小，和越来越接近 1。无限的过程、有限的极限——一颗微积分的种子悄悄埋下。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用图形直观解释分数无穷数列的和趋近 1",
+        "能发现 1/2+1/4+1/8+1/16 = 1-1/16 的规律"
+      ],
+      "assessmentPrompt": "问{{name}}：「一个蛋糕每天吃剩下的一半，吃得完吗？画图看看这些分数加起来趋近几？」",
+      "standards": [
+        "csmath-2022:S3.IP.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_13",
+        "ct_g6a_26"
       ]
     }
   ]

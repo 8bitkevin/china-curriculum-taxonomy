@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.8.0",
+  "version": "0.9.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 410,
+  "edgeCount": 460,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -2463,6 +2463,306 @@
       "prerequisiteId": "ct_g4b_31",
       "strength": "soft",
       "reason": "假设与逐步排除的推理方式与鸡兔同笼同属一脉"
+    },
+    {
+      "topicId": "ct_g6a_01",
+      "prerequisiteId": "ct_g5b_11",
+      "strength": "hard",
+      "reason": "分数乘整数的算理（3 个 3/10）依赖分数单位概念"
+    },
+    {
+      "topicId": "ct_g6a_01",
+      "prerequisiteId": "ct_g5a_01",
+      "strength": "soft",
+      "reason": "与五年级小数乘整数同样采用转化为整数运算再定位的思路"
+    },
+    {
+      "topicId": "ct_g6a_02",
+      "prerequisiteId": "ct_g6a_01",
+      "strength": "hard",
+      "reason": "分数乘分数是乘整数的推广（整数看作分母 1）"
+    },
+    {
+      "topicId": "ct_g6a_03",
+      "prerequisiteId": "ct_g6a_02",
+      "strength": "hard",
+      "reason": "混合运算由乘分数计算组合而成"
+    },
+    {
+      "topicId": "ct_g6a_03",
+      "prerequisiteId": "ct_g5a_04",
+      "strength": "soft",
+      "reason": "运算律迁移用于分数乘法简算的思路在五年级小数简算中已演练"
+    },
+    {
+      "topicId": "ct_g6a_04",
+      "prerequisiteId": "ct_g6a_02",
+      "strength": "hard",
+      "reason": "倒数定义为乘积是 1，讨论对象是分数乘法"
+    },
+    {
+      "topicId": "ct_g6a_04",
+      "prerequisiteId": "ct_g5b_03",
+      "strength": "soft",
+      "reason": "判断互质与约分经验帮助快速找倒数并化简"
+    },
+    {
+      "topicId": "ct_g6a_05",
+      "prerequisiteId": "ct_g6a_03",
+      "strength": "hard",
+      "reason": "求几分之几用乘法，以分数乘法计算为载体"
+    },
+    {
+      "topicId": "ct_g6a_05",
+      "prerequisiteId": "ct_g3a_16",
+      "strength": "soft",
+      "reason": "求一个数的几倍用乘法的结构平移到求几分之几"
+    },
+    {
+      "topicId": "ct_g6a_06",
+      "prerequisiteId": "ct_g3b_02",
+      "strength": "hard",
+      "reason": "八个方向的描述是北偏东 30° 这类复合方向的底座"
+    },
+    {
+      "topicId": "ct_g6a_06",
+      "prerequisiteId": "ct_g4a_10",
+      "strength": "hard",
+      "reason": "在平面图上量偏角必须会用大量角器"
+    },
+    {
+      "topicId": "ct_g6a_07",
+      "prerequisiteId": "ct_g6a_06",
+      "strength": "hard",
+      "reason": "路线图是逐段应用方向+角度+距离确定位置的组合"
+    },
+    {
+      "topicId": "ct_g6a_08",
+      "prerequisiteId": "ct_g6a_01",
+      "strength": "hard",
+      "reason": "除以整数转化为乘单位分数（1/2），依赖分数乘法"
+    },
+    {
+      "topicId": "ct_g6a_09",
+      "prerequisiteId": "ct_g6a_08",
+      "strength": "hard",
+      "reason": "除以分数法则由除以整数的特例一般化而来"
+    },
+    {
+      "topicId": "ct_g6a_09",
+      "prerequisiteId": "ct_g6a_04",
+      "strength": "hard",
+      "reason": "乘倒数的操作直接使用倒数概念"
+    },
+    {
+      "topicId": "ct_g6a_10",
+      "prerequisiteId": "ct_g6a_09",
+      "strength": "hard",
+      "reason": "混合运算的除法步骤均为除以分数"
+    },
+    {
+      "topicId": "ct_g6a_10",
+      "prerequisiteId": "ct_g6a_03",
+      "strength": "hard",
+      "reason": "运算顺序与简算规则沿用分数乘法混合运算"
+    },
+    {
+      "topicId": "ct_g6a_11",
+      "prerequisiteId": "ct_g6a_05",
+      "strength": "hard",
+      "reason": "与求几分之几正逆相对，先掌握乘法方向再学逆推"
+    },
+    {
+      "topicId": "ct_g6a_11",
+      "prerequisiteId": "ct_g6a_10",
+      "strength": "hard",
+      "reason": "算术解法需要分数除法（含混合运算）技能"
+    },
+    {
+      "topicId": "ct_g6a_11",
+      "prerequisiteId": "ct_g5a_18",
+      "strength": "hard",
+      "reason": "方程解法（x×3/8=60）直接运用五年级列方程解题经验"
+    },
+    {
+      "topicId": "ct_g6a_12",
+      "prerequisiteId": "ct_g6a_11",
+      "strength": "hard",
+      "reason": "工程问题的 1÷(1/12+1/18) 综合分数除法与单位 1 的分率对应"
+    },
+    {
+      "topicId": "ct_g6a_13",
+      "prerequisiteId": "ct_g6a_09",
+      "strength": "hard",
+      "reason": "比值=前项÷后项，比的运算本质是除法（含分数除法）"
+    },
+    {
+      "topicId": "ct_g6a_13",
+      "prerequisiteId": "ct_g5b_12",
+      "strength": "soft",
+      "reason": "比与分数的互化依赖分数与除法的关系"
+    },
+    {
+      "topicId": "ct_g6a_14",
+      "prerequisiteId": "ct_g6a_13",
+      "strength": "hard",
+      "reason": "化简比对比的意义与比值计算"
+    },
+    {
+      "topicId": "ct_g6a_14",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "soft",
+      "reason": "比的基本性质与分数基本性质、商不变规律三位一体"
+    },
+    {
+      "topicId": "ct_g6a_15",
+      "prerequisiteId": "ct_g6a_14",
+      "strength": "hard",
+      "reason": "按比分配先化简比再求份数，以化简比为准备"
+    },
+    {
+      "topicId": "ct_g6a_15",
+      "prerequisiteId": "ct_g2b_02",
+      "strength": "soft",
+      "reason": "按份分配的原始形态是平均分（1:1 的特例）"
+    },
+    {
+      "topicId": "ct_g6a_16",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "soft",
+      "reason": "一年级的圆直观辨认升级为圆心半径直径的要素刻画"
+    },
+    {
+      "topicId": "ct_g6a_16",
+      "prerequisiteId": "ct_g5b_05",
+      "strength": "hard",
+      "reason": "曲线图形的研究承接立体图形认识中的要素分析方式（面棱顶点→圆心半径）"
+    },
+    {
+      "topicId": "ct_g6a_17",
+      "prerequisiteId": "ct_g6a_16",
+      "strength": "hard",
+      "reason": "周长公式 C=πd 的 d、r 都是圆的要素"
+    },
+    {
+      "topicId": "ct_g6a_17",
+      "prerequisiteId": "ct_g3a_25",
+      "strength": "hard",
+      "reason": "周长概念（绕一周的长度）在三年级已建立，此处用于曲边图形"
+    },
+    {
+      "topicId": "ct_g6a_18",
+      "prerequisiteId": "ct_g6a_17",
+      "strength": "hard",
+      "reason": "面积推导中长方形的长 πr 来自圆周长的一半"
+    },
+    {
+      "topicId": "ct_g6a_18",
+      "prerequisiteId": "ct_g5a_19",
+      "strength": "hard",
+      "reason": "切拼转化的推导策略直接沿用平行四边形面积的割补经验"
+    },
+    {
+      "topicId": "ct_g6a_19",
+      "prerequisiteId": "ct_g6a_18",
+      "strength": "hard",
+      "reason": "圆环等组合面积是圆面积公式的加减组合"
+    },
+    {
+      "topicId": "ct_g6a_19",
+      "prerequisiteId": "ct_g5a_22",
+      "strength": "soft",
+      "reason": "组合图形的分补策略沿用五年级组合图形面积经验"
+    },
+    {
+      "topicId": "ct_g6a_20",
+      "prerequisiteId": "ct_g5b_16",
+      "strength": "hard",
+      "reason": "百分数本质是分母 100 的分数，互化技能以分数小数互化为基础"
+    },
+    {
+      "topicId": "ct_g6a_20",
+      "prerequisiteId": "ct_g5b_11",
+      "strength": "soft",
+      "reason": "「一个数是另一个数的几分之几」的分率意义直接平移为百分数意义"
+    },
+    {
+      "topicId": "ct_g6a_21",
+      "prerequisiteId": "ct_g6a_20",
+      "strength": "hard",
+      "reason": "互化以百分数意义为依据（75% 即 75/100）"
+    },
+    {
+      "topicId": "ct_g6a_21",
+      "prerequisiteId": "ct_g5b_16",
+      "strength": "hard",
+      "reason": "与分数小数互化的方法互通（七成五=3/4）"
+    },
+    {
+      "topicId": "ct_g6a_22",
+      "prerequisiteId": "ct_g6a_21",
+      "strength": "hard",
+      "reason": "求百分率先算出分率再化成百分数"
+    },
+    {
+      "topicId": "ct_g6a_22",
+      "prerequisiteId": "ct_g3a_15",
+      "strength": "soft",
+      "reason": "求一个数是另一个数的几倍的除法结构与求百分率同构"
+    },
+    {
+      "topicId": "ct_g6a_23",
+      "prerequisiteId": "ct_g6a_22",
+      "strength": "hard",
+      "reason": "与百分率问题正逆相对，乘法方向在除法方向之后学习"
+    },
+    {
+      "topicId": "ct_g6a_23",
+      "prerequisiteId": "ct_g6a_05",
+      "strength": "soft",
+      "reason": "求百分之几与求几分之几同构（25% 即 1/4）"
+    },
+    {
+      "topicId": "ct_g6a_24",
+      "prerequisiteId": "ct_g6a_23",
+      "strength": "hard",
+      "reason": "增减幅度问题在求百分之几的基础上叠加相差量"
+    },
+    {
+      "topicId": "ct_g6a_25",
+      "prerequisiteId": "ct_g5b_25",
+      "strength": "hard",
+      "reason": "统计图选择的判断建立在折线、条形两类图的完整经验上"
+    },
+    {
+      "topicId": "ct_g6a_25",
+      "prerequisiteId": "ct_g6a_20",
+      "strength": "hard",
+      "reason": "扇形图各部分读数是百分数，以百分数意义为前提"
+    },
+    {
+      "topicId": "ct_g6a_26",
+      "prerequisiteId": "ct_g4b_23",
+      "strength": "soft",
+      "reason": "多边形内角和的分割探究经验（化归与规律发现）在此延续"
+    },
+    {
+      "topicId": "ct_g6a_26",
+      "prerequisiteId": "ct_g3b_27",
+      "strength": "soft",
+      "reason": "有序枚举与结构化计数（组合）帮助构造 L 形奇数块"
+    },
+    {
+      "topicId": "ct_g6a_27",
+      "prerequisiteId": "ct_g6a_26",
+      "strength": "hard",
+      "reason": "同属数与形专题，第二例（分数数列）建立在第一例（奇数和）方法之上"
+    },
+    {
+      "topicId": "ct_g6a_27",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "soft",
+      "reason": "分数基本性质帮助解释每次取一半的剩余关系"
     }
   ]
 }
