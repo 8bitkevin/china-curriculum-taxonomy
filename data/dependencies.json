@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.35.0",
+  "version": "1.36.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1682,
+  "edgeCount": 1702,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10095,6 +10095,126 @@
       "prerequisiteId": "ct_yy_g8a_15",
       "strength": "hard",
       "reason": "词汇自查跨册累进，动词三态库成为新管理单元"
+    },
+    {
+      "topicId": "ct_yy_g9a_01",
+      "prerequisiteId": "ct_yy_g6a_04",
+      "strength": "hard",
+      "reason": "V-ing 形式的使用经验扩展为 by + V-ing 的方法状语"
+    },
+    {
+      "topicId": "ct_yy_g9a_02",
+      "prerequisiteId": "ct_yy_g7a_11",
+      "strength": "hard",
+      "reason": "because 状语从句表达理由的经验延伸到 that/if 宾语从句转述观点"
+    },
+    {
+      "topicId": "ct_yy_g9a_03",
+      "prerequisiteId": "ct_yy_g9a_02",
+      "strength": "hard",
+      "reason": "宾语从句第二课：疑问词引导与陈述语序的巩固，叠加礼貌求助功能"
+    },
+    {
+      "topicId": "ct_yy_g9a_03",
+      "prerequisiteId": "ct_yy_g6a_01",
+      "strength": "soft",
+      "reason": "问路场景的礼貌升级版（直接问句改间接宾从）"
+    },
+    {
+      "topicId": "ct_yy_g9a_04",
+      "prerequisiteId": "ct_yy_g6b_05",
+      "strength": "hard",
+      "reason": "小学今昔对比（there was/now）的表达升级为 used to 结构"
+    },
+    {
+      "topicId": "ct_yy_g9a_05",
+      "prerequisiteId": "ct_yy_g7a_07",
+      "strength": "soft",
+      "reason": "可数不可数意识支撑 made of/in/from 的辨析"
+    },
+    {
+      "topicId": "ct_yy_g9a_06",
+      "prerequisiteId": "ct_yy_g9a_05",
+      "strength": "hard",
+      "reason": "被动语态第一课（现在时）之后学过去时被动并用于发明史"
+    },
+    {
+      "topicId": "ct_yy_g9a_06",
+      "prerequisiteId": "ct_yy_g7b_11",
+      "strength": "soft",
+      "reason": "过去时态知识支撑 was invented 的历史叙述"
+    },
+    {
+      "topicId": "ct_yy_g9a_07",
+      "prerequisiteId": "ct_yy_g9a_05",
+      "strength": "hard",
+      "reason": "在 be done 被动框架上叠加情态动词 should"
+    },
+    {
+      "topicId": "ct_yy_g9a_08",
+      "prerequisiteId": "ct_yy_g7b_01",
+      "strength": "soft",
+      "reason": "can 的能力用法延伸为推测用法（can't 不可能）"
+    },
+    {
+      "topicId": "ct_yy_g9a_09",
+      "prerequisiteId": "ct_yy_g8a_03",
+      "strength": "hard",
+      "reason": "句子加长的两条路径：比较级（更…）之后学定语从句（给名词挂修饰）"
+    },
+    {
+      "topicId": "ct_yy_g9a_10",
+      "prerequisiteId": "ct_yy_g4a_11",
+      "strength": "hard",
+      "reason": "中西饮食文化角的知识升级为 be supposed to 的礼仪表达系统"
+    },
+    {
+      "topicId": "ct_yy_g9a_11",
+      "prerequisiteId": "ct_yy_g6a_06",
+      "strength": "soft",
+      "reason": "情绪词汇库支撑 make sb + 情绪形容词的表达"
+    },
+    {
+      "topicId": "ct_yy_g9a_12",
+      "prerequisiteId": "ct_yy_g8b_08",
+      "strength": "hard",
+      "reason": "完成时助动词 have 的经验迁移到过去完成时 had，参照点移到过去"
+    },
+    {
+      "topicId": "ct_yy_g9a_12",
+      "prerequisiteId": "ct_yy_g8b_05",
+      "strength": "soft",
+      "reason": "过去进行时的「过去参照点」意识延伸为过去完成的「过去的过去」"
+    },
+    {
+      "topicId": "ct_yy_g9a_13",
+      "prerequisiteId": "ct_yy_g8b_11",
+      "strength": "hard",
+      "reason": "故事语篇阅读升级为时态综合的说明性语篇与猜词策略"
+    },
+    {
+      "topicId": "ct_yy_g9a_14",
+      "prerequisiteId": "ct_yy_g8b_12",
+      "strength": "hard",
+      "reason": "计划文与叙事文的写作经验合成为毕业回顾文（回忆-变化-展望）"
+    },
+    {
+      "topicId": "ct_yy_g9a_14",
+      "prerequisiteId": "ct_yy_g9a_04",
+      "strength": "hard",
+      "reason": "毕业回顾直接使用 used to 今昔对比结构"
+    },
+    {
+      "topicId": "ct_yy_g9a_15",
+      "prerequisiteId": "ct_yy_g8a_12",
+      "strength": "hard",
+      "reason": "主旨题训练之后进入推理判断与作者意图的深层阅读"
+    },
+    {
+      "topicId": "ct_yy_g9a_16",
+      "prerequisiteId": "ct_yy_g8b_14",
+      "strength": "hard",
+      "reason": "三态库与词汇管理升级为中考总复习的两张地图"
     }
   ]
 }

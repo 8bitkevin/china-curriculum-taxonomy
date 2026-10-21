@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.35.0",
+  "version": "1.36.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1172,
+  "topicCount": 1188,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -36264,6 +36264,503 @@
       },
       "prerequisites": [
         "ct_yy_g8a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "by + V-ing：谈方法",
+      "description": "掌握方法表达：How do you study for a test? — By working with friends. / I study by making word cards. by + 动名词答「怎么做」，是学习方法话题的万能句式——用英语讨论怎么学英语，本身就是元认知训练。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 by + V-ing 说出三种学习方法",
+        "What about...? / It's too hard to... 的搭配会用"
+      ],
+      "assessmentPrompt": "问{{name}}：How do you learn English? 请用 by 短语答三招；再考：How about ___ (watch) movies?",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 1 How can we become good learners?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "宾语从句一：that 与 if/whether",
+      "description": "掌握宾语从句第一课：I think that mooncakes are delicious. / I wonder if they'll have the races again. —— that 引陈述、if/whether 引一般疑问，从句一律陈述语序（不说 I think that are mooncakes delicious）。英语「转述想法」的引擎，中考必考句型。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "宾从语序填空 10 题对 8",
+        "能用 I think/I wonder 转述两句观点"
+      ],
+      "assessmentPrompt": "考{{name}}：I wonder ___ (does he like mooncakes). 怎么连成宾从？再让他用 I think that... 评价端午龙舟。",
+      "standards": [
+        "csenglish-2022:S4.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 2 I think that mooncakes are delicious!",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g7a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "宾语从句二：礼貌求助与特殊疑问引导",
+      "description": "掌握特殊疑问词引导的宾语从句与礼貌求助：Could you please tell me where the restrooms are?（不是 where are the restrooms）/ Do you know when the shop closes? + 疑问词 + to do 简化式（how to get there）。问路的礼貌升级版——直接问变间接问。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "特殊疑问宾从语序 10 题对 9",
+        "能用 Could you tell me...? 问两件事（地点+时间）"
+      ],
+      "assessmentPrompt": "让{{name}}把 Where is the bank? 和 When does it open? 改成礼貌宾从版问路；考语序错误选项辨析。",
+      "standards": [
+        "csenglish-2022:S4.GR.06",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 3 Could you please tell me where the restrooms are?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_01",
+        "ct_yy_g9a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "used to：今昔对比",
+      "description": "掌握 used to 结构：I used to be short. / She didn't use to wear glasses. / Did you use to play the piano? 与 be used to doing（习惯于）的辨析。「过去常常、现在不再」——成长话题的专属语法：三年初中，人变了吗？",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "used to 肯定否定疑问 10 题对 8",
+        "能就自己三年的变化说三句 used to"
+      ],
+      "assessmentPrompt": "请{{name}}对比初一和现在：I used to be shy, but now... 三句；考 used to 与 be used to 的选择填空。",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S3.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 4 I used to be afraid of the dark.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "被动语态一：一般现在时",
+      "description": "掌握一般现在时被动：be made of（看得见原料）/ be made in（产地）/ be grown、be produced——The shirts are made of cotton. Tea is produced in Anhui. 当「物」当主语——视角从「谁做」切换到「被做」，中文里没有的语态在英语里登场。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "主动改被动 10 题对 8",
+        "made of/in/from 三兄弟辨析清楚"
+      ],
+      "assessmentPrompt": "考{{name}}：People grow rice in the south. 改被动；指着木桌问 What's it made of? 铅笔 made in 哪里？",
+      "standards": [
+        "csenglish-2022:S4.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 5 What are the shirts made of?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "被动语态二：一般过去时与发明史",
+      "description": "掌握一般过去时被动 was/were + done：When was the telephone invented? — It was invented in 1876. / Who was it invented by? 结合发明史话题（茶叶、薯片、篮球的发明）——被动语态+过去时间，谈历史的标准装备。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "过去被动句式与 by 短语 10 题对 8",
+        "能讲述一项发明（发明人-时间-用途）三句"
+      ],
+      "assessmentPrompt": "请{{name}}用被动讲篮球的发明（was invented by... in...）；考：Edison invented the light bulb. 改被动。",
+      "standards": [
+        "csenglish-2022:S4.GR.03",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 6 When was it invented?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g7b_11",
+        "ct_yy_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "情态被动：should be allowed to",
+      "description": "掌握情态动词+被动：Teenagers should be allowed to choose their own clothes. / shouldn't be allowed to... 用于谈家规校规与表达立场（I agree/don't agree.）。规则讨论的高级语法——用「应不应该被允许」为自主权谈判。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "情态被动句式 10 题对 8",
+        "能就三条家规用情态被动表态并说理由"
+      ],
+      "assessmentPrompt": "议题：学生该被允许带手机吗？请{{name}}用 Students should/shouldn't be allowed to... 表态并说两条理由。",
+      "standards": [
+        "csenglish-2022:S4.GR.03",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 7 Teenagers should be allowed to choose their own clothes.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "情态推测：must、might、can't",
+      "description": "掌握推测梯度：must（一定，90%+）→ might/could（可能）→ can't（不可能）：The book must belong to Carla. / He can't be at home—he's on TV! 推理的语言——侦探式英语，完形与单选的常客。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "三档推测选词 10 题对 9",
+        "能对三个谜题场景做出推测并说依据"
+      ],
+      "assessmentPrompt": "出三谜：地上湿的（下过雨？）、教室灯亮着（有人？）、他昨天在国外的新闻里（在家吗？），看{{name}}选 must/might/can't 并说理由。",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S4.LS.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 8 It must belong to Carla.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "定语从句：that 与 who",
+      "description": "掌握限制性定语从句：I like music that I can dance to. / He's the man who saved the kid. —— 先行词是人用 who、物用 that，从句作「贴身形容词」。中考语法的压轴戏：一句话挂两层信息，英语的精密齿轮。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "关系词填空 10 题对 8",
+        "能用 that/who 各描述喜欢的音乐和敬佩的人"
+      ],
+      "assessmentPrompt": "请{{name}}完成：I like singers who ___. / I love movies that ___. 各两句；考 which/who/that 选用。",
+      "standards": [
+        "csenglish-2022:S4.GR.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 9 I like music that I can dance to.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_10",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化礼仪：be supposed to",
+      "description": "掌握礼仪表达：You're supposed to shake hands. / You're not supposed to eat with your hands. 结合各国见面礼与餐桌礼仪（ Colombia 约会文化、日本鞠躬）——文化差异意识+得体行为建议，出国语境的必修课。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 be supposed to 说五条礼仪",
+        "能比较两国餐桌礼仪差异"
+      ],
+      "assessmentPrompt": "情境：去日本朋友家做客，请{{name}}用 You're (not) supposed to... 提醒三条礼仪（脱鞋/鞠躬/筷子）。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 10 You're supposed to shake hands.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "make 复合结构：make me cry",
+      "description": "掌握 make 的复合宾语：Sad movies make me cry.（make sb do）与 Waiting makes me nervous.（make sb + 形容词）——谈「什么让你怎样」，情绪因果的表达利器；注意 make 后动词省 to（被动式须还原 to）。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "make sb do / make sb adj 各造两句",
+        "被动 be made to do 的还原会变"
+      ],
+      "assessmentPrompt": "问{{name}}：What makes you happy/nervous? 各两句；考被动陷阱：He was made ___ (work) all day.",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 11 Sad movies make me cry.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_12",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "过去完成时：had done",
+      "description": "掌握过去完成时：By the time I got up, my brother had already gone into the bathroom. / The movie had started when we arrived. ——「过去的过去」：以过去某点为参照，更早发生的事。时态家族的收官成员：叙述「我到时已经……」的迟一步故事。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "过去完成时填空 10 题对 8",
+        "能讲一个「迟到的早晨」三句（by the time + had done）"
+      ],
+      "assessmentPrompt": "请{{name}}讲「最崩溃的早晨」：By the time I got to the station, the bus ___. 三连；考过去完成与一般过去的先后判断。",
+      "standards": [
+        "csenglish-2022:S4.GR.01",
+        "csenglish-2022:S4.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 12 Life is full of the unexpected.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8b_05",
+        "ct_yy_g8b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_13",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：环保语篇与时态综合",
+      "description": "读环保话题语篇（manatees 濒危、river pollution、recycle）：一篇文章里八种时态同台——训练「以时态读出时间线」的语篇意识；加上猜词策略（构词+上下文）。阅读的语法化理解：时态即时间轴。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能在语篇中标注各句时态并画时间线",
+        "能猜出两个生词词义并说明依据"
+      ],
+      "assessmentPrompt": "给{{name}}一篇环保短文：①用不同颜色标出过去/现在/将来的句子 ②猜 endangered、recycle 的意思并说线索。",
+      "standards": [
+        "csenglish-2022:S4.RD.01",
+        "csenglish-2022:S4.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 13 We're trying to save the manatees!",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_14",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：毕业回顾 I remember...",
+      "description": "写初中回顾文（80–100 词）：I remember starting day one... / I used to be..., but now... / Looking ahead, I will... 三段式（回忆-成长-展望），综合 used to、will、完成时——初中英语写作的毕业答卷。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "三段结构完整、时态切换正确",
+        "用上 used to 与 I remember + V-ing"
+      ],
+      "assessmentPrompt": "请{{name}}写 Looking back at my junior high：回忆段（I remember...）、变化段（used to...but now）、展望段（I will...）；检查三段时态。",
+      "standards": [
+        "csenglish-2022:S4.WR.02",
+        "csenglish-2022:S4.WR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "Unit 14 I remember meeting all of you in Grade 7.",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8b_12",
+        "ct_yy_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_15",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "中考阅读：推理判断与作者意图",
+      "description": "初中阅读最高阶题型：推理判断（What can we infer?）与作者意图（Why does the writer...?）——答案不在字面在字缝：抓 but/however 后的重心、例证的功能。从「读懂」到「读透」，阅读思维的毕业礼。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "推理题三题对两题以上",
+        "能说出「作者举这个例子是为了…」"
+      ],
+      "assessmentPrompt": "给{{name}}一篇带观点的短文：先做细节题，再做一道 infer 题；要求指出推理的原文依据句。",
+      "standards": [
+        "csenglish-2022:S4.RD.02",
+        "csenglish-2022:S4.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "各单元阅读与中考题型",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g9a_16",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "初中英语总复习：词汇与语法地图",
+      "description": "九年级词汇收官约 1600（课标）：总复习建立两张地图——①语法地图（八时态两语态三从句，各配标志句）②词汇地图（24 话题群 + 构词法）。中考一轮复习的总纲：把三年的珠子串成项链。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能默写八时态两语态的标志句",
+        "词汇量自测达 1500 以上"
+      ],
+      "assessmentPrompt": "请{{name}}做「英语初中毕业地图」：一张时态句型总表（8 时态各一句）+ 24 话题群词汇抽查，薄弱圈红。",
+      "standards": [
+        "csenglish-2022:S4.VB.01",
+        "csenglish-2022:S4.GR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "全册与总复习",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g8b_14"
       ]
     }
   ]
