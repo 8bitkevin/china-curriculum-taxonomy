@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.70.0",
+  "version": "1.71.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2173,
+  "edgeCount": 2187,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -13041,6 +13041,90 @@
       "prerequisiteId": "ct_zz_g2a_01",
       "strength": "hard",
       "reason": "诚信品格在集体交往的情境中落地"
+    },
+    {
+      "topicId": "ct_zz_g3a_01",
+      "prerequisiteId": "ct_zz_g2a_02",
+      "strength": "hard",
+      "reason": "中段安全自护扩展低段的居家出行安全"
+    },
+    {
+      "topicId": "ct_zz_g3a_02",
+      "prerequisiteId": "ct_zz_g1a_03",
+      "strength": "hard",
+      "reason": "新年习俗的家庭体验扩展为传统节日与国家象征的系统认识"
+    },
+    {
+      "topicId": "ct_zz_g3b_01",
+      "prerequisiteId": "ct_zz_g2a_01",
+      "strength": "hard",
+      "reason": "同伴交往深化集体生活的友爱主题"
+    },
+    {
+      "topicId": "ct_zz_g3b_02",
+      "prerequisiteId": "ct_zz_g1b_02",
+      "strength": "hard",
+      "reason": "家庭责任深化我爱我家的亲情主题"
+    },
+    {
+      "topicId": "ct_zz_g4a_01",
+      "prerequisiteId": "ct_zz_g2a_01",
+      "strength": "hard",
+      "reason": "规则意识从班级公约扩展到社会规则与法律"
+    },
+    {
+      "topicId": "ct_zz_g4a_02",
+      "prerequisiteId": "ct_zz_g2b_01",
+      "strength": "hard",
+      "reason": "家乡认识从社区扩展到国家层面"
+    },
+    {
+      "topicId": "ct_zz_g4b_01",
+      "prerequisiteId": "ct_zz_g3a_01",
+      "strength": "soft",
+      "reason": "网络安全并入中段安全教育的版图"
+    },
+    {
+      "topicId": "ct_zz_g5a_01",
+      "prerequisiteId": "ct_zz_g4a_02",
+      "strength": "hard",
+      "reason": "国家认识从行政区划深化到国土与民族"
+    },
+    {
+      "topicId": "ct_zz_g5a_02",
+      "prerequisiteId": "ct_zz_g3a_02",
+      "strength": "hard",
+      "reason": "革命传统与传统文化主题在五年级系统化"
+    },
+    {
+      "topicId": "ct_zz_g5b_01",
+      "prerequisiteId": "ct_zz_g5a_01",
+      "strength": "soft",
+      "reason": "科技强国是国情教育的当代篇章"
+    },
+    {
+      "topicId": "ct_zz_g6a_01",
+      "prerequisiteId": "ct_zz_g4a_01",
+      "strength": "hard",
+      "reason": "宪法学习是规则与法律初识的顶点"
+    },
+    {
+      "topicId": "ct_zz_g6a_02",
+      "prerequisiteId": "ct_zz_g6a_01",
+      "strength": "hard",
+      "reason": "权利义务由宪法规定——先宪法后公民"
+    },
+    {
+      "topicId": "ct_zz_g6b_01",
+      "prerequisiteId": "ct_zz_g5b_01",
+      "strength": "soft",
+      "reason": "从国情到全球视野的自然延伸"
+    },
+    {
+      "topicId": "ct_zz_g6b_02",
+      "prerequisiteId": "ct_zz_g6b_01",
+      "strength": "hard",
+      "reason": "毕业整理覆盖包括国际主题在内的六大主题"
     }
   ]
 }

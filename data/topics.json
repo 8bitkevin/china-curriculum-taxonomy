@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.70.0",
+  "version": "1.71.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1557,
+  "topicCount": 1571,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -48191,6 +48191,431 @@
       },
       "prerequisites": [
         "ct_zz_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g3a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "安全自护升级：从家庭到社会",
+      "description": "中段安全清单：火警 119、急救 120、报警 110 的正确拨打；防溺水（六不）与独自在家指南。安全能力从「知道」到「会做」——情景演练式学习。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能模拟正确拨打急救电话说清三要素",
+        "能背出防溺水「六不」"
+      ],
+      "assessmentPrompt": "演一演：发现有人溺水该怎么办（不下水、呼救、找漂浮物）？请{{name}}模拟打 120 报清地点与情况。",
+      "standards": [
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "安全护我成长单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g2a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g3a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "传统节日与家国情怀",
+      "description": "中秋团圆、清明缅怀、端午爱国——节日的文化密码；国旗国徽国歌的尊重礼仪。文化认同的种子课——过节不只是吃，更是记住我们是谁。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出三个传统节日及其含义",
+        "能演示升旗时的正确礼仪"
+      ],
+      "assessmentPrompt": "问{{name}}：端午节纪念谁、他为什么值得纪念？升国旗时应该怎么做？中秋为什么吃月饼？",
+      "standards": [
+        "csmorality-2022:S3.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "家国情怀单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g1a_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g3b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "同伴交往：友爱与包容",
+      "description": "交朋友的方法（真诚、分享、守信）；处理矛盾（换位思考、原谅）；拒绝欺凌（不做旁观者）。社会性发展关键期——友谊是童年最重要的功课之一。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出交朋友的三条秘诀",
+        "能演示化解一次同学矛盾的对话"
+      ],
+      "assessmentPrompt": "问{{name}}：看到同学被起外号很难过，你可以做什么？好朋友答应保守的秘密如果涉及安全还保守吗？",
+      "standards": [
+        "csmorality-2022:S3.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "同伴交往单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g3b_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "家庭小主人：责任与感恩",
+      "description": "我为家庭出份力（承担固定家务）；父母工作不容易（职业体验）；感恩表达。从被照顾到照顾者——家庭角色的第一次转换。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能坚持两周承担一项家务",
+        "能说出父母职业的辛劳之处"
+      ],
+      "assessmentPrompt": "给{{name}}设一个「家庭岗位」（如垃圾分类员）试运行两周；采访爸妈「工作最难的一件事」。",
+      "standards": [
+        "csmorality-2022:S3.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "家庭责任单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g1b_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g4a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "规则与法律初识",
+      "description": "生活处处有规则（游戏规则、交通规则、校规）；规则与法律的关系（法律是特殊的规则——由国家制定、人人必须遵守）；生活中的法律影子（消费者权益、未成年人保护法初识）。法治启蒙第一课——从「要遵守」到「为什么」。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能区分规则与法律的两点不同",
+        "能说出两部保护自己的法律名称"
+      ],
+      "assessmentPrompt": "问{{name}}：班规和法律谁更「大」？买到过期食品可以怎么办？为什么说法律面前人人平等？",
+      "standards": [
+        "csmorality-2022:S3.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "规则与法律单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g4a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "我们的家乡与国家",
+      "description": "家乡的变化（交通、环境的今昔对比）；我们的国家（行政区划、民族团结）。国情启蒙——从家乡看中国，为祖国自豪的地理与人文基础。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能举家乡变化的两例并分析原因",
+        "能说出我国有几个自治区及民族政策"
+      ],
+      "assessmentPrompt": "问{{name}}：爷爷奶奶小时候的家乡和现在有什么不同？我国有多少个民族？为什么说各民族是一家人？",
+      "standards": [
+        "csmorality-2022:S4.TR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "家乡与国家单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g2b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g4b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "网络安全与媒介素养",
+      "description": "网络是双刃剑（学习的宝库与陷阱）；个人信息保护、防网络诈骗、绿色上网约定；辨别网络信息真伪。数字时代的必修课——做网络的小主人不做俘虏。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能识别两类网络诈骗话术",
+        "能与家庭订立上网公约"
+      ],
+      "assessmentPrompt": "问{{name}}：网友说发红包先交手续费，信吗？收到「你中奖了」的链接点不点？和{{name}}定三条上网公约。",
+      "standards": [
+        "csmorality-2022:S2.LH.01",
+        "csmorality-2022:S3.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "网络生活单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g5a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "我们神圣的国土与民族团结",
+      "description": "辽阔的国土（面积、邻国、台湾是不可分割的一部分）；各民族一家亲（平等团结互助和谐——对口支援、脱贫攻坚中的民族情谊）。国情教育的基石——脚下这片土地的基本事实与情感认同。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出我国陆地面积与位置特点",
+        "能举民族互助的实例"
+      ],
+      "assessmentPrompt": "问{{name}}：我国陆地面积多大、居世界第几？为什么台湾是中国领土不可分割的一部分？",
+      "standards": [
+        "csmorality-2022:S4.TR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "我们的国土单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g5a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "革命先辈的故事",
+      "description": "长征故事（半条被子、金色的鱼钩）；抗战英雄（杨靖宇、赵一曼）；井冈山与延安精神。革命传统教育——幸福生活从哪里来的历史答案。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能讲述一个革命故事并说出精神内涵",
+        "能说出两个抗战英雄事迹"
+      ],
+      "assessmentPrompt": "请{{name}}讲「半条被子」的故事：三位女红军为什么剪半条被子留下？长征精神对你有什么启发？",
+      "standards": [
+        "csmorality-2022:S3.TR.01",
+        "csmorality-2022:S4.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "革命传统单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g3a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g5b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "科技强国与创新精神",
+      "description": "从四大发明到北斗高铁 5G——中华创新之路；科学家精神（钱学森、袁隆平、屠呦呦）；建设科技强国的使命。创新启蒙——今天的小发明家是明天的大国工匠。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出三位科学家及成就",
+        "能完成一项小改进小发明设计"
+      ],
+      "assessmentPrompt": "问{{name}}：袁隆平的杂交水稻解决了什么问题？你身边有什么可以改进的小发明点子？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "科技与创新单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g6a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "宪法是根本法",
+      "description": "宪法的地位（国家根本法——规定根本制度与公民基本权利义务，具有最高法律效力）；国家宪法日（12 月 4 日）与宪法宣誓。小学法治教育的顶点——一切法律的「母亲」。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说明宪法与普通法律的地位差异",
+        "能说出公民的基本权利与义务各两项"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说宪法是「法律中的法律」？我们受教育的权利和纳税的义务都写在什么法律里？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "宪法单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g4a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g6a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "公民的权利与义务",
+      "description": "公民基本权利（人身自由、受教育、财产）与义务（遵守宪法法律、维护祖国统一、依法纳税）；权利义务的一致性（享权利尽义务）。法治社会的公民启蒙——权利不是免费的午餐。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能匹配四组权利与义务",
+        "能辨析「只享受权利不尽义务」的错在哪"
+      ],
+      "assessmentPrompt": "问{{name}}：接受义务教育是你的权利还是义务（都是）？爸爸妈妈纳税是什么义务？被欺负了可以用什么权利保护自己？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "公民单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g6a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g6b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "地球村与国际理解",
+      "description": "经济全球化（一件商品的世界之旅）；国际组织（联合国 WTO）；和平发展与合作共赢；人类命运共同体理念。国际视野启蒙——小学道法的最后一扇窗望向世界。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说明一件商品全球协作的例子",
+        "能说出联合国的两大作用"
+      ],
+      "assessmentPrompt": "问{{name}}：你穿的球鞋可能经过几个国家的手？人类命运共同体是什么意思？中国在国际上扮演什么角色？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "让世界更美好单元",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g6b_02",
+      "type": "META",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "小学道法毕业整理：我的成长档案",
+      "description": "毕业整理：六大主题（道德、安全健康、传统文化、法治、国情、国际）的成长自评；给初中的自己写一句目标。品德养成不是背知识点——整理六年的价值观底片。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能按六大主题各举自己的一件事例",
+        "有一句写给初中的自我期待"
+      ],
+      "assessmentPrompt": "请{{name}}做「成长六格漫画」：每个主题画一件自己的事；最后给初中的自己写一句话。",
+      "standards": [
+        "csmorality-2022:S4.MR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "毕业整理",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g6b_01"
       ]
     }
   ]
