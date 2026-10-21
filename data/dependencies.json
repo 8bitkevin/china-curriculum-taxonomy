@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 268,
+  "edgeCount": 322,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -1611,6 +1611,330 @@
       "prerequisiteId": "ct_g2b_17",
       "strength": "soft",
       "reason": "优化安排中的推理（同时做互不影响）延续简单推理经验"
+    },
+    {
+      "topicId": "ct_g4b_01",
+      "prerequisiteId": "ct_g1a_10",
+      "strength": "soft",
+      "reason": "一年级加减法中「去掉一部分求另一部分」的经验是理解加减互逆的种子"
+    },
+    {
+      "topicId": "ct_g4b_01",
+      "prerequisiteId": "ct_g2a_08",
+      "strength": "hard",
+      "reason": "加减混合笔算的熟练运算为抽象「各部分关系」提供操作素材"
+    },
+    {
+      "topicId": "ct_g4b_02",
+      "prerequisiteId": "ct_g4b_01",
+      "strength": "hard",
+      "reason": "乘除关系与加减关系对照呈现（都是互逆），先立加减小样板"
+    },
+    {
+      "topicId": "ct_g4b_02",
+      "prerequisiteId": "ct_g2b_08",
+      "strength": "hard",
+      "reason": "份总关系的乘除问题经验是理解乘除互逆的现实依托"
+    },
+    {
+      "topicId": "ct_g4b_03",
+      "prerequisiteId": "ct_g4b_02",
+      "strength": "hard",
+      "reason": "四则意义明确后才能规定完整的运算顺序体系"
+    },
+    {
+      "topicId": "ct_g4b_03",
+      "prerequisiteId": "ct_g2b_09",
+      "strength": "hard",
+      "reason": "二年级已学两级运算顺序与小括号，此处扩展到三级括号并系统化"
+    },
+    {
+      "topicId": "ct_g4b_04",
+      "prerequisiteId": "ct_g4b_03",
+      "strength": "hard",
+      "reason": "方案比较需要列出并计算多步算式，运算顺序是前提"
+    },
+    {
+      "topicId": "ct_g4b_04",
+      "prerequisiteId": "ct_g4a_27",
+      "strength": "hard",
+      "reason": "上册租船问题中进一法与方案意识直接延伸到最优化比较"
+    },
+    {
+      "topicId": "ct_g4b_05",
+      "prerequisiteId": "ct_g2a_16",
+      "strength": "hard",
+      "reason": "二年级从三个方向观察单个物体的经验扩展到组合体与画三视图"
+    },
+    {
+      "topicId": "ct_g4b_05",
+      "prerequisiteId": "ct_g3a_10",
+      "strength": "soft",
+      "reason": "列表整理信息的方法用于记录三个方向的观察结果"
+    },
+    {
+      "topicId": "ct_g4b_06",
+      "prerequisiteId": "ct_g4b_01",
+      "strength": "hard",
+      "reason": "运算律研究的是加法结构本身，加减意义与关系是讨论的起点"
+    },
+    {
+      "topicId": "ct_g4b_07",
+      "prerequisiteId": "ct_g4b_06",
+      "strength": "hard",
+      "reason": "乘法两律与加法两律完全平行，对照迁移学习"
+    },
+    {
+      "topicId": "ct_g4b_07",
+      "prerequisiteId": "ct_g2a_12",
+      "strength": "soft",
+      "reason": "乘法是相同加数连加的含义支撑交换律的直观理解"
+    },
+    {
+      "topicId": "ct_g4b_08",
+      "prerequisiteId": "ct_g4b_07",
+      "strength": "hard",
+      "reason": "分配律结构更复杂，在其余定律建立后学习并辨析差异"
+    },
+    {
+      "topicId": "ct_g4b_09",
+      "prerequisiteId": "ct_g4b_08",
+      "strength": "hard",
+      "reason": "连减连除性质与分配律同属运算律体系的应用拓展"
+    },
+    {
+      "topicId": "ct_g4b_09",
+      "prerequisiteId": "ct_g3a_23",
+      "strength": "soft",
+      "reason": "归总问题中总量分步取走的经验帮助理解 a-b-c=a-(b+c)"
+    },
+    {
+      "topicId": "ct_g4b_10",
+      "prerequisiteId": "ct_g4b_09",
+      "strength": "hard",
+      "reason": "综合简算是全部运算律与性质的组合运用"
+    },
+    {
+      "topicId": "ct_g4b_10",
+      "prerequisiteId": "ct_g4a_15",
+      "strength": "soft",
+      "reason": "积的变化规律为 ×99、×101 类变形提供另一种解释路径"
+    },
+    {
+      "topicId": "ct_g4b_11",
+      "prerequisiteId": "ct_g3b_22",
+      "strength": "hard",
+      "reason": "一位小数的初步认识（十分之几）扩展到两位三位小数的系统意义"
+    },
+    {
+      "topicId": "ct_g4b_11",
+      "prerequisiteId": "ct_g3b_17",
+      "strength": "soft",
+      "reason": "面积单位进率（10×10=100）的十进制经验帮助理解 0.1 与 0.01 的进率"
+    },
+    {
+      "topicId": "ct_g4b_12",
+      "prerequisiteId": "ct_g4b_11",
+      "strength": "hard",
+      "reason": "数位顺序表是小数意义的位值化表达"
+    },
+    {
+      "topicId": "ct_g4b_13",
+      "prerequisiteId": "ct_g4b_12",
+      "strength": "hard",
+      "reason": "性质的解释依赖数位与计数单位（3 个 0.1 = 30 个 0.01）"
+    },
+    {
+      "topicId": "ct_g4b_14",
+      "prerequisiteId": "ct_g4b_13",
+      "strength": "hard",
+      "reason": "比大小常需先按性质补 0 对齐位数再逐位比较"
+    },
+    {
+      "topicId": "ct_g4b_15",
+      "prerequisiteId": "ct_g4b_13",
+      "strength": "hard",
+      "reason": "小数点移动后大小不变的位数分析依赖性质与计数单位理解"
+    },
+    {
+      "topicId": "ct_g4b_15",
+      "prerequisiteId": "ct_g4a_15",
+      "strength": "soft",
+      "reason": "积的变化规律（乘 10 扩大 10 倍）与移位规律思想相通"
+    },
+    {
+      "topicId": "ct_g4b_16",
+      "prerequisiteId": "ct_g4b_15",
+      "strength": "hard",
+      "reason": "单位换算的操作本质是乘除进率后移动小数点"
+    },
+    {
+      "topicId": "ct_g4b_16",
+      "prerequisiteId": "ct_g3b_17",
+      "strength": "hard",
+      "reason": "换算需要记牢单位进率（米与厘米 100、千克与克 1000）"
+    },
+    {
+      "topicId": "ct_g4b_17",
+      "prerequisiteId": "ct_g4b_15",
+      "strength": "hard",
+      "reason": "近似数取位后常需移动/处理小数位，意义与移位规律交织"
+    },
+    {
+      "topicId": "ct_g4b_17",
+      "prerequisiteId": "ct_g4a_04",
+      "strength": "hard",
+      "reason": "整数四舍五入求近似数的方法直接迁移到小数"
+    },
+    {
+      "topicId": "ct_g4b_18",
+      "prerequisiteId": "ct_g4b_17",
+      "strength": "hard",
+      "reason": "改写与近似在整数中成对学过，小数里延续这一对概念"
+    },
+    {
+      "topicId": "ct_g4b_18",
+      "prerequisiteId": "ct_g4a_03",
+      "strength": "soft",
+      "reason": "整数改写成万作单位的经验平移到小数表示"
+    },
+    {
+      "topicId": "ct_g4b_19",
+      "prerequisiteId": "ct_g4a_19",
+      "strength": "hard",
+      "reason": "画三角形的底边高就是画垂线段，垂线画法是操作前提"
+    },
+    {
+      "topicId": "ct_g4b_19",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "soft",
+      "reason": "一年级的三角形直观辨认是特征刻画的原点"
+    },
+    {
+      "topicId": "ct_g4b_20",
+      "prerequisiteId": "ct_g4b_19",
+      "strength": "hard",
+      "reason": "分类以特征认识为前提，分类标准来自边与角"
+    },
+    {
+      "topicId": "ct_g4b_20",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "soft",
+      "reason": "按角分类要熟练辨认锐角直角钝角"
+    },
+    {
+      "topicId": "ct_g4b_21",
+      "prerequisiteId": "ct_g4b_20",
+      "strength": "hard",
+      "reason": "内角和的探究（量、拼各角）以角分类的经验为基础"
+    },
+    {
+      "topicId": "ct_g4b_21",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "hard",
+      "reason": "拼成平角 180° 的验证直接使用角的分类与平角概念"
+    },
+    {
+      "topicId": "ct_g4b_22",
+      "prerequisiteId": "ct_g4b_19",
+      "strength": "hard",
+      "reason": "三边关系讨论的是边的特征，在整体特征认识后展开"
+    },
+    {
+      "topicId": "ct_g4b_23",
+      "prerequisiteId": "ct_g4b_21",
+      "strength": "hard",
+      "reason": "多边形内角和靠分割成三角形，三角形内角和是基石"
+    },
+    {
+      "topicId": "ct_g4b_24",
+      "prerequisiteId": "ct_g4b_14",
+      "strength": "hard",
+      "reason": "加减计算中对齐与比较中认位一脉相承，先会认位再算"
+    },
+    {
+      "topicId": "ct_g4b_24",
+      "prerequisiteId": "ct_g3b_24",
+      "strength": "hard",
+      "reason": "一位小数加减的位值经验（角对角）扩展到任意位数"
+    },
+    {
+      "topicId": "ct_g4b_24",
+      "prerequisiteId": "ct_g4b_12",
+      "strength": "hard",
+      "reason": "数位顺序表是「小数点对齐=数位对齐」的依据"
+    },
+    {
+      "topicId": "ct_g4b_25",
+      "prerequisiteId": "ct_g4b_24",
+      "strength": "hard",
+      "reason": "混合运算由单步计算组合而成"
+    },
+    {
+      "topicId": "ct_g4b_25",
+      "prerequisiteId": "ct_g4b_09",
+      "strength": "soft",
+      "reason": "整数的连减性质等直接迁移用于小数简算"
+    },
+    {
+      "topicId": "ct_g4b_26",
+      "prerequisiteId": "ct_g4b_25",
+      "strength": "hard",
+      "reason": "实际问题是混合运算与简算的综合应用场景"
+    },
+    {
+      "topicId": "ct_g4b_27",
+      "prerequisiteId": "ct_g2b_05",
+      "strength": "hard",
+      "reason": "二年级轴对称图形的直观认识升级为对称轴刻画与作图"
+    },
+    {
+      "topicId": "ct_g4b_28",
+      "prerequisiteId": "ct_g2b_06",
+      "strength": "hard",
+      "reason": "二年级平移的直观辨认升级为方格纸上定量平移作图"
+    },
+    {
+      "topicId": "ct_g4b_28",
+      "prerequisiteId": "ct_g4b_27",
+      "strength": "soft",
+      "reason": "轴对称与平移同属图形运动，作图步骤（找关键点）相互迁移"
+    },
+    {
+      "topicId": "ct_g4b_29",
+      "prerequisiteId": "ct_g4a_29",
+      "strength": "hard",
+      "reason": "平均数问题常以条形统计图为数据载体，图表解读是前提"
+    },
+    {
+      "topicId": "ct_g4b_29",
+      "prerequisiteId": "ct_g3b_09",
+      "strength": "soft",
+      "reason": "复式统计表的数据整理经验是计算平均数的数据来源"
+    },
+    {
+      "topicId": "ct_g4b_30",
+      "prerequisiteId": "ct_g4a_29",
+      "strength": "hard",
+      "reason": "复式条形图由两幅单式条形图合并而来"
+    },
+    {
+      "topicId": "ct_g4b_30",
+      "prerequisiteId": "ct_g3b_09",
+      "strength": "soft",
+      "reason": "复式数据结构（分性别等）沿用复式统计表经验"
+    },
+    {
+      "topicId": "ct_g4b_31",
+      "prerequisiteId": "ct_g3a_10",
+      "strength": "soft",
+      "reason": "列表枚举法沿用三年级列表整理策略"
+    },
+    {
+      "topicId": "ct_g4b_31",
+      "prerequisiteId": "ct_g4b_02",
+      "strength": "hard",
+      "reason": "假设法里腿数的还原依赖乘除各部分关系（如多 10 条腿对应 5 只兔）"
     }
   ]
 }

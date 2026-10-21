@@ -17,7 +17,7 @@
       "year": 2022,
       "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
       "textIncluded": false,
-      "topicCount": 125,
+      "topicCount": 126,
       "topics": [
         {
           "key": "csmath-2022:S1.NA.NO.01",
@@ -893,6 +893,13 @@
           "stage": 2,
           "domain": "数与代数",
           "title": "分数的初步认识（几分之一与几分之几、同分母比大小、简单加减）"
+        },
+        {
+          "key": "csmath-2022:S2.GS.MT.03",
+          "code": "S2.GS.MT.03",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "图形的轴对称与平移（方格纸上认识对称轴、补全图形、平移作图）"
         }
       ]
     },

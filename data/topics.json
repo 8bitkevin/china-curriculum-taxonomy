@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.5.0",
+  "version": "0.6.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 173,
+  "topicCount": 204,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -5312,6 +5312,959 @@
       "prerequisites": [
         "ct_g2b_17",
         "ct_g3b_21"
+      ]
+    },
+    {
+      "id": "ct_g4b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加减法的意义与各部分关系",
+      "description": "把两个数合并成一个数的运算叫加法；已知和与一个加数求另一个加数是减法。和 = 加数 + 加数、和 - 加数 = 另一个加数——减法是加法的逆运算。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用自己的话说明加减法的互逆关系",
+        "能根据一个算式直接写出另两个算式（如由 35+47=82 写减法）"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么说减法是加法的逆运算？验算 82-47=35 可以怎么验？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1a_10",
+        "ct_g2a_08"
+      ]
+    },
+    {
+      "id": "ct_g4b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘除法的意义与各部分关系",
+      "description": "求几个相同加数的和用乘法；已知积与一个因数求另一个因数是除法。除法是乘法的逆运算——因数 × 因数 = 积，积 ÷ 一个因数 = 另一个因数。四则运算的关系网就此织成。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说明乘除互逆关系并根据乘法算式写出除法算式",
+        "知道有关 0 的运算规则（0 不能作除数）及理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么 0 不能作除数？根据 25×8=200 能写出哪些算式？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_08",
+        "ct_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_g4b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "四则混合运算顺序与中括号",
+      "description": "先乘除后加减，有小括号先算小括号，再有中括号 [ ] 更优先。括号像运算的「加塞卡」，层层嵌套也不乱——顺序规则一次讲透。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确计算含小括号、中括号的多步式题",
+        "能说清 96÷[（12+4）×2] 的运算顺序"
+      ],
+      "assessmentPrompt": "让{{name}}算 96÷[（12+4）×2]，先说顺序再动笔，看括号处理是否规范。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_09",
+        "ct_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_g4b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "租船租车问题（方案最优化）",
+      "description": "大船限坐 6 人租金 30 元，小船限坐 4 人租金 24 元，32 人怎么租最省钱？先算哪种船人均便宜，再尽量租便宜的、不留空位——列表比较找出最优方案。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能通过计算人均价格比较方案优劣",
+        "能用列表法枚举方案并选出最省钱的组合"
+      ],
+      "assessmentPrompt": "问{{name}}：「32 人租船，大船 30 元坐 6 人、小船 24 元坐 4 人，怎么租最省钱？空位越少越好是什么道理？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_27",
+        "ct_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_g4b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "观察物体（二）：从三个方向看立体图形",
+      "description": "用小正方体搭一个立体，从前面、上面、左面看，各能得到什么平面图形？看的方向不同，形状可能完全不同——空间想象力在这里正式起步。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确画出（或摆出）简单组合体三个方向的形状",
+        "能根据三个方向的形状还原立体（小正方体个数）"
+      ],
+      "assessmentPrompt": "用 4 个小正方体摆一个 L 形，让{{name}}画出从前面、上面、左面看到的图形。",
+      "standards": [
+        "csmath-2022:S2.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_16",
+        "ct_g3a_10"
+      ]
+    },
+    {
+      "id": "ct_g4b_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加法交换律与结合律",
+      "description": "交换两个加数，和不变（a+b=b+a）；先把前两个相加或先把后两个相加，和也不变。运算定律第一次有了字母表达式——从算术事实走向代数语言。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用字母表示两条加法定律并举例验证",
+        "能运用定律解释 27+54+46 的简便算法"
+      ],
+      "assessmentPrompt": "问{{name}}：「87+46+54 怎么算快？用了哪条运算律？用字母怎么表示？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_g4b_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法交换律与结合律",
+      "description": "交换因数积不变；先乘前两个或先乘后两个，积也不变。25×7×4 = 25×4×7 = 700——「凑整先算」从此有了定律撑腰。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用字母表示乘法交换律结合律",
+        "能选择合适路径简算（如 25×32=25×4×8）"
+      ],
+      "assessmentPrompt": "问{{name}}：「25×32 不列竖式怎么算？把 32 拆成 4×8 用了什么律？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_12",
+        "ct_g4b_06"
+      ]
+    },
+    {
+      "id": "ct_g4b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法分配律",
+      "description": "(a+b)×c = a×c + b×c：两个数的和乘一个数，等于分别乘再相加。买 3 套（上衣+裤子）等于分别买 3 件——分配律是最常用也最易错的一条定律。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用字母表示分配律并结合情境解释意义",
+        "能正反两个方向运用（102×45、36×99+36）"
+      ],
+      "assessmentPrompt": "问{{name}}：「102×45 怎么算快？36×99+36 为什么等于 36×100？各用了什么律？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_07"
+      ]
+    },
+    {
+      "id": "ct_g4b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "连减、连除的简便运算",
+      "description": "a-b-c = a-(b+c)：连续减去两个数，等于减去它们的和。一本书 234 页，第一天看 34 页、第二天看 66 页，还剩 234-34-66 = 234-100——又快又稳。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出连减性质的字母表达并举例验证",
+        "能判断哪些题目适合用性质简算、哪些不合适"
+      ],
+      "assessmentPrompt": "问{{name}}：「266-66-34 和 266-59-41 怎么算方便？a-b-c 还可以等于什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_23",
+        "ct_g4b_08"
+      ]
+    },
+    {
+      "id": "ct_g4b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "简便运算的综合运用",
+      "description": "看到 25 想 4、看到 125 想 8、看到 99 想 100-1……凑整是简算的灵魂，运算律是它的合法身份。见数拆数、见律变形，计算从此有了「兵法」。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能对常见结构（×99、×101、×5、×25）选择恰当变形",
+        "简算后能估算验证结果量级"
+      ],
+      "assessmentPrompt": "让{{name}}简便计算 125×88、76×98+152，说清每一步用了什么运算律。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_15",
+        "ct_g4b_09"
+      ]
+    },
+    {
+      "id": "ct_g4b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数的意义（0.1 与 0.01）",
+      "description": "把 1 平均分成 10 份，1 份是 1/10，也就是 0.1；分成 100 份，1 份是 0.01。分母是 10、100、1000 的分数都能写成小数——分数与小数在十进制处握手。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出 0.1、0.01、0.001 的计数单位及相邻进率 10",
+        "能把十分之几、百分之几写成小数并画图表示"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.07 里面有几个 0.01？10 个 0.1 是多少？0.1 和 0.01 谁大？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_17",
+        "ct_g3b_22"
+      ]
+    },
+    {
+      "id": "ct_g4b_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数的数位顺序表与读写",
+      "description": "小数点右边第一位是十分位、第二位是百分位……整数部分照旧。读小数：整数部分按整数读，小数部分依次读出每个数字。3.045 读作「三点零四五」。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出各数位名称及计数单位",
+        "能正确读写多位小数（含 0 的情形）"
+      ],
+      "assessmentPrompt": "让{{name}}读 40.507，问「两个 0 分别在什么数位？各表示什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_11"
+      ]
+    },
+    {
+      "id": "ct_g4b_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数的性质",
+      "description": "小数末尾添上 0 或去掉 0，小数大小不变：0.3 = 0.30。因为 3 个 0.1 就是 30 个 0.01。注意是「末尾」不是「中间」——0.3 ≠ 0.03。化简、改写从此有依据。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能运用性质化简小数或按指定位数改写",
+        "能判断 0.30 与 0.3、0.03 的关系并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.50 末尾的 0 能去掉吗？0.05 的 0 呢？为什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_12"
+      ]
+    },
+    {
+      "id": "ct_g4b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数的大小比较",
+      "description": "先比整数部分，整数部分相同依次比十分位、百分位……0.6 和 0.58：十分位 6>5，所以 0.6 大。从高位比起，和整数一个逻辑，位值思想全面接管。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确比较多个小数的大小并排序",
+        "能结合米尺、数轴说明比较的道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.6 和 0.58 谁大？三位小数一定比两位小数大吗？举例说明。」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_13"
+      ]
+    },
+    {
+      "id": "ct_g4b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数点移动引起小数大小变化的规律",
+      "description": "小数点向右移一位，数扩大到 10 倍；移两位扩大到 100 倍；向左移则缩小。0.01 米变 0.1 米再变 1 米——小数点是十进制世界里最有权力的一个点。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出移动方向、位数与扩大缩小倍数的关系",
+        "能用规律直接写出 3.5×10、3.5÷100 的结果"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.85 的小数点向右移两位变成多少？向左移一位呢？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_15",
+        "ct_g4b_13"
+      ]
+    },
+    {
+      "id": "ct_g4b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数与单位换算",
+      "description": "80 厘米 = 0.8 米：厘米到米除以进率 100，小数点向左移两位。名数改写统一用「乘/除进率 + 移动小数点」两步走，长度、质量、面积单位一通百通。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确进行单名数改写（含复名数如 1 米 3 厘米 = 1.03 米）",
+        "能说出换算依据（进率 + 小数点移动规律）"
+      ],
+      "assessmentPrompt": "问{{name}}：「1 千克 500 克 = 多少千克？4.07 米 = 多少米多少厘米？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_17",
+        "ct_g4b_15"
+      ]
+    },
+    {
+      "id": "ct_g4b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求小数的近似数",
+      "description": "保留一位小数看百分位：3.74 ≈ 3.7。方法还是四舍五入，对象换成了小数；「保留到哪位」就看到它的下一位。准确数与近似数的界限要分清。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能按指定位数求小数近似数",
+        "知道 3.0 和 3 表示的精确程度不同"
+      ],
+      "assessmentPrompt": "问{{name}}：「3.984 保留一位小数是多少？保留整数呢？近似数 4.0 末尾的 0 为什么不能去掉？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_04",
+        "ct_g4b_15"
+      ]
+    },
+    {
+      "id": "ct_g4b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "改写成用万、亿作单位的小数",
+      "description": "142800 = 14.28 万：找到万位，在右下角点小数点。大数改写（精确）与省略尾数（近似）是两兄弟：一个是换个写法，一个是丢了零头。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能将大数改写成万/亿作单位的小数",
+        "能区分改写与求近似数的不同表述（= 与 ≈）"
+      ],
+      "assessmentPrompt": "问{{name}}：「778330000 千米改写成亿千米是多少？约是几亿千米（保留一位小数）？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_03",
+        "ct_g4b_17"
+      ]
+    },
+    {
+      "id": "ct_g4b_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的特征、底和高",
+      "description": "三角形有三条边、三个角、三个顶顶，具有稳定性（塔吊、自行车架）。从顶点到对边的垂线段就是高——每个三角形都有三组底和高，作高就是画垂线。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出三角形的定义与稳定性并举例",
+        "能画出指定底边上的高（含钝角三角形的外高尝试）"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么篮球架要做成三角形？给这个三角形的高说说是哪条线段。」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_01",
+        "ct_g4a_19"
+      ]
+    },
+    {
+      "id": "ct_g4b_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的分类（按角、按边）",
+      "description": "按角分：锐角、直角、钝角三角形（任何三角形至少有两个锐角）。按边分：等腰、等边（等边是特殊的等腰）。给三角形「验明正身」是几何分类思想的演练。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能按角和边两种标准给三角形分类",
+        "能判断「等边三角形是锐角三角形」等命题"
+      ],
+      "assessmentPrompt": "给{{name}}一组三角形卡片，让{{name}}按角分堆再按边分堆，问「一个三角形能既是直角又是等腰吗？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_11",
+        "ct_g4b_19"
+      ]
+    },
+    {
+      "id": "ct_g4b_21",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的内角和是 180°",
+      "description": "把三个角撕下来拼在一起，正好拼成一个平角——任何三角形的内角和都是 180°，与形状大小无关。知道两个角就能求第三个角，这是几何里第一条「算角」的本领。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用拼角或度量验证内角和",
+        "已知两角能求第三角（含特殊角的快速计算）"
+      ],
+      "assessmentPrompt": "问{{name}}：「三角形两个角分别是 35° 和 65°，第三个角多少度？是什么三角形？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_11",
+        "ct_g4b_20"
+      ]
+    },
+    {
+      "id": "ct_g4b_22",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形三边的关系",
+      "description": "任意两边之和大于第三边，才能围成三角形：3、4、8 就围不起来（3+4<8）。判断三条线段能否搭成三角形，先算两个短边之和——快刀斩乱麻。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能判断给定线段能否围成三角形并说明理由",
+        "能运用两边之和/差的关系确定第三边范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「两根 3 厘米和 5 厘米的小棒，第三根几厘米才能围成三角形？8 厘米为什么不行？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_19"
+      ]
+    },
+    {
+      "id": "ct_g4b_23",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "多边形的内角和",
+      "description": "四边形内角和 360°、五边形 540°……从多边形一个顶点引对角线，切成 (n-2) 个三角形，内角和就是 (n-2)×180°。把新图形切成旧图形，是几何研究的万能招。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用分割法求四边形、五边形内角和",
+        "能发现并表述 n 边形内角和的规律"
+      ],
+      "assessmentPrompt": "问{{name}}：「五边形的内角和是多少度？你是怎么把五边形变成熟悉的图形的？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_21"
+      ]
+    },
+    {
+      "id": "ct_g4b_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数加减法（位数相同与不同）",
+      "description": "小数点对齐再加减：相同数位对齐，本质是「相同计数单位的数相加减」。位数不同可以补 0（12+0.5 = 12.0+0.5）。整数加减法的算理原封不动搬过来。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确计算小数加减法（小数点对齐、结果化简）",
+        "能解释「小数点对齐」与「数位对齐」的一致性"
+      ],
+      "assessmentPrompt": "让{{name}}算 12.16+5.74 和 8-2.57，问「得数末尾的 0 怎么处理？8 要先做什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_24",
+        "ct_g4b_12",
+        "ct_g4b_14"
+      ]
+    },
+    {
+      "id": "ct_g4b_25",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数加减混合运算与简算",
+      "description": "混合运算顺序与整数完全相同；整数的运算律对小数照样有效。8.68-(3.68+2.7) = 8.68-3.68-2.7 = 2.3——连减性质搬进小数世界，一步到位。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确计算小数加减混合运算",
+        "能用运算律和性质进行小数简算"
+      ],
+      "assessmentPrompt": "让{{name}}简算 8.68-(3.68+2.7)，说清用了整数里学过的哪条性质。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_09",
+        "ct_g4b_24"
+      ]
+    },
+    {
+      "id": "ct_g4b_26",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数加减的实际问题",
+      "description": "结账、找零、比价：总价连加连减、够不够的判断。用小数处理生活账单，是「数学有用」最直接的一课。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能解决多步购物问题并检验合理性",
+        "能读懂购物小票并核对金额"
+      ],
+      "assessmentPrompt": "问{{name}}：「买笔记本 6.8 元、笔 3.5 元，付 10 元够吗？差多少？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_25"
+      ]
+    },
+    {
+      "id": "ct_g4b_27",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "轴对称（再认识）：对称轴与补全图形",
+      "description": "对折后完全重合的图形是轴对称图形，折痕是对称轴。补全轴对称图形的方法：找关键点—数格距—点对称点—连线。对称是美的数学，也是精确的操作。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能画出轴对称图形的对称轴（有的不止一条）",
+        "能在方格纸上补全轴对称图形"
+      ],
+      "assessmentPrompt": "让{{name}}在方格纸上补全一只蝴蝶的另一半，问「怎么保证补得又准又对称？」",
+      "standards": [
+        "csmath-2022:S2.GS.MT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_05"
+      ]
+    },
+    {
+      "id": "ct_g4b_28",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平移（在方格纸上平移图形）",
+      "description": "图形沿直线移动：方向 + 距离，形状大小完全不变。平移图形的方法：选关键点—按要求移—连接。巧用平移还能求不规则图形的面积（割补的雏形）。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能在方格纸上按指定方向和格数平移图形",
+        "能用平移变换解决简单图形问题（如拼补面积）"
+      ],
+      "assessmentPrompt": "让{{name}}把一个小房子图形向右平移 6 格，问「怎么数格子才不会数错？图形变了没有？」",
+      "standards": [
+        "csmath-2022:S2.GS.MT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_06",
+        "ct_g4b_27"
+      ]
+    },
+    {
+      "id": "ct_g4b_29",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "平均数的意义与求法",
+      "description": "平均数 = 总数量 ÷ 总份数，也可以「移多补少」。它代表一组数据的整体水平：小明平均每次跳绳 88 下，不是每次都跳 88 下。平均数会「骗人」，要会看。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用两种方法求平均数",
+        "能结合实际解释平均数的意义（介于最大最小之间）"
+      ],
+      "assessmentPrompt": "问{{name}}：「四次跳绳 82、90、85、95，平均每次多少下？平均数比 95 大可能吗？」",
+      "standards": [
+        "csmath-2022:S2.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_09",
+        "ct_g4a_29"
+      ]
+    },
+    {
+      "id": "ct_g4b_30",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "复式条形统计图",
+      "description": "把两组数据画进同一张图（不同颜色/纹理的条并排），男女生的体重、城乡的收入——比较一目了然。图例是它的身份证，别忘了画。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能根据复式统计表完成复式条形统计图（含图例）",
+        "能从图中比较两组数据并回答问题"
+      ],
+      "assessmentPrompt": "让{{name}}把班里男女生最爱的运动画成复式条形统计图，问「哪项运动男女差距最大？」",
+      "standards": [
+        "csmath-2022:S2.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_09",
+        "ct_g4a_29"
+      ]
+    },
+    {
+      "id": "ct_g4b_31",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：鸡兔同笼（列表法与假设法）",
+      "description": "笼里鸡兔共 8 只、26 条腿，鸡兔各几只？列表枚举能找到答案；假设全是鸡，多出的腿每次换一只兔补 2 条——假设法是方程之前解这类题的神器。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用列表法有序枚举找到答案",
+        "能用假设法列式解答并说清算理"
+      ],
+      "assessmentPrompt": "问{{name}}：「假设 8 只全是鸡，腿有多少条？比 26 少的腿去哪了？」让{{name}}列式算出鸡兔各几只。",
+      "standards": [
+        "csmath-2022:S2.IP.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 9,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_10",
+        "ct_g4b_02"
       ]
     }
   ]
