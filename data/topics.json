@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.28.0",
+  "version": "1.29.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1079,
+  "topicCount": 1091,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -33376,6 +33376,379 @@
       },
       "prerequisites": [
         "ct_yy_g4b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "作息短语与频度副词：usually、often",
+      "description": "掌握作息动词短语（do morning exercises、eat breakfast、play sports、go to bed）和频度副词 usually/always/often/sometimes，能问 When do you get up? — I usually get up at 6:30. 频度副词放动词前——描述「一般什么时候」而不是「现在」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用 usually/often 各说两句作息",
+        "频度副词位置正确（不说 I get usually up）"
+      ],
+      "assessmentPrompt": "问{{name}}：When do you do homework? 要求用 usually/often 回答；再考频度排序 usually 和 sometimes 谁更常。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 1 My day",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "四季与 because 说理由",
+      "description": "掌握季节词与季节活动（spring—fly a kite、summer—swim、autumn—pick apples、winter—make a snowman）和问答 Which season do you like best? — Winter. Because I can play in the snow. because 从句第一次开口说——从答「什么」到答「为什么」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能完整说出最爱的季节+两条 because 理由",
+        "because 后动词形式正确（can + 原形 / like + V-ing）"
+      ],
+      "assessmentPrompt": "问{{name}}：Which season do you like best? 连问两次 Why? 要求第二个理由也用 Because... 句。",
+      "standards": [
+        "csenglish-2022:S3.GR.06",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 2 My favourite season",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "十二个月份与 in + 月份",
+      "description": "掌握 January 到 December 十二个月（注意 June/July、缩写 Jan./Feb.）和句型 When is the school trip? — It's in October. 月份大写、in + 月份——学校日历从此看得懂。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能按顺序背默 12 个月",
+        "能就三个节日/活动回答月份"
+      ],
+      "assessmentPrompt": "问{{name}}：When is Children's Day? / When is your birthday（月份）？再听写 January、February、August。",
+      "standards": [
+        "csenglish-2022:S3.VB.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 3 My school calendar",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "序数词与日期：on April 4th",
+      "description": "掌握序数词 1st–31st（first、second、third 特殊，twenty-first 复合）和日期问答 When is your birthday? — My birthday is on April 4th. 月份用 in、具体日期用 on——日期系统完整拼图。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能写出 1–31 的序数词（三处特殊无误）",
+        "能说出家人生日（on + 月 + 日）"
+      ],
+      "assessmentPrompt": "问{{name}}：When is your birthday? 要求用 on...th 完整回答；再考 twenty-first 怎么写、in May 与 on May 1st 的区别。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 4 When is Easter?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_08",
+        "ct_yy_g5b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "现在进行时：The dog is drinking water",
+      "description": "掌握现在进行时 be + V-ing（The dog is drinking water. The rabbits are jumping.），V-ing 变化规则（直接加/去 e 加/双写加）。描述「此刻正在发生」——时态家族第二位成员登场，与一般现在时的分工从此清晰。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能看图说五句进行时（is/are 选对）",
+        "running/swimming/making 三类变化无误"
+      ],
+      "assessmentPrompt": "和{{name}}看图互相问 What is he doing? 连问三图；再考拼写：run→?、make→?、swim→?。",
+      "standards": [
+        "csenglish-2022:S3.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 5 Whose dog is it?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_01",
+        "ct_yy_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "进行时疑问与物主代词：Are they...? Whose... is it? It's theirs.",
+      "description": "掌握进行时疑问 What are they doing? / Is he playing? 及简答，和名词性物主代词 mine、yours、his、hers、ours、theirs（The yellow picture is mine.）。问「在干嘛」+ 说「是谁的」——两个高频功能一次到位。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用进行时问答回合三轮",
+        "my/mine、your/yours 形容词性与名词性区分使用"
+      ],
+      "assessmentPrompt": "拿两件家人的东西问{{name}}：Whose is this? 引导答 It's mine / It's Dad's；再问 Are you reading? 看简答。",
+      "standards": [
+        "csenglish-2022:S3.GR.02",
+        "csenglish-2022:S3.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 5-6",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_05",
+        "ct_yy_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "祈使句与公共规则：Work quietly!",
+      "description": "掌握祈使句规则表达：Talk quietly! / Keep to the right. / Take turns. / Keep your desk clean. 图书馆、走廊、餐厅——公共场所的规则用英语说。祈使句动词原形开头，否定 Don't...。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说六条公共场所规则",
+        "会变否定 Don't run in the hallway."
+      ],
+      "assessmentPrompt": "玩「图书馆管理员」：{{name}}用英语维持秩序说三句规则（Talk quietly! No eating!），跑动时说 Don't run!",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 6 Work quietly!",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_08",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "辅音组合：ch/sh/th/wh/ng 的发音",
+      "description": "掌握辅音组合发音：ch（/tʃ/ chair）、sh（/ʃ/ fish）、th 双面（this 浊音/think 清音）、wh（when/who 的例外）、ng（sing 的鼻音）。拼读地图的最后几块大陆——新词见词能读率过九成。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能按组合读 20 个词",
+        "th 浊音/清音词能分组（this/think）"
+      ],
+      "assessmentPrompt": "写 lunch、shorts、third、white、long 请{{name}}读并说组合；考 th 双词 they/thank 对比。",
+      "standards": [
+        "csenglish-2022:S3.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "各单元 Let's spell",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "话题表达：四季介绍与生日日历",
+      "description": "综合口头任务：①做四季介绍（每季一句天气+一句活动）②做家庭生日日历汇报（My mum's birthday is on...）流利度训练——脱稿连说六句是新目标。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "四季介绍连贯六句",
+        "能报出三位家人的生日日期"
+      ],
+      "assessmentPrompt": "请{{name}}做「四季播报」卡（每季两个关键词）脱稿讲 40 秒；再做家庭生日日历播报。",
+      "standards": [
+        "csenglish-2022:S3.LS.01",
+        "csenglish-2022:S2.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 2/4 综合任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：说明性文本与规则标识",
+      "description": "读懂 Read and write 里的说明性文本（动物园规则、机器人说明）和标识（No swimming!）。非叙事文本的阅读——从故事扩展到「有用的信息」，这是功能性读写力的起点。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能读懂五条规则并回答可在哪做/不可做什么",
+        "能看标识说含义"
+      ],
+      "assessmentPrompt": "给{{name}}一张动物园规则卡（Keep safe. Don't feed the animals...），问：可以喂猴子吗？能在园内跑吗？",
+      "standards": [
+        "csenglish-2022:S3.RD.01",
+        "csenglish-2022:S4.RD.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "各单元 Read and write",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：My favourite season 五句成篇",
+      "description": "写 My favourite season：开头点题（I like... best.）+ 两句活动 + Because... 理由 + 结尾（What about you?）。五句成篇 + 首尾呼应——小学英语作文的标准模型成型。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "五句结构完整、because 用于说理",
+        "时态统一用一般现在时不混进行时"
+      ],
+      "assessmentPrompt": "请{{name}}写 My favourite season 五句：检查有没有点题句、because 句和结尾问句。",
+      "standards": [
+        "csenglish-2022:S3.WR.01",
+        "csenglish-2022:S3.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "Unit 2 写作任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_10",
+        "ct_yy_g5b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g5b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "五下词汇自查：累计约 430 词",
+      "description": "五年级收官：新增约 80 词（作息、季节、月份、序数、活动短语），累计约 430。四会词汇过半——为六年级和初中的语法大颗粒（过去时、完成时）备足了弹药。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "认词 85% + 默写 75% 以上",
+        "12 个月份与四季默写全对"
+      ],
+      "assessmentPrompt": "抽 20 图卡 + 听写 15 词（含月份与季节词）；请{{name}}用 usually、because 各造一句。",
+      "standards": [
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_12"
       ]
     }
   ]

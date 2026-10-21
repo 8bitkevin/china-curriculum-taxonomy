@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.28.0",
+  "version": "1.29.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1567,
+  "edgeCount": 1583,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9405,6 +9405,102 @@
       "prerequisiteId": "ct_yy_g4b_12",
       "strength": "hard",
       "reason": "词汇自查跨册累进（280→350），新增默写要求"
+    },
+    {
+      "topicId": "ct_yy_g5b_01",
+      "prerequisiteId": "ct_yy_g4b_02",
+      "strength": "hard",
+      "reason": "作息时间表达升级：加频度副词与 When do you...? 问句"
+    },
+    {
+      "topicId": "ct_yy_g5b_02",
+      "prerequisiteId": "ct_yy_g4b_03",
+      "strength": "hard",
+      "reason": "天气词汇经验迁移到季节话题，新增 because 理由句"
+    },
+    {
+      "topicId": "ct_yy_g5b_03",
+      "prerequisiteId": "ct_yy_g5a_02",
+      "strength": "hard",
+      "reason": "星期词汇体系之后学习月份体系（on+星期 → in+月份）"
+    },
+    {
+      "topicId": "ct_yy_g5b_04",
+      "prerequisiteId": "ct_yy_g5b_03",
+      "strength": "hard",
+      "reason": "月份基础上加序数词构成完整日期表达（in 月 / on 月日）"
+    },
+    {
+      "topicId": "ct_yy_g5b_04",
+      "prerequisiteId": "ct_yy_g3a_08",
+      "strength": "soft",
+      "reason": "基数词知识支撑序数词的构成（four→fourth）"
+    },
+    {
+      "topicId": "ct_yy_g5b_05",
+      "prerequisiteId": "ct_yy_g5a_02",
+      "strength": "hard",
+      "reason": "一般现在时（on Mondays 谈惯例）之后对比学现在进行时（此刻）"
+    },
+    {
+      "topicId": "ct_yy_g5b_05",
+      "prerequisiteId": "ct_yy_g4a_01",
+      "strength": "soft",
+      "reason": "动词短语库（play sports 等）为进行时提供材料"
+    },
+    {
+      "topicId": "ct_yy_g5b_06",
+      "prerequisiteId": "ct_yy_g5b_05",
+      "strength": "hard",
+      "reason": "进行时疑问式在肯定句基础上变换（倒装+简答）"
+    },
+    {
+      "topicId": "ct_yy_g5b_06",
+      "prerequisiteId": "ct_yy_g4b_05",
+      "strength": "soft",
+      "reason": "whose 问句经验延伸到名词性物主代词应答"
+    },
+    {
+      "topicId": "ct_yy_g5b_07",
+      "prerequisiteId": "ct_yy_g3a_09",
+      "strength": "hard",
+      "reason": "听指令做动作（TPR）的语言积累升级为输出祈使句规则"
+    },
+    {
+      "topicId": "ct_yy_g5b_08",
+      "prerequisiteId": "ct_yy_g5a_07",
+      "strength": "hard",
+      "reason": "元音组合之后补齐辅音组合的拼读版图"
+    },
+    {
+      "topicId": "ct_yy_g5b_09",
+      "prerequisiteId": "ct_yy_g4b_08",
+      "strength": "hard",
+      "reason": "小主播的播报经验升级为脱稿话题表达（四季+日历）"
+    },
+    {
+      "topicId": "ct_yy_g5b_10",
+      "prerequisiteId": "ct_yy_g5a_09",
+      "strength": "hard",
+      "reason": "说明性短文阅读扩展到规则与标识类功能性文本"
+    },
+    {
+      "topicId": "ct_yy_g5b_11",
+      "prerequisiteId": "ct_yy_g5a_10",
+      "strength": "hard",
+      "reason": "五句小语篇模型在新话题（季节）复用并加入 because 说理"
+    },
+    {
+      "topicId": "ct_yy_g5b_11",
+      "prerequisiteId": "ct_yy_g5b_02",
+      "strength": "hard",
+      "reason": "季节作文直接运用 Because... 句型"
+    },
+    {
+      "topicId": "ct_yy_g5b_12",
+      "prerequisiteId": "ct_yy_g5a_12",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（350→430）"
     }
   ]
 }
