@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.14.0",
+  "version": "1.15.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1331,
+  "edgeCount": 1356,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7989,6 +7989,156 @@
       "prerequisiteId": "ct_yw_g7a_21",
       "strength": "hard",
       "reason": "字词与常识自查跨册延续，新增实词卡管理"
+    },
+    {
+      "topicId": "ct_yw_g8a_01",
+      "prerequisiteId": "ct_yw_g4b_17",
+      "strength": "hard",
+      "reason": "小学「说新闻」的转述能力升级为新闻文体的结构化阅读"
+    },
+    {
+      "topicId": "ct_yw_g8a_02",
+      "prerequisiteId": "ct_yw_g8a_01",
+      "strength": "hard",
+      "reason": "活动探究单元读写一体：先懂消息结构再采再写"
+    },
+    {
+      "topicId": "ct_yw_g8a_02",
+      "prerequisiteId": "ct_yw_g5b_16",
+      "strength": "soft",
+      "reason": "采访提纲设计与小学采访长辈的经验同源，要求更系统"
+    },
+    {
+      "topicId": "ct_yw_g8a_03",
+      "prerequisiteId": "ct_yw_g7b_01",
+      "strength": "hard",
+      "reason": "写人见精神（七下）的事件+议论方法迁移到长篇传记的事件链"
+    },
+    {
+      "topicId": "ct_yw_g8a_04",
+      "prerequisiteId": "ct_yw_g8a_03",
+      "strength": "hard",
+      "reason": "传记读写一体：读法（典型事件）就是写法的蓝图"
+    },
+    {
+      "topicId": "ct_yw_g8a_05",
+      "prerequisiteId": "ct_yw_g7a_05",
+      "strength": "hard",
+      "reason": "文言语感链：从先秦两汉短章到北朝山水的骈散四字句"
+    },
+    {
+      "topicId": "ct_yw_g8a_05",
+      "prerequisiteId": "ct_yw_g6a_08",
+      "strength": "soft",
+      "reason": "小学写景诗的画面描述能力支撑山水文言的意境理解"
+    },
+    {
+      "topicId": "ct_yw_g8a_06",
+      "prerequisiteId": "ct_yw_g7a_03",
+      "strength": "hard",
+      "reason": "意象分析（七上）之上叠加律诗格律（对仗）的新维度"
+    },
+    {
+      "topicId": "ct_yw_g8a_07",
+      "prerequisiteId": "ct_yw_g6b_03",
+      "strength": "hard",
+      "reason": "小学『真情自然流露』的藏情技法在初中散文中成为自觉的风格分析"
+    },
+    {
+      "topicId": "ct_yw_g8a_08",
+      "prerequisiteId": "ct_yw_g7b_09",
+      "strength": "hard",
+      "reason": "托物言志（文言）的经验升级为篇章级象征手法的辨析"
+    },
+    {
+      "topicId": "ct_yw_g8a_09",
+      "prerequisiteId": "ct_yw_g5a_02",
+      "strength": "hard",
+      "reason": "小学说明方法四件套之上增加顺序分析与语言准确性的系统考查"
+    },
+    {
+      "topicId": "ct_yw_g8a_10",
+      "prerequisiteId": "ct_yw_g5a_03",
+      "strength": "hard",
+      "reason": "介绍一种事物（五上）的初中版：特征意识+顺序意识+准确语言"
+    },
+    {
+      "topicId": "ct_yw_g8a_10",
+      "prerequisiteId": "ct_yw_g8a_09",
+      "strength": "soft",
+      "reason": "说明文阅读的顺序方法语言三斧直接供写作取用"
+    },
+    {
+      "topicId": "ct_yw_g8a_11",
+      "prerequisiteId": "ct_yw_g7a_06",
+      "strength": "hard",
+      "reason": "语录体（论语）之后进入孟子的长论辩：排比论证与逻辑链"
+    },
+    {
+      "topicId": "ct_yw_g8a_11",
+      "prerequisiteId": "ct_yw_g6b_05",
+      "strength": "soft",
+      "reason": "『用事例说明观点』（六下）的文言议论先声"
+    },
+    {
+      "topicId": "ct_yw_g8a_12",
+      "prerequisiteId": "ct_yw_g7b_08",
+      "strength": "hard",
+      "reason": "叙事文言从短篇故事到有人物弧光的愚公/周亚夫"
+    },
+    {
+      "topicId": "ct_yw_g8a_13",
+      "prerequisiteId": "ct_yw_g7b_14",
+      "strength": "hard",
+      "reason": "登临诗鉴赏积累之上开启风格比较（陶杜李贺李清照五家）"
+    },
+    {
+      "topicId": "ct_yw_g8a_14",
+      "prerequisiteId": "ct_yw_g5a_10",
+      "strength": "hard",
+      "reason": "即景写作（五上）的章法化：观察点+顺序+感官+融情"
+    },
+    {
+      "topicId": "ct_yw_g8a_15",
+      "prerequisiteId": "ct_yw_g7b_05",
+      "strength": "hard",
+      "reason": "文从字顺（句级）到语言连贯（段级篇章级）"
+    },
+    {
+      "topicId": "ct_yw_g8a_16",
+      "prerequisiteId": "ct_yw_g4b_18",
+      "strength": "hard",
+      "reason": "场合意识（四下自我介绍）扩展为谦敬辞系统与得体三看"
+    },
+    {
+      "topicId": "ct_yw_g8a_17",
+      "prerequisiteId": "ct_yw_g7b_16",
+      "strength": "hard",
+      "reason": "纪实节选的快速阅读扩展为非虚构整本的读法（真实性与倾向性）"
+    },
+    {
+      "topicId": "ct_yw_g8a_18",
+      "prerequisiteId": "ct_yw_g4b_21",
+      "strength": "hard",
+      "reason": "科普整本（十万个为什么）的阅读经验迁移到昆虫记的科学与文学双读"
+    },
+    {
+      "topicId": "ct_yw_g8a_19",
+      "prerequisiteId": "ct_yw_g7b_19",
+      "strength": "hard",
+      "reason": "综合学习三件套之上加入辩论与提案两种新形态"
+    },
+    {
+      "topicId": "ct_yw_g8a_20",
+      "prerequisiteId": "ct_yw_g7b_20",
+      "strength": "hard",
+      "reason": "课外古诗词诵读线跨册延续"
+    },
+    {
+      "topicId": "ct_yw_g8a_21",
+      "prerequisiteId": "ct_yw_g7b_21",
+      "strength": "hard",
+      "reason": "字词与常识自查跨册延续，文言体量扩容"
     }
   ]
 }
