@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.56.0",
+  "version": "1.57.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2022,
+  "edgeCount": 2031,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12135,6 +12135,60 @@
       "prerequisiteId": "ct_hx_g9b_03",
       "strength": "soft",
       "reason": "金属防锈的初中知识升级为电化学腐蚀与防护"
+    },
+    {
+      "topicId": "ct_hx_g11b_01",
+      "prerequisiteId": "ct_hx_g10a_09",
+      "strength": "hard",
+      "reason": "必修一的原子结构（排布示意图）升级为构造原理与电子排布式"
+    },
+    {
+      "topicId": "ct_hx_g11b_02",
+      "prerequisiteId": "ct_hx_g11b_01",
+      "strength": "hard",
+      "reason": "VSEPR 与杂化理论以核外电子排布知识为基础"
+    },
+    {
+      "topicId": "ct_hx_g11b_02",
+      "prerequisiteId": "ct_hx_g10b_01",
+      "strength": "hard",
+      "reason": "共价键概念（必修二）扩展为 σπ 键与极性分析"
+    },
+    {
+      "topicId": "ct_hx_g11b_03",
+      "prerequisiteId": "ct_hx_g11b_02",
+      "strength": "hard",
+      "reason": "晶体中粒子作用方式依赖共价键/离子键/分子间作用力的判别"
+    },
+    {
+      "topicId": "ct_hx_g12a_01",
+      "prerequisiteId": "ct_hx_g10b_05",
+      "strength": "hard",
+      "reason": "必修二有机初步（甲烷结构）扩展为命名与同分异构系统"
+    },
+    {
+      "topicId": "ct_hx_g12a_02",
+      "prerequisiteId": "ct_hx_g12a_01",
+      "strength": "hard",
+      "reason": "烃的系统性质学习需要命名与同分异构基础"
+    },
+    {
+      "topicId": "ct_hx_g12a_03",
+      "prerequisiteId": "ct_hx_g12a_02",
+      "strength": "hard",
+      "reason": "烃衍生物的官能团化学以烃的知识为母体（如卤代烃消去生成烯）"
+    },
+    {
+      "topicId": "ct_hx_g12a_04",
+      "prerequisiteId": "ct_hx_g12a_03",
+      "strength": "hard",
+      "reason": "聚合单体分析（如酯的缩聚）需要官能团反应知识"
+    },
+    {
+      "topicId": "ct_hx_g12a_04",
+      "prerequisiteId": "ct_hx_g9b_13",
+      "strength": "soft",
+      "reason": "初中营养素与合成材料知识在此获得结构化学解释"
     }
   ]
 }
