@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 115,
+  "topicCount": 143,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -3528,6 +3528,871 @@
       "prerequisites": [
         "ct_g1b_06",
         "ct_g2b_17"
+      ]
+    },
+    {
+      "id": "ct_g3b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "认识东、南、西、北",
+      "description": "太阳从东边升起：面向北时，背后是南、左是西、右是东。地图通常按「上北下南、左西右东」画。方位从自身前后左右升级到地球方向。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能指定一个方向后说出其余三个方向",
+        "能把地图方向（上北下南）与现实方向对应起来"
+      ],
+      "assessmentPrompt": "带{{name}}到窗边：「太阳从哪边升起来？那你的左手边是什么方向？」再指着地图问北在哪。",
+      "standards": [
+        "csmath-2022:S2.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1a_04",
+        "ct_g3a_02"
+      ]
+    },
+    {
+      "id": "ct_g3b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "东北、东南、西北、西南与路线描述",
+      "description": "在东和北之间的方向叫东北……八方齐全后，就能说清「从家向东南走 200 米到学校」这样的路线。方向 + 距离 = 一张活的地图。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出八个方向并指出两方向之间的斜向方位",
+        "能看简单的方向板/平面图描述行走路线"
+      ],
+      "assessmentPrompt": "画一个简单社区图给{{name}}：「从学校出发，先向北走一段，再往东北方向走，能到哪里？帮妈妈指一条回家路线。」",
+      "standards": [
+        "csmath-2022:S2.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_01"
+      ]
+    },
+    {
+      "id": "ct_g3b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "口算除法：整十、整百数除以一位数",
+      "description": "口算 60÷3、240÷8：看成 6 个十 ÷ 3 = 2 个十。与整十数乘一位数是一对互逆的口算，除法大部队的排头兵。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "整十整百数除以一位数口算 10 题对 9 题以上",
+        "能讲清 240÷8 先算 24÷8=3、再想 3 个十的道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「240÷8 怎么想？300÷5 呢？」听是否先不看 0、用口诀算再把 0 补回。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_04",
+        "ct_g2b_15"
+      ]
+    },
+    {
+      "id": "ct_g3b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位数除两位数的笔算除法",
+      "description": "竖式算 42÷2、52÷2：从十位除起，余下的与个位合起来继续除。除法竖式第一次露出「分步分掉」的过程，和乘法竖式长相完全不同。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能规范书写除法竖式并正确计算一位数除两位数",
+        "能说出每一步商写在哪个数位、为什么"
+      ],
+      "assessmentPrompt": "让{{name}}用竖式算 52÷2，问「十位除完剩的 1 表示什么？和个位 2 合起来是什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_12",
+        "ct_g3b_03"
+      ]
+    },
+    {
+      "id": "ct_g3b_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位数除三位数的笔算除法",
+      "description": "笔算 256÷2（首位够除商三位）和 256÷6（首位不够商两位）：判断商是几位数是第一件事。除法笔算在这里完成从两位到三位的跨越。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能先判断商的位数再笔算，正确率 90% 以上",
+        "首位不够除时知道看前两位"
+      ],
+      "assessmentPrompt": "问{{name}}：「256÷6 的商是两位数还是三位数？为什么先看前两位？」再让{{name}}算出来。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_14",
+        "ct_g3b_04"
+      ]
+    },
+    {
+      "id": "ct_g3b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "商中间或末尾有 0 的除法与验算",
+      "description": "算 615÷3（十位不够商就商 0）和 620÷3（末尾商 0 余 2）：0 占位不能省。用「商×除数（+余数）=被除数」验算，除法从此可以自查。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "商中间末尾有 0 的除法 10 题对 9 题以上",
+        "有余数和无余数的除法都会验算"
+      ],
+      "assessmentPrompt": "让{{name}}算 615÷3 并验算，问「十位上 1 除以 3 不够商 1，怎么办？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_11",
+        "ct_g3a_20",
+        "ct_g3b_05"
+      ]
+    },
+    {
+      "id": "ct_g3b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除法估算解决问题",
+      "description": "「124 人分组，每组 20 人，大约几组？」把 124 看成 120 再除。估算思路与乘法一脉相承：往哪边估要看问题要「够」还是「少」。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能把被除数看成整十整百数进行除法估算",
+        "能根据问题情境选择估大估小并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「178 个同学坐缆车，每车坐 20 人，9 辆车够吗？怎么估？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_21",
+        "ct_g3b_05"
+      ]
+    },
+    {
+      "id": "ct_g3b_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "连除与先乘后除的问题",
+      "description": "「2 车运 960 千克货物，平均每车装多少？」可以 960÷2，也可以连除 960÷3÷2 这类两步问题。分析数量关系、想清每一步算什么，是本主题的真功夫。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用分步或综合算式解答两步除法问题",
+        "能说清每种解法每一步的实际含义"
+      ],
+      "assessmentPrompt": "问{{name}}：「3 个书架一共放 480 本书，每个书架 4 层，每层放几本？先算什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_09",
+        "ct_g3b_06"
+      ]
+    },
+    {
+      "id": "ct_g3b_09",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "复式统计表",
+      "description": "单式表一次只说一件事，复式表把「男生人数和女生人数」放进同一张表对比着看。表头分栏多了一层，信息量翻倍——数据分析从记录走向比较。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能根据数据填写复式统计表并核对合计",
+        "能从复式统计表中比较、发现简单的信息（如哪个项目最受欢迎）"
+      ],
+      "assessmentPrompt": "让{{name}}调查家里一周看电视和读书的天数，填进一张两行表，再问「哪一项多？多几天？」",
+      "standards": [
+        "csmath-2022:S2.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_07",
+        "ct_g2b_01"
+      ]
+    },
+    {
+      "id": "ct_g3b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "口算乘法：两位数、整百数乘整十数",
+      "description": "口算 15×3、300×30：拆开算或先算 3×3 再添两个 0。乘数从一位扩大到整十，口算的「先算数、再添 0」策略继续管用。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "整十数乘整十数等口算 10 题对 9 题以上",
+        "能讲清 300×30 先算 3×3=9、末尾添 3 个 0 的道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「300×30 末尾为什么添 3 个 0？40×60 呢？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_17"
+      ]
+    },
+    {
+      "id": "ct_g3b_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数乘两位数（不进位）",
+      "description": "竖式算 23×12：先用 2 乘 23，再用 10 乘 23（错位写），最后相加。理解「为什么第二层积要错一位」就看懂了竖式的灵魂——它其实是把 12 拆成了 10 和 2。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确笔算不进位的两位数乘两位数",
+        "能结合点子图解释两层积分别表示什么、为何错位相加"
+      ],
+      "assessmentPrompt": "让{{name}}算 23×12，指着第二层积问「这个 230 是怎么来的？为什么写在第二行还错开一位？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_19",
+        "ct_g3b_10"
+      ]
+    },
+    {
+      "id": "ct_g3b_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数乘两位数（进位）与验算",
+      "description": "笔算 37×48 这样层层进位的乘法：两位乘两位的完全体。可以交换两个乘数再乘一遍验算。整数乘法到此进入高原期，熟练度决定后面一切。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "进位的两位数乘两位数 10 题对 9 题以上",
+        "会用交换乘数的方法验算"
+      ],
+      "assessmentPrompt": "让{{name}}算 37×48，再交换乘数验算一遍，看两次结果是否一致。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_11"
+      ]
+    },
+    {
+      "id": "ct_g3b_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "连乘问题与乘法估算",
+      "description": "「每箱 24 瓶，25 箱一共多少瓶？」用 24×25 或先算 5 箱再乘 5。连乘问题里藏着「先算谁都是总量」的规律；估算则随时为结果把关。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用两种思路解答连乘问题并说明每步含义",
+        "能先估算判断结果的大致范围再精算"
+      ],
+      "assessmentPrompt": "问{{name}}：「一页 24 行、每行 22 字，这页大约几百字？50 页大约几千字？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_21",
+        "ct_g3a_23",
+        "ct_g3b_12"
+      ]
+    },
+    {
+      "id": "ct_g3b_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "面积的含义",
+      "description": "物体表面或封闭图形的大小叫做面积：课本封面比橡皮表面大。摸一摸、比一比、叠一叠——面积是「面有多大」，和「边有多长」的周长是两码事。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用观察、重叠、数方格比较两个面的大小",
+        "能举例说明面积和周长的区别（如跑道一圈 vs 操场地面）"
+      ],
+      "assessmentPrompt": "问{{name}}：「给相框镶玻璃边框，算的是周长还是面积？铺多大桌布呢？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_25"
+      ]
+    },
+    {
+      "id": "ct_g3b_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "面积单位：平方厘米、平方分米、平方米",
+      "description": "边长 1 厘米的正方形面积是 1 平方厘米（cm²）。度量面积要用「小方格」作单位，统一单位才能比较大小——和量长度要用厘米是同一个道理。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "知道三个面积单位的规定并建立表象（指甲盖约 1 平方厘米）",
+        "能给物体表面选择合适的面积单位"
+      ],
+      "assessmentPrompt": "问{{name}}：「你的指甲盖大约是 1 平方什么？教室地面用哪个单位量合适？1 平方米的地砖上能站几个同学？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_07",
+        "ct_g3b_14"
+      ]
+    },
+    {
+      "id": "ct_g3b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方形和正方形的面积公式",
+      "description": "长方形面积 = 长 × 宽，正方形面积 = 边长 × 边长。用 1 平方厘米的小方格铺一铺就发现：每行个数 × 行数，正是长 × 宽。公式不是背的，是铺出来的。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确运用公式计算长方形正方形面积",
+        "能讲清公式与数方格（每行几个×几行）的对应关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「课桌面长 60 厘米、宽 40 厘米，面积是多少平方厘米？合多少平方分米？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_24",
+        "ct_g3b_15"
+      ]
+    },
+    {
+      "id": "ct_g3b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "面积单位间的进率与换算",
+      "description": "1 平方分米 = 100 平方厘米：因为 1 分米 = 10 厘米，铺开的方格是 10×10 = 100 个。长度进率是 10，面积进率是 100——为什么？画图就知道。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确进行相邻面积单位的换算（乘或除以 100）",
+        "能画图解释面积进率 100 与长度进率 10 的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「3 平方分米 = 多少平方厘米？为什么长度 10 倍、面积却是 100 倍？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_15",
+        "ct_g3b_16"
+      ]
+    },
+    {
+      "id": "ct_g3b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "面积与周长的综合应用",
+      "description": "铺地砖、围篱笆：先分清求面积还是周长，再选公式。面积相等的图形周长不一定相等——综合运用最容易出错的地方就在概念混用。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确区分实际问题求面积还是周长并选择公式",
+        "能举例说明面积相同周长可以不同"
+      ],
+      "assessmentPrompt": "问{{name}}：「边长 4 米的正方形菜地，围篱笆要几米？铺草皮要几平方米？两个 4 分别算的是什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_26",
+        "ct_g3b_16",
+        "ct_g3b_17"
+      ]
+    },
+    {
+      "id": "ct_g3b_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "年、月、日的认识（大月、小月、平年闰年）",
+      "description": "一年 12 个月：1、3、5、7、8、10、12 是大月（31 天）。平年 365 天、闰年 366 天，多的一天在 2 月。拳头记忆法、儿歌记忆法都能帮上忙。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出各月天数并判断大月小月",
+        "能判断某年是平年还是闰年（整百年份要除以 400）"
+      ],
+      "assessmentPrompt": "问{{name}}：「2024 年 2 月有多少天？怎么判断的？一年中有几个大月？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_20",
+        "ct_g3a_02"
+      ]
+    },
+    {
+      "id": "ct_g3b_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "24 时计时法",
+      "description": "一天有 24 小时：钟面走两圈。下午 3 时叫 15 时，晚上 8 时叫 20 时。车站、电视节目单都用它—— Ordinary 时刻与 24 时时刻能互相换算。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能将普通计时法与 24 时计时法互相转换",
+        "知道 0 时（午夜）和 12 时（正午）的含义"
+      ],
+      "assessmentPrompt": "问{{name}}：「动画频道 19:30 播出，是晚上几时？下午 4 时放学，用 24 时计时法怎么说？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_20",
+        "ct_g3b_19"
+      ]
+    },
+    {
+      "id": "ct_g3b_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "简单的经过时间计算",
+      "description": "「火车 9:40 开、14:20 到，坐了多久？」用结束时刻减开始时刻，跨过整时段就分段算。看时刻表、算旅途时间，是生活刚需。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能计算同日内的经过时间（含跨整时）",
+        "能看懂简单时刻表并回答问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「电影 13:20 开始，放到 15:50，一共多长时间？中间 14:00 到 14:10 休息算不算？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_02",
+        "ct_g3b_20"
+      ]
+    },
+    {
+      "id": "ct_g3b_22",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数的初步认识（一位小数）",
+      "description": "5 角是 0.5 元，因为它是 10 角中的 5 角，也就是 1 元的 5/10。小数长得像整数，骨子里是分数——这是「数」家族的第二次扩张。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "会读写一位小数并说出它表示十分之几",
+        "能用小数表示价钱（元角）和长度（米分米）"
+      ],
+      "assessmentPrompt": "问{{name}}：「一支铅笔 8 角，标价签上写多少元？0.7 元是几角？它表示一元的十分之几？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_12",
+        "ct_g3a_29"
+      ]
+    },
+    {
+      "id": "ct_g3b_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位小数的大小比较",
+      "description": "比较 1.2 米和 0.9 米谁高：先比整数部分，整数部分相同再比小数部分（十分位）。规则与整数比大小一脉相承，只是多了一个新数位。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确比较一位小数的大小",
+        "能结合米尺、价钱等实际情境解释比较结果"
+      ],
+      "assessmentPrompt": "问{{name}}：「小丽 1.3 米、小明 1.28 米，谁高？0.9 元和 1.1 元哪个贵？怎么比的？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_10",
+        "ct_g3b_22"
+      ]
+    },
+    {
+      "id": "ct_g3b_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一位小数的加减法",
+      "description": "算 0.6 + 0.8 = 1.4：6 角加 8 角是 14 角，也就是 1.4 元。小数点对齐（同单位相加）是唯一要紧的规矩，它是小数竖式计算的起点。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确计算一位小数加减法（小数点对齐）",
+        "能用元、角解释进位和退位的过程"
+      ],
+      "assessmentPrompt": "问{{name}}：「买橡皮 0.8 元、尺子 1.5 元，付 3 元够吗？还剩多少？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_08",
+        "ct_g3b_23"
+      ]
+    },
+    {
+      "id": "ct_g3b_25",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数解决问题的策略",
+      "description": "「用 5 元买 3.2 元的东西，够吗？多几元？」画线段图、凑整数、精确算——处理小数问题开始讲究策略，为四年级系统学小数热身。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用画图或转化成角的方法分析小数问题",
+        "能检验答案是否合理（钱够不够、够多少）"
+      ],
+      "assessmentPrompt": "问{{name}}：「一根绳子长 1.8 米，剪去 0.6 米还剩多少？剩下的够捆两个 0.5 米的礼盒吗？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_22",
+        "ct_g3b_24"
+      ]
+    },
+    {
+      "id": "ct_g3b_26",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：排列问题",
+      "description": "用 1、2、3 能组成几个两位数？按顺序枚举（十位定、个位换）才能不重不漏。排列讲顺序——123 和 213 是两个不同的答案。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用固定首位等策略有序枚举排列",
+        "能说出排列与顺序有关"
+      ],
+      "assessmentPrompt": "问{{name}}：「用 1、5、8 组两位数，能组几个？说给妈妈听时怎样说才不重不漏？」",
+      "standards": [
+        "csmath-2022:S2.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_19",
+        "ct_g3a_32"
+      ]
+    },
+    {
+      "id": "ct_g3b_27",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：组合问题",
+      "description": "三件上衣配两条裤子有几种穿法？连线或列表数一数。组合不讲顺序——上衣配裤子和裤子配上衣是同一种穿法，这点与排列不同。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用连线法解决简单组合问题",
+        "能说出组合与顺序无关并举出例子"
+      ],
+      "assessmentPrompt": "问{{name}}：「4 个小朋友每两人握一次手，共握几次？如果改成每两人通一次信呢？」看{{name}}是否区分握手与通信。",
+      "standards": [
+        "csmath-2022:S2.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_26"
+      ]
+    },
+    {
+      "id": "ct_g3b_28",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：稍复杂的搭配问题",
+      "description": "「数字、文字、图形三类密码各选一个，有多少种组合？」分步相乘（3×2×4）的雏形在这里萌发，它是将来计数原理的第一粒种子。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用画树状图或列表解决两步搭配问题",
+        "能发现搭配总数等于每步选择数的乘积"
+      ],
+      "assessmentPrompt": "问{{name}}：「早餐有 3 种主食、2 种饮品，各选一种有多少种搭配？怎么数最快？」",
+      "standards": [
+        "csmath-2022:S2.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_27"
       ]
     }
   ]

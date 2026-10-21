@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 166,
+  "edgeCount": 219,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -999,6 +999,324 @@
       "prerequisiteId": "ct_g2b_17",
       "strength": "soft",
       "reason": "重叠问题的推理（都参加的算一次还是两次）借助简单推理的经验"
+    },
+    {
+      "topicId": "ct_g3b_01",
+      "prerequisiteId": "ct_g1a_04",
+      "strength": "soft",
+      "reason": "左右等自身参照系的方位经验，迁移到以地平为准的东南西北时需要打破自我中心，先前经验是对照物"
+    },
+    {
+      "topicId": "ct_g3b_01",
+      "prerequisiteId": "ct_g3a_02",
+      "strength": "soft",
+      "reason": "时刻与时间量的区分经验有助于理解方向描述与路线长度的配合使用"
+    },
+    {
+      "topicId": "ct_g3b_02",
+      "prerequisiteId": "ct_g3b_01",
+      "strength": "hard",
+      "reason": "四个斜向方位定义在东南西北四正方向之间"
+    },
+    {
+      "topicId": "ct_g3b_03",
+      "prerequisiteId": "ct_g2b_04",
+      "strength": "hard",
+      "reason": "整十整百数除以一位数最终归结为表内除法，口诀求商必须熟练"
+    },
+    {
+      "topicId": "ct_g3b_03",
+      "prerequisiteId": "ct_g2b_15",
+      "strength": "hard",
+      "reason": "整百整千数加减口算建立的处理计数单位（先算数再添 0）的思路直接迁移"
+    },
+    {
+      "topicId": "ct_g3b_04",
+      "prerequisiteId": "ct_g3b_03",
+      "strength": "hard",
+      "reason": "笔算每一步都是口算，口算思路是竖式算理的来源"
+    },
+    {
+      "topicId": "ct_g3b_04",
+      "prerequisiteId": "ct_g2b_12",
+      "strength": "hard",
+      "reason": "有余数除法的竖式书写（商、乘、减、比落位）是笔算除法格式的直接前身"
+    },
+    {
+      "topicId": "ct_g3b_05",
+      "prerequisiteId": "ct_g3b_04",
+      "strength": "hard",
+      "reason": "三位数除法把两位数除法的分步除程序多循环一位"
+    },
+    {
+      "topicId": "ct_g3b_05",
+      "prerequisiteId": "ct_g2b_14",
+      "strength": "soft",
+      "reason": "判断商的位数需要万以内数的位值理解"
+    },
+    {
+      "topicId": "ct_g3b_06",
+      "prerequisiteId": "ct_g3b_05",
+      "strength": "hard",
+      "reason": "商 0 占位是三位数除法的特例情形"
+    },
+    {
+      "topicId": "ct_g3b_06",
+      "prerequisiteId": "ct_g2b_11",
+      "strength": "hard",
+      "reason": "验算时余数处理（商×除数+余数）依赖余数小于除数的理解"
+    },
+    {
+      "topicId": "ct_g3b_06",
+      "prerequisiteId": "ct_g3a_20",
+      "strength": "soft",
+      "reason": "0 在乘法中的特性（0 乘任何数得 0）帮助理解商 0 的那一步"
+    },
+    {
+      "topicId": "ct_g3b_07",
+      "prerequisiteId": "ct_g3b_05",
+      "strength": "hard",
+      "reason": "除法估算以笔算除法的量级感为基础"
+    },
+    {
+      "topicId": "ct_g3b_07",
+      "prerequisiteId": "ct_g3a_21",
+      "strength": "soft",
+      "reason": "乘法估算的方向选择经验（往大估/往小估）迁移到除法估算"
+    },
+    {
+      "topicId": "ct_g3b_08",
+      "prerequisiteId": "ct_g3b_06",
+      "strength": "hard",
+      "reason": "两步除法问题的每一步都可能是含 0 或余数情形的除法"
+    },
+    {
+      "topicId": "ct_g3b_08",
+      "prerequisiteId": "ct_g2b_09",
+      "strength": "hard",
+      "reason": "列综合算式依赖运算顺序（先乘除后加减、从左到右）"
+    },
+    {
+      "topicId": "ct_g3b_09",
+      "prerequisiteId": "ct_g2b_01",
+      "strength": "hard",
+      "reason": "复式统计表的数据来自调查记录，单式表的整理经验是起点"
+    },
+    {
+      "topicId": "ct_g3b_09",
+      "prerequisiteId": "ct_g1b_07",
+      "strength": "soft",
+      "reason": "简单统计表的表格式样是复式表结构的雏形"
+    },
+    {
+      "topicId": "ct_g3b_10",
+      "prerequisiteId": "ct_g3a_17",
+      "strength": "hard",
+      "reason": "整十整百乘一位数的口算方法（算数添 0）扩展到乘整十数"
+    },
+    {
+      "topicId": "ct_g3b_11",
+      "prerequisiteId": "ct_g3b_10",
+      "strength": "hard",
+      "reason": "竖式两层积分别是不进位的乘法口算（23×2、23×10）"
+    },
+    {
+      "topicId": "ct_g3b_11",
+      "prerequisiteId": "ct_g3a_19",
+      "strength": "hard",
+      "reason": "两位数乘两位数的乘法竖式直接建立在多位数乘一位数笔算之上"
+    },
+    {
+      "topicId": "ct_g3b_12",
+      "prerequisiteId": "ct_g3b_11",
+      "strength": "hard",
+      "reason": "进位情形在不进位竖式结构上叠加进位处理"
+    },
+    {
+      "topicId": "ct_g3b_13",
+      "prerequisiteId": "ct_g3b_12",
+      "strength": "hard",
+      "reason": "连乘问题的每一步乘法都需两位数乘两位数的熟练笔算"
+    },
+    {
+      "topicId": "ct_g3b_13",
+      "prerequisiteId": "ct_g3a_21",
+      "strength": "soft",
+      "reason": "估算意识（先估数量级再精算）在连乘问题中继续使用"
+    },
+    {
+      "topicId": "ct_g3b_13",
+      "prerequisiteId": "ct_g3a_23",
+      "strength": "soft",
+      "reason": "归总问题中总量不变的结构与连乘问题互为表里"
+    },
+    {
+      "topicId": "ct_g3b_14",
+      "prerequisiteId": "ct_g3a_25",
+      "strength": "hard",
+      "reason": "面积概念紧随周长引入，两者对照（边线长 vs 面大小）才能彼此站稳"
+    },
+    {
+      "topicId": "ct_g3b_15",
+      "prerequisiteId": "ct_g3b_14",
+      "strength": "hard",
+      "reason": "面积单位是度量面积大小的标准，以面积概念为前提"
+    },
+    {
+      "topicId": "ct_g3b_15",
+      "prerequisiteId": "ct_g3a_07",
+      "strength": "soft",
+      "reason": "长度单位体系（米分米厘米进率 10）为面积单位的类比学习提供参照"
+    },
+    {
+      "topicId": "ct_g3b_16",
+      "prerequisiteId": "ct_g3b_15",
+      "strength": "hard",
+      "reason": "用面积单位铺方格导出公式，单位表象是数格子的前提"
+    },
+    {
+      "topicId": "ct_g3b_16",
+      "prerequisiteId": "ct_g3a_24",
+      "strength": "soft",
+      "reason": "长方形长宽的特征认识是公式中两个量的意义来源"
+    },
+    {
+      "topicId": "ct_g3b_17",
+      "prerequisiteId": "ct_g3b_16",
+      "strength": "hard",
+      "reason": "进率解释（10×10=100）正是面积公式的直接应用"
+    },
+    {
+      "topicId": "ct_g3b_17",
+      "prerequisiteId": "ct_g3b_15",
+      "strength": "hard",
+      "reason": "换算的对象是面积单位，需先掌握各单位的规定"
+    },
+    {
+      "topicId": "ct_g3b_18",
+      "prerequisiteId": "ct_g3b_17",
+      "strength": "hard",
+      "reason": "实际问题的单位常常混杂，需要换算技能"
+    },
+    {
+      "topicId": "ct_g3b_18",
+      "prerequisiteId": "ct_g3b_16",
+      "strength": "hard",
+      "reason": "求面积用公式，综合问题的主体技能"
+    },
+    {
+      "topicId": "ct_g3b_18",
+      "prerequisiteId": "ct_g3a_26",
+      "strength": "hard",
+      "reason": "与周长公式对照使用，先有周长计算才有对照综合"
+    },
+    {
+      "topicId": "ct_g3b_19",
+      "prerequisiteId": "ct_g2a_20",
+      "strength": "hard",
+      "reason": "年月日是更大的时间单位，认识时分（钟面两圈）是理解一日 24 时的基础"
+    },
+    {
+      "topicId": "ct_g3b_19",
+      "prerequisiteId": "ct_g3a_02",
+      "strength": "soft",
+      "reason": "时间单位的进率经验（1时=60分）延伸到日与时的进率"
+    },
+    {
+      "topicId": "ct_g3b_20",
+      "prerequisiteId": "ct_g3b_19",
+      "strength": "hard",
+      "reason": "24 时计时法的两圈结构依赖对一日时长与钟面的认识"
+    },
+    {
+      "topicId": "ct_g3b_20",
+      "prerequisiteId": "ct_g2a_20",
+      "strength": "hard",
+      "reason": "读钟面时刻（几时几分）是两种计时法互化的操作基础"
+    },
+    {
+      "topicId": "ct_g3b_21",
+      "prerequisiteId": "ct_g3b_20",
+      "strength": "hard",
+      "reason": "时刻表用 24 时计时法，先会读才会算"
+    },
+    {
+      "topicId": "ct_g3b_21",
+      "prerequisiteId": "ct_g3a_02",
+      "strength": "hard",
+      "reason": "时分秒层面的经过时间计算方法（减法/分段）直接迁移到跨时问题"
+    },
+    {
+      "topicId": "ct_g3b_22",
+      "prerequisiteId": "ct_g3a_29",
+      "strength": "hard",
+      "reason": "一位小数的本质是十分之几的分数，分数初步认识是小数意义的地基"
+    },
+    {
+      "topicId": "ct_g3b_22",
+      "prerequisiteId": "ct_g1b_12",
+      "strength": "soft",
+      "reason": "元角分的十进结构（1 元 = 10 角）是小数十进记法的第一个现实模型"
+    },
+    {
+      "topicId": "ct_g3b_23",
+      "prerequisiteId": "ct_g3b_22",
+      "strength": "hard",
+      "reason": "比大小以认识小数的意义（十分之几）为前提"
+    },
+    {
+      "topicId": "ct_g3b_23",
+      "prerequisiteId": "ct_g1b_10",
+      "strength": "soft",
+      "reason": "100 以内数比大小（先看高位）的位值比较策略迁移到小数"
+    },
+    {
+      "topicId": "ct_g3b_24",
+      "prerequisiteId": "ct_g3b_23",
+      "strength": "hard",
+      "reason": "加减之前需要会认、会比一位小数"
+    },
+    {
+      "topicId": "ct_g3b_24",
+      "prerequisiteId": "ct_g2a_08",
+      "strength": "soft",
+      "reason": "进位退位处理借助百以内加减笔算的经验"
+    },
+    {
+      "topicId": "ct_g3b_25",
+      "prerequisiteId": "ct_g3b_24",
+      "strength": "hard",
+      "reason": "问题解决以一位小数加减技能为主体"
+    },
+    {
+      "topicId": "ct_g3b_25",
+      "prerequisiteId": "ct_g3b_22",
+      "strength": "soft",
+      "reason": "策略之一是把小数换回角（分数意义），意义理解支撑策略多样化"
+    },
+    {
+      "topicId": "ct_g3b_26",
+      "prerequisiteId": "ct_g3a_32",
+      "strength": "soft",
+      "reason": "集合单元建立的不重不漏计数意识延续到排列问题"
+    },
+    {
+      "topicId": "ct_g3b_26",
+      "prerequisiteId": "ct_g1b_19",
+      "strength": "soft",
+      "reason": "一年级找规律中的有序观察经验帮助形成有序枚举策略"
+    },
+    {
+      "topicId": "ct_g3b_27",
+      "prerequisiteId": "ct_g3b_26",
+      "strength": "hard",
+      "reason": "组合与排列对照学习，先有顺序敏感的排列，才能凸显组合的无序性"
+    },
+    {
+      "topicId": "ct_g3b_28",
+      "prerequisiteId": "ct_g3b_27",
+      "strength": "hard",
+      "reason": "两步搭配是简单组合的叠加，连线/列表方法继续升级"
     }
   ]
 }
