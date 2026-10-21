@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.58.0",
+  "version": "1.59.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2046,
+  "edgeCount": 2059,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12279,6 +12279,84 @@
       "prerequisiteId": "ct_sw_g7a_02",
       "strength": "soft",
       "reason": "植被是生态系统的生产者基础"
+    },
+    {
+      "topicId": "ct_sw_g7b_01",
+      "prerequisiteId": "ct_sw_g7a_05",
+      "strength": "soft",
+      "reason": "生殖发育以细胞分裂分化为基础"
+    },
+    {
+      "topicId": "ct_sw_g7b_02",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "soft",
+      "reason": "营养需求体现生物需要营养的基本特征"
+    },
+    {
+      "topicId": "ct_sw_g7b_03",
+      "prerequisiteId": "ct_sw_g7b_02",
+      "strength": "hard",
+      "reason": "消化吸收针对六大营养物质，先认识营养再研究消化"
+    },
+    {
+      "topicId": "ct_sw_g7b_04",
+      "prerequisiteId": "ct_sw_g7a_11",
+      "strength": "soft",
+      "reason": "人体呼吸作用需要氧气——与植物呼吸呼应"
+    },
+    {
+      "topicId": "ct_sw_g7b_05",
+      "prerequisiteId": "ct_sw_g7b_02",
+      "strength": "soft",
+      "reason": "贫血与营养（铁与蛋白质）相关联"
+    },
+    {
+      "topicId": "ct_sw_g7b_06",
+      "prerequisiteId": "ct_sw_g7b_05",
+      "strength": "hard",
+      "reason": "血液循环以血液与血管的结构知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g7b_06",
+      "prerequisiteId": "ct_sw_g7b_04",
+      "strength": "soft",
+      "reason": "循环运输的氧气来自呼吸系统（两大系统协同）"
+    },
+    {
+      "topicId": "ct_sw_g7b_07",
+      "prerequisiteId": "ct_sw_g7b_06",
+      "strength": "hard",
+      "reason": "肾单位滤过的原料是血液（循环系统供给）"
+    },
+    {
+      "topicId": "ct_sw_g7b_08",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "soft",
+      "reason": "应激性（对刺激的反应）在人体升级为反射"
+    },
+    {
+      "topicId": "ct_sw_g7b_09",
+      "prerequisiteId": "ct_sw_g7b_08",
+      "strength": "hard",
+      "reason": "视觉形成以反射弧（感受器→中枢）的神经通路为基础"
+    },
+    {
+      "topicId": "ct_sw_g7b_10",
+      "prerequisiteId": "ct_sw_g7b_08",
+      "strength": "hard",
+      "reason": "神经调节与激素调节对比协同学习"
+    },
+    {
+      "topicId": "ct_sw_g7b_11",
+      "prerequisiteId": "ct_sw_g7a_02",
+      "strength": "hard",
+      "reason": "污染沿食物链富集以食物链知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g7b_11",
+      "prerequisiteId": "ct_sw_g7a_13",
+      "strength": "soft",
+      "reason": "植被破坏话题从七上的绿色植物延续到全球生态"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.58.0",
+  "version": "1.59.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1449,
+  "topicCount": 1460,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -44899,6 +44899,338 @@
       "prerequisites": [
         "ct_sw_g7a_02",
         "ct_sw_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "人的由来：生殖与发育",
+      "description": "人的生殖系统与受精（输卵管）、胚胎发育（子宫、胎盘营养）；青春期的身体与心理变化。生命教育第一课——我从哪里来的科学答案。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明受精部位与发育部位",
+        "能说出青春期发育的三大变化"
+      ],
+      "assessmentPrompt": "问{{name}}：受精在哪里完成、胚胎在哪里发育？胎儿怎么获得营养和氧气？青春期变声要注意什么？",
+      "standards": [
+        "csbiology-2022:S4.HB.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元 第一章 人的由来",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "食物中的营养物质",
+      "description": "六大营养物质（供能的糖类脂肪蛋白质 + 非供能的水无机盐维生素）；缺乏症速查（缺维 A 夜盲、缺维 C 坏血、缺维 D 佝偻、缺碘甲状腺肿）。营养学入门——吃什么的科学。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断常见食物的主要营养",
+        "能对缺乏症连线（维生素与无机盐）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么长期不吃蔬菜牙龈出血？海带预防什么病？三大供能物质谁是主要能源？",
+      "standards": [
+        "csbiology-2022:S4.HB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元 人体的营养",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "消化与吸收：消化系统的工作",
+      "description": "消化道的顺序与消化腺；淀粉（口腔唾液开始）、蛋白质（胃开始）、脂肪（小肠始）的化学消化；小肠是消化吸收的主要场所（长、有绒毛、多消化液、壁薄）。食物的「拆解流水线」——结构与功能相适应的经典样本。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成「馒头在口腔的变化」实验设计",
+        "能说出小肠适于吸收的四个特点"
+      ],
+      "assessmentPrompt": "问{{name}}：细嚼馒头为什么越嚼越甜？为什么说小肠是消化吸收主场所（四个理由）？胆汁不含酶为什么还重要？",
+      "standards": [
+        "csbiology-2022:S4.HB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元 人体的营养",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_02"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "呼吸系统与气体交换",
+      "description": "呼吸道（清洁温暖湿润空气）与肺（气体交换场所）；呼吸运动（膈肌与肋间肌收缩→胸腔扩大→吸气）；肺泡与血液、血液与组织细胞的两次气体交换（扩散）。一呼一吸的物理与生理。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能演示说明吸气时膈顶下降",
+        "能解释肺泡适于气体交换的三特点"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么用鼻呼吸比用嘴好？吞咽时为什么不能说笑（会厌软骨）？煤气中毒是哪里出了问题？",
+      "standards": [
+        "csbiology-2022:S4.HB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元 人体的呼吸",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_11"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "血液与血管",
+      "description": "血浆与三种血细胞（红细胞运氧——含血红蛋白、白细胞防御、血小板止血）；三种血管（动脉离心管厚、静脉向心有瓣、毛细血管壁薄交换）。身体的运输网——血液为什么是红的。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能根据血常规判断炎症或贫血",
+        "能区分三种血管的结构与血流特点"
+      ],
+      "assessmentPrompt": "问{{name}}：血常规白细胞偏高说明什么？贫血是缺什么？为什么静脉输液扎手臂上的「青筋」？",
+      "standards": [
+        "csbiology-2022:S4.HB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四章 人体内物质的运输",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_02"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_06",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "心脏与血液循环",
+      "description": "心脏四腔与瓣膜（防止倒流）；体循环（左心室→全身→右心房，动脉血变静脉血）与肺循环（反之）；血压与脉搏。循环系统的双泵模型——一滴血的两条旅行路线。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能画出两条循环路线并标动脉血静脉血",
+        "能说明房室瓣与动脉瓣的作用"
+      ],
+      "assessmentPrompt": "问{{name}}：左手输液从手背静脉进入，最先到心脏哪个腔？肺循环里流的是什么血？为什么说心脏是「泵」？",
+      "standards": [
+        "csbiology-2022:S4.HB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四章 人体内物质的运输",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_04",
+        "ct_sw_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_07",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "泌尿系统与排泄",
+      "description": "排泄的三条途径；肾脏的结构单位（肾单位：肾小球滤过→肾小管重吸收→尿液形成）；血浆、原尿、尿液的成分对比。血液的净化工厂——一杯尿的诞生记。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能排出尿液形成的两个环节",
+        "能解释为什么原尿无葡萄糖而糖尿病人尿中有糖"
+      ],
+      "assessmentPrompt": "问{{name}}：血尿蛋白尿说明肾脏哪个结构出问题了？多喝水尿多说明了什么？出汗多尿为什么少？",
+      "standards": [
+        "csbiology-2022:S4.HB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第五章 人体内废物的排出",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_06"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_08",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "神经调节：反射与反射弧",
+      "description": "神经系统的组成（中枢与周围）；神经元是基本单位；反射（简单反射与复杂反射）；反射弧五环节（感受器→传入→神经中枢→传出→效应器）——缺一不可。生物电报系统——为什么摸到烫手立刻缩手。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能写出缩手反射的反射弧",
+        "能判断哪种反射生来就有"
+      ],
+      "assessmentPrompt": "问{{name}}：缩手反射的神经中枢在哪（脊髓）？被烫到是先缩手还是先觉得疼？「望梅止渴」是什么反射？",
+      "standards": [
+        "csbiology-2022:S4.HB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六章 人体生命活动的调节",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_09",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "眼与视觉、耳与听觉",
+      "description": "眼球的结构与成像（晶状体调节、视网膜成像倒立缩小的实像）；近视的成因（晶状体变凸/眼球前后径过长→物像落在视网膜前方）与矫正（凹透镜）；耳的听觉形成。感觉器官——世界如何被我们看见听见。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明近视成因并画出矫正光路",
+        "能解释瞳孔在暗处变大的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：近视眼物像成在哪、戴什么镜？为什么看近处久会眼疲劳？晕车与哪个结构有关？",
+      "standards": [
+        "csbiology-2022:S4.HB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六章 感受器与感觉器官",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_10",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "激素调节",
+      "description": "内分泌腺与外分泌腺的区别；生长激素（幼年过少侏儒、过多巨人症）、甲状腺激素（缺碘呆小症/地方性甲状腺肿）、胰岛素（降血糖——糖尿病）。体液调节的另一条慢通道——与神经调节协同作战。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能对三种激素的异常症状连线",
+        "能说明胰岛素与尿糖的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：侏儒症和呆小症都矮，区别在哪（智力）？糖尿病是哪种激素出问题？为什么说神经调节是主导？",
+      "standards": [
+        "csbiology-2022:S4.HB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六章 激素调节",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_sw_g7b_11",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "人类活动对生物圈的影响",
+      "description": "人口增长与资源压力；酸雨、臭氧层破坏、水污染与重金属富集；生态环境的保护行动。生物学的公民课——人类是生物圈的一员还是主宰？",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能举酸雨成因与危害",
+        "能说明为什么水体污染最终回到人类餐桌"
+      ],
+      "assessmentPrompt": "问{{name}}：酸雨的 pH 为什么小于 5.6？日本水俣病的汞是怎么到人体的（食物链）？碳达峰碳中和是什么意思？",
+      "standards": [
+        "csbiology-2022:S4.BE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第七章 人类活动对生物圈的影响",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_sw_g7a_02",
+        "ct_sw_g7a_13"
       ]
     }
   ]
