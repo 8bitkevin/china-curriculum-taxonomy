@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.11.0",
+  "version": "0.12.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 335,
+  "topicCount": 361,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -10305,6 +10305,799 @@
       "prerequisites": [
         "ct_g7a_19",
         "ct_g7a_20"
+      ]
+    },
+    {
+      "id": "ct_g7b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相交线、邻补角与对顶角",
+      "description": "两条直线相交形成四个角：相邻的两个互为邻补角（和 180°），相对的两个互为对顶角——对顶角相等，这是初中第一条要「讲道理」的几何性质。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能辨认对顶角与邻补角",
+        "能用「对顶角相等」进行简单推理计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「两条直线相交，∠1=40°，其余三个角各是多少？为什么对顶角相等？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_24"
+      ]
+    },
+    {
+      "id": "ct_g7b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "垂线与点到直线的距离",
+      "description": "相交成直角时两直线互相垂直。过一点有且只有一条直线与已知直线垂直；直线外一点到这条直线的所有线段中，垂线段最短——它的长度叫点到直线的距离。跳远量起跳线，量的就是垂线段。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用三角板规范地画垂线",
+        "能说出垂线段最短并指出点到直线的距离"
+      ],
+      "assessmentPrompt": "问{{name}}：「跳远成绩为什么量落脚点到起跳线的垂线段？过直线外一点能画几条垂线？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_19",
+        "ct_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_g7b_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三线八角：同位角、内错角、同旁内角",
+      "description": "第三条直线（截线）截两条直线，形成八个角：位置像 F 的是同位角、像 Z 的是内错角、像 U 的是同旁内角。认角是平行线判定与性质的「识字课」，形状记忆法一学就会。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能在复杂图形中准确识别三类角",
+        "能说出识别依据（位置关系而非大小关系）"
+      ],
+      "assessmentPrompt": "画两条直线被第三条所截，让{{name}}标出所有同位角、内错角、同旁内角，问「这三个词说的是角的大小还是位置？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_g7b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行线及其判定",
+      "description": "不相交的两条直线平行（同平面内）。判定：同位角相等→两直线平行；内错角相等→平行；同旁内角互补→平行。「由角定线」——平行线的身份证由角来核发。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能运用三种判定说明两直线平行",
+        "能写出简单的推理过程（因为…所以…）"
+      ],
+      "assessmentPrompt": "问{{name}}：「∠1=∠2（内错角），AB 与 CD 平行吗？依据是什么？把推理说完整。」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_18",
+        "ct_g7b_03"
+      ]
+    },
+    {
+      "id": "ct_g7b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行公理与平行线的性质",
+      "description": "经过直线外一点，有且只有一条直线与它平行（平行公理）。性质与判定互逆：两直线平行→同位角相等、内错角相等、同旁内角互补。「由线定角」——判定和性质是一枚硬币的两面。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能区分判定与性质的方向并正确选用",
+        "能完成两三步的平行线推理题"
+      ],
+      "assessmentPrompt": "问{{name}}：「a∥b，∠1=110°，内错角多少度？『两直线平行内错角相等』和『内错角相等两直线平行』是同一句话吗？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_04"
+      ]
+    },
+    {
+      "id": "ct_g7b_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "命题、定理与证明",
+      "description": "判断一件事情的句子叫命题：由题设和结论组成，有真有假。经过推理证实的真命题叫定理。证明 = 从题设出发、步步有据地推出结论——几何从「看图说话」走向「讲道理」。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能把命题改写成「如果…那么…」并判断真假",
+        "能区分定义、命题、定理、证明"
+      ],
+      "assessmentPrompt": "问{{name}}：「『对顶角相等』的题设和结论各是什么？举反例说明『相等的角是对顶角』为什么是假命题。」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_g7b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平移（图形变化的角度）",
+      "description": "把图形沿某方向移动一定距离：对应点连线平行且相等，图形形状大小不变。用平移可以设计图案、简化计算（阶梯路线拉直）。「等价款」背后的几何变换。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能画出平移后的图形并指出对应点连线特征",
+        "能用平移变换解决简单图案与路径问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「楼梯侧面是折线，铺地毯的长度怎么用平移巧算？平移改变了图形的什么、没改变什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_28",
+        "ct_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_g7b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "平方根与算术平方根",
+      "description": "x²=16，x=±4：±4 是 16 的平方根，其中正的 4 叫算术平方根 √16=4。负数没有平方根，√a（a≥0）是非负的。乘方的逆运算登场——「开方」。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能求完全平方数的平方根与算术平方根",
+        "知道 √a 的双重非负性并能用其解题"
+      ],
+      "assessmentPrompt": "问{{name}}：「49 的平方根和算术平方根各是什么？√0 是多少？-4 有平方根吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_g7b_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "立方根",
+      "description": "x³=27，x=3：27 的立方根是 3，记作 ∛27。与平方根不同：负数有立方根（∛-8=-2），且一个数只有一个立方根。正数、0、负数，人人都有立方根。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能求完全立方数的立方根",
+        "能对比平方根与立方根的异同"
+      ],
+      "assessmentPrompt": "问{{name}}：「∛-64 是多少？64 的立方根和平方根一样吗？为什么负数有立方根？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_g7b_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实数与无理数",
+      "description": "√2=1.414213…无限不循环，是无理数。有理数和无理数统称实数——数轴上的点终于与实数一一对应，「度量不完」的缝隙被填满。这是数系的最后一次大扩张（直到复数）。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能对实数按定义和符号分类",
+        "能在数轴上表示 √2 等无理数并比较大小"
+      ],
+      "assessmentPrompt": "问{{name}}：「√2、π、0.313113111…是无理数吗？√2 与 1.5 谁大？实数和数轴上的点什么关系？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_04",
+        "ct_g7b_09"
+      ]
+    },
+    {
+      "id": "ct_g7b_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实数的运算",
+      "description": "有理数的运算法则与运算律在实数范围全部有效：√2×√8=√16=4，(∛-8)+5=3。结果要求准确时用根号留着，要求近似时按需取值——√3≈1.732 是要记住的常数。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能进行含根号的实数混合运算",
+        "能用计算器求无理数近似值并按精度取舍"
+      ],
+      "assessmentPrompt": "问{{name}}：「√2×√18 等于多少？|√3-2| + √3 怎么化简（提示 √3<2）？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_10"
+      ]
+    },
+    {
+      "id": "ct_g7b_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平面直角坐标系",
+      "description": "两条互相垂直、原点重合的数轴组成平面直角坐标系：横轴 x、纵轴 y，把平面分成四个象限。有序数对 (a,b) 与平面上的点一一对应——数对升级成坐标（跨学段衔接：数对→坐标系）。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能根据坐标描点、根据点写坐标",
+        "能说出各象限及坐标轴上点的坐标符号特征"
+      ],
+      "assessmentPrompt": "问{{name}}：「点 (-3,2) 在第几象限？x 轴上的点坐标有什么特点？(2,-3) 和 (-3,2) 是同一个点吗？」",
+      "standards": [
+        "csmath-2022:S4.GS.CO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_06",
+        "ct_g7a_03"
+      ]
+    },
+    {
+      "id": "ct_g7b_13",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用坐标表示地理位置",
+      "description": "建立坐标系（选原点、定方向、定单位长度），把地点翻译成坐标，平面图就有了数学骨架。比例尺 + 坐标系 = 地图的数学内核。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能建立适当坐标系描述地理位置",
+        "能根据平面图写出各点坐标并计算简单距离"
+      ],
+      "assessmentPrompt": "让{{name}}以学校为原点画坐标系，标出家、超市、公园的坐标，问「原点选别处坐标会怎么变？」",
+      "standards": [
+        "csmath-2022:S4.GS.CO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_06",
+        "ct_g7b_12"
+      ]
+    },
+    {
+      "id": "ct_g7b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用坐标表示平移",
+      "description": "点 (x,y) 向右平移 a 个单位 → (x+a, y)；向上 → (x, y+a)。图形的平移看关键点。坐标里的加减法驱动图形的运动——数与形在坐标系里合署办公。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能写出平移后的坐标并指出平移方向距离",
+        "能逆向判断两次平移的路径"
+      ],
+      "assessmentPrompt": "问{{name}}：「点 A(2,-3) 先向左平移 3，再向上平移 5，到了哪？怎么从坐标变化看出平移过程？」",
+      "standards": [
+        "csmath-2022:S4.GS.CO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_07",
+        "ct_g7b_13"
+      ]
+    },
+    {
+      "id": "ct_g7b_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二元一次方程组的概念",
+      "description": "含两个未知数、次数都是 1 的方程叫二元一次方程；两个方程合在一起是方程组。x+y=5 的解有无数个，但两个方程的公共解往往只有一个——「矛盾」出真相。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能识别二元一次方程（组）并检验解",
+        "能通过列表尝试求简单方程组的解"
+      ],
+      "assessmentPrompt": "问{{name}}：「x=2、y=3 是 x+y=5 的解吗？那它是方程组 x+y=5、x-y=-1 的解吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_15"
+      ]
+    },
+    {
+      "id": "ct_g7b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解二元一次方程组：代入消元法",
+      "description": "把一个方程变形成 y=…，代入另一个方程，二元变一元！消元是解方程组的第一思想——「化多为少、化新为旧」。变形、代入、求解、回代、写解，五步闭环。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用代入法解二元一次方程组",
+        "能选择系数简单的方程变形以提高效率"
+      ],
+      "assessmentPrompt": "让{{name}}用代入法解 y=x+3、x+y=9，边解边说哪一步在「消元」。",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_15"
+      ]
+    },
+    {
+      "id": "ct_g7b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解二元一次方程组：加减消元法",
+      "description": "同一未知数系数相同或相反时，两方程相加减直接消元；系数不凑巧就先乘倍数再加减。加减法与代入法殊途同归——工具箱里有两把刀，哪个顺手用哪个。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用加减法解二元一次方程组（含需变形的情形）",
+        "能根据系数特点选择代入或加减"
+      ],
+      "assessmentPrompt": "让{{name}}解 3x+2y=12、3x-2y=0，问「为什么两式相加就消掉了 y？什么时候先乘再加减？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_16"
+      ]
+    },
+    {
+      "id": "ct_g7b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实际问题与二元一次方程组",
+      "description": "鸡兔同笼用方程组秒杀：设鸡 x 只兔 y 只，x+y=35、2x+4y=94。行程、配套、分配、几何尺寸——两个未知数互相牵制的问题，正是方程组的主场。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能设两个未知数建立方程组解应用题",
+        "能检验解的实际合理性"
+      ],
+      "assessmentPrompt": "问{{name}}：「鸡兔同笼 35 头 94 足，鸡兔各几只？用方程组怎么列？和小学假设法比哪个顺？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_31",
+        "ct_g7a_17",
+        "ct_g7b_17"
+      ]
+    },
+    {
+      "id": "ct_g7b_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三元一次方程组（选学）",
+      "description": "三个未知数、三个方程：消一次元剩二元，再消一次剩一元——消元思想连用两轮。复杂问题分步化简，这正是线性代数大厦的第一块砖。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能通过两次消元解简单三元一次方程组",
+        "能说清先消谁的选择策略"
+      ],
+      "assessmentPrompt": "问{{name}}：「x+y+z=6、x-y+z=2、x+y-z=0，先消哪个元最方便？解出来 x、y、z 各是几？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_18"
+      ]
+    },
+    {
+      "id": "ct_g7b_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "不等式及其性质",
+      "description": "用不等号连接的式子是不等式。性质三是陷阱：两边同乘（除）负数，不等号方向要翻转！-2x>6 的解是 x<-3。「天平」换成了「跷跷板」，负数一来就翻盘。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能运用不等式性质变形并判断对错",
+        "能举例验证性质三（乘负变号）"
+      ],
+      "assessmentPrompt": "问{{name}}：「a>b，那么 a-3 和 b-3 谁大？-2a 和 -2b 呢？为什么乘负数要变号？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 9,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_02",
+        "ct_g7a_14"
+      ]
+    },
+    {
+      "id": "ct_g7b_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一元一次不等式的解法与数轴表示",
+      "description": "解法与一元一次方程如出一辙（去分母、去括号、移项、合并、系数化 1），只在除以负数时变号。解集在数轴上画出来：≥ 画实心点、< 画空心圈。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能正确解一元一次不等式",
+        "能在数轴上准确表示解集（实心与空心的区别）"
+      ],
+      "assessmentPrompt": "让{{name}}解 (x-1)/3 > 2 - x 并在数轴上表示解集，提醒两边同乘 3 时每项都要乘。",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 9,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_16",
+        "ct_g7b_20"
+      ]
+    },
+    {
+      "id": "ct_g7b_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一元一次不等式组",
+      "description": "几个不等式解集的公共部分是不等式组的解集：「大大取大、小小取小、大小小大取中间、大大小小无解」。口诀配数轴，公共部分一目了然。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能解一元一次不等式组并求公共解集",
+        "能处理无解与任意解的特殊情形"
+      ],
+      "assessmentPrompt": "问{{name}}：「x>2 且 x<5，解集是什么？x>3 且 x<1 呢？『大小小大取中间』什么意思？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 9,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_21"
+      ]
+    },
+    {
+      "id": "ct_g7b_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实际问题与一元一次不等式（方案决策）",
+      "description": "「购满 30 台打八折，超过部分打七折，买几台选哪家？」列不等式找范围、再结合实际取整。不等式给「范围」，方程给「点」——决策问题的两把尺子。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能把实际问题抽象为不等式（组）",
+        "能根据解集做出方案决策并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「旅行社成人 200 元、学生 5 折；12 人以上一律 6 折。老师带 8 个学生，选哪种？带 15 个呢？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 9,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_18",
+        "ct_g7b_22"
+      ]
+    },
+    {
+      "id": "ct_g7b_24",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "统计调查：全面调查与抽样调查",
+      "description": "调查全班视力是全面调查；调查全国中学生视力只能抽样。样本要广、要随机、要有代表性——「一勺汤知道全锅咸淡」的前提是汤搅匀了。总体、个体、样本、样本容量四件套。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能区分全面调查与抽样调查并说明选择理由",
+        "能指出调查中的总体、个体、样本"
+      ],
+      "assessmentPrompt": "问{{name}}：「了解一锅汤的咸淡用哪种调查？了解全班同学身高呢？样本怎么选才靠谱？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 10,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_28"
+      ]
+    },
+    {
+      "id": "ct_g7b_25",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "频数分布直方图",
+      "description": "把数据分组、数出每组频数、画成相连的直方图：组距、组数、频数三要素。身高分布、成绩分布的「形状」看得见——比扇形图更细、比条形图更连续。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能完成列频数分布表并绘制直方图",
+        "能从直方图读取信息（众数所在组、分布形态）"
+      ],
+      "assessmentPrompt": "给{{name}}全班 40 人的身高数据：「组距取 5 厘米，分几组？直方图怎么画？哪一段人最多？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 10,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_30",
+        "ct_g7b_24"
+      ]
+    },
+    {
+      "id": "ct_g7b_26",
+      "type": "META",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "统计活动综合：从数据看问题",
+      "description": "完整走一遍：明确问题→收集数据（问卷）→整理（表格）→描述（图表）→分析（结论）。用数据回答「同学们最需要的减负措施是什么」——统计的完整旅程比任何单点技能都珍贵。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能设计简单的调查方案并实施",
+        "能用统计图表支撑结论并汇报"
+      ],
+      "assessmentPrompt": "让{{name}}设计一份「家庭一周塑料袋使用」小调查：调查谁、记录什么、画什么图、能得出什么结论？",
+      "standards": [
+        "csmath-2022:S4.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 10,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_25"
       ]
     }
   ]

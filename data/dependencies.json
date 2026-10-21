@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.11.0",
+  "version": "0.12.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 553,
+  "edgeCount": 592,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -3321,6 +3321,240 @@
       "prerequisiteId": "ct_g7a_19",
       "strength": "hard",
       "reason": "制作包装盒的核心操作是画展开图并折叠验证"
+    },
+    {
+      "topicId": "ct_g7b_01",
+      "prerequisiteId": "ct_g7a_24",
+      "strength": "hard",
+      "reason": "邻补角的定义与计算直接使用补角概念"
+    },
+    {
+      "topicId": "ct_g7b_02",
+      "prerequisiteId": "ct_g7b_01",
+      "strength": "hard",
+      "reason": "垂直是相交的特殊情形，在相交线框架内定义"
+    },
+    {
+      "topicId": "ct_g7b_02",
+      "prerequisiteId": "ct_g4a_19",
+      "strength": "hard",
+      "reason": "小学垂线画法与「垂线段最短」的直观经验在此严格化（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7b_03",
+      "prerequisiteId": "ct_g7b_01",
+      "strength": "hard",
+      "reason": "三线八角是两条直线被第三条所截的一般情形，相交线是起点"
+    },
+    {
+      "topicId": "ct_g7b_04",
+      "prerequisiteId": "ct_g7b_03",
+      "strength": "hard",
+      "reason": "平行判定依据三类位置角的数量关系，先认角再判定"
+    },
+    {
+      "topicId": "ct_g7b_04",
+      "prerequisiteId": "ct_g4a_18",
+      "strength": "soft",
+      "reason": "小学平行与垂直的直观认识升级为判定定理（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7b_05",
+      "prerequisiteId": "ct_g7b_04",
+      "strength": "hard",
+      "reason": "性质与判定互为逆命题，对照学习"
+    },
+    {
+      "topicId": "ct_g7b_06",
+      "prerequisiteId": "ct_g7b_05",
+      "strength": "hard",
+      "reason": "命题与证明的素材（平行线定理）刚学完，趁热讲证明规范"
+    },
+    {
+      "topicId": "ct_g7b_07",
+      "prerequisiteId": "ct_g7b_05",
+      "strength": "soft",
+      "reason": "平移中对应点连线平行的论证使用平行判定"
+    },
+    {
+      "topicId": "ct_g7b_07",
+      "prerequisiteId": "ct_g4b_28",
+      "strength": "hard",
+      "reason": "小学方格纸平移作图经验升级为平移的性质研究（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7b_08",
+      "prerequisiteId": "ct_g7a_08",
+      "strength": "hard",
+      "reason": "平方根是乘方的逆运算，乘方概念与计算是前提"
+    },
+    {
+      "topicId": "ct_g7b_09",
+      "prerequisiteId": "ct_g7b_08",
+      "strength": "hard",
+      "reason": "立方根与平方根对照定义（开方思想一致）"
+    },
+    {
+      "topicId": "ct_g7b_10",
+      "prerequisiteId": "ct_g7b_09",
+      "strength": "hard",
+      "reason": "无理数由开方开不尽引入（√2），实数概念建立在开方之后"
+    },
+    {
+      "topicId": "ct_g7b_10",
+      "prerequisiteId": "ct_g7a_04",
+      "strength": "hard",
+      "reason": "实数大小比较沿用数轴上右大左小（绝对值辅助）的规则"
+    },
+    {
+      "topicId": "ct_g7b_11",
+      "prerequisiteId": "ct_g7b_10",
+      "strength": "hard",
+      "reason": "实数运算的对象是无理数与有理数混合的实数"
+    },
+    {
+      "topicId": "ct_g7b_12",
+      "prerequisiteId": "ct_g5a_06",
+      "strength": "hard",
+      "reason": "小学数对（列，行）是直角坐标的前身，坐标系是其严格化（跨学段衔接：数对→坐标）"
+    },
+    {
+      "topicId": "ct_g7b_12",
+      "prerequisiteId": "ct_g7a_03",
+      "strength": "hard",
+      "reason": "坐标系的 x 轴 y 轴就是数轴，数轴概念是坐标系的地基"
+    },
+    {
+      "topicId": "ct_g7b_13",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "hard",
+      "reason": "表示地理位置是建立坐标系并用坐标描述点的应用"
+    },
+    {
+      "topicId": "ct_g7b_13",
+      "prerequisiteId": "ct_g6a_06",
+      "strength": "soft",
+      "reason": "方向+距离定位与坐标定位互补，平面图经验相通"
+    },
+    {
+      "topicId": "ct_g7b_14",
+      "prerequisiteId": "ct_g7b_13",
+      "strength": "hard",
+      "reason": "坐标平移规律在坐标系应用情境中提出"
+    },
+    {
+      "topicId": "ct_g7b_14",
+      "prerequisiteId": "ct_g7b_07",
+      "strength": "hard",
+      "reason": "坐标平移是本章图形平移的代数表达，平移性质决定坐标规律"
+    },
+    {
+      "topicId": "ct_g7b_15",
+      "prerequisiteId": "ct_g7a_15",
+      "strength": "hard",
+      "reason": "二元方程组的概念与一元一次方程对照建立（元与次的意义）"
+    },
+    {
+      "topicId": "ct_g7b_16",
+      "prerequisiteId": "ct_g7b_15",
+      "strength": "hard",
+      "reason": "代入消元以方程组概念为前提，变形用一元一次方程解法"
+    },
+    {
+      "topicId": "ct_g7b_17",
+      "prerequisiteId": "ct_g7b_16",
+      "strength": "hard",
+      "reason": "加减法与代入法同属消元思想，先学代入建立程序感"
+    },
+    {
+      "topicId": "ct_g7b_18",
+      "prerequisiteId": "ct_g7b_17",
+      "strength": "hard",
+      "reason": "应用题需要灵活选用两种消元法"
+    },
+    {
+      "topicId": "ct_g7b_18",
+      "prerequisiteId": "ct_g7a_17",
+      "strength": "hard",
+      "reason": "列方程解应用题的设-列-解-验-答框架直接迁移"
+    },
+    {
+      "topicId": "ct_g7b_18",
+      "prerequisiteId": "ct_g4b_31",
+      "strength": "soft",
+      "reason": "鸡兔同笼在小学用假设法，方程组给出一般解（跨学段衔接：算术→代数）"
+    },
+    {
+      "topicId": "ct_g7b_19",
+      "prerequisiteId": "ct_g7b_18",
+      "strength": "hard",
+      "reason": "三元方程组靠两轮消元化为二元再一元，以二元组解法为基础"
+    },
+    {
+      "topicId": "ct_g7b_20",
+      "prerequisiteId": "ct_g7a_14",
+      "strength": "hard",
+      "reason": "不等式性质与等式性质对照学习（同加减成立、乘除需辨符号）"
+    },
+    {
+      "topicId": "ct_g7b_20",
+      "prerequisiteId": "ct_g6b_02",
+      "strength": "soft",
+      "reason": "数轴上比较大小的经验是理解不等关系与解集的基础"
+    },
+    {
+      "topicId": "ct_g7b_21",
+      "prerequisiteId": "ct_g7b_20",
+      "strength": "hard",
+      "reason": "解不等式的每步变形依据不等式性质（尤其变号）"
+    },
+    {
+      "topicId": "ct_g7b_21",
+      "prerequisiteId": "ct_g7a_16",
+      "strength": "hard",
+      "reason": "解法五步与一元一次方程完全同构"
+    },
+    {
+      "topicId": "ct_g7b_22",
+      "prerequisiteId": "ct_g7b_21",
+      "strength": "hard",
+      "reason": "不等式组由多个一元一次不等式组成，先会后合"
+    },
+    {
+      "topicId": "ct_g7b_23",
+      "prerequisiteId": "ct_g7b_22",
+      "strength": "hard",
+      "reason": "方案决策常化为不等式组求范围再取整"
+    },
+    {
+      "topicId": "ct_g7b_23",
+      "prerequisiteId": "ct_g7a_18",
+      "strength": "soft",
+      "reason": "方案选择问题与七上的销售方案问题情境相承，工具从方程升级为不等式"
+    },
+    {
+      "topicId": "ct_g7b_24",
+      "prerequisiteId": "ct_g4a_28",
+      "strength": "soft",
+      "reason": "统计调查的数据呈现沿用条形图等小学图表经验（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7b_25",
+      "prerequisiteId": "ct_g7b_24",
+      "strength": "hard",
+      "reason": "直方图是统计调查中数据整理与描述的工具"
+    },
+    {
+      "topicId": "ct_g7b_25",
+      "prerequisiteId": "ct_g4b_30",
+      "strength": "soft",
+      "reason": "频数分布直方图与复式条形图同族，画图规范相通"
+    },
+    {
+      "topicId": "ct_g7b_26",
+      "prerequisiteId": "ct_g7b_25",
+      "strength": "hard",
+      "reason": "综合统计活动运用直方图等全部描述工具"
     }
   ]
 }
