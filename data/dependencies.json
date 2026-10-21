@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.3.0",
+  "version": "1.4.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1035,
+  "edgeCount": 1064,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6213,6 +6213,180 @@
       "prerequisiteId": "ct_yw_g2a_03",
       "strength": "soft",
       "reason": "形近字同音字辨析直接服务于减少错别字"
+    },
+    {
+      "topicId": "ct_yw_g2b_01",
+      "prerequisiteId": "ct_yw_g2a_02",
+      "strength": "hard",
+      "reason": "字理故事是形声字规律的文化加深：从「形旁表义」到「为什么表义」"
+    },
+    {
+      "topicId": "ct_yw_g2b_02",
+      "prerequisiteId": "ct_yw_g2a_01",
+      "strength": "hard",
+      "reason": "部首查字法熟练后才能在两种查法间按需选择"
+    },
+    {
+      "topicId": "ct_yw_g2b_03",
+      "prerequisiteId": "ct_yw_g2a_03",
+      "strength": "hard",
+      "reason": "多音多义辨析是形近字同音字辨析的延伸：都靠语境定音定形"
+    },
+    {
+      "topicId": "ct_yw_g2b_04",
+      "prerequisiteId": "ct_yw_g2a_14",
+      "strength": "hard",
+      "reason": "写好朋友从写玩具的观察表达迁移到写人"
+    },
+    {
+      "topicId": "ct_yw_g2b_05",
+      "prerequisiteId": "ct_yw_g2a_16",
+      "strength": "hard",
+      "reason": "看图编故事在多幅图写话基础上加强想象与对话"
+    },
+    {
+      "topicId": "ct_yw_g2b_06",
+      "prerequisiteId": "ct_yw_g2a_16",
+      "strength": "hard",
+      "reason": "疑问句书面写话依托看图写话的书面表达基础"
+    },
+    {
+      "topicId": "ct_yw_g2b_07",
+      "prerequisiteId": "ct_yw_g2a_16",
+      "strength": "hard",
+      "reason": "写理由的说服性表达建立在多句连贯写话之上"
+    },
+    {
+      "topicId": "ct_yw_g2b_07",
+      "prerequisiteId": "ct_yw_g2b_06",
+      "strength": "soft",
+      "reason": "同属二年级下册系列写话训练，表达面互补"
+    },
+    {
+      "topicId": "ct_yw_g2b_08",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "hard",
+      "reason": "诗歌朗读延续儿歌朗读的节奏感，进阶到情感与画面"
+    },
+    {
+      "topicId": "ct_yw_g2b_09",
+      "prerequisiteId": "ct_yw_g2a_05",
+      "strength": "hard",
+      "reason": "默读起步后，加入问题导向的任务式默读"
+    },
+    {
+      "topicId": "ct_yw_g2b_09",
+      "prerequisiteId": "ct_yw_g1b_07",
+      "strength": "soft",
+      "reason": "找信息回答问题的经验在默读情境中复用"
+    },
+    {
+      "topicId": "ct_yw_g2b_10",
+      "prerequisiteId": "ct_yw_g2b_09",
+      "strength": "hard",
+      "reason": "分类整理以默读提取信息为前提"
+    },
+    {
+      "topicId": "ct_yw_g2b_10",
+      "prerequisiteId": "ct_yw_g1b_16",
+      "strength": "soft",
+      "reason": "分类整理课文的技能与词语归类同源"
+    },
+    {
+      "topicId": "ct_yw_g2b_11",
+      "prerequisiteId": "ct_yw_g2a_10",
+      "strength": "hard",
+      "reason": "寓言道理进阶：从说出寓意到联系自身运用"
+    },
+    {
+      "topicId": "ct_yw_g2b_12",
+      "prerequisiteId": "ct_yw_g2a_11",
+      "strength": "hard",
+      "reason": "示意图讲故事给顺序讲述提供外置提纲，能力递进"
+    },
+    {
+      "topicId": "ct_yw_g2b_13",
+      "prerequisiteId": "ct_yw_g1b_10",
+      "strength": "hard",
+      "reason": "分角色表演是对话分角色朗读的具身化进阶"
+    },
+    {
+      "topicId": "ct_yw_g2b_14",
+      "prerequisiteId": "ct_yw_g2a_09",
+      "strength": "hard",
+      "reason": "古诗积累继续，新增按主题（季节）分类整理的意识"
+    },
+    {
+      "topicId": "ct_yw_g2b_15",
+      "prerequisiteId": "ct_yw_g2a_13",
+      "strength": "hard",
+      "reason": "商量语气的进阶：从提请求到整体避免命令腔"
+    },
+    {
+      "topicId": "ct_yw_g2b_16",
+      "prerequisiteId": "ct_yw_g1a_20",
+      "strength": "soft",
+      "reason": "自我介绍的胆量与完整句表达是谈梦想的基础"
+    },
+    {
+      "topicId": "ct_yw_g2b_17",
+      "prerequisiteId": "ct_yw_g2b_15",
+      "strength": "hard",
+      "reason": "小组讨论的礼貌协商建立在个体语气意识之上"
+    },
+    {
+      "topicId": "ct_yw_g2b_18",
+      "prerequisiteId": "ct_yw_g1b_22",
+      "strength": "hard",
+      "reason": "推荐动画片是「说说阅读感受」的对象化升级"
+    },
+    {
+      "topicId": "ct_yw_g2b_19",
+      "prerequisiteId": "ct_yw_g1a_16",
+      "strength": "hard",
+      "reason": "近反义词整理是一年级反义词对的扩容与精细比较"
+    },
+    {
+      "topicId": "ct_yw_g2b_20",
+      "prerequisiteId": "ct_yw_g2a_18",
+      "strength": "hard",
+      "reason": "比喻紧随拟人，两种基本修辞先后建立"
+    },
+    {
+      "topicId": "ct_yw_g2b_21",
+      "prerequisiteId": "ct_yw_g1b_16",
+      "strength": "soft",
+      "reason": "常识整理延续归类整理的方法"
+    },
+    {
+      "topicId": "ct_yw_g2b_22",
+      "prerequisiteId": "ct_yw_g2a_20",
+      "strength": "hard",
+      "reason": "从整本童话到整本儿童故事，篇幅与独立性进阶"
+    },
+    {
+      "topicId": "ct_yw_g2b_23",
+      "prerequisiteId": "ct_yw_g2a_17",
+      "strength": "hard",
+      "reason": "叠词修饰的积累是把话说具体的材料库"
+    },
+    {
+      "topicId": "ct_yw_g2b_23",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "soft",
+      "reason": "句子具体化仍以完整句框架为骨架"
+    },
+    {
+      "topicId": "ct_yw_g2b_24",
+      "prerequisiteId": "ct_yw_g2a_24",
+      "strength": "hard",
+      "reason": "识字量逐年累进自查，低段收官核验"
+    },
+    {
+      "topicId": "ct_yw_g2b_24",
+      "prerequisiteId": "ct_yw_g2a_02",
+      "strength": "soft",
+      "reason": "形声规律自查生字的效率工具"
     }
   ]
 }
