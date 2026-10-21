@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.65.0",
+  "version": "1.66.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2126,
+  "edgeCount": 2136,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12759,6 +12759,66 @@
       "prerequisiteId": "ct_ls_g8b_04",
       "strength": "soft",
       "reason": "中国改革开放融入全球化（入世）——中国史与世界史的合流点"
+    },
+    {
+      "topicId": "ct_ls_g10a_01",
+      "prerequisiteId": "ct_ls_g7a_03",
+      "strength": "hard",
+      "reason": "秦朝中央集权制度（初中学过）是纲要上制度线整合的起点节点"
+    },
+    {
+      "topicId": "ct_ls_g10a_01",
+      "prerequisiteId": "ct_ls_g7b_01",
+      "strength": "hard",
+      "reason": "科举制（初中隋唐）纳入选官制度的专题长线"
+    },
+    {
+      "topicId": "ct_ls_g10a_02",
+      "prerequisiteId": "ct_ls_g8a_01",
+      "strength": "hard",
+      "reason": "高中近代史纲要以初中近代史的史实为基础做主题化重组"
+    },
+    {
+      "topicId": "ct_ls_g10a_02",
+      "prerequisiteId": "ct_ls_g8b_04",
+      "strength": "hard",
+      "reason": "改革开放与民族复兴线以初中现代史知识为底盘"
+    },
+    {
+      "topicId": "ct_ls_g10b_01",
+      "prerequisiteId": "ct_ls_g9a_02",
+      "strength": "hard",
+      "reason": "世界史纲要整合初中学过的新航路革命工业革命等节点"
+    },
+    {
+      "topicId": "ct_ls_g10b_01",
+      "prerequisiteId": "ct_ls_g9b_04",
+      "strength": "hard",
+      "reason": "冷战多极化知识（初中九下）纳入全球格局的纲要叙事"
+    },
+    {
+      "topicId": "ct_ls_g11a_01",
+      "prerequisiteId": "ct_ls_g10a_01",
+      "strength": "hard",
+      "reason": "选必一制度专题在纲要上的通史框架内深化"
+    },
+    {
+      "topicId": "ct_ls_g11b_01",
+      "prerequisiteId": "ct_ls_g10b_01",
+      "strength": "hard",
+      "reason": "选必二经济专题承接纲要下的全球联系与工业文明叙事"
+    },
+    {
+      "topicId": "ct_ls_g12a_01",
+      "prerequisiteId": "ct_ls_g11a_01",
+      "strength": "soft",
+      "reason": "文化交流专题与国家治理专题互补（教化与治理的文化维度）"
+    },
+    {
+      "topicId": "ct_ls_g12a_01",
+      "prerequisiteId": "ct_ls_g7a_04",
+      "strength": "soft",
+      "reason": "丝绸之路（初中学过）是文化交流途径专题的核心案例"
     }
   ]
 }

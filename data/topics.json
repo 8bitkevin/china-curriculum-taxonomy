@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.65.0",
+  "version": "1.66.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1520,
+  "topicCount": 1526,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -47055,6 +47055,197 @@
       "prerequisites": [
         "ct_ls_g8b_04",
         "ct_ls_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "纲要（上）：中国历代政治制度与社会治理",
+      "description": "通史整合：从夏商内外服、西周封建到秦郡县、汉推恩、隋唐三省六部、宋二府三司、元行省、明清废丞相设军机——中央集权与君主专制的两条演进线；选官制度（世袭察举科举）与赋税制度的变迁。通史视野的制度史——初中断代知识的专题化重组。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画出中央集权演进的时间轴并标节点",
+        "能说明科举制与社会流动的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：从汉到清，相权发生了什么变化？行省制为什么能沿用至今？中枢机构的分权制衡在不同朝代怎么体现？",
+      "standards": [
+        "hshistory-2017:H1.OA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一至四单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g7a_03",
+        "ct_ls_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "纲要（上）：救亡图存与民族复兴的百年",
+      "description": "高中通史重述近代现代：列强侵华的阶段性（鸦片—甲午—八国联军—日本全面侵华）与救亡方案迭代（器物—制度—思想—道路）；中国共产党领导的革命建设改革；中华民族共同体的形成。百年近代史的纲要式理解——一条主线四个层次。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用「器物-制度-思想-道路」四层框架梳理近代探索",
+        "能说明各阶级救国方案失败与成功的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么洋务戊戌辛亥都没能救中国而共产党能？四个层次的探索是依次否定还是依次继承？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第五至十单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g8a_01",
+        "ct_ls_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "纲要（下）：全球联系的建立与世界格局",
+      "description": "世界史纲要：中古多元文明；新航路后全球联系（物种交换与殖民体系）；资产阶级革命与工业文明扩展；20 世纪的战争革命与冷战；全球化与多极化。世界从分散走向整体的纲要线——全球史观的建立。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用「分散—联系—整体」概括世界史大势",
+        "能说明两次世界大战对世界格局的重塑"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说 1500 年前后是世界史的转折点？工业文明怎样把世界「拧成一股绳」？当今世界格局的关键词是什么？",
+      "standards": [
+        "hshistory-2017:H1.OB.01",
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "全册",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g9a_02",
+        "ct_ls_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "选必一：国家制度与社会治理",
+      "description": "专题深化：政治体制（中外对比）、官员选拔与管理、法律与教化、民族关系与边疆治理、货币赋税与基层治理。制度史的专题手术——把通史切成六个制度断面深挖。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能比较中西官员选拔制度的异同",
+        "能梳理中国古代赋税制度的三次变化"
+      ],
+      "assessmentPrompt": "问{{name}}：中国古代为什么重视「以德化民」又需要法律？一条鞭法把什么合并了？科举废除于哪一年、为什么？",
+      "standards": [
+        "hshistory-2017:H2.NG.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "全册",
+        "book": "选择性必修1 国家制度与社会治理",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_ls_g10a_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "选必二：经济与社会生活",
+      "description": "经济专题：从食物采集到生产（农业革命）、生产工具与劳作方式、商业贸易与日常生活、村落城镇与居住环境、交通医疗与防疫。衣食住行的历史——经济基础如何托起文明大厦。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明古代到现代生产工具的三次跃迁",
+        "能分析新航路对物种与餐桌的改变"
+      ],
+      "assessmentPrompt": "问{{name}}：没有辣椒之前四川人吃什么？火车轮船怎样改变时间与空间？历史上的大疫怎么改变了社会？",
+      "standards": [
+        "hshistory-2017:H2.ES.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "全册",
+        "book": "选择性必修2 经济与社会生活",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_ls_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g12a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "选必三：文化交流与传播",
+      "description": "文化专题：中华文化的源远流长（从百家到理学的思想脉络）、世界文化的多样性与文化交流的途径（商路留学战争）、战争与文化交锋、文化的传承与保护（教育书籍图书馆）。文明的对话史——文化如何在交流中生生不息。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理中华思想史的脉络（儒学演变）",
+        "能举文化交流双刃剑的例子（战争与文化）"
+      ],
+      "assessmentPrompt": "问{{name}}：佛教怎么进来又怎么变成中国佛教？丝绸之路除了丝绸还传了什么？为什么说文化多样性是人类共同的财富？",
+      "standards": [
+        "hshistory-2017:H2.CE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "全册",
+        "book": "选择性必修3 文化交流与传播",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_ls_g11a_01",
+        "ct_ls_g7a_04"
       ]
     }
   ]
