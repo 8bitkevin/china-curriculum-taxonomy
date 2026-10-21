@@ -163,110 +163,110 @@ table.qt th { background: var(--bg); font-size: 12.5px; color: var(--muted); fon
   border-top: 1px solid var(--line); background: var(--panel);
 }
 
-/* ---------- 3D 全景（WebGL, 对标 withmarble.com/curriculum） ---------- */
-.g3 { position: relative; flex: 1; min-width: 0; min-height: 420px; overflow: hidden; background: #0a0e14; }
+/* ---------- 3D 全景（Canvas 2D 投影，复刻 Marble curriculum 观感） ---------- */
+.g3 { position: relative; flex: 1; min-width: 0; min-height: 420px; overflow: hidden; background: #0d1017; }
 .g3[hidden] { display: none; }
-.g3 > canvas {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  display: block; cursor: grab; touch-action: none;
-}
+.g3 > canvas { position: absolute; inset: 0; cursor: grab; touch-action: none; }
 .g3 > canvas:active { cursor: grabbing; }
 
-.g3-toolbar {
-  position: absolute; z-index: 4; top: 12px; left: 50%; transform: translateX(-50%);
-  display: flex; gap: 8px; align-items: center;
-  background: rgba(13,18,33,.72); backdrop-filter: blur(8px);
-  border: 1px solid rgba(148,163,184,.22); border-radius: 999px; padding: 6px 8px 6px 16px;
-}
-.g3-search {
-  font: inherit; font-size: 13px; padding: 4px 10px; border: 1px solid rgba(148,163,184,.28);
-  border-radius: 999px; width: 200px; background: rgba(10,14,26,.6); color: #e2e8f0;
-}
-.g3-search::placeholder { color: #64748b; }
-.g3-reset {
-  font: inherit; font-size: 13px; padding: 4px 14px; border: 0;
-  border-radius: 999px; background: rgba(148,163,184,.14); cursor: pointer; color: #cbd5e1;
-}
-.g3-reset:hover { color: #fff; background: rgba(148,163,184,.26); }
+/* 左上标题块 */
+.g3-head { position: absolute; z-index: 4; top: 22px; left: 26px; pointer-events: none; }
+.g3-kicker { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: #8b93a7; margin-bottom: 6px; }
+.g3-head h2 { margin: 0 0 8px; font-size: 24px; line-height: 1.2; color: #f2f4f8; font-weight: 700; letter-spacing: .01em; }
+.g3-count { font-size: 12px; color: #8b93a7; }
+.g3-count b { color: #cdd3e0; font-weight: 600; }
 
+/* 图例（左下） */
 .g3-legend {
-  position: absolute; z-index: 4; left: 14px; bottom: 14px;
-  display: flex; flex-direction: column; gap: 2px;
-  background: rgba(13,18,33,.72); backdrop-filter: blur(8px);
-  border: 1px solid rgba(148,163,184,.22); border-radius: 10px; padding: 8px 6px;
+  position: absolute; z-index: 4; left: 18px; bottom: 18px;
+  display: flex; flex-direction: column; gap: 2px; max-width: 230px;
 }
-.g3-lg-item {
+.g3-legend .chip {
   font: inherit; display: flex; align-items: center; gap: 8px;
-  font-size: 12.5px; color: #cbd5e1; background: none; border: 0;
-  padding: 4px 10px; border-radius: 6px; cursor: pointer; text-align: left;
+  font-size: 12.5px; color: #d4d9e4; background: none; border: 0; text-align: left;
+  padding: 4px 10px; border-radius: 7px; cursor: pointer;
 }
-.g3-lg-item:hover { background: rgba(148,163,184,.12); }
-.g3-lg-item i { width: 9px; height: 9px; border-radius: 50%; flex: none; }
-.g3-lg-item em { font-style: normal; color: #64748b; font-size: 11.5px; margin-left: auto; padding-left: 10px; }
-.g3-lg-item.off { opacity: .38; }
-.g3-lg-item.off span { text-decoration: line-through; }
+.g3-legend .chip:hover { background: rgba(148,163,184,.12); }
+.g3-legend .chip:focus-visible { outline: 1px solid #8ea3bd; }
+.g3-legend .chip .sw { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.g3-legend .chip .ct { margin-left: auto; color: #767e93; font-size: 11.5px; }
+.g3-legend .chip.off { opacity: .35; }
+.g3-legend .chip.off .nm { text-decoration: line-through; }
 
-.g3-labels { position: absolute; inset: 0; z-index: 3; pointer-events: none; overflow: hidden; }
-.g3-label {
-  position: absolute; left: 0; top: 0; display: none; white-space: nowrap;
-  font-size: 12px; color: #cbd5e1; text-shadow: 0 1px 3px rgba(0,0,0,.9), 0 0 8px rgba(0,0,0,.6);
-}
-.g3-label.p { color: #fdba74; }
-.g3-label.u { color: #67e8f9; }
-.g3-label.sel { color: #fff; font-weight: 600; }
-
+/* 悬浮提示 */
 .g3-tip {
-  position: absolute; pointer-events: none; z-index: 5; display: none;
-  background: rgba(10,14,26,.92); color: #f1f5f9; border: 1px solid rgba(148,163,184,.3);
-  border-radius: 8px; padding: 7px 11px; font-size: 12.5px; max-width: 260px;
-  flex-direction: column; gap: 2px;
+  position: absolute; z-index: 6; pointer-events: none; display: none;
+  background: rgba(13,16,26,.94); border: 1px solid rgba(148,163,184,.25);
+  border-radius: 10px; padding: 9px 12px; max-width: 250px;
+  box-shadow: 0 8px 28px rgba(0,0,0,.5);
 }
-.g3-tip.show { display: flex; }
-.g3-tip .muted { color: #94a3b8; font-size: 11.5px; }
+.g3-tip.on { display: block; }
+.g3-tip .sw { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+.g3-tip .ts { font-size: 11px; color: #8b93a7; }
+.g3-tip .ttl { font-size: 13.5px; color: #f2f4f8; margin: 4px 0 2px; line-height: 1.35; }
+.g3-tip .q { font-size: 11.5px; color: #a9b1c2; line-height: 1.5; max-height: 66px; overflow: hidden; }
 
+/* 详情卡（右侧，先修浏览器） */
 .g3-card {
-  position: absolute; right: 14px; top: 14px; z-index: 6; width: 330px; max-width: calc(100% - 28px);
-  background: rgba(13,18,33,.92); border: 1px solid rgba(148,163,184,.26);
-  border-radius: 12px; padding: 16px 18px; color: #e2e8f0; display: none;
-  box-shadow: 0 10px 40px rgba(0,0,0,.5); backdrop-filter: blur(8px);
+  position: absolute; z-index: 7; top: 16px; right: 16px; bottom: 16px; width: 336px; max-width: calc(100% - 32px);
+  display: none; flex-direction: column;
+  background: rgba(13,16,26,.95); border: 1px solid rgba(148,163,184,.24);
+  border-radius: 14px; padding: 18px 18px 14px; color: #d4d9e4;
+  box-shadow: 0 16px 60px rgba(0,0,0,.55); backdrop-filter: blur(10px);
+  overflow-y: auto; overscroll-behavior: contain;
 }
-.g3-card.show { display: block; }
-.g3-card-kicker {
-  display: flex; align-items: center; gap: 7px;
-  font-size: 11px; letter-spacing: .08em; color: #94a3b8;
-  text-transform: uppercase; margin-bottom: 7px;
+.g3-card.on { display: flex; }
+.g3-card .close {
+  position: absolute; right: 10px; top: 8px; border: 0; background: none; color: #8b93a7;
+  font-size: 20px; cursor: pointer; padding: 2px 8px; border-radius: 6px;
 }
-.g3-card-kicker i { width: 8px; height: 8px; border-radius: 50%; flex: none; }
-.g3-card h3 { margin: 0 26px 8px 0; font-size: 17px; color: #fff; line-height: 1.35; }
-.g3-card-x {
-  position: absolute; right: 8px; top: 6px; border: 0; background: none; color: #94a3b8;
-  font-size: 18px; cursor: pointer; padding: 2px 8px; border-radius: 6px;
+.g3-card .close:hover { color: #fff; background: rgba(148,163,184,.15); }
+.g3-card .back {
+  border: 0; background: none; color: #8b93a7; font: inherit; font-size: 12px;
+  cursor: pointer; padding: 0 0 10px; display: none; text-align: left;
 }
-.g3-card-x:hover { color: #fff; background: rgba(148,163,184,.15); }
-.g3-card-desc { font-size: 12.5px; line-height: 1.65; color: #cbd5e1; margin: 0 0 14px; }
-.g3-card-stats { display: flex; gap: 26px; margin-bottom: 14px; }
-.g3-card-stats div { display: flex; flex-direction: column; gap: 2px; }
-.g3-card-stats b { font-size: 26px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
-.g3-card-stats span { font-size: 11.5px; color: #94a3b8; }
-.g3-card-open {
-  font: inherit; font-size: 13px; width: 100%; padding: 9px; cursor: pointer;
-  border-radius: 9px; border: 1px solid rgba(148,163,184,.3);
-  background: rgba(59,130,246,.16); color: #bfdbfe;
+.g3-card .back:hover { color: #d4d9e4; }
+.g3-card .back.on { display: block; }
+.g3-card .csw { display: flex; align-items: center; gap: 7px; margin-bottom: 8px; }
+.g3-card .csw .sw { width: 9px; height: 9px; border-radius: 50%; }
+.g3-card .cs { font-size: 11px; letter-spacing: .12em; text-transform: uppercase; color: #8b93a7; }
+.g3-card .ctl { margin: 0 24px 8px 0; font-size: 19px; line-height: 1.3; color: #fff; }
+.g3-card .cq { font-size: 12.5px; line-height: 1.6; color: #a9b1c2; margin: 0 0 14px; }
+.g3-card .cnum { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
+.g3-card .cnum .n { font-size: 30px; font-weight: 700; color: #fff; line-height: 1; }
+.g3-card .cnum .u { font-size: 12px; color: #8b93a7; }
+.g3-card .sub { font-size: 12px; color: #8b93a7; margin: 0 0 14px; line-height: 1.5; }
+.g3-card .sec { border-top: 1px solid rgba(148,163,184,.16); padding-top: 10px; margin-bottom: 12px; }
+.g3-card .sh { font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: #8b93a7; margin-bottom: 6px; }
+.g3-card .sh .k { color: #d4d9e4; margin-left: 4px; }
+.g3-card .rows { display: flex; flex-direction: column; gap: 1px; }
+.g3-card .row {
+  font: inherit; display: flex; align-items: center; gap: 8px; text-align: left;
+  font-size: 12.5px; color: #cdd3e0; background: none; border: 0;
+  padding: 5px 8px; border-radius: 7px; cursor: pointer;
 }
-.g3-card-open:hover { background: rgba(59,130,246,.3); color: #fff; }
+.g3-card .row:hover { background: rgba(148,163,184,.13); }
+.g3-card .row .rdot { width: 8px; height: 8px; border-radius: 50%; flex: none; }
+.g3-card .row .rt { flex: 1; line-height: 1.35; }
+.g3-card .row .ra { color: #767e93; font-size: 11px; white-space: nowrap; }
+.g3-card .empty { font-size: 12px; color: #767e93; padding: 4px 8px; }
+.g3-open {
+  font: inherit; font-size: 12.5px; width: 100%; padding: 9px; cursor: pointer;
+  border-radius: 9px; border: 1px solid rgba(148,163,184,.28);
+  background: rgba(61,99,216,.14); color: #b8c8ee; margin-top: auto;
+}
+.g3-open:hover { background: rgba(61,99,216,.28); color: #fff; }
 
 .g3-hint {
-  position: absolute; z-index: 4; left: 50%; bottom: 14px; transform: translateX(-50%);
-  font-size: 12px; color: #94a3b8; pointer-events: none; white-space: nowrap;
-  background: rgba(10,14,26,.7); padding: 3px 12px; border-radius: 999px;
-  border: 1px solid rgba(148,163,184,.18);
+  position: absolute; z-index: 4; left: 50%; bottom: 16px; transform: translateX(-50%);
+  font-size: 12px; color: #8b93a7; pointer-events: none; white-space: nowrap;
 }
 
 @media (max-width: 900px) {
-  .g3-search { width: 130px; }
-  .g3-card { width: calc(100% - 28px); }
+  .g3-card { width: calc(100% - 28px); top: auto; max-height: 55vh; }
   .g3-legend { display: none; }
   .g3-hint { display: none; }
+  .g3-head h2 { font-size: 19px; }
 }
 
 @media (max-width: 900px) {
