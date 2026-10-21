@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.32.0",
+  "version": "1.33.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1128,
+  "topicCount": 1143,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -34899,6 +34899,473 @@
       },
       "prerequisites": [
         "ct_yy_g6b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "can 与社团：What club do you want to join?",
+      "description": "深化 can 的用法：谈能力与许可（Can you play the guitar? — Yes, a little.），并用于加入社团的完整对话（What club do you want to join? — The swimming club.）。want to do 的不定式第一次出现——can/want 两个高频动词模板。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成社团报名四句对话",
+        "want to 后动词原形无误"
+      ],
+      "assessmentPrompt": "学校社团招新：问{{name}} Can you play chess? What club do you want to join? 看应答与 want to 的使用。",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 1 Can you play the guitar?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "频度副词条：always 到 never",
+      "description": "掌握频度副词梯度 always(100%) → usually → often → sometimes → hardly ever → never(0%)，与 What time / When 问作息搭配（What time do you usually get up?）。频度条是听力与写作的双料考点——排序一分不能丢。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能将六个频度副词按频率排序",
+        "能用频度副词说三句作息"
+      ],
+      "assessmentPrompt": "让{{name}}把 always/usually/often/sometimes/hardly ever/never 排在频率条上；再问 What time do you usually go to bed?",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 2 What time do you go to school?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "出行三连问：How / How long / How far",
+      "description": "掌握出行问答三兄弟：How do you get to school? — I ride my bike. / How long does it take? — About 15 minutes. / How far is it? — Two kilometres. 交通短语（take the subway）+ 时间与距离的 it takes 句型——出行信息的完整包。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "三连问各能问答一轮",
+        "It takes about... 句型使用正确"
+      ],
+      "assessmentPrompt": "问{{name}}：How do you get to school? How long does it take? How far is it? 连答三问再看追问能力。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S3.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 3 How do you get to school?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "规则表达：can't、have to、Don't",
+      "description": "掌握校规三层表达：Don't eat in class.（祈使禁止）/ We can't listen to music.（can't 禁止）/ We have to wear the uniform.（义务）。can/can't/have to 的分工——规则英语的完整工具箱。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出五条班规（三种句式都用上）",
+        "have to 三单 has to 使用正确"
+      ],
+      "assessmentPrompt": "请{{name}}当班长定五条班规：至少各用一次 Don't / can't / have to；考：他必须早到 怎么说？",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 4 Don't eat in class.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "现在进行时系统：与一般现在时对比",
+      "description": "系统掌握现在进行时：结构 be + V-ing、疑问否定、动词变化三类，并与一般现在时对比（I usually watch TV. vs I'm watching TV now.）——时间标志词 usually/every day vs now/look/listen 是判卷的钥匙。初中第一大时态对比。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能根据时间标志词正确选择时态（10 题对 8）",
+        "V-ing 三类拼写无误"
+      ],
+      "assessmentPrompt": "给{{name}}十句混时态填空（Look! The boy ___ (run). / He often ___ (run).），看标志词判断。",
+      "standards": [
+        "csenglish-2022:S3.GR.02",
+        "csenglish-2022:S3.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 6 I'm watching TV.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "天气与进行时综合：How's the weather?",
+      "description": "掌握天气问答 How's the weather in Beijing? — It's sunny/raining. 并结合进行时谈各地人们在做什么（It's raining. They're playing soccer in the rain?）。天气+活动的双信息听力是本单元的高频题型。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能播报三地天气+进行时活动",
+        "rainy 与 raining 的形容词/动词两形会用"
+      ],
+      "assessmentPrompt": "给{{name}}三张城市天气图做连线播报：It's windy in... People are flying kites...",
+      "standards": [
+        "csenglish-2022:S3.LS.01",
+        "csenglish-2022:S3.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 7 It's raining!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4b_03",
+        "ct_yy_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "街区指路：Is there a post office near here?",
+      "description": "复习 there be 并升级为街区问路：Is there a post office near here? — Yes, there is. / Where's the hotel? — Go along Bridge Street and turn left. 方位介词补齐（across from、in front of、next to、between...and）。问路三件套：去处—路线—参照物。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成问路对话五句",
+        "能用 go along/turn left/right + 参照物描述路线"
+      ],
+      "assessmentPrompt": "画街区图问{{name}}：Is there a bank near here? How can I get to the library? 路线至少两步。",
+      "standards": [
+        "csenglish-2022:S3.GR.03",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 8 Is there a post office near here?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5a_06",
+        "ct_yy_g6a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "外貌描述系统：What does he look like?",
+      "description": "掌握外貌句型双轨：He is tall and thin.（be + 体型身高）与 He has short curly hair.（has + 毛发五官）+ 眼镜、穿着（He wears glasses.）。is/has 的分工是最大陷阱——「他高」用 is，「他头发长」用 has。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能描述三个人物各三句（is/has/wears 都用上）",
+        "描述不含性格词（性格用 like 问性格的时代还没到——be like 问整体）"
+      ],
+      "assessmentPrompt": "玩「猜同学」：{{name}}描述一位同学三句（不说名字），你来猜；考：他个子矮留短发怎么连成两句？",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 9 What does he look like?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "would like 点餐：kind 与 size",
+      "description": "掌握点餐系统：What would you like? — I'd like some noodles. / What kind of noodles would you like? — Beef and tomato. / What size would you like? — A large bowl. would like = want 的礼貌版——餐厅对话的初中完整版。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成五句点餐对话（种类+大小+饮料）",
+        "I'd like 后名词形式正确（可数复数/不可数）"
+      ],
+      "assessmentPrompt": "开面馆：{{name}}当服务员完成一单——问 kind、问 size、复述订单三步走。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 10 I'd like some noodles.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_10",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "be 动词的过去时：was / were",
+      "description": "掌握 be 动词过去式：How was your school trip? — It was great! / The weather was terrible. They were at home yesterday. was/were 与 ago、yesterday、last week 等时间标志的搭配——过去时第一课从 be 开始。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "was/were 填空 10 题对 9",
+        "能就昨天问答四句（天气、心情、地点）"
+      ],
+      "assessmentPrompt": "问{{name}}：How was your weekend? Where were you on Saturday? 听 was/were 的选择与时间标志词。",
+      "standards": [
+        "csenglish-2022:S3.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 11 How was your school trip?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "实义动词过去时：What did you do last weekend?",
+      "description": "掌握实义动词过去式：规则 -ed 与高频不规则（do→did、go→went、see→saw、have→had），疑问 What did you do? / Where did you go? / Who did you go with?——did 出现动词还原。过去时叙事的完整装备，七下收官语法。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "过去式填空 15 题对 12 以上",
+        "四连问（what/where/when/who）动词全还原"
+      ],
+      "assessmentPrompt": "问{{name}}周末四连问：What did you do? Where did you go? When? Who with? 再考 I went swimming 的疑问句改法。",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S3.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 12 What did you do last weekend?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6b_04",
+        "ct_yy_g7b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "过去时叙事文：My last weekend（60–70 词）",
+      "description": "写 60–70 词的周末叙事：时间标志开头（Last weekend, I...）→ 两三件事按序 → 感受收尾（It was a busy but happy weekend.）。三段式雏形与连接词 then/after that——初中记叙文的标准像。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "60 词以上、三件事有时序",
+        "至少用两个连接词（then/after that/finally）"
+      ],
+      "assessmentPrompt": "请{{name}}写 My last weekend：检查时间标志开头、连接词和结尾感受句；动词过去式标出核对。",
+      "standards": [
+        "csenglish-2022:S4.WR.02",
+        "csenglish-2022:S4.WR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "Unit 12 写作板块",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6b_08",
+        "ct_yy_g7b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_13",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说综合：指路问路与电话留言",
+      "description": "两种真实交际场景的连招：①问路（去哪—怎么走—多远）②电话对话（May I speak to...? / Can I take a message?）。电话英语是初中听说必考场景——留言五要素（谁、找谁、何事、回电、时间）。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "问路对话六句完整",
+        "能记录并转述一条电话留言"
+      ],
+      "assessmentPrompt": "双场景演练：先演问路去银行；再打「找同学不在」的电话，{{name}}留言：Who's calling? What's the message?",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.LS.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "综合听说训练",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g7b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_14",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：人物与地点介绍短文",
+      "description": "读懂 80–100 词的介绍性短文（笔友介绍、街区导览），完成信息匹配与判断正误。细节题的定位法：先看题干关键词，回文找句——初中阅读的得分套路从七下养成。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能在 2 分钟内定位三道细节题",
+        "判断正误题能划出原文依据"
+      ],
+      "assessmentPrompt": "给{{name}}一篇街区介绍短文加三道细节题：先教他圈题干关键词再回文定位，计时训练。",
+      "standards": [
+        "csenglish-2022:S4.RD.01",
+        "csenglish-2022:S4.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "各单元阅读板块",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g7b_15",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "七下词汇与句型自查",
+      "description": "七下词汇约 400，核心句型 12 组——初一学年词汇累计约 750。查漏工具升级：错词本按「拼写错/词义错/搭配错」三类归档，复习有的放矢。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "中英互译 20 词对 17 以上",
+        "错词本分类清晰且本周回看过"
+      ],
+      "assessmentPrompt": "给{{name}}做词汇测 20+3 句型造句；错的词当场归入三类错词本并约定复看日。",
+      "standards": [
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g7a_15"
       ]
     }
   ]

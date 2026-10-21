@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.32.0",
+  "version": "1.33.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1630,
+  "edgeCount": 1649,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9783,6 +9783,120 @@
       "prerequisiteId": "ct_yy_g6b_10",
       "strength": "hard",
       "reason": "小学词汇收官后建立初中的日清周结词汇节奏"
+    },
+    {
+      "topicId": "ct_yy_g7b_01",
+      "prerequisiteId": "ct_yy_g5a_04",
+      "strength": "hard",
+      "reason": "小学 can 能力句型在社团场景深化并引入 want to do 不定式"
+    },
+    {
+      "topicId": "ct_yy_g7b_02",
+      "prerequisiteId": "ct_yy_g5b_01",
+      "strength": "hard",
+      "reason": "usually/often 的初步使用升级为六级频度条的精确排序"
+    },
+    {
+      "topicId": "ct_yy_g7b_03",
+      "prerequisiteId": "ct_yy_g6a_02",
+      "strength": "hard",
+      "reason": "小学交通方式表达扩展为 How/How long/How far 三连问"
+    },
+    {
+      "topicId": "ct_yy_g7b_04",
+      "prerequisiteId": "ct_yy_g5b_07",
+      "strength": "hard",
+      "reason": "小学祈使句规则表达升级为 can't/have to/Don't 三层规则系统"
+    },
+    {
+      "topicId": "ct_yy_g7b_05",
+      "prerequisiteId": "ct_yy_g5b_05",
+      "strength": "hard",
+      "reason": "小学进行时的初步感知系统化，并与一般现在时形成对比判断"
+    },
+    {
+      "topicId": "ct_yy_g7b_06",
+      "prerequisiteId": "ct_yy_g7b_05",
+      "strength": "hard",
+      "reason": "天气话题综合运用进行时（天气+活动的双信息表达）"
+    },
+    {
+      "topicId": "ct_yy_g7b_06",
+      "prerequisiteId": "ct_yy_g4b_03",
+      "strength": "soft",
+      "reason": "小学天气词汇直接复用于天气问答"
+    },
+    {
+      "topicId": "ct_yy_g7b_07",
+      "prerequisiteId": "ct_yy_g6a_01",
+      "strength": "hard",
+      "reason": "小学问路经验升级：there be 句型+沿线行走路线描述"
+    },
+    {
+      "topicId": "ct_yy_g7b_07",
+      "prerequisiteId": "ct_yy_g5a_06",
+      "strength": "soft",
+      "reason": "there be 疑问式的复习迁移到街区场景"
+    },
+    {
+      "topicId": "ct_yy_g7b_08",
+      "prerequisiteId": "ct_yy_g4a_02",
+      "strength": "hard",
+      "reason": "小学 has 描述外貌的感性经验系统化为 is/has 双轨句型"
+    },
+    {
+      "topicId": "ct_yy_g7b_09",
+      "prerequisiteId": "ct_yy_g4a_05",
+      "strength": "hard",
+      "reason": "小学点餐表达升级为 would like 的 kind/size 完整点单系统"
+    },
+    {
+      "topicId": "ct_yy_g7b_10",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "hard",
+      "reason": "小学过去时起步（规则动词）之前先补 be 动词 was/were 系统"
+    },
+    {
+      "topicId": "ct_yy_g7b_11",
+      "prerequisiteId": "ct_yy_g7b_10",
+      "strength": "hard",
+      "reason": "be 过去时之后学实义动词过去式的疑问否定（did 还原律）"
+    },
+    {
+      "topicId": "ct_yy_g7b_11",
+      "prerequisiteId": "ct_yy_g6b_04",
+      "strength": "soft",
+      "reason": "小学不规则动词第一批（went/ate）直接复用"
+    },
+    {
+      "topicId": "ct_yy_g7b_12",
+      "prerequisiteId": "ct_yy_g7b_11",
+      "strength": "hard",
+      "reason": "过去时叙事文是实义动词过去句型的书面成篇"
+    },
+    {
+      "topicId": "ct_yy_g7b_12",
+      "prerequisiteId": "ct_yy_g6b_08",
+      "strength": "soft",
+      "reason": "小学周末写作的升级版：字数、连接词与感受句要求提高"
+    },
+    {
+      "topicId": "ct_yy_g7b_13",
+      "prerequisiteId": "ct_yy_g7b_07",
+      "strength": "hard",
+      "reason": "问路场景综合运用街区指路句型，并叠加电话留言场景"
+    },
+    {
+      "topicId": "ct_yy_g7b_14",
+      "prerequisiteId": "ct_yy_g6b_07",
+      "strength": "hard",
+      "reason": "小学长文阅读升级为定位法做细节题的应试阅读"
+    },
+    {
+      "topicId": "ct_yy_g7b_15",
+      "prerequisiteId": "ct_yy_g7a_15",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进，新增三类错词本管理"
     }
   ]
 }
