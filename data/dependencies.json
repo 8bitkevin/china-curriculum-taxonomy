@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.46.0",
+  "version": "1.47.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1863,
+  "edgeCount": 1881,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11181,6 +11181,114 @@
       "prerequisiteId": "ct_wl_g9a_10",
       "strength": "hard",
       "reason": "能源的转化方向性以能量守恒定律为基础"
+    },
+    {
+      "topicId": "ct_wl_g10a_01",
+      "prerequisiteId": "ct_wl_g8a_02",
+      "strength": "hard",
+      "reason": "参照物概念升级为参考系，新增质点模型与位移矢量"
+    },
+    {
+      "topicId": "ct_wl_g10a_02",
+      "prerequisiteId": "ct_wl_g8a_03",
+      "strength": "hard",
+      "reason": "初中速度概念之上新增加速度（速度的变化率）"
+    },
+    {
+      "topicId": "ct_wl_g10a_03",
+      "prerequisiteId": "ct_wl_g10a_02",
+      "strength": "hard",
+      "reason": "纸带分析求速度与加速度直接运用两概念"
+    },
+    {
+      "topicId": "ct_wl_g10a_04",
+      "prerequisiteId": "ct_wl_g10a_02",
+      "strength": "hard",
+      "reason": "匀变速公式是加速度定义式的积分形式"
+    },
+    {
+      "topicId": "ct_wl_g10a_05",
+      "prerequisiteId": "ct_wl_g10a_03",
+      "strength": "hard",
+      "reason": "小车实验用打点计时器采集数据并处理"
+    },
+    {
+      "topicId": "ct_wl_g10a_06",
+      "prerequisiteId": "ct_wl_g10a_04",
+      "strength": "hard",
+      "reason": "自由落体是 v₀=0、a=g 的匀变速特例"
+    },
+    {
+      "topicId": "ct_wl_g10a_07",
+      "prerequisiteId": "ct_wl_g8b_03",
+      "strength": "hard",
+      "reason": "初中重力的知识扩展：重心概念与弹力的系统分析"
+    },
+    {
+      "topicId": "ct_wl_g10a_08",
+      "prerequisiteId": "ct_wl_g8b_07",
+      "strength": "hard",
+      "reason": "初中摩擦力定性知识进阶：静摩擦的大小范围与方向判断"
+    },
+    {
+      "topicId": "ct_wl_g10a_09",
+      "prerequisiteId": "ct_wl_g8b_04",
+      "strength": "hard",
+      "reason": "力的图示经验扩展为平行四边形运算与正交分解"
+    },
+    {
+      "topicId": "ct_wl_g10a_10",
+      "prerequisiteId": "ct_wl_g10a_08",
+      "strength": "hard",
+      "reason": "受力分析需要弹力摩擦力的判断技能"
+    },
+    {
+      "topicId": "ct_wl_g10a_10",
+      "prerequisiteId": "ct_wl_g10a_09",
+      "strength": "hard",
+      "reason": "整体法隔离法依赖力的合成分解工具"
+    },
+    {
+      "topicId": "ct_wl_g10a_11",
+      "prerequisiteId": "ct_wl_g8b_05",
+      "strength": "hard",
+      "reason": "牛顿第一定律（初中惯性）到第二定律的定量跨越"
+    },
+    {
+      "topicId": "ct_wl_g10a_11",
+      "prerequisiteId": "ct_wl_g10a_02",
+      "strength": "hard",
+      "reason": "F=ma 中 a 即加速度概念"
+    },
+    {
+      "topicId": "ct_wl_g10a_12",
+      "prerequisiteId": "ct_wl_g10a_11",
+      "strength": "hard",
+      "reason": "两类问题与连接体是牛顿第二定律的应用场"
+    },
+    {
+      "topicId": "ct_wl_g10a_12",
+      "prerequisiteId": "ct_wl_g10a_04",
+      "strength": "hard",
+      "reason": "已知力求运动需运动学公式衔接"
+    },
+    {
+      "topicId": "ct_wl_g10a_12",
+      "prerequisiteId": "ct_wl_g10a_10",
+      "strength": "soft",
+      "reason": "综合题的受力分析用整体隔离法"
+    },
+    {
+      "topicId": "ct_wl_g10a_13",
+      "prerequisiteId": "ct_wl_g10a_11",
+      "strength": "hard",
+      "reason": "单位制的意义在 F=ma 中体现（1 N=1 kg·m/s²）"
+    },
+    {
+      "topicId": "ct_wl_g10a_14",
+      "prerequisiteId": "ct_wl_g8b_18",
+      "strength": "hard",
+      "reason": "初中力与运动关系的观念清算是高中力学观的直接地基"
     }
   ]
 }

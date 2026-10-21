@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.46.0",
+  "version": "1.47.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1326,
+  "topicCount": 1340,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -41059,6 +41059,445 @@
       },
       "prerequisites": [
         "ct_wl_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "质点、参考系与位移",
+      "description": "物理建模第一课：质点（忽略大小形状的理想模型——什么情况下能把物体当质点）；参考系；位移（矢量，从初位置指向末位置）与路程（标量）的区别。高中物理从「会建模」开始——理想化是物理学的第一生产力。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断研究对象能否视为质点（地球公转可以、自转不行）",
+        "能区分位移与路程并计算"
+      ],
+      "assessmentPrompt": "问{{name}}：绕操场跑一圈 400 m，位移和路程各是多少？研究地球绕太阳运动能把地球当质点吗？",
+      "standards": [
+        "hsphysics-2017:H1.MC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 运动的描述",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "速度与加速度",
+      "description": "平均速度（位移/时间）与瞬时速度；加速度 a=Δv/Δt（速度变化快慢——矢量）。速度大≠加速度大（高速匀速的飞机 a=0）。加速度是高中力学的第一个核心概念——「变化率」思维从此建立。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能区分速度与加速度的概念",
+        "能计算加速度并判断方向（减速时 a 与 v 反向）"
+      ],
+      "assessmentPrompt": "问{{name}}：匀速飞行的飞机速度很大加速度是多少？汽车急刹车加速度方向与速度方向相同吗？10 s 内从 0 加速到 20 m/s，a 多大？",
+      "standards": [
+        "hsphysics-2017:H1.MC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 运动的描述",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_03",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "打点计时器与纸带分析",
+      "description": "电磁/电火花打点计时器的使用；纸带分析：用相邻点间距判断运动（间距均匀=匀速）、逐差法求加速度、中间时刻瞬时速度=平均速度。实验数据的定量化处理——高中第一个定量实验。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能从纸带判断加速/减速/匀速",
+        "能用逐差法求加速度"
+      ],
+      "assessmentPrompt": "给{{name}}一条纸带各点间距 2.0/2.4/2.8/3.2 cm：判断运动性质并求相邻计数点速度；电源频率 50 Hz 打点间隔多少？",
+      "standards": [
+        "hsphysics-2017:H1.MC.02",
+        "hsphysics-2017:H1.MC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 实验",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_04",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "匀变速直线运动的规律",
+      "description": "三大公式：v=v₀+at、x=v₀t+½at²、v²-v₀²=2ax 与两个推论（中间时刻速度、逐差）；x-t 图与 v-t 图（斜率=加速度、面积=位移）。运动学的全家福——公式选择策略（缺什么不选什么）。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能选对公式完成五类典型题（含刹车陷阱）",
+        "能从 v-t 图读出 a 与 x"
+      ],
+      "assessmentPrompt": "给{{name}}：汽车以 10 m/s 行驶，刹车加速度 5 m/s²，3 s 后速度多少？（陷阱：2 s 就停了）再读一张 v-t 图求位移。",
+      "standards": [
+        "hsphysics-2017:H1.MC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 匀变速直线运动",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_05",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "实验：探究小车速度随时间变化规律",
+      "description": "用打点计时器研究小车在重物牵引下的运动：纸带数据处理、作 v-t 图求加速度。探究实验的完整流程（装置—采集—处理—结论）——高考实验题的母版。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成数据表格并作 v-t 图",
+        "能由图线斜率得出加速度并评估误差"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么小车要靠近打点计时器先接通电源后放开小车？作出的 v-t 图是直线说明什么？斜率是什么？",
+      "standards": [
+        "hsphysics-2017:H1.MC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 实验",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_06",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "自由落体与重力加速度",
+      "description": "自由落体是初速度为零、只受重力的匀加速运动（g≈9.8 m/s²）；伽利略的逻辑推理与实验（轻重同落）。竖直上抛的对称性。一个 g 串起两个方向的运动学。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成自由落体的三量计算（h=½gt²）",
+        "能解释真空管中羽毛与硬币同时落地"
+      ],
+      "assessmentPrompt": "问{{name}}：从 45 m 高楼落下的石块多久落地？忽略空气阻力，重的先落地吗？伽利略怎么驳倒亚里士多德的？",
+      "standards": [
+        "hsphysics-2017:H1.MC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 自由落体",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_04"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "重力、弹力与胡克定律",
+      "description": "重力（G=mg，重心）；弹力（产生条件：接触+形变；方向判断——支持力垂直于面、绳的拉力沿绳收缩方向）；胡克定律 F=kx（实验探究弹簧伸长与拉力）。三种常见力的完整画像——受力分析的弹药库。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画斜面、绳、杆各种情境的弹力方向",
+        "能用胡克定律计算劲度系数"
+      ],
+      "assessmentPrompt": "问{{name}}：弹簧受 4 N 拉力伸长 2 cm，劲度系数多少？书放斜面上支持力方向朝哪？轻杆的弹力一定沿杆吗？",
+      "standards": [
+        "hsphysics-2017:H1.MC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 相互作用",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_08",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "摩擦力的进阶：静摩擦与方向判断",
+      "description": "静摩擦力（大小随外力变化 0~fmax、方向与相对运动趋势相反）；滑动摩擦 f=μN（N 是正压力不总等于重力）；摩擦力可以是动力（传送带）。初中摩擦力的「进阶版」——方向判断和大小分析成了高中力学第一道坎。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断静摩擦有无与方向（斜面静止物体）",
+        "能算滑动摩擦并区分 N 与 G"
+      ],
+      "assessmentPrompt": "问{{name}}：用 2 N 推桌子没推动，摩擦力多大？用 5 N 恰好推动呢？10 N 水平压力压住墙上的物体，μ=0.3，摩擦力多大？",
+      "standards": [
+        "hsphysics-2017:H1.MC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 相互作用",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_09",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "力的合成与分解：平行四边形定则",
+      "description": "合力与分力（等效替代）；平行四边形定则（实验验证：两个弹簧秤拉橡皮条）；正交分解法。矢量的加法规则——标量代数和矢量几何的分水岭，一切矢量运算的总纲。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成互成角度两力的合成计算（含特例）",
+        "能按效果分解斜面上的重力"
+      ],
+      "assessmentPrompt": "问{{name}}：3 N 和 4 N 的力夹角 90°，合力多大？两个 5 N 的力合力最大最小各是多少？斜面上物体重力怎么分解？",
+      "standards": [
+        "hsphysics-2017:H1.MC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 相互作用",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "受力分析：整体法与隔离法",
+      "description": "受力分析的程序：选对象—按顺序画力（重力→弹力→摩擦力）—检查；整体法（求系统外力）与隔离法（求内力）的选择。高中力学的「内功心法」——一切动力学问题的第一步。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能对叠放物体分别用整体/隔离求力",
+        "能说明「先画重力再找接触面」的程序"
+      ],
+      "assessmentPrompt": "问{{name}}：A 叠在 B 上一起匀速前进，AB 间有摩擦吗？地面给 B 的摩擦呢？求 AB 间压力用整体还是隔离？",
+      "standards": [
+        "hsphysics-2017:H1.MC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 相互作用",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_08",
+        "ct_wl_g10a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_11",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "牛顿第二定律：F=ma",
+      "description": "实验探究（控制变量：a 与 F、m 的关系）到 F=ma（1 N = 1 kg·m/s²）；合力方向决定加速度方向。运动学（描述运动）与力学（解释运动）在 F=ma 处会师——经典力学的中枢定律。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成已知力求运动、已知运动求力的两类题",
+        "能说明超重失重的加速度条件"
+      ],
+      "assessmentPrompt": "问{{name}}：2 kg 物体受合力 8 N 加速度多大？电梯向上加速人超重还是失重？为什么？",
+      "standards": [
+        "hsphysics-2017:H1.MC.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四章 牛顿运动定律",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_02",
+        "ct_wl_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_12",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "牛顿定律的应用：两类问题与连接体",
+      "description": "两类基本问题：已知受力求运动（先 F=ma 求再运动学）与已知运动求力（反推）；连接体与传送带模型。解题程序化：定对象—析力—建坐标—列方程——物理计算题的「写作模板」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能规范完成一道斜面+连接体综合题（受力图+方程）",
+        "两类问题能判断先求什么"
+      ],
+      "assessmentPrompt": "给{{name}}一道题：水平面上 4 kg 物体受 20 N 水平力、摩擦 4 N，求 3 s 末速度；要求按「对象—受力—方程」三步写。",
+      "standards": [
+        "hsphysics-2017:H1.MC.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四章 牛顿运动定律",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_04",
+        "ct_wl_g10a_10",
+        "ct_wl_g10a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_13",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "力学单位制与物理观念",
+      "description": "国际单位制（SI）：基本单位（kg、m、s、A、K、mol、cd）与导出单位；量纲检查的解题自检功能。物理观念的总结：质点模型、理想实验、单位制——物理学的方法论自觉。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出导出单位（N、J、W）的基本单位表达式",
+        "能用单位检验公式是否可疑"
+      ],
+      "assessmentPrompt": "问{{name}}：1 N 用基本单位怎么表示？某同学算出 v=½gt²，用单位检查一下对不对？",
+      "standards": [
+        "hsphysics-2017:H1.MC.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四章 牛顿运动定律",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g10a_14",
+      "type": "META",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "初高中物理衔接：从标量到矢量、从定性到定量",
+      "description": "初高中物理的三个台阶：速度到加速度（变化率思维）、标量到矢量（方向参与运算）、单力到力系（合成分解）。衔接策略：受力分析程序化、图像意识、解题规范。第一个月的不适应是正常的——台阶看得见就上得去。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说出初中物理与高中物理的三点不同",
+        "能按规范完成受力图的绘制"
+      ],
+      "assessmentPrompt": "和{{name}}聊聊：初中速度和高中加速度差在哪？为什么高中力要画箭头？请对桌上水杯做一次完整受力分析。",
+      "standards": [
+        "hsphysics-2017:H1.MC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "全册衔接",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g8b_18"
       ]
     }
   ]
