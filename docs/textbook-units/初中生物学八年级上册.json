@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中生物学八年级上册",
+  "pdf": {
+    "file": "初中生物学八年级上册.pdf",
+    "sha256": "0496340d0dfe9c568f09f718c3cee898d1b82329996f0d35c67e74e035ad469f",
+    "pages": 122,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

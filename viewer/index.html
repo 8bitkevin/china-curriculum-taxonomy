@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>中国 K12 课程知识图谱 · 数学</title>
-<meta name="description" content="微主题 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。">
+<title>中国 K12 课程知识图谱</title>
+<meta name="description" content="微主题 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
 <link rel="stylesheet" href="style.css?v=mk1">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <span class="brand-mark">图</span>
     <div>
       <h1>中国 K12 课程知识图谱</h1>
-      <p id="brand-sub">数学 · 加载数据中…</p>
+      <p id="brand-sub">加载数据中…</p>
     </div>
   </div>
 
@@ -23,8 +23,11 @@
       <button id="tab-graph3d" class="tab" type="button">3D 全景</button>
       <button id="tab-quality" class="tab" type="button">质量自查</button>
     </nav>
+    <label class="ctl">学科
+      <select id="subject"><option value="">全部</option></select>
+    </label>
     <label class="ctl">搜索
-      <input id="search" type="search" placeholder="如：凑十法 / 分与合" autocomplete="off">
+      <input id="search" type="search" placeholder="如：凑十法 / 拼音 / 欧姆定律" autocomplete="off">
     </label>
     <label class="ctl">年级
       <select id="grade"><option value="0">全部</option></select>
@@ -49,8 +52,8 @@
 
   <section id="detail" class="detail">
     <div class="placeholder" id="detail-placeholder">
-      <p>从左侧选择一个微主题，或直接搜索（试试「凑十法」）。</p>
-      <p class="muted">点击任一主题可查看：<b>向上</b>的完整先修链（每条边附理由）、<b>向下</b>的解锁树、掌握证据与测评问法。</p>
+      <p>从左侧选择一个微主题，或直接搜索（试试「凑十法」「拼音」）。</p>
+      <p class="muted">点击任一主题可查看：<b>向上</b>的完整先修链（每条边附理由）、<b>向下</b>的解锁树、掌握证据与测评问法。可用「学科」筛选切换科目。</p>
     </div>
   </section>
 

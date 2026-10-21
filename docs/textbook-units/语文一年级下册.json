@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文一年级下册",
+  "pdf": {
+    "file": "语文一年级下册.pdf",
+    "sha256": "f258850beea340544d96c3f01c5ef023ec79fd516d5fec79736ea09565fca52e",
+    "pages": 131,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": null,
+      "title": "识字",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "春夏秋冬",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "姓氏歌",
+          "page": 4
+        },
+        {
+          "no": "3",
+          "title": "小青蛙",
+          "page": 6
+        },
+        {
+          "no": "4",
+          "title": "猜字谜",
+          "page": 8
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:听故事,讲故事10",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "◎语文园地一11",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧:",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "课文",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "吃水不忘挖井人",
+          "page": 17
+        },
+        {
+          "no": "2",
+          "title": "我多想去看看",
+          "page": 19
+        },
+        {
+          "no": "3",
+          "title": "一个接一个",
+          "page": 21
+        },
+        {
+          "no": "4",
+          "title": "四个太阳",
+          "page": 24
+        },
+        {
+          "no": null,
+          "title": "◎语文园地二26",
+          "page": 26
+        },
+        {
+          "no": "5",
+          "title": "小公鸡和小鸭子",
+          "page": 29
+        },
+        {
+          "no": "6",
+          "title": "树和喜鹊",
+          "page": 32
+        },
+        {
+          "no": "7",
+          "title": "怎么都快乐",
+          "page": 35
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:请你帮个忙38",
+          "page": 38
+        },
+        {
+          "no": null,
+          "title": "◎语文园地三39",
+          "page": 39
+        },
+        {
+          "no": "8",
+          "title": "静夜思",
+          "page": 43
+        },
+        {
+          "no": "9",
+          "title": "夜色",
+          "page": 44
+        },
+        {
+          "no": "10",
+          "title": "端午粽",
+          "page": 46
+        },
+        {
+          "no": "11",
+          "title": "彩虹",
+          "page": 48
+        },
+        {
+          "no": null,
+          "title": "◎语文园地四51",
+          "page": 51
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "识字（二）",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "动物儿歌",
+          "page": 54
+        },
+        {
+          "no": "6",
+          "title": "古对今",
+          "page": 56
+        },
+        {
+          "no": "7",
+          "title": "操场上",
+          "page": 58
+        },
+        {
+          "no": "8",
+          "title": "人之初",
+          "page": 60
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:打电话62",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "◎语文园地五63",
+          "page": 63
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "课文（二）",
+      "page": null,
+      "sections": [
+        {
+          "no": "12",
+          "title": "古诗二首",
+          "page": 67
+        },
+        {
+          "no": "13",
+          "title": "荷叶圆圆",
+          "page": 70
+        },
+        {
+          "no": "14",
+          "title": "要下雨了",
+          "page": 73
+        },
+        {
+          "no": null,
+          "title": "◎语文园地六77",
+          "page": 77
+        },
+        {
+          "no": "15",
+          "title": "文具的家",
+          "page": 82
+        },
+        {
+          "no": "16",
+          "title": "一分钟",
+          "page": 85
+        },
+        {
+          "no": "17",
+          "title": "动物王国开大会",
+          "page": 88
+        },
+        {
+          "no": "18",
+          "title": "小猴子下山",
+          "page": 94
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:一起做游戏97",
+          "page": 97
+        },
+        {
+          "no": null,
+          "title": "◎语文园地七98",
+          "page": 98
+        },
+        {
+          "no": "19",
+          "title": "棉花姑娘",
+          "page": 102
+        },
+        {
+          "no": "20",
+          "title": "咕咚",
+          "page": 106
+        },
+        {
+          "no": "21",
+          "title": "小壁虎借尾巴",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "◎语文园地八113",
+          "page": 113
+        }
+      ]
+    }
+  ]
+}

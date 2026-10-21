@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治八年级上册",
+  "pdf": {
+    "file": "初中道德与法治八年级上册.pdf",
+    "sha256": "6e163aa301d486752e4057a7724c7f5100ca250310636f54335dfe2f8b08a363",
+    "pages": 119,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "走进社会生活",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "丰富的社会生活",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "网络生活新空间",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "遵守社会规则",
+      "page": 21,
+      "sections": [
+        {
+          "no": "第三课",
+          "title": "社会生活离不开规则",
+          "page": 22
+        },
+        {
+          "no": "第四课",
+          "title": "社会生活讲道德",
+          "page": 32
+        },
+        {
+          "no": "第五课",
+          "title": "做守法的公民",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "勇担社会责任",
+      "page": 63,
+      "sections": [
+        {
+          "no": "第六课",
+          "title": "责任与角色同在",
+          "page": 64
+        },
+        {
+          "no": "第七课",
+          "title": "积极奉献社会",
+          "page": 75
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "维护国家利益",
+      "page": 85,
+      "sections": [
+        {
+          "no": "第八课",
+          "title": "国家利益至上",
+          "page": 86
+        },
+        {
+          "no": "第九课",
+          "title": "树立总体国家安全观",
+          "page": 96
+        },
+        {
+          "no": "第十课",
+          "title": "建设美好祖国",
+          "page": 104
+        }
+      ]
+    }
+  ]
+}

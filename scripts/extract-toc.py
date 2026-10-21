@@ -34,7 +34,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PDF_DIR = ROOT / "textbooks"
 OUT_DIR = ROOT / "docs" / "textbook-units"
 
-# 数学主线 23 册（小学 12 + 初中 6 + 高中 5）；本地文件名用中文年级数字
+# 全学科卷册注册表（D-015：8 学科 + 数学；mode 决定目录形态解析策略）
 CN_DIGITS = {1: "一", 2: "二", 3: "三", 4: "四", 5: "五", 6: "六", 7: "七", 8: "八", 9: "九"}
 MATH_VOLUMES = [
     *(f"数学{CN_DIGITS[g]}年级{v}册" for g in range(1, 7) for v in "上下"),
@@ -46,13 +46,80 @@ MATH_VOLUMES = [
     "高中数学选择性必修第三册",
 ]
 
+def _volumes(prefix: str, grades: range, sems="上下") -> list[str]:
+    return [f"{prefix}{CN_DIGITS[g]}年级{v}册" for g in grades for v in sems]
+
+# mode: math（第X章/N.M/小学单元行） unit（第X单元|Unit N → 单元，第N课/课题N/编号行 → 节）
+#        lesson（第N课 → 单元，框/编号行 → 节）
+VOLUME_MODE: dict[str, str] = {}
+def _reg(names: list[str], mode: str):
+    for n in names:
+        VOLUME_MODE[n] = mode
+
+_reg(MATH_VOLUMES, "math")
+_reg(_volumes("语文", range(1, 7)), "unit")                                   # 小学语文 统编
+_reg(_volumes("初中语文", range(7, 10)), "unit")                               # 初中语文 统编
+_reg(["高中语文必修上册", "高中语文必修下册",
+       "高中语文选择性必修上册", "高中语文选择性必修中册", "高中语文选择性必修下册"], "unit")
+_reg(_volumes("英语", range(3, 7)), "unit")                                    # 小学 PEP（三起）
+_reg(_volumes("初中英语", range(7, 9)), "unit")
+_reg(["初中英语九年级全一册"], "unit")
+_reg([f"高中英语必修第{n}册" for n in "一二三"] +
+     [f"高中英语选择性必修第{n}册" for n in "一二三四"], "unit")
+_reg(_volumes("初中物理", range(8, 9)), "math")                                # 人教初中物理：章+节
+_reg(["初中物理八年级下册", "初中物理九年级全一册"], "math")
+_reg([f"高中物理必修第{n}册" for n in "一二三"] +
+     [f"高中物理选择性必修第{n}册" for n in "一二三"], "math")
+_reg(_volumes("初中化学", range(9, 10)), "unit")                               # 人教初中化学：单元+课题
+_reg(["初中化学九年级下册"], "unit")
+_reg([f"高中化学必修第{n}册" for n in "一二"] +   # 人教 2019 高中化学共 5 册（必修 2 + 选必 3）
+     ["高中化学选择性必修1化学反应原理", "高中化学选择性必修2物质结构与性质",
+      "高中化学选择性必修3有机化学基础"], "math")
+_reg(_volumes("初中生物学", range(7, 9)), "unit")                              # 人教初中生物：单元+章
+_reg([f"高中生物学必修{n}分子与细胞" if n == "1" else f"高中生物学必修{n}遗传与进化" for n in "12"] +
+     ["高中生物学选择性必修1稳态与调节", "高中生物学选择性必修2生物与环境",
+      "高中生物学选择性必修3生物技术与工程"], "math")
+_reg(_volumes("初中历史", range(7, 10)), "unit")                               # 统编初中历史：单元+课
+_reg(["高中历史必修中外历史纲要（上）", "高中历史必修中外历史纲要（下）",
+       "高中历史选择性必修1国家制度与社会治理", "高中历史选择性必修2经济与社会生活",
+       "高中历史选择性必修3文化交流与传播"], "unit")
+_reg(_volumes("初中地理", range(7, 9)), "math")                                # 人教初中地理：章+节
+_reg(["高中地理必修第一册", "高中地理必修第二册",
+       "高中地理选择性必修1自然地理基础", "高中地理选择性必修2区域发展",
+       "高中地理选择性必修3资源、环境与国家安全"], "math")
+_reg(_volumes("道德与法治", range(1, 7)), "unit")                              # 统编小学道法：单元
+_reg(_volumes("初中道德与法治", range(7, 10)), "unit")                          # 统编初中道法：单元+课
+_reg(["高中思想政治必修1中国特色社会主义", "高中思想政治必修2经济与社会",
+       "高中思想政治必修3政治与法治", "高中思想政治必修4哲学与文化"], "lesson")
+_reg(["高中思想政治选择性必修1当代国际政治与经济", "高中思想政治选择性必修2法律与生活",
+       "高中思想政治选择性必修3逻辑与思维"], "unit")
+
+ALL_VOLUMES = list(VOLUME_MODE)
+
 CN_NUM = "一二三四五六七八九十百"
 CN_DIGIT_TABLE = {c: i for i, c in enumerate("一二三四五六七八九", 1)}
-RE_CHAPTER = re.compile(rf"^第([{CN_NUM}]+)章\s*(\S.*)?$")
+RE_CHAPTER = re.compile(r"^第([0-9０-９一二三四五六七八九十百]+)章\s*(\S.*)?$")   # 第X章（中/阿数字）
 RE_SECTION = re.compile(r"^(\d{1,2})[.．](\d{1,2})\s*(\S.*)?$")
 RE_UNIT_HEAD = re.compile(r"^(\d{1,2})[\s　]+(.+)$")   # 号在标题前：「1 准备课」
 RE_PAGE_TAIL = re.compile(r"(?<![0-9.~%％])(\d{1,3})$")   # 行尾页码（允许紧贴标题）
 RE_UNIT_TAIL = re.compile(r"[\s　](\d{1,2})$")          # 行尾单元号（页码剥离后）
+
+# 多学科目录形态（D-015/D-016）
+RE_UNIT_CN = re.compile(r"^第([一二三四五六七八九十\d]{1,3})单元\s*(\S.*)?$")   # 第X单元 标题
+RE_UNIT_EN = re.compile(r"^(?:\d{1,3}[\s.．]+)?Unit\s*(\d{1,2})\b[\s.．]*(\S.*)?$", re.I)  # [页码] Unit N 标题
+RE_LESSON_CN = re.compile(r"^第\s*([一二三四五六七八九十\d]{1,3})\s*课\s*(\S.*)?$")  # 第N课 标题
+RE_TOPIC_CN = re.compile(r"^课题\s*(\d{1,2})[.．:：]?\s*(\S.*)?$")             # 课题N 标题（初中化学）
+RE_SECTION_CN = re.compile(r"^第\s*([一二三四五六七八九十\d]{1,3})\s*节\s*(\S.*)?$")  # 第N节 标题（物理/地理）
+RE_SECTION_DOT = re.compile(r"^(\d{1,2})[.．]\s*(\S.*)?$")                     # 「1. 质点」（人教高中）
+# 小学语文块标题（无「第X单元」编号的单元结构）
+RE_BLOCK_UNIT = re.compile(r"^(识字|汉语拼音|课文)([（(][一二三四五六][）)])?$")
+# 单元模式下作为「节」收录的栏目行（语文/英语教材结构锚点）
+RE_SPECIAL_SECTION = re.compile(
+    r"^(◎|口语交际|写作|语文园地|快乐读书吧|和大人一起读|名著导读|"
+    r"综合性学习|单元学习任务|课外古诗词诵读|Recycle\s*\d.*|"
+    r"附录|Appendix.*|Notes|注|生字表|词语表)\S*$|"
+    r"^(写作|口语交际|语文园地|快乐读书吧|综合性学习|单元学习任务|名著导读|课外古诗词诵读|Recycle\s*\d.*)$"
+)
 
 # 无单元号但收录的条目（综合整理/实践篇）
 SPECIAL_UNITS = {"总复习", "数学乐园", "整理和复习"}
@@ -131,26 +198,34 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         # 排除正文中数字密集的页面）
         lens = [len(l) for l in lines if l]
         avg_len = sum(lens) / len(lens) if lens else 0
-        cont = (hits and i == hits[-1] + 1 and numbered >= 3
-                and avg_len <= 30 and len(lens) <= 24)
+        cont = (hits and i == hits[-1] + 1 and (numbered >= 2 or chapters >= 1)
+                and avg_len <= 40)
+        # 英语教材目录页标题为 CONTENTS，页码常成列独立成行：靠 Unit N 行数识别
+        unit_rows = sum(1 for l in lines if RE_UNIT_EN.match(l) or RE_UNIT_CN.match(l))
         is_toc = ("目" in head and "录" in head and numbered >= 3) or (
-            numbered >= 5 and (dots >= 2 or chapters >= 2)) or cont
+            numbered >= 5 and (dots >= 2 or chapters >= 2)) or (
+            unit_rows >= 3) or (
+            "CONTENTS" in " ".join(lines).upper() and unit_rows >= 2) or cont
         if is_toc:
             hits.append(i)
     return hits
 
 
-def parse_toc_rows(rows: list[list[str]]) -> list[dict]:
+def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
     """把目录页重建行解析为单元/节条目。
 
+    mode=math（默认，数学/物理/地理/高中理化生地等）：
     - 章行「第X章 标题 [页码]」→ 单元，index 取中文数字；
-    - 节行「1.1 标题 [页码]」→ 归入最近章的 sections；
-    - 小学单元行「1 准备课 2」/「认识图形（一）4 34」→ 单元；
-    - 长标题折行时号与页码成孤行（如「100 以内的加法 / 2 11 / 和减法(二)」），
-      与前后行合并重组；
-    - 无号行仅收 SPECIAL_UNITS（总复习/数学乐园等），栏目行全部跳过；
-    - 后处理：同号去重（保留首个）+ 单元号回退截断（目录后误入的正文
-      短行噪声表现为号突然回退，如 [9] 总复习之后又出现 [2]）。
+    - 节行「1.1 标题」「第N节 标题」「1. 标题」→ 归入最近章的 sections；
+    - 小学单元行「1 准备课 2」→ 单元；
+    - 长标题折行重组；无号行仅收 SPECIAL_UNITS；同号去重 + 单元号回退截断。
+
+    mode=unit（语文/英语/历史/道法/初中化学/初中生物等）：
+    - 「第X单元 标题」「Unit N 标题」→ 单元；
+    - 「第N课/课题N/N 标题」→ 归入最近单元的 sections；
+    - 栏目行（写作/口语交际/语文园地/Recycle/附录…）→ sections。
+
+    mode=lesson（高中思想政治必修 1-4）：「第N课」→ 单元，其余行归 sections。
     """
     texts: list[str] = []
     for seg in rows:
@@ -175,6 +250,21 @@ def parse_toc_rows(rows: list[list[str]]) -> list[dict]:
         merged.append(texts[i])
         i += 1
 
+    if mode in ("unit", "lesson"):
+        return parse_unit_lesson_mode(merged, mode)
+
+    # 章标题折行（高中地理：「第一章」与「宇宙中的地球」分行）：并回章行
+    i = 0
+    while i < len(merged):
+        cm = RE_CHAPTER.match(merged[i])
+        if cm and not (cm.group(2) or "").strip() and i + 1 < len(merged):
+            nt, np_ = strip_page(merged[i + 1])
+            if nt and not RE_CHAPTER.match(nt) and not RE_SECTION.match(nt) and not RE_SECTION_DOT.match(nt):
+                merged[i] = f"第{cm.group(1)}章 {nt}" + (f" {np_}" if np_ else "")
+                del merged[i + 1]
+                continue
+        i += 1
+
     units: list[dict] = []
     seen_index: set[int] = set()
     max_index = 0
@@ -184,10 +274,10 @@ def parse_toc_rows(rows: list[list[str]]) -> list[dict]:
         if line.startswith(MISC_PREFIXES):
             continue
         m = RE_CHAPTER.match(line)
-        if m:  # 中学/高中：第X章 标题 [页码]
+        if m:  # 中学/高中：第X章 标题 [页码]（章号中/阿数字均可）
             title, page = strip_page(m.group(2) or "")
             if title:
-                units.append({"index": cn2int(m.group(1)), "title": title,
+                units.append({"index": _unit_index(m.group(1)), "title": title,
                               "page": page, "sections": []})
             continue
         m = RE_SECTION.match(line)
@@ -196,6 +286,20 @@ def parse_toc_rows(rows: list[list[str]]) -> list[dict]:
             units[-1]["sections"].append(
                 {"no": f"{m.group(1)}.{m.group(2)}", "title": title, "page": page})
             continue
+        # 「第N节 标题」（人教初中物理/地理）与「N. 标题」（人教高中理科）
+        if units and "sections" in units[-1]:
+            sm = RE_SECTION_CN.match(re.sub(r"[\s　]+", "", line))
+            if sm:
+                title, page = strip_page(sm.group(2) or "")
+                units[-1]["sections"].append(
+                    {"no": f"第{sm.group(1)}节", "title": title, "page": page})
+                continue
+            sm = RE_SECTION_DOT.match(line)
+            if sm:
+                title, page = strip_page(sm.group(2) or "")
+                units[-1]["sections"].append(
+                    {"no": sm.group(1), "title": title, "page": page})
+                continue
         # 小学单元行：「1 准备课 2」「认识图形（一）4 34」（标题可为单字：比、圆）
         title, page = strip_page(line)
         m = RE_UNIT_HEAD.match(title)
@@ -231,6 +335,102 @@ def strip_page(line: str) -> tuple[str, int | None]:
     return line, None
 
 
+def _unit_index(s: str) -> int | None:
+    s = s.strip()
+    return int(s) if s.isdigit() else cn2int(s)
+
+
+def _is_pinyin(line: str) -> bool:
+    """低年级道法/语文目录每字下印拼音注音行（如「kQi kQi xUn xUn shSng」）。
+    特征 = 词内小写后跟大写（拼音声调记法 kQi/shSng）；普通英文标题无此形态。"""
+    return bool(re.search(r"\b[a-z]+[A-Z]", line)) and not re.search(r"[\u4e00-\u9fff]", line)
+
+
+def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
+    """unit/lesson 形态解析：单元（或课）为骨架，编号行与栏目行归入 sections。"""
+    units: list[dict] = []
+    block_count: dict[str, int] = {}
+    for raw in merged:
+        line = raw
+        if line.startswith("目") or line.upper().startswith("CONTENTS"):
+            continue
+        if line.startswith(MISC_PREFIXES) or _is_pinyin(line):
+            continue
+        # 低年级目录字间留空（「第 一 单 元 我 是 小 学 生 啦」）：去空格后匹配
+        compact = re.sub(r"[\s　]+", "", line)
+        m = RE_UNIT_CN.match(compact)
+        if m and mode == "unit":
+            idx = _unit_index(m.group(1))
+            rest = m.group(2) or ""
+            # 初中语文「第一单元 阅读 1 春/朱自清」：单元行混入块名与首课，拆出
+            title, page = strip_page(rest)
+            bm = re.match(r"^(阅读|写作|活动|探究)\s*(.*)$", title)
+            first_lesson = None
+            if bm:
+                first_lesson = bm.group(2)
+                title = ""
+            units.append({"index": idx, "title": title or f"第{m.group(1)}单元",
+                          "page": page, "sections": []})
+            if first_lesson:
+                lt, lp = strip_page(first_lesson)
+                units[-1]["sections"].append({"no": None, "title": lt, "page": lp})
+            continue
+        m = RE_UNIT_EN.match(line)
+        if m and mode == "unit":
+            title, page = strip_page(m.group(2) or "")
+            units.append({"index": int(m.group(1)),
+                          "title": title or f"Unit {m.group(1)}", "page": page, "sections": []})
+            continue        # 小学语文块标题单元：识字 / 汉语拼音 / 课文（同名单元自动加（二））
+        bm = RE_BLOCK_UNIT.match(compact)
+        if bm and mode == "unit":
+            base = bm.group(1)
+            n = block_count.get(base, 0) + 1
+            block_count[base] = n
+            title = base if n == 1 else f"{base}（{'二三四五六'[n - 2]}）"
+            units.append({"index": None, "title": title, "page": None, "sections": []})
+            continue
+        m = RE_LESSON_CN.match(compact)
+        if m:
+            idx = _unit_index(m.group(1))
+            title, page = strip_page(m.group(2) or "")
+            if mode == "lesson":
+                units.append({"index": idx,
+                              "title": title or f"第{m.group(1)}课", "page": page, "sections": []})
+            elif units:
+                units[-1]["sections"].append(
+                    {"no": f"第{m.group(1)}课", "title": title, "page": page})
+            continue
+        m = RE_TOPIC_CN.match(line)
+        if m and units:
+            title, page = strip_page(m.group(2) or "")
+            units[-1]["sections"].append(
+                {"no": f"课题{m.group(1)}", "title": title, "page": page})
+            continue
+        # 课文行「1 天地人 6」：按空格重组（低年级逐字空格的还原为正常标题）
+        title, page = strip_page(line)
+        if not units or not title:
+            continue
+        if not RE_BLOCK_UNIT.match(compact):
+            hm = RE_UNIT_HEAD.match(re.sub(r"([\u4e00-\u9fff])\s+(?=[\u4e00-\u9fff])", r"\1", title))
+            if hm and len(hm.group(1)) <= 2 and not hm.group(2).isdigit():
+                units[-1]["sections"].append({"no": hm.group(1), "title": hm.group(2), "page": page})
+                continue
+        m = RE_SECTION_CN.match(compact)
+        if m:
+            units[-1]["sections"].append({"no": f"第{m.group(1)}节", "title": m.group(2), "page": page})
+            continue
+        m = RE_SECTION_DOT.match(title)
+        if m:
+            units[-1]["sections"].append({"no": m.group(1), "title": m.group(2), "page": page})
+            continue
+        if RE_SPECIAL_SECTION.match(compact):
+            units[-1]["sections"].append({"no": None, "title": compact, "page": page})
+    for u in units:
+        if not u["sections"]:
+            del u["sections"]
+    return units
+
+
 def extract_volume(stem: str) -> dict | None:
     pdf = PDF_DIR / f"{stem}.pdf"
     if not pdf.exists():
@@ -252,7 +452,7 @@ def extract_volume(stem: str) -> dict | None:
     rows: list[list[str]] = []
     for i in toc_idx[:3]:  # 目录最多跨 3 页；合并后一次解析避免章/节断链
         rows.extend(rebuild_rows(doc[i]))
-    units = parse_toc_rows(rows)
+    units = parse_toc_rows(rows, mode=VOLUME_MODE.get(stem, "math"))
     doc.close()
     # 目录页后可能混入封面折页噪声：去掉过短/重复条目
     seen, cleaned = set(), []
@@ -269,11 +469,11 @@ def extract_volume(stem: str) -> dict | None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("volumes", nargs="*", help="册名（PDF stem），缺省为全部数学册")
+    ap.add_argument("volumes", nargs="*", help="册名（PDF stem），缺省为全学科卷册")
     ap.add_argument("--check", action="store_true",
                     help="只校验现有基线 JSON 与 PDF sha256 是否一致")
     args = ap.parse_args()
-    targets = args.volumes or MATH_VOLUMES
+    targets = args.volumes or ALL_VOLUMES
 
     if args.check:
         bad = 0
@@ -295,10 +495,10 @@ def main() -> int:
         if rec is None:
             continue
         jf = OUT_DIR / f"{stem}.json"
-        if rec.get("source") == "pending" and jf.exists():
+        if jf.exists():
             prior = json.loads(jf.read_text(encoding="utf-8"))
             if prior.get("source") == "manual":
-                # 人工基线优先于占位；仅刷新 PDF 指纹
+                # 人工基线优先于自动提取（含提取质量差而人工接管的情况）；仅刷新 PDF 指纹
                 prior["pdf"] = rec["pdf"]
                 rec = prior
         jf.write_text(json.dumps(rec, ensure_ascii=False, indent=2) + "\n",

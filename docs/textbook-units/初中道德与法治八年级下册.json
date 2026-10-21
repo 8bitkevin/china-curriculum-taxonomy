@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治八年级下册",
+  "pdf": {
+    "file": "初中道德与法治八年级下册.pdf",
+    "sha256": "b13527b411dd82748b462e9b867e1854eaa6efccebf4173979aa181905530c28",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "坚持宪法至上",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "维护宪法权威",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "保障宪法实施",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "理解权利义务",
+      "page": 33,
+      "sections": [
+        {
+          "no": "第三课",
+          "title": "公民权利",
+          "page": 34
+        },
+        {
+          "no": "第四课",
+          "title": "公民义务统编版",
+          "page": 47
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "人民当家作主",
+      "page": 61,
+      "sections": [
+        {
+          "no": "第五课",
+          "title": "我国的政治和经济制度",
+          "page": 62
+        },
+        {
+          "no": "第六课",
+          "title": "我国国家机构",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "崇尚法治精神",
+      "page": 97,
+      "sections": [
+        {
+          "no": "第七课",
+          "title": "尊重自由平等",
+          "page": 98
+        },
+        {
+          "no": "第八课",
+          "title": "维护公平正义",
+          "page": 108
+        }
+      ]
+    }
+  ]
+}

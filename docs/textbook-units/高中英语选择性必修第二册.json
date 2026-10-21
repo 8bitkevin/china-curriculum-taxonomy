@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中英语选择性必修第二册",
+  "pdf": {
+    "file": "高中英语选择性必修第二册.pdf",
+    "sha256": "cafaee5fe508dfced31ba02877251ffeb01e98b1a48767fe30b2b7187edb0050",
+    "pages": 134,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "John Snow Defeats “King Cholera” A visit to the science museum",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Bridges “Welcome, Xie Lei!” Business Student Building Chinese language learning abroad",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Culture and Cuisine Ordering food at a Chinese restaurant",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "Seeing the True North via Rail: Vancouver and the Heart of Canada A rail journey across Canada",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "First Aid for Burns An emergency call",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "p.",
+      "page": 68
+    }
+  ]
+}

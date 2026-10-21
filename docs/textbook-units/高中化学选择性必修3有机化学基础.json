@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中化学选择性必修3有机化学基础",
+  "pdf": {
+    "file": "高中化学选择性必修3有机化学基础.pdf",
+    "sha256": "92fef4750b5212cca388e3ad034fcf6c664faa330d7996d139daf0f99f6b267d",
+    "pages": 163,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "有机化合物的结构特点与研究方法",
+      "page": 3,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "有机化合物的结构特点",
+          "page": 4
+        },
+        {
+          "no": "第二节",
+          "title": "研究有机化合物的一般方法",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "烃",
+      "page": 27,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "烷烃",
+          "page": 28
+        },
+        {
+          "no": "第二节",
+          "title": "烯烃炔烃",
+          "page": 34
+        },
+        {
+          "no": "第三节",
+          "title": "芳香烃",
+          "page": 43
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "烃的衍生物",
+      "page": 53,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "卤代烃",
+          "page": 54
+        },
+        {
+          "no": "第二节",
+          "title": "醇酚",
+          "page": 59
+        },
+        {
+          "no": "第三节",
+          "title": "醛酮",
+          "page": 68
+        },
+        {
+          "no": "第四节",
+          "title": "羧酸羧酸衍生物",
+          "page": 73
+        },
+        {
+          "no": "第五节",
+          "title": "有机合成",
+          "page": 84
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "生物大分子",
+      "page": 101,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "糖类",
+          "page": 102
+        },
+        {
+          "no": "第二节",
+          "title": "蛋白质",
+          "page": 112
+        },
+        {
+          "no": "第三节",
+          "title": "核酸",
+          "page": 122
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "合成高分子",
+      "page": 131,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "合成高分子的基本方法",
+          "page": 132
+        },
+        {
+          "no": "第二节",
+          "title": "高分子材料",
+          "page": 136
+        }
+      ]
+    }
+  ]
+}

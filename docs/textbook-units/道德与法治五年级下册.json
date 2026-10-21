@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治五年级下册",
+  "pdf": {
+    "file": "道德与法治五年级下册.pdf",
+    "sha256": "1bc98f974f5b46205b597246ed98c463d773de4a8fca817be517c1b227c58446",
+    "pages": 102,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我们一家人",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "读懂彼此的心",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "让我们的家更美好",
+          "page": 10
+        },
+        {
+          "no": "3",
+          "title": "弘扬优秀家风",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "公共生活靠大家",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "我们的公共生活",
+          "page": 22
+        },
+        {
+          "no": "5",
+          "title": "建立良好的公共秩序",
+          "page": 28
+        },
+        {
+          "no": "6",
+          "title": "我参与我奉献",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "百年追梦复兴中华",
+      "page": null,
+      "sections": [
+        {
+          "no": "7",
+          "title": "不甘屈辱奋勇抗争",
+          "page": 44
+        },
+        {
+          "no": "8",
+          "title": "推翻帝制民族觉醒",
+          "page": 52
+        },
+        {
+          "no": "9",
+          "title": "中国有了共产党",
+          "page": 58
+        },
+        {
+          "no": "10",
+          "title": "夺取抗日战争和人民解放战争统编版",
+          "page": null
+        },
+        {
+          "no": "11",
+          "title": "屹立在世界的东方",
+          "page": 76
+        },
+        {
+          "no": "12",
+          "title": "富起来到强起来",
+          "page": 86
+        }
+      ]
+    }
+  ]
+}

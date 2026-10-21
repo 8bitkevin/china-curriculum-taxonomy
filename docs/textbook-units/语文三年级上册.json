@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文三年级上册",
+  "pdf": {
+    "file": "语文三年级上册.pdf",
+    "sha256": "02915a7db6517258434d370430bbf464a1dac6e17df97b90d707dc4ecf5cfedf",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "6322读不完的大书",
+      "page": 91,
+      "sections": [
+        {
+          "no": "15",
+          "title": "搭船的鸟 64 23 父亲、树林和鸟",
+          "page": 94
+        },
+        {
+          "no": "16",
+          "title": "金色的草地 66 ◎ 口语交际:身边的“小事”",
+          "page": 97
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:◎习作:我有一个想法98",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "◎习作:我们眼中的缤纷世界72第八单元101",
+          "page": 101
+        },
+        {
+          "no": "24",
+          "title": "司马光",
+          "page": 102
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "7325灰雀",
+      "page": 103,
+      "sections": [
+        {
+          "no": "17",
+          "title": "古诗三首 74 26 手术台就是阵地",
+          "page": 105
+        },
+        {
+          "no": "18",
+          "title": "富饶的西沙群岛 76 ◎ 语文园地",
+          "page": 112
+        },
+        {
+          "no": "19",
+          "title": "海滨小城",
+          "page": 79
+        },
+        {
+          "no": "20",
+          "title": "美丽的小兴安岭 81 识字表",
+          "page": 114
+        },
+        {
+          "no": null,
+          "title": "◎习作:这儿真美84写字表117",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "◎语文园地85词语表119",
+          "page": 119
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "87标*的是略读课文",
+      "page": null,
+      "sections": [
+        {
+          "no": "21",
+          "title": "大自然的声音",
+          "page": 88
+        }
+      ]
+    }
+  ]
+}

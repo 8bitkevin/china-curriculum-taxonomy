@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中英语必修第二册",
+  "pdf": {
+    "file": "高中英语必修第二册.pdf",
+    "sha256": "33b74bf42b22b32fdbe3201e6f61cf8099be047ef0af8a1740f6013dee4a619d",
+    "pages": 126,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "An international youth project Starting a conversation From Problems to Solutions",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Saving endangered wildlife Expressing purposes A Day in the Clouds",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Online habits Predictions, guesses, and Stronger Together: How We Have Been Changed",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "Visiting Qufu Expressing excitement, What’s in a Name?",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "Music preferences Talking about preferences The Virtual Choir",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "p.",
+      "page": 67
+    }
+  ]
+}

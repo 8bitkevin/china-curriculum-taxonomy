@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中物理八年级上册",
+  "pdf": {
+    "file": "初中物理八年级上册.pdf",
+    "sha256": "0279bc50d53ee1f41f93ebfdcf82dbcc10a96bb5775c0ce54342652520cb15b7",
+    "pages": 131,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "机械运动",
+      "page": 9,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "长度和时间的测量",
+          "page": 10
+        },
+        {
+          "no": "第2节",
+          "title": "运动的描述",
+          "page": 16
+        },
+        {
+          "no": "第3节",
+          "title": "运动的快慢",
+          "page": 19
+        },
+        {
+          "no": "第4节",
+          "title": "测量平均速度",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "声现象",
+      "page": 26,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "声音的产生与传播",
+          "page": 27
+        },
+        {
+          "no": "第2节",
+          "title": "声音的特性",
+          "page": 32
+        },
+        {
+          "no": "第3节",
+          "title": "声的利用",
+          "page": 38
+        },
+        {
+          "no": "第4节",
+          "title": "噪声的危害和控制",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "物态变化",
+      "page": 46,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "温度",
+          "page": 47
+        },
+        {
+          "no": "第2节",
+          "title": "熔化和凝固",
+          "page": 53
+        },
+        {
+          "no": "第3节",
+          "title": "汽化和液化",
+          "page": 58
+        },
+        {
+          "no": "第4节",
+          "title": "升华和凝华",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "光现象",
+      "page": 68,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "光的直线传播",
+          "page": 69
+        },
+        {
+          "no": "第2节",
+          "title": "光的反射",
+          "page": 73
+        },
+        {
+          "no": "第3节",
+          "title": "平面镜成像",
+          "page": 77
+        },
+        {
+          "no": "第4节",
+          "title": "光的折射",
+          "page": 81
+        },
+        {
+          "no": "第5节",
+          "title": "光的色散",
+          "page": 85
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "透镜及其应用",
+      "page": 89,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "透镜",
+          "page": 90
+        },
+        {
+          "no": "第2节",
+          "title": "生活中的透镜",
+          "page": 94
+        },
+        {
+          "no": "第3节",
+          "title": "凸透镜成像的规律",
+          "page": 97
+        },
+        {
+          "no": "第4节",
+          "title": "眼睛和眼镜",
+          "page": 100
+        },
+        {
+          "no": "第5节",
+          "title": "显微镜和望远镜",
+          "page": 103
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "质量与密度",
+      "page": 107,
+      "sections": [
+        {
+          "no": "第1节",
+          "title": "质量",
+          "page": 108
+        },
+        {
+          "no": "第2节",
+          "title": "密度",
+          "page": 113
+        },
+        {
+          "no": "第3节",
+          "title": "测量物质的密度",
+          "page": 117
+        },
+        {
+          "no": "第4节",
+          "title": "密度与社会生活",
+          "page": 120
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "目录",
+      "page": null
+    }
+  ]
+}

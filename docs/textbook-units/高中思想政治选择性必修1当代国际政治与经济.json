@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中思想政治选择性必修1当代国际政治与经济",
+  "pdf": {
+    "file": "高中思想政治选择性必修1当代国际政治与经济.pdf",
+    "sha256": "33c07af80ce99392afa5e55312af282996a7914a29e719cb64fb2d019be66adb",
+    "pages": 126,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "各具特色的国家",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "国体与政体",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "国家的结构形式",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "世界多极化",
+      "page": 25,
+      "sections": [
+        {
+          "no": "第三课",
+          "title": "多极化趋势",
+          "page": 26
+        },
+        {
+          "no": "第四课",
+          "title": "和平与发展",
+          "page": 34
+        },
+        {
+          "no": "第五课",
+          "title": "中国的外交",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "经济全球化",
+      "page": 57,
+      "sections": [
+        {
+          "no": "第六课",
+          "title": "走进经济全球化",
+          "page": 58
+        },
+        {
+          "no": "第七课",
+          "title": "经济全球化与中国",
+          "page": 69
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "国际组织",
+      "page": 83,
+      "sections": [
+        {
+          "no": "第八课",
+          "title": "主要的国际组织",
+          "page": 84
+        },
+        {
+          "no": "第九课",
+          "title": "中国与国际组织",
+          "page": 102
+        },
+        {
+          "no": "2",
+          "title": "目录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

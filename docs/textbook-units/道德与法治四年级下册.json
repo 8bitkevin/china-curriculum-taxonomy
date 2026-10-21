@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治四年级下册",
+  "pdf": {
+    "file": "道德与法治四年级下册.pdf",
+    "sha256": "1ade4d760cda8ddd91c15866798e286e1e75e2c7b45193c938b2097ca4aaa9eb",
+    "pages": 103,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "同伴与交往",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "我们的好朋友",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "说话要算数",
+          "page": 10
+        },
+        {
+          "no": "3",
+          "title": "当冲突发生",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "做聪明的消费者",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "买东西的学问",
+          "page": 28
+        },
+        {
+          "no": "5",
+          "title": "合理消费",
+          "page": 36
+        },
+        {
+          "no": "6",
+          "title": "有多少浪费本可避免",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "美好生活哪里来",
+      "page": null,
+      "sections": [
+        {
+          "no": "7",
+          "title": "我们的衣食之源",
+          "page": 52
+        },
+        {
+          "no": "8",
+          "title": "这些东西哪里来",
+          "page": 58
+        },
+        {
+          "no": "9",
+          "title": "生活离不开他们",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "感受家乡文化关心家乡发展",
+      "page": null,
+      "sections": [
+        {
+          "no": "10",
+          "title": "我们当地的风俗",
+          "page": 72
+        },
+        {
+          "no": "11",
+          "title": "多姿多彩的民间艺术",
+          "page": 82
+        },
+        {
+          "no": "12",
+          "title": "家乡的喜与忧",
+          "page": 90
+        }
+      ]
+    }
+  ]
+}

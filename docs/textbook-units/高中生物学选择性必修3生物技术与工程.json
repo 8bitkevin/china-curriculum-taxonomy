@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中生物学选择性必修3生物技术与工程",
+  "pdf": {
+    "file": "高中生物学选择性必修3生物技术与工程.pdf",
+    "sha256": "fadd037adc402a6ef21ee0a083bb8d05f953e44bfb461f81aa7a2002af00cb99",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

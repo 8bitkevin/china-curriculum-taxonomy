@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中物理选择性必修第一册",
+  "pdf": {
+    "file": "高中物理选择性必修第一册.pdf",
+    "sha256": "29cecb2b205478a3a6665e83471aeab95da986f184ebca90da5e0e8bce62d6c1",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "动量守恒定律",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "动量",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "动量定理",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "动量守恒定律",
+          "page": 12
+        },
+        {
+          "no": "4",
+          "title": "实验:验证动量守恒定律",
+          "page": 17
+        },
+        {
+          "no": "5",
+          "title": "弹性碰撞和非弹性碰撞",
+          "page": 21
+        },
+        {
+          "no": "6",
+          "title": "反冲现象 火箭",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "机械振动",
+      "page": 31,
+      "sections": [
+        {
+          "no": "1",
+          "title": "简谐运动",
+          "page": 32
+        },
+        {
+          "no": "2",
+          "title": "简谐运动的描述",
+          "page": 36
+        },
+        {
+          "no": "3",
+          "title": "简谐运动的回复力和能量",
+          "page": 43
+        },
+        {
+          "no": "4",
+          "title": "单摆",
+          "page": 46
+        },
+        {
+          "no": "5",
+          "title": "实验:用单摆测量重力加速度",
+          "page": 51
+        },
+        {
+          "no": "6",
+          "title": "受迫振动 共振",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "机械波",
+      "page": 61,
+      "sections": [
+        {
+          "no": "1",
+          "title": "波的形成",
+          "page": 62
+        },
+        {
+          "no": "2",
+          "title": "波的描述",
+          "page": 67
+        },
+        {
+          "no": "3",
+          "title": "波的反射、折射和衍射",
+          "page": 71
+        },
+        {
+          "no": "4",
+          "title": "波的干涉",
+          "page": 74
+        },
+        {
+          "no": "5",
+          "title": "多普勒效应",
+          "page": 79
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "光",
+      "page": 84,
+      "sections": [
+        {
+          "no": "1",
+          "title": "光的折射",
+          "page": 85
+        },
+        {
+          "no": "2",
+          "title": "全反射",
+          "page": 90
+        },
+        {
+          "no": "3",
+          "title": "光的干涉",
+          "page": 95
+        },
+        {
+          "no": "4",
+          "title": "实验:用双缝干涉测量光的波长",
+          "page": 101
+        },
+        {
+          "no": "5",
+          "title": "光的衍射",
+          "page": 104
+        },
+        {
+          "no": "6",
+          "title": "光的偏振 激光",
+          "page": 108
+        }
+      ]
+    }
+  ]
+}

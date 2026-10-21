@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治三年级上册",
+  "pdf": {
+    "file": "道德与法治三年级上册.pdf",
+    "sha256": "08304742df83395028efa0a660b231fc9b634474a016c9997d8dd454cde2fd3d",
+    "pages": 94,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "快乐学习",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "学习伴我成长",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "我学习,我快乐",
+          "page": 8
+        },
+        {
+          "no": "3",
+          "title": "做学习的主人",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们的学校",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "说说我们的学校",
+          "page": 24
+        },
+        {
+          "no": "5",
+          "title": "走近我们的老师",
+          "page": 32
+        },
+        {
+          "no": "6",
+          "title": "让我们的学校更美好",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "安全护我成长",
+      "page": null,
+      "sections": [
+        {
+          "no": "7",
+          "title": "生命最宝贵",
+          "page": 46
+        },
+        {
+          "no": "8",
+          "title": "安全记心上",
+          "page": 54
+        },
+        {
+          "no": "9",
+          "title": "心中的“110”",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "家是最温暖的地方",
+      "page": null,
+      "sections": [
+        {
+          "no": "10",
+          "title": "父母多爱我",
+          "page": 66
+        },
+        {
+          "no": "11",
+          "title": "爸爸妈妈在我心中",
+          "page": 72
+        },
+        {
+          "no": "12",
+          "title": "家庭的记忆",
+          "page": 78
+        }
+      ]
+    }
+  ]
+}

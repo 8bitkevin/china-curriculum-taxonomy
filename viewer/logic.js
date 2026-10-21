@@ -109,15 +109,17 @@ export function qualityMetrics(index) {
     promptCoverage: topics.length ? (topics.length - noPrompt.length) / topics.length : 1,
     standardsCoverage: topics.length ? (topics.length - noStandards.length) / topics.length : 1,
     byVolume: dist((t) => `${t.grade}年级${t.semester}`),
-    byDomain: dist((t) => t.domain),
+    bySubject: dist((t) => t.subject),
+    byDomain: dist((t) => (t.subject && t.subject !== '数学' ? `${t.subject}·` : '') + t.domain),
     byType: dist((t) => t.type),
   };
 }
 
-/** 列表过滤：搜索（名称/描述/id）+ 年级 + 领域，保持册内顺序。 */
-export function filterTopics(index, { query = '', grade = 0, domain = '' } = {}) {
+/** 列表过滤：搜索（名称/描述/id）+ 学科 + 年级 + 领域，保持册内顺序。 */
+export function filterTopics(index, { query = '', subject = '', grade = 0, domain = '' } = {}) {
   const q = query.trim().toLowerCase();
   return index.topics.filter((t) => {
+    if (subject && t.subject !== subject) return false;
     if (grade && t.grade !== grade) return false;
     if (domain && t.domain !== domain) return false;
     if (!q) return true;

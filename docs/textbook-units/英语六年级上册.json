@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "volume": "英语六年级上册",
+  "pdf": {
+    "file": "英语六年级上册.pdf",
+    "sha256": "29be7335cd4a25ace23364d84fbf225a3658fcf4735ca93cfa3adf3d337edacd",
+    "pages": 87,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "How can I get there?",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Ways to go to school",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "My weekend plan",
+      "page": null,
+      "sections": [
+        {
+          "no": "32",
+          "title": "Recycle",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "I have a pen pal",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "What does he do?",
+      "page": null
+    },
+    {
+      "index": 6,
+      "title": "How do you feel?",
+      "page": null,
+      "sections": [
+        {
+          "no": "66",
+          "title": "Recycle",
+          "page": 2
+        },
+        {
+          "no": "70",
+          "title": "Appendix 1: Songs in each unit",
+          "page": null
+        },
+        {
+          "no": "72",
+          "title": "Appendix 2: Words in each unit",
+          "page": null
+        },
+        {
+          "no": "75",
+          "title": "Appendix 3: Vocabulary",
+          "page": null
+        },
+        {
+          "no": "79",
+          "title": "Appendix 4: Useful expressions",
+          "page": null
+        },
+        {
+          "no": "80",
+          "title": "Appendix 5: Proverbs",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

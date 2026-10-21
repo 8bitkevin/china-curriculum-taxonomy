@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中生物学必修1分子与细胞",
+  "pdf": {
+    "file": "高中生物学必修1分子与细胞.pdf",
+    "sha256": "5d225c4b321014e08ea90bbc6d4601255a98bb846d03834c6a1e264127770eed",
+    "pages": 141,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中语文九年级上册",
+  "pdf": {
+    "file": "初中语文九年级上册.pdf",
+    "sha256": "bd5afd9c2d710f7ee936daf4ec55003bce6dc84cf8e6a32bf8def859242149ac",
+    "pages": 158,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": null,
+          "title": "·探究",
+          "page": null
+        },
+        {
+          "no": "1",
+          "title": "沁园春·雪/ 毛泽东",
+          "page": 3
+        },
+        {
+          "no": "2",
+          "title": "周总理,你在哪里/ 柯岩",
+          "page": 5
+        },
+        {
+          "no": "3",
+          "title": "我爱这土地/ 艾青",
+          "page": 8
+        },
+        {
+          "no": "4",
+          "title": "乡愁/ 余光中",
+          "page": 9
+        },
+        {
+          "no": "5",
+          "title": "你是人间的四月天",
+          "page": null
+        },
+        {
+          "no": "6",
+          "title": "我看/ 穆旦",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 26,
+      "sections": [
+        {
+          "no": null,
+          "title": "7敬业与乐业/梁启超",
+          "page": null
+        },
+        {
+          "no": "8",
+          "title": "就英法联军远征中国致巴特勒上尉的信",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "写作观点要明确44",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 50,
+      "sections": [
+        {
+          "no": null,
+          "title": "11岳阳楼记/范仲淹",
+          "page": null
+        },
+        {
+          "no": "12",
+          "title": "醉翁亭记/ 欧阳修",
+          "page": 54
+        },
+        {
+          "no": "14",
+          "title": "诗词三首",
+          "page": 59
+        },
+        {
+          "no": null,
+          "title": "写作议论要言之有据63",
+          "page": 63
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读65",
+          "page": 65
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 68,
+      "sections": [
+        {
+          "no": null,
+          "title": "15故乡/鲁迅",
+          "page": null
+        },
+        {
+          "no": "16",
+          "title": "我的叔叔于勒/ 莫泊桑",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "写作学习缩写91",
+          "page": 91
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 97,
+      "sections": [
+        {
+          "no": null,
+          "title": "18中国人失掉自信力了吗/鲁迅",
+          "page": null
+        },
+        {
+          "no": "19",
+          "title": "怀疑与学问/ 顾颉刚",
+          "page": 100
+        },
+        {
+          "no": null,
+          "title": "写作论证要合理111",
+          "page": 111
+        },
+        {
+          "no": null,
+          "title": "口语交际讨论113",
+          "page": 113
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 116,
+      "sections": [
+        {
+          "no": null,
+          "title": "22智取生辰纲/施耐庵",
+          "page": null
+        },
+        {
+          "no": "23",
+          "title": "范进中举/ 吴敬梓",
+          "page": 125
+        },
+        {
+          "no": null,
+          "title": "写作学习改写142",
+          "page": 142
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读148",
+          "page": 148
+        },
+        {
+          "no": null,
+          "title": "注:阅读单元的课文分“教读”和“自读”两类,篇名前标有*的为“自读”课文。“活动·探究”单元",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

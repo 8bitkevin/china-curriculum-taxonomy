@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治六年级上册",
+  "pdf": {
+    "file": "道德与法治六年级上册.pdf",
+    "sha256": "46af3b17e3423b376891edf2bd7dd18d14ba4da149bcc6662be0e6bac15612d4",
+    "pages": 98,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我们的守护者",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "感受生活中的法律",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "宪法是根本法",
+          "page": 12
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们是公民",
+      "page": null,
+      "sections": [
+        {
+          "no": "3",
+          "title": "公民意味着什么",
+          "page": 22
+        },
+        {
+          "no": "4",
+          "title": "公民的基本权利和义务",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "我们的国家机构",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "国家机构有哪些",
+          "page": 42
+        },
+        {
+          "no": "6",
+          "title": "人大代表为人民",
+          "page": 52
+        },
+        {
+          "no": "7",
+          "title": "权力受到制约和监督",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "法律保护我们健康成长",
+      "page": null,
+      "sections": [
+        {
+          "no": "8",
+          "title": "我们受特殊保护",
+          "page": 72
+        },
+        {
+          "no": "9",
+          "title": "知法守法依法维权",
+          "page": 82
+        }
+      ]
+    }
+  ]
+}

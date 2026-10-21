@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中英语选择性必修第一册",
+  "pdf": {
+    "file": "高中英语选择性必修第一册.pdf",
+    "sha256": "94ec493439239c436326e228e3d3ad78c7053ac5abc005db5739119f6a98c33d",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "Tu Youyou Awarded Nobel Prize People of achievement",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Smart Homes to Make Life Easier Predictions",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Natural Treasure Sarek National Park—Europe’s Hidden Having fun in Beijing Olympic Forest Park",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "Listening to How Bodies Talk Non-verbal communication",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "A Pioneer for All People World hunger",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "p.",
+      "page": 68
+    }
+  ]
+}

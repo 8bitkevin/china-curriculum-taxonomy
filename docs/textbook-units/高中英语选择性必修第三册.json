@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中英语选择性必修第三册",
+  "pdf": {
+    "file": "高中英语选择性必修第三册.pdf",
+    "sha256": "ed8eb9e5988b44a1ff4f8bc11ed3cfae406decefae7982477362720788e1998b",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "A Short History of Western Painting An ink wash animation film",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Habits for a Healthy Lifestyle Breaking and building habits",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Attention Climate Change Requires World Talking about air pollution",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "A Successful Failure The rescue",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "A Few Simple Forms of English Poems Attending a poetry contest",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "p.",
+      "page": 68
+    }
+  ]
+}

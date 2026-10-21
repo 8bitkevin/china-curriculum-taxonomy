@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中地理八年级上册",
+  "pdf": {
+    "file": "初中地理八年级上册.pdf",
+    "sha256": "644772ceddd6ce47a2561a9cac4db8221f0d96359d9c4e607f8b1a19b5e1874a",
+    "pages": 120,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

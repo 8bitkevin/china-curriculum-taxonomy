@@ -2,18 +2,20 @@
 // 代码为本仓库原创中文版）。布局为锥形（纺锤）星系：y = 年级高度场，
 // 平均半径随高度线性张开；节点尺寸 = sqrt(中心性)*7.5 的幂律分布。
 
+// 分组 = 学科（数学时代按四领域，多学科后改为按学科分股着色，D-016）
 const GROUP_COLORS = {
-  '数与代数': '#3D63D8',
-  '图形与几何': '#E76D95',
-  '统计与概率': '#E8B08A',
-  '综合与实践': '#9DB8DC',
+  '数学': '#3D63D8', '语文': '#E76D95', '英语': '#E8B08A', '物理': '#0e7490',
+  '化学': '#b45309', '生物学': '#047857', '历史': '#9f1239', '地理': '#6d28d9',
+  '道德与法治': '#4d7c0f', '思想政治': '#7c3aed',
 };
+const PALETTE = ['#3D63D8', '#E76D95', '#E8B08A', '#0e7490', '#b45309', '#047857', '#9f1239', '#6d28d9', '#4d7c0f', '#7c3aed'];
+const colorOf = (name, i) => GROUP_COLORS[name] ?? PALETTE[i % PALETTE.length];
 const FOCUS_GLOW = 18, LINEAGE_GLOW = 9;
 
 // ---------- 布局：锥形星系（对标 Marble 的预计算坐标分布） ----------
 // 半径斜率与散布按其数据实测（avgR 117→456，r≈110+0.26y，散布 σ≈90）。
 export function buildLayout(index) {
-  const groups = [...new Set(index.topics.map((t) => t.domain))];
+  const groups = [...new Set(index.topics.map((t) => t.subject))];
   const grades = index.topics.map((t) => t.grade);
   const minG = Math.min(...grades), maxG = Math.max(...grades);
   const LVL = 350;                                  // 每个年级的高度
@@ -34,12 +36,13 @@ export function buildLayout(index) {
     const rr = Math.max(30, baseR + gauss(hash01(t.id + 'r'), hash01(t.id + 'r2')) * 95);
     // 中心性 c：幂律感——多数节点 0，枢纽趋近 1
     const c = deg.get(t.id) <= 1 ? 0 : Math.min(1, (deg.get(t.id) - 1) / maxDeg * 1.6);
+    const g = groups.indexOf(t.subject);
     return {
       id: t.id, topic: t,
       x: Math.cos(theta) * rr, y, z: Math.sin(theta) * rr,
-      g: groups.indexOf(t.domain), a: t.grade,
-      col: GROUP_COLORS[t.domain] ?? '#94a3b8',
-      dm: t.domain, name: t.name, c,
+      g, a: t.grade,
+      col: colorOf(t.subject, g),
+      dm: t.subject !== '数学' ? `${t.subject}·${t.domain}` : t.domain, name: t.name, c,
       appear: y / H,
     };
   });
@@ -112,7 +115,7 @@ export class Graph3D {
       const el = document.createElement('button');
       el.type = 'button'; el.className = 'chip'; el.tabIndex = 0;
       el.setAttribute('role', 'button'); el.setAttribute('aria-pressed', 'true');
-      el.innerHTML = `<span class="sw" style="background:${GROUP_COLORS[name]}"></span>
+      el.innerHTML = `<span class="sw" style="background:${colorOf(name, i)}"></span>
         <span class="nm">${esc(name)}</span><span class="ct mono">${counts[i]}</span>`;
       const toggle = () => {
         if (this.active.has(i)) { this.active.delete(i); el.classList.add('off'); el.setAttribute('aria-pressed', 'false'); }
@@ -317,7 +320,7 @@ export class Graph3D {
   showTip(i, e) {
     const n = this.layout.nodes[i], tip = this.dom.tip;
     tip.querySelector('.sw').style.background = n.col;
-    tip.querySelector('.ts').textContent = `${n.dm} · ${n.a}年级`;
+    tip.querySelector('.ts').textContent = `${n.dm} · ${n.a}年级 · ${n.topic.subject}`;
     tip.querySelector('.ttl').textContent = n.name;
     tip.querySelector('.q').textContent = n.topic.assessmentPrompt
       ? renderQ(n.topic.assessmentPrompt) : '';
@@ -351,7 +354,7 @@ export class Graph3D {
     const n = this.layout.nodes[i], card = this.dom.card;
     const cnt = this.lineage.nodes.size - 1;
     card.querySelector('.sw').style.background = n.col;
-    card.querySelector('.cs').textContent = `${n.dm} · ${n.a}年级${n.topic.semester}册`;
+    card.querySelector('.cs').textContent = `${n.topic.subject} · ${n.dm} · ${n.a}年级${n.topic.semester}册`;
     card.querySelector('.ctl').textContent = n.name;
     card.querySelector('.cq').textContent = renderQ(n.topic.assessmentPrompt);
     card.querySelector('.n').textContent = cnt;

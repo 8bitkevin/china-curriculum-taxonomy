@@ -63,10 +63,10 @@ const manifest = {
   },
   coverage: {
     scope: 'K12（小学 1-6 / 初中 7-9 / 高中 10-12）',
-    subjects: ['数学'],
+    subjects: [...new Set(topicsDoc.topics.map((t) => t.subject))],
     grades: [...new Set(topicsDoc.topics.map(t => t.grade))].sort((a, b) => a - b),
     textbookSeries: [...new Set(topicsDoc.topics.map((t) => `${t.textbook.publisher}·${t.textbook.editionYear} 年版`))].sort(),
-    note: '覆盖数学 K12 全学段（小学 1-6 / 初中 7-9 / 高中 10-12，人教系教材 23 册）；进度详见 CHANGELOG。',
+    note: `覆盖 ${[...new Set(topicsDoc.topics.map((t) => t.subject))].join('、')}（人教系/统编教材）；进度详见 CHANGELOG。`,
   },
   files,
 };

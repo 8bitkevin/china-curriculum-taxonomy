@@ -8,6 +8,16 @@
 
 ## [Unreleased]
 
+### 多学科扩展前置（schema v2 + 工具 + 基线，2026-10-21）
+
+学科横向铺开（D-015：语文→英语→物理→化学→生物→历史→地理→道法政治）开工前置。执行计划见 [docs/SUBJECTS-BACKFILL-PLAN.md](docs/SUBJECTS-BACKFILL-PLAN.md)。
+
+- **BREAKING（schema）**：`topics.schema.json` 的 `domain` 从全局四领域枚举放开为按学科受控字符串，topics.json `schemaVersion` 1→2（迁移：数学数据零改动，validate `DOMAIN_BY_SUBJECT` 接管枚举校验；新增数学外学科 id 前缀 `ct_{学科代码}_g…`、统编三科 publisher=统编版、高中册名按学科映射 `HS_BOOKS_BY_SUBJECT`、跨学科依赖边禁止）
+- `scripts/extract-toc.py` 扩全学科 111 册卷册注册表 + 三种目录形态（章-节 / 单元-课 / 课-框），支持阿拉伯章号、拼音注音行过滤、CONTENTS/Unit N 目录页识别；自动基线 +90 册（语文初中 6、英语 PEP/高中 15、物理 7、化学 6、生物 1、历史 11、地理 5、道法/思政 18 等；其余 ~25 册扫描版/乱码目录待人工基线，随各科批次补齐）
+- `scripts/validate.mjs`：分科受控校验 + 分科汇总输出；`report.mjs` 增学科分布；`build-manifest.mjs` coverage 按数据派生
+- viewer：新增学科筛选（年级/领域选项联动刷新）、列表按学科分组、3D 全景按学科分股着色（十科色板）
+- 决策记录 D-015（范围与顺序）/ D-016（多学科口径）
+
 ## [1.0.0] - 2026-10-21 — 数学 K12 全线贯通（M3–M6 一次性推进）
 
 **总量：563 微主题 / 942 先修边 / 181 课标条目 / 23 册教材全量（小学 12 + 初中 6 + 高中 5）。** 质量全绿：孤岛 0、assessmentPrompt 覆盖 100%、课标引用覆盖 100%、跨年级倒挂边 0；三大跨学段主链（整数四则→…→函数与导数；实验几何→论证几何→立体/解析几何；数据统计→随机概率）经传递闭包抽查全部贯通。

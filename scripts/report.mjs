@@ -51,8 +51,9 @@ const dist = (select) => {
 const vol = (t) => `${t.grade}年级${t.semester}`;
 
 for (const [title, rows] of [
+  ['学科分布', dist((t) => t.subject)],
   ['分册分布', dist(vol)],
-  ['领域分布', dist((t) => t.domain)],
+  ['领域分布', dist((t) => `${t.subject}·${t.domain}`)],
   ['类型分布', dist((t) => t.type)],
 ]) {
   emit();
@@ -116,12 +117,14 @@ if (inverted.length) {
 try {
   const manifest = read('data/manifest.json');
   const volumes = new Set(topics.map((t) => vol(t)));
+  const subjects = [...new Set(topics.map((t) => t.subject))];
   emit();
   emit('## 教材基线（TOOL-1）');
   emit();
   emit(`- 数据版本：${manifest.version}（manifest 生成于 ${manifest.generatedAt?.slice(0, 10) ?? '?'}）`);
+  emit(`- 覆盖学科：${subjects.join('、')}`);
   emit(`- 当前数据覆盖册：${[...volumes].join('、')}`);
-  emit('- 教材单元基线：数学 23 册已留档 `docs/textbook-units/`（17 册 PDF 提取 + 6 册人工基线）');
+  emit('- 教材单元基线：`docs/textbook-units/` 留档（PDF 文本提取 + 扫描版人工基线，`--check` 可校验）');
 } catch { /* manifest 缺失时不阻塞报告 */ }
 
 const text = out.join('\n') + '\n';

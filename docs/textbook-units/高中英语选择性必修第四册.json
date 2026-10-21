@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中英语选择性必修第四册",
+  "pdf": {
+    "file": "高中英语选择性必修第四册.pdf",
+    "sha256": "2ad7555a13eb420aa70497f9faa2541fdb502b7ffc4e063e87c60cce88f1b4a3",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "Satisfaction Guaranteed Robots and AI",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "A Travel Blog New Zealand What best represents",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Reaching Out Across the Sea Whale watching camp",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "Volunteering in the Bush Student volunteering options",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "Working Out What You Want to Do Choose a university major",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "p.",
+      "page": 68
+    }
+  ]
+}

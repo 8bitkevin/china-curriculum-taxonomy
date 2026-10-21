@@ -22,7 +22,7 @@ const state = {
   index: null,
   view: 'graph',            // graph | quality
   selectedId: null,
-  query: '', grade: 0, domain: '',
+  query: '', subject: '', grade: 0, domain: '',
   childName: '孩子',
 };
 
@@ -35,7 +35,9 @@ async function load() {
   ]);
   state.index = buildIndex(topicsDoc, depsDoc);
   state.standards = standardsDoc;
-  $('#brand-sub').textContent = `数学 · ${topicsDoc.topics.length} 微主题 · ${depsDoc.dependencies.length} 先修边 · ${topicsDoc.version}`;
+  const subjCount = [...new Set(topicsDoc.topics.map((t) => t.subject))];
+  $('#brand-sub').textContent =
+    `${subjCount.join(' · ')} · ${topicsDoc.topics.length} 微主题 · ${depsDoc.dependencies.length} 先修边 · ${topicsDoc.version}`;
   initControls();
   renderList();
   renderQuality();   // 预渲染质量视图（切页签零延迟）
@@ -43,14 +45,25 @@ async function load() {
 }
 
 // ---------- 控件 ----------
-function initControls() {
-  const grades = [...new Set(state.index.topics.map((t) => t.grade))].sort((a, b) => a - b);
-  $('#grade').insertAdjacentHTML('beforeend',
-    grades.map((g) => `<option value="${g}">${g} 年级</option>`).join(''));
-  const domains = [...new Set(state.index.topics.map((t) => t.domain))];
-  $('#domain').insertAdjacentHTML('beforeend',
-    domains.map((d) => `<option value="${esc(d)}">${esc(d)}</option>`).join(''));
+const SUBJECT_ORDER = ['数学', '语文', '英语', '物理', '化学', '生物学', '历史', '地理', '道德与法治', '思想政治'];
 
+function initControls() {
+  const subjects = [...new Set(state.index.topics.map((t) => t.subject))]
+    .sort((a, b) => SUBJECT_ORDER.indexOf(a) - SUBJECT_ORDER.indexOf(b));
+  $('#subject').insertAdjacentHTML('beforeend',
+    subjects.map((s) => `<option value="${esc(s)}">${esc(s)}</option>`).join(''));
+  fillGradeAndDomainOptions();
+
+  $('#subject').addEventListener('change', (e) => {
+    state.subject = e.target.value;
+    // 领域选项随学科刷新（各科领域集不同），当前领域若不在新学科内则重置
+    const keep = state.domain && state.index.topics.some(
+      (t) => t.subject === state.subject && t.domain === state.domain);
+    if (!keep) state.domain = '';
+    fillGradeAndDomainOptions();
+    $('#domain').value = state.domain;
+    renderList();
+  });
   $('#search').addEventListener('input', (e) => { state.query = e.target.value; renderList(); });
   $('#grade').addEventListener('change', (e) => { state.grade = +e.target.value; renderList(); });
   $('#domain').addEventListener('change', (e) => { state.domain = e.target.value; renderList(); });
@@ -61,6 +74,21 @@ function initControls() {
   $('#tab-graph3d').addEventListener('click', () => switchView('graph3d'));
   $('#tab-quality').addEventListener('click', () => switchView('quality'));
   window.addEventListener('hashchange', applyHash);
+}
+
+function fillGradeAndDomainOptions() {
+  const scoped = state.index.topics.filter((t) => !state.subject || t.subject === state.subject);
+  const gradeSel = $('#grade'), domainSel = $('#domain');
+  const keepGrade = state.grade, keepDomain = state.domain;
+  gradeSel.innerHTML = '<option value="0">全部</option>' +
+    [...new Set(scoped.map((t) => t.grade))].sort((a, b) => a - b)
+      .map((g) => `<option value="${g}">${g} 年级</option>`).join('');
+  domainSel.innerHTML = '<option value="">全部</option>' +
+    [...new Set(scoped.map((t) => t.domain))]
+      .map((d) => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
+  gradeSel.value = String(keepGrade || 0);
+  if (keepDomain && ![...scoped].some((t) => t.domain === keepDomain)) state.domain = '';
+  domainSel.value = state.domain;
 }
 
 function switchView(view) {
@@ -88,10 +116,10 @@ function renderList() {
   const list = filterTopics(index, state);
   $('#list-count').textContent = `${list.length} 个主题`;
 
-  // 按册分组，保持册内 id 顺序
+  // 按册分组（未选学科时加学科前缀），保持册内 id 顺序
   const groups = new Map();
   for (const t of list) {
-    const v = index.volumeOf(t);
+    const v = (state.subject ? '' : `${t.subject}·`) + index.volumeOf(t);
     if (!groups.has(v)) groups.set(v, []);
     groups.get(v).push(t);
   }

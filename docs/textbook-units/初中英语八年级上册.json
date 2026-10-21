@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中英语八年级上册",
+  "pdf": {
+    "file": "初中英语八年级上册.pdf",
+    "sha256": "b6aede721a90f5e18420e01a9030709ebf3d9231121db71f8474d0034a10e781",
+    "pages": 158,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

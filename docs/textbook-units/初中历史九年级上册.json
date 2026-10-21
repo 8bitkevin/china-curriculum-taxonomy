@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中历史九年级上册",
+  "pdf": {
+    "file": "初中历史九年级上册.pdf",
+    "sha256": "b02f448ff7e8e1190613b70c840095a47f6ff226589a66e10c9dfd4d92a9acbe",
+    "pages": 114,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第1课",
+          "title": "古代埃及",
+          "page": 2
+        },
+        {
+          "no": "第2课",
+          "title": "古代两河流域",
+          "page": 6
+        },
+        {
+          "no": "第3课",
+          "title": "古代印度",
+          "page": 10
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第4课",
+          "title": "希腊城邦和亚历山大帝国",
+          "page": 16
+        },
+        {
+          "no": "第5课",
+          "title": "罗马城邦和罗马帝国",
+          "page": 21
+        },
+        {
+          "no": "第6课",
+          "title": "希腊罗马古典文化",
+          "page": 26
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第7课",
+          "title": "基督教的兴起和法兰克王国",
+          "page": 32
+        },
+        {
+          "no": "第8课",
+          "title": "西欧庄园",
+          "page": 38
+        },
+        {
+          "no": "第9课",
+          "title": "中世纪城市和大学的兴起",
+          "page": 42
+        },
+        {
+          "no": "第10课",
+          "title": "拜占庭帝国和《查士丁尼法典》",
+          "page": 47
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第11课",
+          "title": "古代日本",
+          "page": 52
+        },
+        {
+          "no": "第12课",
+          "title": "阿拉伯帝国",
+          "page": 55
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第13课",
+          "title": "西欧经济和社会的发展",
+          "page": 60
+        },
+        {
+          "no": "第14课",
+          "title": "文艺复兴运动",
+          "page": 65
+        },
+        {
+          "no": "第15课",
+          "title": "探寻新航路",
+          "page": 70
+        },
+        {
+          "no": "第16课",
+          "title": "早期殖民掠夺",
+          "page": 75
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第17课",
+          "title": "君主立宪制的英国",
+          "page": 80
+        },
+        {
+          "no": "第18课",
+          "title": "美国的独立",
+          "page": 84
+        },
+        {
+          "no": "第19课",
+          "title": "法国大革命和拿破仑帝国",
+          "page": 88
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第20课",
+          "title": "第一次工业革命",
+          "page": 94
+        },
+        {
+          "no": "第21课",
+          "title": "马克思主义的诞生和国际共产主义运动的兴起",
+          "page": 98
+        },
+        {
+          "no": "第22课",
+          "title": "活动课:唱响《国际歌》",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "附录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中历史八年级上册",
+  "pdf": {
+    "file": "初中历史八年级上册.pdf",
+    "sha256": "30f804dbc3a796c9f53c502c2942d3d4f4e20f87be77182cad5caa28a4ceddf1",
+    "pages": 141,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第1课",
+          "title": "鸦片战争",
+          "page": 2
+        },
+        {
+          "no": "第2课",
+          "title": "第二次鸦片战争",
+          "page": 8
+        },
+        {
+          "no": "第3课",
+          "title": "太平天国运动",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第4课",
+          "title": "洋务运动",
+          "page": 20
+        },
+        {
+          "no": "第5课",
+          "title": "甲午中日战争与列强瓜分中国狂潮",
+          "page": 24
+        },
+        {
+          "no": "第6课",
+          "title": "戊戌变法",
+          "page": 28
+        },
+        {
+          "no": "第7课",
+          "title": "八国联军侵华与《辛丑条约》签订",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第8课",
+          "title": "革命先行者孙中山",
+          "page": 38
+        },
+        {
+          "no": "第9课",
+          "title": "辛亥革命",
+          "page": 42
+        },
+        {
+          "no": "第10课",
+          "title": "中华民国的创建",
+          "page": 46
+        },
+        {
+          "no": "第11课",
+          "title": "北洋政府的统治与军阀割据",
+          "page": 50
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第12课",
+          "title": "新文化运动",
+          "page": 56
+        },
+        {
+          "no": "第13课",
+          "title": "五四运动",
+          "page": 59
+        },
+        {
+          "no": "第14课",
+          "title": "中国共产党诞生",
+          "page": 63
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第15课",
+          "title": "国共合作与北伐战争",
+          "page": 70
+        },
+        {
+          "no": "第16课",
+          "title": "毛泽东开辟井冈山道路",
+          "page": 75
+        },
+        {
+          "no": "第17课",
+          "title": "中国工农红军长征",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第18课",
+          "title": "从九一八事变到西安事变",
+          "page": 86
+        },
+        {
+          "no": "第19课",
+          "title": "七七事变与全民族抗战",
+          "page": 91
+        },
+        {
+          "no": "第20课",
+          "title": "正面战场的抗战",
+          "page": 96
+        },
+        {
+          "no": "第21课",
+          "title": "敌后战场的抗战",
+          "page": 100
+        },
+        {
+          "no": "第22课",
+          "title": "抗日战争的胜利",
+          "page": 104
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第23课",
+          "title": "内战爆发",
+          "page": 110
+        },
+        {
+          "no": "第24课",
+          "title": "人民解放战争的胜利",
+          "page": 114
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第25课",
+          "title": "经济和社会生活的变化",
+          "page": 120
+        },
+        {
+          "no": "第26课",
+          "title": "教育文化事业的发展",
+          "page": 125
+        },
+        {
+          "no": "第27课",
+          "title": "活动课:考察近代历史遗迹",
+          "page": 130
+        },
+        {
+          "no": null,
+          "title": "附录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

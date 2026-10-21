@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文六年级下册",
+  "pdf": {
+    "file": "语文六年级下册.pdf",
+    "sha256": "5600e1bb3397c18313c77fef9be5cb6504bad45865d62a4520f3c0c6fd71f368",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

@@ -57,12 +57,12 @@
       "人教版·2012 年版",
       "人教版·2022 年版"
     ],
-    "note": "覆盖数学 K12 全学段（小学 1-6 / 初中 7-9 / 高中 10-12，人教系教材 23 册）；进度详见 CHANGELOG。"
+    "note": "覆盖 数学（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 615054,
-      "sha256": "b259bfbed3f22f598b5cc52428ed979410f33f1566fe6d6559ae21ee3329cb27"
+      "bytes": 614977,
+      "sha256": "238541e33bfccddeecac35cadb388b03e89eb4bae191f4ecdef8270c5c9fcacb"
     },
     "dependencies.json": {
       "bytes": 180776,

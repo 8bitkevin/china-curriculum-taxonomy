@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中生物学必修2遗传与进化",
+  "pdf": {
+    "file": "高中生物学必修2遗传与进化.pdf",
+    "sha256": "aca3c826dd2db97283fcf3dedd5517421944b279bf7446d04392c7fe7232d660",
+    "pages": 138,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

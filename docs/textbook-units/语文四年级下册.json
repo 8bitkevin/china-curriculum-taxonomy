@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文四年级下册",
+  "pdf": {
+    "file": "语文四年级下册.pdf",
+    "sha256": "91dba9d3159295266c958f6ab3e4470781738627f212f2d9d484a8b9ef4bea1c",
+    "pages": 151,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "6323“诺曼底号”遇难记",
+      "page": 104,
+      "sections": [
+        {
+          "no": "16",
+          "title": "海上日出 64 24* 黄继光",
+          "page": 109
+        },
+        {
+          "no": "17",
+          "title": "记金华的双龙洞 66 25* 挑山工",
+          "page": 113
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:◎口语交际:自我介绍117",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "◎习作:游74",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元",
+      "page": 121
+    },
+    {
+      "index": 6,
+      "title": "7526宝葫芦的秘密(节选)",
+      "page": 122,
+      "sections": [
+        {
+          "no": "18",
+          "title": "文言文二则 76 27 巨人的花园",
+          "page": 125
+        },
+        {
+          "no": "19",
+          "title": "小英雄雨来(节选) 78 ◎ 语文园地",
+          "page": 135
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:写字表140统编版",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "◎习作:我学会了98",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "◎语文园地99标*的是略读课文",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

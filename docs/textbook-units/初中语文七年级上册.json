@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中语文七年级上册",
+  "pdf": {
+    "file": "初中语文七年级上册.pdf",
+    "sha256": "8c4accde5f1181f3d27bec19473227b7d742415064a672fd17393b0b5730d1f8",
+    "pages": 150,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 2,
+      "sections": [
+        {
+          "no": null,
+          "title": "1春/朱自清",
+          "page": null
+        },
+        {
+          "no": "2",
+          "title": "济南的冬天/ 老舍",
+          "page": 6
+        },
+        {
+          "no": "4",
+          "title": "古代诗歌四首",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "写作热爱生活,热爱写作17",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 20,
+      "sections": [
+        {
+          "no": null,
+          "title": "5秋天的怀念/史铁生",
+          "page": null
+        },
+        {
+          "no": "6",
+          "title": "散步/ 莫怀戚",
+          "page": 23
+        },
+        {
+          "no": "8",
+          "title": "《世说新语》二则",
+          "page": 29
+        },
+        {
+          "no": null,
+          "title": "写作学会记事32",
+          "page": 32
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 38,
+      "sections": [
+        {
+          "no": null,
+          "title": "9从百草园到三味书屋/鲁迅",
+          "page": null
+        },
+        {
+          "no": "11",
+          "title": "《论语》十二章",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "写作写人要抓住特点54",
+          "page": 54
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读63",
+          "page": 63
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 66,
+      "sections": [
+        {
+          "no": null,
+          "title": "12纪念白求恩/毛泽东",
+          "page": null
+        },
+        {
+          "no": "13",
+          "title": "植树的牧羊人/ 让·乔诺",
+          "page": 70
+        },
+        {
+          "no": "15",
+          "title": "诫子书/ 诸葛亮",
+          "page": 81
+        },
+        {
+          "no": null,
+          "title": "写作思路要清晰83",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 92,
+      "sections": [
+        {
+          "no": null,
+          "title": "16猫/郑振铎",
+          "page": null
+        },
+        {
+          "no": "18",
+          "title": "狼/ 蒲松龄",
+          "page": 105
+        },
+        {
+          "no": null,
+          "title": "写作如何突出中心108",
+          "page": 108
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 112,
+      "sections": [
+        {
+          "no": null,
+          "title": "19皇帝的新装/安徒生",
+          "page": null
+        },
+        {
+          "no": "20",
+          "title": "天上的街市/ 郭沫若",
+          "page": 118
+        },
+        {
+          "no": "22",
+          "title": "寓言四则",
+          "page": 124
+        },
+        {
+          "no": null,
+          "title": "写作发挥联想和想象128",
+          "page": 128
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读140",
+          "page": 140
+        },
+        {
+          "no": null,
+          "title": "注:阅读课文分“教读”和“自读”两类。篇名前标有*的为自读课文。",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

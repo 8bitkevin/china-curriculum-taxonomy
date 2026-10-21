@@ -1,0 +1,206 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中语文八年级上册",
+  "pdf": {
+    "file": "初中语文八年级上册.pdf",
+    "sha256": "1daa46b091ca69ba4f1da85a8623b797a8743df457f0594f03c3d1ca5c44aa6c",
+    "pages": 170,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": null,
+          "title": "·探究",
+          "page": null
+        },
+        {
+          "no": "1",
+          "title": "消息二则/ 毛泽东",
+          "page": 3
+        },
+        {
+          "no": "2",
+          "title": "首届诺贝尔奖颁发",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "“飞天”凌空",
+          "page": null
+        },
+        {
+          "no": "4",
+          "title": "一着惊海天",
+          "page": null
+        },
+        {
+          "no": "5",
+          "title": "国行公祭,为佑世界和平/ 钟声",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "口语交际",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 22,
+      "sections": [
+        {
+          "no": null,
+          "title": "6藤野先生/鲁迅",
+          "page": null
+        },
+        {
+          "no": "7",
+          "title": "回忆我的母亲/ 朱德",
+          "page": 30
+        },
+        {
+          "no": null,
+          "title": "写作学写传记47",
+          "page": 47
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 54,
+      "sections": [
+        {
+          "no": null,
+          "title": "10三峡/郦道元",
+          "page": null
+        },
+        {
+          "no": "11",
+          "title": "短文二篇",
+          "page": 56
+        },
+        {
+          "no": "13",
+          "title": "唐诗五首",
+          "page": 60
+        },
+        {
+          "no": null,
+          "title": "写作学习描写景物64",
+          "page": 64
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读71",
+          "page": 71
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 74,
+      "sections": [
+        {
+          "no": null,
+          "title": "14背影/朱自清",
+          "page": null
+        },
+        {
+          "no": "15",
+          "title": "白杨礼赞/ 茅盾",
+          "page": 78
+        },
+        {
+          "no": null,
+          "title": "写作语言要连贯91",
+          "page": 91
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 98,
+      "sections": [
+        {
+          "no": null,
+          "title": "18中国石拱桥/茅以昇",
+          "page": null
+        },
+        {
+          "no": "19",
+          "title": "苏州园林/ 叶圣陶",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "写作说明事物要抓住特征126",
+          "page": 126
+        },
+        {
+          "no": null,
+          "title": "口语交际",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 136,
+      "sections": [
+        {
+          "no": null,
+          "title": "23《孟子》三章",
+          "page": null
+        },
+        {
+          "no": "24",
+          "title": "愚公移山/《列子》",
+          "page": 140
+        },
+        {
+          "no": "26",
+          "title": "诗词五首",
+          "page": 146
+        },
+        {
+          "no": null,
+          "title": "写作表达要得体150",
+          "page": 150
+        }
+      ]
+    }
+  ]
+}

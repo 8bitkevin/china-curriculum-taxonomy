@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治七年级上册",
+  "pdf": {
+    "file": "初中道德与法治七年级上册.pdf",
+    "sha256": "be186b3f39bfabd7ab24eec13f2813cd4190d71ea6ca5c8822489fd7f8f5b88c",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "成长的节拍",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "中学时代",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "学习新天地",
+          "page": 14
+        },
+        {
+          "no": "第三课",
+          "title": "发现自己",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "友谊的天空",
+      "page": 37,
+      "sections": [
+        {
+          "no": "第四课",
+          "title": "友谊与成长同行",
+          "page": 38
+        },
+        {
+          "no": "第五课",
+          "title": "交友的智慧",
+          "page": 49
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "师长情谊",
+      "page": 59,
+      "sections": [
+        {
+          "no": "第六课",
+          "title": "师生之间",
+          "page": 60
+        },
+        {
+          "no": "第七课",
+          "title": "亲情之爱",
+          "page": 71
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "生命的思考",
+      "page": 87,
+      "sections": [
+        {
+          "no": "第八课",
+          "title": "探问生命",
+          "page": 88
+        },
+        {
+          "no": "第九课",
+          "title": "珍视生命",
+          "page": 99
+        },
+        {
+          "no": "第十课",
+          "title": "绽放生命之花",
+          "page": 111
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中思想政治必修3政治与法治",
+  "pdf": {
+    "file": "高中思想政治必修3政治与法治.pdf",
+    "sha256": "6b28bccfa267b20476eeb6c60311f91eb221fa84f4680e67b141596dbf8066ce",
+    "pages": 122,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "历史和人民的选择",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "中国共产党的先进性",
+      "page": 15
+    },
+    {
+      "index": 3,
+      "title": "坚持和加强党的全面领导",
+      "page": 25
+    },
+    {
+      "index": 4,
+      "title": "人民民主专政的社会主义国家",
+      "page": 36
+    },
+    {
+      "index": 5,
+      "title": "我国的根本政治制度",
+      "page": 44
+    },
+    {
+      "index": 6,
+      "title": "我国的基本政治制度",
+      "page": 54
+    },
+    {
+      "index": 7,
+      "title": "治国理政的基本方式",
+      "page": 74
+    },
+    {
+      "index": 8,
+      "title": "法治中国建设",
+      "page": 84
+    },
+    {
+      "index": 9,
+      "title": "全面推进依法治国的基本要求",
+      "page": 97,
+      "sections": [
+        {
+          "no": "2",
+          "title": "目录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

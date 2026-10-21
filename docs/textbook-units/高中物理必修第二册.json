@@ -1,0 +1,132 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中物理必修第二册",
+  "pdf": {
+    "file": "高中物理必修第二册.pdf",
+    "sha256": "df035766eef5d7e7bc4e2277dc680e043864c6089d75d4678be44b030c75e60b",
+    "pages": 114,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "抛体运动",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "曲线运动",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "运动的合成与分解",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "实验:探究平抛运动的特点",
+          "page": 10
+        },
+        {
+          "no": "4",
+          "title": "抛体运动的规律",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "圆周运动",
+      "page": 22,
+      "sections": [
+        {
+          "no": "1",
+          "title": "圆周运动",
+          "page": 23
+        },
+        {
+          "no": "2",
+          "title": "向心力",
+          "page": 27
+        },
+        {
+          "no": "3",
+          "title": "向心加速度",
+          "page": 31
+        },
+        {
+          "no": "4",
+          "title": "生活中的圆周运动",
+          "page": 35
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "万有引力与宇宙航行",
+      "page": 43,
+      "sections": [
+        {
+          "no": "1",
+          "title": "行星的运动",
+          "page": 44
+        },
+        {
+          "no": "2",
+          "title": "万有引力定律",
+          "page": 49
+        },
+        {
+          "no": "3",
+          "title": "万有引力理论的成就",
+          "page": 55
+        },
+        {
+          "no": "4",
+          "title": "宇宙航行",
+          "page": 59
+        },
+        {
+          "no": "5",
+          "title": "相对论时空观与牛顿力学的局限性",
+          "page": 65
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "机械能守恒定律",
+      "page": 73,
+      "sections": [
+        {
+          "no": "1",
+          "title": "功与功率",
+          "page": 74
+        },
+        {
+          "no": "2",
+          "title": "重力势能",
+          "page": 79
+        },
+        {
+          "no": "3",
+          "title": "动能和动能定理",
+          "page": 84
+        },
+        {
+          "no": "4",
+          "title": "机械能守恒定律",
+          "page": 89
+        },
+        {
+          "no": "5",
+          "title": "实验:验证机械能守恒定律",
+          "page": 95
+        }
+      ]
+    }
+  ]
+}

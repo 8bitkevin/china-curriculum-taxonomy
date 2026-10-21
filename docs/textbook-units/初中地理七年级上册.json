@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中地理七年级上册",
+  "pdf": {
+    "file": "初中地理七年级上册.pdf",
+    "sha256": "2f072ca45fc6c1d4312f08b75fc46c33ba5360557da34fd501f4d91af1d44f89",
+    "pages": 112,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

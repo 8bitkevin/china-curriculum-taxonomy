@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中思想政治选择性必修2法律与生活",
+  "pdf": {
+    "file": "高中思想政治选择性必修2法律与生活.pdf",
+    "sha256": "ddc6a7023d2203af7cf9f661c83d1c2732c197e5b8909cb92d9224ab580228f2",
+    "pages": 110,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "民事权利与义务",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "在生活中学民法用民法",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "依法有效保护财产权",
+          "page": 12
+        },
+        {
+          "no": "第三课",
+          "title": "订约履约诚信为本",
+          "page": 22
+        },
+        {
+          "no": "第四课",
+          "title": "侵权责任与权利界限",
+          "page": 32
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "家庭与婚姻",
+      "page": 41,
+      "sections": [
+        {
+          "no": "第五课",
+          "title": "在和睦家庭中成长",
+          "page": 42
+        },
+        {
+          "no": "第六课",
+          "title": "珍惜婚姻关系",
+          "page": 50
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "就业与创业",
+      "page": 59,
+      "sections": [
+        {
+          "no": "第七课",
+          "title": "做个明白的劳动者",
+          "page": 60
+        },
+        {
+          "no": "第八课",
+          "title": "自主创业与诚信经营",
+          "page": 70
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "社会争议解决",
+      "page": 81,
+      "sections": [
+        {
+          "no": "第九课",
+          "title": "纠纷的多元解决方式",
+          "page": 82
+        },
+        {
+          "no": "第十课",
+          "title": "诉讼实现公平正义",
+          "page": 88
+        },
+        {
+          "no": "2",
+          "title": "目录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

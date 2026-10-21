@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文五年级下册",
+  "pdf": {
+    "file": "语文五年级下册.pdf",
+    "sha256": "3da72ca8f3e26934434a7283b45c5af22bcafaed2d4c91773435ce2266760e0b",
+    "pages": 131,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "6920金字塔99*",
+      "page": null,
+      "sections": [
+        {
+          "no": "13",
+          "title": "人物描写一组 70 金字塔夕照",
+          "page": 99
+        },
+        {
+          "no": "14",
+          "title": "刷子李 74 ◎ 语文园地",
+          "page": 105
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "◎习作:形形色色的人8222手指109",
+          "page": 109
+        },
+        {
+          "no": "23",
+          "title": "童年的发现 112 *",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "83◎口语交际:我们都来讲笑话",
+      "page": 115,
+      "sections": [
+        {
+          "no": "15",
+          "title": "自相矛盾 84 ◎ 习作:漫画的启示",
+          "page": 116
+        },
+        {
+          "no": "16",
+          "title": "田忌赛马 85 ◎ 语文园地",
+          "page": 117
+        },
+        {
+          "no": "17",
+          "title": "跳水",
+          "page": 87
+        },
+        {
+          "no": null,
+          "title": "◎习作:神奇的探险之旅89识字表119",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "◎语文园地90写字表121",
+          "page": 121
+        },
+        {
+          "no": null,
+          "title": "词语表123",
+          "page": 123
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": 93,
+      "sections": [
+        {
+          "no": "18",
+          "title": "威尼斯的小艇 94 标*的是略读课文",
+          "page": null
+        },
+        {
+          "no": "19",
+          "title": "牧场之国 97 统编版",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

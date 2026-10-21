@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中生物学选择性必修1稳态与调节",
+  "pdf": {
+    "file": "高中生物学选择性必修1稳态与调节.pdf",
+    "sha256": "23b8efd35561f891ecf9f9cb7f3b4e8277bd03ee189d47e342962597438272b6",
+    "pages": 123,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

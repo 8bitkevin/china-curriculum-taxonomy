@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "volume": "英语六年级下册",
+  "pdf": {
+    "file": "英语六年级下册.pdf",
+    "sha256": "2e6e1f362999619f174cd51498e60a486c3f8222b543b31b99f30c2bc131d041",
+    "pages": 78,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "How tall are you?",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Last weekend",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Where did you go?",
+      "page": null
+    },
+    {
+      "index": 4,
+      "title": "Then and now",
+      "page": null,
+      "sections": [
+        {
+          "no": "42",
+          "title": "Recycle Mike’s happy days",
+          "page": null
+        },
+        {
+          "no": "52",
+          "title": "Appendix 1: Songs in each unit",
+          "page": null
+        },
+        {
+          "no": "54",
+          "title": "Appendix 2: Words in each unit",
+          "page": null
+        },
+        {
+          "no": "57",
+          "title": "Appendix 3: Vocabulary",
+          "page": null
+        },
+        {
+          "no": "60",
+          "title": "Appendix 4: Useful expressions",
+          "page": null
+        },
+        {
+          "no": "61",
+          "title": "Appendix 5: Proverbs",
+          "page": null
+        },
+        {
+          "no": "62",
+          "title": "Appendix 6: Short plays",
+          "page": null
+        },
+        {
+          "no": "69",
+          "title": "Appendix 7: Irregular verbs",
+          "page": null
+        },
+        {
+          "no": "70",
+          "title": "Appendix 8: English pronunciation patterns",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

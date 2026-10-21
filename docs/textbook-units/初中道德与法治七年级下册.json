@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治七年级下册",
+  "pdf": {
+    "file": "初中道德与法治七年级下册.pdf",
+    "sha256": "43a0520f1480587d1890fabcdaa416031e4e777f494dd3574050eafc6c1bbd6a",
+    "pages": 111,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "青春时光",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "青春的邀约",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "青春的心弦",
+          "page": 14
+        },
+        {
+          "no": "第三课",
+          "title": "青春的证明",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "做情绪情感的主人",
+      "page": 33,
+      "sections": [
+        {
+          "no": "第四课",
+          "title": "揭开情绪的面纱统编版",
+          "page": 34
+        },
+        {
+          "no": "第五课",
+          "title": "品出情感的韵味",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "在集体中成长",
+      "page": 51,
+      "sections": [
+        {
+          "no": "第六课",
+          "title": "“我”和“我们”",
+          "page": 52
+        },
+        {
+          "no": "第七课",
+          "title": "共奏和谐乐章",
+          "page": 62
+        },
+        {
+          "no": "第八课",
+          "title": "美好集体有我在",
+          "page": 72
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "走进法治天地",
+      "page": 83,
+      "sections": [
+        {
+          "no": "第九课",
+          "title": "法律在我们身边",
+          "page": 84
+        },
+        {
+          "no": "第十课",
+          "title": "法律伴我们成长",
+          "page": 95
+        }
+      ]
+    }
+  ]
+}

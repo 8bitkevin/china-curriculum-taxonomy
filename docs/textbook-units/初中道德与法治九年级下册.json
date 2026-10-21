@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治九年级下册",
+  "pdf": {
+    "file": "初中道德与法治九年级下册.pdf",
+    "sha256": "e813a76fe162a0bd9ef9da038d6ea8796ba0ffdf8317f55911796d6125bb42a9",
+    "pages": 99,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我们共同的世界",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "同住地球村",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "构建人类命运共同体",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "世界舞台上的中国",
+      "page": 27,
+      "sections": [
+        {
+          "no": "第三课",
+          "title": "与世界紧相连",
+          "page": 28
+        },
+        {
+          "no": "第四课",
+          "title": "与世界共发展",
+          "page": 40
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "走向未来的少年",
+      "page": 53,
+      "sections": [
+        {
+          "no": "第五课",
+          "title": "少年的担当",
+          "page": 54
+        },
+        {
+          "no": "第六课",
+          "title": "我的毕业季",
+          "page": 66
+        },
+        {
+          "no": "第七课",
+          "title": "从这里出发",
+          "page": 81
+        }
+      ]
+    }
+  ]
+}

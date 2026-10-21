@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治四年级上册",
+  "pdf": {
+    "file": "道德与法治四年级上册.pdf",
+    "sha256": "454695c3b97955a8f4b2d170807fd9c3a542c55d75998e6562f8283977ab99f8",
+    "pages": 103,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "与班级共成长",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "我们班四岁了",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "我们的班规我们订",
+          "page": 8
+        },
+        {
+          "no": "3",
+          "title": "我们班他们班",
+          "page": 16
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "为父母分担",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "少让父母为我操心",
+          "page": 24
+        },
+        {
+          "no": "5",
+          "title": "这些事我来做",
+          "page": 32
+        },
+        {
+          "no": "6",
+          "title": "我的家庭贡献与责任",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "信息万花筒",
+      "page": null,
+      "sections": [
+        {
+          "no": "7",
+          "title": "健康看电视",
+          "page": 50
+        },
+        {
+          "no": "8",
+          "title": "网络新世界",
+          "page": 58
+        },
+        {
+          "no": "9",
+          "title": "正确认识广告",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "让生活多一些绿色",
+      "page": null,
+      "sections": [
+        {
+          "no": "10",
+          "title": "我们所了解的环境污染",
+          "page": 72
+        },
+        {
+          "no": "11",
+          "title": "变废为宝有妙招",
+          "page": 80
+        },
+        {
+          "no": "12",
+          "title": "低碳生活每一天",
+          "page": 88
+        }
+      ]
+    }
+  ]
+}
