@@ -4,6 +4,9 @@ textbooks/
 # 仓库树缓存（fetch-textbooks.py 调试/干跑用）
 .ct-tree.json
 
+# 数据批次片段（apply-batch.mjs 的输入，合并后即完成使命，不入库）
+.ct-batches/
+
 # Python
 __pycache__/
 *.pyc

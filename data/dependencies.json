@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "v0.1",
+  "version": "0.2.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
   "edgeCount": 108,
   "dependencies": [

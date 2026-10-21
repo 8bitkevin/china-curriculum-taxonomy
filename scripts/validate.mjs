@@ -67,6 +67,13 @@ for (const t of topics) {
   check(t.ageRangeEnd >= t.grade + 5 && t.ageRangeEnd <= t.grade + 8, `主题 ${t.id}: ageRangeEnd ${t.ageRangeEnd} 与年级 ${t.grade} 不匹配`);
   check(t.ageRangeStart <= t.ageRangeEnd, `主题 ${t.id}: 年龄区间颠倒`);
   check(!t.assessmentPrompt || t.assessmentPrompt.includes('{{name}}'), `主题 ${t.id}: assessmentPrompt 缺少 {{name}} 占位符`);
+  // 高中五册（D-014 映射）：册名必填且受控；小学/初中 volume 上/下即可定位，book 省略
+  const HS_BOOKS = ['必修第一册', '必修第二册', '选择性必修第一册', '选择性必修第二册', '选择性必修第三册'];
+  if (t.grade >= 10) {
+    check(HS_BOOKS.includes(t.textbook.book), `主题 ${t.id}: 高中主题 textbook.book 应为 ${HS_BOOKS.join('/')} 之一`);
+  } else {
+    check(!('book' in t.textbook), `主题 ${t.id}: book 字段仅高中主题使用`);
+  }
 }
 
 // --- 课标键 -----------------------------------------------------------------

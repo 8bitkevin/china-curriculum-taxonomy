@@ -55,7 +55,8 @@
             "type": "object",
             "required": ["publisher", "grade", "volume", "unit", "editionYear"],
             "properties": {
-              "publisher": { "type": "string", "description": "教材版本，如「人教版」" },
+              "publisher": { "type": "string", "description": "教材版本，如「人教版」「人教A版」" },
+              "book": { "type": "string", "description": "册名（高中五册用，如「必修第一册」；小学/初中省略）" },
               "grade": { "type": "integer", "minimum": 1, "maximum": 12 },
               "volume": { "type": "string", "enum": ["上", "下"] },
               "unit": { "type": ["string", "integer"], "description": "所属单元号或单元名" },
