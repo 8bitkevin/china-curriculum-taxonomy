@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.19.0",
+  "version": "0.20.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 528,
+  "topicCount": 546,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -16296,6 +16296,576 @@
       "prerequisites": [
         "ct_g11a_19",
         "ct_g7b_13"
+      ]
+    },
+    {
+      "id": "ct_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数列的概念与通项公式",
+      "description": "按一定次序排列的一列数 a₁,a₂,a₃,…：数列是定义域为正整数的特殊函数，项 aₙ=f(n)。观察前几项找规律写通项——「找规律」从小学游戏升级为严格的数学对象。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能写出数列的项并判断某数是否为项",
+        "能由前几项归纳简单通项公式"
+      ],
+      "assessmentPrompt": "问{{name}}：「1,3,5,7,… 的第 20 项是多少？45 是这个数列的项吗？数列为什么是函数？」",
+      "standards": [
+        "hsmath-2017:H4.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g10a_08",
+        "ct_g7a_13"
+      ]
+    },
+    {
+      "id": "ct_g11b_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数列的递推关系与函数特性",
+      "description": "aₙ₊₁=aₙ+d 由前项推后项——斐波那契 aₙ₊₁=aₙ+aₙ₋₁ 便是递推。数列的图象是一串孤立的点：递增、递减、最大项，函数性质照样讨论。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能由递推式逐项求值",
+        "能判断数列的增减性与最值项"
+      ],
+      "assessmentPrompt": "问{{name}}：「a₁=1、aₙ₊₁=2aₙ+1，前 4 项是？数列图象为什么是散点不是曲线？」",
+      "standards": [
+        "hsmath-2017:H4.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_01"
+      ]
+    },
+    {
+      "id": "ct_g11b_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等差数列的概念与通项公式",
+      "description": "后项减前项恒为 d：aₙ=a₁+(n-1)d——通项是 n 的一次函数。办公楼层数、马拉松配速、工资逐年涨薪……「均匀变化」的数学模型（跨学段衔接：正比例与一次函数结构）。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用定义判断等差并求通项",
+        "能由两项求公差与任意项"
+      ],
+      "assessmentPrompt": "问{{name}}：「a₃=5、a₇=13，a₁ 和 d 各是多少？a₁₀₀ 呢？等差数列通项像什么函数？」",
+      "standards": [
+        "hsmath-2017:H4.FN.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_02",
+        "ct_g8b_16"
+      ]
+    },
+    {
+      "id": "ct_g11b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等差数列的前 n 项和",
+      "description": "Sₙ=n(a₁+aₙ)/2 = na₁+n(n-1)d/2——高斯倒序配对的智慧：1+100=2+99=…=101 共 50 对。Sₙ 是 n 的二次函数（无常数项）——又见函数思想。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用两个公式求和并互求 aₙ、d",
+        "能处理 Sₙ 与 aₙ 的关系（n≥2 时 aₙ=Sₙ-Sₙ₋₁）"
+      ],
+      "assessmentPrompt": "问{{name}}：「1+2+…+100 高斯怎么算的？等差数列 Sₙ 为什么是二次函数？已知 Sₙ=2n²+n 求通项怎么做？」",
+      "standards": [
+        "hsmath-2017:H4.FN.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_03",
+        "ct_g6a_26"
+      ]
+    },
+    {
+      "id": "ct_g11b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等比数列的概念与通项公式",
+      "description": "后项除前项恒为 q（q≠0）：aₙ=a₁qⁿ⁻¹——通项是指数型函数（跨学段衔接：指数函数）。细胞分裂、复利滚存、「一传十十传百」——成倍变化的数学模型。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用定义判断等比并求通项",
+        "能由条件求 q 与指定项"
+      ],
+      "assessmentPrompt": "问{{name}}：「a₂=6、a₅=48，q 是多少？等比数列通项像什么函数？q=1 时是什么数列？」",
+      "standards": [
+        "hsmath-2017:H4.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g10a_15",
+        "ct_g11b_04"
+      ]
+    },
+    {
+      "id": "ct_g11b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "等比数列的前 n 项和",
+      "description": "Sₙ=a₁(1-qⁿ)/(1-q)（q≠1）：错位相减法推导——和式乘 q 错位相减，指数消元。国王赏麦的传说：1+2+4+…+2⁶³ 足够淹没王国。q=1 时退化为 na₁，讨论不能丢。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能推导并运用求和公式（含 q=1 讨论）",
+        "能用错位相减法求差比数列和"
+      ],
+      "assessmentPrompt": "问{{name}}：「1+2+4+…+2⁶³ 等于多少？错位相减的『错位』错在哪？q=1 时公式还能用吗？」",
+      "standards": [
+        "hsmath-2017:H4.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_05"
+      ]
+    },
+    {
+      "id": "ct_g11b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数列求和的常用方法与数学归纳法（选学）",
+      "description": "裂项相消（1/(n(n+1))=1/n-1/(n+1)）、分组求和、倒序相加——各配各的题型。数学归纳法证明与正整数有关的命题：n=1 成立、n=k 推 n=k+1——「多米诺骨牌」式的严格推理（选学）。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能选择恰当方法求数列和",
+        "能说明数学归纳法两步骤缺一不可"
+      ],
+      "assessmentPrompt": "问{{name}}：「1/(1×2)+1/(2×3)+…+1/(9×10) 怎么裂项？归纳法为什么不证完 n=1 就完事？」",
+      "standards": [
+        "hsmath-2017:H4.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_06"
+      ]
+    },
+    {
+      "id": "ct_g11b_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数列的实际应用（分期付款与增长模型）",
+      "description": "房贷月供、人口增长、设备折旧——等差等比模型联手上场。「复利公式 a(1+r)ⁿ」与「等比分期」是理财的两把标尺。建模：设项数—定模型—解—检验实际意义。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能把实际情境转译为数列模型",
+        "能计算分期付款与增长问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「贷款 100 万月利率 0.4%、12 期等额还款，每月还多少的原理是什么？和单利差多少？」",
+      "standards": [
+        "hsmath-2017:H4.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_07",
+        "ct_g6b_05"
+      ]
+    },
+    {
+      "id": "ct_g11b_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "平均变化率与导数的概念",
+      "description": "Δy/Δx 是平均变化率；Δx→0 时的极限是瞬时变化率 f′(x)——导数。从「一段时间平均多快」到「某一刻多快」，极限思想把瞬时变成可算（微积分的大门在此推开）。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用定义求简单函数在某点的导数",
+        "能说明平均变化率与瞬时变化率的区别"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x² 在 x=1 到 3 的平均变化率是多少？在 x=2 这一刻的变化率怎么逼近？」",
+      "standards": [
+        "hsmath-2017:H4.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g10a_10",
+        "ct_g6a_27"
+      ]
+    },
+    {
+      "id": "ct_g11b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "导数的几何意义与切线方程",
+      "description": "f′(x₀) 就是曲线在点 x₀ 处切线的斜率：切线 y-f(x₀)=f′(x₀)(x-x₀)。割线动成切线——「以直代曲」是微积分的核心直觉。「在某点处」的切线与「过某点」的切线要分清。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求曲线在某点处的切线方程",
+        "能处理过一点的切线（设切点）"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x³ 在 x=1 处的切线方程？『过 (0,0) 的切线』和『在 x=0 处的切线』一样吗？」",
+      "standards": [
+        "hsmath-2017:H4.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_09"
+      ]
+    },
+    {
+      "id": "ct_g11b_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "导数的运算（基本公式、四则与复合）",
+      "description": "(xⁿ)′=nxⁿ⁻¹、(eˣ)′=eˣ、(lnx)′=1/x、(sinx)′=cosx……四则运算法则与链式法则 (f(g(x)))′=f′(g)g′。求导工具箱配齐，函数分析流水线开工。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能默写常用导数公式并熟练求导",
+        "能处理复合函数与乘除结构的求导"
+      ],
+      "assessmentPrompt": "问{{name}}：「(x³)′、(2ˣ)′、(sinx)′ 各是多少？y=e^(2x) 怎么用链式法则？」",
+      "standards": [
+        "hsmath-2017:H4.FN.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_10"
+      ]
+    },
+    {
+      "id": "ct_g11b_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用导数研究函数的单调性",
+      "description": "f′(x)>0 增、f′(x)<0 减：解不等式定区间，列表画图象。导数把单调性研究从「定义作差」升级为「求导解不等式」——高中函数分析的发动机（初中「看图说话」的代数化完成）。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求单调区间并规范表述",
+        "能由单调性反求参数范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「f(x)=x³-3x 的单调区间怎么求？f′(x)>0 解出的是什么？参数讨论从哪里下手？」",
+      "standards": [
+        "hsmath-2017:H4.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_11"
+      ]
+    },
+    {
+      "id": "ct_g11b_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的极值与最值",
+      "description": "f′ 变号处是极值点（左正右负极大）。闭区间最值：极值点与端点值比较取最。「峰值低谷」被导数精确定位——二次函数配方的通用化（跨学段衔接：顶点→极值）。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求极值与闭区间最值并完整列表",
+        "能辨析极值点与导数为零点（f′ 不变号）"
+      ],
+      "assessmentPrompt": "问{{name}}：「f(x)=x³-3x 的极大极小值各是多少？[-2,3] 上的最大值呢？端点要不要参与比较？」",
+      "standards": [
+        "hsmath-2017:H4.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_12",
+        "ct_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_g11b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "导数与函数图象、零点与不等式证明",
+      "description": "导数绘制图象 → 零点个数、方程根的分布一目了然；构造函数 g(x)=f(x)-… 用单调性证不等式。「构造—求导—定号—下结论」——导数综合题的战术组合拳。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用导数分析零点个数（含参数）",
+        "能用构造函数法证明简单不等式"
+      ],
+      "assessmentPrompt": "问{{name}}：「证 eˣ≥x+1 怎么构造函数？g′(x) 定号后为什么就能下结论？」",
+      "standards": [
+        "hsmath-2017:H4.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g10a_13",
+        "ct_g11b_13"
+      ]
+    },
+    {
+      "id": "ct_g11b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "导数的实际优化问题",
+      "description": "利润最大、用料最省、容积最大——设变量、建目标函数、求导找最值、检验实际意义。初中二次函数最值应用的全功能升级：函数不再限于二次。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成优化问题的完整建模求解",
+        "能解释最值点的实际意义"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆柱形罐头容积固定 500π，半径多少用料最省？和初中配方法比，导数好在哪？」",
+      "standards": [
+        "hsmath-2017:H4.FN.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_13",
+        "ct_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_g11b_16",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学建模活动（二）：数列与导数建模",
+      "description": "用数列刻画离散过程（存款、人口年度值），用导数刻画连续变化（冷却、加速）——建模大赛级别的选题实战：选题—假设—求解（工具含导数数列）—检验—报告。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能选择数列或导数工具建模",
+        "能撰写规范建模报告并答辩"
+      ],
+      "assessmentPrompt": "让{{name}}测量热水冷却数据：「选指数模型还是别的？参数怎么定？模型偏差怎么解释？」",
+      "standards": [
+        "hsmath-2017:H4.FN.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g10a_25",
+        "ct_g11b_15"
+      ]
+    },
+    {
+      "id": "ct_g11b_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "微积分的创立与思想（拓展）",
+      "description": "牛顿从运动、莱布尼茨从几何，各自独立发明微积分。导数是「局部线性化」、积分是「无限细分求和」，二者由牛顿-莱布尼茨公式连通——现代科学的通用语言就此诞生。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出微积分两大基本思想",
+        "能举一个「以直代曲」或「无限细分」的例子"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆面积是怎么『无限细分』出来的？导数和积分各回答什么问题？谁发明了微积分？」",
+      "standards": [
+        "hsmath-2017:H4.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_11",
+        "ct_g6a_18"
+      ]
+    },
+    {
+      "id": "ct_g11b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数列与函数不等式综合（压轴专题）",
+      "description": "数列是离散函数：aₙ 与 n 的不等式、Sₙ 范围、恒成立求参——数列、函数、导数三线合一的压轴训练。「先猜后证」（算前几项—归纳—证明）是攻坚利器。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能处理 aₙ 与 Sₙ 混合的不等式问题",
+        "能用构造函数比较大小（放缩）"
+      ],
+      "assessmentPrompt": "问{{name}}：「比较 nⁿ 与 n! 谁大？怎么『先猜后证』？放缩的方向怎么定？」",
+      "standards": [
+        "hsmath-2017:H4.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第二册"
+      },
+      "prerequisites": [
+        "ct_g11b_07",
+        "ct_g11b_14"
       ]
     }
   ]

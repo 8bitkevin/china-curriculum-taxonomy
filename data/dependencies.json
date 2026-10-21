@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.19.0",
+  "version": "0.20.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 881,
+  "edgeCount": 911,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5289,6 +5289,186 @@
       "prerequisiteId": "ct_g7b_13",
       "strength": "soft",
       "reason": "用坐标表示规律的初中萌芽（规律→坐标→方程）一脉相承"
+    },
+    {
+      "topicId": "ct_g11b_01",
+      "prerequisiteId": "ct_g10a_08",
+      "strength": "hard",
+      "reason": "数列作为特殊函数（定义域为正整数集）以函数概念为前提"
+    },
+    {
+      "topicId": "ct_g11b_01",
+      "prerequisiteId": "ct_g7a_13",
+      "strength": "soft",
+      "reason": "由前几项找规律写通项，延续七年级规律探究（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11b_02",
+      "prerequisiteId": "ct_g11b_01",
+      "strength": "hard",
+      "reason": "递推与函数特性在数列概念上展开"
+    },
+    {
+      "topicId": "ct_g11b_03",
+      "prerequisiteId": "ct_g11b_02",
+      "strength": "hard",
+      "reason": "等差数列是递推关系（aₙ₊₁-aₙ=d）的特例"
+    },
+    {
+      "topicId": "ct_g11b_03",
+      "prerequisiteId": "ct_g8b_16",
+      "strength": "soft",
+      "reason": "通项 aₙ=a₁+(n-1)d 是 n 的一次函数（跨学段衔接：一次函数→等差数列）"
+    },
+    {
+      "topicId": "ct_g11b_04",
+      "prerequisiteId": "ct_g11b_03",
+      "strength": "hard",
+      "reason": "前 n 项和作用于等差数列的结构"
+    },
+    {
+      "topicId": "ct_g11b_04",
+      "prerequisiteId": "ct_g6a_26",
+      "strength": "hard",
+      "reason": "倒序相加（高斯配对）与六年级奇数和正方形拼图同为配对思想（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11b_05",
+      "prerequisiteId": "ct_g11b_04",
+      "strength": "hard",
+      "reason": "等比与等差对照学习（差→比、一次→指数）"
+    },
+    {
+      "topicId": "ct_g11b_05",
+      "prerequisiteId": "ct_g10a_15",
+      "strength": "hard",
+      "reason": "通项 aₙ=a₁qⁿ⁻¹ 是指数型函数（跨学段衔接：指数函数→等比数列）"
+    },
+    {
+      "topicId": "ct_g11b_06",
+      "prerequisiteId": "ct_g11b_05",
+      "strength": "hard",
+      "reason": "错位相减法作用于等比结构"
+    },
+    {
+      "topicId": "ct_g11b_07",
+      "prerequisiteId": "ct_g11b_06",
+      "strength": "hard",
+      "reason": "求和方法专题在等比求和范式上扩展"
+    },
+    {
+      "topicId": "ct_g11b_08",
+      "prerequisiteId": "ct_g11b_07",
+      "strength": "hard",
+      "reason": "实际应用需综合选配求和方法"
+    },
+    {
+      "topicId": "ct_g11b_08",
+      "prerequisiteId": "ct_g6b_05",
+      "strength": "soft",
+      "reason": "复利计算与小学利率问题一脉相承（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11b_09",
+      "prerequisiteId": "ct_g10a_10",
+      "strength": "hard",
+      "reason": "变化率讨论的对象是函数，单调性描述变化趋势的经验在先"
+    },
+    {
+      "topicId": "ct_g11b_09",
+      "prerequisiteId": "ct_g6a_27",
+      "strength": "soft",
+      "reason": "无限逼近（1/2+1/4+…→1）的极限直观在六年级已埋种子（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11b_10",
+      "prerequisiteId": "ct_g11b_09",
+      "strength": "hard",
+      "reason": "切线斜率是导数概念的几何翻译"
+    },
+    {
+      "topicId": "ct_g11b_11",
+      "prerequisiteId": "ct_g11b_10",
+      "strength": "hard",
+      "reason": "求导公式由导数定义（极限）推出，并以切线解释几何意义"
+    },
+    {
+      "topicId": "ct_g11b_12",
+      "prerequisiteId": "ct_g11b_11",
+      "strength": "hard",
+      "reason": "单调性由导数符号判定，求导是先决操作"
+    },
+    {
+      "topicId": "ct_g11b_13",
+      "prerequisiteId": "ct_g11b_12",
+      "strength": "hard",
+      "reason": "极值在单调性分析（变号）基础上定义"
+    },
+    {
+      "topicId": "ct_g11b_13",
+      "prerequisiteId": "ct_g9a_12",
+      "strength": "hard",
+      "reason": "闭区间最值问题是初中二次函数最值的推广（跨学段衔接：顶点最值→导数最值）"
+    },
+    {
+      "topicId": "ct_g11b_14",
+      "prerequisiteId": "ct_g11b_13",
+      "strength": "hard",
+      "reason": "零点与不等式研究调用极值最值与单调区间"
+    },
+    {
+      "topicId": "ct_g11b_14",
+      "prerequisiteId": "ct_g10a_13",
+      "strength": "soft",
+      "reason": "零点问题沿用高一零点存在定理，图象分析升级"
+    },
+    {
+      "topicId": "ct_g11b_15",
+      "prerequisiteId": "ct_g11b_13",
+      "strength": "hard",
+      "reason": "优化问题核心操作是求最值"
+    },
+    {
+      "topicId": "ct_g11b_15",
+      "prerequisiteId": "ct_g9a_12",
+      "strength": "soft",
+      "reason": "应用题建模框架从初中二次函数最值应用迁移"
+    },
+    {
+      "topicId": "ct_g11b_16",
+      "prerequisiteId": "ct_g11b_15",
+      "strength": "hard",
+      "reason": "建模活动以导数优化与数列应用为工具"
+    },
+    {
+      "topicId": "ct_g11b_16",
+      "prerequisiteId": "ct_g10a_25",
+      "strength": "soft",
+      "reason": "延续高一建模活动的流程规范"
+    },
+    {
+      "topicId": "ct_g11b_17",
+      "prerequisiteId": "ct_g11b_11",
+      "strength": "hard",
+      "reason": "微积分思想总结以导数运算学习为直接基础"
+    },
+    {
+      "topicId": "ct_g11b_17",
+      "prerequisiteId": "ct_g6a_18",
+      "strength": "soft",
+      "reason": "圆面积『无限细分』的推导在小学已见雏形（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11b_18",
+      "prerequisiteId": "ct_g11b_14",
+      "strength": "hard",
+      "reason": "数列不等式综合使用构造函数与放缩的导数方法"
+    },
+    {
+      "topicId": "ct_g11b_18",
+      "prerequisiteId": "ct_g11b_07",
+      "strength": "hard",
+      "reason": "Sₙ 相关问题调用求和方法工具箱"
     }
   ]
 }
