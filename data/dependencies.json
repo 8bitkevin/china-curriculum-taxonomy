@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.13.0",
+  "version": "1.14.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1309,
+  "edgeCount": 1331,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7857,6 +7857,138 @@
       "prerequisiteId": "ct_yw_g6b_17",
       "strength": "hard",
       "reason": "小学识字收官后，字词学习转入每课读读写写的精确积累"
+    },
+    {
+      "topicId": "ct_yw_g7b_01",
+      "prerequisiteId": "ct_yw_g7a_10",
+      "strength": "hard",
+      "reason": "写人抓特点（七上）进阶到写人见精神：事例+点睛议论"
+    },
+    {
+      "topicId": "ct_yw_g7b_02",
+      "prerequisiteId": "ct_yw_g6b_03",
+      "strength": "hard",
+      "reason": "小学融情于景的『藏』与初中的抒情方法论（直接/间接）接榫"
+    },
+    {
+      "topicId": "ct_yw_g7b_03",
+      "prerequisiteId": "ct_yw_g4a_22",
+      "strength": "hard",
+      "reason": "动词神态品析能力升级为自觉的细节描写设计"
+    },
+    {
+      "topicId": "ct_yw_g7b_04",
+      "prerequisiteId": "ct_yw_g6b_01",
+      "strength": "hard",
+      "reason": "详略安排（六下）与选材三标准（七下）同属材料经营"
+    },
+    {
+      "topicId": "ct_yw_g7b_05",
+      "prerequisiteId": "ct_yw_g4b_20",
+      "strength": "hard",
+      "reason": "病句修改的语法敏感性是文从字顺的操作基础"
+    },
+    {
+      "topicId": "ct_yw_g7b_06",
+      "prerequisiteId": "ct_yw_g5a_04",
+      "strength": "soft",
+      "reason": "缩写训练的删减技术迁移到语言简明"
+    },
+    {
+      "topicId": "ct_yw_g7b_07",
+      "prerequisiteId": "ct_yw_g7a_05",
+      "strength": "hard",
+      "reason": "文言实词与语气词积累链：世说新语→孙权劝学"
+    },
+    {
+      "topicId": "ct_yw_g7b_08",
+      "prerequisiteId": "ct_yw_g7a_14",
+      "strength": "hard",
+      "reason": "《狼》的叙事+议论范式延续到卖油翁/河中石兽的就事论理"
+    },
+    {
+      "topicId": "ct_yw_g7b_09",
+      "prerequisiteId": "ct_yw_g6b_04",
+      "strength": "hard",
+      "reason": "小学托物言志诗的物志对应迁移到文言铭说文体"
+    },
+    {
+      "topicId": "ct_yw_g7b_10",
+      "prerequisiteId": "ct_yw_g6a_06",
+      "strength": "soft",
+      "reason": "互文等手法以文言民歌的面貌复现，文言语感迁移"
+    },
+    {
+      "topicId": "ct_yw_g7b_11",
+      "prerequisiteId": "ct_yw_g6a_07",
+      "strength": "hard",
+      "reason": "鲁迅单元（六上）的人物阅读经验延伸到鲁迅笔下的阿长"
+    },
+    {
+      "topicId": "ct_yw_g7b_12",
+      "prerequisiteId": "ct_yw_g5a_06",
+      "strength": "hard",
+      "reason": "借物抒情的散文密码（白鹭/落花生）在哲理散文中结构化为物-情-理三层"
+    },
+    {
+      "topicId": "ct_yw_g7b_13",
+      "prerequisiteId": "ct_yw_g4b_01",
+      "strength": "hard",
+      "reason": "现代诗的画面与情感经验延伸到外国哲理诗的象征读法"
+    },
+    {
+      "topicId": "ct_yw_g7b_14",
+      "prerequisiteId": "ct_yw_g4a_14",
+      "strength": "hard",
+      "reason": "哲理诗（题西林壁）的理趣是登临诗哲理句的直接先声"
+    },
+    {
+      "topicId": "ct_yw_g7b_15",
+      "prerequisiteId": "ct_yw_g5a_17",
+      "strength": "hard",
+      "reason": "爱国诗群的情感底色延伸到爱国题材小说散文"
+    },
+    {
+      "topicId": "ct_yw_g7b_16",
+      "prerequisiteId": "ct_yw_g7a_08",
+      "strength": "hard",
+      "reason": "一课一得的默读任务法用于长篇纪实文的时间线提取"
+    },
+    {
+      "topicId": "ct_yw_g7b_17",
+      "prerequisiteId": "ct_yw_g4a_02",
+      "strength": "hard",
+      "reason": "批注阅读（四上起步）升级为圈点批注的系统方法并用于整本名著"
+    },
+    {
+      "topicId": "ct_yw_g7b_17",
+      "prerequisiteId": "ct_yw_g7a_07",
+      "strength": "soft",
+      "reason": "名著导读总纲（精读跳读）在《骆驼祥子》具体化"
+    },
+    {
+      "topicId": "ct_yw_g7b_18",
+      "prerequisiteId": "ct_yw_g7a_07",
+      "strength": "hard",
+      "reason": "快速阅读是精读跳读方法在科幻长篇的应用"
+    },
+    {
+      "topicId": "ct_yw_g7b_19",
+      "prerequisiteId": "ct_yw_g7a_17",
+      "strength": "hard",
+      "reason": "综合学习流程（定题—查整—展）在三个新主题中复用"
+    },
+    {
+      "topicId": "ct_yw_g7b_20",
+      "prerequisiteId": "ct_yw_g7a_20",
+      "strength": "hard",
+      "reason": "课外古诗词诵读积累线跨册延续"
+    },
+    {
+      "topicId": "ct_yw_g7b_21",
+      "prerequisiteId": "ct_yw_g7a_21",
+      "strength": "hard",
+      "reason": "字词与常识自查跨册延续，新增实词卡管理"
     }
   ]
 }

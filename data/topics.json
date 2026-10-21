@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.13.0",
+  "version": "1.14.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 862,
+  "topicCount": 883,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -26615,6 +26615,654 @@
       },
       "prerequisites": [
         "ct_yw_g6b_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：写出人物的精神",
+      "description": "以《邓稼先》《说和做》为范：用典型事件、对比、引用、议论抒情点睛，写出人物内在精神（闻一多的「说和做」一致）。初中写人从「特点」深入「精神」——看见一个人做的事，更要看见他是什么人。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "习作有典型事件且事件指向精神品质",
+        "至少用一处议论或抒情点明精神"
+      ],
+      "assessmentPrompt": "请{{name}}写「我身边的倔强者」：选一件事体现 TA 的倔强，结尾用一两句议论点出这份倔强背后的精神。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第一单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：学习抒情",
+      "description": "区分直接抒情（啊！黄河！）与间接抒情（借景、借事、借物），在《土地的誓言》里看呼告与铺排怎样把情感推向高潮。抒情文的方法论：感情要真、出口要巧。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断语段用了直接还是间接抒情",
+        "习作中两种抒情各用一处且自然"
+      ],
+      "assessmentPrompt": "请{{name}}写「故乡的味道」：借一种食物或一个场景间接抒情，结尾一处直接抒情收束；标出两处。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第二单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：抓住细节",
+      "description": "《阿长与〈山海经〉》里阿长睡觉摆「大」字、买书的郑重——细节是人物与情感的显影液。细节描写的要诀：细（动作分解）、真（符合人物）、妙（服务中心）。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能把一个动作分解成三步细节描写",
+        "细节符合人物身份与情感逻辑"
+      ],
+      "assessmentPrompt": "请{{name}}写「妈妈拆快递」：把拆的动作分三步细写（摇一摇、找缝、指尖一挑），并藏进一句心情。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第三单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：怎样选材",
+      "description": "围绕中心选材（叶圣陶先生二三事的选材组材）：真实、典型、新颖三标准，主线副线搭配。材料是文章的血肉——选材的品位，决定作文的档次。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能从五个素材中选出最典型的两个并说明理由",
+        "习作材料不雷同、有层次"
+      ],
+      "assessmentPrompt": "题目「我的老师」，给{{name}}五条素材（补课/雨天送伞/批评我/陪我跑步/毕业赠言），请选出两条最典型的并说理由。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_05",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：文从字顺",
+      "description": "「文从字顺」四字功：句读分明、语序合理、用词准确、前后连贯。训练法：写完出声读、换位读、互读。作文的地板要求，也是被忽视最多的一项。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "一篇习作读来无歧义句、无断裂句",
+        "能修改三处不通顺的句子"
+      ],
+      "assessmentPrompt": "给{{name}}一段有毛病的文字（语序颠倒+搭配不当+指代不明），请出声读出来并修改到顺口。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第五单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_06",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：语言简明",
+      "description": "《太空一日》的信息高密度给启发：简明=不说废话（删冗余）、不含糊（表意清楚）。语言瘦身训练——同样的意思，字数减三成。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能把 100 字的啰嗦段压缩到 70 字以内不失信息",
+        "能删去语段中的重复与无关成分"
+      ],
+      "assessmentPrompt": "给{{name}}一段 100 字的冗长通知，请压缩到 70 字内且五要素不丢；对比两版找出删掉的都是什么词。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：《孙权劝学》与劝说的艺术",
+      "description": "背《孙权劝学》：掌握「辞、涉猎、见往事」等实词与「邪、耳、乎」语气词，体会孙权现身说法的劝说智慧与鲁肃「卿今者才略」的惊叹。短短百字，人物声口毕肖——文言的对话艺术。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵默写并翻译全文",
+        "能分析孙权劝学成功的原因（摆身份、现身说法、降低目标）"
+      ],
+      "assessmentPrompt": "问{{name}}：孙权为什么不命令吕蒙读书？「孤岂欲卿治经为博士邪」是什么语气？如果你劝朋友少打游戏，能从孙权学哪招？",
+      "standards": [
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_08",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：《卖油翁》与《河中石兽》",
+      "description": "读《卖油翁》（熟能生巧，「惟手熟尔」）与《河中石兽》（老河兵的实践智慧胜过讲学家推理）：叙事短文言里的人生道理。积累「忿然、颔、湮、圮」等实词，学会「就事论理」的读法。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵《卖油翁》并两篇均能疏通翻译",
+        "能比较两篇「技与理」的侧重"
+      ],
+      "assessmentPrompt": "问{{name}}：卖油翁凭什么敢「但微颔之」？讲学家错在哪、老河兵对在哪？两篇都在说实践，道理有何不同？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第三/第六单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_09",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：托物言志《陋室铭》《爱莲说》",
+      "description": "背《陋室铭》《爱莲说》：识骈句与「之」的用法，读懂「惟吾德馨」与「出淤泥而不染」的君子人格。小学的托物言志诗在文言文里续写——物是壳，志是核。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵默写两篇并翻译名句",
+        "能画出「陋室—德馨」「莲—君子」的对应表"
+      ],
+      "assessmentPrompt": "问{{name}}：刘禹锡写陋室为什么先写山和水？「菊、牡丹、莲」各喻什么人？如果你选一种植物言自己的志，选什么？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_10",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "乐府双璧之《木兰诗》",
+      "description": "背《木兰诗》：认识互文（将军百战死，壮士十年归）、排比铺陈（东市买骏马）、复沓顶真等民歌手法，读出木兰「英雄+女儿」的双重心象。北朝民歌的天才叙事，考试修辞题高频地。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵全诗",
+        "能识别互文句并解释「开我东阁门，坐我西阁床」"
+      ],
+      "assessmentPrompt": "问{{name}}：「将军百战死，壮士十年归」是将军死壮士归吗？诗末木兰回答伙伴的那段为什么放在最后？木兰哪里最打动你？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_11",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "小人物的光辉：阿长、老王、父亲",
+      "description": "读《阿长与〈山海经〉》《老王》《台阶》：底层小人物的善良与尊严，作者「深愧」里的自省。初中散文的人文底色之一——目光向下，看见普通人身上的光。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能各举一处细节说明小人物的善",
+        "能解释三篇结尾作者的复杂情感"
+      ],
+      "assessmentPrompt": "问{{name}}：鲁迅为什么对买来的《山海经》说「三哼经」？杨绛「愧怍」什么？台阶父亲的一生值得吗——你怎么看？",
+      "standards": [
+        "cschinese-2022:S4.YD.07",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_12",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "生命哲思散文：紫藤萝瀑布与一棵小桃树",
+      "description": "读宗璞《紫藤萝瀑布》、贾平凹《一棵小桃树》：由一株花的盛衰想到生命的长河（物—情—理三层）。托物言志散文的标准范式，初中「哲理散文」阅读的样板间。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能梳理「眼前景—忆往事—悟哲理」的结构",
+        "能摘句赏析写景与说理的衔接"
+      ],
+      "assessmentPrompt": "问{{name}}：紫藤萝十前后的对比让宗璞悟到什么？小桃树「蓄着我的梦」——物的命运和人的命运怎么缠在一起？",
+      "standards": [
+        "cschinese-2022:S4.YD.07",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "外国哲理诗：假如生活欺骗了你",
+      "description": "读普希金《假如生活欺骗了你》与弗罗斯特《未选择的路》：直抒胸臆与象征说理两种诗路。外国诗歌进入视野——不同的语言，同样的人生课题。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵两首诗",
+        "能说说「路」象征什么、诗人的人生态度"
+      ],
+      "assessmentPrompt": "请{{name}}背《假如生活欺骗了你》，问：「而那过去了的就会成为亲切的怀恋」怎么理解？你走过的哪条「未选择的路」让你遗憾？",
+      "standards": [
+        "cschinese-2022:S4.YD.08",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_14",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "登临诗五首：望岳与登飞来峰",
+      "description": "背《登幽州台歌》《望岳》《登飞来峰》《游山西村》《己亥杂诗（其五）》：登高而望，各有怀抱——「会当凌绝顶」的少年志、「不畏浮云遮望眼」的胆识、「柳暗花明又一村」的转机。登临诗=风景+哲理的双层结构。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵默写五首",
+        "能指出各诗的哲理句并说说共通的「登高」意蕴"
+      ],
+      "assessmentPrompt": "请{{name}}默写「会当凌绝顶，一览众山小」，问：杜甫此时登泰山了吗？这句写的是实景还是心气？五首里你选哪首当毕业赠言？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_15",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "家国之痛：最后一课与土地的誓言",
+      "description": "读都德《最后一课》、端木蕻良《土地的誓言》：亡国之痛如何通过细节（韩麦尔的礼服、字体）与呼告（「土地，原野，我的家乡」）表达。外国视角+中国情感的互证——爱国主题的小说与散文两种写法。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能指出小弗郎士心理变化的线索",
+        "能分析《土地的誓言》呼告与铺排的作用"
+      ],
+      "assessmentPrompt": "问{{name}}：小弗郎士为什么突然觉得法语「世界上最美的语言」？端木蕻良对着土地发誓的样子，哪些句子让你心里一热？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_16",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "纪实与探险阅读：伟大的悲剧",
+      "description": "读茨威格《伟大的悲剧》《太空一日》：长文快速提取（时间线、人物、事件）+细节震撼（斯科特的遗书、杨利伟的 26 秒共振）。非虚构阅读的方法：既抓信息骨架，也品文学表达。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能列出事件时间线与关键人物",
+        "能找出一处最震撼的细节并分析表达"
+      ],
+      "assessmentPrompt": "请{{name}}限时 8 分钟读《伟大的悲剧》节选，画斯科特队时间线，并读出你认为最悲壮的一句话说明理由。",
+      "standards": [
+        "cschinese-2022:S4.YD.02",
+        "cschinese-2022:S3.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_17",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：《骆驼祥子》与圈点批注",
+      "description": "读《骆驼祥子》整本，学圈点批注法：符号系统（圈关键词、画重点段、注疑问）+批注类型（赏析/质疑/联想）。祥子三起三落的命运线是抓手——把人读活，把批注做实。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "读完《骆驼祥子》并有 20 处以上批注",
+        "能梳理祥子三起三落并分析堕落原因"
+      ],
+      "assessmentPrompt": "请{{name}}读「祥子买车又卖车」两章做三种批注各两处，并回答：压垮祥子的最后一根稻草是什么？他还有救吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S3.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "名著导读",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4a_02",
+        "ct_yw_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_18",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：《海底两万里》快速阅读",
+      "description": "读《海底两万里》整本，练快速阅读：抓航线图、尼摩船长之谜两大线索，略过海洋生物清单式段落。凡尔纳的科幻=科学+想象——读科幻名著的方法与读现实主义小说不同。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能画出鹦鹉螺号航线简图",
+        "能根据书中细节推断尼摩船长的身世与性格"
+      ],
+      "assessmentPrompt": "请{{name}}读完后画航线（太平洋—印度洋—…），并回答：尼摩船长是英雄还是复仇者？从哪三件事看出来的？",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S3.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "名著导读",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_19",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：孝亲敬老·天下国家·语文生活",
+      "description": "本册三个综合活动：孝亲敬老（家风故事）、天下国家（爱国人物谱）、我的语文生活（街头招牌、广告语调查）。综合学习的三件套成型：调查—整理—展示。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "参与完成一次调查类活动并有成果展示",
+        "能从招牌/广告中分析语言现象"
+      ],
+      "assessmentPrompt": "请{{name}}在小区拍 8 块招牌，找出用字不规范或妙趣横生的各一处，写 100 字点评；再记录一条家规故事。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S4.YD.12"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "综合性学习",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_20",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "课外古诗词诵读：竹里馆与晚春",
+      "description": "诵读《竹里馆》《春夜洛城闻笛》《逢入京使》《晚春》：独坐幽篁的静、故园东望的乡、杨花榆荚的争。课外诵读线继续——四首一小站，六册不断线。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能背诵默写四首",
+        "能各说一个意象与情感"
+      ],
+      "assessmentPrompt": "请{{name}}背《晚春》，问：杨花榆荚「无才思」却满天飞舞，韩愈是批评还是夸它们？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "课外古诗词诵读",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g7b_21",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "七下字词与文学常识自查",
+      "description": "读读写写全面过关（兀兀穷年、锲而不舍、怏怏不乐、忧心忡忡）；常识卡：杨振宁与邓稼先、臧克家、萧红、都德、普希金、刘禹锡、周敦颐、柳宗元。初一收官：两册下来文言实词卡应超过百张。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "听写正确率 90% 以上",
+        "文言实词积累卡 100 张以上并定期回看"
+      ],
+      "assessmentPrompt": "给{{name}}听写「锲而不舍、迥乎不同、怏怏不乐、诲人不倦」等 20 词；抽查实词卡：负、辞、涉、颔、湮各译一句。",
+      "standards": [
+        "cschinese-2022:S4.LZ.01",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "各单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g7a_21"
       ]
     }
   ]
