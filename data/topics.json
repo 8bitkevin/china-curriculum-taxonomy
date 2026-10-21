@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 143,
+  "topicCount": 173,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -4393,6 +4393,925 @@
       },
       "prerequisites": [
         "ct_g3b_27"
+      ]
+    },
+    {
+      "id": "ct_g4a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "亿以内数的认识（数级与计数单位）",
+      "description": "个、十、百、千、万……一直数到亿：每四位一级，分为个级、万级、亿级。大数的世界从此打开——城市人口、国民生产总值都用亿来计量。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出万以上相邻计数单位之间的进率都是 10",
+        "能把大数按个级、万级分级读出各数位上的数"
+      ],
+      "assessmentPrompt": "给{{name}}看 3080000，问「分几级读？8 在什么数位上，表示什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_14"
+      ]
+    },
+    {
+      "id": "ct_g4a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "亿以内数的读法和写法",
+      "description": "读大数先分级：万级按个级读再加「万」。写数从高位写起，哪位没有就写 0 占位。中间连续的 0 怎么读（只读一个）是永远的经典考点。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确读写亿以内数（含中间末尾有 0 的情形）",
+        "能说清 40050300 读作什么、哪几个 0 要读哪几个不读"
+      ],
+      "assessmentPrompt": "让{{name}}读 50060040，再听写「三百零八万零七十」，对照检查 0 的处理。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_01"
+      ]
+    },
+    {
+      "id": "ct_g4a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "大数的大小比较与改写成万作单位",
+      "description": "比大数先比位数，位数相同从最高位比起。为了读写方便，整万的数可以改写成用「万」作单位：250000 = 25 万。大数也要学会「瘦身」。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确比较两个大数的大小",
+        "能把整万的数改写成万作单位并说明改写与省略的区别"
+      ],
+      "assessmentPrompt": "问{{name}}：「3079000 和 89 万谁大？把 3079000 改写成用万作单位（不近似）是多少？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_10",
+        "ct_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_g4a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "近似数与用四舍五入法省略万位后面的尾数",
+      "description": "我国人口约 14 亿——「约」字后面是近似数。四舍五入看千位：5 以上进 1，4 以下舍去。精确与近似，是数的两种身份。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用四舍五入法省略万位后面的尾数求近似数",
+        "能区分生活中的准确数与近似数（如身高约 160 厘米）"
+      ],
+      "assessmentPrompt": "问{{name}}：「学校有 2048 人，可以说大约几千人？238000 约是多少万？看哪一位决定入还是舍？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_05",
+        "ct_g4a_03"
+      ]
+    },
+    {
+      "id": "ct_g4a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "自然数、十进制计数法与亿以上的数",
+      "description": "表示物体个数的 0、1、2、3……都是自然数，数是数不完的。十进制计数法「逢十进一」统治了整个整数世界；亿以上的数（万亿级）也按同一套规则读写。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "知道自然数的含义和最小自然数是 0、没有最大的自然数",
+        "能读写含有亿级的数并求其近似数"
+      ],
+      "assessmentPrompt": "问{{name}}：「最小的自然数是几？有最大的自然数吗？1276000000 四舍五入到亿位约是几亿？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_04"
+      ]
+    },
+    {
+      "id": "ct_g4a_06",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "计算工具的认识（算盘与计算器）",
+      "description": "从算筹到算盘再到计算器，人类一直在发明算得更快的工具。会用计算器做大数运算、会看算盘上珠下珠表示的数，是现代数学素养的小小一环。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出算盘一颗上珠和一颗下珠分别表示几",
+        "会用计算器进行大数四则运算并探索规律（如 999×999）"
+      ],
+      "assessmentPrompt": "让{{name}}用计算器算 498×76，再问「用算盘表示 8，要用几颗上珠几颗下珠？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_g4a_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "公顷和平方千米",
+      "description": "测量土地面积：边长 100 米的正方形是 1 公顷（hm²），1 平方千米 = 100 公顷。天安门广场约 44 公顷——从此大面积有了名字。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "知道 1 公顷 = 10000 平方米、1 平方千米 = 100 公顷",
+        "能体会 1 公顷的实际大小（如 400 米跑道围起来的场地）"
+      ],
+      "assessmentPrompt": "问{{name}}：「1 公顷等于多少平方米？学校操场够 1 公顷吗？我国的领土面积约用哪个单位？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_08",
+        "ct_g3b_15"
+      ]
+    },
+    {
+      "id": "ct_g4a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "线段、直线、射线",
+      "description": "线段有两个端点、可以量长度；射线一个端点、向一端无限延伸；直线没有端点、两端无限延伸。手电筒的光是射线，笔直的铁轨想象成直线。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出三种线的端点数、延伸性与可度量性",
+        "能过一点画射线、直线并数出数量（如过一点可画几条射线）"
+      ],
+      "assessmentPrompt": "问{{name}}：「线段、射线、直线谁的长度能量？为什么射线不能量？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_03"
+      ]
+    },
+    {
+      "id": "ct_g4a_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角的概念与表示方法",
+      "description": "从一点引出两条射线组成的图形叫做角：一个顶点、两条边。角用符号 ∠ 表示，可以编号命名。二年级「摸得到」的角，如今有了严格的定义。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用射线的语言定义角并指出顶点和边",
+        "能用 ∠1、∠ABC 等方式表示角"
+      ],
+      "assessmentPrompt": "让{{name}}画一个角，问「角的定义怎么说？它的两条边是什么线？能量出边的长度吗？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_10",
+        "ct_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_g4a_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角的度量（量角器）",
+      "description": "角的大小要看两边张开的大小，用「度」作单位。量角器量角三步：对中（顶点对中心）、对边（0 刻度线对一条边）、读数（看另一条边）。角的大小与边的长短无关。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确使用量角器量角（内圈外圈不读反）",
+        "能解释为什么角的大小与边画得长短无关"
+      ],
+      "assessmentPrompt": "让{{name}}量三角板上每个角的度数，问「为什么同一个角描长一点，度数不变？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_09"
+      ]
+    },
+    {
+      "id": "ct_g4a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角的分类：锐角、直角、钝角、平角、周角",
+      "description": "90° 是直角，180° 是平角，360° 是周角；锐角小于 90°，钝角在 90° 和 180° 之间。1 平角 = 2 直角、1 周角 = 4 直角——角的家族排好了座次。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能给角分类并说出各类角的度数范围",
+        "知道平角、周角与直角的倍数关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「钝角最大能到多少度？钟面 6 时整时针分针成什么角？几度？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_11",
+        "ct_g4a_10"
+      ]
+    },
+    {
+      "id": "ct_g4a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "画角（量角器与三角板拼角）",
+      "description": "用量角器画指定度数的角：画射线—对中—点记号—连线。用一副三角板还能拼出 75°、105°、120°、135°、150°、15° 等角——角度加减的游戏。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能量角器画出指定度数的角且误差在 2° 内",
+        "能用三角板拼出指定角并说出用了哪两个角"
+      ],
+      "assessmentPrompt": "让{{name}}画一个 65° 的角，再挑战「用一副三角板能拼出 150° 吗？怎么拼？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_g4a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三位数乘两位数笔算",
+      "description": "竖式算 145×12：先乘个位上的 2，再乘十位上的 1（积错位）。整数乘法的最终形态——此后只是数位更多、道理不变，直到初中乘法公式接班。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "三位数乘两位数 10 题对 9 题以上",
+        "能说出第二层积表示什么、为什么末位与十位对齐"
+      ],
+      "assessmentPrompt": "让{{name}}算 145×12，指着第二层积问「这个 145 表示多少？为什么往左错一位写？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_19",
+        "ct_g3b_12"
+      ]
+    },
+    {
+      "id": "ct_g4a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因数中间或末尾有 0 的乘法简算",
+      "description": "算 160×30：先算 16×3 = 48，末尾添两个 0。0 不参与计算只负责占位——简算的背后是位值理解的再次胜利。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "会用简便竖式计算因数末尾有 0 的乘法",
+        "因数中间有 0 时不漏乘、简算时 0 的个数不添错"
+      ],
+      "assessmentPrompt": "让{{name}}用简便方法算 106×30 和 160×30，问「两个 30 的处理有什么不同？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_20",
+        "ct_g4a_13"
+      ]
+    },
+    {
+      "id": "ct_g4a_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "积的变化规律",
+      "description": "一个因数不变，另一个因数乘几，积也乘几。规律虽简单，威力巨大：它是简便运算、是正比例的雏形、是将来函数思想的第一次眨眼。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能通过举例发现并表述积的变化规律",
+        "能用规律直接写出相关算式的积（如由 25×4=100 写 25×12）"
+      ],
+      "assessmentPrompt": "问{{name}}：「25×4=100，那 25×12 等于多少？不用竖式，怎么用规律想？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_13"
+      ]
+    },
+    {
+      "id": "ct_g4a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "单价、数量、总价的关系",
+      "description": "每支钢笔 12 元是单价，买 3 支是数量，一共 36 元是总价：单价 × 数量 = 总价。买东西的数学从此有了公式，另外两个变式（求单价、求数量）一并掌握。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能识别实际问题中的单价、数量、总价",
+        "能灵活运用三个公式解决购物问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「一箱牛奶 60 元共 12 盒，一盒多少钱？用的哪个数量关系式？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_22",
+        "ct_g3b_13"
+      ]
+    },
+    {
+      "id": "ct_g4a_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "速度、时间、路程的关系",
+      "description": "每小时行 80 千米写作 80 千米/时，这是速度。速度 × 时间 = 路程：三量知二求一。行程问题登场——它将贯穿小学到高中的数学舞台。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确读写速度单位（千米/时、米/分）",
+        "能解决简单行程问题并说清用哪个关系式"
+      ],
+      "assessmentPrompt": "问{{name}}：「汽车 3 小时行 240 千米，每小时行多少？速度的单位怎么写？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_22",
+        "ct_g4a_16"
+      ]
+    },
+    {
+      "id": "ct_g4a_18",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行与垂直",
+      "description": "同一平面内不相交的两条直线互相平行；相交成直角时互相垂直，交点叫垂足。铁轨是平行的，墙角线是垂直的——线的两大关系定了几何世界的秩序。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用直角符号判断垂直、用平移检验平行",
+        "能举出生活中平行与垂直的例子并准确表述（谁是谁的垂线/平行线）"
+      ],
+      "assessmentPrompt": "让{{name}}在方格纸上画一组平行线和一组互相垂直的线，问「怎么检验你画的真的垂直？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_g4a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "垂线与平行线的画法（含点到直线的距离）",
+      "description": "用三角板+直尺：一贴、二靠、三移、四画。从直线外一点画垂线，这条垂线段最短——它的长度就是点到直线的距离。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用工具规范地过一点画已知直线的垂线和平行线",
+        "知道垂线段最短并能量出点到直线的距离"
+      ],
+      "assessmentPrompt": "问{{name}}：「从你家到大路上修一条最短的小路，该怎么修？为什么？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_12",
+        "ct_g4a_18"
+      ]
+    },
+    {
+      "id": "ct_g4a_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形的认识（底与高）",
+      "description": "两组对边分别平行的四边形叫平行四边形，它容易变形（伸缩门）。从一条边上的任意一点向对边画垂线，这条垂线段就是高，对应的边叫底。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出平行四边形的特征并用符号准确表达",
+        "能辨认并画出平行四边形不同底边上的高"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么伸缩门做成平行四边形结构？画一个平行四边形并作出它的一条高。」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_24",
+        "ct_g4a_18",
+        "ct_g4a_19"
+      ]
+    },
+    {
+      "id": "ct_g4a_21",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "梯形的认识（等腰、直角梯形）",
+      "description": "只有一组对边平行的四边形叫梯形：平行的两边是上底和下底，不平行的叫腰。两腰相等的等腰梯形、有直角的直角梯形是它的两个特例。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出梯形的特征并辨认各部分名称",
+        "能从多种四边形中挑出梯形并说明与平行四边形的区别"
+      ],
+      "assessmentPrompt": "给{{name}}一组四边形：「哪些是梯形？平行四边形为什么不算梯形？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_20"
+      ]
+    },
+    {
+      "id": "ct_g4a_22",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "四边形的关系（集合图表示）",
+      "description": "四边形这个大家庭：平行四边形和梯形是并列的两支；长方形是特殊的平行四边形，正方形又是特殊的长方形。用圈中圈画出来，从属关系一目了然。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用集合图正确表示四边形、平行四边形、长方形、正方形、梯形的关系",
+        "能判断「正方形是特殊的平行四边形」等命题的真假"
+      ],
+      "assessmentPrompt": "问{{name}}：「正方形、长方形、平行四边形谁的范围最大？用画圈的方式给妈妈讲讲。」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_32",
+        "ct_g4a_21"
+      ]
+    },
+    {
+      "id": "ct_g4a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "口算除法：整十数除整十、整百数",
+      "description": "口算 80÷20、150÷50：想 8 里面有 4 个 2，或者想 20×4 = 80。除数从一位数升到两位数，口算思路却一脉相承。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "整十数除整十、整百数口算 10 题对 9 题以上",
+        "能说出 83÷20 ≈ 4 是怎么估的"
+      ],
+      "assessmentPrompt": "问{{name}}：「120÷30 怎么想？62÷20 大约等于几？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_03"
+      ]
+    },
+    {
+      "id": "ct_g4a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除数是整十数的笔算除法",
+      "description": "笔算 92÷30、178÷30：先看前两位，不够除看前三位；商的位置由「商几»在哪一位»决定。除数两位数后，除法竖式的数位判断升级了。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确笔算除数是整十数的除法并说明商的书写位置",
+        "能判断商是几位数"
+      ],
+      "assessmentPrompt": "让{{name}}算 178÷30，问「商 5 为什么写在个位上？余下的是多少？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_05",
+        "ct_g4a_23"
+      ]
+    },
+    {
+      "id": "ct_g4a_25",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除数是两位数的笔算（四舍五入试商与调商）",
+      "description": "算 84÷21 时把 21 看成 20 试商；初商大了要调小、小了要调大。「四舍」试商易大、「五入」试商易小——试商调商是整数除法的最难关。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用四舍五入法试商并正确调商，10 题对 8 题以上",
+        "能说出初商偏大偏小的原因"
+      ],
+      "assessmentPrompt": "让{{name}}算 326÷53，边算边说「把 53 看成几十来试商？商大了小了怎么办？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_06",
+        "ct_g4a_24"
+      ]
+    },
+    {
+      "id": "ct_g4a_26",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "商是两位数的除法与商不变规律",
+      "description": "笔算 612÷18 商是两位数：先除前两位再除个位。商不变规律：被除数除数同乘或同除一个数（0 除外），商不变——简便计算的老朋友。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能正确计算商是两位数的除法",
+        "能用商不变规律解释 1200÷25 = 4800÷100 的简算"
+      ],
+      "assessmentPrompt": "问{{name}}：「720÷30 用商不变规律怎么算简便？被除数除数同时除以 10 商为什么不变？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_15",
+        "ct_g4a_25"
+      ]
+    },
+    {
+      "id": "ct_g4a_27",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "除法问题的灵活解决",
+      "description": "「装 420 千克苹果每箱装 30 千克，需要几个箱子？」算出来 14 箱——错！剩下不够一箱也得再拿一个箱子，要 15 个。生活中的除法要按实际意义收尾。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能根据问题实际意义决定进一法或去尾法",
+        "能验算并检查答案是否符合生活常理"
+      ],
+      "assessmentPrompt": "问{{name}}：「50 元买 12 元一支的钢笔最多买几支？租船 46 人每船坐 8 人要几条？两个答案的处理有什么不同？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_12",
+        "ct_g4a_26"
+      ]
+    },
+    {
+      "id": "ct_g4a_28",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "条形统计图（一格表示 1 个单位）",
+      "description": "把统计表的数据画成直条：横轴记类别、纵轴记数量，直条的高低一眼比出多少。统计图比数字表更直观——「看图说话」从这里开始。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能根据数据完成条形统计图（标数据、留等宽间隔）",
+        "能从图中直读、比较数量并回答简单问题"
+      ],
+      "assessmentPrompt": "让{{name}}统计家里人最爱的水果并画条形统计图，问「哪项最多？比第二多几？」",
+      "standards": [
+        "csmath-2022:S2.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_07",
+        "ct_g3b_09"
+      ]
+    },
+    {
+      "id": "ct_g4a_29",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "一格表示多个单位与横向条形图",
+      "description": "数据大了（几百几千），一格可以表示 5、10、100 个单位；类别名很长时可以把条形横着画。表示方式是活的，原则不变：直观、准确。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能根据数据大小选择合适的每格代表量",
+        "能读写横向条形统计图并检查半格数据的画法"
+      ],
+      "assessmentPrompt": "给{{name}}一组较大的数据（如各月用水量），问「一格表示 1 吨画不下，怎么办？47 吨怎么画？」",
+      "standards": [
+        "csmath-2022:S2.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_28"
+      ]
+    },
+    {
+      "id": "ct_g4a_30",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：优化（沏茶与烙饼问题）",
+      "description": "沏茶时洗水壶烧水的同时可以洗茶杯——能同时做的事同时做，总时间最短；烙饼问题里锅的两面安排更是精妙。运筹思想：在有限条件下找最优安排。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用流程图安排沏茶顺序并算出最短时间",
+        "能通过操作或列表发现烙饼问题的最优策略（每次锅不空）"
+      ],
+      "assessmentPrompt": "问{{name}}：「烧水 8 分钟、洗杯子 2 分钟、扫地 5 分钟，怎样安排最快几分钟完成？」",
+      "standards": [
+        "csmath-2022:S2.IP.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_17",
+        "ct_g3b_21"
       ]
     }
   ]

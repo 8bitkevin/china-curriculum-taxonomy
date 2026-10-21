@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.4.0",
+  "version": "0.5.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 219,
+  "edgeCount": 268,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -1317,6 +1317,300 @@
       "prerequisiteId": "ct_g3b_27",
       "strength": "hard",
       "reason": "两步搭配是简单组合的叠加，连线/列表方法继续升级"
+    },
+    {
+      "topicId": "ct_g4a_01",
+      "prerequisiteId": "ct_g2b_14",
+      "strength": "hard",
+      "reason": "万以内数认识（数位顺序）是数级扩展的直接基础，亿级只是数位表的延长"
+    },
+    {
+      "topicId": "ct_g4a_02",
+      "prerequisiteId": "ct_g4a_01",
+      "strength": "hard",
+      "reason": "读写大数必须先分级、明白数级与计数单位"
+    },
+    {
+      "topicId": "ct_g4a_03",
+      "prerequisiteId": "ct_g4a_02",
+      "strength": "hard",
+      "reason": "比较与改写都建立在大数的数位、读写基础上"
+    },
+    {
+      "topicId": "ct_g4a_03",
+      "prerequisiteId": "ct_g1b_10",
+      "strength": "soft",
+      "reason": "位数相同从高位比起的策略沿用 100 以内数比大小的经验"
+    },
+    {
+      "topicId": "ct_g4a_04",
+      "prerequisiteId": "ct_g4a_03",
+      "strength": "hard",
+      "reason": "省略尾数求近似数在改写（精确形式）之后对照学习，混淆点在于是否精确"
+    },
+    {
+      "topicId": "ct_g4a_04",
+      "prerequisiteId": "ct_g3a_05",
+      "strength": "soft",
+      "reason": "估算中「看成接近的整百数」与四舍五入的取近似思路同源"
+    },
+    {
+      "topicId": "ct_g4a_05",
+      "prerequisiteId": "ct_g4a_04",
+      "strength": "hard",
+      "reason": "亿以上的数在亿以内读写与近似数方法上直接扩展（多一级而已）"
+    },
+    {
+      "topicId": "ct_g4a_06",
+      "prerequisiteId": "ct_g4a_05",
+      "strength": "soft",
+      "reason": "计算器用于验证大数运算，置于大数认识之后体验价值最大"
+    },
+    {
+      "topicId": "ct_g4a_07",
+      "prerequisiteId": "ct_g3a_08",
+      "strength": "hard",
+      "reason": "平方千米以千米长度单位为边长定义，千米的认识是前提"
+    },
+    {
+      "topicId": "ct_g4a_07",
+      "prerequisiteId": "ct_g3b_15",
+      "strength": "hard",
+      "reason": "公顷是平方米之上的面积单位，面积单位体系的扩展"
+    },
+    {
+      "topicId": "ct_g4a_08",
+      "prerequisiteId": "ct_g2a_03",
+      "strength": "hard",
+      "reason": "线段概念在二年级已有直观认识（可量、有两个端点），此处正式定义"
+    },
+    {
+      "topicId": "ct_g4a_09",
+      "prerequisiteId": "ct_g4a_08",
+      "strength": "hard",
+      "reason": "角由两条射线组成，射线的定义是角定义的前提"
+    },
+    {
+      "topicId": "ct_g4a_09",
+      "prerequisiteId": "ct_g2a_10",
+      "strength": "hard",
+      "reason": "二年级的直观角认识（顶点尖尖、边直直）升级为射线路言的严格定义"
+    },
+    {
+      "topicId": "ct_g4a_10",
+      "prerequisiteId": "ct_g4a_09",
+      "strength": "hard",
+      "reason": "度量对象是严格定义的角，量角器操作以角的概念为前提"
+    },
+    {
+      "topicId": "ct_g4a_11",
+      "prerequisiteId": "ct_g4a_10",
+      "strength": "hard",
+      "reason": "按度数分类，必须先会量出度数"
+    },
+    {
+      "topicId": "ct_g4a_11",
+      "prerequisiteId": "ct_g2a_11",
+      "strength": "hard",
+      "reason": "直角、锐角、钝角的直观分类经验在此系统化为按度数界定"
+    },
+    {
+      "topicId": "ct_g4a_12",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "hard",
+      "reason": "拼角需要各类角度数（如三角板 30°45°60°90°）的知识"
+    },
+    {
+      "topicId": "ct_g4a_13",
+      "prerequisiteId": "ct_g3b_12",
+      "strength": "hard",
+      "reason": "两位数乘两位数的竖式结构直接扩展为三位数乘两位数"
+    },
+    {
+      "topicId": "ct_g4a_13",
+      "prerequisiteId": "ct_g3a_19",
+      "strength": "soft",
+      "reason": "连续进位的处理经验来自多位数乘一位数"
+    },
+    {
+      "topicId": "ct_g4a_14",
+      "prerequisiteId": "ct_g4a_13",
+      "strength": "hard",
+      "reason": "简算是三位数乘两位数中因数含 0 的特殊情形处理"
+    },
+    {
+      "topicId": "ct_g4a_14",
+      "prerequisiteId": "ct_g3a_20",
+      "strength": "soft",
+      "reason": "三年级末尾有 0 乘法的简算经验直接迁移"
+    },
+    {
+      "topicId": "ct_g4a_15",
+      "prerequisiteId": "ct_g4a_13",
+      "strength": "hard",
+      "reason": "规律的发现依赖乘法计算举例，一般化在具体计算之后"
+    },
+    {
+      "topicId": "ct_g4a_16",
+      "prerequisiteId": "ct_g3a_22",
+      "strength": "hard",
+      "reason": "归一问题（先求每份数）就是单价模型的原型，单价即每份数"
+    },
+    {
+      "topicId": "ct_g4a_16",
+      "prerequisiteId": "ct_g3b_13",
+      "strength": "soft",
+      "reason": "连乘问题中的份总结构支撑单价×数量=总价的模型化"
+    },
+    {
+      "topicId": "ct_g4a_17",
+      "prerequisiteId": "ct_g4a_16",
+      "strength": "hard",
+      "reason": "速度模型与单价模型结构相同（每份×份数=总量），先学单价再迁移"
+    },
+    {
+      "topicId": "ct_g4a_17",
+      "prerequisiteId": "ct_g3a_22",
+      "strength": "soft",
+      "reason": "行程问题的两步分析沿用归一问题的每份数思路"
+    },
+    {
+      "topicId": "ct_g4a_18",
+      "prerequisiteId": "ct_g4a_08",
+      "strength": "hard",
+      "reason": "平行与垂直是两条直线（射线）的位置关系，直线概念先行"
+    },
+    {
+      "topicId": "ct_g4a_19",
+      "prerequisiteId": "ct_g4a_18",
+      "strength": "hard",
+      "reason": "画法是概念的操作化，判定标准（成直角/永不相交）决定工具步骤"
+    },
+    {
+      "topicId": "ct_g4a_19",
+      "prerequisiteId": "ct_g4a_12",
+      "strength": "soft",
+      "reason": "三角板画垂线借助直角边，画角的操作经验迁移"
+    },
+    {
+      "topicId": "ct_g4a_20",
+      "prerequisiteId": "ct_g4a_18",
+      "strength": "hard",
+      "reason": "平行四边形定义（两组对边分别平行）直接使用平行概念"
+    },
+    {
+      "topicId": "ct_g4a_20",
+      "prerequisiteId": "ct_g3a_24",
+      "strength": "hard",
+      "reason": "三年级长方形正方形特征研究是四边形系统认识的起点"
+    },
+    {
+      "topicId": "ct_g4a_20",
+      "prerequisiteId": "ct_g4a_19",
+      "strength": "soft",
+      "reason": "高的定义是垂直线段，垂线画法是作高的操作前提"
+    },
+    {
+      "topicId": "ct_g4a_21",
+      "prerequisiteId": "ct_g4a_20",
+      "strength": "hard",
+      "reason": "梯形与平行四边形对照定义（只有一组/两组对边平行），先学后者"
+    },
+    {
+      "topicId": "ct_g4a_22",
+      "prerequisiteId": "ct_g4a_21",
+      "strength": "hard",
+      "reason": "关系图收拢本单元所有四边形，梯形是最后一块拼图"
+    },
+    {
+      "topicId": "ct_g4a_22",
+      "prerequisiteId": "ct_g3a_32",
+      "strength": "soft",
+      "reason": "集合图表示从属关系的方法沿用维恩图经验"
+    },
+    {
+      "topicId": "ct_g4a_23",
+      "prerequisiteId": "ct_g3b_03",
+      "strength": "hard",
+      "reason": "整十数除的口算建立在一位数除整十整百数口算之上（20 看作 2×10）"
+    },
+    {
+      "topicId": "ct_g4a_24",
+      "prerequisiteId": "ct_g4a_23",
+      "strength": "hard",
+      "reason": "笔算每一步用口算估计商几"
+    },
+    {
+      "topicId": "ct_g4a_24",
+      "prerequisiteId": "ct_g3b_05",
+      "strength": "hard",
+      "reason": "一位数除三位数的竖式程序（除的顺序、落位）迁移到除数两位数"
+    },
+    {
+      "topicId": "ct_g4a_25",
+      "prerequisiteId": "ct_g4a_24",
+      "strength": "hard",
+      "reason": "试商把两位数看成整十数，整十数除法是试商的算子"
+    },
+    {
+      "topicId": "ct_g4a_25",
+      "prerequisiteId": "ct_g3b_06",
+      "strength": "soft",
+      "reason": "商 0 占位与余数处理情形在新计算中复现"
+    },
+    {
+      "topicId": "ct_g4a_26",
+      "prerequisiteId": "ct_g4a_25",
+      "strength": "hard",
+      "reason": "商两位数即试商程序执行两轮"
+    },
+    {
+      "topicId": "ct_g4a_26",
+      "prerequisiteId": "ct_g4a_15",
+      "strength": "soft",
+      "reason": "商不变与积的变化规律互为对偶，规律探究方法互通"
+    },
+    {
+      "topicId": "ct_g4a_27",
+      "prerequisiteId": "ct_g4a_26",
+      "strength": "hard",
+      "reason": "灵活解决含有余数的处理与验算，以完整笔算技能为前提"
+    },
+    {
+      "topicId": "ct_g4a_27",
+      "prerequisiteId": "ct_g2b_12",
+      "strength": "soft",
+      "reason": "有余数除法的实际问题经验（余数怎么处理）在此升级"
+    },
+    {
+      "topicId": "ct_g4a_28",
+      "prerequisiteId": "ct_g3b_09",
+      "strength": "hard",
+      "reason": "条形图的数据组织沿用复式统计表的统计意识，从表到图"
+    },
+    {
+      "topicId": "ct_g4a_28",
+      "prerequisiteId": "ct_g1b_07",
+      "strength": "soft",
+      "reason": "一年级象形统计图（一图代表一个）是条形图的直系祖先"
+    },
+    {
+      "topicId": "ct_g4a_29",
+      "prerequisiteId": "ct_g4a_28",
+      "strength": "hard",
+      "reason": "一格多单位与横向图是基本条形图的表示扩展"
+    },
+    {
+      "topicId": "ct_g4a_30",
+      "prerequisiteId": "ct_g3b_21",
+      "strength": "soft",
+      "reason": "沏茶问题要计算经过时间，时间计算技能被调用"
+    },
+    {
+      "topicId": "ct_g4a_30",
+      "prerequisiteId": "ct_g2b_17",
+      "strength": "soft",
+      "reason": "优化安排中的推理（同时做互不影响）延续简单推理经验"
     }
   ]
 }
