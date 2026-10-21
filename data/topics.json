@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 588,
+  "topicCount": 612,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -18163,6 +18163,740 @@
         "ct_yw_g1a_07",
         "ct_yw_g1a_10",
         "ct_yw_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_01",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "形声字族识字：青—清晴情请",
+      "description": "发现形声字的规律：声旁表音（青）、形旁表义（氵清、日晴、忄情、讠请），一族一族地识字。这是一年级下册最重要的识字方法升级：从逐字认记到成串推认。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用声旁「青」推认清、晴、情、请并说清形旁作用",
+        "遇到生字「蚂」能猜出和虫有关、读音接近马"
+      ],
+      "assessmentPrompt": "写「清、晴、情、请」给{{name}}认读，问：这四个字哪里一样、哪里不一样？分别为什么用三点水、日字旁？",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_09",
+        "ct_yw_g1a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "拆字与猜字谜识字：姓氏歌",
+      "description": "用拆合部件的方法识字（弓长张、古月胡、口天吴），并喜欢猜字谜（「什么绿？禾苗绿」）。拆字让复杂的字变简单，也让孩子第一次「玩」汉字。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能像《姓氏歌》那样介绍自己的姓（木子李、双人徐）",
+        "能猜出简单字谜并自编一个"
+      ],
+      "assessmentPrompt": "问{{name}}：你姓什么？能像课文里那样拆一拆介绍吗？再出个谜「一口咬掉牛尾巴（打一字）」请{{name}}猜。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "音序查字法：查字典认字",
+      "description": "学会按「大写字母—音节—页码」的步骤用音序查字法查字典。查字典让孩子不再依赖大人认字，是自主学习识字的关键一步。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能背出大写字母表并按音序找到字的页码",
+        "能在 1 分钟内查到一个知道读音的字"
+      ],
+      "assessmentPrompt": "请{{name}}用音序查字法查「蜻」字，计时看步骤是否正确（先找大写 Q，再找 qīng）。",
+      "standards": [
+        "cschinese-2022:S1.LZ.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "语文园地二",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_01",
+        "ct_yw_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "写好左右与全包围结构的字",
+      "description": "写左右结构的字懂得「谦让」（左窄右宽、穿插避让，如「林、对」），写全包围的字先里头后封口（白、问）。结构意识让字从「写得对」走向「写得好」。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "「体、们」等左窄右宽的字比例得当",
+        "「问、间」先写里面再封口，笔顺正确"
+      ],
+      "assessmentPrompt": "请{{name}}写「问」和「林」，检查「问」是否最后封口、「林」左边木字旁的捺是否变成了点。",
+      "standards": [
+        "cschinese-2022:S1.LZ.02",
+        "cschinese-2022:S1.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_07",
+        "ct_yw_g1a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "读好长句子：正确停顿",
+      "description": "遇到长句子能按词语单位停顿（「我/多想/去看看」，不读破词）。停顿是流利朗读的标志，一年级下期从短句过渡到长句，最容易一字一顿。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "朗读长句不拆散词语、不拖腔",
+        "会用「/」给长句标出停顿再读"
+      ],
+      "assessmentPrompt": "写句子「我多想去看看北京的天安门」，请{{name}}先画停顿线再朗读，听是否词意完整。",
+      "standards": [
+        "cschinese-2022:S1.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_06",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "联系上下文猜词义",
+      "description": "遇到不懂的词，回到上文和下文猜意思（「闷得很」联系下雨前燕子低飞）。猜词是从「问大人」走向「自己解决」的阅读策略，为二年级的查证习惯做准备。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用一句自己的话解释「闷、潮湿」等词在课文中的意思",
+        "猜完词义会读上下文检查是否通顺"
+      ],
+      "assessmentPrompt": "读「小鱼说：要下雨了，水里闷得很」，问{{name}}：「闷得很」是什么感觉？你从哪句话猜出来的？",
+      "standards": [
+        "cschinese-2022:S1.YD.01",
+        "cschinese-2022:S1.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（四）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "从文中找明显信息回答问题",
+      "description": "读课文能回答「谁、在哪里、干什么」，并到原文指出来（棉花姑娘请谁治病）。带着问题回文找答案，是一切阅读理解题的最底层能力。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能回答关于课文内容的简单问题并指出依据句子",
+        "读完后能说出课文主要讲了一件什么事"
+      ],
+      "assessmentPrompt": "读完《小壁虎借尾巴》，问{{name}}：小壁虎都向谁借尾巴了？带{{name}}在课文里把句子找出来读一读。",
+      "standards": [
+        "cschinese-2022:S1.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（六）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_08",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗诵读积累：静夜思、池上、小池",
+      "description": "诵读并背诵《静夜思》《池上》《小池》，借助画面知道诗写了什么（月光思乡、小娃偷采白莲、蜻蜓立荷尖）。一年级古诗重在读背和画面感，不讲深义。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确背诵三首古诗",
+        "能说出「小荷才露尖尖角」画面里有什么"
+      ],
+      "assessmentPrompt": "请{{name}}背《池上》，再问：小娃偷采了什么？你是从哪句知道的？",
+      "standards": [
+        "cschinese-2022:S1.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（三）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_24"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "根据信息作简单推断",
+      "description": "根据课文线索猜结果、补情节（咕咚来了——大家为什么跑？跑对了没有？）。推断是「读出文字背后意思」的第一步，比找信息高一个层次。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能根据「木瓜掉进湖里」的线索解释咕咚是什么",
+        "能说出「野牛为什么不跑」的依据"
+      ],
+      "assessmentPrompt": "读完《咕咚》，问{{name}}：咕咚到底是什么？小动物们错在哪里？如果是你听到咕咚声会怎么做？",
+      "standards": [
+        "cschinese-2022:S1.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（六）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_10",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "分角色朗读对话",
+      "description": "和同伴分角色读课文对话（小公鸡、小鸭子），读出不同角色的语气。角色代入让朗读有了对象感，也为理解人物想法搭桥。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能和大人分角色读完一篇对话课文不串角色",
+        "能根据角色心情变化读出不同的语气"
+      ],
+      "assessmentPrompt": "和{{name}}分角色读《小公鸡和小鸭子》，{{name}}读小鸭子，听是否读出着急和感谢的语气。",
+      "standards": [
+        "cschinese-2022:S1.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_11",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "听故事讲故事：记住顺序讲出来",
+      "description": "听《老鼠嫁女》这样的故事，能记住主要情节并讲给别人听。听清楚（记住角色和顺序）+ 说清楚（一段话讲完），是口语交际的综合训练。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能完整复述听过的故事，不漏主要角色和结果",
+        "讲故事时声音响亮、有开头有结尾"
+      ],
+      "assessmentPrompt": "给{{name}}讲一遍《老鼠嫁女》，然后请{{name}}讲给爸爸听；提示卡壳时只问「然后呢？」",
+      "standards": [
+        "cschinese-2022:S1.BD.02",
+        "cschinese-2022:S1.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_18",
+        "ct_yw_g1a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_12",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "请求帮助的礼貌表达",
+      "description": "请人帮忙时说清「请、麻烦、谢谢」（请你帮我把书拿下来，谢谢）。会求助是社交刚需，句式加礼貌用语一起练。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "请求帮助能说清要帮什么、怎么说",
+        "得到帮助会说谢谢，被拒绝会说没关系"
+      ],
+      "assessmentPrompt": "假装{{name}}的彩笔掉到沙发底下够不着，看{{name}}会不会用礼貌的话请{{name}}帮忙。",
+      "standards": [
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_19"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "打电话：说清楚我是谁、找谁、什么事",
+      "description": "学会打电话的完整要素（问好、自报家门、说事情、告别），也能接电话转述。电话语言看不到表情，更要说清楚，是很有价值的沟通训练。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "模拟通话能完整说出「您好，我是××，请找××」",
+        "能记下简单口信并转告"
+      ],
+      "assessmentPrompt": "用玩具电话和{{name}}演练：你扮演老师打电话来通知明天带水彩笔，看{{name}}接电话时会不会先问好、能不能复述通知。",
+      "standards": [
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1b_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写话起步：一句完整话加标点",
+      "description": "看图用一句话写话，句末用对句号、问号、感叹号，开头空两格。写话从一句话开始：先会「写一句」，再谈「写一段」。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能看图写出一句完整的话（谁在哪里干什么）",
+        "句末标点正确，格式正确（空两格、一格一字）"
+      ],
+      "assessmentPrompt": "给{{name}}一张小朋友浇花的图，请{{name}}写一句话；检查是否完整、句号有没有写。",
+      "standards": [
+        "cschinese-2022:S1.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "语文园地四",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_17",
+        "ct_yw_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_15",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "讲清游戏规则：一边说一边做",
+      "description": "能把一个游戏的玩法讲清楚（先做什么、再做什么），边说边示范。规则语言讲究顺序，是程序性表达的启蒙。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能按步骤讲清一个游戏的玩法并带别人玩起来",
+        "别人不懂时能换个说法再讲"
+      ],
+      "assessmentPrompt": "请{{name}}教一个新朋友玩「丢手绢」，只许口述加示范，看步骤是否清楚。",
+      "standards": [
+        "cschinese-2022:S1.BD.01",
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（五）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1b_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_16",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "词语归类：天气、动作、动物",
+      "description": "把学过的词按类整理（天气：晴、阴、雷、阵雨；动作：打球、拔河、跳高）。归类让词汇从散点变网络，也训练初步概念思维。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能把词卡按类别整理并说出类别名",
+        "能往「操场上的活动」类别里补充新词"
+      ],
+      "assessmentPrompt": "说「跳绳、跑步、拔河」，请{{name}}说出它们的共同类别，再让{{name}}往里加两个新词。",
+      "standards": [
+        "cschinese-2022:S1.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "对对子：古对今、圆对方",
+      "description": "通过《古对今》《人之初》诵读对对子（古对今、圆对方、严寒对酷暑），感受汉语的音韵对称之美，并试着自己对一个。对子是最早的语言游戏化训练。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能流利诵读《古对今》并拍手打节奏",
+        "能对上简单对子（大对__、白天对__）"
+      ],
+      "assessmentPrompt": "和{{name}}玩对对子：你说「春对__」「山对__」，看{{name}}对得又快又准吗。",
+      "standards": [
+        "cschinese-2022:S1.YD.04",
+        "cschinese-2022:S1.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_24"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_18",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "读整本童谣儿歌集：快乐读书吧",
+      "description": "课外阅读从单篇走向整本（《读读童谣和儿歌》），学会保管书、读完一本再换。整本书习惯从最薄的书开始培养。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能独立读完一本童谣集并说出最喜欢的一首",
+        "知道读到哪里夹书签、下次接着读"
+      ],
+      "assessmentPrompt": "请{{name}}从童谣集里挑一首读给你听，再问{{name}}最喜欢哪一首、为什么。",
+      "standards": [
+        "cschinese-2022:S1.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_19",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "反犬旁、鸟字旁、虫字旁的字",
+      "description": "认识动物类字的偏旁家族（猫狗狼—反犬旁；鸡鸭鹅—鸟字旁；蚂蚁蜻蜓—虫字旁），见偏旁知类属。偏旁归类与动物常识互相印证，识字变得有系统。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能给「猫、鸡、蚂」标注类属并说明偏旁作用",
+        "能举出带虫字旁的字三个以上"
+      ],
+      "assessmentPrompt": "写「猫、鹅、蜂」，请{{name}}说说它们分别是什么旁、这些字都和什么有关。",
+      "standards": [
+        "cschinese-2022:S1.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_10",
+        "ct_yw_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_20",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "日积月累：读书名言与《人之初》",
+      "description": "背诵「不知则问，不能则学」等读书名言和《人之初》，并大致了解意思。积累之外开始「懂了再用」——名言用来提醒自己学习。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能背诵本册日积月累内容",
+        "能用「不知则问」说说自己怎么做"
+      ],
+      "assessmentPrompt": "请{{name}}背一句关于学习的名言，并问：这句提醒我们碰到不懂的怎么办？",
+      "standards": [
+        "cschinese-2022:S1.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_24"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_21",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "句式仿说：一…就…、一边…一边…",
+      "description": "从《怎么都快乐》《文具的家》中学句式，能仿说「一…就…」「一边…一边…」。句式是搭句子的现成骨架，仿说是从模仿到运用的最短路径。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能用「一…就…」造一个自己的句子",
+        "能判断「一边吃饭一边看书」这类说法并说说看法"
+      ],
+      "assessmentPrompt": "起头「铃声一响，__」，请{{name}}接完；再请{{name}}用「一边…一边…」说说自己做过的事。",
+      "standards": [
+        "cschinese-2022:S1.BD.01",
+        "cschinese-2022:S1.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_22",
+      "type": "META",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "说说我的阅读感受",
+      "description": "读完课文能说出「我喜欢哪一篇、哪里有意思」，开始有自己的阅读偏好表达。感受虽浅，却是阅读兴趣和评论意识的起点。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出喜欢的课文和理由（哪怕只是「好笑」）",
+        "能推荐一篇课文给家人并说为什么"
+      ],
+      "assessmentPrompt": "问{{name}}：这学期课文里最喜欢哪一课？哪里好玩？读给{{name}}听听。",
+      "standards": [
+        "cschinese-2022:S1.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "课文（五）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_23",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "看图写话进阶：两三句连贯的话",
+      "description": "看图从写一句进阶到写两三句，用「什么时候、谁在哪里干什么、心情怎样」把话连起来。连贯性是写话的下一步，为二年级写一段话铺路。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能看图写 2–3 句连贯的话，句间有顺序",
+        "会用逗号分开句内停顿"
+      ],
+      "assessmentPrompt": "给{{name}}一张小朋友放风筝的图，请{{name}}写两三句话：什么天气、谁、在做什么、开心吗。",
+      "standards": [
+        "cschinese-2022:S1.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "语文园地七",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_21",
+        "ct_yw_g1b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g1b_24",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "一下识字量自查：认 400 写 200",
+      "description": "一年级下册累计认识 400 字、会写 200 字。期末对照生字表自查过关，二年级就能靠拼音和字典读大部分注音读物了。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "生字表一随机抽查认对率 90% 以上",
+        "写字表听写正确率 80% 以上"
+      ],
+      "assessmentPrompt": "从一下生字表随机指 20 个字请{{name}}认读，再听写 10 个字，统计正确率。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_25",
+        "ct_yw_g1b_01"
       ]
     }
   ]

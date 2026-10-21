@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 973,
+  "edgeCount": 1005,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5841,6 +5841,198 @@
       "prerequisiteId": "ct_yw_g1a_14",
       "strength": "soft",
       "reason": "借助图画理解内容后，自然段划分更有意义"
+    },
+    {
+      "topicId": "ct_yw_g1b_01",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "形旁表义的规律建立在偏旁认识的基础上，上册认识了偏旁，下册才用规律成串识字"
+    },
+    {
+      "topicId": "ct_yw_g1b_01",
+      "prerequisiteId": "ct_yw_g1a_09",
+      "strength": "soft",
+      "reason": "会意识字（部件表意）的经验迁移到形声字形旁表义"
+    },
+    {
+      "topicId": "ct_yw_g1b_02",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "拆字组字需要知道部件（偏旁）这一概念"
+    },
+    {
+      "topicId": "ct_yw_g1b_03",
+      "prerequisiteId": "ct_yw_g1a_01",
+      "strength": "hard",
+      "reason": "音序查字依赖字母表和音节认读，拼音是查字典的前提"
+    },
+    {
+      "topicId": "ct_yw_g1b_03",
+      "prerequisiteId": "ct_yw_g1a_12",
+      "strength": "soft",
+      "reason": "会拼读音节才能在字典里对上要查的字"
+    },
+    {
+      "topicId": "ct_yw_g1b_04",
+      "prerequisiteId": "ct_yw_g1a_07",
+      "strength": "hard",
+      "reason": "合体字书写是独体字笔画笔顺的进阶应用"
+    },
+    {
+      "topicId": "ct_yw_g1b_04",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "「先里头后封口」「左窄右宽」都是合体字结构知识"
+    },
+    {
+      "topicId": "ct_yw_g1b_05",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "hard",
+      "reason": "长句停顿建立在正确流利朗读短句的基础上"
+    },
+    {
+      "topicId": "ct_yw_g1b_06",
+      "prerequisiteId": "ct_yw_g1b_05",
+      "strength": "soft",
+      "reason": "读通长句才有力气回到上下文猜词义"
+    },
+    {
+      "topicId": "ct_yw_g1b_07",
+      "prerequisiteId": "ct_yw_g1a_14",
+      "strength": "hard",
+      "reason": "找信息回答问题的策略从图文对照提取信息发展而来"
+    },
+    {
+      "topicId": "ct_yw_g1b_08",
+      "prerequisiteId": "ct_yw_g1a_24",
+      "strength": "hard",
+      "reason": "古诗背诵积累延续上册的韵文背诵经验"
+    },
+    {
+      "topicId": "ct_yw_g1b_09",
+      "prerequisiteId": "ct_yw_g1b_07",
+      "strength": "hard",
+      "reason": "推断以找齐文中信息为前提，先提取后推断"
+    },
+    {
+      "topicId": "ct_yw_g1b_10",
+      "prerequisiteId": "ct_yw_g1a_17",
+      "strength": "hard",
+      "reason": "分角色读出语气依托问句感叹句的语气朗读基础"
+    },
+    {
+      "topicId": "ct_yw_g1b_11",
+      "prerequisiteId": "ct_yw_g1a_21",
+      "strength": "hard",
+      "reason": "听故事讲故事是看图讲小故事在无图情境下的进阶"
+    },
+    {
+      "topicId": "ct_yw_g1b_11",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "hard",
+      "reason": "复述需要完整句表达的支撑"
+    },
+    {
+      "topicId": "ct_yw_g1b_12",
+      "prerequisiteId": "ct_yw_g1a_19",
+      "strength": "hard",
+      "reason": "请求帮助是「我说你做」式指令交际的发展：从听指令到会求助"
+    },
+    {
+      "topicId": "ct_yw_g1b_13",
+      "prerequisiteId": "ct_yw_g1b_12",
+      "strength": "soft",
+      "reason": "打电话中说事情、道谢与礼貌求助的用语一脉相承"
+    },
+    {
+      "topicId": "ct_yw_g1b_14",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "hard",
+      "reason": "写一句完整话把口头完整句落到笔头"
+    },
+    {
+      "topicId": "ct_yw_g1b_14",
+      "prerequisiteId": "ct_yw_g1a_17",
+      "strength": "soft",
+      "reason": "句末标点的认识（朗读中体会问号感叹号）迁移到写话使用"
+    },
+    {
+      "topicId": "ct_yw_g1b_15",
+      "prerequisiteId": "ct_yw_g1b_11",
+      "strength": "soft",
+      "reason": "讲清游戏规则与讲故事同属有序表达"
+    },
+    {
+      "topicId": "ct_yw_g1b_16",
+      "prerequisiteId": "ct_yw_g1a_22",
+      "strength": "hard",
+      "reason": "词语归类是上册字词分类整理的延续与扩容"
+    },
+    {
+      "topicId": "ct_yw_g1b_17",
+      "prerequisiteId": "ct_yw_g1a_24",
+      "strength": "hard",
+      "reason": "对对子延续《对韵歌》的音韵积累，读背基础上开始仿对"
+    },
+    {
+      "topicId": "ct_yw_g1b_18",
+      "prerequisiteId": "ct_yw_g1a_23",
+      "strength": "hard",
+      "reason": "整本童谣集阅读是「和大人一起读」亲子共读的独立化"
+    },
+    {
+      "topicId": "ct_yw_g1b_19",
+      "prerequisiteId": "ct_yw_g1b_01",
+      "strength": "soft",
+      "reason": "形旁表义规律的具体应用：动物偏旁家族"
+    },
+    {
+      "topicId": "ct_yw_g1b_19",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "偏旁认识是偏旁归类识字的前提"
+    },
+    {
+      "topicId": "ct_yw_g1b_20",
+      "prerequisiteId": "ct_yw_g1a_24",
+      "strength": "hard",
+      "reason": "名言背诵与韵文背诵同属积累，方法一致"
+    },
+    {
+      "topicId": "ct_yw_g1b_21",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "hard",
+      "reason": "句式仿说是在完整句骨架上换内容"
+    },
+    {
+      "topicId": "ct_yw_g1b_22",
+      "prerequisiteId": "ct_yw_g1b_07",
+      "strength": "soft",
+      "reason": "表达阅读感受以读懂内容为前提"
+    },
+    {
+      "topicId": "ct_yw_g1b_23",
+      "prerequisiteId": "ct_yw_g1b_14",
+      "strength": "hard",
+      "reason": "两三句连贯写话是一句完整话写话的直接进阶"
+    },
+    {
+      "topicId": "ct_yw_g1b_23",
+      "prerequisiteId": "ct_yw_g1a_21",
+      "strength": "soft",
+      "reason": "口头讲故事的顺序感（先…然后…）迁移到多句写话"
+    },
+    {
+      "topicId": "ct_yw_g1b_24",
+      "prerequisiteId": "ct_yw_g1a_25",
+      "strength": "hard",
+      "reason": "识字量从上册 300/100 累进到 400/200，自查方法相同"
+    },
+    {
+      "topicId": "ct_yw_g1b_24",
+      "prerequisiteId": "ct_yw_g1b_01",
+      "strength": "soft",
+      "reason": "形声字规律提高认字效率，支撑识字量目标"
     }
   ]
 }
