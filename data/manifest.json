@@ -1,10 +1,10 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.18.0",
+  "version": "1.19.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 961,
-    "dependencies": 1426,
+    "topics": 974,
+    "dependencies": 1442,
     "standards": 275,
     "deprecated": 0,
     "byGrade": {
@@ -26,7 +26,7 @@
       "8年级下": 43,
       "9年级上": 46,
       "9年级下": 44,
-      "10年级上": 25,
+      "10年级上": 38,
       "10年级下": 21,
       "11年级上": 20,
       "11年级下": 18,
@@ -67,12 +67,12 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1072818,
-      "sha256": "7baeacfea2d6dd5829273691a795591f15d08fabec09623eb6d0a289b0f10cae"
+      "bytes": 1089463,
+      "sha256": "7e60a1fdab455332789069e80f45e5c2ddacf1d2d2e4f7e42bf8544dbcf444f8"
     },
     "dependencies.json": {
-      "bytes": 276466,
-      "sha256": "721dac3b468c4cbc5258cad276e2ae236e9278fc1176efc655d25a77930b257a"
+      "bytes": 279788,
+      "sha256": "075cf718a247285eca47ac672b8295ef544ce11d3cbb6a0b8e0b81a6fb1c61e4"
     },
     "curriculum-standards.json": {
       "bytes": 64741,

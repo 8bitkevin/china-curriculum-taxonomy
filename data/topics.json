@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.18.0",
+  "version": "1.19.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 961,
+  "topicCount": 974,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -29679,6 +29679,417 @@
       },
       "prerequisites": [
         "ct_yw_g9a_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "青春意象群文：沁园春·长沙到致云雀",
+      "description": "读《沁园春·长沙》《立在地球边上放号》《红烛》《峨日朵雪峰之侧》《致云雀》：五首诗共用「青春」母题而姿态各异——万山红遍的少年意气、不停地毁坏不停地创造的力、红烛的燃烧与自问。高中第一课：群文阅读的意识（同题异构、互文对读）从此成为常规。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背《沁园春·长沙》",
+        "能比较三首诗青春意象的异同并形成一句自己的概括"
+      ],
+      "assessmentPrompt": "问{{name}}：毛泽东的「万类霜天竞自由」与郭沫若的「力的绘画」都在写自然之力，青春的面孔有何不同？闻一多「莫问收获，但问耕耘」是消极还是深情？",
+      "standards": [
+        "hschinese-2017:H1.WX.01",
+        "hschinese-2017:H1.WX.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "小说的青春叙事：百合花与哦，香雪",
+      "description": "读《百合花》《哦，香雪》：不写战争写被子的战争小说、不写苦难写铅笔盒的乡村小说——以小见大与人情之美。高中小说阅读的起点：从情节人物到叙事意图与细节象征。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能分析被子与铅笔盒的象征义",
+        "能说明两篇小说「避重就轻」的取材之妙"
+      ],
+      "assessmentPrompt": "问{{name}}：新媳妇最后为什么「狠狠地瞪」了一下卫生员却「气汹汹地嚷」出被子？香雪用四十个鸡蛋换铅笔盒亏不亏？",
+      "standards": [
+        "hschinese-2017:H1.WX.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "人物通讯与新闻评论：劳动的书写",
+      "description": "读《喜看稻菽千重浪》《心有一团火，温暖众人心》《「探界者」钟扬》三篇通讯与《以工匠精神雕琢时代品质》评论：通讯用事实立人（细节+场景），评论以观点服人（概念界定+层层推进）。实用类文本高考阅读的第一块版图。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能区分通讯与评论的文体特征",
+        "能梳理一篇评论的论证思路"
+      ],
+      "assessmentPrompt": "问{{name}}：写袁隆平为什么选他在稻田里的三个场景？工匠精神那篇评论的三个分论点怎么递进的？",
+      "standards": [
+        "hschinese-2017:H1.SY.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_04",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词群文：生命的诗意八首",
+      "description": "读《短歌行》《归园田居》《梦游天姥吟留别》《登高》《琵琶行》《念奴娇·赤壁怀古》《永遇乐·京口北固亭怀古》《声声慢》：八首诗词八个生命答案——曹操的忧与抱负、李白梦游的傲、杜甫登高的悲、白居易同病的怜、苏辛怀古的旷与愤、李清照的愁。高中古诗文第一大单元：群文比较+知人论世的完全体。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵八首",
+        "能任选三位诗人比较其面对失意的不同姿态"
+      ],
+      "assessmentPrompt": "问{{name}}：同是怀古，苏轼「人生如梦」与辛弃疾「廉颇老矣」底色差在哪？《登高》八句为什么被称为「古今七律第一」——从对仗与情感密度说。",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9a_07",
+        "ct_yw_g9b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "写景散文的炼金术：故都的秋与荷塘月色",
+      "description": "读《故都的秋》《荷塘月色》《我与地坛》：郁达夫以「清、静、悲凉」统摄北平的秋，朱自清用通感与叠词造月下荷塘，史铁生在地坛想生死与母亲。散文阅读三问：景如何被情过滤、语言如何炼出、哲思如何生长——高中散文鉴赏的标尺就此立起。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能分析「秋味」如何由景物选择实现",
+        "能赏析荷塘月色至少两处修辞（通感/叠词）"
+      ],
+      "assessmentPrompt": "问{{name}}：故都的秋为什么不写香山红叶偏写破屋浓茶？「微风过处送来缕缕清香，仿佛远处高楼上渺茫的歌声」妙在哪里？地坛给了史铁生什么答案？",
+      "standards": [
+        "hschinese-2017:H1.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第七单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "议论文言双璧：劝学与师说",
+      "description": "背《劝学》《师说》：荀子以譬喻链论证（青出于蓝、锲而不舍），韩愈以对比组论证（古之圣人与今之众人、巫医乐师与士大夫）——两篇议论文言的论证艺术对读。高中文言从「读懂」进到「读出论证」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写两篇",
+        "能各画出论证结构图并比较喻证与对比的效能"
+      ],
+      "assessmentPrompt": "问{{name}}：荀子为什么连用五个比喻才说「学不可以已」？韩愈写师说的现实针对性（耻学于师）从哪组对比里看出来？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第六单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_07",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "杂文的破与立：拿来主义",
+      "description": "读鲁迅《拿来主义》：先破「闭关主义、送去主义」再立「运用脑髓，放出眼光，自己来拿」；大宅子的比喻把抽象政策讲成家喻户晓。杂文=形象化议论——鲁迅式说理的锋利与幽默。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能梳理先破后立的论证顺序",
+        "能解释大宅子比喻系统的对应义"
+      ],
+      "assessmentPrompt": "问{{name}}：孱头、昏蛋、废物各对应什么态度？「鱼翅、鸦片、烟枪」的分别处置对今天的文化交流有什么启示？",
+      "standards": [
+        "hschinese-2017:H1.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第六单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_08",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本书：乡土中国的概念地图",
+      "description": "读费孝通《乡土中国》：抓住核心概念（乡土本色、差序格局、礼治秩序），梳理十四篇的逻辑链，用概念观照现实（为什么中国人重人情？）。学术著作整本读法：先立概念骨架，再填章节血肉——高中第一本必读整本书。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能解释「差序格局」并举例说明",
+        "能画出全书概念关系图"
+      ],
+      "assessmentPrompt": "问{{name}}：差序格局像水波纹，团体格局像捆柴——你家的亲戚关系能画成波纹吗？「熟人社会」在微信群里还存在吗？",
+      "standards": [
+        "hschinese-2017:H1.ZB.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第五单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "当代文化参与：家乡文化生活调查",
+      "description": "第四单元学习活动：记录家乡的人和物（口述史访谈）、家乡文化生活现状调查（问卷+数据分析）、参与家乡文化建设（建议书）。研究性学习的语文版——提出问题、收集证据、形成报告的完整闭环在高中正式落地。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "完成一份访谈记录或调查小报告",
+        "建议书有一处基于调查数据的论证"
+      ],
+      "assessmentPrompt": "请{{name}}访谈家里最长辈「小时候怎么过年」，整理 500 字口述记录；再对照现在提出一条「年味保护」建议。",
+      "standards": [
+        "hschinese-2017:H1.KJ.01",
+        "hschinese-2017:H1.SY.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8b_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "词语的积累、梳理与解释",
+      "description": "第八单元语言探究：丰富词语宝库（新词语的诞生与规范）、把握古今词义的联系与区别（「妻子」「行李」的古今之变）、词义辨析与使用（「必须/必需」）。语言建构与运用的地基工程——高考语言文字运用题的源头活水。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能整理一组古今异义词并各造一句",
+        "能在语境中辨析近义词并说明理由"
+      ],
+      "assessmentPrompt": "给{{name}}：「他（必须/必需）在天黑前赶到」选词并说理由；再问「河东狮吼」的「河东」和今天说的河东一样吗？",
+      "standards": [
+        "hschinese-2017:H1.LZ.02",
+        "hschinese-2017:H1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第八单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g7a_19"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "高中写作起步：新诗、人物、议论",
+      "description": "必修上写作序列：学写新诗（意象经营）、写人要凸显个性（细节与个性标签）、议论要有理有据（论点论据的初级装配）。高中作文与初中的分野：从「写清楚」到「写得专业」——文体意识觉醒。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "有一首两节以上的自创新诗",
+        "议论段做到观点+两例+分析"
+      ],
+      "assessmentPrompt": "请{{name}}用「筷子」为意象写一首两节小诗（第二节翻出新意）；再写一段「自律比他律更重要」的议论段（观点+两例+分析）。",
+      "standards": [
+        "hschinese-2017:H2.BD.01",
+        "hschinese-2017:H1.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "各单元写作",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9a_02",
+        "ct_yw_g9b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_12",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词诵读：静女到鹊桥仙",
+      "description": "诵读《静女》《涉江采芙蓉》《虞美人（春花秋月何时了）》《鹊桥仙（纤云弄巧）》：诗经的爱而不见、古诗的同心离居、李后主的一江春愁、秦观的两情久长。古诗词诵读线从初中延伸到高中——量少了，赏的深度翻倍。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵四首",
+        "能比较四首写情手法的不同"
+      ],
+      "assessmentPrompt": "问{{name}}：「问君能有几多愁」为什么用江水作答？秦观说「两情若是久长时又岂在朝朝暮暮」——这与「盈盈一水间脉脉不得语」的无奈有何不同？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "古诗词诵读",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g10a_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "劳动的古歌：芣苢与插秧歌",
+      "description": "读《芣苢》《插秧歌》：诗经重章叠句里的采摘之乐、杨万里笔下「笠是兜鍔蓑是甲」的农忙之艰——劳动书写的古今两帧。古诗与新诗、通讯评论在同一主题（劳动）下的多文体汇流——单元人文主题统整的典型样本。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵两首",
+        "能比较两首劳动之歌的情感基调差异"
+      ],
+      "assessmentPrompt": "问{{name}}：《芣苢》十二个字换了八个动词，为什么越换越欢快？《插秧歌》全家的「忙」从哪个细节最见？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "必修上册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g10a_03",
+        "ct_yw_g8b_07"
       ]
     }
   ]

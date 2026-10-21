@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.18.0",
+  "version": "1.19.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1426,
+  "edgeCount": 1442,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8559,6 +8559,102 @@
       "prerequisiteId": "ct_yw_g9a_20",
       "strength": "hard",
       "reason": "字词自查收官并升级为初中三年的总清点"
+    },
+    {
+      "topicId": "ct_yw_g10a_01",
+      "prerequisiteId": "ct_yw_g9a_01",
+      "strength": "hard",
+      "reason": "九上现代诗意象赏析升级为青春母题的群文对读（任务群学习起点）"
+    },
+    {
+      "topicId": "ct_yw_g10a_02",
+      "prerequisiteId": "ct_yw_g9b_02",
+      "strength": "hard",
+      "reason": "初中批判小说的读法延伸到以小见大的青春叙事，新增象征层"
+    },
+    {
+      "topicId": "ct_yw_g10a_03",
+      "prerequisiteId": "ct_yw_g8a_01",
+      "strength": "hard",
+      "reason": "八上新闻结构知识扩展为通讯与评论的文体比较"
+    },
+    {
+      "topicId": "ct_yw_g10a_04",
+      "prerequisiteId": "ct_yw_g9b_08",
+      "strength": "hard",
+      "reason": "初中诗词曲五首收官后的高中第一大单元：八首群文比较+知人论世"
+    },
+    {
+      "topicId": "ct_yw_g10a_04",
+      "prerequisiteId": "ct_yw_g9a_07",
+      "strength": "soft",
+      "reason": "九上『失意者的三种活法』专题直接为八首生命的诗意供比较框架"
+    },
+    {
+      "topicId": "ct_yw_g10a_05",
+      "prerequisiteId": "ct_yw_g8a_07",
+      "strength": "hard",
+      "reason": "初中散文的克制抒情升级为景-情-理三层与语言炼金的分析"
+    },
+    {
+      "topicId": "ct_yw_g10a_06",
+      "prerequisiteId": "ct_yw_g9b_03",
+      "strength": "hard",
+      "reason": "文言议论链：孟子舍生取义→荀子劝学+韩愈师说的论证艺术对读"
+    },
+    {
+      "topicId": "ct_yw_g10a_07",
+      "prerequisiteId": "ct_yw_g9a_04",
+      "strength": "hard",
+      "reason": "九上驳论（立驳结合）的锋利延续到鲁迅杂文的先破后立+喻证"
+    },
+    {
+      "topicId": "ct_yw_g10a_08",
+      "prerequisiteId": "ct_yw_g8b_14",
+      "strength": "hard",
+      "reason": "选择性阅读（经典常谈）之后第一次完整啃学术著作：概念地图法"
+    },
+    {
+      "topicId": "ct_yw_g10a_09",
+      "prerequisiteId": "ct_yw_g8b_16",
+      "strength": "hard",
+      "reason": "初中综合学习的调查倡议经验升级为口述史+问卷+建议书的研究闭环"
+    },
+    {
+      "topicId": "ct_yw_g10a_10",
+      "prerequisiteId": "ct_yw_g7a_19",
+      "strength": "hard",
+      "reason": "初中语境义辨析扩展为词语系统的梳理探究（古今异义/新词/近义）"
+    },
+    {
+      "topicId": "ct_yw_g10a_11",
+      "prerequisiteId": "ct_yw_g9b_14",
+      "strength": "hard",
+      "reason": "初中创意表达的收官之后进入高中分体写作训练序列"
+    },
+    {
+      "topicId": "ct_yw_g10a_11",
+      "prerequisiteId": "ct_yw_g9a_02",
+      "strength": "soft",
+      "reason": "九上诗歌创作的意象经验支撑学写新诗"
+    },
+    {
+      "topicId": "ct_yw_g10a_12",
+      "prerequisiteId": "ct_yw_g9b_18",
+      "strength": "hard",
+      "reason": "课外古诗词诵读线由初中延伸至高中"
+    },
+    {
+      "topicId": "ct_yw_g10a_13",
+      "prerequisiteId": "ct_yw_g8b_07",
+      "strength": "hard",
+      "reason": "诗经重章叠句的知识（八下关雎蒹葭）用于芣苢的劳动之歌"
+    },
+    {
+      "topicId": "ct_yw_g10a_13",
+      "prerequisiteId": "ct_yw_g10a_03",
+      "strength": "soft",
+      "reason": "同单元劳动主题下的古今文体互证"
     }
   ]
 }
