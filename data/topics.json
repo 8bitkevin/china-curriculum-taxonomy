@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.12.0",
+  "version": "0.13.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 361,
+  "topicCount": 386,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -11098,6 +11098,774 @@
       },
       "prerequisites": [
         "ct_g7b_25"
+      ]
+    },
+    {
+      "id": "ct_g8a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的边（三边关系与分类）",
+      "description": "三角形任意两边之和大于第三边、任意两边之差小于第三边。按边分：不等边、等腰、等边。小学「围得成围不成」的操作经验，现在用「两点之间线段最短」讲出道理。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用两边的和与差判断第三边范围",
+        "能按边和按角对三角形分类"
+      ],
+      "assessmentPrompt": "问{{name}}：「等腰三角形两边长 4 和 9，第三边可能是 4 吗？周长是多少？为什么 4 不行？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 11,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_22",
+        "ct_g7a_21"
+      ]
+    },
+    {
+      "id": "ct_g8a_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的高、中线与角平分线",
+      "description": "从顶点向对边作垂线，顶点与垂足间的线段是高；连接顶点与对边中点的线段是中线；把角平分的线段是角平分线。三条中线交于一点（重心）——三角形的三条「生命线」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能画出锐角、直角、钝角三角形的高",
+        "能利用中线等分面积的原理计算"
+      ],
+      "assessmentPrompt": "让{{name}}画钝角三角形的三条高，问「钝角三角形的高有两条在三角形外，怎么回事？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 11,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_19",
+        "ct_g7a_23"
+      ]
+    },
+    {
+      "id": "ct_g8a_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的内角和与外角",
+      "description": "内角和 180°（过一顶点作平行线即可证明）；外角等于与它不相邻的两个内角之和。小学量出来的、拼出来的结论，初中用平行线的性质一步步证出来——实验几何变论证几何。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用平行线性质证明内角和定理",
+        "能运用外角性质计算与推理"
+      ],
+      "assessmentPrompt": "问{{name}}：「三角形一个外角 120°，与它不相邻的内角可能是什么？外角为什么大于任一不相邻内角？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 11,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_21",
+        "ct_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_g8a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "多边形的内角和与外角和",
+      "description": "n 边形内角和 (n-2)×180°，对角线从一个顶点出发有 (n-3) 条；任意多边形外角和恒为 360°。小学「分割成三角形」的直觉，初中长成公式与证明。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能推导并运用内角和公式",
+        "能用外角和 360° 解决正多边形问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「一个多边形内角和 900°，它是几边形？正八边形每个外角是多少度？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 11,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_23",
+        "ct_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_g8a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "全等三角形的概念与性质",
+      "description": "能够完全重合的两个三角形全等：对应边相等、对应角相等。记号 △ABC≌△DEF 的字母顺序暗藏对应关系。「重合」是字典里最严格的相等。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能根据记号说出对应边与对应角",
+        "能在图形（含重叠、翻折）中找对应元素"
+      ],
+      "assessmentPrompt": "问{{name}}：「△ABC≌△DEF，AB 对应谁？∠B 对应谁？找对应边有什么窍门（对顶角、公共边、最长边）？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 12,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_g8a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "全等判定：SSS 与 SAS",
+      "description": "三边分别相等（SSS）、两边及夹角分别相等（SAS），两三角形全等。稳定性（塔吊）对应 SSS，「边边角」不能判定是常见陷阱——判定定理是拼图游戏的最少条件。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用 SSS/SAS 判定全等并书写证明",
+        "知道 SSA 不能判定全等并能举例"
+      ],
+      "assessmentPrompt": "问{{name}}：「两边和其中一边的对角对应相等能判定全等吗？画个摇摆的三角形试试。SAS 的 A 为什么必须是夹角？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 12,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_01",
+        "ct_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_g8a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "全等判定：ASA、AAS 与 HL",
+      "description": "两角及夹边（ASA）、两角及一角对边（AAS）分别相等，全等；直角三角形专属斜边直角边定理（HL）。五种武器集齐——证全等就是找够「对口」的条件。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能根据条件选择恰当判定方法",
+        "能规范书写含 2-3 步的全等证明"
+      ],
+      "assessmentPrompt": "问{{name}}：「两个角和一条边分别相等一定全等吗？要看边是夹边还是对边吗？HL 只对什么三角形有效？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 12,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_06"
+      ]
+    },
+    {
+      "id": "ct_g8a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角平分线的性质与判定",
+      "description": "角平分线上的点到角两边的距离相等；反过来，到两边距离相等的点在角平分线上。用全等三角形证明——角平分线仪器（平分角仪）就是 SAS 的活教材。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用全等证明角平分线性质与判定",
+        "能运用性质计算点到直线的距离"
+      ],
+      "assessmentPrompt": "问{{name}}：「∠AOB 的平分线上一点 P，到 OA 距离 3cm，到 OB 距离多少？怎么证明？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 12,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_02",
+        "ct_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_g8a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "全等三角形证明的综合训练",
+      "description": "证全等 → 得对应边角相等 → 再证全等或算线段角度：连环证明是几何的主线剧情。公共边、公共角、对顶角这些「隐藏条件」是破题的钥匙。规范书写：因为什么、根据什么、所以什么。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能在复杂图形中找出两对全等三角形的证明路径",
+        "证明书写每一步注明依据"
+      ],
+      "assessmentPrompt": "问{{name}}：「证全等时『公共边』算不算条件？一道题要证两次全等，先证哪一次？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 12,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_06",
+        "ct_g8a_08"
+      ]
+    },
+    {
+      "id": "ct_g8a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "轴对称与线段垂直平分线",
+      "description": "沿一条直线折叠能重合的两个图形轴对称。垂直平分线上的点到线段两端距离相等（反之亦然）——用 SSS 可证。垂直平分线是线段的「对称轴」，也是证明线段相等的新武器。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用全等证明垂直平分线性质与判定",
+        "能区分轴对称图形与两个图形成轴对称"
+      ],
+      "assessmentPrompt": "问{{name}}：「PA=PB 能说明 P 在什么线上？怎么证垂直平分线性质？怎样的图形叫轴对称图形？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 13,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_27",
+        "ct_g8a_06"
+      ]
+    },
+    {
+      "id": "ct_g8a_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "轴对称作图与用坐标表示对称",
+      "description": "作轴对称图形：找关键点—作垂线—截取等长。坐标系里关于 x 轴对称 (a,-b)、关于 y 轴对称 (-a,b)、关于原点对称 (-a,-b)——符号变化有规律，画图验证最牢靠。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用尺规作一个图形的轴对称图形",
+        "能写出点关于坐标轴/原点对称的坐标"
+      ],
+      "assessmentPrompt": "问{{name}}：「点 (3,-2) 关于 x 轴、y 轴对称的点各是？坐标变化的规律是什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 13,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_14",
+        "ct_g8a_10"
+      ]
+    },
+    {
+      "id": "ct_g8a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "等腰三角形的性质",
+      "description": "等边对等角（底角相等）；顶角平分线、底边中线、底边上的高「三线合一」——这是等腰三角形最锋利的性质，一条线干三件事。折叠实验看得见，全等三角形证得实。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用全等证明等边对等角",
+        "能运用三线合一进行计算与证明"
+      ],
+      "assessmentPrompt": "问{{name}}：「等腰三角形顶角 40°，底角多少度？『三线合一』说的是哪三条线？等边三角形每个角多少度？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 13,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_10"
+      ]
+    },
+    {
+      "id": "ct_g8a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "等腰三角形的判定与含 30° 角的直角三角形",
+      "description": "等角对等边（判定的逆）；在直角三角形中，30° 角所对的直角边等于斜边的一半。等腰+直角组合出一类高频模型——判定与性质互逆成对，是几何命题的呼吸节奏。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用等角对等边判定等腰三角形",
+        "能运用 30° 直角边结论计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「两个角都是 65° 的三角形是什么三角形？直角三角形一个锐角 30°，它对的直角边与斜边什么关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 13,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_12"
+      ]
+    },
+    {
+      "id": "ct_g8a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "同底数幂乘法、幂的乘方与积的乘方",
+      "description": "aᵐ·aⁿ=aᵐ⁺ⁿ；(aᵐ)ⁿ=aᵐⁿ；(ab)ⁿ=aⁿbⁿ。底数不变指数相加、相乘、分配——三条幂运算律是整式乘法的发动机，也是最容易混的三兄弟。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确运用三条幂运算法则并区分差异",
+        "能逆向运用法则（如 2⁶=8²）"
+      ],
+      "assessmentPrompt": "问{{name}}：「a³·a² 等于 a⁵ 还是 a⁶？(a³)² 呢？(2a)³ 和 2a³ 一样吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_g8a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整式的乘法",
+      "description": "单项式乘多项式用分配律逐项乘；多项式乘多项式「每一位乘每一位」再合并：(a+b)(m+n)=am+an+bm+bn。画长方形面积图验证——代数操作与几何直观互相作证。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确进行整式乘法运算",
+        "能说出多项式乘法展开后项数的规律"
+      ],
+      "assessmentPrompt": "让{{name}}算 (x+3)(x-5)，问「展开有四项，为什么最后只剩三项？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_12",
+        "ct_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_g8a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法公式（平方差与完全平方）",
+      "description": "(a+b)(a-b)=a²-b²；(a±b)²=a²±2ab+b²。两个特殊的多项式乘法，值得背成公式——但更要会推：面积拼图一看就懂。变形式 a²+b²=(a-b)²+2ab 是求值的常客。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正用逆用两个乘法公式",
+        "能用图形面积解释两个公式"
+      ],
+      "assessmentPrompt": "问{{name}}：「(-x+3)(-x-3) 能用平方差吗？102² 用完全平方怎么口算？(a-b)² 加上什么等于 a²+b²？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_15"
+      ]
+    },
+    {
+      "id": "ct_g8a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整式的除法（同底数幂相除）",
+      "description": "aᵐ÷aⁿ=aᵐ⁻ⁿ（a≠0）：底数不变指数相减；单项式除以单项式系数指数分别除；多项式除以单项式逐项除。乘除互逆，指数加减对称——幂的运算自成一张对称的表。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确进行同底数幂除法与整式除法",
+        "知道 a⁰=1（a≠0）的规定"
+      ],
+      "assessmentPrompt": "问{{name}}：「a⁸÷a³ 等于多少？-6a³b² ÷ 2a²b 是多少？任何非零数的 0 次幂是几？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_15"
+      ]
+    },
+    {
+      "id": "ct_g8a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因式分解（提公因式法与公式法）",
+      "description": "把多项式化成几个整式的积：ma+mb+mc=m(a+b+c)（提公因式）；a²-b²=(a+b)(a-b)；a²±2ab+b²=(a±b)²（公式法）。乘法是「展开」，因式分解是「收拢」——一正一反两门手艺。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断变形是否为因式分解",
+        "能用提公因式与公式法分解到不能再分"
+      ],
+      "assessmentPrompt": "让{{name}}分解 x³-4x 和 (x-2)²-9，问「为什么 x³-4x 要先提公因式？怎么检查分解彻底了？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_14",
+        "ct_g8a_16"
+      ]
+    },
+    {
+      "id": "ct_g8a_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分式的概念与基本性质",
+      "description": "分母含字母的式子叫分式（A/B，B≠0）：字母取值要让分母不为零。基本性质与分数如出一辙：分子分母同乘除一个非零整式，分式值不变——分数是分式的特例（跨学段衔接：分数→分式）。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断分式及分式有意义的条件",
+        "能类比分数说出分式基本性质"
+      ],
+      "assessmentPrompt": "问{{name}}：「x 取几时 1/(x-3) 无意义？x=几时它的值为 0？分式和分数有什么不一样？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_13",
+        "ct_g8a_18"
+      ]
+    },
+    {
+      "id": "ct_g8a_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分式的约分与通分",
+      "description": "约分：分子分母同除公因式，(x²-1)/(x+1) = x-1——公因式常藏在因式分解里。通分：找最简公分母，为加减做准备。分数的手艺原样搬进分式车间，工具升级为因式分解。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能先因式分解再约分至最简分式",
+        "能确定最简公分母并通分"
+      ],
+      "assessmentPrompt": "让{{name}}约分 (x²-4)/(x²+4x+4)，问「第一步做什么？最简分式的标准是什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_15",
+        "ct_g8a_19"
+      ]
+    },
+    {
+      "id": "ct_g8a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分式的运算（乘除与加减）",
+      "description": "乘除：分子乘分子、分母乘分母，除法乘倒数，先因式分解再约分；加减：同分母直接加减，异分母先通分。与分数四则完全同构——「类比」是这一章的底层方法论。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确进行分式乘除与加减混合运算",
+        "结果保持最简"
+      ],
+      "assessmentPrompt": "让{{name}}算 1/(x-1) + 2/(x+1)，问「先干什么？通分后分子怎么处理？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_21",
+        "ct_g8a_20"
+      ]
+    },
+    {
+      "id": "ct_g8a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整数指数幂与科学记数法拓展",
+      "description": "a⁻ⁿ=1/aⁿ：负指数把幂的运算推广到全体整数指数。0.000021 = 2.1×10⁻⁵——小数也有了科学记数法。正负指数一对翅膀，大小通吃。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能进行负整数指数幂运算",
+        "能用科学记数法表示小于 1 的数"
+      ],
+      "assessmentPrompt": "问{{name}}：「2⁻³ 是多少？0.00056 用科学记数法怎么写？10⁻⁵ 表示什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_09",
+        "ct_g8a_17"
+      ]
+    },
+    {
+      "id": "ct_g8a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分式方程（可化为一元一次方程）",
+      "description": "分母含未知数的方程：去分母（乘最简公分母）化为整式方程求解。但必须检验——去分母可能产生「增根」（使分母为 0 的解）。解方程第一次需要「安检」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能解可化为一元一次方程的分式方程",
+        "能理解增根产生的原因并规范检验"
+      ],
+      "assessmentPrompt": "问{{name}}：「解 1/(x-1) = 2/(x²-1) 时为什么必须检验？增根是原方程的解吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_16",
+        "ct_g8a_21"
+      ]
+    },
+    {
+      "id": "ct_g8a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分式方程的应用",
+      "description": "「甲比乙每小时多走 10 千米，时间少 1 小时」——时间=路程÷速度，速度或时间做分母，分式方程自然登场。列分式方程解应用题：设、列、解、验（双检验：增根+实际）、答。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能从行程、工程、费用问题中列出分式方程",
+        "能完成增根与实际意义双重检验"
+      ],
+      "assessmentPrompt": "问{{name}}：「30 千米路程，提速后时间减半，速度是多少？方程怎么列？验什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 15,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_17",
+        "ct_g8a_23"
+      ]
+    },
+    {
+      "id": "ct_g8a_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学活动：乘法公式与因式分解的几何验证",
+      "description": "剪四个一样的长方形拼大正方形，面积算两次得 (a+b)²=a²+2ab+b²；把边长 a 的正方形挖去边长 b 的小正方形再拼接，得平方差。「算两次」是数形结合的祖传手艺。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用面积拼图验证两个乘法公式",
+        "能说明「算两次」的思想"
+      ],
+      "assessmentPrompt": "问{{name}}：「用两张纸片拼一拼，说明 a²-b²=(a+b)(a-b) 成立。『算两次』什么意思？」",
+      "standards": [
+        "csmath-2022:S4.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 14,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_26",
+        "ct_g8a_16"
       ]
     }
   ]

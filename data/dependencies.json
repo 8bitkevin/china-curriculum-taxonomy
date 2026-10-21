@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.12.0",
+  "version": "0.13.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 592,
+  "edgeCount": 635,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -3555,6 +3555,264 @@
       "prerequisiteId": "ct_g7b_25",
       "strength": "hard",
       "reason": "综合统计活动运用直方图等全部描述工具"
+    },
+    {
+      "topicId": "ct_g8a_01",
+      "prerequisiteId": "ct_g4b_22",
+      "strength": "hard",
+      "reason": "小学三边关系（围不成的操作经验）升级为用线段公理推理（跨学段衔接：实验几何→论证几何）"
+    },
+    {
+      "topicId": "ct_g8a_01",
+      "prerequisiteId": "ct_g7a_21",
+      "strength": "soft",
+      "reason": "三边关系的证明用到两点之间线段最短"
+    },
+    {
+      "topicId": "ct_g8a_02",
+      "prerequisiteId": "ct_g4b_19",
+      "strength": "hard",
+      "reason": "小学三角形底与高的认识扩展为三线（高、中线、角平分线）系统研究"
+    },
+    {
+      "topicId": "ct_g8a_02",
+      "prerequisiteId": "ct_g7a_23",
+      "strength": "hard",
+      "reason": "角的平分线（七上）是三角形角平分线的概念前提"
+    },
+    {
+      "topicId": "ct_g8a_03",
+      "prerequisiteId": "ct_g4b_21",
+      "strength": "hard",
+      "reason": "小学内角和 180° 由度量拼角获得，初中用平行线证明（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8a_03",
+      "prerequisiteId": "ct_g7b_05",
+      "strength": "hard",
+      "reason": "内角和定理的证明核心是过顶点作平行线后用平行线性质"
+    },
+    {
+      "topicId": "ct_g8a_04",
+      "prerequisiteId": "ct_g8a_03",
+      "strength": "hard",
+      "reason": "多边形内角和由分割为三角形推导，以三角形内角和为基石"
+    },
+    {
+      "topicId": "ct_g8a_04",
+      "prerequisiteId": "ct_g4b_23",
+      "strength": "soft",
+      "reason": "小学已通过分割四边形探索过内角和（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8a_05",
+      "prerequisiteId": "ct_g8a_02",
+      "strength": "hard",
+      "reason": "全等三角形的高中线角平分线等元素对应，要素认识在先"
+    },
+    {
+      "topicId": "ct_g8a_06",
+      "prerequisiteId": "ct_g8a_05",
+      "strength": "hard",
+      "reason": "判定定理是性质（定义）基础上的最少条件研究"
+    },
+    {
+      "topicId": "ct_g8a_06",
+      "prerequisiteId": "ct_g8a_01",
+      "strength": "soft",
+      "reason": "SSS 判定与三角形稳定性（三边确定形状）呼应"
+    },
+    {
+      "topicId": "ct_g8a_07",
+      "prerequisiteId": "ct_g8a_06",
+      "strength": "hard",
+      "reason": "在 SSS/SAS 之后学习，判定条件逐步减弱角的作用"
+    },
+    {
+      "topicId": "ct_g8a_08",
+      "prerequisiteId": "ct_g8a_07",
+      "strength": "hard",
+      "reason": "角平分线性质用全等（AAS/ASA）证明"
+    },
+    {
+      "topicId": "ct_g8a_08",
+      "prerequisiteId": "ct_g8a_02",
+      "strength": "soft",
+      "reason": "性质中的『点到边的距离』即三角形高线的垂线段"
+    },
+    {
+      "topicId": "ct_g8a_09",
+      "prerequisiteId": "ct_g8a_08",
+      "strength": "hard",
+      "reason": "综合证明以全部判定与性质为工具箱"
+    },
+    {
+      "topicId": "ct_g8a_09",
+      "prerequisiteId": "ct_g7b_06",
+      "strength": "hard",
+      "reason": "证明的书写规范（因为…根据…所以…）延续命题定理证明训练"
+    },
+    {
+      "topicId": "ct_g8a_10",
+      "prerequisiteId": "ct_g4b_27",
+      "strength": "hard",
+      "reason": "小学轴对称的直观认识升级为垂直平分线性质与判定（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8a_10",
+      "prerequisiteId": "ct_g8a_06",
+      "strength": "hard",
+      "reason": "垂直平分线性质用 SSS 证明"
+    },
+    {
+      "topicId": "ct_g8a_11",
+      "prerequisiteId": "ct_g8a_10",
+      "strength": "hard",
+      "reason": "作轴对称图形依据垂直平分线（对称轴垂直平分对应点连线）"
+    },
+    {
+      "topicId": "ct_g8a_11",
+      "prerequisiteId": "ct_g7b_14",
+      "strength": "hard",
+      "reason": "用坐标表示对称沿用坐标表示平移的研究方式"
+    },
+    {
+      "topicId": "ct_g8a_12",
+      "prerequisiteId": "ct_g8a_10",
+      "strength": "hard",
+      "reason": "等腰三角形是轴对称图形，三线合一由折叠（轴对称）发现并由全等证明"
+    },
+    {
+      "topicId": "ct_g8a_13",
+      "prerequisiteId": "ct_g8a_12",
+      "strength": "hard",
+      "reason": "判定与性质成对学习，30° 结论由等边三角形（特殊等腰）性质推出"
+    },
+    {
+      "topicId": "ct_g8a_14",
+      "prerequisiteId": "ct_g7a_08",
+      "strength": "hard",
+      "reason": "幂的运算法则以乘方的意义为依据（aᵐ 是 m 个 a 相乘）"
+    },
+    {
+      "topicId": "ct_g8a_15",
+      "prerequisiteId": "ct_g8a_14",
+      "strength": "hard",
+      "reason": "整式乘法的每一步用到幂的运算"
+    },
+    {
+      "topicId": "ct_g8a_15",
+      "prerequisiteId": "ct_g7a_12",
+      "strength": "hard",
+      "reason": "多项式乘多项式用分配律逐项展开，是整式加减的升级操作"
+    },
+    {
+      "topicId": "ct_g8a_16",
+      "prerequisiteId": "ct_g8a_15",
+      "strength": "hard",
+      "reason": "乘法公式是特殊多项式乘法的规律化"
+    },
+    {
+      "topicId": "ct_g8a_17",
+      "prerequisiteId": "ct_g8a_15",
+      "strength": "hard",
+      "reason": "除法是乘法的逆运算，法则与乘法对照建立"
+    },
+    {
+      "topicId": "ct_g8a_18",
+      "prerequisiteId": "ct_g8a_16",
+      "strength": "hard",
+      "reason": "公式法因式分解是乘法公式的逆用"
+    },
+    {
+      "topicId": "ct_g8a_18",
+      "prerequisiteId": "ct_g5b_14",
+      "strength": "soft",
+      "reason": "提公因式与小学最大公因数约分思想同源（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8a_19",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "hard",
+      "reason": "分式基本性质与分数基本性质完全类比（跨学段衔接：分数→分式主线）"
+    },
+    {
+      "topicId": "ct_g8a_19",
+      "prerequisiteId": "ct_g8a_18",
+      "strength": "hard",
+      "reason": "分式的变形依赖因式分解（约分找公因式）"
+    },
+    {
+      "topicId": "ct_g8a_20",
+      "prerequisiteId": "ct_g8a_19",
+      "strength": "hard",
+      "reason": "约分通分是分式基本性质的操作化"
+    },
+    {
+      "topicId": "ct_g8a_20",
+      "prerequisiteId": "ct_g5b_15",
+      "strength": "soft",
+      "reason": "通分与小学分数通分同法，公分母概念一致"
+    },
+    {
+      "topicId": "ct_g8a_21",
+      "prerequisiteId": "ct_g8a_20",
+      "strength": "hard",
+      "reason": "分式四则以约分通分为核心操作"
+    },
+    {
+      "topicId": "ct_g8a_21",
+      "prerequisiteId": "ct_g5b_21",
+      "strength": "soft",
+      "reason": "异分母分式加减与异分母分数加减完全同构"
+    },
+    {
+      "topicId": "ct_g8a_22",
+      "prerequisiteId": "ct_g8a_17",
+      "strength": "hard",
+      "reason": "负指数幂由同底数幂除法（指数相减）自然引入"
+    },
+    {
+      "topicId": "ct_g8a_22",
+      "prerequisiteId": "ct_g7a_09",
+      "strength": "soft",
+      "reason": "科学记数法从大数拓展到小数，记法规则一致"
+    },
+    {
+      "topicId": "ct_g8a_23",
+      "prerequisiteId": "ct_g8a_21",
+      "strength": "hard",
+      "reason": "去分母后需通分与整式运算技能支撑"
+    },
+    {
+      "topicId": "ct_g8a_23",
+      "prerequisiteId": "ct_g7a_16",
+      "strength": "hard",
+      "reason": "化简后的一元一次方程用七上的五步解法"
+    },
+    {
+      "topicId": "ct_g8a_24",
+      "prerequisiteId": "ct_g8a_23",
+      "strength": "hard",
+      "reason": "应用题以分式方程解法（含检验）为基础"
+    },
+    {
+      "topicId": "ct_g8a_24",
+      "prerequisiteId": "ct_g7a_17",
+      "strength": "soft",
+      "reason": "列方程解应用题的框架从一元一次方程迁移"
+    },
+    {
+      "topicId": "ct_g8a_25",
+      "prerequisiteId": "ct_g8a_16",
+      "strength": "hard",
+      "reason": "几何验证的对象就是两个乘法公式"
+    },
+    {
+      "topicId": "ct_g8a_25",
+      "prerequisiteId": "ct_g6a_26",
+      "strength": "soft",
+      "reason": "数形结合的思想在六年级数与形活动中已启蒙（跨学段衔接）"
     }
   ]
 }

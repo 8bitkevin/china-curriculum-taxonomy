@@ -1,11 +1,11 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 361,
-    "dependencies": 592,
-    "standards": 180,
+    "topics": 386,
+    "dependencies": 635,
+    "standards": 181,
     "deprecated": 0,
     "byGrade": {
       "1年级上": 24,
@@ -21,7 +21,8 @@
       "6年级上": 27,
       "6年级下": 27,
       "7年级上": 25,
-      "7年级下": 26
+      "7年级下": 26,
+      "8年级上": 25
     }
   },
   "coverage": {
@@ -36,7 +37,8 @@
       4,
       5,
       6,
-      7
+      7,
+      8
     ],
     "textbookSeries": [
       "人教版（义务教育教科书·数学，2022 课标）"
@@ -45,16 +47,16 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 390831,
-      "sha256": "326d28c128380f765eaf2689c2cb27f5fbcfb7c929c0eefe406baf52ce99b944"
+      "bytes": 418010,
+      "sha256": "530514cb0d43a28bd260558b0a7a6c1ced5bcbee62e97f523e2fb5383196533e"
     },
     "dependencies.json": {
-      "bytes": 113853,
-      "sha256": "77a7650ad20c357738c3e5330f52ea5c2ec10086138334fb029d4226dea34ad7"
+      "bytes": 122072,
+      "sha256": "f537e357891c8190b959e2acf4edc54ae7c6681cec804e20e5c401907183cb1f"
     },
     "curriculum-standards.json": {
-      "bytes": 42679,
-      "sha256": "a55005b983b80acca3dafa5caa2b735ddc2a012a6df6ada2d32da80e8bcc6ad3"
+      "bytes": 42914,
+      "sha256": "dca7eb86e32a14f94f3037a2d5ed60cda7ebcdc141b400d0fa2ec2428816b703"
     },
     "deprecated.json": {
       "bytes": 348,
