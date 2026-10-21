@@ -15313,7 +15313,8 @@
       },
       "prerequisites": [
         "ct_g10b_09",
-        "ct_g7b_02"
+        "ct_g7b_02",
+        "ct_g8a_03"
       ]
     },
     {
@@ -15821,6 +15822,7 @@
         "book": "选择性必修第一册"
       },
       "prerequisites": [
+        "ct_g10b_04",
         "ct_g11a_04"
       ]
     },

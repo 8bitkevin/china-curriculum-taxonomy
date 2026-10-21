@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "version": "1.0.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 940,
+  "edgeCount": 942,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5643,6 +5643,18 @@
       "prerequisiteId": "ct_g11a_20",
       "strength": "soft",
       "reason": "方法论总结呼应解析几何思想等各册的思想主题"
+    },
+    {
+      "topicId": "ct_g10b_10",
+      "prerequisiteId": "ct_g8a_03",
+      "strength": "soft",
+      "reason": "线面角、二面角的平面角最终都落实到平面三角形中的角来计算，三角形内角与外角关系是空间角计算的底层基础（跨学段衔接：论证几何→立体几何）"
+    },
+    {
+      "topicId": "ct_g11a_05",
+      "prerequisiteId": "ct_g10b_04",
+      "strength": "soft",
+      "reason": "定义法求空间角（线面角、二面角）时最终在三角形中用正余弦定理计算，向量法之外的重要备选路径"
     }
   ]
 }

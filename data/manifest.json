@@ -4,7 +4,7 @@
   "generatedAt": "2026-10-21",
   "counts": {
     "topics": 563,
-    "dependencies": 940,
+    "dependencies": 942,
     "standards": 181,
     "deprecated": 0,
     "byGrade": {
@@ -53,18 +53,20 @@
       12
     ],
     "textbookSeries": [
-      "人教版（义务教育教科书·数学，2022 课标）"
+      "人教A版·2019 年版",
+      "人教版·2012 年版",
+      "人教版·2022 年版"
     ],
-    "note": "K12 定位：当前发布为义务教育数学第一学段（1-2 年级）；3-6 年级、初中、高中按 DEV-PLAN 里程碑推进。"
+    "note": "覆盖数学 K12 全学段（小学 1-6 / 初中 7-9 / 高中 10-12，人教系教材 23 册）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 615011,
-      "sha256": "ba010b71d01069874760a8d177da2907ac937a6f014d2338cf53c6486c681259"
+      "bytes": 615054,
+      "sha256": "b259bfbed3f22f598b5cc52428ed979410f33f1566fe6d6559ae21ee3329cb27"
     },
     "dependencies.json": {
-      "bytes": 180187,
-      "sha256": "d7ceb5327308065881d007a8fe94f51cabbddfcdfc59994fdef7cc240543a1f6"
+      "bytes": 180776,
+      "sha256": "0250f4a482c4aa18cf9affebd64bfc8cd11731a9d7eb9eaa216ce2be847175de"
     },
     "curriculum-standards.json": {
       "bytes": 42914,

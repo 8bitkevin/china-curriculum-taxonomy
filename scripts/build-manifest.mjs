@@ -65,8 +65,8 @@ const manifest = {
     scope: 'K12（小学 1-6 / 初中 7-9 / 高中 10-12）',
     subjects: ['数学'],
     grades: [...new Set(topicsDoc.topics.map(t => t.grade))].sort((a, b) => a - b),
-    textbookSeries: ['人教版（义务教育教科书·数学，2022 课标）'],
-    note: 'K12 定位：当前发布为义务教育数学第一学段（1-2 年级）；3-6 年级、初中、高中按 DEV-PLAN 里程碑推进。',
+    textbookSeries: [...new Set(topicsDoc.topics.map((t) => `${t.textbook.publisher}·${t.textbook.editionYear} 年版`))].sort(),
+    note: '覆盖数学 K12 全学段（小学 1-6 / 初中 7-9 / 高中 10-12，人教系教材 23 册）；进度详见 CHANGELOG。',
   },
   files,
 };
