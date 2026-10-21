@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.19.0",
+  "version": "1.20.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 974,
+  "topicCount": 986,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -30090,6 +30090,389 @@
       "prerequisites": [
         "ct_yw_g10a_03",
         "ct_yw_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "《论语》侍坐章：孔门言志",
+      "description": "读《子路、曾皙、冉有、公西华侍坐》：弟子言志的性格显影（子路率尔、冉有谦退、公西华委婉、曾皙鼓瑟），孔子「吾与点也」的理想图景。语录体文言的巅峰对话——礼乐之治与师徒春风尽在闲谈中。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能翻译并背诵关键段",
+        "能从言辞神态分析四子性格与孔子态度"
+      ],
+      "assessmentPrompt": "问{{name}}：子路「率尔」错了吗，孔子为什么哂之？曾皙描的「浴乎沂风乎舞雩」只是一次郊游吗？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_02",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "孟庄对读：齐桓晋文之事与庖丁解牛",
+      "description": "读《齐桓晋文之事》（孟子抓「以羊易牛」的不忍之心层层推理，把霸道引向王道）与《庖丁解牛》（庄子借解牛说「依乎天理」「游刃有余」的养生之道）。儒道两家的说理绝活同册对读——一个把话说满，一个把话藏进故事。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能梳理孟子的推理链（保民而王—推恩—制民之产）",
+        "能解释庖丁三重「道」的层次与寓言义"
+      ],
+      "assessmentPrompt": "问{{name}}：孟子为什么不直接批评齐宣王？「不见全牛」到「以神遇」是技艺的什么跃迁？两家治国思路的根本分歧是什么？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_03",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "辞令与宴席：烛之武退秦师与鸿门宴",
+      "description": "背《烛之武退秦师》：一席话瓦解秦晋联盟（示弱—析弊—诱利—挑旧怨）；读《鸿门宴》：楚汉席间的刀光与性格史（项羽的沽名、刘邦的能屈、范增的举玦、张良的从容）。叙事文言的「以言成事」与「以事写人」双典范。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵默写烛之武说辞段",
+        "能分析鸿门宴座次、举玦、项庄舞剑等细节的叙事功能"
+      ],
+      "assessmentPrompt": "问{{name}}：烛之武四层话术的顺序能调换吗？鸿门宴上项羽有哪些次机会杀刘邦、为什么都放过了？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第二单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_04",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "劝谏的文体：谏逐客书、十思疏与答司马谏议书",
+      "description": "读李斯《谏逐客书》（利害立论、骈散相摧）、魏征《谏太宗十思疏》（居安思危、比喻起兴）、王安石《答司马谏议书》（逐条驳难、寸步不让）。三种劝谏三副笔墨——说服的艺术在古代公文里登峰造极。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵《谏太宗十思疏》",
+        "能比较三篇劝谏的策略差异并各拟一句评语"
+      ],
+      "assessmentPrompt": "问{{name}}：李斯不谈忠义只谈利害，为什么反而打动了秦王？王安石「度义而后动是而不见可悔」透出什么执政性格？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第三/第五单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "赋与史论：阿房宫赋与六国论",
+      "description": "背《阿房宫赋》《六国论》：杜牧以铺陈写宫之奢、以「后人哀之而不鉴之」收束；苏洵以「六国破灭弊在赂秦」立论、层层分说。借古讽今的双璧——赋的才情与论的锋利，同为警世而文体迥异。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵默写两篇",
+        "能比较赋与史论在「讽谏」手法上的不同"
+      ],
+      "assessmentPrompt": "问{{name}}：《阿房宫赋》写尽奢华是不是跑题？《六国论》「为国者无使为积威之所劫」是写给宋朝谁看的？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g10a_06",
+        "ct_yw_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_06",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "悲剧的力量：窦娥冤、雷雨与哈姆莱特",
+      "description": "读《窦娥冤》（三桩誓愿的浪漫主义控诉）、《雷雨》（三十年恩怨在一天引爆的戏剧集中）、《哈姆莱特》（生存还是毁灭的延宕）。中西悲剧对读：悲从何来（社会黑暗/命运性格）、悲剧为何值得看（怜悯恐惧与净化、有价值的东西被毁灭的愤怒）。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分别指出三部悲剧的冲突核心",
+        "能比较窦娥与哈姆莱特反抗方式的不同"
+      ],
+      "assessmentPrompt": "问{{name}}：窦娥的誓愿为什么偏偏是血溅白练、六月飞雪、亢旱三年？哈姆莱特装疯和窦娥骂天，哪种反抗更有力？周朴园保留旧家具有几分真心？",
+      "standards": [
+        "hschinese-2017:H2.WX.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第四单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "演说与悼词：马克思墓前的讲话",
+      "description": "读恩格斯《在马克思墓前的讲话》与《在〈人民报〉创刊纪念会上的演说》：悼词的逻辑骨架（逝者贡献—损失—继承）、演说的针对性（听众、场合、目的）。演讲词阅读从初中八下的「鼓动性」进入高中的「逻辑与修辞并重」。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能画出悼词的段间逻辑关系",
+        "能分析一处代词或让步状语在演说中的分寸感"
+      ],
+      "assessmentPrompt": "问{{name}}：恩格斯为什么用「停止思想」而不说「去世」？「这位巨人逝世以后所形成的空白」好在哪里？两个「不久」分别呼应什么？",
+      "standards": [
+        "hschinese-2017:H1.SY.01",
+        "hschinese-2017:H2.SY.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_08",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本书：红楼梦的人物与结构",
+      "description": "读《红楼梦》：抓双线（家族衰败线+宝黛情感线）与人物谱（金陵十二钗的命运册），精读关键回目（黛玉进贾府、宝玉挨打、抄检大观园）。长篇巨著的通读策略——回目导航、人物卡、判词谜底，高考整本书阅读的主阵地。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "通读原著或高质量缩编本并精读五回",
+        "能从判词推断一位人物的命运并验证"
+      ],
+      "assessmentPrompt": "问{{name}}：黛玉进贾府为什么「步步留心时时在意」？王熙凤未见其人先闻其声的出场妙在哪？「玉带林中挂金簪雪里埋」写的是谁？",
+      "standards": [
+        "hschinese-2017:H3.ZB.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第七单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g10a_08",
+        "ct_yw_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "信息性阅读：从青蒿素到「木叶」",
+      "description": "读《青蒿素：人类征服疾病的一小步》《中国建筑的特征》《说「木叶」》：科学报告、社科说明、文艺随笔三种信息文本——提取概念与逻辑链，也品味「木叶」里的诗意密码。信息性阅读的完全体：既读科学也读诗。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用思维导图梳理一篇信息文本的结构",
+        "能解释「木叶」与「树叶」的诗感差异及原因"
+      ],
+      "assessmentPrompt": "问{{name}}：屠呦呦为什么把青蒿素的发现只叫「一小步」？梁思成「文法与词汇」的比方妙在哪？为什么「木」比「树」更让人想起落叶？",
+      "standards": [
+        "hschinese-2017:H2.SW.01",
+        "hschinese-2017:H2.SY.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第三/第八单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：说明事理与议论的针对性",
+      "description": "必修下写作两课：如何清晰地说明事理（流程、因果、术语的通俗化）与议论文的针对性（为谁写、驳什么、解决什么现实问题）。高中议论写作从「有理有据」走向「有的放矢」——空对空的议论从此不合格。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能把一个流程性事理写清楚（如健康码的原理）",
+        "议论习作有明确的对话对象和现实靶子"
+      ],
+      "assessmentPrompt": "请{{name}}写「为什么电梯里的镜子有讲究」说明段（因果链清楚）；再以「劝一位沉迷盲盒的同学」为对象写 300 字针对性议论。",
+      "standards": [
+        "hschinese-2017:H2.BD.01",
+        "hschinese-2017:H1.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "各单元写作",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_11",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "与妻书：儿女情与家国义",
+      "description": "读林觉民《与妻书》：辛亥烈士的绝笔——「吾至爱汝，即此爱汝一念，使吾勇于就死」。私语与大义的双声写作：一封信里既有泪痕又有刀光。文言书信的深情范本，也是理解那代青年的钥匙。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能翻译关键句并概括三层情理（爱—痛—愿）",
+        "能说明「吾幸而得汝又何不幸生于今日之中国」的辩证"
+      ],
+      "assessmentPrompt": "问{{name}}：林觉民为什么反复写「吾至爱汝」却选择死？「泪珠和笔墨齐下」的一封信为什么被称为百年情书之最？",
+      "standards": [
+        "hschinese-2017:H2.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五单元",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g10b_12",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词诵读：登岳阳楼与游园",
+      "description": "诵读《登岳阳楼》（亲朋无一字，老病有孤舟——杜甫晚年的登临绝唱）、《桂枝香·金陵怀古》《念奴娇·过洞庭》《游园（皂罗袍）》（原来姹紫嫣红开遍——杜丽娘的春情觉醒）。诗、词、曲三体与登临、怀古、闺情诸题的收官诵读。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵四首",
+        "能比较杜甫登岳阳楼与登高的晚年心境"
+      ],
+      "assessmentPrompt": "问{{name}}：杜甫「凭轩涕泗流」哭的是身世还是天下？「良辰美景奈何天」的「奈何」怨什么？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "古诗词诵读",
+        "book": "必修下册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yw_g10a_04",
+        "ct_yw_g10a_12"
       ]
     }
   ]

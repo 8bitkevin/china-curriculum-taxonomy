@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.19.0",
+  "version": "1.20.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1442,
+  "edgeCount": 1457,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8655,6 +8655,96 @@
       "prerequisiteId": "ct_yw_g10a_03",
       "strength": "soft",
       "reason": "同单元劳动主题下的古今文体互证"
+    },
+    {
+      "topicId": "ct_yw_g10b_01",
+      "prerequisiteId": "ct_yw_g7a_06",
+      "strength": "hard",
+      "reason": "《论语》十二章（初中）的语录体经验升级到长对话的侍坐章"
+    },
+    {
+      "topicId": "ct_yw_g10b_02",
+      "prerequisiteId": "ct_yw_g9b_03",
+      "strength": "hard",
+      "reason": "孟子论辩链（鱼我所欲也）的延伸与庄子的加入：儒道说理对读"
+    },
+    {
+      "topicId": "ct_yw_g10b_03",
+      "prerequisiteId": "ct_yw_g9b_04",
+      "strength": "hard",
+      "reason": "唐雎邹忌的辞令艺术延伸到烛之武说秦与鸿门宴的场面叙事"
+    },
+    {
+      "topicId": "ct_yw_g10b_04",
+      "prerequisiteId": "ct_yw_g9b_05",
+      "strength": "hard",
+      "reason": "表奏赠序的文体经验（出师表/送东阳马生序）扩展到劝谏三书"
+    },
+    {
+      "topicId": "ct_yw_g10b_05",
+      "prerequisiteId": "ct_yw_g8a_05",
+      "strength": "soft",
+      "reason": "骈散结合的山水文言语感迁移到阿房宫赋的铺陈"
+    },
+    {
+      "topicId": "ct_yw_g10b_05",
+      "prerequisiteId": "ct_yw_g10a_06",
+      "strength": "soft",
+      "reason": "议论文言的论证分析（劝学师说）用于六国论的史论结构"
+    },
+    {
+      "topicId": "ct_yw_g10b_06",
+      "prerequisiteId": "ct_yw_g9b_10",
+      "strength": "hard",
+      "reason": "九下戏剧排演单元的剧本经验升级为中西悲剧的比较阅读"
+    },
+    {
+      "topicId": "ct_yw_g10b_07",
+      "prerequisiteId": "ct_yw_g8b_08",
+      "strength": "hard",
+      "reason": "八下演讲词的针对性分析延伸到悼词的逻辑结构与修辞分寸"
+    },
+    {
+      "topicId": "ct_yw_g10b_08",
+      "prerequisiteId": "ct_yw_g10a_08",
+      "strength": "hard",
+      "reason": "乡土中国建立的概念地图读法迁移到红楼梦的人物谱与双线结构"
+    },
+    {
+      "topicId": "ct_yw_g10b_08",
+      "prerequisiteId": "ct_yw_g9a_10",
+      "strength": "soft",
+      "reason": "九上刘姥姥进大观园的节选精读是红楼梦整本的第一块踏脚石"
+    },
+    {
+      "topicId": "ct_yw_g10b_09",
+      "prerequisiteId": "ct_yw_g8b_03",
+      "strength": "hard",
+      "reason": "事理说明文的逻辑链意识扩展到科学报告与文艺随笔的信息提取"
+    },
+    {
+      "topicId": "ct_yw_g10b_10",
+      "prerequisiteId": "ct_yw_g9a_12",
+      "strength": "hard",
+      "reason": "初中议论言之有据之后，高中要求议论的针对性与事理说明的清晰度"
+    },
+    {
+      "topicId": "ct_yw_g10b_11",
+      "prerequisiteId": "ct_yw_g4a_11",
+      "strength": "soft",
+      "reason": "书信体写作的长期训练（留言条→书信→与妻书）抵达情感深度的高峰"
+    },
+    {
+      "topicId": "ct_yw_g10b_12",
+      "prerequisiteId": "ct_yw_g10a_12",
+      "strength": "hard",
+      "reason": "高中古诗词诵读线跨册延续"
+    },
+    {
+      "topicId": "ct_yw_g10b_12",
+      "prerequisiteId": "ct_yw_g10a_04",
+      "strength": "soft",
+      "reason": "杜甫登高（必修上）与登岳阳楼（必修下）构成晚年杜甫专题"
     }
   ]
 }
