@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 83,
+  "topicCount": 115,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -2542,6 +2542,992 @@
       },
       "prerequisites": [
         "ct_g1b_19"
+      ]
+    },
+    {
+      "id": "ct_g3a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "秒的认识",
+      "description": "认识比分更小的时间单位「秒」：秒针走 1 小格是 1 秒，1 分 = 60 秒。孩子开始体会「很短的时间」有多长，为后面计算经过时间打地基。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能指出钟面上走的最快的针是秒针，说出 1 分 = 60 秒",
+        "能做 1 秒的动作估计（眨眼、拍手）并选择合适的时间单位"
+      ],
+      "assessmentPrompt": "问{{name}}：「课间休息大约是 10 秒、10 分还是 10 时？跑 50 米大约用 9 什么？」看单位选得对不对。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_20"
+      ]
+    },
+    {
+      "id": "ct_g3a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "经过时间的简单计算",
+      "description": "会算「从 8:20 到 9:05 经过了多少分」这类问题：看钟面数格，或用结束时刻减开始时刻。这是安排作息、看时刻表的基本功。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能结合钟面或线段图算出经过时间",
+        "能进行时、分、秒之间的简单换算（如 2 分 = 120 秒）"
+      ],
+      "assessmentPrompt": "问{{name}}：「动画片 8:30 开始，8:55 结束，放了多少分钟？你是怎么算的？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_21",
+        "ct_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_g3a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "两位数加、减两位数口算",
+      "description": "不用竖式，直接口算 35+24、62-38 这类题：先拆成整十数和个位分别算。口算熟了，后面估算和生活中算账才快。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说清 35+24 先算 30+20、再算 5+4 的过程",
+        "两位数加减两位数口算 10 题对 9 题以上"
+      ],
+      "assessmentPrompt": "问{{name}}：「45+28 口算怎么算？68-39 呢？」听{{name}}是否先算整十数部分、再处理个位。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_17",
+        "ct_g2a_08"
+      ]
+    },
+    {
+      "id": "ct_g3a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "几百几十加、减几百几十",
+      "description": "笔算 380+540、710-380 这样的数：把百以内竖式的进位退位经验搬到千以内。它是万以内加减法大军的先头部队。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确笔算几百几十加减几百几十（含进位、退位）",
+        "能用自己的话讲清「十位满十向百位进一」的道理"
+      ],
+      "assessmentPrompt": "让{{name}}笔算 460+380 和 620-270，边写边讲每一步为什么。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_05",
+        "ct_g2a_07",
+        "ct_g2b_15"
+      ]
+    },
+    {
+      "id": "ct_g3a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加减法估算与「够不够」问题",
+      "description": "把数看成整十、整百来估：293+418 大约是 700。解决「带 600 元够不够」这类问题时，估算比精算更快。这是第一次把「大约」变成正式本领。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能把三位数看成接近的整百整十数再估算",
+        "能判断实际问题该精算还是估算，并说清理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「门票 293 元，带 600 元买两张够吗？不精算，怎么估？」看{{name}}是否把 293 看成 300 来估。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_14",
+        "ct_g3a_04"
+      ]
+    },
+    {
+      "id": "ct_g3a_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "毫米的认识",
+      "description": "认识比厘米更小的长度单位毫米（mm）：1 厘米 = 10 毫米。量硬币厚度、银行卡这类小东西就靠它——测量从此走向精细。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用直尺量出几毫米的物体厚度并读准刻度",
+        "知道 1 厘米 = 10 毫米，能举出大约 1 毫米厚的物品（如银行卡）"
+      ],
+      "assessmentPrompt": "让{{name}}用直尺量数学课本的厚度，问「不到 1 厘米怎么表示？」看{{name}}是否会用毫米。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_02"
+      ]
+    },
+    {
+      "id": "ct_g3a_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "分米的认识",
+      "description": "认识介于厘米和米之间的单位分米（dm）：1 米 = 10 分米，1 分米 = 10 厘米。长度单位家族（米-分米-厘米-毫米）就此凑齐，进率都是 10。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用手比划出 1 分米大约多长（一拃）",
+        "能完成米、分米、厘米、毫米之间的换算（如 3 分米 = 30 厘米）"
+      ],
+      "assessmentPrompt": "问{{name}}：「1 米 = 多少分米？1 分米 = 多少厘米？画一条 2 分米的线段给妈妈看。」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_06"
+      ]
+    },
+    {
+      "id": "ct_g3a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "千米的认识",
+      "description": "认识计量较长距离的单位千米（km）：1 千米 = 1000 米，操场跑道两圈半就是 1 千米。从此「多远」可以说得准确。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "知道 1 千米 = 1000 米，能结合操场跑道体会 1 千米有多长",
+        "能给出行程选择合适单位（如从家到学校 2 千米）"
+      ],
+      "assessmentPrompt": "问{{name}}：「学校到家的路 1500（填单位），为什么不用厘米？走 1 千米大约要几分钟？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_02",
+        "ct_g2a_03"
+      ]
+    },
+    {
+      "id": "ct_g3a_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "吨的认识",
+      "description": "认识计量大宗物品重量的单位吨（t）：1 吨 = 1000 千克，一头大象约重 4 吨。克、千克之后，重量单位也凑齐了轻重两端。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "知道 1 吨 = 1000 千克，能举出用吨作单位的例子（卡车载重）",
+        "能完成吨与千克的简单换算（如 3 吨 = 3000 千克）"
+      ],
+      "assessmentPrompt": "问{{name}}：「一袋大米 25 千克，多少袋正好 1 吨？卡车载重 4 吨是多少千克？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_16"
+      ]
+    },
+    {
+      "id": "ct_g3a_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "量的选择与列表整理",
+      "description": "综合运用长度、质量单位：给具体情境选合适单位，用列表法把信息和问题理清楚。列表是三年级开始学的重要解题策略。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能根据情境选对单位并说明不合理单位的错处",
+        "能用列表呈现「派车/装货」类问题的多种方案并找到可行的"
+      ],
+      "assessmentPrompt": "给{{name}}一道题：「载重 2 吨的车运 5000 千克货物，怎么安排？」看{{name}}会不会列表比较方案。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_08",
+        "ct_g3a_09"
+      ]
+    },
+    {
+      "id": "ct_g3a_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三位数加三位数（连续进位）与验算",
+      "description": "笔算 458+767 这样多次进位的加法，并学会用交换加数再加一遍来验算。万以内加法在这里到达最难处，靠的是「满十进一」不遗漏。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "连续进位加法 10 题对 9 题以上，进位点规范",
+        "会自觉验算并能说出验算的依据"
+      ],
+      "assessmentPrompt": "让{{name}}算 458+767，问「怎么知道算对了？」看{{name}}是否会用交换加数或减法验算。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_05",
+        "ct_g3a_04"
+      ]
+    },
+    {
+      "id": "ct_g3a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三位数减三位数（连续退位、中间有 0）与验算",
+      "description": "笔算 503-348 这种要连续退位、被减数中间有 0 的减法：个位不够减要向十位借，十位是 0 还得先向百位借。这是小学整数笔算的最后难关。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "连续退位和中间有 0 的减法 10 题对 9 题以上",
+        "能用差加减数（或被减数减差）验算"
+      ],
+      "assessmentPrompt": "让{{name}}算 503-348，追问「十位是 0，借位时发生了什么？」听能否讲清「0 退 1 变 10 再借出 1 剩 9」。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_07",
+        "ct_g2b_14",
+        "ct_g3a_11"
+      ]
+    },
+    {
+      "id": "ct_g3a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解决问题：精算与估算的选择",
+      "description": "面对实际问题先判断「要准确答案还是大约就行」，再选精算或估算，并检查结果合不合理。会选方法比会算更进阶。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说清某问题为什么用估算（如只问够不够）",
+        "估算方向会「往大估」检验够用、往小估检验不够"
+      ],
+      "assessmentPrompt": "问{{name}}：「买电饭锅 368 元和电风扇 245 元，带 600 元够吗？为什么不用算出准确数？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_05",
+        "ct_g3a_11",
+        "ct_g3a_12"
+      ]
+    },
+    {
+      "id": "ct_g3a_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "倍的认识",
+      "description": "「4 的 3 倍」就是 3 个 4。倍是比较两个数量关系的新语言：不再问「多多少」，而是问「是谁的几倍」。它是后续份总问题、比例的种子。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用圈一圈、摆一摆表示「A 是 B 的几倍」",
+        "能说出倍数关系中谁是 1 份（标准量）"
+      ],
+      "assessmentPrompt": "摆 3 个红圆片、6 个蓝圆片，问{{name}}：「蓝圆片的个数是红圆片的几倍？把谁看作 1 份？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_08"
+      ]
+    },
+    {
+      "id": "ct_g3a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数是另一个数的几倍",
+      "description": "「18 是 6 的几倍」用除法算：18 ÷ 6 = 3。求倍数就是求「有几个这么多」，除法从「平均分」又多了一个新身份。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确列除法算式求倍数并带单位作答",
+        "能先找标准量再列式，而不是拿到数就乱除"
+      ],
+      "assessmentPrompt": "问{{name}}：「哥哥收集了 28 张卡片，弟弟 7 张，哥哥的是弟弟的几倍？为什么用除法？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_03",
+        "ct_g3a_14"
+      ]
+    },
+    {
+      "id": "ct_g3a_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "求一个数的几倍是多少",
+      "description": "「6 的 5 倍是多少」用乘法算：6 × 5 = 30。已知 1 份求几份，乘法接手——倍的三种问题（认倍、求倍数、求几倍）就此闭环。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能区分「求几倍」用除法、「求几倍是多少」用乘法",
+        "能借助线段图分析倍数问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「足球 8 个，篮球是足球的 3 倍，篮球多少个？画线段图再列式。」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_12",
+        "ct_g3a_14",
+        "ct_g3a_15"
+      ]
+    },
+    {
+      "id": "ct_g3a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整十、整百数乘一位数口算",
+      "description": "口算 20×3、300×4：先算 2×3 再添 0。把表内乘法搬到更大的数上，是多位数乘法的口算地基。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "整十整百数乘一位数口算 10 题对 9 题以上",
+        "能讲清 20×3 就是 2 个十 ×3 = 6 个十"
+      ],
+      "assessmentPrompt": "问{{name}}：「20×3 怎么想？400×2 呢？」听{{name}}是否利用乘法口诀再添 0。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_12",
+        "ct_g2b_15"
+      ]
+    },
+    {
+      "id": "ct_g3a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "多位数乘一位数笔算（不进位）",
+      "description": "用竖式算 312×3：从个位起逐位乘，数位对齐。先学不进位，把竖式的「骨架」搭稳。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能规范书写乘法竖式并正确计算不进位乘法",
+        "能说出从个位乘起的道理"
+      ],
+      "assessmentPrompt": "让{{name}}用竖式算 312×3，边写边讲每一步乘的是哪一位。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_04",
+        "ct_g2a_19",
+        "ct_g3a_17"
+      ]
+    },
+    {
+      "id": "ct_g3a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "多位数乘一位数笔算（进位与连续进位）",
+      "description": "竖式算 249×4：某一位满几十就向前一位进几，连续进位时进位数不能忘。它是整数乘法的主要形态，三年级计算的重头戏。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "进位与连续进位乘法 10 题对 9 题以上，进位数字标注清楚",
+        "能用再乘一遍或估算检查结果是否合理"
+      ],
+      "assessmentPrompt": "让{{name}}算 249×4，问「十位 4×4+3 的 3 是哪来的？」检验{{name}}是否理解进位。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_11",
+        "ct_g3a_18"
+      ]
+    },
+    {
+      "id": "ct_g3a_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因数中间或末尾有 0 的乘法",
+      "description": "算 208×3 和 420×5：0 也要乘但很省事，末尾有 0 可以先不写 0 最后添。它考验对位值和 0 的特性的真理解。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "知道 0 乘任何数都得 0，且进位要加上",
+        "末尾有 0 的乘法会用简便写法且积的 0 数目正确"
+      ],
+      "assessmentPrompt": "让{{name}}算 208×3 和 420×5，问「第一个题十位为什么得 2？第二个题末尾为什么添 1 个 0？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_19"
+      ]
+    },
+    {
+      "id": "ct_g3a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "乘法估算解决问题",
+      "description": "「92 人参观，门票 8 元，带 700 元够吗？」把 92 看成 90 来估。乘法估算的关键是往哪个方向估才保险，这是数感的高阶表现。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能把接近整十的数估大或估小来解决够不够问题",
+        "能解释为什么此题要往大估（如坐车座位要够）"
+      ],
+      "assessmentPrompt": "问{{name}}：「98 名同学租车，每车坐 40 人，3 辆够吗？怎么估才保险？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_17",
+        "ct_g3a_19"
+      ]
+    },
+    {
+      "id": "ct_g3a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "「归一」问题：先求每份是多少",
+      "description": "「3 个碗 18 元，8 个碗多少钱？」先算 1 个碗 6 元，再算 8 个 48 元。先除后乘，抓住「单一量」是解这类题的钥匙。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能找出并先求出每份数（单价、速度等）",
+        "能用分步或综合算式正确解答归一问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「4 支钢笔 36 元，买 6 支要多少钱？第一步先求什么？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_08",
+        "ct_g2b_09",
+        "ct_g3a_14"
+      ]
+    },
+    {
+      "id": "ct_g3a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "「归总」问题：先求总量是多少",
+      "description": "「每行 6 盆花摆 5 行，改成每行 5 盆能摆几行？」先求总数 30 盆不变，再重新分。与归一相对：一个抓每份，一个抓总量。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能识别总量不变的隐藏条件",
+        "能先乘后除正确解答归总问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「妈妈买 3 盒月饼每盒 8 块，改成每盒装 6 块能装几盒？什么始终没变？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_22"
+      ]
+    },
+    {
+      "id": "ct_g3a_24",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "四边形与长方形、正方形的特征",
+      "description": "四边形有 4 条直边、4 个角；长方形对边相等、4 个角都是直角，正方形 4 条边都相等。从「认得出」升级到「说得清特征」。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能从多种图形中挑出四边形并说明理由",
+        "能用折、量、比的方法验证长方形正方形的边和角的特征"
+      ],
+      "assessmentPrompt": "给{{name}}一组图形，让{{name}}挑出四边形，再问「长方形和正方形比，特殊在哪里？」",
+      "standards": [
+        "csmath-2022:S2.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_g3a_25",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "周长的认识",
+      "description": "绕图形一周的长度叫周长：可以用尺量、用线围再拉直。周长是一维的「一周长多少」，别跟 later 的面积（面有多大）混为一谈。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能指出并描出图形的周长，说出周长是「一周边线的总长」",
+        "会量不规则图形（如树叶）的周长（化曲为直）"
+      ],
+      "assessmentPrompt": "问{{name}}：「这片树叶的周长怎么量？什么是周长？」看{{name}}是否想到用线围一圈再量。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2a_02",
+        "ct_g3a_24"
+      ]
+    },
+    {
+      "id": "ct_g3a_26",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方形和正方形的周长",
+      "description": "长方形周长 =（长 + 宽）× 2，正方形周长 = 边长 × 4。公式是「把 4 条边加起来」的快捷方式，理解了就不怕忘。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确计算长方形正方形的周长",
+        "能解释（长+宽）×2 与四边连加结果相同的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：「黑板报长 3 米宽 1 米，四周边框要多少米花边？」看{{name}}会不会用（3+1）×2。",
+      "standards": [
+        "csmath-2022:S2.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_25"
+      ]
+    },
+    {
+      "id": "ct_g3a_27",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "周长问题的灵活应用",
+      "description": "用同样的小正方形拼大图形，怎样拼周长最短？不规则图形怎样转化成规则图形求周长？拼拼剪剪中练空间推理。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能通过画图枚举拼法并比较周长短长",
+        "能说清重合的边不算在周长里"
+      ],
+      "assessmentPrompt": "给{{name}} 16 个边长 1 厘米的正方形纸片：「拼成怎样的图形用花边最少？」看{{name}}是否往「边重合多」的方向想。",
+      "standards": [
+        "csmath-2022:S2.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_26"
+      ]
+    },
+    {
+      "id": "ct_g3a_28",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的初步认识：几分之一",
+      "description": "把一个月饼平均分成 2 份，每份是它的 1/2。分东西不再只有「分得多少个」，还有「分得几分之几」——数的家族第一次走出整数。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能判断涂色部分是否为图形的几分之一（强调平均分）",
+        "会读写几分之一并说出各部分名称（分母、分子）"
+      ],
+      "assessmentPrompt": "画一个圆平均分成 4 份涂 1 份，问{{name}}：「涂色部分是这个圆的几分之几？如果不是平均分还算吗？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_02",
+        "ct_g2b_12"
+      ]
+    },
+    {
+      "id": "ct_g3a_29",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "几分之几与同分母分数比大小",
+      "description": "把一个整体平均分成几份，取其中几份就是几分之几；分母相同比分子，分的份数相同取得越多越大。分数开始可以比较了。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用涂色表示几分之几并读写",
+        "能借助图形比较同分母分数及几分之一的大小"
+      ],
+      "assessmentPrompt": "问{{name}}：「3/8 和 5/8 谁大？1/4 和 1/6 呢？画图说明。」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_28"
+      ]
+    },
+    {
+      "id": "ct_g3a_30",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的简单计算（同分母加减）",
+      "description": "2/8 + 3/8 = 5/8：平均分的份数没变，只是取的份数相加减。同分母加减是分数运算的第一课，道理就藏在「份数」里。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能正确计算同分母分数加减（含 1 减几分之几）",
+        "能结合图形解释分母不变、分子相加减的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：「一块巧克力平均分成 6 份，上午吃 2 份下午吃 3 份，共吃了几分之几？还剩几分之几？」",
+      "standards": [
+        "csmath-2022:S2.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_29"
+      ]
+    },
+    {
+      "id": "ct_g3a_31",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的简单应用：多个物体的几分之几",
+      "description": "6 个苹果的 1/3 是 2 个——「整体 1」可以是一些物体，不只是一个月饼。把分数用到真实物件上，是分数从图形走向数量的关键一步。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能把一些物体看作整体，求其中的几分之一或几分之几是多少",
+        "能解决「总数的几分之几」实际问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「12 本课外书的 3/4 是几本？先干什么再干什么？」看{{name}}是否先平均分成 4 份。",
+      "standards": [
+        "csmath-2022:S2.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_28",
+        "ct_g3a_30"
+      ]
+    },
+    {
+      "id": "ct_g3a_32",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：集合与重叠问题",
+      "description": "参加语文小组的 8 人、数学小组的 9 人，其中 3 人两组都参加，一共几人？画两个交叉的圈（维恩图）就一目了然。重叠部分最容易被算两次。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用维恩图表示两组数据的关系",
+        "能用「8+9-3」或分段计数解决重叠问题并说清算理"
+      ],
+      "assessmentPrompt": "问{{name}}：「爱吃苹果的 6 人、爱吃香蕉的 5 人、两种都爱的 2 人，一共有几个小朋友？」让{{name}}画圈说明。",
+      "standards": [
+        "csmath-2022:S2.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 9,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_06",
+        "ct_g2b_17"
       ]
     }
   ]

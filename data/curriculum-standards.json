@@ -17,7 +17,7 @@
       "year": 2022,
       "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
       "textIncluded": false,
-      "topicCount": 124,
+      "topicCount": 125,
       "topics": [
         {
           "key": "csmath-2022:S1.NA.NO.01",
@@ -886,6 +886,13 @@
           "stage": 4,
           "domain": "综合与实践",
           "title": "综合与实践（课题学习与数学活动）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.11",
+          "code": "S2.NA.NO.11",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "分数的初步认识（几分之一与几分之几、同分母比大小、简单加减）"
         }
       ]
     },

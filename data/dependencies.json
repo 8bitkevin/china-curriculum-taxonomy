@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.2.0",
+  "version": "0.3.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 108,
+  "edgeCount": 166,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -651,6 +651,354 @@
       "prerequisiteId": "ct_g1b_19",
       "strength": "soft",
       "reason": "找规律中的观察与有序思考是推理的启蒙"
+    },
+    {
+      "topicId": "ct_g3a_01",
+      "prerequisiteId": "ct_g2a_20",
+      "strength": "hard",
+      "reason": "秒是与时、分同炉的概念，先有时分的钟面经验，秒针才有所依附"
+    },
+    {
+      "topicId": "ct_g3a_02",
+      "prerequisiteId": "ct_g3a_01",
+      "strength": "hard",
+      "reason": "经过时间的计算以认识秒、1分=60秒为前提"
+    },
+    {
+      "topicId": "ct_g3a_02",
+      "prerequisiteId": "ct_g2a_21",
+      "strength": "hard",
+      "reason": "二年级「时间的计算」建立了时与分的换算与经过时间经验，本主题扩展到秒"
+    },
+    {
+      "topicId": "ct_g3a_03",
+      "prerequisiteId": "ct_g1b_17",
+      "strength": "hard",
+      "reason": "两位数加减一位数的进退位口算是两位数加减两位数口算的直接基础"
+    },
+    {
+      "topicId": "ct_g3a_03",
+      "prerequisiteId": "ct_g2a_08",
+      "strength": "soft",
+      "reason": "百以内加减混合笔算中练出的两步计算顺序有助于口算分步组织"
+    },
+    {
+      "topicId": "ct_g3a_04",
+      "prerequisiteId": "ct_g2a_05",
+      "strength": "hard",
+      "reason": "几百几十加法竖式的进位规则直接迁移自百以内进位加法竖式"
+    },
+    {
+      "topicId": "ct_g3a_04",
+      "prerequisiteId": "ct_g2a_07",
+      "strength": "hard",
+      "reason": "退位规则迁移自百以内退位减法竖式"
+    },
+    {
+      "topicId": "ct_g3a_04",
+      "prerequisiteId": "ct_g2b_15",
+      "strength": "soft",
+      "reason": "整百整千数口算提供数位上的数感，利于几百几十笔算的估算与检验"
+    },
+    {
+      "topicId": "ct_g3a_05",
+      "prerequisiteId": "ct_g3a_04",
+      "strength": "hard",
+      "reason": "估算把数看成整十整百，需要先具备几百几十加减的精算经验作支撑"
+    },
+    {
+      "topicId": "ct_g3a_05",
+      "prerequisiteId": "ct_g2b_14",
+      "strength": "hard",
+      "reason": "万以内数的大小与组成（接近哪个整百数）是估计方向的依据"
+    },
+    {
+      "topicId": "ct_g3a_06",
+      "prerequisiteId": "ct_g2a_02",
+      "strength": "hard",
+      "reason": "毫米是比厘米更小的刻度，先会厘米测量才能读懂厘米间的毫米刻度"
+    },
+    {
+      "topicId": "ct_g3a_07",
+      "prerequisiteId": "ct_g3a_06",
+      "strength": "hard",
+      "reason": "分米与毫米同堂引入，先认识毫米细分、再认识分米居中，进率体系成对出现"
+    },
+    {
+      "topicId": "ct_g3a_08",
+      "prerequisiteId": "ct_g2a_03",
+      "strength": "hard",
+      "reason": "千米是米之上的大单位，米的表象（线段、估测）是理解 1000 米有多长的支点"
+    },
+    {
+      "topicId": "ct_g3a_08",
+      "prerequisiteId": "ct_g2a_02",
+      "strength": "soft",
+      "reason": "厘米测量经验帮助体会大小单位之间的层级关系"
+    },
+    {
+      "topicId": "ct_g3a_09",
+      "prerequisiteId": "ct_g2b_16",
+      "strength": "hard",
+      "reason": "吨与千克的关系同千米与米一样是 1:1000，克与千克的称量经验直接迁移"
+    },
+    {
+      "topicId": "ct_g3a_10",
+      "prerequisiteId": "ct_g3a_08",
+      "strength": "hard",
+      "reason": "综合选单位需要千米等大单位的量感已建立"
+    },
+    {
+      "topicId": "ct_g3a_10",
+      "prerequisiteId": "ct_g3a_09",
+      "strength": "hard",
+      "reason": "载重方案问题以吨的换算为基础"
+    },
+    {
+      "topicId": "ct_g3a_11",
+      "prerequisiteId": "ct_g3a_04",
+      "strength": "hard",
+      "reason": "几百几十笔算是三位数笔算的前一站，数位与进位经验直接迁移"
+    },
+    {
+      "topicId": "ct_g3a_11",
+      "prerequisiteId": "ct_g2a_05",
+      "strength": "hard",
+      "reason": "连续进位是百以内进位的叠加，个位满十进一的规则必须先熟练"
+    },
+    {
+      "topicId": "ct_g3a_12",
+      "prerequisiteId": "ct_g3a_11",
+      "strength": "hard",
+      "reason": "加减对偶学习，加法数位对齐与进位经验是减法连续退位的对照基础"
+    },
+    {
+      "topicId": "ct_g3a_12",
+      "prerequisiteId": "ct_g2a_07",
+      "strength": "hard",
+      "reason": "退位的「借一当十」规则来自百以内退位减法"
+    },
+    {
+      "topicId": "ct_g3a_12",
+      "prerequisiteId": "ct_g2b_14",
+      "strength": "soft",
+      "reason": "被减数中间有 0 的处理需要万以内数的位值理解到位"
+    },
+    {
+      "topicId": "ct_g3a_13",
+      "prerequisiteId": "ct_g3a_05",
+      "strength": "hard",
+      "reason": "精算与估算的选择以掌握加减估算的方法为前提"
+    },
+    {
+      "topicId": "ct_g3a_13",
+      "prerequisiteId": "ct_g3a_11",
+      "strength": "hard",
+      "reason": "选精算时需正确完成三位数进位加法"
+    },
+    {
+      "topicId": "ct_g3a_13",
+      "prerequisiteId": "ct_g3a_12",
+      "strength": "soft",
+      "reason": "用加法验算减法等策略综合运用两位主题的技能"
+    },
+    {
+      "topicId": "ct_g3a_14",
+      "prerequisiteId": "ct_g2b_08",
+      "strength": "hard",
+      "reason": "倍的本质是「份」：份总关系的每份数×份数结构是理解「几倍就是几个一份数」的原型"
+    },
+    {
+      "topicId": "ct_g3a_15",
+      "prerequisiteId": "ct_g3a_14",
+      "strength": "hard",
+      "reason": "求几倍必须先建立倍的概念、找准一份数"
+    },
+    {
+      "topicId": "ct_g3a_15",
+      "prerequisiteId": "ct_g2b_03",
+      "strength": "soft",
+      "reason": "除法的包含意义（18 里有几个 6）直接对应求倍数的算理"
+    },
+    {
+      "topicId": "ct_g3a_16",
+      "prerequisiteId": "ct_g3a_14",
+      "strength": "hard",
+      "reason": "已知一份数求几倍数建立在倍概念之上"
+    },
+    {
+      "topicId": "ct_g3a_16",
+      "prerequisiteId": "ct_g3a_15",
+      "strength": "hard",
+      "reason": "与求倍数对照学习，区分乘除两种倍数问题"
+    },
+    {
+      "topicId": "ct_g3a_16",
+      "prerequisiteId": "ct_g2a_12",
+      "strength": "soft",
+      "reason": "乘法是相同加数连加的含义支撑「几个几」的倍数算式"
+    },
+    {
+      "topicId": "ct_g3a_17",
+      "prerequisiteId": "ct_g2a_12",
+      "strength": "hard",
+      "reason": "整十整百乘一位数归结为表内乘法（2×3）加计数单位（个十、个百）"
+    },
+    {
+      "topicId": "ct_g3a_17",
+      "prerequisiteId": "ct_g2b_15",
+      "strength": "hard",
+      "reason": "整百整千数加减口算建立了「先算计数单位个数」的思路，直接迁移到乘法口算"
+    },
+    {
+      "topicId": "ct_g3a_18",
+      "prerequisiteId": "ct_g3a_17",
+      "strength": "hard",
+      "reason": "笔算每一步都是口算（整十数乘一位数或表内乘法），先口算后笔算"
+    },
+    {
+      "topicId": "ct_g3a_18",
+      "prerequisiteId": "ct_g2a_19",
+      "strength": "hard",
+      "reason": "竖式逐位乘依赖表内乘法全部熟练，9 的口诀是表内乘法的收口"
+    },
+    {
+      "topicId": "ct_g3a_18",
+      "prerequisiteId": "ct_g2a_04",
+      "strength": "soft",
+      "reason": "竖式对位书写的规范迁移自加减法竖式经验"
+    },
+    {
+      "topicId": "ct_g3a_19",
+      "prerequisiteId": "ct_g3a_18",
+      "strength": "hard",
+      "reason": "进位乘法在不进位竖式骨架上叠加进位规则"
+    },
+    {
+      "topicId": "ct_g3a_19",
+      "prerequisiteId": "ct_g3a_11",
+      "strength": "soft",
+      "reason": "乘法进位与加法进位同属满十进一，加法进位熟练有助乘法进位理解"
+    },
+    {
+      "topicId": "ct_g3a_20",
+      "prerequisiteId": "ct_g3a_19",
+      "strength": "hard",
+      "reason": "0 参与的乘法是进位乘法的特例（0 乘得 0 再加进位）"
+    },
+    {
+      "topicId": "ct_g3a_21",
+      "prerequisiteId": "ct_g3a_17",
+      "strength": "hard",
+      "reason": "乘法估算把因数看成整十数，依赖整十数乘一位数口算"
+    },
+    {
+      "topicId": "ct_g3a_21",
+      "prerequisiteId": "ct_g3a_19",
+      "strength": "soft",
+      "reason": "估计后需要用笔算经验检验估的方向与结果量级"
+    },
+    {
+      "topicId": "ct_g3a_22",
+      "prerequisiteId": "ct_g2b_08",
+      "strength": "hard",
+      "reason": "归一问题的核心是每份数×份数=总数的份总结构"
+    },
+    {
+      "topicId": "ct_g3a_22",
+      "prerequisiteId": "ct_g2b_09",
+      "strength": "hard",
+      "reason": "列综合算式需要混合运算顺序（先乘除后加减）的基础"
+    },
+    {
+      "topicId": "ct_g3a_22",
+      "prerequisiteId": "ct_g3a_14",
+      "strength": "soft",
+      "reason": "倍的表述（单价的几倍）常与归一问题交叉出现，倍概念有助于表达解法"
+    },
+    {
+      "topicId": "ct_g3a_23",
+      "prerequisiteId": "ct_g3a_22",
+      "strength": "hard",
+      "reason": "归总与归一结构对偶，先掌握「先求每份」再对照学「先求总量」"
+    },
+    {
+      "topicId": "ct_g3a_24",
+      "prerequisiteId": "ct_g1b_01",
+      "strength": "hard",
+      "reason": "从直观辨认长方形正方形升级到用边和角刻画特征，辨认经验是起点"
+    },
+    {
+      "topicId": "ct_g3a_25",
+      "prerequisiteId": "ct_g3a_24",
+      "strength": "hard",
+      "reason": "周长的讨论对象是长方形等平面图形，特征认识先行"
+    },
+    {
+      "topicId": "ct_g3a_25",
+      "prerequisiteId": "ct_g2a_02",
+      "strength": "soft",
+      "reason": "量长度的技能（含化曲为直）用于度量周长"
+    },
+    {
+      "topicId": "ct_g3a_26",
+      "prerequisiteId": "ct_g3a_25",
+      "strength": "hard",
+      "reason": "公式是周长概念的压缩表达，概念不清公式必用错"
+    },
+    {
+      "topicId": "ct_g3a_27",
+      "prerequisiteId": "ct_g3a_26",
+      "strength": "hard",
+      "reason": "拼剪问题要反复使用周长公式并比较不同拼法"
+    },
+    {
+      "topicId": "ct_g3a_28",
+      "prerequisiteId": "ct_g2b_02",
+      "strength": "hard",
+      "reason": "分数的核心前提是平均分，平均分的操作经验直接决定几分之一的意义建立"
+    },
+    {
+      "topicId": "ct_g3a_28",
+      "prerequisiteId": "ct_g2b_12",
+      "strength": "soft",
+      "reason": "有余数除法里「分不尽」的经验为接受非整数结果做心理准备"
+    },
+    {
+      "topicId": "ct_g3a_29",
+      "prerequisiteId": "ct_g3a_28",
+      "strength": "hard",
+      "reason": "几分之几由几个几分之一组成，比大小也依赖几分之一的直观"
+    },
+    {
+      "topicId": "ct_g3a_30",
+      "prerequisiteId": "ct_g3a_29",
+      "strength": "hard",
+      "reason": "同分母加减是份数相加减，以几分之几的概念为直接基础"
+    },
+    {
+      "topicId": "ct_g3a_31",
+      "prerequisiteId": "ct_g3a_30",
+      "strength": "hard",
+      "reason": "先会图形与算式层面的几分之几，再把整体 1 扩展为一些物体"
+    },
+    {
+      "topicId": "ct_g3a_31",
+      "prerequisiteId": "ct_g3a_28",
+      "strength": "soft",
+      "reason": "平均分的活动经验在「把 6 个苹果平均分」中再次被调用"
+    },
+    {
+      "topicId": "ct_g3a_32",
+      "prerequisiteId": "ct_g1b_06",
+      "strength": "hard",
+      "reason": "集合的维恩图表示本质上是按标准分类的图示化，分类经验是起点"
+    },
+    {
+      "topicId": "ct_g3a_32",
+      "prerequisiteId": "ct_g2b_17",
+      "strength": "soft",
+      "reason": "重叠问题的推理（都参加的算一次还是两次）借助简单推理的经验"
     }
   ]
 }
