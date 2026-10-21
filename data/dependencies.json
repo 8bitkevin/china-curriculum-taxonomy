@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.45.0",
+  "version": "1.46.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1834,
+  "edgeCount": 1863,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11007,6 +11007,180 @@
       "prerequisiteId": "ct_wl_g8b_07",
       "strength": "soft",
       "reason": "受力分析需要摩擦力的判断技能"
+    },
+    {
+      "topicId": "ct_wl_g9a_01",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "hard",
+      "reason": "功的计算需要力的概念（W=Fs 中 F 与 s 的方向一致）"
+    },
+    {
+      "topicId": "ct_wl_g9a_02",
+      "prerequisiteId": "ct_wl_g9a_01",
+      "strength": "hard",
+      "reason": "功率是功与时间的比值，建立在功概念之上"
+    },
+    {
+      "topicId": "ct_wl_g9a_03",
+      "prerequisiteId": "ct_wl_g9a_01",
+      "strength": "hard",
+      "reason": "动能势能通过做功相互转化：功是能量转化的量度"
+    },
+    {
+      "topicId": "ct_wl_g9a_04",
+      "prerequisiteId": "ct_wl_g8b_03",
+      "strength": "hard",
+      "reason": "杠杆平衡计算中的阻力常为重力 G=mg"
+    },
+    {
+      "topicId": "ct_wl_g9a_05",
+      "prerequisiteId": "ct_wl_g9a_04",
+      "strength": "hard",
+      "reason": "滑轮可视为变形杠杆（定滑轮等臂、动滑轮动力臂两倍）"
+    },
+    {
+      "topicId": "ct_wl_g9a_06",
+      "prerequisiteId": "ct_wl_g9a_05",
+      "strength": "hard",
+      "reason": "机械效率的计算以滑轮组总功有用功为素材"
+    },
+    {
+      "topicId": "ct_wl_g9a_06",
+      "prerequisiteId": "ct_wl_g9a_01",
+      "strength": "hard",
+      "reason": "有用功与总功的计算直接运用 W=Fs"
+    },
+    {
+      "topicId": "ct_wl_g9a_07",
+      "prerequisiteId": "ct_wl_g8a_17",
+      "strength": "soft",
+      "reason": "密度是物质特性、分子是物质结构：物质观的宏观到微观"
+    },
+    {
+      "topicId": "ct_wl_g9a_08",
+      "prerequisiteId": "ct_wl_g9a_07",
+      "strength": "hard",
+      "reason": "内能定义在分子动理论之上（分子动能+势能）"
+    },
+    {
+      "topicId": "ct_wl_g9a_09",
+      "prerequisiteId": "ct_wl_g9a_08",
+      "strength": "hard",
+      "reason": "比热容描述吸热能力，热量是热传递中内能的转移量"
+    },
+    {
+      "topicId": "ct_wl_g9a_10",
+      "prerequisiteId": "ct_wl_g9a_08",
+      "strength": "hard",
+      "reason": "热机是内能做功的应用，四冲程能量转化以内能概念为基础"
+    },
+    {
+      "topicId": "ct_wl_g9a_10",
+      "prerequisiteId": "ct_wl_g9a_03",
+      "strength": "soft",
+      "reason": "能量守恒的普遍性以机械能转化的具体经验为起点"
+    },
+    {
+      "topicId": "ct_wl_g9a_11",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "soft",
+      "reason": "电荷间的相互作用是「力的作用」在电现象中的体现"
+    },
+    {
+      "topicId": "ct_wl_g9a_12",
+      "prerequisiteId": "ct_wl_g9a_11",
+      "strength": "hard",
+      "reason": "电路连接方式以电流与电路元件概念为前提"
+    },
+    {
+      "topicId": "ct_wl_g9a_13",
+      "prerequisiteId": "ct_wl_g9a_12",
+      "strength": "hard",
+      "reason": "电表接入方式（串/并）取决于电路结构知识"
+    },
+    {
+      "topicId": "ct_wl_g9a_14",
+      "prerequisiteId": "ct_wl_g9a_11",
+      "strength": "hard",
+      "reason": "电阻描述导体对电流的阻碍，以电流概念为基础"
+    },
+    {
+      "topicId": "ct_wl_g9a_15",
+      "prerequisiteId": "ct_wl_g9a_14",
+      "strength": "hard",
+      "reason": "欧姆定律的探究需滑动变阻器控制变量"
+    },
+    {
+      "topicId": "ct_wl_g9a_15",
+      "prerequisiteId": "ct_wl_g9a_13",
+      "strength": "hard",
+      "reason": "I、U、R 三量的测量以两表使用为技能基础"
+    },
+    {
+      "topicId": "ct_wl_g9a_16",
+      "prerequisiteId": "ct_wl_g9a_15",
+      "strength": "hard",
+      "reason": "串并联规律与欧姆定律联立完成电学计算"
+    },
+    {
+      "topicId": "ct_wl_g9a_17",
+      "prerequisiteId": "ct_wl_g9a_16",
+      "strength": "hard",
+      "reason": "伏安法测电阻综合运用两表使用、滑变调节与电路规律"
+    },
+    {
+      "topicId": "ct_wl_g9a_18",
+      "prerequisiteId": "ct_wl_g9a_15",
+      "strength": "hard",
+      "reason": "电功 W=UIt 建立在电压电流概念之上"
+    },
+    {
+      "topicId": "ct_wl_g9a_19",
+      "prerequisiteId": "ct_wl_g9a_18",
+      "strength": "hard",
+      "reason": "电功率是电功与时间之比（P=W/t=UI）"
+    },
+    {
+      "topicId": "ct_wl_g9a_20",
+      "prerequisiteId": "ct_wl_g9a_19",
+      "strength": "hard",
+      "reason": "焦耳定律研究电流的热效应，与电功率形成能流两条线"
+    },
+    {
+      "topicId": "ct_wl_g9a_21",
+      "prerequisiteId": "ct_wl_g9a_12",
+      "strength": "hard",
+      "reason": "家庭电路的并联结构与火线零线概念以电路知识为基础"
+    },
+    {
+      "topicId": "ct_wl_g9a_22",
+      "prerequisiteId": "ct_wl_g8b_11",
+      "strength": "soft",
+      "reason": "磁场与大气压同为「看不见但可显示」的物质作用（类比迁移）"
+    },
+    {
+      "topicId": "ct_wl_g9a_23",
+      "prerequisiteId": "ct_wl_g9a_22",
+      "strength": "hard",
+      "reason": "电流磁效应发现于磁场框架内：电产生磁"
+    },
+    {
+      "topicId": "ct_wl_g9a_24",
+      "prerequisiteId": "ct_wl_g9a_23",
+      "strength": "hard",
+      "reason": "电动机与发电机是电生磁的逆向应用与延伸"
+    },
+    {
+      "topicId": "ct_wl_g9a_25",
+      "prerequisiteId": "ct_wl_g9a_24",
+      "strength": "soft",
+      "reason": "电磁波由变化的电流产生——电磁感应知识的延伸视野"
+    },
+    {
+      "topicId": "ct_wl_g9a_26",
+      "prerequisiteId": "ct_wl_g9a_10",
+      "strength": "hard",
+      "reason": "能源的转化方向性以能量守恒定律为基础"
     }
   ]
 }

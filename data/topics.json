@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.45.0",
+  "version": "1.46.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1300,
+  "topicCount": 1326,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -40269,6 +40269,796 @@
       "prerequisites": [
         "ct_wl_g8b_05",
         "ct_wl_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_01",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "功：W=Fs 与做功的判断",
+      "description": "做功两要素：有力、沿力方向通过距离——提着水桶水平走不做功（力与距离垂直）。W=Fs 的计算与单位（1 J = 1 N·m）。功是能量转化的量度：物理学最核心概念之一从这里出发。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断五个情境是否做功并说明理由",
+        "能完成 W=Fs 的计算"
+      ],
+      "assessmentPrompt": "问{{name}}：提着书包水平走 10 m 做功吗？为什么？用 50 N 的力把箱子推 2 m 做了多少功？",
+      "standards": [
+        "csphysics-2022:S4.EN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十一章 功和机械能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "功率：做功快慢 P=W/t",
+      "description": "功率表示做功快慢（P=W/t，单位瓦特）；区别「做功多少」与「做功快慢」——老爷爷慢慢搬和年轻人快搬做的功可以一样多，功率不同。从功到功率：物理量「率」家族（速度、功率、 later 效率）的第一位成员。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能完成 P=W/t 计算（含 kW 与 W 换算）",
+        "能比较两情境功率大小并解释"
+      ],
+      "assessmentPrompt": "问{{name}}：甲 10 s 做 100 J 的功，乙 20 s 做 200 J 的功，谁功率大？1.5 kW 的物理意义是什么？",
+      "standards": [
+        "csphysics-2022:S4.EN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十一章 功和机械能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "动能、势能与机械能转化",
+      "description": "动能与质量速度有关、重力势能与质量高度有关、弹性势能与形变程度有关；滚摆与单摆演示动能势能相互转化（机械能守恒的理想情况）。过山车、跳水、拉弓射箭——能量转化的世界之旅。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能分析过山车各点的能量形式",
+        "能设计实验验证「动能与速度关系」（控制变量）"
+      ],
+      "assessmentPrompt": "问{{name}}：过山车从高处冲下能量怎么变？为什么骑自行车下坡越来越快？同样速度的卡车和小汽车谁的动能大？",
+      "standards": [
+        "csphysics-2022:S4.EN.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十一章 功和机械能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_04",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "杠杆平衡条件：F₁L₁=F₂L₂",
+      "description": "杠杆五要素（支点动力阻力力臂）与平衡条件 F₁L₁=F₂L₂；力臂的画法（支点到力的作用线的垂直距离）；省力杠杆（撬棒）、费力杠杆（筷子）、等臂杠杆（天平）。人类最早的「力放大器」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画力臂并完成杠杆平衡计算",
+        "能对六个工具分类省力/费力并说明代价"
+      ],
+      "assessmentPrompt": "问{{name}}：撬棒为什么省力？筷子为什么费力还要用？杠杆平衡时动力臂是阻力臂 3 倍，动力是阻力的几倍？",
+      "standards": [
+        "csphysics-2022:S4.EN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十二章 简单机械",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_05",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "滑轮与滑轮组",
+      "description": "定滑轮改变方向不省力、动滑轮省一半力但费距离；滑轮组 F=G/n（n 为承担物重绳段数）、绳端移动 s=nh。升旗、吊车——滑轮的组合智慧。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断滑轮组省力情况（数绳段）",
+        "能计算拉力与绳端移动距离"
+      ],
+      "assessmentPrompt": "问{{name}}：国旗杆顶的滑轮是定还是动滑轮？由 3 段绳承担货重的滑轮组，拉力是物重的几分之一？",
+      "standards": [
+        "csphysics-2022:S4.EN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十二章 简单机械",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_06",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "机械效率：η=W有/W总",
+      "description": "机械效率 η=有用功/总功（永远小于 1，因为额外功不可避免）；测滑轮组机械效率的实验与影响因素。效率不是速度：做功快≠效率高——物理学「性价比」的第一课。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能计算机械效率并解释为何总小于 1",
+        "能说明提高滑轮组效率的两种方法"
+      ],
+      "assessmentPrompt": "问{{name}}：用滑轮组提 100 N 的货物拉力做功 250 J，货物升高 1 m，机械效率多少？为什么不可能达到 100%？",
+      "standards": [
+        "csphysics-2022:S4.EN.03",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十二章 简单机械",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_01",
+        "ct_wl_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "分子热运动：分子动理论初步",
+      "description": "分子动理论三要点：物质由分子组成、分子永不停息地无规则运动（扩散现象：炒菜香味）、分子间存在引力和斥力（压缩固体难、拉伸也难）。微观世界的第一瞥——看不见的分子用看得见的现象推理。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用分子动理论解释扩散、固体难压缩等现象",
+        "知道温度越高热运动越剧烈"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么腌蛋要好多天、炒菜几分钟就入味？两块铅块压紧后能吊起重物说明什么？",
+      "standards": [
+        "csphysics-2022:S4.MT.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十三章 内能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_17"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_08",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "内能与改变内能的两种方式",
+      "description": "内能是物体内所有分子动能与势能的总和（一切物体都有内能）；改变内能两条路：做功（摩擦生热、压缩气体）和热传递（高温传向低温）。两种方式等效——热传递的条件、方向与热量。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断改变内能的方式并说明",
+        "能解释冬天搓手与烤火都使手暖的等效性"
+      ],
+      "assessmentPrompt": "问{{name}}：搓手取暖和捂热水袋，改变内能的方式各是什么？0℃的冰有内能吗？内能和温度什么关系？",
+      "standards": [
+        "csphysics-2022:S4.EN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十三章 内能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_09",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "比热容与热量计算 Q=cmΔt",
+      "description": "比热容是物质吸热本领（水的比热容大：4.2×10³ J/(kg·℃)——暖宝宝、海陆风的物理）；热量计算 Q=cmΔt（升温吸热、降温放热）。比热容是物质的第二张「身份证」，热学计算的顶梁柱。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 Q=cmΔt 完成计算",
+        "能用水的比热容大解释三个现象（暖气、海风、汽车水箱）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么沿海昼夜温差小？把 2 kg 水从 20℃ 烧到 70℃ 需要多少热量？为什么汽车用水冷却？",
+      "standards": [
+        "csphysics-2022:S4.EN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十三章 内能",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "热机与能量转化守恒定律",
+      "description": "汽油机的四个冲程（吸气压缩做功排气——只有做功冲程对外做功）；能量转化与守恒定律（能量既不会消灭也不会创生，只会转移或转化）——自然界最普遍的定律。热机效率为什么低（废气带走大量热量）。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别四个冲程的能量转化",
+        "能用守恒定律解释「永动机不可能」"
+      ],
+      "assessmentPrompt": "问{{name}}：哪个冲程把内能转化为机械能？压缩冲程能量怎么变？为什么永动机造不出来？",
+      "standards": [
+        "csphysics-2022:S4.EN.04",
+        "csphysics-2022:S4.EN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十四章 内能的利用",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_03",
+        "ct_wl_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_11",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "两种电荷与电流",
+      "description": "电荷两种（同斥异吸）、摩擦起电的实质（电子转移）、验电器原理；电流的形成（电荷定向移动）与方向规定（正电荷移动方向）；导体与绝缘体。电学的开篇：从静电到电流。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用摩擦起电解释吸引轻小物体的现象",
+        "能区分导体绝缘体各举三例"
+      ],
+      "assessmentPrompt": "问{{name}}：梳过头发的塑料梳子为什么能吸小纸屑？金属为什么导电、橡胶为什么不导电？电流方向是怎么规定的？",
+      "standards": [
+        "csphysics-2022:S4.MI.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十五章 电流和电路",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_12",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电路的识别与串并联",
+      "description": "电路三种状态（通路、断路、短路——电源短路的危险）；串联（一条路径，互相影响）与并联（多条路径，互不影响）的识别与设计（家庭电路是并联）。画电路图与实物连线图——电学的「读写能力」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别给定电路的连接方式并说明依据",
+        "能按要求设计电路（两开关控制一灯）"
+      ],
+      "assessmentPrompt": "问{{name}}：马路上的路灯同时亮灭，是串联吗？为什么？红灯绿黄灯怎么连？一个灯断路另一个还亮是什么连接？",
+      "standards": [
+        "csphysics-2022:S4.MI.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十五章 电流和电路",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_13",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "电流表与电压表的使用",
+      "description": "电流表串联入电路（量程 0.6/3 A、不能直接接电源两端）；电压表并联在被测元件两端（量程 3/15 V、可直接接电源）。两表使用规范（正进负出、先大量程试触）——电学实验的双手。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能正确选择量程并读数（含 0.02/0.1 分度值）",
+        "知道两表接错位置会怎样"
+      ],
+      "assessmentPrompt": "给{{name}}一块电流表接线图：读数是多少？电流表能直接接在电池两端吗？为什么电压表可以？",
+      "standards": [
+        "csphysics-2022:S4.MI.09",
+        "csphysics-2022:S4.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十五章-第十六章",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_14",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电阻与滑动变阻器",
+      "description": "电阻表示导体对电流的阻碍作用（材料、长度、横截面积、温度都影响）；滑动变阻器的原理（改变接入长度）与接法（一上一下）。灯泡调光的原理——控制电流的旋钮。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出影响电阻的四个因素",
+        "能正确连接滑动变阻器并说明滑片移动的效果"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么高压线用铝不用铁？滑动变阻器为什么「一上一下」接？灯泡暗下来时接入的电阻变大了还是小了？",
+      "standards": [
+        "csphysics-2022:S4.MI.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十六章 电压电阻",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_15",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "欧姆定律：I=U/R",
+      "description": "欧姆定律：导体中的电流与电压成正比、与电阻成反比（I=U/R）；比值定义法的再运用。控制变量探究电流与电压电阻关系是课标必考实验——定律的来龙去脉比公式本身更重要。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 I=U/R 完成三量互算",
+        "能表述「研究电流与电阻关系时需调滑动变阻器保持电压不变」"
+      ],
+      "assessmentPrompt": "问{{name}}：220 V 电压加在 44 Ω 电阻上电流多大？电压不变电阻翻倍电流怎么变？研究 I 与 R 的关系时要控制什么不变？",
+      "standards": [
+        "csphysics-2022:S4.MI.09",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十七章 欧姆定律",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_13",
+        "ct_wl_g9a_14"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_16",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "串并联电路的规律",
+      "description": "串联：电流处处相等 I=I₁=I₂、电压相加 U=U₁+U₂、总电阻相加；并联：电压相等、电流相加、总电阻的倒数相加。规律 + 欧姆定律 = 初中电学计算的全套装备。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能默写两种电路的电流电压电阻规律",
+        "能完成一道串/并联综合计算"
+      ],
+      "assessmentPrompt": "问{{name}}：两个 10 Ω 电阻串联、并联总电阻各是多少？串联电路哪个电阻分得的电压大？",
+      "standards": [
+        "csphysics-2022:S4.MI.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十七章 欧姆定律",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_15"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_17",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "伏安法测电阻",
+      "description": "实验设计（伏特计并联、安培计串联、滑动变阻器保护与调节）、多次测量取平均（减小误差）；小灯泡电阻随温度升高而增大（不能取平均）。电学实验的皇冠——原理、电路、步骤、误差分析四位一体。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出实验电路图并说明滑变的作用",
+        "能解释灯泡电阻为什么要分别记录而不取平均"
+      ],
+      "assessmentPrompt": "问{{name}}：伏安法测电阻的原理是什么？滑动变阻器在本实验里干两件什么事？三次测灯泡电阻差异大正常吗？",
+      "standards": [
+        "csphysics-2022:S4.MI.09",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十七章 欧姆定律",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_18",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "电能与电功 W=UIt",
+      "description": "电能表（参数 3000 r/kW·h 的含义：转 3000 圈耗 1 度电）；电功 W=UIt 与单位换算（1 kW·h=3.6×10⁶ J）。家里电费的账单物理——电学的「经济课」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能读电能表并计算电费",
+        "能完成 W=UIt 的计算"
+      ],
+      "assessmentPrompt": "问{{name}}：电能表标 3000 r/kW·h，转盘转了 300 圈消耗多少度电？1 度电能让 100 W 的灯亮多久？",
+      "standards": [
+        "csphysics-2022:S4.MI.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十八章 电功率",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_15"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_19",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "电功率 P=UI 及测量",
+      "description": "电功率表示电流做功快慢 P=W/t=UI；额定电压与额定功率（灯泡「220V 40W」的含义）；测小灯泡电功率实验（伏安法变体）。千瓦时与千瓦的区别——账单与电器的物理对话。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能完成 P=UI 及变形式计算",
+        "能说明实际功率随电压变化（低于额定电压变暗）"
+      ],
+      "assessmentPrompt": "问{{name}}：「220V 40W」的灯正常工作时电流多大？电阻多大？接在 110V 上实际功率是多少（温度不变近似）？",
+      "standards": [
+        "csphysics-2022:S4.MI.10",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十八章 电功率",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_18"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_20",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "焦耳定律与电热",
+      "description": "电流的热效应：Q=I²Rt（纯电阻电路 W=Q）；电热的利用（电饭锅）与防止（电脑散热）。串联电路电阻大的发热多、并联时电阻小的发热多——判断电热大小的两个场景。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 Q=I²Rt 计算并比较两电阻的发热",
+        "能举电热利用与防止的实例各两个"
+      ],
+      "assessmentPrompt": "问{{name}}：电炉丝热得发红而导线却不热，为什么？「220V 1000W」的电暖器 10 min 产生多少热量？",
+      "standards": [
+        "csphysics-2022:S4.MI.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十八章 电功率",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_21",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "家庭电路与安全用电",
+      "description": "家庭电路组成（火线零线 220V、开关接火线、用电器并联）；保险丝与空气开关（电流过大两原因：短路、总功率过大）；测电笔的使用；安全用电原则（不接触低压带电体）。物理回到家的安全课。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明开关为什么要接在火线上",
+        "能分析跳闸的两个常见原因"
+      ],
+      "assessmentPrompt": "问{{name}}：开关为什么必须接火线？同时开空调和电暖器为什么跳闸？三孔插座的第三个孔是干什么用的？",
+      "standards": [
+        "csphysics-2022:S4.MI.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第十九章 生活用电",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_22",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "磁现象与磁场",
+      "description": "磁体两极（同名相斥异名相吸）、磁化；磁场看不见但真实存在（磁感线从 N 出 S 入）；地磁场（指南针原理）。磁场是继电流之后又一个「看不见摸不着但能显示」的物质——小磁针是它的显示器。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画条形磁体的磁感线分布",
+        "能用磁感线判断小磁针转向"
+      ],
+      "assessmentPrompt": "问{{name}}：指南针为什么指南？磁感线是真实存在的线吗？两个磁极不接触为什么有力的作用？",
+      "standards": [
+        "csphysics-2022:S4.MI.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二十章 电与磁",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_23",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电生磁：奥斯特实验与电磁铁",
+      "description": "电流的磁效应（奥斯特实验：通电导线使小磁针偏转——电与磁第一次握手）；通电螺线管的磁场（右手安培定则初步）；电磁铁（铁芯增强磁性）及其应用（电磁继电器、电磁起重机）。磁性的开关化——可控制的磁铁。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用安培定则判断螺线管磁极",
+        "能说出电磁铁磁性强弱的三个影响因素"
+      ],
+      "assessmentPrompt": "问{{name}}：电磁起重机凭什么能吸起又放下钢铁？影响电磁铁磁性强弱的因素有哪些？通电螺线管的 N 极怎么判断？",
+      "standards": [
+        "csphysics-2022:S4.MI.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二十章 电与磁",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_22"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_24",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电动机与磁生电：能量的双向通道",
+      "description": "磁场对通电导线有力的作用（电动机：电能→机械能，换向器的作用）；电磁感应（闭合电路的一部分导体在磁场中做切割磁感线运动产生电流——发电机：机械能→电能）。法拉第十年磨一剑——电与磁的双向转化撑起现代文明。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能区分电动机与发电机的能量转化方向",
+        "能说出电磁感应产生的两个条件"
+      ],
+      "assessmentPrompt": "问{{name}}：电动自行车的电机能量怎么转化？发电厂的水轮机呢？产生感应电流需要哪两个条件？",
+      "standards": [
+        "csphysics-2022:S4.MI.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二十章 电与磁",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_23"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_25",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "电磁波与信息传递",
+      "description": "电磁波的产生（变化的电流）与传播（真空也能传，光是一种电磁波，速度 c=3×10⁸ m/s）；波长频率关系 c=λf；广播电视移动通信的原理概览。信息的「骑手」——从有线到无线的跨越。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出电磁波在真空中的速度",
+        "能解释手机信号为什么能穿墙过海"
+      ],
+      "assessmentPrompt": "问{{name}}：宇航员在太空怎么和地面通话？微波炉和手机都靠什么工作？电磁波在真空中速度是多少？",
+      "standards": [
+        "csphysics-2022:S4.MI.11",
+        "csphysics-2022:S4.EN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二十一章 信息的传递",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_24"
+      ]
+    },
+    {
+      "id": "ct_wl_g9a_26",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "能源与可持续发展",
+      "description": "能源分类（可再生能源：太阳能风能水能；不可再生：化石能源核能）；能量转移转化的方向性（热量自发从高温到低温）；能源危机与可持续路径。初中物理的收官视野——物理学与人类未来。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能对八种能源分类",
+        "能说明能量转化的方向性为什么要求节约能源"
+      ],
+      "assessmentPrompt": "问{{name}}：煤、风、太阳、核能、汽油哪些可再生？能量守恒了为什么还要节约能源？（方向性）",
+      "standards": [
+        "csphysics-2022:S4.EN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二十二章 能源与可持续发展",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g9a_10"
       ]
     }
   ]
