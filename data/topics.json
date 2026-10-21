@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.33.0",
+  "version": "1.34.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1143,
+  "topicCount": 1158,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -35366,6 +35366,471 @@
       },
       "prerequisites": [
         "ct_yy_g7a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "不定代词：something、anything、nothing",
+      "description": "掌握不定代词 somebody/anybody/nobody 与 something/anything/nothing 及复合词（everyone、everywhere）：肯定句用 some-、疑问否定用 any-、nothing= not anything。Did you go anywhere interesting?——过去时与不定代词的组合是八上第一考点。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "some/any 系填空 10 题对 9",
+        "形容词修饰不定代词后置（something interesting）会用"
+      ],
+      "assessmentPrompt": "问{{name}}：Did you buy anything special on your trip? 再考：句变式 I bought nothing = I ___ buy ___。",
+      "standards": [
+        "csenglish-2022:S4.GR.08",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 1 Where did you go on vacation?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "How often：频度量化表达",
+      "description": "把频度副词升级为量化表达：How often do you exercise? — Twice a week. / Every day. / Hardly ever. 频率的具体化（once/twice/three times a week）+ 健康话题词汇——听力表格题的常客。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能就五个活动回答频率",
+        "once/twice/three times 结构无误"
+      ],
+      "assessmentPrompt": "做健康小调查：问{{name}}五个 How often（锻炼/喝牛奶/熬夜/上网/吃水果），记录并汇报谁的作息更健康。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 2 How often do you exercise?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "比较级系统：-er、more 与 as...as",
+      "description": "系统化比较级：规则变化四类（taller/bigger/heavier/more beautiful）、than 比较句、as...as 同级比较（as tall as）、both 与比较对象一致性。Sam has longer hair than Tom.——描述人从单人画像到双人对比。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "比较级填空与句型转换 10 题对 8",
+        "同级比较否定 not as/so...as 会转换"
+      ],
+      "assessmentPrompt": "让{{name}}比较自己和好友五方面（身高/性格/成绩/爱好/发型），每句用 than；考同义句 Tom is not as tall as Sam 的改写。",
+      "standards": [
+        "csenglish-2022:S4.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 3 I'm more outgoing than my sister.",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g6b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "最高级：the best movie theater",
+      "description": "掌握最高级：the tallest / the most interesting / the best（不规则），与 in/of 范围搭配、Which/What is the best...? 提问。比较级到最高级——从「谁更」到「谁最」，选餐厅选影院的英语决策系统。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "最高级变化与句型 10 题对 8",
+        "能与比较级互换（the best = better than any other）"
+      ],
+      "assessmentPrompt": "问{{name}}：What's the best movie theater in our city? Why? 再考同义转换：It's the biggest. = It's bigger than ___ ___ ___.",
+      "standards": [
+        "csenglish-2022:S4.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 4 What's the best movie theater?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "观点表达：What do you think of...?",
+      "description": "掌握节目类型词（talk show、soap opera、sitcom、game show、sports show）和观点句梯度：I love/like/don't mind/can't stand them. + What do you think of...? / I plan to watch... hope to...——谈论喜好从 like 到「有多喜欢、为什么」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能对五种节目表达不同等级的观点",
+        "plan to/hope to 后接动词原形"
+      ],
+      "assessmentPrompt": "问{{name}}：What do you think of talk shows? And soap operas? 追问 Why? 看观点+理由的完整表达。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 5 Do you want to watch a game show?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g6a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "职业理想的规划表达：be going to + how",
+      "description": "深化将来计划：What are you going to be when you grow up? — I'm going to be an engineer. / How are you going to do that? — I'm going to study math really hard. 理想+路径的完整问答——be going to 从计划句型升级为人生规划表达。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出理想职业+两条实现路径",
+        "when 引导的时间从句中时态正确（grow up 用现在时）"
+      ],
+      "assessmentPrompt": "访谈{{name}}的理想：What...going to be? How...going to do that? Where...going to work? 三连问看 be going to 熟练度。",
+      "standards": [
+        "csenglish-2022:S4.GR.01",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 6 I'm going to study computer science.",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g6a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "will 与 There will be：预测未来",
+      "description": "掌握 will 将来时：People will have robots. / There will be fewer trees and less pollution. + fewer 与 less 的可数不可数分工。will vs be going to 的分工（预测 vs 计划）——将来时的双引擎。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "will 填空与否定疑问 10 题对 8",
+        "fewer+可数复数 / less+不可数 分工无误"
+      ],
+      "assessmentPrompt": "请{{name}}预测 50 年后的生活五句（There will be...）；考：fewer money 还是 less money，为什么？",
+      "standards": [
+        "csenglish-2022:S4.GR.01",
+        "csenglish-2022:S4.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 7 Will people have robots?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7a_07",
+        "ct_yy_g8a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "流程说明：How do you make a banana milk shake?",
+      "description": "掌握流程说明的表达：First, peel the bananas. Next, put... in... Then, pour... into... Finally, turn on the blender. + how many/how much 提问用量。祈使句流程 + 序数连接词——说明文的口语版，也是劳动英语。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能口述四步流程（含连接词）",
+        "how many bananas / how much milk 问量正确"
+      ],
+      "assessmentPrompt": "请{{name}}教你做香蕉奶昔（或泡茶），必须用 First/Next/Then/Finally 四步；你故意问 How many...? How much...?",
+      "standards": [
+        "csenglish-2022:S4.WR.04",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 8 How do you make a banana milk shake?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "邀请与婉拒：Can you come to my party?",
+      "description": "掌握邀请应答系统：Can you come to my party on Saturday? — Sure, I'd love to. / Sorry, I can't. I have to help my parents. / I'm sorry, I'm going to... 用 have to/be V-ing 给出理由——社交英语的核心课：拒绝的艺术。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能发出邀请并对三种回复应答",
+        "婉拒必带理由（have to/进行时安排）"
+      ],
+      "assessmentPrompt": "邀请{{name}}周六来家看电影，他若拒绝必须给英语理由；再互换角色练婉拒+另约时间（Maybe another time.）。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 9 Can you come to my party?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_10",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "if 条件句：If you go, you'll have a great time",
+      "description": "掌握第一条件句：If you go to the party, you'll have a great time.（if 从句用一般现在时，主句用 will）——「主将从现」铁律。加上决策讨论（What will happen if...?）——用英语讨论「如果怎样就会怎样」，因果思维的语言化。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "if 句填空 10 题对 9（主将从现）",
+        "能就一个决定讨论三种后果"
+      ],
+      "assessmentPrompt": "抛议题「如果我明天不带伞」，请{{name}}用 If... 补全三种后果；再考 If it ___ (rain), we ___ (stay) home.",
+      "standards": [
+        "csenglish-2022:S4.GR.06",
+        "csenglish-2022:S4.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 10 If you go to the party, you'll have a great time!",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "建议句式家族：should、could、Why don't you...?",
+      "description": "拓展建议句式：You should... / You could... / Why don't you...? / What about...? 并按问题轻重选择（生病 should see a doctor；无聊 could watch a movie）。提建议的礼貌阶梯——从命令到商量的英语温度计。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用四种句式各提一条建议",
+        "会回应建议（That's a good idea. / I don't think so.）"
+      ],
+      "assessmentPrompt": "诉苦三连（我睡不着/我和朋友吵架/零花钱不够），看{{name}}能否换用不同句式给建议并接受你的反驳。",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 10 综合与建议表达",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g6a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：主旨题与篇章结构初探",
+      "description": "读 120 词左右的叙事与说明文，训练主旨大意题：看首末段、抓高频词、排除细节项。细节定位（七下）+ 主旨概括（八上）——阅读理解的两大题型到齐。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "主旨题三题对两题以上",
+        "能说出「本文主要讲什么」的一句话概括"
+      ],
+      "assessmentPrompt": "给{{name}}一篇度假叙事文加主旨题：先只读首末段猜大意，再通读验证——主旨题的「快读法」演练。",
+      "standards": [
+        "csenglish-2022:S4.RD.01",
+        "csenglish-2022:S4.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "各单元阅读板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_13",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：My best friend and I（比较级成篇）",
+      "description": "用比较级写「我和最好的朋友」（外貌、性格、爱好三方面对比+结论 We are different, but we're good friends.）：70 词左右、both 与 but 的运用——语法点直接变成篇章能力。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "三方面对比各有比较句",
+        "both...and / but 衔接自然，70 词以上"
+      ],
+      "assessmentPrompt": "请{{name}}写 My best friend and I：三段各一比（外貌/性格/爱好），结尾一句话总结；比较级错误不超过一处。",
+      "standards": [
+        "csenglish-2022:S4.WR.02",
+        "csenglish-2022:S4.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 3 写作板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7a_14",
+        "ct_yy_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_14",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：预测与讨论未来（robots）",
+      "description": "围绕 Will people have robots? 做听说讨论：预测（will 句型）、同意反对（I agree/don't think so）、理由（because）。听力的「观点匹配」题型 + 口语的「立场表达」——议论性听说的起步。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能表达三种预测并给出理由",
+        "能对他人预测表示同意或反驳"
+      ],
+      "assessmentPrompt": "辩论小试：机器人会取代老师吗？{{name}}先表态（I think... will...）再说两条理由，你反驳后看回应。",
+      "standards": [
+        "csenglish-2022:S4.LS.02",
+        "csenglish-2022:S4.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "Unit 7 听说板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g8a_15",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "八上词汇与句型自查",
+      "description": "八上词汇约 450，句型 10 组。词汇学习进入构词法前夜：-er/or 表人（inventor）、un- 否定（unlucky）的规律开始积累——词根词缀是初中词汇量的杠杆。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "中英互译 20 词对 17 以上",
+        "能说出三组构词规律并各举两词"
+      ],
+      "assessmentPrompt": "给{{name}}做词汇测 20 词 + 请说出 teacher/inventor/unfriendly 的构词规律；错词归档错词本。",
+      "standards": [
+        "csenglish-2022:S4.VB.01",
+        "csenglish-2022:S4.VB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_15"
       ]
     }
   ]

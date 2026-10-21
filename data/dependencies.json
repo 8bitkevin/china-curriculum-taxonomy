@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.33.0",
+  "version": "1.34.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1649,
+  "edgeCount": 1666,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9897,6 +9897,108 @@
       "prerequisiteId": "ct_yy_g7a_15",
       "strength": "hard",
       "reason": "词汇自查跨册累进，新增三类错词本管理"
+    },
+    {
+      "topicId": "ct_yy_g8a_01",
+      "prerequisiteId": "ct_yy_g7b_11",
+      "strength": "hard",
+      "reason": "过去时问答系统上叠加不定代词（Did you go anywhere...）"
+    },
+    {
+      "topicId": "ct_yy_g8a_02",
+      "prerequisiteId": "ct_yy_g7b_02",
+      "strength": "hard",
+      "reason": "频度副词条升级为 once/twice a week 的量化表达"
+    },
+    {
+      "topicId": "ct_yy_g8a_03",
+      "prerequisiteId": "ct_yy_g6b_01",
+      "strength": "hard",
+      "reason": "小学比较级初步系统化：四类变化+as...as+both"
+    },
+    {
+      "topicId": "ct_yy_g8a_04",
+      "prerequisiteId": "ct_yy_g8a_03",
+      "strength": "hard",
+      "reason": "比较级之后学最高级，二者可互换转换"
+    },
+    {
+      "topicId": "ct_yy_g8a_05",
+      "prerequisiteId": "ct_yy_g6a_04",
+      "strength": "hard",
+      "reason": "爱好表达（like）升级为观点梯度（love→can't stand）与 plan/hope"
+    },
+    {
+      "topicId": "ct_yy_g8a_06",
+      "prerequisiteId": "ct_yy_g6a_03",
+      "strength": "hard",
+      "reason": "小学 be going to 计划表达深化为职业理想+路径的规划问答"
+    },
+    {
+      "topicId": "ct_yy_g8a_07",
+      "prerequisiteId": "ct_yy_g8a_06",
+      "strength": "hard",
+      "reason": "be going to（计划）之后学 will（预测）：将来时双引擎分工"
+    },
+    {
+      "topicId": "ct_yy_g8a_07",
+      "prerequisiteId": "ct_yy_g7a_07",
+      "strength": "soft",
+      "reason": "可数不可数名词知识用于 fewer/less 的选择"
+    },
+    {
+      "topicId": "ct_yy_g8a_08",
+      "prerequisiteId": "ct_yy_g7a_09",
+      "strength": "soft",
+      "reason": "how much 问价的句型迁移到 how much 问用量"
+    },
+    {
+      "topicId": "ct_yy_g8a_09",
+      "prerequisiteId": "ct_yy_g7b_04",
+      "strength": "hard",
+      "reason": "have to 表义务的语法直接用于婉拒邀请的理由"
+    },
+    {
+      "topicId": "ct_yy_g8a_10",
+      "prerequisiteId": "ct_yy_g8a_07",
+      "strength": "hard",
+      "reason": "if 条件句主句用 will——与将来时同步构建"
+    },
+    {
+      "topicId": "ct_yy_g8a_11",
+      "prerequisiteId": "ct_yy_g6a_07",
+      "strength": "hard",
+      "reason": "小学 should 单一句式扩展为四种建议句式家族"
+    },
+    {
+      "topicId": "ct_yy_g8a_12",
+      "prerequisiteId": "ct_yy_g7b_14",
+      "strength": "hard",
+      "reason": "细节定位法之后训练主旨概括：阅读两大题型合龙"
+    },
+    {
+      "topicId": "ct_yy_g8a_13",
+      "prerequisiteId": "ct_yy_g8a_03",
+      "strength": "hard",
+      "reason": "比较级作文是比较级语法点的书面成篇应用"
+    },
+    {
+      "topicId": "ct_yy_g8a_13",
+      "prerequisiteId": "ct_yy_g7a_14",
+      "strength": "soft",
+      "reason": "七上便条写作的篇幅与结构在此升级"
+    },
+    {
+      "topicId": "ct_yy_g8a_14",
+      "prerequisiteId": "ct_yy_g8a_07",
+      "strength": "hard",
+      "reason": "未来预测讨论直接运用 will 句型与观点表达"
+    },
+    {
+      "topicId": "ct_yy_g8a_15",
+      "prerequisiteId": "ct_yy_g7b_15",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进，新增构词规律意识"
     }
   ]
 }
