@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.67.0",
+  "version": "1.68.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2146,
+  "edgeCount": 2154,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12879,6 +12879,54 @@
       "prerequisiteId": "ct_dl_g7b_01",
       "strength": "hard",
       "reason": "地区与国家的考察沿用认识大洲的方法论并缩小尺度"
+    },
+    {
+      "topicId": "ct_dl_g8a_02",
+      "prerequisiteId": "ct_dl_g8a_01",
+      "strength": "hard",
+      "reason": "地形气候分析在中国疆域（纬度海陆位置）的背景下展开"
+    },
+    {
+      "topicId": "ct_dl_g8a_02",
+      "prerequisiteId": "ct_dl_g7a_06",
+      "strength": "hard",
+      "reason": "中国气候分析沿用世界气候类型与影响因素方法（季风）"
+    },
+    {
+      "topicId": "ct_dl_g8a_03",
+      "prerequisiteId": "ct_dl_g8a_02",
+      "strength": "hard",
+      "reason": "河流水文（结冰期水量）由地势与气候决定"
+    },
+    {
+      "topicId": "ct_dl_g8a_04",
+      "prerequisiteId": "ct_dl_g8a_02",
+      "strength": "hard",
+      "reason": "水土资源的分布受地形气候的制约"
+    },
+    {
+      "topicId": "ct_dl_g8a_05",
+      "prerequisiteId": "ct_dl_g8a_04",
+      "strength": "hard",
+      "reason": "农业工业布局以资源与自然环境条件为基础"
+    },
+    {
+      "topicId": "ct_dl_g8b_01",
+      "prerequisiteId": "ct_dl_g8a_02",
+      "strength": "hard",
+      "reason": "秦岭淮河分界线的意义来自气温降水分布规律"
+    },
+    {
+      "topicId": "ct_dl_g8b_02",
+      "prerequisiteId": "ct_dl_g8b_01",
+      "strength": "hard",
+      "reason": "区域样本分析以四大地理区域的划分为框架"
+    },
+    {
+      "topicId": "ct_dl_g8b_02",
+      "prerequisiteId": "ct_dl_g7b_02",
+      "strength": "soft",
+      "reason": "区域研究方法（世界地理国家样本）迁移到中国区域"
     }
   ]
 }

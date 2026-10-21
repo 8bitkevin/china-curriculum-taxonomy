@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.67.0",
+  "version": "1.68.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1535,
+  "topicCount": 1542,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -47517,6 +47517,216 @@
       },
       "prerequisites": [
         "ct_dl_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g8a_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "中国的疆域、人口与民族",
+      "description": "优越的地理位置（海陆兼备、纬度适中——南北跨纬度广）；34 个省级行政区（简称与行政中心）；14 亿人口的分布（胡焕庸线——东密西疏）与民族分布（大散居小聚居交错杂居）。中国的身份证件照——从太空看中国的第一课。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出中国的四至并算东西时差",
+        "能解释胡焕庸线两侧人口差异的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：当乌苏里江旭日东升时帕米尔高原还是深夜，为什么？为什么说我国地理位置优越？少数民族最多的省是哪？",
+      "standards": [
+        "csgeography-2022:S4.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第一章 从世界看中国",
+        "editionYear": 2013
+      }
+    },
+    {
+      "id": "ct_dl_g8a_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "中国的地形与气候",
+      "description": "地势三级阶梯（西高东低——大河东流、水能丰富）；主要山脉与地形区（四大高原四大盆地三大平原）；气候（季风气候显著——雨热同期、气候复杂多样）。中国自然环境的骨架——地形与气候如何决定「大国的底色」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能画出三级阶梯分界线并各举地形区",
+        "能说明季风对农业的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么长江黄河都向东流？冬季风为什么让我国冬季比同纬度更冷？「早穿皮袄午穿纱」说的是哪里的气候特征？",
+      "standards": [
+        "csgeography-2022:S4.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二章 中国的自然环境",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g7a_06",
+        "ct_dl_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g8a_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "河流与自然灾害",
+      "description": "内外流河（长江黄河的水文与开发治理——黄金水道、地上河的忧患）；自然灾害（水文气象地质——台风洪涝干旱地震的分布与防灾）。母亲河的病历本——治理江河是中国地理的永恒主题。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能比较长江黄河的水文特征差异",
+        "能说明黄河地上河的成因与治理"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么黄河下游是「地上河」？长江为什么被称为黄金水道？我国地震多发在哪些地区？",
+      "standards": [
+        "csgeography-2022:S4.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二章 中国的自然环境",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g8a_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "自然资源：水土与土地",
+      "description": "自然资源的分类（可再生与非可再生）；土地资源（类型多样、耕地比重小——珍惜每一寸土地）；水资源（南丰北缺——南水北调、节水优先）。资源与人口的天平——大国资源的基本账。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明我国土地资源的基本国情",
+        "能解释南水北调的必要性"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说我国是「资源大国」又是「资源小国」？华北缺水为什么比西北更严重？家庭节水你能做什么？",
+      "standards": [
+        "csgeography-2022:S4.CG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三章 中国的自然资源",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g8a_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "经济发展：农业、工业与交通",
+      "description": "农业（因地制宜——南稻北麦东耕西牧）；工业（四大工业基地——辽中南重工业、沪宁杭综合性、京津唐、珠三角）；交通（铁路网——五纵三横与高铁时代）。国民经济的三个台阶——因地制宜与布局选择。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明因地制宜发展农业的实例",
+        "能比较四大工业基地的特点"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么东北种大米新疆种棉花？沪宁杭工业基地发展的有利条件？高铁为什么改变了中国人的生活方式？",
+      "standards": [
+        "csgeography-2022:S4.CG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四章 中国的经济发展",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "中国的地域差异与北方南方",
+      "description": "地理分界线（秦岭—淮河：一月 0℃、800 毫米、水田旱地、暖温带亚热带）；北方地区与南方地区的自然人文对比。中国地理的「经线」——一条线读懂半个中国的差异。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能列出秦岭淮河的四条地理意义",
+        "能比较南北方在衣食住行上的差异"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么冬天南方不供暖？秦岭淮河是哪些地理事物的分界线？北方屋顶平南方屋顶尖为什么？",
+      "standards": [
+        "csgeography-2022:S4.CG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第五章 中国的地理差异",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "区域样本：黄土高原、长江三角洲与西部",
+      "description": "跨省区域（黄土高原水土流失与生态治理、长江沿江地带）；省区样本（东北三省——振兴老工业基地、新疆——西部开发与绿洲农业、三江源——中华水塔保护）；台湾与港澳。区域地理的收官——治理与发展并重的中国答卷。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明黄土高原水土流失的治理措施",
+        "能分析长三角发展的区位优势"
+      ],
+      "assessmentPrompt": "问{{name}}：黄土高原为什么千沟万壑？三江源为什么被称为中华水塔？新疆的瓜果为什么甜（结合气候）？",
+      "standards": [
+        "csgeography-2022:S4.CG.03",
+        "csgeography-2022:S4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第六至九章",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_dl_g7b_02",
+        "ct_dl_g8b_01"
       ]
     }
   ]
