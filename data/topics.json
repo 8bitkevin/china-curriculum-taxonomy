@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.66.0",
+  "version": "1.67.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1526,
+  "topicCount": 1535,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -47246,6 +47246,277 @@
       "prerequisites": [
         "ct_ls_g11a_01",
         "ct_ls_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "地球与地图",
+      "name": "地球与地球仪：经纬网定位",
+      "description": "地球的形状与大小（麦哲伦环球与卫星照片的证据链）；纬线纬度与经线经度、半球划分；经纬网定位（北纬南纬、东经西经的书写）。给地球建坐标系——一切地理定位的总开关。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能写出北京的经纬度并判断半球",
+        "能在经纬网上定位任意点"
+      ],
+      "assessmentPrompt": "问{{name}}：怎么区分东经西经、南纬北纬？北京（40°N, 116°E）在哪个半球（东西南北四个）？为什么纬线是圈、经线是半圆？",
+      "standards": [
+        "csgeography-2022:S4.EG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一章 地球与地图",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_dl_g7a_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "地球的运动：自转与公转",
+      "description": "自转（昼夜交替、时差——东边早）与公转（地轴倾斜——四季更替与五带划分、昼夜长短变化）。地球的两支舞——为什么冬天昼短夜长、为什么热带没有冬天。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用地球仪演示昼夜交替与四季",
+        "能判断五带的位置与太阳直射情况"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么冬至那天黑夜最长？夏至时南极是什么季节？赤道上昼夜等长吗？为什么？",
+      "standards": [
+        "csgeography-2022:S4.NG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一章 地球与地图",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_03",
+      "type": "PROCEDURAL",
+      "subject": "地理",
+      "domain": "地球与地图",
+      "name": "地图三要素与等高线判读",
+      "description": "地图三要素（比例尺——图上距离比实地距离、方向、图例）；等高线地形图的判读（山脊山谷鞍部陡崖、坡度疏密）。地形的「CT 片」——从平面图读出立体世界。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能完成比例尺换算与大小比较",
+        "能在等高线图上识别五类地形部位"
+      ],
+      "assessmentPrompt": "问{{name}}：等高线密集的地方爬山累吗？水库坝址选在山谷还是山脊？1:100000 比例尺图上 1 厘米代表多少千米？",
+      "standards": [
+        "csgeography-2022:S4.EG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一章 地球与地图",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "海陆分布与大洲大洋",
+      "description": "七大洲四大洋的分布（亚欧非北美南美南极大洋——面积排序）；板块构造与海陆变迁（喜马拉雅山的海洋化石、红海扩大地中海缩小）；火山地震带。地球的表面拼图——大陆漂移说的证据与板块学说的解释。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能画出大洲大洋轮廓简图",
+        "能用板块学说解释两处海陆变迁"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么喜马拉雅山上有海洋生物化石？日本地震多和板块有什么关系？红海在变大还是变小？",
+      "standards": [
+        "csgeography-2022:S4.NG.01",
+        "csgeography-2022:S4.WG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二章 陆地和海洋",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_01",
+        "ct_dl_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "天气、气温与降水",
+      "description": "天气与气候的区别（短时多变 vs 长期稳定）；气温分布规律（纬度、海陆、地形）与气温曲线图；降水类型与分布（赤道多雨、回归带少雨）、降水柱状图。天气符号与穿衣指数——地理图表阅读的第一课。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能读懂天气预报符号",
+        "能根据气温曲线降水柱状图判读气候特征"
+      ],
+      "assessmentPrompt": "问{{name}}：「今天多云」是天气还是气候？为什么吐鲁番夏天最热？安第斯山两侧降水为什么差很多？",
+      "standards": [
+        "csgeography-2022:S4.NG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三章 天气与气候",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "世界的气候类型与影响因素",
+      "description": "世界主要气候类型（热带雨林/季风/沙漠、温带季风/海洋性、地中海、寒带、高原山地）的分布与判读；影响气候的因素（纬度海陆地形洋流）。以图定气候——气温曲线+降水柱状图的组合判读是地理的中考基本功。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能根据气候图判读出气候类型",
+        "能说明四种气候影响因素的作用"
+      ],
+      "assessmentPrompt": "问{{name}}：全年高温多雨是什么气候？冬雨型的是什么气候？为什么伦敦冬暖夏凉？北京是什么气候？",
+      "standards": [
+        "csgeography-2022:S4.NG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三章 天气与气候",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g7a_07",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "居民与聚落：人口、语言与宗教",
+      "description": "人口分布（自然条件与四密四疏）、人口问题（老龄化与增长过快）；三大人种与六大语言、三大宗教；聚落与自然环境（云南竹楼黄土窑洞北极冰屋）。人类在地球上的分布密码——哪里适合生存哪里就有人。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能指出人口稠密区并解释原因",
+        "能根据环境解释三种传统民居"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么亚马孙平原人口稀少？世界上使用人数最多和范围最广的语言分别是什么？窑洞和竹楼分别适应什么环境？",
+      "standards": [
+        "csgeography-2022:S4.NG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第四章 居民与聚落",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_dl_g7b_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "认识大洲：亚洲与非洲",
+      "description": "认识大洲的方法（位置范围自然环境人文）；亚洲（世界最大洲——地形复杂、气候多样、大河呈放射状）与非洲（高原大陆、热带气候为主、单一商品经济问题）。区域地理的方法论——从「在哪里、有什么、为什么」到「怎么办」。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用地图说明亚洲地形对河流流向的影响",
+        "能指出非洲经济问题的表现与出路"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么亚洲河流多呈放射状流入海洋？非洲为什么被称为「热带大陆」？单一商品经济的风险在哪？",
+      "standards": [
+        "csgeography-2022:S4.WG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第六、七章 我们生活的大洲——亚洲/我们邻近的地区和国家",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7a_04",
+        "ct_dl_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_dl_g7b_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "认识地区与国家：从东南亚到美国",
+      "description": "地区样本（东南亚——十字路口与热带风光、中东——三洲五海与石油、欧洲西部——发达国家群与旅游业）与国家样本（日本——岛国经济与防灾、印度——人口与软件、俄罗斯——地跨两洲、美国与巴西——发达国家与 developing? 发展中国家的代表）。地理考察的显微镜——一个地区/国家的完整画像法。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明中东成为热点的地理原因",
+        "能比较日本与英国的岛国差异"
+      ],
+      "assessmentPrompt": "问{{name}}：马六甲海峡为什么是「海上生命线」？中东的水比油贵吗？美国五大湖工业区为什么衰败又复兴？",
+      "standards": [
+        "csgeography-2022:S4.WG.01",
+        "csgeography-2022:S4.WG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第七、八、九、十章",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_dl_g7b_01"
       ]
     }
   ]

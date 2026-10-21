@@ -1,11 +1,11 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.66.0",
+  "version": "1.67.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 1526,
-    "dependencies": 2136,
-    "standards": 488,
+    "topics": 1535,
+    "dependencies": 2146,
+    "standards": 508,
     "deprecated": 0,
     "byGrade": {
       "1年级上": 49,
@@ -20,8 +20,8 @@
       "5年级下": 60,
       "6年级上": 61,
       "6年级下": 55,
-      "7年级上": 79,
-      "7年级下": 77,
+      "7年级上": 86,
+      "7年级下": 79,
       "8年级上": 93,
       "8年级下": 86,
       "9年级上": 112,
@@ -43,7 +43,8 @@
       "物理",
       "化学",
       "生物学",
-      "历史"
+      "历史",
+      "地理"
     ],
     "grades": [
       1,
@@ -73,20 +74,20 @@
       "统编版·2019 年版",
       "统编版·2020 年版"
     ],
-    "note": "覆盖 数学、语文、英语、物理、化学、生物学、历史（人教系/统编教材）；进度详见 CHANGELOG。"
+    "note": "覆盖 数学、语文、英语、物理、化学、生物学、历史、地理（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 1743820,
-      "sha256": "deae4a81ba5542ae5ad4a0a8eba428ca4085f68a1501f2f0fe7d358e927ca292"
+      "bytes": 1754657,
+      "sha256": "b8fa4dc54fa2eae2bc30dcf1eafa63788c10447c385fd39d1b73dc4ce5a5eaeb"
     },
     "dependencies.json": {
-      "bytes": 415078,
-      "sha256": "5e5ab1a35a112f2e03b7f49d4c49ba8f4dc4e53104858b96d8e6aa66b81c20ae"
+      "bytes": 416979,
+      "sha256": "41f8bb7746a1e26b1bba75d01590dbfdec4ad16aad32de0e46d53ddefe0a9e00"
     },
     "curriculum-standards.json": {
-      "bytes": 114548,
-      "sha256": "c2dc8078b6c9faa2560ad97c3b5bbb6904663ebc559636712f3d30e691964b69"
+      "bytes": 119797,
+      "sha256": "b27e82d8b56539a8b8bd08a758d017428a4c734308f7131db0f5c691c0493dc5"
     },
     "deprecated.json": {
       "bytes": 348,

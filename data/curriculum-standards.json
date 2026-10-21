@@ -18,9 +18,11 @@
     "csbiology-2022",
     "hsbiology-2017",
     "cshistory-2022",
-    "hshistory-2017"
+    "hshistory-2017",
+    "csgeography-2022",
+    "hsgeography-2017"
   ],
-  "curriculumCount": 14,
+  "curriculumCount": 16,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -3591,6 +3593,168 @@
         }
       ],
       "topicCount": 7
+    },
+    {
+      "slug": "csgeography-2022",
+      "title": "义务教育地理课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csgeography-2022:S4.EG.01",
+          "code": "S4.EG.01",
+          "stage": 4,
+          "domain": "地球与地图",
+          "title": "地球与地球仪、地图三要素与地形图判读"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.01",
+          "code": "S4.NG.01",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "地球运动及其地理意义、海陆分布与变迁"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.02",
+          "code": "S4.NG.02",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "气温降水与气候、天气与天气预报"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.03",
+          "code": "S4.NG.03",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "居民与聚落、人口人种语言宗教"
+        },
+        {
+          "key": "csgeography-2022:S4.WG.01",
+          "code": "S4.WG.01",
+          "stage": 4,
+          "domain": "世界地理",
+          "title": "大洲大洋与地区国家的地理特征"
+        },
+        {
+          "key": "csgeography-2022:S4.WG.02",
+          "code": "S4.WG.02",
+          "stage": 4,
+          "domain": "世界地理",
+          "title": "世界经济发展与合作、国际合作"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.01",
+          "code": "S4.CG.01",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的疆域人口民族与自然环境"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.02",
+          "code": "S4.CG.02",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的自然资源与经济发展（农业工业交通）"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.03",
+          "code": "S4.CG.03",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的地域差异与省级行政区、家乡地理"
+        },
+        {
+          "key": "csgeography-2022:S4.RD.01",
+          "code": "S4.RD.01",
+          "stage": 4,
+          "domain": "区域发展",
+          "title": "认识区域的方法：区域分析与区域联系"
+        }
+      ],
+      "topicCount": 10
+    },
+    {
+      "slug": "hsgeography-2017",
+      "title": "普通高中地理课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsgeography-2017:H1.NG.01",
+          "code": "H1.NG.01",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "宇宙中的地球与太阳对地球的影响"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.02",
+          "code": "H1.NG.02",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地球上的大气：大气受热与环流"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.03",
+          "code": "H1.NG.03",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地球上的水：水循环与洋流"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.04",
+          "code": "H1.NG.04",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地貌：内外力作用与典型地貌"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.05",
+          "code": "H1.NG.05",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "自然环境的整体性与差异性"
+        },
+        {
+          "key": "hsgeography-2017:H2.HG.01",
+          "code": "H2.HG.01",
+          "stage": 5,
+          "domain": "人文地理",
+          "title": "人口、城镇与乡村、产业区位"
+        },
+        {
+          "key": "hsgeography-2017:H2.HG.02",
+          "code": "H2.HG.02",
+          "stage": 5,
+          "domain": "人文地理",
+          "title": "交通运输布局与环境发展、环境问题与可持续发展"
+        },
+        {
+          "key": "hsgeography-2017:H3.RD.01",
+          "code": "H3.RD.01",
+          "stage": 5,
+          "domain": "区域发展",
+          "title": "区域与区域发展、资源枯竭型城市转型"
+        },
+        {
+          "key": "hsgeography-2017:H3.RD.02",
+          "code": "H3.RD.02",
+          "stage": 5,
+          "domain": "区域发展",
+          "title": "生态脆弱区治理与流域开发、城市产业与地理信息"
+        },
+        {
+          "key": "hsgeography-2017:H4.RE.01",
+          "code": "H4.RE.01",
+          "stage": 5,
+          "domain": "资源、环境与国家安全",
+          "title": "自然资源与国家安全、环境与国家安全"
+        }
+      ],
+      "topicCount": 10
     }
   ]
 }

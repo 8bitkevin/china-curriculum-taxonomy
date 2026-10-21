@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.66.0",
+  "version": "1.67.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2136,
+  "edgeCount": 2146,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12819,6 +12819,66 @@
       "prerequisiteId": "ct_ls_g7a_04",
       "strength": "soft",
       "reason": "丝绸之路（初中学过）是文化交流途径专题的核心案例"
+    },
+    {
+      "topicId": "ct_dl_g7a_02",
+      "prerequisiteId": "ct_dl_g7a_01",
+      "strength": "hard",
+      "reason": "地球运动（自转公转）的描述需要经纬度与地球仪基础"
+    },
+    {
+      "topicId": "ct_dl_g7a_03",
+      "prerequisiteId": "ct_dl_g7a_01",
+      "strength": "hard",
+      "reason": "地图方向与定位以经纬网为基础"
+    },
+    {
+      "topicId": "ct_dl_g7a_04",
+      "prerequisiteId": "ct_dl_g7a_01",
+      "strength": "hard",
+      "reason": "大洲大洋的定位与半球划分用经纬网"
+    },
+    {
+      "topicId": "ct_dl_g7a_04",
+      "prerequisiteId": "ct_dl_g7a_02",
+      "strength": "soft",
+      "reason": "海陆分布格局的形成与地壳运动相关（板块背景）"
+    },
+    {
+      "topicId": "ct_dl_g7a_05",
+      "prerequisiteId": "ct_dl_g7a_02",
+      "strength": "hard",
+      "reason": "五带划分（公转）决定气温的纬度分布大势"
+    },
+    {
+      "topicId": "ct_dl_g7a_06",
+      "prerequisiteId": "ct_dl_g7a_05",
+      "strength": "hard",
+      "reason": "气候类型判读综合气温曲线与降水柱状图的读图技能"
+    },
+    {
+      "topicId": "ct_dl_g7a_07",
+      "prerequisiteId": "ct_dl_g7a_06",
+      "strength": "hard",
+      "reason": "人口与聚落分布受气候等自然环境因素制约"
+    },
+    {
+      "topicId": "ct_dl_g7b_01",
+      "prerequisiteId": "ct_dl_g7a_04",
+      "strength": "hard",
+      "reason": "认识大洲以海陆分布与大洲轮廓为基础"
+    },
+    {
+      "topicId": "ct_dl_g7b_01",
+      "prerequisiteId": "ct_dl_g7a_06",
+      "strength": "hard",
+      "reason": "大洲自然环境分析用气候类型与影响因素方法"
+    },
+    {
+      "topicId": "ct_dl_g7b_02",
+      "prerequisiteId": "ct_dl_g7b_01",
+      "strength": "hard",
+      "reason": "地区与国家的考察沿用认识大洲的方法论并缩小尺度"
     }
   ]
 }
