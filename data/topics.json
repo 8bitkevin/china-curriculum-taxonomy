@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.37.0",
+  "version": "1.38.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1200,
+  "topicCount": 1212,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -37143,6 +37143,388 @@
       },
       "prerequisites": [
         "ct_yy_g6a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "定语从句三：where、when、why 与介词 + which",
+      "description": "完成定语从句最后一块拼图：关系副词 where（地点）、when（时间）、why（原因），及 in which/on which/at which 与关系副词的互换（the school where I study = in which I study）。从「会选词」到「会转换」——定语从句的完全体。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "关系副词与介词换写 12 题对 10",
+        "能用 where/when 各造一句描述家乡"
+      ],
+      "assessmentPrompt": "考{{name}}：This is the town ___ I grew up.（三种答案：where/in which/正确性判断）；再造 when 句描述难忘的一天。",
+      "standards": [
+        "hsenglish-2017:H1.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 1 Cultural Heritage",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "现在进行时被动：is being done",
+      "description": "掌握进行被动：The bridge is being built. / Animals are being hunted. ——「正在被做」：保护话题的标准语态（野生动物正在被猎杀）。be being done 的结构虽少见但在环保语篇高频。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "进行被动填空与转换 10 题对 8",
+        "能用进行被动说三句环保现状"
+      ],
+      "assessmentPrompt": "考{{name}}：They are protecting the old temple. 改被动；请用 is being done 说森林/河流/动物的现状两句。",
+      "standards": [
+        "hsenglish-2017:H1.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 2 Wildlife Protection",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "现在完成时被动：have been done",
+      "description": "掌握完成被动：The temple has been restored. / Many species have been saved. 「已被做」——成果汇报的标准语态，与初中完成时（八下）和被动（九上）两条线在此交汇。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "完成被动填空 10 题对 8",
+        "能汇报三项已完成的保护成果"
+      ],
+      "assessmentPrompt": "考{{name}}：People have cut down the forest. 改被动；用 has/have been done 汇报「家乡近五年变化」两句。",
+      "standards": [
+        "hsenglish-2017:H1.GR.03",
+        "hsenglish-2017:H1.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 3 The Internet",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "非谓语起步：过去分词作定语",
+      "description": "掌握过去分词作定语：a lost city（= a city that was lost）、the book written by Lu Xun —— -ed 表被动/完成。非谓语动词三部曲的第一课：从定语从句的「瘦身版」理解分词。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "分词作定语与定从互换 10 题对 8",
+        "能判断 -ed/-ing 作定语的语义差（boiling/boiled water）"
+      ],
+      "assessmentPrompt": "考{{name}}：a trip organized by our school 展开成定从；再区分 This is annoying news 与 I am annoyed。",
+      "standards": [
+        "hsenglish-2017:H1.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 4-5 语法板块",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：文化遗产——保护与取舍",
+      "description": "读文化遗产语篇（阿斯旺大坝搬迁神庙、敦煌数字化）：保护与发展的两难、国际合作案例。主题语境「人与社会」核心话题——观点类语篇的结构（现象-冲突-方案）初识。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能梳理「问题—各方立场—解决方案」结构",
+        "能用原文词句说明保护的理由"
+      ],
+      "assessmentPrompt": "给{{name}}读阿斯旺神庙搬迁案例：问冲突是什么？UNESCO 做了什么？如果是你投票，搬还是不搬？",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 1 Cultural Heritage",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：野生动物保护语篇",
+      "description": "读藏羚羊保护语篇（a day in the clouds）：濒危物种的现状-原因-措施结构，掌握 wildlife 词族（endangered、habitat、extinct、protect...from）。说明文的「问题-措施」结构在环保话题中成型。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能画出「现状—原因—措施—成效」四格结构",
+        "词族 15 词分类正确"
+      ],
+      "assessmentPrompt": "给{{name}}读藏羚羊语篇做四格表；考 habit/extinct/adapt 各怎么用在保护话题里。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 2 Wildlife Protection",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：互联网改变生活",
+      "description": "读互联网主题语篇（线上社区、数字鸿沟）：对比结构（before/after、advantages/disadvantages）与数据引用。科技话题的批判性阅读——网络是福是祸，语篇怎么论证。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能整理对比型语篇的两栏信息",
+        "能就一个网络现象说出利弊各一"
+      ],
+      "assessmentPrompt": "给{{name}}读网络学习利弊文，做利弊两栏表；问：文中哪个数据最有说服力？",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 3 The Internet",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：历史传统与国家认同",
+      "description": "读英美历史传统语篇（英国四邦、历史地标的典故）：地理位置-历史沿革-文化影响的说明结构，注意专有名词（the UK、England、Britain）的辨析——文化常识与语言学习一体两面。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说清 the UK/Britain/England 的关系",
+        "能复述一处历史地标的来历三句"
+      ],
+      "assessmentPrompt": "问{{name}}：the UK 包括几部分？Big Ben 有什么典故？用英语给家人当 30 秒导游。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 4 History and Traditions",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g5a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_09",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "构词法系统：合成、派生、转化",
+      "description": "系统化构词法：合成（sun+flower）、派生（前缀 un-/dis-/re- + 后缀 -tion/-ness/-able）、转化（water 名→动）。词根词缀是词汇量的乘法——3500 词目标的杠杆支点。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用词缀推猜 10 个生词词义",
+        "一个词根能扩出 5 词家族（act→action/active/actor）"
+      ],
+      "assessmentPrompt": "给{{name}}十个生词（unfriendly、disagree、carefulness...）猜义并拆结构；用 -tion/-able 各造一词。",
+      "standards": [
+        "hsenglish-2017:H2.VB.01",
+        "csenglish-2022:S4.VB.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "各单元词汇板块",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：事件报道（A News Report）",
+      "description": "Reading for Writing：写事件报道——导语（who/what/when/where 一句话）+ 主体（经过与引语）+ 结尾（意义）。被动语态与直接引语的运用——把初中新闻阅读（语文八上亦有）的格式知识迁移到英语写作。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "报道五要素齐全、有直接引语",
+        "能正确使用被动语态叙述事件"
+      ],
+      "assessmentPrompt": "情境：学校举办了义卖会。请{{name}}写 100 词英语报道：导语一句话+过程（用被动）+校长引语。",
+      "standards": [
+        "hsenglish-2017:H1.WR.01",
+        "hsenglish-2017:H1.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "Unit 2 Reading for Writing",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10a_10",
+        "ct_yy_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：采访与播客式表达",
+      "description": "综合听说任务：模拟采访（设计问题链 + 追问）与播客式独白（像 talk show 一样讲 90 秒）。听说进入「有声音个性」的阶段——语调、停顿、重音的表现力。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "采访能追问两轮以上",
+        "独白有开头钩子与结尾呼应"
+      ],
+      "assessmentPrompt": "请{{name}}录一段 90 秒「家庭播客」：介绍一位家人的爱好故事，要求开头一句钩子、结尾一句感想。",
+      "standards": [
+        "hsenglish-2017:H1.LS.01",
+        "hsenglish-2017:H5.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "各单元 Listening and Talking",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g10b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：说明文结构（问题-方案与比较）",
+      "description": "本册环保、文化、科技语篇的结构总结：问题-方案型（Problem-Solution）、比较对照型（Compare-Contrast）。画结构图读说明文——结构图就是文章的 X 光片，七选五题型的底层能力。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能给两种结构的语篇各画一张结构图",
+        "能据结构图预测下一段内容"
+      ],
+      "assessmentPrompt": "给{{name}}一篇问题-方案型环保文：画结构图并盖住最后一段，让他按结构预测结论再对照。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H1.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "各单元 Reading and Thinking",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10a_02"
       ]
     }
   ]

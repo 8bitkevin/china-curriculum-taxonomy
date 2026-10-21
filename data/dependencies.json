@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.37.0",
+  "version": "1.38.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1715,
+  "edgeCount": 1728,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10293,6 +10293,84 @@
       "prerequisiteId": "ct_yy_g5a_09",
       "strength": "soft",
       "reason": "体育与人物语篇呼应小学 Read and write 的信息抓取训练"
+    },
+    {
+      "topicId": "ct_yy_g10b_01",
+      "prerequisiteId": "ct_yy_g10a_07",
+      "strength": "hard",
+      "reason": "定语从句深化（whose/whom）之后补齐关系副词与介词换写"
+    },
+    {
+      "topicId": "ct_yy_g10b_02",
+      "prerequisiteId": "ct_yy_g9a_05",
+      "strength": "hard",
+      "reason": "初中被动（一般时）基础上叠进行体：is being done"
+    },
+    {
+      "topicId": "ct_yy_g10b_03",
+      "prerequisiteId": "ct_yy_g8b_10",
+      "strength": "hard",
+      "reason": "初中完成时与被动两条线交汇为完成被动"
+    },
+    {
+      "topicId": "ct_yy_g10b_04",
+      "prerequisiteId": "ct_yy_g10b_01",
+      "strength": "hard",
+      "reason": "过去分词作定语理解为定语从句的压缩形式"
+    },
+    {
+      "topicId": "ct_yy_g10b_05",
+      "prerequisiteId": "ct_yy_g10a_06",
+      "strength": "hard",
+      "reason": "灾害语篇阅读（必修一）的话题能力延伸到文化遗产的保护取舍讨论"
+    },
+    {
+      "topicId": "ct_yy_g10b_06",
+      "prerequisiteId": "ct_yy_g9a_13",
+      "strength": "hard",
+      "reason": "初中环保语篇阅读经验升级为「问题-措施-成效」结构化阅读"
+    },
+    {
+      "topicId": "ct_yy_g10b_07",
+      "prerequisiteId": "ct_yy_g8a_14",
+      "strength": "hard",
+      "reason": "初中未来话题讨论的观点表达经验用于利弊对比语篇"
+    },
+    {
+      "topicId": "ct_yy_g10b_08",
+      "prerequisiteId": "ct_yy_g5a_11",
+      "strength": "soft",
+      "reason": "小学中外课程文化比较延伸到英美历史与国家构成常识"
+    },
+    {
+      "topicId": "ct_yy_g10b_09",
+      "prerequisiteId": "ct_yy_g8a_15",
+      "strength": "hard",
+      "reason": "初中构词规律的零散积累系统化为三大构词法"
+    },
+    {
+      "topicId": "ct_yy_g10b_10",
+      "prerequisiteId": "ct_yy_g10a_10",
+      "strength": "hard",
+      "reason": "建议信之后的第二类应用文：新闻报道（结构+被动运用）"
+    },
+    {
+      "topicId": "ct_yy_g10b_11",
+      "prerequisiteId": "ct_yy_g10a_11",
+      "strength": "hard",
+      "reason": "presentation 技能延伸为采访追问与播客式长独白"
+    },
+    {
+      "topicId": "ct_yy_g10b_12",
+      "prerequisiteId": "ct_yy_g10a_02",
+      "strength": "hard",
+      "reason": "快读双技之上加结构分析：语篇结构图的绘制"
+    },
+    {
+      "topicId": "ct_yy_g10b_10",
+      "prerequisiteId": "ct_yy_g10b_03",
+      "strength": "soft",
+      "reason": "事件报道写作中运用完成被动叙述已发生事件"
     }
   ]
 }
