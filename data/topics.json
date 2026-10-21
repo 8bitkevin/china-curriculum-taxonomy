@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.63.0",
+  "version": "1.64.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1499,
+  "topicCount": 1511,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -46428,6 +46428,363 @@
       },
       "prerequisites": [
         "ct_ls_g7b_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "鸦片战争与近代化的开端",
+      "description": "鸦片战争（1840，《南京条约》——割香港岛、五口通商、协定关税）；第二次鸦片战争与火烧圆明园；太平天国运动。三千年未有之大变局的起点——条约体系下的屈辱与觉醒。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能列出《南京条约》的主要内容与影响",
+        "能说明鸦片战争中国失败的根本原因"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说鸦片战争是中国近代史的开端？「协定关税」伤害了什么主权？圆明园的火是谁点的？",
+      "standards": [
+        "cshistory-2022:S4.MC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2017
+      }
+    },
+    {
+      "id": "ct_ls_g8a_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "洋务运动与甲午战争",
+      "description": "洋务运动（自强求富——近代军事民用工业、新式海陆军）；甲午战争（《马关条约》割台湾、允许设厂）与列强瓜分狂潮。器物层面的自救——「师夷长技」为什么救不了大清。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能评价洋务运动的进步与局限",
+        "能比较《马关条约》比《南京条约》更严重在哪"
+      ],
+      "assessmentPrompt": "问{{name}}：洋务运动办了工厂为什么还打输甲午战争？「允许日本在通商口岸设厂」和「赔款」哪个更狠？",
+      "standards": [
+        "cshistory-2022:S4.MC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "戊戌变法与辛亥革命",
+      "description": "戊戌变法（制度层面的尝试——百日维新）；孙中山与同盟会、三民主义；武昌起义与中华民国成立、《中华民国临时约法》；辛亥革命的历史意义与局限。制度层面的求索——从君主立宪到民主共和。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能比较戊戌变法与辛亥革命的手段差异",
+        "能说明辛亥革命「剪掉了辫子剪不掉枷锁」"
+      ],
+      "assessmentPrompt": "问{{name}}：戊戌变法和辛亥革命都想救中国，方法有什么本质不同？《临时约法》的主权在民和帝制有什么区别？",
+      "standards": [
+        "cshistory-2022:S4.MC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "新文化运动与五四运动",
+      "description": "新文化运动（民主与科学——思想层面的启蒙、《新青年》）；五四运动（1919 巴黎和会导火索——外争主权内除国贼、工人阶级登上历史舞台）；马克思主义传播。思想层面的觉醒——新旧民主主义革命的分水岭。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明五四运动为什么是新旧民主革命的分水岭",
+        "能解释新文化运动「打倒孔家店」的背景"
+      ],
+      "assessmentPrompt": "问{{name}}：德先生赛先生是谁？五四运动先在哪爆发、后发生了什么变化？为什么说它是中国新民主主义革命的开端？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "中国共产党成立与国民革命",
+      "description": "中共一大（1921 上海嘉兴红船）与民主革命纲领；第一次国共合作与北伐；南京国民政府的建立。开天辟地的大事变——一个新政党为什么能让中国历史转向。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出中共一大召开的时间地点意义",
+        "能解释国共为什么合作又破裂"
+      ],
+      "assessmentPrompt": "问{{name}}：中共一大代表平均年龄不到 30 岁说明了什么？北伐为什么势如破竹？「四一二」发生了什么？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "从井冈山到长征",
+      "description": "南昌起义与井冈山道路（农村包围城市——马克思主义中国化的起点）；红军长征（1934-1936 遵义会议——生死攸关的转折、四渡赤水、会宁会师）。绝境中的道路创新——为什么星星之火可以燎原。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明遵义会议为什么是转折点",
+        "能比较俄国十月革命道路与中国道路的不同"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么共产党要上井冈山而不攻打大城市？遵义会议「转折」在哪里？长征精神是什么？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_ls_g8a_07",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "抗日战争",
+      "description": "九一八与七七事变；正面战场（台儿庄）与敌后战场（百团大战）；南京大屠杀与全民族抗战；中共七大与抗战胜利（1945.9.3）的原因与意义。近代以来第一次完全胜利的民族解放战争——全民族抗战的历史账。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明抗日战争胜利的根本原因",
+        "能举两个战场配合的战例"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说抗日战争是全民族抗战？正面战场和敌后战场怎么分工？抗战胜利对中华民族意味着什么？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_06"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "人民解放战争",
+      "description": "重庆谈判（双十协定——假和平真内战的较量）；战略防御到反攻（刘邓大军千里跃进大别山）；三大战役与渡江战役、南京解放。民心向背的胜利——为什么小米加步枪能赢飞机大炮。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能排出三大战役名称与顺序",
+        "能分析国民党失败的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：蒋介石为什么「假和平真内战」？淮海战役的胜利为什么说是人民用小推车推出来的？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "中华人民共和国成立与巩固",
+      "description": "开国大典（1949.10.1）与新中国成立的意义；抗美援朝、土地改革；西藏和平解放。中国人民站起来了——新政权的三场立国之战。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明新中国成立的历史意义",
+        "能解释抗美援朝为什么「不得不打」"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说新中国成立「中国人民从此站起来了」？抗美援朝和保家卫国什么关系？土改为什么农民支持？",
+      "standards": [
+        "cshistory-2022:S4.MC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "社会主义建设的探索与曲折",
+      "description": "一五计划（工业化起步——第一辆汽车第一架飞机）与三大改造（公有制确立）；1956 后的探索（大跃进人民公社的失误）与八字方针调整；文化大革命教训与雷锋焦裕禄王进喜的时代精神。激情与曲折并存的年代——在废墟上搭起工业骨架。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明三大改造完成标志着什么",
+        "能辩证评价探索时期的成就与失误"
+      ],
+      "assessmentPrompt": "问{{name}}：一五计划为什么优先发展重工业？大跃进错在哪？为什么那个年代同时有辉煌和失误？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第二、三单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "改革开放与中国特色社会主义",
+      "description": "真理标准讨论与十一届三中全会（1978——伟大转折）；家庭联产承包（小岗村）与经济特区（深圳速度）；社会主义市场经济与加入 WTO；一国两制与港澳回归；新时代与民族复兴。决定当代中国命运的关键一招——改革开放四十年的路线图。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明十一届三中全会为什么是转折",
+        "能解释经济特区「试验田」的作用"
+      ],
+      "assessmentPrompt": "问{{name}}：小岗村按手印为什么是壮举？深圳为什么能从小渔村变大都市？一国两制的「两制」指什么？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "科技、外交与国防的强起来",
+      "description": "两弹一星（钱学森邓稼先）与载人航天；外交三步（1971 恢复联合国席位、1972 尼克松访华中日建交）；人民海军空军的建立与强军。硬实力与朋友圈——中国的国际地位是怎么挣来的。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能排出中国外交大事的时间线",
+        "能说明两弹一星精神"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么刚建国就勒紧裤腰带搞两弹一星？1971 年联合国会场为什么欢呼？双碳目标是什么？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第五、六单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_ls_g8b_04"
       ]
     }
   ]
