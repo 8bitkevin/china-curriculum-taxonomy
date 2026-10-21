@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.5.0",
+  "version": "1.6.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1095,
+  "edgeCount": 1126,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6573,6 +6573,192 @@
       "prerequisiteId": "ct_yw_g3a_09",
       "strength": "soft",
       "reason": "预测策略（第四单元）与续写训练互为表里：读时预测，写时续写"
+    },
+    {
+      "topicId": "ct_yw_g3b_01",
+      "prerequisiteId": "ct_yw_g3a_14",
+      "strength": "hard",
+      "reason": "第二篇文言文在《司马光》的文言语感上增加注释依赖与道理理解"
+    },
+    {
+      "topicId": "ct_yw_g3b_02",
+      "prerequisiteId": "ct_yw_g2b_11",
+      "strength": "hard",
+      "reason": "多角度理解寓意是寓言道理进阶的再深化"
+    },
+    {
+      "topicId": "ct_yw_g3b_03",
+      "prerequisiteId": "ct_yw_g2b_12",
+      "strength": "hard",
+      "reason": "详细复述从示意图辅助讲述升级为长故事的完整顺序复述"
+    },
+    {
+      "topicId": "ct_yw_g3b_03",
+      "prerequisiteId": "ct_yw_g3a_12",
+      "strength": "soft",
+      "reason": "默读记忆内容的能力支撑不看书复述"
+    },
+    {
+      "topicId": "ct_yw_g3b_04",
+      "prerequisiteId": "ct_yw_g1b_13",
+      "strength": "soft",
+      "reason": "传电话式的转述在一年级『打电话记口信』已有雏形"
+    },
+    {
+      "topicId": "ct_yw_g3b_04",
+      "prerequisiteId": "ct_yw_g3b_20",
+      "strength": "hard",
+      "reason": "口头转述与书面转述句互为表里，人称转换规则相同"
+    },
+    {
+      "topicId": "ct_yw_g3b_05",
+      "prerequisiteId": "ct_yw_g2b_10",
+      "strength": "hard",
+      "reason": "整合多来源信息建立在分类整理信息的低阶经验上"
+    },
+    {
+      "topicId": "ct_yw_g3b_05",
+      "prerequisiteId": "ct_yw_g3a_06",
+      "strength": "soft",
+      "reason": "围绕一个意思写的段落意识支撑信息整合成段"
+    },
+    {
+      "topicId": "ct_yw_g3b_06",
+      "prerequisiteId": "ct_yw_g2a_11",
+      "strength": "hard",
+      "reason": "顺序词（先再然后最后）从讲故事迁移到写实验步骤"
+    },
+    {
+      "topicId": "ct_yw_g3b_07",
+      "prerequisiteId": "ct_yw_g2a_16",
+      "strength": "hard",
+      "reason": "看图习作从写一段到写活场景（动作对话想象）"
+    },
+    {
+      "topicId": "ct_yw_g3b_08",
+      "prerequisiteId": "ct_yw_g3a_05",
+      "strength": "hard",
+      "reason": "植物观察是三上观察习作的专题化，新增记录卡脚手架"
+    },
+    {
+      "topicId": "ct_yw_g3b_09",
+      "prerequisiteId": "ct_yw_g2b_21",
+      "strength": "hard",
+      "reason": "传统节日综合性学习以二年级节日常识整理为知识底座"
+    },
+    {
+      "topicId": "ct_yw_g3b_09",
+      "prerequisiteId": "ct_yw_g3a_08",
+      "strength": "soft",
+      "reason": "写过过程清楚的记事习作，写节日活动水到渠成"
+    },
+    {
+      "topicId": "ct_yw_g3b_10",
+      "prerequisiteId": "ct_yw_g3a_03",
+      "strength": "hard",
+      "reason": "想象习作从编童话的情节结构升级为新奇设定的营造"
+    },
+    {
+      "topicId": "ct_yw_g3b_11",
+      "prerequisiteId": "ct_yw_g3a_01",
+      "strength": "hard",
+      "reason": "写人从『猜猜他是谁』的片段进阶到一事见特点的完整段落"
+    },
+    {
+      "topicId": "ct_yw_g3b_12",
+      "prerequisiteId": "ct_yw_g3b_10",
+      "strength": "hard",
+      "reason": "反转想象是奇妙想象的特定范式：同一单元（第五单元）内递进"
+    },
+    {
+      "topicId": "ct_yw_g3b_13",
+      "prerequisiteId": "ct_yw_g3a_13",
+      "strength": "hard",
+      "reason": "古诗积累继续，新增节日主题的文化理解维度"
+    },
+    {
+      "topicId": "ct_yw_g3b_13",
+      "prerequisiteId": "ct_yw_g2b_21",
+      "strength": "soft",
+      "reason": "节日习俗常识帮助读懂节日诗中的民俗细节"
+    },
+    {
+      "topicId": "ct_yw_g3b_14",
+      "prerequisiteId": "ct_yw_g3a_16",
+      "strength": "hard",
+      "reason": "说明性课文的『几方面写清楚』依赖关键语句意识"
+    },
+    {
+      "topicId": "ct_yw_g3b_15",
+      "prerequisiteId": "ct_yw_g3a_10",
+      "strength": "hard",
+      "reason": "观察方法（连续观察）是读懂实验类科普文的前提"
+    },
+    {
+      "topicId": "ct_yw_g3b_15",
+      "prerequisiteId": "ct_yw_g3b_14",
+      "strength": "soft",
+      "reason": "说明性文章的『特点+证据』结构同样适用于科普文"
+    },
+    {
+      "topicId": "ct_yw_g3b_16",
+      "prerequisiteId": "ct_yw_g2b_08",
+      "strength": "hard",
+      "reason": "儿童诗朗诵从二年级的想象画面进阶到意境感受"
+    },
+    {
+      "topicId": "ct_yw_g3b_17",
+      "prerequisiteId": "ct_yw_g2b_18",
+      "strength": "hard",
+      "reason": "推荐春游地点是推荐动画片的场景迁移，理由要求更高"
+    },
+    {
+      "topicId": "ct_yw_g3b_18",
+      "prerequisiteId": "ct_yw_g3a_19",
+      "strength": "hard",
+      "reason": "『该不该』讨论要求两面说理，比单方发表看法升级"
+    },
+    {
+      "topicId": "ct_yw_g3b_19",
+      "prerequisiteId": "ct_yw_g2a_13",
+      "strength": "hard",
+      "reason": "劝告的友善语气延续商量的语用规则"
+    },
+    {
+      "topicId": "ct_yw_g3b_20",
+      "prerequisiteId": "ct_yw_g2a_15",
+      "strength": "soft",
+      "reason": "留言条格式训练过冒号等标点的规范，引语转换在此基础上展开"
+    },
+    {
+      "topicId": "ct_yw_g3b_21",
+      "prerequisiteId": "ct_yw_g3a_22",
+      "strength": "hard",
+      "reason": "朗读自查修改升级为符号化规范修改"
+    },
+    {
+      "topicId": "ct_yw_g3b_22",
+      "prerequisiteId": "ct_yw_g3a_23",
+      "strength": "hard",
+      "reason": "从整本童话到寓言文集，课外阅读体例再扩"
+    },
+    {
+      "topicId": "ct_yw_g3b_23",
+      "prerequisiteId": "ct_yw_g3a_24",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进"
+    },
+    {
+      "topicId": "ct_yw_g3b_24",
+      "prerequisiteId": "ct_yw_g3a_16",
+      "strength": "hard",
+      "reason": "句序整理是关键语句段落意识的反向操作：从句到段复原"
+    },
+    {
+      "topicId": "ct_yw_g3b_24",
+      "prerequisiteId": "ct_yw_g3b_03",
+      "strength": "soft",
+      "reason": "复述的顺序感与句序排列共用顺序逻辑"
     }
   ]
 }
