@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.25.0",
+  "version": "1.26.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1524,
+  "edgeCount": 1538,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9147,6 +9147,90 @@
       "prerequisiteId": "ct_yy_g3a_15",
       "strength": "hard",
       "reason": "词汇自查跨册累进（70→140）"
+    },
+    {
+      "topicId": "ct_yy_g4a_01",
+      "prerequisiteId": "ct_yy_g3a_06",
+      "strength": "hard",
+      "reason": "复数概念的词汇基础是三上三下的数字与物品词"
+    },
+    {
+      "topicId": "ct_yy_g4a_02",
+      "prerequisiteId": "ct_yy_g3b_02",
+      "strength": "hard",
+      "reason": "he/she 指认家人的经验升级为 has/his/her 的第三人称描述"
+    },
+    {
+      "topicId": "ct_yy_g4a_03",
+      "prerequisiteId": "ct_yy_g4a_02",
+      "strength": "hard",
+      "reason": "性格形容词叠加在外貌描述框架上（is + 性格 / has + 外貌）"
+    },
+    {
+      "topicId": "ct_yy_g4a_04",
+      "prerequisiteId": "ct_yy_g3b_04",
+      "strength": "hard",
+      "reason": "Where is... 单数问法扩展到 is/are 的单复数选择"
+    },
+    {
+      "topicId": "ct_yy_g4a_04",
+      "prerequisiteId": "ct_yy_g4a_01",
+      "strength": "hard",
+      "reason": "单复数概念直接决定 is/are 的选用"
+    },
+    {
+      "topicId": "ct_yy_g4a_05",
+      "prerequisiteId": "ct_yy_g3a_07",
+      "strength": "hard",
+      "reason": "I'd like 点餐表达在 I like 食物表达之上增加意愿与礼貌层级"
+    },
+    {
+      "topicId": "ct_yy_g4a_06",
+      "prerequisiteId": "ct_yy_g3b_02",
+      "strength": "hard",
+      "reason": "介绍家人职业延续家庭话题词汇线"
+    },
+    {
+      "topicId": "ct_yy_g4a_07",
+      "prerequisiteId": "ct_yy_g3b_07",
+      "strength": "hard",
+      "reason": "短元音 CVC 拼读之后学习 magic e 长音规则"
+    },
+    {
+      "topicId": "ct_yy_g4a_08",
+      "prerequisiteId": "ct_yy_g3a_10",
+      "strength": "hard",
+      "reason": "「听大意」升级为「定向抓关键词」的策略性听力"
+    },
+    {
+      "topicId": "ct_yy_g4a_09",
+      "prerequisiteId": "ct_yy_g3b_09",
+      "strength": "hard",
+      "reason": "情境综合问答升级为采访—记录—介绍的完整任务链"
+    },
+    {
+      "topicId": "ct_yy_g4a_10",
+      "prerequisiteId": "ct_yy_g3b_10",
+      "strength": "hard",
+      "reason": "句子抄写规范为受控仿写打底"
+    },
+    {
+      "topicId": "ct_yy_g4a_10",
+      "prerequisiteId": "ct_yy_g4a_02",
+      "strength": "soft",
+      "reason": "仿写 My friend 直接调用 has/his/her 句型"
+    },
+    {
+      "topicId": "ct_yy_g4a_11",
+      "prerequisiteId": "ct_yy_g3b_11",
+      "strength": "hard",
+      "reason": "文化角从节日家庭扩展到饮食与餐桌习惯"
+    },
+    {
+      "topicId": "ct_yy_g4a_12",
+      "prerequisiteId": "ct_yy_g3b_12",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（140→210），新增造句要求"
     }
   ]
 }

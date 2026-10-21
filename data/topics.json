@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.25.0",
+  "version": "1.26.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1043,
+  "topicCount": 1055,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -32255,6 +32255,379 @@
       },
       "prerequisites": [
         "ct_yy_g3a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "名词单复数初步：What's in the classroom?",
+      "description": "掌握教室物品词（window、board、picture、light）和单复数变化（one light → three lights），能问 What's in your classroom? 并用 There is/are… 或直接名词回答。数一数教室里的东西——名词的复数 -s 第一次系统登场。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能给 10 个物品词变复数（读音分组 s/z/iz）",
+        "能问答教室里有什么"
+      ],
+      "assessmentPrompt": "问{{name}}：What's in your classroom? 引导用 three lights / two blackboards 回答；再问 lights 和 desks 哪个读 /ts/ 哪个读 /dz/。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 1 My classroom",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "has 描述他人：He has short hair",
+      "description": "用 has/have 描述人物外貌（He has short hair and big eyes. She has glasses.）——第三人称单数 has 的第一次正式亮相，还有物主代词 his/her 的搭配。描述他人是四年级的核心跨越：主语从 I 变成 he/she。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用 has 正确描述三位不同人物",
+        "his/her 与人物性别匹配无误"
+      ],
+      "assessmentPrompt": "请{{name}}描述一位家人和一位同学各两句（He has... His...）；故意问 She has short hair, her hair is long 对吗？",
+      "standards": [
+        "csenglish-2022:S2.GR.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 3 My friends",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "性格形容词与朋友描述",
+      "description": "掌握性格词（friendly、quiet、strong、tall）并组合外貌与性格描述朋友（My friend is quiet. She has long hair.）。从外观到内在——描述人的词汇立体起来。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能用四个以上形容词描述朋友",
+        "描述有外貌有性格两层"
+      ],
+      "assessmentPrompt": "玩「猜猜他是谁」：{{name}}用三句英语描述一位家人（不点名），你来猜；猜中交换。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 3 My friends",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "房间与 Where is/are...? 的单复数选择",
+      "description": "掌握房间词（bedroom、living room、kitchen、study、bathroom）和 Where is the...? / Where are the...? 的单复数问法（is 配单数 are 配复数）。找人的句型 Is she in the kitchen? — Yes, she is. 家的地图用英语展开。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出五个房间的名称",
+        "能根据物品单复数正确选用 is/are 提问"
+      ],
+      "assessmentPrompt": "藏两样东西（一本书、几支笔）分别问{{name}} Where is the book? / Where are the pencils? 看问句动词选择是否正确。",
+      "standards": [
+        "csenglish-2022:S2.GR.02",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 4 My home",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_04",
+        "ct_yy_g4a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "用餐点单：What would you like?",
+      "description": "掌握食物词（beef、chicken、noodles、soup、vegetable）和礼貌点餐句型 What would you like for dinner? — I'd like some soup, please. Would you like...? 从「我喜欢」（like）到「我想要」（I'd like）——餐厅英语的完整一课。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能当服务员和顾客完成四轮点餐对话",
+        "能区分 What do you like 与 What would you like 的使用场合"
+      ],
+      "assessmentPrompt": "开家庭英语餐厅：{{name}}当服务员问 What would you like? 家人点三种食物，看应答与 I'd like 是否自然。",
+      "standards": [
+        "csenglish-2022:S2.GR.03",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 5 Dinner's ready",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "职业词汇与 What's your father's job?",
+      "description": "掌握职业词（doctor、nurse、driver、farmer、cook、football player）和问职业的两种问法 What's your father's job? / What's your mother?（省略式）。谈论家人的职业——介绍家庭的最后一块拼图。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出六种职业",
+        "能用两种问法询问并介绍家人职业"
+      ],
+      "assessmentPrompt": "请{{name}}介绍全家：This is my father. He's a driver... 说完问{{name}}：姑姑是护士怎么问？",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 6 Meet my family",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_07",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "Magic e：a_e/e_e/i_e/o_e/u_e 长音",
+      "description": "掌握「神奇 e」拼读规则：cake、these、kite、note、use——结尾的 e 不发音却让元音读长音（a/e/i/o/u 的字母本音）。对比 hat→hate、kit→kite，拼读引擎升档：见词能读的词库翻倍。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能对比朗读五组短长音词对（hat/hate）",
+        "能拼读带 magic e 的新词（mule、robe）"
+      ],
+      "assessmentPrompt": "写 kit/kite、hop/hope、cut/cute 请{{name}}对比朗读；再考新词 tape 看会不会按长音读。",
+      "standards": [
+        "csenglish-2022:S2.PH.02",
+        "csenglish-2022:S3.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "各单元 Let's spell",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听力抓关键词：数字、颜色、位置",
+      "description": "听对话时定向抓关键词：数字（几个人/几样东西）、颜色、位置（in/on/under/near）——不逐词听懂也能答对题。听力策略的第一课：先看题预测要抓什么。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "听前能圈出题目要抓的信息类型",
+        "听两遍能答对三处关键信息"
+      ],
+      "assessmentPrompt": "给{{name}}听一段「找钥匙」对话，先看问题 Where are the keys? 再听，听完只答位置——练习定向抓词。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "各单元 Let's talk / 听力活动",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "采访与介绍：朋友和家庭",
+      "description": "做小采访：问同学/家人的外貌、性格、职业并整理成介绍（This is my friend Lily. She has... She is...）。综合输出训练——问、听、记、说四步连贯。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能设计三个采访问题",
+        "能根据记录做四句以上的连贯介绍"
+      ],
+      "assessmentPrompt": "请{{name}}采访两位家人（职业+爱好各一问），用笔记关键词，然后连起来介绍：My mother is a... She likes...",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Recycle & 单元任务",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "从抄写到仿写：My friend 三句话",
+      "description": "写作起步：仿照课文写三句话小段（My friend is... He/She has... His/Her... is...）。第一次「用英语写自己想写的」——从机械抄写跨到受控仿写。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能独立写出描写朋友的三句话",
+        "大小写、标点、单复数错误不超过两处"
+      ],
+      "assessmentPrompt": "请{{name}}写 My friend 三句话（是谁+外貌+性格），写完一起数错误类型（大小写/has/is）。",
+      "standards": [
+        "csenglish-2022:S2.WR.01",
+        "csenglish-2022:S3.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "各单元书写与仿写任务",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_10",
+        "ct_yy_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_11",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化：刀叉与筷子",
+      "description": "了解西餐餐具表达（knife、fork、spoon、chopsticks）与用餐习惯差异（Would you like some... 的待客语、help yourself 的用法）。饮食文化是文化意识最好的入口——饭桌上聊英语。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出四种餐具",
+        "会用 Help yourself! 和 Thank you 待客应答"
+      ],
+      "assessmentPrompt": "晚饭摆上筷子问{{name}}：筷子用英语怎么说？再拿叉子问 What's this? 请{{name}}教家人说 Help yourself! 并应答。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "Unit 5 文化内容",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g4a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "四上词汇自查：累计约 210 词",
+      "description": "四年级上册新增约 70 词（教室、房间、食物、职业、性格），累计约 210。自查重点从「认」进到「用」——能造句的词才是自己的词。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "图卡认词正确率 85% 以上",
+        "能任选 10 词各说一句含该词的句子"
+      ],
+      "assessmentPrompt": "抽 20 张图卡认词；再指定 farmer、kitchen、noodles 等 8 词请{{name}}各造一句。",
+      "standards": [
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_12"
       ]
     }
   ]
