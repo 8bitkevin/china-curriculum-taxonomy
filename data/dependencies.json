@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.40.0",
+  "version": "1.41.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1751,
+  "edgeCount": 1763,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10509,6 +10509,78 @@
       "prerequisiteId": "ct_yy_g11b_07",
       "strength": "soft",
       "reason": "熟词生义与近义辨析正是完形词汇关的弹药"
+    },
+    {
+      "topicId": "ct_yy_g12a_01",
+      "prerequisiteId": "ct_yy_g8a_10",
+      "strength": "hard",
+      "reason": "真实条件句（if + will）之后学非真实条件：虚拟语气三档"
+    },
+    {
+      "topicId": "ct_yy_g12a_02",
+      "prerequisiteId": "ct_yy_g12a_01",
+      "strength": "hard",
+      "reason": "if 型虚拟的时态逻辑延伸到 wish/as if/suggest 固定阵地"
+    },
+    {
+      "topicId": "ct_yy_g12a_03",
+      "prerequisiteId": "ct_yy_g11a_07",
+      "strength": "soft",
+      "reason": "长难句分析能力帮助识别倒装结构的真实主语"
+    },
+    {
+      "topicId": "ct_yy_g12a_04",
+      "prerequisiteId": "ct_yy_g10b_07",
+      "strength": "hard",
+      "reason": "互联网话题的利弊对比阅读经验迁移到科技变革语篇的批判阅读"
+    },
+    {
+      "topicId": "ct_yy_g12a_05",
+      "prerequisiteId": "ct_yy_g11a_07",
+      "strength": "hard",
+      "reason": "主旨句抓取能力是概要写作的第一步"
+    },
+    {
+      "topicId": "ct_yy_g12a_05",
+      "prerequisiteId": "ct_yy_g11a_10",
+      "strength": "soft",
+      "reason": "语境猜词与复述能力支持 paraphrase 改写"
+    },
+    {
+      "topicId": "ct_yy_g12a_06",
+      "prerequisiteId": "ct_yy_g10a_11",
+      "strength": "hard",
+      "reason": "presentation 的自信表达延伸到面试场景的自我推销"
+    },
+    {
+      "topicId": "ct_yy_g12a_07",
+      "prerequisiteId": "ct_yy_g10b_05",
+      "strength": "hard",
+      "reason": "文化遗产语篇（必修二）扩展到地理奇观与文明叙事"
+    },
+    {
+      "topicId": "ct_yy_g12a_08",
+      "prerequisiteId": "ct_yy_g10a_09",
+      "strength": "hard",
+      "reason": "词块起步之后升级为语义场网络化的词汇组织"
+    },
+    {
+      "topicId": "ct_yy_g12a_09",
+      "prerequisiteId": "ct_yy_g10b_12",
+      "strength": "hard",
+      "reason": "说明文结构（必修二）延伸到议论文论证结构"
+    },
+    {
+      "topicId": "ct_yy_g12a_10",
+      "prerequisiteId": "ct_yy_g12a_09",
+      "strength": "hard",
+      "reason": "读议论文的结构框架直接指导议论文段落的写作"
+    },
+    {
+      "topicId": "ct_yy_g12a_10",
+      "prerequisiteId": "ct_yy_g11b_09",
+      "strength": "soft",
+      "reason": "口头让步转折的论证式表达迁移到书面议论文段落"
     }
   ]
 }

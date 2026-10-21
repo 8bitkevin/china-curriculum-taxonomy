@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.40.0",
+  "version": "1.41.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1232,
+  "topicCount": 1242,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -38161,6 +38161,322 @@
       "prerequisites": [
         "ct_yy_g11a_07",
         "ct_yy_g11b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "虚拟语气一：if 型非真实条件句",
+      "description": "掌握 if 虚拟条件句三档：与现在相反（If I were you, I would go.）、与过去相反（If he had studied, he would have passed.）、与将来相反。从「真实条件」（八上 if...will）到「非真实条件」——英语的「假如人生」。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "三档虚拟填空 12 题对 10",
+        "能用虚拟说两句「如果当时…」的遗憾"
+      ],
+      "assessmentPrompt": "考{{name}}：If I ___ (be) you, I ___ (accept). / If he ___ (leave) earlier yesterday, he ___ (catch) the train. 两档各一。",
+      "standards": [
+        "hsenglish-2017:H2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二语法板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g8a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "虚拟语气二：wish、as if 与建议类",
+      "description": "掌握虚拟的固定阵地：I wish I were...（现在）/ I wish I had...（过去）、as if 从句、suggest/insist/order 后 (should) do 的虚拟。遗憾、想象、建议——虚拟语气的三大表情。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "wish 三档时态使用正确",
+        "suggest 后虚拟（should 省略）会判断"
+      ],
+      "assessmentPrompt": "考{{name}}：I wish I ___ (know) the answer now（现在虚拟）；The doctor suggested he ___ (rest). 说 wish 两种时态差在哪。",
+      "standards": [
+        "hsenglish-2017:H2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二语法板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "倒装初步：否定词与 here/there 开头",
+      "description": "掌握部分倒装：Never have I seen... / Not only did he..., but... / Here comes the bus.——否定词前置或方位词开头的句子主谓要「翻个个儿」。强调与修辞的语法手段，写作提分的显性标志。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "倒装句式转换 10 题对 8",
+        "作文能用一处倒装提升句式"
+      ],
+      "assessmentPrompt": "考{{name}}：I have never been abroad. 改 Never 开头；Only then ___ he realize... 的填空。",
+      "standards": [
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二语法板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：科技与生活变革",
+      "description": "读科技语篇（AI、机器人、未来城市）：科技利弊的论证结构（claim—evidence—counterargument）。科技说明文的批判性阅读——技术乐观与审慎的平衡。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理「观点—证据—反方」结构",
+        "能就一项技术说利弊各两句"
+      ],
+      "assessmentPrompt": "给{{name}}读 AI 语篇：作者的态度是乐观还是审慎？哪句是让步？你怎么看，用 Admittedly... However... 说。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二科技单元",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_05",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "概要写作初步：paraphrase 与压缩",
+      "description": "概要写作第一课：抓每段主旨句 → paraphrase（换词换句式不换意）→ 60 词串联成篇。高考新题型的底层能力：把 300 词读成 60 词——理解力与改写力的双考。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能把一段 60 词文字压缩到 20 词且保意",
+        "paraphrase 三种手段（同义词/换句式/换主语）各用一次"
+      ],
+      "assessmentPrompt": "给{{name}}一篇 250 词短文：先各段一句主旨，再合成 60 词概要；检查有没有照抄原句。",
+      "standards": [
+        "hsenglish-2017:H2.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Reading for Writing",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_07",
+        "ct_yy_g11a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_06",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：面试英语与自我推销",
+      "description": "面试场景英语：自我介绍（优势+实例）、应对「缺点」问题（坦诚+改进）、追问细节的从容。自我推销的语用艺术——谦逊文化里的英语自信。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能做 1 分钟自我介绍（优势配实例）",
+        "能得体回答「你最大的缺点」"
+      ],
+      "assessmentPrompt": "模拟社团/夏校面试：请{{name}}自我介绍后回答 What's your weakness?——听是否坦诚且带改进。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二听说板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：地理奇观与文明遗产",
+      "description": "读地理与文明语篇（丝绸之路、世界遗产地）：时空双线说明文（历史线+空间线）的读法，专有名词的定位与指代。文明叙事的英语表达——从课本走向世界的阅读视野。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理时空双线结构图",
+        "能复述一处遗产的价值三句"
+      ],
+      "assessmentPrompt": "给{{name}}读丝绸之路语篇：画时间线和路线图；问为什么它是 world heritage？",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二相关单元",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_08",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "语义场与主题词块网络",
+      "description": "词汇组织的高级形态：语义场（同义/反义/上下义成网：protect—preserve—conserve）与主题词块串（environment 主题 30 词块）。单词不再是点，是网——3500 词的目标这样达成。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能画一个主题的词汇网（15 词以上）",
+        "能辨析三个「保护」近义词的搭配差"
+      ],
+      "assessmentPrompt": "请{{name}}以 technology 为中心画词汇网（下义词/搭配/反义），再辨析 discover/invent/create。",
+      "standards": [
+        "hsenglish-2017:H4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "各单元词汇板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：议论文论证结构（论点-论据-结论）",
+      "description": "议论文语篇的结构解剖：找中心论点（标题/首尾段）、分论点（各段首句）、论据类型（数据/事例/权威引用）。为概要写作和读后续写供结构视野——读懂「怎么论证」才能写出「怎么论证」。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能画出议论文论证框架图",
+        "能判断论据类型各一处"
+      ],
+      "assessmentPrompt": "给{{name}}一篇议论文：画出「论点—三个分论点—论据类型」框架图，并指出最强的论据。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "各单元 Reading and Thinking",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：议论文段落（观点-论据-分析）",
+      "description": "英文议论文段落的三件套：topic sentence（观点句）→ supporting sentences（论据 2-3 条）→ concluding sentence（小结句）。段落是作文的原子——一段写扎实，全文就成功一半。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能写一个三件套完整的议论文段落（80 词）",
+        "论据含至少一个事例或数据表述"
+      ],
+      "assessmentPrompt": "请{{name}}写「纸质书不会消失」论点段：观点句+两条论据（其一为事例）+小结句。",
+      "standards": [
+        "hsenglish-2017:H4.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二写作板块",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_09",
+        "ct_yy_g12a_09"
       ]
     }
   ]
