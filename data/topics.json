@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.30.0",
+  "version": "1.31.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1103,
+  "topicCount": 1113,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -34122,6 +34122,322 @@
       },
       "prerequisites": [
         "ct_yy_g5b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "比较级：How tall are you? I'm taller",
+      "description": "掌握比较级构成（tall→taller、big→bigger 重读闭音节双写、heavy→heavier 变 y 为 i）和问答 How tall are you? — I'm 1.61 metres. / Who is taller, John or Jim? 加 -er 的比较——描述世界从「是什么样」到「谁更怎么样」。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说三组比较句（A is taller than B）",
+        "三类变化规则（加 er/双写/变y）各对一词"
+      ],
+      "assessmentPrompt": "让{{name}}和家人背靠背量身高，然后用英语说三句比较（Dad is taller than me. ...）；考拼写 big→? heavy→?",
+      "standards": [
+        "csenglish-2022:S4.GR.05",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 1 How tall are you?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "一般过去时（规则动词）：Last weekend",
+      "description": "掌握一般过去时规则变化（clean→cleaned、stay→stayed、wash→washed）和问答 How was your weekend? — It was good. / What did you do? — I cleaned my room and watched TV. 时态家族第四位、小学最重要的一位：讲昨天的事。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用-ed 正确说五件昨天做的事",
+        "did 引导的问句动词还原（What did you do? 不说 did you did）"
+      ],
+      "assessmentPrompt": "问{{name}}：What did you do last weekend? 连问两轮；再考：I watched TV yesterday 改成疑问句。",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S3.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 2 Last weekend",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_01",
+        "ct_yy_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "过去时疑问与否定：Where did you go?",
+      "description": "掌握过去时的特殊疑问（Where did you go? What did you do there?）与否定（I didn't go anywhere.）——did 一出现动词就还原，这是过去时问答的铁律。假期见闻的完整问答装备。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能完成假期三连问（去哪/干嘛/怎么去）",
+        "否定 didn't + 原形无误"
+      ],
+      "assessmentPrompt": "问{{name}}：Where did you go last holiday? What did you do? How did you go there? 三连问看动词还原。",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S3.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 3 Where did you go?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_04",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "不规则动词过去式：went、rode、ate",
+      "description": "掌握高频不规则过去式：go→went、eat→ate、take→took、ride→rode、buy→bought、see→saw、have→had。不规则动词靠积累——六下先建第一批 15 个，初中继续扩。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能对 15 组原形-过去式快速配对",
+        "能在过去时句中正确使用不规则式"
+      ],
+      "assessmentPrompt": "玩「动词扑克」：出原形卡{{name}}说过去式（go!—went!）15 张限时一分钟；再造一句 I went to the park.",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 3-4",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "Then and now：今昔对比",
+      "description": "用 there was/were... now there is/are... 描述变化（Twenty years ago, there was no computer. Now we have...）——过去时与现在时的同台对照，时空穿越的语法课，也是成长话题的最好载体。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用 was/were 与 is/are 各写两句对比",
+        "过去与现在时态不混用"
+      ],
+      "assessmentPrompt": "翻爸爸妈妈的老照片问{{name}}：What was there in the old photo? Now? 用 There was... Now there is... 各说两句。",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S3.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 4 Then and now",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_05",
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_06",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "假期采访：过去的完整叙事",
+      "description": "综合采访：用过去时完整采访家人的假期（When did you go? Where? What did you do? How was it?）并汇报。过去时从问答升级为「讲一段往事」——叙事能力的小学毕业考。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "四连问流利不打结",
+        "能汇总成五句汇报（Last summer, Mum went to...）"
+      ],
+      "assessmentPrompt": "请{{name}}采访长辈的一次旅行（四问），再向你汇报五句，全程过去时；错一处时态记一分。",
+      "standards": [
+        "csenglish-2022:S3.LS.01",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 3 综合任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_08",
+        "ct_yy_g6b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_07",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "毕业长文：Mike's happy days",
+      "description": "读 Recycle 部分的长故事（Mike 的毕业季，150 词左右，综合四单元语法）：理解情节、完成练习、能复述大意。小学英语阅读的毕业卷——篇幅与综合度都是新高。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能独立读完 150 词故事并答对三题",
+        "能用四句话复述"
+      ],
+      "assessmentPrompt": "给{{name}}限时 5 分钟读 Mike 的毕业故事，答：他们去了哪？做了三件什么事？Mike 的感受？",
+      "standards": [
+        "csenglish-2022:S3.RD.01",
+        "csenglish-2022:S2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Recycle Mike's happy days",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_09",
+        "ct_yy_g6b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：My last weekend（过去时成篇）",
+      "description": "用一般过去时写上周末（周六周日各两三件事+心情）：I cleaned my room. Then I went to the park. 时态一致的五句以上成篇——小学英语写作的收官标准。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "五句以上过去时叙事且时态不漂移",
+        "动词过去式拼写错误不超过两处"
+      ],
+      "assessmentPrompt": "请{{name}}写 My last weekend 六句：两件周六的事、两件周日的事、一句总评 It was...!；逐句检查动词。",
+      "standards": [
+        "csenglish-2022:S3.WR.01",
+        "csenglish-2022:S4.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Unit 2 写作任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_10",
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_09",
+      "type": "META",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "小初衔接：时态与句型总图",
+      "description": "毕业总梳理：①时态地图（现在/进行/将来/过去——各配一个标志句）②句型地图（问答系统 20 组）③词汇网（话题群 ×12）。知道自己有什么，才知道初中要加什么——自主学习的第一张地图。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能画出四大时态的思维导图并各造一句",
+        "能按话题群默出 100 词以上"
+      ],
+      "assessmentPrompt": "请{{name}}做「英语小学毕业图」：四大时态各写一个标志句+时间标志词；12 个话题群各列五词。装订成册。",
+      "standards": [
+        "csenglish-2022:S3.GR.05",
+        "csenglish-2022:S4.GR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "Recycle 总复习",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_12",
+        "ct_yy_g6b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g6b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "小学英语词汇收官：累计约 550 词",
+      "description": "四年英语学习的词汇终点：累计约 550 词（课标二级目标内）。四会词汇 350 以上——从字母表到能写过去时小作文，这是小学英语的完整轨迹。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "认词 90% + 默写 80% 以上",
+        "能就十个话题各做一段四句对话"
+      ],
+      "assessmentPrompt": "给{{name}}做小学词汇总测：图卡 30 张 + 听写 20 词 + 三个话题情境对话——毕业评估三件套。",
+      "standards": [
+        "csenglish-2022:S3.VB.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_12"
       ]
     }
   ]

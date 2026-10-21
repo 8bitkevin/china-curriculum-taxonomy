@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.30.0",
+  "version": "1.31.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1598,
+  "edgeCount": 1614,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9591,6 +9591,102 @@
       "prerequisiteId": "ct_yy_g5b_12",
       "strength": "hard",
       "reason": "词汇自查跨册累进（430→500），新增话题群分类管理"
+    },
+    {
+      "topicId": "ct_yy_g6b_01",
+      "prerequisiteId": "ct_yy_g4a_03",
+      "strength": "hard",
+      "reason": "形容词描述词汇是比较级的词基，比较对象句型在描述句上加 than"
+    },
+    {
+      "topicId": "ct_yy_g6b_02",
+      "prerequisiteId": "ct_yy_g5b_01",
+      "strength": "hard",
+      "reason": "一般现在时谈惯例之后，过去时谈已发生：时间轴向后延伸"
+    },
+    {
+      "topicId": "ct_yy_g6b_02",
+      "prerequisiteId": "ct_yy_g5b_05",
+      "strength": "soft",
+      "reason": "be 动词时态经验（is drinking → was）帮助理解 did 的助动词角色"
+    },
+    {
+      "topicId": "ct_yy_g6b_03",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "hard",
+      "reason": "规则过去时陈述句之后学疑问否定式（did 还原律）"
+    },
+    {
+      "topicId": "ct_yy_g6b_04",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "hard",
+      "reason": "不规则过去式与规则变化同属过去时动词体系"
+    },
+    {
+      "topicId": "ct_yy_g6b_05",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "hard",
+      "reason": "今昔对比综合运用过去时与现在时"
+    },
+    {
+      "topicId": "ct_yy_g6b_05",
+      "prerequisiteId": "ct_yy_g5a_05",
+      "strength": "hard",
+      "reason": "There is/are 的现在存在句扩展为 There was/were 的过去存在句"
+    },
+    {
+      "topicId": "ct_yy_g6b_06",
+      "prerequisiteId": "ct_yy_g6b_03",
+      "strength": "hard",
+      "reason": "假期采访直接运用过去时疑问句系统"
+    },
+    {
+      "topicId": "ct_yy_g6b_06",
+      "prerequisiteId": "ct_yy_g6a_08",
+      "strength": "soft",
+      "reason": "出行商议（将来）与假期回顾（过去）构成时间线上的两种任务"
+    },
+    {
+      "topicId": "ct_yy_g6b_07",
+      "prerequisiteId": "ct_yy_g6a_09",
+      "strength": "hard",
+      "reason": "信件阅读升级到 150 词长故事的综合阅读"
+    },
+    {
+      "topicId": "ct_yy_g6b_07",
+      "prerequisiteId": "ct_yy_g6b_04",
+      "strength": "soft",
+      "reason": "长故事中大量出现不规则过去式"
+    },
+    {
+      "topicId": "ct_yy_g6b_08",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "hard",
+      "reason": "过去时写作是规则动词过去句型的书面成篇"
+    },
+    {
+      "topicId": "ct_yy_g6b_08",
+      "prerequisiteId": "ct_yy_g6a_10",
+      "strength": "hard",
+      "reason": "计划类写作（将来）之后写回忆类（过去），文体模型复用"
+    },
+    {
+      "topicId": "ct_yy_g6b_09",
+      "prerequisiteId": "ct_yy_g6b_05",
+      "strength": "hard",
+      "reason": "四大时态地图以今昔对比的完整运用为整合点"
+    },
+    {
+      "topicId": "ct_yy_g6b_09",
+      "prerequisiteId": "ct_yy_g6a_12",
+      "strength": "soft",
+      "reason": "话题群词汇管理升级为毕业知识总图"
+    },
+    {
+      "topicId": "ct_yy_g6b_10",
+      "prerequisiteId": "ct_yy_g6a_12",
+      "strength": "hard",
+      "reason": "词汇自查收官（500→550），小学词汇总量达成"
     }
   ]
 }
