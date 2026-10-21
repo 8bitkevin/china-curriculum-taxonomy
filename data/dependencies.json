@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.15.0",
+  "version": "0.16.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 721,
+  "edgeCount": 767,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -4329,6 +4329,282 @@
       "prerequisiteId": "ct_g7b_24",
       "strength": "soft",
       "reason": "随机抽样的思想（七下统计）与频率稳定性互为表里"
+    },
+    {
+      "topicId": "ct_g9b_01",
+      "prerequisiteId": "ct_g6b_11",
+      "strength": "hard",
+      "reason": "小学反比例（积一定）是反比例函数的现实原型（跨学段衔接：反比例→反比例函数）"
+    },
+    {
+      "topicId": "ct_g9b_01",
+      "prerequisiteId": "ct_g8b_14",
+      "strength": "hard",
+      "reason": "反比例函数在函数概念框架内定义"
+    },
+    {
+      "topicId": "ct_g9b_02",
+      "prerequisiteId": "ct_g9b_01",
+      "strength": "hard",
+      "reason": "图象性质是概念的几何呈现，描点画法沿用"
+    },
+    {
+      "topicId": "ct_g9b_02",
+      "prerequisiteId": "ct_g9a_08",
+      "strength": "soft",
+      "reason": "与抛物线对照研究（连续曲线、渐近特征）"
+    },
+    {
+      "topicId": "ct_g9b_03",
+      "prerequisiteId": "ct_g9b_02",
+      "strength": "hard",
+      "reason": "k 的几何意义从图象与矩形的关系读出"
+    },
+    {
+      "topicId": "ct_g9b_03",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "soft",
+      "reason": "面积分析依赖坐标系中画垂线与读坐标"
+    },
+    {
+      "topicId": "ct_g9b_04",
+      "prerequisiteId": "ct_g9b_03",
+      "strength": "hard",
+      "reason": "综合应用以反比例函数图象与性质为主体"
+    },
+    {
+      "topicId": "ct_g9b_04",
+      "prerequisiteId": "ct_g8b_19",
+      "strength": "hard",
+      "reason": "与一次函数联立求交点，沿用函数与方程关系的方法"
+    },
+    {
+      "topicId": "ct_g9b_05",
+      "prerequisiteId": "ct_g6b_14",
+      "strength": "hard",
+      "reason": "小学图形的放大缩小（按比缩放）正是相似变换（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9b_05",
+      "prerequisiteId": "ct_g8a_05",
+      "strength": "soft",
+      "reason": "全等（相似比 1）是相似的特例，概念对照建立"
+    },
+    {
+      "topicId": "ct_g9b_06",
+      "prerequisiteId": "ct_g9b_05",
+      "strength": "hard",
+      "reason": "平行分线段成比例是相似判定与计算的基础工具"
+    },
+    {
+      "topicId": "ct_g9b_06",
+      "prerequisiteId": "ct_g7b_05",
+      "strength": "hard",
+      "reason": "成比例关系的证明依赖平行线的性质与判定"
+    },
+    {
+      "topicId": "ct_g9b_07",
+      "prerequisiteId": "ct_g9b_06",
+      "strength": "hard",
+      "reason": "判定定理（如两边成比例夹角相等）的证明用平行分线段成比例"
+    },
+    {
+      "topicId": "ct_g9b_08",
+      "prerequisiteId": "ct_g9b_07",
+      "strength": "hard",
+      "reason": "性质建立在判定出的相似关系之上"
+    },
+    {
+      "topicId": "ct_g9b_08",
+      "prerequisiteId": "ct_g5a_20",
+      "strength": "soft",
+      "reason": "面积比等于相似比平方与小学面积公式（底高乘积）的解释一致"
+    },
+    {
+      "topicId": "ct_g9b_09",
+      "prerequisiteId": "ct_g9b_08",
+      "strength": "hard",
+      "reason": "测量应用直接运用相似对应边成比例"
+    },
+    {
+      "topicId": "ct_g9b_10",
+      "prerequisiteId": "ct_g9b_09",
+      "strength": "hard",
+      "reason": "位似是特殊的相似，应用经验之后学习坐标化"
+    },
+    {
+      "topicId": "ct_g9b_10",
+      "prerequisiteId": "ct_g7b_14",
+      "strength": "soft",
+      "reason": "坐标变化规律与坐标平移同属图形变化的坐标表示"
+    },
+    {
+      "topicId": "ct_g9b_11",
+      "prerequisiteId": "ct_g9b_05",
+      "strength": "hard",
+      "reason": "黄金分割是比例线段的应用特例"
+    },
+    {
+      "topicId": "ct_g9b_12",
+      "prerequisiteId": "ct_g9b_07",
+      "strength": "hard",
+      "reason": "母子相似是判定（AA）的经典应用场景"
+    },
+    {
+      "topicId": "ct_g9b_12",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "hard",
+      "reason": "射影定理的背景是直角三角形与斜边上的高"
+    },
+    {
+      "topicId": "ct_g9b_13",
+      "prerequisiteId": "ct_g9b_06",
+      "strength": "hard",
+      "reason": "三角函数定义的合理性（角定则比定）由相似保证"
+    },
+    {
+      "topicId": "ct_g9b_13",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "hard",
+      "reason": "三角函数的计算依托直角三角形三边关系（勾股）"
+    },
+    {
+      "topicId": "ct_g9b_14",
+      "prerequisiteId": "ct_g9b_13",
+      "strength": "hard",
+      "reason": "特殊角函数值由定义在特殊三角形中算出"
+    },
+    {
+      "topicId": "ct_g9b_14",
+      "prerequisiteId": "ct_g8a_13",
+      "strength": "soft",
+      "reason": "30° 角直角边关系是 30° 函数值的来源"
+    },
+    {
+      "topicId": "ct_g9b_15",
+      "prerequisiteId": "ct_g9b_14",
+      "strength": "hard",
+      "reason": "同角关系 sin²+cos²=1 的验证与使用都以函数值为对象"
+    },
+    {
+      "topicId": "ct_g9b_15",
+      "prerequisiteId": "ct_g8b_04",
+      "strength": "soft",
+      "reason": "化简中出现的 √2、√3 运算依赖二次根式技能"
+    },
+    {
+      "topicId": "ct_g9b_16",
+      "prerequisiteId": "ct_g9b_15",
+      "strength": "hard",
+      "reason": "解直角三角形综合勾股、互余、三角函数与同角关系"
+    },
+    {
+      "topicId": "ct_g9b_17",
+      "prerequisiteId": "ct_g9b_16",
+      "strength": "hard",
+      "reason": "应用题先画图构造直角三角形再解"
+    },
+    {
+      "topicId": "ct_g9b_17",
+      "prerequisiteId": "ct_g6a_06",
+      "strength": "soft",
+      "reason": "方位角（北偏东等）的描述沿用小学方向角语言"
+    },
+    {
+      "topicId": "ct_g9b_18",
+      "prerequisiteId": "ct_g9b_17",
+      "strength": "hard",
+      "reason": "坡度问题是解直角三角形应用的又一情境（梯形断面常拆成直角三角形）"
+    },
+    {
+      "topicId": "ct_g9b_18",
+      "prerequisiteId": "ct_g8b_11",
+      "strength": "soft",
+      "reason": "大坝断面是梯形，梯形计算经验参与"
+    },
+    {
+      "topicId": "ct_g9b_19",
+      "prerequisiteId": "ct_g9b_16",
+      "strength": "hard",
+      "reason": "圆中的直角三角形（直径所对）是解直角三角形的载体"
+    },
+    {
+      "topicId": "ct_g9b_19",
+      "prerequisiteId": "ct_g9a_18",
+      "strength": "hard",
+      "reason": "圆周角定理（直径对直角）提供现成直角"
+    },
+    {
+      "topicId": "ct_g9b_20",
+      "prerequisiteId": "ct_g7a_19",
+      "strength": "hard",
+      "reason": "投影是三视图的光学原理，七上从三方向看的经验是起点"
+    },
+    {
+      "topicId": "ct_g9b_20",
+      "prerequisiteId": "ct_g9b_09",
+      "strength": "soft",
+      "reason": "平行投影中影长与物高成比例，用相似计算"
+    },
+    {
+      "topicId": "ct_g9b_21",
+      "prerequisiteId": "ct_g9b_20",
+      "strength": "hard",
+      "reason": "三视图是物体在三个方向上的正投影"
+    },
+    {
+      "topicId": "ct_g9b_21",
+      "prerequisiteId": "ct_g7a_19",
+      "strength": "hard",
+      "reason": "三视图画法是七上观察物体（三方向）的规范升级"
+    },
+    {
+      "topicId": "ct_g9b_22",
+      "prerequisiteId": "ct_g9b_21",
+      "strength": "hard",
+      "reason": "还原图形先要规范画出与解读三视图"
+    },
+    {
+      "topicId": "ct_g9b_22",
+      "prerequisiteId": "ct_g6b_24",
+      "strength": "soft",
+      "reason": "表面积体积计算调用柱体锥体公式（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9b_23",
+      "prerequisiteId": "ct_g9b_22",
+      "strength": "hard",
+      "reason": "制作模型是视图还原能力的实践检验"
+    },
+    {
+      "topicId": "ct_g9b_23",
+      "prerequisiteId": "ct_g7a_24",
+      "strength": "soft",
+      "reason": "包装盒制作的展开图经验（七上）在此复用"
+    },
+    {
+      "topicId": "ct_g9b_24",
+      "prerequisiteId": "ct_g9b_04",
+      "strength": "hard",
+      "reason": "图象综合以反比例与一次函数交点问题为素材之一"
+    },
+    {
+      "topicId": "ct_g9b_24",
+      "prerequisiteId": "ct_g9a_11",
+      "strength": "hard",
+      "reason": "二次函数与方程关系是函数图象综合的核心工具"
+    },
+    {
+      "topicId": "ct_g9b_25",
+      "prerequisiteId": "ct_g9b_09",
+      "strength": "hard",
+      "reason": "测量方案之一是相似三角形（影长法）"
+    },
+    {
+      "topicId": "ct_g9b_25",
+      "prerequisiteId": "ct_g9b_17",
+      "strength": "hard",
+      "reason": "测量方案之二是解直角三角形（仰角法）"
     }
   ]
 }

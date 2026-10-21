@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.15.0",
+  "version": "0.16.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 437,
+  "topicCount": 462,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -13431,6 +13431,777 @@
       "prerequisites": [
         "ct_g7b_24",
         "ct_g9a_25"
+      ]
+    },
+    {
+      "id": "ct_g9b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "反比例函数的概念",
+      "description": "y=k/x（k≠0）：x 与 y 的积恒为 k。矩形面积 12，长 y 与宽 x 的关系就是 y=12/x。小学「积一定成反比例」的规律，正式命名为反比例函数（跨学段衔接：反比例→反比例函数）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别反比例函数并求 k",
+        "能根据条件求解析式与自变量取值范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=(m-3)x⁻¹ 是反比例函数，m 是几？压强 F 一定时 p 与 S 是什么关系？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 26,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_11",
+        "ct_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_g9b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "反比例函数的图象与性质（双曲线）",
+      "description": "图象是双曲线：k>0 在一三象限、每支上 y 随 x 增大而减小；k<0 在二四象限、每支上递增。双曲线无限接近坐标轴却永不相交——「渐近」的直观初体验。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出双曲线并说出 k 对位置的影响",
+        "能判断单支上函数值的增减（不跨支比较）"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=6/x 的图象在哪两个象限？在每一支上 y 随 x 增大怎么变？为什么不能笼统说递减？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 26,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_08",
+        "ct_g9b_01"
+      ]
+    },
+    {
+      "id": "ct_g9b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "反比例函数中 k 的几何意义",
+      "description": "双曲线上任一点向两坐标轴作垂线，围成的矩形面积恒等于 |k|，三角形面积等于 |k|/2。点在动、面积不变——「变中不变」的几何锚点，求 k 的快捷通道。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用面积求 k 或求点的坐标",
+        "能说明矩形面积与 k 的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=k/x 上一点与两轴围成的矩形面积是 5，k 是多少（k<0 时）？三角形面积呢？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 26,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_12",
+        "ct_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_g9b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "反比例函数与一次函数的综合应用",
+      "description": "杠杆原理 F₁L₁=F₂L₂、气压与体积……反比例函数建模处处开花。与一次函数联立：交点满足两个方程，双曲线与直线一交还是两交，看图又看数——函数综合题的常驻嘉宾。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能联立方程求交点",
+        "能用函数图象比较大小并解决实际问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=6/x 与 y=x+1 的交点怎么求？当 x>0 时，何时反比例函数值更大？看图说。」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 26,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_19",
+        "ct_g9b_03"
+      ]
+    },
+    {
+      "id": "ct_g9b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形的相似与比例线段",
+      "description": "形状相同的图形相似：对应角相等、对应边成比例。四条线段 a、b、c、d 若 a:b=c:d 就成比例。全等是相似比为 1 的相似——从「完全一样」到「按比例放大缩小」（小学图形放缩的正式化）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断图形是否相似并求相似比",
+        "能进行比例线段的基本运算（含黄金比）"
+      ],
+      "assessmentPrompt": "问{{name}}：「两个相似三角形对应边 3 和 5，相似比是多少？全等和相似什么关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_14",
+        "ct_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_g9b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行线分线段成比例",
+      "description": "一组平行线截两条直线，所得对应线段成比例。A 字型、8 字型（X 型）两大基本图形由此诞生——相似证明的「字母图」工具箱。见平行想成比例，见比例找平行。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别 A 字型与 8 字型并写比例式",
+        "能用平行分线段成比例进行计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「DE∥BC，AD=3、DB=2、AE=6，EC 是多少？这是什么基本图形？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_05",
+        "ct_g9b_05"
+      ]
+    },
+    {
+      "id": "ct_g9b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相似三角形的判定",
+      "description": "两角对应相等（AA，最常用）、两边成比例且夹角相等（SAS）、三边成比例（SSS）。判定思路与全等平行展开——条件比全等「松一档」，因为形状相同即可、大小不拘。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能选择恰当方法判定相似",
+        "能在复杂图形中找出相似三角形（公共角、对顶角）"
+      ],
+      "assessmentPrompt": "问{{name}}：「两个三角形有两个角对应相等就相似吗？判定和全等比少了什么要求？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9b_06"
+      ]
+    },
+    {
+      "id": "ct_g9b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相似三角形的性质",
+      "description": "对应边、对应高、中线、角平分线之比都等于相似比；周长比等于相似比、面积比等于相似比的平方。放大 2 倍：周长翻倍、面积变 4 倍——「平方效应」要刻进直觉。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能运用性质求对应线段、周长、面积",
+        "能解释面积比是相似比平方的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：「相似比 2:3 的两三角形，周长比、面积比各是多少？为什么面积比带平方？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_20",
+        "ct_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_g9b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相似三角形的应用（测量高度与宽度）",
+      "description": "利用太阳影子、镜面反射、标杆构造相似三角形，测旗杆、河宽——不可直接测量的量，靠相似「按比例换算」。泰勒斯测金字塔，用的正是这招。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能构造相似三角形解决测量问题",
+        "能画出示意图并列比例式计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「身高 1.6 米的人影长 2 米，同一时刻旗杆影长 15 米，旗杆多高？依据是什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9b_08"
+      ]
+    },
+    {
+      "id": "ct_g9b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "位似与坐标变化",
+      "description": "位似 = 相似 + 对应点连线交于一点（位似中心）。以原点为位似中心放大 k 倍，坐标乘 k（或 -k）。图形放缩在坐标系里变成坐标的乘法——电影放映机就是位似的光学版。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出位似图形并求坐标变化规律",
+        "能区分位似与一般相似"
+      ],
+      "assessmentPrompt": "问{{name}}：「△ABC 以 O 为位似中心放大 2 倍，A(1,2) 的对应点坐标是什么？位似图形一定相似吗？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_14",
+        "ct_g9b_09"
+      ]
+    },
+    {
+      "id": "ct_g9b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "黄金分割",
+      "description": "把线段分成长短两段，长段²=全段×短段，比值约 0.618——黄金比。五角星、帕特农神庙、蒙娜丽莎的构图都有它。数学与美学在此握手。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "知道黄金比及其近似值",
+        "能用黄金分割求线段长"
+      ],
+      "assessmentPrompt": "问{{name}}：「1 米长的线段黄金分割，长段约多少？黄金比约是多少？哪里见过它？」",
+      "standards": [
+        "csmath-2022:S4.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9b_05"
+      ]
+    },
+    {
+      "id": "ct_g9b_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相似综合（母子相似与射影定理）",
+      "description": "直角三角形斜边上的高，切出两对「母子相似」：CD²=AD·BD、AC²=AD·AB、BC²=BD·AB（射影定理）。斜边上的高是相似证明题的黄金辅助线——一作高，三对相似现。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别母子相似并推导射影定理",
+        "能在综合题中选择作高构造相似"
+      ],
+      "assessmentPrompt": "问{{name}}：「Rt△ABC 斜边上的高 CD 把斜边分成 3 和 4，CD 多长？用了什么结论？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 27,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_05",
+        "ct_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_g9b_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "锐角三角函数的概念（sin、cos、tan）",
+      "description": "在直角三角形中，锐角 A 的对边与斜边之比是正弦 sinA——只要角定，比值就定（相似保证）。还有 cos（邻比斜）、tan（对比邻）。三角函数把「角」翻译成「比」，从相似三角形中诞生的函数。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能在直角三角形中表示三角函数值",
+        "能解释为什么角确定则比值确定"
+      ],
+      "assessmentPrompt": "问{{name}}：「对边 3、邻边 4、斜边 5，sin、cos、tan 各是多少？角不变三角形放大，比值变吗？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_05",
+        "ct_g9b_06"
+      ]
+    },
+    {
+      "id": "ct_g9b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "特殊角的三角函数值",
+      "description": "sin30°=1/2、sin45°=√2/2、sin60°=√3/2，cos 与之互换，tan30°=√3/3、tan45°=1、tan60°=√3。两个特殊直角三角形（30-60-90 与 45-45-90）是这些值的活字典。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能默写特殊角三角函数值",
+        "能由特殊函数值反求角"
+      ],
+      "assessmentPrompt": "问{{name}}：「sin30°+cos60° 等于多少？tan45° 呢？哪个角的 sin 是 √3/2？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_13",
+        "ct_g9b_13"
+      ]
+    },
+    {
+      "id": "ct_g9b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "同角三角函数关系与化简求值",
+      "description": "同一个角的三个三角函数是一家人：sin²A+cos²A=1（勾股定理的比形式）、tanA=sinA/cosA。知道一个可以求其余（注意角的范围定正负——初中锐角恒正）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用同角关系由一求二",
+        "能化简含三角函数的式子"
+      ],
+      "assessmentPrompt": "问{{name}}：「sinA=3/5，cosA、tanA 各是多少？用什么关系？sin²A+cos²A 恒等于几？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_04",
+        "ct_g9b_14"
+      ]
+    },
+    {
+      "id": "ct_g9b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "解直角三角形",
+      "description": "知道直角三角形的两个元素（至少一边），就能解出其余：勾股定理管边、两锐角互余管角、三角函数管边角转化。「知二求三」——三角形彻底透明化。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能选择恰当关系解直角三角形",
+        "能处理斜三角形（作高化直）"
+      ],
+      "assessmentPrompt": "问{{name}}：「直角三角形一锐角 30°、斜边 10，两直角边各是多少？用了哪些关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9b_15"
+      ]
+    },
+    {
+      "id": "ct_g9b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "解直角三角形应用（仰角、俯角、方位角）",
+      "description": "抬头看飞机是仰角、低头看谷底是俯角；北偏东 30° 是方位角。画图、找直角三角形、设未知数解直角——测量学的三步舞。楼有多高、船走了多远，一算便知。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画示意图标注仰角俯角方位角",
+        "能综合解多个直角三角形的应用题"
+      ],
+      "assessmentPrompt": "问{{name}}：「在离楼 60 米处测楼顶仰角 45°，眼睛离地 1.5 米，楼多高？先画图。」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_06",
+        "ct_g9b_16"
+      ]
+    },
+    {
+      "id": "ct_g9b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "解直角三角形应用（坡度与坡角）",
+      "description": "坡面的铅直高度与水平宽度之比 i=1:√3 是坡度（坡比），坡面与水平面夹角是坡角：i=tan坡角。大坝、楼梯、盘山公路的陡峭程度从此可算可比较。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能进行坡度、坡角、坡长间的换算",
+        "能解决大坝梯形断面计算问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「坡度 1:2.4，水平走 12 米升高多少？坡角正切值是多少？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_11",
+        "ct_g9b_17"
+      ]
+    },
+    {
+      "id": "ct_g9b_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角函数与圆的综合",
+      "description": "直径对直角、切线垂直半径——圆里现成的直角三角形是三角函数的主场。连半径构造直角、用三角函数算线段，圆与三角函数联手出压轴题。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能在圆的图形中找准直角三角形",
+        "能综合圆的性质与三角函数计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「AB 是直径，C 在圆上，∠CAB=30°，AB=8，BC 多长？tan∠CAB 呢？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_18",
+        "ct_g9b_16"
+      ]
+    },
+    {
+      "id": "ct_g9b_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行投影与中心投影",
+      "description": "太阳光（平行光线）形成平行投影：同一时刻物高与影长成比例；灯光（点光源）形成中心投影：影子随位置变化。皮影戏是中心投影，队列报数是平行投影的日常。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能区分两种投影并画影子的示意图",
+        "能用平行投影成比例计算物体高度"
+      ],
+      "assessmentPrompt": "问{{name}}：「路灯下走近路灯影子怎么变？太阳光下呢？两种投影的区别是什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 29,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_19",
+        "ct_g9b_09"
+      ]
+    },
+    {
+      "id": "ct_g9b_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三视图（几何体的三视图画法）",
+      "description": "从正面、左面、上面三个正投影得到三视图，长对正、高平齐、宽相等。圆柱的三视图是矩形+矩形+圆。三视图是工程师的语言——七上的观察经验全面标准化。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画组合体（棱柱圆柱圆锥组合）的三视图",
+        "能按三视图规则检查尺寸对应"
+      ],
+      "assessmentPrompt": "问{{name}}：「底面朝上的圆锥三视图是什么？三视图中哪两个视图『宽相等』？」",
+      "standards": [
+        "csmath-2022:S4.GS.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 29,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_19",
+        "ct_g9b_20"
+      ]
+    },
+    {
+      "id": "ct_g9b_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "由三视图还原几何体与相关计算",
+      "description": "从三视图反推立体形状，再算表面积与体积——视图与展开、体积公式的三合一。考题常客：给三视图求小正方体个数或圆锥表面积。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能由三视图描述几何体",
+        "能结合视图数据计算表面积体积"
+      ],
+      "assessmentPrompt": "问{{name}}：「主视图左视图都是三角形、俯视图是带圆心的圆，这是什么几何体？还需要什么数据求侧面积？」",
+      "standards": [
+        "csmath-2022:S4.GS.CG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 29,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_24",
+        "ct_g9b_21"
+      ]
+    },
+    {
+      "id": "ct_g9b_23",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "制作立体模型（视图与展开的实践）",
+      "description": "根据三视图用硬纸板做出模型，或由模型画出三视图与展开图——二维与三维的双向翻译做成动手任务。空间观念「做」出来，不是「看」出来。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能按三视图制作实物模型",
+        "能说明视图、展开图、实物三者对应关系"
+      ],
+      "assessmentPrompt": "让{{name}}按给定的三视图做一个纸模型，问「哪条棱对应视图里的哪条线？怎么验证做对了？」",
+      "standards": [
+        "csmath-2022:S4.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 29,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_24",
+        "ct_g9b_22"
+      ]
+    },
+    {
+      "id": "ct_g9b_24",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数图象综合（一次、反比例、二次）",
+      "description": "三类函数齐聚：直线、双曲线、抛物线。联立求交点、图象比大小、动点看最值——初中函数的收官检阅。会画、会读、会联立，数形结合全就位（为高中函数铺路）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能联立方程求两类函数交点",
+        "能根据图象写出不等式的解集"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x+2 与 y=8/x 交点怎么求？x 取何值时反比例函数值大？从图上怎么看？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 26,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_11",
+        "ct_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_g9b_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "相似与三角函数综合（测量专题）",
+      "description": "影长测高用相似、测倾器测高用三角函数——两种测量方案对照使用、互相验证。初中几何的实践收官：从「证」到「用」，数学工具箱完整交付。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能设计两种方案测量同一物体并比较优劣",
+        "能综合相似与三角函数解综合题"
+      ],
+      "assessmentPrompt": "问{{name}}：「不用爬上楼顶，你能想出几种测楼高的办法？各用到什么知识？哪种更精确？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 28,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9b_09",
+        "ct_g9b_17"
       ]
     }
   ]
