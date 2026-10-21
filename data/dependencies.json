@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.13.0",
+  "version": "0.14.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 635,
+  "edgeCount": 675,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -3813,6 +3813,246 @@
       "prerequisiteId": "ct_g6a_26",
       "strength": "soft",
       "reason": "数形结合的思想在六年级数与形活动中已启蒙（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8b_01",
+      "prerequisiteId": "ct_g7b_08",
+      "strength": "hard",
+      "reason": "二次根式是平方根的代数化延伸，平方根概念与双重非负性直接沿用"
+    },
+    {
+      "topicId": "ct_g8b_02",
+      "prerequisiteId": "ct_g8b_01",
+      "strength": "hard",
+      "reason": "两条性质的讨论对象是二次根式，且依赖非负性"
+    },
+    {
+      "topicId": "ct_g8b_03",
+      "prerequisiteId": "ct_g8b_02",
+      "strength": "hard",
+      "reason": "乘除法则 (ab) 开方的依据是 (ab)²=a²b² 的性质"
+    },
+    {
+      "topicId": "ct_g8b_04",
+      "prerequisiteId": "ct_g8b_03",
+      "strength": "hard",
+      "reason": "加减前必须先化简为最简二次根式才能识别同类"
+    },
+    {
+      "topicId": "ct_g8b_04",
+      "prerequisiteId": "ct_g7a_12",
+      "strength": "soft",
+      "reason": "合并同类二次根式与合并同类项的方法完全同构"
+    },
+    {
+      "topicId": "ct_g8b_05",
+      "prerequisiteId": "ct_g8b_04",
+      "strength": "hard",
+      "reason": "勾股定理计算 c=√(a²+b²) 需要二次根式化简技能（教材编排也先根式后勾股）"
+    },
+    {
+      "topicId": "ct_g8b_05",
+      "prerequisiteId": "ct_g8a_16",
+      "strength": "soft",
+      "reason": "弦图证明用到 (a+b)² 的完全平方展开"
+    },
+    {
+      "topicId": "ct_g8b_05",
+      "prerequisiteId": "ct_g6a_26",
+      "strength": "soft",
+      "reason": "面积拼图证数式的方法与六年级数与形一脉相承"
+    },
+    {
+      "topicId": "ct_g8b_06",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "hard",
+      "reason": "逆定理与原定理成对，先算边后判形"
+    },
+    {
+      "topicId": "ct_g8b_07",
+      "prerequisiteId": "ct_g8b_06",
+      "strength": "hard",
+      "reason": "应用问题综合正逆两方面：构造直角三角形求边、验证直角"
+    },
+    {
+      "topicId": "ct_g8b_07",
+      "prerequisiteId": "ct_g5b_06",
+      "strength": "soft",
+      "reason": "最短路径问题先要侧面展开，展开图经验来自小学与七上"
+    },
+    {
+      "topicId": "ct_g8b_08",
+      "prerequisiteId": "ct_g7b_05",
+      "strength": "hard",
+      "reason": "性质的证明核心是平行线性质+全等三角形"
+    },
+    {
+      "topicId": "ct_g8b_08",
+      "prerequisiteId": "ct_g4a_20",
+      "strength": "soft",
+      "reason": "小学平行四边形的直观特征在此严格证明（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8b_09",
+      "prerequisiteId": "ct_g8b_08",
+      "strength": "hard",
+      "reason": "判定与性质互逆，在性质基础上研究最少判定条件"
+    },
+    {
+      "topicId": "ct_g8b_10",
+      "prerequisiteId": "ct_g8b_09",
+      "strength": "hard",
+      "reason": "中位线定理的证明通过构造平行四边形（倍长中线）完成"
+    },
+    {
+      "topicId": "ct_g8b_10",
+      "prerequisiteId": "ct_g8a_02",
+      "strength": "soft",
+      "reason": "中位线连接两边中点，与三角形中线（连顶点与对边中点）辨析"
+    },
+    {
+      "topicId": "ct_g8b_11",
+      "prerequisiteId": "ct_g8b_09",
+      "strength": "hard",
+      "reason": "矩形菱形是特殊的平行四边形，在判定框架上增加条件"
+    },
+    {
+      "topicId": "ct_g8b_12",
+      "prerequisiteId": "ct_g8b_11",
+      "strength": "hard",
+      "reason": "正方形=矩形∩菱形，在两者性质之上整合"
+    },
+    {
+      "topicId": "ct_g8b_13",
+      "prerequisiteId": "ct_g8b_12",
+      "strength": "hard",
+      "reason": "综合训练以全部特殊平行四边形为舞台"
+    },
+    {
+      "topicId": "ct_g8b_13",
+      "prerequisiteId": "ct_g8a_09",
+      "strength": "hard",
+      "reason": "证明的主力工具是全等三角形"
+    },
+    {
+      "topicId": "ct_g8b_14",
+      "prerequisiteId": "ct_g6b_11",
+      "strength": "hard",
+      "reason": "小学正比例（商一定）是正比例函数 k 的前身（跨学段衔接：比例→函数）"
+    },
+    {
+      "topicId": "ct_g8b_14",
+      "prerequisiteId": "ct_g5a_14",
+      "strength": "soft",
+      "reason": "函数解析式是含字母的式子，字母表示数是语言基础"
+    },
+    {
+      "topicId": "ct_g8b_15",
+      "prerequisiteId": "ct_g8b_14",
+      "strength": "hard",
+      "reason": "图象是函数关系的几何表示，先有函数概念再谈表示法"
+    },
+    {
+      "topicId": "ct_g8b_15",
+      "prerequisiteId": "ct_g6b_12",
+      "strength": "soft",
+      "reason": "六年级正比例图象（过原点直线）是一次函数图象的雏形"
+    },
+    {
+      "topicId": "ct_g8b_16",
+      "prerequisiteId": "ct_g8b_15",
+      "strength": "hard",
+      "reason": "一次函数图象是函数图象的第一个具体对象"
+    },
+    {
+      "topicId": "ct_g8b_16",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "hard",
+      "reason": "画图象需要平面直角坐标系的点坐标操作"
+    },
+    {
+      "topicId": "ct_g8b_17",
+      "prerequisiteId": "ct_g8b_16",
+      "strength": "hard",
+      "reason": "增减性从图象的升降直观归纳并用代数表述"
+    },
+    {
+      "topicId": "ct_g8b_18",
+      "prerequisiteId": "ct_g8b_17",
+      "strength": "hard",
+      "reason": "待定系数法求出解析式后需用性质检验与运用"
+    },
+    {
+      "topicId": "ct_g8b_18",
+      "prerequisiteId": "ct_g7b_17",
+      "strength": "hard",
+      "reason": "解 k、b 的方程组用加减/代入消元法"
+    },
+    {
+      "topicId": "ct_g8b_19",
+      "prerequisiteId": "ct_g8b_18",
+      "strength": "hard",
+      "reason": "以解析式为桥梁连接图象与方程不等式"
+    },
+    {
+      "topicId": "ct_g8b_19",
+      "prerequisiteId": "ct_g7b_22",
+      "strength": "hard",
+      "reason": "kx+b>0 的解集即一元一次不等式的解，两者同构"
+    },
+    {
+      "topicId": "ct_g8b_20",
+      "prerequisiteId": "ct_g8b_19",
+      "strength": "hard",
+      "reason": "方案比较的临界点即两函数图象交点，依赖函数与不等式关系"
+    },
+    {
+      "topicId": "ct_g8b_20",
+      "prerequisiteId": "ct_g7b_23",
+      "strength": "soft",
+      "reason": "七下方案决策用不等式做，函数视角给出统一解释"
+    },
+    {
+      "topicId": "ct_g8b_21",
+      "prerequisiteId": "ct_g4b_29",
+      "strength": "hard",
+      "reason": "加权平均数是小学平均数（等权）的一般化（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g8b_22",
+      "prerequisiteId": "ct_g8b_21",
+      "strength": "hard",
+      "reason": "三个统计量对照学习，平均数是参照系"
+    },
+    {
+      "topicId": "ct_g8b_23",
+      "prerequisiteId": "ct_g8b_22",
+      "strength": "hard",
+      "reason": "方差刻画围绕平均数的波动，以平均数为中心"
+    },
+    {
+      "topicId": "ct_g8b_24",
+      "prerequisiteId": "ct_g8b_23",
+      "strength": "hard",
+      "reason": "估计总体既用平均数也用方差（集中程度与波动程度）"
+    },
+    {
+      "topicId": "ct_g8b_24",
+      "prerequisiteId": "ct_g7b_24",
+      "strength": "soft",
+      "reason": "抽样调查的方法（七下）是用样本估计总力的前提"
+    },
+    {
+      "topicId": "ct_g8b_25",
+      "prerequisiteId": "ct_g8b_24",
+      "strength": "hard",
+      "reason": "综合活动调用全部统计量与抽样思想"
+    },
+    {
+      "topicId": "ct_g8b_25",
+      "prerequisiteId": "ct_g7b_26",
+      "strength": "soft",
+      "reason": "延续七下统计活动的完整流程，分析环节升级"
     }
   ]
 }

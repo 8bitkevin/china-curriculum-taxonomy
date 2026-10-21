@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.13.0",
+  "version": "0.14.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 386,
+  "topicCount": 411,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -11866,6 +11866,771 @@
       "prerequisites": [
         "ct_g6a_26",
         "ct_g8a_16"
+      ]
+    },
+    {
+      "id": "ct_g8b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次根式的概念",
+      "description": "√a（a≥0）这样的式子叫二次根式：被开方数非负、根式本身非负——双重非负性是它的身份证。√5、√(x²+1) 都是二次根式，√(x-2) 要求 x≥2。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断二次根式有意义的条件",
+        "能运用双重非负性求值（如 √a+|b|=0）"
+      ],
+      "assessmentPrompt": "问{{name}}：「√(x-3) 中 x 能取几？√a 与 a 谁大？√a+|b|+c²=0，a、b、c 各是多少？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 16,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_g8b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次根式的性质（(√a)² 与 √(a²)）",
+      "description": "(√a)²=a（a≥0）；√(a²)=|a|——平方在外面直接去，平方在里面套绝对值。√((-3)²)=3 而不是 -3，这一步是无数错题的出生地。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能区分并正确运用两条性质",
+        "能化简 √((x-1)²) 型式子（按 x 的范围讨论）"
+      ],
+      "assessmentPrompt": "问{{name}}：「(√5)² 等于几？√(-5)² 呢？x<1 时 √((x-1)²) 化简成什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 16,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_g8b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次根式的乘除与最简二次根式",
+      "description": "√a·√b=√(ab)、√a÷√b=√(a/b)：乘除先合并再化简。最简二次根式三条标准：被开方数不含分母、不含能开尽的因数、指数为 1。√8=2√2——「最简」才好同类相认。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确进行二次根式乘除运算",
+        "能化简为最简二次根式并判断"
+      ],
+      "assessmentPrompt": "让{{name}}化简 √18、√(1/2)、√12×√3，问「最简二次根式的标准是什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 16,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_g8b_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次根式的加减与混合运算",
+      "description": "先化简、再合并被开方数相同的根式：√8+√2=2√2+√2=3√2——同类才能合并，与合并同类项一个脾气。乘法公式也能进场：(√a+√b)(√a-√b)=a-b。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能正确进行二次根式加减混合运算",
+        "能识别可合并的同类二次根式"
+      ],
+      "assessmentPrompt": "让{{name}}算 √27-√12+√48 和 (√3+2)(√3-2)，问「先做什么再合并？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 16,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_12",
+        "ct_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "勾股定理及其面积法证明",
+      "description": "直角三角形两直角边 a、b，斜边 c：a²+b²=c²。赵爽弦图用四个直角三角形拼正方形，「算两次」面积即证——两千年的定理，一张图讲完。勾三股四弦五是最小整数组。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用面积法（弦图/毕达哥拉斯拼图）证明勾股定理",
+        "已知两边能求第三边（分类讨论直角边或斜边）"
+      ],
+      "assessmentPrompt": "问{{name}}：「直角边 6 和 8，斜边多少？已知一条直角边 5、斜边 13，另一条直角边呢？弦图怎么证明 a²+b²=c²？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 17,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_26",
+        "ct_g8a_16",
+        "ct_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_g8b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "勾股定理的逆定理",
+      "description": "若 a²+b²=c²，则三角形是直角三角形（c 对直角）。原定理「由形算边」，逆定理「由边判形」——量出三边 3、4、5，就能断定是直角三角形。判定直角的新尺子。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用逆定理判断三角形是否直角三角形",
+        "能识别常见勾股数（3,4,5 / 5,12,13 / 6,8,10）"
+      ],
+      "assessmentPrompt": "问{{name}}：「三边 8、15、17 的三角形是直角三角形吗？怎么验证？哪条边对的角是直角？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 17,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_g8b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "勾股定理的实际应用（展开与最短路径）",
+      "description": "梯子斜靠多高？盒子上的蚂蚁从 A 爬到 B 最短多远？——侧面展开变平面，两点之间线段最短，勾股定理由此发力。立体展开 + 勾股 = 最短路径的标准剧本。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用勾股定理解决梯子、旗杆等测量问题",
+        "能通过侧面展开求几何体表面最短路径"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆柱底面周长 12、高 5，蚂蚁从下底 A 点爬到正上方 B 点最少爬多远？第一步做什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 17,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_06",
+        "ct_g8b_06"
+      ]
+    },
+    {
+      "id": "ct_g8b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形的性质",
+      "description": "对边相等且平行、对角相等、对角线互相平分——三条性质用全等三角形逐条可证。平行四边形是中心对称图形：绕对角线交点转 180° 与自己重合。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能证明并运用三条性质",
+        "知道平行四边形是中心对称图形"
+      ],
+      "assessmentPrompt": "问{{name}}：「平行四边形 ABCD 的对角线交于 O，AC=10，BD=12，AO、BO 各多少？怎么证对边相等？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_20",
+        "ct_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_g8b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形的判定",
+      "description": "两组对边分别平行、两组对边分别相等、一组对边平行且相等、对角线互相平分、两组对角分别相等——五条判定殊途同归。「见中点，连对角线」是证明的常用妙手。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能选用恰当的判定方法证明平行四边形",
+        "能比较各判定方法的适用场景"
+      ],
+      "assessmentPrompt": "问{{name}}：「一组对边平行、另一组对边相等，能判定平行四边形吗？判定和性质怎么配合使用？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_08"
+      ]
+    },
+    {
+      "id": "ct_g8b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的中位线",
+      "description": "连接三角形两边中点的线段叫中位线：平行于第三边且等于它的一半。DE∥BC 且 DE=BC/2——中点信息一经出现，中位线就该登场。它是平行四边形判定的一颗果实。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能证明中位线定理",
+        "能运用中位线进行计算与证明（含中点条件联想）"
+      ],
+      "assessmentPrompt": "问{{name}}：「三角形三边 6、8、10，三条中位线围成的三角形周长是多少？中位线定理怎么证？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_02",
+        "ct_g8b_09"
+      ]
+    },
+    {
+      "id": "ct_g8b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "矩形与菱形",
+      "description": "矩形：平行四边形 + 一个直角（对角线相等）；菱形：平行四边形 + 一组邻边相等（对角线互相垂直且平分每组对角）。特殊的平行四边形像家族两兄弟，各有绝活：矩形看对角线，菱形看面积=对角线乘积一半。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出并证明矩形菱形的性质与判定",
+        "能计算矩形菱形的对角线与面积"
+      ],
+      "assessmentPrompt": "问{{name}}：「矩形对角线长 10、宽 6，长是多少？菱形对角线 6 和 8，面积与边长各是多少？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_09"
+      ]
+    },
+    {
+      "id": "ct_g8b_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "正方形",
+      "description": "正方形 = 矩形 + 菱形：四边相等、四角都是直角、对角线相等且互相垂直平分。它集万千性质于一身，既是轴对称（4 条对称轴）也是中心对称。四边形家族的「满贯选手」。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能梳理正方形与矩形菱形平行四边形的关系",
+        "能运用正方形性质解题"
+      ],
+      "assessmentPrompt": "问{{name}}：「正方形边长 a，对角线多长？它有几条对称轴？既是矩形又是菱形的图形是什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_11"
+      ]
+    },
+    {
+      "id": "ct_g8b_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形综合：与全等三角形",
+      "description": "平行四边形里证线段相等角相等，几乎都绕道全等三角形；反之全等的公共条件常藏在平行四边形性质里。两大工具互相输送弹药——几何综合题的第一次会师。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能在平行四边形背景下规划全等证明路径",
+        "能规范书写多步推理"
+      ],
+      "assessmentPrompt": "问{{name}}：「平行四边形 ABCD 中 E、F 是对角线上两点且 AE=CF，四边形 BFDE 是平行四边形吗？先证什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 18,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_09",
+        "ct_g8b_12"
+      ]
+    },
+    {
+      "id": "ct_g8b_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "变量与函数的概念",
+      "description": "行程问题里 t 变 s 跟着变：t 是自变量，s 是 t 的函数。函数是「唯一对应」：一个 x 只对应一个 y。银行利息、气温曲线、出租车计费——世界在变化，函数是变化的数学模型。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断两个变量间是否构成函数关系",
+        "能求函数自变量的取值范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=2x+1 中谁是自变量？x=3 时 y 是多少？y=x² 是函数吗，一个 x 对应几个 y？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_14",
+        "ct_g6b_11"
+      ]
+    },
+    {
+      "id": "ct_g8b_15",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的图象（三种表示法）",
+      "description": "函数可以用解析式、表格、图象三种方式表示。读图象四问：自变量范围？y 随 x 增大怎么变？特殊点的含义？图象水平/下降段的意义？看图说话是函数学习的第一口奶。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能从图象读取信息回答实际问题",
+        "能用描点法画简单函数图象"
+      ],
+      "assessmentPrompt": "给{{name}}一张出租车计费图象：「起步价多少？几千米后开始加价？8 千米花多少钱？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_12",
+        "ct_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_g8b_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正比例函数与一次函数的图象",
+      "description": "y=kx（k≠0）的图象是过原点的直线；y=kx+b 是不过原点的直线，b 决定与 y 轴交点。两点确定一条直线：一次函数画图只需两个点——k、b 两个参数定乾坤（小学正比例图象正式升级）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用两点法画一次函数图象",
+        "能根据 k、b 说出图象经过的象限"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=-2x+3 的图象怎么画？它经过哪几个象限？b=3 决定什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_12",
+        "ct_g8b_15"
+      ]
+    },
+    {
+      "id": "ct_g8b_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一次函数的性质（增减性）",
+      "description": "k>0 时 y 随 x 增大而增大（图象上升）；k<0 时递减（下降）。k 定坡度方向，b 定海拔起点——一次函数的「性格」由 k 签名。比较函数值大小、判断增减，全看 k。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能根据 k 判断增减性并比较函数值",
+        "能比较两个一次函数图象的相对位置"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=3x-2 和 y=-x+3，x 增大时谁在涨？什么时候 y=3x-2 的值超过 y=-x+3？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_16"
+      ]
+    },
+    {
+      "id": "ct_g8b_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "待定系数法求一次函数解析式",
+      "description": "图象过点 (1,3) 和 (0,1)：设 y=kx+b，代入得方程组，解出 k、b。两个条件定两个未知数——「设、代、解」三步，函数世界的万能钥匙。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用待定系数法求解析式",
+        "能识别实际问题中的两个条件"
+      ],
+      "assessmentPrompt": "问{{name}}：「一次函数过 (0,2) 和 (1,5)，解析式是什么？先设什么再干什么？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_17",
+        "ct_g8b_17"
+      ]
+    },
+    {
+      "id": "ct_g8b_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一次函数与一元一次方程、不等式",
+      "description": "kx+b=0 的解 = 图象与 x 轴交点横坐标；kx+b>0 的解集 = 图象在 x 轴上方的 x 范围。方程求点、不等式求段、函数看线——三种语言说的是同一件事（数形结合的高光时刻）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用函数图象解方程与不等式",
+        "能说明三者解集的对应关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=2x-4 与 x 轴交点是？由此 2x-4>0 的解集是什么？方程的解在图上是哪个点？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_22",
+        "ct_g8b_18"
+      ]
+    },
+    {
+      "id": "ct_g8b_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一次函数的应用（方案与分段）",
+      "description": "两家运营商资费 y₁、y₂ 都是 x 的函数，交点即「临界用量」，左右两侧各选其低。分段计费（出租、水电气阶梯价）是分段函数的日常——一次函数是理性消费的计算器。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能建立一次函数模型比较方案",
+        "能处理分段计费问题并说明每段含义"
+      ],
+      "assessmentPrompt": "问{{name}}：「A 卡月租 18 元每分钟 0.1 元，B 卡无月租每分钟 0.25 元，打多少分钟两种卡费用相同？怎么选？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 19,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_23",
+        "ct_g8b_19"
+      ]
+    },
+    {
+      "id": "ct_g8b_21",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "平均数与加权平均数",
+      "description": "平时 40% + 期末 60% = 85 分：加权平均数按「权重」分配话语权。同一组数据，权重不同，平均数不同——「怎么算平均」本身就是一种立场。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能计算加权平均数",
+        "能说明权重对结果的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：「笔试 90 分占 60%、面试 80 分占 40%，总评多少分？如果面试占 60% 呢？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 20,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_29"
+      ]
+    },
+    {
+      "id": "ct_g8b_22",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "中位数与众数",
+      "description": "排序后居中的是中位数，出现最多的是众数。平均数怕极端值，中位数稳如老狗，众数反映「多数派」。三个统计量各管一段——选谁要看数据想说明什么。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能求中位数与众数",
+        "能根据情境选择合适的统计量并解释"
+      ],
+      "assessmentPrompt": "问{{name}}：「5 人工资 3 千、3.5 千、4 千、4.5 千、4 万，平均数和中位数各是多少？哪个更能代表一般水平？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 20,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_21"
+      ]
+    },
+    {
+      "id": "ct_g8b_23",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "方差与数据的波动",
+      "description": "方差衡量波动：各数据与平均数差的平方的平均数。方差越大越不稳定。射击选手谁更稳、机床哪个更精确——「稳不稳」第一次有了数学度量（S²=1/n[(x₁-x̄)²+…]）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能计算方差并比较稳定性",
+        "知道方差与平均数回答不同的问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「甲乙平均分都是 80，方差 20 和 60，谁更稳定？方差怎么算？为什么用平方？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 20,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_22"
+      ]
+    },
+    {
+      "id": "ct_g8b_24",
+      "type": "META",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "用样本估计总体",
+      "description": "抽 100 灯泡测寿命，估计整批灯泡——样本平均数估总体平均数，样本方差估总体方差。省时省钱代价是「有误差」，所以样本要随机、要够大。统计学的核心思想。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用样本统计量估计总体并说明局限",
+        "知道样本容量与代表性的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「检测 50 袋奶粉平均每袋 498 克，能说全部奶粉都 498 克吗？这 50 袋怎么选才可信？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 20,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_24",
+        "ct_g8b_23"
+      ]
+    },
+    {
+      "id": "ct_g8b_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数据分析综合活动（体质健康调查）",
+      "description": "收集全班体质数据→计算平均数中位数方差→分组比较、给出建议——完整的数据决策流程。「用数据说话」不是一句口号，是一套动作。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能综合运用统计量分析真实数据",
+        "能撰写有数据支撑的结论"
+      ],
+      "assessmentPrompt": "让{{name}}统计家人一周运动时长：「用哪个统计量描述？波动大小说明什么？给爸爸的建议是什么？」",
+      "standards": [
+        "csmath-2022:S4.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 20,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_26",
+        "ct_g8b_24"
       ]
     }
   ]
