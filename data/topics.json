@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.53.0",
+  "version": "1.54.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1408,
+  "topicCount": 1417,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -43620,6 +43620,292 @@
       },
       "prerequisites": [
         "ct_hx_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "物质的分离提纯与实验安全",
+      "description": "高中实验升级：蒸馏（沸点差异）、萃取分液（溶解度差异，CCl₄ 萃溴）、过滤蒸发；实验安全规则与意外处理。分离提纯的「分子筛」——从粗盐提纯到海水淡化同一套原理。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能根据混合物特点选择分离方法",
+        "能说明萃取剂选择的两个条件"
+      ],
+      "assessmentPrompt": "问{{name}}：从海水获蒸馏水用什么方法？溴水里的溴怎么富集？为什么酒精不能萃取溴？",
+      "standards": [
+        "hschemistry-2017:H1.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 化学实验基本方法",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "物质的分类与胶体",
+      "description": "分类法（树状/交叉）；分散系按粒子大小分（溶液<1nm<胶体<100nm<浊液）；胶体的丁达尔效应（区别于溶液的身份证）。分类是化学的第一种思维工具——胶体是分类产生的新大陆。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用两种方法对给定物质分类",
+        "能用丁达尔效应鉴别胶体并举例生活应用"
+      ],
+      "assessmentPrompt": "问{{name}}：雾、云、烟属于什么分散系？怎么用一支激光笔鉴别鸡蛋清水和食盐水？Fe(OH)₃ 胶体怎么制备？",
+      "standards": [
+        "hschemistry-2017:H1.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 化学物质及其变化",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_03",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "离子反应与离子方程式",
+      "description": "电解质（酸碱盐在水溶液或熔融下导电）与非电解质；电离方程式；离子反应的发生条件（生成沉淀气体水）与离子方程式书写（拆强酸强碱可溶盐）。溶液中反应的「精简版」——看得见真正参加反应的离子。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成「写拆删查」写十个离子方程式",
+        "能判断哪些物质写化学式不拆"
+      ],
+      "assessmentPrompt": "问{{name}}：Na₂CO₃ 溶液和稀盐酸反应的离子方程式怎么写？CO₂ 是拆还是不拆？哪些反应本质上是 H⁺+OH⁻=H₂O？",
+      "standards": [
+        "hschemistry-2017:H1.RC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 化学物质及其变化",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9a_13",
+        "ct_hx_g9b_11"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_04",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "氧化还原反应",
+      "description": "从得氧失氧到化合价升降再到电子转移——氧化还原的三级认识；氧化剂还原剂、被氧化被还原的判断；双线桥与单线桥。初中四种基本反应类型之外的「第五视角」——电子守恒贯穿整个高中化学。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能标出电子转移方向与数目",
+        "能判断氧化剂还原剂并比较氧化性强弱"
+      ],
+      "assessmentPrompt": "问{{name}}：Fe+CuSO₄ 里谁失去电子？化合价怎么变？氧化剂是还原产物还是氧化产物？（判断链）",
+      "standards": [
+        "hschemistry-2017:H1.RC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 化学物质及其变化",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9a_17",
+        "ct_hx_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "物质的量：摩尔的桥梁",
+      "description": "物质的量 n（单位摩尔，1 mol=6.02×10²³ 个）；摩尔质量 M、气体摩尔体积 Vm（22.4 L/mol 的条件）、物质的量浓度 c=n/V。宏观可称量与微观可数之间的大桥——高中化学计算的总枢纽。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成 n、m、V、N、c 五量互算",
+        "知道 22.4 L/mol 的适用条件"
+      ],
+      "assessmentPrompt": "问{{name}}：44 g CO₂ 是多少摩尔？含多少个分子？标准状况下体积多少？配 1 mol/L 的盐酸 500 mL 需要 HCl 多少摩尔？",
+      "standards": [
+        "hschemistry-2017:H1.RC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 物质的量",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9b_06"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_06",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "一定浓度溶液的配制",
+      "description": "容量瓶的使用（检漏、规格选择）与配制流程（计算—称量—溶解冷却—转移洗涤—定容摇匀）；误差分析（俯视定容、未洗涤等对浓度的影响）。初中配制的「高中版」——精度与误差分析的全面升级。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能按规范完成配制流程",
+        "能分析五类操作误差的方向"
+      ],
+      "assessmentPrompt": "问{{name}}：定容时俯视刻度线，浓度偏大还是偏小？未用蒸馏水洗涤烧杯呢？容量瓶能直接溶解固体吗？",
+      "standards": [
+        "hschemistry-2017:H1.PR.01",
+        "hschemistry-2017:H1.RC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 实验",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10a_05",
+        "ct_hx_g9b_06"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_07",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "钠及其化合物",
+      "description": "钠的物理性质与化学性质（与水反应「浮熔游响红」）；氧化钠与过氧化钠（供氧剂）；碳酸钠与碳酸氢钠的鉴别。碱金属的代表——金属活泼性的极端样本。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能描述钠与水反应的现象并解释",
+        "能鉴别 Na₂CO₃ 与 NaHCO₃（两种方法）"
+      ],
+      "assessmentPrompt": "问{{name}}：钠为什么保存在煤油里？钠着火能用水扑灭吗？潜水艇里的「氧气蜡烛」是什么？",
+      "standards": [
+        "hschemistry-2017:H1.IN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 铁 金属材料（钠在第一章）",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9b_02",
+        "ct_hx_g9b_11"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_08",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "氯及其化合物",
+      "description": "氯气的性质（与金属、氢气、水、碱反应——氯水多重成分）；次氯酸漂白与 84 消毒液；实验室制氯气。卤素的代表——「有毒也有用」的矛盾体。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出氯气与水、NaOH 反应方程式",
+        "能说明氯水久置变稀盐酸的过程"
+      ],
+      "assessmentPrompt": "问{{name}}：自来水消毒和 84 消毒液的原理一样吗？84 洁厕灵混用为什么会中毒？干燥氯水? —改：干燥的氯气能漂白吗？",
+      "standards": [
+        "hschemistry-2017:H1.IN.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 海水中的重要元素——钠和氯",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10a_03",
+        "ct_hx_g10a_04"
+      ]
+    },
+    {
+      "id": "ct_hx_g10a_09",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "原子结构与元素周期律",
+      "description": "核外电子排布规律；元素周期律（随原子序数递增：半径、金属性非金属性、最高正价周期性变化）；周期表结构（7 周期 18 纵列 16 族）与「位—构—性」关系。化学的第一大统一理论——元素从散沙到阵列。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能根据位置推测元素性质",
+        "能比较同周期同主族元素的金属性强弱"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么钠比钾活泼？同周期从左到右原子半径怎么变？门捷列夫怎么「预言」新元素？",
+      "standards": [
+        "hschemistry-2017:H1.ST.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四章 物质结构 元素周期律",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g9a_07",
+        "ct_hx_g9a_08"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.53.0",
+  "version": "1.54.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1988,
+  "edgeCount": 2003,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11931,6 +11931,96 @@
       "prerequisiteId": "ct_hx_g9a_19",
       "strength": "soft",
       "reason": "化石燃料与新能源的能源话题在生活化学中扩展到营养与健康"
+    },
+    {
+      "topicId": "ct_hx_g10a_01",
+      "prerequisiteId": "ct_hx_g9a_10",
+      "strength": "hard",
+      "reason": "初中过滤净化的操作基础上升为系统分离方法（蒸馏萃取）"
+    },
+    {
+      "topicId": "ct_hx_g10a_02",
+      "prerequisiteId": "ct_hx_g9a_01",
+      "strength": "hard",
+      "reason": "物质分类知识从初中纯净物混合物扩展到分散系与胶体"
+    },
+    {
+      "topicId": "ct_hx_g10a_03",
+      "prerequisiteId": "ct_hx_g9b_11",
+      "strength": "hard",
+      "reason": "复分解反应条件的知识是离子反应发生条件的直接基础"
+    },
+    {
+      "topicId": "ct_hx_g10a_03",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "离子方程式书写以化学方程式书写能力为前提"
+    },
+    {
+      "topicId": "ct_hx_g10a_04",
+      "prerequisiteId": "ct_hx_g9b_02",
+      "strength": "hard",
+      "reason": "金属活动性顺序的初中学说由电子转移重新解释"
+    },
+    {
+      "topicId": "ct_hx_g10a_04",
+      "prerequisiteId": "ct_hx_g9a_17",
+      "strength": "soft",
+      "reason": "CO 还原氧化铁的还原概念升级为氧化还原的电子观"
+    },
+    {
+      "topicId": "ct_hx_g10a_05",
+      "prerequisiteId": "ct_hx_g9b_06",
+      "strength": "hard",
+      "reason": "初中溶质质量分数的计算升级为物质的量浓度的计算"
+    },
+    {
+      "topicId": "ct_hx_g10a_06",
+      "prerequisiteId": "ct_hx_g9b_06",
+      "strength": "hard",
+      "reason": "配制溶液的初中流程升级为容量瓶规范与误差分析"
+    },
+    {
+      "topicId": "ct_hx_g10a_06",
+      "prerequisiteId": "ct_hx_g10a_05",
+      "strength": "hard",
+      "reason": "浓度配制计算用 c=n/V 的物质的量公式"
+    },
+    {
+      "topicId": "ct_hx_g10a_07",
+      "prerequisiteId": "ct_hx_g9b_02",
+      "strength": "hard",
+      "reason": "钠的活动性排在金属顺序最前列，初中知识提供背景"
+    },
+    {
+      "topicId": "ct_hx_g10a_07",
+      "prerequisiteId": "ct_hx_g9b_11",
+      "strength": "soft",
+      "reason": "Na₂CO₃/NaHCO₃ 的鉴别沿用初中碳酸盐检验方法"
+    },
+    {
+      "topicId": "ct_hx_g10a_08",
+      "prerequisiteId": "ct_hx_g10a_04",
+      "strength": "hard",
+      "reason": "氯与水、碱的反应用氧化还原视角分析（歧化）"
+    },
+    {
+      "topicId": "ct_hx_g10a_08",
+      "prerequisiteId": "ct_hx_g10a_03",
+      "strength": "soft",
+      "reason": "氯气相关反应的离子方程式书写运用离子反应规则"
+    },
+    {
+      "topicId": "ct_hx_g10a_09",
+      "prerequisiteId": "ct_hx_g9a_07",
+      "strength": "hard",
+      "reason": "初中原子结构（质子中子电子）升级为排布规律与周期律"
+    },
+    {
+      "topicId": "ct_hx_g10a_09",
+      "prerequisiteId": "ct_hx_g9a_08",
+      "strength": "hard",
+      "reason": "初中元素周期表的初步认识系统化为位构性关系"
     }
   ]
 }
