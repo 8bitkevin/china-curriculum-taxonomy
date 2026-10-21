@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.61.0",
+  "version": "1.62.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1481,
+  "topicCount": 1490,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -45874,6 +45874,289 @@
         "unit": "第 5 章 基因突变及其他变异 & 第 6 章 生物的进化",
         "book": "必修2 遗传与进化",
         "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10b_02",
+        "ct_sw_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "稳态与调节",
+      "name": "内环境与稳态",
+      "description": "内环境（组织液血浆淋巴——细胞生活的液体环境）与稳态（理化性质的相对稳定、神经-体液-免疫调节维持）。高中生理学的总纲——稳态是生命的前提。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能排出血浆组织液淋巴的转化关系",
+        "能举稳态失调的例子（发烧脱水）"
+      ],
+      "assessmentPrompt": "问{{name}}：红细胞直接生活在什么里？组织液和淋巴怎么回到血浆？为什么高烧 40℃ 以上危险？",
+      "standards": [
+        "hsbiology-2017:H3.HR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第 1 章 人体的内环境与稳态",
+        "book": "选择性必修1 稳态与调节",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g7b_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g11a_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "稳态与调节",
+      "name": "神经调节：兴奋的传导与传递",
+      "description": "兴奋在神经纤维上的传导（电信号、双向——静息钾外流内负外正）；突触传递（突触小泡释放递质、单向传递）；神经系统的分级调节（大脑皮层脊髓）。初中反射弧的「电学化」——从结构到机制。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能画兴奋传导与突触传递的示意图",
+        "能解释为什么突触传递单向"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么兴奋在反射弧上只能单向传递？静息时膜内外谁负？麻醉剂作用在突触会怎样？",
+      "standards": [
+        "hsbiology-2017:H3.HR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第 2 章 神经调节",
+        "book": "选择性必修1 稳态与调节",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_sw_g11a_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "稳态与调节",
+      "name": "体液调节与免疫调节",
+      "description": "激素调节的反馈机制（甲状腺激素的分级调节与负反馈）；血糖平衡（胰岛素降胰高血糖素升）；特异性免疫（B 细胞体液免疫、T 细胞细胞免疫）与免疫失调（过敏、自身免疫、免疫缺陷）。初中三大调节的深度版——调节网络的总装。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能画出血糖调节的拮抗图",
+        "能说明体液免疫与细胞免疫的协作"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么甲亢患者吃的多还瘦？疫苗免疫属于哪种免疫？HIV 攻击什么细胞？",
+      "standards": [
+        "hsbiology-2017:H3.HR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第 3 章 体液调节 & 第 4 章 免疫调节",
+        "book": "选择性必修1 稳态与调节",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g7b_10",
+        "ct_sw_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g11a_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "稳态与调节",
+      "name": "植物激素调节",
+      "description": "生长素的发现（达尔文向光性实验—詹森拜尔—温特分离）；两重性（低浓度促进高浓度抑制——顶端优势与除草剂）；其他激素（赤霉素细胞分裂素乙烯脱落酸）与生产应用。植物没有神经也会「决策」——化学信号的世界。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能设计验证向光性原因的实验",
+        "能用两重性解释顶端优势"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么砍掉顶梢侧枝疯长？无籽葡萄靠什么？扦插为什么要泡生长素类似物？",
+      "standards": [
+        "hsbiology-2017:H3.HR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第 5 章 植物生命活动的调节",
+        "book": "选择性必修1 稳态与调节",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g7a_12"
+      ]
+    },
+    {
+      "id": "ct_sw_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "name": "种群与群落",
+      "description": "种群密度调查（样方法—植物、标志重捕法—动物）；种群「J 型 S 型」增长的曲线与环境容纳量 K 值；群落的空间结构与演替（初生/次生）。生态学上篇——从个体到群落的层级。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成标志重捕的计算",
+        "能解释 S 型曲线何时增长最快（K/2）"
+      ],
+      "assessmentPrompt": "问{{name}}：标志重捕怎么估种群数量？为什么渔业捕捞要留在 K/2 之后？火山岛植被恢复是哪种演替？",
+      "standards": [
+        "hsbiology-2017:H4.BE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第 1-2 章 种群及其动态/群落及其演替",
+        "book": "选择性必修2 生物与环境",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_sw_g11b_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物与环境",
+      "name": "生态系统的功能与稳定性",
+      "description": "能量流动（单向递减——营养级之间 10-20% 传递率）、物质循环（碳循环——光合呼吸燃烧的全球账本）、信息传递；抵抗力稳定性与恢复力稳定性。初中生态系统的定量化——能量金字塔背后的数学。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成能量流动的计算（传递率）",
+        "能画出碳循环简图"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么食物链一般不超过 5 个营养级？能量为什么单向流动？碳进生物群落的唯一途径是什么？",
+      "standards": [
+        "hsbiology-2017:H4.BE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第 3-4 章 生态系统的结构功能与稳定性",
+        "book": "选择性必修2 生物与环境",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g11b_01",
+        "ct_sw_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_sw_g12a_01",
+      "type": "PROCEDURAL",
+      "subject": "生物学",
+      "domain": "生物技术与工程",
+      "name": "发酵工程与传统发酵",
+      "description": "传统发酵（乳酸菌产酸、酵母产酒精、醋酸菌需氧产醋）；微生物培养（培养基配制、灭菌接种、平板划线与稀释涂布）；工业化发酵流程。人类最古老的生物技术——从泡菜坛到发酵罐。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明泡菜果酒果醋三者的菌种与条件",
+        "能描述无菌操作的要点"
+      ],
+      "assessmentPrompt": "问{{name}}：果酒变果醋需要改变什么条件？为什么培养基要高压蒸汽灭菌？平板划线为什么能分出单个菌落？",
+      "standards": [
+        "hsbiology-2017:H5.BT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第 1 章 发酵工程",
+        "book": "选择性必修3 生物技术与工程",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g12a_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物技术与工程",
+      "name": "细胞工程：克隆与组织培养",
+      "description": "植物细胞工程（组织培养——全能性、体细胞杂交）；动物细胞工程（克隆羊多莉——核移植、单克隆抗体——杂交瘤细胞）。细胞水平的操作台——生命可以「复印」与「组装」。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明克隆羊的操作流程与结论",
+        "能解释单克隆抗体制备的双筛选"
+      ],
+      "assessmentPrompt": "问{{name}}：多莉羊证明了什么？番茄马铃薯杂种植株怎么得到？为什么杂交瘤细胞要两次筛选？",
+      "standards": [
+        "hsbiology-2017:H5.BT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第 2 章 细胞工程",
+        "book": "选择性必修3 生物技术与工程",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_sw_g10a_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g12a_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物技术与工程",
+      "name": "基因工程与安全伦理",
+      "description": "基因工程的工具（限制酶切、DNA 连接酶、运载体质粒）与三步操作（目的基因获取—重组—导入检测）；转基因应用与生态工程；生物技术安全伦理讨论。分子剪刀改写生命——生物科技的最前沿与责任。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能按顺序说出基因操作三步骤",
+        "能举转基因的两项应用并讨论利弊"
+      ],
+      "assessmentPrompt": "问{{name}}：基因工程的「剪刀」和「针线」是什么？Bt 棉怎么抗虫？转基因食品安全吗——正反各说一条？",
+      "standards": [
+        "hsbiology-2017:H5.BT.03",
+        "hsbiology-2017:H5.BT.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第 3 章 基因工程 & 第 4-5 章",
+        "book": "选择性必修3 生物技术与工程",
+        "editionYear": 2020
       },
       "prerequisites": [
         "ct_sw_g10b_02",

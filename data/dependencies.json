@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.61.0",
+  "version": "1.62.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2085,
+  "edgeCount": 2097,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12513,6 +12513,78 @@
       "prerequisiteId": "ct_sw_g8b_04",
       "strength": "hard",
       "reason": "初中自然选择学说升级为基因频率的定量进化理论"
+    },
+    {
+      "topicId": "ct_sw_g11a_01",
+      "prerequisiteId": "ct_sw_g7b_05",
+      "strength": "hard",
+      "reason": "内环境的组成以初中血液循环与血液成分知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g11a_02",
+      "prerequisiteId": "ct_sw_g7b_08",
+      "strength": "hard",
+      "reason": "兴奋传导与传递是初中反射弧结构的机制深化"
+    },
+    {
+      "topicId": "ct_sw_g11a_03",
+      "prerequisiteId": "ct_sw_g7b_10",
+      "strength": "hard",
+      "reason": "初中激素调节（胰岛素甲状腺）升级为反馈调节网络与免疫"
+    },
+    {
+      "topicId": "ct_sw_g11a_03",
+      "prerequisiteId": "ct_sw_g8b_05",
+      "strength": "hard",
+      "reason": "初中传染病免疫（三道防线）深化为体液免疫细胞免疫机制"
+    },
+    {
+      "topicId": "ct_sw_g11a_04",
+      "prerequisiteId": "ct_sw_g7a_12",
+      "strength": "soft",
+      "reason": "生长素与植物的运输生长现象（向光性）相衔接"
+    },
+    {
+      "topicId": "ct_sw_g11b_01",
+      "prerequisiteId": "ct_sw_g7a_02",
+      "strength": "hard",
+      "reason": "种群群落以初中生态系统的组成知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g11b_02",
+      "prerequisiteId": "ct_sw_g11b_01",
+      "strength": "hard",
+      "reason": "能量流动以食物链与种群动态为基础"
+    },
+    {
+      "topicId": "ct_sw_g11b_02",
+      "prerequisiteId": "ct_sw_g7a_10",
+      "strength": "soft",
+      "reason": "碳循环的核心是光合与呼吸（初中学过表达式）"
+    },
+    {
+      "topicId": "ct_sw_g12a_01",
+      "prerequisiteId": "ct_sw_g8a_04",
+      "strength": "hard",
+      "reason": "发酵的菌种（酵母乳酸菌醋酸菌）来自初中细菌真菌知识"
+    },
+    {
+      "topicId": "ct_sw_g12a_02",
+      "prerequisiteId": "ct_sw_g10a_05",
+      "strength": "hard",
+      "reason": "组织培养利用细胞全能性——细胞分化的逆过程"
+    },
+    {
+      "topicId": "ct_sw_g12a_03",
+      "prerequisiteId": "ct_sw_g10b_02",
+      "strength": "hard",
+      "reason": "基因工程操作的对象是 DNA——以 DNA 结构与复制为基础"
+    },
+    {
+      "topicId": "ct_sw_g12a_03",
+      "prerequisiteId": "ct_sw_g8b_04",
+      "strength": "soft",
+      "reason": "基因工程的变异本质与初中变异概念呼应"
     }
   ]
 }
