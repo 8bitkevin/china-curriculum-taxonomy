@@ -1,4 +1,4 @@
-// viewer/logic.test.mjs — 核心逻辑的 Node 测试（数据用真实 v0.1 子集）。
+// viewer/logic.test.mjs — 核心逻辑的 Node 测试（数据用真实全量数据集，计数随数据自证）。
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
@@ -74,10 +74,10 @@ test('treeStats：去重计数与深度', () => {
   assert.equal(stats.depth, 2);
 });
 
-test('qualityMetrics：v0.1 指标全绿（口径与 report.mjs 一致）', () => {
+test('qualityMetrics：全量数据指标全绿（口径与 report.mjs 一致）', () => {
   const m = qualityMetrics(index);
-  assert.equal(m.topicCount, 83);
-  assert.equal(m.edgeCount, 108);
+  assert.equal(m.topicCount, topicsDoc.topics.length);
+  assert.equal(m.edgeCount, depsDoc.dependencies.length);
   assert.equal(m.islands.length, 0);
   assert.equal(m.inverted.length, 0);
   assert.equal(m.noPrompt.length, 0);
