@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.20.0",
+  "version": "1.0.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 546,
+  "topicCount": 563,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -16866,6 +16866,545 @@
       "prerequisites": [
         "ct_g11b_07",
         "ct_g11b_14"
+      ]
+    },
+    {
+      "id": "ct_g12a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "分类加法与分步乘法计数原理",
+      "description": "完成一件事：每类方案相加、每步方法相乘。从甲地到乙地 3 班高铁加 2 班飞机共 5 种；选上衣 3 件配裤子 2 条共 6 种。加法乘法两把钥匙，是排列组合与概率计算的总开关（三年级搭配问题的正式身份）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能区分分类与分步并正确选择加法或乘法",
+        "能用树状图辅助计数并验证"
+      ],
+      "assessmentPrompt": "问{{name}}：「从 5 名男生 4 名女生中选 1 人参会，几种选法？选一男一女呢？为什么一个加一个乘？」",
+      "standards": [
+        "hsmath-2017:H5.SP.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g3b_28",
+        "ct_g9a_25"
+      ]
+    },
+    {
+      "id": "ct_g12a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "排列与排列数",
+      "description": "从 n 个不同元素取 m 个按顺序排成一列：Aₙᵐ=n(n-1)…(n-m+1)。顺序敏感是排列的名片：ABC 与 CBA 不同。3 人排 3 座 A₃³=6 种——分步乘法的封装。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用排列数公式计算",
+        "能识别「有序」情境并转化为排列"
+      ],
+      "assessmentPrompt": "问{{name}}：「5 人排成一排多少种？A₅² 是多少？『排队』与『分组』哪个讲顺序？」",
+      "standards": [
+        "hsmath-2017:H5.SP.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_01",
+        "ct_g3b_26"
+      ]
+    },
+    {
+      "id": "ct_g12a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "组合与组合数",
+      "description": "只选不排：Cₙᵐ=Aₙᵐ/Aₙᵐ，组合数性质 Cₙᵐ=Cₙⁿ⁻ᵐ。握手 6 人 15 次、抽 3 件检验……「不讲顺序」的计数。排列除掉内部排序（m!）得组合——除法消序是关键一步。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用组合数公式与性质计算",
+        "能识别「无序」情境并解释消序"
+      ],
+      "assessmentPrompt": "问{{name}}：「从 10 人选 3 人代表，C₁₀³ 是多少？和排列差在哪？6 人两两握手共几次？」",
+      "standards": [
+        "hsmath-2017:H5.SP.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_02",
+        "ct_g3b_27"
+      ]
+    },
+    {
+      "id": "ct_g12a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "排列组合的综合应用",
+      "description": "特殊元素优先、相邻捆绑、不相邻插空、至多至少间接法——四大战术应对选拔、排队、分组分配。先分类再分步，先组合后排列——「先算归类，再算局部」。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能选用捆绑插空等策略计数",
+        "能用间接法处理至多至少并验证"
+      ],
+      "assessmentPrompt": "问{{name}}：「5 人排队甲乙相邻、丙不在两端，几种排法？『至少 1 名女生』的正难则反怎么做？」",
+      "standards": [
+        "hsmath-2017:H5.SP.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_03"
+      ]
+    },
+    {
+      "id": "ct_g12a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "二项式定理与杨辉三角",
+      "description": "(a+b)ⁿ 的展开式：通项 Cₙᵏaⁿ⁻ⁱbⁱ。系数就是杨辉三角的第 n 行——中国比帕斯卡早四百年。完全平方公式是 n=2 的特例（跨学段衔接：完全平方→二项式定理）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能写通项并求指定项系数",
+        "知道组合数与杨辉三角的对应"
+      ],
+      "assessmentPrompt": "问{{name}}：「(x+2)⁷ 的 x⁵ 项系数是多少？杨辉三角每行和是多少？与 (a+b)² 什么关系？」",
+      "standards": [
+        "hsmath-2017:H5.SP.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_04",
+        "ct_g8a_16"
+      ]
+    },
+    {
+      "id": "ct_g12a_06",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "条件概率与全概率公式",
+      "description": "已知 B 发生时 A 的概率 P(A|B)=P(AB)/P(B)。全概率公式把复杂事件按原因拆开再加权：「由因索果」。抽签公平、体检误诊分析——贝叶斯思维的起点。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能计算条件概率并使用乘法公式",
+        "能用全概率公式分解问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「两个盒子里都有红白球，先随机选盒再摸球，摸到红的概率怎么用全概率算？」",
+      "standards": [
+        "hsmath-2017:H5.SP.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g10b_15",
+        "ct_g10b_18"
+      ]
+    },
+    {
+      "id": "ct_g12a_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "离散型随机变量及其分布列",
+      "description": "把随机试验的结果数量化：X 取值与概率一一对应成分布列（Σpᵢ=1）。掷骰子得分、投篮命中次数——随机现象的「户口簿」，期望方差都从这里出发。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能写出简单试验的分布列",
+        "能检验分布列的合法性与两点分布"
+      ],
+      "assessmentPrompt": "问{{name}}：「一次投篮命中得 2 分未中 0 分，命中率 0.7，X 的分布列怎么写？分布列要满足什么？」",
+      "standards": [
+        "hsmath-2017:H5.SP.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_06"
+      ]
+    },
+    {
+      "id": "ct_g12a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "离散型随机变量的均值与方差",
+      "description": "E(X)=Σxᵢpᵢ 是加权平均（概率当权重）——「平均水平」；D(X)=E(X²)-E(X)² 度量波动。E(aX+b)=aE(X)+b、D(aX+b)=a²D(X)。随机世界的「平均数与方差」（初中统计量的随机版）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能由分布列计算均值方差",
+        "能用期望与方差做决策比较"
+      ],
+      "assessmentPrompt": "问{{name}}：「两方案期望相同方差一大一小，选哪个？为什么？E(2X+3) 等于什么？」",
+      "standards": [
+        "hsmath-2017:H5.SP.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_07",
+        "ct_g8b_23"
+      ]
+    },
+    {
+      "id": "ct_g12a_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "二项分布与超几何分布",
+      "description": "独立重复试验成功次数 X~B(n,p)：P(X=k)=Cₙᵏpᵏ(1-p)ⁿ⁻ᵏ，E=np、D=np(1-p)。不放回抽样是超几何分布。投篮 n 次、抽检 n 件——概率模型的两大明星。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能识别并计算二项分布问题",
+        "能区分二项分布与超几何分布（放回与否）"
+      ],
+      "assessmentPrompt": "问{{name}}：「命中率 0.8 投 5 次恰中 3 次的概率？E(X) 是多少？抽检不放回该用什么分布？」",
+      "standards": [
+        "hsmath-2017:H5.SP.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g10b_18",
+        "ct_g12a_08"
+      ]
+    },
+    {
+      "id": "ct_g12a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "正态分布",
+      "description": "连续型随机变量的代表：钟形曲线 f(x)=(1/σ√2π)e^(-(x-μ)²/2σ²)，μ 定位置、σ 定胖瘦。3σ 原则：99.7% 数据落在 μ±3σ 内。身高、成绩、测量误差——大自然默认的分布。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出参数对曲线的影响",
+        "能用对称性与 3σ 原则估算概率"
+      ],
+      "assessmentPrompt": "问{{name}}：「正态曲线关于谁对称？μ±3σ 覆盖约多少数据？σ 变大曲线怎么变？」",
+      "standards": [
+        "hsmath-2017:H5.SP.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_09"
+      ]
+    },
+    {
+      "id": "ct_g12a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "成对数据的相关关系（散点图与相关系数）",
+      "description": "身高与体重「相关但不确定」：散点图看趋势，相关系数 r∈[-1,1] 定强度，|r| 越近 1 线性关系越强。相关不等于因果——冰淇淋销量与溺水人数的背后是夏天。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能画散点图并判断正负相关",
+        "能解释相关系数的意义与相关≠因果"
+      ],
+      "assessmentPrompt": "问{{name}}：「r=0.95 说明什么？r=0 呢？『学习时间与视力』相关的数据能证明因果吗？」",
+      "standards": [
+        "hsmath-2017:H5.SP.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g10b_13",
+        "ct_g5b_25"
+      ]
+    },
+    {
+      "id": "ct_g12a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "一元线性回归模型与预测",
+      "description": "ŷ=bx+a 用最小二乘法估计：残差平方和最小。b 的公式含 r 与标准差之比。回归线过 (x̄,ȳ)，可用来预测——但外推要谨慎（模型是局部真理）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能求回归方程并作预测",
+        "能用残差分析检验拟合效果"
+      ],
+      "assessmentPrompt": "问{{name}}：「回归方程怎么来的？b>0 意味着什么？x=100 超出数据范围时预测可靠吗？」",
+      "standards": [
+        "hsmath-2017:H5.SP.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_11",
+        "ct_g8b_21"
+      ]
+    },
+    {
+      "id": "ct_g12a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "独立性检验（2×2 列联表与 χ²）",
+      "description": "吸烟与患病是否有关？列 2×2 表算 χ² 统计量，与临界值比较：χ² 越大越有理由认为相关。「有 95% 把握认为有关」——假设检验思想的入门（反证法的统计版）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能完成独立性检验的完整步骤并下结论",
+        "能说出犯错误的可能性（小概率）"
+      ],
+      "assessmentPrompt": "问{{name}}：「χ²=6.7 大于 3.841 意味着什么？『9 5% 把握』和『一定有关』差在哪？」",
+      "standards": [
+        "hsmath-2017:H5.SP.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_12"
+      ]
+    },
+    {
+      "id": "ct_g12a_14",
+      "type": "META",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "用样本推断总体：统计全流程综合案例",
+      "description": "一个真实课题串起高中统计全部武器：抽样设计→频率分布直方图→均值方差百分位数→回归或检验。数据从哪来、结论到哪里为止——统计素养的总检阅。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能独立设计并完成完整统计分析",
+        "能规范表述结论的置信与局限"
+      ],
+      "assessmentPrompt": "让{{name}}分析全班数学与物理成绩的关系：「先做什么图？相关强吗？能说学物理靠数学好吗？」",
+      "standards": [
+        "hsmath-2017:H5.SP.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_13"
+      ]
+    },
+    {
+      "id": "ct_g12a_15",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学建模活动（三）：概率决策模型",
+      "description": "用期望做决策：体检方案选哪种、进货多少件利润期望最大、保险定价合不合理——概率统计建模收官。风险面前，数学给你一把理性的尺。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能建立随机模型并用期望决策",
+        "能分析决策的风险与鲁棒性"
+      ],
+      "assessmentPrompt": "问{{name}}：「报摊进 10 份或 15 份报纸，卖出概率不同，期望各多少？进几份更优？」",
+      "standards": [
+        "hsmath-2017:H5.SP.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g11b_16",
+        "ct_g12a_09"
+      ]
+    },
+    {
+      "id": "ct_g12a_16",
+      "type": "META",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "计数与概率综合（随机模拟与古典概率压轴）",
+      "description": "排列组合与分布列联手：随机取数、放球入盒、赛制胜率——先计数建模型、再算分布列期望。压轴题的全套动作在本主题一次排完。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能对综合情境正确计数并求分布列",
+        "能用期望比较方案"
+      ],
+      "assessmentPrompt": "问{{name}}：「从 1-5 中有放回取 3 次，取到最大值为 4 的概率？先计数再建模怎么做？」",
+      "standards": [
+        "hsmath-2017:H5.SP.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g12a_04",
+        "ct_g12a_08"
+      ]
+    },
+    {
+      "id": "ct_g12a_17",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "高中数学收官：知识体系与方法论总览",
+      "description": "回望三年：函数与导数（变化）、几何与代数（空间形式）、统计与概率（随机）三大主线，贯穿「抽象、推理、建模、运算、直观、数据」六大素养——数学是一套看世界的方法。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能画出高中数学知识结构图",
+        "能举例说明数学思想（数形结合、化归、分类）的应用"
+      ],
+      "assessmentPrompt": "问{{name}}：「高中数学三大主线是什么？『化归』举例说说？从小学到高中哪条知识链最长？」",
+      "standards": [
+        "hsmath-2017:H5.SP.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 12,
+        "volume": "上",
+        "unit": 8,
+        "editionYear": 2019,
+        "book": "选择性必修第三册"
+      },
+      "prerequisites": [
+        "ct_g11a_20",
+        "ct_g12a_15"
       ]
     }
   ]

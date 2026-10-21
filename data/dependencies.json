@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.20.0",
+  "version": "1.0.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 911,
+  "edgeCount": 940,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5469,6 +5469,180 @@
       "prerequisiteId": "ct_g11b_07",
       "strength": "hard",
       "reason": "Sₙ 相关问题调用求和方法工具箱"
+    },
+    {
+      "topicId": "ct_g12a_01",
+      "prerequisiteId": "ct_g3b_28",
+      "strength": "hard",
+      "reason": "三年级搭配问题（分步相乘的雏形）在此正式定理化（跨学段衔接：搭配→计数原理）"
+    },
+    {
+      "topicId": "ct_g12a_01",
+      "prerequisiteId": "ct_g9a_25",
+      "strength": "hard",
+      "reason": "列举计数（列表树状图）是计数原理验证与理解的基础"
+    },
+    {
+      "topicId": "ct_g12a_02",
+      "prerequisiteId": "ct_g12a_01",
+      "strength": "hard",
+      "reason": "排列数公式由分步乘法原理推出"
+    },
+    {
+      "topicId": "ct_g12a_02",
+      "prerequisiteId": "ct_g3b_26",
+      "strength": "soft",
+      "reason": "小学排列问题（组两位数）是有序计数的原型（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_03",
+      "prerequisiteId": "ct_g12a_02",
+      "strength": "hard",
+      "reason": "组合数由排列数消序（除以 m!）得到"
+    },
+    {
+      "topicId": "ct_g12a_03",
+      "prerequisiteId": "ct_g3b_27",
+      "strength": "soft",
+      "reason": "小学组合问题（握手、搭配）是无序计数的原型（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_04",
+      "prerequisiteId": "ct_g12a_03",
+      "strength": "hard",
+      "reason": "综合应用交替使用排列与组合"
+    },
+    {
+      "topicId": "ct_g12a_05",
+      "prerequisiteId": "ct_g12a_04",
+      "strength": "hard",
+      "reason": "二项式展开系数由组合数 Cₙᵏ 给出"
+    },
+    {
+      "topicId": "ct_g12a_05",
+      "prerequisiteId": "ct_g8a_16",
+      "strength": "hard",
+      "reason": "完全平方公式是二项式定理 n=2 的特例（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_06",
+      "prerequisiteId": "ct_g10b_18",
+      "strength": "hard",
+      "reason": "条件概率使用积事件概率（独立性在其中的角色）"
+    },
+    {
+      "topicId": "ct_g12a_06",
+      "prerequisiteId": "ct_g10b_15",
+      "strength": "soft",
+      "reason": "条件概率的样本空间缩减思想源于事件的集合表示"
+    },
+    {
+      "topicId": "ct_g12a_07",
+      "prerequisiteId": "ct_g12a_06",
+      "strength": "hard",
+      "reason": "分布列的建立以条件概率与乘法公式为计算工具"
+    },
+    {
+      "topicId": "ct_g12a_08",
+      "prerequisiteId": "ct_g12a_07",
+      "strength": "hard",
+      "reason": "均值方差由分布列计算"
+    },
+    {
+      "topicId": "ct_g12a_08",
+      "prerequisiteId": "ct_g8b_23",
+      "strength": "hard",
+      "reason": "随机变量的方差是初中数据方差（频率版）的概率化（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_09",
+      "prerequisiteId": "ct_g12a_08",
+      "strength": "hard",
+      "reason": "二项分布的均值方差是分布列数字特征的应用"
+    },
+    {
+      "topicId": "ct_g12a_09",
+      "prerequisiteId": "ct_g10b_18",
+      "strength": "hard",
+      "reason": "独立重复试验以事件独立性为前提"
+    },
+    {
+      "topicId": "ct_g12a_10",
+      "prerequisiteId": "ct_g12a_09",
+      "strength": "hard",
+      "reason": "正态分布作为连续型与离散型（二项分布 n 大 p 小）的极限对照引入"
+    },
+    {
+      "topicId": "ct_g12a_11",
+      "prerequisiteId": "ct_g10b_13",
+      "strength": "hard",
+      "reason": "成对数据分析沿用频率分布与样本数据的处理经验"
+    },
+    {
+      "topicId": "ct_g12a_11",
+      "prerequisiteId": "ct_g5b_25",
+      "strength": "soft",
+      "reason": "双变量数据的图表呈现（复式折线）是散点图的前身（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_12",
+      "prerequisiteId": "ct_g12a_11",
+      "strength": "hard",
+      "reason": "回归建立在相关性分析之上"
+    },
+    {
+      "topicId": "ct_g12a_12",
+      "prerequisiteId": "ct_g8b_21",
+      "strength": "soft",
+      "reason": "加权最小二乘的『权重』思想与加权平均数同源（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g12a_13",
+      "prerequisiteId": "ct_g12a_12",
+      "strength": "hard",
+      "reason": "独立性检验与回归同属统计推断，在成对数据框架内对照学习"
+    },
+    {
+      "topicId": "ct_g12a_14",
+      "prerequisiteId": "ct_g12a_13",
+      "strength": "hard",
+      "reason": "综合案例调用回归与检验全套工具"
+    },
+    {
+      "topicId": "ct_g12a_15",
+      "prerequisiteId": "ct_g12a_09",
+      "strength": "hard",
+      "reason": "决策建模的核心工具是分布列与期望"
+    },
+    {
+      "topicId": "ct_g12a_15",
+      "prerequisiteId": "ct_g11b_16",
+      "strength": "soft",
+      "reason": "延续建模活动的流程与报告规范"
+    },
+    {
+      "topicId": "ct_g12a_16",
+      "prerequisiteId": "ct_g12a_08",
+      "strength": "hard",
+      "reason": "综合压轴以计数建模+分布列期望为主线"
+    },
+    {
+      "topicId": "ct_g12a_16",
+      "prerequisiteId": "ct_g12a_04",
+      "strength": "hard",
+      "reason": "复杂情境的样本点计数依赖排列组合综合技能"
+    },
+    {
+      "topicId": "ct_g12a_17",
+      "prerequisiteId": "ct_g12a_15",
+      "strength": "hard",
+      "reason": "收官总览以最后一批建模活动收束"
+    },
+    {
+      "topicId": "ct_g12a_17",
+      "prerequisiteId": "ct_g11a_20",
+      "strength": "soft",
+      "reason": "方法论总结呼应解析几何思想等各册的思想主题"
     }
   ]
 }
