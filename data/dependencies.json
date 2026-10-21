@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.38.0",
+  "version": "1.39.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1728,
+  "edgeCount": 1739,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10371,6 +10371,72 @@
       "prerequisiteId": "ct_yy_g10b_03",
       "strength": "soft",
       "reason": "事件报道写作中运用完成被动叙述已发生事件"
+    },
+    {
+      "topicId": "ct_yy_g11a_01",
+      "prerequisiteId": "ct_yy_g6a_04",
+      "strength": "hard",
+      "reason": "小学 like + V-ing 的感性用法升级为动名词句法功能系统"
+    },
+    {
+      "topicId": "ct_yy_g11a_02",
+      "prerequisiteId": "ct_yy_g7b_01",
+      "strength": "hard",
+      "reason": "初中 want to do 的不定式经验扩展为三大句法位"
+    },
+    {
+      "topicId": "ct_yy_g11a_03",
+      "prerequisiteId": "ct_yy_g10b_04",
+      "strength": "hard",
+      "reason": "分词作定语的基础上扩展到状语位，非谓语体系收口"
+    },
+    {
+      "topicId": "ct_yy_g11a_03",
+      "prerequisiteId": "ct_yy_g10b_01",
+      "strength": "soft",
+      "reason": "从句改写为分词状语依赖定语从句与状语从句的熟练"
+    },
+    {
+      "topicId": "ct_yy_g11a_04",
+      "prerequisiteId": "ct_yy_g4b_11",
+      "strength": "soft",
+      "reason": "小学节日文化词汇延伸到节日语篇的结构化阅读"
+    },
+    {
+      "topicId": "ct_yy_g11a_05",
+      "prerequisiteId": "ct_yy_g8a_03",
+      "strength": "soft",
+      "reason": "传记阅读的文体经验（语文八上）迁移到英语人物传记语篇"
+    },
+    {
+      "topicId": "ct_yy_g11a_06",
+      "prerequisiteId": "ct_yy_g7a_09",
+      "strength": "soft",
+      "reason": "点餐饮食词汇线延伸到饮食文化语篇"
+    },
+    {
+      "topicId": "ct_yy_g11a_07",
+      "prerequisiteId": "ct_yy_g10b_12",
+      "strength": "hard",
+      "reason": "语篇结构分析之后下钻到句级：长难句主谓定位"
+    },
+    {
+      "topicId": "ct_yy_g11a_08",
+      "prerequisiteId": "ct_yy_g10b_10",
+      "strength": "hard",
+      "reason": "应用文（报道/书信）之后学说明文（节日介绍）文体"
+    },
+    {
+      "topicId": "ct_yy_g11a_09",
+      "prerequisiteId": "ct_yy_g8a_14",
+      "strength": "hard",
+      "reason": "初中同意反驳的初步表达升级为带缓冲语的礼貌异议"
+    },
+    {
+      "topicId": "ct_yy_g11a_10",
+      "prerequisiteId": "ct_yy_g10b_09",
+      "strength": "hard",
+      "reason": "构词法之后攻克一词多义：猜词线索四类型"
     }
   ]
 }

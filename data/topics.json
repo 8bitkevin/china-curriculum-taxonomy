@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.38.0",
+  "version": "1.39.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1212,
+  "topicCount": 1222,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -37525,6 +37525,324 @@
       },
       "prerequisites": [
         "ct_yy_g10a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "非谓语二：-ing 作主语与宾语",
+      "description": "掌握动名词作主语（Learning English takes time.）与作宾语（enjoy/finish/practise/mind + doing，以及 afford/decide + to do 的分类记忆）。动词后面接 doing 还是 to do——高中高频考点第一名的第一半。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "doing/to do 接宾分类 15 题对 12",
+        "能用 -ing 作主语造两句格言式表达"
+      ],
+      "assessmentPrompt": "考{{name}}：He finished ___ (read) / decided ___ (go) / kept ___ (run)——再让他用 Seeing is believing 造一句自己的格言。",
+      "standards": [
+        "hsenglish-2017:H1.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三语法板块",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g6a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "非谓语三：不定式作主语、宾语、表语",
+      "description": "掌握不定式的三大句法位：To err is human（主语）、want to do（宾语）、My dream is to become...（表语），it 形式主语（It takes... to do）。与 -ing 的分工（抽象习惯用 doing，具体将用 to do）初辨。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "不定式句型改写（It is... to do）10 题对 8",
+        "能写一句理想表达（表语不定式）"
+      ],
+      "assessmentPrompt": "考{{name}}：To learn a language ___ (need) practice. / 改 It 形式主语句；请说 My goal is to... 句。",
+      "standards": [
+        "hsenglish-2017:H1.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三语法板块",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "非谓语四：-ing 与 -ed 作定语状语",
+      "description": "掌握分词作定语（the rising sun / fallen leaves）与作状语（Hearing the news, he cried. / Given more time, I'd do better.）——doing 表主动进行、done 表被动完成。非谓语体系的收口：从句瘦身成分词，句子立刻高级。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "分词作状语改写从句 10 题对 8",
+        "能判断分词逻辑主语的一致性"
+      ],
+      "assessmentPrompt": "考{{name}}：把 When he saw the snake, he jumped. 改分词状语句；再判错的 ___ walking in the street, I met Tom 的主语问题。",
+      "standards": [
+        "hsenglish-2017:H1.GR.01",
+        "hsenglish-2017:H2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三语法板块",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10b_01",
+        "ct_yy_g10b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：节日与庆祝（Why We Celebrate）",
+      "description": "读中外节日语篇（春节、丰收节、万圣节的由来与变迁）：节日的「起源—习俗—现代意义」结构与「节日是否会消失」的观点讨论。文化语篇的读法：习俗细节+作者态度。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能梳理一个节日的三段结构",
+        "能识别作者对「节日商业化」的态度"
+      ],
+      "assessmentPrompt": "给{{name}}读丰收节语篇：问起源、习俗变化，作者担心什么？你过春节的哪个习俗最想保留？",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Unit 1 Festivals",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g4b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：道德与美德（人物传记）",
+      "description": "读人物传记语篇（林巧稚的选择、白求恩式人物）：传主的 dilemma—choice—impact 三段式，体会 biography 与 story 的文体差。价值观语篇的深层阅读：人物为什么这样选。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能指出传主面临的两难与选择",
+        "能用两句评价人物并引用原文"
+      ],
+      "assessmentPrompt": "给{{name}}读林巧稚传记节选：她的两难是什么？她放弃什么选择了什么？你敬佩哪一点？",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H3.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Unit 2 Morals and Virtues",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：饮食文化与健康",
+      "description": "读饮食文化语篇（中西餐桌、均衡饮食）：描述性说明文 + 建议性语篇的混合结构；饮食词族（cuisine、recipe、nutrient、diet）。把美食话题读出文化感——舌尖上的英语。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能比较中西饮食差异三方面",
+        "能给出三条健康饮食建议（should 结构）"
+      ],
+      "assessmentPrompt": "给{{name}}读饮食文化语篇：列出中西各三个差异；让他用英语给家人配一天健康食谱。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三相关单元",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g7a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_07",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "长难句初解：主谓定位法",
+      "description": "攻克长难句第一招：先找主谓核心（谁干什么），再剥离从句与修饰（插入语、定从、非谓语都先「括号起来」）。The girl who is standing there wearing a red hat is my sister.——长句是纸老虎，主谓是骨架。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能给五个长难句画出主谓与修饰成分",
+        "简化后的主干句翻译准确"
+      ],
+      "assessmentPrompt": "给{{name}}三个长难句：让他先圈主谓、括号修饰、写主干、再翻译——四步走。",
+      "standards": [
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "各单元 Reading and Thinking",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：介绍一个节日（说明文）",
+      "description": "Reading for Writing：写节日介绍（When/Origin/Customs/Meaning 四栏提纲 + 总分总结构，100 词）。说明文的组织训练：时间顺序与分类并举，这是应用文之外的第二大文体。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "四栏信息齐全、结构总分总",
+        "至少一句定语从句或被动语态提升句式"
+      ],
+      "assessmentPrompt": "请{{name}}写 The Spring Festival 介绍文：四栏提纲先列，成文须含一句定从一句被动。",
+      "standards": [
+        "hsenglish-2017:H1.WR.01",
+        "hsenglish-2017:H2.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Reading for Writing",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：观点交流与礼貌异议",
+      "description": "讨论中的礼貌异议工具箱：I see your point, but... / I'm afraid I disagree because... / That's true, however... 观点交流的高级形态——同意有层次、反驳有缓冲，跨文化沟通的软实力。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能对三个观点分别表示同意/部分同意/反驳",
+        "反驳句使用缓冲语"
+      ],
+      "assessmentPrompt": "抛三个观点（手机进校园/校服/作业量），请{{name}}各用不同立场回应，反驳必须带缓冲语。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "各单元 Listening and Talking",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_10",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "一词多义与语境猜词",
+      "description": "高中词汇的核心难题：熟词生义（book v. 预订、run 经营、address 处理）与语境猜词策略（定义、举例、对比、因果四类线索）。3500 词不是背 3500 个意思，而是 2000 个词的多个面孔。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出 10 个熟词的生义并各配一句",
+        "能凭四类线索猜出语篇生词"
+      ],
+      "assessmentPrompt": "考{{name}}：The company runs 30 stores 里 run 什么意思？给一个含生词的句子让他指出猜词线索类型。",
+      "standards": [
+        "hsenglish-2017:H2.VB.01",
+        "hsenglish-2017:H1.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "各单元词汇与阅读",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g10b_09"
       ]
     }
   ]
