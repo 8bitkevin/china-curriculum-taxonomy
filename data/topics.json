@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.68.0",
+  "version": "1.69.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1542,
+  "topicCount": 1548,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -47727,6 +47727,201 @@
       "prerequisites": [
         "ct_dl_g7b_02",
         "ct_dl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "宇宙中的地球与大气受热",
+      "description": "地球的宇宙环境（太阳系与地球存在生命的条件）；太阳辐射与太阳活动；地球自转公转的地理意义（时区计算、昼夜长短与太阳高度）；大气受热过程（大气保温效应——温室原理）与热力环流。自然地理的发动机——能量从太阳到大气到地表的旅程。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成时区与昼夜长短计算",
+        "能用大气受热过程解释温室效应与逆温"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么月球昼夜温差大而地球小？城市热岛效应的热力环流怎么画？北京时间与乌鲁木齐地方时差多少？",
+      "standards": [
+        "hsgeography-2017:H1.NG.01",
+        "hsgeography-2017:H1.NG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 宇宙中的地球 & 第二章 地球上的大气",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_dl_g7a_02",
+        "ct_dl_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "水、地貌与整体性差异性",
+      "description": "水循环（海陆间循环——人类影响的环节）与洋流（暖流寒流对气候影响）；地貌（内力外力——板块构造、流水与风成地貌）；自然环境的整体性（牵一发而动全身）与地域分异（纬度、经度、垂直地带性）。自然地理的四大圈层合奏——为什么撤掉一块积木全塔晃动。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画水循环示意图并指出人类干预环节",
+        "能用整体性解释湖泊消失的连锁影响"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么北大西洋暖流让西欧冬暖？塔里木盆地的沙丘和黄土高原的沟壑分别是谁的作品？珠峰南坡为什么植被垂直分带丰富？",
+      "standards": [
+        "hsgeography-2017:H1.NG.03",
+        "hsgeography-2017:H1.NG.04",
+        "hsgeography-2017:H1.NG.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三、四、五章",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_dl_g7a_06",
+        "ct_dl_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "人口、城镇与产业区位",
+      "description": "人口迁移（推拉理论）；城乡空间结构（功能分区与地租）；城镇化（标志与问题）；农业工业服务业的区位因素及其变化（市场交通技术——城郊农业、硅谷）。人文地理的核心问题——人在哪里住、干什么、为什么在那。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析某地农业或工业的区位因素",
+        "能说明城镇化对地理环境的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么大城市中心是商业区不是工厂？春运为什么那么多人迁移？以色列沙漠农业靠什么改变区位？",
+      "standards": [
+        "hsgeography-2017:H2.HG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一至三章",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_dl_g7a_07",
+        "ct_dl_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "交通、环境问题与可持续发展",
+      "description": "交通运输布局（高铁对城市兴衰的影响）；人类面临的环境问题（资源短缺环境污染生态破坏——分布差异）与可持续发展（三大原则——公平性持续性共同性）；走可持续发展之路的中国实践（双碳、生态农业）。人文地理的终章——发展与地球的承载极限。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析交通线布局的区位因素",
+        "能用可持续发展原则评价两种发展模式"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说「要想富先修路」？发达国家和发展中国家的环境问题各有什么特点？碳达峰碳中和怎么实现？",
+      "standards": [
+        "hsgeography-2017:H2.HG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第四章 交通运输布局与区域发展 & 第五章 环境与发展",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_dl_g10b_01",
+        "ct_dl_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "选必一二：区域发展与生态治理",
+      "description": "区域与区域发展（区域差异与比较——长江经济带）；资源枯竭型城市转型（焦作、大庆）；生态脆弱区治理（荒漠化——为什么在西北、怎么治）；流域开发（长江黄河的协作开发）；产业结构与地理信息技术（GPS RS GIS）。区域地理的高阶版——问题区域的开方逻辑。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明荒漠化的成因与治理措施",
+        "能分析资源型城市转型的路径"
+      ],
+      "assessmentPrompt": "问{{name}}：西北荒漠化是「天灾」还是「人祸」各占多少？大庆除了挖油还能怎么办？3S 技术各管什么？",
+      "standards": [
+        "hsgeography-2017:H3.RD.01",
+        "hsgeography-2017:H3.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "选择性必修1&2 各章",
+        "book": "选择性必修1 自然地理基础",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_dl_g10a_02",
+        "ct_dl_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g12a_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "资源、环境与国家安全",
+      "name": "选必三：资源、环境与国家安全",
+      "description": "自然资源与国家安全（耕地、水、能源与石油储备——保障路径）；环境与国家安全（污染物跨境、碳排放与全球环境合作；生态保护红线与自然保护区）。地理学的国家战略课——从人地协调到国家安全的资源底线。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明我国能源安全的挑战与对策",
+        "能分析碳排放引发国际博弈的地理原因"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么我国要建石油战略储备？18 亿亩耕地红线怎么来的？气候变化为什么是「全球问题」？",
+      "standards": [
+        "hsgeography-2017:H4.RE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "全册",
+        "book": "选择性必修3 资源、环境与国家安全",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_dl_g10b_02"
       ]
     }
   ]

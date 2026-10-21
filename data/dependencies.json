@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.68.0",
+  "version": "1.69.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2154,
+  "edgeCount": 2165,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12927,6 +12927,72 @@
       "prerequisiteId": "ct_dl_g7b_02",
       "strength": "soft",
       "reason": "区域研究方法（世界地理国家样本）迁移到中国区域"
+    },
+    {
+      "topicId": "ct_dl_g10a_01",
+      "prerequisiteId": "ct_dl_g7a_02",
+      "strength": "hard",
+      "reason": "初中地球运动（昼夜四季）深化为时区与太阳高度的定量计算"
+    },
+    {
+      "topicId": "ct_dl_g10a_01",
+      "prerequisiteId": "ct_dl_g7a_05",
+      "strength": "hard",
+      "reason": "初中天气气候知识升级为大气受热与热力环流的机制分析"
+    },
+    {
+      "topicId": "ct_dl_g10a_02",
+      "prerequisiteId": "ct_dl_g8a_03",
+      "strength": "hard",
+      "reason": "初中河流水文知识深化为水循环与地貌过程分析"
+    },
+    {
+      "topicId": "ct_dl_g10a_02",
+      "prerequisiteId": "ct_dl_g7a_06",
+      "strength": "hard",
+      "reason": "气候类型分布知识升级为地域分异规律（三带五带的理论化）"
+    },
+    {
+      "topicId": "ct_dl_g10b_01",
+      "prerequisiteId": "ct_dl_g7a_07",
+      "strength": "hard",
+      "reason": "初中人口与聚落知识深化为迁移理论与空间结构分析"
+    },
+    {
+      "topicId": "ct_dl_g10b_01",
+      "prerequisiteId": "ct_dl_g8a_05",
+      "strength": "hard",
+      "reason": "初中产业布局（农业工业交通）升级为区位因素的动态分析"
+    },
+    {
+      "topicId": "ct_dl_g10b_02",
+      "prerequisiteId": "ct_dl_g8a_04",
+      "strength": "hard",
+      "reason": "初中自然资源（水土资源）知识纳入可持续发展框架"
+    },
+    {
+      "topicId": "ct_dl_g10b_02",
+      "prerequisiteId": "ct_dl_g10b_01",
+      "strength": "hard",
+      "reason": "交通布局与发展问题承接产业与城镇的区位分析"
+    },
+    {
+      "topicId": "ct_dl_g11a_01",
+      "prerequisiteId": "ct_dl_g8b_02",
+      "strength": "hard",
+      "reason": "初中区域样本（黄土高原治理等）升级为区域发展的理论框架"
+    },
+    {
+      "topicId": "ct_dl_g11a_01",
+      "prerequisiteId": "ct_dl_g10a_02",
+      "strength": "hard",
+      "reason": "生态脆弱区治理需要自然地理整体性原理支撑"
+    },
+    {
+      "topicId": "ct_dl_g12a_01",
+      "prerequisiteId": "ct_dl_g10b_02",
+      "strength": "hard",
+      "reason": "国家安全议题深化可持续发展的人地协调思想"
     }
   ]
 }
