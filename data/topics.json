@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.60.0",
+  "version": "1.61.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1471,
+  "topicCount": 1481,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -45564,6 +45564,320 @@
       },
       "prerequisites": [
         "ct_sw_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "分子与细胞",
+      "name": "细胞的分子组成：蛋白质与核酸",
+      "description": "组成细胞的元素与化合物；氨基酸脱水缩合形成蛋白质（多样性与功能）；核酸（DNA RNA）是遗传信息的携带者；检测实验（斐林试剂还原糖、双缩脲蛋白质、甲基绿吡罗红）。生命的化学基础——从元素到分子的层级。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明脱水缩合的过程并计算肽键数",
+        "能选用试剂检测三类物质"
+      ],
+      "assessmentPrompt": "问{{name}}：一条 51 个氨基酸的链有几个肽键、脱去几分子水？为什么说蛋白质是生命活动的主要承担者？",
+      "standards": [
+        "hsbiology-2017:H1.MC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第 1-2 章 走近细胞与组成细胞的分子",
+        "book": "必修1 分子与细胞",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "分子与细胞",
+      "name": "细胞结构与生物膜系统",
+      "description": "细胞膜（流动镶嵌模型——磷脂双分子层与蛋白质）；细胞器分工（线粒体动力车间、叶绿体养料制造、核糖体装配、内质网高尔基体加工运输）；生物膜系统与核质关系。细胞的「部门制」—— compartments? —区室化的分工智慧。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能分泌蛋白的合成运输路线（核糖体→内质网→高尔基体→膜）",
+        "能说明膜的结构特点与功能特性"
+      ],
+      "assessmentPrompt": "问{{name}}：分泌蛋白从哪合成到哪出细胞？为什么细胞膜是流动的？线粒体多的细胞有什么特点？",
+      "standards": [
+        "hsbiology-2017:H1.MC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第 3 章 细胞的基本结构",
+        "book": "必修1 分子与细胞",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g10a_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "分子与细胞",
+      "name": "物质跨膜运输与酶 ATP",
+      "description": "运输三方式（自由扩散、协助扩散——顺浓度不需能量；主动运输——逆浓度耗能）；酶的作用（高效性专一性——降低活化能）与 ATP（直接能源）。细胞的物流与货币——谁在花 ATP。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断三种运输方式的曲线与条件",
+        "能设计温度对酶活性影响的实验"
+      ],
+      "assessmentPrompt": "问{{name}}：葡萄糖进红细胞和进小肠上皮细胞方式一样吗？为什么发烧会消化不良？ATP 与 ADP 怎么转化？",
+      "standards": [
+        "hsbiology-2017:H1.MC.03",
+        "hsbiology-2017:H1.MC.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第 4-5 章 细胞的物质输入输出与能量供应",
+        "book": "必修1 分子与细胞",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10a_02"
+      ]
+    },
+    {
+      "id": "ct_sw_g10a_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "分子与细胞",
+      "name": "光合与呼吸的细胞水平深化",
+      "description": "光合作用两阶段（光反应类囊体薄膜——水光解产氧产 ATP NADPH；暗反应基质——CO₂ 固定与还原）；有氧呼吸三阶段（糖酵解-柠檬酸循环-氧化磷酸化）与无氧呼吸。初中光合呼吸的分子化——能量与碳的细胞之旅。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出两阶段的场所物质变化",
+        "能解释突然遮光 C₃ 化合物怎么变"
+      ],
+      "assessmentPrompt": "问{{name}}：突然降低 CO₂ 浓度，C₃ C₅ 谁先积累？马拉松运动员无氧呼吸产生什么？叶绿体和线粒体怎么双向合作？",
+      "standards": [
+        "hsbiology-2017:H1.MC.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第 5 章 细胞的能量供应和利用",
+        "book": "必修1 分子与细胞",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10a_03",
+        "ct_sw_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_sw_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "分子与细胞",
+      "name": "细胞的生命历程",
+      "description": "有丝分裂（前期膜仁消失显两体、中期形定数晰赤道齐、后期均分牵两极、末期两消两现重开始）与动植物分裂差异；分化、全能性、衰老凋亡与癌变（恶性增殖）。细胞的一生——从一次分裂到凋亡的秩序。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能识别分裂各期图形并数染色体与 DNA 数量",
+        "能区分细胞凋亡与坏死、癌变特征"
+      ],
+      "assessmentPrompt": "问{{name}}：哪个时期染色体数:DNA 数=1:2？植物细胞分裂末期和动物有什么不同？为什么癌「杀不死」？",
+      "standards": [
+        "hsbiology-2017:H1.MC.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第 6 章 细胞的生命历程",
+        "book": "必修1 分子与细胞",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_sw_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "DNA 是主要遗传物质",
+      "description": "肺炎双球菌转化实验（格里菲思-艾弗里：DNA 是转化因子）与 T₂ 噬菌体侵染实验（赫尔希蔡斯同位素标记）；DNA 双螺旋结构（沃森克里克——碱基互补配对）。追捕遗传物质的三步侦探剧——实验逻辑比结论更精彩。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明噬菌体实验为什么用 ³²P 和 ³⁵S 分别标记",
+        "能按碱基互补配对计算比例"
+      ],
+      "assessmentPrompt": "问{{name}}：噬菌体侵染实验为什么保温后搅拌离心？DNA 一条链 A 占 30%，另一条链 T 占多少？",
+      "standards": [
+        "hsbiology-2017:H2.GE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第 3 章 基因的本质",
+        "book": "必修2 遗传与进化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_sw_g10b_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "DNA 复制与基因表达",
+      "description": "半保留复制（边解旋边复制）；转录（DNA→mRNA）与翻译（mRNA→tRNA 携氨基酸→核糖体）——中心法则；密码子与反密码子。从基因到蛋白质的两步流水线——生命信息的流动方向。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能根据 DNA 链写出 mRNA 与肽链",
+        "能区分复制转录翻译的场所模板原料"
+      ],
+      "assessmentPrompt": "问{{name}}：一条 mRNA 有 120 个碱基，最多指导合成多少个氨基酸？DNA 双链中一条是模板链吗（复制时两条都是）？",
+      "standards": [
+        "hsbiology-2017:H2.GE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第 4 章 基因的表达",
+        "book": "必修2 遗传与进化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g10b_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "遗传定律：分离与自由组合",
+      "description": "孟德尔一对相对性状（分离定律：杂合子 Aa→3:1）与两对相对性状（自由组合 9:3:3:1）的实验与解释；测交验证与概率计算（棋盘法/分支法）。遗传学的「乘法法则」——概率思维的大本营。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成 AaBb×AaBb 的表现型比例推算",
+        "能用测交验证杂合子"
+      ],
+      "assessmentPrompt": "问{{name}}：AaBb 自交后代中 AAbb 占多少？两对性状 9:3:3:1 怎么拆成两个 3:1？什么是测交？",
+      "standards": [
+        "hsbiology-2017:H2.GE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第 1-2 章 遗传的基本规律",
+        "book": "必修2 遗传与进化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_sw_g10b_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "伴性遗传与人类遗传病",
+      "description": "伴 X 染色体遗传（色盲血友病——男多于女、交叉遗传）；抗维生素 D 佝偻病（显性）；系谱图判断口诀（无中生有为隐性）；遗传病类型与监测（产前诊断基因检测）。遗传学进入生活——家族的遗传密码。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成色盲遗传的概率计算",
+        "能根据系谱图判断显隐性与位置"
+      ],
+      "assessmentPrompt": "问{{name}}：色觉正常的夫妇为什么会生出色盲儿子？为什么色盲男性多于女性？什么是「中生无女」？",
+      "standards": [
+        "hsbiology-2017:H2.GE.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第 2 章 伴性遗传 & 第 5 章 人类遗传病",
+        "book": "必修2 遗传与进化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_sw_g10b_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "可遗传变异与现代进化理论",
+      "description": "基因突变（碱基对增添缺失替换——随机不定向）、基因重组、染色体变异（数目与结构）；种群基因库与基因频率计算（A1=1-a 频率）、隔离与物种形成。初中自然选择的分子化——进化在基因层面的账本。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能计算种群基因频率并判断进化方向",
+        "能区分三类可遗传变异"
+      ],
+      "assessmentPrompt": "问{{name}}：基因突变能定向吗？AA 占 50% Aa 占 30% 的种群，a 的频率是多少？地理隔离和生殖隔离什么关系？",
+      "standards": [
+        "hsbiology-2017:H2.GE.04",
+        "hsbiology-2017:H2.GE.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第 5 章 基因突变及其他变异 & 第 6 章 生物的进化",
+        "book": "必修2 遗传与进化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_sw_g10b_02",
+        "ct_sw_g8b_04"
       ]
     }
   ]

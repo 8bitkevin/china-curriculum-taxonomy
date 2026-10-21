@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.60.0",
+  "version": "1.61.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2073,
+  "edgeCount": 2085,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12441,6 +12441,78 @@
       "prerequisiteId": "ct_sw_g8b_05",
       "strength": "hard",
       "reason": "健康生活与用药安全是传染病免疫知识的实践延伸"
+    },
+    {
+      "topicId": "ct_sw_g10a_01",
+      "prerequisiteId": "ct_sw_g7a_04",
+      "strength": "hard",
+      "reason": "初中细胞结构（细胞膜细胞核）升级为分子组成分析"
+    },
+    {
+      "topicId": "ct_sw_g10a_02",
+      "prerequisiteId": "ct_sw_g10a_01",
+      "strength": "hard",
+      "reason": "细胞器的结构与功能以蛋白质脂质等分子组成为基础"
+    },
+    {
+      "topicId": "ct_sw_g10a_03",
+      "prerequisiteId": "ct_sw_g10a_02",
+      "strength": "hard",
+      "reason": "跨膜运输的对象与载体（膜蛋白）依赖膜结构知识"
+    },
+    {
+      "topicId": "ct_sw_g10a_04",
+      "prerequisiteId": "ct_sw_g7a_10",
+      "strength": "hard",
+      "reason": "初中光合呼吸的表达式升级为两阶段分子机制"
+    },
+    {
+      "topicId": "ct_sw_g10a_04",
+      "prerequisiteId": "ct_sw_g10a_03",
+      "strength": "hard",
+      "reason": "光合呼吸依赖酶与 ATP 的能量货币系统"
+    },
+    {
+      "topicId": "ct_sw_g10a_05",
+      "prerequisiteId": "ct_sw_g7a_05",
+      "strength": "hard",
+      "reason": "初中细胞分裂的感性认识升级为有丝分裂各期与数量变化"
+    },
+    {
+      "topicId": "ct_sw_g10b_01",
+      "prerequisiteId": "ct_sw_g8b_03",
+      "strength": "hard",
+      "reason": "初中基因概念的定性认识升级为 DNA 结构与实验证据"
+    },
+    {
+      "topicId": "ct_sw_g10b_02",
+      "prerequisiteId": "ct_sw_g10b_01",
+      "strength": "hard",
+      "reason": "基因表达以 DNA 结构与复制知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g10b_03",
+      "prerequisiteId": "ct_sw_g8b_03",
+      "strength": "hard",
+      "reason": "初中遗传图解（3:1 雏形）系统化为孟德尔两大定律"
+    },
+    {
+      "topicId": "ct_sw_g10b_04",
+      "prerequisiteId": "ct_sw_g10b_03",
+      "strength": "hard",
+      "reason": "伴性遗传是自由组合定律在性染色体上的特殊应用"
+    },
+    {
+      "topicId": "ct_sw_g10b_05",
+      "prerequisiteId": "ct_sw_g10b_02",
+      "strength": "hard",
+      "reason": "基因突变的分子基础是 DNA 复制与结构"
+    },
+    {
+      "topicId": "ct_sw_g10b_05",
+      "prerequisiteId": "ct_sw_g8b_04",
+      "strength": "hard",
+      "reason": "初中自然选择学说升级为基因频率的定量进化理论"
     }
   ]
 }
