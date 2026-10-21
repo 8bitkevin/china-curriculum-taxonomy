@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.41.0",
+  "version": "1.42.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1242,
+  "topicCount": 1252,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -38477,6 +38477,321 @@
       "prerequisites": [
         "ct_yy_g11b_09",
         "ct_yy_g12a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "it 的用法：形式主语与强调句",
+      "description": "掌握 it 的两大句法功能：形式主语/宾语（It is no use arguing. / I find it hard to...）与强调句 It is... that...（It was Tom that broke the window.）。it 结构是写作「显高级」的开关，也是语法填空的常客。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "强调句判断与还原 10 题对 8",
+        "能用形式主语改写两句长主语句"
+      ],
+      "assessmentPrompt": "考{{name}}：It was in the park that I met her. 强调的是什么？去掉 It was...that 还原原句；用 It is important 改写 To sleep well。",
+      "standards": [
+        "hsenglish-2017:H1.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三语法板块",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "省略与替代：简洁的英语",
+      "description": "掌握省略（省主语/助动词：When asked..., he...；if so/if not）与替代（do so、one/ones、that 替代不可数）。英语的经济学：能省则省、能代则代——阅读长难句的「减法」一面。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能还原省略句的完整形式",
+        "替代词选择 10 题对 8"
+      ],
+      "assessmentPrompt": "考{{name}}：While walking in the street 省略了什么？I like the red one 中 one 替代什么？",
+      "standards": [
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三语法板块",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_03",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "读后续写初步：情节与情感线",
+      "description": "高考写作新题型开篇：读 350 词故事续写 150 词——先理「情节线」（冲突—尝试—解决）与「情感线」（人物心情曲线），续写才接得上、立得住。读懂人物的 want 与 obstacle 是第一生产力。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能画出原文情节线与情感线",
+        "续写两句与原文人称时态衔接"
+      ],
+      "assessmentPrompt": "给{{name}}一篇「比赛失利」故事开头：画出人物 want/obstacle，续写两句（时态人称一致）。",
+      "standards": [
+        "hsenglish-2017:H3.WR.01",
+        "hsenglish-2017:H1.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三 Reading for Writing",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g8b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_04",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：作者态度与推理升级",
+      "description": "高考阅读最难两题的专项：作者态度题（attitude 词库：optimistic/skeptical/critical/neutral 的信号词）与深层推理（infer 题不能过度推理）。从「读懂文字」到「读懂立场」——阅读的最后一公里。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "态度题三题对两题并能指出信号词",
+        "推理题答案能排除「文中未提」项"
+      ],
+      "assessmentPrompt": "给{{name}}一篇带立场的短文：圈出三个态度信号词，判断作者态度；再做一道 infer 题并排除过度推理项。",
+      "standards": [
+        "hsenglish-2017:H1.RD.02",
+        "hsenglish-2017:H3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "高考题型训练",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g9a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "文学语篇：小说节选的读法",
+      "description": "读英语小说节选（The Little Prince、欧·亨利式短篇）：情节要素（setting/conflict/climax）与叙事视角（first-person 的亲近感）。文学阅读的三重乐趣：故事、语言、人性——英语从工具变成审美对象。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能识别节选的冲突与高潮",
+        "能分析一处第一人称叙述的效果"
+      ],
+      "assessmentPrompt": "给{{name}}读 The Little Prince 狐狸段：冲突是什么？「驯养」为什么动人？换第三人称会失去什么？",
+      "standards": [
+        "hsenglish-2017:H3.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三文学单元",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g6b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：海洋与极地（科普阅读）",
+      "description": "读海洋与极地科普语篇（深海探测、北极变暖）：科研过程语篇的结构（question—method—finding—significance）。科学英语的客观语气（被动、数据、限制词 possibly/likely）——科普阅读的精确性。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理科研四段结构",
+        "能识别三处限制性措辞（may/suggest/likely）"
+      ],
+      "assessmentPrompt": "给{{name}}读北极科研文：找出研究问题与结论；为什么作者说 the data suggest 而不是 prove？",
+      "standards": [
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三科普单元",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_07",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：正式演讲与即席应答",
+      "description": "正式演讲的三件套（greeting—body with signposts—memorable ending）+ Q&A 环节的即席应答（重复问题争取时间、观点+例证快速组织）。听说的成年礼：能站着讲，也能站着答。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能做 3 分钟有路标词的演讲",
+        "Q&A 能即席组织观点+例证"
+      ],
+      "assessmentPrompt": "请{{name}}就「保护方言」做 3 分钟演讲（First... What's more... In conclusion...），家人提问两个，即席作答。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三听说板块",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_08",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "学术词汇与精确表达",
+      "description": "学术英语词汇（AWL 高频：analyze、significant、factor、indicate）与表达的精确化（big→substantial、think→argue/claim/maintain 的态度差）。词汇的最终形态：为思想和学术服务。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能替换十个「大路词」为精确词",
+        "能区分 argue/claim/admit 的态度差"
+      ],
+      "assessmentPrompt": "考{{name}}：把 a big change / I think 换成学术表达；argue 与 admit 的说话人态度差在哪？",
+      "standards": [
+        "hsenglish-2017:H4.VB.01",
+        "hsenglish-2017:H2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "各单元词汇板块",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_09",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "跨文化交际：冲突案例与策略",
+      "description": "跨文化冲突案例分析（直接与婉转、个体与集体、时间观念差异）与三大策略（悬置判断、换位解释、主动澄清）。文化知识的终点是行为能力——在世界村里得体行走。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能分析一个冲突案例的文化根源",
+        "能给出两条澄清式化解策略"
+      ],
+      "assessmentPrompt": "案例：德国同事当面否定你的方案，你很受伤。请{{name}}分析文化差异并给两条应对策略。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修三文化单元",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "高考阅读四大题型综合",
+      "description": "高考阅读全题型整合训练：细节理解、推理判断、主旨大意、词义猜测四题型的识别信号与时间分配（每篇 7-8 分钟）。会认题型 = 会用策略——应试阅读的元认知。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能对四篇阅读先标注题型再作答",
+        "限时训练正确率稳定在 75% 以上"
+      ],
+      "assessmentPrompt": "给{{name}}四篇不同文体阅读：先标每题题型（细节/推理/主旨/猜词）再限时 30 分钟完成，复盘各题型用时。",
+      "standards": [
+        "hsenglish-2017:H1.RD.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "高考题型综合训练",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_05",
+        "ct_yy_g12b_04"
       ]
     }
   ]
