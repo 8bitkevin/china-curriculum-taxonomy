@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.36.0",
+  "version": "1.37.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1702,
+  "edgeCount": 1715,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10215,6 +10215,84 @@
       "prerequisiteId": "ct_yy_g8b_14",
       "strength": "hard",
       "reason": "三态库与词汇管理升级为中考总复习的两张地图"
+    },
+    {
+      "topicId": "ct_yy_g10a_01",
+      "prerequisiteId": "ct_yy_g9a_16",
+      "strength": "hard",
+      "reason": "初中总复习后衔接高中：听力语篇变长，引入笔记法"
+    },
+    {
+      "topicId": "ct_yy_g10a_02",
+      "prerequisiteId": "ct_yy_g7a_12",
+      "strength": "hard",
+      "reason": "初中听前预测策略升级为 skimming/scanning 的系统快读训练"
+    },
+    {
+      "topicId": "ct_yy_g10a_03",
+      "prerequisiteId": "ct_yy_g8a_05",
+      "strength": "hard",
+      "reason": "初中观点表达（think of）延伸到 prefer/would rather 的偏好讨论"
+    },
+    {
+      "topicId": "ct_yy_g10a_04",
+      "prerequisiteId": "ct_yy_g8a_07",
+      "strength": "hard",
+      "reason": "will/be going to 将来表达之上新增进行时表安排的语用功能"
+    },
+    {
+      "topicId": "ct_yy_g10a_05",
+      "prerequisiteId": "ct_yy_g7b_14",
+      "strength": "hard",
+      "reason": "初中人物短文阅读经验升级为人物事迹线与主题句分析"
+    },
+    {
+      "topicId": "ct_yy_g10a_06",
+      "prerequisiteId": "ct_yy_g9a_13",
+      "strength": "hard",
+      "reason": "环保语篇的时态综合经验迁移到灾害报道语篇（同属人与自然语境）"
+    },
+    {
+      "topicId": "ct_yy_g10a_07",
+      "prerequisiteId": "ct_yy_g9a_09",
+      "strength": "hard",
+      "reason": "初中定语从句 that/who 直接深化：whose/whom/介词前置"
+    },
+    {
+      "topicId": "ct_yy_g10a_08",
+      "prerequisiteId": "ct_yy_g9a_16",
+      "strength": "hard",
+      "reason": "初中语法地图（八时态两语态）在语篇填空中整合运用"
+    },
+    {
+      "topicId": "ct_yy_g10a_09",
+      "prerequisiteId": "ct_yy_g8a_15",
+      "strength": "hard",
+      "reason": "构词法意识之后升级为词块（collocation）的单位化记忆"
+    },
+    {
+      "topicId": "ct_yy_g10a_10",
+      "prerequisiteId": "ct_yy_g9a_14",
+      "strength": "hard",
+      "reason": "初中话题作文的结构经验进入应用文规范（建议信三段式）"
+    },
+    {
+      "topicId": "ct_yy_g10a_11",
+      "prerequisiteId": "ct_yy_g5b_09",
+      "strength": "soft",
+      "reason": "小学脱稿话题表达的经验在高中长成 mini-presentation"
+    },
+    {
+      "topicId": "ct_yy_g10a_12",
+      "prerequisiteId": "ct_yy_g6a_11",
+      "strength": "hard",
+      "reason": "小学交通文化视野扩展到世界语言版图与英语变体"
+    },
+    {
+      "topicId": "ct_yy_g10a_05",
+      "prerequisiteId": "ct_yy_g5a_09",
+      "strength": "soft",
+      "reason": "体育与人物语篇呼应小学 Read and write 的信息抓取训练"
     }
   ]
 }

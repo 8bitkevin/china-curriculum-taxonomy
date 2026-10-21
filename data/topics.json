@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.36.0",
+  "version": "1.37.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1188,
+  "topicCount": 1200,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -36761,6 +36761,388 @@
       },
       "prerequisites": [
         "ct_yy_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_01",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "高中听力起步：校园生活与笔记法",
+      "description": "高中听力的第一课：适应语速更长语篇，学会缩写式笔记（schl=school）、抓首句预测主题、数字时间必记。听力从「听对话」升级到「听讲座式语篇」——笔记是听力的外存。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "听 200 词语篇能记下五个关键信息",
+        "会用缩写符号记笔记"
+      ],
+      "assessmentPrompt": "放一段校园介绍音频，请{{name}}边听边用缩写记关键词，听完凭笔记复述大意。",
+      "standards": [
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Welcome Unit & Unit 1",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_02",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "Skimming 与 Scanning：快读双技",
+      "description": "系统训练略读（skimming：读标题首末句抓大意，2 分钟一篇）与寻读（scanning：带问题定位细节）。高中阅读量的第一个瓶颈是速度——快读双技是解药，Reading and Thinking 板块的常规装备。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "300 词文章 2 分钟内说出主旨",
+        "带三个问题寻读，每题 30 秒内定位"
+      ],
+      "assessmentPrompt": "给{{name}}一篇 300 词文章：先 90 秒略读写主旨，再带三个细节问题寻读计时——记录双项用时。",
+      "standards": [
+        "hsenglish-2017:H1.RD.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "各单元 Reading and Thinking",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g7a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "话题：青少年生活与社团选择",
+      "description": "围绕 Teenage Life 话题：谈社团偏好（I prefer... to... / I like... best because...）、选课与学习习惯（habit/routine）。prefer A to B、would rather 的表达梯度——高中口语从「能答」到「能聊」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用 prefer/would rather 谈三种选择",
+        "能就社团选择说出理由并回应同伴"
+      ],
+      "assessmentPrompt": "问{{name}}：Which club do you prefer, the debate club or the chess club? Why? 要求用 prefer...because... 并回应你的不同意见。",
+      "standards": [
+        "hsenglish-2017:H1.VB.01",
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 1 Teenage Life",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "将来安排：进行时表将来与行程表达",
+      "description": "掌握进行时表近期安排（I'm arriving in Beijing at 8 tomorrow. / We're leaving on Friday.）与旅行行程表达（book tickets、check in、travel plan）。时态的语用面：同一形式不同功能——高中语法从形式转向功能。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用进行时说三个近期安排",
+        "行程问答（时间-交通-活动）完整"
+      ],
+      "assessmentPrompt": "请{{name}}制定周末出行计划并用进行时汇报：We're leaving at... I'm visiting... 三句以上。",
+      "standards": [
+        "hsenglish-2017:H1.GR.03",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 2 Travelling Around",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "体育语篇：人物奋斗与体育精神",
+      "description": "读体育人物语篇（运动员的挫折与 comeback）：抓人物事迹线与主题句（Sports build character.），积累健身词汇（work out、keep fit、determination）。主题语境「人与自我」的第一批精读语料。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能梳理人物的时间线与转折事件",
+        "能说出语篇传递的体育精神并用原文佐证"
+      ],
+      "assessmentPrompt": "给{{name}}读郎平/乔丹式人物语篇，画「低谷—坚持—成功」三折线并各配一句原文。",
+      "standards": [
+        "hsenglish-2017:H1.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 3 Sports and Fitness",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g5a_09",
+        "ct_yy_g7b_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "自然灾害语篇与主题词汇",
+      "description": "读灾害报道语篇（earthquake、typhoon、flood）：灾害词族（shake—shelter—rescue—ruin）、数字伤亡表达与新闻导语结构。灾难语篇的情感基调把握——严肃语体的阅读初体验。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能从灾害报道中提取 5W1H",
+        "灾害词族 20 词能按「灾害-破坏-救援」分类"
+      ],
+      "assessmentPrompt": "给{{name}}一篇唐山大地震式报道，做 5W1H 表；把 shake/shelter/rescue/ruin/wreck 按阶段分类。",
+      "standards": [
+        "hsenglish-2017:H1.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 4 Natural Disasters",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "定语从句深化：whose、whom 与介词关系",
+      "description": "深化限制性定语从句：whose 表所属（a teacher whose words...）、whom 与介词前置（the man to whom I spoke）、that 与 which 的使用限制。初中 that/who 的地基上加盖二层——从会选关系词到会用复杂结构。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "关系词与介词前置填空 12 题对 10",
+        "能用 whose 造两句描述老师与影响"
+      ],
+      "assessmentPrompt": "考{{name}}：This is the house ___ roof was damaged. / Do you know the person ___ ___ I waved? 再让他用 whose 写一句介绍家人。",
+      "standards": [
+        "hsenglish-2017:H1.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 4-5 Discovering Useful Structures",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "时态语态的语篇级整合",
+      "description": "把初中八时态两语态放进语篇看：为什么这段用过去时、下段转完成时？时态链=叙事线。训练在语篇填空（语法填空题）中按「时间标志+语境逻辑」选时态——高考语法填空的主体就在这里。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "语篇型时态填空 10 空对 8",
+        "能解释每个时态选择的依据"
+      ],
+      "assessmentPrompt": "给{{name}}一篇语法填空短文（10 空时态语态），做完让他讲每空为什么——讲得出才算真会。",
+      "standards": [
+        "hsenglish-2017:H1.GR.03",
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "各单元语法复习",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_09",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "主题词块与搭配（collocation）起步",
+      "description": "词汇学习升级：从背单词到记词块（make a decision、take responsibility、have an effect on）——动词搭配、介词搭配成串记。3000 词目标的第一步：词块化输入，输出才地道。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能就「学习」话题说出 10 个词块",
+        "用词块造句不逐词翻译"
+      ],
+      "assessmentPrompt": "给{{name}}动词 make/take/have，各配三个名词搭成词块并造一句——测试搭配意识。",
+      "standards": [
+        "hsenglish-2017:H1.VB.01",
+        "hsenglish-2017:H4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "各单元词汇板块",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g8a_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "应用文：建议信（A Letter of Advice）",
+      "description": "高中应用文第一式：建议信——三段结构（点明来信目的→三条建议 with reasons→祝愿）。句式库：I suggest that... / It would be a good idea to... / Why not...? 应用文的「格式分+内容分+语言分」评分观从必修一建立。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写 100 词规范建议信（三段+三条建议）",
+        "建议句式不少于三种"
+      ],
+      "assessmentPrompt": "情境：学弟为英语听力发愁来信求助。请{{name}}写 100 词回信：三种建议句式+结尾祝愿，注意书信格式。",
+      "standards": [
+        "hsenglish-2017:H1.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 1 Reading for Writing",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g9a_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "小组讨论与课堂展示（Presentation）",
+      "description": "Project 板块技能：小组分工讨论（What's your opinion? / Let's divide the work.）+ 上台展示（开场—要点—结尾的微演讲结构）。从答问到「组织一段话并面对听众」——高中口语的分水岭。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能在小组中提出并 defend 一个观点",
+        "能做 1 分钟结构完整的 mini-presentation"
+      ],
+      "assessmentPrompt": "家庭即小组：讨论「最想去的旅行地」后，请{{name}}做 1 分钟展示（Today I'd like to... / First... / Thanks for listening.）。",
+      "standards": [
+        "hsenglish-2017:H1.LS.01",
+        "hsenglish-2017:H5.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "各单元 Project/Video Time",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g5b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g10a_12",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化：世界语言与英语大家庭",
+      "description": "了解世界语言版图：六种联合国语言、英语的变体（英式/美式/印式英语的口音与用词差异）与汉字的文化地位。语言即文明的名片——国际视野的第一课在英语课里上。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说出六种联合国语言",
+        "能举两例英美用词差异（lift/elevator）"
+      ],
+      "assessmentPrompt": "问{{name}}：autumn 和 fall 什么关系？普通话之外中国还有哪些大方言？为什么英语成为通用语？",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "Unit 5 Languages Around the World",
+        "book": "必修第一册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g6a_11"
       ]
     }
   ]
