@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.29.0",
+  "version": "1.30.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1583,
+  "edgeCount": 1598,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9501,6 +9501,96 @@
       "prerequisiteId": "ct_yy_g5a_12",
       "strength": "hard",
       "reason": "词汇自查跨册累进（350→430）"
+    },
+    {
+      "topicId": "ct_yy_g6a_01",
+      "prerequisiteId": "ct_yy_g4b_01",
+      "strength": "hard",
+      "reason": "学校场所指路的经验扩展到街区问路（转向+参照物）"
+    },
+    {
+      "topicId": "ct_yy_g6a_02",
+      "prerequisiteId": "ct_yy_g5b_07",
+      "strength": "hard",
+      "reason": "祈使句规则经验迁移到交通规则的 must/Don't 表达"
+    },
+    {
+      "topicId": "ct_yy_g6a_03",
+      "prerequisiteId": "ct_yy_g5b_01",
+      "strength": "hard",
+      "reason": "一般现在时谈惯例之后，be going to 表将来的计划"
+    },
+    {
+      "topicId": "ct_yy_g6a_04",
+      "prerequisiteId": "ct_yy_g3a_07",
+      "strength": "hard",
+      "reason": "I like + 名词的喜好句型扩展为 like + V-ing 的爱好表达"
+    },
+    {
+      "topicId": "ct_yy_g6a_04",
+      "prerequisiteId": "ct_yy_g4a_02",
+      "strength": "soft",
+      "reason": "第三人称 has 的变化经验延伸到 likes 的三单变化"
+    },
+    {
+      "topicId": "ct_yy_g6a_05",
+      "prerequisiteId": "ct_yy_g4a_06",
+      "strength": "hard",
+      "reason": "职业词汇线（四上）升级：does 引导的三单疑问与工作地问答"
+    },
+    {
+      "topicId": "ct_yy_g6a_06",
+      "prerequisiteId": "ct_yy_g5a_01",
+      "strength": "soft",
+      "reason": "性格描述词汇扩展到情绪描述词汇（人的内在状态词库）"
+    },
+    {
+      "topicId": "ct_yy_g6a_07",
+      "prerequisiteId": "ct_yy_g5a_04",
+      "strength": "hard",
+      "reason": "can 情态动词经验迁移到 should：情态动词家族第二位"
+    },
+    {
+      "topicId": "ct_yy_g6a_08",
+      "prerequisiteId": "ct_yy_g6a_03",
+      "strength": "hard",
+      "reason": "出行商议直接运用 be going to 计划句型"
+    },
+    {
+      "topicId": "ct_yy_g6a_08",
+      "prerequisiteId": "ct_yy_g6a_01",
+      "strength": "hard",
+      "reason": "商议出行需要问路指路句型支撑"
+    },
+    {
+      "topicId": "ct_yy_g6a_09",
+      "prerequisiteId": "ct_yy_g5b_10",
+      "strength": "hard",
+      "reason": "功能性阅读从规则文本扩展到书信体，并引入回信写作"
+    },
+    {
+      "topicId": "ct_yy_g6a_09",
+      "prerequisiteId": "ct_yy_g6a_04",
+      "strength": "soft",
+      "reason": "笔友信件的话题正是爱好表达句型"
+    },
+    {
+      "topicId": "ct_yy_g6a_10",
+      "prerequisiteId": "ct_yy_g5b_11",
+      "strength": "hard",
+      "reason": "五句成篇模型在新文体（计划类）复用，句型换为 be going to"
+    },
+    {
+      "topicId": "ct_yy_g6a_11",
+      "prerequisiteId": "ct_yy_g5a_11",
+      "strength": "hard",
+      "reason": "学校生活文化比较之后进入交通出行文化比较"
+    },
+    {
+      "topicId": "ct_yy_g6a_12",
+      "prerequisiteId": "ct_yy_g5b_12",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（430→500），新增话题群分类管理"
     }
   ]
 }

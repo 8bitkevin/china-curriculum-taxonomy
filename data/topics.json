@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.29.0",
+  "version": "1.30.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1091,
+  "topicCount": 1103,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -33749,6 +33749,379 @@
       },
       "prerequisites": [
         "ct_yy_g5a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "问路与指路：How can I get there?",
+      "description": "掌握地点词（museum、post office、cinema、hospital、bookstore）和指路用语：Turn left at the cinema. / Go straight. / It's next to the park. 问路的礼貌与指路的清晰（先方向再参照物）——出门真能用上的英语。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能连问带答完成一次问路对话",
+        "能用 turn left/right + 参照物 指路三步"
+      ],
+      "assessmentPrompt": "画街区图问{{name}}：Excuse me, how can I get to the cinema? 要求答出转向+参照物两句以上。",
+      "standards": [
+        "csenglish-2022:S3.LS.01",
+        "csenglish-2022:S3.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 1 How can I get there?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "交通方式与 must：by bus / on foot",
+      "description": "掌握交通方式表达（by bus、by subway、on foot、by bike）和问答 How do you come to school? — Usually I come on foot. 加上交通规则句 You must stop at a red light. / Don't go at a red light!——must 的强制力与祈使句否定式。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说五种出行方式",
+        "能用 must/Don't 各说一条交通规则"
+      ],
+      "assessmentPrompt": "问{{name}}：How do you come to school? 再指红灯问：What must you do? 看能否说 You must stop and wait.",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 2 Ways to go to school",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "be going to：周末计划",
+      "description": "掌握将来计划句型 What are you going to do tomorrow? — I'm going to visit my grandparents. / Where are you going? — To the bookstore. be going to + 动词原形——时态家族第三位：将来计划的万能公式。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能问答周末计划三轮（what/where/when）",
+        "be going to 后动词原形无误"
+      ],
+      "assessmentPrompt": "问{{name}}：What are you going to do this Saturday? 追问 Where? When? 组成计划三连问。",
+      "standards": [
+        "csenglish-2022:S4.GR.01",
+        "csenglish-2022:S3.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 3 My weekend plan",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "爱好表达：like + V-ing",
+      "description": "掌握爱好问答 What are your hobbies? — I like reading stories and singing.（like 后动词加 -ing）与第三人称 He likes doing kung fu. 动名词的第一次见面——藏在最常用的爱好句型里。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用 like + V-ing 说出三个爱好",
+        "he/she 主语时 likes 与 V-ing 双变化无误"
+      ],
+      "assessmentPrompt": "问{{name}}：What are your hobbies? 再问妈妈呢？要求说 She likes...（likes + V-ing 双对才算会）。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 4 I have a pen pal",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3a_07",
+        "ct_yy_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "职业与工作地：What does he do?",
+      "description": "扩展职业词（businessman、postman、police officer、fisherman、scientist、pilot、coach）和三单疑问 What does he do? / Where does he work? — He works at a university. does 开路的疑问句——三单系统的疑问式补完。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能问答职业+工作地两轮",
+        "does 后动词原形（不说 Where does he works）"
+      ],
+      "assessmentPrompt": "问{{name}}：What does your father do? Where does he work? 再考：把 He works in a hospital. 改成疑问句。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 5 What does he do?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "情绪表达：How do you feel?",
+      "description": "掌握情绪词（happy、sad、angry、afraid、worried）和关问句 What's wrong? / How do you feel? — I'm angry. The cat is ill. Sam is sad. 情绪命名是情绪管理的第一步——英语也能聊心情。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用五种情绪词描述人和自己",
+        "会关心地追问 What's wrong?"
+      ],
+      "assessmentPrompt": "做表情卡游戏：抽卡问{{name}} How does he feel? 再假装难过，看{{name}}会不会问 What's wrong?",
+      "standards": [
+        "csenglish-2022:S3.VB.01",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 6 How do you feel?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "should 建议：You should take a deep breath",
+      "description": "掌握建议句型 What should I do? — You should take a deep breath and count to ten. / You should see a doctor. should + 动词原形——温和的劝告（比 must 软，比 can 正）——课本里的心理课。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能就三种烦恼各给一条 should 建议",
+        "should 后动词原形无误"
+      ],
+      "assessmentPrompt": "说「我很生气/我担心考试」问{{name}}：What should I do? 听建议是否用 You should...",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 6 How do you feel?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "任务对话：出行与计划的连贯商议",
+      "description": "综合任务：用本册句型商议一次出行——去哪（Where are you going?）、怎么去（How do we go there?）、何时去（When）、做什么（be going to）——四问四答连成一段真实商议。语言开始服务于生活决策。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能连续完成六句以上的出行商议对话",
+        "问句类型切换不混（do/are/going to）"
+      ],
+      "assessmentPrompt": "和{{name}}商议周六去博物馆：{{name}}先问路（How can we get there?）再定方式和时间，全程英语六句以上。",
+      "standards": [
+        "csenglish-2022:S3.LS.01",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 1-3 综合任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g6a_01",
+        "ct_yy_g6a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：笔友来信的读与回",
+      "description": "读懂笔友来信（爱好、家庭、日常——100 词左右）并抓要点回信。书信体阅读+真实交际目的——读是为了回，阅读有了对象感。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能读后回答信中三个信息点",
+        "能写四句回信（爱好+家庭+邀请）"
+      ],
+      "assessmentPrompt": "给{{name}}一封笔友 Peter 的信（讲爱好和家人），读后回答：Peter 的爱好？妹妹几岁？再口述四句回信。",
+      "standards": [
+        "csenglish-2022:S3.RD.01",
+        "csenglish-2022:S4.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 4 Read and write",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_10",
+        "ct_yy_g6a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：My weekend plan",
+      "description": "用 be going to 写周末计划（周六上午/下午/晚上三段共五句以上）：I'm going to... 时间线+计划句式——应用文之外的新文体：计划类写作。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "五句以上计划与时序清楚",
+        "be going to 句型占八成以上且无时态混用"
+      ],
+      "assessmentPrompt": "请{{name}}写周末计划：On Saturday morning I'm going to...（三时段各一句）+ 理由一句；画时间轴检查。",
+      "standards": [
+        "csenglish-2022:S3.WR.01",
+        "csenglish-2022:S4.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 3 写作任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_11",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化：马路左行还是右行",
+      "description": "了解英联邦国家靠左行驶（keep left）与多数国家靠右的差异，以及地铁文化（let people off first 先下后上）。规则背后的文化差异——英语不只是语言，还是另一套生活设定。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出英国与中国的行驶方向差异",
+        "知道先下后上的英语说法"
+      ],
+      "assessmentPrompt": "问{{name}}：在伦敦过马路要先看哪边？地铁到站应先做什么（Let people off first）？",
+      "standards": [
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 2 文化内容",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g6a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "六上词汇自查：累计约 500 词",
+      "description": "六年级上册新增约 70 词，累计约 500。词汇学习进入「话题群」管理：旅行出行、职业、情绪、爱好成串记忆——为初中 1600 词的目标搭好脚手架。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "认词 85% + 默写 75% 以上",
+        "能按四个话题群各举五词"
+      ],
+      "assessmentPrompt": "抽 20 图卡 + 听写 15 词；请{{name}}按话题分类：交通/职业/情绪/爱好各写五词。",
+      "standards": [
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g5b_12"
       ]
     }
   ]
