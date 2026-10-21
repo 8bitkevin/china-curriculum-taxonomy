@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.59.0",
+  "version": "1.60.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2059,
+  "edgeCount": 2073,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12357,6 +12357,90 @@
       "prerequisiteId": "ct_sw_g7a_13",
       "strength": "soft",
       "reason": "植被破坏话题从七上的绿色植物延续到全球生态"
+    },
+    {
+      "topicId": "ct_sw_g8a_01",
+      "prerequisiteId": "ct_sw_g7a_01",
+      "strength": "soft",
+      "reason": "动物类群学习延续生物与环境相适应的核心观点"
+    },
+    {
+      "topicId": "ct_sw_g8a_02",
+      "prerequisiteId": "ct_sw_g8a_01",
+      "strength": "hard",
+      "reason": "脊椎与无脊椎类群对比构成动物界全图"
+    },
+    {
+      "topicId": "ct_sw_g8a_03",
+      "prerequisiteId": "ct_sw_g8a_02",
+      "strength": "hard",
+      "reason": "运动与行为的讨论以动物类群的身体结构为基础"
+    },
+    {
+      "topicId": "ct_sw_g8a_04",
+      "prerequisiteId": "ct_sw_g7a_04",
+      "strength": "hard",
+      "reason": "细菌真菌的细胞结构对比以动植物细胞知识为基础"
+    },
+    {
+      "topicId": "ct_sw_g8a_05",
+      "prerequisiteId": "ct_sw_g8a_02",
+      "strength": "hard",
+      "reason": "分类的素材是前面学过的各大类群"
+    },
+    {
+      "topicId": "ct_sw_g8a_05",
+      "prerequisiteId": "ct_sw_g8a_04",
+      "strength": "soft",
+      "reason": "分类需要细菌真菌等微生物类群参与"
+    },
+    {
+      "topicId": "ct_sw_g8b_01",
+      "prerequisiteId": "ct_sw_g7a_09",
+      "strength": "hard",
+      "reason": "植物的有性生殖（花与种子）是生殖方式学习的起点"
+    },
+    {
+      "topicId": "ct_sw_g8b_02",
+      "prerequisiteId": "ct_sw_g8b_01",
+      "strength": "hard",
+      "reason": "变态发育是有性生殖发育的昆虫两栖版本"
+    },
+    {
+      "topicId": "ct_sw_g8b_03",
+      "prerequisiteId": "ct_sw_g7a_05",
+      "strength": "hard",
+      "reason": "基因在细胞核——染色体与细胞分裂知识是遗传学习基础"
+    },
+    {
+      "topicId": "ct_sw_g8b_03",
+      "prerequisiteId": "ct_sw_g8b_01",
+      "strength": "soft",
+      "reason": "有性生殖中两性生殖细胞结合是基因重组的前提"
+    },
+    {
+      "topicId": "ct_sw_g8b_04",
+      "prerequisiteId": "ct_sw_g8b_03",
+      "strength": "hard",
+      "reason": "自然选择的作用对象是可遗传变异"
+    },
+    {
+      "topicId": "ct_sw_g8b_05",
+      "prerequisiteId": "ct_sw_g7b_08",
+      "strength": "soft",
+      "reason": "免疫的识别与神经系统的调节同为机体的稳态机制"
+    },
+    {
+      "topicId": "ct_sw_g8b_05",
+      "prerequisiteId": "ct_sw_g8a_04",
+      "strength": "hard",
+      "reason": "病原体（细菌病毒）知识是传染病概念的基础"
+    },
+    {
+      "topicId": "ct_sw_g8b_06",
+      "prerequisiteId": "ct_sw_g8b_05",
+      "strength": "hard",
+      "reason": "健康生活与用药安全是传染病免疫知识的实践延伸"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.59.0",
+  "version": "1.60.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1460,
+  "topicCount": 1471,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -45231,6 +45231,339 @@
       "prerequisites": [
         "ct_sw_g7a_02",
         "ct_sw_g7a_13"
+      ]
+    },
+    {
+      "id": "ct_sw_g8a_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "无脊椎动物的主要类群",
+      "description": "从腔肠（水螅）→扁形→线形（蛔虫）→环节（蚯蚓）→软体（河蚌）→节肢（昆虫——种类最多）的进化主线；昆虫外骨骼与气管。动物界的「平民阶层」——种类最繁多的一支。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能按结构由简到繁排列主要类群",
+        "能说明昆虫适于陆生的两个特点"
+      ],
+      "assessmentPrompt": "问{{name}}：蚯蚓靠什么呼吸？为什么昆虫要蜕皮？珊瑚是植物还是动物？",
+      "standards": [
+        "csbiology-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元 生物圈中的其他生物",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g8a_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "脊椎动物五大类群",
+      "description": "鱼类（鳃呼吸鳍游泳）、两栖类（幼体水中成体水陆——青蛙）、爬行类（真正陆生：鳞片羊膜卵）、鸟类（恒温气囊双重呼吸）、哺乳类（胎生哺乳恒温）。脊椎动物的进化阶梯——从水到天的适应策略。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能比较五类动物的呼吸体温生殖方式",
+        "能说明鸟类适于飞行的三个特点"
+      ],
+      "assessmentPrompt": "问{{name}}：蝗虫和麻雀谁的体温恒定？恐龙属于哪类？鲸是鱼吗——凭什么？",
+      "standards": [
+        "csbiology-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元 生物圈中的其他生物",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g8a_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "动物的运动与行为",
+      "description": "运动系统（骨骼杠杆+关节支点+肌肉动力——屈肘时肱二头肌收缩）；先天性行为（蜘蛛结网）与学习行为（黑猩猩钓白蚁）及社会行为（蚂蚁白蚁的分工通信）。动物为什么动、怎么动——行为学的启蒙。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能演示说明屈肘伸肘时两块肌肉的状态",
+        "能区分先天行为与学习行为各两例"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说运动不只用运动系统？蚯蚓走迷宫是什么行为？蚂蚁的「语言」是什么？",
+      "standards": [
+        "csbiology-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元 动物的运动和行为",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_sw_g8a_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "细菌、真菌与病毒",
+      "description": "细菌（无成形细胞核、分裂繁殖）、真菌（酵母菌出芽、霉菌孢子、蘑菇）、病毒（无细胞结构、寄生）；微生物与人类（发酵食品、抗生素、致病）。看不见的大多数——微生物既是敌人也是朋友。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能比较细菌真菌病毒的细胞结构",
+        "能各举两例微生物的有益与有害利用"
+      ],
+      "assessmentPrompt": "问{{name}}：病毒为什么必须寄生？青霉素来自什么？泡菜酸奶靠谁发酵？食品保存的原理是什么？",
+      "standards": [
+        "csbiology-2022:S4.BD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元 细菌和真菌",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g8a_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "生物的多样性",
+      "name": "生物分类的方法与多样性保护",
+      "description": "分类单位（界门纲目科属种——种是最基本单位、同种亲缘最近）；林奈双命名法；生物多样性的三个层次与保护措施（就地保护为主——自然保护区）。给生命建档——多样性是地球最贵的资产。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说明分类单位与亲缘关系的关系",
+        "能说出就地保护与迁地保护的区别"
+      ],
+      "assessmentPrompt": "问{{name}}：猫和狗在哪个分类单位开始不同？大熊猫的学名怎么写？为什么说基因多样性是根本？",
+      "standards": [
+        "csbiology-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六单元 生物的多样性及其保护",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8a_02",
+        "ct_sw_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_01",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "生殖方式：有性与无性",
+      "description": "有性生殖（经过两性生殖细胞结合）与无性生殖（分裂出芽孢子生殖、植物扦插嫁接组织培养）的比较与应用。生命的拷贝技术——从 potato? —从马铃薯切块到组培苗。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断常见生殖方式类型",
+        "能说明嫁接保持品种优良特性的原理"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么嫁接的梨保持母本口味？组织培养有什么优势？有性生殖的后代为什么多样性更大？",
+      "standards": [
+        "csbiology-2022:S4.GE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七单元 生物圈中生命的延续和发展",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g7a_09"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_02",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "昆虫与两栖动物的变态发育",
+      "description": "家蚕的完全变态（卵幼虫蛹成虫）与蝗虫的不完全变态；青蛙的变态发育（蝌蚪像鱼→成蛙）。发育的剧本不止一种——变态发育的适应意义。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能排出完全变态四阶段",
+        "能比较完全与不完全变态的差异"
+      ],
+      "assessmentPrompt": "问{{name}}：菜青虫吃菜叶是哪个虫期？为什么说蛙的发育离不开水？蛹期不食不动在干什么？",
+      "standards": [
+        "csbiology-2022:S4.GE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七单元 生物圈中生命的延续和发展",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_03",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "基因控制性状与遗传图解",
+      "description": "性状与相对性状；基因控制性状（转基因鼠实验）；性状的遗传图解（显性隐性基因、基因组成 Aa Aa→子代比例 3:1 的雏形）；性别决定（XY 染色体）。孟德尔之前的遗传直觉——为什么像爸妈又不完全像。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能完成一对相对性状的遗传图解",
+        "能说明生男生女取决于哪方的性染色体"
+      ],
+      "assessmentPrompt": "问{{name}}：父母都是双眼皮，孩子一定是双眼皮吗（用图解说明）？为什么男女比例接近 1:1？",
+      "standards": [
+        "csbiology-2022:S4.GE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七单元 生物的遗传与变异",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g7a_05",
+        "ct_sw_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_04",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "遗传与进化",
+      "name": "变异与生物进化",
+      "description": "可遗传变异（遗传物质改变）与不可遗传变异；达尔文自然选择学说（过度繁殖—生存斗争—遗传变异—适者生存）；长颈鹿进化的解释、抗生素耐药菌。生命史的导演是环境——进化论的启蒙。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用自然选择学说解释耐药菌的产生",
+        "能区分两类变异各两例"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么滥用抗生素会「养出」超级细菌？太空椒的变异可遗传吗？长颈鹿的脖子是「用进废退」还是自然选择？",
+      "standards": [
+        "csbiology-2022:S4.GE.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七单元 生物的遗传与变异/第三章 生命起源和生物进化",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "传染病与免疫",
+      "description": "传染病流行的三环节（传染源传播途径易感人群）与预防措施（控制传染源切断途径保护易感者）；三道防线与特异性免疫（抗体抗原）；计划免疫。健康的防线——疫苗为什么能「教会」免疫系统。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能对防疫措施归类三环节",
+        "能区分特异性与非特异性免疫"
+      ],
+      "assessmentPrompt": "问{{name}}：戴口罩属于哪种预防措施？为什么得过水痘就不再得（抗体）？疫苗相当于免疫学里的什么？",
+      "standards": [
+        "csbiology-2022:S4.HB.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八单元 健康地生活",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g7b_08",
+        "ct_sw_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_sw_g8b_06",
+      "type": "CONCEPTUAL",
+      "subject": "生物学",
+      "domain": "人体生理与健康",
+      "name": "安全用药与健康生活",
+      "description": "处方药与非处方药（OTC）、安全用药常识与急救（心肺复苏、止血包扎）；健康的生活方式（不吸烟不酗酒、合理膳食、心理平衡）。初中生物的收官——把生物学还给生活。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能读懂药品说明书的关键信息",
+        "能演示心肺复苏的位置与频率"
+      ],
+      "assessmentPrompt": "问{{name}}：OTC 什么意思？过期药能吃吗？为什么说吸烟伤肺又伤心血管？溺水救人为什么不能倒挂控水？",
+      "standards": [
+        "csbiology-2022:S4.HB.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八单元 用药与急救/了解自己增进健康",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_sw_g8b_05"
       ]
     }
   ]
