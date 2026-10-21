@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.21.0",
+  "version": "1.22.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1469,
+  "edgeCount": 1480,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8817,6 +8817,72 @@
       "prerequisiteId": "ct_yw_g11a_02",
       "strength": "hard",
       "reason": "第二单元节选研习直接驱动整本拓展"
+    },
+    {
+      "topicId": "ct_yw_g11b_01",
+      "prerequisiteId": "ct_yw_g11a_06",
+      "strength": "hard",
+      "reason": "逻辑单元的推理工具用于理论文章的论证分析"
+    },
+    {
+      "topicId": "ct_yw_g11b_02",
+      "prerequisiteId": "ct_yw_g9a_08",
+      "strength": "hard",
+      "reason": "故乡的鲁迅小说阅读经验延伸到鲁迅纪念散文的抒情结构"
+    },
+    {
+      "topicId": "ct_yw_g11b_03",
+      "prerequisiteId": "ct_yw_g8a_01",
+      "strength": "hard",
+      "reason": "新闻阅读的结构知识支撑报告文学（包身工）的新闻性分析"
+    },
+    {
+      "topicId": "ct_yw_g11b_04",
+      "prerequisiteId": "ct_yw_g10b_03",
+      "strength": "hard",
+      "reason": "鸿门宴的史传叙事经验升级到班马史传的笔法与论赞"
+    },
+    {
+      "topicId": "ct_yw_g11b_05",
+      "prerequisiteId": "ct_yw_g10b_05",
+      "strength": "hard",
+      "reason": "阿房宫赋六国论的借古讽今谱系再添过秦论与伶官传序"
+    },
+    {
+      "topicId": "ct_yw_g11b_06",
+      "prerequisiteId": "ct_yw_g11a_02",
+      "strength": "hard",
+      "reason": "外国小说研习之后进入外国戏剧与诗歌：西方文学传统的另一半"
+    },
+    {
+      "topicId": "ct_yw_g11b_06",
+      "prerequisiteId": "ct_yw_g10b_06",
+      "strength": "soft",
+      "reason": "哈姆莱特的西方戏剧经验与娜拉出走构成戏剧主题延展"
+    },
+    {
+      "topicId": "ct_yw_g11b_07",
+      "prerequisiteId": "ct_yw_g11a_07",
+      "strength": "hard",
+      "reason": "高中古诗词诵读线跨册延续"
+    },
+    {
+      "topicId": "ct_yw_g11b_08",
+      "prerequisiteId": "ct_yw_g11a_06",
+      "strength": "hard",
+      "reason": "逻辑推理（构造让步与反驳）直接用于议论文升格"
+    },
+    {
+      "topicId": "ct_yw_g11b_08",
+      "prerequisiteId": "ct_yw_g10b_10",
+      "strength": "hard",
+      "reason": "必修下议论针对性的进阶：让步反驳段的辩证深度"
+    },
+    {
+      "topicId": "ct_yw_g11b_09",
+      "prerequisiteId": "ct_yw_g11a_09",
+      "strength": "hard",
+      "reason": "札记综述的研究性写作能力升级为跨册选文的专题研习报告"
     }
   ]
 }

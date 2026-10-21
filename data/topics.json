@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.21.0",
+  "version": "1.22.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 996,
+  "topicCount": 1005,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -30791,6 +30791,292 @@
       },
       "prerequisites": [
         "ct_yw_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "理论文章阅读：论持久战的方法论",
+      "description": "读《论持久战》《人的正确思想是从哪里来的？》《实践是检验真理的唯一标准》：理论文章的读法——抓核心论断、看论证如何从事实出发（敌我四对矛盾的对比分析）、体会「实事求是」的思想方法。高中思辨阅读的最高海拔：不仅读观点，更读「观点是怎样被证明的」。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能概括持久战三阶段论的论证依据",
+        "能说明三篇文章共有的思想方法"
+      ],
+      "assessmentPrompt": "问{{name}}：毛泽东为什么断定「亡国论」「速胜论」都错？「人的正确思想只能从实践中来」的论证链条怎么走？",
+      "standards": [
+        "hschinese-2017:H4.SW.01",
+        "hschinese-2017:H5.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第一单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "鲁迅的纪念：刘和珍君与白莽",
+      "description": "读《记念刘和珍君》《为了忘却的记念》：鲁迅怎样写死者——「始终微笑着的和蔼的刘和珍君」的细节反复、无话可说的悲愤曲折（说不出话/还有什么话可说的抒情结构）。纪念性散文的范式：哀而不只是哀，更有「真的猛士」的召唤。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能分析三次「微笑」细节的深意",
+        "能梳理「我说不出话」到「以此纪念」的情感路径"
+      ],
+      "assessmentPrompt": "问{{name}}：鲁迅为什么反复写她「微笑」？「惨象已使我目不忍视流言尤使我耳不忍闻」的转折力量在哪？忘却的记念「为了忘却」矛盾吗？",
+      "standards": [
+        "hschinese-2017:H3.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第二单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_03",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "苦难与新生：包身工与荷花淀",
+      "description": "读《包身工》（报告文学：芦柴棒的非人遭遇+数据与点面结合的控诉）与《荷花淀》（诗化小说：水生嫂们从送夫到参军的美与力）。同写苦难年代的两副笔墨——一个如匕首，一个如月光：中国现当代文学的两大传统在此会师。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出报告文学的新闻性与文学性如何统一",
+        "能分析荷花淀月下编席场景的诗化手法"
+      ],
+      "assessmentPrompt": "问{{name}}：包身工为什么穿插老板的算账数字？水生嫂「你走我不拦你」的对话潜台词是什么？两种写法哪个更有力？",
+      "standards": [
+        "hschinese-2017:H3.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第二单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_04",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "史传双绝：屈原列传与苏武传",
+      "description": "读《屈原列传》（司马迁「悲其志」的评论与叙事交融、《离骚》的评价）与《苏武传》（北海牧羊十九年，卧啮雪与旄毛的细节叙事）。史传文言的高峰：班马笔法——用取舍与细节为人物立传，论赞里藏史家自己的命运感。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能翻译名句（举世混浊而我独清）",
+        "能分析苏武三处拒降场景的层次"
+      ],
+      "assessmentPrompt": "问{{name}}：司马迁写屈原为什么大段议论《离骚》？苏武「杖汉节牧羊，卧起操持」的节为什么不能丢？两篇史家的情感各落在何处？",
+      "standards": [
+        "hschinese-2017:H2.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第三单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "史论对读：过秦论与伶官传序",
+      "description": "背《过秦论》（九国之师的铺陈与「仁义不施而攻守之势异也」的收束）、《五代史伶官传序》（「忧劳可以兴国逸豫可以亡身」的对比论证）。两篇史论同借古讽今——贾谊以气势胜，欧阳修以理趣胜，史论的两种声口。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵默写两篇",
+        "能比较铺陈与对比两种论证的风味差异"
+      ],
+      "assessmentPrompt": "问{{name}}：《过秦论》为什么把陈涉写得那么弱小？「祸患常积于忽微」给管理者什么警示？两篇的「谏」各说给谁听？",
+      "standards": [
+        "hschinese-2017:H2.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第三单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_06",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "丰富的心灵：玩偶之家与西方诗歌",
+      "description": "读《玩偶之家（节选）》（娜拉出走的一声关门——个性解放的惊雷）与《迷娘（之一）》《致大海》《自己之歌（节选）》《树和天空》：西方浪漫主义到现代诗歌的心灵光谱。外国戏剧与诗歌研习——「人」的发现与「我」的歌唱。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明娜拉「首先是一个人」的觉醒逻辑",
+        "能比较致大海与自己之歌中「自我」的大小"
+      ],
+      "assessmentPrompt": "问{{name}}：娜拉说「我是同你一样的人」，这句话在当时为什么像惊雷？普希金向大海告别其实在告别什么？惠特曼「我赞美我自己」的自大和自信怎么区分？",
+      "standards": [
+        "hschinese-2017:H3.WX.02",
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第四单元",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_06",
+        "ct_yw_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词诵读：燕歌行与李凭箜篌引",
+      "description": "背《燕歌行》（战士军前半死生，美人帐下犹歌舞——边塞诗的控诉力量）、《李凭箜篌引》（昆山玉碎凤凰叫的通感摹声）、《菩萨蛮·书江西造口壁》《青玉案·元夕》：诵读线的唐音宋韵收官段。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵四首",
+        "能赏析李凭箜篌引至少两处通感与想象"
+      ],
+      "assessmentPrompt": "问{{name}}：燕歌行为什么把战场与帐下对写？箜篌声怎么「看见」（石破天惊逗秋雨）？「蓦然回首」的灯火与前面千百度的寻找是什么关系？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "古诗词诵读",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "理性深化：议论文的升格训练",
+      "description": "选择性必修写作重心：深化理性思考——从举例证明到辩证分析（承认对方合理性再限定己方）、由表及里（现象—原因—本质）、构建让步段与反驳段。高中议论文从「有理」到「说理」的分水岭。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "习作含一段合格的让步反驳段",
+        "能对一个命题做三层追问（是什么—为什么—怎么办）"
+      ],
+      "assessmentPrompt": "给{{name}}命题「人工智能时代更需要人文素养」，请先写让步段（承认技术重要），再转折论证人文不可替代，最后连问三层为什么。",
+      "standards": [
+        "hschinese-2017:H4.SW.01",
+        "hschinese-2017:H3.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "各单元研习任务",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_10",
+        "ct_yw_g11a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g11b_09",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "研习专题：中国革命传统作品群",
+      "description": "以选必中第二单元为核心做专题研习：贯通必修上《百合花》、必修下通讯、九年级《红星》等革命作品谱系，提炼「革命叙事的抒情方式」小专题并写研习报告。专题研习的组织能力——自己定题、选文、成文。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "完成一份跨册选文的专题研习报告",
+        "报告有明确的中心问题与至少三个文本例证"
+      ],
+      "assessmentPrompt": "请{{name}}定一个专题如「革命作品里的『年轻』」，从学过的课文中选三篇（刘和珍/香雪/水生嫂…），写 500 字研习报告。",
+      "standards": [
+        "hschinese-2017:H3.WX.01",
+        "hschinese-2017:H5.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第二单元研习任务",
+        "book": "选择性必修中册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11a_09"
       ]
     }
   ]
