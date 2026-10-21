@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.17.0",
+  "version": "1.18.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1403,
+  "edgeCount": 1426,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8421,6 +8421,144 @@
       "prerequisiteId": "ct_yw_g8b_18",
       "strength": "hard",
       "reason": "字词与常识自查跨册延续，进入中考一轮复习视角"
+    },
+    {
+      "topicId": "ct_yw_g9b_01",
+      "prerequisiteId": "ct_yw_g9a_01",
+      "strength": "hard",
+      "reason": "九上现代诗欣赏的意象方法用于短诗五首与散文诗海燕"
+    },
+    {
+      "topicId": "ct_yw_g9b_02",
+      "prerequisiteId": "ct_yw_g9a_08",
+      "strength": "hard",
+      "reason": "小说主题多义分析（故乡）升级为中外讽刺小说的批判阅读"
+    },
+    {
+      "topicId": "ct_yw_g9b_02",
+      "prerequisiteId": "ct_yw_g9a_09",
+      "strength": "soft",
+      "reason": "于勒的世态讽刺与变色龙的夸张讽刺构成中外对照经验"
+    },
+    {
+      "topicId": "ct_yw_g9b_03",
+      "prerequisiteId": "ct_yw_g8a_11",
+      "strength": "hard",
+      "reason": "孟子雄辩（富贵不能淫）的巅峰篇：比喻起论+正反对比的完整论证"
+    },
+    {
+      "topicId": "ct_yw_g9b_04",
+      "prerequisiteId": "ct_yw_g7b_07",
+      "strength": "hard",
+      "reason": "孙权劝学的劝说艺术在唐雎邹忌两篇中外交与讽谏场景中扩展"
+    },
+    {
+      "topicId": "ct_yw_g9b_05",
+      "prerequisiteId": "ct_yw_g8b_12",
+      "strength": "hard",
+      "reason": "诸子说理文言之后读赠序与表奏：劝勉文体的情理结构"
+    },
+    {
+      "topicId": "ct_yw_g9b_06",
+      "prerequisiteId": "ct_yw_g7b_08",
+      "strength": "hard",
+      "reason": "叙事文言链（卖油翁→愚公→曹刿）：详略服务于主旨的自觉"
+    },
+    {
+      "topicId": "ct_yw_g9b_07",
+      "prerequisiteId": "ct_yw_g8a_13",
+      "strength": "hard",
+      "reason": "诗词风格比较经验之上聚焦豪放词群与用典手法"
+    },
+    {
+      "topicId": "ct_yw_g9b_07",
+      "prerequisiteId": "ct_yw_g8b_07",
+      "strength": "soft",
+      "reason": "诗经比兴到宋词用典：诗词手法的谱系延伸"
+    },
+    {
+      "topicId": "ct_yw_g9b_08",
+      "prerequisiteId": "ct_yw_g9b_07",
+      "strength": "hard",
+      "reason": "词四首之后扩到诗词曲五首：三体形式比较收官古诗文阅读"
+    },
+    {
+      "topicId": "ct_yw_g9b_09",
+      "prerequisiteId": "ct_yw_g9a_05",
+      "strength": "hard",
+      "reason": "论证严密性分析迁移到随笔式说理的商榷式阅读"
+    },
+    {
+      "topicId": "ct_yw_g9b_10",
+      "prerequisiteId": "ct_yw_g5b_17",
+      "strength": "hard",
+      "reason": "五下课本剧的改编经验升级为完整的阅读—排练—演出—评议闭环"
+    },
+    {
+      "topicId": "ct_yw_g9b_11",
+      "prerequisiteId": "ct_yw_g9a_14",
+      "strength": "hard",
+      "reason": "缩写与扩写互为逆操作：先会删才会补"
+    },
+    {
+      "topicId": "ct_yw_g9b_12",
+      "prerequisiteId": "ct_yw_g9a_11",
+      "strength": "hard",
+      "reason": "观点明确（九上写作一）之后，审题立意解决『观点从题目哪里来』"
+    },
+    {
+      "topicId": "ct_yw_g9b_13",
+      "prerequisiteId": "ct_yw_g7a_11",
+      "strength": "hard",
+      "reason": "七上思路要清晰的进阶版：线索、凤头豹尾、照应的系统工程学"
+    },
+    {
+      "topicId": "ct_yw_g9b_13",
+      "prerequisiteId": "ct_yw_g6b_01",
+      "strength": "soft",
+      "reason": "详略安排的谋篇经验并入布局谋篇的完整框架"
+    },
+    {
+      "topicId": "ct_yw_g9b_14",
+      "prerequisiteId": "ct_yw_g6a_09",
+      "strength": "hard",
+      "reason": "变形记的视角创新是创意表达的经典路径"
+    },
+    {
+      "topicId": "ct_yw_g9b_15",
+      "prerequisiteId": "ct_yw_g6b_10",
+      "strength": "hard",
+      "reason": "小学毕业活动的参与经验升级为初中毕业的策划执行"
+    },
+    {
+      "topicId": "ct_yw_g9b_16",
+      "prerequisiteId": "ct_yw_g9a_10",
+      "strength": "hard",
+      "reason": "明清小说节选（范进中举）的讽刺笔法扩展为儒林外史整本阅读"
+    },
+    {
+      "topicId": "ct_yw_g9b_17",
+      "prerequisiteId": "ct_yw_g8b_15",
+      "strength": "hard",
+      "reason": "成长小说谱系（童年/钢铁）延伸到女性成长的第一人称自传体"
+    },
+    {
+      "topicId": "ct_yw_g9b_18",
+      "prerequisiteId": "ct_yw_g9a_19",
+      "strength": "hard",
+      "reason": "课外古诗词诵读线初中段收官"
+    },
+    {
+      "topicId": "ct_yw_g9b_18",
+      "prerequisiteId": "ct_yw_g9a_07",
+      "strength": "soft",
+      "reason": "定风波的旷达与九上三首失意诗呼应成苏轼专题"
+    },
+    {
+      "topicId": "ct_yw_g9b_19",
+      "prerequisiteId": "ct_yw_g9a_20",
+      "strength": "hard",
+      "reason": "字词自查收官并升级为初中三年的总清点"
     }
   ]
 }

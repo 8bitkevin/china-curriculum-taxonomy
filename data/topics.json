@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.17.0",
+  "version": "1.18.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 942,
+  "topicCount": 961,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -29092,6 +29092,593 @@
       },
       "prerequisites": [
         "ct_yw_g8b_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "短诗的凝练：月夜、断章与海燕",
+      "description": "读《短诗五首》（月夜、萧红墓畔口占、断章、风雨吟、统一）与高尔基《海燕》：短诗以少胜多的意象选择（霜风月光下一株独立的树），海燕的象征系统（暴风雨=革命）。新诗与散文诗并读——凝练是诗的生命线。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵《月夜》《断章》",
+        "能分析断章的相对性哲理与海燕的象征义"
+      ],
+      "assessmentPrompt": "问{{name}}：「你站在桥上看风景，看风景的人在楼上看你」——谁是谁的风景？海燕为什么高傲地飞翔而海鸭在呻吟？",
+      "standards": [
+        "cschinese-2022:S4.YD.08",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "批判小说：孔乙己与变色龙",
+      "description": "读鲁迅《孔乙己》与契诃夫《变色龙》：看「笑」背后的凉（酒客的笑、奥楚蔑洛夫的五次变色）。中外讽刺小说的对照阅读——批判的靶子不同（国民性/沙皇爪牙），手法同为夸张与反差。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能梳理奥楚蔑洛夫态度五次变化的触发点",
+        "能分析孔乙己「排出九文大钱」到「摸出」的深意"
+      ],
+      "assessmentPrompt": "问{{name}}：孔乙己被打断腿后酒客还在笑，这笑说明什么？「大约孔乙己的确死了」的矛盾语气妙在哪？变色龙变的是什么、不变的是什么？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_08",
+        "ct_yw_g9a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_03",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：鱼我所欲也（论证千古）",
+      "description": "背《鱼我所欲也》：孟子用比喻起论（鱼与熊掌）、正反对比（生与义、乡为与今为）层层推进「舍生取义」。中考文言最高频篇目之一——先秦议论文的气势与逻辑在此合流。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写全文并翻译关键句",
+        "能画出正反论证结构图"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么用鱼和熊掌开头而不直接说舍生取义？「非独贤者有是心也」一句在论证上起了什么作用？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_04",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：唐雎与邹忌的语言艺术",
+      "description": "读《唐雎不辱使命》（布衣之怒对天子之怒的针锋相对）与《邹忌讽齐王纳谏》（设喻讽谏、三问三答）。言辞的力量专题——外交折冲与朝堂讽谏：话说对了，事就成了。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能复述两篇的劝说结构并翻译重点句",
+        "能比较「直谏」与「讽谏」的差别与适用场景"
+      ],
+      "assessmentPrompt": "问{{name}}：唐雎为什么先「抢地而笑」再挺剑而起？邹忌为什么不直接说「王之蔽甚矣」而先讲自己比美的事？两招能互换吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三/第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g7b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言：送东阳马生序与出师表",
+      "description": "背《出师表》（先帝创业未半…）、读《送东阳马生序》：宋濂以自身苦学对比太学生优越条件劝勉后进；诸葛亮临表涕零陈情说理。赠序与表奏两种古文体——都是「为对方好」的文章，一个劝学一个劝谏。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写《出师表》重点段",
+        "能说出两篇各自的劝勉结构（对比/情理交融）"
+      ],
+      "assessmentPrompt": "问{{name}}：宋濂「缊袍敝衣」为什么「略无慕艳意」？《出师表》里诸葛亮提了哪三条建议、为什么先说这些再说北伐？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三/第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8b_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言叙事：曹刿论战",
+      "description": "背《曹刿论战》：战前（取信于民）—战中（一鼓作气）—战后（视其辙乱）的结构，详略取舍全为突出「远谋」。与《河中石兽》《愚公移山》遥相呼应——叙事文言的经典范式，人物在对话中立起来。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写并翻译（一鼓作气再而衰三而竭）",
+        "能说明详写论战略写战斗的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：曹刿为什么问「何以战」？「肉食者鄙」鄙在哪？下视其辙登轼而望的动作说明他谨慎在哪？",
+      "standards": [
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g7b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "豪放词四首：渔家傲到满江红",
+      "description": "背《渔家傲·秋思》《江城子·密州出猎》《破阵子·为陈同甫赋壮词以寄之》《满江红·小住京华》：范仲淹燕然未勒的边愁、苏轼老夫聊发的狂、辛弃疾梦回吹角的壮、秋瑾青衫湿的女侠心。豪放词群读——用典与壮声成为共同的指纹。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写四首",
+        "能各指出一处用典并说明用意"
+      ],
+      "assessmentPrompt": "问{{name}}：「亲射虎，看孙郎」和「廉颇老矣」各用谁的典、各表达什么？秋瑾身为女子为什么要「苦将侬强派作蛾眉」的挣扎？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8a_13",
+        "ct_yw_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_08",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "诗词曲五首：家国绝唱",
+      "description": "背《十五从军征》《白雪歌送武判官归京》《南乡子·登京口北固亭有怀》《过零丁洋》《山坡羊·潼关怀古》：八十岁老兵的荒冢、忽如一夜梨花开的奇寒、留取丹心照汗青的绝笔、兴亡都做了百姓苦的叹息。诗词曲三体同台——初中古诗文阅读的收官盛宴。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写五首",
+        "能比较诗、词、曲三体的形式差异"
+      ],
+      "assessmentPrompt": "问{{name}}：「兔从狗窦入」为什么比直接写家破人亡更痛？「峰峦如聚波涛如怒」的拟人和最后一句问句表达了张养浩什么立场？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "随笔式说理：谈读书",
+      "description": "读培根《谈读书》、马南邨《不求甚解》与朱光潜《无言之美》：随笔式议论文——观点犀利、语言隽永（读史使人明智）、可以对观点商榷反驳（读书要不要「不求甚解」？）。阅读从接受走向对话：敢于与名家的观点过招。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能概括各篇观点并理清论证",
+        "能对其中一个观点提出自己的商榷"
+      ],
+      "assessmentPrompt": "问{{name}}：培根说「书有可浅尝者」与「不求甚解」矛盾吗？你读书是「浅尝派」还是「甚解派」？用一段话与培根商量。",
+      "standards": [
+        "cschinese-2022:S4.YD.05",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "戏剧阅读与排演",
+      "description": "读《屈原（节选）》《天下第一楼（节选）》《枣儿》，任务三连：阅读剧本（冲突与台词潜台词）—准备排练（选角改本）—演出评议。戏剧活动单元：文学、表演、合作的合成作战——初中三年唯一「上台演一出戏」的单元。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明一出戏的核心冲突与人物台词的潜台词",
+        "参与一次课本剧排演（角色/导演/评议任一）"
+      ],
+      "assessmentPrompt": "请{{name}}和家人演《枣儿》片段：注意「枣儿甜」背后的孤独感；演完互问一句台词的潜台词是什么。",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第五单元（活动·探究）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g5b_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：学习扩写",
+      "description": "与缩写相反的操作：给一句古诗、一则消息或故事梗概扩写成文——补充细节、渲染场景、合理想象，扩而有据不失控。扩写常考题型（古诗改写、消息扩写）的底层能力。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "扩写保留原文主干且细节合理",
+        "扩写部分与原文风格一致"
+      ],
+      "assessmentPrompt": "请{{name}}把「老翁逾墙走，老妇出门看」扩写成 150 字场景：石壕村的夜，有人物有声音有动作。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第一单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：审题立意",
+      "description": "中考作文第一关：审题（抓关键词、辨明限制与开放、看导语暗示）+立意（准、新、深——人无我有、人有我新）。审题偏差全盘皆输——这一课是应试写作的战略课。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能对一道作文题列出三种立意并选优",
+        "能指出跑题例文跑在哪里"
+      ],
+      "assessmentPrompt": "给{{name}}题目「配角」：列出三种立意（甘当绿叶/人人皆主角/配角亦发光），说哪种最深？导语里「光」字暗示了什么？",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第二单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：布局谋篇",
+      "description": "谋篇三件事：线索贯穿（物线/情线）、段落安排（凤头猪肚豹尾）、过渡照应（首尾呼应）。考场作文的「工程学」——好文章是设计出来的，不是想到哪写到哪。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能为一篇作文设计双线结构",
+        "习作首尾有呼应、段落有起伏"
+      ],
+      "assessmentPrompt": "请{{name}}为「窗」设计谋篇图：以一扇窗为物线，开头一句/结尾一句怎么呼应？中间两段各放什么画面？",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6b_01",
+        "ct_yw_g7a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：有创意地表达",
+      "description": "创意四路径：视角新（物/第二人称）、构思巧（欧·亨利式结尾）、体裁活（日记体/剧本体）、语言个性（有辨识度的声音）。初中写作收官课——从「写对」到「写出自己的样子」。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用非常规视角重写一个熟悉的故事",
+        "习作有一处让人记住的构思或句子"
+      ],
+      "assessmentPrompt": "请{{name}}用「书包的视角」重写「考试前夜」：它看见了什么、听到了什么？结尾留一个物眼里的叹息。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第六单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_15",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：岁月如歌——初中生活回顾",
+      "description": "毕业综合活动：编年史册（三年大事记）、师长赠言、毕业晚会策划主持。与六下毕业活动呼应——但这次是自己策划执行：组织能力的毕业考。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "参与完成班级史册或晚会的一项任务",
+        "能写一段有感染力的毕业赠言"
+      ],
+      "assessmentPrompt": "请{{name}}拟班级三年大事记十件（按时间排序各一句话），再给最好的朋友写 50 字毕业赠言（有细节有期待）。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S4.BD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "综合性学习",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6b_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_16",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：儒林外史的讽刺艺术",
+      "description": "读《儒林外史》：连环短段的结构、白描的讽刺（严监生两根灯草、范进的疯）、「功名富贵」四字下的儒林百态。与《骆驼祥子》《水浒》并置——讽刺小说整本阅读，笑里读出泪。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "读原著主要回目",
+        "能分析两处讽刺手法（夸张/对比/白描）的效果"
+      ],
+      "assessmentPrompt": "问{{name}}：严监生临死伸两根指杆是吝啬还是幽默？周进撞号板和范进发疯，吴敬梓对他们是嘲讽还是同情？",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S4.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "名著导读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_17",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：简·爱与外国女性成长",
+      "description": "读《简·爱》：第一人称自传体叙事、简·爱「我们的精神是平等的」的人格宣言、成长各站（盖茨海德—洛伍德—桑菲尔德）。与《童年》《钢铁》连成成长小说谱系——这是第一次以女性为主角的必读。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "读完原著或整本青少版",
+        "能梳理简·爱的成长节点与人格亮色"
+      ],
+      "assessmentPrompt": "问{{name}}：简·爱为什么在得知罗切斯特有妻子后离开？她「贫穷、低微、不美」却凭什么说自己与对方平等？",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S4.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "名著导读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8b_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_18",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "课外古诗词诵读：定风波的从容",
+      "description": "诵读《定风波（莫听穿林打叶声）》《临江仙·夜登小阁》《太常引·建康中秋夜》《浣溪沙（身向云山那畔行）》：苏轼「也无风雨也无晴」的旷达、辛弃疾「把吴钩看了」的郁愤、纳兰性德「故园无此声」的乡愁。课外诵读线收官。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能背诵默写四首",
+        "能比较苏轼与辛弃疾面对失意的不同姿态"
+      ],
+      "assessmentPrompt": "问{{name}}：「竹杖芒鞋轻胜马」轻的是什么？苏轼回望来路说「也无风雨也无晴」，这与九上三首失意诗哪首气质最像？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "课外古诗词诵读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_07",
+        "ct_yw_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_yw_g9b_19",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "九下字词与初中语文总收官",
+      "description": "读读写写过关（拘泥、侥幸、劫难、探求）；初中三年收官盘点：文言实词虚词总表、61 篇必背诗文的默写过关、12 部名著清单核验。义务教育语文的终点线——也是高中语文的起跑线。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "必背篇目抽默 10 段正确率 90% 以上",
+        "名著清单逐部打钩并能各说一句主线"
+      ],
+      "assessmentPrompt": "请{{name}}做「初中语文毕业清单」：必背诗文自测表（打钩）、12 部名著星级自评、最得意的三篇作文标题——装进信封寄给高中的自己。",
+      "standards": [
+        "cschinese-2022:S4.LZ.01",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "各单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_20"
       ]
     }
   ]
