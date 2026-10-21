@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.31.0",
+  "version": "1.32.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1113,
+  "topicCount": 1128,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -34438,6 +34438,467 @@
       },
       "prerequisites": [
         "ct_yy_g6a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_01",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "音标入门：48 个音素与字母音",
+      "description": "认识 48 个国际音标：20 个元音（单元音/双元音）与 28 个辅音，学会看音标读单词。小学靠拼读规律，初中加上音标这把「万能钥匙」——任何生词查了词典就会读。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能认读 20 个元音音标",
+        "能根据音标读出陌生单词（如 /ˈtiːtʃə/）"
+      ],
+      "assessmentPrompt": "写出 /iː/ /eɪ/ /ʃ/ /ð/ 四个音标请{{name}}读；再查词典读 teacher 的音标。",
+      "standards": [
+        "csenglish-2022:S4.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Starter Units 1-3 与语音学习",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "初中课堂英语与问候礼仪",
+      "description": "升级版课堂英语：How do you spell it? / Can you repeat that, please? / Sorry? 以及完整问候链 How are you? — Fine, thanks. And you? 初中课堂的运转语言——第一周就听说无碍。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "会用英语请求重复和拼写",
+        "问候告别应答完整流畅"
+      ],
+      "assessmentPrompt": "故意小声说英语让{{name}}请求重复（Pardon? / Can you repeat?）；再演一遍完整问候告别。",
+      "standards": [
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Starter Unit 1",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_13"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "自我介绍与信息卡：name、phone number",
+      "description": "学会交换个人信息：What's your name? — My name's Gina. / What's your phone number? — It's 281-9176. / Nice to meet you! 数字串的听记（电话号码 0-9 熟练）是本课隐藏考点。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能完成六句结识对话",
+        "能听写 11 位电话号码"
+      ],
+      "assessmentPrompt": "和{{name}}演「开学第一天认识新同学」：互问姓名、电话并道 Nice to meet you；你报手机号让{{name}}记。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 1 My name's Gina.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "物主代词：my、your、his、her",
+      "description": "系统掌握形容词性物主代词 my/your/his/her/its/our/their 与人称代词 I/me you he/she/it 的分工（my book vs I have a book）。Excuse me. Is this your pencil?——问归属、道歉、道谢一整套。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "人称代词与物主代词填空 10 题对 9",
+        "能用 Is this your...? 完成失物招领对话"
+      ],
+      "assessmentPrompt": "拿{{name}}的文具问 Is this your eraser? 再指妈妈的包问 Is that his bag?——看 her/his/your 的选择；快问 10 个代词填空。",
+      "standards": [
+        "csenglish-2022:S4.GR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 2 Is this your pencil?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "指示代词全系统：介绍家人",
+      "description": "用 This is my sister. / These are my parents. / That is my brother. / Those are my grandparents. 介绍家人——this/that/these/those 四兄弟全上台，单复数 be 动词（is/are）同步配套。家庭介绍的第一张全家福英语版。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能指全家福介绍六位家人单复数句混用无误",
+        "会问 Is that your...? Are those...?"
+      ],
+      "assessmentPrompt": "请{{name}}拿全家福介绍：先用 This is... 再用 These are... 各三句；你指着照片问 Is that your grandma? 看应答。",
+      "standards": [
+        "csenglish-2022:S4.GR.08",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 3 This is my sister.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "have 的一般现在时：Do you have a soccer ball?",
+      "description": "掌握实义动词 have 的三态：I have / He has / Do you have...? — Yes, I do. / Does she have...? — No, she doesn't. 助动词 do/does 一出、动词还原——实义动词疑问否定的通用公式，初中语法的承重墙。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "三单 has 与 does 疑问各对三句",
+        "Does 后动词还原无误"
+      ],
+      "assessmentPrompt": "问{{name}}：Do you have a basketball? 再问 Does your mum have a car? 连问五轮看 do/does 选择与简答。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S4.GR.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 5 Do you have a soccer ball?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_07",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "可数与不可数名词",
+      "description": "分清可数名词（banana、apple——有复数）与不可数名词（milk、bread、rice——无量词复数），掌握 a/an 的选择与 some 的用法。名词的「数」是英语与中文差异最大的一课——从 food 单元起建立意识。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能将 20 个食物词分成可数/不可数两组",
+        "会用 some apples / some rice 造句"
+      ],
+      "assessmentPrompt": "报十个食物词请{{name}}分两组并说出判断依据；考：an apple 还是 a apple？为什么？",
+      "standards": [
+        "csenglish-2022:S4.GR.08",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 6 Do you like bananas?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "like 的肯定否定与三单",
+      "description": "掌握喜好动词 like 的完整变化：I like / She likes / I don't like / She doesn't like broccoli. + 可数复数与不可数名词的搭配。like 句型是三单变化的最佳训练场——每天说喜好，三单自动内化。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出家里三人的喜好（各两句肯定否定）",
+        "doesn't 后动词还原无误"
+      ],
+      "assessmentPrompt": "问{{name}}：Do you like ice cream? How about your dad? 要求{{name}}说 He likes... / He doesn't like... 各两句。",
+      "standards": [
+        "csenglish-2022:S3.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 6 Do you like bananas?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6a_04",
+        "ct_yy_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "购物与价格：数字 10–31",
+      "description": "掌握数字 10–31（teen 与 ty 的听辨 thirteen/thirty）和购物句 How much is the T-shirt? — It's seven dollars. / How much are these socks? — They're two dollars. 数字听写与 is/are 选词是双考点。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "13/30、14/40 等六组听辨全对",
+        "能按单复数正确问价"
+      ],
+      "assessmentPrompt": "报 13/30、14/40、15/50 请{{name}}听辨；指着袜子和衬衫问 How much...? 看单复数问法。",
+      "standards": [
+        "csenglish-2022:S4.VB.01",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 7 How much are these socks?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4b_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_10",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "日期系统：月份、序数词与年龄",
+      "description": "系统化日期表达：12 个月份 + 1st–31st 序数词（1/2/3 特殊、21st 复合）+ When is your birthday? — My birthday is on May 2nd. + How old are you? in + 月、on + 月日——与小学的感性认识不同，这次要默写全对。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "月份与序数词默写全对",
+        "能问答五人生日"
+      ],
+      "assessmentPrompt": "听写 January、February、September、December 与 first、third、twelfth、twentieth；问{{name}}全家生日各用 on... 回答。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 8 When is your birthday?",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "favorite 与 because：说理的开始",
+      "description": "掌握 What's your favorite subject? — My favorite subject is science. / Why do you like P.E.? — Because it's fun. 疑问词 who/what/why + because 答因——英语对话从「交换信息」升级到「交换理由」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能就最喜欢的人和学科问答并给理由",
+        "Why 问句用 Because 答的配对意识牢固"
+      ],
+      "assessmentPrompt": "问{{name}}：What's your favorite subject? Why? 连问三层（学科—老师—星期），听 because 是否每层都用上。",
+      "standards": [
+        "csenglish-2022:S3.GR.06",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 9 My favorite subject is science.",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听力策略：预读题目与预测",
+      "description": "初中听力第一策略：听前读题圈关键词（是人名还是数字？单数还是复数？），听中抓目标信息不恋战。听力从「听清」到「会听」——方法对了分数立涨。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "听前能说出要抓的信息类型",
+        "对话听力三题对两题以上"
+      ],
+      "assessmentPrompt": "给{{name}}一段问名字电话的听力题，先让他读题圈关键词预测答案类型，再听并核对预测。",
+      "standards": [
+        "csenglish-2022:S4.LS.02",
+        "csenglish-2022:S4.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "各单元听力训练",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_13",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "应用文阅读：海报与失物招领",
+      "description": "读懂失物招领（Found/Lost）、海报、通知类应用文——格式即信息（标题、电话、日期）。初中阅读第一类文体：不是故事是「信息」，找到就是得分。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能从 Lost/Found 短文中找出物品、特征、联系人",
+        "能判断该找谁认领"
+      ],
+      "assessmentPrompt": "给{{name}}一张 Found 卡片（黑色书包内有字典），问：What's in the schoolbag? Who found it? 怎么联系？",
+      "standards": [
+        "csenglish-2022:S4.RD.04",
+        "csenglish-2022:S4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "各单元阅读板块",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_14",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：自我介绍便条",
+      "description": "写一段 40–50 词的自我介绍（姓名、年龄、生日、爱好、电话）——首个初中写作任务：句子完整、信息有序、首字母大写与标点规范。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "五句以上信息完整",
+        "大小写与标点错误不超过两处"
+      ],
+      "assessmentPrompt": "请{{name}}写 Self-introduction：My name is... I'm 12. My birthday is... I like... My phone number is... 写完互查标点。",
+      "standards": [
+        "csenglish-2022:S4.WR.01",
+        "csenglish-2022:S3.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "写作板块（Self-introduction）",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g5a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_15",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "七上词汇与句型自查",
+      "description": "七上词汇约 350（含小学复现），核心句型 9 组。初中词汇学习的节奏建立：每日 10 词 + 周周清——习惯比背法重要。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "中英互译 20 词对 17 以上",
+        "九组句型各能造一句"
+      ],
+      "assessmentPrompt": "给{{name}}做每周词汇测：中译英 10 + 英译中 10 + 任意抽三组句型造句。",
+      "standards": [
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g6b_10"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.31.0",
+  "version": "1.32.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1614,
+  "edgeCount": 1630,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9687,6 +9687,102 @@
       "prerequisiteId": "ct_yy_g6a_12",
       "strength": "hard",
       "reason": "词汇自查收官（500→550），小学词汇总量达成"
+    },
+    {
+      "topicId": "ct_yy_g7a_01",
+      "prerequisiteId": "ct_yy_g5b_08",
+      "strength": "hard",
+      "reason": "小学拼读规律的经验之上系统学习 48 音标，双轨读词"
+    },
+    {
+      "topicId": "ct_yy_g7a_02",
+      "prerequisiteId": "ct_yy_g3a_13",
+      "strength": "hard",
+      "reason": "小学礼貌用语线升级为完整课堂英语与请求表达"
+    },
+    {
+      "topicId": "ct_yy_g7a_03",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "hard",
+      "reason": "小学自我介绍扩展为信息交换（姓名+电话+寒暄链）"
+    },
+    {
+      "topicId": "ct_yy_g7a_04",
+      "prerequisiteId": "ct_yy_g4b_05",
+      "strength": "hard",
+      "reason": "whose 问物主的经验系统化为物主代词全套"
+    },
+    {
+      "topicId": "ct_yy_g7a_05",
+      "prerequisiteId": "ct_yy_g4b_04",
+      "strength": "hard",
+      "reason": "these/those 指物的经验扩展到指人介绍家人"
+    },
+    {
+      "topicId": "ct_yy_g7a_06",
+      "prerequisiteId": "ct_yy_g4a_02",
+      "strength": "hard",
+      "reason": "has 的三单感性经验升级为 do/does 助动词疑问否定系统"
+    },
+    {
+      "topicId": "ct_yy_g7a_07",
+      "prerequisiteId": "ct_yy_g5a_03",
+      "strength": "hard",
+      "reason": "食物词汇的积累支撑可数不可数的分类学习"
+    },
+    {
+      "topicId": "ct_yy_g7a_08",
+      "prerequisiteId": "ct_yy_g6a_04",
+      "strength": "hard",
+      "reason": "like + V-ing 爱好表达延伸到 like + 名词的三单否定系统"
+    },
+    {
+      "topicId": "ct_yy_g7a_08",
+      "prerequisiteId": "ct_yy_g7a_07",
+      "strength": "hard",
+      "reason": "like 句型搭配可数复数与不可数名词的选择"
+    },
+    {
+      "topicId": "ct_yy_g7a_09",
+      "prerequisiteId": "ct_yy_g4b_06",
+      "strength": "hard",
+      "reason": "小学购物对话扩展：新增 10-31 数字与 is/are 单复数问价"
+    },
+    {
+      "topicId": "ct_yy_g7a_10",
+      "prerequisiteId": "ct_yy_g5b_04",
+      "strength": "hard",
+      "reason": "小学日期表达的感性认识系统化为默写级掌握"
+    },
+    {
+      "topicId": "ct_yy_g7a_11",
+      "prerequisiteId": "ct_yy_g5b_02",
+      "strength": "hard",
+      "reason": "because 说理经验扩展到 favorite 话题的完整问答链"
+    },
+    {
+      "topicId": "ct_yy_g7a_12",
+      "prerequisiteId": "ct_yy_g4a_08",
+      "strength": "hard",
+      "reason": "小学抓关键词听力升级为预读预测的系统策略"
+    },
+    {
+      "topicId": "ct_yy_g7a_13",
+      "prerequisiteId": "ct_yy_g5b_10",
+      "strength": "hard",
+      "reason": "规则标识类功能性阅读延伸到海报失物招领的应用文"
+    },
+    {
+      "topicId": "ct_yy_g7a_14",
+      "prerequisiteId": "ct_yy_g5a_10",
+      "strength": "hard",
+      "reason": "小学五句小语篇升级为信息完整的自我介绍便条"
+    },
+    {
+      "topicId": "ct_yy_g7a_15",
+      "prerequisiteId": "ct_yy_g6b_10",
+      "strength": "hard",
+      "reason": "小学词汇收官后建立初中的日清周结词汇节奏"
     }
   ]
 }
