@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.7.0",
+  "version": "0.8.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 364,
+  "edgeCount": 410,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -2187,6 +2187,282 @@
       "prerequisiteId": "ct_g5a_25",
       "strength": "hard",
       "reason": "变式识别建立在全部基本情形的模型掌握之上"
+    },
+    {
+      "topicId": "ct_g5b_01",
+      "prerequisiteId": "ct_g4b_05",
+      "strength": "hard",
+      "reason": "从三个方向观察组合体的经验是逆向还原立体的能力基础"
+    },
+    {
+      "topicId": "ct_g5b_02",
+      "prerequisiteId": "ct_g4b_02",
+      "strength": "hard",
+      "reason": "因数倍数概念建立在乘除互逆关系（积÷因数=因数）的语言之上"
+    },
+    {
+      "topicId": "ct_g5b_02",
+      "prerequisiteId": "ct_g3b_08",
+      "strength": "soft",
+      "reason": "除法没有余数（整除）的计算经验是讨论因数倍数的算例来源"
+    },
+    {
+      "topicId": "ct_g5b_03",
+      "prerequisiteId": "ct_g5b_02",
+      "strength": "hard",
+      "reason": "有序找因数倍数的操作直接运用因数倍数概念"
+    },
+    {
+      "topicId": "ct_g5b_04",
+      "prerequisiteId": "ct_g5b_03",
+      "strength": "hard",
+      "reason": "质数合数按因数个数分类，需先会完整找一个数的因数"
+    },
+    {
+      "topicId": "ct_g5b_05",
+      "prerequisiteId": "ct_g1a_12",
+      "strength": "hard",
+      "reason": "一年级长方体正方体圆柱球的直观辨认是立体图形特征刻画的原点"
+    },
+    {
+      "topicId": "ct_g5b_05",
+      "prerequisiteId": "ct_g3a_24",
+      "strength": "soft",
+      "reason": "平面图形「特征刻画」的研究方式（边、角）迁移到面、棱、顶点"
+    },
+    {
+      "topicId": "ct_g5b_06",
+      "prerequisiteId": "ct_g5b_05",
+      "strength": "hard",
+      "reason": "展开图是长方体正方体面棱结构的平面展开，特征认识是分析前提"
+    },
+    {
+      "topicId": "ct_g5b_06",
+      "prerequisiteId": "ct_g4b_05",
+      "strength": "soft",
+      "reason": "二维与三维互相转化的空间想象经验在三视图训练中已建立"
+    },
+    {
+      "topicId": "ct_g5b_07",
+      "prerequisiteId": "ct_g5b_06",
+      "strength": "hard",
+      "reason": "表面积计算依赖展开图把 6 个面摊平成平面图形的直观"
+    },
+    {
+      "topicId": "ct_g5b_08",
+      "prerequisiteId": "ct_g3b_15",
+      "strength": "hard",
+      "reason": "体积单位的建立类比面积单位（度量单位+表象），面积单位学习在先"
+    },
+    {
+      "topicId": "ct_g5b_08",
+      "prerequisiteId": "ct_g5b_05",
+      "strength": "hard",
+      "reason": "体积度量对象是长方体等立体，特征认识先行"
+    },
+    {
+      "topicId": "ct_g5b_09",
+      "prerequisiteId": "ct_g5b_08",
+      "strength": "hard",
+      "reason": "长方体体积公式本质是用体积单位度量（每层个数×层数），概念先行"
+    },
+    {
+      "topicId": "ct_g5b_10",
+      "prerequisiteId": "ct_g5b_09",
+      "strength": "hard",
+      "reason": "排水法求体积以体积概念与计算为前提（上升水的体积=物体体积）"
+    },
+    {
+      "topicId": "ct_g5b_10",
+      "prerequisiteId": "ct_g3b_17",
+      "strength": "soft",
+      "reason": "单位换算的进率分析（10×10×10）沿用面积单位进率推导经验"
+    },
+    {
+      "topicId": "ct_g5b_11",
+      "prerequisiteId": "ct_g3a_28",
+      "strength": "hard",
+      "reason": "几分之一的直观认识升级为严格的意义（单位 1 与分数单位）"
+    },
+    {
+      "topicId": "ct_g5b_11",
+      "prerequisiteId": "ct_g3a_31",
+      "strength": "hard",
+      "reason": "整体 1 可以是一堆物体的经验（三年级）是单位 1 概念的直接前身"
+    },
+    {
+      "topicId": "ct_g5b_12",
+      "prerequisiteId": "ct_g5b_11",
+      "strength": "hard",
+      "reason": "分数与除法的关系在分数意义框架内讨论（a÷b 表示 a 份中的 1 份×b）"
+    },
+    {
+      "topicId": "ct_g5b_12",
+      "prerequisiteId": "ct_g5a_07",
+      "strength": "soft",
+      "reason": "除法竖式中商的小数与分数两种表示互为补充"
+    },
+    {
+      "topicId": "ct_g5b_13",
+      "prerequisiteId": "ct_g5b_12",
+      "strength": "hard",
+      "reason": "基本性质的分子分母同乘同除依赖分数与除法的联系来解释"
+    },
+    {
+      "topicId": "ct_g5b_13",
+      "prerequisiteId": "ct_g4a_26",
+      "strength": "hard",
+      "reason": "商不变规律（被除数除数同乘除商不变）正是分数基本性质的除法版本"
+    },
+    {
+      "topicId": "ct_g5b_14",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "hard",
+      "reason": "约分是分数基本性质的直接应用（同除以公因数）"
+    },
+    {
+      "topicId": "ct_g5b_14",
+      "prerequisiteId": "ct_g5b_03",
+      "strength": "hard",
+      "reason": "找最大公因数依赖有序找因数的技能"
+    },
+    {
+      "topicId": "ct_g5b_15",
+      "prerequisiteId": "ct_g5b_14",
+      "strength": "hard",
+      "reason": "通分与约分同属基本性质应用，且都用公因数公倍数工具，先约分后通分"
+    },
+    {
+      "topicId": "ct_g5b_15",
+      "prerequisiteId": "ct_g5b_03",
+      "strength": "soft",
+      "reason": "找最小公倍数用列举法，与找因数倍数的技能同源"
+    },
+    {
+      "topicId": "ct_g5b_16",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "hard",
+      "reason": "分母化成 10、100 的策略依据是分数基本性质"
+    },
+    {
+      "topicId": "ct_g5b_16",
+      "prerequisiteId": "ct_g4b_11",
+      "strength": "soft",
+      "reason": "小数意义（十分之几、百分之几）正是分母 10、100 的分数"
+    },
+    {
+      "topicId": "ct_g5b_17",
+      "prerequisiteId": "ct_g5b_15",
+      "strength": "hard",
+      "reason": "分母分子都不同的比较主要靠通分"
+    },
+    {
+      "topicId": "ct_g5b_17",
+      "prerequisiteId": "ct_g5b_16",
+      "strength": "hard",
+      "reason": "化成小数比较是通分之外的重要备选方法"
+    },
+    {
+      "topicId": "ct_g5b_18",
+      "prerequisiteId": "ct_g2b_06",
+      "strength": "hard",
+      "reason": "二年级旋转的直观感知升级为三要素定量描述"
+    },
+    {
+      "topicId": "ct_g5b_18",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "hard",
+      "reason": "旋转角度（90°等）的度量与理解依赖角的分类知识"
+    },
+    {
+      "topicId": "ct_g5b_19",
+      "prerequisiteId": "ct_g5b_18",
+      "strength": "hard",
+      "reason": "图案设计综合运用旋转三要素作图"
+    },
+    {
+      "topicId": "ct_g5b_19",
+      "prerequisiteId": "ct_g4b_27",
+      "strength": "soft",
+      "reason": "轴对称补全图形的作图技能是图案设计工具箱的一部分"
+    },
+    {
+      "topicId": "ct_g5b_20",
+      "prerequisiteId": "ct_g5b_11",
+      "strength": "hard",
+      "reason": "同分母加减=分数单位个数相加减，分数单位概念是算理核心"
+    },
+    {
+      "topicId": "ct_g5b_20",
+      "prerequisiteId": "ct_g3a_30",
+      "strength": "soft",
+      "reason": "三年级同分母分数简单加减的直观经验在此一般化"
+    },
+    {
+      "topicId": "ct_g5b_21",
+      "prerequisiteId": "ct_g5b_20",
+      "strength": "hard",
+      "reason": "通分后回到同分母加减的情形"
+    },
+    {
+      "topicId": "ct_g5b_21",
+      "prerequisiteId": "ct_g5b_15",
+      "strength": "hard",
+      "reason": "异分母加减的关键步骤就是通分"
+    },
+    {
+      "topicId": "ct_g5b_22",
+      "prerequisiteId": "ct_g5b_21",
+      "strength": "hard",
+      "reason": "混合运算由异分母加减组合而成"
+    },
+    {
+      "topicId": "ct_g5b_22",
+      "prerequisiteId": "ct_g4b_10",
+      "strength": "soft",
+      "reason": "整数加法运算律迁移到分数简算"
+    },
+    {
+      "topicId": "ct_g5b_23",
+      "prerequisiteId": "ct_g5b_22",
+      "strength": "hard",
+      "reason": "实际问题是分数加减综合运用场景"
+    },
+    {
+      "topicId": "ct_g5b_24",
+      "prerequisiteId": "ct_g4a_29",
+      "strength": "hard",
+      "reason": "折线图与条形图同为统计图，在条形图基础上认识增量优势"
+    },
+    {
+      "topicId": "ct_g5b_25",
+      "prerequisiteId": "ct_g5b_24",
+      "strength": "hard",
+      "reason": "复式折线图是两条单式折线的合成"
+    },
+    {
+      "topicId": "ct_g5b_25",
+      "prerequisiteId": "ct_g4b_30",
+      "strength": "soft",
+      "reason": "复式数据结构的图例经验沿用复式条形图"
+    },
+    {
+      "topicId": "ct_g5b_26",
+      "prerequisiteId": "ct_g5a_26",
+      "strength": "soft",
+      "reason": "把新问题归入模型并寻找规律的意识在植树变式中训练过"
+    },
+    {
+      "topicId": "ct_g5b_26",
+      "prerequisiteId": "ct_g2b_02",
+      "strength": "soft",
+      "reason": "「平均分成 3 份」的最优策略核心是平均分概念"
+    },
+    {
+      "topicId": "ct_g5b_26",
+      "prerequisiteId": "ct_g4b_31",
+      "strength": "soft",
+      "reason": "假设与逐步排除的推理方式与鸡兔同笼同属一脉"
     }
   ]
 }

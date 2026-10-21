@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.7.0",
+  "version": "0.8.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 230,
+  "topicCount": 256,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -7061,6 +7061,806 @@
       },
       "prerequisites": [
         "ct_g5a_25"
+      ]
+    },
+    {
+      "id": "ct_g5b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "观察物体（三）：根据视图拼搭立体",
+      "description": "给你从前面、上面、左面看到的三个图形，用小正方体把原来的立体摆出来。答案可能不止一种——空间想象从「看」升级到「还原」，反推能力大练兵。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能根据给定的三视图摆出符合条件的立体",
+        "能说明为什么有的题目答案不唯一"
+      ],
+      "assessmentPrompt": "给{{name}}三个方向的视图：「用 5 个小正方体摆一摆，只有一种摆法吗？怎么验证你摆的对？」",
+      "standards": [
+        "csmath-2022:S2.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_05"
+      ]
+    },
+    {
+      "id": "ct_g5b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因数与倍数的概念",
+      "description": "2×6=12，2 和 6 是 12 的因数，12 是 2 和 6 的倍数。因数倍数只在整数范围内谈（0 除外），是「整除」关系的两个名字——数论的大门从这里打开。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断谁是谁的因数、谁是谁的倍数",
+        "知道因数倍数相互依存、不能单独说某数是因数"
+      ],
+      "assessmentPrompt": "问{{name}}：「24÷6=4，谁是谁的因数？能说 6 是因数吗？18 的因数里最大最小各是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_08",
+        "ct_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_g5b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "找因数倍数与 2、5、3 的倍数特征、奇数偶数",
+      "description": "36 的因数：想哪两个数相乘得 36，成对找不遗漏。2 的倍数个位是偶数、5 的倍数个位是 0 或 5、3 的倍数各数位之和是 3 的倍数——特征在手，判断秒出。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能有序地找一个数的全部因数和倍数",
+        "能熟练运用 2、5、3 的倍数特征判断并区分奇数偶数"
+      ],
+      "assessmentPrompt": "问{{name}}：「45 是 3 的倍数吗？怎么看最快？一个数既是 2 又是 5 的倍数，个位一定是几？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_02"
+      ]
+    },
+    {
+      "id": "ct_g5b_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "质数与合数",
+      "description": "只有 1 和它本身两个因数的是质数（2、3、5、7…），还有别的因数的是合数（4、6、8…）。1 既不是质数也不是合数。最小的质数是 2，也是唯一的偶质数。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断 100 以内的数是质数还是合数",
+        "能熟记 20 以内的质数并说明 1 的特殊性"
+      ],
+      "assessmentPrompt": "问{{name}}：「19 是质数吗？为什么？唯一既是偶数又是质数的数是谁？100 以内你数得出多少个质数？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_03"
+      ]
+    },
+    {
+      "id": "ct_g5b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方体和正方体的认识（面、棱、顶点）",
+      "description": "长方体 6 个面、12 条棱、8 个顶点；相对的棱长度相等。正方体是特殊的长方体（棱都相等）。从平面图形跃入立体图形，三维世界从此可数、可量、可算。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出长方体正方体面棱顶点的数量与特征",
+        "知道长方体的长宽高并能从实物中指出"
+      ],
+      "assessmentPrompt": "拿一个纸盒问{{name}}：「几个面？几条棱？相交于一个顶点的三条棱分别叫什么？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1a_12",
+        "ct_g3a_24"
+      ]
+    },
+    {
+      "id": "ct_g5b_06",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方体、正方体的展开图",
+      "description": "纸盒沿棱剪开摊平就是展开图：正方体有「141」「231」「222」等经典形态。「对面不相邻」是判断展开图正误的金句——立体与平面的翻译课程。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断哪些图形能折成正方体",
+        "能找到展开图中相对的面并剪出长方体展开图"
+      ],
+      "assessmentPrompt": "给{{name}}几张展开图：「哪些能折成正方体？「1-4-1」是什么意思？面 1 的对面是哪个？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_05",
+        "ct_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_g5b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方体和正方体的表面积",
+      "description": "6 个面的面积总和就是表面积。S =（长×宽 + 长×高 + 宽×高）×2。包装盒用纸、粉刷墙壁——先想清楚有几个面，「无盖」就少算一面。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确计算长方体正方体表面积",
+        "能处理无盖、贴四周等变式（确定实际面数）"
+      ],
+      "assessmentPrompt": "问{{name}}：「做一个无盖鱼缸长 5 分米宽 3 分米高 4 分米，至少用多少玻璃？哪几个面要算？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_06"
+      ]
+    },
+    {
+      "id": "ct_g5b_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "体积和体积单位",
+      "description": "石头放进水里水面升高——物体占空间的大小就是体积。棱长 1 厘米的正方体体积是 1 立方厘米。从「面的大小」到「体的大小」，度量又升一维。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用实验比较物体体积大小（排水）",
+        "知道三个体积单位并建立 1 立方厘米的表象"
+      ],
+      "assessmentPrompt": "问{{name}}：「橡皮的体积大约几立方厘米？电视机和手机谁占的空间大？什么叫体积？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_15",
+        "ct_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_g5b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "长方体正方体的体积与容积",
+      "description": "V = 长×宽×高 = 底面积×高（V=Sh）；正方体 V=a³。容积是容器能装多少（从里面量）。「底面积×高」是万能公式，柱体体积全靠它。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确计算长方体正方体体积",
+        "知道体积与容积的区别并会计算简单容积"
+      ],
+      "assessmentPrompt": "问{{name}}：「游泳池长 25 米宽 10 米深 2 米，能装多少立方米水？V=Sh 里 S 是什么？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_08"
+      ]
+    },
+    {
+      "id": "ct_g5b_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "体积单位换算与不规则物体的体积",
+      "description": "1 立方分米 = 1000 立方厘米（10×10×10）。西红柿的体积？放进量杯看水面上升多少毫升——排水法把「不规则」变成「可计算」。阿基米德就这么干的。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确换算体积单位（1 升=1000 毫升=1000 立方厘米）",
+        "能用排水法求不规则物体体积"
+      ],
+      "assessmentPrompt": "问{{name}}：「量杯 300 毫升水放入石子升到 350 毫升，石子体积多少立方厘米？1 立方分米为什么等于 1000 立方厘米？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_17",
+        "ct_g5b_09"
+      ]
+    },
+    {
+      "id": "ct_g5b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的意义（单位「1」与分数单位）",
+      "description": "把单位「1」（一个月饼、一米、一堆苹果）平均分成若干份，表示这样一份或几份的数叫分数。1/4 的分数单位是 1/4，3/4 里有 3 个 1/4——分数也有自己的「计数单位」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出单位「1」和分数单位的含义",
+        "能说明 3/8 里有几个 1/8、每个分数的分数单位是什么"
+      ],
+      "assessmentPrompt": "问{{name}}：「把 12 个苹果看作单位 1，平均分 4 份，3 份是几分之几？5/6 的分数单位是什么？有几个？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_28",
+        "ct_g3a_31"
+      ]
+    },
+    {
+      "id": "ct_g5b_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数与除法、真分数假分数与带分数",
+      "description": "1÷4 = 1/4：除法算式与分数是一枚硬币的两面（a÷b=a/b）。分子小于分母是真分数，假分数可以化作带分数。分数家族的户口本正式建档。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用分数表示除法的商并说明关系",
+        "能辨别真假分数并把假分数化成带分数或整数"
+      ],
+      "assessmentPrompt": "问{{name}}：「3 块饼平均分给 4 人，每人几块？7/4 化成带分数是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_07",
+        "ct_g5b_11"
+      ]
+    },
+    {
+      "id": "ct_g5b_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的基本性质",
+      "description": "分子分母同乘或同除一个数（0 除外），分数大小不变：1/2 = 2/4 = 4/8。它和除法商不变规律是同一件事的两种说法——约分通分的理论靠山。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用图示或商不变规律解释分数基本性质",
+        "能写出若干个与给定分数相等的分数"
+      ],
+      "assessmentPrompt": "问{{name}}：「1/2 为什么等于 4/8？折纸怎么证明？它和除法的什么规律是一回事？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_26",
+        "ct_g5b_12"
+      ]
+    },
+    {
+      "id": "ct_g5b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "最大公因数与约分",
+      "description": "18 和 24 公有的因数里最大的是 6。18/24 上下同除以 6 得 3/4（最简分数）。约分就是用分数基本性质「瘦身」，瘦到不能再瘦为止。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用列举法求两个数的最大公因数",
+        "能正确约分并判断最简分数"
+      ],
+      "assessmentPrompt": "问{{name}}：「18 和 24 的最大公因数是多少？把 18/24 化成最简分数，除到什么时候停？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_03",
+        "ct_g5b_13"
+      ]
+    },
+    {
+      "id": "ct_g5b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "最小公倍数与通分",
+      "description": "6 和 8 公有的倍数里最小的是 24。把 1/6 和 3/8 化成同分母 4/24 和 9/24 就是通分——统一分数单位才能加减比较。异分母世界的「度量衡统一」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用列举法求两个数的最小公倍数",
+        "能用最小公倍数作公分母正确通分"
+      ],
+      "assessmentPrompt": "问{{name}}：「6 和 8 的最小公倍数是多少？把 1/6 和 3/8 通分，公分母选几最方便？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_03",
+        "ct_g5b_14"
+      ]
+    },
+    {
+      "id": "ct_g5b_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数与小数的互化",
+      "description": "3/4 = 3÷4 = 0.75（分母化成 10、100…更快捷）；0.3 = 3/10、0.25 = 1/4。分数小数是一家，随场合换装——判断「能不能化成有限小数」看最简分母的质因数。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能熟练进行分数小数互化",
+        "能判断最简分数能否化成有限小数（看分母质因数）"
+      ],
+      "assessmentPrompt": "问{{name}}：「7/20 化成小数是多少？0.125 化成最简分数呢？7/9 为什么除不尽？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_11",
+        "ct_g5b_13"
+      ]
+    },
+    {
+      "id": "ct_g5b_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数的大小比较",
+      "description": "同分母比分子、同分子比分母（分的份越多每份越小）、分母分子都不同先通分或化成小数比。比大小的兵法库越攒越厚，关键是挑对武器。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能选择合适方法比较分数大小",
+        "能将多个分数通分后排序"
+      ],
+      "assessmentPrompt": "问{{name}}：「3/8 和 4/15 谁大？你选了什么方法？还有别的方法吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_15",
+        "ct_g5b_16"
+      ]
+    },
+    {
+      "id": "ct_g5b_18",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "旋转（三要素：中心、方向、角度）",
+      "description": "旋转要说清三件事：绕哪个点、顺时针还是逆时针、转多少度。指针从 12 转到 3 是绕中心顺时针旋转 90°——图形运动第一次被精确定量描述。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用三要素完整描述一次旋转",
+        "能在方格纸上画出简单图形旋转 90° 后的图形"
+      ],
+      "assessmentPrompt": "问{{name}}：「钟面指针从 2 走到 6，怎么完整描述这次旋转？方格纸上的直角三角形绕 O 点逆时针转 90° 后在哪？」",
+      "standards": [
+        "csmath-2022:S3.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_06",
+        "ct_g4a_11"
+      ]
+    },
+    {
+      "id": "ct_g5b_19",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形运动的设计与欣赏",
+      "description": "基本图形通过平移、旋转、轴对称能生成美丽图案（雪花、风车、地砖）。设计图案 = 选基本图 + 定运动方式——数学第一次成为艺术家。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能分析图案由哪种运动生成",
+        "能运用运动设计简单图案"
+      ],
+      "assessmentPrompt": "给{{name}}看风车图案：「它是由哪个基本图形经过什么运动得到的？你能设计一个吗？」",
+      "standards": [
+        "csmath-2022:S3.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_27",
+        "ct_g5b_18"
+      ]
+    },
+    {
+      "id": "ct_g5b_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "同分母分数加减法",
+      "description": "3/8 + 2/8 = 5/8：分数单位相同，直接把个数相加减。与整数加减「相同计数单位相加减」完全一个道理——分数单位就是分数的「根」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确计算同分母分数加减并化简",
+        "能解释分母不变、分子相加减的道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「5/9+2/9 等于多少？为什么分母不变？7/9-2/9 呢？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_30",
+        "ct_g5b_11"
+      ]
+    },
+    {
+      "id": "ct_g5b_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "异分母分数加减法（通分）",
+      "description": "1/2 + 1/3：分数单位不同不能直接加，先通分化成 3/6 + 2/6 = 5/6。通分是异分母加减的必经关卡——把不同的「根」换成相同的「根」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能先通分再正确计算异分母分数加减",
+        "结果能约分的自觉约成最简分数"
+      ],
+      "assessmentPrompt": "问{{name}}：「1/2+1/3 第一步做什么？为什么不能分子加分子分母加分母？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_15",
+        "ct_g5b_20"
+      ]
+    },
+    {
+      "id": "ct_g5b_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数加减混合运算与简算",
+      "description": "运算顺序与整数相同；整数加法的交换律结合律对分数照样管用：1/4+2/5+3/4 = (1/4+3/4)+2/5 = 1.2——先凑整数再算，处处快人一步。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确计算分数加减混合运算",
+        "能用运算律对分数进行简算"
+      ],
+      "assessmentPrompt": "让{{name}}简算 5/6+3/4+1/6，说清算序和用的运算律。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_10",
+        "ct_g5b_21"
+      ]
+    },
+    {
+      "id": "ct_g5b_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "分数加减的实际问题",
+      "description": "「一杯果汁喝去 1/3 又喝去余下的 1/3，共喝几分之几？」注意「余下的」三个字——单位「1」变了，分数就变了。分数问题最考「谁的几分之几」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能找准每一步的单位「1」",
+        "能用画图辅助分析并检验答案合理性"
+      ],
+      "assessmentPrompt": "问{{name}}：「一根绳子用去 1/4，又用去剩下的 1/4，两次用的一样多吗？还剩几分之几？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_22"
+      ]
+    },
+    {
+      "id": "ct_g5b_24",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "折线统计图",
+      "description": "条形图比多少，折线图看变化：点的位置是数量，线的走向是趋势——上升、下降、陡、缓，一目了然。体温单、股价图、气温预报都是它。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能根据数据绘制折线统计图",
+        "能描述数据的变化趋势并作简单预测"
+      ],
+      "assessmentPrompt": "让{{name}}记录一周气温画折线图：「哪天到哪天升得最快？折线图比条形图好在哪？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_29"
+      ]
+    },
+    {
+      "id": "ct_g5b_25",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "复式折线统计图",
+      "description": "两条折线画在一张图上：两地气温、两个品牌销量——差异与交点都是信息。「图例」别忘画，谁是谁要标清。比较型数据分析的标准武器。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能绘制复式折线统计图并回答比较问题",
+        "能根据图选择合适的统计图类型"
+      ],
+      "assessmentPrompt": "问{{name}}：「要比较你和同桌这学期 5 次数学成绩的变化，选什么图？从图中你发现了什么？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_30",
+        "ct_g5b_24"
+      ]
+    },
+    {
+      "id": "ct_g5b_26",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：找次品（最优策略）",
+      "description": "9 个零件有 1 个偏轻：天平称 2 次必能找到——关键是把物品尽量平均分成 3 份！每次称量排除三分之二的嫌疑，这就是最优。逻辑推理的巅峰体验。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用天平示意图记录推理过程",
+        "能发现并运用「平均分 3 份」的最优策略"
+      ],
+      "assessmentPrompt": "问{{name}}：「8 个球里 1 个轻的，天平至少称几次保证找到？第一次怎么分？为什么分 3 份最好？」",
+      "standards": [
+        "csmath-2022:S3.IP.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 8,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_02",
+        "ct_g4b_31",
+        "ct_g5a_26"
       ]
     }
   ]
