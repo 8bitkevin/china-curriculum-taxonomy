@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.47.0",
+  "version": "1.48.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1340,
+  "topicCount": 1350,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -41498,6 +41498,323 @@
       },
       "prerequisites": [
         "ct_wl_g8b_18"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "曲线运动与合成分解",
+      "description": "曲线运动的速度方向沿切线、合力指向曲线内侧（为什么拐弯要向内用力）；运动的合成分解（小船渡河：合运动=分运动矢量合成）。直线到曲线——方向意识在运动学中的第二次登场。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断曲线运动条件与力的指向",
+        "能用渡河模型算最短时间"
+      ],
+      "assessmentPrompt": "问{{name}}：抛出的篮球速度方向沿哪？做曲线运动的物体合力能指向外侧吗？船头垂直河岸渡河时间怎么算？",
+      "standards": [
+        "hsphysics-2017:H2.MC.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五章 抛体运动",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_02",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "平抛运动规律",
+      "description": "平抛=水平匀速+竖直自由落体；x=v₀t、h=½gt²、落地速度合成（大小与方向）。实验：描轨迹法测初速度。两种直线运动「缝合成」曲线运动——分解思维的标准范本。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成平抛三量计算（含速度方向角）",
+        "能设计测平抛初速度的实验方案"
+      ],
+      "assessmentPrompt": "问{{name}}：从 20 m 高处以 5 m/s 平抛，落地时间？水平射程？落地速度与水平方向的夹角怎么求？",
+      "standards": [
+        "hsphysics-2017:H2.MC.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五章 抛体运动",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_06",
+        "ct_wl_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "圆周运动与向心加速度",
+      "description": "描述圆周运动的量（线速度 v、角速度 ω、周期 T 及关系 v=ωr）；向心加速度 a=v²/r=ω²r（方向指向圆心）。传动装置（皮带线速度相等、同轴角速度相等）——圆周运动的运动学骨架。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成 v、ω、T、a 四量互算",
+        "能判断皮带与同轴传动的哪个量相等"
+      ],
+      "assessmentPrompt": "问{{name}}：自行车大轮小轮边缘线速度相等还是角速度相等？a=v²/r 说明速度大加速度一定大吗？",
+      "standards": [
+        "hsphysics-2017:H2.MC.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第六章 圆周运动",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "向心力与圆周运动应用",
+      "description": "向心力是效果力（由重力、弹力、摩擦力的合力提供）F=mv²/r=mω²r；水平转盘（摩擦力提供）、拱桥凹桥（压力变化）、竖直圆最高点的临界条件。圆周运动的动力学——供需平衡分析（需要的=提供的）。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析圆锥摆与转盘模型的向心力来源",
+        "能求过拱桥顶点时对桥的压力"
+      ],
+      "assessmentPrompt": "问{{name}}：汽车过凸桥顶为什么「发飘」？绳系小球竖直面圆周最高点最小速度条件是什么？向心力是一种新的力吗？",
+      "standards": [
+        "hsphysics-2017:H2.MC.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第六章 圆周运动",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_12",
+        "ct_wl_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "万有引力定律与航天",
+      "description": "万有引力 F=GMm/r²（卡文迪什测 G「称量地球」）；卫星问题两条线（万有引力=向心力、=重力）：第一宇宙速度 7.9 km/s、同步卫星、变轨。苹果落地与月亮绕行是同一种力——物理学最浪漫的统一。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能推导第一宇宙速度并说明意义",
+        "能比较不同轨道卫星的速度周期"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么卫星越高绕得越慢？第一宇宙速度是怎么算出来的？宇航员在空间站为什么「漂浮」（失重≠不受重力）？",
+      "standards": [
+        "hsphysics-2017:H2.MC.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第七章 万有引力与宇宙航行",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_04",
+        "ct_wl_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_06",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "功的进阶：变力功与力的角度",
+      "description": "功 W=Flcosα（力与位移夹角参与计算）；正功负功的物理意义（动力/阻力）；总功=各力功的代数和。初中功的升级版：方向性进入功的计算。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能计算斜向上的拉力做功",
+        "能判断摩擦力做正功还是负功的场景"
+      ],
+      "assessmentPrompt": "问{{name}}：与水平成 37° 的 10 N 拉力拉物体走 2 m 做功多少？支持力对物体做功吗？摩擦力一定做负功吗？",
+      "standards": [
+        "hsphysics-2017:H2.EN.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八章 机械能守恒",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "动能定理与机械能守恒",
+      "description": "动能定理 W合=½mv²-½mv₀²（合力做的功=动能变化）；机械能守恒条件（只有重力/弹力做功）与表达式；验证机械能守恒实验。从功到能：物理学的第二套语言——不用追过程中每一步，只看始末状态。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用动能定理解斜面/抛体问题",
+        "能判断机械能是否守恒并应用守恒式"
+      ],
+      "assessmentPrompt": "问{{name}}：过山车从 A 点滑到 B 点（不计摩擦）用什么定律最快？自由落体 2 m 时速度多大（用能量解）？什么情况机械能不守恒？",
+      "standards": [
+        "hsphysics-2017:H2.EN.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八章 机械能守恒",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_06",
+        "ct_wl_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_08",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "能量视角的建立：守恒与转化",
+      "description": "功是能量转化的量度（W=ΔE）；能量守恒定律的普适性（摩擦生热 Q=fs相对）；功能关系的总图（重力功=重力势能变化、合力功=动能变化）。能的观点与力的观点双剑合璧——物理分析的两种范式从此并存。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用能量观点分析物体沿粗糙斜面下滑",
+        "能对同一问题分别用力和能量两种方法求解"
+      ],
+      "assessmentPrompt": "问{{name}}：物体滑下粗糙斜面，损失的机械能去哪了？用能量守恒算摩擦产热需要知道什么？",
+      "standards": [
+        "hsphysics-2017:H2.EN.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八章 机械能守恒",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_07",
+        "ct_wl_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_09",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "动量与冲量：Ft=mv′-mv",
+      "description": "动量 p=mv（矢量）、冲量 I=Ft；动量定理（解释安全气囊、缓冲）与动量守恒定律（系统不受外力或内力远大于外力）。碰撞问题从「力不好算」到「动量好算」——守恒思想的第一位使者。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用动量定理解释缓冲现象",
+        "能完成一维碰撞的动量守恒计算"
+      ],
+      "assessmentPrompt": "问{{name}}：安全气囊为什么能救人（同样动量变化延长时间）？两个滑冰者互推后速度比与质量比什么关系？",
+      "standards": [
+        "hsphysics-2017:H2.MC.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "选必一动量内容衔接",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_02",
+        "ct_wl_g10b_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g10b_10",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "实验：验证机械能守恒定律",
+      "description": "重物自由下落带纸带验证 ½v²=gh（选第 2 点起的数据、不必测重物质量）；误差分析（摩擦与空气阻力使动能增加略小于重力势能减少）。验证性实验的范式：原理—数据—结论—误差。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明为什么不需要测质量",
+        "能处理纸带数据并得出结论与误差方向"
+      ],
+      "assessmentPrompt": "问{{name}}：验证机械能守恒为什么不用测重物质量？算出的减小的势能总比增大的动能略大，原因可能是什么？",
+      "standards": [
+        "hsphysics-2017:H2.EN.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八章 实验",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_03",
+        "ct_wl_g10b_07"
       ]
     }
   ]

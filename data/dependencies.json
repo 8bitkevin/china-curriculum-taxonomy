@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.47.0",
+  "version": "1.48.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1881,
+  "edgeCount": 1898,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11289,6 +11289,108 @@
       "prerequisiteId": "ct_wl_g8b_18",
       "strength": "hard",
       "reason": "初中力与运动关系的观念清算是高中力学观的直接地基"
+    },
+    {
+      "topicId": "ct_wl_g10b_01",
+      "prerequisiteId": "ct_wl_g10a_09",
+      "strength": "hard",
+      "reason": "运动的合成分解与力的合成分解同为矢量运算"
+    },
+    {
+      "topicId": "ct_wl_g10b_02",
+      "prerequisiteId": "ct_wl_g10b_01",
+      "strength": "hard",
+      "reason": "平抛运动是曲线运动合成分解的典型模型"
+    },
+    {
+      "topicId": "ct_wl_g10b_02",
+      "prerequisiteId": "ct_wl_g10a_06",
+      "strength": "hard",
+      "reason": "平抛竖直分运动就是自由落体"
+    },
+    {
+      "topicId": "ct_wl_g10b_03",
+      "prerequisiteId": "ct_wl_g10b_01",
+      "strength": "hard",
+      "reason": "圆周运动的速度方向（切线）建立在曲线运动概念上"
+    },
+    {
+      "topicId": "ct_wl_g10b_04",
+      "prerequisiteId": "ct_wl_g10b_03",
+      "strength": "hard",
+      "reason": "向心力分析需要圆周运动学各量关系"
+    },
+    {
+      "topicId": "ct_wl_g10b_04",
+      "prerequisiteId": "ct_wl_g10a_12",
+      "strength": "hard",
+      "reason": "圆周动力学问题用牛顿第二定律（F=mv²/r）求解"
+    },
+    {
+      "topicId": "ct_wl_g10b_05",
+      "prerequisiteId": "ct_wl_g10b_04",
+      "strength": "hard",
+      "reason": "卫星问题=万有引力提供向心力的圆周模型"
+    },
+    {
+      "topicId": "ct_wl_g10b_05",
+      "prerequisiteId": "ct_wl_g8b_03",
+      "strength": "soft",
+      "reason": "万有引力是重力概念的天文扩展（重力=万有引力的分力）"
+    },
+    {
+      "topicId": "ct_wl_g10b_06",
+      "prerequisiteId": "ct_wl_g9a_01",
+      "strength": "hard",
+      "reason": "初中 W=Fs 升级为含夹角的 W=Flcosα"
+    },
+    {
+      "topicId": "ct_wl_g10b_07",
+      "prerequisiteId": "ct_wl_g10b_06",
+      "strength": "hard",
+      "reason": "动能定理与机械能守恒以功的计算为基础"
+    },
+    {
+      "topicId": "ct_wl_g10b_07",
+      "prerequisiteId": "ct_wl_g9a_03",
+      "strength": "hard",
+      "reason": "初中动能势能定性知识升级为定理与守恒的定量表达"
+    },
+    {
+      "topicId": "ct_wl_g10b_08",
+      "prerequisiteId": "ct_wl_g10b_07",
+      "strength": "hard",
+      "reason": "能量总图（功能关系）整合动能定理与守恒律"
+    },
+    {
+      "topicId": "ct_wl_g10b_08",
+      "prerequisiteId": "ct_wl_g9a_10",
+      "strength": "soft",
+      "reason": "初中能量守恒定律的普适性在力学中具体化"
+    },
+    {
+      "topicId": "ct_wl_g10b_09",
+      "prerequisiteId": "ct_wl_g10b_07",
+      "strength": "hard",
+      "reason": "动量定理与动能定理并称过程定律，功能互相印证"
+    },
+    {
+      "topicId": "ct_wl_g10b_09",
+      "prerequisiteId": "ct_wl_g10a_02",
+      "strength": "soft",
+      "reason": "动量与速度、冲量与加速度的变化率思维一脉相承"
+    },
+    {
+      "topicId": "ct_wl_g10b_10",
+      "prerequisiteId": "ct_wl_g10a_03",
+      "strength": "hard",
+      "reason": "纸带处理技能直接迁移到验证机械能守恒实验"
+    },
+    {
+      "topicId": "ct_wl_g10b_10",
+      "prerequisiteId": "ct_wl_g10b_07",
+      "strength": "hard",
+      "reason": "验证实验的原理即机械能守恒定律"
     }
   ]
 }
