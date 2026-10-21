@@ -1,10 +1,10 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.24.0",
+  "version": "1.25.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 1031,
-    "dependencies": 1510,
+    "topics": 1043,
+    "dependencies": 1524,
     "standards": 346,
     "deprecated": 0,
     "byGrade": {
@@ -13,7 +13,7 @@
       "2年级上": 46,
       "2年级下": 41,
       "3年级上": 71,
-      "3年级下": 52,
+      "3年级下": 64,
       "4年级上": 54,
       "4年级下": 54,
       "5年级上": 50,
@@ -57,6 +57,7 @@
     "textbookSeries": [
       "人教A版·2019 年版",
       "人教版·2012 年版",
+      "人教版·2013 年版",
       "人教版·2022 年版",
       "统编版·2016 年版",
       "统编版·2017 年版",
@@ -68,12 +69,12 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1160932,
-      "sha256": "6f5b922013f0cbcadfa9314d9263aab2da5b5bbe85cc1aef12c413f928f9b57f"
+      "bytes": 1174099,
+      "sha256": "f26f53a91d3aceeaa0c94abbb902d9c839811debbd83bbd9b5fd01ba853bb64a"
     },
     "dependencies.json": {
-      "bytes": 293498,
-      "sha256": "0c0b7d1a398b7e58af53a0aced40e4c110211625409e94d97f56b17b6115ac6b"
+      "bytes": 296094,
+      "sha256": "df8fb20acec1fc25a3f4d502c4cb17fe46159c62e1e128817463ac1ddaeba895"
     },
     "curriculum-standards.json": {
       "bytes": 80738,

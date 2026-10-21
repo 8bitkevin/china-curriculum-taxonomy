@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.24.0",
+  "version": "1.25.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1031,
+  "topicCount": 1043,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -31883,6 +31883,378 @@
       "prerequisites": [
         "ct_yy_g3a_06",
         "ct_yy_g3a_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "国家名与 I'm from... 表达",
+      "description": "掌握国家名（China、the UK、Canada、the USA、Australia）和来源句型 I'm from China. Where are you from? 介绍自己从「叫什么」进阶到「来自哪」——世界第一次进入英语课。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能听认五个国家名并对上国旗",
+        "能用 Where are you from? I'm from... 完整问答"
+      ],
+      "assessmentPrompt": "拿五面国旗卡片问{{name}}：Where are you from?（指英国旗）看能否答 I'm from the UK.",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 1 Welcome back to school!",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "家庭成员与 Who's that...?",
+      "description": "掌握家庭称谓词（father、mother、brother、sister、grandfather、grandmother）和指认句型 Who's that man? He's my father. She's my mother.——he/she 的男女区分第一次上手。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能指着全家福介绍六位家人",
+        "能根据性别正确用 he/she 指人"
+      ],
+      "assessmentPrompt": "请{{name}}拿全家福用 This is... / He's... / She's... 介绍家人；故意指着叔叔问 Is she your mother? 看会不会纠正。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 2 My family",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "形容词描述：It's so tall!",
+      "description": "用形容词描述事物特征（tall、short、fat、thin、big、small、long）并学会 so 的强调（It's so tall!）。英语的「形容」结构：be + 形容词——描述世界的第一批颜料。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能配对六组反义形容词",
+        "能用 Look at the...! It's so... 描述动物"
+      ],
+      "assessmentPrompt": "看长颈鹿图片问{{name}}：Look at the giraffe! 引导说 It's so tall!；再找矮胖的东西说反义句。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 3 At the zoo",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "方位介词与 Where is...? / Is it...?",
+      "description": "掌握 in/on/under 三个方位介词和找东西句型：Where is my car? Is it in your bag? — No, it isn't. / Yes, it is. 一般疑问句的升降调回答第一次成套训练——找不到东西也是英语课。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能按指令把东西放在正确位置（in/on/under）",
+        "能用 Is it...? 猜三次并正确应答"
+      ],
+      "assessmentPrompt": "把{{name}}的橡皮藏在铅笔盒下，问 Where is my eraser? 引导用 Is it under...? 猜；猜对后角色互换。",
+      "standards": [
+        "csenglish-2022:S2.GR.02",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 4 Where is my car?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_06",
+        "ct_yy_g3a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "Do you like...? 一般疑问句",
+      "description": "掌握水果词（apple、pear、orange、banana、watermelon、grape）和喜好问答 Do you like pears? — Yes, I do. / No, I don't. I like.... 从陈述喜好（I like...）到询问他人——对话的来往感建立了。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能就六种水果做喜欢/不喜欢问答",
+        "回答否定后会补一句 I like..."
+      ],
+      "assessmentPrompt": "拿水果卡片逐个问{{name}}：Do you like apples? 要求用完整句回答；最后请{{name}}当采访者问你。",
+      "standards": [
+        "csenglish-2022:S2.GR.03",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 5 Do you like pears?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "数字 11–20 与 How many...?",
+      "description": "在三上 1–10 的基础上掌握 11–20（eleven 到 twenty，注意 thirteen/fifteen 的变形）和数量问答 How many... do you see? / How many... do you have? 数数从此可以数到 20。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能从 1 流利数到 20",
+        "能看图回答 How many kites do you see?"
+      ],
+      "assessmentPrompt": "抓一把扣子请{{name}}数：How many buttons do you have? 听数到 20 的发音（thirteen 的 th）。",
+      "standards": [
+        "csenglish-2022:S2.GR.04",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 6 How many?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_07",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "Let's spell：五个短元音的 CVC 拼读",
+      "description": "系统学 a/e/i/o/u 的短音和辅音相拼（cat、bag、pig、dog、cup）——自然拼读规则化：换首字母家族读（-at: cat fat hat bat）。见词能拼、听音能写，自主认词的引擎点火。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能拼读 CVC 单音节词 20 个以上",
+        "听写 -at/-an 家族单词正确率 80%"
+      ],
+      "assessmentPrompt": "写 mat、hat、cat、bat 四词请{{name}}朗读，再听写新词 fat——看拼读规则能否迁移。",
+      "standards": [
+        "csenglish-2022:S2.PH.02",
+        "csenglish-2022:S3.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "各单元 Let's spell",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "歌谣说唱：节奏里的语感",
+      "description": "学说唱（chant）和歌谣：押韵词组、节奏拍手（One little, two little, three little candles）。韵律是语感的摇篮——不知不觉记住了句型和连读。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能跟节奏说唱两首课本 chant",
+        "能感知押韵词（cat/fat）"
+      ],
+      "assessmentPrompt": "放 Unit 6 的数数歌，和{{name}}拍手跟唱；唱完问：哪些词是押韵的？",
+      "standards": [
+        "csenglish-2022:S2.RD.02",
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "各单元 Let's chant / Sing",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "Recycle：情境综合问答",
+      "description": "Recycle 1/2 把前六个单元的句型放进大情境综合运用（逛动物园问动物、找东西、水果派对）。语言从单课句型变成「能连着说的几句话」——对话能力初成。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能在一个情境里连续完成三组以上问答",
+        "句型混用不错乱（like 与 be 动词）"
+      ],
+      "assessmentPrompt": "布三个任务给{{name}}：①介绍玩具动物 ②问藏起来的尺子在哪 ③调查家人喜欢的水果——全程英语。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Recycle 1 & 2",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3b_04",
+        "ct_yy_g3b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "句子抄写进阶：句号与问号",
+      "description": "抄写陈述句和疑问句：句首大写、词距均匀、句号句点（.）与问号（?）分清。问号的抄写对应朗读的升调——写和读第一次互相印证。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "抄写五句混合句式标点全对",
+        "能根据标点用正确语调朗读"
+      ],
+      "assessmentPrompt": "请{{name}}抄写 Do you like bananas? 和 I like apples. 两句，检查问号句点；再朗读听语调是否一升一降。",
+      "standards": [
+        "csenglish-2022:S2.WR.01",
+        "csenglish-2022:S3.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "各单元书写练习",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_11",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化角：儿童节与家庭文化",
+      "description": "了解英语国家的家庭称呼习惯（grandma/grandpa 的口语化）与儿童节（Children's Day）等节日表达。文化意识低段目标：知道「他们和我们一样又不一样」。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说 Happy Children's Day!",
+        "知道 grandma 与 grandmother 的关系"
+      ],
+      "assessmentPrompt": "儿童节早上互相说 Happy Children's Day!；问{{name}}：grandma 和 grandmother 有什么不一样？",
+      "standards": [
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "文化角与节日",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_14"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "三下词汇自查：累计约 140 词",
+      "description": "三年级收官：累计认读约 140 词（国家、家庭、动物、水果、数字、方位），句型问答能脱本进行。自查方式升级：图卡 + 情境任务双轨。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "图卡认词正确率 85% 以上",
+        "能不看课本完成三组情境问答"
+      ],
+      "assessmentPrompt": "用图卡抽 20 词 + 口头三个任务（介绍家庭/找东西/问喜好）给{{name}}打分。",
+      "standards": [
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_15"
       ]
     }
   ]

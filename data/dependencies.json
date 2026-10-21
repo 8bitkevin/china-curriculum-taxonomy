@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.24.0",
+  "version": "1.25.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1510,
+  "edgeCount": 1524,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9063,6 +9063,90 @@
       "prerequisiteId": "ct_yy_g3a_08",
       "strength": "soft",
       "reason": "数字与问答是学期词汇句型的收官部分"
+    },
+    {
+      "topicId": "ct_yy_g3b_01",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "hard",
+      "reason": "I'm from... 是 I'm... 自我介绍句型的扩展"
+    },
+    {
+      "topicId": "ct_yy_g3b_02",
+      "prerequisiteId": "ct_yy_g3b_01",
+      "strength": "soft",
+      "reason": "同册口语线：从介绍来源到介绍家人"
+    },
+    {
+      "topicId": "ct_yy_g3b_03",
+      "prerequisiteId": "ct_yy_g3a_06",
+      "strength": "hard",
+      "reason": "描述动物特征依托 What's this 的动物词与句框架"
+    },
+    {
+      "topicId": "ct_yy_g3b_04",
+      "prerequisiteId": "ct_yy_g3a_06",
+      "strength": "hard",
+      "reason": "Is it...? 一般疑问句沿用 It's a... 的指认框架并加方位"
+    },
+    {
+      "topicId": "ct_yy_g3b_04",
+      "prerequisiteId": "ct_yy_g3a_09",
+      "strength": "soft",
+      "reason": "听指令做动作的 in/on/under 空间经验直接支撑"
+    },
+    {
+      "topicId": "ct_yy_g3b_05",
+      "prerequisiteId": "ct_yy_g3a_07",
+      "strength": "hard",
+      "reason": "Do you like...? 把 I like... 升级为问答交互"
+    },
+    {
+      "topicId": "ct_yy_g3b_06",
+      "prerequisiteId": "ct_yy_g3a_08",
+      "strength": "hard",
+      "reason": "11–20 在 1–10 基础上扩展并新增 have/see 问法"
+    },
+    {
+      "topicId": "ct_yy_g3b_07",
+      "prerequisiteId": "ct_yy_g3a_02",
+      "strength": "hard",
+      "reason": "字母音感知升级为五短元音的 CVC 系统拼读"
+    },
+    {
+      "topicId": "ct_yy_g3b_08",
+      "prerequisiteId": "ct_yy_g3a_11",
+      "strength": "soft",
+      "reason": "朗读表演的节奏感在歌谣说唱中强化"
+    },
+    {
+      "topicId": "ct_yy_g3b_09",
+      "prerequisiteId": "ct_yy_g3b_05",
+      "strength": "hard",
+      "reason": "Recycle 综合问答以各单元句型（含 Do you like）为材料"
+    },
+    {
+      "topicId": "ct_yy_g3b_09",
+      "prerequisiteId": "ct_yy_g3b_04",
+      "strength": "hard",
+      "reason": "找东西情境综合运用 Where is / Is it 句型"
+    },
+    {
+      "topicId": "ct_yy_g3b_10",
+      "prerequisiteId": "ct_yy_g3a_12",
+      "strength": "hard",
+      "reason": "单词抄写规范升级为句子抄写与标点意识"
+    },
+    {
+      "topicId": "ct_yy_g3b_11",
+      "prerequisiteId": "ct_yy_g3a_14",
+      "strength": "hard",
+      "reason": "姓名文化之后接触节日文化与称谓习惯"
+    },
+    {
+      "topicId": "ct_yy_g3b_12",
+      "prerequisiteId": "ct_yy_g3a_15",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（70→140）"
     }
   ]
 }
