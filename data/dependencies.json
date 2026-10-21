@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.15.0",
+  "version": "1.16.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1356,
+  "edgeCount": 1380,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8139,6 +8139,150 @@
       "prerequisiteId": "ct_yw_g7b_21",
       "strength": "hard",
       "reason": "字词与常识自查跨册延续，文言体量扩容"
+    },
+    {
+      "topicId": "ct_yw_g8b_01",
+      "prerequisiteId": "ct_yw_g7b_11",
+      "strength": "hard",
+      "reason": "小人物叙事（七下）的人情视角扩展为民俗单元的风土视角"
+    },
+    {
+      "topicId": "ct_yw_g8b_01",
+      "prerequisiteId": "ct_yw_g6a_07",
+      "strength": "soft",
+      "reason": "鲁迅作品阅读线（六上少年闰土→七上从百草园→八下社戏）继续延伸"
+    },
+    {
+      "topicId": "ct_yw_g8b_02",
+      "prerequisiteId": "ct_yw_g7a_02",
+      "strength": "hard",
+      "reason": "修辞赏析的术语积累为仿写提供了模仿对象与分析语言"
+    },
+    {
+      "topicId": "ct_yw_g8b_03",
+      "prerequisiteId": "ct_yw_g8a_09",
+      "strength": "hard",
+      "reason": "事物说明文（是什么）之后学事理说明文（为什么），逻辑链意识升级"
+    },
+    {
+      "topicId": "ct_yw_g8b_03",
+      "prerequisiteId": "ct_yw_g4b_03",
+      "strength": "soft",
+      "reason": "琥珀一课『推测要有据』正是事理说明文的思维内核"
+    },
+    {
+      "topicId": "ct_yw_g8b_04",
+      "prerequisiteId": "ct_yw_g8a_10",
+      "strength": "hard",
+      "reason": "说明文写作两大支柱：抓特征（八上）+排顺序（八下）"
+    },
+    {
+      "topicId": "ct_yw_g8b_05",
+      "prerequisiteId": "ct_yw_g7b_09",
+      "strength": "hard",
+      "reason": "文言阅读链：从唐人铭说到晋人桃花源，叙事文言的篇幅与意蕴升级"
+    },
+    {
+      "topicId": "ct_yw_g8b_06",
+      "prerequisiteId": "ct_yw_g8a_05",
+      "strength": "hard",
+      "reason": "山水文言（三峡）的写景经验迁移到小石潭记的移步换景"
+    },
+    {
+      "topicId": "ct_yw_g8b_06",
+      "prerequisiteId": "ct_yw_g8a_09",
+      "strength": "soft",
+      "reason": "核舟记的说明顺序与说明文阅读的顺序知识同构"
+    },
+    {
+      "topicId": "ct_yw_g8b_07",
+      "prerequisiteId": "ct_yw_g8a_06",
+      "strength": "hard",
+      "reason": "唐诗格律意识之后上溯《诗经》源头：比兴与重章叠句"
+    },
+    {
+      "topicId": "ct_yw_g8b_08",
+      "prerequisiteId": "ct_yw_g6a_15",
+      "strength": "hard",
+      "reason": "小学演讲实践（六上）的文本阅读面：演讲词的针对性与鼓动性分析"
+    },
+    {
+      "topicId": "ct_yw_g8b_09",
+      "prerequisiteId": "ct_yw_g8b_08",
+      "strength": "hard",
+      "reason": "活动探究单元读写一体：读演讲词再写再讲"
+    },
+    {
+      "topicId": "ct_yw_g8b_09",
+      "prerequisiteId": "ct_yw_g6a_15",
+      "strength": "soft",
+      "reason": "登台台风的早期经验支撑八下正式演讲比赛"
+    },
+    {
+      "topicId": "ct_yw_g8b_10",
+      "prerequisiteId": "ct_yw_g4b_06",
+      "strength": "hard",
+      "reason": "小学按游览顺序写游记升级为所至所见所感三要素的文体框架"
+    },
+    {
+      "topicId": "ct_yw_g8b_10",
+      "prerequisiteId": "ct_yw_g8a_14",
+      "strength": "soft",
+      "reason": "景物描写的方法（特征+顺序+感官）供游记的所见描写调用"
+    },
+    {
+      "topicId": "ct_yw_g8b_11",
+      "prerequisiteId": "ct_yw_g8b_10",
+      "strength": "hard",
+      "reason": "游记读写一体：三要素框架直接指导写作"
+    },
+    {
+      "topicId": "ct_yw_g8b_12",
+      "prerequisiteId": "ct_yw_g8a_11",
+      "strength": "hard",
+      "reason": "孟子雄辩（八上）之后读庄子寓言与韩愈托物：说理文风的多维拓展"
+    },
+    {
+      "topicId": "ct_yw_g8b_13",
+      "prerequisiteId": "ct_yw_g6a_11",
+      "strength": "hard",
+      "reason": "小学虚构故事写作的初中进阶：合理性+曲折度双标准"
+    },
+    {
+      "topicId": "ct_yw_g8b_14",
+      "prerequisiteId": "ct_yw_g7a_07",
+      "strength": "hard",
+      "reason": "精读跳读方法论之后的第二种策略：目的驱动的选择性阅读"
+    },
+    {
+      "topicId": "ct_yw_g8b_15",
+      "prerequisiteId": "ct_yw_g7b_17",
+      "strength": "hard",
+      "reason": "整本小说阅读方法（圈点批注）迁移到保尔的成长线梳理"
+    },
+    {
+      "topicId": "ct_yw_g8b_16",
+      "prerequisiteId": "ct_yw_g8a_19",
+      "strength": "hard",
+      "reason": "综合学习流程复用，新增数据调查与公约协商形态"
+    },
+    {
+      "topicId": "ct_yw_g8b_16",
+      "prerequisiteId": "ct_yw_g6a_12",
+      "strength": "soft",
+      "reason": "倡议书写作（六上）在低碳主题中实战复用"
+    },
+    {
+      "topicId": "ct_yw_g8b_17",
+      "prerequisiteId": "ct_yw_g8a_20",
+      "strength": "hard",
+      "reason": "课外古诗词诵读线跨册延续，新增赠答诗功能视角"
+    },
+    {
+      "topicId": "ct_yw_g8b_18",
+      "prerequisiteId": "ct_yw_g8a_21",
+      "strength": "hard",
+      "reason": "字词与常识自查跨册延续，古诗文比重上升"
     }
   ]
 }
