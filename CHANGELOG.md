@@ -8,6 +8,15 @@
 
 ## [Unreleased]
 
+### M3 + M4 完成：小学数学 3–6 年级全线入库（2026-10-21）
+
+- **8 册 227 个微主题 + 403 条先修边**（三上 32 / 三下 28 / 四上 30 / 四下 31 / 五上 26 / 五下 26 / 六上 27 / 六下 27），累计 **310 主题 / 511 边**，v0.10.0
+- **课标全量补齐**：csmath-2022 补 S2/S3/S4 共 98 条、新增普通高中课标 hsmath-2017（H{册} 前缀，stage=5）54 条，课标条目累计 180，codes-only 不变量保持
+- **schema 演进**（非破坏性）：`stage` 上限 4→5；`textbook` 增加可选 `book` 字段（高中册名）；validate 增加高中 book 受控校验
+- **新增批次工具** `scripts/apply-batch.mjs`：片段合并 → manifest 重建 → validate 一键落库（D-008 流程机械化）
+- 版次拍板（D-014）：小学 3–6 年级 editionYear=2022（2022 年 8 月第 2 版）；初中=2012、高中=2019 待后续批次落地，见 [docs/DATA-BACKFILL-PLAN.md](docs/DATA-BACKFILL-PLAN.md)
+- 机器校验全绿（孤岛 0 / assessmentPrompt 100% / 课标引用 100% / 倒挂 0）；人工抽读复核待办（CONTRIBUTING 复核约定）
+
 ### 重写：「3D 全景」升级为 three.js WebGL 渲染（决策 D-013）
 
 对标 [withmarble.com/curriculum](https://withmarble.com/curriculum/) 的深空星系观感（其页面源码不开源，仓库仅开放数据；本实现为原创代码复刻其视觉范式）：
