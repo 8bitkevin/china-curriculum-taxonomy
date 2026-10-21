@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.18.0",
+  "version": "0.19.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 848,
+  "edgeCount": 881,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5091,6 +5091,204 @@
       "prerequisiteId": "ct_g10b_18",
       "strength": "hard",
       "reason": "随机模拟以独立性与频率估计概率为理论支撑"
+    },
+    {
+      "topicId": "ct_g11a_01",
+      "prerequisiteId": "ct_g10b_01",
+      "strength": "hard",
+      "reason": "空间向量运算法则由平面向量直接扩展"
+    },
+    {
+      "topicId": "ct_g11a_01",
+      "prerequisiteId": "ct_g10b_08",
+      "strength": "soft",
+      "reason": "空间位置关系（异面等）为空间向量提供几何背景"
+    },
+    {
+      "topicId": "ct_g11a_02",
+      "prerequisiteId": "ct_g11a_01",
+      "strength": "hard",
+      "reason": "坐标表示与数量积在空间向量概念上建立"
+    },
+    {
+      "topicId": "ct_g11a_02",
+      "prerequisiteId": "ct_g10b_03",
+      "strength": "hard",
+      "reason": "空间数量积是平面数量积的三维推广"
+    },
+    {
+      "topicId": "ct_g11a_03",
+      "prerequisiteId": "ct_g11a_02",
+      "strength": "hard",
+      "reason": "基底表示是坐标表示的一般形式（正交基底的特例即坐标）"
+    },
+    {
+      "topicId": "ct_g11a_04",
+      "prerequisiteId": "ct_g11a_03",
+      "strength": "hard",
+      "reason": "判定平行垂直以建系与坐标表示为操作前提"
+    },
+    {
+      "topicId": "ct_g11a_04",
+      "prerequisiteId": "ct_g10b_09",
+      "strength": "soft",
+      "reason": "与必修几何法对照，同一结论两种证法"
+    },
+    {
+      "topicId": "ct_g11a_04",
+      "prerequisiteId": "ct_g10b_10",
+      "strength": "hard",
+      "reason": "向量判定把必修的垂直平行证明代数化"
+    },
+    {
+      "topicId": "ct_g11a_05",
+      "prerequisiteId": "ct_g11a_04",
+      "strength": "hard",
+      "reason": "距离与空间角计算在平行垂直向量化的基础上展开（法向量法）"
+    },
+    {
+      "topicId": "ct_g11a_06",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "hard",
+      "reason": "倾斜角与斜率在坐标系中定义"
+    },
+    {
+      "topicId": "ct_g11a_06",
+      "prerequisiteId": "ct_g10a_20",
+      "strength": "soft",
+      "reason": "k=tanα 直接使用任意角三角函数"
+    },
+    {
+      "topicId": "ct_g11a_07",
+      "prerequisiteId": "ct_g11a_06",
+      "strength": "hard",
+      "reason": "各形式方程由斜率与定点条件导出"
+    },
+    {
+      "topicId": "ct_g11a_07",
+      "prerequisiteId": "ct_g8b_18",
+      "strength": "soft",
+      "reason": "待定系数法求方程参数沿用初中经验"
+    },
+    {
+      "topicId": "ct_g11a_08",
+      "prerequisiteId": "ct_g11a_07",
+      "strength": "hard",
+      "reason": "位置关系与距离以直线方程为代数对象"
+    },
+    {
+      "topicId": "ct_g11a_08",
+      "prerequisiteId": "ct_g7b_04",
+      "strength": "soft",
+      "reason": "平行垂直的判定与平面几何经验一致（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11a_09",
+      "prerequisiteId": "ct_g11a_07",
+      "strength": "hard",
+      "reason": "圆方程的求取用直线方程工具（弦心距、切线）"
+    },
+    {
+      "topicId": "ct_g11a_09",
+      "prerequisiteId": "ct_g9a_16",
+      "strength": "soft",
+      "reason": "圆的集合定义（到定点等距）沿用初中圆概念"
+    },
+    {
+      "topicId": "ct_g11a_10",
+      "prerequisiteId": "ct_g11a_09",
+      "strength": "hard",
+      "reason": "位置关系讨论以圆方程与点到线距离为工具"
+    },
+    {
+      "topicId": "ct_g11a_10",
+      "prerequisiteId": "ct_g9a_19",
+      "strength": "hard",
+      "reason": "d 与 r 判定相切相交沿用初中结论，坐标化实现计算（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11a_11",
+      "prerequisiteId": "ct_g11a_10",
+      "strength": "hard",
+      "reason": "圆圆位置与公共弦问题综合直线与圆的全部工具"
+    },
+    {
+      "topicId": "ct_g11a_12",
+      "prerequisiteId": "ct_g11a_08",
+      "strength": "hard",
+      "reason": "标准方程推导用到两点距离公式（根式化简）"
+    },
+    {
+      "topicId": "ct_g11a_12",
+      "prerequisiteId": "ct_g9b_08",
+      "strength": "soft",
+      "reason": "距离之和的定义与相似测量中『距离关系定轨迹』的思想相通"
+    },
+    {
+      "topicId": "ct_g11a_13",
+      "prerequisiteId": "ct_g11a_12",
+      "strength": "hard",
+      "reason": "几何性质从标准方程中读出"
+    },
+    {
+      "topicId": "ct_g11a_14",
+      "prerequisiteId": "ct_g11a_13",
+      "strength": "hard",
+      "reason": "双曲线与椭圆对照定义学习（和→差）"
+    },
+    {
+      "topicId": "ct_g11a_15",
+      "prerequisiteId": "ct_g11a_14",
+      "strength": "hard",
+      "reason": "渐近线与离心率从标准方程分析得出"
+    },
+    {
+      "topicId": "ct_g11a_16",
+      "prerequisiteId": "ct_g11a_15",
+      "strength": "hard",
+      "reason": "抛物线与椭圆双曲线并列，按离心率 e=1 补全家族"
+    },
+    {
+      "topicId": "ct_g11a_16",
+      "prerequisiteId": "ct_g9a_08",
+      "strength": "hard",
+      "reason": "二次函数图象就是抛物线（跨学段衔接：初中抛物线→圆锥曲线身份）"
+    },
+    {
+      "topicId": "ct_g11a_17",
+      "prerequisiteId": "ct_g11a_16",
+      "strength": "hard",
+      "reason": "焦点弦与光学性质是定义（到焦点=到准线）的应用"
+    },
+    {
+      "topicId": "ct_g11a_18",
+      "prerequisiteId": "ct_g11a_17",
+      "strength": "hard",
+      "reason": "弦长中点问题对三类曲线通用，以抛物线性质为最近所学"
+    },
+    {
+      "topicId": "ct_g11a_18",
+      "prerequisiteId": "ct_g9a_05",
+      "strength": "hard",
+      "reason": "韦达定理（x₁+x₂、x₁x₂）是弦长计算的核心工具（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g11a_19",
+      "prerequisiteId": "ct_g11a_18",
+      "strength": "hard",
+      "reason": "综合题在弦长中点范式上叠加参数讨论与最值"
+    },
+    {
+      "topicId": "ct_g11a_20",
+      "prerequisiteId": "ct_g11a_19",
+      "strength": "hard",
+      "reason": "思想总结提炼自本册解析几何全部实践"
+    },
+    {
+      "topicId": "ct_g11a_20",
+      "prerequisiteId": "ct_g7b_13",
+      "strength": "soft",
+      "reason": "用坐标表示规律的初中萌芽（规律→坐标→方程）一脉相承"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.18.0",
+  "version": "0.19.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 508,
+  "topicCount": 528,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -15663,6 +15663,639 @@
       },
       "prerequisites": [
         "ct_g10b_18"
+      ]
+    },
+    {
+      "id": "ct_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "空间向量的概念与线性运算",
+      "description": "平面向量搬进三维：空间向量有大小、方向，加减速乘法则不变。「向量从二维到三维零成本迁移」——这正是向量方法的威力：维度升高，运算如常。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能在立体图形中标出向量并作线性运算",
+        "能判断空间向量共线与共面"
+      ],
+      "assessmentPrompt": "问{{name}}：「平行六面体中 AB+AD+AA′ 表示哪条向量？向量方法到空间为什么不用改规则？」",
+      "standards": [
+        "hsmath-2017:H3.GA.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10b_01",
+        "ct_g10b_08"
+      ]
+    },
+    {
+      "id": "ct_g11a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "空间向量的数量积与坐标表示",
+      "description": "a=(x,y,z)：三个坐标写定空间向量。数量积 a·b=|a||b|cosθ=x₁x₂+y₁y₂+z₁z₂。模、夹角、垂直判定全部坐标化——立体几何从此「可计算」。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能进行空间向量的坐标运算",
+        "能用数量积求模与夹角、判垂直"
+      ],
+      "assessmentPrompt": "问{{name}}：「a=(1,0,2)、b=(0,1,1)，a·b 是多少？夹角余弦是多少？怎么判断它们垂直？」",
+      "standards": [
+        "hsmath-2017:H3.GA.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10b_03",
+        "ct_g11a_01"
+      ]
+    },
+    {
+      "id": "ct_g11a_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "空间向量基本定理（基底与正交分解）",
+      "description": "任意空间向量可由三个不共面向量唯一表示：p=xa+yb+zc——基底是空间的「坐标架」。建系（右手系）就是选正交基底，立体几何问题的第一步棋。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用给定基底表示向量",
+        "能在几何体中恰当建立空间直角坐标系"
+      ],
+      "assessmentPrompt": "问{{name}}：「正方体中以 A 为原点建系，体对角线向量 AC′ 的坐标是什么？基底要满足什么条件？」",
+      "standards": [
+        "hsmath-2017:H3.GA.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_g11a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用空间向量研究平行与垂直",
+      "description": "线线平行 a=λb；线面平行 a⊥n（n 是法向量）；面面平行 n₁=λn₂——垂直平行全家桶一网打尽。必修的综合推理变成「算」：建系—写坐标—代公式，立体几何的代数解法。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用向量判定并证明平行垂直关系",
+        "会求平面法向量"
+      ],
+      "assessmentPrompt": "问{{name}}：「怎么用向量证明线面平行？法向量怎么求？和必修的几何证法比，向量法好在哪？」",
+      "standards": [
+        "hsmath-2017:H3.GA.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10b_09",
+        "ct_g10b_10",
+        "ct_g11a_03"
+      ]
+    },
+    {
+      "id": "ct_g11a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用空间向量求距离与空间角",
+      "description": "点到面的距离 d=|AP·n|/|n|；异面直线角、线面角、二面角全由向量夹角公式算出（注意「角与夹角」的等与补）。三大空间角一键求解——立体几何计算的完全体。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用投影公式求点面距离",
+        "能求三种空间角并说明与向量夹角的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「二面角和两法向量的夹角什么时候相等什么时候互补？线面角与 sin 有什么关系？」",
+      "standards": [
+        "hsmath-2017:H3.GA.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_04"
+      ]
+    },
+    {
+      "id": "ct_g11a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直线的倾斜角、斜率与方向向量",
+      "description": "x 轴正向与直线向上的夹角是倾斜角（0≤α<π）；k=tanα 是斜率。倾斜角垂直时斜率不存在——「图形的角度」与「代数的比值」互相翻译的开端。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能由倾斜角求斜率、由两点求斜率",
+        "知道斜率不存在与倾斜角 90° 对应"
+      ],
+      "assessmentPrompt": "问{{name}}：「过 (1,2)、(3,6) 的直线斜率是多少？倾斜角呢？什么情况下斜率不存在？」",
+      "standards": [
+        "hsmath-2017:H3.GA.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_20",
+        "ct_g7b_12"
+      ]
+    },
+    {
+      "id": "ct_g11a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直线的方程（点斜式、斜截式、两点式、一般式）",
+      "description": "y-y₀=k(x-x₀) 点斜式是母体：知斜率与一点即可成式；一般式 Ax+By+C=0 统一江湖。直线方程 = 把「点动成线」写成 x,y 的约束条件——解析几何的开门第一课。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能根据条件选形式求直线方程",
+        "能进行各形式互化并处理斜率缺失情形"
+      ],
+      "assessmentPrompt": "问{{name}}：「过点 (2,1) 斜率 -3 的直线方程？过 (1,2)、(3,2) 的直线用哪个形式最快？」",
+      "standards": [
+        "hsmath-2017:H3.GA.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_06",
+        "ct_g8b_18"
+      ]
+    },
+    {
+      "id": "ct_g11a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "两条直线的位置关系与距离公式",
+      "description": "平行 k₁=k₂ 且截距不等；垂直 k₁k₂=-1。点到直线距离 d=|Ax₀+By₀+C|/√(A²+B²)，两平行线间距离分母同模。解析几何的「判定+度量」工具箱配齐。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判定平行垂直并求交点",
+        "能求点到线及两平行线间距离"
+      ],
+      "assessmentPrompt": "问{{name}}：「x+2y-1=0 与 2x+4y+3=0 什么关系？距离是多少？垂直的条件用斜率怎么说？」",
+      "standards": [
+        "hsmath-2017:H3.GA.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_07",
+        "ct_g7b_04"
+      ]
+    },
+    {
+      "id": "ct_g11a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的方程（标准式与一般式）",
+      "description": "(x-a)²+(y-b)²=r² 标准式一眼定圆心半径；x²+y²+Dx+Ey+F=0 一般式方便代数处理（D²+E²-4F>0）。圆是「到定点距离等于定长的点集」——轨迹思想的第一次全功率输出。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求圆的方程（待定系数与几何法）",
+        "能处理点圆、共圆条件"
+      ],
+      "assessmentPrompt": "问{{name}}：「过三点求圆用标准式还是一般式？圆心 (1,-2) 半径 3 的方程怎么写？」",
+      "standards": [
+        "hsmath-2017:H3.GA.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_07",
+        "ct_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_g11a_10",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直线与圆的位置关系",
+      "description": "d 与 r 比大小（几何法）或判别式（代数法）：相离、相切、相交。切线求法：设点—垂直—解方程；弦长公式 2√(r²-d²)。初中「d 与 r」的判定在坐标系中重演且可算。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用两种方法判断位置关系并求弦长",
+        "能求圆的切线方程"
+      ],
+      "assessmentPrompt": "问{{name}}：「直线 y=x+1 与圆 x²+y²=4 有几个交点？弦长多少？两种方法各怎么做？」",
+      "standards": [
+        "hsmath-2017:H3.GA.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_09",
+        "ct_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_g11a_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆与圆的位置关系及直线与圆的综合应用",
+      "description": "两圆圆心距与半径和差比大小：外离、外切、相交、内切、内含。联立方程公共弦、对称与轨迹问题——直线与圆的综合是解析几何方法的操练场。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断圆与圆位置关系并求公共弦方程",
+        "能解决对称、最值等综合问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²+y²=4 与 (x-3)²+y²=9 什么关系？公共弦所在直线方程怎么求？」",
+      "standards": [
+        "hsmath-2017:H3.GA.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_10"
+      ]
+    },
+    {
+      "id": "ct_g11a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "椭圆的定义与标准方程",
+      "description": "到两定点距离之和等于常数（大于两定点距离）的轨迹是椭圆：|MF₁|+|MF₂|=2a。焦点在 x 轴：x²/a²+y²/b²=1（a>b>0，b²=a²-c²）。绳圈钉子画椭圆——定义即画法。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能由定义推导标准方程（两次平方化简）",
+        "能求椭圆方程并识别焦点位置"
+      ],
+      "assessmentPrompt": "问{{name}}：「到 F₁(-2,0)、F₂(2,0) 距离和为 6 的轨迹方程？a、b、c 各是多少？怎么来的？」",
+      "standards": [
+        "hsmath-2017:H3.GA.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_08",
+        "ct_g9b_08"
+      ]
+    },
+    {
+      "id": "ct_g11a_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "椭圆的几何性质",
+      "description": "范围（|x|≤a）、对称性、顶点、离心率 e=c/a（0<e<1，越圆越接近 0）。离心率刻画「扁」的程度——行星轨道的偏心率正是它。几何性质是方程的「图象学翻译」。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能由方程说出椭圆全部几何性质",
+        "能由几何条件求离心率"
+      ],
+      "assessmentPrompt": "问{{name}}：「椭圆 x²/25+y²/16=1 的长轴短轴离心率各是多少？e=0.5 与 e=0.9 哪个更扁？」",
+      "standards": [
+        "hsmath-2017:H3.GA.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_12"
+      ]
+    },
+    {
+      "id": "ct_g11a_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "双曲线的定义与标准方程",
+      "description": "距离之差的绝对值为常数（小于两定点距离且不为 0）：||MF₁|-|MF₂||=2a。x²/a²-y²/b²=1，b²=c²-a²——注意与椭圆的 b² 关系相反！反比例函数的图象其实是双曲线的亲戚。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能由条件求双曲线方程",
+        "能区分与椭圆定义中 2a、b² 的差异"
+      ],
+      "assessmentPrompt": "问{{name}}：「到两定点距离差为 4（焦点距 10）的轨迹方程？a、b、c 关系与椭圆有何不同？」",
+      "standards": [
+        "hsmath-2017:H3.GA.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_13"
+      ]
+    },
+    {
+      "id": "ct_g11a_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "双曲线的几何性质与渐近线",
+      "description": "双曲线无限接近但永不到达两条渐近线 y=±(b/a)x——「逃逸的曲线」。离心率 e>1，e 越大张口越开。冷却塔的外形就是双曲线——力学与美学的合作。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求渐近线方程并画草图",
+        "能由渐近线条件反求方程"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²/9-y²/16=1 的渐近线是什么？等轴双曲线的离心率是多少？」",
+      "standards": [
+        "hsmath-2017:H3.GA.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_14"
+      ]
+    },
+    {
+      "id": "ct_g11a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "抛物线的定义与标准方程",
+      "description": "到定点（焦点）与定直线（准线）距离相等的轨迹：y²=2px。离心率恒为 1。二次函数图象是抛物线（其焦点在 y 轴方向）——初中的抛物线在这里拿到「身份证」。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能求四种标准方程并指出焦点准线",
+        "能说明与二次函数图象的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「y²=8x 的焦点坐标和准线方程？y=x² 是抛物线吗？焦点在哪条轴上？」",
+      "standards": [
+        "hsmath-2017:H3.GA.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_15",
+        "ct_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_g11a_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "抛物线的几何性质与焦点弦",
+      "description": "开口、范围、对称轴；焦点弦（过焦点的弦）长 x₁+x₂+p、通径 2p。「到焦点等于到准线」在光学中聚焦成平行光——卫星锅与探照灯的数学原理。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出抛物线几何性质",
+        "能求焦点弦长并处理通径问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「过 y²=4x 焦点的弦最短是多少（通径）？为什么探照灯做成抛物面？」",
+      "standards": [
+        "hsmath-2017:H3.GA.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_16"
+      ]
+    },
+    {
+      "id": "ct_g11a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直线与圆锥曲线的位置关系（弦长与中点弦）",
+      "description": "联立直线与曲线方程，韦达定理 x₁+x₂、x₁x₂ 顶上：弦长 √(1+k²)·|x₁-x₂|；中点弦用点差法（设而不求）。「联立—韦达—判别式」三件套是圆锥曲线的万能解题范式。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用韦达定理处理弦长与中点问题",
+        "会检验判别式保证相交"
+      ],
+      "assessmentPrompt": "问{{name}}：「椭圆中过点 (1,1) 的弦中点轨迹怎么用点差法求？弦长公式里 √(1+k²) 从哪来？」",
+      "standards": [
+        "hsmath-2017:H3.GA.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_17",
+        "ct_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_g11a_19",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆锥曲线的综合问题（定点、定值与最值）",
+      "description": "证「直线恒过定点」「面积为定值」、求最值范围——设参、联立、韦达、整体代换四大步。计算量大但路径清晰，解析几何压轴题的标准剧本。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按范式完成定点定值证明",
+        "能用函数或不等式处理最值"
+      ],
+      "assessmentPrompt": "问{{name}}：「证明『过某点的动直线与椭圆交于 AB，k_OA·k_AB 为定值』的套路分几步？关键在哪一步？」",
+      "standards": [
+        "hsmath-2017:H3.GA.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_18"
+      ]
+    },
+    {
+      "id": "ct_g11a_20",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "解析几何思想：坐标法的力量",
+      "description": "笛卡尔把几何搬进坐标系：点→坐标、曲线→方程、证明→计算。从直线到圆锥曲线，坐标法把「形」的问题交给「数」处理——数学史上的方法论革命，本册的思想总结。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明坐标法三步骤（建系—表示—计算）",
+        "能举例说明几何问题代数化的收益"
+      ],
+      "assessmentPrompt": "问{{name}}：「坐标法解几何题的三步是什么？『垂直』翻译成代数是什么？和综合法比各有什么好？」",
+      "standards": [
+        "hsmath-2017:H3.GA.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 11,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "选择性必修第一册"
+      },
+      "prerequisites": [
+        "ct_g11a_19",
+        "ct_g7b_13"
       ]
     }
   ]
