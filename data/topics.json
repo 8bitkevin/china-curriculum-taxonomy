@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.16.0",
+  "version": "1.17.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 922,
+  "topicCount": 942,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -28474,6 +28474,624 @@
       },
       "prerequisites": [
         "ct_yw_g8a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "现代诗欣赏：土地与乡愁的意象",
+      "description": "读《沁园春·雪》《我爱这土地》《乡愁》《你是人间的四月天》《我看》：意象是现代诗的心跳——嘶哑的喉咙、邮票船票坟的海峡。活动探究单元第一任务：能从意象与语言切入，独立欣赏一首诗。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能背诵《沁园春·雪》《我爱这土地》",
+        "能对一首诗做意象+语言+情感的三步赏析"
+      ],
+      "assessmentPrompt": "问{{name}}：艾青为什么说「我也应该用嘶哑的喉咙歌唱」而不是「清脆」？余光中的乡愁为什么是邮票、船票？换成高楼行吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.08",
+        "cschinese-2022:S4.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元（活动·探究）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g4b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "尝试诗歌创作",
+      "description": "活动探究单元第三任务：自己写诗——从模仿起步（仿《乡愁》的结构），抓住一个意象写真情，注意节奏与分行。创作是欣赏的完成式：写过诗的人，再读诗就懂深浅。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "写出两首有明确意象的小诗",
+        "能用两句话说明自己诗的处理意图"
+      ],
+      "assessmentPrompt": "请{{name}}仿《乡愁》写《成长》：小时候…长大后…后来啊…而现在…，四个时段各配一个物象。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元（活动·探究）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "议论文阅读：论点、论据、论证",
+      "description": "读《敬业与乐业》《精神的三间小屋》：找中心论点（常在标题或首段）、辨论据类型（事实/道理）、看论证思路（提出问题—分析—结论）。议论文阅读三板斧——初中阅读考查的第三大文体（记叙、说明之后）正式登场。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能准确找出中心论点并判断位置依据",
+        "能区分事实论据与道理论据各举一例"
+      ],
+      "assessmentPrompt": "问{{name}}：《敬业与乐业》的中心论点是哪句？梁启超引孔子「知之者不如好之者」属什么论据？文章先谈什么后谈什么？",
+      "standards": [
+        "cschinese-2022:S4.YD.05",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6a_10",
+        "ct_yw_g6b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_04",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "驳论艺术：中国人失掉自信力了吗",
+      "description": "读鲁迅《中国人失掉自信力了吗》：驳论=树靶子（敌论点）—驳论证（偷换概念：自信力≠他信力）—立己论（埋头苦干的人…就是中国的脊梁）。立驳结合的杂文笔法——议论文阅读的高阶形态，也是思辨精神的最佳样本。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能梳理论敌的论据与漏洞",
+        "能指出文中立论部分并说明驳与立的转换"
+      ],
+      "assessmentPrompt": "问{{name}}：鲁迅说对方「直接的信据」其实证明了什么？「中国的脊梁」举了哪几类人？驳论文先破后立，破在哪里、立在哪里？",
+      "standards": [
+        "cschinese-2022:S4.YD.05",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_05",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "论证的严密：怀疑与学问",
+      "description": "读《怀疑与学问》《谈创造性思维》：论证方法（举例、道理、对比、比喻论证）与论证结构（层层深入、并列分论）。看一篇议论文如何把道理「钉牢」：每个分论点都有论据，层与层之间有逻辑扣。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断论证方法并分析其作用",
+        "能画出分论点结构图"
+      ],
+      "assessmentPrompt": "问{{name}}：「譬如国难危急时的口头消息」是哪种论证？顾颉刚的两个分论点（怀疑是消极方面辨伪去妄的必须条件/积极方面建设新学说的基本条件）是什么关系？",
+      "standards": [
+        "cschinese-2022:S4.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言楼记：岳阳楼记与醉翁亭记",
+      "description": "背《岳阳楼记》《醉翁亭记》《湖心亭看雪》：范仲淹「先天下之忧而忧」的旷达担当、欧阳修「与民同乐」的醉翁之意、张岱湖心亭的白描与痴。骈散结合的语言范本+景中寓理的写法——初中写景文言的巅峰三篇。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能背诵默写三篇（湖心亭看雪默写重点段）",
+        "能比较范欧二人「忧乐」与「醉乐」的异同"
+      ],
+      "assessmentPrompt": "问{{name}}：范仲淹没登岳阳楼为什么能写记？「不以物喜不以己悲」与前文两段景是什么关系？欧阳修的「醉」是真醉吗？张岱的「痴」痴在哪？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "诗词三首：失意者的三种活法",
+      "description": "背《行路难》《酬乐天扬州初逢席上见赠》《水调歌头》：李白「长风破浪会有时」的自信、刘禹锡「病树前头万木春」的豁达、苏轼「但愿人长久」的超越。三首贬谪/失意之诗的三种突围——诗词鉴赏的「知人论世」正式登场。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能背诵默写三首",
+        "能结合三人生平说明各自豁达的不同底色"
+      ],
+      "assessmentPrompt": "问{{name}}：李白停杯投箸又「直挂云帆」，情绪怎么转的？苏轼问月又自答，答出了什么道理？三首里你选哪句送失意的朋友？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_08",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "小说深读：故乡的主题多义",
+      "description": "读鲁迅《故乡》：闰土从「小英雄」到「木偶人」的变化线，杨二嫂的圆规式世故，「希望本无所谓有」的结尾。小说阅读从三要素进入主题多义与叙述视角（「我」是谁）——初中小说阅读的制高点。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能梳理闰土前后变化的细节对照",
+        "能对主题说出两种以上理解并各有依据"
+      ],
+      "assessmentPrompt": "问{{name}}：二十年间闰土最致命的变化是什么（外貌/称呼/眼神）？「其实地上本没有路」的路指什么？宏儿和水生会是下一个循环吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6a_03",
+        "ct_yw_g6a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_09",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "世态与成长：于勒、杜小康",
+      "description": "读莫泊桑《我的叔叔于勒》（金钱如何扭变亲情——船上相遇的镜头调度）与曹文轩《孤独之旅》（杜小康在芦苇荡的成人礼）。外国小说的讽刺结构与成长小说的心理刻画并置——小说单元的两翼。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能分析菲利普夫妇对于勒称呼的变化及原因",
+        "能梳理杜小康「孤独—面对—成长」的心理线"
+      ],
+      "assessmentPrompt": "问{{name}}：于勒的信里说「赔偿」，为什么全家把他当福音？船上认出穷于勒后为什么躲？杜小康哭了一场后为什么「觉得自己长大了」？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_10",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "明清白话小说：生辰纲、范进与大观园",
+      "description": "读《智取生辰纲》（杨志的精明与吴用的智取——双线叙事）、《范进中举》（讽刺的漫画笔法）、《刘姥姥进大观园》（笑剧中的众生相）。古典白话小说的读法：话本遗风、伏笔照应、人物群像——四大名著的节选精读。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能复述智取生辰纲的明暗双线",
+        "能赏析范进发疯的讽刺细节"
+      ],
+      "assessmentPrompt": "问{{name}}：杨志处处提防为什么还是丢了纲？范进中举后胡屠户的前后变化说明了什么？刘姥姥一句话让全家笑倒，各人的笑为什么各不相同？",
+      "standards": [
+        "cschinese-2022:S4.YD.06",
+        "cschinese-2022:S4.YD.11"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：观点要明确",
+      "description": "议论文写作第一课：态度旗帜鲜明（赞成什么反对什么不含糊），论点一句话说清（判断句），把论点放进开头或标题。从六下「事例说明观点」到九上议论文写作正式开笔——观点明确是议论文的第一块砖。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用一个判断句表述论点",
+        "习作开篇亮出观点不含糊"
+      ],
+      "assessmentPrompt": "给{{name}}话题「网络用语进作文」，请先写出明确的论点句（一句判断句），再检查：是不是可以反过来说？不能反说才算立场明确。",
+      "standards": [
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：议论要言之有据",
+      "description": "议论文写作第二课：论据要真实（不编造名言史实）、要经核查（名人名言查出处）、要与观点匹配。素材卡片从此开建——「名言+事例」双库是初三议论文的弹药仓。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "习作中论据真实可靠（能注明来源）",
+        "论据与论点对位不跑偏"
+      ],
+      "assessmentPrompt": "请{{name}}为「逆境出人才」建素材卡：两条名言（注出处）+两个事例（一人一句话概括），并检验哪条最有力。",
+      "standards": [
+        "cschinese-2022:S4.BD.03",
+        "cschinese-2022:S4.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g4b_22",
+        "ct_yw_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：论证要合理",
+      "description": "议论文写作第三课（合龙）：论证顺序有条理（是什么—为什么—怎么办）、方法搭配得当、层级递进不原地打转。三课贯通即成完整议论文——初中议论文写作的全部骨架在九上搭完。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "600 字议论习作结构完整（引论—本论—结论）",
+        "至少两种论证方法并用且服务同一论点"
+      ],
+      "assessmentPrompt": "请{{name}}写「诚信是立身之本」：按「为什么—怎么办」两块布局，举一例引一言，结尾回扣论点；画结构图检查。",
+      "standards": [
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：学习缩写",
+      "description": "把长文缩成短文：保留主干（论点主论据/情节主线）、压缩删减、连贯成文。小学缩写故事（五上）的初中版——缩写对象扩展到议论文与小说，还常用于「名著梗概」题。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "缩写文主干完整且字数达标",
+        "缩写后仍是一篇通顺的独立文章"
+      ],
+      "assessmentPrompt": "请{{name}}把《我的叔叔于勒》缩写成 250 字：保留菲利普一家盼于勒—遇于勒—躲于勒的主线，删环境与对话细节。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_15",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：修改润色（意图与语感）",
+      "description": "修改的两层：审阅意图（中心是否需要调整、材料是否要换）+锤炼语言（句式、用词、韵律）。小学的「双维修改」在初三进入自觉的润色——为自己的文字负责到最后一稿。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能对一篇旧作完成「换材+改句」两级润色",
+        "能说出每处修改的意图"
+      ],
+      "assessmentPrompt": "请{{name}}重读九上一学期任一篇作文：先问中心站得住吗（必要时换一件事），再把三处长句改短、三处常词换准。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S3.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第六单元（写作）",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g6b_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_16",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：君子自强不息与小说天地",
+      "description": "两个活动：君子自强不息（搜集自强人物谱系开演讲/辩论——勾连议论文单元）、走进小说天地（编小说人物档案、讲故事比赛——勾连小说单元）。综合学习与单元文体深度绑定——活动的学术味变浓。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "完成自强人物小传或小说人物档案一份",
+        "参与一次演讲/辩论/讲故事活动"
+      ],
+      "assessmentPrompt": "请{{name}}做「自强人物谱」三人卡（司马迁/贝多芬/张桂梅…各一句事迹一句评语），选一人做 1 分钟推介。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "综合性学习",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8a_19"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_17",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：艾青诗选与如何读诗",
+      "description": "读《艾青诗选》：注意意象群（土地、太阳、火把）与创作分期（抗战前后的深沉与明朗），学「如何读诗」——关注意象、语言、时代。整本诗集的读法与小说不同：可按主题重组，可朗诵进入。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "读 20 首以上艾青诗",
+        "能梳理「土地」「太阳」两大意象的演变并各举两首"
+      ],
+      "assessmentPrompt": "问{{name}}：艾青为什么反复写土地和太阳？《雪落在中国的土地上》和《黎明的通知》的色调一样吗？选一首最有力的朗读给家人。",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S4.YD.08"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "名著导读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_18",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著：水浒传（古典小说读法）",
+      "description": "读《水浒传》：古典长篇小说读法三件事——抓结构（先分后合的链式）、品语言（白话的传神）、辨人物（同是粗豪，鲁达李逵不同）。情节专题阅读（林冲/武松/鲁智深人物志）替代通读的策略也在此教。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "读完原著或主要回目",
+        "能做一位好汉的人物志（绰号—三件事—性格—结局）"
+      ],
+      "assessmentPrompt": "请{{name}}做「林冲人物志」：从误入白虎堂到雪夜上梁山列四件事，问：他为什么一忍再忍？忍到哪件事才爆发？",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "名著导读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_19",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "课外古诗词诵读：左迁与羁旅",
+      "description": "诵读《月夜忆舍弟》《长沙过贾谊宅》《左迁至蓝关示侄孙湘》《商山早行》：露从今夜白的忆弟、夕贬潮州路八千的孤忠、鸡声茅店月的早行。与课内三首「失意者的活法」呼应——贬谪文学小专题。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能背诵默写四首",
+        "能比较韩愈与刘禹锡面对贬谪的态度差异"
+      ],
+      "assessmentPrompt": "问{{name}}：「云横秦岭家何在」的家只是家吗？刘禹锡「怀旧空吟闻笛赋」用两个典故说尽二十三年，典故好在哪？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "课外古诗词诵读",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g9a_20",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "九上字词与文学常识自查",
+      "description": "读读写写过关（折腰、风骚、渲染、恣睢、拮据）；常识卡：梁启超《饮冰室合集》、雨果、莫泊桑、契诃夫（九下）、施耐庵/吴承恩/曹雪芹与明清小说。初三上的盘点——中考第一轮复习的种子库。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "听写正确率 90% 以上",
+        "四大名著的作者朝代人物能连线无误"
+      ],
+      "assessmentPrompt": "听写「娉婷、鲜妍、恣睢、郑重其事」等 20 词；请{{name}}连线：智取生辰纲/范进中举/三顾茅庐/刘姥姥进大观园 ↔ 作者。",
+      "standards": [
+        "cschinese-2022:S4.LZ.01",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "各单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_yw_g8b_18"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.16.0",
+  "version": "1.17.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1380,
+  "edgeCount": 1403,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8283,6 +8283,144 @@
       "prerequisiteId": "ct_yw_g8a_21",
       "strength": "hard",
       "reason": "字词与常识自查跨册延续，古诗文比重上升"
+    },
+    {
+      "topicId": "ct_yw_g9a_01",
+      "prerequisiteId": "ct_yw_g4b_01",
+      "strength": "hard",
+      "reason": "四下现代诗单元的意象体会升级为系统的意象赏析方法"
+    },
+    {
+      "topicId": "ct_yw_g9a_02",
+      "prerequisiteId": "ct_yw_g9a_01",
+      "strength": "hard",
+      "reason": "活动单元任务链：先欣赏后创作，赏析方法就是创作指南"
+    },
+    {
+      "topicId": "ct_yw_g9a_03",
+      "prerequisiteId": "ct_yw_g6b_05",
+      "strength": "hard",
+      "reason": "六下『用事例说明观点』的启蒙在九上正式长成议论文三要素框架"
+    },
+    {
+      "topicId": "ct_yw_g9a_03",
+      "prerequisiteId": "ct_yw_g6a_10",
+      "strength": "soft",
+      "reason": "观点+事例的微议论经验支撑中心论点的识别"
+    },
+    {
+      "topicId": "ct_yw_g9a_04",
+      "prerequisiteId": "ct_yw_g9a_03",
+      "strength": "hard",
+      "reason": "先立后驳：驳论以立论文三要素框架为前提，增加破靶环节"
+    },
+    {
+      "topicId": "ct_yw_g9a_05",
+      "prerequisiteId": "ct_yw_g9a_03",
+      "strength": "hard",
+      "reason": "论证方法与结构的分析在三要素框架上深化"
+    },
+    {
+      "topicId": "ct_yw_g9a_06",
+      "prerequisiteId": "ct_yw_g8a_05",
+      "strength": "hard",
+      "reason": "山水文言（三峡/小石潭）之后登顶宋代楼记：景理交融与忧乐情怀"
+    },
+    {
+      "topicId": "ct_yw_g9a_07",
+      "prerequisiteId": "ct_yw_g8a_13",
+      "strength": "hard",
+      "reason": "风格比较（八上五家）的积累支持『失意者的三种活法』知人论世式品读"
+    },
+    {
+      "topicId": "ct_yw_g9a_08",
+      "prerequisiteId": "ct_yw_g6a_03",
+      "strength": "hard",
+      "reason": "小说三要素（六上）升级为主题多义与叙事视角分析"
+    },
+    {
+      "topicId": "ct_yw_g9a_08",
+      "prerequisiteId": "ct_yw_g6a_07",
+      "strength": "soft",
+      "reason": "鲁迅作品阅读线（少年闰土→故乡）：闰土形象的二十年后对照"
+    },
+    {
+      "topicId": "ct_yw_g9a_09",
+      "prerequisiteId": "ct_yw_g6a_03",
+      "strength": "hard",
+      "reason": "小说三要素框架应用于外国讽刺小说与成长小说两种亚型"
+    },
+    {
+      "topicId": "ct_yw_g9a_10",
+      "prerequisiteId": "ct_yw_g5b_01",
+      "strength": "hard",
+      "reason": "古典名著入门（五回目选段）扩展到明清白话小说的节选精读与笔法分析"
+    },
+    {
+      "topicId": "ct_yw_g9a_11",
+      "prerequisiteId": "ct_yw_g9a_03",
+      "strength": "hard",
+      "reason": "议论文阅读的论点识别直接指导写作的观点明确训练"
+    },
+    {
+      "topicId": "ct_yw_g9a_12",
+      "prerequisiteId": "ct_yw_g9a_11",
+      "strength": "hard",
+      "reason": "观点立住之后论据跟上：议论文写作第二课"
+    },
+    {
+      "topicId": "ct_yw_g9a_12",
+      "prerequisiteId": "ct_yw_g4b_22",
+      "strength": "soft",
+      "reason": "摘录积累本的习惯迁移为论据素材库建设"
+    },
+    {
+      "topicId": "ct_yw_g9a_13",
+      "prerequisiteId": "ct_yw_g9a_12",
+      "strength": "hard",
+      "reason": "论点+论据齐备后合龙为完整论证结构：议论文写作三部曲收官"
+    },
+    {
+      "topicId": "ct_yw_g9a_14",
+      "prerequisiteId": "ct_yw_g5a_04",
+      "strength": "hard",
+      "reason": "小学缩写故事的删留技术迁移到小说/议论文的缩写"
+    },
+    {
+      "topicId": "ct_yw_g9a_15",
+      "prerequisiteId": "ct_yw_g6b_14",
+      "strength": "hard",
+      "reason": "小学双维修改的自觉版：意图审阅+语言锤炼的两层润色"
+    },
+    {
+      "topicId": "ct_yw_g9a_16",
+      "prerequisiteId": "ct_yw_g8a_19",
+      "strength": "hard",
+      "reason": "综合学习与文体单元绑定的新形态，复用辩论演讲技能"
+    },
+    {
+      "topicId": "ct_yw_g9a_17",
+      "prerequisiteId": "ct_yw_g9a_01",
+      "strength": "hard",
+      "reason": "诗歌欣赏方法直接用于整本诗集的专题阅读"
+    },
+    {
+      "topicId": "ct_yw_g9a_18",
+      "prerequisiteId": "ct_yw_g9a_10",
+      "strength": "hard",
+      "reason": "课内节选（智取生辰纲）的读法延伸到整本名著的人物志专题"
+    },
+    {
+      "topicId": "ct_yw_g9a_19",
+      "prerequisiteId": "ct_yw_g9a_07",
+      "strength": "hard",
+      "reason": "课内贬谪诗词三首与课外诵读四首构成专题群文"
+    },
+    {
+      "topicId": "ct_yw_g9a_20",
+      "prerequisiteId": "ct_yw_g8b_18",
+      "strength": "hard",
+      "reason": "字词与常识自查跨册延续，进入中考一轮复习视角"
     }
   ]
 }
