@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.64.0",
+  "version": "1.65.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1511,
+  "topicCount": 1520,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -46785,6 +46785,276 @@
       },
       "prerequisites": [
         "ct_ls_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "古代亚非与欧洲文明",
+      "description": "大河流域的亚非文明（古埃及金字塔与象形文字、两河流域《汉谟拉比法典》、古印度种姓制度与佛教）；海洋文明的希腊（城邦民主雅典）与罗马（共和国到帝国、罗马法学）。文明的曙光各有模样——大河与海洋的两种命运。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能对应四大文明与其成就",
+        "能说明希腊民主与罗马法的历史影响"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么古埃及文明在大河而希腊文明在海边？《汉谟拉比法典》的「同态复仇」公平吗？雅典民主的局限在哪？",
+      "standards": [
+        "cshistory-2022:S4.WA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一、二单元",
+        "editionYear": 2018
+      }
+    },
+    {
+      "id": "ct_ls_g9a_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "文艺复兴与新航路开辟",
+      "description": "文艺复兴（人文主义——但丁达芬奇莎士比亚）；新航路开辟（迪亚士达伽马哥伦布麦哲伦——世界开始连为一体）与殖民掠夺（三角贸易）。资本主义时代的两块敲门砖——人是万物的尺度与地球是圆的。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明文艺复兴的核心思潮与实质",
+        "能画出四位航海家的航线并评价新航路"
+      ],
+      "assessmentPrompt": "问{{name}}：文艺复兴「复兴」的是什么？哥伦布发现新大陆为什么说是「两个世界的相遇」？三角贸易对非洲意味着什么？",
+      "standards": [
+        "cshistory-2022:S4.WM.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三、四单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "英美法资产阶级革命与资本主义制度确立",
+      "description": "英国革命（《权利法案》——君主立宪）；美国独立战争与 1787 宪法（联邦制三权分立）；法国大革命（《人权宣言》——拿破仑法典）。近代民主制度的三种样板——王冠、宪法与断头台。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能比较三国革命的成果与政体",
+        "能说明《权利法案》如何限制王权"
+      ],
+      "assessmentPrompt": "问{{name}}：英国保留国王美国不要国王，为什么？三权分立防的是什么？《人权宣言》和《独立宣言》什么关系？",
+      "standards": [
+        "cshistory-2022:S4.WM.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9a_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "两次工业革命",
+      "description": "第一次工业革命（蒸汽机——瓦特、工厂制度、火车轮船）；第二次工业革命（电气时代——爱迪生电灯、内燃机汽车飞机、垄断组织）。生产力指数级跃迁——蒸汽与电气如何重塑世界与中国。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能比较两次工业革命的发明与动力",
+        "能说明工业革命对中国近代的影响（鸦片战争背景）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说瓦特蒸汽机把人类带进「蒸汽时代」？第二次工业革命为什么美国德国领先？工业革命和伦敦雾霾什么关系？",
+      "standards": [
+        "cshistory-2022:S4.WM.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g8a_01",
+        "ct_ls_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g9b_01",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "一战与十月革命",
+      "description": "第一次世界大战（两大军事集团、萨拉热窝、凡尔登绞肉机）；俄国十月革命（阿芙乐尔号炮声——第一个社会主义国家）。帝国主义的分赃战争与新时代的开端。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明一战爆发的根本原因",
+        "能比较二月革命与十月革命"
+      ],
+      "assessmentPrompt": "问{{name}}：一战为什么是「帝国主义战争」？十月革命给中国送来了什么？《凡尔赛条约》埋下了什么祸根？",
+      "standards": [
+        "cshistory-2022:S4.WM.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g9b_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "1929 大危机、罗斯福新政与法西斯",
+      "description": "1929-1933 经济大危机（股市崩盘波及全球）；罗斯福新政（国家干预——整顿金融、以工代赈）；德意日法西斯专政与欧亚战争策源地。危机的两种回答——改革自救与对外扩张。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明新政「新」在国家干预",
+        "能比较美德两国应对危机的不同道路"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么美国经济一感冒全球打喷嚏？罗斯福新政为什么没有废除资本主义？德国为什么走向法西斯？",
+      "standards": [
+        "cshistory-2022:S4.WC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9b_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g9b_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "第二次世界大战",
+      "description": "慕尼黑阴谋与绥靖政策；二战全面爆发（1939 德国闪击波兰）与扩大（苏德太平洋战争）；反法西斯同盟与斯大林格勒、诺曼底；雅尔塔会议与 1945 胜利。人类历史上最大的浩劫与最广泛的联合。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能排出二战主要节点时间线",
+        "能分析反法西斯战争胜利的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：绥靖政策「祸水东引」引到了谁？为什么说斯大林格勒是转折点？中国抗战在世界反法西斯战争中的位置？",
+      "standards": [
+        "cshistory-2022:S4.WC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第三单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g9b_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "冷战与世界格局的多极化",
+      "description": "冷战（杜鲁门主义、马歇尔计划、北约华约、柏林墙与古巴导弹危机）；苏联解体（1991）；多极化趋势（欧盟日本中国俄罗斯）与联合国 WTO。从两极到多极——铁幕落下之后的世界秩序。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明冷战的表现与实质",
+        "能解释为什么世界朝多极化发展"
+      ],
+      "assessmentPrompt": "问{{name}}：冷战为什么「冷」？马歇尔计划是慈善吗？苏联解体意味着社会主义失败吗——中国怎么看？",
+      "standards": [
+        "cshistory-2022:S4.WC.01",
+        "cshistory-2022:S4.WC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第四、五单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g9b_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g9b_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "科技革命与经济全球化",
+      "description": "第三次科技革命（计算机互联网、生物技术、航天）；经济全球化（WTO 跨国公司——世界变成地球村）与挑战（贫富差距、逆全球化）；现代文化多样性与和平发展主题。我们时代的世界——机遇与挑战并存的地球村。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能举全球化对自己生活的影响三例",
+        "能辩证分析全球化的利弊"
+      ],
+      "assessmentPrompt": "问{{name}}：你身边的哪些东西是全球化的产物？为什么有人说全球化是「双刃剑」？人类命运共同体主张了什么？",
+      "standards": [
+        "cshistory-2022:S4.WC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_ls_g8b_04",
+        "ct_ls_g9b_04"
       ]
     }
   ]

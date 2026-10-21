@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.64.0",
+  "version": "1.65.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2116,
+  "edgeCount": 2126,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12699,6 +12699,66 @@
       "prerequisiteId": "ct_ls_g8b_04",
       "strength": "hard",
       "reason": "改革开放国力增强支撑外交突破与科技强军"
+    },
+    {
+      "topicId": "ct_ls_g9a_02",
+      "prerequisiteId": "ct_ls_g9a_01",
+      "strength": "hard",
+      "reason": "文艺复兴与新航路发生在中世纪欧洲的城市与商业复兴基础上"
+    },
+    {
+      "topicId": "ct_ls_g9a_03",
+      "prerequisiteId": "ct_ls_g9a_02",
+      "strength": "hard",
+      "reason": "资本主义经济发展（新航路市场）催生资产阶级革命"
+    },
+    {
+      "topicId": "ct_ls_g9a_04",
+      "prerequisiteId": "ct_ls_g9a_03",
+      "strength": "hard",
+      "reason": "资产阶级制度确立为工业革命提供政治前提"
+    },
+    {
+      "topicId": "ct_ls_g9a_04",
+      "prerequisiteId": "ct_ls_g8a_01",
+      "strength": "soft",
+      "reason": "工业革命（英国）是鸦片战争的深层背景——中外历史在此交汇"
+    },
+    {
+      "topicId": "ct_ls_g9b_01",
+      "prerequisiteId": "ct_ls_g9a_04",
+      "strength": "hard",
+      "reason": "第二次工业革命加剧列强矛盾与瓜分，导致一战"
+    },
+    {
+      "topicId": "ct_ls_g9b_02",
+      "prerequisiteId": "ct_ls_g9b_01",
+      "strength": "hard",
+      "reason": "一战与凡尔赛体系的矛盾种下大危机与法西斯上台的种子"
+    },
+    {
+      "topicId": "ct_ls_g9b_03",
+      "prerequisiteId": "ct_ls_g9b_02",
+      "strength": "hard",
+      "reason": "法西斯专政与经济危机直接引发二战"
+    },
+    {
+      "topicId": "ct_ls_g9b_04",
+      "prerequisiteId": "ct_ls_g9b_03",
+      "strength": "hard",
+      "reason": "二战结束后的力量对比与雅尔塔体系奠定冷战两极格局"
+    },
+    {
+      "topicId": "ct_ls_g9b_05",
+      "prerequisiteId": "ct_ls_g9b_04",
+      "strength": "hard",
+      "reason": "冷战结束后全球化加速，多极化与全球化构成当今世界双重主题"
+    },
+    {
+      "topicId": "ct_ls_g9b_05",
+      "prerequisiteId": "ct_ls_g8b_04",
+      "strength": "soft",
+      "reason": "中国改革开放融入全球化（入世）——中国史与世界史的合流点"
     }
   ]
 }
