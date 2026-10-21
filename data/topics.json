@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.16.0",
+  "version": "0.17.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 462,
+  "topicCount": 487,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -14202,6 +14202,799 @@
       "prerequisites": [
         "ct_g9b_09",
         "ct_g9b_17"
+      ]
+    },
+    {
+      "id": "ct_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "集合的概念与表示",
+      "description": "研究对象汇总成的整体叫集合：元素确定、互异、无序。用列举法 {1,2,3} 或描述法 {x|x>2} 表示。集合是高中数学的第一门语言——此后的函数、方程、几何全用它说话（小学三年级的维恩图在这里正名）。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用两种方法表示集合",
+        "能判断元素与集合的关系（∈、∉）并运用互异性"
+      ],
+      "assessmentPrompt": "问{{name}}：「{1,1,2} 是合法集合吗？描述法怎么表示『大于 3 的整数』？a∈A 什么意思？」",
+      "standards": [
+        "hsmath-2017:H1.PK.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g3a_32",
+        "ct_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "集合间的关系与运算（子、交、并、补）",
+      "description": "A 的元素都在 B 中则 A⊆B（子集）；A∩B 取公共、A∪B 取全部、∁U A 取余下。Venn 图一画，关系全明——集合的关系运算就是「圈圈的分分合合」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断子集、真子集、相等关系",
+        "能进行交并补运算并使用 Venn 图分析"
+      ],
+      "assessmentPrompt": "问{{name}}：「A={1,2,3}、B={2,3,4}，A∩B 和 A∪B 各是什么？空集是谁的子集？」",
+      "standards": [
+        "hsmath-2017:H1.PK.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_01"
+      ]
+    },
+    {
+      "id": "ct_g10a_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "充分条件与必要条件",
+      "description": "p⇒q 则 p 是 q 的充分条件、q 是 p 的必要条件；p⇔q 则互为充要。「x>2」是「x>1」的充分不必要条件——箭头方向就是判断的全部。「有它必行、没它未必不行」绕晕人的话，画个圈就清楚。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断命题间的充分必要关系",
+        "能说明「充分不必要、必要不充分、充要」四类情况"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²=1 是 x=1 的什么条件？『两角互补』是『两角相等』的什么条件？怎么用集合包含关系判断？」",
+      "standards": [
+        "hsmath-2017:H1.PK.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_02",
+        "ct_g7b_06"
+      ]
+    },
+    {
+      "id": "ct_g10a_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "全称量词与存在量词",
+      "description": "「所有的」「任意的」是全称量词 ∀，「存在一个」是存在量词 ∃。含量词的命题怎么否定？∀x,p(x) 的否定是 ∃x,¬p(x)——量词互换、结论否定，一换一否。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出含量词命题的否定",
+        "能判断全称/存在命题的真假（举反例）"
+      ],
+      "assessmentPrompt": "问{{name}}：「『所有质数都是奇数』的否定是什么？它是真命题吗？∃x 使 x²<0 是真还是假？」",
+      "standards": [
+        "hsmath-2017:H1.PK.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_03"
+      ]
+    },
+    {
+      "id": "ct_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "不等式的性质（实数大小比较与传递）",
+      "description": "a-b>0 ⇔ a>b：作差比较是根。不等式八条性质（对称、传递、可加可乘、同正可倒……），乘负变号仍是头号陷阱——初中经验系统化为性质链，推理论证有了公理基础。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能运用性质进行不等式变形并注明依据",
+        "能用作差法比较大小"
+      ],
+      "assessmentPrompt": "问{{name}}：「a>b，两边同乘 c²（c≠0）还能保号吗？比较 x²+3 与 3x 的大小怎么做？」",
+      "standards": [
+        "hsmath-2017:H1.PK.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_03",
+        "ct_g7b_20"
+      ]
+    },
+    {
+      "id": "ct_g10a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "基本不等式（√(ab)≤(a+b)/2）",
+      "description": "a,b>0 时 √(ab) ≤ (a+b)/2，当且仅当 a=b 取等——均值不等式。「和定积最大、积定和最小」：围墙材料一定围成正方形面积最大。一正、二定、三相等，三关都要过。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能证明基本不等式（面积法）",
+        "能用它求最值并检验取等条件"
+      ],
+      "assessmentPrompt": "问{{name}}：「x+4/x 的最小值是多少？何时取到？周长 20 的矩形面积最大是多少？用了什么不等式？」",
+      "standards": [
+        "hsmath-2017:H1.PK.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_05",
+        "ct_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_g10a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一元二次不等式与三个二次的关系",
+      "description": "解 x²-2x-3>0：看抛物线在 x 轴上方的部分，x<-1 或 x>3。「二次函数图象—二次方程的根—二次不等式的解集」三位一体，初中二次函数知识的第一次高中变现。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能借助图象写出解集（含 Δ=0、Δ<0）",
+        "能由解集反求参数（三个二次互相转化）"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²-2x-3>0 的解集？ax²+bx+c>0 解集为全体实数需要什么条件？」",
+      "standards": [
+        "hsmath-2017:H1.PK.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_06",
+        "ct_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_g10a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的概念（集合对应观点）",
+      "description": "设 A、B 非空数集，按对应 f 使 A 中每个 x 唯一对应 B 中 y——初中「变量说」升级为「对应说」。定义域、对应关系、值域三要素。函数 y=f(x) 是「带定义域的对应规则」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用集合语言表述函数并判断同一函数",
+        "能求具体函数的定义域值域"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x 与 y=√(x²) 是同一函数吗？y=1/x 的定义域是什么？两个函数相同要看哪三件事？」",
+      "standards": [
+        "hsmath-2017:H1.FN.01"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_02",
+        "ct_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_g10a_09",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的表示法与分段函数",
+      "description": "解析法、图象法、列表法三足鼎立。出租费 y=起步价+超程费是分段函数——一段一段写，一段一段画。映射观点：函数是特殊的映射（数集到数集）。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写分段函数解析式并画图求值",
+        "能根据实际背景选择恰当表示法"
+      ],
+      "assessmentPrompt": "问{{name}}：「个税起征点分段计算：月收入 8000 元该用哪段？f(3) 怎么代入才不出错？」",
+      "standards": [
+        "hsmath-2017:H1.FN.02"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_08"
+      ]
+    },
+    {
+      "id": "ct_g10a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的单调性与最值",
+      "description": "任取 x₁<x₂ 都有 f(x₁)<f(x₂)，则 f 在区间上单调递增——「图象上升」翻译成代数定义，任意性是灵魂。单调性的证明：取值—作差—变形—定号，四步规范。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用定义证明单调性",
+        "能由单调性求最值并写规范格式"
+      ],
+      "assessmentPrompt": "问{{name}}：「用定义证明 f(x)=x+1/x 在 (1,+∞) 上递增，第一步取什么？作差后往什么方向变形？」",
+      "standards": [
+        "hsmath-2017:H1.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_09",
+        "ct_g8b_17"
+      ]
+    },
+    {
+      "id": "ct_g10a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的奇偶性",
+      "description": "f(-x)=f(x) 是偶函数（图象关于 y 轴对称），f(-x)=-f(x) 是奇函数（关于原点对称）。先看定义域是否对称，再验关系式——「先对称后验证」两道闸。奇偶性把图形对称翻译成代数关系。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用定义判断奇偶性（含非奇非偶）",
+        "能利用奇偶性补画图象与求值"
+      ],
+      "assessmentPrompt": "问{{name}}：「f(x)=x³+x 是奇函数还是偶函数？f(x)=x², x∈[-1,2] 呢？为什么定义域不对称就不谈奇偶？」",
+      "standards": [
+        "hsmath-2017:H1.FN.03"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_10",
+        "ct_g8a_10"
+      ]
+    },
+    {
+      "id": "ct_g10a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "幂函数",
+      "description": "y=xᵅ：α=1 直线、α=2 抛物线、α=3 立方抛物线、α=1/2 根号曲线、α=-1 双曲线。五种代表图象一站看尽「幂」的家族——在 (0,+∞) 都过 (1,1)。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画出常见幂函数图象草图",
+        "能比较同指数不同底数（或反之）的大小"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x³ 与 y=x^(1/2) 在 (0,1) 上谁大？幂函数图象恒过哪个点？」",
+      "standards": [
+        "hsmath-2017:H1.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_10",
+        "ct_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_g10a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数的零点与二分法",
+      "description": "f(c)=0 的 c 是零点，零点存在定理：f(a)·f(b)<0 且连续，则 (a,b) 内有零点。二分法步步对半逼近——「夹」出近似解。它是方程求根的通用兜底方案（计算器时代的算法思维）。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用零点存在定理判断零点所在区间",
+        "能用二分法求近似解并说明精确度"
+      ],
+      "assessmentPrompt": "问{{name}}：「f(1)·f(2)<0 能断定 (1,2) 内有零点吗？还要什么条件？二分法每步区间缩小多少？」",
+      "standards": [
+        "hsmath-2017:H1.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_10",
+        "ct_g8b_19"
+      ]
+    },
+    {
+      "id": "ct_g10a_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "指数运算的扩展（分数指数幂与无理指数幂）",
+      "description": "a^(m/n)=ⁿ√(aᵐ)：根式与分数指数幂互化，指数从整数扩展到实数。运算法则 aᵐ·aⁿ=aᵐ⁺ⁿ 在新领地继续生效——扩展一条法则比新造一条划算（跨学段衔接：根式→分数指数）。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能进行根式与分数指数幂互化",
+        "能熟练运用指数运算法则化简"
+      ],
+      "assessmentPrompt": "问{{name}}：「√2 能写成 2 的几次方？8^(2/3) 是多少？a^(1/2)·a^(1/3) 等于什么？」",
+      "standards": [
+        "hsmath-2017:H1.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g7b_08",
+        "ct_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_g10a_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "指数函数的图象与性质",
+      "description": "y=aˣ（a>0, a≠1）：a>1 增、0<a<1 减，恒过 (0,1)，x 轴是渐近线。「翻倍增长」的数学模型：细胞分裂、复利、病毒传播——指数爆炸的曲线眼看就要戳破天。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画出底数两类指数函数图象并说出性质",
+        "能比较幂的大小并解简单指数不等式"
+      ],
+      "assessmentPrompt": "问{{name}}：「1.7^2.5 和 1.7^3 谁大？0.8^(-0.1) 和 1.25^(0.1) 呢？y=2ˣ 与 y=(1/2)ˣ 图象什么关系？」",
+      "standards": [
+        "hsmath-2017:H1.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_10",
+        "ct_g10a_14"
+      ]
+    },
+    {
+      "id": "ct_g10a_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "对数的概念与运算",
+      "description": "aˣ=N ⇔ x=log_a N：对数是指数的「反问」——已知底数和幂，求指数。log 运算法则把乘除降级为加减：log(AB)=logA+logB。计算尺时代的引擎，现代科学的标准记法。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能进行指数式与对数式互化",
+        "能运用对数运算法则化简计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「log₂8 是多少？log_a(MN) 等于什么？ln e 和 lg 100 各是几？」",
+      "standards": [
+        "hsmath-2017:H1.FN.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_15"
+      ]
+    },
+    {
+      "id": "ct_g10a_17",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "对数函数的图象与性质",
+      "description": "y=log_a x 与 y=aˣ 图象关于 y=x 对称（互为反函数）。a>1 增、0<a<1 减，恒过 (1,0)。地震震级、声音分贝、pH 值——对数把天文数字压回人间刻度。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画对数函数图象并说出性质",
+        "能比较对数值大小、解简单对数不等式（注意定义域）"
+      ],
+      "assessmentPrompt": "问{{name}}：「log₂3 与 log₂5 谁大？log_0.5 3 与 1 呢？log_a x 的定义域是什么？」",
+      "standards": [
+        "hsmath-2017:H1.FN.06"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_16"
+      ]
+    },
+    {
+      "id": "ct_g10a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数模型的应用与增长速度比较",
+      "description": "直线匀速、幂函数缓增、指数爆炸、对数平缓——四类模型赛跑：短期看不出来，长期见分晓。建模四步：收集数据—选模型—求参数—检验修正。数学建模的入门礼。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能根据数据特征选择函数模型",
+        "能比较不同函数的增长差异并解释实际意义"
+      ],
+      "assessmentPrompt": "问{{name}}：「人口按 2% 增长和每年固定增加 100 万，30 年后哪种模型更大？为什么说指数是爆炸？」",
+      "standards": [
+        "hsmath-2017:H1.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_13",
+        "ct_g10a_17"
+      ]
+    },
+    {
+      "id": "ct_g10a_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "任意角与弧度制",
+      "description": "角从「两条射线的张开」扩展到「旋转量」：逆时针正角、顺时针负角。弧度制用弧长比半径度量角：180°=π 弧度。角从此可以像数一样加减、进函数——三角函数的入场券。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能进行角度与弧度互化",
+        "能写出终边相同角的集合表示"
+      ],
+      "assessmentPrompt": "问{{name}}：「135° 是多少弧度？-30° 与哪个正角终边相同？弧度制下扇形弧长公式是什么？」",
+      "standards": [
+        "hsmath-2017:H1.FN.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g4a_11",
+        "ct_g9a_22"
+      ]
+    },
+    {
+      "id": "ct_g10a_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三角函数的概念（单位圆定义）",
+      "description": "角 α 终边与单位圆交于点 P(x,y)：sinα=y、cosα=x、tanα=y/x——三角函数从直角三角形搬进单位圆，任意角都有了三角函数值。各象限符号看「纵正横正」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用单位圆定义求特殊角三角函数值",
+        "能判断各象限三角函数符号"
+      ],
+      "assessmentPrompt": "问{{name}}：「sin 150° 是多少？第三象限角的正弦是正还是负？单位圆上 P 点坐标怎么定三个函数值？」",
+      "standards": [
+        "hsmath-2017:H1.FN.08"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_19",
+        "ct_g7b_12"
+      ]
+    },
+    {
+      "id": "ct_g10a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "同角关系与诱导公式",
+      "description": "sin²α+cos²α=1、tanα=sinα/cosα（同角关系，初中老朋友）；诱导公式把任意角化归为锐角：奇变偶不变、符号看象限。cos(π-α)=-cosα……一组公式扫平所有「大角」。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用同角关系求值（含齐次式）",
+        "能熟练运用诱导公式化简求值"
+      ],
+      "assessmentPrompt": "问{{name}}：「sinα=3/5 且 α 在第二象限，cosα、tanα 各是多少？cos(π-α) 与 cosα 什么关系？」",
+      "standards": [
+        "hsmath-2017:H1.FN.09"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_20",
+        "ct_g9b_15"
+      ]
+    },
+    {
+      "id": "ct_g10a_22",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三角函数的图象与性质",
+      "description": "正弦曲线一波接一波：周期 2π、值域 [-1,1]、五点法画图。y=cos x 错开半个身位。周期性是三角函数的名片——潮汐、交流电、心率，世界的节律都被它记录。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用五点法画 y=sin x、y=cos x 图象",
+        "能求三角函数的周期、单调区间、最值"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=sin x 在 [0,2π] 上的五点是哪五个？它的对称轴是什么？周期怎么算？」",
+      "standards": [
+        "hsmath-2017:H1.FN.10"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_21"
+      ]
+    },
+    {
+      "id": "ct_g10a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "三角恒等变换（和差角与二倍角）",
+      "description": "cos(α±β)=cosαcosβ∓sinαsinβ——两角和差公式一族；二倍角 sin2α=2sinαcosα。它们像「角的关系代数」：拆角凑角、降幂升幂，三角式化简求值证明的十八般武艺。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能默写和差角与二倍角公式并知道推导线索",
+        "能化简 asinα+bcosα 型式子（辅助角）"
+      ],
+      "assessmentPrompt": "问{{name}}：「sin75° 怎么用公式算？cos2α 用 sinα 怎么表示？sinα+cosα 与 sinαcosα 有什么关系？」",
+      "standards": [
+        "hsmath-2017:H1.FN.11"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_22",
+        "ct_g8a_16"
+      ]
+    },
+    {
+      "id": "ct_g10a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "函数 y=Asin(ωx+φ) 与三角函数应用",
+      "description": "A 定振幅、ω 定周期（T=2π/ω）、φ 定初相——三个参数像调音台，把正弦曲线调成任何波形。简谐运动、潮汐表、摩天轮高度，都由它生成。「图象变换」三步走：平移、伸缩、再平移。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能由图象求 A、ω、φ 并写解析式",
+        "能说明 φ、ω、A 对图象的影响顺序"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=3sin(2x+π/6) 的振幅、周期、初相各是多少？它由 y=sin x 经过哪些变换得到？」",
+      "standards": [
+        "hsmath-2017:H1.FN.10"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_23"
+      ]
+    },
+    {
+      "id": "ct_g10a_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学建模活动（一）：用函数认识世界",
+      "description": "选一个真实问题（手机套餐、体重变化、共享单车调度），完整走一遍建模流程：发现问题—提出假设—建立模型—求解检验—修改报告。数学第一次以「解决真问题」的面目出场。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能独立完成一次完整的函数建模",
+        "能撰写建模报告并答辩说明局限"
+      ],
+      "assessmentPrompt": "让{{name}}记录一周气温数据并选函数拟合：「选了什么模型？怎么检验好坏？模型哪里不准？」",
+      "standards": [
+        "hsmath-2017:H1.FN.07"
+      ],
+      "textbook": {
+        "publisher": "人教A版",
+        "grade": 10,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_g10a_18",
+        "ct_g10a_24"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.16.0",
+  "version": "0.17.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 767,
+  "edgeCount": 810,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -4605,6 +4605,264 @@
       "prerequisiteId": "ct_g9b_17",
       "strength": "hard",
       "reason": "测量方案之二是解直角三角形（仰角法）"
+    },
+    {
+      "topicId": "ct_g10a_01",
+      "prerequisiteId": "ct_g3a_32",
+      "strength": "hard",
+      "reason": "三年级维恩图（集合与重叠问题）是集合语言的直观原型（跨学段衔接：直观集合→集合论语言）"
+    },
+    {
+      "topicId": "ct_g10a_01",
+      "prerequisiteId": "ct_g7a_10",
+      "strength": "soft",
+      "reason": "描述法 {x|x>2} 用到字母表示数与不等式表示数集的经验"
+    },
+    {
+      "topicId": "ct_g10a_02",
+      "prerequisiteId": "ct_g10a_01",
+      "strength": "hard",
+      "reason": "关系与运算的对象是集合，表示法是操作前提"
+    },
+    {
+      "topicId": "ct_g10a_03",
+      "prerequisiteId": "ct_g10a_02",
+      "strength": "hard",
+      "reason": "充要关系的讨论以集合语言（p 对应的集合是否包含 q 对应的集合）为工具"
+    },
+    {
+      "topicId": "ct_g10a_03",
+      "prerequisiteId": "ct_g7b_06",
+      "strength": "hard",
+      "reason": "命题、题设与结论的初中经验是条件语句 p⇒q 的直接基础"
+    },
+    {
+      "topicId": "ct_g10a_04",
+      "prerequisiteId": "ct_g10a_03",
+      "strength": "hard",
+      "reason": "量词命题的否定涉及条件关系，在充要条件之后学习"
+    },
+    {
+      "topicId": "ct_g10a_05",
+      "prerequisiteId": "ct_g7b_20",
+      "strength": "hard",
+      "reason": "初中不等式三条性质升级为完整性质体系并强调证明（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10a_05",
+      "prerequisiteId": "ct_g10a_03",
+      "strength": "soft",
+      "reason": "性质的表述与判断用到充要条件语言"
+    },
+    {
+      "topicId": "ct_g10a_06",
+      "prerequisiteId": "ct_g10a_05",
+      "strength": "hard",
+      "reason": "基本不等式的证明与变形运用不等式性质"
+    },
+    {
+      "topicId": "ct_g10a_06",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "soft",
+      "reason": "面积法证明（四个全等直角三角形拼图）与弦图一脉相承"
+    },
+    {
+      "topicId": "ct_g10a_07",
+      "prerequisiteId": "ct_g10a_06",
+      "strength": "hard",
+      "reason": "含参二次不等式的讨论（Δ 与符号）综合基本不等式与作差比较"
+    },
+    {
+      "topicId": "ct_g10a_07",
+      "prerequisiteId": "ct_g9a_11",
+      "strength": "hard",
+      "reason": "「三个二次」关系直接建立在初中二次函数与方程的图象联系上（跨学段核心衔接）"
+    },
+    {
+      "topicId": "ct_g10a_08",
+      "prerequisiteId": "ct_g8b_14",
+      "strength": "hard",
+      "reason": "高中函数的对应说由初中变量说升级而来（跨学段衔接：变量函数→映射函数）"
+    },
+    {
+      "topicId": "ct_g10a_08",
+      "prerequisiteId": "ct_g10a_02",
+      "strength": "hard",
+      "reason": "定义域值域用集合表示，函数定义以集合为语言"
+    },
+    {
+      "topicId": "ct_g10a_09",
+      "prerequisiteId": "ct_g10a_08",
+      "strength": "hard",
+      "reason": "表示法是函数概念的操作化"
+    },
+    {
+      "topicId": "ct_g10a_10",
+      "prerequisiteId": "ct_g10a_09",
+      "strength": "hard",
+      "reason": "单调性的定义与证明以函数表示（解析式、图象）为对象"
+    },
+    {
+      "topicId": "ct_g10a_10",
+      "prerequisiteId": "ct_g8b_17",
+      "strength": "hard",
+      "reason": "初中「y 随 x 增大而增大」的直观描述严格化为任意性定义（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10a_11",
+      "prerequisiteId": "ct_g10a_10",
+      "strength": "hard",
+      "reason": "奇偶性与单调性并列为函数性质，且定义证明格式同构（取值—代入—比较）"
+    },
+    {
+      "topicId": "ct_g10a_11",
+      "prerequisiteId": "ct_g8a_10",
+      "strength": "soft",
+      "reason": "图象关于 y 轴/原点对称的直观来自轴对称与中心对称经验"
+    },
+    {
+      "topicId": "ct_g10a_12",
+      "prerequisiteId": "ct_g10a_10",
+      "strength": "hard",
+      "reason": "幂函数研究是单调性性质分析的第一次完整应用"
+    },
+    {
+      "topicId": "ct_g10a_12",
+      "prerequisiteId": "ct_g8a_14",
+      "strength": "soft",
+      "reason": "幂的运算法则为幂函数求值服务"
+    },
+    {
+      "topicId": "ct_g10a_13",
+      "prerequisiteId": "ct_g10a_10",
+      "strength": "hard",
+      "reason": "零点存在定理的依据是函数值变号（结合连续性与单调性）"
+    },
+    {
+      "topicId": "ct_g10a_13",
+      "prerequisiteId": "ct_g8b_19",
+      "strength": "soft",
+      "reason": "零点即图象与 x 轴交点，与初中函数-方程关系一致"
+    },
+    {
+      "topicId": "ct_g10a_14",
+      "prerequisiteId": "ct_g7b_08",
+      "strength": "hard",
+      "reason": "分数指数幂 a^(m/n)=ⁿ√(aᵐ) 的定义直接使用根式（跨学段衔接：根式→分数指数）"
+    },
+    {
+      "topicId": "ct_g10a_14",
+      "prerequisiteId": "ct_g8a_14",
+      "strength": "hard",
+      "reason": "指数运算法则在整数指数基础上扩展"
+    },
+    {
+      "topicId": "ct_g10a_15",
+      "prerequisiteId": "ct_g10a_14",
+      "strength": "hard",
+      "reason": "指数函数的研究依赖指数运算扩展（实数指数幂）"
+    },
+    {
+      "topicId": "ct_g10a_15",
+      "prerequisiteId": "ct_g10a_10",
+      "strength": "hard",
+      "reason": "指数函数性质（单调性）按函数性质研究框架展开"
+    },
+    {
+      "topicId": "ct_g10a_16",
+      "prerequisiteId": "ct_g10a_15",
+      "strength": "hard",
+      "reason": "对数由指数式反解而来，概念互逆"
+    },
+    {
+      "topicId": "ct_g10a_17",
+      "prerequisiteId": "ct_g10a_16",
+      "strength": "hard",
+      "reason": "对数函数的运算法则与图象研究以对数概念与运算为基础"
+    },
+    {
+      "topicId": "ct_g10a_18",
+      "prerequisiteId": "ct_g10a_17",
+      "strength": "hard",
+      "reason": "模型比较需要对数函数与指数函数的完整图景"
+    },
+    {
+      "topicId": "ct_g10a_18",
+      "prerequisiteId": "ct_g10a_13",
+      "strength": "hard",
+      "reason": "模型求解中的方程根问题回到零点与二分法"
+    },
+    {
+      "topicId": "ct_g10a_19",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "hard",
+      "reason": "角的度量的经验扩展为弧度制（跨学段衔接：角度制→弧度制）"
+    },
+    {
+      "topicId": "ct_g10a_19",
+      "prerequisiteId": "ct_g9a_22",
+      "strength": "hard",
+      "reason": "弧度制与初中弧长公式（l=nπr/180）直接相通，统一为 l=|α|r"
+    },
+    {
+      "topicId": "ct_g10a_20",
+      "prerequisiteId": "ct_g10a_19",
+      "strength": "hard",
+      "reason": "单位圆定义以任意角与弧度制为前提"
+    },
+    {
+      "topicId": "ct_g10a_20",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "soft",
+      "reason": "终边上点坐标的讨论使用平面直角坐标系"
+    },
+    {
+      "topicId": "ct_g10a_21",
+      "prerequisiteId": "ct_g10a_20",
+      "strength": "hard",
+      "reason": "同角关系与诱导公式是三角函数概念的直接推论"
+    },
+    {
+      "topicId": "ct_g10a_21",
+      "prerequisiteId": "ct_g9b_15",
+      "strength": "hard",
+      "reason": "初中锐角三角函数的同角关系（sin²+cos²=1）扩展到任意角（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10a_22",
+      "prerequisiteId": "ct_g10a_21",
+      "strength": "hard",
+      "reason": "图象上点的坐标由特殊角函数值确定（诱导公式求值）"
+    },
+    {
+      "topicId": "ct_g10a_23",
+      "prerequisiteId": "ct_g10a_22",
+      "strength": "hard",
+      "reason": "恒等变换服务于三角函数式的化简，以图象与定义为基础"
+    },
+    {
+      "topicId": "ct_g10a_23",
+      "prerequisiteId": "ct_g8a_16",
+      "strength": "soft",
+      "reason": "公式展开的结构与乘法公式的代数变形同构"
+    },
+    {
+      "topicId": "ct_g10a_24",
+      "prerequisiteId": "ct_g10a_23",
+      "strength": "hard",
+      "reason": "辅助角公式（asinx+bcosx）由和差角公式导出，是图象研究的工具"
+    },
+    {
+      "topicId": "ct_g10a_25",
+      "prerequisiteId": "ct_g10a_18",
+      "strength": "hard",
+      "reason": "建模活动以函数模型比较与应用为主体内容"
+    },
+    {
+      "topicId": "ct_g10a_25",
+      "prerequisiteId": "ct_g10a_24",
+      "strength": "soft",
+      "reason": "周期现象建模使用 y=Asin(ωx+φ) 模型"
     }
   ]
 }
