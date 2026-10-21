@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 563,
+  "topicCount": 588,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -17407,6 +17407,762 @@
       "prerequisites": [
         "ct_g11a_20",
         "ct_g12a_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_01",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "单韵母与四声：a o e i u ü",
+      "description": "认识 6 个单韵母，读准四声（一声平、二声扬、三声拐弯、四声降）。这是拼音的地基：韵母是音节的核心，四声分辨不清，后面的拼读和识字都会卡住。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按顺序认读 6 个单韵母并正确书写占中格",
+        "听到一个音能判断是第几声（如 mā/má/mǎ/mà）"
+      ],
+      "assessmentPrompt": "给{{name}}看拼音卡片 a、o、e，请{{name}}每个读出四声；再随便说一个带声调的音（如 mǎ），问这是第几声。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "汉语拼音",
+        "editionYear": 2016
+      }
+    },
+    {
+      "id": "ct_yw_g1a_02",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "声母与两拼音节：b p m f 的拼读",
+      "description": "认识 23 个声母，学会「声母+韵母」的两拼法：前音轻短后音重，两音相连猛一碰（如 b-à→bà）。拼读是拼音学习的核心技能，直接决定能否自己读出生字。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确认读全部声母，发音清晰（区分易混的 b/d、p/q）",
+        "能现场拼出「声母+单韵母+声调」的音节，如 b-á→bá"
+      ],
+      "assessmentPrompt": "写几个两拼音节（bà、mǔ、fá）给{{name}}，请{{name}}先拼读再说出整音，检验是否「前音轻短后音重」。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "汉语拼音",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_03",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "复韵母与三拼音节：ai ei ui、g-u-a→gua",
+      "description": "认识复韵母（ai、ei、ui、ao、ou、iu 等）和介母 i/u/ü，学会三拼法「声轻介快韵母响」（g-u-a→gua）。复韵母让能拼的字大大增多，是读准「花、家、瓜」这类字的钥匙。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能认读 9 个复韵母并区分外形相近的（ei/ie、ui/iu）",
+        "能拼出三拼音节：huā、guó、xià"
+      ],
+      "assessmentPrompt": "让{{name}}拼读「huā（花）、guǒ（果）」，看是否把介母 u 读得又轻又快、韵母读得响亮。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "汉语拼音",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_04",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "前后鼻韵母辨析：an/ang、en/eng、in/ing",
+      "description": "读准前鼻韵母（an en in un ün）和后鼻韵母（ang eng ing ong），能分辨「山/上、分/风、亲/清」的差别。前后鼻音不分是低年级最常见的拼音问题，需要早发现早纠正。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能对比朗读 an/ang、en/eng、in/ing，鼻音位置正确",
+        "听到「chén/chéng」这类对比音能指出是前鼻还是后鼻"
+      ],
+      "assessmentPrompt": "说「陈老师 chén、程老师 chéng」让{{name}}听辨：哪个是前鼻音、哪个是后鼻音？再让{{name}}发这两个音对比。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "汉语拼音",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_05",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "整体认读音节：zhi chi shi、yi wu yu 等 16 个",
+      "description": "整体认读音节不能拼读、要整个认记（zhi chi shi ri zi ci si yi wu yu ye yue yuan yin yun ying）。认住它们，遇到「师、一、月、云」等高频字就能直接读出。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能整认 16 个整体认读音节，不拆开拼",
+        "见到 shī（师）、yuè（月）能直呼出来"
+      ],
+      "assessmentPrompt": "出示 zhi、chi、yi、wu、yu、ye、yuan 几张卡片，请{{name}}直接读出（不能拼），看是否整认。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "汉语拼音",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_02",
+        "ct_yw_g1a_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_06",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "田字格与基本笔画：横竖撇捺点",
+      "description": "认识田字格的横中线、竖中线，学写基本笔画（横、竖、撇、捺、点、提）。写字先学「摆好位置」：笔画写在哪个格子、起笔收笔在哪条线，比写得多更重要。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能在田字格里写「一、十、人」等笔画简单的字，位置居中、比例合适",
+        "能说出「人」由哪两个笔画组成（撇、捺）"
+      ],
+      "assessmentPrompt": "请{{name}}在田字格里写「十」，观察横是否压横中线、竖是否压竖中线，撇捺是否舒展。",
+      "standards": [
+        "cschinese-2022:S1.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      }
+    },
+    {
+      "id": "ct_yw_g1a_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "笔顺规则：先横后竖、先撇后捺、从上到下",
+      "description": "掌握基本笔顺规则并按笔顺写独体字（如「田、火、出」）。笔顺是书写习惯的地基，笔顺乱的字越写越快时越难看，也影响后续查字典和输入。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按正确笔顺书写「田、白、水」等独体字并说出先写什么后写什么",
+        "能发现并纠正「先封口后写里面」之类的笔顺错误（如「日」最后写横）"
+      ],
+      "assessmentPrompt": "请{{name}}一边写「火」一边说出笔顺（点、撇、撇、捺），看笔顺是否正确。",
+      "standards": [
+        "cschinese-2022:S1.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_08",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "象形识字：日月水火山石田禾",
+      "description": "通过图画与古文字对应认识象形字（日像太阳、山像山峰）。这是孩子第一次体会「字是从图画变来的」，图画对照是最早的识字策略。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能把「日、月、水、火」等字与对应图片连起来",
+        "能说说「山」这个字哪里像山"
+      ],
+      "assessmentPrompt": "画一个太阳和一座山，写上「日」「山」两个卡片混放，请{{name}}把字和图画配对，并说说为什么。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_09",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "会意识字：日月明、小大尖",
+      "description": "认识会意字：两个部件合起来表意（日月→明、小大→尖、二人→从）。理解了部件表意的道理，识字就从「死记」变成「会推理」，识字速度开始起飞。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能解释「明=日+月（都亮）」「尖=上小下大」",
+        "能猜出新会意字的意思（如「看=手搭在目上」）"
+      ],
+      "assessmentPrompt": "写「明、尖、尘」三个字，请{{name}}说说每个字由什么组成、为什么表示这个意思。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_10",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "偏旁与合体字结构：亻口日木氵",
+      "description": "认识常见偏旁（单人旁、口字旁、日字旁、木字旁、三点水），知道合体字分左右、上下、半包围结构（如「他、唱、明、林、河」）。偏旁是字典部首的前身，也是归类识字的抓手。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出「他、你、们」都有单人旁，和人有关",
+        "能判断「花」是上下结构、「河」是左右结构"
+      ],
+      "assessmentPrompt": "写「唱、明、林、河」四个字，请{{name}}圈出偏旁，说说这些偏旁和意思有什么关系。",
+      "standards": [
+        "cschinese-2022:S1.LZ.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_11",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "对照图画认读常用字词：天地人、口耳目",
+      "description": "入学第一课集中认读最常用字词（天、地、人、口、耳、目、手、足），建立「字—物—音」的联结。这一步不要求写，只要求见面能认。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能认读「天地人你我他」等常用字",
+        "能指着自己的口、耳、目说出对应汉字"
+      ],
+      "assessmentPrompt": "把「天、地、人」三个卡片给{{name}}，请{{name}}分别指一指天、指一指地、指一指自己，再读出字。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "借助拼音自学生字词",
+      "description": "拼音学完后，见到带拼音的生字词能自己拼读认记（如课文《秋天》的「秋、气、了」）。这是拼音学习的目的：从「老师教认字」变成「自己能认字」。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能给生字注音朗读，遇到不认识的字主动看拼音拼读",
+        "能读出带拼音的句子并连词成句"
+      ],
+      "assessmentPrompt": "写一句带拼音的话「qiū tiān dào le」，请{{name}}自己拼读并说出句意。",
+      "standards": [
+        "cschinese-2022:S1.LZ.01",
+        "cschinese-2022:S1.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_03",
+        "ct_yw_g1a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_13",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "儿歌的节奏朗读：小小的船、四季",
+      "description": "朗读儿歌童谣时读出节奏和韵味（「弯弯的月儿小小的船」），做到不唱读、不顿读。节奏感是语感最早的形态，也为背诵积累打底。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能正确流利地朗读课文，按标点停顿",
+        "能拍着手按节奏念一首儿歌"
+      ],
+      "assessmentPrompt": "请{{name}}朗读《小小的船》，观察是否一字一顿地「唱读」；再带{{name}}拍手打节奏念一遍对比。",
+      "standards": [
+        "cschinese-2022:S1.YD.02",
+        "cschinese-2022:S1.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_14",
+      "type": "REPRESENTATIONAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "借助图画读懂课文内容",
+      "description": "课文读不懂时，学会看插图帮助理解（图文对照）。一年级课文配图多，读图是重要的阅读策略，也是「提取信息」的起点。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能看着插图说出课文讲的是谁、在干什么",
+        "读不懂的句子会主动翻回前面的图找线索"
+      ],
+      "assessmentPrompt": "翻到一篇没读过的带图课文，遮住文字，请{{name}}先看图说说「图上发生了什么」，再读文字验证。",
+      "standards": [
+        "cschinese-2022:S1.YD.01",
+        "cschinese-2022:S1.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_15",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "自然段的认识与指读",
+      "description": "知道课文由自然段组成（每段开头空两格），能数出课文有几个自然段，第几句到哪结束。这是阅读的「地图感」：以后老师问「第三段写了什么」，孩子得找得到。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能数出一篇短课文有几个自然段",
+        "能指出第 2 自然段从哪里到哪里"
+      ],
+      "assessmentPrompt": "打开《秋天》一课，请{{name}}数一数有几个自然段，用手指给{{name}}看第 2 自然段。",
+      "standards": [
+        "cschinese-2022:S1.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_12",
+        "ct_yw_g1a_14"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_16",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "反义词与数量词的初步整理：大小多少",
+      "description": "通过《大小多少》整理反义词对（大—小、多—少）和常见量词（一头黄牛、一只猫、一个苹果、一堆杏）。词的成对成串积累，比单个记效率高得多。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出 3 组以上反义词",
+        "能正确选用「只、头、个、条」等量词（一头牛✓ 一只猫✓）"
+      ],
+      "assessmentPrompt": "说「大」，请{{name}}对反义词；再问「一（ ）鸭子的括号里填什么」，看量词是否用对。",
+      "standards": [
+        "cschinese-2022:S1.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_11",
+        "ct_yw_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "朗读中的问句与感叹句语气",
+      "description": "读到问号语调上扬（谁的尾巴长？），读到感叹号读出赞叹（多么可爱呀！）。标点符号不只是符号，它提示怎么读——这是「读出语气」的第一课。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "朗读时能区分问句上扬、感叹句加重",
+        "能听出别人读的句子是问句还是感叹句"
+      ],
+      "assessmentPrompt": "写两句话「你去吗？」「真美呀！」请{{name}}分别朗读，听语调是否有区分。",
+      "standards": [
+        "cschinese-2022:S1.YD.02",
+        "cschinese-2022:S1.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_18",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "说完整句：谁在哪里干什么",
+      "description": "把「小鸟飞」说成「小鸟在天上飞」——用「谁+在哪里+干什么」的框架把话说完整。完整句是口语和写话的共同地基，说得不完整的孩子，写话一定残缺。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "回答问题时能说完整句而不是单个词",
+        "能看一幅图用完整句说一句话"
+      ],
+      "assessmentPrompt": "问{{name}}「晚饭吃了什么」，如果只答「面条」，追问「谁能说完整？谁在哪里吃了什么？」",
+      "standards": [
+        "cschinese-2022:S1.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_11"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_19",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：我说你做（听清指令）",
+      "description": "听别人发指令能听清、记住并做对（「请你把铅笔放到文具盒里」）；自己发指令能大声说清楚。一年级口语交际的重点是「听完整+说清楚」，是课堂规则和沟通能力的第一步。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能一次听清两步指令并正确完成",
+        "能大声清楚地给同伴发一个指令"
+      ],
+      "assessmentPrompt": "对{{name}}说「请你拿起语文书，放到椅子上」，看是否两步都做对；再请{{name}}给你发一个指令。",
+      "standards": [
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_20",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：我们做朋友（介绍与邀请）",
+      "description": "学会介绍自己的名字、爱好，并礼貌地发出邀请（「我叫××，我们一起玩好吗？」）。这是孩子社交语言的第一课：敢开口、有礼貌、会商量。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能大方地说出自己的名字和一件喜欢的事",
+        "能用商量语气发出邀请并被拒绝时不哭闹、会换个说法"
+      ],
+      "assessmentPrompt": "请{{name}}假扮刚认识新同学，介绍自己并邀请对方一起搭积木，观察声音是否响亮、有没有礼貌用语。",
+      "standards": [
+        "cschinese-2022:S1.BD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_21",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "看图讲小故事：把画面连起来说",
+      "description": "看多幅图能按顺序讲一个小故事（先…然后…最后…）。讲故事综合了观察、词语和句式，是从「说句子」到「说一段话」的桥梁。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能按图序讲清谁、干了什么、结果怎样",
+        "讲述中会用「然后、最后」等连接词"
+      ],
+      "assessmentPrompt": "给{{name}}看 3 幅连续图（如小兔种萝卜），请{{name}}讲个故事，听是否按顺序、说完整。",
+      "standards": [
+        "cschinese-2022:S1.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "课文（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_14",
+        "ct_yw_g1a_18"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_22",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "字词分类整理：文具、动物、数字",
+      "description": "把学过的字词按类别整理（文具类：笔、尺、书；动物类：鸟、马、鱼）。分类是最早的思维训练：给字找到「家」，记忆才牢，运用才活。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能把一堆字卡按「动物/文具/数字」分好类",
+        "能说出分类理由（「鱼会动，是动物」）"
+      ],
+      "assessmentPrompt": "写字卡「马、笔、鱼、书、六」，请{{name}}分三类摆好，说说为什么这样分。",
+      "standards": [
+        "cschinese-2022:S1.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_10",
+        "ct_yw_g1a_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_23",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "和大人一起读：阅读习惯起步",
+      "description": "通过「快乐读书吧」建立亲子共读习惯：每天读一点、读封面、猜内容。阅读兴趣和习惯比识字量更决定后来的阅读能力，这一课教的是「怎么开始读书」。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能安静听完一本绘本并回答简单问题",
+        "拿到新书会先看封面猜一猜内容"
+      ],
+      "assessmentPrompt": "和{{name}}读一本绘本前先遮住内容，请{{name}}看封面猜「这书讲什么」，读完再问「猜对了吗」。",
+      "standards": [
+        "cschinese-2022:S1.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_24",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "背诵积累：咏鹅与对韵歌",
+      "description": "背诵《咏鹅》《对韵歌》等韵文，在琅琅上口中积累「云对雨、雪对风」式的语言材料。背诵是低年级积累的主渠道——先存进去，将来才有得取。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能熟练背诵本册要求的篇目",
+        "大人提示第一个字能接着往下背"
+      ],
+      "assessmentPrompt": "请{{name}}背《咏鹅》，可以起个头「鹅，鹅，鹅——」；背完问{{name}}「曲项向天歌是什么在伸脖子呀」。",
+      "standards": [
+        "cschinese-2022:S1.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（一）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g1a_25",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "认读课后生字表与写字表（一上 300 字 / 100 字）",
+      "description": "一年级上册要求认识 300 个常用字、会写 100 个字。能对着生字表自查「哪些还不认识」，是学期末的总目标，也是一年级最重要的量化识字任务。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "随机抽查生字表认对率 90% 以上",
+        "会写字的笔画位置和笔顺基本正确"
+      ],
+      "assessmentPrompt": "从课本后的生字表随机指 20 个字请{{name}}认读，数一数认对多少个。",
+      "standards": [
+        "cschinese-2022:S1.LZ.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "识字（二）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g1a_07",
+        "ct_yw_g1a_10",
+        "ct_yw_g1a_12"
       ]
     }
   ]

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 942,
+  "edgeCount": 973,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -5655,6 +5655,192 @@
       "prerequisiteId": "ct_g10b_04",
       "strength": "soft",
       "reason": "定义法求空间角（线面角、二面角）时最终在三角形中用正余弦定理计算，向量法之外的重要备选路径"
+    },
+    {
+      "topicId": "ct_yw_g1a_02",
+      "prerequisiteId": "ct_yw_g1a_01",
+      "strength": "hard",
+      "reason": "两拼法需要韵母和四声先行：先有 b-à 的 à，才有拼读"
+    },
+    {
+      "topicId": "ct_yw_g1a_03",
+      "prerequisiteId": "ct_yw_g1a_02",
+      "strength": "hard",
+      "reason": "复韵母由单韵母组合而成，三拼法在两拼法熟练后引入"
+    },
+    {
+      "topicId": "ct_yw_g1a_04",
+      "prerequisiteId": "ct_yw_g1a_03",
+      "strength": "hard",
+      "reason": "前后鼻韵母都是复合韵尾，需在复韵母基础上对比分辨"
+    },
+    {
+      "topicId": "ct_yw_g1a_05",
+      "prerequisiteId": "ct_yw_g1a_02",
+      "strength": "hard",
+      "reason": "zhi/chi/shi 等整体认读音节建立在声母韵母系统之上，教学中先学拼读再整体认记"
+    },
+    {
+      "topicId": "ct_yw_g1a_05",
+      "prerequisiteId": "ct_yw_g1a_03",
+      "strength": "soft",
+      "reason": "ye/yue/yuan 等含复韵母成分，复韵母认读有助整体记忆"
+    },
+    {
+      "topicId": "ct_yw_g1a_07",
+      "prerequisiteId": "ct_yw_g1a_06",
+      "strength": "hard",
+      "reason": "笔顺规则作用于基本笔画之上：先会写横竖撇捺，才谈先横后竖"
+    },
+    {
+      "topicId": "ct_yw_g1a_09",
+      "prerequisiteId": "ct_yw_g1a_08",
+      "strength": "hard",
+      "reason": "会意字是象形字的组合（日+月=明），先懂象形再懂会意"
+    },
+    {
+      "topicId": "ct_yw_g1a_10",
+      "prerequisiteId": "ct_yw_g1a_09",
+      "strength": "soft",
+      "reason": "偏旁是表义部件的固定化，理解部件表意后偏旁学习事半功倍"
+    },
+    {
+      "topicId": "ct_yw_g1a_12",
+      "prerequisiteId": "ct_yw_g1a_03",
+      "strength": "hard",
+      "reason": "拼读生字需要两拼三拼全部过关"
+    },
+    {
+      "topicId": "ct_yw_g1a_12",
+      "prerequisiteId": "ct_yw_g1a_05",
+      "strength": "hard",
+      "reason": "高频字多为整体认读音节，直呼能力决定自读生词的流畅度"
+    },
+    {
+      "topicId": "ct_yw_g1a_13",
+      "prerequisiteId": "ct_yw_g1a_12",
+      "strength": "hard",
+      "reason": "朗读课文的前提是字音能自己拼读出来"
+    },
+    {
+      "topicId": "ct_yw_g1a_14",
+      "prerequisiteId": "ct_yw_g1a_11",
+      "strength": "soft",
+      "reason": "图文对照识字的经验迁移为读图理解课文的策略"
+    },
+    {
+      "topicId": "ct_yw_g1a_15",
+      "prerequisiteId": "ct_yw_g1a_12",
+      "strength": "soft",
+      "reason": "能逐字认读后才有精力关注段落结构"
+    },
+    {
+      "topicId": "ct_yw_g1a_16",
+      "prerequisiteId": "ct_yw_g1a_11",
+      "strength": "hard",
+      "reason": "反义词与量词整理以常用字词认读为基础"
+    },
+    {
+      "topicId": "ct_yw_g1a_17",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "hard",
+      "reason": "读出问句感叹句语气，需先做到正确流利的朗读"
+    },
+    {
+      "topicId": "ct_yw_g1a_18",
+      "prerequisiteId": "ct_yw_g1a_11",
+      "strength": "hard",
+      "reason": "说完整句需要足够的常用词储备"
+    },
+    {
+      "topicId": "ct_yw_g1a_19",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "soft",
+      "reason": "发指令说清楚与完整句表达同源，可互相促进"
+    },
+    {
+      "topicId": "ct_yw_g1a_20",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "hard",
+      "reason": "自我介绍要用完整句说出名字和爱好"
+    },
+    {
+      "topicId": "ct_yw_g1a_21",
+      "prerequisiteId": "ct_yw_g1a_14",
+      "strength": "hard",
+      "reason": "看图讲故事首先依赖读图获取信息的能力"
+    },
+    {
+      "topicId": "ct_yw_g1a_21",
+      "prerequisiteId": "ct_yw_g1a_18",
+      "strength": "hard",
+      "reason": "讲故事由多个完整句连缀而成"
+    },
+    {
+      "topicId": "ct_yw_g1a_22",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "hard",
+      "reason": "分类整理需要先认识足量字词并理解其义类"
+    },
+    {
+      "topicId": "ct_yw_g1a_22",
+      "prerequisiteId": "ct_yw_g1a_16",
+      "strength": "soft",
+      "reason": "反义词量词整理是分类活动的具体经验"
+    },
+    {
+      "topicId": "ct_yw_g1a_23",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "soft",
+      "reason": "亲子共读从跟读儿歌起步，朗读节奏感降低共读门槛"
+    },
+    {
+      "topicId": "ct_yw_g1a_24",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "hard",
+      "reason": "背诵建立在读熟的基础上，先读顺再背"
+    },
+    {
+      "topicId": "ct_yw_g1a_25",
+      "prerequisiteId": "ct_yw_g1a_12",
+      "strength": "hard",
+      "reason": "达成 300 字认读量的方法就是借助拼音反复自读"
+    },
+    {
+      "topicId": "ct_yw_g1a_25",
+      "prerequisiteId": "ct_yw_g1a_07",
+      "strength": "hard",
+      "reason": "100 个会写字的书写质量取决于笔画笔顺规范"
+    },
+    {
+      "topicId": "ct_yw_g1a_25",
+      "prerequisiteId": "ct_yw_g1a_10",
+      "strength": "soft",
+      "reason": "偏旁结构知识帮助成串记忆生字"
+    },
+    {
+      "topicId": "ct_yw_g1a_08",
+      "prerequisiteId": "ct_yw_g1a_01",
+      "strength": "soft",
+      "reason": "象形字教学与拼音同期进行，字音意识辅助图画识字"
+    },
+    {
+      "topicId": "ct_yw_g1a_11",
+      "prerequisiteId": "ct_yw_g1a_08",
+      "strength": "soft",
+      "reason": "图画对照认字从象形字扩展到全部常用字"
+    },
+    {
+      "topicId": "ct_yw_g1a_16",
+      "prerequisiteId": "ct_yw_g1a_13",
+      "strength": "soft",
+      "reason": "《大小多少》本身是儿歌，朗读中感知反义与量词"
+    },
+    {
+      "topicId": "ct_yw_g1a_15",
+      "prerequisiteId": "ct_yw_g1a_14",
+      "strength": "soft",
+      "reason": "借助图画理解内容后，自然段划分更有意义"
     }
   ]
 }

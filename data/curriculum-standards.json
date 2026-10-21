@@ -6,9 +6,11 @@
   },
   "codesOnlySources": [
     "csmath-2022",
-    "hsmath-2017"
+    "hsmath-2017",
+    "cschinese-2022",
+    "hschinese-2017"
   ],
-  "curriculumCount": 2,
+  "curriculumCount": 4,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -1298,6 +1300,686 @@
         }
       ],
       "topicCount": 54
+    },
+    {
+      "slug": "cschinese-2022",
+      "title": "义务教育语文课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cschinese-2022:S1.LZ.01",
+          "code": "S1.LZ.01",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "汉语拼音：声母、韵母、整体认读音节与拼读"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.02",
+          "code": "S1.LZ.02",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "基本笔画与笔顺规则、独体字书写"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.03",
+          "code": "S1.LZ.03",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "偏旁部首与合体字结构（上下、左右、半包围）"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.04",
+          "code": "S1.LZ.04",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "借助图画与语境识字（象形、会意等识字方法）"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.05",
+          "code": "S1.LZ.05",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "音序查字法与部首查字法（查字典）"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.01",
+          "code": "S1.YD.01",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "借助拼音和图画阅读浅近课文"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.02",
+          "code": "S1.YD.02",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "朗读：读正确、读通顺，注意标点停顿与语气"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.03",
+          "code": "S1.YD.03",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "结合图文提取明显信息、了解课文内容"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.04",
+          "code": "S1.YD.04",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "儿歌童谣的节奏朗读与背诵积累"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.01",
+          "code": "S1.BD.01",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "说完整句（谁、在哪里、干什么）"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.02",
+          "code": "S1.BD.02",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "口语交际：认真听、大胆说、讲礼貌"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.03",
+          "code": "S1.BD.03",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "写话起步：句号、问号、感叹号的初步使用"
+        },
+        {
+          "key": "cschinese-2022:S1.SL.01",
+          "code": "S1.SL.01",
+          "stage": 1,
+          "domain": "梳理与探究",
+          "title": "字词的分类与整理（生活类别）"
+        },
+        {
+          "key": "cschinese-2022:S1.SL.02",
+          "code": "S1.SL.02",
+          "stage": 1,
+          "domain": "梳理与探究",
+          "title": "和大人一起读：亲子共读与阅读习惯养成"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.01",
+          "code": "S2.LZ.01",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "累计识字 2500、会写 1600；硬笔书写规范"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.02",
+          "code": "S2.LZ.02",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "形声字形旁表义、声旁表音的构字规律"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.03",
+          "code": "S2.LZ.03",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "联系上下文理解词句、近反义词辨析"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.01",
+          "code": "S2.YD.01",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "默读：不出声不指读，初知大意"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.02",
+          "code": "S2.YD.02",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "关键词句的意思与表达作用"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.03",
+          "code": "S2.YD.03",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "自然段与段落大意的把握、借助关键句概括"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.04",
+          "code": "S2.YD.04",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "复述课文（详细复述与简要复述）"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.05",
+          "code": "S2.YD.05",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "童话、寓言故事蕴含道理的领会"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.06",
+          "code": "S2.YD.06",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "古诗的朗读背诵与画面想象"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.01",
+          "code": "S2.BD.01",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "观察与片段写话：把看到的过程写清楚"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.02",
+          "code": "S2.BD.02",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "习作起步：把一件事写完整（时间地点人物事件）"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.03",
+          "code": "S2.BD.03",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "口语交际：转述、讨论中的倾听与回应"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.01",
+          "code": "S2.SL.01",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "观察记录与观察日记"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.02",
+          "code": "S2.SL.02",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "词句段的分类积累与尝试运用"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.03",
+          "code": "S2.SL.03",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "查阅资料解决阅读中的疑问"
+        },
+        {
+          "key": "cschinese-2022:S3.LZ.01",
+          "code": "S3.LZ.01",
+          "stage": 3,
+          "domain": "识字与写字",
+          "title": "累计识字 3000、会写 2500；行款整齐的书写"
+        },
+        {
+          "key": "cschinese-2022:S3.LZ.02",
+          "code": "S3.LZ.02",
+          "stage": 3,
+          "domain": "识字与写字",
+          "title": "词语的感情色彩与在不同语境中的分寸"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.01",
+          "code": "S3.YD.01",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "默读有一定速度、边读边思考"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.02",
+          "code": "S3.YD.02",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "说明性文章：抓住要点、了解基本说明方法"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.03",
+          "code": "S3.YD.03",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "叙事性作品：情节、人物、环境三要素"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.04",
+          "code": "S3.YD.04",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "诗歌散文的初步鉴赏（意象与情感）"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.05",
+          "code": "S3.YD.05",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "文言诗文启蒙：借助注释理解词句与文意"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.06",
+          "code": "S3.YD.06",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "非连续性文本的信息提取与整合"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.07",
+          "code": "S3.YD.07",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "整本书阅读：名著导读与阅读方法"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.01",
+          "code": "S3.BD.01",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "习作：记实与想象，做到有中心、有条理"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.02",
+          "code": "S3.BD.02",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "读书笔记与读后感"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.03",
+          "code": "S3.BD.03",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "演讲与即席发言：观点加理由"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.01",
+          "code": "S3.SL.01",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "资料搜集与简单的研究报告"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.02",
+          "code": "S3.SL.02",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "汉字文化与语言现象的探究"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.03",
+          "code": "S3.SL.03",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "作文的自查自改与互改"
+        },
+        {
+          "key": "cschinese-2022:S4.LZ.01",
+          "code": "S4.LZ.01",
+          "stage": 4,
+          "domain": "识字与写字",
+          "title": "字音字形字义的准确辨析（3500 常用字）"
+        },
+        {
+          "key": "cschinese-2022:S4.LZ.02",
+          "code": "S4.LZ.02",
+          "stage": 4,
+          "domain": "识字与写字",
+          "title": "词义语境推断与成语的正确使用"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.01",
+          "code": "S4.YD.01",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "朗读与默读：把握语气、节奏与文意"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.02",
+          "code": "S4.YD.02",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "现代文整体感知与思路梳理"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.03",
+          "code": "S4.YD.03",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "记叙文：叙述角度、详略安排与线索"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.04",
+          "code": "S4.YD.04",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "说明文：对象、顺序与方法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.05",
+          "code": "S4.YD.05",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "议论文：论点、论据与论证方法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.06",
+          "code": "S4.YD.06",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "小说阅读：三要素与主题理解"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.07",
+          "code": "S4.YD.07",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "散文阅读：线索与情感把握"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.08",
+          "code": "S4.YD.08",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "诗歌阅读：意象、节奏与情感"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.09",
+          "code": "S4.YD.09",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "文言文阅读：实词虚词句式与翻译"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.10",
+          "code": "S4.YD.10",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "古代诗歌鉴赏：意象意境与表现手法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.11",
+          "code": "S4.YD.11",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "名著导读与整本书阅读"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.12",
+          "code": "S4.YD.12",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "非连续性文本与跨媒介信息整合"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.01",
+          "code": "S4.BD.01",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：记叙文多角度立意与细节描写"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.02",
+          "code": "S4.BD.02",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：说明文条理与特征"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.03",
+          "code": "S4.BD.03",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：议论文观点明确、有理有据"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.04",
+          "code": "S4.BD.04",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "应用文写作（书信、通知、活动方案等）"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.05",
+          "code": "S4.BD.05",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "口语交际：讨论、采访、演讲"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.01",
+          "code": "S4.SL.01",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "词句段梳理与语言运用规律探究"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.02",
+          "code": "S4.SL.02",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "综合性学习：策划活动与表达成果"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.03",
+          "code": "S4.SL.03",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "文学文化常识整理（作家作品与文体）"
+        }
+      ],
+      "topicCount": 66
+    },
+    {
+      "slug": "hschinese-2017",
+      "title": "普通高中语文课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hschinese-2017:H1.LZ.01",
+          "code": "H1.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "语音文字规范运用与语病辨析"
+        },
+        {
+          "key": "hschinese-2017:H1.LZ.02",
+          "code": "H1.LZ.02",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "词语（含熟语）的准确理解与选用"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.01",
+          "code": "H1.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "现代诗歌：意象选择与抒情方式"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.02",
+          "code": "H1.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "写景抒情散文：景与情的融合"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.03",
+          "code": "H1.WX.03",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "小说：叙事视角与人物塑造"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.04",
+          "code": "H1.WX.04",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "青春主题诗文朗读与创作"
+        },
+        {
+          "key": "hschinese-2017:H1.SW.01",
+          "code": "H1.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "议论性文章的论证结构与逻辑分析"
+        },
+        {
+          "key": "hschinese-2017:H1.SY.01",
+          "code": "H1.SY.01",
+          "stage": 5,
+          "domain": "实用性阅读与交流",
+          "title": "新闻传媒类文本：信息获取与立场辨析"
+        },
+        {
+          "key": "hschinese-2017:H1.ZB.01",
+          "code": "H1.ZB.01",
+          "stage": 5,
+          "domain": "整本书阅读与研讨",
+          "title": "《乡土中国》学术著作整本书阅读"
+        },
+        {
+          "key": "hschinese-2017:H1.KJ.01",
+          "code": "H1.KJ.01",
+          "stage": 5,
+          "domain": "跨媒介阅读与交流",
+          "title": "家乡文化生活调查与当代文化参与"
+        },
+        {
+          "key": "hschinese-2017:H2.LZ.01",
+          "code": "H2.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "文言实词推断与词义系统梳理"
+        },
+        {
+          "key": "hschinese-2017:H2.LZ.02",
+          "code": "H2.LZ.02",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "词类活用与文言特殊句式"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.01",
+          "code": "H2.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中华传统文化经典研习（史传、诸子散文）"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.02",
+          "code": "H2.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "古诗词鉴赏：意象意境、手法与情感"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.03",
+          "code": "H2.WX.03",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "戏剧文学：矛盾冲突与人物台词"
+        },
+        {
+          "key": "hschinese-2017:H2.SW.01",
+          "code": "H2.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "信息性阅读：多元文本的观点整合"
+        },
+        {
+          "key": "hschinese-2017:H2.SY.01",
+          "code": "H2.SY.01",
+          "stage": 5,
+          "domain": "实用性阅读与交流",
+          "title": "科普说明与社会调查类实用文本阅读"
+        },
+        {
+          "key": "hschinese-2017:H2.BD.01",
+          "code": "H2.BD.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "议论性文章写作：观点与材料的统一"
+        },
+        {
+          "key": "hschinese-2017:H3.WX.01",
+          "code": "H3.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中国现当代作家作品研习"
+        },
+        {
+          "key": "hschinese-2017:H3.WX.02",
+          "code": "H3.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "外国作家作品研习与比较阅读"
+        },
+        {
+          "key": "hschinese-2017:H3.SW.01",
+          "code": "H3.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "驳论与批判性思维写作"
+        },
+        {
+          "key": "hschinese-2017:H3.ZB.01",
+          "code": "H3.ZB.01",
+          "stage": 5,
+          "domain": "整本书阅读与研讨",
+          "title": "《红楼梦》长篇小说整本书阅读"
+        },
+        {
+          "key": "hschinese-2017:H4.WX.01",
+          "code": "H4.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中华传统文化专题研习（诗文互证）"
+        },
+        {
+          "key": "hschinese-2017:H4.SW.01",
+          "code": "H4.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "逻辑规则与复杂论证的构建"
+        },
+        {
+          "key": "hschinese-2017:H4.KJ.01",
+          "code": "H4.KJ.01",
+          "stage": 5,
+          "domain": "跨媒介阅读与交流",
+          "title": "跨媒介信息甄别与数字化表达"
+        },
+        {
+          "key": "hschinese-2017:H5.LZ.01",
+          "code": "H5.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "汉语专题梳理：成语、修辞与语体系统"
+        },
+        {
+          "key": "hschinese-2017:H5.WX.01",
+          "code": "H5.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "科学与文化论著研读"
+        },
+        {
+          "key": "hschinese-2017:H5.SW.01",
+          "code": "H5.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "学术性小论文写作与修改"
+        }
+      ],
+      "topicCount": 28
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "generatedAt": "2026-10-21",
   "counts": {
-    "topics": 563,
-    "dependencies": 942,
-    "standards": 181,
+    "topics": 588,
+    "dependencies": 973,
+    "standards": 275,
     "deprecated": 0,
     "byGrade": {
-      "1年级上": 24,
+      "1年级上": 49,
       "1年级下": 20,
       "2年级上": 22,
       "2年级下": 17,
@@ -36,7 +36,8 @@
   "coverage": {
     "scope": "K12（小学 1-6 / 初中 7-9 / 高中 10-12）",
     "subjects": [
-      "数学"
+      "数学",
+      "语文"
     ],
     "grades": [
       1,
@@ -55,22 +56,23 @@
     "textbookSeries": [
       "人教A版·2019 年版",
       "人教版·2012 年版",
-      "人教版·2022 年版"
+      "人教版·2022 年版",
+      "统编版·2016 年版"
     ],
-    "note": "覆盖 数学（人教系/统编教材）；进度详见 CHANGELOG。"
+    "note": "覆盖 数学、语文（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 614977,
-      "sha256": "238541e33bfccddeecac35cadb388b03e89eb4bae191f4ecdef8270c5c9fcacb"
+      "bytes": 642997,
+      "sha256": "dd11d21df585d41e2933babf85157a759226c2420a8459e348f696099058bd5b"
     },
     "dependencies.json": {
-      "bytes": 180776,
-      "sha256": "0250f4a482c4aa18cf9affebd64bfc8cd11731a9d7eb9eaa216ce2be847175de"
+      "bytes": 186744,
+      "sha256": "14cd77916dff18925db08a142b71d2c227b0f4be2df122914af831e388a9b25f"
     },
     "curriculum-standards.json": {
-      "bytes": 42914,
-      "sha256": "dca7eb86e32a14f94f3037a2d5ed60cda7ebcdc141b400d0fa2ec2428816b703"
+      "bytes": 64741,
+      "sha256": "165208be6720daa0a2f1de8b5b224c4591493cec90540356901538d7f1e25589"
     },
     "deprecated.json": {
       "bytes": 348,
