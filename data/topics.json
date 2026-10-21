@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.10.0",
+  "version": "0.11.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 310,
+  "topicCount": 335,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -9538,6 +9538,773 @@
         "ct_g4b_31",
         "ct_g6a_12",
         "ct_g6b_21"
+      ]
+    },
+    {
+      "id": "ct_g7a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正数和负数（系统化）",
+      "description": "小学认识了表示相反意义的负数，现在正式定义：大于 0 的数是正数、小于 0 的是负数。海拔、收支、增减、误差——用符号语言把「相反」写进数系，算术数升级为有理数。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用正负数表示指定情境中相反意义的量",
+        "能判断一个数是正数、负数还是既非正也非负"
+      ],
+      "assessmentPrompt": "问{{name}}：「向南走 8 米记 +8，那 -12 米什么意思？0 表示什么？体重增加 -1.5 千克是什么含义？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_01"
+      ]
+    },
+    {
+      "id": "ct_g7a_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有理数的分类",
+      "description": "整数（正整数、0、负整数）和分数（正分数、负分数）统称有理数。画一棵分类树：按定义分、按符号分，两种分法都要过——数系第一次有了「户口普查」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能按两种标准对给定的数集分类",
+        "能说出 0 在两种分类中的位置"
+      ],
+      "assessmentPrompt": "给{{name}}一组数：-3、0、2.5、-1/2、7，让{{name}}填进有理数分类树，问「0 是整数吗？负分数有哪些？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_17",
+        "ct_g7a_01"
+      ]
+    },
+    {
+      "id": "ct_g7a_03",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数轴与相反数",
+      "description": "规定了原点、正方向、单位长度的直线叫数轴：每个有理数都在数轴上占一个点。只有符号不同的两个数互为相反数（2 与 -2），它们关于原点对称——数与形第一次正式合体。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能正确画数轴并标出有理数",
+        "能写出任一数的相反数并说明几何特征"
+      ],
+      "assessmentPrompt": "让{{name}}画数轴并标出 -3.5、0、2；问「-3.5 的相反数是谁？它们到原点距离怎样？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_02",
+        "ct_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "绝对值与有理数的大小比较",
+      "description": "数轴上表示数 a 的点到原点的距离叫 a 的绝对值 |a|：|-5| = 5。绝对值是非负的，互为相反数的两数绝对值相等。比较大小：正数 > 0 > 负数，两个负数绝对值大的反而小。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能求任意有理数的绝对值并说明其非负性",
+        "能比较多个负数的大小并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「|-8| 是多少？-8 与 -3 谁大？为什么负数比大小要反着看？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_03"
+      ]
+    },
+    {
+      "id": "ct_g7a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有理数的加法",
+      "description": "同号相加取相同符号、绝对值相加；异号相加取绝对值大的符号、绝对值相减。在数轴上向东走再向西走，一走一看就明白——加法法则是「走路」的数学翻译。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能正确进行有理数加法运算并说清符号判定",
+        "能运用加法交换律结合律简化计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「-7 + 4 等于多少？符号怎么定？(-2.5) + (-1.5) 呢？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_06",
+        "ct_g7a_04"
+      ]
+    },
+    {
+      "id": "ct_g7a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有理数的减法与加减混合运算",
+      "description": "减去一个数等于加上它的相反数：3 - (-5) = 3 + 5 = 8。减法统一成加法后，算式可以写成省略加号的和（-3 + 5 - 2），运算只剩一种——化归思想的经典示范。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能熟练进行有理数减法与加减混合运算",
+        "能把加减混合式统一成省略加号的和并计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「5 - (-8) = ? 12 - 18 - 7 = ? 减法为什么能变成加法？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_g7a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有理数的乘除法",
+      "description": "同号得正、异号得负，绝对值相乘除：(-4)×(-3)=12。负数也有倒数（-1/2 的倒数是 -2），除以一个数等于乘它的倒数。符号法则一套到底，乘除全通。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能熟练进行有理数乘除运算（符号不错）",
+        "知道负倒数的概念并能将除法转化为乘法"
+      ],
+      "assessmentPrompt": "问{{name}}：「(-6)×(-0.5)=? (-12)÷3=? 几个负数相乘什么时候得正？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_04",
+        "ct_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_g7a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "有理数的乘方与混合运算",
+      "description": "n 个相同因数相乘记作乘方：(-2)³ = -8。注意 (-2)²=4 而 -2²=-4，括号有无天壤之别。混合运算先乘方、再乘除、后加减，有括号先算括号——运算等级森严。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能正确进行乘方与四则混合运算",
+        "能区分 (-a)ⁿ 与 -aⁿ"
+      ],
+      "assessmentPrompt": "问{{name}}：「(-3)² 和 -3² 各等于多少？-2³ 呢？先乘方还是先乘除？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_07"
+      ]
+    },
+    {
+      "id": "ct_g7a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "科学记数法与近似数",
+      "description": "光速 300000000 m/s 写作 3×10⁸——a×10ⁿ（1≤|a|<10）。近似数说精度：3.15 精确到百分位，有 3 个有效数字。大数瘦身、误差量化，科学与工程的通用语言。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用科学记数法表示大数并还原",
+        "能指出近似数的精确位数与有效数字"
+      ],
+      "assessmentPrompt": "问{{name}}：「567000000 用科学记数法怎么写？3.6 万精确到哪一位？由 3.599 四舍五入到十分位是多少？」",
+      "standards": [
+        "csmath-2022:S4.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_04",
+        "ct_g7a_08"
+      ]
+    },
+    {
+      "id": "ct_g7a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用字母表示数与代数式",
+      "description": "小学用字母表示过数和公式，现在系统化：用字母表示数后，数量关系写成代数式（如 2a+3b）。列式是「翻译」——把话翻成数学语言，数学从此谈论任意数而非特定数。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能把文字叙述的数量关系列成代数式",
+        "能说出给定代数式表示的实际意义"
+      ],
+      "assessmentPrompt": "问{{name}}：「比 x 的 3 倍小 5 的数怎么写？2(a+b) 能表示什么（两种含义）？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_14"
+      ]
+    },
+    {
+      "id": "ct_g7a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "单项式与多项式（整式）",
+      "description": "数与字母的积是单项式（-3x²y，系数 -3、次数 3）；几个单项式的和是多项式（x²-2x+1，三次？不，最高次项定次数）。单项式和多项式统称整式——代数式的第一层分类。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能识别单项式多项式并说出系数与次数",
+        "能按某个字母升（降）幂排列多项式"
+      ],
+      "assessmentPrompt": "问{{name}}：「-5ab² 的系数和次数？x³-4x²+3 是几次几项式？按 x 降幂怎么排？」",
+      "standards": [
+        "csmath-2022:S4.NA.AL.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_10"
+      ]
+    },
+    {
+      "id": "ct_g7a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整式的加减（合并同类项与去括号）",
+      "description": "字母和字母指数都相同的项是同类项，合并时系数相加：3x²y + 5x²y = 8x²y。去括号看符号：-(a-b) = -a+b。整式加减三步走：去括号→合并→按幂排列。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能识别同类项并正确合并",
+        "能处理括号前是负数或数字因子的去括号"
+      ],
+      "assessmentPrompt": "让{{name}}化简 3(2x²-x) - 2(x²-5x)，边做边说去括号时符号怎么处理。",
+      "standards": [
+        "csmath-2022:S4.NA.AL.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_09",
+        "ct_g7a_11"
+      ]
+    },
+    {
+      "id": "ct_g7a_13",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学活动：数字与图形规律的代数表达",
+      "description": "摆小棒：1 个三角形 3 根、2 个 5 根、3 个 7 根……第 n 个图形 2n+1 根。用代数式表达规律，是「找规律」从猜到证的一步——数形规律与代数式在此会师。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能从图形或数列前几项归纳第 n 项的表达式",
+        "能用代入验证检验规律正确性"
+      ],
+      "assessmentPrompt": "问{{name}}：「用小棒摆正方形，1 个 4 根、2 个 7 根、3 个 10 根……第 n 个要几根？怎么验证？」",
+      "standards": [
+        "csmath-2022:S4.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_26",
+        "ct_g7a_12"
+      ]
+    },
+    {
+      "id": "ct_g7a_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "方程的概念与等式的性质",
+      "description": "含未知数的等式叫方程。等式两边同加减同一个数（式）、同乘或同除一个非零数，等式仍成立——天平模型从小学延续到初中，成为解方程的全部依据。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能判断方程并能检验一个数是不是方程的解",
+        "能用等式性质对等式作恒等变形"
+      ],
+      "assessmentPrompt": "问{{name}}：「x=3 是 2x-1=5 的解吗？怎么检验？等式两边能同时除以任何数吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_15",
+        "ct_g7a_12"
+      ]
+    },
+    {
+      "id": "ct_g7a_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解一元一次方程（合并同类项与移项）",
+      "description": "移项：把方程一边的项变号移到另一边——本质就是等式两边同加减。解方程的五步大法从此起步：移项→合并→系数化为 1。「移项要变号」是代数第一军规。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能规范解 ax+b=cx+d 型方程",
+        "知道移项变号的依据（等式性质一）"
+      ],
+      "assessmentPrompt": "让{{name}}解 5x-2=3x+8，边解边说每一步的依据，最后检验。",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_12",
+        "ct_g7a_14"
+      ]
+    },
+    {
+      "id": "ct_g7a_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解一元一次方程（去括号与去分母）",
+      "description": "方程里有括号先去括号、有分母先去分母（两边同乘最简公分母），化归为 ax=b。五步完整流程：去分母→去括号→移项→合并→系数化 1。任何一元一次方程都是一条跑道上的同一个终点。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能解含分母和括号的一元一次方程",
+        "去分母时不漏乘无分母项、不忘了括号"
+      ],
+      "assessmentPrompt": "让{{name}}解 (x-1)/2 - (2x+1)/3 = 1，提醒第一步两边同乘几、哪些项要乘。",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_15"
+      ]
+    },
+    {
+      "id": "ct_g7a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实际问题与一元一次方程（一）：配套、工程、行程",
+      "description": "40 名工人生产螺钉螺母按 1:2 配套，怎么分人？甲乙合作 12 天完工，各做几天？相遇追及走多久？——设未知数、找等量关系、列方程、解、验、答，六步一气呵成。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能在配套、工程、行程问题中找准等量关系",
+        "能完整书写设列解验答并检验合理性"
+      ],
+      "assessmentPrompt": "问{{name}}：「两地相距 180 千米，甲乙两车相向而行，甲 60 千米/时、乙 40 千米/时，几小时相遇？方程怎么列？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_17",
+        "ct_g6a_12",
+        "ct_g7a_16"
+      ]
+    },
+    {
+      "id": "ct_g7a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实际问题与一元一次方程（二）：销售盈亏与方案选择",
+      "description": "进价 50 元卖 60 元赚几成？打八折还赚 10% 吗？两种话费套餐哪种划算？——盈亏问题抓「利润=售价-进价」，方案问题列不等式雏形（先试再比）。方程是决策的算盘。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能解决打折销售中的盈亏计算",
+        "能通过设未知数比较不同方案"
+      ],
+      "assessmentPrompt": "问{{name}}：「某商品进价 100 元按标价八折出售仍获利 20%，标价多少？方程怎么设？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6b_04",
+        "ct_g7a_17"
+      ]
+    },
+    {
+      "id": "ct_g7a_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "立体图形与平面图形（展开与折叠）",
+      "description": "棱柱、棱锥、圆柱、圆锥、球是立体图形；点线角多边形是平面图形。立体沿棱剪开得展开图，平面图形折一折能回到立体——三维与二维的翻译课在初中重开（比小学更系统）。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能识别常见立体图形并说出其组成元素",
+        "能判断展开图与立体图形的对应关系（含圆锥侧面是扇形）"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆锥的侧面展开是什么图形？三棱柱有几个面几条棱？这个十字形展开图能折成什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_06"
+      ]
+    },
+    {
+      "id": "ct_g7a_20",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "从三个方向看立体图形（视图）",
+      "description": "从正面、左面、上面观察立体图形，得到三视图。圆柱从正面看是长方形、球的三视图都是圆。视图是工程图纸的祖宗——看与被看之间，是空间想象力的双向车道。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能画出简单立体图形的三视图",
+        "能由三视图描述立体图形的形状"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆柱从正面和上面看各是什么图形？一个立体三视图都是正方形，它可能是什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4b_05",
+        "ct_g7a_19"
+      ]
+    },
+    {
+      "id": "ct_g7a_21",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "直线、射线、线段",
+      "description": "经过两点有一条且只有一条直线（两点确定一条直线）；线段有两个端点可度量。直线无端点、射线一个端点。建筑工人弹墨线、植树拉线——几何公理在工地上干活。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出直线射线线段的表示与区别",
+        "能用两点确定一条直线解释生活现象"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么挂窗帘杆只需两个支架？怎样用一条绳检查课桌边沿直不直？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_08"
+      ]
+    },
+    {
+      "id": "ct_g7a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "线段的比较、中点与度量",
+      "description": "比较线段用叠合法或度量法；把一条线段分成两条相等线段的点叫中点：AB = 2AM。两点之间线段最短——连接两点的所有线中线段最短，这条公理是「抄近道」的数学依据。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用圆规截取、比较线段长短",
+        "能利用中点进行线段长度的计算与推理"
+      ],
+      "assessmentPrompt": "问{{name}}：「M 是 AB 中点，AB=10，AM 多长？为什么两点之间线段最短能解释走捷径？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g2a_02",
+        "ct_g7a_21"
+      ]
+    },
+    {
+      "id": "ct_g7a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "角的度量、比较、和差与角平分线",
+      "description": "角用度分秒量：1°=60′、1′=60″。比较角叠合或度量；一个角的两条边把另一个角分成两个相等的角，这条射线叫角平分线。度分秒六十进制的加减乘除是新的计算体验。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能进行度分秒的换算与运算",
+        "能用角平分线关系进行简单推理计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「48°36′ + 22°45′ 等于多少？OC 平分∠AOB，∠AOB=76°，∠BOC 是多少？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_10",
+        "ct_g7a_22"
+      ]
+    },
+    {
+      "id": "ct_g7a_24",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "余角和补角（及其性质）",
+      "description": "两角之和 90° 互余、180° 互补。同角（等角）的余角相等、补角相等——这是第一条几何推理性质。「一个角是 35°，它的余角补角各是多少」要秒答。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能求任一角的余角补角",
+        "能运用等角余角相等性质进行说理"
+      ],
+      "assessmentPrompt": "问{{name}}：「35° 的余角和补角各多少度？∠1 与∠2 互余、∠3 与∠2 也互余，∠1 和∠3 什么关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g4a_11",
+        "ct_g7a_23"
+      ]
+    },
+    {
+      "id": "ct_g7a_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "几何初步综合：设计制作包装盒",
+      "description": "用硬纸板做一个长方体包装盒：先画三视图与展开图、量好尺寸、留粘贴边。从立体到展开再到实物——几何第一课的实践考试，空间观念的落地检验。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能设计并制作给定尺寸的长方体包装盒",
+        "能说明展开图各面与立体各面的对应关系"
+      ],
+      "assessmentPrompt": "让{{name}}设计一个 5×3×2 厘米的长方体纸盒展开图，问「六个面怎么排？粘贴边留在哪？」",
+      "standards": [
+        "csmath-2022:S4.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_19",
+        "ct_g7a_20"
       ]
     }
   ]

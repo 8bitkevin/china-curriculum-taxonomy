@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.10.0",
+  "version": "0.11.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 511,
+  "edgeCount": 553,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -3069,6 +3069,258 @@
       "prerequisiteId": "ct_g6b_21",
       "strength": "hard",
       "reason": "方程是策略体系的集大成者，复习置于式与方程之后"
+    },
+    {
+      "topicId": "ct_g7a_01",
+      "prerequisiteId": "ct_g6b_01",
+      "strength": "hard",
+      "reason": "小学负数（相反意义的量）的直观认识是初中正式定义正负数的直接基础（跨学段衔接：算术数→有理数）"
+    },
+    {
+      "topicId": "ct_g7a_02",
+      "prerequisiteId": "ct_g7a_01",
+      "strength": "hard",
+      "reason": "有理数分类的元素（正负整数、正负分数）以正负概念为前提"
+    },
+    {
+      "topicId": "ct_g7a_02",
+      "prerequisiteId": "ct_g6b_17",
+      "strength": "soft",
+      "reason": "小学数系总复习（整数小数体系图）是有理数分类树的蓝本"
+    },
+    {
+      "topicId": "ct_g7a_03",
+      "prerequisiteId": "ct_g7a_02",
+      "strength": "hard",
+      "reason": "数轴上表示的对象是全部有理数，分类先行"
+    },
+    {
+      "topicId": "ct_g7a_03",
+      "prerequisiteId": "ct_g6b_02",
+      "strength": "hard",
+      "reason": "小学数轴初步（原点、正方向）直接升级为严格的数轴三要素"
+    },
+    {
+      "topicId": "ct_g7a_04",
+      "prerequisiteId": "ct_g7a_03",
+      "strength": "hard",
+      "reason": "绝对值定义为数轴上的距离，相反数的对称性参与绝对值讨论"
+    },
+    {
+      "topicId": "ct_g7a_05",
+      "prerequisiteId": "ct_g7a_04",
+      "strength": "hard",
+      "reason": "加法法则按同号异号分情形，判定依赖绝对值比较大小"
+    },
+    {
+      "topicId": "ct_g7a_05",
+      "prerequisiteId": "ct_g4b_06",
+      "strength": "soft",
+      "reason": "加法交换律结合律在有理数范围继续成立，运算律经验直接迁移"
+    },
+    {
+      "topicId": "ct_g7a_06",
+      "prerequisiteId": "ct_g7a_05",
+      "strength": "hard",
+      "reason": "减法转化为加法（减去相反数），以加法法则为机器"
+    },
+    {
+      "topicId": "ct_g7a_07",
+      "prerequisiteId": "ct_g7a_06",
+      "strength": "hard",
+      "reason": "乘除法符号法则与加减混合运算在同一运算体系内递进"
+    },
+    {
+      "topicId": "ct_g7a_07",
+      "prerequisiteId": "ct_g6a_04",
+      "strength": "soft",
+      "reason": "倒数的概念（乘积为 1）扩展到负数，除法转乘的依据"
+    },
+    {
+      "topicId": "ct_g7a_08",
+      "prerequisiteId": "ct_g7a_07",
+      "strength": "hard",
+      "reason": "乘方是相同因数连乘，混合运算把乘方排入最高级运算"
+    },
+    {
+      "topicId": "ct_g7a_09",
+      "prerequisiteId": "ct_g7a_08",
+      "strength": "hard",
+      "reason": "科学记数法 a×10ⁿ 的 10ⁿ 就是乘方"
+    },
+    {
+      "topicId": "ct_g7a_09",
+      "prerequisiteId": "ct_g4a_04",
+      "strength": "soft",
+      "reason": "近似数与四舍五入的经验从大数迁移过来（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_10",
+      "prerequisiteId": "ct_g5a_14",
+      "strength": "hard",
+      "reason": "五年级用字母表示数的经验扩展为系统的代数式语言（跨学段衔接：算术→代数）"
+    },
+    {
+      "topicId": "ct_g7a_11",
+      "prerequisiteId": "ct_g7a_10",
+      "strength": "hard",
+      "reason": "单项式多项式是对代数式按运算结构分类的产物"
+    },
+    {
+      "topicId": "ct_g7a_12",
+      "prerequisiteId": "ct_g7a_11",
+      "strength": "hard",
+      "reason": "合并同类项与多项式降幂排列直接操作单项式与多项式"
+    },
+    {
+      "topicId": "ct_g7a_12",
+      "prerequisiteId": "ct_g4b_09",
+      "strength": "soft",
+      "reason": "去括号变号法则与小学连减性质 a-b-c=a-(b+c) 一脉相承"
+    },
+    {
+      "topicId": "ct_g7a_13",
+      "prerequisiteId": "ct_g7a_12",
+      "strength": "hard",
+      "reason": "规律表达需要列代数式并化简（整式加减）"
+    },
+    {
+      "topicId": "ct_g7a_13",
+      "prerequisiteId": "ct_g6a_26",
+      "strength": "soft",
+      "reason": "六年级数与形的规律探究是本活动的直接前身（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_14",
+      "prerequisiteId": "ct_g5a_15",
+      "strength": "hard",
+      "reason": "小学方程与等式性质（天平）直接延续并系统化（跨学段衔接：简易方程→一元一次方程）"
+    },
+    {
+      "topicId": "ct_g7a_14",
+      "prerequisiteId": "ct_g7a_12",
+      "strength": "soft",
+      "reason": "解方程中合并同类项与去括号的操作来自整式加减"
+    },
+    {
+      "topicId": "ct_g7a_15",
+      "prerequisiteId": "ct_g7a_14",
+      "strength": "hard",
+      "reason": "移项合并的每一步依据等式性质"
+    },
+    {
+      "topicId": "ct_g7a_15",
+      "prerequisiteId": "ct_g7a_12",
+      "strength": "hard",
+      "reason": "解方程的两大操作（合并、去括号）就是整式加减"
+    },
+    {
+      "topicId": "ct_g7a_16",
+      "prerequisiteId": "ct_g7a_15",
+      "strength": "hard",
+      "reason": "去分母去括号情形在移项合并型方程上叠加"
+    },
+    {
+      "topicId": "ct_g7a_17",
+      "prerequisiteId": "ct_g7a_16",
+      "strength": "hard",
+      "reason": "应用题所列方程常含分母与括号，需完整五步解法"
+    },
+    {
+      "topicId": "ct_g7a_17",
+      "prerequisiteId": "ct_g6a_12",
+      "strength": "soft",
+      "reason": "工程问题在六年级以算术（设总量 1）解过，方程是更一般的工具（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_17",
+      "prerequisiteId": "ct_g4a_17",
+      "strength": "hard",
+      "reason": "行程问题的速度×时间=路程模型是列方程的等量关系来源"
+    },
+    {
+      "topicId": "ct_g7a_18",
+      "prerequisiteId": "ct_g7a_17",
+      "strength": "hard",
+      "reason": "盈亏与方案问题沿用列方程解应用题的六步框架，情境更复杂"
+    },
+    {
+      "topicId": "ct_g7a_18",
+      "prerequisiteId": "ct_g6b_04",
+      "strength": "soft",
+      "reason": "折扣百分数的计算经验是销售盈亏问题的数量基础（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_19",
+      "prerequisiteId": "ct_g5b_06",
+      "strength": "hard",
+      "reason": "小学长方体正方体展开图经验系统化为展开与折叠的双向翻译（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_20",
+      "prerequisiteId": "ct_g7a_19",
+      "strength": "hard",
+      "reason": "三视图是观察立体图形的规范表达，以立体图形认识为对象"
+    },
+    {
+      "topicId": "ct_g7a_20",
+      "prerequisiteId": "ct_g4b_05",
+      "strength": "hard",
+      "reason": "四年级从三个方向看组合体的经验升级为三视图画法（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_21",
+      "prerequisiteId": "ct_g4a_08",
+      "strength": "hard",
+      "reason": "四年级线段直线射线的初步认识在此严格化（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_22",
+      "prerequisiteId": "ct_g7a_21",
+      "strength": "hard",
+      "reason": "线段比较与中点以线段概念与表示为基础"
+    },
+    {
+      "topicId": "ct_g7a_22",
+      "prerequisiteId": "ct_g2a_02",
+      "strength": "soft",
+      "reason": "用刻度尺度量线段的技能从小学延续"
+    },
+    {
+      "topicId": "ct_g7a_23",
+      "prerequisiteId": "ct_g7a_22",
+      "strength": "hard",
+      "reason": "角的度量比较与线段的度量比较同法（叠合、度量），学习结构平行"
+    },
+    {
+      "topicId": "ct_g7a_23",
+      "prerequisiteId": "ct_g4a_10",
+      "strength": "hard",
+      "reason": "量角器量角与角分类经验（四年级）是本主题的操作基础（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g7a_24",
+      "prerequisiteId": "ct_g7a_23",
+      "strength": "hard",
+      "reason": "余补角的计算用角的和差，性质的说理用角平分线语言"
+    },
+    {
+      "topicId": "ct_g7a_24",
+      "prerequisiteId": "ct_g4a_11",
+      "strength": "soft",
+      "reason": "平角 180°、直角 90° 的概念在角的分类中已建立"
+    },
+    {
+      "topicId": "ct_g7a_25",
+      "prerequisiteId": "ct_g7a_20",
+      "strength": "hard",
+      "reason": "包装盒设计综合运用三视图与展开折叠技能"
+    },
+    {
+      "topicId": "ct_g7a_25",
+      "prerequisiteId": "ct_g7a_19",
+      "strength": "hard",
+      "reason": "制作包装盒的核心操作是画展开图并折叠验证"
     }
   ]
 }
