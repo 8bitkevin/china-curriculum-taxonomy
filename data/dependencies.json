@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.6.0",
+  "version": "1.7.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1126,
+  "edgeCount": 1156,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6759,6 +6759,186 @@
       "prerequisiteId": "ct_yw_g3b_03",
       "strength": "soft",
       "reason": "复述的顺序感与句序排列共用顺序逻辑"
+    },
+    {
+      "topicId": "ct_yw_g4a_01",
+      "prerequisiteId": "ct_yw_g3a_09",
+      "strength": "hard",
+      "reason": "预测（三上策略）生疑，提问（四上策略）系统化——预测是提问的前奏"
+    },
+    {
+      "topicId": "ct_yw_g4a_02",
+      "prerequisiteId": "ct_yw_g3a_22",
+      "strength": "hard",
+      "reason": "朗读自查习作的修改经验迁移为边读边批的阅读习惯"
+    },
+    {
+      "topicId": "ct_yw_g4a_03",
+      "prerequisiteId": "ct_yw_g3a_10",
+      "strength": "hard",
+      "reason": "连续观察从记录变化深化为观察『怎么变』的过程细节"
+    },
+    {
+      "topicId": "ct_yw_g4a_04",
+      "prerequisiteId": "ct_yw_g3a_15",
+      "strength": "hard",
+      "reason": "神话阅读的想象体验承接童话的情感阅读，新增文化精神维度"
+    },
+    {
+      "topicId": "ct_yw_g4a_05",
+      "prerequisiteId": "ct_yw_g3b_01",
+      "strength": "hard",
+      "reason": "文言篇目递进：从守株待兔到需推理人物思维的王戎"
+    },
+    {
+      "topicId": "ct_yw_g4a_06",
+      "prerequisiteId": "ct_yw_g3a_08",
+      "strength": "hard",
+      "reason": "把事情写清楚是三年级记事习作的规范化升级（习作单元专训）"
+    },
+    {
+      "topicId": "ct_yw_g4a_07",
+      "prerequisiteId": "ct_yw_g3a_02",
+      "strength": "hard",
+      "reason": "观察日记结合日记格式与观察方法两大已有技能"
+    },
+    {
+      "topicId": "ct_yw_g4a_07",
+      "prerequisiteId": "ct_yw_g4a_03",
+      "strength": "hard",
+      "reason": "连续观察的记录是观察日记的素材来源"
+    },
+    {
+      "topicId": "ct_yw_g4a_08",
+      "prerequisiteId": "ct_yw_g3b_11",
+      "strength": "hard",
+      "reason": "一事见特点的写人方法加上比喻设定的趣味化包装"
+    },
+    {
+      "topicId": "ct_yw_g4a_09",
+      "prerequisiteId": "ct_yw_g3b_10",
+      "strength": "hard",
+      "reason": "想象习作从一般想象升级为人物设定一致性的想象"
+    },
+    {
+      "topicId": "ct_yw_g4a_09",
+      "prerequisiteId": "ct_yw_g4a_04",
+      "strength": "soft",
+      "reason": "神话阅读积累的人物设定直接供想象习作取材"
+    },
+    {
+      "topicId": "ct_yw_g4a_10",
+      "prerequisiteId": "ct_yw_g3a_08",
+      "strength": "hard",
+      "reason": "场面描写（点面结合）建立在把事情写清楚的基础上"
+    },
+    {
+      "topicId": "ct_yw_g4a_10",
+      "prerequisiteId": "ct_yw_g4a_06",
+      "strength": "soft",
+      "reason": "个人特写部分即『重要部分写具体』的局部应用"
+    },
+    {
+      "topicId": "ct_yw_g4a_11",
+      "prerequisiteId": "ct_yw_g2a_15",
+      "strength": "hard",
+      "reason": "书信是留言条格式的完整版：五要素更全"
+    },
+    {
+      "topicId": "ct_yw_g4a_12",
+      "prerequisiteId": "ct_yw_g4a_06",
+      "strength": "soft",
+      "reason": "写身体反应是『把想到的写下来』在感受描写上的深化"
+    },
+    {
+      "topicId": "ct_yw_g4a_13",
+      "prerequisiteId": "ct_yw_g3b_17",
+      "strength": "hard",
+      "reason": "推荐地方是口语推荐场景的书面化"
+    },
+    {
+      "topicId": "ct_yw_g4a_14",
+      "prerequisiteId": "ct_yw_g3a_13",
+      "strength": "hard",
+      "reason": "古诗积累从景物欣赏进阶到哲理体悟"
+    },
+    {
+      "topicId": "ct_yw_g4a_15",
+      "prerequisiteId": "ct_yw_g4a_14",
+      "strength": "soft",
+      "reason": "同册古诗：从哲理诗到边塞诗，主题化读诗的方法延续"
+    },
+    {
+      "topicId": "ct_yw_g4a_16",
+      "prerequisiteId": "ct_yw_g3b_15",
+      "strength": "hard",
+      "reason": "科普阅读从实验观察升级为问题—研究—应用的逻辑链"
+    },
+    {
+      "topicId": "ct_yw_g4a_16",
+      "prerequisiteId": "ct_yw_g4a_01",
+      "strength": "soft",
+      "reason": "提问策略在科普文阅读中最高频地使用"
+    },
+    {
+      "topicId": "ct_yw_g4a_17",
+      "prerequisiteId": "ct_yw_g3a_16",
+      "strength": "hard",
+      "reason": "段的关键语句意识扩展到全篇：抓主要内容的根基"
+    },
+    {
+      "topicId": "ct_yw_g4a_18",
+      "prerequisiteId": "ct_yw_g3b_03",
+      "strength": "hard",
+      "reason": "简要复述与详细复述互为反向训练：先会求全再学会删"
+    },
+    {
+      "topicId": "ct_yw_g4a_18",
+      "prerequisiteId": "ct_yw_g4a_17",
+      "strength": "hard",
+      "reason": "抓主要内容是简要复述的前提"
+    },
+    {
+      "topicId": "ct_yw_g4a_19",
+      "prerequisiteId": "ct_yw_g3b_18",
+      "strength": "hard",
+      "reason": "环境议题讨论是『该不该』两面讨论的小组成果版"
+    },
+    {
+      "topicId": "ct_yw_g4a_20",
+      "prerequisiteId": "ct_yw_g3b_19",
+      "strength": "soft",
+      "reason": "劝告对事，安慰对人——两种语用情境相邻互补"
+    },
+    {
+      "topicId": "ct_yw_g4a_21",
+      "prerequisiteId": "ct_yw_g3a_20",
+      "strength": "hard",
+      "reason": "讲人物故事比讲假期生活多了查资料整理环节"
+    },
+    {
+      "topicId": "ct_yw_g4a_22",
+      "prerequisiteId": "ct_yw_g2b_20",
+      "strength": "hard",
+      "reason": "比喻修辞的鉴赏经验延伸到动作神态词的传神性分析"
+    },
+    {
+      "topicId": "ct_yw_g4a_23",
+      "prerequisiteId": "ct_yw_g3a_23",
+      "strength": "hard",
+      "reason": "课外阅读从童话文集到神话文集，文化纵深加大"
+    },
+    {
+      "topicId": "ct_yw_g4a_24",
+      "prerequisiteId": "ct_yw_g3b_23",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进，钢笔书写要求加入"
+    },
+    {
+      "topicId": "ct_yw_g4a_02",
+      "prerequisiteId": "ct_yw_g4a_01",
+      "strength": "soft",
+      "reason": "提问（策略单元）之后用批注（第六单元）把问题与感想落到书页上"
     }
   ]
 }
