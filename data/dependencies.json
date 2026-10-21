@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.20.0",
+  "version": "1.21.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1457,
+  "edgeCount": 1469,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8745,6 +8745,78 @@
       "prerequisiteId": "ct_yw_g10a_04",
       "strength": "soft",
       "reason": "杜甫登高（必修上）与登岳阳楼（必修下）构成晚年杜甫专题"
+    },
+    {
+      "topicId": "ct_yw_g11a_01",
+      "prerequisiteId": "ct_yw_g8a_17",
+      "strength": "hard",
+      "reason": "红星照耀中国的纪实阅读经验延伸到开国文献与时代通讯的研习"
+    },
+    {
+      "topicId": "ct_yw_g11a_02",
+      "prerequisiteId": "ct_yw_g9b_17",
+      "strength": "hard",
+      "reason": "简·爱开启的外国女性成长叙事扩展为四国四风格的外国作家作品研习"
+    },
+    {
+      "topicId": "ct_yw_g11a_03",
+      "prerequisiteId": "ct_yw_g10b_01",
+      "strength": "hard",
+      "reason": "侍坐章的论语阅读延伸到大学孟子：从章句到义理的思想史纵深"
+    },
+    {
+      "topicId": "ct_yw_g11a_04",
+      "prerequisiteId": "ct_yw_g10b_02",
+      "strength": "hard",
+      "reason": "庖丁解牛的庄子寓言经验扩展到老墨两家：三家说理风格并置"
+    },
+    {
+      "topicId": "ct_yw_g11a_05",
+      "prerequisiteId": "ct_yw_g10a_07",
+      "strength": "hard",
+      "reason": "拿来主义的破立分析是逻辑训练的文学前奏：单元四把隐性逻辑显性化"
+    },
+    {
+      "topicId": "ct_yw_g11a_06",
+      "prerequisiteId": "ct_yw_g11a_05",
+      "strength": "hard",
+      "reason": "先立规律再学推理：概念判断合规律之后才能构造有效论证"
+    },
+    {
+      "topicId": "ct_yw_g11a_06",
+      "prerequisiteId": "ct_yw_g9a_04",
+      "strength": "soft",
+      "reason": "九上驳论文的「找漏洞」凭此获得系统工具"
+    },
+    {
+      "topicId": "ct_yw_g11a_07",
+      "prerequisiteId": "ct_yw_g9b_07",
+      "strength": "hard",
+      "reason": "初中豪放词四首的积累上，细读李白苏轼的两极样本"
+    },
+    {
+      "topicId": "ct_yw_g11a_08",
+      "prerequisiteId": "ct_yw_g8b_07",
+      "strength": "hard",
+      "reason": "诗经重章叠句（关雎/芣苢）的经验用于无衣的战歌结构"
+    },
+    {
+      "topicId": "ct_yw_g11a_08",
+      "prerequisiteId": "ct_yw_g10a_04",
+      "strength": "soft",
+      "reason": "生命的诗意八首的宇宙人生主题在春江花月夜达到巅峰"
+    },
+    {
+      "topicId": "ct_yw_g11a_09",
+      "prerequisiteId": "ct_yw_g10b_09",
+      "strength": "hard",
+      "reason": "信息性阅读的多文本提取能力支撑文献综述写作"
+    },
+    {
+      "topicId": "ct_yw_g11a_10",
+      "prerequisiteId": "ct_yw_g11a_02",
+      "strength": "hard",
+      "reason": "第二单元节选研习直接驱动整本拓展"
     }
   ]
 }

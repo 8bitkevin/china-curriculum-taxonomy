@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.20.0",
+  "version": "1.21.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 986,
+  "topicCount": 996,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -30473,6 +30473,324 @@
       "prerequisites": [
         "ct_yw_g10a_04",
         "ct_yw_g10a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "开国政论与时代通讯",
+      "description": "读《中国人民站起来了》《长征胜利万岁》《大战中的插曲》《别了，「不列颠尼亚」》《县委书记的榜样——焦裕禄》：政论的庄严逻辑、回忆录的历史现场、新闻的仪式感（别了的双关）、通讯的榜样叙事。革命传统作品研习——文献里的共和国史。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能概括政论文的核心论断与情感基调",
+        "能分析「别了」标题的双关与倒装结构"
+      ],
+      "assessmentPrompt": "问{{name}}：毛泽东为什么反复说「我们」而不说「我」？「别了，不列颠尼亚」是跟谁告别？写焦裕禄为什么选「藤椅上的大洞」这个细节？",
+      "standards": [
+        "hschinese-2017:H3.WX.01",
+        "hschinese-2017:H1.SY.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g8a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "外国小说研习：从大卫到百年孤独",
+      "description": "读《大卫·科波菲尔》《复活》《老人与海》《百年孤独》节选：狄更斯的成长叙事、托尔斯泰的精神复活、海明威的电报式对话与冰山理论、马尔克斯的魔幻现实。外国作家作品研习——每种文体风格背后是一整套文学传统。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出四部作品各一的标志性手法并举例",
+        "能解释「硬汉」与「魔幻」各自的现实指向"
+      ],
+      "assessmentPrompt": "问{{name}}：老人与海的对话为什么短得像电报？马孔多的失眠症瘟疫荒诞在哪、又真实在哪？聂赫留朵夫「灵魂的净化」从哪个动作开始？",
+      "standards": [
+        "hschinese-2017:H3.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g9b_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_03",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "儒家经典研习：论语、大学、孟子",
+      "description": "读《论语》十二章（高中版）、《大学之道》（三纲八目）、《人皆有不忍人之心》（四端说）：从章句到义理——修身次第（格物致知诚意正心）与性善论的论证。中华传统文化经典研习的儒学一线，文言语感与思想史并进。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵指定章句并翻译",
+        "能画出三纲八目的结构图并解释「四端」的推理论证"
+      ],
+      "assessmentPrompt": "问{{name}}：「古之欲明明德于天下者」为什么从治国一路倒推到格物？孟子由「乍见孺子将入于井」推出四端，这个论证妙在哪？",
+      "standards": [
+        "hschinese-2017:H4.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_04",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "道墨的说理：老子四章、五石之瓠、兼爱",
+      "description": "读《老子》四章（有无相生的辩证）、《五石之瓠》（庄子以「大樗」驳惠子的有用无用之辨）、《兼爱》（墨子的层层设问推理）。儒道墨三家说理风格并置——老子格言式、庄子寓言式、墨子逻辑式：中国思想的另一个源头。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能翻译并背诵关键句（凿户牖以为室）",
+        "能比较三家面对同一世界的不同解法"
+      ],
+      "assessmentPrompt": "问{{name}}：葫芦太大没用的困境，庄子的解法和惠子差在哪？墨子证明兼爱为什么要从「圣人以治天下为事」说起？「有之以为利无之以为用」能举个现代例子吗？",
+      "standards": [
+        "hschinese-2017:H4.WX.01",
+        "hschinese-2017:H2.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_05",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "逻辑的力量：概念、判断与基本规律",
+      "description": "第四单元学习活动之一：概念要明确（内涵与外延、「群众」与「人群」）、判断要恰当、遵守同一律（不偷换概念）、矛盾律（不自相矛盾）、排中律（不模棱两可）。语文课正式学逻辑——广告话术、杠精话术、新闻标题里的逻辑陷阱从此现形。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能识别三处常见逻辑谬误（偷换概念/自相矛盾/两不可）",
+        "能给一个概念下定义并检验外延"
+      ],
+      "assessmentPrompt": "给{{name}}三句话：「我爱祖国的大好河山，所以我是爱国者，你批评我等于不爱国」「这件事我不能说它对，也不能说它不对」「他的话不能用常理衡量，因为他是艺术家」——各违反什么规律？",
+      "standards": [
+        "hschinese-2017:H4.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第四单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10a_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_06",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "逻辑推理与合理论证",
+      "description": "第四单元学习活动之二：三段论（大前提—小前提—结论）、假言推理（如果…就…）、选言推理、二难推理的构造与破解；归纳与类比的两类论证。从识别到运用——写驳论文时的「拆前提」与「构造反例」全靠它。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能补全一个三段论并指出省略的前提",
+        "能用构造二难的方式反驳一个观点"
+      ],
+      "assessmentPrompt": "给{{name}}：「所有整理错题的同学都进步了，小明整理了错题」能推出什么？「如果天赋决定一切，努力就没用；如果天赋不决定一切，努力就有用」——这两难怎么破？",
+      "standards": [
+        "hschinese-2017:H4.SW.01",
+        "hschinese-2017:H3.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第四单元",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11a_05",
+        "ct_yw_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "将进酒与江城子：酒的两种喝法",
+      "description": "背《将进酒》（天生我材必有用的狂放悲慨）与《江城子·乙卯正月二十日夜记梦》（十年生死两茫茫的深婉）：李白借酒喊出生命宣言，苏轼借梦收纳刻骨深情。豪放词的两极——狂喜之酒与断肠之酒。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵两首",
+        "能分析将进酒的情感跌宕曲线（悲—欢—狂放—愤激）"
+      ],
+      "assessmentPrompt": "问{{name}}：「与尔同销万古愁」的愁销得掉吗？苏轼「相顾无言惟有泪千行」为什么比嚎啕更痛？两首都有酒，酒的作用一样吗？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "古诗词诵读",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_08",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "春江花月夜与无衣：月与火",
+      "description": "背《春江花月夜》（江畔何人初见月的宇宙之问——孤篇盖全唐）与《无衣》（岂曰无衣与子同袍的秦风战歌）：一首向天发问的哲思之月，一首并肩赴敌的血气之火。诗词诵读线的两端：静观宇宙与投身家国。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能背诵两首",
+        "能指出春江花月夜月、江、人三层的推进结构"
+      ],
+      "assessmentPrompt": "问{{name}}：「人生代代无穷已江月年年望相似」是哀还是慰？重章叠唱的「同袍—同泽—同裳」把战友情唱足了吗？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "古诗词诵读",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10a_04",
+        "ct_yw_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "研习写作：札记与综述",
+      "description": "选择性必修阶段的研究性写作：读书札记（摘录+随感+质询）与文献综述（归纳各家观点、比较异同、引出己见）。为学术论文与大学写作预演——「我知道别人都知道什么」是研究的第一步。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "有一组连续的读书札记（10 条以上）",
+        "能就一个小专题写出三来源的综述段"
+      ],
+      "assessmentPrompt": "请{{name}}就「《论语》中的学习观」读三段材料（课内十二章+课外两则），写 300 字综述：归纳两三种解释、指出分歧点、给出自己的倾向。",
+      "standards": [
+        "hschinese-2017:H5.SW.01",
+        "hschinese-2017:H3.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "各单元研习任务",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g11a_10",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "外国文学整本拓展：复活与老人与海",
+      "description": "配合第二单元节选开展整本或半本拓展：托尔斯泰《复活》的精神救赎线、海明威《老人与海》的失败与尊严（人可以被毁灭但不能被打败）。节选→整本的研习路径：由一斑窥全豹再回看一斑。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "读完一部拓展整本并写 500 字研习心得",
+        "能说明节选在全书中的位置与功能"
+      ],
+      "assessmentPrompt": "问{{name}}：老人拖回的只是鱼骨，他输了吗？聂赫留朵夫陪玛丝洛娃去西伯利亚是救赎还是自我感动？",
+      "standards": [
+        "hschinese-2017:H3.WX.02",
+        "hschinese-2017:H5.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第二单元拓展",
+        "book": "选择性必修上册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11a_02"
       ]
     }
   ]
