@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.42.0",
+  "version": "1.43.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1774,
+  "edgeCount": 1786,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10647,6 +10647,78 @@
       "prerequisiteId": "ct_yy_g11b_05",
       "strength": "soft",
       "reason": "七选五的语篇衔接能力纳入综合阅读的策略库"
+    },
+    {
+      "topicId": "ct_yy_g12b_11",
+      "prerequisiteId": "ct_yy_g12b_03",
+      "strength": "hard",
+      "reason": "读后续写初步（情节情感线）之后升级语言：动作情绪词库"
+    },
+    {
+      "topicId": "ct_yy_g12b_12",
+      "prerequisiteId": "ct_yy_g12a_05",
+      "strength": "hard",
+      "reason": "概写初步（paraphrase 压缩）之后加逻辑衔接的第二层"
+    },
+    {
+      "topicId": "ct_yy_g12b_13",
+      "prerequisiteId": "ct_yy_g11b_03",
+      "strength": "hard",
+      "reason": "从句混合训练扩展为从句+非谓语+虚拟的全语法总装"
+    },
+    {
+      "topicId": "ct_yy_g12b_13",
+      "prerequisiteId": "ct_yy_g12a_02",
+      "strength": "soft",
+      "reason": "虚拟语气体系并入语法总装的判断链"
+    },
+    {
+      "topicId": "ct_yy_g12b_14",
+      "prerequisiteId": "ct_yy_g8a_06",
+      "strength": "soft",
+      "reason": "初中职业理想表达（be going to be）延伸到生涯规划的批判性阅读"
+    },
+    {
+      "topicId": "ct_yy_g12b_15",
+      "prerequisiteId": "ct_yy_g12b_05",
+      "strength": "hard",
+      "reason": "文学语篇的审美经验迁移到自然散文的语言赏析"
+    },
+    {
+      "topicId": "ct_yy_g12b_16",
+      "prerequisiteId": "ct_yy_g12b_07",
+      "strength": "hard",
+      "reason": "正式演讲与即席问答的能力迁移到看图说话的三层即兴"
+    },
+    {
+      "topicId": "ct_yy_g12b_17",
+      "prerequisiteId": "ct_yy_g12b_08",
+      "strength": "hard",
+      "reason": "学术词汇之后完成 3500 词与高频词块的总量清点"
+    },
+    {
+      "topicId": "ct_yy_g12b_18",
+      "prerequisiteId": "ct_yy_g12b_09",
+      "strength": "hard",
+      "reason": "跨文化冲突策略延伸到全球化议题的利弊思辨"
+    },
+    {
+      "topicId": "ct_yy_g12b_19",
+      "prerequisiteId": "ct_yy_g12b_10",
+      "strength": "hard",
+      "reason": "阅读四题型综合扩展为高考全卷的时间工程学"
+    },
+    {
+      "topicId": "ct_yy_g12b_19",
+      "prerequisiteId": "ct_yy_g12b_11",
+      "strength": "soft",
+      "reason": "读后续写进阶作为写作板块纳入全卷沙盘"
+    },
+    {
+      "topicId": "ct_yy_g12b_20",
+      "prerequisiteId": "ct_yy_g9a_16",
+      "strength": "soft",
+      "reason": "初中总复习的自省经验升级为高中收官的策略复盘与续航规划"
     }
   ]
 }

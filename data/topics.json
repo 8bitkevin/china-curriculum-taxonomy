@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.42.0",
+  "version": "1.43.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1252,
+  "topicCount": 1262,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -38792,6 +38792,328 @@
       "prerequisites": [
         "ct_yy_g11b_05",
         "ct_yy_g12b_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "读后续写进阶：动作与情绪词库",
+      "description": "读后续写的语言升级：动作描写词库（grasp、dash、stumble、tremble）与情绪外化技巧（不写 sad，写 Her hands trembled.）+ 对话推进情节。续写从「接得上」到「写得好」——阅卷人的眼睛亮在这里。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "续写段含三处具体动作描写",
+        "情绪用身体反应外化而非直说"
+      ],
+      "assessmentPrompt": "给{{name}}「迷路的孩子」开头：续写 80 词，必须有一处身体反应写紧张、一句对话推情节。",
+      "standards": [
+        "hsenglish-2017:H3.WR.01",
+        "hsenglish-2017:H5.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四 Reading for Writing",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "概要写作进阶：逻辑压缩与衔接",
+      "description": "概要写作的第二层：不只压缩字数，还要压缩逻辑（因果并一句、对比并一句）+ 用衔接词（however/therefore/as a result）保持脉络。60 词的概要应该是一篇「微议论文」。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "概要含两处逻辑衔接词",
+        "字数 60±10 且无整句照抄"
+      ],
+      "assessmentPrompt": "给{{name}}一篇「网络学习利弊」文：写 60 词概要，要求 however 与 therefore 各一次。",
+      "standards": [
+        "hsenglish-2017:H2.WR.01",
+        "hsenglish-2017:H5.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四写作板块",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "语法总装：从句、非谓语、虚拟的整合",
+      "description": "高中语法的总装车间：从句（定/名/状）+ 非谓语（-ing/-ed/to do）+ 虚拟语气在真实语篇中的协同作战。判断顺序「先定句子骨架 → 再看动词形态 → 最后查语气」——语法填空 15 分钟满分的流水线。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "语法填空 10 空对 8 以上",
+        "能口述每空的判断路径"
+      ],
+      "assessmentPrompt": "给{{name}}一篇混合语法填空：做完后按「骨架—形态—语气」三步逐空复述判断过程。",
+      "standards": [
+        "hsenglish-2017:H1.GR.02",
+        "hsenglish-2017:H1.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "总复习语法整合",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_03",
+        "ct_yy_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_14",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：未来职业与生涯规划",
+      "description": "读生涯规划语篇（新兴职业、终身学习、gap year 的选择）：建议类语篇的批判性阅读——建议适用谁、证据够不够。把英语课变成人生规划课：阅读他人建议，形成自己的决定。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能评估一条建议的适用条件",
+        "能用英语说出自己的三年规划三句"
+      ],
+      "assessmentPrompt": "给{{name}}读 gap year 语篇：作者建议适用所有人吗？你毕业后直接升学还是先 gap？给三个理由。",
+      "standards": [
+        "hsenglish-2017:H2.RD.01",
+        "hsenglish-2017:H3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四职业单元",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g8a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_15",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：自然与心灵的疗愈",
+      "description": "读自然散文式语篇（森林疗愈、荒野价值）：散文语篇的语言美（意象、排比、通感）与论证的融合。从信息阅读到审美阅读——英语文学的最后一课在自然里。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能赏析两处语言美的表达",
+        "能说明作者「自然疗愈人心」的论证路径"
+      ],
+      "assessmentPrompt": "给{{name}}读自然疗愈散文：划出最美的一句并说明妙处；作者用什么证据支撑「自然使人平静」？",
+      "standards": [
+        "hsenglish-2017:H3.RD.01",
+        "hsenglish-2017:H5.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四自然单元",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_16",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：看图说话与即席描述",
+      "description": "即席表达训练：看图说话（描述—推测—评论三层：What do you see? What might happen? What do you think?）。高考口语与面试通用题型——组织语言的「三段式即兴」。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能就一图做三层表达各一句以上",
+        "描述有条理（前景—背景—人物动作）"
+      ],
+      "assessmentPrompt": "给{{name}}一张街头照片：请按「看到什么—可能在发生什么—你怎么看」三层说 60 秒。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四听说板块",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_17",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "3500 词收官与高频词块总集",
+      "description": "词汇长跑终点：课标 3500 词（含派生）清点，高频词块 300 组总集（写作口语两用）。词汇学习的成人礼：从「背单词的人」变成「用词块表达思想的人」。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "词汇量测试 3200+",
+        "能就任一话题即时调用五个词块"
+      ],
+      "assessmentPrompt": "做一次词汇量自测；抽三个话题（环保/科技/成长），请{{name}}每个话题脱口而出五个词块。",
+      "standards": [
+        "hsenglish-2017:H2.VB.01",
+        "hsenglish-2017:H4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "全册词汇总复习",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_18",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "思辨：全球化与本土文化",
+      "description": "终极思辨话题：全球化浪潮中本土文化的存与变（英语通用语的便利与语言消逝的代价）。批判性讨论的收官——能同时握住一个问题的两面并给出自己的综合判断。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能陈述全球化的利与弊各两条",
+        "能给出「如何两全」的综合主张"
+      ],
+      "assessmentPrompt": "议题：全世界都说英语，是好事吗？请{{name}}先说利弊再给综合主张（三分钟内完成）。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "选择性必修四文化思辨单元",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_19",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "高考全题型沙盘演练",
+      "description": "高考英语全卷沙盘：听力（20 分钟）+ 阅读（四篇+七选五）+ 语言运用（完形+语法填空）+ 写作（应用文+读后续写）的时间分配与取舍策略。知道「先做什么后做什么」——应试也是一门工程学。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能制定个人的时间分配表",
+        "全卷模拟达到目标分数线"
+      ],
+      "assessmentPrompt": "陪{{name}}做一次全卷模拟（严格计时），复盘：哪块超时了？调整顺序后二模对比。",
+      "standards": [
+        "hsenglish-2017:H5.WR.01",
+        "hsenglish-2017:H1.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "高考全题型综合",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12b_10",
+        "ct_yy_g12b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g12b_20",
+      "type": "META",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "高中英语收官：语言学习策略与终身学习",
+      "description": "英语课的最后一课：复盘自己的语言学习策略（什么有效什么无效），制定高中后的英语续航计划（考试之外：读原版、看影视、用英语学专业知识）。语言是一生的行李——毕业不是终点，是上路。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能写出三条个人有效的学习策略及证据",
+        "有一份可执行的大学英语续航计划"
+      ],
+      "assessmentPrompt": "请{{name}}写 My English Journey：六字总结高中英语、三条有效策略、大学阶段的三件英语小事（读一本原版/追一档节目/交一个语伴）。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "全册收官项目",
+        "book": "选择性必修第四册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g9a_16"
       ]
     }
   ]
