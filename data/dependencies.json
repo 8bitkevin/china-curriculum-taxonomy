@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.52.0",
+  "version": "1.53.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1968,
+  "edgeCount": 1988,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11811,6 +11811,126 @@
       "prerequisiteId": "ct_hx_g9a_09",
       "strength": "soft",
       "reason": "电解水是三重表征的经典案例"
+    },
+    {
+      "topicId": "ct_hx_g9b_02",
+      "prerequisiteId": "ct_hx_g9b_01",
+      "strength": "hard",
+      "reason": "金属化学性质建立在金属材料与物理性质的认识基础上"
+    },
+    {
+      "topicId": "ct_hx_g9b_02",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "置换反应的判断与方程式书写来自化学方程式单元"
+    },
+    {
+      "topicId": "ct_hx_g9b_03",
+      "prerequisiteId": "ct_hx_g9b_02",
+      "strength": "hard",
+      "reason": "高炉炼铁的 CO 还原原性以金属活动性与还原反应知识为基础"
+    },
+    {
+      "topicId": "ct_hx_g9b_03",
+      "prerequisiteId": "ct_hx_g9a_17",
+      "strength": "soft",
+      "reason": "CO 还原氧化铁的反应与 CO 还原性知识衔接"
+    },
+    {
+      "topicId": "ct_hx_g9b_03",
+      "prerequisiteId": "ct_hx_g9a_14",
+      "strength": "hard",
+      "reason": "含杂质冶炼计算沿用化学方程式计算方法"
+    },
+    {
+      "topicId": "ct_hx_g9b_04",
+      "prerequisiteId": "ct_hx_g9a_01",
+      "strength": "soft",
+      "reason": "溶液是混合物的概念以物质分类（纯净物混合物）为基础"
+    },
+    {
+      "topicId": "ct_hx_g9b_05",
+      "prerequisiteId": "ct_hx_g9b_04",
+      "strength": "hard",
+      "reason": "溶解度定义在饱和溶液概念之上"
+    },
+    {
+      "topicId": "ct_hx_g9b_06",
+      "prerequisiteId": "ct_hx_g9b_05",
+      "strength": "hard",
+      "reason": "质量分数计算常涉及溶解度曲线的饱和状态"
+    },
+    {
+      "topicId": "ct_hx_g9b_06",
+      "prerequisiteId": "ct_hx_g9a_03",
+      "strength": "hard",
+      "reason": "配制溶液用到称量量取溶解等基本操作"
+    },
+    {
+      "topicId": "ct_hx_g9b_07",
+      "prerequisiteId": "ct_hx_g9b_02",
+      "strength": "hard",
+      "reason": "酸与活泼金属反应的规律来自金属活动性顺序"
+    },
+    {
+      "topicId": "ct_hx_g9b_07",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "酸的通性表述依赖方程式书写能力"
+    },
+    {
+      "topicId": "ct_hx_g9b_08",
+      "prerequisiteId": "ct_hx_g9b_07",
+      "strength": "hard",
+      "reason": "碱的通性与酸的通性对偶学习（中和联结两者）"
+    },
+    {
+      "topicId": "ct_hx_g9b_09",
+      "prerequisiteId": "ct_hx_g9b_07",
+      "strength": "hard",
+      "reason": "pH 描述酸碱性强弱，需先有酸碱的分类概念"
+    },
+    {
+      "topicId": "ct_hx_g9b_10",
+      "prerequisiteId": "ct_hx_g9b_08",
+      "strength": "hard",
+      "reason": "中和反应综合酸的通性与碱的通性"
+    },
+    {
+      "topicId": "ct_hx_g9b_10",
+      "prerequisiteId": "ct_hx_g9b_09",
+      "strength": "soft",
+      "reason": "pH 变化可指示中和反应的进程"
+    },
+    {
+      "topicId": "ct_hx_g9b_11",
+      "prerequisiteId": "ct_hx_g9b_10",
+      "strength": "hard",
+      "reason": "盐的化学性质（与酸碱反应）以中和反应与酸的通性为基础"
+    },
+    {
+      "topicId": "ct_hx_g9b_11",
+      "prerequisiteId": "ct_hx_g9b_02",
+      "strength": "soft",
+      "reason": "盐与金属的置换反应用金属活动性判断"
+    },
+    {
+      "topicId": "ct_hx_g9b_12",
+      "prerequisiteId": "ct_hx_g9b_11",
+      "strength": "hard",
+      "reason": "鉴别与除杂综合运用碳酸盐、氯离子、硫酸根的检验方法"
+    },
+    {
+      "topicId": "ct_hx_g9b_12",
+      "prerequisiteId": "ct_hx_g9a_16",
+      "strength": "soft",
+      "reason": "CO₂ 的检验（石灰水）是碳酸盐检验的基础反应"
+    },
+    {
+      "topicId": "ct_hx_g9b_13",
+      "prerequisiteId": "ct_hx_g9a_19",
+      "strength": "soft",
+      "reason": "化石燃料与新能源的能源话题在生活化学中扩展到营养与健康"
     }
   ]
 }

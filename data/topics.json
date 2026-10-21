@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.52.0",
+  "version": "1.53.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1395,
+  "topicCount": 1408,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -43220,6 +43220,406 @@
       "prerequisites": [
         "ct_hx_g9a_09",
         "ct_hx_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_01",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "金属材料与金属物理性质",
+      "description": "金属共性（导电导热有金属光泽、有延展性）与特性（汞是液态）；合金（生铁与钢——性能优于纯金属）。物质的用途由性质决定——材料世界的化学观。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明为什么电线用铜不用铁",
+        "能解释合金比纯金属硬的原因（应用）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么炒锅用铁、导线用铜？合金是混合物还是纯净物？为什么说 21 世纪是钛的世纪？",
+      "standards": [
+        "cschemistry-2022:S4.SM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第八单元 金属和金属材料",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_hx_g9b_02",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "金属的化学性质与活动性顺序",
+      "description": "金属与氧气/酸/盐溶液反应；金属活动性顺序 K Ca Na Mg Al Zn Fe Sn Pb (H) Cu Hg Ag Pt Au——排在氢前能置换酸中的氢、前面金属置换后面金属（湿法炼铜）。化学里的「排行榜」——判断反应能否发生的标尺。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断给定反应能否发生并说明理由",
+        "能设计实验比较三种金属的活动性"
+      ],
+      "assessmentPrompt": "问{{name}}：铁能置换硫酸铜里的铜吗？铜能置换硫酸亚铁里的铁吗？把铁钉放入硫酸铜溶液有什么现象？",
+      "standards": [
+        "cschemistry-2022:S4.SM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第八单元 金属和金属材料",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_13",
+        "ct_hx_g9b_01"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_03",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学与社会",
+      "name": "铁的冶炼与金属防锈",
+      "description": "工业炼铁（一氧化碳还原氧化铁——高炉原理、原料与计算含杂质问题）；铁生锈的条件（与氧气和水同时接触）与防锈措施。从矿石到铁锅再到防锈——金属的全生命周期化学。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出高炉炼铁主要反应方程式",
+        "能设计铁钉生锈条件的对照实验"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么菜刀用完要擦干？海边的铁器为什么锈得快？炼 100 t 含铁 96% 的生铁需要氧化铁多少吨（含杂质计算）？",
+      "standards": [
+        "cschemistry-2022:S4.SM.03",
+        "cschemistry-2022:S4.CS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第八单元 金属和金属材料",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_14",
+        "ct_hx_g9a_17",
+        "ct_hx_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_04",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "溶液的形成与乳化",
+      "description": "溶液（均一稳定的混合物：溶质+溶剂）；乳化（洗涤剂去油污）与溶解（汽油去油污）的区别；饱和溶液与不饱和溶液的转化。第四种基本反应类型之外的「物质分散」世界。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断常见混合物属溶液、乳浊液还是悬浊液",
+        "能说明饱和与不饱和溶液的转化条件"
+      ],
+      "assessmentPrompt": "问{{name}}：蔗糖水里溶质是谁？衣服上油污用汽油和洗洁精去污原理一样吗？怎么把饱和硝酸钾溶液变不饱和？",
+      "standards": [
+        "cschemistry-2022:S4.SM.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第九单元 溶液",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_05",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "溶解度与溶解度曲线",
+      "description": "固体的溶解度（四要素：一定温度、100 g 溶剂、饱和状态、溶解的质量）；溶解度曲线的读法（点、线、面、交点）与结晶方法（降温/蒸发）。曲线题是化学里的「数学题」——数形结合能力的主场。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能从曲线读出某温度的溶解度并比较大小",
+        "能选择混合物分离的方法（降温结晶 vs 蒸发结晶）"
+      ],
+      "assessmentPrompt": "给{{name}}一条溶解度曲线：问 40℃ 时 A 的溶解度？A、B 在哪温度相等？A 中混有少量 B 怎么提纯？",
+      "standards": [
+        "cschemistry-2022:S4.SM.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第九单元 溶液",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_06",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "溶质质量分数与配制溶液",
+      "description": "溶质质量分数 = 溶质/溶液 ×100% 的计算（含稀释：稀释前后溶质不变）；配制一定质量分数溶液的步骤（计算—称量—量取—溶解）与误差分析。定量实验的第一次完整亮相。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完成配制 50 g 6% 氯化钠溶液的全流程",
+        "能分析仰视读数等操作对浓度的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：配 50 g 质量分数 6% 的盐水需要盐和水各多少？量水时俯视读数，浓度偏大还是偏小？",
+      "standards": [
+        "cschemistry-2022:S4.SM.05",
+        "cschemistry-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第九单元 溶液",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_03",
+        "ct_hx_g9b_05"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_07",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "酸碱指示剂与常见酸的性质",
+      "description": "酸碱指示剂（紫色石蕊、无色酚酞的变色规律）；常见的酸（盐酸硫酸）与酸的通性五条（指示剂、活泼金属、金属氧化物、碱、盐）。浓硫酸的腐蚀性与稀释规范（酸入水、沿壁、搅拌）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能默写酸的五条通性并各举一例方程式",
+        "能规范演示浓硫酸稀释并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：稀盐酸能使石蕊变什么色？铁锈与盐酸反应的现象？稀释浓硫酸为什么把酸倒进水里而不是反过来？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十单元 酸和碱",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_13",
+        "ct_hx_g9b_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_08",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "常见的碱与碱的通性",
+      "description": "氢氧化钠（潮解、易溶放热——不能用于干燥 CO₂）与氢氧化钙（石灰家族的转化链）；碱的通性四条。碱与酸的「对偶」结构——通性背后是 H⁺ 与 OH⁻ 的本质（为高中电离观埋线）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出碱的四条通性各一例",
+        "能说明 NaOH 为什么必须密封保存"
+      ],
+      "assessmentPrompt": "问{{name}}：生石灰、熟石灰、石灰石怎么互相转化？NaOH 露置空气中为什么会变质？怎么检验变质？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十单元 酸和碱",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_09",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "溶液的酸碱性与 pH",
+      "description": "酸性碱性与 pH（<7 酸性、=7 中性、>7 碱性）；pH 试纸的使用（玻璃棒蘸待测液滴在试纸上，不能浸入）；酸雨的 pH。定量描述酸碱强弱——从「酸性」到「pH=4」的精确化。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用 pH 试纸正确测液体 pH",
+        "能判断 pH=3 与 pH=5 谁酸性强"
+      ],
+      "assessmentPrompt": "问{{name}}：pH 试纸先用水润湿再测盐酸，结果偏大还是偏小？胃酸过多该吃酸性还是碱性食物（化学原理）？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十单元 酸和碱",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9b_07"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_10",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "中和反应及其应用",
+      "description": "酸与碱反应生成盐和水（中和反应）；中和的应用（改良酸性土壤、治疗胃酸过多、处理废水）；中和热的初步。酸碱相遇的「握手言和」——复分解反应的代表与实验设计（借助指示剂证明无明显现象的反应发生）。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能写出盐酸与 NaOH 反应方程式并设计验证实验",
+        "能举三个中和反应的生活应用"
+      ],
+      "assessmentPrompt": "问{{name}}：NaOH 和盐酸混合什么现象都看不到，怎么证明反应发生了？被蚊虫叮咬（蚁酸）涂肥皂水是什么原理？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04",
+        "cschemistry-2022:S4.CC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十单元 酸和碱",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9b_08",
+        "ct_hx_g9b_09"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_11",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "常见的盐与复分解反应",
+      "description": "氯化钠、碳酸钠、碳酸氢钠、碳酸钙的用途；复分解反应的条件（生成沉淀、气体或水）；粗盐提纯。碳酸根离子的检验——「石头、纯碱、小苏打」一家的化学身份证。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断复分解反应能否发生并说明理由",
+        "能完成碳酸根离子的检验步骤与方程式"
+      ],
+      "assessmentPrompt": "问{{name}}：怎么区分食盐和纯碱？NaOH 和硫酸铜能反应吗（生成什么）？侯氏制碱法的「碱」是碱吗？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04",
+        "cschemistry-2022:S4.CC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十一单元 盐 化肥",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9b_02",
+        "ct_hx_g9b_10"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_12",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "物质的鉴别与除杂",
+      "description": "鉴别题方法库（碳酸盐用稀酸、氯离子用硝酸银+硝酸、硫酸根用氯化钡+硝酸）；除杂三原则（不引新杂、不减主料、易分离）。酸碱盐知识的综合应用——推断与鉴别是初中化学的思维体操。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能设计区分稀盐酸与氯化钠溶液的两种方案",
+        "能完成 NaCl 中混 Na₂CO₃ 的除杂"
+      ],
+      "assessmentPrompt": "问{{name}}：怎么区分 lost? —改：怎么区分稀硫酸和稀盐酸（能完全区分吗）？NaCl 溶液里混了 Na₂CO₃ 加什么试剂、加到什么时候停？",
+      "standards": [
+        "cschemistry-2022:S4.SM.04",
+        "cschemistry-2022:S4.ST.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十/十一单元综合",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_16",
+        "ct_hx_g9b_11"
+      ]
+    },
+    {
+      "id": "ct_hx_g9b_13",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学与社会",
+      "name": "化学与生活：营养素、材料与健康",
+      "description": "六大营养素（蛋白质、糖类、油脂、维生素、水、无机盐）；合成材料（塑料纤维橡胶与白色污染）；化学元素与人体健康。化学的收官视野——从试管回到餐桌与地球。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说出六大营养素及其主要食物来源",
+        "能区分三种合成材料并讨论白色污染对策"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么不能长期以精米白面为主食？聚乙烯塑料袋怎么和聚氯乙烯区分（能否装食品）？缺铁缺碘缺钙各会怎样？",
+      "standards": [
+        "cschemistry-2022:S4.CS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "下",
+        "unit": "第十二单元 化学与生活",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_19"
       ]
     }
   ]
