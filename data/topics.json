@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.49.0",
+  "version": "1.50.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1360,
+  "topicCount": 1366,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -42134,6 +42134,197 @@
       "prerequisites": [
         "ct_wl_g9a_24",
         "ct_wl_g9a_25"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "动量守恒定律的实验与验证",
+      "description": "动量守恒的系统化：实验验证（斜槽末小球碰撞、平抛测速度替代）；守恒条件的判断（外力为零或内力远大于外力）。弹性碰撞与非弹性碰撞的能量账本。守恒律从「会用」到「会验」。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能设计验证动量守恒的实验方案",
+        "能区分弹性/非弹性碰撞的能量关系"
+      ],
+      "assessmentPrompt": "问{{name}}：实验里为什么用平抛水平射程代替速度？两球碰撞后总动能一定不变吗？什么情况动量守恒但动能损失？",
+      "standards": [
+        "hsphysics-2017:H2.MC.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第一章 动量守恒定律",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g10b_02",
+        "ct_wl_g10b_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "简谐运动与单摆",
+      "description": "简谐运动（回复力 F=−kx）、描述量（振幅、周期、频率）；单摆周期公式 T=2π√(L/g)（与振幅质量无关——等时性）；共振。振动世界的规律——钟表的心脏。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用单摆公式完成计算与 g 的测量设计",
+        "能判断哪些因素不改变单摆周期"
+      ],
+      "assessmentPrompt": "问{{name}}：摆长变 4 倍周期变几倍？把单摆从北京搬到赤道周期怎么变？怎么用单摆测重力加速度？",
+      "standards": [
+        "hsphysics-2017:H3.WM.13"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第二章 机械振动",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g10a_12"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "机械波：波速波长频率与干涉衍射",
+      "description": "机械波的产生（传播振动不迁移物质）、v=λf（由介质决定波速）；波的干涉（相干波叠加）与衍射（遇障碍物绕行，明显衍射条件孔径接近波长）；多普勒效应。波动的世界观：干涉衍射是所有波的共性。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成 v=λf 计算（含波从一种介质到另一种）",
+        "能说明干涉加强与减弱的条件"
+      ],
+      "assessmentPrompt": "问{{name}}：波从深水到浅水频率变吗？两列波相遇某点总是波峰加波谷会怎样？「隔墙有耳」是什么现象？",
+      "standards": [
+        "hsphysics-2017:H3.WM.14"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第三章 机械波",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g11b_02",
+        "ct_wl_g9a_25"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "光的折射与全反射",
+      "description": "折射定律与折射率 n=c/v（光密光疏介质）；全反射（从光密到光疏、入射角≥临界角）与光纤原理；色散（不同频率折射率不同）。初中折射的定量化——光路计算的时代。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用折射定律计算临界角",
+        "能解释光纤通信与水中的「银膜」现象"
+      ],
+      "assessmentPrompt": "问{{name}}：水下看天为什么像一个亮窗？光纤凭什么让光拐弯跑千里？彩虹的第二次反射发生在哪里？",
+      "standards": [
+        "hsphysics-2017:H3.OP.15"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第四章 光",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g8a_13"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "光的干涉与衍射：光是波",
+      "description": "杨氏双缝干涉（条纹间距与波长关系）、薄膜干涉（肥皂泡的彩色）、单缝衍射；光的电磁说。波动光学的证据链——「光是什么」的科学史现场。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明双缝干涉条纹的形成条件",
+        "能区分干涉与衍射图样"
+      ],
+      "assessmentPrompt": "问{{name}}：双缝干涉红光和紫光条纹哪个宽？肥皂泡上的彩色和彩虹一样吗？泊松亮斑证明了什么？",
+      "standards": [
+        "hsphysics-2017:H3.OP.15"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第四章 光",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g11b_03",
+        "ct_wl_g8a_13"
+      ]
+    },
+    {
+      "id": "ct_wl_g11b_06",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "动量与能量的综合：碰撞类问题",
+      "description": "动量守恒与能量守恒联立解碰撞（完全非弹性碰撞性能损失最大）、子弹打木块、弹簧连接体。两大守恒律的联合应用——力学综合题的最高峰。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能对碰撞分类并判断能量损失",
+        "能完成子弹打木块的综合计算"
+      ],
+      "assessmentPrompt": "问{{name}}：两球碰后合为一体（完全非弹性），动能损失最大吗？为什么动量守恒动能却不守恒？",
+      "standards": [
+        "hsphysics-2017:H2.MC.09",
+        "hsphysics-2017:H2.EN.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第一章 动量守恒定律",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g10b_08",
+        "ct_wl_g11b_01"
       ]
     }
   ]

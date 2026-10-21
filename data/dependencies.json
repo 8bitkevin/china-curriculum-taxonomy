@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.49.0",
+  "version": "1.50.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1916,
+  "edgeCount": 1926,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11499,6 +11499,66 @@
       "prerequisiteId": "ct_wl_g9a_25",
       "strength": "soft",
       "reason": "初中电磁波常识纳入电磁波谱的完整体系"
+    },
+    {
+      "topicId": "ct_wl_g11b_01",
+      "prerequisiteId": "ct_wl_g10b_09",
+      "strength": "hard",
+      "reason": "必修二的动量初步在选必一系统化并实验验证"
+    },
+    {
+      "topicId": "ct_wl_g11b_01",
+      "prerequisiteId": "ct_wl_g10b_02",
+      "strength": "soft",
+      "reason": "验证实验用平抛运动测速度（水平射程代替速度）"
+    },
+    {
+      "topicId": "ct_wl_g11b_02",
+      "prerequisiteId": "ct_wl_g10a_12",
+      "strength": "soft",
+      "reason": "单摆的回复力分析用牛顿第二定律"
+    },
+    {
+      "topicId": "ct_wl_g11b_03",
+      "prerequisiteId": "ct_wl_g11b_02",
+      "strength": "hard",
+      "reason": "机械波是振动的传播：先有振动后有波"
+    },
+    {
+      "topicId": "ct_wl_g11b_03",
+      "prerequisiteId": "ct_wl_g9a_25",
+      "strength": "soft",
+      "reason": "机械波与电磁波共性对比：干涉衍射与波速关系"
+    },
+    {
+      "topicId": "ct_wl_g11b_04",
+      "prerequisiteId": "ct_wl_g8a_13",
+      "strength": "hard",
+      "reason": "初中光的折射定性规律升级为折射定律与折射率计算"
+    },
+    {
+      "topicId": "ct_wl_g11b_05",
+      "prerequisiteId": "ct_wl_g11b_03",
+      "strength": "hard",
+      "reason": "光的干涉衍射规律是机械波干涉衍射知识的迁移"
+    },
+    {
+      "topicId": "ct_wl_g11b_05",
+      "prerequisiteId": "ct_wl_g8a_13",
+      "strength": "soft",
+      "reason": "初中色散现象在波动光学中获得定量解释"
+    },
+    {
+      "topicId": "ct_wl_g11b_06",
+      "prerequisiteId": "ct_wl_g11b_01",
+      "strength": "hard",
+      "reason": "碰撞综合题以动量守恒为核心方程"
+    },
+    {
+      "topicId": "ct_wl_g11b_06",
+      "prerequisiteId": "ct_wl_g10b_08",
+      "strength": "hard",
+      "reason": "能量守恒与功能关系是碰撞能量分析的工具"
     }
   ]
 }
