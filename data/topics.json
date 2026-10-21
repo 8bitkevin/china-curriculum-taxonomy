@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.34.0",
+  "version": "1.35.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1158,
+  "topicCount": 1172,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -35831,6 +35831,439 @@
       },
       "prerequisites": [
         "ct_yy_g7b_15"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "病痛与医嘱：What's the matter?",
+      "description": "掌握身体部位与病痛表达（have a cold/headache/stomachache/toothache, have a sore throat）和问诊对话：What's the matter? — I have a headache. — You should lie down and rest. 看病英语的完整流程——身体词汇从「指认」升级到「描述不适」。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能描述五种常见病痛",
+        "能就病痛给出 should 建议"
+      ],
+      "assessmentPrompt": "扮演病人捂着喉咙，看{{name}}会不会问 What's the matter? 并给建议（You should drink hot tea with honey.）。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 1 What's the matter?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g3a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "could 与志愿服务：I'll help to clean up",
+      "description": "掌握 could 的建议用法与不定式目的（We could put up signs to tell people. / I'd like to cheer up sick kids.）：志愿短语（clean up、give out、call up、cheer up）+ to do 表目的——把善意翻译成英语行动。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能提出三条志愿建议（could + 短语）",
+        "不定式表目的使用正确（to tell/ to help）"
+      ],
+      "assessmentPrompt": "小区招募志愿者：请{{name}}提三条建议（We could...）并说明目的（to...）；再考：他去医院是为让病人开心 怎么说？",
+      "standards": [
+        "csenglish-2022:S4.GR.04",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 2 I'll help to clean up the city parks.",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "请求与许可：Could you please...? / Could I...?",
+      "description": "分清两副 could：请求别人（Could you please take out the rubbish?）与请求许可（Could I go out for dinner?）——家务词汇（do the dishes、sweep the floor、fold clothes）一并打包。礼貌请求 + 委婉拒绝（Sorry, I have to...）——家庭协商英语。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "两种 could 问句场景选择正确",
+        "能就五项家务完成请求-应答"
+      ],
+      "assessmentPrompt": "家务协商：{{name}}用 Could you please...? 请你做两件事，再用 Could I...? 申请两项许可；拒一次看理由。",
+      "standards": [
+        "csenglish-2022:S4.LS.01",
+        "csenglish-2022:S4.GR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 3 Could you please clean your room?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "烦恼与建议：until、so that 连句",
+      "description": "掌握谈论烦恼与给建议的完整对话（My parents don't allow me to... / Why don't you talk to them?），并学会用 until（等到/直到）、so that（以便）把句子连长——建议要给得具体：先共情、再建议、给理由。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出一个烦恼并收到/给出建议",
+        "until/so that 造句各一且逻辑正确"
+      ],
+      "assessmentPrompt": "向{{name}}诉苦「作业太多睡不够」，听建议是否含 so that（You should plan earlier so that you can sleep more.）；再考 until 填空。",
+      "standards": [
+        "csenglish-2022:S4.GR.06",
+        "csenglish-2022:S4.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 4 Why don't you talk to your parents?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "过去进行时：when the rainstorm came",
+      "description": "掌握过去进行时 was/were + V-ing：What were you doing at eight last night? — I was helping my mom. 与 when/while 的搭配（when+短暂动作，while+延续背景）。「过去某刻正在做」——时态家族的第五位，叙事从此有镜头感。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "过去进行时填空 10 题对 8",
+        "when/while 选词正确"
+      ],
+      "assessmentPrompt": "问{{name}}：What were you doing at 9 last night? When the lights went out, what were you doing? 连问三场景；考 while 填空。",
+      "standards": [
+        "csenglish-2022:S4.GR.01",
+        "csenglish-2022:S3.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 5 What were you doing when the rainstorm came?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_05",
+        "ct_yy_g7b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "用英语讲中国故事：Yu Gong Moves a Mountain",
+      "description": "用英语讲中国经典故事（愚公移山、后羿射日、西游记节选）：as soon as（一…就）、unless（除非）、so...that（如此…以至于）三个连词是故事的关节。文化自信的语言出口——把最熟的故事讲给世界。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能复述愚公移山六句（用上三个连词）",
+        "as soon as/unless/so...that 造句各一"
+      ],
+      "assessmentPrompt": "请{{name}}用英语讲愚公移山给家人听，必须用上 as soon as 和 unless；讲完考 unless 的中文意思。",
+      "standards": [
+        "csenglish-2022:S4.RD.01",
+        "csenglish-2022:S4.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 6 An old man tried to move the mountains.",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_07",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "大数字与地理之最",
+      "description": "掌握大数字读写（1,025 metres deep、8844.43 metres high、9,600,000 square kilometres）与地理之最问答：What's the highest mountain in the world? — Qomolangma. 数字三位一逗号、million/billion 的量级——最高级与数字听力的联考。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能读写五位数以上数字与长度面积表达",
+        "能就三个世界之最问答"
+      ],
+      "assessmentPrompt": "写 9,600,000 和 8,844.43 请{{name}}读；问 What's the longest river in the world? How long is it?",
+      "standards": [
+        "csenglish-2022:S4.VB.01",
+        "csenglish-2022:S4.GR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 7 What's the highest mountain in the world?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "现在完成时初步：have done 与 yet/already",
+      "description": "掌握现在完成时第一课：have/has + 过去分词（规则 -ed 与常用不规则），标志词 yet（疑问否定句尾）、already（肯定句中）、just：Have you read Treasure Island yet? — Yes, I have. I've already read it.——谈「做完没」的时态，中考三大时态之首登场。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "完成时填空 10 题对 8",
+        "yet/already 位置使用正确"
+      ],
+      "assessmentPrompt": "问{{name}}：Have you finished your homework yet? Have you had dinner? 连问五事；考 I have finished already. 哪里不对。",
+      "standards": [
+        "csenglish-2022:S4.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 8 Have you read Treasure Island yet?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g7b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "完成时经历：Have you ever been to...?",
+      "description": "掌握完成时表经历：Have you ever been to a science museum? — Yes, I went there last year. / has been to（去过已回）vs has gone to（去了没回）的辨析 + ever/never。谈人生经历——「你去过吗」是旅行话题的万能钥匙。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "been to/gone to 辨析 5 题全对",
+        "能就三个地方问答经历"
+      ],
+      "assessmentPrompt": "问{{name}}：Have you ever been to Beijing? 再说 Tom has gone to Beijing——他在北京吗？考 been/gone 区别。",
+      "standards": [
+        "csenglish-2022:S4.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 9 Have you ever been to a museum?",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8b_08"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_10",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "完成时延续：for、since 与延续性动词",
+      "description": "掌握完成时的时间长度：I've had this bike for three years. / since 2020. 与延续性动词的转换（buy→have, borrow→keep, die→be dead, join→be in）——瞬间动词不能接 for/since。完成时三部曲的收官、也是中考最难语法点。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "for/since 用法 10 题对 8",
+        "瞬间动词转延续动词 8 组能对 6"
+      ],
+      "assessmentPrompt": "考{{name}}：他买这辆车两年了——He ___ this car ___ two years.（bought 能进 for 吗？）；说 die/join/leave 的延续式。",
+      "standards": [
+        "csenglish-2022:S4.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 10 I've had this bike for three years.",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "阅读：故事语篇与续写萌芽",
+      "description": "读 150 词左右的故事语篇（《鲁滨逊漂流记》《哈利波特》节选）：理情节线、抓人物心理，并尝试给故事续写一两句情节。读后续写的种子期——为高中题型预铺。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能排序故事情节五步",
+        "续写两句与原文时态人称一致"
+      ],
+      "assessmentPrompt": "给{{name}}读 Robinson 捞货的片段，排情节顺序并续写：第二天他会先做什么？用过去时写两句。",
+      "standards": [
+        "csenglish-2022:S4.RD.01",
+        "csenglish-2022:S4.WR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 8 阅读板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：志愿者计划（will + could 综合）",
+      "description": "写 My volunteer plan（80 词）：开头意愿（I'd like to...）+ 三条计划（First... Second... Third...，用 will/could）+ 结尾愿景。应用文与计划文的合体——初中作文的实用主义巅峰。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "三条计划结构清楚",
+        "will/could/be going to 不混用，80 词以上"
+      ],
+      "assessmentPrompt": "请{{name}}写「社区养老院志愿服务计划」：意愿一句+三条安排+结尾，用上 First/Next/Finally。",
+      "standards": [
+        "csenglish-2022:S4.WR.02",
+        "csenglish-2022:S4.WR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 2 写作板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_13",
+        "ct_yy_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_13",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：突发事件报道（过去进行时）",
+      "description": "听突发事件报道（暴风雨来临时人们在做什么）：抓时间点+各人在做的事；口语输出像记者一样报道：At 8 pm, when the rainstorm came, my family were doing different things...——过去进行时的听说实战场。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "听力表格（时间×人物×动作）填对 4/5",
+        "能口头报道四人的「当时正在做」"
+      ],
+      "assessmentPrompt": "给{{name}}看停电瞬间的全家照片，请他当新闻播报员：When the lights went out, Mum was... Dad was... 四句报道。",
+      "standards": [
+        "csenglish-2022:S4.LS.02",
+        "csenglish-2022:S4.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "Unit 5 听说板块",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g8b_14",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "八下词汇与过去分词库",
+      "description": "八下词汇约 450，新增「过去分词库」：规则与不规则过去分词 60 个起步单列成册——完成时、被动语态全靠它。词汇管理进入「语法化」时代：动词按三态（原形-过去式-过去分词）登记。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "过去分词三态听写 30 组对 25 以上",
+        "词汇互译 20 词对 17"
+      ],
+      "assessmentPrompt": "给{{name}}报 30 个动词（go/do/see/eat...）写三态；错的进「三态本」每日滚动。",
+      "standards": [
+        "csenglish-2022:S4.VB.01",
+        "csenglish-2022:S4.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "全册",
+        "editionYear": 2013
+      },
+      "prerequisites": [
+        "ct_yy_g8a_15"
       ]
     }
   ]

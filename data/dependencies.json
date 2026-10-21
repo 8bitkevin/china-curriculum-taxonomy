@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.34.0",
+  "version": "1.35.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1666,
+  "edgeCount": 1682,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9999,6 +9999,102 @@
       "prerequisiteId": "ct_yy_g7b_15",
       "strength": "hard",
       "reason": "词汇自查跨册累进，新增构词规律意识"
+    },
+    {
+      "topicId": "ct_yy_g8b_01",
+      "prerequisiteId": "ct_yy_g3a_05",
+      "strength": "hard",
+      "reason": "小学身体部位词汇升级为病痛描述与问诊对话"
+    },
+    {
+      "topicId": "ct_yy_g8b_02",
+      "prerequisiteId": "ct_yy_g8a_11",
+      "strength": "hard",
+      "reason": "建议句式家族（八上）在志愿服务场景深化并引入不定式表目的"
+    },
+    {
+      "topicId": "ct_yy_g8b_03",
+      "prerequisiteId": "ct_yy_g8a_09",
+      "strength": "hard",
+      "reason": "邀请应答的礼貌系统延伸到请求与许可的双向 could"
+    },
+    {
+      "topicId": "ct_yy_g8b_04",
+      "prerequisiteId": "ct_yy_g8a_11",
+      "strength": "hard",
+      "reason": "建议对话扩展长句：until/so that 让建议更具体"
+    },
+    {
+      "topicId": "ct_yy_g8b_05",
+      "prerequisiteId": "ct_yy_g7b_05",
+      "strength": "hard",
+      "reason": "现在进行时（此刻）的时间轴移到过去：过去进行时"
+    },
+    {
+      "topicId": "ct_yy_g8b_05",
+      "prerequisiteId": "ct_yy_g7b_11",
+      "strength": "soft",
+      "reason": "过去时叙事经验叠加进行体，形成「背景+断点」的叙事感"
+    },
+    {
+      "topicId": "ct_yy_g8b_06",
+      "prerequisiteId": "ct_yy_g6b_02",
+      "strength": "soft",
+      "reason": "鲁滨逊等故事素材与讲故事能力从小学延续到连词升级"
+    },
+    {
+      "topicId": "ct_yy_g8b_07",
+      "prerequisiteId": "ct_yy_g8a_04",
+      "strength": "hard",
+      "reason": "最高级句型在地理之最话题中实战，叠加数字读写"
+    },
+    {
+      "topicId": "ct_yy_g8b_08",
+      "prerequisiteId": "ct_yy_g7b_11",
+      "strength": "hard",
+      "reason": "过去时动词变化经验扩展为过去分词体系：完成时开篇"
+    },
+    {
+      "topicId": "ct_yy_g8b_09",
+      "prerequisiteId": "ct_yy_g8b_08",
+      "strength": "hard",
+      "reason": "完成时初步之后学经历表达：ever/never 与 been/gone 辨析"
+    },
+    {
+      "topicId": "ct_yy_g8b_10",
+      "prerequisiteId": "ct_yy_g8b_09",
+      "strength": "hard",
+      "reason": "完成时三部曲收官：for/since 的延续性与瞬间动词转换"
+    },
+    {
+      "topicId": "ct_yy_g8b_11",
+      "prerequisiteId": "ct_yy_g8a_12",
+      "strength": "hard",
+      "reason": "主旨+细节阅读之后进入故事语篇与情节续写萌芽"
+    },
+    {
+      "topicId": "ct_yy_g8b_12",
+      "prerequisiteId": "ct_yy_g8b_02",
+      "strength": "hard",
+      "reason": "志愿计划写作直接运用 could/will 与志愿短语"
+    },
+    {
+      "topicId": "ct_yy_g8b_12",
+      "prerequisiteId": "ct_yy_g8a_13",
+      "strength": "soft",
+      "reason": "比较级作文的篇章经验迁移到计划文的结构组织"
+    },
+    {
+      "topicId": "ct_yy_g8b_13",
+      "prerequisiteId": "ct_yy_g8b_05",
+      "strength": "hard",
+      "reason": "过去进行时语法的听说实战：时间点+动作的报道"
+    },
+    {
+      "topicId": "ct_yy_g8b_14",
+      "prerequisiteId": "ct_yy_g8a_15",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进，动词三态库成为新管理单元"
     }
   ]
 }
