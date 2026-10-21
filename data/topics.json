@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.23.0",
+  "version": "1.24.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1016,
+  "topicCount": 1031,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -31427,6 +31427,462 @@
       "prerequisites": [
         "ct_yw_g11b_09",
         "ct_yw_g6b_16"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_01",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "26 个字母的认读与四线三格书写",
+      "description": "英语启蒙第一课：认读 26 个字母的大小写并按四线三格规范书写（大写占上两格、小写 g/y 占三格）。字母是英语世界的门票——写不占格、认不全，后面单词拼读全卡壳。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能按顺序认读 26 个字母大小写（打乱也能认）",
+        "能在四线三格里正确书写，占格错误不超过 3 处"
+      ],
+      "assessmentPrompt": "给{{name}}一张四线三格纸，听写 10 个字母（含 b/d、p/q 易混对）；再打乱指认大写 H、N、M。",
+      "standards": [
+        "csenglish-2022:S2.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Letters and sounds",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_yy_g3a_02",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "字母在单词中的发音：Aa apple、Bb bear",
+      "description": "每个字母配一个锚词感受发音（Aa for apple、Bb for bear），知道字母「有名」（名字 ei）也「有声」（在词里的读音）。自然拼读（phonics）的第一粒种子：见词能逐渐试着拼。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出至少 15 个字母的锚词",
+        "能听音判断首字母（/b/ 开头是 bear 还是 pear）"
+      ],
+      "assessmentPrompt": "说单词 cat、dog、fish，请{{name}}说出各自的首字母和它的字母音。",
+      "standards": [
+        "csenglish-2022:S2.PH.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Letters and sounds",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "Hello! 打招呼与自我介绍",
+      "description": "学会 Hello/Hi 打招呼、I'm... / My name is... 自我介绍、Goodbye 告别。开口说英语的第一关不在对错在胆量——第一学期目标是敢说、能应答。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能大方地用英语介绍自己的名字",
+        "能对 Hello/Goodbye 正确应答"
+      ],
+      "assessmentPrompt": "假装第一次见面和{{name}}打招呼：Hello! I'm Kevin. What's your name? 看{{name}}能否接住并介绍自己。",
+      "standards": [
+        "csenglish-2022:S2.GR.01",
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 1 Hello!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "颜色词汇与时间段问候",
+      "description": "掌握 red、yellow、blue、green 等颜色词，学会按时间问候：Good morning / Good afternoon / Good evening。颜色是最早能玩起来的词汇——找一找、说一说，家里到处是教具。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能指认并说出 8 种颜色",
+        "能在早/午/晚情境正确选用问候语"
+      ],
+      "assessmentPrompt": "带{{name}}在屋里玩「颜色猎人」：找到三个红色物品并说 It's red；分别在早上和晚上用英语打招呼。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 2 Colours",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "How are you? 问候与应答链",
+      "description": "掌握 How are you? — I'm fine, thank you. / Fine, thanks. 的应答链，并认识身体部位词（face、nose、mouth、ear、eye）。「三段式」应答是英语对话的基本功：问—答—回问（And you?）。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能完整走完一次 How are you 对话并回问",
+        "能边指边说五个身体部位"
+      ],
+      "assessmentPrompt": "和{{name}}玩「指五官」：Touch your nose! 看{{name}}能不能指对；再互相问 How are you 看应答是否完整。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 3 Look at me!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "What's this? It's a...：动物与指示代词",
+      "description": "用动物词（dog、cat、panda、duck）练核心句型 What's this? It's a duck. / What's that? It's a panda.——this 近 that 远的空间感第一次建立。问答句型是英语课堂的心跳。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能对 8 种动物提问并回答",
+        "能根据远近正确选用 this/that"
+      ],
+      "assessmentPrompt": "拿一张动物卡片放近处问 What's this? 再指远处海报问 What's that? 看{{name}}的回答和指代是否一致。",
+      "standards": [
+        "csenglish-2022:S2.GR.02",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 4 We love animals",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_02",
+        "ct_yy_g3a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_07",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "I like...：食物与喜好表达",
+      "description": "掌握食物词（bread、juice、egg、milk、rice）和喜好句型 I like... / Have some bread. — Thank you. / I'd like some juice, please. 从「认物」到「表达想要」，英语开始有了用处。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能用 I like... 说出三种喜欢的食物",
+        "能礼貌地接受或请求食物（Thank you / I'd like...）"
+      ],
+      "assessmentPrompt": "摆几样食物图片开「英语餐厅」：你问 Would you like some...? 看{{name}}会不会用 I'd like... 点单并道谢。",
+      "standards": [
+        "csenglish-2022:S2.GR.03",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 5 Let's eat!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_06"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "数字 one to ten 与 How old are you?",
+      "description": "掌握数字 1–10 和年龄问答 How old are you? — I'm nine. 数字与生日、年龄、数量相连——孩子最有动机学的词汇之一。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能从 1 数到 10 并倒着数",
+        "能回答年龄问题并反问对方"
+      ],
+      "assessmentPrompt": "玩拍手数数（拍一下数一个）到 10；再问{{name}}：How old are you? 看{{name}}会不会回问 And you?",
+      "standards": [
+        "csenglish-2022:S2.GR.04",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 6 Happy birthday!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_09",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "课堂指令与 TPR：动起来学英语",
+      "description": "听懂并执行课堂指令：Stand up / Sit down / Open your book / Show me your pencil。全身反应法（TPR）——听的输入配身体动作，是低年级外语学习最有效的通道之一。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能听指令做对动作（10 条以上）",
+        "能听指令找出对应文具"
+      ],
+      "assessmentPrompt": "发指令给{{name}}：Stand up! Touch your head! Show me your ruler! 连发五个看反应速度。",
+      "standards": [
+        "csenglish-2022:S2.LS.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Let's do",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "借助图片听懂对话大意",
+      "description": "听课文对话时不逐词翻译，先看图猜情节、再听抓大意（谁、在干什么）。外语听力的正确起步：容许听不懂每一个词，抓住「大概在说什么」。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "听两遍能说出对话里有几个人、在说什么事",
+        "能指着图复述关键句"
+      ],
+      "assessmentPrompt": "放一段课本对话音频，请{{name}}先看图猜，再听两遍，问：Who are they? What are they doing?",
+      "standards": [
+        "csenglish-2022:S2.RD.01",
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Let's talk",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_11",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "朗读与表演课本对话",
+      "description": "大声朗读并分角色表演课本对话（配动作、带头饰）。朗读建立语感，表演让语言长在情境上——第一学期的英语学习一半在「演」。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能连贯朗读一个单元的对话",
+        "能与同伴分角色表演不串词"
+      ],
+      "assessmentPrompt": "和{{name}}分角色演 Unit 4 的动物问答，{{name}}演 B 角色，允许看词但要求有语气有动作。",
+      "standards": [
+        "csenglish-2022:S2.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Let's talk",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "单词与句子的规范抄写",
+      "description": "按四线三格抄写单词和简单句子（句首大写、词间空一格、句末标点）。书写规范从第一天抓起——三上的笔头任务不多，但每笔都是习惯。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "抄写 10 个单词占格正确",
+        "抄写句子大小写和标点无误"
+      ],
+      "assessmentPrompt": "请{{name}}抄写 I have a ruler. 和单词 panda，检查：I 大写了吗？词间距均匀吗？句号有吗？",
+      "standards": [
+        "csenglish-2022:S2.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元 Let's check / 书写练习",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "礼貌用语：Thank you / Sorry / Bye",
+      "description": "掌握高频礼貌用语：Thank you. / You're welcome. / Sorry. / Bye-bye! 并在正确时机使用。语言学习与文化习惯同步——英语的「客气」从这里开始。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "收到东西说 Thank you",
+        "碰倒别人会主动说 Sorry"
+      ],
+      "assessmentPrompt": "一小时内做三件事：递给{{name}}零食、假装被{{name}}踩到脚、出门告别，看三个礼貌用语是否自然用出。",
+      "standards": [
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "各单元",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_14",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "英语名字与中外称呼差异",
+      "description": "认识英语名字的结构（first name + last name，名前姓后）与中文相反；了解英语课常取的英文名。文化意识从名字开始——语言背后的生活方式第一次被看见。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "知道英文名是名在前姓在后",
+        "能说出自己英文名或愿意取一个"
+      ],
+      "assessmentPrompt": "问{{name}}：Jack Smith 里哪个是姓？中文「王小明」和英文「Xiaoming Wang」顺序为什么反？帮{{name}}选一个英文名。",
+      "standards": [
+        "csenglish-2022:S2.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "Unit 1 Hello!",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g3a_15",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "三上词汇自查：约 70 词 + 核心句型",
+      "description": "学期目标：认读约 70 个单词（颜色、动物、食物、数字、文具、身体）和 6 组核心问答句型。词汇自查用图卡最快——能看图说词才算真的会。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "图卡认词正确率 85% 以上",
+        "六个单元核心句型各能对话一轮"
+      ],
+      "assessmentPrompt": "用单词图卡抽 20 张请{{name}}说词，再每单元问一个核心句（What's this? / How old are you?...）各答一次。",
+      "standards": [
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_yy_g3a_06",
+        "ct_yy_g3a_08"
       ]
     }
   ]

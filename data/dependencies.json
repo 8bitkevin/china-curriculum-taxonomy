@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.23.0",
+  "version": "1.24.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1494,
+  "edgeCount": 1510,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8967,6 +8967,102 @@
       "prerequisiteId": "ct_yw_g6b_16",
       "strength": "soft",
       "reason": "初小衔接的自主复习方法在高中收官处完成闭环"
+    },
+    {
+      "topicId": "ct_yy_g3a_02",
+      "prerequisiteId": "ct_yy_g3a_01",
+      "strength": "hard",
+      "reason": "字母的音（词中发音）在字母的名与形之后学习"
+    },
+    {
+      "topicId": "ct_yy_g3a_03",
+      "prerequisiteId": "ct_yy_g3a_01",
+      "strength": "soft",
+      "reason": "自我介绍的书写与认读以字母为基础，口头则同步起步"
+    },
+    {
+      "topicId": "ct_yy_g3a_04",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "hard",
+      "reason": "颜色与时间段问候在打招呼的基础上扩展词汇与用语"
+    },
+    {
+      "topicId": "ct_yy_g3a_05",
+      "prerequisiteId": "ct_yy_g3a_04",
+      "strength": "hard",
+      "reason": "How are you 应答链是问候语体系（Good morning 等）的下一环"
+    },
+    {
+      "topicId": "ct_yy_g3a_06",
+      "prerequisiteId": "ct_yy_g3a_05",
+      "strength": "hard",
+      "reason": "What's this 问答建立在基本应答习惯与动物词汇之上"
+    },
+    {
+      "topicId": "ct_yy_g3a_06",
+      "prerequisiteId": "ct_yy_g3a_02",
+      "strength": "soft",
+      "reason": "首音感知帮助认记动物单词（dog/duck）"
+    },
+    {
+      "topicId": "ct_yy_g3a_07",
+      "prerequisiteId": "ct_yy_g3a_06",
+      "strength": "hard",
+      "reason": "I like... 喜好表达沿用 It's a... 的名词句框架"
+    },
+    {
+      "topicId": "ct_yy_g3a_08",
+      "prerequisiteId": "ct_yy_g3a_07",
+      "strength": "soft",
+      "reason": "生日情境把数字与食物、庆祝用语串成综合运用"
+    },
+    {
+      "topicId": "ct_yy_g3a_09",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "soft",
+      "reason": "课堂指令听解与社交问候同属起步听力输入"
+    },
+    {
+      "topicId": "ct_yy_g3a_10",
+      "prerequisiteId": "ct_yy_g3a_09",
+      "strength": "hard",
+      "reason": "从听指令做动作到听对话抓大意：听力理解的递进"
+    },
+    {
+      "topicId": "ct_yy_g3a_11",
+      "prerequisiteId": "ct_yy_g3a_10",
+      "strength": "hard",
+      "reason": "听懂大意后朗读表演，输入转输出"
+    },
+    {
+      "topicId": "ct_yy_g3a_12",
+      "prerequisiteId": "ct_yy_g3a_01",
+      "strength": "hard",
+      "reason": "规范抄写以字母占格为前提"
+    },
+    {
+      "topicId": "ct_yy_g3a_13",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "hard",
+      "reason": "礼貌用语扩展问候告别的社交语库"
+    },
+    {
+      "topicId": "ct_yy_g3a_14",
+      "prerequisiteId": "ct_yy_g3a_03",
+      "strength": "soft",
+      "reason": "自我介绍时自然引出英文名与姓名顺序话题"
+    },
+    {
+      "topicId": "ct_yy_g3a_15",
+      "prerequisiteId": "ct_yy_g3a_06",
+      "strength": "hard",
+      "reason": "期末自查以核心句型达标为纲"
+    },
+    {
+      "topicId": "ct_yy_g3a_15",
+      "prerequisiteId": "ct_yy_g3a_08",
+      "strength": "soft",
+      "reason": "数字与问答是学期词汇句型的收官部分"
     }
   ]
 }

@@ -8,9 +8,11 @@
     "csmath-2022",
     "hsmath-2017",
     "cschinese-2022",
-    "hschinese-2017"
+    "hschinese-2017",
+    "csenglish-2022",
+    "hsenglish-2017"
   ],
-  "curriculumCount": 4,
+  "curriculumCount": 6,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -1980,6 +1982,525 @@
         }
       ],
       "topicCount": 28
+    },
+    {
+      "slug": "csenglish-2022",
+      "title": "义务教育英语课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csenglish-2022:S2.PH.01",
+          "code": "S2.PH.01",
+          "stage": 2,
+          "domain": "语音",
+          "title": "26 个字母的认读与规范书写"
+        },
+        {
+          "key": "csenglish-2022:S2.PH.02",
+          "code": "S2.PH.02",
+          "stage": 2,
+          "domain": "语音",
+          "title": "字母与字母组合的常见发音（自然拼读起步）"
+        },
+        {
+          "key": "csenglish-2022:S2.VB.01",
+          "code": "S2.VB.01",
+          "stage": 2,
+          "domain": "词汇",
+          "title": "话题词汇起步：颜色、动物、食物、数字、文具、身体"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.01",
+          "code": "S2.GR.01",
+          "stage": 2,
+          "domain": "语法",
+          "title": "自我介绍句型：I'm... / My name is..."
+        },
+        {
+          "key": "csenglish-2022:S2.GR.02",
+          "code": "S2.GR.02",
+          "stage": 2,
+          "domain": "语法",
+          "title": "What's this/that? 与 this/that 指示代词"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.03",
+          "code": "S2.GR.03",
+          "stage": 2,
+          "domain": "语法",
+          "title": "喜好表达：I like... / Do you like...?"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.04",
+          "code": "S2.GR.04",
+          "stage": 2,
+          "domain": "语法",
+          "title": "How many...? 数字提问与应答"
+        },
+        {
+          "key": "csenglish-2022:S2.LS.01",
+          "code": "S2.LS.01",
+          "stage": 2,
+          "domain": "听说",
+          "title": "问候、告别、感谢等基本社交用语"
+        },
+        {
+          "key": "csenglish-2022:S2.LS.02",
+          "code": "S2.LS.02",
+          "stage": 2,
+          "domain": "听说",
+          "title": "听懂课堂指令并做动作（TPR）"
+        },
+        {
+          "key": "csenglish-2022:S2.RD.01",
+          "code": "S2.RD.01",
+          "stage": 2,
+          "domain": "阅读",
+          "title": "借助图片听懂并读懂简单对话与小故事"
+        },
+        {
+          "key": "csenglish-2022:S2.RD.02",
+          "code": "S2.RD.02",
+          "stage": 2,
+          "domain": "阅读",
+          "title": "朗读、背诵与表演课本对话和歌谣"
+        },
+        {
+          "key": "csenglish-2022:S2.WR.01",
+          "code": "S2.WR.01",
+          "stage": 2,
+          "domain": "写作",
+          "title": "四线三格规范抄写字母、单词与简单句子"
+        },
+        {
+          "key": "csenglish-2022:S3.PH.01",
+          "code": "S3.PH.01",
+          "stage": 3,
+          "domain": "语音",
+          "title": "长短元音对比与字母组合拼读规则（phonics）"
+        },
+        {
+          "key": "csenglish-2022:S3.PH.02",
+          "code": "S3.PH.02",
+          "stage": 3,
+          "domain": "语音",
+          "title": "单词重音与升降调初步"
+        },
+        {
+          "key": "csenglish-2022:S3.VB.01",
+          "code": "S3.VB.01",
+          "stage": 3,
+          "domain": "词汇",
+          "title": "话题词汇扩展：家庭、学校、时间、天气、爱好、职业（累计约 600 词）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.01",
+          "code": "S3.GR.01",
+          "stage": 3,
+          "domain": "语法",
+          "title": "一般现在时与第三人称单数变化"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.02",
+          "code": "S3.GR.02",
+          "stage": 3,
+          "domain": "语法",
+          "title": "现在进行时（be + V-ing）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.03",
+          "code": "S3.GR.03",
+          "stage": 3,
+          "domain": "语法",
+          "title": "there be 句型与方位介词"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.04",
+          "code": "S3.GR.04",
+          "stage": 3,
+          "domain": "语法",
+          "title": "情态动词 can 与能力、请求表达"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.05",
+          "code": "S3.GR.05",
+          "stage": 3,
+          "domain": "语法",
+          "title": "一般过去时（规则与常用不规则动词）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.06",
+          "code": "S3.GR.06",
+          "stage": 3,
+          "domain": "语法",
+          "title": "特殊疑问句体系（what/where/when/why/how）"
+        },
+        {
+          "key": "csenglish-2022:S3.LS.01",
+          "code": "S3.LS.01",
+          "stage": 3,
+          "domain": "听说",
+          "title": "询问与提供信息的日常对话（问路、购物、约会）"
+        },
+        {
+          "key": "csenglish-2022:S3.RD.01",
+          "code": "S3.RD.01",
+          "stage": 3,
+          "domain": "阅读",
+          "title": "读懂 80–100 词短文并抓主要信息"
+        },
+        {
+          "key": "csenglish-2022:S3.RD.02",
+          "code": "S3.RD.02",
+          "stage": 3,
+          "domain": "阅读",
+          "title": "借助图片和上下文猜测词义"
+        },
+        {
+          "key": "csenglish-2022:S3.WR.01",
+          "code": "S3.WR.01",
+          "stage": 3,
+          "domain": "写作",
+          "title": "仿写句子与简单语篇（自我介绍、我的一天）"
+        },
+        {
+          "key": "csenglish-2022:S3.WR.02",
+          "code": "S3.WR.02",
+          "stage": 3,
+          "domain": "写作",
+          "title": "英语标点与大小写的正确使用"
+        },
+        {
+          "key": "csenglish-2022:S4.PH.01",
+          "code": "S4.PH.01",
+          "stage": 4,
+          "domain": "语音",
+          "title": "音标系统与拼读规则的整体化"
+        },
+        {
+          "key": "csenglish-2022:S4.VB.01",
+          "code": "S4.VB.01",
+          "stage": 4,
+          "domain": "词汇",
+          "title": "课标词汇约 1600 词与 200–300 个习惯搭配"
+        },
+        {
+          "key": "csenglish-2022:S4.VB.02",
+          "code": "S4.VB.02",
+          "stage": 4,
+          "domain": "词汇",
+          "title": "构词法初步：合成、派生（前后缀）、转化"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.01",
+          "code": "S4.GR.01",
+          "stage": 4,
+          "domain": "语法",
+          "title": "一般将来时与过去进行时"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.02",
+          "code": "S4.GR.02",
+          "stage": 4,
+          "domain": "语法",
+          "title": "现在完成时（have/has + 过去分词）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.03",
+          "code": "S4.GR.03",
+          "stage": 4,
+          "domain": "语法",
+          "title": "被动语态（一般时态）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.04",
+          "code": "S4.GR.04",
+          "stage": 4,
+          "domain": "语法",
+          "title": "动词不定式与动名词的基本用法"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.05",
+          "code": "S4.GR.05",
+          "stage": 4,
+          "domain": "语法",
+          "title": "形容词、副词的比较级与最高级"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.06",
+          "code": "S4.GR.06",
+          "stage": 4,
+          "domain": "语法",
+          "title": "宾语从句与常见状语从句"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.07",
+          "code": "S4.GR.07",
+          "stage": 4,
+          "domain": "语法",
+          "title": "限制性定语从句初步（who/which/that）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.08",
+          "code": "S4.GR.08",
+          "stage": 4,
+          "domain": "语法",
+          "title": "简单句五大基本句型与 there be"
+        },
+        {
+          "key": "csenglish-2022:S4.LS.01",
+          "code": "S4.LS.01",
+          "stage": 4,
+          "domain": "听说",
+          "title": "日常话题的听说交互（个人情况、学校生活等话题）"
+        },
+        {
+          "key": "csenglish-2022:S4.LS.02",
+          "code": "S4.LS.02",
+          "stage": 4,
+          "domain": "听说",
+          "title": "听懂正常语速的对话与短文并抓关键信息"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.01",
+          "code": "S4.RD.01",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "读懂约 300 词语篇，理解主旨与细节"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.02",
+          "code": "S4.RD.02",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "略读（skimming）与寻读（scanning）策略"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.03",
+          "code": "S4.RD.03",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "利用上下文猜测词义"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.04",
+          "code": "S4.RD.04",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "图表、菜单等非连续性文本的信息提取"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.01",
+          "code": "S4.WR.01",
+          "stage": 4,
+          "domain": "写作",
+          "title": "应用文写作：书信、邮件、通知、贺卡"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.02",
+          "code": "S4.WR.02",
+          "stage": 4,
+          "domain": "写作",
+          "title": "话题作文 80–100 词（开头—主体—结尾三段式）"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.03",
+          "code": "S4.WR.03",
+          "stage": 4,
+          "domain": "写作",
+          "title": "用 and/but/so/because 等连接词衔接语篇"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.04",
+          "code": "S4.WR.04",
+          "stage": 4,
+          "domain": "写作",
+          "title": "记叙文与说明性短文的写作"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.05",
+          "code": "S4.WR.05",
+          "stage": 4,
+          "domain": "写作",
+          "title": "写作自查：时态一致、主谓一致、单词拼写"
+        }
+      ],
+      "topicCount": 48
+    },
+    {
+      "slug": "hsenglish-2017",
+      "title": "普通高中英语课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsenglish-2017:H1.VB.01",
+          "code": "H1.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "主题语境词汇：人与自我、人与社会、人与自然（3000 词级）"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.01",
+          "code": "H1.GR.01",
+          "stage": 5,
+          "domain": "语法",
+          "title": "非谓语动词（不定式、动名词、分词）的理解与使用"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.02",
+          "code": "H1.GR.02",
+          "stage": 5,
+          "domain": "语法",
+          "title": "名词性从句与定语从句的系统掌握"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.03",
+          "code": "H1.GR.03",
+          "stage": 5,
+          "domain": "语法",
+          "title": "时态与语态在语篇中的得体运用"
+        },
+        {
+          "key": "hsenglish-2017:H1.LS.01",
+          "code": "H1.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "听力中获取主要信息与说话人态度意图"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.01",
+          "code": "H1.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "略读寻读与主旨要义的把握"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.02",
+          "code": "H1.RD.02",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "细节理解、推理判断与作者意图"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.03",
+          "code": "H1.RD.03",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "语篇衔接与词汇猜测（语篇填空与七选五基础）"
+        },
+        {
+          "key": "hsenglish-2017:H1.WR.01",
+          "code": "H1.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "应用文写作：建议信、邀请函、申请信"
+        },
+        {
+          "key": "hsenglish-2017:H1.WR.02",
+          "code": "H1.WR.02",
+          "stage": 5,
+          "domain": "写作",
+          "title": "读后续写初步：情节合理续接"
+        },
+        {
+          "key": "hsenglish-2017:H2.VB.01",
+          "code": "H2.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "熟词生义、词汇搭配与 3500 词积累"
+        },
+        {
+          "key": "hsenglish-2017:H2.GR.01",
+          "code": "H2.GR.01",
+          "stage": 5,
+          "domain": "语法",
+          "title": "虚拟语气的基本形式与含义"
+        },
+        {
+          "key": "hsenglish-2017:H2.RD.01",
+          "code": "H2.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "说明文与议论文的语篇结构分析"
+        },
+        {
+          "key": "hsenglish-2017:H2.WR.01",
+          "code": "H2.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "概要写作：paraphrase 与信息压缩"
+        },
+        {
+          "key": "hsenglish-2017:H3.LS.01",
+          "code": "H3.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "批判性听读：区分事实与观点"
+        },
+        {
+          "key": "hsenglish-2017:H3.RD.01",
+          "code": "H3.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "文学语篇（小说节选、剧本）的阅读与赏析"
+        },
+        {
+          "key": "hsenglish-2017:H3.WR.01",
+          "code": "H3.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "读后续写的情感与动作描写"
+        },
+        {
+          "key": "hsenglish-2017:H4.VB.01",
+          "code": "H4.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "词汇语义网与主题词块（collocations）"
+        },
+        {
+          "key": "hsenglish-2017:H4.RD.01",
+          "code": "H4.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "长难句解析与语篇逻辑关系词"
+        },
+        {
+          "key": "hsenglish-2017:H4.WR.01",
+          "code": "H4.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "议论文写作：观点对比与论证展开"
+        },
+        {
+          "key": "hsenglish-2017:H5.LS.01",
+          "code": "H5.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "跨文化交际的得体表达"
+        },
+        {
+          "key": "hsenglish-2017:H5.RD.01",
+          "code": "H5.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "科普与文化语篇的综合理解"
+        },
+        {
+          "key": "hsenglish-2017:H5.WR.01",
+          "code": "H5.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "概要与续写综合训练（高考题型）"
+        }
+      ],
+      "topicCount": 23
     }
   ]
 }
