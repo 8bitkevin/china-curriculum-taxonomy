@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.48.0",
+  "version": "1.49.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1898,
+  "edgeCount": 1916,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11391,6 +11391,114 @@
       "prerequisiteId": "ct_wl_g10b_07",
       "strength": "hard",
       "reason": "验证实验的原理即机械能守恒定律"
+    },
+    {
+      "topicId": "ct_wl_g11a_01",
+      "prerequisiteId": "ct_wl_g9a_11",
+      "strength": "hard",
+      "reason": "初中电荷概念升级为库仑定律的定量计算与电场描述"
+    },
+    {
+      "topicId": "ct_wl_g11a_01",
+      "prerequisiteId": "ct_wl_g10a_02",
+      "strength": "soft",
+      "reason": "场强 E=F/q 与加速度 a=F/m 同为比值定义的变化率思维"
+    },
+    {
+      "topicId": "ct_wl_g11a_02",
+      "prerequisiteId": "ct_wl_g11a_01",
+      "strength": "hard",
+      "reason": "电势能电势差建立在电场力的知识之上"
+    },
+    {
+      "topicId": "ct_wl_g11a_02",
+      "prerequisiteId": "ct_wl_g10b_07",
+      "strength": "soft",
+      "reason": "电场力做功与电势能变化的关系类比重力做功与重力势能"
+    },
+    {
+      "topicId": "ct_wl_g11a_03",
+      "prerequisiteId": "ct_wl_g11a_02",
+      "strength": "hard",
+      "reason": "电容 C=Q/U 的理解需要电势差概念"
+    },
+    {
+      "topicId": "ct_wl_g11a_04",
+      "prerequisiteId": "ct_wl_g11a_02",
+      "strength": "hard",
+      "reason": "带电粒子加速用 W=qU，偏转用电场力做功"
+    },
+    {
+      "topicId": "ct_wl_g11a_04",
+      "prerequisiteId": "ct_wl_g10b_02",
+      "strength": "hard",
+      "reason": "偏转运动是类平抛：平抛运动的分解方法直接迁移"
+    },
+    {
+      "topicId": "ct_wl_g11a_05",
+      "prerequisiteId": "ct_wl_g9a_15",
+      "strength": "hard",
+      "reason": "闭合电路欧姆定律是初中欧姆定律的深化（加入电源内阻）"
+    },
+    {
+      "topicId": "ct_wl_g11a_06",
+      "prerequisiteId": "ct_wl_g9a_14",
+      "strength": "hard",
+      "reason": "初中电阻影响因素的定性认识升级为 R=ρL/S 定量定律"
+    },
+    {
+      "topicId": "ct_wl_g11a_06",
+      "prerequisiteId": "ct_wl_g9a_16",
+      "strength": "soft",
+      "reason": "电表改装的串联分压并联分流沿用初中串并联规律"
+    },
+    {
+      "topicId": "ct_wl_g11a_07",
+      "prerequisiteId": "ct_wl_g9a_20",
+      "strength": "hard",
+      "reason": "初中焦耳定律扩展到非纯电阻电路（电动机）的电动电热之辨"
+    },
+    {
+      "topicId": "ct_wl_g11a_07",
+      "prerequisiteId": "ct_wl_g9a_26",
+      "strength": "soft",
+      "reason": "能源利用的可持续议题从初中的分类深入到输电工程"
+    },
+    {
+      "topicId": "ct_wl_g11a_08",
+      "prerequisiteId": "ct_wl_g11a_05",
+      "strength": "hard",
+      "reason": "测 E 和 r 实验的原理即闭合电路欧姆定律"
+    },
+    {
+      "topicId": "ct_wl_g11a_08",
+      "prerequisiteId": "ct_wl_g9a_17",
+      "strength": "soft",
+      "reason": "电路连接与电表读数技能从初中伏安法实验延续"
+    },
+    {
+      "topicId": "ct_wl_g11a_09",
+      "prerequisiteId": "ct_wl_g9a_22",
+      "strength": "hard",
+      "reason": "初中磁现象定性描述升级为磁感应强度的定量表达"
+    },
+    {
+      "topicId": "ct_wl_g11a_09",
+      "prerequisiteId": "ct_wl_g11a_01",
+      "strength": "soft",
+      "reason": "B 与 E 的定义方式平行（F/IL 与 F/q），概念体系互相映照"
+    },
+    {
+      "topicId": "ct_wl_g11a_10",
+      "prerequisiteId": "ct_wl_g9a_24",
+      "strength": "hard",
+      "reason": "初中电磁感应现象的定性认识升级为磁通量变化的条件分析"
+    },
+    {
+      "topicId": "ct_wl_g11a_10",
+      "prerequisiteId": "ct_wl_g9a_25",
+      "strength": "soft",
+      "reason": "初中电磁波常识纳入电磁波谱的完整体系"
     }
   ]
 }

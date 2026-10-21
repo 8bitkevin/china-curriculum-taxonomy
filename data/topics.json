@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.48.0",
+  "version": "1.49.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1350,
+  "topicCount": 1360,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -41815,6 +41815,325 @@
       "prerequisites": [
         "ct_wl_g10a_03",
         "ct_wl_g10b_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "库仑定律与电场强度",
+      "description": "真空中的库仑定律 F=kQ₁Q₂/r²；电场强度 E=F/q（描述电场力的性质，由场源决定与试探电荷无关）；电场线（疏密表强弱、切线表方向）。电荷相互作用的定量化与「场」观念的建立。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用库仑定律计算点电荷间作用力",
+        "能判断电场线并比较两点场强"
+      ],
+      "assessmentPrompt": "问{{name}}：两个电荷间距加倍作用力变多少？E=F/q 中 q 加倍 E 变吗？电场线是真实存在的吗？",
+      "standards": [
+        "hsphysics-2017:H2.WM.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十章 静电场中的能量",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10a_02",
+        "ct_wl_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电势、电势差与电场力做功",
+      "description": "电势能（电荷在电场中的能量）；电势 φ（能的性质）、电势差 U=W/q、沿电场线方向电势降低；电场力做功与电势能变化（W=−ΔEp=qU）。电场的「力」描述（E）与「能」描述（U、φ）双轨并立。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用 W=qU 计算电场力做功",
+        "能判断电荷在电场中移动时电势能的增减"
+      ],
+      "assessmentPrompt": "问{{name}}：正电荷沿电场线方向移动电场力做什么功？电势能怎么变？1 eV 等于多少焦耳？",
+      "standards": [
+        "hsphysics-2017:H2.WM.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十章 静电场中的能量",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_07",
+        "ct_wl_g11a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电容器与电容",
+      "description": "电容器（储存电荷与电能的容器）；电容 C=Q/U（法拉）；平行板电容器的影响因素（正对面积、间距、介质）。照相机闪光灯的能量仓库——静电场的工程化。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用 C=Q/U 完成计算",
+        "能判断电容器动态问题（连电源/断电源两情形）"
+      ],
+      "assessmentPrompt": "问{{name}}：电容器充电后断开电源，把两板距离拉大，C、Q、U 各怎么变？闪光灯的能量从哪来？",
+      "standards": [
+        "hsphysics-2017:H2.WM.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十章 静电场中的能量",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "带电粒子在电场中的运动",
+      "description": "加速（qU=½mv²）与偏转（类平抛：垂直电场方向匀速+沿场方向匀加速）。示波管原理。电场与力学两大板块的交汇点——类平抛模型是平抛运动的电学翻版。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成加速与偏转的公式推导",
+        "能说明偏转问题为什么类平抛"
+      ],
+      "assessmentPrompt": "问{{name}}：电子经 100 V 电压加速后的速度怎么求？进入偏转电场后水平方向什么运动、竖直方向什么运动？",
+      "standards": [
+        "hsphysics-2017:H2.WM.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十章 静电场中的能量",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g10b_02",
+        "ct_wl_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电源、电动势与闭合电路欧姆定律",
+      "description": "电源把其他形式能转为电能的本领（电动势）；闭合电路欧姆定律 E=U+Ir（路端电压与电流的关系：U-I 图）；电源输出功率与效率。初中欧姆定律的完整版——把电源「请进」电路方程。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用 E=U+Ir 解动态电路问题",
+        "能解释路端电压随外电阻增大而增大"
+      ],
+      "assessmentPrompt": "问{{name}}：电源电动势 3 V 内阻 0.5 Ω，外电路 5.5 Ω，路端电压多少？外电阻增大时路端电压怎么变？为什么？",
+      "standards": [
+        "hsphysics-2017:H2.WM.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十二章 电能 能量守恒",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g9a_15"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_06",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电阻定律与串并联的深化",
+      "description": "电阻定律 R=ρL/S（电阻率是材料的属性、温度的影响）；串并联的电压电流功率分配规律深化（串联分压、并联分流的应用——电表改装）。初中电阻知识从定性到定量（ρ 入场）。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用 R=ρL/S 分析拉长对折后的电阻",
+        "能说明电流表改装电压表的原理"
+      ],
+      "assessmentPrompt": "问{{name}}：导线均匀拉长一倍电阻变几倍？把电流计（满偏 1 mA、内阻 100 Ω）改成 3 V 电压表要串多大电阻？",
+      "standards": [
+        "hsphysics-2017:H2.WM.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十一章 电路及其应用",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g9a_14",
+        "ct_wl_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "能量与能源",
+      "name": "电能的输送与能源观念",
+      "description": "电功与电热的深化（W=UIt、Q=I²Rt，纯电阻 W=Q、非纯电阻 W>Q——电动机问题）；远距离输电为什么要高压（减少 I²R 损耗）。从公式到电网——电学的社会学应用。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能区分电动与电热并计算电动机效率",
+        "能说明高压输电降低损耗的原理"
+      ],
+      "assessmentPrompt": "问{{name}}：电动机两端 220 V 电流 2 A 线圈电阻 5 Ω，输出机械功率多少？输电电压升高 10 倍损耗降为几倍？",
+      "standards": [
+        "hsphysics-2017:H2.WM.11",
+        "hsphysics-2017:H4.EN.22"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十二章 电能 能量守恒",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g9a_20",
+        "ct_wl_g9a_26"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_08",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "实验：测量电源电动势和内阻",
+      "description": "安阻法/伏阻法测 E 与 r：原理（E=U+Ir 变形）、U-I 图像处理（斜率与截距的物理意义）、系统误差分析（电压表分流）。电学实验的巅峰之作——三大测量实验收官。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用图像法求出 E 和 r",
+        "能说明安培计外接的系统误差方向"
+      ],
+      "assessmentPrompt": "问{{name}}：U-I 图的斜率和纵截距各表示什么？为什么要多次测量取多点作图？电流表内接导致 E 偏大还是偏小？",
+      "standards": [
+        "hsphysics-2017:H2.WM.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十二章 实验",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g11a_05",
+        "ct_wl_g9a_17"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_09",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "磁场与磁感应强度",
+      "description": "磁感应强度 B=F/IL（磁场强弱的方向量）、磁感线与地磁场；电流的磁场（安培定则的深化）；磁通量 Φ=BS（电磁感应的铺垫）。磁场描述的定量化——与电场 E 平行的概念体系。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用左手定则判断安培力方向",
+        "能计算匀强磁场中的磁通量"
+      ],
+      "assessmentPrompt": "问{{name}}：B=F/IL 的适用条件？通电直导线的磁场方向怎么判断？线圈从平行磁场转到垂直磁场磁通量怎么变？",
+      "standards": [
+        "hsphysics-2017:H2.WM.12"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十三章 电磁感应与电磁波初步",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g11a_01",
+        "ct_wl_g9a_22"
+      ]
+    },
+    {
+      "id": "ct_wl_g11a_10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电磁感应现象与电磁波初步",
+      "description": "磁生电的条件（穿过闭合回路的磁通量变化）；电磁波的产生（周期性变化的电场和磁场互相激发）与谱系（无线电波—微波—红外—可见光—紫外—X—γ）。法拉第的发现开启电气时代，麦克斯韦的预言统一了光与电。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断给定操作能否产生感应电流",
+        "能按频率排列电磁波谱"
+      ],
+      "assessmentPrompt": "问{{name}}：条形磁铁插入线圈电流计偏转，抽出也偏转吗？停在中间呢？为什么说光是电磁波？",
+      "standards": [
+        "hsphysics-2017:H2.WM.12"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第十三章 电磁感应与电磁波初步",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_wl_g9a_24",
+        "ct_wl_g9a_25"
       ]
     }
   ]
