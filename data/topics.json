@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.9.0",
+  "version": "1.10.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 779,
+  "topicCount": 801,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -24044,6 +24044,689 @@
       },
       "prerequisites": [
         "ct_yw_g4b_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_01",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古典名著入门：回目、猜读、章回体",
+      "description": "读《草船借箭》《景阳冈》《猴王出世》《红楼春趣》，认识章回小说的回目（「景阳冈武松打虎」），学会遇到半文半白的词句联系上下文猜意思（「筛一碗酒」）。古典名著阅读的钥匙：猜读不怕错，情节抓得住。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能通过回目猜出本回内容",
+        "能用猜读法读懂半文半白段落并说出依据"
+      ],
+      "assessmentPrompt": "给{{name}}看回目「用奇谋孔明借箭」，猜猜这回讲什么？再读课文验证；问「岂敢戏都督」的「岂」是什么意思，怎么猜的？",
+      "standards": [
+        "cschinese-2022:S3.YD.07",
+        "cschinese-2022:S3.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_02",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写读后感：感点加联系",
+      "description": "学写读后感：简单介绍内容（三言两语）→亮出最深的一点感受（感点）→联系自己的生活或读过的书展开。「读」是引子，「感」才是主菜——读后感的黄金比例是三分读七分感。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "感点明确聚焦（不是内容复述）",
+        "有两处以上联系自身实际的展开"
+      ],
+      "assessmentPrompt": "请{{name}}写《草船借箭》读后感：先一句话概括故事，再写最佩服的一点并联系自己的一件事展开。",
+      "standards": [
+        "cschinese-2022:S3.BD.02",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第二单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_22",
+        "ct_yw_g5a_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_03",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：遨游汉字王国（写简单研究报告）",
+      "description": "围绕汉字开展研究：搜集资料（字体的演变、街头错别字、姓氏起源）→分类整理→写一份简单的研究报告（问题—方法—发现—结论）。小学阶段唯一的研究报告训练，初中小论文的直接前身。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能独立完成一个小课题的资料收集与整理",
+        "研究报告四部分齐全、结论有资料支撑"
+      ],
+      "assessmentPrompt": "请{{name}}做「我家三条街店铺招牌用字调查」：拍照记录 10 个招牌，统计错字/繁体字/拼音混用，写成小报告并提出一条建议。",
+      "standards": [
+        "cschinese-2022:S3.SL.01",
+        "cschinese-2022:S4.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第三单元（综合性学习）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_05",
+        "ct_yw_g3b_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_04",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "人物描写鉴赏：摔跤与刷子李",
+      "description": "读《人物描写一组》（小嘎子摔跤的动词链、严监生两根指子的细节）和《刷子李》（黑衣白点的绝活），赏析作家怎样用动作、神态、外貌和侧面描写立起人物。习作单元的阅读面：读得越懂，写得越像。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能分析一处动作描写如何体现人物性格",
+        "能说出刷子李徒弟的「心理变化」是侧面烘托"
+      ],
+      "assessmentPrompt": "读小嘎子摔跤一段，问{{name}}：「虎势儿一站」「三抓两挠」这些动词让你看到怎样的一个人？换成「他们摔了起来」损失了什么？",
+      "standards": [
+        "cschinese-2022:S3.YD.03",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_22"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_05",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：把一个人的特点写具体",
+      "description": "习作单元落笔：选典型事例，综合用动作语言神态外貌描写，把一个人的特点写具体（书迷外公、急性子同桌）。「典型事例+多角度描写」是小学写人的最终形态，初中只需再加详略与烘托。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "事例典型且能突出特点",
+        "至少综合运用三种描写方法"
+      ],
+      "assessmentPrompt": "请{{name}}写「我们家的厨神」：先挑一件最能体现厨艺的事，再写时至少用上动作、语言、神态各一处；写完家人猜写得像不像。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第五单元（习作单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_11",
+        "ct_yw_g5b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言两则：自相矛盾与杨氏之子",
+      "description": "读《自相矛盾》看楚人话语的逻辑漏洞（不可陷之矛与无不陷之盾），读《杨氏之子》欣赏「未闻孔雀是夫子家禽」的机智应答。文言文除了讲故事，还能「讲道理、品智慧」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能背诵两则文言并讲出大意",
+        "能说出楚人「弗能应也」的原因"
+      ],
+      "assessmentPrompt": "请{{name}}背《自相矛盾》后回答：如果路人问「用你的矛刺你的盾会怎样」，楚人为什么答不上来？杨氏之子哪里聪明？",
+      "standards": [
+        "cschinese-2022:S3.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第六/第八单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_07",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "了解人物的思维过程",
+      "description": "读《田忌赛马》《跳水》，还原孙膑和船长的思维过程：孙膑怎么想到调马顺序？船长为什么逼孩子跳水而不是搭梯子？本单元要素「思维的火花」——阅读从看结果升级为复盘决策。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用「因为…所以…」还原人物的决策链",
+        "能提出自己的替代方案并比较优劣"
+      ],
+      "assessmentPrompt": "问{{name}}：田忌赛马为什么以下等马对齐威王的上等马？这一步输棋换来了什么？如果船长先让人搭救生网会怎样？",
+      "standards": [
+        "cschinese-2022:S3.YD.02",
+        "cschinese-2022:S2.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_05",
+        "ct_yw_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_08",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "异域风情：威尼斯的小艇",
+      "description": "读《威尼斯的小艇》《牧场之国》，体会「人动则城动、人歇则城静」的写法——小艇与生活融为一体，动静之间写出城市性格。阅读视野从中国走向世界。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能找出动静对比的段落并体会作用",
+        "能比较威尼斯与荷兰牧场不同的「静」"
+      ],
+      "assessmentPrompt": "和{{name}}读《威尼斯的小艇》戏院散场一段，问：为什么写「簇拥在一起的小艇」就写出了热闹？水城渐渐沉入睡梦是怎么写出来的？",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "非连续性文本阅读：金字塔",
+      "description": "读《金字塔》两篇不同体裁的文本（散文「金字塔夕照」+非连续性文本「不可思议的金字塔」），学会从图文表格中互补提取信息。多元文本的阅读能力，生活和考试都用得上。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能从图表数据中读出信息并与文字互相印证",
+        "能比较两种文本介绍金字塔的不同效果"
+      ],
+      "assessmentPrompt": "给{{name}}一页「地铁线路图+票价说明」，请{{name}}回答：从 A 站到 B 站怎么走最快？花多少钱？从哪读出来的？",
+      "standards": [
+        "cschinese-2022:S3.YD.06",
+        "cschinese-2022:S4.YD.12"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_10",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗中的童心与家国",
+      "description": "背《四时田园杂兴》《稚子弄冰》《村晚》《从军行》《秋夜将晓出篱门迎凉有感》《闻官军收河南河北》：前一组是童趣盎然的乡村画面，后一组是黄沙百战与「初闻涕泪满衣裳」的家国悲喜。一册之内，古诗的两极都尝到。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能背诵本册六首诗",
+        "能比较童趣诗与爱国诗情感基调的不同"
+      ],
+      "assessmentPrompt": "请{{name}}背《闻官军收河南河北》，问：杜甫为什么「涕泪满衣裳」又「喜欲狂」？再背《稚子弄冰》，哪种快乐和杜甫的一样？",
+      "standards": [
+        "cschinese-2022:S4.YD.10",
+        "cschinese-2022:S2.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第一/第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_17"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：那一刻，我长大了",
+      "description": "写让自己忽然长大的那一刻（第一次照顾生病的妈妈）：写清事件，重点写当时的心理变化。「长大」不是口号，是一个具体瞬间的自我觉察——成长类记叙文的经典母题。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "选材聚焦一个瞬间而非漫长过程",
+        "心理描写真实细腻"
+      ],
+      "assessmentPrompt": "问{{name}}：哪一刻你突然觉得自己长大了？请{{name}}写下来，重点写那一刻心里的想法怎么变的。",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第一单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：他___了（多角度写状态）",
+      "description": "写一个人陶醉、生气、伤心时的样子（他陶醉了）：从表情、动作、语言、周围人反应多个角度把「状态」写活。人物写作从写「特点」进阶到写「状态」——抓的是瞬间的立体感。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "从至少三个角度描写同一种状态",
+        "状态有前因后果不突兀"
+      ],
+      "assessmentPrompt": "请{{name}}写「他生气了」：同桌被撞翻饭盒那一刻，表情、动作、说的话、周围同学的反应各写一笔。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第四单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：神奇的探险之旅",
+      "description": "编一次探险经历（荒岛、溶洞、雨林）：选好伙伴和装备，设计险情与求生办法，险情要「险得有道理」、脱险要「脱得有依据」。冒险叙事的骨架是「装备—险情—对策」，逻辑自洽比脑洞更大更重要。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "装备与险情匹配（带绳子才可能攀崖）",
+        "脱险办法有生活或科学依据"
+      ],
+      "assessmentPrompt": "请{{name}}列探险清单（地点/伙伴/三样装备/两个险情），再写故事；写完家人挑刺：哪一步不太可能？",
+      "standards": [
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_14",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：中国的世界文化遗产",
+      "description": "选一处中国的世界文化遗产（故宫、敦煌、福建土楼），有目的地搜集整理资料，用自己的话写成介绍。资料作文第二课（第一课是大熊猫）：查得到、筛得准、写得像自己的话。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "资料来源可靠且经过筛选",
+        "介绍条理清楚，无整段照抄"
+      ],
+      "assessmentPrompt": "请{{name}}写「故宫」：先列问题清单（谁建的？多大？藏着什么宝贝？）再查资料回答，最后串成介绍文。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S3.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第七单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_15",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "习作：漫画的启示",
+      "description": "看漫画写作文：描述画面（画了什么）→点出寓意（讽刺/歌颂什么）→联系生活谈启示。漫画作文三步法，是材料作文的启蒙——从「读文字」到「读图画」再回到「写道理」。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "画面描述客观完整",
+        "启示部分有生活事例支撑"
+      ],
+      "assessmentPrompt": "给{{name}}看「假文盲」漫画（站台上一群人站在母子上车处），请{{name}}按三步写：画了什么、讽刺什么、生活中见过吗。",
+      "standards": [
+        "cschinese-2022:S3.BD.01",
+        "cschinese-2022:S4.BD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第八单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_15"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_16",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：采访长辈的童年",
+      "description": "列采访提纲采访长辈的童年岁月（玩什么、怕什么、梦想是什么），记录并转述。采访=有准备的倾听：问题设计、追问、记录三件套。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "采访前有提纲且问题具体",
+        "能根据回答自然追问一次以上"
+      ],
+      "assessmentPrompt": "请{{name}}列 5 个问题采访爷爷奶奶的童年，录音或笔记；追问至少一次「后来呢」，最后讲给全家听。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "口语交际（第一单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g3b_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_17",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：怎么表演课本剧",
+      "description": "小组讨论把课文改成课本剧：谁演什么、台词怎么改、道具怎么办。讨论中出现分歧时学会协商（「这个角色我想演，可以轮流吗？」）。改编与协商的双重训练。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能提出合理的改编建议（旁白、台词）",
+        "讨论时能协商解决至少一个分歧"
+      ],
+      "assessmentPrompt": "全家把《自相矛盾》改编成 3 分钟课本剧：{{name}}当导演分配角色、改两句台词，演一幕。",
+      "standards": [
+        "cschinese-2022:S2.BD.03",
+        "cschinese-2022:S4.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "口语交际（第二单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g2b_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_18",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "口语交际：我是小小讲解员",
+      "description": "就一个主题（学校的图书馆、家乡的名胜）列提纲作讲解：先总后分、有过渡、有互动。讲解是「带听众的介绍」，与演讲相比更重条理和对象感。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "讲解有条理（总起—分述—总结）",
+        "能回应听众提问"
+      ],
+      "assessmentPrompt": "请{{name}}当小导游给客人讲解自己学校（路线+两个亮点），提纲卡辅助，讲完接受提问。",
+      "standards": [
+        "cschinese-2022:S3.BD.03",
+        "cschinese-2022:S4.BD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "口语交际（第七单元）",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_19",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "风趣的语言：手指与童年的发现",
+      "description": "读丰子恺《手指》《童年的发现》，品风趣的语言：把手指当人的拟人 + 夸张 + 由衷的哲思。幽默不是贫嘴，是智慧的松弛——「风趣与幽默」单元的语言营养。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能找出风趣语句并说明妙处（拟人/夸张/双关）",
+        "能仿写一句风趣的话"
+      ],
+      "assessmentPrompt": "读「大拇指在五指中，形状实在算不上美」，问{{name}}：丰子恺在夸还是在损？哪里让你笑？请{{name}}用这种口气写一句自己的文具。",
+      "standards": [
+        "cschinese-2022:S3.YD.04",
+        "cschinese-2022:S2.SL.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "第八单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_20",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "整本名著阅读：西游记（青少版起步）",
+      "description": "快乐读书吧「读古典名著，品百味人生」：从青少版《西游记》起步通读整本（或选读主要回目），学习速读+跳读结合。古典长篇的第一座山，翻过去就是「读过四大名著」的人。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "读完青少版《西游记》整本",
+        "能梳理取经路线上的三个典型故事"
+      ],
+      "assessmentPrompt": "请{{name}}一个月读完青少版《西游记》，做「取经难事簿」：妖怪—来历—结局记 10 条；读完挑最佩服的一难讲给全家。",
+      "standards": [
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "快乐读书吧",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_01",
+        "ct_yw_g5b_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_21",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "习作互评与二次修改",
+      "description": "用「优点+建议」两栏式互评单交换评改习作，再根据同伴意见做二次修改。从「改自己的」到「评别人的再改自己的」，修改进入社会化阶段。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "互评意见具体到词句而不是「挺好的」",
+        "二次修改有实质改进"
+      ],
+      "assessmentPrompt": "请{{name}}和家长交换本周日记互评：各写一条优点一条建议（指到具体句子），再据建议改一稿。",
+      "standards": [
+        "cschinese-2022:S3.SL.03",
+        "cschinese-2022:S3.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "语文园地",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g4b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g5b_22",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "识字与写字",
+      "name": "五下字词自查：累计认 2800 写 2120",
+      "description": "五年级收官：本册认 200 写 180? ——按统编实际：五下认 200 写 150，累计约 2800/1980。词汇学习的重心转向成语、俗语、书面语的准确运用。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "听写正确率 85% 以上",
+        "本册成语能在语境中正确选用"
+      ],
+      "assessmentPrompt": "听写「神机妙算、胸有成竹、摩拳擦掌、放诞无礼」等 12 个成语，并请{{name}}选两个各说一句话。",
+      "standards": [
+        "cschinese-2022:S3.LZ.01",
+        "cschinese-2022:S3.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": "各单元",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g5a_24"
       ]
     }
   ]

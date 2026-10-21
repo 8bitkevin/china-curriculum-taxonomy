@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.9.0",
+  "version": "1.10.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1210,
+  "edgeCount": 1237,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7263,6 +7263,168 @@
       "prerequisiteId": "ct_yw_g5a_07",
       "strength": "soft",
       "reason": "结合资料策略在爱国诗群阅读中直接运用（查时代背景）"
+    },
+    {
+      "topicId": "ct_yw_g5b_01",
+      "prerequisiteId": "ct_yw_g4a_05",
+      "strength": "hard",
+      "reason": "文言文阅读经验（王戎等）迁移到半文半白的名著选段猜读"
+    },
+    {
+      "topicId": "ct_yw_g5b_02",
+      "prerequisiteId": "ct_yw_g4b_22",
+      "strength": "hard",
+      "reason": "摘录批注的思考积累是读后感「感点」的来源"
+    },
+    {
+      "topicId": "ct_yw_g5b_02",
+      "prerequisiteId": "ct_yw_g5a_15",
+      "strength": "soft",
+      "reason": "推荐书的『理由』与读后感的『感点』同属个人化反应表达"
+    },
+    {
+      "topicId": "ct_yw_g5b_03",
+      "prerequisiteId": "ct_yw_g3b_09",
+      "strength": "hard",
+      "reason": "综合性学习流程（活动—整理—表达）从写节日升级为写研究报告"
+    },
+    {
+      "topicId": "ct_yw_g5b_03",
+      "prerequisiteId": "ct_yw_g3b_05",
+      "strength": "soft",
+      "reason": "多来源信息整合经验用于研究资料的搜集筛选"
+    },
+    {
+      "topicId": "ct_yw_g5b_04",
+      "prerequisiteId": "ct_yw_g4a_22",
+      "strength": "hard",
+      "reason": "动词神态品析延伸到成组的人物描写鉴赏（含侧面描写）"
+    },
+    {
+      "topicId": "ct_yw_g5b_05",
+      "prerequisiteId": "ct_yw_g5b_04",
+      "strength": "hard",
+      "reason": "习作单元读写一体：先鉴赏名家的描写再自己写具体"
+    },
+    {
+      "topicId": "ct_yw_g5b_05",
+      "prerequisiteId": "ct_yw_g4b_11",
+      "strength": "hard",
+      "reason": "从多特点写人聚焦到单一特点写具体，深度递进"
+    },
+    {
+      "topicId": "ct_yw_g5b_06",
+      "prerequisiteId": "ct_yw_g5a_16",
+      "strength": "hard",
+      "reason": "文言名句的语感延伸到议论幽默类文言短篇"
+    },
+    {
+      "topicId": "ct_yw_g5b_07",
+      "prerequisiteId": "ct_yw_g4a_05",
+      "strength": "soft",
+      "reason": "王戎式推理的阅读经验迁移到还原孙膑、船长的决策链"
+    },
+    {
+      "topicId": "ct_yw_g5b_07",
+      "prerequisiteId": "ct_yw_g4b_03",
+      "strength": "soft",
+      "reason": "琥珀文『有依据的推测』与复盘人物思维的证据意识一脉相承"
+    },
+    {
+      "topicId": "ct_yw_g5b_08",
+      "prerequisiteId": "ct_yw_g5a_09",
+      "strength": "hard",
+      "reason": "动静描写分析能力用于异域风情散文的人景交融"
+    },
+    {
+      "topicId": "ct_yw_g5b_09",
+      "prerequisiteId": "ct_yw_g4b_04",
+      "strength": "hard",
+      "reason": "长文分块处理（小标题）的经验迁移到多元文本的分栏提取"
+    },
+    {
+      "topicId": "ct_yw_g5b_10",
+      "prerequisiteId": "ct_yw_g5a_17",
+      "strength": "hard",
+      "reason": "爱国诗群的积累上，本册加入童趣诗形成情感两极对比"
+    },
+    {
+      "topicId": "ct_yw_g5b_11",
+      "prerequisiteId": "ct_yw_g4a_12",
+      "strength": "hard",
+      "reason": "写心理与身体反应的方法用于『那一刻』的瞬间特写"
+    },
+    {
+      "topicId": "ct_yw_g5b_12",
+      "prerequisiteId": "ct_yw_g5b_05",
+      "strength": "hard",
+      "reason": "写状态是写特点的瞬时版：同一套多角度描写方法"
+    },
+    {
+      "topicId": "ct_yw_g5b_13",
+      "prerequisiteId": "ct_yw_g4b_08",
+      "strength": "hard",
+      "reason": "奇思妙想的『功能+场景』结构扩展为探险的『装备—险情—对策』逻辑"
+    },
+    {
+      "topicId": "ct_yw_g5b_14",
+      "prerequisiteId": "ct_yw_g3b_05",
+      "strength": "hard",
+      "reason": "资料整合写作从一段介绍升级为整篇文化介绍"
+    },
+    {
+      "topicId": "ct_yw_g5b_15",
+      "prerequisiteId": "ct_yw_g5a_15",
+      "strength": "soft",
+      "reason": "同册推荐类写作的『理由』训练迁移到漫画启示的『联系生活』"
+    },
+    {
+      "topicId": "ct_yw_g5b_16",
+      "prerequisiteId": "ct_yw_g3b_04",
+      "strength": "hard",
+      "reason": "采访长辈童年要点完整转述，是转述技能的复杂场景应用"
+    },
+    {
+      "topicId": "ct_yw_g5b_17",
+      "prerequisiteId": "ct_yw_g2b_13",
+      "strength": "hard",
+      "reason": "课本剧表演是低年级『演故事』的文本化升级：自编台词"
+    },
+    {
+      "topicId": "ct_yw_g5b_18",
+      "prerequisiteId": "ct_yw_g4a_21",
+      "strength": "hard",
+      "reason": "讲解员在『讲人物故事』基础上加条理提纲与听众互动"
+    },
+    {
+      "topicId": "ct_yw_g5b_19",
+      "prerequisiteId": "ct_yw_g4b_05",
+      "strength": "hard",
+      "reason": "明贬实褒的语言风格赏析延伸到拟人夸张式风趣语言"
+    },
+    {
+      "topicId": "ct_yw_g5b_20",
+      "prerequisiteId": "ct_yw_g5b_01",
+      "strength": "hard",
+      "reason": "整本名著阅读以名著选段的猜读经验为登山杖"
+    },
+    {
+      "topicId": "ct_yw_g5b_20",
+      "prerequisiteId": "ct_yw_g5a_01",
+      "strength": "soft",
+      "reason": "提高阅读速度策略支撑长篇通读（速读+跳读结合）"
+    },
+    {
+      "topicId": "ct_yw_g5b_21",
+      "prerequisiteId": "ct_yw_g4b_20",
+      "strength": "hard",
+      "reason": "病句修改的技术升级为互评-二次修改的完整流程"
+    },
+    {
+      "topicId": "ct_yw_g5b_22",
+      "prerequisiteId": "ct_yw_g5a_24",
+      "strength": "hard",
+      "reason": "识字量自查逐年累进，重心转向成语俗语运用"
     }
   ]
 }
