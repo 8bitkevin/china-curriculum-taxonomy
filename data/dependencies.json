@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.71.0",
+  "version": "1.72.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2187,
+  "edgeCount": 2199,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -13125,6 +13125,78 @@
       "prerequisiteId": "ct_zz_g6b_01",
       "strength": "hard",
       "reason": "毕业整理覆盖包括国际主题在内的六大主题"
+    },
+    {
+      "topicId": "ct_zz_g7a_01",
+      "prerequisiteId": "ct_zz_g6b_02",
+      "strength": "hard",
+      "reason": "小学毕业的成长档案衔接初中新起点的目标设定"
+    },
+    {
+      "topicId": "ct_zz_g7a_02",
+      "prerequisiteId": "ct_zz_g3b_01",
+      "strength": "hard",
+      "reason": "小学同伴交往经验升级为初中友谊的辨析与网上交友"
+    },
+    {
+      "topicId": "ct_zz_g7b_01",
+      "prerequisiteId": "ct_zz_g7a_01",
+      "strength": "hard",
+      "reason": "青春期身心变化的认识承接成长主题"
+    },
+    {
+      "topicId": "ct_zz_g7b_02",
+      "prerequisiteId": "ct_zz_g6a_02",
+      "strength": "hard",
+      "reason": "小学权利义务初识深化为未成年人保护法与违法预防"
+    },
+    {
+      "topicId": "ct_zz_g8a_01",
+      "prerequisiteId": "ct_zz_g7a_02",
+      "strength": "hard",
+      "reason": "交往智慧扩展为更广的社会生活与责任"
+    },
+    {
+      "topicId": "ct_zz_g8a_02",
+      "prerequisiteId": "ct_zz_g5a_01",
+      "strength": "hard",
+      "reason": "小学国土与国家认同深化为国家利益与总体安全观"
+    },
+    {
+      "topicId": "ct_zz_g8b_01",
+      "prerequisiteId": "ct_zz_g6a_01",
+      "strength": "hard",
+      "reason": "小学「宪法是根本法」在八下宪法专册系统深化"
+    },
+    {
+      "topicId": "ct_zz_g8b_02",
+      "prerequisiteId": "ct_zz_g8b_01",
+      "strength": "hard",
+      "reason": "自由平等公平正义的价值以宪法原则为基础"
+    },
+    {
+      "topicId": "ct_zz_g9a_01",
+      "prerequisiteId": "ct_zz_g8a_01",
+      "strength": "hard",
+      "reason": "社会生活认知升级为改革开放与国家治理的国情叙事"
+    },
+    {
+      "topicId": "ct_zz_g9a_02",
+      "prerequisiteId": "ct_zz_g5a_02",
+      "strength": "hard",
+      "reason": "小学传统文化与革命传统深化为文化自信与核心价值观"
+    },
+    {
+      "topicId": "ct_zz_g9b_01",
+      "prerequisiteId": "ct_zz_g6b_01",
+      "strength": "hard",
+      "reason": "小学地球村启蒙升级为全球格局与中国担当的分析"
+    },
+    {
+      "topicId": "ct_zz_g9b_02",
+      "prerequisiteId": "ct_zz_g9a_01",
+      "strength": "hard",
+      "reason": "中考复习整合国情法治道德三大板块的知识"
     }
   ]
 }
