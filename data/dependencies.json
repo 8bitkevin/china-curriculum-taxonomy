@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.44.0",
+  "version": "1.45.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1809,
+  "edgeCount": 1834,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10857,6 +10857,156 @@
       "prerequisiteId": "ct_wl_g8a_09",
       "strength": "soft",
       "reason": "蒸发快慢因素研究是控制变量法的典型案例"
+    },
+    {
+      "topicId": "ct_wl_g8b_02",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "hard",
+      "reason": "弹力作为力的一种具体形式，以力的概念为基础"
+    },
+    {
+      "topicId": "ct_wl_g8b_03",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "hard",
+      "reason": "重力是力的具体化：三要素在重力上完整落地"
+    },
+    {
+      "topicId": "ct_wl_g8b_03",
+      "prerequisiteId": "ct_wl_g8a_16",
+      "strength": "hard",
+      "reason": "G=mg 的计算以质量概念与测量为基础"
+    },
+    {
+      "topicId": "ct_wl_g8b_04",
+      "prerequisiteId": "ct_wl_g8b_03",
+      "strength": "hard",
+      "reason": "示意图作图以重力弹力的三要素知识为内容"
+    },
+    {
+      "topicId": "ct_wl_g8b_05",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "hard",
+      "reason": "牛顿第一定律回答「不受力怎样」，以力的概念为前提"
+    },
+    {
+      "topicId": "ct_wl_g8b_05",
+      "prerequisiteId": "ct_wl_g8a_02",
+      "strength": "soft",
+      "reason": "运动状态的描述（参照物、匀速）是表述定律的语言基础"
+    },
+    {
+      "topicId": "ct_wl_g8b_06",
+      "prerequisiteId": "ct_wl_g8b_05",
+      "strength": "hard",
+      "reason": "平衡态（静止/匀速）的定义来自牛顿第一定律"
+    },
+    {
+      "topicId": "ct_wl_g8b_07",
+      "prerequisiteId": "ct_wl_g8b_06",
+      "strength": "hard",
+      "reason": "静摩擦与二力平衡互为判定：匀速拉动时摩擦力等于拉力"
+    },
+    {
+      "topicId": "ct_wl_g8b_08",
+      "prerequisiteId": "ct_wl_g8b_07",
+      "strength": "hard",
+      "reason": "摩擦力因素探究直接研究上一主题建立的概念"
+    },
+    {
+      "topicId": "ct_wl_g8b_08",
+      "prerequisiteId": "ct_wl_g8a_20",
+      "strength": "soft",
+      "reason": "控制变量法在此实验中第二次系统运用"
+    },
+    {
+      "topicId": "ct_wl_g8b_09",
+      "prerequisiteId": "ct_wl_g8b_01",
+      "strength": "hard",
+      "reason": "压强中的压力是一种力，效果分析用力的概念"
+    },
+    {
+      "topicId": "ct_wl_g8b_09",
+      "prerequisiteId": "ct_wl_g8a_03",
+      "strength": "soft",
+      "reason": "p=F/S 的比值定义法与速度 v=s/t 同构"
+    },
+    {
+      "topicId": "ct_wl_g8b_10",
+      "prerequisiteId": "ct_wl_g8b_09",
+      "strength": "hard",
+      "reason": "液体压强是压强概念在液体中的深化，计算式 p=ρgh 由 p=F/S 导出"
+    },
+    {
+      "topicId": "ct_wl_g8b_10",
+      "prerequisiteId": "ct_wl_g8a_17",
+      "strength": "hard",
+      "reason": "p=ρgh 公式用到密度的概念"
+    },
+    {
+      "topicId": "ct_wl_g8b_11",
+      "prerequisiteId": "ct_wl_g8b_10",
+      "strength": "hard",
+      "reason": "连通器与大气压都以液体压强知识为基础"
+    },
+    {
+      "topicId": "ct_wl_g8b_12",
+      "prerequisiteId": "ct_wl_g8b_11",
+      "strength": "soft",
+      "reason": "流体压强与流速关系延续压强主题，形成固-液-气-流体的完整序列"
+    },
+    {
+      "topicId": "ct_wl_g8b_13",
+      "prerequisiteId": "ct_wl_g8b_10",
+      "strength": "hard",
+      "reason": "浮力产生于上下表面液体压力差，以液体压强为源头"
+    },
+    {
+      "topicId": "ct_wl_g8b_13",
+      "prerequisiteId": "ct_wl_g8b_02",
+      "strength": "soft",
+      "reason": "称重法测浮力需要弹簧测力计的使用技能"
+    },
+    {
+      "topicId": "ct_wl_g8b_14",
+      "prerequisiteId": "ct_wl_g8b_13",
+      "strength": "hard",
+      "reason": "阿基米德原理定量给出上一主题定性的浮力"
+    },
+    {
+      "topicId": "ct_wl_g8b_15",
+      "prerequisiteId": "ct_wl_g8b_14",
+      "strength": "hard",
+      "reason": "浮沉条件比较 F浮 与 G，需要浮力的计算能力"
+    },
+    {
+      "topicId": "ct_wl_g8b_15",
+      "prerequisiteId": "ct_wl_g8b_06",
+      "strength": "soft",
+      "reason": "悬浮即二力平衡态：浮力重力等大反向共线"
+    },
+    {
+      "topicId": "ct_wl_g8b_16",
+      "prerequisiteId": "ct_wl_g8b_15",
+      "strength": "hard",
+      "reason": "轮船潜艇密度计都是浮沉条件的工程应用"
+    },
+    {
+      "topicId": "ct_wl_g8b_17",
+      "prerequisiteId": "ct_wl_g8b_13",
+      "strength": "hard",
+      "reason": "浮力因素探究以称重法测浮力为手段"
+    },
+    {
+      "topicId": "ct_wl_g8b_18",
+      "prerequisiteId": "ct_wl_g8b_05",
+      "strength": "hard",
+      "reason": "力与运动关系的观念清算以牛顿第一定律为核心"
+    },
+    {
+      "topicId": "ct_wl_g8b_18",
+      "prerequisiteId": "ct_wl_g8b_07",
+      "strength": "soft",
+      "reason": "受力分析需要摩擦力的判断技能"
     }
   ]
 }

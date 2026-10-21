@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.44.0",
+  "version": "1.45.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1282,
+  "topicCount": 1300,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -39720,6 +39720,555 @@
       "prerequisites": [
         "ct_wl_g8a_05",
         "ct_wl_g8a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "力的概念与力的三要素",
+      "description": "力是物体对物体的作用（不能脱离物体存在），力的作用效果（改变形状、改变运动状态），力的三要素（大小方向作用点）影响力的作用效果，物体间力的作用是相互的（划船、火箭）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能举出力的作用相互性的三个实例",
+        "能用三要素解释同一力作用不同位置的效果差异"
+      ],
+      "assessmentPrompt": "问{{name}}：游泳时手向后划水人为什么前进？拍桌子手为什么疼？一个力能不能没有受力物体？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七章 力",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_wl_g8b_02",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "弹力与弹簧测力计",
+      "description": "弹力由弹性形变产生（拉力、压力、支持力都属于弹力）；弹簧测力计的原理（弹性限度内伸长与拉力成正比）与使用规范（调零、不超量程、沿轴线方向拉）。测力工具的第一次登场。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能规范使用弹簧测力计并读数",
+        "能说出弹簧测力计的制作原理"
+      ],
+      "assessmentPrompt": "给{{name}}弹簧测力计测钩码重力：检查是否先调零、有没有超过量程；问弹簧测力计的原理是什么？",
+      "standards": [
+        "csphysics-2022:S4.MI.05",
+        "csphysics-2022:S4.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七章 力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "重力与重心",
+      "description": "重力 G=mg（g=9.8 N/kg 的含义：每千克物体受 9.8 N 重力），方向竖直向下（重垂线的应用），作用点在重心（质地均匀规则物体的重心在几何中心）。地面附近最熟悉的力开始定量化。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能完成 G=mg 计算（含 g 取 10 N/kg）",
+        "能用重力方向解释重垂线检查墙壁是否竖直"
+      ],
+      "assessmentPrompt": "问{{name}}：质量 5 kg 的物体受重力多少（g 取 10）？g 的物理意义是什么？为什么重垂线能砌墙？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七章 力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_16",
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_04",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "力的示意图",
+      "description": "用一根带箭头的线段表示力：从作用点起、箭头指方向、标出力的大小与符号（G、F、f）。作图规范（虚线画重力、实线画拉力）是中考作图题的送分线——规范即分数。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出斜面上物体所受重力与支持力的示意图",
+        "力的符号标注规范"
+      ],
+      "assessmentPrompt": "请{{name}}画一个放在斜面上小车受到的重力和支持力示意图；检查箭头方向、作用点与标注。",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七章 力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "牛顿第一定律与惯性",
+      "description": "伽利略斜面实验的推理（理想实验法）：不受力时物体保持匀速直线运动或静止——牛顿第一定律；一切物体都有惯性（质量越大惯性越大），惯性不是力。亚里士多德「力维持运动」的观念被彻底翻案。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明牛顿第一定律为什么不能由实验直接得出",
+        "能用惯性解释安全带、泼水等五个生活现象"
+      ],
+      "assessmentPrompt": "问{{name}}：刹车时人为什么前倾？为什么speed? — 改：汽车突然开动时人为什么后仰？「物体受到惯性力」这句话错在哪？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 运动和力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_02",
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_06",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "二力平衡",
+      "description": "二力平衡四条件（同体、等大、反向、共线），平衡态（静止或匀速直线运动）与平衡力的判断——与相互作用力的区别（平衡力作用在同一物体上）。受力分析的第一个工具：平衡力大小相等。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能区分平衡力与相互作用力（桌面上的书的受力）",
+        "能用二力平衡求未知力（匀速吊起的货物）"
+      ],
+      "assessmentPrompt": "问{{name}}：静止的吊灯受哪两个力？什么关系？吊灯对电线的拉力和电线对吊灯的拉力是平衡力吗？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 运动和力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_07",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "摩擦力：三种摩擦与增减",
+      "description": "滑动摩擦力（方向与相对运动相反）、静摩擦、滚动摩擦；影响滑动摩擦力的因素（压力、接触面粗糙度）；增大摩擦（鞋底花纹）与减小摩擦（加润滑油、变滑动为滚动）的方法。摩擦力的方向判断是难点也是高频考点。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断传送带上货物的摩擦力方向",
+        "能对生活实例分类增摩/减摩及原理"
+      ],
+      "assessmentPrompt": "问{{name}}：自行车刹车为什么要捏闸？拔河时想赢该穿什么鞋？传送带把货物送上去靠什么力、方向朝哪？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 运动和力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_06"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_08",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "探究：滑动摩擦力的影响因素",
+      "description": "经典探究实验：用弹簧测力计水平匀速拉木块（二力平衡转换法读摩擦力），控制变量分别改变压力（加砝码）与接触面粗糙度（换布面）。「匀速拉+转换法」的设计思想是中考实验设计的母题。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能复述实验方案并说明控制了什么变量",
+        "能解释为什么必须匀速拉动"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么测摩擦力要匀速拉？只加砝码研究的是什么变量？如果加速拉动读数会偏大还是偏小？",
+      "standards": [
+        "csphysics-2022:S4.MI.05",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 运动和力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_20",
+        "ct_wl_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_09",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "压强：压力的作用效果",
+      "description": "压强 p=F/S（单位帕斯卡）：压力相同时受力面积越小效果越明显（书包带做宽）；增大减小压强的途径（刀刃磨锋利 vs 雪地穿雪板）。固体压强的计算与生活应用——物理公式解释生活的典范。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能完成 p=F/S 计算（含单位换算 cm²→m²）",
+        "能对六个实例分类增大/减小压强"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么书包带越宽越舒服？大象和穿高跟鞋的女士谁对地面压强大可能更大？算一道：50 N 压在 0.01 m² 上的压强。",
+      "standards": [
+        "csphysics-2022:S4.MI.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第九章 压强",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_03",
+        "ct_wl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "液体压强：p=ρgh",
+      "description": "液体压强特点（随深度增加、同一深度各向相等、与液体的密度有关）；p=ρgh 的理解与计算（深度 h 是到自由液面的竖直距离）；液体压强计（U 形管）的转换法。大坝上窄下宽、深水潜水服——液体压强无处不在。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 p=ρgh 完成计算并正确判断深度 h",
+        "能解释大坝形状与深水鱼不能随意捞的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：拦河坝为什么上窄下宽？水深 2 m 处的压强是多少？深 10 m 与 20 m 处压强差几倍？",
+      "standards": [
+        "csphysics-2022:S4.MI.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第九章 压强",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_17",
+        "ct_wl_g8b_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_11",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "连通器与大气压强",
+      "description": "连通器原理（同种液体静止时各容器液面相平——茶壶、船闸、水位计）；大气压的存在（马德堡半球、覆杯实验）与测量（托里拆利实验 760 mm 汞柱 ≈ 1×10⁵ Pa）；大气压随高度降低、应用（吸管、吸盘、抽水机）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用大气压解释吸管喝饮料的原理",
+        "知道标准大气压的数值与托里拆利实验原理"
+      ],
+      "assessmentPrompt": "问{{name}}：吸管为什么能把饮料吸上来？茶壶嘴和壶身为什么等高？高山上煮鸡蛋为什么煮不熟？",
+      "standards": [
+        "csphysics-2022:S4.MI.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第九章 压强",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_10"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_12",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "流体压强与流速的关系",
+      "description": "流速大的地方压强小（吹纸实验、两船相撞、飞机机翼升力、站台安全线）。伯努利效应的生活清单——一张纸吹出物理学的浪漫。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用流速压强关系解释四个现象",
+        "能说明飞机机翼升力的产生"
+      ],
+      "assessmentPrompt": "问{{name}}：向两张纸中间吹气纸为什么靠拢？为什么火车站要站安全线外？飞机为什么能飞起来？",
+      "standards": [
+        "csphysics-2022:S4.MI.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第九章 压强",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_13",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "浮力及其产生原因",
+      "description": "浮力是液体（气体）对浸入物体向上托的力；产生原因是上下表面压力差；称重法测浮力 F浮=G-F示。漂浮的木头、下沉的铁块都受浮力——「下沉的物体也受浮力」是第一个常见误解。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用称重法计算浮力",
+        "能说明下沉物体也受浮力及原因"
+      ],
+      "assessmentPrompt": "问{{name}}：石头在水中下沉，它受浮力吗？弹簧测力计挂石块浸入水读数为什么变小？浮力怎么算？",
+      "standards": [
+        "csphysics-2022:S4.MI.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 浮力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_02",
+        "ct_wl_g8b_10"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_14",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "阿基米德原理与浮力计算",
+      "description": "阿基米德原理：F浮=G排=ρ液gV排——浮力等于排开液体的重力。V排 是关键陷阱（浸没时等于物体体积，漂浮时只是浸入部分）。浮力计算的四把钥匙（称重法、压力差法、阿基米德、平衡法）从此配齐。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 F浮=ρ液gV排 计算（区分浸没与漂浮的 V排）",
+        "能完成阿基米德原理实验的表述"
+      ],
+      "assessmentPrompt": "问{{name}}：同一船从河里开到海里，受浮力变吗？吃水深度呢？浸没在水中的铁块排开的水重 4 N，浮力是多少？",
+      "standards": [
+        "csphysics-2022:S4.MI.07",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 浮力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_13"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_15",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "物体的浮沉条件",
+      "description": "浸没物体的浮沉由浮力与重力比较决定：F浮>G 上浮、= 悬浮、< 下沉；等效判据 ρ物 vs ρ液。上浮的最终归宿是漂浮（F浮=G）。浮沉判断的两种方法（力比较/密度比较）要能自由切换。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用两种方法判断物体浮沉",
+        "能解释鸡蛋在盐水中由沉到浮的过程"
+      ],
+      "assessmentPrompt": "问{{name}}：铁块下沉、铁船漂浮矛盾吗？往水里加盐鸡蛋为什么会浮起来？潜水艇怎么自由上浮下潜？",
+      "standards": [
+        "csphysics-2022:S4.MI.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 浮力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_06",
+        "ct_wl_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_16",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "浮力的应用：轮船、潜艇与密度计",
+      "description": "轮船（空心增大 V 排获得浮力，排水量）、潜水艇（改变自重）、气球飞艇（密度小于空气）、密度计（漂浮原理：浸入越深液体密度越小）。人类利用浮力的智慧清单——每个应用都是一条浮沉条件的变奏。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明轮船从长江入海吃水深度的变化及原因",
+        "能解释密度计刻度上小下大的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：轮船是怎么用钢铁造还能浮的？密度计放在水和盐水里，哪个浸入深？为什么刻度不均匀？",
+      "standards": [
+        "csphysics-2022:S4.MI.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 浮力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_15"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_17",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "探究：浮力大小与哪些因素有关",
+      "description": "探究实验：控制变量发现浮力与液体密度、排开体积有关，与浸没深度无关（常见误区）；称重法的转换测量。中考实验题的常客——结论表述必须带条件（「在同一液体中」）。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能设计验证「浮力与深度无关」的方案",
+        "实验结论表述含控制条件"
+      ],
+      "assessmentPrompt": "问{{name}}：物体从刚浸没到继续下沉 10 cm，弹簧测力计示数变吗？说明了什么？怎样证明浮力与液体密度有关？",
+      "standards": [
+        "csphysics-2022:S4.MI.07",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 浮力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_13"
+      ]
+    },
+    {
+      "id": "ct_wl_g8b_18",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "力与运动的关系：观念清算",
+      "description": "总清算：力不是维持运动的原因（亚里士多德之误），而是改变运动状态的原因；不受力时也能匀速直线运动。受力分析入门三步：先重力、再弹力、后摩擦。物理观念的转变是本章的灵魂。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能纠正「运动需要力来维持」的说法",
+        "能对光滑面/粗糙面上的物体做受力分析"
+      ],
+      "assessmentPrompt": "问{{name}}：正在滑行的冰壶不受推力了为什么还动？它最后为什么停下？匀速行驶的汽车牵引力和阻力什么关系？",
+      "standards": [
+        "csphysics-2022:S4.MI.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 运动和力",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8b_05",
+        "ct_wl_g8b_07"
       ]
     }
   ]
