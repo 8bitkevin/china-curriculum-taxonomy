@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.54.0",
+  "version": "1.55.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1417,
+  "topicCount": 1423,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -43906,6 +43906,199 @@
       "prerequisites": [
         "ct_hx_g9a_07",
         "ct_hx_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "化学键：离子键与共价键",
+      "description": "离子键（阴阳离子静电作用——NaCl）与共价键（共用电子对——HCl、H₂O）；电子式的书写（原子成键过程）；化学反应的本质是旧键断裂新键形成。原子为什么会「手拉手」——物质构成奥秘的收口。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能写出 NaCl、H₂O 的电子式",
+        "能用化学键解释化学反应的能量变化"
+      ],
+      "assessmentPrompt": "问{{name}}：NaCl 里有没有分子？H 和 Cl 靠什么结合？反应吸放热与化学键断建有什么关系？",
+      "standards": [
+        "hschemistry-2017:H2.ST.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五章 化工生产中的重要非金属元素/第六章 化学反应与能量/第七章 有机化合物（键在第五章末）",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10a_09",
+        "ct_hx_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_02",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "化学反应中的能量变化与速率",
+      "description": "反应热（放热吸热的键能解释）；化学反应速率的定性比较（浓度温度催化剂的影响——实验探究）；化学平衡的初步（可逆反应、限度）。初中燃烧放热的理论化——速率与限度是化学反应的「快」与「够」。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用键能比较反应吸放热",
+        "能设计实验比较反应速率（控制变量）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么木炭粉碎后烧得更旺？合成氨为什么用催化剂还要高温高压？反应放热还是吸热由什么决定？",
+      "standards": [
+        "hschemistry-2017:H2.RC.04",
+        "hschemistry-2017:H2.RC.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第六章 化学反应与能量",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10b_01",
+        "ct_hx_g9a_18"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_03",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "硫与氮：酸雨的两面",
+      "description": "硫及其化合物（SO₂ 的性质、浓硫酸的特性、酸雨的形成 SO₂→SO₃→H₂SO₄）；氮及其化合物（N₂ 稳定性、NO/NO₂、氨与铵盐、硝酸强氧化性）。化工与环境双主题——化学既是污染的制造者也是治理者。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能写出酸雨形成的化学方程式",
+        "能说明氨的实验室制法与检验（湿润红色石蕊试纸）"
+      ],
+      "assessmentPrompt": "问{{name}}：酸雨的 pH 为什么会「越来越酸」？汽车尾气里的 NO 怎么来的？化肥 ammonium? —改：铵态氮肥为什么不能和草木灰混用？",
+      "standards": [
+        "hschemistry-2017:H2.IN.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五章 化工生产中的重要非金属元素",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10a_04",
+        "ct_hx_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_04",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "铁与金属材料",
+      "description": "铁的变价（Fe²⁺/Fe³⁺ 的转化与检验——KSCN 显色）；合金材料与金属冶炼的一般方法（热分解、热还原、电解）。铁是变价金属的代表——「二价铁浅绿、三价铁黄」的检验体系。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能完成 Fe²⁺ 与 Fe³⁺ 的相互转化方程式",
+        "能用 KSCN 和铁粉检验混合液中的铁离子"
+      ],
+      "assessmentPrompt": "问{{name}}：补铁剂为什么常配维生素 C？FeCl₃ 溶液里加铁粉会怎样？怎么用一种试剂鉴别 Fe²⁺ 和 Fe³⁺？",
+      "standards": [
+        "hschemistry-2017:H1.IN.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第三章 铁 金属材料（位于必修一，此处深化）",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10a_04",
+        "ct_hx_g9b_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_05",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "有机化学基础",
+      "name": "有机化合物初步：甲烷、乙烯与苯",
+      "description": "有机物的特点（种类繁多）；甲烷（正四面体、取代反应）、乙烯（加成聚合——水果催熟）、苯（芳香性、取代加成兼有）；乙醇乙酸的结构与酯化。碳的成键魔术——有机化学的第一扇门。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能区分取代加成聚合反应各一例",
+        "能说明乙烯催熟与苯环的特殊结构"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么甲烷是正四面体不是平面方形？乙烯能使溴水褪色而甲烷不能？久置的酒为什么更香（酯化）？",
+      "standards": [
+        "hschemistry-2017:H2.OR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第七章 有机化合物",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10b_01",
+        "ct_hx_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_hx_g10b_06",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学与社会",
+      "name": "化学与可持续发展",
+      "description": "自然资源开发利用（海水资源、金属矿冶炼）与环境保护（绿色化学原子经济）；新能源新材料概览。化学的社会责任——从「魔鬼学科」到「中心科学」的正名。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出绿色化学的核心思想（原子经济性）",
+        "能举两个海水化学资源利用的实例"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说「绿色化学」是从源头防止污染？海水提镁和提溴分别利用什么原理？",
+      "standards": [
+        "hschemistry-2017:H2.OR.01",
+        "cschemistry-2022:S4.CS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八章 化学与可持续发展",
+        "book": "必修第二册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_hx_g10b_03"
       ]
     }
   ]

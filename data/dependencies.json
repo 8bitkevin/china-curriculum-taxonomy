@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.54.0",
+  "version": "1.55.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2003,
+  "edgeCount": 2014,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12021,6 +12021,72 @@
       "prerequisiteId": "ct_hx_g9a_08",
       "strength": "hard",
       "reason": "初中元素周期表的初步认识系统化为位构性关系"
+    },
+    {
+      "topicId": "ct_hx_g10b_01",
+      "prerequisiteId": "ct_hx_g10a_09",
+      "strength": "hard",
+      "reason": "化学键知识以原子结构与最外层电子（周期律）为基础"
+    },
+    {
+      "topicId": "ct_hx_g10b_01",
+      "prerequisiteId": "ct_hx_g9a_07",
+      "strength": "hard",
+      "reason": "离子的形成（初中）是离子键概念的直接前身"
+    },
+    {
+      "topicId": "ct_hx_g10b_02",
+      "prerequisiteId": "ct_hx_g10b_01",
+      "strength": "hard",
+      "reason": "反应热的键能解释以化学键断裂形成知识为基础"
+    },
+    {
+      "topicId": "ct_hx_g10b_02",
+      "prerequisiteId": "ct_hx_g9a_18",
+      "strength": "soft",
+      "reason": "初中燃烧条件（温度着火点）是速率影响因素的生活样本"
+    },
+    {
+      "topicId": "ct_hx_g10b_03",
+      "prerequisiteId": "ct_hx_g10a_04",
+      "strength": "hard",
+      "reason": "硫氮化合物的氧化还原反应用电子转移分析"
+    },
+    {
+      "topicId": "ct_hx_g10b_03",
+      "prerequisiteId": "ct_hx_g9a_19",
+      "strength": "soft",
+      "reason": "初中酸雨与化石燃料知识具体化为 SO₂/NOx 的化学方程式"
+    },
+    {
+      "topicId": "ct_hx_g10b_04",
+      "prerequisiteId": "ct_hx_g10a_04",
+      "strength": "hard",
+      "reason": "Fe²⁺/Fe³⁺ 转化是氧化还原反应的典型应用"
+    },
+    {
+      "topicId": "ct_hx_g10b_04",
+      "prerequisiteId": "ct_hx_g9b_03",
+      "strength": "soft",
+      "reason": "初中铁的冶炼与防锈知识深化为变价体系"
+    },
+    {
+      "topicId": "ct_hx_g10b_05",
+      "prerequisiteId": "ct_hx_g10b_01",
+      "strength": "hard",
+      "reason": "有机物的共价键结构以化学键知识为基础"
+    },
+    {
+      "topicId": "ct_hx_g10b_05",
+      "prerequisiteId": "ct_hx_g9a_19",
+      "strength": "soft",
+      "reason": "初中甲烷燃料的认识扩展为有机结构的系统学习"
+    },
+    {
+      "topicId": "ct_hx_g10b_06",
+      "prerequisiteId": "ct_hx_g10b_03",
+      "strength": "soft",
+      "reason": "硫氮化工与环境治理是可持续发展主题的核心案例"
     }
   ]
 }
