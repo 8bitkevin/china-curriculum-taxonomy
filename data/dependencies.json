@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.4.0",
+  "version": "1.5.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1064,
+  "edgeCount": 1095,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -6387,6 +6387,192 @@
       "prerequisiteId": "ct_yw_g2a_02",
       "strength": "soft",
       "reason": "形声规律自查生字的效率工具"
+    },
+    {
+      "topicId": "ct_yw_g3a_01",
+      "prerequisiteId": "ct_yw_g2b_04",
+      "strength": "hard",
+      "reason": "写人物特点的习作从二年级「写好朋友」升格：从三句话到一段话"
+    },
+    {
+      "topicId": "ct_yw_g3a_01",
+      "prerequisiteId": "ct_yw_g2b_23",
+      "strength": "soft",
+      "reason": "把话说具体的能力直接提升人物描写的鲜明度"
+    },
+    {
+      "topicId": "ct_yw_g3a_02",
+      "prerequisiteId": "ct_yw_g2a_15",
+      "strength": "soft",
+      "reason": "日记与留言条同属应用文，格式意识互相迁移"
+    },
+    {
+      "topicId": "ct_yw_g3a_02",
+      "prerequisiteId": "ct_yw_g2b_06",
+      "strength": "soft",
+      "reason": "「小问号」式记录为日记选材提供了问题意识"
+    },
+    {
+      "topicId": "ct_yw_g3a_03",
+      "prerequisiteId": "ct_yw_g2b_05",
+      "strength": "hard",
+      "reason": "编童话是二年级看图编故事的无图进阶：结构要求更高"
+    },
+    {
+      "topicId": "ct_yw_g3a_04",
+      "prerequisiteId": "ct_yw_g3a_03",
+      "strength": "hard",
+      "reason": "续写故事与编童话同属叙事创作，先会自编再会接编"
+    },
+    {
+      "topicId": "ct_yw_g3a_05",
+      "prerequisiteId": "ct_yw_g2b_23",
+      "strength": "hard",
+      "reason": "多感官具体描写是把话说具体在习作中的系统化"
+    },
+    {
+      "topicId": "ct_yw_g3a_06",
+      "prerequisiteId": "ct_yw_g3a_05",
+      "strength": "soft",
+      "reason": "观察习作提供的细节材料支撑写景的「美」"
+    },
+    {
+      "topicId": "ct_yw_g3a_06",
+      "prerequisiteId": "ct_yw_g3a_16",
+      "strength": "soft",
+      "reason": "读中「关键语句统整段落」的意识反哺写中的中心句"
+    },
+    {
+      "topicId": "ct_yw_g3a_07",
+      "prerequisiteId": "ct_yw_g2b_07",
+      "strength": "hard",
+      "reason": "「我有一个想法」是二年级写养宠物理由的说服性写作扩展"
+    },
+    {
+      "topicId": "ct_yw_g3a_08",
+      "prerequisiteId": "ct_yw_g2a_16",
+      "strength": "hard",
+      "reason": "记事习作从多幅图写话迁移：起因经过结果的框架相同"
+    },
+    {
+      "topicId": "ct_yw_g3a_08",
+      "prerequisiteId": "ct_yw_g3a_05",
+      "strength": "soft",
+      "reason": "观察描写的细节方法用于「最开心的时刻写具体」"
+    },
+    {
+      "topicId": "ct_yw_g3a_09",
+      "prerequisiteId": "ct_yw_g1b_09",
+      "strength": "hard",
+      "reason": "预测策略是低年级「根据信息作推断」的系统化升级"
+    },
+    {
+      "topicId": "ct_yw_g3a_10",
+      "prerequisiteId": "ct_yw_g2a_05",
+      "strength": "soft",
+      "reason": "连续观察记录配合默读思考，观察有方法可依"
+    },
+    {
+      "topicId": "ct_yw_g3a_11",
+      "prerequisiteId": "ct_yw_g2a_07",
+      "strength": "hard",
+      "reason": "理解难句的方法箱从「联系生活」扩到「联系上下文+查资料」"
+    },
+    {
+      "topicId": "ct_yw_g3a_12",
+      "prerequisiteId": "ct_yw_g2b_09",
+      "strength": "hard",
+      "reason": "默读从带问题找答案进阶到边读边想的常态"
+    },
+    {
+      "topicId": "ct_yw_g3a_13",
+      "prerequisiteId": "ct_yw_g2b_14",
+      "strength": "hard",
+      "reason": "古诗积累量继续扩大，品读意识萌芽"
+    },
+    {
+      "topicId": "ct_yw_g3a_14",
+      "prerequisiteId": "ct_yw_g3a_13",
+      "strength": "soft",
+      "reason": "古诗的语言体验是文言文启蒙的前奏：对精炼语言不再陌生"
+    },
+    {
+      "topicId": "ct_yw_g3a_15",
+      "prerequisiteId": "ct_yw_g2a_20",
+      "strength": "hard",
+      "reason": "整本童话阅读（二年级）积累的情节经验支撑感受人物情感"
+    },
+    {
+      "topicId": "ct_yw_g3a_16",
+      "prerequisiteId": "ct_yw_g2b_10",
+      "strength": "hard",
+      "reason": "分类整理信息的经验升级为抓关键语句概括段落"
+    },
+    {
+      "topicId": "ct_yw_g3a_16",
+      "prerequisiteId": "ct_yw_g3a_12",
+      "strength": "soft",
+      "reason": "默读时的思考质量决定能否发现关键句"
+    },
+    {
+      "topicId": "ct_yw_g3a_17",
+      "prerequisiteId": "ct_yw_g2a_22",
+      "strength": "hard",
+      "reason": "段落背诵积累从词句积累扩展，语料体量升级"
+    },
+    {
+      "topicId": "ct_yw_g3a_18",
+      "prerequisiteId": "ct_yw_g2b_16",
+      "strength": "hard",
+      "reason": "讲名字故事延续「观点+理由」式口语表达训练"
+    },
+    {
+      "topicId": "ct_yw_g3a_19",
+      "prerequisiteId": "ct_yw_g2b_17",
+      "strength": "hard",
+      "reason": "对小事发表看法是小组讨论式交际的微型应用"
+    },
+    {
+      "topicId": "ct_yw_g3a_20",
+      "prerequisiteId": "ct_yw_g2b_11",
+      "strength": "hard",
+      "reason": "讲假期生活是有详略讲述，比顺序讲故事要求更高"
+    },
+    {
+      "topicId": "ct_yw_g3a_21",
+      "prerequisiteId": "ct_yw_g2b_19",
+      "strength": "hard",
+      "reason": "近义词辨析从识别走向精用"
+    },
+    {
+      "topicId": "ct_yw_g3a_22",
+      "prerequisiteId": "ct_yw_g3a_01",
+      "strength": "hard",
+      "reason": "有了第一篇习作才谈得上修改；修改对象是已写之文"
+    },
+    {
+      "topicId": "ct_yw_g3a_23",
+      "prerequisiteId": "ct_yw_g2b_22",
+      "strength": "hard",
+      "reason": "从 80 页儿童故事到 100+ 页童话集，篇幅与主题深度递进"
+    },
+    {
+      "topicId": "ct_yw_g3a_24",
+      "prerequisiteId": "ct_yw_g2b_24",
+      "strength": "hard",
+      "reason": "识字量自查逐年延续，写的要求提到「对好快」"
+    },
+    {
+      "topicId": "ct_yw_g3a_24",
+      "prerequisiteId": "ct_yw_g2a_03",
+      "strength": "soft",
+      "reason": "形近字辨析方法持续降低错字率"
+    },
+    {
+      "topicId": "ct_yw_g3a_04",
+      "prerequisiteId": "ct_yw_g3a_09",
+      "strength": "soft",
+      "reason": "预测策略（第四单元）与续写训练互为表里：读时预测，写时续写"
     }
   ]
 }
