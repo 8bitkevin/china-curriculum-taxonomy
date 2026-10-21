@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "version": "2.0.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2204,
+  "edgeCount": 2207,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -13227,6 +13227,24 @@
       "prerequisiteId": "ct_zz_g11b_01",
       "strength": "hard",
       "reason": "辩证思维方法是唯物辩证法在思维科学中的延伸"
+    },
+    {
+      "topicId": "ct_zz_g11a_01",
+      "prerequisiteId": "ct_zz_g10a_02",
+      "strength": "hard",
+      "reason": "政治制度（必修三）承接中国特色社会主义（必修一）的制度自信与必修二的经济基础"
+    },
+    {
+      "topicId": "ct_zz_g12a_01",
+      "prerequisiteId": "ct_zz_g11a_01",
+      "strength": "hard",
+      "reason": "国际政治以国内政治制度（国体政体）的认知为基础"
+    },
+    {
+      "topicId": "ct_zz_g12a_02",
+      "prerequisiteId": "ct_zz_g11a_01",
+      "strength": "hard",
+      "reason": "法律与生活（选必二）以必修三的全面依法治国为思想基础"
     }
   ]
 }

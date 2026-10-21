@@ -4,7 +4,7 @@
   "generatedAt": "2026-10-21",
   "counts": {
     "topics": 1592,
-    "dependencies": 2204,
+    "dependencies": 2207,
     "standards": 532,
     "deprecated": 0,
     "byGrade": {
@@ -80,12 +80,12 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1822268,
-      "sha256": "94b3b5be4db10edb5c25f0bb7888a9c40742f8b00d4a79aaa044ddf3c0cd899b"
+      "bytes": 1822442,
+      "sha256": "aeced62b97ce765076b015fdfff0bc5e92a04eeac1390381ec82f4b1570d989e"
     },
     "dependencies.json": {
-      "bytes": 428104,
-      "sha256": "131c601935f5b89771d21f7107829160605da1ed6cc423c456c64252c72ed673"
+      "bytes": 428764,
+      "sha256": "ae056fccdbc875f2e9c5b1084175a2393f445dfd65b6a8c84ce2f7161add42ea"
     },
     "curriculum-standards.json": {
       "bytes": 126092,

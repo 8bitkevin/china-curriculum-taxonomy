@@ -49103,7 +49103,10 @@
         "unit": "全册三单元",
         "book": "必修3 政治与法治",
         "editionYear": 2019
-      }
+      },
+      "prerequisites": [
+        "ct_zz_g10a_02"
+      ]
     },
     {
       "id": "ct_zz_g11b_01",
@@ -49194,7 +49197,10 @@
         "unit": "全册各单元",
         "book": "选择性必修1 当代国际政治与经济",
         "editionYear": 2020
-      }
+      },
+      "prerequisites": [
+        "ct_zz_g11a_01"
+      ]
     },
     {
       "id": "ct_zz_g12a_02",
@@ -49222,7 +49228,10 @@
         "unit": "全册各单元",
         "book": "选择性必修2 法律与生活",
         "editionYear": 2020
-      }
+      },
+      "prerequisites": [
+        "ct_zz_g11a_01"
+      ]
     },
     {
       "id": "ct_zz_g12a_03",
