@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.69.0",
+  "version": "1.70.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2165,
+  "edgeCount": 2173,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12993,6 +12993,54 @@
       "prerequisiteId": "ct_dl_g10b_02",
       "strength": "hard",
       "reason": "国家安全议题深化可持续发展的人地协调思想"
+    },
+    {
+      "topicId": "ct_zz_g1a_02",
+      "prerequisiteId": "ct_zz_g1a_01",
+      "strength": "soft",
+      "reason": "入学后的校园与上学路安全紧随新环境适应"
+    },
+    {
+      "topicId": "ct_zz_g1a_03",
+      "prerequisiteId": "ct_zz_g1a_01",
+      "strength": "soft",
+      "reason": "新年后迎来学期中的传统文化体验"
+    },
+    {
+      "topicId": "ct_zz_g1b_01",
+      "prerequisiteId": "ct_zz_g1a_02",
+      "strength": "soft",
+      "reason": "健康习惯与安全教育同属生活自理线"
+    },
+    {
+      "topicId": "ct_zz_g1b_02",
+      "prerequisiteId": "ct_zz_g1a_03",
+      "strength": "soft",
+      "reason": "家庭亲情主题在新年团圆体验后深化"
+    },
+    {
+      "topicId": "ct_zz_g2a_01",
+      "prerequisiteId": "ct_zz_g1a_01",
+      "strength": "hard",
+      "reason": "班级规则建立在一年级入学适应的基础上"
+    },
+    {
+      "topicId": "ct_zz_g2a_02",
+      "prerequisiteId": "ct_zz_g1a_02",
+      "strength": "hard",
+      "reason": "二年级居家出行安全扩展一年级的交通安全常识"
+    },
+    {
+      "topicId": "ct_zz_g2b_01",
+      "prerequisiteId": "ct_zz_g2a_01",
+      "strength": "hard",
+      "reason": "从班级集体扩展到社区与家乡的生活圈"
+    },
+    {
+      "topicId": "ct_zz_g2b_02",
+      "prerequisiteId": "ct_zz_g2a_01",
+      "strength": "hard",
+      "reason": "诚信品格在集体交往的情境中落地"
     }
   ]
 }

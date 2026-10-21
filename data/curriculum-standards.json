@@ -20,9 +20,11 @@
     "cshistory-2022",
     "hshistory-2017",
     "csgeography-2022",
-    "hsgeography-2017"
+    "hsgeography-2017",
+    "csmorality-2022",
+    "hspolitics-2017"
   ],
-  "curriculumCount": 16,
+  "curriculumCount": 18,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -3755,6 +3757,196 @@
         }
       ],
       "topicCount": 10
+    },
+    {
+      "slug": "csmorality-2022",
+      "title": "义务教育道德与法治课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csmorality-2022:S1.MR.01",
+          "code": "S1.MR.01",
+          "stage": 1,
+          "domain": "道德修养",
+          "title": "入学适应与良好习惯（低段）"
+        },
+        {
+          "key": "csmorality-2022:S1.LH.01",
+          "code": "S1.LH.01",
+          "stage": 1,
+          "domain": "生命安全与健康",
+          "title": "自我保护与安全常识（低段）"
+        },
+        {
+          "key": "csmorality-2022:S2.MR.01",
+          "code": "S2.MR.01",
+          "stage": 2,
+          "domain": "道德修养",
+          "title": "诚实守信、遵守规则与集体生活"
+        },
+        {
+          "key": "csmorality-2022:S2.LH.01",
+          "code": "S2.LH.01",
+          "stage": 2,
+          "domain": "生命安全与健康",
+          "title": "健康生活与安全自护（交通、居家）"
+        },
+        {
+          "key": "csmorality-2022:S3.TR.01",
+          "code": "S3.TR.01",
+          "stage": 3,
+          "domain": "中华优秀传统文化与革命传统",
+          "title": "家乡与传统节日、革命先辈故事"
+        },
+        {
+          "key": "csmorality-2022:S3.MR.01",
+          "code": "S3.MR.01",
+          "stage": 3,
+          "domain": "道德修养",
+          "title": "家庭责任、同伴交往与诚信"
+        },
+        {
+          "key": "csmorality-2022:S3.LE.01",
+          "code": "S3.LE.01",
+          "stage": 3,
+          "domain": "法治教育",
+          "title": "生活规则与法律初识"
+        },
+        {
+          "key": "csmorality-2022:S4.TR.01",
+          "code": "S4.TR.01",
+          "stage": 4,
+          "domain": "中华优秀传统文化与革命传统",
+          "title": "中华文化的认同与爱国情怀"
+        },
+        {
+          "key": "csmorality-2022:S4.MR.01",
+          "code": "S4.MR.01",
+          "stage": 4,
+          "domain": "道德修养",
+          "title": "青春期的自我认识与情绪管理、责任担当"
+        },
+        {
+          "key": "csmorality-2022:S4.LE.01",
+          "code": "S4.LE.01",
+          "stage": 4,
+          "domain": "法治教育",
+          "title": "宪法意识、公民权利义务与法律体系"
+        },
+        {
+          "key": "csmorality-2022:S4.NA.01",
+          "code": "S4.NA.01",
+          "stage": 4,
+          "domain": "国情教育",
+          "title": "基本国情、创新发展与全球视野"
+        }
+      ],
+      "topicCount": 11
+    },
+    {
+      "slug": "hspolitics-2017",
+      "title": "普通高中思想政治课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hspolitics-2017:H1.SS.01",
+          "code": "H1.SS.01",
+          "stage": 5,
+          "domain": "中国特色社会主义",
+          "title": "社会主义从空想到科学、从理论到实践的发展"
+        },
+        {
+          "key": "hspolitics-2017:H1.SS.02",
+          "code": "H1.SS.02",
+          "stage": 5,
+          "domain": "中国特色社会主义",
+          "title": "只有中国特色社会主义才能发展中国、实现中华民族伟大复兴"
+        },
+        {
+          "key": "hspolitics-2017:H2.ES.01",
+          "code": "H2.ES.01",
+          "stage": 5,
+          "domain": "经济与社会",
+          "title": "我国的生产资料所有制与社会主义市场经济体制"
+        },
+        {
+          "key": "hspolitics-2017:H2.ES.02",
+          "code": "H2.ES.02",
+          "stage": 5,
+          "domain": "经济与社会",
+          "title": "新发展理念、收入分配与社会保障"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.01",
+          "code": "H3.PL.01",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "中国共产党的领导（历史与执政方式）"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.02",
+          "code": "H3.PL.02",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "人民当家作主（根本政治制度与基本政治制度）"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.03",
+          "code": "H3.PL.03",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "全面依法治国（宪法与法治国家）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.01",
+          "code": "H4.PC.01",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "哲学基本问题与马克思主义哲学（唯物论与认识论）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.02",
+          "code": "H4.PC.02",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "唯物辩证法（联系发展矛盾与创新）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.03",
+          "code": "H4.PC.03",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "历史唯物主义（社会历史观与价值观）与中华优秀传统文化"
+        },
+        {
+          "key": "hspolitics-2017:H5.IE.01",
+          "code": "H5.IE.01",
+          "stage": 5,
+          "domain": "当代国际政治与经济",
+          "title": "国体政体与国际关系、经济全球化"
+        },
+        {
+          "key": "hspolitics-2017:H6.LL.01",
+          "code": "H6.LL.01",
+          "stage": 5,
+          "domain": "法律与生活",
+          "title": "民事权利义务、家庭婚姻与就业创业中的法律"
+        },
+        {
+          "key": "hspolitics-2017:H7.LT.01",
+          "code": "H7.LT.01",
+          "stage": 5,
+          "domain": "逻辑与思维",
+          "title": "形式逻辑（概念判断推理）与辩证思维方法"
+        }
+      ],
+      "topicCount": 13
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.69.0",
+  "version": "1.70.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1548,
+  "topicCount": 1557,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -47922,6 +47922,275 @@
       },
       "prerequisites": [
         "ct_dl_g10b_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g1a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我上学了：新环境新身份",
+      "description": "从幼儿园到小学的身份转变：认识校园、认识老师同学、学会课前准备与举手发言。入学适应第一课——「我是小学生了」的自豪感与好习惯的种子。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出自己班级和老师的称呼",
+        "能演示上课发言的规范"
+      ],
+      "assessmentPrompt": "请{{name}}当小导游介绍学校的一个地方；再演一演「想发言怎么办」。",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "第一单元 我是小学生啦",
+        "editionYear": 2016
+      }
+    },
+    {
+      "id": "ct_zz_g1a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "上学路上与校园安全",
+      "description": "认识常见交通安全标志、过马路走斑马线；校园活动安全（上下楼梯靠右、不追逐）。低段安全第一课——把「安全」变成每天出门的口头禅。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出过马路的三条规则",
+        "能指出教室里的两处安全隐患"
+      ],
+      "assessmentPrompt": "和{{name}}玩「安全找茬」：看楼梯走廊图片找危险行为；问红灯亮了怎么办？",
+      "standards": [
+        "csmorality-2022:S1.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "安全与生活单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_zz_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g1a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "欢欢喜喜迎新年",
+      "description": "了解春节元宵等传统新年的习俗（贴春联、拜年、团圆饭）与家庭亲情。文化启蒙第一课——在过年里认识「家」与「传统」。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出三种新年习俗",
+        "能向长辈正确拜年问好"
+      ],
+      "assessmentPrompt": "请{{name}}说说过年家里做什么、教一句拜年话；问春联贴在哪、为什么红色？",
+      "standards": [
+        "csmorality-2022:S1.MR.01",
+        "csmorality-2022:S1.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": "第四单元 我们在一起/新年主题",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_zz_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g1b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "好习惯与卫生健康",
+      "description": "个人卫生习惯（洗手、刷牙、护眼）与作息规律；常见的健康饮食（不挑食、少零食）。健康生活第一课——身体是自己的第一份责任。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能演示六步洗手法",
+        "能说出两餐搭配的健康原则"
+      ],
+      "assessmentPrompt": "请{{name}}演示正确洗手；问为什么不能一边吃饭一边看电视？",
+      "standards": [
+        "csmorality-2022:S1.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "健康生活单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_zz_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g1b_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我爱我家：家人的爱与我的爱",
+      "description": "体会父母的辛劳（试着当一天「小家长」）；用自己的方式表达爱（帮忙做家务、说感谢的话）。亲情教育——爱要说出口、更要做出来。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出父母一天为自己做的事",
+        "能坚持一周做一件家务"
+      ],
+      "assessmentPrompt": "请{{name}}当一天小家长列三件事；给家人说一句感谢的话并帮忙摆一次碗筷。",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": "我爱我家单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_zz_g1a_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g2a_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "集体生活：规则与友爱",
+      "description": "班级生活有规则（排队、值日、爱护公物）；同伴相处（不欺负同学、学会道歉与原谅）。从「我」到「我们」——规则是集体生活的路标。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出三条班级公约并遵守",
+        "能处理一次与同学的小矛盾"
+      ],
+      "assessmentPrompt": "和{{name}}定三条家庭公约并签名；演一演不小心撞到同学该怎么说。",
+      "standards": [
+        "csmorality-2022:S2.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "我们的班级/集体生活单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_zz_g1a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g2a_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "居家与出行安全",
+      "description": "居家安全（不玩火、不碰插座、陌生人敲门怎么办）；出行安全（乘车系安全带、走失求助）。安全情景剧——低段孩子需要的「安全剧本库」。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能正确应对「陌生人敲门」情景",
+        "能说出走失时的求助三步"
+      ],
+      "assessmentPrompt": "演情景剧：陌生人说「我是爸爸的同事」敲门，看{{name}}怎么应对；在商场走丢了第一步做什么？",
+      "standards": [
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": "安全生活单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_zz_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g2b_01",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "我们生活的地方：家乡与社区",
+      "description": "认识自己生活的社区（小区设施、社区工作者）与家乡的美好（山水特产）；爱护公共环境。从家到社区——「我们生活的地方」的责任感启蒙。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能介绍社区的两处公共设施及其用途",
+        "能提出一条爱护环境的行动"
+      ],
+      "assessmentPrompt": "请{{name}}画社区地图标出三处设施；问垃圾桶分类的四种颜色是什么？",
+      "standards": [
+        "csmorality-2022:S2.MR.01",
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "下",
+        "unit": "我们生活的地方单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_zz_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g2b_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "诚实与守信",
+      "description": "诚实不说谎（做错事勇敢承认）；说到做到（答应的事要兑现）——狼来了的故事与身边的榜样。品格教育的基石课——诚信是人生的第一个存折。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能讲述一个诚实的故事并说出道理",
+        "能兑现自己的一个小承诺"
+      ],
+      "assessmentPrompt": "问{{name}}：打碎花瓶没人看见，说不说？为什么？和{{name}}拉钩约定一件事，一周后兑现。",
+      "standards": [
+        "csmorality-2022:S2.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "下",
+        "unit": "诚实守信单元",
+        "editionYear": 2017
+      },
+      "prerequisites": [
+        "ct_zz_g2a_01"
       ]
     }
   ]
