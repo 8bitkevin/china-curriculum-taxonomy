@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.55.0",
+  "version": "1.56.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1423,
+  "topicCount": 1429,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -44099,6 +44099,194 @@
       },
       "prerequisites": [
         "ct_hx_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "热化学与盖斯定律",
+      "description": "反应热与焓变 ΔH（放热为负吸热为正）；热化学方程式的书写（注明状态与热量）；盖斯定律（反应热只与始末态有关——间接求 ΔH）。能量账本的记账规则——化学反应的「热力学第一课」。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能规范书写热化学方程式",
+        "能用盖斯定律由已知反应求未知反应的 ΔH"
+      ],
+      "assessmentPrompt": "问{{name}}：ΔH=-196 kJ/mol 的负号什么意思？为什么热化学方程式要标聚集状态？怎么用两步反应的 ΔH 求总和？",
+      "standards": [
+        "hschemistry-2017:H3.RC.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第一章 化学反应的热效应",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g10b_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_02",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "化学平衡与平衡移动",
+      "description": "化学平衡状态（正逆速率相等、各组分浓度不变）；平衡常数 K（表达浓度积之比）与转化率计算；勒夏特列原理（浓度温度压强对平衡的影响）。可逆反应的「停战协议」——工业合成条件优化的理论依据。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断体系是否达到平衡（两个判据）",
+        "能用勒夏特列原理预测平衡移动方向"
+      ],
+      "assessmentPrompt": "问{{name}}：合成氨为什么用高温（放热反应不是低温有利吗——兼顾速率）？增大压强平衡怎么移？催化剂能提高转化率吗？",
+      "standards": [
+        "hschemistry-2017:H3.RC.07"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第二章 化学反应速率与化学平衡",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g10b_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_03",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "电离平衡与 pH 计算",
+      "description": "弱电解质的电离平衡（加水稀释平衡正向移动、电离度增大但离子浓度减小）；水的离子积 Kw；pH 的计算（强酸强碱、稀释、混合）。从「酸碱定义」到「H⁺ 浓度」——酸碱的定量理论。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断弱酸稀释时 pH 变化方向",
+        "能完成 pH=2 与 pH=4 强酸等体积混合的计算"
+      ],
+      "assessmentPrompt": "问{{name}}：醋酸加水稀释 pH 怎么变、为什么？pH=1 的盐酸加水稀释 100 倍 pH 是多少？室温下 Kw 是多少？",
+      "standards": [
+        "hschemistry-2017:H3.RC.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三章 水溶液中的离子反应与平衡",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g10a_03",
+        "ct_hx_g9b_09"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_04",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "盐类水解与离子浓度大小",
+      "description": "盐类水解的规律（有弱才水解、谁强显谁性）；三大守恒（电荷、物料、质子）比较离子浓度。Na₂CO₃ 溶液为什么显碱性——盐溶液酸碱性的统一解释，高考压轴常客。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断各类盐溶液的酸碱性",
+        "能用守恒法排 Na₂CO₃ 溶液离子浓度顺序"
+      ],
+      "assessmentPrompt": "问{{name}}：NaCl 溶液水解吗？NH₄Cl 溶液显什么性？泡沫灭火器里 Al₂(SO₄)₃ 和 NaHCO₃ 为什么互相促进水解？",
+      "standards": [
+        "hschemistry-2017:H3.RC.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三章 水溶液中的离子反应与平衡",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g11a_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_05",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "沉淀溶解平衡",
+      "description": "沉淀的溶解平衡（Ksp 越小越难溶）；沉淀的生成与转化（由 Ksp 判断）、分步沉淀。锅炉除垢、龋齿与含氟牙膏——沉淀平衡的生活清单。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用 Ksp 比较溶解能力（同类型）",
+        "能解释 ZnS 转化为 CuS 的原理"
+      ],
+      "assessmentPrompt": "问{{name}}：AgCl 和 AgI 谁更难溶？向 AgCl 沉淀加 KI 会怎样？为什么胃药能用 Al(OH)₃ 中和胃酸？",
+      "standards": [
+        "hschemistry-2017:H3.RC.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三章 水溶液中的离子反应与平衡",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g11a_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g11a_06",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "原电池与电解池",
+      "description": "原电池（化学能→电能：负极氧化正极还原——盐桥双液电池）；电解池（电能→化学能：放电顺序与电解规律）；金属的电化学腐蚀与防护（牺牲阳极、外加电流）。能量转化的两个方向——从水果电池到充电桩。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能写出铜锌原电池与电解 CuSO₄ 的电极反应式",
+        "能说明牺牲阳极保护法的原理"
+      ],
+      "assessmentPrompt": "问{{name}}：铜锌原电池哪个是负极？电解饱和食盐水阴极阳极各生成什么？轮船船底为什么挂锌块？",
+      "standards": [
+        "hschemistry-2017:H3.RC.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第四章 化学反应与电能",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_hx_g10a_04",
+        "ct_hx_g9b_03"
       ]
     }
   ]

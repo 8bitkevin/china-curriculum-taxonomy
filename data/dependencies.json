@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.55.0",
+  "version": "1.56.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2014,
+  "edgeCount": 2022,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -12087,6 +12087,54 @@
       "prerequisiteId": "ct_hx_g10b_03",
       "strength": "soft",
       "reason": "硫氮化工与环境治理是可持续发展主题的核心案例"
+    },
+    {
+      "topicId": "ct_hx_g11a_01",
+      "prerequisiteId": "ct_hx_g10b_02",
+      "strength": "hard",
+      "reason": "必修二能量变化初步升级为热化学方程式与盖斯定律"
+    },
+    {
+      "topicId": "ct_hx_g11a_02",
+      "prerequisiteId": "ct_hx_g10b_02",
+      "strength": "hard",
+      "reason": "必修二速率与限度的初步认识系统化为平衡常数与移动原理"
+    },
+    {
+      "topicId": "ct_hx_g11a_03",
+      "prerequisiteId": "ct_hx_g10a_03",
+      "strength": "hard",
+      "reason": "电离平衡是离子反应（电解质概念）的深化"
+    },
+    {
+      "topicId": "ct_hx_g11a_03",
+      "prerequisiteId": "ct_hx_g9b_09",
+      "strength": "soft",
+      "reason": "初中 pH 的定性认识升级为 Kw 与定量计算"
+    },
+    {
+      "topicId": "ct_hx_g11a_04",
+      "prerequisiteId": "ct_hx_g11a_03",
+      "strength": "hard",
+      "reason": "盐类水解是水的电离平衡与弱电解质知识的综合"
+    },
+    {
+      "topicId": "ct_hx_g11a_05",
+      "prerequisiteId": "ct_hx_g11a_03",
+      "strength": "hard",
+      "reason": "沉淀溶解平衡沿用平衡常数的分析方法"
+    },
+    {
+      "topicId": "ct_hx_g11a_06",
+      "prerequisiteId": "ct_hx_g10a_04",
+      "strength": "hard",
+      "reason": "电极反应的书写本质是氧化还原半反应"
+    },
+    {
+      "topicId": "ct_hx_g11a_06",
+      "prerequisiteId": "ct_hx_g9b_03",
+      "strength": "soft",
+      "reason": "金属防锈的初中知识升级为电化学腐蚀与防护"
     }
   ]
 }
