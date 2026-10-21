@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.51.0",
+  "version": "1.52.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1375,
+  "topicCount": 1395,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -42610,6 +42610,616 @@
       "prerequisites": [
         "ct_wl_g12b_04",
         "ct_wl_g9a_26"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_01",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "物理变化与化学变化",
+      "description": "化学第一课：判断变化的标准是有没有新物质生成——冰融化是物理变化、铁生锈是化学变化；伴随现象（发光放热）不能作为判断依据。化学研究的对象是物质的组成、结构、性质与变化规律。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断十个生活与实验情境的变化类型并说理由",
+        "能区分物理性质与化学性质"
+      ],
+      "assessmentPrompt": "问{{name}}：汽油挥发、蜡烛燃烧、铁水铸锅、粮食酿酒各是什么变化？灯泡发光放热是化学变化吗？",
+      "standards": [
+        "cschemistry-2022:S4.CC.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元 走进化学世界",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_hx_g9a_02",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "科学探究入门：蜡烛及其燃烧",
+      "description": "两个经典探究：蜡烛燃烧的观察（火焰分层、罩冷烧杯出现水珠——产物有水和二氧化碳）与吸入呼出气体的比较（呼出气体 CO₂ 多、O₂ 少、水蒸气多）。观察—记录—比较—结论——科学探究的完整初体验。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能有条理地描述实验现象（先做什么后做什么）",
+        "能设计区分呼出气体与空气的简单实验"
+      ],
+      "assessmentPrompt": "问{{name}}：罩在火焰上的干冷烧杯内壁出现什么？说明生成了什么？怎么证明呼出的气体二氧化碳比空气多？",
+      "standards": [
+        "cschemistry-2022:S4.ST.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元 走进化学世界",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_03",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "常用仪器与基本操作",
+      "description": "试管、烧杯、量筒、酒精灯、胶头滴管的规范使用；药品取用三不原则（不用手摸、不凑近闻——扇闻、不尝味道）、剩余药品不放回原瓶；给液体加热的注意点。实验安全的底线清单——化学课的第一份「交规」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能演示固体与液体药品的取用",
+        "能说出量筒读数与酒精灯使用的规范及理由"
+      ],
+      "assessmentPrompt": "问{{name}}：闻气体气味怎么操作？给试管里液体加热为什么管口不对人？量筒能用来加热或反应吗？",
+      "standards": [
+        "cschemistry-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元 走进化学世界",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_02"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_04",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "空气的组成与氧气的性质",
+      "description": "测定空气里氧气含量（红磷燃烧消耗氧气、水面上升约 1/5）；氧气支持燃烧（铁在氧气中火星四射、硫蓝紫色火焰）；纯净物与混合物、化合反应。第一个定量实验：看不见的空气从此有了成分表。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能解释红磷实验水面上升的原因与偏差分析",
+        "能描述铁、硫、碳在氧气中燃烧的现象与产物"
+      ],
+      "assessmentPrompt": "问{{name}}：红磷实验为什么用水而不用木炭？水面上升少于 1/5 可能是什么原因？铁在空气中能烧吗？",
+      "standards": [
+        "cschemistry-2022:S4.SM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二单元 我们周围的空气",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_01",
+        "ct_hx_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_05",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "氧气的实验室制法与催化剂",
+      "description": "三种制法（加热高锰酸钾、分解过氧化氢、加热氯酸钾）的装置选择、收集方法（排水法/向上排空气法）与验满；催化剂「一变两不变」（改变化学反应速率、本身质量和化学性质不变）。第一个气体制备实验——装置、操作、检验一整套。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明高锰酸钾制氧的七个步骤（茶庄定点收利息）",
+        "能用对比实验说明 MnO₂ 是催化剂"
+      ],
+      "assessmentPrompt": "问{{name}}：用高锰酸钾制氧试管口为什么要放棉花？怎么检验收集的是氧气？带火星木条放在瓶口还是瓶内？",
+      "standards": [
+        "cschemistry-2022:S4.SM.01",
+        "cschemistry-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第二单元 我们周围的空气",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_03",
+        "ct_hx_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_06",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "分子与原子：微观粒子",
+      "description": "分子的性质（质量体积小、不停运动、有间隔——温度升高运动加快）；分子与原子的本质区别（在化学变化中分子可分、原子不可分）；微观解释宏观（热胀冷缩、扩散）。从看得见的蜡烛到看不见的粒子——化学视角的第一次纵身。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用分子原子观点解释五个现象",
+        "能判断变化中分子原子有没有改变"
+      ],
+      "assessmentPrompt": "问{{name}}：湿衣服晒干说明分子有什么性质？水蒸发和水通电分解中分子分别怎么变？酒精挥发说明什么？",
+      "standards": [
+        "cschemistry-2022:S4.SS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元 物质构成的奥秘",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_07",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "原子结构与离子的形成",
+      "description": "原子的构成（质子中子在核、电子绕核运动；质子数=核电荷数=核外电子数）；核外电子分层排布（最外层 8 电子稳定）；离子的形成（金属失电子成阳离子、非金属得电子成阴离子）。原子不显电性、离子带电——微观世界的「性格」由最外层电子决定。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出 1–18 号元素的原子结构示意图",
+        "能说明 NaCl 中钠离子氯离子的形成过程"
+      ],
+      "assessmentPrompt": "问{{name}}：钠原子为什么容易失去一个电子？氯原子呢？Na⁺ 和 Cl⁻ 结合靠什么？原子不显电性的原因？",
+      "standards": [
+        "cschemistry-2022:S4.SS.02",
+        "cschemistry-2022:S4.SS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元 物质构成的奥秘",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_06"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_08",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "元素与元素周期表初步",
+      "description": "元素是质子数相同的一类原子的总称（决定元素种类的是质子数）；元素符号的书写规范（一大二小）；元素周期表的结构（周期族、每格信息）。地壳中含量前几位（氧硅铝铁钙）与人体中的元素——物质的元素观建立。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能正确书写 20 个常用元素符号",
+        "能从周期表一格中读出原子序数、相对原子质量"
+      ],
+      "assessmentPrompt": "问{{name}}：决定元素种类的是什么数？Fe 和 Fe³⁺ 是同种元素吗？地壳中含量最多的元素和金属元素分别是？",
+      "standards": [
+        "cschemistry-2022:S4.SS.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元 物质构成的奥秘",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_09",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "水的组成：电解水实验",
+      "description": "电解水「正氧负氢、体积比 1:2」——证明水由氢元素和氧元素组成（不是由氢气和氧气组成）；氢气验纯与可燃性。一个实验驳倒千年「元素说」：水不是不可分的元素。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能描述电解水现象并写出文字/符号表达式",
+        "能说明该实验如何证明水的组成"
+      ],
+      "assessmentPrompt": "问{{name}}：电解水正极负极各产生什么气体？体积比？这个实验说明水由什么构成？点燃氢气前为什么要验纯？",
+      "standards": [
+        "cschemistry-2022:S4.SM.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元 自然界的水",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_05",
+        "ct_hx_g9a_06"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_10",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "水的净化：沉淀、过滤与蒸馏",
+      "description": "净化方法的层次（静置沉淀<吸附沉淀<过滤<蒸馏）；过滤操作要点「一贴二低三靠」；硬水与软水的检验（肥皂水）与转化（煮沸、蒸馏）。从泥水到饮用水的工程路线图。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能演示过滤操作并指出错误",
+        "能说明硬水软水的区别与软化方法"
+      ],
+      "assessmentPrompt": "问{{name}}：过滤能除去水中的可溶性杂质吗？滤液仍浑浊怎么办？怎么区分硬水和软水？长期喝硬水好不好？",
+      "standards": [
+        "cschemistry-2022:S4.SM.02",
+        "cschemistry-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元 自然界的水",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_11",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "物质结构与性质",
+      "name": "化学式与化合价",
+      "description": "化学式的书写与读法（正前负后、价数交叉约简）；常见元素及原子团的化合价口诀；根据化学式计算相对分子质量、元素质量比与质量分数。化学的「词汇与语法」——从符号到定量计算的桥梁。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能写出十种常见物质的化学式",
+        "能完成相对分子质量与元素质量分数计算"
+      ],
+      "assessmentPrompt": "问{{name}}：氧化铝的化学式怎么写（交叉法）？NH₄NO₃ 中氮元素的质量分数怎么算？",
+      "standards": [
+        "cschemistry-2022:S4.SS.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元 自然界的水",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_07",
+        "ct_hx_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_12",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "质量守恒定律",
+      "description": "一切化学反应前后总质量不变（微观解释：原子种类、数目、质量都不变）；「六个不变、两个一定变、两个可能变」。白磷实验与盐酸碳酸钠实验的对比（敞口体系质量的陷阱）。化学反应的「守恒」世界观——化学定量计算的根基。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用微粒观点解释质量守恒",
+        "能判断哪些量在反应中一定不变（元素种类、原子数目）"
+      ],
+      "assessmentPrompt": "问{{name}}：镁条燃烧后质量为什么变大了？蜡烛烧完质量变小，违反质量守恒吗？化学反应前后分子数目一定不变吗？",
+      "standards": [
+        "cschemistry-2022:S4.CC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元 化学方程式",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_06"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_13",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "化学方程式的书写与配平",
+      "description": "书写原则（以客观事实为依据、遵守质量守恒）；配平方法（最小公倍数法为主）与条件及气体沉淀符号（↑↓）的使用规则。化学的「句子」——用一套符号系统准确记录化学反应。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能配平并完整书写十个常见化学方程式",
+        "知道什么时候标 ↑↓ 什么时候不标"
+      ],
+      "assessmentPrompt": "请{{name}}写出铁在氧气中燃烧、实验室制氧气（高锰酸钾）、电解水的化学方程式；检查配平与条件符号。",
+      "standards": [
+        "cschemistry-2022:S4.CC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元 化学方程式",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_11",
+        "ct_hx_g9a_12"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_14",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学反应原理",
+      "name": "化学方程式的计算",
+      "description": "计算三步式（设—写—列—算—答）：由反应物质量求生成物质量（或反之）、含杂质的换算（先乘纯度）、气体体积的桥梁（质量÷密度）。中考计算大题的标准模型。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能规范完成一道含气体产物的计算题（格式分）",
+        "会处理含杂质原料的净化计算"
+      ],
+      "assessmentPrompt": "给{{name}}一道题：加热 15.8 g 高锰酸钾完全分解，生成氧气多少克？要求按规范格式完成。",
+      "standards": [
+        "cschemistry-2022:S4.CC.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第五单元 化学方程式",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_15",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "碳单质：金刚石、石墨与 C60",
+      "description": "碳单质的物理性质差异巨大（金刚石最硬、石墨软导电——碳原子的排列不同）；碳的化学性质稳定性、可燃性与还原性（木炭还原氧化铜）。同种元素组成不同单质——「结构决定性质」的第一次亮相。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能解释金刚石石墨物理性质差异的原因",
+        "能写出碳还原氧化铜的方程式并描述现象"
+      ],
+      "assessmentPrompt": "问{{name}}：金刚石和石墨都是碳，为什么一个最硬一个最软？碳为什么能把铜从氧化铜里「抢」出来？",
+      "standards": [
+        "cschemistry-2022:S4.SM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第六单元 碳和碳的氧化物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_08",
+        "ct_hx_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_16",
+      "type": "PROCEDURAL",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "二氧化碳的性质与实验室制取",
+      "description": "CO₂ 的性质（不燃烧不支持燃烧、密度比空气大、溶于水生成碳酸、使澄清石灰水变浑浊）与检验；实验室制取（大理石+稀盐酸、固液常温型装置、向上排空气法收集、验满）。性质与制取联姻的典范单元。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能设计 CO₂ 的制取与检验全流程",
+        "能解释CO₂ 通入紫色石蕊变红的原因（不是 CO₂ 本身）"
+      ],
+      "assessmentPrompt": "问{{name}}：制 CO₂ 为什么不用碳酸钠也不用稀硫酸？怎么验满？使石蕊变红的是谁？久置石灰水表面白膜是什么？",
+      "standards": [
+        "cschemistry-2022:S4.SM.01",
+        "cschemistry-2022:S4.ST.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第六单元 碳和碳的氧化物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_05",
+        "ct_hx_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_17",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "无机物及其应用",
+      "name": "一氧化碳：还原性与毒性",
+      "description": "CO 的可燃性（蓝色火焰）、还原性（还原氧化铁——高炉炼铁原理）与毒性（与血红蛋白结合）。CO 与 CO₂ 组成元素相同性质迥异——分子构成决定性质的铁证。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能比较 CO 与 CO₂ 的性质差异并说明原因",
+        "能写出 CO 还原氧化铁的方程式并说明尾气处理"
+      ],
+      "assessmentPrompt": "问{{name}}：CO 和 CO₂ 都由碳氧组成，为什么一个有毒一个可以做化肥？煤炉上放一盆水能防 CO 中毒吗？",
+      "standards": [
+        "cschemistry-2022:S4.SM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第六单元 碳和碳的氧化物",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_18",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学与社会",
+      "name": "燃烧条件与灭火原理",
+      "description": "燃烧三条件（可燃物、氧气/空气、温度达着火点——缺一不可）；灭火三思路（清可燃物、隔氧气、降温度）；爆炸（有限空间急速燃烧）。安全教育的化学原理——火的两面性。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用三条件解释火灾案例",
+        "能对四种火灾选择灭火方法并说明原理"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么扇蜡烛一扇就灭、扇炉火越扇越旺？油锅着火怎么办？为什么面粉厂要严禁烟火？",
+      "standards": [
+        "cschemistry-2022:S4.CC.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第七单元 燃料及其利用",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_19",
+      "type": "CONCEPTUAL",
+      "subject": "化学",
+      "domain": "化学与社会",
+      "name": "化石燃料与新能源",
+      "description": "三大化石燃料（煤石油天然气——不可再生）；天然气的主要成分甲烷；燃料充分燃烧的条件（氧气充足、接触面大）；新能源方向（氢能、太阳能等）。能源化学的启蒙——用化学眼光看能源问题。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出化石燃料的组成与综合利用方式",
+        "能说明氢能源的优点与未普及的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：煤的综合利用能得到什么？为什么说氢气是最清洁的燃料？酸雨和化石燃料有什么关系？",
+      "standards": [
+        "cschemistry-2022:S4.CS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第七单元 燃料及其利用",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_18"
+      ]
+    },
+    {
+      "id": "ct_hx_g9a_20",
+      "type": "META",
+      "subject": "化学",
+      "domain": "化学实验与探究",
+      "name": "化学语言体系：符号总览",
+      "description": "化学三重表征：宏观（物质与现象）—微观（分子原子离子）—符号（元素符号、化学式、化学方程式）。三重表征之间自由切换是化学学习的核心素养——看到 H₂O，既要想到「水」也要想到「两个氢原子一个氧原子构成的水分子」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能对一个化学反应做三重表征的完整表述",
+        "能解释符号中数字的位置含义（2H、H₂、2H₂O）"
+      ],
+      "assessmentPrompt": "问{{name}}：H₂O 中的 2 和 2H₂O 前面的 2 意思一样吗？用电解水把宏观微观符号三张图连起来说说。",
+      "standards": [
+        "cschemistry-2022:S4.SS.04",
+        "cschemistry-2022:S4.SS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "全册总览",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_hx_g9a_09",
+        "ct_hx_g9a_13"
       ]
     }
   ]

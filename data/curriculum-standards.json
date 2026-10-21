@@ -12,9 +12,11 @@
     "csenglish-2022",
     "hsenglish-2017",
     "csphysics-2022",
-    "hsphysics-2017"
+    "hsphysics-2017",
+    "cschemistry-2022",
+    "hschemistry-2017"
   ],
-  "curriculumCount": 8,
+  "curriculumCount": 10,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -2819,6 +2821,294 @@
         }
       ],
       "topicCount": 22
+    },
+    {
+      "slug": "cschemistry-2022",
+      "title": "义务教育化学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cschemistry-2022:S4.ST.01",
+          "code": "S4.ST.01",
+          "stage": 4,
+          "domain": "科学探究",
+          "title": "基本实验操作、仪器使用与实验安全"
+        },
+        {
+          "key": "cschemistry-2022:S4.ST.02",
+          "code": "S4.ST.02",
+          "stage": 4,
+          "domain": "科学探究",
+          "title": "科学探究的环节：问题—猜想—设计—实验—结论"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.01",
+          "code": "S4.SM.01",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "空气、氧气与二氧化碳"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.02",
+          "code": "S4.SM.02",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "水的组成、净化与硬水软水"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.03",
+          "code": "S4.SM.03",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "金属与金属材料"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.04",
+          "code": "S4.SM.04",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "常见的酸、碱、盐"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.05",
+          "code": "S4.SM.05",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "溶液、溶解度与溶质质量分数"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.01",
+          "code": "S4.SS.01",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "分子、原子、离子"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.02",
+          "code": "S4.SS.02",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "原子结构与相对原子质量"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.03",
+          "code": "S4.SS.03",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "元素与元素周期表初步"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.04",
+          "code": "S4.SS.04",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "化学式与化合价"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.01",
+          "code": "S4.CC.01",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "物理与化学变化、四种基本反应类型"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.02",
+          "code": "S4.CC.02",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "质量守恒定律与化学方程式"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.03",
+          "code": "S4.CC.03",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "燃烧条件与灭火原理"
+        },
+        {
+          "key": "cschemistry-2022:S4.CS.01",
+          "code": "S4.CS.01",
+          "stage": 4,
+          "domain": "化学与社会发展",
+          "title": "化学与能源、材料、环境和健康"
+        }
+      ],
+      "topicCount": 15
+    },
+    {
+      "slug": "hschemistry-2017",
+      "title": "普通高中化学课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hschemistry-2017:H1.PR.01",
+          "code": "H1.PR.01",
+          "stage": 5,
+          "domain": "化学实验与探究",
+          "title": "高中实验安全、仪器与分离提纯（蒸馏萃取过滤）"
+        },
+        {
+          "key": "hschemistry-2017:H1.ST.01",
+          "code": "H1.ST.01",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "物质的分类、分散系与胶体"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.01",
+          "code": "H1.RC.01",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "离子反应与离子方程式"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.02",
+          "code": "H1.RC.02",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "氧化还原反应的本质与表示"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.03",
+          "code": "H1.RC.03",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "物质的量：摩尔质量、气体摩尔体积与浓度"
+        },
+        {
+          "key": "hschemistry-2017:H1.IN.01",
+          "code": "H1.IN.01",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "钠及其化合物"
+        },
+        {
+          "key": "hschemistry-2017:H1.IN.02",
+          "code": "H1.IN.02",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "氯及其化合物"
+        },
+        {
+          "key": "hschemistry-2017:H1.ST.02",
+          "code": "H1.ST.02",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "元素周期律与元素周期表"
+        },
+        {
+          "key": "hschemistry-2017:H2.ST.03",
+          "code": "H2.ST.03",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "化学键：离子键与共价键"
+        },
+        {
+          "key": "hschemistry-2017:H2.RC.04",
+          "code": "H2.RC.04",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学反应速率与限度（初步）"
+        },
+        {
+          "key": "hschemistry-2017:H2.RC.05",
+          "code": "H2.RC.05",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学反应中的能量变化（初步）"
+        },
+        {
+          "key": "hschemistry-2017:H2.IN.03",
+          "code": "H2.IN.03",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "硫、氮及其化合物与化工资源"
+        },
+        {
+          "key": "hschemistry-2017:H2.OR.01",
+          "code": "H2.OR.01",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "有机化合物初步：甲烷、乙醇、乙酸与基本燃料"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.06",
+          "code": "H3.RC.06",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "热化学与盖斯定律"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.07",
+          "code": "H3.RC.07",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学平衡与平衡移动原理"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.08",
+          "code": "H3.RC.08",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "水溶液中的离子平衡：电离、pH、水解、沉淀溶解"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.09",
+          "code": "H3.RC.09",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "电化学：原电池、电解池与金属防护"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.04",
+          "code": "H4.ST.04",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "原子结构与性质：核外电子排布、电离能与电负性"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.05",
+          "code": "H4.ST.05",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "分子结构：杂化轨道、VSEPR 与分子间作用力"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.06",
+          "code": "H4.ST.06",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "晶体结构与晶胞计算"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.02",
+          "code": "H5.OR.02",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "烃：烷烯炔苯的结构、性质与命名"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.03",
+          "code": "H5.OR.03",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "烃的衍生物：卤代烃、醇酚、醛、羧酸与酯"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.04",
+          "code": "H5.OR.04",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "生命中的有机物与合成高分子"
+        }
+      ],
+      "topicCount": 23
     }
   ]
 }

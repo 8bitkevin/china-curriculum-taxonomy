@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.51.0",
+  "version": "1.52.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1941,
+  "edgeCount": 1968,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11649,6 +11649,168 @@
       "prerequisiteId": "ct_wl_g9a_26",
       "strength": "soft",
       "reason": "初中核能常识在质能方程处获得定量解释"
+    },
+    {
+      "topicId": "ct_hx_g9a_02",
+      "prerequisiteId": "ct_hx_g9a_01",
+      "strength": "hard",
+      "reason": "探究蜡烛燃烧先要会判断燃烧是化学变化"
+    },
+    {
+      "topicId": "ct_hx_g9a_03",
+      "prerequisiteId": "ct_hx_g9a_02",
+      "strength": "hard",
+      "reason": "探究活动以基本仪器操作规范为安全前提"
+    },
+    {
+      "topicId": "ct_hx_g9a_04",
+      "prerequisiteId": "ct_hx_g9a_03",
+      "strength": "hard",
+      "reason": "红磷测氧气实验用到点燃与集气操作技能"
+    },
+    {
+      "topicId": "ct_hx_g9a_04",
+      "prerequisiteId": "ct_hx_g9a_01",
+      "strength": "hard",
+      "reason": "氧气性质实验的观察判断以变化类型概念为基础"
+    },
+    {
+      "topicId": "ct_hx_g9a_05",
+      "prerequisiteId": "ct_hx_g9a_03",
+      "strength": "hard",
+      "reason": "制氧气实验综合运用加热、集气、验满等操作"
+    },
+    {
+      "topicId": "ct_hx_g9a_05",
+      "prerequisiteId": "ct_hx_g9a_04",
+      "strength": "hard",
+      "reason": "催化剂概念在氧气制法的对比实验中建立"
+    },
+    {
+      "topicId": "ct_hx_g9a_06",
+      "prerequisiteId": "ct_hx_g9a_01",
+      "strength": "hard",
+      "reason": "分子原子概念为变化类型提供微观解释（分子变不变）"
+    },
+    {
+      "topicId": "ct_hx_g9a_07",
+      "prerequisiteId": "ct_hx_g9a_06",
+      "strength": "hard",
+      "reason": "原子结构知识建立在原子概念之上"
+    },
+    {
+      "topicId": "ct_hx_g9a_08",
+      "prerequisiteId": "ct_hx_g9a_07",
+      "strength": "hard",
+      "reason": "元素以质子数定义，需先有原子结构知识"
+    },
+    {
+      "topicId": "ct_hx_g9a_09",
+      "prerequisiteId": "ct_hx_g9a_06",
+      "strength": "hard",
+      "reason": "电解水的微观解释（分子分解成原子再组合）需分子原子观"
+    },
+    {
+      "topicId": "ct_hx_g9a_09",
+      "prerequisiteId": "ct_hx_g9a_05",
+      "strength": "soft",
+      "reason": "气体的检验与验纯操作技能从氧气制取迁移到氢气"
+    },
+    {
+      "topicId": "ct_hx_g9a_10",
+      "prerequisiteId": "ct_hx_g9a_03",
+      "strength": "hard",
+      "reason": "过滤操作是基本操作（仪器使用）的应用"
+    },
+    {
+      "topicId": "ct_hx_g9a_11",
+      "prerequisiteId": "ct_hx_g9a_08",
+      "strength": "hard",
+      "reason": "化学式的书写需要元素符号的基础"
+    },
+    {
+      "topicId": "ct_hx_g9a_11",
+      "prerequisiteId": "ct_hx_g9a_07",
+      "strength": "soft",
+      "reason": "化合价与最外层电子得失倾向相关"
+    },
+    {
+      "topicId": "ct_hx_g9a_12",
+      "prerequisiteId": "ct_hx_g9a_06",
+      "strength": "hard",
+      "reason": "质量守恒的微观解释（原子三不变）以分子原子观为根基"
+    },
+    {
+      "topicId": "ct_hx_g9a_13",
+      "prerequisiteId": "ct_hx_g9a_12",
+      "strength": "hard",
+      "reason": "配平的依据是质量守恒定律"
+    },
+    {
+      "topicId": "ct_hx_g9a_13",
+      "prerequisiteId": "ct_hx_g9a_11",
+      "strength": "hard",
+      "reason": "方程式的书写需要化学式的正确书写"
+    },
+    {
+      "topicId": "ct_hx_g9a_14",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "计算以正确书写的化学方程式为出发点"
+    },
+    {
+      "topicId": "ct_hx_g9a_15",
+      "prerequisiteId": "ct_hx_g9a_08",
+      "strength": "soft",
+      "reason": "同种元素不同单质的概念需要元素观"
+    },
+    {
+      "topicId": "ct_hx_g9a_15",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "soft",
+      "reason": "碳还原氧化铜需要方程式书写能力"
+    },
+    {
+      "topicId": "ct_hx_g9a_16",
+      "prerequisiteId": "ct_hx_g9a_05",
+      "strength": "hard",
+      "reason": "CO₂ 制取的装置选择借鉴氧气制法（固液常温型 vs 加热型）"
+    },
+    {
+      "topicId": "ct_hx_g9a_16",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "相关反应的方程式书写已具备"
+    },
+    {
+      "topicId": "ct_hx_g9a_17",
+      "prerequisiteId": "ct_hx_g9a_16",
+      "strength": "hard",
+      "reason": "CO 与 CO₂ 对比学习，制取性质一脉相承"
+    },
+    {
+      "topicId": "ct_hx_g9a_18",
+      "prerequisiteId": "ct_hx_g9a_04",
+      "strength": "hard",
+      "reason": "燃烧需要氧气的知识来自空气单元"
+    },
+    {
+      "topicId": "ct_hx_g9a_19",
+      "prerequisiteId": "ct_hx_g9a_18",
+      "strength": "hard",
+      "reason": "燃料利用与燃烧条件直接相关（充分燃烧）"
+    },
+    {
+      "topicId": "ct_hx_g9a_20",
+      "prerequisiteId": "ct_hx_g9a_13",
+      "strength": "hard",
+      "reason": "三重表征总览整合元素符号、化学式与方程式三层符号"
+    },
+    {
+      "topicId": "ct_hx_g9a_20",
+      "prerequisiteId": "ct_hx_g9a_09",
+      "strength": "soft",
+      "reason": "电解水是三重表征的经典案例"
     }
   ]
 }
