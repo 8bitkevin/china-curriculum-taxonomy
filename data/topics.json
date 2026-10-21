@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.6.0",
+  "version": "0.7.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 204,
+  "topicCount": 230,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -6265,6 +6265,802 @@
       "prerequisites": [
         "ct_g3a_10",
         "ct_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_g5a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数乘整数（算理）",
+      "description": "买 3 个风筝每个 3.5 元：3.5×3 就是 3 个 3.5 相加，也可以想成 35×3=105，再点上一位小数。小数乘法靠「转化成整数乘法」起家，小数点定位是灵魂。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说清因数中共有一位小数，积也点一位小数的道理",
+        "能正确计算小数乘整数并估算检验"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.72×5 怎么变成整数乘法算？积里的小数点为什么点在那一位？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_12",
+        "ct_g4b_11",
+        "ct_g4b_15"
+      ]
+    },
+    {
+      "id": "ct_g5a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数乘小数",
+      "description": "算 1.2×0.8：先算 12×8=96，两个因数共两位小数，积点两位——0.96。用因数共有几位小数定位积的小数点，是整个小数乘法的通则。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确计算小数乘小数（含积末尾去 0）",
+        "能用「因数小数位数和」解释积的小数点位置"
+      ],
+      "assessmentPrompt": "让{{name}}算 2.6×0.35，先估一估结果大约多少，再算，最后检查小数点位置。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_g5a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "积的近似数",
+      "description": "按题目要求保留：0.049×45 ≈ 2.2（保留一位）。先准确计算，再四舍五入。收银台抹零、按米算钱，生活里到处是「取近似」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能按指定位数求积的近似数",
+        "知道先算准再取近似，不能先约再乘"
+      ],
+      "assessmentPrompt": "问{{name}}：「每米布 8.7 元，买 2.4 米实际付多少元（保留一位小数）？为什么不能先算 9×2？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_17",
+        "ct_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_g5a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "整数运算律推广到小数与乘法简算",
+      "description": "0.25×4.78×4 = 0.25×4×4.78——交换律、结合律、分配律对小数一样成立。见 0.25 想 4、见 0.125 想 8，凑整的兵法带进小数战场。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用运算律进行小数乘法简算",
+        "能说明 1.28×99+1.28=1.28×100 的依据"
+      ],
+      "assessmentPrompt": "让{{name}}简算 0.25×44 和 1.28×99+1.28，说出各用了什么运算律。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_10",
+        "ct_g5a_02"
+      ]
+    },
+    {
+      "id": "ct_g5a_05",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数乘法的实际问题（估算与分段计费）",
+      "description": "出租车起步价 8 元（3 千米内），超出每千米 1.8 元，行 7 千米付多少？分段计费是估算与精算齐上阵的生活题——电费、水费、快递费同理。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能分析分段计费问题并列式计算",
+        "能用估算判断「带的钱够不够」再精确计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「打车 3 千米内 10 元，之后每千米 2 元，坐 8 千米要多少钱？带 25 元够吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_04"
+      ]
+    },
+    {
+      "id": "ct_g5a_06",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "用数对确定位置",
+      "description": "第 4 列第 3 行记作 (4,3)：先列后行，竖列横行。一个数对锁定一个座位——平面上的点从此有了「门牌号」，这是坐标系的学前班。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用数对表示自己或同学的位置",
+        "能根据数对在方格纸上找到对应点，并发现同行同列的规律"
+      ],
+      "assessmentPrompt": "问{{name}}：「你的座位用数对怎么表示？(2,5) 和 (5,2) 是同一个位置吗？为什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_02"
+      ]
+    },
+    {
+      "id": "ct_g5a_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数除以整数",
+      "description": "22.4÷4：整数部分除完点小数点，继续除。商的小数点要和被除数的小数点对齐——除法竖式的老规矩，多了个小数点的新纪律。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确笔算小数除以整数（含整数部分不够商 1 的情形）",
+        "能解释商的小数点为什么与被除数对齐"
+      ],
+      "assessmentPrompt": "让{{name}}算 22.4÷4 和 5.6÷7，问「商的小数点怎么定？7.83÷9 整数部分不够商 1 怎么办？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_05",
+        "ct_g4b_11"
+      ]
+    },
+    {
+      "id": "ct_g5a_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一个数除以小数（商不变转化）",
+      "description": "7.65÷0.85：把除数和被除数同时扩大 100 倍，变成 765÷85——商不变规律大显身手。除数是小数？转成整数再除！「转化」是数学最锋利的刀。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能正确移动小数点把除数化成整数再除",
+        "位数不够时会补 0（如 5.1÷0.12）"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.544÷0.16 第一步做什么？为什么被除数和除数要一起动？移动的依据是什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_15",
+        "ct_g5a_07"
+      ]
+    },
+    {
+      "id": "ct_g5a_09",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "商的近似数与循环小数",
+      "description": "10÷3 = 3.333…，一个数字不断重复出现——循环小数。它的出现宣告：不是所有除法都能除尽。循环节、简便记法（3.3·）一起认识。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能识别循环小数并用简便记法表示",
+        "能按「进一法」「去尾法」或四舍五入取商的近似值"
+      ],
+      "assessmentPrompt": "问{{name}}：「28÷18 商是多少？它是什么小数？保留两位小数是多少？1.565656…的循环节是什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_17",
+        "ct_g5a_08"
+      ]
+    },
+    {
+      "id": "ct_g5a_10",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用计算器探索规律",
+      "description": "1÷7=0.142857…，142857 轮转登场：×2、×3 的结果像转盘一样转圈。计算器当显微镜，专看人眼看不动的长数字——规律之美。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用计算器算出结果并发现数字规律",
+        "能用发现的规律直接写出类似算式的结果"
+      ],
+      "assessmentPrompt": "让{{name}}用计算器算 3×7、3.3×6.7、3.33×66.7，说「下一个算式的结果会是什么？为什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_06",
+        "ct_g5a_09"
+      ]
+    },
+    {
+      "id": "ct_g5a_11",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "小数除法解决问题（进一法与去尾法）",
+      "description": "2.5 千克油装瓶每瓶 0.4 千克，需要 6.25 个瓶子——瓶子没有半个，得装 7 瓶（进一法）；25 元买 8 元一杯的果汁能买 3.125 杯——只能买 3 杯（去尾法）。答案要听生活的话。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能根据实际情境选择进一法或去尾法",
+        "能解决「平均每步走多少米」等小数除法实际问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「40 个同学坐缆车每车最多 6 人要几辆？20 米彩带每个礼盒用 3 米能包装几个？两题的取整方向为什么不同？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_27",
+        "ct_g5a_09"
+      ]
+    },
+    {
+      "id": "ct_g5a_12",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "可能性的初步认识（确定与不确定）",
+      "description": "太阳一定从东方升起（确定）；明天可能会下雨（不确定）。摸球游戏：盒里全是红球，摸出的一定是红球；有红有蓝，摸出的可能蓝可能红——事件发生的确定性分类。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用「一定、可能、不可能」描述事件",
+        "能设计符合要求的摸球方案（如不可能摸到蓝球）"
+      ],
+      "assessmentPrompt": "问{{name}}：「口袋里 3 个红球 1 个蓝球，任意摸一个，会发生什么？怎么放球才能不可能摸到红球？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g2b_17"
+      ]
+    },
+    {
+      "id": "ct_g5a_13",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "可能性的大小",
+      "description": "红球 8 个蓝球 2 个：摸到红球的可能性大。可能性大小与数量占比挂钩，还能反过来推测盒子里什么球多——从「玩摸球」到「用数据推断」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能比较简单情境中事件发生可能性的大小",
+        "能根据多次摸球结果推测盒中球的多少"
+      ],
+      "assessmentPrompt": "问{{name}}：「转盘上红色区域大、蓝色小，转一次指到哪里可能性大？如果 20 次里 17 次是红，盒里什么球多？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_12"
+      ]
+    },
+    {
+      "id": "ct_g5a_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用字母表示数",
+      "description": "爸爸比小红大 30 岁：小红 a 岁时爸爸 (a+30) 岁。字母一出场，说不完的数一句概括——从算术迈入代数的第一步，就在这里。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用含字母的式子表示数量关系和计算公式",
+        "知道相同的字母在同一个式子里表示同一个数"
+      ],
+      "assessmentPrompt": "问{{name}}：「一支笔 x 元，买 3 支多少元？a+30 还能表示什么？a×3 写作什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_06"
+      ]
+    },
+    {
+      "id": "ct_g5a_15",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "方程的意义与等式的性质",
+      "description": "含有未知数的等式叫方程（如 3x=12）。天平两边同加减（或同乘除非零数）仍然平衡——等式的性质是解方程的尚方宝剑。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能判断一个式子是不是方程并说明理由",
+        "能借助天平说出等式的两条基本性质"
+      ],
+      "assessmentPrompt": "问{{name}}：「4+x=9 是方程吗？x+7 和 5+8=13 呢？为什么？天平两边同时拿掉 2 个砝码会怎样？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_01",
+        "ct_g5a_14"
+      ]
+    },
+    {
+      "id": "ct_g5a_16",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解简单的方程（x±b=c、ax=b）",
+      "description": "解方程 x+3=9：两边同时减 3，x=6。检验就是把 6 代回去：6+3=9 ✓。规范书写「解：」，规范检验——代数的童子功从格式开始。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用等式性质解 x±b=c、ax=b、x÷a=c 型方程",
+        "会代入检验并养成习惯"
+      ],
+      "assessmentPrompt": "让{{name}}解 3x=18 和 x-7.2=4.8，写出检验过程。",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_15"
+      ]
+    },
+    {
+      "id": "ct_g5a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "解稍复杂的方程（ax±b=c、a(x±b)=c）",
+      "description": "解 2x-20=4：先把 2x 看成一个整体，两边加 20 得 2x=24，再两边除以 2。「把一坨先当作一个数」——化繁为简的代数智慧。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能解 ax±b=c、x÷a±b=c 型方程",
+        "能说清每一步变形用了等式哪条性质"
+      ],
+      "assessmentPrompt": "让{{name}}解 2x-20=4，边解边说「先算谁、后算谁、为什么」并检验。",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_16"
+      ]
+    },
+    {
+      "id": "ct_g5a_18",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "实际问题与方程",
+      "description": "「苹果比梨的 2 倍还多 4 个」——找到等量关系，设未知数、列方程、解方程、检验作答。列方程想「顺流而下」的等量关系，比算术的「逆流而上」轻松许多。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能找准等量关系列出方程",
+        "能按「设—列—解—验—答」完整解题"
+      ],
+      "assessmentPrompt": "问{{name}}：「足球比篮球的 3 倍少 4 个，篮球 x 个，足球 26 个，方程怎么列？解出来是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_22",
+        "ct_g5a_17"
+      ]
+    },
+    {
+      "id": "ct_g5a_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "平行四边形的面积",
+      "description": "沿高剪开、平移过去，平行四边形拼成长方形：面积 = 底 × 高（S=ah）。割补转化是本主题的灵魂——新图形的面积永远从旧图形那里「借」来。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能演示割补过程并推导 S=ah",
+        "知道等底等高的平行四边形面积相等、与图形形状无关"
+      ],
+      "assessmentPrompt": "问{{name}}：「把平行四边形框架拉成长方形，面积变大了还是变小了？为什么用底×高算平行四边形？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_16",
+        "ct_g4b_28"
+      ]
+    },
+    {
+      "id": "ct_g5a_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "三角形的面积",
+      "description": "两个完全一样的三角形拼成平行四边形：三角形面积 = 底 × 高 ÷ 2（S=ah÷2）。红领巾、交通标志牌的面积都归它管——除以 2 的理由要能讲出来。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用拼摆推导三角形面积公式",
+        "能正确计算三角形面积（底高对应不出错）"
+      ],
+      "assessmentPrompt": "问{{name}}：「红领巾底 100 厘米、高 33 厘米，面积多少？为什么要除以 2？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_19",
+        "ct_g5a_19"
+      ]
+    },
+    {
+      "id": "ct_g5a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "梯形的面积",
+      "description": "两个完全一样的梯形拼成平行四边形：S=(a+b)×h÷2。水坝截面、水渠横截面都是梯形。推导的套路不变：拼一拼、转一转，回到已学图形。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能推导梯形面积公式并解释 (a+b) 的含义",
+        "能正确计算梯形面积"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么梯形面积要 (上底+下底)×高÷2？两个什么样的梯形才能拼成平行四边形？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_20"
+      ]
+    },
+    {
+      "id": "ct_g5a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "组合图形的面积",
+      "description": "L 形的房间、领奖台的截面：拆成两个长方形（分割法），或补成大长方形再减（添补法）。组合图形没有公式，只有策略——分、补、转化。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用分割法或添补法求组合图形面积",
+        "能选择数据齐全的分割方案（不遗漏中间线段）"
+      ],
+      "assessmentPrompt": "画一个 L 形给{{name}}：「这块地面积多大？你打算怎么分？还有别的分法吗？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_07",
+        "ct_g5a_21"
+      ]
+    },
+    {
+      "id": "ct_g5a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "不规则图形面积的估算",
+      "description": "树叶、湖泊的面积没有公式：放到方格纸上数格子（不满半格算半格），或看作近似规则图形估算。生活中的面积，估算就够了。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用数方格法估算不规则图形面积",
+        "能把不规则图形近似转化为规则图形估算"
+      ],
+      "assessmentPrompt": "给{{name}}一片树叶的方格图：「这片叶子大约多少平方厘米？你怎么处理不满一格的？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_14",
+        "ct_g5a_22"
+      ]
+    },
+    {
+      "id": "ct_g5a_24",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "植树问题（一）：两端都栽",
+      "description": "100 米小路每隔 5 米栽一棵树：100÷5=20 个间隔，两端都栽要 21 棵——棵数 = 间隔数 + 1。手指数间隔就能验证：5 个手指 4 个空。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能区分「棵数」与「间隔数」并说明两者关系",
+        "能用线段图分析两端都栽的植树问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「小路一边长 30 米，每 5 米栽一棵树（两端都栽），共栽几棵？30÷5=6 为什么还要加 1？」",
+      "standards": [
+        "csmath-2022:S3.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3a_27",
+        "ct_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_g5a_25",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "植树问题（二）：一端不栽、两端不栽与环形",
+      "description": "两端不栽：棵数 = 间隔数 - 1；只栽一端：棵数 = 间隔数；圆形花坛绕一圈：棵数 = 间隔数（首尾相接）。情况变了关系就变——画图验证是铁律。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能根据三种情形选择正确的数量关系",
+        "能画示意图验证自己的答案"
+      ],
+      "assessmentPrompt": "问{{name}}：「两栋楼之间每隔 4 米放一盆花，楼间距 20 米放几盆？和两端都栽差在哪？」",
+      "standards": [
+        "csmath-2022:S3.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_24"
+      ]
+    },
+    {
+      "id": "ct_g5a_26",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "植树问题的变式（锯木、上楼、敲钟、方阵）",
+      "description": "锯 5 段只要锯 4 次；1 楼到 5 楼只爬 4 层楼梯；敲 6 下有 5 个间隔。它们的骨架全是植树问题——「次数比段数少 1」就是两端不栽。变式千千万，模型只一个。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能识别变式题背后的植树模型",
+        "能正确解答锯木、上楼、敲钟类问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「一根木头锯成 6 段，每锯一次 3 分钟，一共几分钟？时钟敲 5 下用了 8 秒，敲 10 下用几秒？」",
+      "standards": [
+        "csmath-2022:S3.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 7,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_25"
       ]
     }
   ]
