@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.39.0",
+  "version": "1.40.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1739,
+  "edgeCount": 1751,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10437,6 +10437,78 @@
       "prerequisiteId": "ct_yy_g10b_09",
       "strength": "hard",
       "reason": "构词法之后攻克一词多义：猜词线索四类型"
+    },
+    {
+      "topicId": "ct_yy_g11b_01",
+      "prerequisiteId": "ct_yy_g9a_02",
+      "strength": "hard",
+      "reason": "初中宾语从句（that/if）扩展为主语、宾语、表语三大句位"
+    },
+    {
+      "topicId": "ct_yy_g11b_02",
+      "prerequisiteId": "ct_yy_g9a_03",
+      "strength": "hard",
+      "reason": "初中特殊疑问宾从深化为 wh- 名词性从句全系统与 what/that 辨析"
+    },
+    {
+      "topicId": "ct_yy_g11b_03",
+      "prerequisiteId": "ct_yy_g11b_02",
+      "strength": "hard",
+      "reason": "名从系统化后与定从混合训练：语法填空综合"
+    },
+    {
+      "topicId": "ct_yy_g11b_03",
+      "prerequisiteId": "ct_yy_g10b_01",
+      "strength": "soft",
+      "reason": "定语从句完全体（必修二收官）作为混合训练的另一半"
+    },
+    {
+      "topicId": "ct_yy_g11b_04",
+      "prerequisiteId": "ct_yy_g11a_05",
+      "strength": "hard",
+      "reason": "传记语篇阅读（必修三）延伸到科学家成就叙事与精准细节"
+    },
+    {
+      "topicId": "ct_yy_g11b_05",
+      "prerequisiteId": "ct_yy_g10b_12",
+      "strength": "hard",
+      "reason": "语篇结构图能力直接转化为七选五的衔接线索判断"
+    },
+    {
+      "topicId": "ct_yy_g11b_06",
+      "prerequisiteId": "ct_yy_g10a_10",
+      "strength": "hard",
+      "reason": "建议信之后学邀请函/咨询信：共享三段结构、新增得体性维度"
+    },
+    {
+      "topicId": "ct_yy_g11b_07",
+      "prerequisiteId": "ct_yy_g11a_10",
+      "strength": "hard",
+      "reason": "一词多义之后进入熟词生义专项与近义辨析"
+    },
+    {
+      "topicId": "ct_yy_g11b_08",
+      "prerequisiteId": "ct_yy_g9a_10",
+      "strength": "hard",
+      "reason": "初中文化礼仪（be supposed to）延伸到肢体语言的跨文化差异"
+    },
+    {
+      "topicId": "ct_yy_g11b_09",
+      "prerequisiteId": "ct_yy_g11a_09",
+      "strength": "hard",
+      "reason": "礼貌异议工具箱升级为让步—转折—结论的论证式口语"
+    },
+    {
+      "topicId": "ct_yy_g11b_10",
+      "prerequisiteId": "ct_yy_g11a_07",
+      "strength": "hard",
+      "reason": "长难句主谓定位能力支撑完形填空的语境理解"
+    },
+    {
+      "topicId": "ct_yy_g11b_10",
+      "prerequisiteId": "ct_yy_g11b_07",
+      "strength": "soft",
+      "reason": "熟词生义与近义辨析正是完形词汇关的弹药"
     }
   ]
 }

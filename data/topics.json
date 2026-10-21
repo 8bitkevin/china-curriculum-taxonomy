@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.39.0",
+  "version": "1.40.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1222,
+  "topicCount": 1232,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -37843,6 +37843,324 @@
       },
       "prerequisites": [
         "ct_yy_g10b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "名词性从句一：that 引导主宾表从句",
+      "description": "掌握 that 引导的名词性从句：主语从句（That he passed surprised us. / It is clear that...）、宾语从句（We believe that...）、表语从句（The fact is that...）。初中宾从经验上的体系化——「从句当名词用」的三大句位。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "三种从句各造一句",
+        "it 形式主语句与 that 主从互换"
+      ],
+      "assessmentPrompt": "考{{name}}：合并 It is a pity. + He missed the trip.（两种方式）；That the earth is round 是什么从句？",
+      "standards": [
+        "hsenglish-2017:H1.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一语法板块",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g9a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "名词性从句二：wh- 引导与语序铁律",
+      "description": "掌握 what/who/when/where/why/how 引导的名词性从句：What he said is true. / This is where we met.——从句永远陈述语序（what does he want ✗）。what 与 that 的选择（what 充当成分、that 不充当）是单选的高频陷阱。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "wh- 从句填空 12 题对 10",
+        "what/that 辨析 5 题全对"
+      ],
+      "assessmentPrompt": "考{{name}}：___ he wants is a chance. 选 what/that；把 Where will you go? 改成宾语从句 I wonder...",
+      "standards": [
+        "hsenglish-2017:H1.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一语法板块",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "从句综合：定从与名从混合语篇",
+      "description": "定语从句（三册积累）与名词性从句在同一语篇中混合出现：能判断引导词「修饰谁/充当什么」，完成语法填空综合题。高考语法的两大从句在此会师——读长句的能力决定上限。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "混合填空 12 空对 10",
+        "能口述每空的判断依据"
+      ],
+      "assessmentPrompt": "给{{name}}一篇含定从名从的语法填空（12 空），做完逐空讲「为什么是这个引导词」。",
+      "standards": [
+        "hsenglish-2017:H1.GR.02",
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "各单元语法复习",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_01",
+        "ct_yy_g11b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：杰出人物与成就",
+      "description": "读科学家与先行者语篇（屠呦呦式人物）：成就叙事的语篇结构（早年—关键抉择—成就—评价），数字与实验细节的精准理解。人物语篇从「事迹」深到「精神与影响」。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能梳理成就叙事四段结构",
+        "能引用文中细节评价人物"
+      ],
+      "assessmentPrompt": "给{{name}}读科学家语篇：画出「关键抉择」段落；问哪个细节最能体现其品格？",
+      "standards": [
+        "hsenglish-2017:H3.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一人物单元",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_05",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "七选五题型：衔接与逻辑",
+      "description": "攻克七选五：选项与原文的衔接纽带——代词指代（this/these）、复现词、逻辑关系词（however/therefore）、段首主旨句与段尾总结句的判定。语篇衔接的显性训练，高考阅读的分水岭题型。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "七选五 5 空对 4",
+        "能说出每个选择的衔接线索类型"
+      ],
+      "assessmentPrompt": "给{{name}}一篇七选五：先读选项圈「衔接信号」（代词/复现词）再做；做完逐空说线索。",
+      "standards": [
+        "hsenglish-2017:H1.RD.03",
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "各单元 Reading and Thinking",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_06",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "应用文升级：邀请函与咨询信",
+      "description": "应用文第二梯队：邀请函（活动要素 + 礼貌热忱）与咨询信（问题清晰 + 请求具体），与建议信共享三段结构但语气的分寸不同——得体性（formality）的选择训练。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能写 100 词邀请函（时间地点活动期待四要素）",
+        "语气词使用与文体匹配（Would you...? 而非 Come!）"
+      ],
+      "assessmentPrompt": "情境：邀请外教参加中秋晚会。请{{name}}写邀请函：四要素齐全，用一处 Would you 句式。",
+      "standards": [
+        "hsenglish-2017:H1.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Reading for Writing",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g10a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_07",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "熟词生义与精准选词",
+      "description": "词汇进阶：熟词生义专项（address=处理、shape=塑造、subject=使遭受）与近义辨析（affect/effect、raise/rise）——完形填空的词汇关。选词从「对不对」到「准不准」。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "熟词生义 20 题对 16",
+        "能辨析两组高频近义词并各造一句"
+      ],
+      "assessmentPrompt": "考{{name}}：address the problem / shape our future 什么意思？rise/raise 选词填空两句。",
+      "standards": [
+        "hsenglish-2017:H2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "各单元词汇板块",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_08",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：肢体语言与跨文化交际",
+      "description": "读肢体语言语篇（gesture、eye contact 的文化差异）：观察—解释—建议的说明结构；不同文化同一手势的相反含义（OK 手势）。跨文化意识从常识升级为语篇知识。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能举三个「同手势异含义」的例子",
+        "能给外国朋友提三条肢体语言建议"
+      ],
+      "assessmentPrompt": "问{{name}}：竖大拇指在哪些国家有不同含义？见到日本朋友鞠躬还是握手？用英语给建议。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Body Language 单元",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "听说：讨论中的让步与转折",
+      "description": "讨论高阶句式：让步（Admittedly... / Although it's true that...）+ 转折（However, ...）+ 结论（Therefore...）——从表态到论证的口语跃迁。议论文思维的口语版。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能就一个争议做「让步—转折—结论」三句式陈述",
+        "Admittedly/However 使用位置正确"
+      ],
+      "assessmentPrompt": "议题「AI 会不会取代翻译」：请{{name}}用 Admittedly... However... Therefore... 三连陈述立场。",
+      "standards": [
+        "hsenglish-2017:H3.LS.01",
+        "hsenglish-2017:H1.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "各单元 Listening and Talking",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "完形填空策略：语境与复现",
+      "description": "完形填空的方法论：上下文复现（原词/同义复现）、逻辑关系定位（but 前后反义）、感情色彩一致（褒贬不突变）。「通读首句定基调—跳读全文抓主线—逐空回文找线索」三步法。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "15 空完形对 12 以上",
+        "能对三个空说出线索类型"
+      ],
+      "assessmentPrompt": "给{{name}}一篇完形：先只读首句和每段首句说主线，再限时做完，逐空讲线索（复现/逻辑/色彩）。",
+      "standards": [
+        "hsenglish-2017:H4.RD.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "高考题型训练",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11a_07",
+        "ct_yy_g11b_07"
       ]
     }
   ]
