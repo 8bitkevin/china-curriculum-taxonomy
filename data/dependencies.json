@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.27.0",
+  "version": "1.28.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1553,
+  "edgeCount": 1567,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -9321,6 +9321,90 @@
       "prerequisiteId": "ct_yy_g4a_12",
       "strength": "hard",
       "reason": "词汇自查跨册累进（210→280），新增情境对话要求"
+    },
+    {
+      "topicId": "ct_yy_g5a_01",
+      "prerequisiteId": "ct_yy_g4a_03",
+      "strength": "hard",
+      "reason": "性格形容词在四年级 friend 描述词汇上扩容并新增 like 介词义辨析"
+    },
+    {
+      "topicId": "ct_yy_g5a_02",
+      "prerequisiteId": "ct_yy_g4b_02",
+      "strength": "hard",
+      "reason": "时间表达（几点）扩展到星期与每周安排，进入一般现在时"
+    },
+    {
+      "topicId": "ct_yy_g5a_03",
+      "prerequisiteId": "ct_yy_g4a_05",
+      "strength": "hard",
+      "reason": "食物词汇线延伸：从点餐到味道评价与 favourite 表达"
+    },
+    {
+      "topicId": "ct_yy_g5a_04",
+      "prerequisiteId": "ct_yy_g3b_09",
+      "strength": "hard",
+      "reason": "情境问答能力升级为 can 情态句型的能力表达"
+    },
+    {
+      "topicId": "ct_yy_g5a_05",
+      "prerequisiteId": "ct_yy_g4a_04",
+      "strength": "hard",
+      "reason": "Where is 的方位介词经验平移到 there be 的存在句框架"
+    },
+    {
+      "topicId": "ct_yy_g5a_06",
+      "prerequisiteId": "ct_yy_g5a_05",
+      "strength": "hard",
+      "reason": "there be 肯定句之后学疑问式与 any 的用法"
+    },
+    {
+      "topicId": "ct_yy_g5a_06",
+      "prerequisiteId": "ct_yy_g3b_04",
+      "strength": "soft",
+      "reason": "Is it...? 一般疑问应答经验迁移到 Is there...?"
+    },
+    {
+      "topicId": "ct_yy_g5a_07",
+      "prerequisiteId": "ct_yy_g4b_07",
+      "strength": "hard",
+      "reason": "r 音节之后学习元音组合与辅音组合的发音规律"
+    },
+    {
+      "topicId": "ct_yy_g5a_08",
+      "prerequisiteId": "ct_yy_g4a_09",
+      "strength": "hard",
+      "reason": "采访任务的句型库升级：加入性格与课程问答"
+    },
+    {
+      "topicId": "ct_yy_g5a_09",
+      "prerequisiteId": "ct_yy_g4b_09",
+      "strength": "hard",
+      "reason": "读故事（叙事）扩展到读说明性短文并完成信息题"
+    },
+    {
+      "topicId": "ct_yy_g5a_10",
+      "prerequisiteId": "ct_yy_g4b_10",
+      "strength": "hard",
+      "reason": "时间轴作息语篇之后写人物/空间介绍语篇，there be 与 has 句型入文"
+    },
+    {
+      "topicId": "ct_yy_g5a_10",
+      "prerequisiteId": "ct_yy_g5a_05",
+      "strength": "hard",
+      "reason": "My room 写作直接运用 there be 句型"
+    },
+    {
+      "topicId": "ct_yy_g5a_11",
+      "prerequisiteId": "ct_yy_g4b_11",
+      "strength": "hard",
+      "reason": "世界天气文化视野延伸到学校生活文化比较"
+    },
+    {
+      "topicId": "ct_yy_g5a_12",
+      "prerequisiteId": "ct_yy_g4b_12",
+      "strength": "hard",
+      "reason": "词汇自查跨册累进（280→350），新增默写要求"
     }
   ]
 }

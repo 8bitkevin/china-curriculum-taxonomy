@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.27.0",
+  "version": "1.28.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1067,
+  "topicCount": 1079,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -33002,6 +33002,380 @@
       },
       "prerequisites": [
         "ct_yy_g4a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_01",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "性格描述：What's he like?",
+      "description": "掌握性格词（young、funny、kind、strict、polite、hard-working、clever、shy）和问句 What's he like?——注意 like 在这里是「什么样的人」不是「喜欢」。描述老师同学的完整词库到位。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用四个以上性格词描述老师",
+        "能区分 What's he like? 与 What does he like?"
+      ],
+      "assessmentPrompt": "问{{name}}：你们的英语老师 What's she like? 请用两句描述；再考{{name}}：Do you like her? 的 like 是什么意思？",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 1 What's he like?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_03"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_02",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "星期与课程：What do you have on Mondays?",
+      "description": "掌握星期词（Monday 到 Sunday，注意大小写与 Tuesday/Thursday 的拼混）和课程问答 What do you have on Mondays? — We have English, maths and PE. 一般现在时的第一次正式亮相——用 on + 星期谈每周安排。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能背默七天单词",
+        "能用 on Mondays 谈三天的课程安排"
+      ],
+      "assessmentPrompt": "问{{name}}：What do you have on Wednesdays? 请列三门课；再听写 Tuesday 和 Thursday 分清拼写。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 2 My week",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_03",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "食物味道与 favourite",
+      "description": "掌握食物与味道词（sandwich、salad、hamburger、ice cream；sweet、fresh、healthy、delicious、hot）和最爱句型 What's your favourite food? / My favourite food is... 会说好吃，才算真的会点菜。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出最爱食物并给两个理由（It's sweet/healthy）",
+        "会用 It's 与 They're 描述单复数食物"
+      ],
+      "assessmentPrompt": "问{{name}}：What's your favourite food? 追问 Why? 要求用味道词回答；注意 salad 用 It's、noodles 用 They're。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 3 What would you like?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_04",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "can 能力句型：What can you do?",
+      "description": "掌握活动短语（sing English songs、play the pipa、do kung fu、draw cartoons、swim、cook）和 can 问答 What can you do? — I can... / Can you...? — Yes, I can. / No, I can't. can 后动词用原形——情态动词第一家。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出五项自己的能力",
+        "can 后动词原形无误（不说 can swims）"
+      ],
+      "assessmentPrompt": "玩才能秀：问{{name}} What can you do? 每答一项就表演一下；再问 Can you do kung fu? 看否定回答 No, I can't 是否完整。",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 4 What can you do?",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_05",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "There is a big bed：描述存在",
+      "description": "掌握房间物品词（bed、photo、clock、plant、water bottle、bike）和 there be 肯定句：There is a big bed. / There are two photos above the bed.「某处有某物」的万能句型登场——方位介词（above、behind、beside、between）一并扩容。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用 there be 描述房间五句",
+        "is/are 与单复数匹配无误"
+      ],
+      "assessmentPrompt": "看{{name}}的房间图说五句 There is/are...；故意问 There is two beds 对吗？看会不会改 are。",
+      "standards": [
+        "csenglish-2022:S3.GR.03",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 5 There is a big bed",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_04"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_06",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "Is there a river? there be 的疑问式",
+      "description": "掌握自然景观词（forest、river、mountain、hill、lake、village、bridge）和 there be 一般疑问句 Is there a river in the park? — Yes, there is. / Are there any tall buildings? — No, there aren't. any 用于疑问否定——there be 体系补完。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用 Is there/Are there any 各问两轮并正确应答",
+        "知道肯定句用 a/some、疑问否定用 any"
+      ],
+      "assessmentPrompt": "看公园图玩「猜景」：{{name}}用 Is there...? / Are there any...? 猜五处景观，你答 Yes/No。",
+      "standards": [
+        "csenglish-2022:S3.GR.03",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 6 In a nature park",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g3b_04",
+        "ct_yy_g5a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_07",
+      "type": "REPRESENTATIONAL",
+      "subject": "英语",
+      "domain": "语音",
+      "name": "字母组合：ea/ee、oo、ai/ay 的发音",
+      "description": "掌握高频字母组合发音：ea/ee 长音（tea、green）、oo 双面（cool/look——长音与短音两组）、ai/ay（rain、day）。拼读规则继续扩容——五年级的生词量大增，规则就是解码器。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能按组合规律拼读 20 个词",
+        "能把 oo 词按长音短音分两组"
+      ],
+      "assessmentPrompt": "写 read、food、look、play、green 请{{name}}读并说字母组合；考新词 train、moon。",
+      "standards": [
+        "csenglish-2022:S3.PH.01",
+        "csenglish-2022:S2.PH.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "各单元 Let's spell",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_08",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "采访：老师与同学印象",
+      "description": "综合采访任务：Who's your maths teacher? What's he like? What do you have on Tuesdays?——把性格、课程句型串成真实访谈并汇报。听说进入了「有准备的表达」阶段。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能连问三个问题不打结",
+        "能根据答案汇报：Mr Li is strict but kind. We have maths on..."
+      ],
+      "assessmentPrompt": "请{{name}}采访你（假装班主任）三个问题，记录后向另一位家人汇报老师印象。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 1-2 综合任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_09",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "Read and write：读懂 60–80 词语篇",
+      "description": "读每单元结尾的 Read and write 短文（介绍老师、食谱、公园导览）：读懂大意、抓关键信息、能回答课后两三个问题。阅读从对话篇幅升级到成段语篇——小学阅读的分水岭。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能独立读完 70 词短文",
+        "答题正确三题中两题以上"
+      ],
+      "assessmentPrompt": "给{{name}}读 Robin 介绍自然公园的短文，限时 3 分钟，答：What's in front of the mountain? How many bridges?",
+      "standards": [
+        "csenglish-2022:S3.RD.01",
+        "csenglish-2022:S2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "各单元 Read and write",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_10",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "写作",
+      "name": "写作：My teacher / My room 小语篇",
+      "description": "写两篇入门小语篇：介绍老师（姓名+长相+性格+课程，五句）和介绍房间（There is/are 五句+方位）。写作第一次有「篇」的要求：开头句、展开、结尾句。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "每篇五句以上且结构完整",
+        "there be 单复数与第三人称 has 无误"
+      ],
+      "assessmentPrompt": "请{{name}}写 My room：第一句总起（My room is nice.），中间三句 There is/are，结尾一句感受；写完对照检查 is/are。",
+      "standards": [
+        "csenglish-2022:S3.WR.01",
+        "csenglish-2022:S2.WR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "各单元写作任务",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_10",
+        "ct_yy_g5a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_11",
+      "type": "CONCEPTUAL",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "文化：英语国家的课程与周末",
+      "description": "了解英语国家的学校课程（art、music、science 的比重）与周末文化（weekend 的过法、Sunday 的意义）。比较中英课表——发现「原来他们这样上学」。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出中外课表两处不同",
+        "知道 weekend 指哪两天"
+      ],
+      "assessmentPrompt": "给{{name}}看一张英国小学课表问：他们每周有几节 art？我们呢？周六算 weekend 吗？",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 2 文化内容",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_12",
+      "type": "PROCEDURAL",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "五上词汇自查：累计约 350 词",
+      "description": "五年级上册新增约 70 词，累计约 350。高段词汇要求「三会」变「四会」（听说读写）——单词要会默了，拼读规则此刻显威。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "图卡认词 85% 以上",
+        "抽默 20 词正确率 75% 以上"
+      ],
+      "assessmentPrompt": "给{{name}}图卡认 20 词 + 听写 Monday、healthy、mountain、favourite 等 15 词，统计两率。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "全册",
+        "editionYear": 2014
+      },
+      "prerequisites": [
+        "ct_yy_g4b_12"
       ]
     }
   ]
