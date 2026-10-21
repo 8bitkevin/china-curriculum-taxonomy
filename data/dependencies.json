@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.12.0",
+  "version": "1.13.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1287,
+  "edgeCount": 1309,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -7725,6 +7725,138 @@
       "prerequisiteId": "ct_yw_g4a_01",
       "strength": "soft",
       "reason": "提问策略是科学好奇心的阅读表达"
+    },
+    {
+      "topicId": "ct_yw_g7a_01",
+      "prerequisiteId": "ct_yw_g2a_06",
+      "strength": "hard",
+      "reason": "小学读出对话语气的基础上，初中朗读进入重音停连的设计层"
+    },
+    {
+      "topicId": "ct_yw_g7a_02",
+      "prerequisiteId": "ct_yw_g2b_20",
+      "strength": "hard",
+      "reason": "比喻拟人从识别仿说升级为术语化赏析"
+    },
+    {
+      "topicId": "ct_yw_g7a_03",
+      "prerequisiteId": "ct_yw_g6a_08",
+      "strength": "hard",
+      "reason": "小学『说意境』的能力升级为意象概念与系统分析"
+    },
+    {
+      "topicId": "ct_yw_g7a_04",
+      "prerequisiteId": "ct_yw_g5a_08",
+      "strength": "hard",
+      "reason": "细节传情的阅读经验正式纳入散文文体分析框架"
+    },
+    {
+      "topicId": "ct_yw_g7a_05",
+      "prerequisiteId": "ct_yw_g6b_06",
+      "strength": "hard",
+      "reason": "小学文言收官（学弈/两小儿）后进入初中文言的字字落实积累期"
+    },
+    {
+      "topicId": "ct_yw_g7a_06",
+      "prerequisiteId": "ct_yw_g5a_16",
+      "strength": "hard",
+      "reason": "《古人谈读书》的三到与《论语》十二章同论学习，语录体文言递进"
+    },
+    {
+      "topicId": "ct_yw_g7a_07",
+      "prerequisiteId": "ct_yw_g5b_20",
+      "strength": "hard",
+      "reason": "小学整本通读经验上叠加精读跳读的方法论"
+    },
+    {
+      "topicId": "ct_yw_g7a_08",
+      "prerequisiteId": "ct_yw_g5a_01",
+      "strength": "hard",
+      "reason": "小学提速阅读的目标化版本：一课一得"
+    },
+    {
+      "topicId": "ct_yw_g7a_09",
+      "prerequisiteId": "ct_yw_g4a_06",
+      "strength": "hard",
+      "reason": "小学『把事情写清楚』加波澜与情感即成初中记事文"
+    },
+    {
+      "topicId": "ct_yw_g7a_10",
+      "prerequisiteId": "ct_yw_g5b_05",
+      "strength": "hard",
+      "reason": "小学写人写具体的技能在初中强调特点的敏锐辨识"
+    },
+    {
+      "topicId": "ct_yw_g7a_11",
+      "prerequisiteId": "ct_yw_g5a_13",
+      "strength": "hard",
+      "reason": "小学列提纲习惯扩展为全文思路设计（顺序+过渡）"
+    },
+    {
+      "topicId": "ct_yw_g7a_12",
+      "prerequisiteId": "ct_yw_g6a_05",
+      "strength": "hard",
+      "reason": "围绕中心写（小学）到突出中心（初中）：详略+点题的强化手段"
+    },
+    {
+      "topicId": "ct_yw_g7a_13",
+      "prerequisiteId": "ct_yw_g6b_08",
+      "strength": "hard",
+      "reason": "科幻设定的逻辑想象迁移到联想想象写作的方法论"
+    },
+    {
+      "topicId": "ct_yw_g7a_14",
+      "prerequisiteId": "ct_yw_g6a_06",
+      "strength": "hard",
+      "reason": "文言能力递进：从先秦诸子到清代笔记小说的叙事+议论结构"
+    },
+    {
+      "topicId": "ct_yw_g7a_14",
+      "prerequisiteId": "ct_yw_g7a_05",
+      "strength": "soft",
+      "reason": "同册文言积累链：实词库（期、意、犬）逐课扩充"
+    },
+    {
+      "topicId": "ct_yw_g7a_15",
+      "prerequisiteId": "ct_yw_g3b_02",
+      "strength": "hard",
+      "reason": "小学寓言多角度理解的能力叠加文言篇目与中外对照"
+    },
+    {
+      "topicId": "ct_yw_g7a_16",
+      "prerequisiteId": "ct_yw_g4a_04",
+      "strength": "hard",
+      "reason": "神话的想象阅读升级：从情节神奇到想象折射现实"
+    },
+    {
+      "topicId": "ct_yw_g7a_17",
+      "prerequisiteId": "ct_yw_g5b_03",
+      "strength": "hard",
+      "reason": "小学研究报告式综合学习的流程迁移到主题资料整理"
+    },
+    {
+      "topicId": "ct_yw_g7a_18",
+      "prerequisiteId": "ct_yw_g6a_20",
+      "strength": "soft",
+      "reason": "成长小说的阅读积累支撑个人阅读规划的书单设计"
+    },
+    {
+      "topicId": "ct_yw_g7a_19",
+      "prerequisiteId": "ct_yw_g3a_21",
+      "strength": "hard",
+      "reason": "近义词辨析能力升级为语境义与褒贬色彩的判断"
+    },
+    {
+      "topicId": "ct_yw_g7a_20",
+      "prerequisiteId": "ct_yw_g6b_07",
+      "strength": "hard",
+      "reason": "小学古诗词诵读收官后开启初中课外诵读积累线"
+    },
+    {
+      "topicId": "ct_yw_g7a_21",
+      "prerequisiteId": "ct_yw_g6b_17",
+      "strength": "hard",
+      "reason": "小学识字收官后，字词学习转入每课读读写写的精确积累"
     }
   ]
 }

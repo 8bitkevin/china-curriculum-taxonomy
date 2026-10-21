@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.12.0",
+  "version": "1.13.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 841,
+  "topicCount": 862,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -25972,6 +25972,649 @@
       "prerequisites": [
         "ct_yw_g4a_01",
         "ct_yw_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "朗读进阶：重音与停连",
+      "description": "朗读《春》《济南的冬天》，学会设计重音（「小草偷偷地从土里钻出来」重读「偷偷」「钻」）和停连（语音的延长与停顿），读出文字的呼吸。初中朗读从「读准」进入「设计」：每一处处理都有理由。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能在一篇课文上标注重音和停连并示范朗读",
+        "能说明某处重音的理由"
+      ],
+      "assessmentPrompt": "给{{name}}「盼望着，盼望着，东风来了，春天的脚步近了」，请{{name}}设计重音和停连并朗读，说说为什么这样处理。",
+      "standards": [
+        "cschinese-2022:S4.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g2a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_02",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "修辞赏析：比喻与拟人的效果分析",
+      "description": "赏析《春》《济南的冬天》中成串的比喻拟人（「看，像牛毛，像花针，像细丝」），用「手法+内容+效果」的答题语言分析。小学认识比喻拟人，初中学会用术语规范地赏析——这是现代文阅读题的第一块基石。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能按「手法+内容+效果」赏析一句修辞",
+        "能比较比喻与拟人在句中的不同作用"
+      ],
+      "assessmentPrompt": "给{{name}}「一个老城，有山有水，全在天底下晒着阳光，暖和安适地睡着」，请{{name}}用三步法赏析：手法是什么、写了什么、好在哪里。",
+      "standards": [
+        "cschinese-2022:S4.YD.02",
+        "cschinese-2022:S4.SL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g2b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_03",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古代诗歌四首：意象初探",
+      "description": "读《观沧海》《闻王昌龄左迁龙标遥有此寄》《次北固山下》《天净沙·秋思》，认识「意象」：日月星辰、杨花子规、孤藤老树都是情感的载体。诗歌鉴赏从背积累进入「找意象—品情感」的轨道。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵默写四首诗",
+        "能指出每首诗的核心意象并说出情感"
+      ],
+      "assessmentPrompt": "请{{name}}背《天净沙·秋思》并圈出所有意象，问：这些意象叠在一起制造了什么气氛？「断肠人」为什么在天涯？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "散文阅读：细节里的深情",
+      "description": "读《秋天的怀念》《散步》，抓住细节读情感（母亲「挡在窗前」、北海的菊花），体会散文「以小见大」的写法。小学的细节传情在初中升级为散文文体的分析方法。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能找出三处关键细节并分析情感",
+        "能说说标题「秋天的怀念」好在哪里"
+      ],
+      "assessmentPrompt": "问{{name}}：母亲说「看花」时两次都隐瞒了什么？「好好儿活」在文末为什么重新出现？细节里藏着怎样的母爱？",
+      "standards": [
+        "cschinese-2022:S4.YD.07",
+        "cschinese-2022:S4.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_05",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言文起步：《世说新语》二则与《诫子书》",
+      "description": "初中文言第一课：《咏雪》《陈太丘与友期行》《诫子书》——开始积累文言实词（期、舍、去、顾）、称谓语和「之」的用法，读出魏晋风度与诸葛亮的家训。文言学习从故事型进入积累型：字字落实。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵《咏雪》《诫子书》并准确翻译重点句",
+        "能解释「君、尊君、家君」等称谓与「之」的两种用法"
+      ],
+      "assessmentPrompt": "问{{name}}：「与人期行，相委而去」是什么意思？元方「入门不顾」失礼吗？「静以修身，俭以养德」对今天还适用吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二/第四单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "《论语》十二章：学习之道",
+      "description": "背诵《论语》十二章，掌握「说、愠、罔、殆」等实词和成语（不亦说乎、温故知新、三人行必有我师），梳理孔子论学习的智慧。语录体文言的第一个整块，也是课内文言考查频率最高的篇目之一。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能默写十二章",
+        "能分类整理（学习态度/学习方法/修身）并举例"
+      ],
+      "assessmentPrompt": "请{{name}}背十二章后分类：哪几章讲方法、哪几章讲态度？「学而不思则罔」的「罔」怎么讲？给自己挑一句当座右铭并说理由。",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_16"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_07",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "名著导读方法：精读与跳读",
+      "description": "以《朝花夕拾》《西游记》为样本学两种读法：精读（细腻处批注、探究细节）+跳读（略过无关章节）。初中三年必读 12 部名著，读法比读量重要——本课是整个名著导读体系的总纲。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说明哪些内容值得精读、哪些可跳读及理由",
+        "对《西游记》能各举一例精读与跳读"
+      ],
+      "assessmentPrompt": "请{{name}}读《西游记》三打白骨精（精读：批注三处）+列出可跳读的两类内容（如部分韵文），说明理由。",
+      "standards": [
+        "cschinese-2022:S4.YD.11",
+        "cschinese-2022:S3.YD.07"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "名著导读",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5b_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "默读：一课一得",
+      "description": "初中默读新要求：不回视、带思考、每课聚焦一个目标（植树的牧羊人——看人物怎么立起来）。默读从小学的「不出声」升级为「有任务、有产出」的深度阅读姿态。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "千字文默读 4 分钟内完成且能复述要点",
+        "能按教师给的单点任务默读并反馈"
+      ],
+      "assessmentPrompt": "给{{name}}一篇千字文和一个任务（找出表现牧羊人「执着」的三处），限时 4 分钟默读后口头汇报。",
+      "standards": [
+        "cschinese-2022:S4.YD.02",
+        "cschinese-2022:S3.YD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：学会记事",
+      "description": "初中作文第一课：把事情写完整、写出波澜（结尾突转、设置悬念）、融入情感。600 字作文的时代到来——小学的「写清楚」加上「写起伏」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "记事六要素完整且有至少一处波澜",
+        "字数达到 600 且卷面规范"
+      ],
+      "assessmentPrompt": "请{{name}}写「那一次，我真__」：中间安排一个转折（以为…没想到…），写出心情起伏。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第二单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4a_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_10",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：写人要抓住特点",
+      "description": "写人抓独有特点（从百草园先生的长衫、寿镜吾的读书入神学起）：外貌抓一处、事件选典型、细节要传神。小学「一事见特点」的初中版——对「特点」的辨识更敏锐。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "特点鲜明且贯穿全文",
+        "外貌描写不面面俱到"
+      ],
+      "assessmentPrompt": "请{{name}}写「我们班的『名侦探』」：先想 TA 最独特的一点，选一件事放大；外貌只写一处最有特点的。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第三单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_11",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：思路要清晰",
+      "description": "动笔前列提纲定顺序（时间/空间/逻辑），段与段有过渡，全篇浑然一体。初中的篇章意识：思路是骨架，先立骨再长肉——考场作文的评分底线就在这里。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "习作前有提纲且成文与提纲一致",
+        "段落间有自然过渡"
+      ],
+      "assessmentPrompt": "请{{name}}写「我的书房」：先列空间顺序提纲（进门—书桌—书架—窗台），每部分一个关键词，成文对照提纲。",
+      "standards": [
+        "cschinese-2022:S4.BD.01",
+        "cschinese-2022:S4.YD.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第四单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5a_13"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_12",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：如何突出中心",
+      "description": "用详略和反复点题突出中心（猫的三只猫详略不同，中心在第三只）。小学「围绕中心写」的深化：中心不仅要围绕，还要「突出」——浓墨重彩给关键处，关键句反复回响。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "关键部分明显写详",
+        "开头结尾呼应中心"
+      ],
+      "assessmentPrompt": "请{{name}}以「温暖」为中心写一件事：开头点题、中间详写温暖瞬间、结尾回扣；画出入题与点题的句子。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第五单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_13",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "表达与交流",
+      "name": "写作：发挥联想和想象",
+      "description": "续写《皇帝的新装》、由街灯想到天上的街市：联想由此及彼（相似/相关），想象无中生有但合乎内在逻辑。初中想象写作的方法论——与小学的放飞相比，更强调「合乎逻辑地飞」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "续写与原作风格人物一致",
+        "联想想象有内在关联不是硬凑"
+      ],
+      "assessmentPrompt": "请{{name}}给《皇帝的新装》续写「游行大典之后」：皇帝会怎么做？至少有一处联想有依据（大臣们会……）。",
+      "standards": [
+        "cschinese-2022:S4.BD.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第六单元（写作）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_14",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "文言叙事：《狼》的主旨与结构",
+      "description": "读蒲松龄《狼》：叙事（遇狼—惧狼—御狼—杀狼）+议论（狼黠矣，而顷刻两毙）的结构，积累「缀、弛、意少闲、犬坐」等实词。「叙事+议论点题」的文言范式，课内外对比阅读的常客。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵并疏通全文",
+        "能说出结尾议论的作用与主旨的多层理解"
+      ],
+      "assessmentPrompt": "请{{name}}背《狼》后回答：「其一犬坐于前」的「犬」怎么讲？屠户取胜靠什么？作者只在骂狼吗？",
+      "standards": [
+        "cschinese-2022:S4.YD.09"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第五单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_06",
+        "ct_yw_g7a_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_15",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "寓言四则：中外交汇",
+      "description": "读《赫耳墨斯和雕像者》《蚊子和狮子》《穿井得一人》《杞人忧天》：中外寓言对照（文言寓言+伊索寓言），从情节提炼多则寓意。小学寓言的初中版：加入文言篇目与多解意识。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能疏通两则文言寓言并各说两层寓意",
+        "能比较中外寓言的说理方式差异"
+      ],
+      "assessmentPrompt": "问{{name}}：蚊子打败狮子却败给蜘蛛，寓意是「骄傲」还是「每个人都有软肋」？杞人的忧可笑吗——今天有什么值得「忧天」的事？",
+      "standards": [
+        "cschinese-2022:S4.YD.09",
+        "cschinese-2022:S2.YD.05"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g3b_02"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_16",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "想象文学：天上的街市与神话",
+      "description": "读郭沫若《天上的街市》（联想+想象的现代诗）和《女娲造人》（新编神话），体会想象对现实的折射（街市的自由）。小学读神话看神奇，初中读神话看想象背后的时代心绪。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能区分诗中联想与想象的句子",
+        "能说说女娲「新编」加了什么、为什么"
+      ],
+      "assessmentPrompt": "问{{name}}：诗人由街灯想到明星是联想还是想象？天上的街市「陈列物品」为什么说是「一些」？神话里女娲像人不像神，说明什么？",
+      "standards": [
+        "cschinese-2022:S4.YD.08",
+        "cschinese-2022:S3.YD.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第六单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g4a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_17",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：有朋自远方来",
+      "description": "围绕「交友之道」搜集整理：论语论友的章句、古今交友典故（管鲍之交）、网络交友利弊。初中综合性学习第一课：定主题—查资料—分类—展示的完整流程。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能整理出三类交友资料（名言/典故/现实）",
+        "能就「网友算不算朋友」表达有据的观点"
+      ],
+      "assessmentPrompt": "请{{name}}做「交友之道」小报：论语两句、典故一个、自己的交友标准三条，并向家人讲一个典故。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "综合性学习（第二单元）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g5b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_18",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "综合性学习：少年正是读书时",
+      "description": "调查自己的阅读现状（时长、书目、方式），制定初中三年的阅读规划。用数据认识自己——把读书这件事也当作可以研究的对象。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "完成个人阅读现状表并分析一条问题",
+        "有一份学期阅读书单与时间安排"
+      ],
+      "assessmentPrompt": "请{{name}}记录一周真实阅读时间，做条形图；找出最大的时间黑洞，定一条改进措施和本月一本书。",
+      "standards": [
+        "cschinese-2022:S4.SL.02",
+        "cschinese-2022:S3.YD.06"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "综合性学习（第四单元）",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6a_20"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_19",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "词语的语境义与感情色彩",
+      "description": "结合课文辨析词语的语境义（「自然」在句中是「当然」还是「大自然」）、褒贬转化（「骄傲」的两种用法）。初中词语学习从识记转向语境分析——语感的精确化。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能据语境选词或释义三例以上",
+        "能举褒义词贬用/贬义词褒用的例子"
+      ],
+      "assessmentPrompt": "给{{name}}「他这个人真『精明』」和「他真精明能干」，问：两个「精明」意思一样吗？再让{{name}}用「骄傲」的褒义造句。",
+      "standards": [
+        "cschinese-2022:S4.LZ.02",
+        "cschinese-2022:S3.LZ.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "语文园地/课文",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g3a_21"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_20",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "课外古诗词诵读：四时与乡情",
+      "description": "诵读《峨眉山月歌》《江南逢李龟年》《行军九日思长安故园》《夜上受降城闻笛》：月、雁、笛声里的思念。课内诗之外的第二条积累线——课外古诗词诵读贯穿初中六册，考试默写常客。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能背诵默写四首",
+        "能说出「月」「笛」等意象与思乡的关系"
+      ],
+      "assessmentPrompt": "请{{name}}背《夜上受降城闻笛》，问：征人「尽望乡」是因为哪一声笛？「回乐峰前沙似雪」的画面给人什么感觉？",
+      "standards": [
+        "cschinese-2022:S4.YD.10"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "课外古诗词诵读",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g7a_21",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "七上字词与文学常识自查",
+      "description": "字词：每课读读写写全面过关（酝酿、莅临、咄咄逼人）；文学常识：鲁迅与《朝花夕拾》、朱自清、老舍、蒲松龄与《聊斋志异》。初中语文的两张底牌——字词满分与常识卡片。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "读读写写听写正确率 90% 以上",
+        "能对上作家-作品-朝代十组以上"
+      ],
+      "assessmentPrompt": "给{{name}}听写「淅淅沥沥、咄咄逼人、翻来覆去、拼凑」等 20 词；快问快答：《秋天的怀念》作者？《狼》出自哪本书？",
+      "standards": [
+        "cschinese-2022:S4.LZ.01",
+        "cschinese-2022:S4.SL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "各单元",
+        "editionYear": 2016
+      },
+      "prerequisites": [
+        "ct_yw_g6b_17"
       ]
     }
   ]
