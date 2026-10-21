@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.17.0",
+  "version": "0.18.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 810,
+  "edgeCount": 848,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -4863,6 +4863,234 @@
       "prerequisiteId": "ct_g10a_24",
       "strength": "soft",
       "reason": "周期现象建模使用 y=Asin(ωx+φ) 模型"
+    },
+    {
+      "topicId": "ct_g10b_01",
+      "prerequisiteId": "ct_g7b_07",
+      "strength": "hard",
+      "reason": "平移（对应点连线平行且相等）是向量相等的几何基础（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10b_01",
+      "prerequisiteId": "ct_g4a_17",
+      "strength": "soft",
+      "reason": "速度、路程等向量型物理量的经验是引入向量的现实模型"
+    },
+    {
+      "topicId": "ct_g10b_02",
+      "prerequisiteId": "ct_g10b_01",
+      "strength": "hard",
+      "reason": "坐标表示把几何运算代数化，以向量概念与线性运算为基础"
+    },
+    {
+      "topicId": "ct_g10b_02",
+      "prerequisiteId": "ct_g7b_12",
+      "strength": "hard",
+      "reason": "坐标运算直接使用平面直角坐标系"
+    },
+    {
+      "topicId": "ct_g10b_03",
+      "prerequisiteId": "ct_g10b_02",
+      "strength": "hard",
+      "reason": "数量积的坐标式 a·b=x₁x₂+y₁y₂ 由坐标表示导出"
+    },
+    {
+      "topicId": "ct_g10b_03",
+      "prerequisiteId": "ct_g10a_20",
+      "strength": "hard",
+      "reason": "夹角余弦使用任意角三角函数（含钝角）"
+    },
+    {
+      "topicId": "ct_g10b_04",
+      "prerequisiteId": "ct_g10b_03",
+      "strength": "hard",
+      "reason": "正余弦定理用向量（数量积、投影）证明"
+    },
+    {
+      "topicId": "ct_g10b_04",
+      "prerequisiteId": "ct_g9b_16",
+      "strength": "hard",
+      "reason": "解斜三角形是初中解直角三角形的一般化（跨学段衔接：直角→任意三角形）"
+    },
+    {
+      "topicId": "ct_g10b_05",
+      "prerequisiteId": "ct_g10b_02",
+      "strength": "hard",
+      "reason": "复数 a+bi 与有序实数对（向量坐标）一一对应，几何意义由向量承载"
+    },
+    {
+      "topicId": "ct_g10b_05",
+      "prerequisiteId": "ct_g7b_10",
+      "strength": "soft",
+      "reason": "实数系的扩张经验（有理数→实数）再次复用于实数→复数"
+    },
+    {
+      "topicId": "ct_g10b_06",
+      "prerequisiteId": "ct_g10b_05",
+      "strength": "hard",
+      "reason": "四则运算在复数概念框架内定义"
+    },
+    {
+      "topicId": "ct_g10b_07",
+      "prerequisiteId": "ct_g7a_18",
+      "strength": "hard",
+      "reason": "七年级立体图形与展开折叠经验升级为系统研究（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10b_07",
+      "prerequisiteId": "ct_g5b_06",
+      "strength": "soft",
+      "reason": "长方体展开图与直观图的空间想象经验参与"
+    },
+    {
+      "topicId": "ct_g10b_08",
+      "prerequisiteId": "ct_g10b_07",
+      "strength": "hard",
+      "reason": "位置关系的讨论以基本立体图形为载体"
+    },
+    {
+      "topicId": "ct_g10b_08",
+      "prerequisiteId": "ct_g7b_01",
+      "strength": "soft",
+      "reason": "平面内相交线是空间线线关系的特例（对照理解异面）"
+    },
+    {
+      "topicId": "ct_g10b_09",
+      "prerequisiteId": "ct_g10b_08",
+      "strength": "hard",
+      "reason": "平行关系的判定在位置关系框架内展开"
+    },
+    {
+      "topicId": "ct_g10b_09",
+      "prerequisiteId": "ct_g7b_04",
+      "strength": "soft",
+      "reason": "平面内平行判定经验类比迁移到空间（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10b_10",
+      "prerequisiteId": "ct_g10b_09",
+      "strength": "hard",
+      "reason": "垂直与平行构成空间证明的两大体系，判定格式一致"
+    },
+    {
+      "topicId": "ct_g10b_10",
+      "prerequisiteId": "ct_g7b_02",
+      "strength": "soft",
+      "reason": "平面内垂线与距离概念扩展为线面垂直与点到面距离"
+    },
+    {
+      "topicId": "ct_g10b_11",
+      "prerequisiteId": "ct_g10b_07",
+      "strength": "hard",
+      "reason": "表面积体积以基本立体图形的展开与结构为对象"
+    },
+    {
+      "topicId": "ct_g10b_11",
+      "prerequisiteId": "ct_g6b_24",
+      "strength": "hard",
+      "reason": "小学柱体锥体体积公式（V=Sh、1/3）一般化并补充球（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10b_12",
+      "prerequisiteId": "ct_g7b_24",
+      "strength": "hard",
+      "reason": "全面调查与抽样调查的初中经验升级为抽样方法体系"
+    },
+    {
+      "topicId": "ct_g10b_13",
+      "prerequisiteId": "ct_g10b_12",
+      "strength": "hard",
+      "reason": "直方图的数据来自合理抽样"
+    },
+    {
+      "topicId": "ct_g10b_13",
+      "prerequisiteId": "ct_g7b_25",
+      "strength": "hard",
+      "reason": "频数分布直方图升级为频率分布直方图（纵轴含义变化）"
+    },
+    {
+      "topicId": "ct_g10b_13",
+      "prerequisiteId": "ct_g8b_23",
+      "strength": "soft",
+      "reason": "方差等数字特征的估计沿用初中定义"
+    },
+    {
+      "topicId": "ct_g10b_14",
+      "prerequisiteId": "ct_g10b_13",
+      "strength": "hard",
+      "reason": "百分位数从频率分布中读取"
+    },
+    {
+      "topicId": "ct_g10b_15",
+      "prerequisiteId": "ct_g9a_24",
+      "strength": "hard",
+      "reason": "随机事件的初中概念升级为样本空间与事件集合（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g10b_15",
+      "prerequisiteId": "ct_g10a_01",
+      "strength": "hard",
+      "reason": "事件的关系运算完全使用集合语言（子集、交并补）"
+    },
+    {
+      "topicId": "ct_g10b_16",
+      "prerequisiteId": "ct_g10b_15",
+      "strength": "hard",
+      "reason": "古典概型计算以样本空间与事件的集合表示为基础"
+    },
+    {
+      "topicId": "ct_g10b_16",
+      "prerequisiteId": "ct_g9a_25",
+      "strength": "hard",
+      "reason": "列举法（列表树状图）的初中技能直接复用"
+    },
+    {
+      "topicId": "ct_g10b_17",
+      "prerequisiteId": "ct_g10b_16",
+      "strength": "hard",
+      "reason": "性质体系在具体概率计算之上抽象"
+    },
+    {
+      "topicId": "ct_g10b_17",
+      "prerequisiteId": "ct_g10a_02",
+      "strength": "soft",
+      "reason": "加法公式对应集合的并，维恩图辅助理解"
+    },
+    {
+      "topicId": "ct_g10b_18",
+      "prerequisiteId": "ct_g10b_17",
+      "strength": "hard",
+      "reason": "独立性是积事件概率的性质延伸"
+    },
+    {
+      "topicId": "ct_g10b_18",
+      "prerequisiteId": "ct_g9a_26",
+      "strength": "soft",
+      "reason": "频率稳定于概率的初中经验在此深化"
+    },
+    {
+      "topicId": "ct_g10b_19",
+      "prerequisiteId": "ct_g10b_04",
+      "strength": "hard",
+      "reason": "物理应用综合向量运算与解三角形（力的三角形）"
+    },
+    {
+      "topicId": "ct_g10b_20",
+      "prerequisiteId": "ct_g10b_14",
+      "strength": "hard",
+      "reason": "案例实践调用抽样、直方图与百分位全套工具"
+    },
+    {
+      "topicId": "ct_g10b_20",
+      "prerequisiteId": "ct_g8b_25",
+      "strength": "soft",
+      "reason": "延续初中统计活动流程，分析手段升级"
+    },
+    {
+      "topicId": "ct_g10b_21",
+      "prerequisiteId": "ct_g10b_18",
+      "strength": "hard",
+      "reason": "随机模拟以独立性与频率估计概率为理论支撑"
     }
   ]
 }
