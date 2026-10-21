@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.14.0",
+  "version": "0.15.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 411,
+  "topicCount": 437,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -12631,6 +12631,806 @@
       "prerequisites": [
         "ct_g7b_26",
         "ct_g8b_24"
+      ]
+    },
+    {
+      "id": "ct_g9a_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一元二次方程的概念",
+      "description": "只含一个未知数、未知数的最高次数是 2 的整式方程：ax²+bx+c=0（a≠0）。「元」是未知数个数、「次」是最高次数——方程家族的家谱又添一支。判别是不是，先化成一般式。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别一元二次方程并写出二次项系数、一次项系数、常数项",
+        "能根据条件（如 x²ᵐ-3x+1=0 是二次方程）求参数"
+      ],
+      "assessmentPrompt": "问{{name}}：「(m-2)x²+3x-1=0 是一元二次方程，m 要满足什么？x²+1/x=3 是吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_15",
+        "ct_g8a_23"
+      ]
+    },
+    {
+      "id": "ct_g9a_02",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "直接开平方法与配方法",
+      "description": "x²=25 直接开平方得 x=±5；x²+6x+4=0 先配方成 (x+3)²=5 再开方。配方法把「不会解」的方程变成「会解」的——化归思想在方程领域的巅峰演出。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用直接开平方法解 x²=p 型方程",
+        "能规范完成配方法并理解「配上一次项系数一半的平方」"
+      ],
+      "assessmentPrompt": "让{{name}}用配方法解 x²+4x-5=0，问「两边同时加几？为什么加它就变成完全平方了？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_02",
+        "ct_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_g9a_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "公式法与根的判别式",
+      "description": "对一般式配方得求根公式 x=(-b±√(b²-4ac))/(2a)。Δ=b²-4ac 是裁判：Δ>0 两不等实根、Δ=0 两相等实根、Δ<0 无实根。一劳永逸的通解，代数优雅性的丰碑。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用公式法解一元二次方程",
+        "能用 Δ 判断根的情况并反求参数范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「2x²-3x+4=0 有实根吗？先算什么？k 取何值时 x²-2x+k=0 有两个相等实根？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_05",
+        "ct_g9a_02"
+      ]
+    },
+    {
+      "id": "ct_g9a_04",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "因式分解法解一元二次方程",
+      "description": "x²-3x=0 变形为 x(x-3)=0，得 x=0 或 x=3——「降次」是解高次方程的总方针。右边必须为 0！因式分解法最快，但要看方程「长得配合」：缺常数项、能提公因式、能用十字相乘。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用因式分解法解方程并说明降次思想",
+        "知道两边同除以含未知数的因式会失根"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²=3x 的解是 x=3 吗？两边能同除以 x 吗？为什么？完整解一解。」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_18",
+        "ct_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_g9a_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "根与系数的关系（韦达定理，选学）",
+      "description": "x₁+x₂=-b/a、x₁x₂=c/a——两根之和与积不用解方程就能算。求对称式的值（x₁²+x₂²）、构造新方程，韦达定理是绕过求根的高架桥。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用韦达定理求两根的和与积",
+        "能求 x₁²+x₂² 型对称式的值"
+      ],
+      "assessmentPrompt": "问{{name}}：「x²-5x+6=0 的两根之和、之积各是多少？不解方程能算出 1/x₁+1/x₂ 吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_g9a_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "一元二次方程的应用",
+      "description": "增长率 a(1+x)²=b、面积设计（小路宽度）、售价与销量——「设、列、解、验、答」五步升级版：检验时既要看数学解，更要看实际解（负根、过长常常要舍去）。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能建立一元二次方程模型解应用题",
+        "能对两个根进行实际意义的取舍"
+      ],
+      "assessmentPrompt": "问{{name}}：「矩形长 20 宽 15，四角剪去同样正方形折成无盖盒，底面积 144，正方形边长多少？两个根都合理吗？」",
+      "standards": [
+        "csmath-2022:S4.NA.EQ.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 21,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7a_17",
+        "ct_g9a_04"
+      ]
+    },
+    {
+      "id": "ct_g9a_07",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次函数的概念",
+      "description": "y=ax²+bx+c（a≠0）：多项式长到二次，函数也就成了「二次」。投篮的抛物线、喷泉的水柱——形如抛物线的运动规律，都归它管（跨学段衔接：一次函数→二次函数）。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断一个函数是否为二次函数",
+        "能根据实际情境写出简单二次函数关系式"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=(m-1)x²+3x 是二次函数，m 有什么要求？正方形面积 S 与边长 a 的关系式是什么函数？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_11",
+        "ct_g8b_14"
+      ]
+    },
+    {
+      "id": "ct_g9a_08",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "y=ax² 的图象与性质",
+      "description": "抛物线：a>0 开口向上、a<0 开下，|a| 越大开口越窄；顶点在原点、对称轴是 y 轴。列表描点连线，最简二次函数的骨架先立起来——一切复杂抛物线都是它的平移。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出 y=ax² 并说出开口方向、对称轴、顶点",
+        "能比较 y=2x² 与 y=x² 的开口宽窄"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=-3x² 的开口朝哪？顶点是谁？在对称轴左侧 y 随 x 增大怎么变？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_16",
+        "ct_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_g9a_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "y=ax²+bx+c 的图象（顶点式与配方法）",
+      "description": "配方成 y=a(x-h)²+k：顶点 (h,k)、对称轴 x=h。h 左加右减、k 上加下减——抛物线三件套（开口、顶点、对称轴）全由 a、h、k 说清。「配方法」二度出山，几何意义更加闪亮。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用配方法把一般式化为顶点式",
+        "能说出顶点坐标与对称轴并画草图"
+      ],
+      "assessmentPrompt": "让{{name}}把 y=x²-4x+3 化为顶点式，问「顶点坐标？对称轴？怎么由 y=x² 平移得到？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_02",
+        "ct_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_g9a_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "系数 a、b、c 与图象的关系",
+      "description": "a 定开口，c 定与 y 轴交点（0,c），b 与 a 联名定对称轴位置（左同右异）。看到图象反推系数符号——「看图识函数」是中考的高频动作。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能根据图象判断 a、b、c 及 b²-4ac 的符号",
+        "能逆用顶点式确定解析式"
+      ],
+      "assessmentPrompt": "画一条开口向上、交 y 轴负半轴、对称轴在 y 轴右侧的抛物线，问{{name}}：「a、b、c 各是什么符号？怎么判断 b？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_09"
+      ]
+    },
+    {
+      "id": "ct_g9a_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次函数与一元二次方程的关系",
+      "description": "抛物线与 x 轴交点的横坐标就是方程的根：Δ>0 两个交点、Δ=0 一个（相切）、Δ<0 无交点。函数图象与方程根的关系第二次握手（一次函数时握过一次）——数形结合的又一层。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说明交点个数与判别式的关系",
+        "能用图象法估计方程的根"
+      ],
+      "assessmentPrompt": "问{{name}}：「y=x²-2x-3 与 x 轴交点坐标？对应方程的解是什么？两者什么关系？」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_03",
+        "ct_g9a_10"
+      ]
+    },
+    {
+      "id": "ct_g9a_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "二次函数的最值与应用（利润、面积）",
+      "description": "抛物线有最高点或最低点：顶点就是最值点。售价涨销量跌，利润何时最大？篱笆围矩形，面积何时最大？——建模、求顶点、检验取值范围，二次函数是优化问题的第一模型。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能建立二次函数模型解决最值问题",
+        "知道顶点不在取值范围内时要看端点（对称性最近点）"
+      ],
+      "assessmentPrompt": "问{{name}}：「进价 40 卖 60 每天卖 100 件，每涨 1 元少卖 2 件，定价多少利润最大？先列函数式再配方。」",
+      "standards": [
+        "csmath-2022:S4.NA.FN.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 22,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_11"
+      ]
+    },
+    {
+      "id": "ct_g9a_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "旋转的概念与性质",
+      "description": "旋转三要素：旋转中心、方向、角度。对应点到中心距离相等、对应点连线夹角等于旋转角。风车、摩天轮、钟摆——图形运动的第二讲（继平移之后），小学的三要素描述升级为性质定理。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能按三要素作出旋转后的图形",
+        "能运用旋转性质进行推理计算"
+      ],
+      "assessmentPrompt": "让{{name}}把△ABC 绕点 O 顺时针旋转 90°，问「旋转前后对应点到 O 的距离什么关系？∠AOA′ 是多少度？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 23,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_18",
+        "ct_g7b_07"
+      ]
+    },
+    {
+      "id": "ct_g9a_14",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "中心对称与中心对称图形",
+      "description": "绕某点旋转 180° 后与自身重合是中心对称图形：平行四边形、圆。两个图形成中心对称则对应点连线经过对称中心且被平分。它和轴对称是一对：一个翻转、一个旋转。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能判断中心对称图形",
+        "能作出已知图形关于某点的中心对称图形"
+      ],
+      "assessmentPrompt": "问{{name}}：「线段、平行四边形、等边三角形、圆，哪些是中心对称图形？中心对称与轴对称有什么不同？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 23,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8b_08",
+        "ct_g9a_13"
+      ]
+    },
+    {
+      "id": "ct_g9a_15",
+      "type": "REPRESENTATIONAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图案设计（平移、旋转、轴对称综合）",
+      "description": "基本图形 + 三种运动 = 万千图案。分析漂亮的地砖、商标、剪纸是怎么「运动」出来的，再亲手设计一款——几何变换第一次当艺术家。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能分析图案由何种基本图形经何种运动生成",
+        "能运用三种变换设计图案并说明"
+      ],
+      "assessmentPrompt": "给{{name}}一幅风车图案：「它由哪个基本图形经过什么变换生成？换一种变换还能得到类似的图吗？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 23,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5b_19",
+        "ct_g9a_14"
+      ]
+    },
+    {
+      "id": "ct_g9a_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的基本概念（弦、弧、圆心角、圆周角）",
+      "description": "圆是到定点的距离等于定长的点的集合：定点圆心、定长半径。连接圆上两点的线段是弦，圆上任意两点间的部分是弧。同圆半径处处相等——圆的「民主性」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能识别弦、弧、圆心角、圆周角等元素",
+        "能用集合观点说明圆的定义"
+      ],
+      "assessmentPrompt": "画一个圆让{{name}}标出弦、弧、圆心角、圆周角，问「车轮为什么是圆的？圆上所有点到圆心的距离有什么特点？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_16"
+      ]
+    },
+    {
+      "id": "ct_g9a_17",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "垂径定理及其应用",
+      "description": "垂直于弦的直径平分弦，并且平分弦所对的两条弧。「半径、半弦、弦心距」构成直角三角形——勾股定理进场，半径 13、弦 24，弦心距一算即出。赵州桥的跨度问题就是它的名片。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能证明并运用垂径定理",
+        "能用勾股定理结合垂径定理解弦长问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「⊙O 半径 10，弦 AB=16，圆心到 AB 的距离是多少？用了哪两个定理？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_12",
+        "ct_g8b_05",
+        "ct_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_g9a_18",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆心角、弧、弦的关系与圆周角定理",
+      "description": "同圆中相等的圆心角对等弧等弦。圆周角定理：同弧所对的圆周角等于圆心角的一半；推论：同弧等圆周角、直径所对圆周角是直角。「一条弧，半个角」——圆中角度计算的总开关。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能运用圆周角定理及推论计算与证明",
+        "能分类讨论圆心与圆周角的位置关系（证明思路）"
+      ],
+      "assessmentPrompt": "问{{name}}：「AB 是直径，C 在圆上，∠CAB=35°，∠ABC 是多少？同弧上的圆周角有什么关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_17"
+      ]
+    },
+    {
+      "id": "ct_g9a_19",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "点、直线与圆的位置关系",
+      "description": "点到圆心距离 d 与半径 r 比：d<r 在圆内、d=r 在圆上、d>r 在圆外；直线同理（相交、相切、相离）。位置关系数量化——数形结合在圆中的第一课。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用 d 与 r 判断位置关系",
+        "能由位置关系反求参数范围"
+      ],
+      "assessmentPrompt": "问{{name}}：「⊙O 半径 5，点 P 到 O 距离 5，P 在圆的哪里？直线 l 到 O 距离 6，l 与圆什么关系？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_18"
+      ]
+    },
+    {
+      "id": "ct_g9a_20",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "切线的判定、性质与切线长定理",
+      "description": "过半径外端且垂直于半径的直线是切线；切线垂直于过切点的半径。从圆外一点引两条切线，切线长相等——连心线平分两切线夹角。切线证明两板斧：「有交点连半径证垂直、无交点作垂直证半径」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用两种思路证明切线",
+        "能运用切线性质与切线长定理计算"
+      ],
+      "assessmentPrompt": "问{{name}}：「证明一条直线是圆的切线有哪两种套路？各什么时候用？切线垂直于什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_07",
+        "ct_g9a_19"
+      ]
+    },
+    {
+      "id": "ct_g9a_21",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "正多边形和圆",
+      "description": "各边相等、各角相等的多边形是正多边形：正三角形、正方形、正六边形……都能内接于圆——中心角 360°/n、边心距与半径构成直角三角形。蜂巢与螺母，正多边形是大自然的偏爱。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能计算正多边形的中心角、内角",
+        "能用半径、边心距、边长关系解正多边形问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「正六边形的半径与边长什么关系？中心角是多少度？为什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.12"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g8a_04",
+        "ct_g9a_18"
+      ]
+    },
+    {
+      "id": "ct_g9a_22",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "弧长、扇形面积与圆锥侧面积",
+      "description": "n° 弧长 l=nπr/180、扇形面积 S=nπr²/360 = lr/2；圆锥侧面展开是扇形（弧长=底面周长）。小学圆周长面积公式在此续写「按比例分配」的版本（跨学段衔接：圆周长→弧长）。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能计算弧长与扇形面积",
+        "能求圆锥侧面积与侧面展开图的圆心角"
+      ],
+      "assessmentPrompt": "问{{name}}：「半径 6、圆心角 120° 的弧长多少？扇形面积多少？底面半径 3 母线 5 的圆锥侧面积是多少？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.12"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g6a_17",
+        "ct_g9a_21"
+      ]
+    },
+    {
+      "id": "ct_g9a_23",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆的综合问题（与全等、相似结合）",
+      "description": "圆里藏着无数等腰三角形（半径相等）、直角三角形（直径对直角）。切线作辅助线的「三件套」：连半径、作垂线、构造直径直角。圆是几何定理的总舞台——综合题的压轴常客。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能在圆的背景下规划多步证明",
+        "掌握常见辅助线作法并说明意图"
+      ],
+      "assessmentPrompt": "问{{name}}：「见切线常作什么辅助线？见直径常想什么结论？AB 是直径、CD 切圆于 D，你先连什么？」",
+      "standards": [
+        "csmath-2022:S4.GS.PT.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 24,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g9a_20",
+        "ct_g9a_22"
+      ]
+    },
+    {
+      "id": "ct_g9a_24",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "随机事件与概率的意义",
+      "description": "在一定条件下可能发生也可能不发生的事件是随机事件。概率 P(A) 是刻画可能性大小的数：0≤P≤1，必然事件 P=1、不可能事件 P=0。摸球、掷骰子——「机会大小」从此有了精确刻度。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能区分必然事件、不可能事件、随机事件",
+        "能说出概率的取值范围与极端值含义"
+      ],
+      "assessmentPrompt": "问{{name}}：「掷骰子掷出 7 点是什么事件？太阳东升是什么事件？P 的范围是多少？」",
+      "standards": [
+        "csmath-2022:S4.SP.PB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 25,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g5a_12"
+      ]
+    },
+    {
+      "id": "ct_g9a_25",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "概率的计算（列举法）",
+      "description": "P(A)=m/n：一次试验 n 种等可能结果，事件 A 占 m 种。列举法（列表、树状图）数两步试验的所有结果。「先后掷两枚硬币」共 4 种结果不是 3 种——列举要「有序且完备」。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能用列表或树状图列举两步试验结果",
+        "能正确计算简单事件的概率"
+      ],
+      "assessmentPrompt": "问{{name}}：「掷两枚硬币，一正一反的概率是多少？用树状图列一列，一共几种结果？」",
+      "standards": [
+        "csmath-2022:S4.SP.PB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 25,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g3b_27",
+        "ct_g9a_24"
+      ]
+    },
+    {
+      "id": "ct_g9a_26",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "用频率估计概率",
+      "description": "抛 1000 次硬币正面向上 502 次——频率 0.502 稳定在 0.5 附近。试验次数越多，频率越稳定于概率。种子发芽率、不合格品率，只能靠频率估计——概率的统计学入口。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能设计模拟试验估计概率",
+        "能解释频率与概率的关系与区别"
+      ],
+      "assessmentPrompt": "问{{name}}：「射击 100 次中 92 次，命中率怎么表示？再射 100 次还是 92 吗？频率和概率什么关系？」",
+      "standards": [
+        "csmath-2022:S4.SP.PB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 25,
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_g7b_24",
+        "ct_g9a_25"
       ]
     }
   ]

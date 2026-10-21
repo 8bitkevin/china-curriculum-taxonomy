@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.14.0",
+  "version": "0.15.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 675,
+  "edgeCount": 721,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -4053,6 +4053,282 @@
       "prerequisiteId": "ct_g7b_26",
       "strength": "soft",
       "reason": "延续七下统计活动的完整流程，分析环节升级"
+    },
+    {
+      "topicId": "ct_g9a_01",
+      "prerequisiteId": "ct_g7a_15",
+      "strength": "hard",
+      "reason": "一元二次方程与一元一次方程按元与次对照定义"
+    },
+    {
+      "topicId": "ct_g9a_01",
+      "prerequisiteId": "ct_g8a_23",
+      "strength": "soft",
+      "reason": "分式方程（八上）提供了『化归为一元一次方程』的经验，二次方程走配方法化归"
+    },
+    {
+      "topicId": "ct_g9a_02",
+      "prerequisiteId": "ct_g9a_01",
+      "strength": "hard",
+      "reason": "解法研究对象是一元二次方程，先概念后解法"
+    },
+    {
+      "topicId": "ct_g9a_02",
+      "prerequisiteId": "ct_g8b_02",
+      "strength": "hard",
+      "reason": "开平方的结果是二次根式，需要 √(a²)=|a| 与化简技能"
+    },
+    {
+      "topicId": "ct_g9a_03",
+      "prerequisiteId": "ct_g9a_02",
+      "strength": "hard",
+      "reason": "求根公式由配方法对一般式推导而来"
+    },
+    {
+      "topicId": "ct_g9a_03",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "soft",
+      "reason": "公式推导中的代数变形（含勾股式的根式化简）用到根式运算"
+    },
+    {
+      "topicId": "ct_g9a_04",
+      "prerequisiteId": "ct_g9a_03",
+      "strength": "hard",
+      "reason": "因式分解法与公式法并列，先通法后巧法"
+    },
+    {
+      "topicId": "ct_g9a_04",
+      "prerequisiteId": "ct_g8a_18",
+      "strength": "hard",
+      "reason": "因式分解法直接使用八上的因式分解技能"
+    },
+    {
+      "topicId": "ct_g9a_05",
+      "prerequisiteId": "ct_g9a_03",
+      "strength": "hard",
+      "reason": "韦达定理由求根公式两根相加相乘推出"
+    },
+    {
+      "topicId": "ct_g9a_06",
+      "prerequisiteId": "ct_g9a_04",
+      "strength": "hard",
+      "reason": "应用题需根据方程结构灵活选择四种解法"
+    },
+    {
+      "topicId": "ct_g9a_06",
+      "prerequisiteId": "ct_g7a_17",
+      "strength": "soft",
+      "reason": "应用题五步框架（设列解验答）从一元一次方程迁移"
+    },
+    {
+      "topicId": "ct_g9a_07",
+      "prerequisiteId": "ct_g8b_14",
+      "strength": "hard",
+      "reason": "二次函数是函数概念下的第一个非线性成员（跨学段衔接：一次函数→二次函数）"
+    },
+    {
+      "topicId": "ct_g9a_07",
+      "prerequisiteId": "ct_g8a_11",
+      "strength": "soft",
+      "reason": "二次项、多项式等整式概念是解析式结构的前提"
+    },
+    {
+      "topicId": "ct_g9a_08",
+      "prerequisiteId": "ct_g9a_07",
+      "strength": "hard",
+      "reason": "最简二次函数 y=ax² 是研究一般二次函数的起点"
+    },
+    {
+      "topicId": "ct_g9a_08",
+      "prerequisiteId": "ct_g8b_16",
+      "strength": "hard",
+      "reason": "描点画图象的方法沿用一次函数图象经验"
+    },
+    {
+      "topicId": "ct_g9a_09",
+      "prerequisiteId": "ct_g9a_08",
+      "strength": "hard",
+      "reason": "一般式通过配方归结为 y=a(x-h)²+k，即 y=ax² 的平移"
+    },
+    {
+      "topicId": "ct_g9a_09",
+      "prerequisiteId": "ct_g9a_02",
+      "strength": "hard",
+      "reason": "顶点式配方与方程配方方法一致"
+    },
+    {
+      "topicId": "ct_g9a_10",
+      "prerequisiteId": "ct_g9a_09",
+      "strength": "hard",
+      "reason": "系数与图象关系从顶点式与一般式的互化中读出"
+    },
+    {
+      "topicId": "ct_g9a_11",
+      "prerequisiteId": "ct_g9a_10",
+      "strength": "hard",
+      "reason": "交点问题即图象与 x 轴关系，以图象三件套为前提"
+    },
+    {
+      "topicId": "ct_g9a_11",
+      "prerequisiteId": "ct_g9a_03",
+      "strength": "hard",
+      "reason": "交点个数由判别式判定，方程的根即交点横坐标"
+    },
+    {
+      "topicId": "ct_g9a_12",
+      "prerequisiteId": "ct_g9a_11",
+      "strength": "hard",
+      "reason": "最值在顶点取得，应用建模后需检验取值范围（端点对照）"
+    },
+    {
+      "topicId": "ct_g9a_13",
+      "prerequisiteId": "ct_g5b_18",
+      "strength": "hard",
+      "reason": "小学旋转三要素（中心、方向、角度）升级为旋转性质的证明（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9a_13",
+      "prerequisiteId": "ct_g7b_07",
+      "strength": "soft",
+      "reason": "旋转与平移同属图形运动，研究框架（定义-性质-作图）一致"
+    },
+    {
+      "topicId": "ct_g9a_14",
+      "prerequisiteId": "ct_g9a_13",
+      "strength": "hard",
+      "reason": "中心对称是旋转 180° 的特殊情形"
+    },
+    {
+      "topicId": "ct_g9a_14",
+      "prerequisiteId": "ct_g8b_08",
+      "strength": "soft",
+      "reason": "平行四边形是中心对称图形的典型例证（对角线互相平分）"
+    },
+    {
+      "topicId": "ct_g9a_15",
+      "prerequisiteId": "ct_g9a_14",
+      "strength": "hard",
+      "reason": "图案设计综合三种变换，中心对称是最新成员"
+    },
+    {
+      "topicId": "ct_g9a_15",
+      "prerequisiteId": "ct_g5b_19",
+      "strength": "soft",
+      "reason": "小学图案设计（欣赏与设计）的经验在此全面升级"
+    },
+    {
+      "topicId": "ct_g9a_16",
+      "prerequisiteId": "ct_g6a_16",
+      "strength": "hard",
+      "reason": "小学圆的认识（圆心、半径、直径）扩展为弦弧角体系（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9a_17",
+      "prerequisiteId": "ct_g9a_16",
+      "strength": "hard",
+      "reason": "垂径定理操作的对象是弦与直径构成的图形"
+    },
+    {
+      "topicId": "ct_g9a_17",
+      "prerequisiteId": "ct_g8a_12",
+      "strength": "hard",
+      "reason": "垂径定理证明用等腰三角形三线合一"
+    },
+    {
+      "topicId": "ct_g9a_17",
+      "prerequisiteId": "ct_g8b_05",
+      "strength": "hard",
+      "reason": "弦长计算的核心图形是弦心距-半弦-半径直角三角形"
+    },
+    {
+      "topicId": "ct_g9a_18",
+      "prerequisiteId": "ct_g9a_17",
+      "strength": "hard",
+      "reason": "圆周角定理与垂径定理同属圆的基本性质，在弦弧关系框架内展开"
+    },
+    {
+      "topicId": "ct_g9a_19",
+      "prerequisiteId": "ct_g9a_18",
+      "strength": "hard",
+      "reason": "位置关系的判断以圆的基本元素（点、直线与弧）认识为前提"
+    },
+    {
+      "topicId": "ct_g9a_20",
+      "prerequisiteId": "ct_g9a_19",
+      "strength": "hard",
+      "reason": "切线是直线与圆相切的特殊情形，判定性质成对"
+    },
+    {
+      "topicId": "ct_g9a_20",
+      "prerequisiteId": "ct_g8a_07",
+      "strength": "soft",
+      "reason": "切线长定理证明用全等三角形"
+    },
+    {
+      "topicId": "ct_g9a_21",
+      "prerequisiteId": "ct_g9a_18",
+      "strength": "hard",
+      "reason": "正多边形与圆的关系（等分圆周）依赖圆心角弧的关系"
+    },
+    {
+      "topicId": "ct_g9a_21",
+      "prerequisiteId": "ct_g8a_04",
+      "strength": "soft",
+      "reason": "正多边形内角和公式参与角度计算"
+    },
+    {
+      "topicId": "ct_g9a_22",
+      "prerequisiteId": "ct_g9a_21",
+      "strength": "hard",
+      "reason": "弧长扇形计算的核心是中心角占 360° 的比例"
+    },
+    {
+      "topicId": "ct_g9a_22",
+      "prerequisiteId": "ct_g6a_17",
+      "strength": "hard",
+      "reason": "弧长扇形公式由圆周长圆面积按比例推出（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9a_23",
+      "prerequisiteId": "ct_g9a_20",
+      "strength": "hard",
+      "reason": "综合题以切线性质与判定为主要工具"
+    },
+    {
+      "topicId": "ct_g9a_23",
+      "prerequisiteId": "ct_g9a_22",
+      "strength": "hard",
+      "reason": "综合计算常含弧长扇形面积"
+    },
+    {
+      "topicId": "ct_g9a_24",
+      "prerequisiteId": "ct_g5a_12",
+      "strength": "hard",
+      "reason": "五年级可能性的定性认识（可能/一定/不可能）升级为概率定量（跨学段衔接）"
+    },
+    {
+      "topicId": "ct_g9a_25",
+      "prerequisiteId": "ct_g9a_24",
+      "strength": "hard",
+      "reason": "概率计算以随机事件与概率概念为前提"
+    },
+    {
+      "topicId": "ct_g9a_25",
+      "prerequisiteId": "ct_g3b_27",
+      "strength": "soft",
+      "reason": "树状图/列表枚举与小学搭配问题的枚举同源"
+    },
+    {
+      "topicId": "ct_g9a_26",
+      "prerequisiteId": "ct_g9a_25",
+      "strength": "hard",
+      "reason": "频率估计的对象是理论概率，先会算再谈估"
+    },
+    {
+      "topicId": "ct_g9a_26",
+      "prerequisiteId": "ct_g7b_24",
+      "strength": "soft",
+      "reason": "随机抽样的思想（七下统计）与频率稳定性互为表里"
     }
   ]
 }
