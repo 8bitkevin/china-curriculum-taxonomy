@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.50.0",
+  "version": "1.51.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1366,
+  "topicCount": 1375,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -42325,6 +42325,291 @@
       "prerequisites": [
         "ct_wl_g10b_08",
         "ct_wl_g11b_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g12a_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "安培力与洛伦兹力",
+      "description": "安培力 F=BIL（左手定则）；洛伦兹力 f=qvB（始终垂直速度——不做功、只改方向）；带电粒子在匀强磁场中做匀速圆周运动（r=mv/qB）。从导体受力的宏观（安培力）到电荷受力的微观（洛伦兹力）。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用左手定则判断力方向并计算",
+        "能推导带电粒子圆周运动的半径与周期"
+      ],
+      "assessmentPrompt": "问{{name}}：洛伦兹力对运动的电子做功吗？质谱仪靠什么把不同质量的离子分开？",
+      "standards": [
+        "hsphysics-2017:H3.WM.16"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第一章 安培力与洛伦兹力",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g10b_04",
+        "ct_wl_g11a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g12a_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "法拉第电磁感应定律",
+      "description": "感应电动势 E=nΔΦ/Δt（磁通量变化率）与 E=BLv（导体切割）；楞次定律（感应电流的磁场阻碍磁通量变化——「来拒去留」）；自感与涡流。电气时代的理论基石——机械能转电能的总开关。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用 E=BLv 完成导轨问题计算",
+        "能用楞次定律判断感应电流方向"
+      ],
+      "assessmentPrompt": "问{{name}}：磁铁插入线圈为什么感受到阻力？导体棒在导轨上切割磁感线，速度越大感应电动势怎么变？",
+      "standards": [
+        "hsphysics-2017:H3.WM.17"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第二章 电磁感应",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g11a_09",
+        "ct_wl_g11a_10",
+        "ct_wl_g9a_24"
+      ]
+    },
+    {
+      "id": "ct_wl_g12a_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "交变电流、变压器与远距离输电",
+      "description": "正弦交流电的产生（线圈转动）与四值（峰值、有效值——热效应等效、平均值）；变压器原理（U₁/U₂=n₁/n₂）与理想变压器功率守恒；高压输电损耗计算 I²R。初中电磁感应的工程化终点——从发电机到千家万户。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能完成有效值与峰值换算",
+        "能用变压器变比与功率守恒解题"
+      ],
+      "assessmentPrompt": "问{{name}}：220 V 交流电的峰值是多少？为什么用电压表测交流读的是有效值？输电电流减半损耗降为几倍？",
+      "standards": [
+        "hsphysics-2017:H3.WM.18"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第三章 交变电流",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g11a_07",
+        "ct_wl_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g12a_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "传感器：物理量的电学翻译官",
+      "description": "传感器把力、温度、光、声等转换成电信号（光敏电阻、热敏电阻、霍尔元件）；应用案例（电子秤、自动门、火灾报警）。信息采集的物理原理——智能硬件的第一环。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能举四种传感器并说明转换原理",
+        "能设计一个简单的自动控制电路"
+      ],
+      "assessmentPrompt": "问{{name}}：楼道灯怎么知道天黑了？电子秤里的电阻应变片怎么感知重量？",
+      "standards": [
+        "hsphysics-2017:H3.WM.18"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第五章 传感器",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g12b_01",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "分子动理论与阿伏加德罗常数",
+      "description": "分子大小与数量的估算（油膜法测分子直径、NA 联接宏观微观）；分子速率分布（温度越高分布越宽）；分子动能势能与内能的微观解释。初中分子动理论的数量级化——一杯水里有多少分子。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用 NA 完成分子数与质量的估算",
+        "能说明温度的微观意义（分子平均动能）"
+      ],
+      "assessmentPrompt": "问{{name}}：18 g 水里有多少个水分子？0℃ 的铁和 0℃ 的水分子平均动能谁大？",
+      "standards": [
+        "hsphysics-2017:H4.RE.19"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "第一章 分子动理论",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g9a_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g12b_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "热力学定律与气体实验定律",
+      "description": "热力学第一定律 ΔU=W+Q（符号法则）；第二定律（方向性：热量不自发从低温到高温）；气体等温（pV=C）、等压、等容过程与 p-V 图。初中内能与能量守恒的定量化收官。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能用 ΔU=W+Q 判断内能变化",
+        "能完成等温过程的计算"
+      ],
+      "assessmentPrompt": "问{{name}}：压缩气体外界做功、不吸热，内能怎么变？为什么冰箱要耗电（违背第二定律吗）？",
+      "standards": [
+        "hsphysics-2017:H4.RE.19"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "第二章 气体 固体 液体 & 第三章 热力学定律",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g12b_01",
+        "ct_wl_g9a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g12b_03",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "近代物理",
+      "name": "光电效应与光的波粒二象性",
+      "description": "光电效应规律（有极限频率、瞬时性——波动说解释不了）；爱因斯坦光子说 E=hν；光的波粒二象性（大量光子显波动性、个别光子显粒子性）。1905 年的三篇论文之一——量子论的大门。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明极限频率与逸出功的关系",
+        "能解释双缝干涉底片的感光点分布"
+      ],
+      "assessmentPrompt": "问{{name}}：光照强度再大为什么低于极限频率就不打出电子？光到底是波还是粒子？",
+      "standards": [
+        "hsphysics-2017:H4.MO.20"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "第四章 原子结构和波粒二象性",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g11b_05"
+      ]
+    },
+    {
+      "id": "ct_wl_g12b_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "近代物理",
+      "name": "原子结构与玻尔模型",
+      "description": "原子核式结构（α 粒子散射实验）；玻尔模型（定态、跃迁 hν=E_m−E_n）、氢原子光谱。电子云观念对轨道的替代——微观世界的图像从太阳系式到概率式。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能计算氢原子跃迁的光子能量",
+        "能说明 α 粒子散射如何否定「枣糕模型」"
+      ],
+      "assessmentPrompt": "问{{name}}：原子为什么会发光？从 n=3 跃迁到 n=2 放出的光子能量怎么算？为什么说电子轨道是错的？",
+      "standards": [
+        "hsphysics-2017:H4.MO.20"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "第四章 原子结构和波粒二象性",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g12b_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g12b_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "近代物理",
+      "name": "原子核：放射性、核能与相对论初步",
+      "description": "天然放射（αβγ 三种射线）、半衰期；质能方程 E=mc² 与结合能（裂变聚变的能量来源）；质速关系与质能关系的时空观革命。核能的两面：电站与武器——物理学家的责任话题。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明裂变与聚变的能量来源",
+        "能判断三种射线的穿透力与电离性"
+      ],
+      "assessmentPrompt": "问{{name}}：太阳的能量来自哪种核反应？γ 射线为什么能穿透钢板？E=mc² 说的是什么？",
+      "standards": [
+        "hsphysics-2017:H4.MO.21"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "第五章 原子核",
+        "book": "选择性必修第三册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g12b_04",
+        "ct_wl_g9a_26"
       ]
     }
   ]

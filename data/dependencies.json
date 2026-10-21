@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.50.0",
+  "version": "1.51.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1926,
+  "edgeCount": 1941,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -11559,6 +11559,96 @@
       "prerequisiteId": "ct_wl_g10b_08",
       "strength": "hard",
       "reason": "能量守恒与功能关系是碰撞能量分析的工具"
+    },
+    {
+      "topicId": "ct_wl_g12a_01",
+      "prerequisiteId": "ct_wl_g11a_09",
+      "strength": "hard",
+      "reason": "洛伦兹力安培力以磁感应强度 B 与左手定则为基础"
+    },
+    {
+      "topicId": "ct_wl_g12a_01",
+      "prerequisiteId": "ct_wl_g10b_04",
+      "strength": "hard",
+      "reason": "带电粒子圆周运动用向心力 F=mv²/r 求解"
+    },
+    {
+      "topicId": "ct_wl_g12a_02",
+      "prerequisiteId": "ct_wl_g11a_10",
+      "strength": "hard",
+      "reason": "电磁感应定律是磁生电条件的定量化"
+    },
+    {
+      "topicId": "ct_wl_g12a_02",
+      "prerequisiteId": "ct_wl_g11a_09",
+      "strength": "hard",
+      "reason": "磁通量 Φ=BS 是感应电动势 E=nΔΦ/Δt 的核心量"
+    },
+    {
+      "topicId": "ct_wl_g12a_02",
+      "prerequisiteId": "ct_wl_g9a_24",
+      "strength": "soft",
+      "reason": "初中电磁感应的定性认识在此定量化"
+    },
+    {
+      "topicId": "ct_wl_g12a_03",
+      "prerequisiteId": "ct_wl_g12a_02",
+      "strength": "hard",
+      "reason": "交流电由线圈在磁场中转动产生（电磁感应的应用）"
+    },
+    {
+      "topicId": "ct_wl_g12a_03",
+      "prerequisiteId": "ct_wl_g11a_07",
+      "strength": "soft",
+      "reason": "高压输电的损耗分析沿用 I²R 电功计算"
+    },
+    {
+      "topicId": "ct_wl_g12a_04",
+      "prerequisiteId": "ct_wl_g12a_02",
+      "strength": "soft",
+      "reason": "多种传感器的工作原理涉及电磁感应"
+    },
+    {
+      "topicId": "ct_wl_g12b_01",
+      "prerequisiteId": "ct_wl_g9a_07",
+      "strength": "hard",
+      "reason": "初中分子动理论三要点在高中数量级化与统计化"
+    },
+    {
+      "topicId": "ct_wl_g12b_02",
+      "prerequisiteId": "ct_wl_g12b_01",
+      "strength": "hard",
+      "reason": "热力学第一定律的微观解释建立在分子动理论上"
+    },
+    {
+      "topicId": "ct_wl_g12b_02",
+      "prerequisiteId": "ct_wl_g9a_09",
+      "strength": "soft",
+      "reason": "初中内能与比热容知识纳入 ΔU=W+Q 框架"
+    },
+    {
+      "topicId": "ct_wl_g12b_03",
+      "prerequisiteId": "ct_wl_g11b_05",
+      "strength": "hard",
+      "reason": "波动光学证明光是波，光电效应揭示粒子性——二象性汇总"
+    },
+    {
+      "topicId": "ct_wl_g12b_04",
+      "prerequisiteId": "ct_wl_g12b_03",
+      "strength": "hard",
+      "reason": "玻尔模型的光子跃迁用 E=hν 光子能量"
+    },
+    {
+      "topicId": "ct_wl_g12b_05",
+      "prerequisiteId": "ct_wl_g12b_04",
+      "strength": "hard",
+      "reason": "原子核物理在原子结构之后：从核式结构到核能"
+    },
+    {
+      "topicId": "ct_wl_g12b_05",
+      "prerequisiteId": "ct_wl_g9a_26",
+      "strength": "soft",
+      "reason": "初中核能常识在质能方程处获得定量解释"
     }
   ]
 }
