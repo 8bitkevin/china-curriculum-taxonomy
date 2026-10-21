@@ -10,9 +10,11 @@
     "cschinese-2022",
     "hschinese-2017",
     "csenglish-2022",
-    "hsenglish-2017"
+    "hsenglish-2017",
+    "csphysics-2022",
+    "hsphysics-2017"
   ],
-  "curriculumCount": 6,
+  "curriculumCount": 8,
   "curricula": [
     {
       "slug": "csmath-2022",
@@ -2501,6 +2503,322 @@
         }
       ],
       "topicCount": 23
+    },
+    {
+      "slug": "csphysics-2022",
+      "title": "义务教育物理课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csphysics-2022:S4.MT.01",
+          "code": "S4.MT.01",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的形态与物态变化"
+        },
+        {
+          "key": "csphysics-2022:S4.MT.02",
+          "code": "S4.MT.02",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的属性：质量与密度"
+        },
+        {
+          "key": "csphysics-2022:S4.MT.03",
+          "code": "S4.MT.03",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的微观结构：分子与原子"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.01",
+          "code": "S4.MI.01",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "机械运动、参照物与速度"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.02",
+          "code": "S4.MI.02",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "声现象：产生、传播、特性与利用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.03",
+          "code": "S4.MI.03",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "光现象：直线传播、反射与折射"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.04",
+          "code": "S4.MI.04",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "透镜及其应用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.05",
+          "code": "S4.MI.05",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "力、运动和力的关系、二力平衡"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.06",
+          "code": "S4.MI.06",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "压强：固体、液体与大气"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.07",
+          "code": "S4.MI.07",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "浮力及其应用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.08",
+          "code": "S4.MI.08",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电流与电路"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.09",
+          "code": "S4.MI.09",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电压、电阻与欧姆定律"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.10",
+          "code": "S4.MI.10",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电功率、焦耳定律与家庭电路"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.11",
+          "code": "S4.MI.11",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电与磁：磁场、电磁铁、电磁感应"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.01",
+          "code": "S4.EN.01",
+          "stage": 4,
+          "domain": "能量",
+          "title": "内能、比热容与热机"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.02",
+          "code": "S4.EN.02",
+          "stage": 4,
+          "domain": "能量",
+          "title": "机械能及其转化"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.03",
+          "code": "S4.EN.03",
+          "stage": 4,
+          "domain": "能量",
+          "title": "功、功率与机械效率"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.04",
+          "code": "S4.EN.04",
+          "stage": 4,
+          "domain": "能量",
+          "title": "能量守恒与能源可持续"
+        },
+        {
+          "key": "csphysics-2022:S4.PR.01",
+          "code": "S4.PR.01",
+          "stage": 4,
+          "domain": "实验探究",
+          "title": "测量工具的使用与误差"
+        },
+        {
+          "key": "csphysics-2022:S4.PR.02",
+          "code": "S4.PR.02",
+          "stage": 4,
+          "domain": "实验探究",
+          "title": "科学探究方法：控制变量、转换、等效替代"
+        }
+      ],
+      "topicCount": 20
+    },
+    {
+      "slug": "hsphysics-2017",
+      "title": "普通高中物理课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsphysics-2017:H1.MC.01",
+          "code": "H1.MC.01",
+          "stage": 5,
+          "domain": "力学",
+          "title": "质点、位移、速度与加速度"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.02",
+          "code": "H1.MC.02",
+          "stage": 5,
+          "domain": "力学",
+          "title": "匀变速直线运动的规律与图像"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.03",
+          "code": "H1.MC.03",
+          "stage": 5,
+          "domain": "力学",
+          "title": "重力、弹力、摩擦力与力的合成分解"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.04",
+          "code": "H1.MC.04",
+          "stage": 5,
+          "domain": "力学",
+          "title": "牛顿三大运动定律及应用"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.05",
+          "code": "H2.MC.05",
+          "stage": 5,
+          "domain": "力学",
+          "title": "曲线运动与抛体运动"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.06",
+          "code": "H2.MC.06",
+          "stage": 5,
+          "domain": "力学",
+          "title": "圆周运动与向心力"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.07",
+          "code": "H2.MC.07",
+          "stage": 5,
+          "domain": "力学",
+          "title": "万有引力定律与航天"
+        },
+        {
+          "key": "hsphysics-2017:H2.EN.08",
+          "code": "H2.EN.08",
+          "stage": 5,
+          "domain": "能量",
+          "title": "功、动能定理与机械能守恒"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.09",
+          "code": "H2.MC.09",
+          "stage": 5,
+          "domain": "力学",
+          "title": "动量、冲量与动量守恒"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.10",
+          "code": "H2.WM.10",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "静电场：电场强度、电势与电容"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.11",
+          "code": "H2.WM.11",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "电路：欧姆定律的深化、电能与焦耳定律"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.12",
+          "code": "H2.WM.12",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "磁场、电磁感应现象与电磁波"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.13",
+          "code": "H3.WM.13",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "机械振动：简谐运动与单摆"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.14",
+          "code": "H3.WM.14",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "机械波：波速波长频率与干涉衍射"
+        },
+        {
+          "key": "hsphysics-2017:H3.OP.15",
+          "code": "H3.OP.15",
+          "stage": 5,
+          "domain": "光学",
+          "title": "光的折射、全反射、干涉与衍射"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.16",
+          "code": "H3.WM.16",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "安培力与洛伦兹力"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.17",
+          "code": "H3.WM.17",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "法拉第电磁感应定律"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.18",
+          "code": "H3.WM.18",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "交变电流、变压器与远距离输电"
+        },
+        {
+          "key": "hsphysics-2017:H4.RE.19",
+          "code": "H4.RE.19",
+          "stage": 5,
+          "domain": "热学",
+          "title": "分子动理论、热力学定律与能量守恒"
+        },
+        {
+          "key": "hsphysics-2017:H4.MO.20",
+          "code": "H4.MO.20",
+          "stage": 5,
+          "domain": "近代物理",
+          "title": "原子结构与玻尔理论"
+        },
+        {
+          "key": "hsphysics-2017:H4.MO.21",
+          "code": "H4.MO.21",
+          "stage": 5,
+          "domain": "近代物理",
+          "title": "原子核、放射性、核能与相对论初步"
+        },
+        {
+          "key": "hsphysics-2017:H4.EN.22",
+          "code": "H4.EN.22",
+          "stage": 5,
+          "domain": "能量",
+          "title": "能源利用与可持续发展"
+        }
+      ],
+      "topicCount": 22
     }
   ]
 }

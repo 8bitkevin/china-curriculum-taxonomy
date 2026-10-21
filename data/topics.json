@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.43.0",
+  "version": "1.44.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1262,
+  "topicCount": 1282,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -39114,6 +39114,612 @@
       },
       "prerequisites": [
         "ct_yy_g9a_16"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_01",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "长度与时间的测量：刻度尺与秒表",
+      "description": "物理第一课：正确使用刻度尺（认零刻度、估读到分度值下一位）和秒表，区分误差与错误。测量是物理学的入口——会测、会记、会算平均值，实验就从这里开始。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "刻度尺读数带估计值（如 2.35 cm）",
+        "知道多次测量取平均可减小误差"
+      ],
+      "assessmentPrompt": "给{{name}}一支铅笔和刻度尺：请测长度读数（检查有没有估读一位）；再问误差能消灭吗？错误和误差一样吗？",
+      "standards": [
+        "csphysics-2022:S4.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第一章 机械运动",
+        "editionYear": 2012
+      }
+    },
+    {
+      "id": "ct_wl_g8a_02",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "机械运动与参照物",
+      "description": "判断物体是否运动要选参照物：坐在行驶的车里，相对座位是静止的、相对路面是运动的——运动与静止是相对的。「运动描述」的世界观：没有参照物就没有运动。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断给定情境的运动状态并说明参照物",
+        "能解释相对静止（并排同速的卡车）"
+      ],
+      "assessmentPrompt": "问{{name}}：坐高铁时看窗外树在跑，谁在动？以什么为参照物？两辆并排同速的卡车谁动谁静？",
+      "standards": [
+        "csphysics-2022:S4.MI.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第一章 机械运动",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_03",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "力学",
+      "name": "速度与平均速度：计算与图像",
+      "description": "速度 v=s/t 及单位换算（1 m/s = 3.6 km/h）；会用 s-t 图像和 v-t 图像判断运动状态（水平直线=匀速、斜线=变速）。物理第一组定量计算——公式、单位、图像三位一体。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成速度计算的格式规范（已知-公式-代入-单位）",
+        "能读懂 s-t 图像中的匀速与静止段"
+      ],
+      "assessmentPrompt": "给{{name}}题：火车 2 h 行驶 288 km，求速度（m/s）；再画 s-t 图让他指出哪段是匀速、哪段是静止。",
+      "standards": [
+        "csphysics-2022:S4.MI.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第一章 机械运动",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_04",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "声音的产生与传播",
+      "description": "声音由振动产生（发声的音叉溅水花），传播需要介质（真空不能传声——真空罩中的闹钟实验），15℃空气中声速 340 m/s。振动、介质、声速——声音物理学的三块基石。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能举三个振动发声的证据",
+        "会算回声测距（声速×时间÷2）"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么真空罩里的闹钟只见铃动不闻铃声？对着山谷喊 2 秒后听到回声，山有多远？",
+      "standards": [
+        "csphysics-2022:S4.MI.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二章 声现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "声音的三特性：音调、响度、音色",
+      "description": "音调由频率决定（水瓶琴：水越多音调越低）、响度由振幅决定、音色是声音的「指纹」（闻声识人）。三特性是声现象的核心考点——图象（波形图）判读也从此入门。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能区分生活情境中的音调与响度变化",
+        "能从波形图判断频率与振幅的异同"
+      ],
+      "assessmentPrompt": "问{{name}}：用力敲鼓和轻敲鼓，什么变了？拧紧琴弦音调怎么变？为什么闭眼也能听出是妈妈在喊你？",
+      "standards": [
+        "csphysics-2022:S4.MI.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二章 声现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_06",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "声的利用与噪声控制",
+      "description": "声能传信息（B超、声呐测距）也能传能量（碎石）；噪声控制三环节：声源处（消声）、传播中（隔音）、人耳处（耳罩）。物理与生活的第一课：声音既能造福也需管理。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能区分生活事例属于传信息还是传能量",
+        "能对噪声场景提出对应环节的控制措施"
+      ],
+      "assessmentPrompt": "问{{name}}：B 超、超声波洗牙、声呐各利用声的什么？临街教室太吵，从三个环节各提一条降噪办法。",
+      "standards": [
+        "csphysics-2022:S4.MI.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第二章 声现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_05"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_07",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "温度与温度计的使用",
+      "description": "温度计原理（液体热胀冷缩）与使用规范（玻璃泡完全浸入、不碰壁不触底、示数稳定后读数、视线平齐）；摄氏温度的规定。体温计的特殊构造（缩口、可离开人体读数）是对比考点。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能规范使用温度计并正确读数",
+        "能说出体温计与普通温度计的两点不同"
+      ],
+      "assessmentPrompt": "给{{name}}一杯温水测温度：观察操作是否规范（泡没入、不碰底、平视读数）；问体温计为什么能拿出来再读？",
+      "standards": [
+        "csphysics-2022:S4.MT.01",
+        "csphysics-2022:S4.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三章 物态变化",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_08",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "熔化与凝固：晶体与非晶体",
+      "description": "晶体有固定熔点（冰 0℃、海波 48℃——熔化时吸热但温度不变），非晶体没有（蜡、玻璃）。熔化图像（平台段）的判读是经典题——吸热温度不变的那段就是熔化过程。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能从熔化图像识别晶体并读出熔点",
+        "能解释冰水混合物温度恒为 0℃"
+      ],
+      "assessmentPrompt": "给{{name}}一张熔化图像：哪段是熔化？熔点多少？为什么该段吸热温度却不变？蜡和冰谁没有熔点？",
+      "standards": [
+        "csphysics-2022:S4.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三章 物态变化",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_07"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_09",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "汽化与液化：蒸发和沸腾",
+      "description": "汽化的两种方式对比（蒸发任何温度发生/沸腾特定温度且需沸点+吸热）、影响蒸发快慢三因素、液化两条路（降温、压缩体积）。白气、露、雾的成因辨析——生活中最常见的物态变化全在这。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能辨析生活现象（白气是液化不是汽化）",
+        "能设计加快蒸发的方案（三因素）"
+      ],
+      "assessmentPrompt": "问{{name}}：冬天说话嘴里的「白气」是怎么来的？夏天洒水为什么凉快？高压锅为什么熟得快？",
+      "standards": [
+        "csphysics-2022:S4.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三章 物态变化",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_08"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_10",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "升华与凝华",
+      "description": "固态直变气态（樟脑丸变小、冰冻衣服变干）、气态直变固态（霜、雾凇、灯泡变黑）。六种物态变化的大团圆——吸放热关系图（三个吸热过程、三个放热过程）一图打通。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断霜、雾凇、干冰致冷属于哪种变化",
+        "能画出物态变化三角图并标吸放热"
+      ],
+      "assessmentPrompt": "问{{name}}：窗上的霜在内侧还是外侧？为什么？干冰人工降雨经历了哪几种物态变化？",
+      "standards": [
+        "csphysics-2022:S4.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第三章 物态变化",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_09"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_11",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "光的直线传播与光速",
+      "description": "光在同种均匀介质中沿直线传播（影子的形成、日食月食、小孔成像）；光速 c=3×10⁸ m/s（宇宙最快）。光线模型（带箭头的直线）——物理学的第一种建模方法。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用直线传播解释影子、日食、小孔成像",
+        "知道光速远大于声速（先见闪电后闻雷）"
+      ],
+      "assessmentPrompt": "问{{name}}：日食时谁挡住了谁？小孔成像的像为什么是倒立的？雷电时为什么先看到闪电？",
+      "standards": [
+        "csphysics-2022:S4.MI.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四章 光现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_12",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "光的反射与平面镜成像",
+      "description": "反射定律（三线共面、两角相等、法线居中）与镜面反射/漫反射；平面镜成像特点实验（等大、等距、虚像——玻璃板替镜子、两支蜡烛）。光的第一次「拐弯」，也是第一个重点探究实验。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能画出入射光线的反射光路图",
+        "能说出平面镜成像实验的三个设计与原因"
+      ],
+      "assessmentPrompt": "给{{name}}入射角 40°的光路图请补全反射光线；问实验为什么用玻璃板不用平面镜？为什么选两支相同的蜡烛？",
+      "standards": [
+        "csphysics-2022:S4.MI.03",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四章 光现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_11"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_13",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "光的折射与色散",
+      "description": "光从一种介质斜射入另一种介质时传播方向改变（折射角与入射角关系：空气中角大）；白光经三棱镜分解为七色光（色散）——彩虹的物理。折射解释池水「变浅」、筷子「折断」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断折射光路（空气进入水中的偏折方向）",
+        "能用折射解释池底变浅、看到鱼的虚像偏高"
+      ],
+      "assessmentPrompt": "问{{name}}：插入水中的筷子为什么看起来向上折？叉鱼要瞄准鱼的哪里（上方还是下方）？彩虹是怎么形成的？",
+      "standards": [
+        "csphysics-2022:S4.MI.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四章 光现象",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_12"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_14",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "凸透镜成像规律：一倍两倍分界",
+      "description": "凸透镜成像规律：u>2f 倒立缩小实像（照相机）、f<u<2f 倒立放大实像（投影仪）、u<f 正立放大虚像（放大镜）——一倍焦距分虚实、二倍焦距分大小。初中物理最著名的实验规律，光学的压轴题。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能复述三段成像规律并各举应用",
+        "能分析动态问题（蜡烛远离，像如何变）"
+      ],
+      "assessmentPrompt": "问{{name}}：物体从 3f 移向 f 的过程中像怎么变？照相机、投影仪、放大镜分别用哪段规律？",
+      "standards": [
+        "csphysics-2022:S4.MI.04",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五章 透镜及其应用",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_13"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_15",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "声与光",
+      "name": "眼睛与眼镜：近视远视的矫正",
+      "description": "眼睛成像原理（晶状体=凸透镜、视网膜=光屏）与视力矫正：近视眼看近清楚（像成在视网膜前，戴凹透镜）、远视相反（戴凸透镜）。物理走进健康——眼镜度数的科学。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能判断近视远视的成像位置与矫正镜片",
+        "能解释显微镜与望远镜的两次放大"
+      ],
+      "assessmentPrompt": "问{{name}}：近视眼戴什么镜？为什么？长时间看手机为什么伤眼？显微镜为什么能看细胞？",
+      "standards": [
+        "csphysics-2022:S4.MI.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五章 透镜及其应用",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_14"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_16",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "质量与天平的使用",
+      "description": "质量是物体所含物质的多少（不随形状、状态、位置改变）；托盘天平的使用规范（放平调零、左物右码、用镊子）。第一个「有操作规范红线」的仪器——中考实验操作必考。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能规范使用天平测固体与液体质量",
+        "知道质量是物体的基本属性不随位置变"
+      ],
+      "assessmentPrompt": "请{{name}}用天平测一枚回形针质量（提示：累积法测多枚再除）；宇航员把笔带到太空，质量变吗？",
+      "standards": [
+        "csphysics-2022:S4.MT.02",
+        "csphysics-2022:S4.PR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六章 质量与密度",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_17",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "密度：物质的身份证",
+      "description": "密度 ρ=m/V 是物质的特性（同种物质密度一定，与 m、V 无关）；水的密度 1.0×10³ kg/m³ 的物理意义。密度的三量互算与图像（m-V 图斜率）——初中物理计算题的常青树。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能完成 ρ=m/v 的三量计算与单位换算",
+        "能从 m-V 图像比较密度大小"
+      ],
+      "assessmentPrompt": "给{{name}}：一杯水倒掉一半，质量、体积、密度各怎么变？铁比棉花「重」这句话对吗？怎么改才科学？",
+      "standards": [
+        "csphysics-2022:S4.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六章 质量与密度",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_03",
+        "ct_wl_g8a_16"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_18",
+      "type": "PROCEDURAL",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "密度的测量：量筒与天平的配合",
+      "description": "测固体密度（天平测质量、量筒排水法测体积）与测液体密度（先总后分的顺序误差分析）。量筒读数（视线凹液面底部平齐）+ 误差来源分析——实验设计的完整思维链。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能设计并完成测小石块密度的完整步骤",
+        "能分析液体先测总质量的误差偏大还是偏小"
+      ],
+      "assessmentPrompt": "请{{name}}设计测石块密度的实验步骤（器材：天平、量筒、水、细线）；追问：先测体积后测质量会怎样？",
+      "standards": [
+        "csphysics-2022:S4.MT.02",
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六章 质量与密度",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_16",
+        "ct_wl_g8a_17"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_19",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "热学",
+      "name": "密度与社会生活：鉴定与浮沉预判",
+      "description": "密度的应用三式：鉴别物质（体育奖牌是不是纯金）、判断空心实心（算实际密度或体积）、解释生活（水结冰反常膨胀、风的形成）。物理量从课本走进社会的第一站。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能用密度鉴别物质并判断空心问题",
+        "能解释冬天水管冻裂的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：一个 540 g 的铝球体积 300 cm³，是空心还是实心？为什么冰能浮在水面上？",
+      "standards": [
+        "csphysics-2022:S4.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第六章 质量与密度",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_10",
+        "ct_wl_g8a_17"
+      ]
+    },
+    {
+      "id": "ct_wl_g8a_20",
+      "type": "META",
+      "subject": "物理",
+      "domain": "实验与探究",
+      "name": "科学方法启蒙：控制变量与转换",
+      "description": "物理学的两大方法：控制变量法（研究蒸发快慢只能一次变一个因素）、转换法（看不见的振动用溅起的水花「看见」）。方法比结论更长寿——八上每个实验都在用它们，从此叫得出名字。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能在给定实验中指出用了哪种方法",
+        "能设计一个控制变量的研究方案（影响蒸发快慢）"
+      ],
+      "assessmentPrompt": "问{{name}}：研究「蒸发快慢与温度关系」时该怎么设计？音叉发声看不见振动，物理学家怎么解决的？",
+      "standards": [
+        "csphysics-2022:S4.PR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "各章节实验",
+        "editionYear": 2012
+      },
+      "prerequisites": [
+        "ct_wl_g8a_05",
+        "ct_wl_g8a_09"
       ]
     }
   ]

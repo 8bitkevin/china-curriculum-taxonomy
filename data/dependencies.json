@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.43.0",
+  "version": "1.44.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1786,
+  "edgeCount": 1809,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -10719,6 +10719,144 @@
       "prerequisiteId": "ct_yy_g9a_16",
       "strength": "soft",
       "reason": "初中总复习的自省经验升级为高中收官的策略复盘与续航规划"
+    },
+    {
+      "topicId": "ct_wl_g8a_02",
+      "prerequisiteId": "ct_wl_g8a_01",
+      "strength": "soft",
+      "reason": "长度测量的基础用于运动的描述（路程的测量）"
+    },
+    {
+      "topicId": "ct_wl_g8a_03",
+      "prerequisiteId": "ct_wl_g8a_02",
+      "strength": "hard",
+      "reason": "速度描述运动快慢，以参照物与运动概念为前提"
+    },
+    {
+      "topicId": "ct_wl_g8a_04",
+      "prerequisiteId": "ct_wl_g8a_03",
+      "strength": "soft",
+      "reason": "声速计算沿用速度公式 v=s/t"
+    },
+    {
+      "topicId": "ct_wl_g8a_05",
+      "prerequisiteId": "ct_wl_g8a_04",
+      "strength": "hard",
+      "reason": "音调响度音色的辨析建立在声音产生传播的基础上"
+    },
+    {
+      "topicId": "ct_wl_g8a_06",
+      "prerequisiteId": "ct_wl_g8a_05",
+      "strength": "hard",
+      "reason": "噪声的界定（无规则振动、影响他人）与控制以声特性知识为基础"
+    },
+    {
+      "topicId": "ct_wl_g8a_07",
+      "prerequisiteId": "ct_wl_g8a_01",
+      "strength": "hard",
+      "reason": "温度计读数规范沿用刻度尺的估读与平视原则"
+    },
+    {
+      "topicId": "ct_wl_g8a_08",
+      "prerequisiteId": "ct_wl_g8a_07",
+      "strength": "hard",
+      "reason": "熔化实验以温度测量为工具基础"
+    },
+    {
+      "topicId": "ct_wl_g8a_09",
+      "prerequisiteId": "ct_wl_g8a_08",
+      "strength": "hard",
+      "reason": "汽化液化与熔化凝固同属物态变化体系，图像与吸放热框架延续"
+    },
+    {
+      "topicId": "ct_wl_g8a_10",
+      "prerequisiteId": "ct_wl_g8a_09",
+      "strength": "hard",
+      "reason": "六种物态变化三角图以四种变化为基础补全"
+    },
+    {
+      "topicId": "ct_wl_g8a_11",
+      "prerequisiteId": "ct_wl_g8a_04",
+      "strength": "soft",
+      "reason": "声与光同为波（此处仅类比）：直线传播与声的传播对比学习"
+    },
+    {
+      "topicId": "ct_wl_g8a_12",
+      "prerequisiteId": "ct_wl_g8a_11",
+      "strength": "hard",
+      "reason": "反射定律与平面镜成像以光的直线传播（法线、光线模型）为基础"
+    },
+    {
+      "topicId": "ct_wl_g8a_13",
+      "prerequisiteId": "ct_wl_g8a_12",
+      "strength": "hard",
+      "reason": "折射现象与反射同属光路问题，作图规范一脉相承"
+    },
+    {
+      "topicId": "ct_wl_g8a_14",
+      "prerequisiteId": "ct_wl_g8a_13",
+      "strength": "hard",
+      "reason": "透镜成像的光路基础是折射规律"
+    },
+    {
+      "topicId": "ct_wl_g8a_15",
+      "prerequisiteId": "ct_wl_g8a_14",
+      "strength": "hard",
+      "reason": "眼睛与眼镜直接应用凸透镜成像规律"
+    },
+    {
+      "topicId": "ct_wl_g8a_16",
+      "prerequisiteId": "ct_wl_g8a_01",
+      "strength": "soft",
+      "reason": "天平使用与刻度尺同属测量规范训练"
+    },
+    {
+      "topicId": "ct_wl_g8a_17",
+      "prerequisiteId": "ct_wl_g8a_16",
+      "strength": "hard",
+      "reason": "密度概念的建立以质量测量为前提"
+    },
+    {
+      "topicId": "ct_wl_g8a_17",
+      "prerequisiteId": "ct_wl_g8a_03",
+      "strength": "soft",
+      "reason": "密度计算的训练沿用速度公式的三量互算方法"
+    },
+    {
+      "topicId": "ct_wl_g8a_18",
+      "prerequisiteId": "ct_wl_g8a_17",
+      "strength": "hard",
+      "reason": "密度测量实验是密度概念的操作化"
+    },
+    {
+      "topicId": "ct_wl_g8a_18",
+      "prerequisiteId": "ct_wl_g8a_16",
+      "strength": "hard",
+      "reason": "实验以天平量筒两种仪器的规范操作为前提"
+    },
+    {
+      "topicId": "ct_wl_g8a_19",
+      "prerequisiteId": "ct_wl_g8a_17",
+      "strength": "hard",
+      "reason": "空心实心与鉴别问题直接运用密度计算"
+    },
+    {
+      "topicId": "ct_wl_g8a_19",
+      "prerequisiteId": "ct_wl_g8a_10",
+      "strength": "soft",
+      "reason": "水结冰反常膨胀的解释回到物态变化知识"
+    },
+    {
+      "topicId": "ct_wl_g8a_20",
+      "prerequisiteId": "ct_wl_g8a_05",
+      "strength": "soft",
+      "reason": "音叉溅水花是转换法的典型案例"
+    },
+    {
+      "topicId": "ct_wl_g8a_20",
+      "prerequisiteId": "ct_wl_g8a_09",
+      "strength": "soft",
+      "reason": "蒸发快慢因素研究是控制变量法的典型案例"
     }
   ]
 }
