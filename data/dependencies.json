@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.22.0",
+  "version": "1.23.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 1480,
+  "edgeCount": 1494,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -8883,6 +8883,90 @@
       "prerequisiteId": "ct_yw_g11a_09",
       "strength": "hard",
       "reason": "札记综述的研究性写作能力升级为跨册选文的专题研习报告"
+    },
+    {
+      "topicId": "ct_yw_g12a_01",
+      "prerequisiteId": "ct_yw_g8b_07",
+      "strength": "hard",
+      "reason": "诗经的比兴经验（八下）用于氓的弃妇叙事；木兰诗的乐府叙事延伸到孔雀东南飞"
+    },
+    {
+      "topicId": "ct_yw_g12a_02",
+      "prerequisiteId": "ct_yw_g8b_07",
+      "strength": "hard",
+      "reason": "诗经之后上溯另一源头：楚辞的香草美人与兮字句式"
+    },
+    {
+      "topicId": "ct_yw_g12a_03",
+      "prerequisiteId": "ct_yw_g10a_04",
+      "strength": "hard",
+      "reason": "生命的诗意八首（必修上）的群文比较法用于唐诗宋词四路的风格对读"
+    },
+    {
+      "topicId": "ct_yw_g12a_04",
+      "prerequisiteId": "ct_yw_g9a_08",
+      "strength": "hard",
+      "reason": "鲁迅小说线（故乡→孔乙己→阿Q）：国民性批判的集大成"
+    },
+    {
+      "topicId": "ct_yw_g12a_05",
+      "prerequisiteId": "ct_yw_g10b_06",
+      "strength": "hard",
+      "reason": "雷雨的戏剧冲突经验用于茶馆的众生相与时代隐喻"
+    },
+    {
+      "topicId": "ct_yw_g12a_06",
+      "prerequisiteId": "ct_yw_g9b_05",
+      "strength": "hard",
+      "reason": "出师表的陈情结构（先帝遗德再请命）与陈情表互为映照"
+    },
+    {
+      "topicId": "ct_yw_g12a_07",
+      "prerequisiteId": "ct_yw_g8b_05",
+      "strength": "soft",
+      "reason": "桃花源记的陶渊明理想在归去来兮辞中落到实处"
+    },
+    {
+      "topicId": "ct_yw_g12a_08",
+      "prerequisiteId": "ct_yw_g7b_08",
+      "strength": "hard",
+      "reason": "河中石兽的实证之辩与石钟山记的目验求真一脉相承"
+    },
+    {
+      "topicId": "ct_yw_g12a_08",
+      "prerequisiteId": "ct_yw_g8b_12",
+      "strength": "soft",
+      "reason": "种树郭橐驼传延续柳宗元寓言说理（马说→郭橐驼）"
+    },
+    {
+      "topicId": "ct_yw_g12a_09",
+      "prerequisiteId": "ct_yw_g10b_09",
+      "strength": "hard",
+      "reason": "信息性阅读（青蒿素/木叶）扩展到科学论著的论证分析"
+    },
+    {
+      "topicId": "ct_yw_g12a_09",
+      "prerequisiteId": "ct_yw_g4b_03",
+      "strength": "soft",
+      "reason": "琥珀『推测要有据』的科学阅读启蒙在达尔文论证链处合流"
+    },
+    {
+      "topicId": "ct_yw_g12a_10",
+      "prerequisiteId": "ct_yw_g11b_07",
+      "strength": "hard",
+      "reason": "高中古诗词诵读线收官"
+    },
+    {
+      "topicId": "ct_yw_g12a_11",
+      "prerequisiteId": "ct_yw_g11b_09",
+      "strength": "hard",
+      "reason": "专题研习能力升级为跨任务群的知识地图与复习总纲"
+    },
+    {
+      "topicId": "ct_yw_g12a_11",
+      "prerequisiteId": "ct_yw_g6b_16",
+      "strength": "soft",
+      "reason": "初小衔接的自主复习方法在高中收官处完成闭环"
     }
   ]
 }

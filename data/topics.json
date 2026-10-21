@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.22.0",
+  "version": "1.23.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1005,
+  "topicCount": 1016,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -31077,6 +31077,356 @@
       },
       "prerequisites": [
         "ct_yw_g11a_09"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_01",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "叙事古诗：氓与孔雀东南飞",
+      "description": "背《氓》（从「抱布贸丝」的甜蜜到「亦已焉哉」的决绝——弃妇诗的完整叙事与比兴）与《孔雀东南飞并序》（中国最长的叙事诗：刘兰芝的刚烈与殉情）。汉乐府与诗经的两首婚姻悲歌——叙事诗如何用对话与铺陈推进命运。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵默写《氓》全诗",
+        "能梳理氓的情节链（恋爱—婚变—决绝）与比兴句"
+      ],
+      "assessmentPrompt": "问{{name}}：「桑之未落其叶沃若」到「其黄而陨」只是写桑叶吗？刘兰芝被遣前为什么还要「严妆」？两位女性的反抗方式有何不同？",
+      "standards": [
+        "hschinese-2017:H4.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_02",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "离骚：香草美人的象征系统",
+      "description": "背《离骚（节选）》：芰荷为衣芙蓉为裳的佩饰意象、灵修与众女的指代系统——屈原开创的「香草美人」传统笼罩此后两千年的中国诗词。楚辞的句式（兮字回环）与神话思维：中国浪漫主义的源头活水。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵默写节选段",
+        "能对应解释香草美人系统（蕙纕/揽茝↔修能，灵修↔君王）"
+      ],
+      "assessmentPrompt": "问{{name}}：屈原为什么把自己打扮得像一棵植物园？「路漫漫其修远兮」的上下求索与他投江的选择矛盾吗？",
+      "standards": [
+        "hschinese-2017:H4.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g8b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_03",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "唐诗宋词四路：蜀道难到扬州慢",
+      "description": "背《蜀道难》（噫吁嚱的浪漫奇观）、《蜀相》（出师未捷身先死的沉郁）、《望海潮》（三秋桂子十里荷花的都市画卷）、《扬州慢》（废池乔木犹厌言兵的黍离之悲）：李白杜甫柳永姜夔四种笔性——从盛唐之音到南宋残照。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵四首",
+        "能比较同写城市（杭州/扬州）的两首慢词的情感反差"
+      ],
+      "assessmentPrompt": "问{{name}}：《蜀道难》三次「蜀道之难」的感叹一次比一次重在哪？《扬州慢》写「桥仍在波心荡冷月无声」为什么比喊「城破了好惨」更痛？",
+      "standards": [
+        "hschinese-2017:H4.WX.01",
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10a_04"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_04",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "现代小说双璧：阿Q与边城",
+      "description": "读《阿Q正传（节选）》（精神胜利法的解剖刀）与《边城（节选）》（翠翠与渡船的田园牧歌）：中国现代小说的两极——鲁迅的冷峻批判与沈从文的温热挽歌，同是对中国乡土的诊断书。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能概括精神胜利法的三处表现并分析讽刺手法",
+        "能分析边城的环境描写如何参与人物塑造"
+      ],
+      "assessmentPrompt": "问{{name}}：阿Q被打后说「儿子打老子」，这招「赢」在哪输在哪？边城的茶峒山水如果是灰色，翠翠的故事还成立吗？两种乡土哪个更真实？",
+      "standards": [
+        "hschinese-2017:H3.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g9a_08"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_05",
+      "type": "CONCEPTUAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "土地与舞台的声音：秦腔与茶馆",
+      "description": "读《秦腔》（八百里秦川的怒吼——文化散文写一方水土的生命力）、《茶馆（节选）》（三幕话剧写半个世纪——「莫谈国事」纸背后的国事）与《一个消逝了的山村》。现当代散文与戏剧的时代镜像：土地的声腔与历史的舞台。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明秦腔与秦人性格的互塑关系",
+        "能分析茶馆人物众生相的时代隐喻"
+      ],
+      "assessmentPrompt": "问{{name}}：秦腔为什么「大喊大叫」才算唱？茶馆里常四爷、松二爷、刘麻子各自代表了什么道路？王利发的「改良」错了吗？",
+      "standards": [
+        "hschinese-2017:H3.WX.01",
+        "hschinese-2017:H2.WX.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_06"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_06",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "至情文言：陈情表与项脊轩志",
+      "description": "背《陈情表》（李密以「乌鸟私情」婉拒晋武帝——陈情的进退艺术）与《项脊轩志》（归有光「庭有枇杷树吾妻死之年所手植也」的白描至情）。文言抒情文的极则：不动声色的句子，催人泪下的力量。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵默写两篇",
+        "能分析陈情表的四段说服策略（先孝后忠的顺序设计）"
+      ],
+      "assessmentPrompt": "问{{name}}：李密为什么先写身世之悲再谈孝情最后才提「愿乞终养」？「今已亭亭如盖矣」为什么被称千古悼亡第一句？",
+      "standards": [
+        "hschinese-2017:H4.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g9b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_07",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "魏晋之思：兰亭集序与归去来兮辞",
+      "description": "背《兰亭集序》（「死生亦大矣」——乐尽悲来的生命意识）与《归去来兮辞》（「寓形宇内复几时」——陶渊明辞官的取舍哲学）：一悲一旷，魏晋风度的两种精神出口。骈散节奏与情感理路的同构体会。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵默写两篇",
+        "能比较王羲之「痛」与陶渊明『归』的生命答案"
+      ],
+      "assessmentPrompt": "问{{name}}：兰亭雅集之乐为什么转眼成痛？「云无心以出岫鸟倦飞而知还」只是写鸟吗？两人一个不舍生一个不惧死，你更认同谁？",
+      "standards": [
+        "hschinese-2017:H4.WX.01",
+        "hschinese-2017:H4.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g8b_05"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_08",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "求真的两副笔墨：石钟山记与郭橐驼传",
+      "description": "读《石钟山记》（苏轼夜泊绝壁实证「笑李渤之陋」——质疑与目验的求真精神）与《种树郭橐驼传》（柳宗元借种树说养民——「顺木之天以致其性」的寓言理政）。文言中的科学精神与治道智慧：事实与寓言，殊途同归于「真」。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理石钟山记的质疑—目验—结论链条",
+        "能解释郭橐驼种树之道对「官理」的映射"
+      ],
+      "assessmentPrompt": "问{{name}}：苏轼为什么非要夜里亲自去绝壁下？「事不目见耳闻而臆断其有无」对刷屏时代的启发？驼叔「爱之太恩忧之太勤」说的只是树吗？",
+      "standards": [
+        "hschinese-2017:H4.WX.01",
+        "hschinese-2017:H5.WX.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g7b_08",
+        "ct_yw_g8b_12"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_09",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "科学论著阅读：自然选择的证明",
+      "description": "读《自然选择的证明》（达尔文《物种起源》的论点链与证据群）、《宇宙的边疆》（解说词的科普笔法）、《天文学上的旷世之争》（科学史的考辨）。科学与文化论著研读：看科学如何论证自己——证据的层级、假说的检验、论敌的回应。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理论证的证据类型与组织方式",
+        "能比较科学论文与科普解说词的语言差异"
+      ],
+      "assessmentPrompt": "问{{name}}：达尔文为什么先摆「难解之谜」再逐一回应？解说词「我们都是星尘」的抒情对科普是加分还是减分？盖天说与浑天说之争的裁决靠什么？",
+      "standards": [
+        "hschinese-2017:H5.WX.01",
+        "hschinese-2017:H2.SW.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第四单元",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g10b_09",
+        "ct_yw_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_10",
+      "type": "LANGUAGE",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "古诗词诵读收官：客至与临安春雨初霁",
+      "description": "背《拟行路难》（吞声踯躅不敢言的寒门之愤）、《客至》（蓬门今始为君开的朴拙温情）、《登快阁》（落木千山天远大的澄明）、《临安春雨初霁》（深巷明朝卖杏花的牢骚与雅致）：高中诵读线的最后四首——悲、暖、旷、讽四种滋味收官。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能背诵四首",
+        "能各用一词概括四首的情感底色并举证"
+      ],
+      "assessmentPrompt": "问{{name}}：鲍照「泻水置平地」的比喻讲什么道理？杜甫待客只有「旧醅」为何仍是名篇？陆游写杏花春雨为什么反而说「世味年来薄似纱」？",
+      "standards": [
+        "hschinese-2017:H2.WX.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "古诗词诵读",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11b_07"
+      ]
+    },
+    {
+      "id": "ct_yw_g12a_11",
+      "type": "META",
+      "subject": "语文",
+      "domain": "梳理与探究",
+      "name": "高中语文收官：专题与总复习总纲",
+      "description": "选择性必修收官：梳理高中五大任务群的学习地图（整本书/当代文化/跨媒介/汉字汉语/文学与思辨），建立高考复习的知识框架（古诗文默写清单、文言实词虚词 300、各大文体答题范式、议论文写作模型）。语文学习的成年礼：知道自己学了什么、还想知道什么。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "有一份自制的专题知识地图或复习总纲",
+        "能就一个专题（如苏轼）贯通课内外文本做深度陈述"
+      ],
+      "assessmentPrompt": "请{{name}}画「我的语文地图」：按任务群列出学过的代表篇目，标出最爱与最弱各一处，并定高考前补弱计划。",
+      "standards": [
+        "hschinese-2017:H5.SW.01",
+        "hschinese-2017:H5.LZ.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "全册研习任务",
+        "book": "选择性必修下册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yw_g11b_09",
+        "ct_yw_g6b_16"
       ]
     }
   ]
