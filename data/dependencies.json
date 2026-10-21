@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "1.72.0",
+  "version": "2.0.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 2199,
+  "edgeCount": 2204,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -13197,6 +13197,36 @@
       "prerequisiteId": "ct_zz_g9a_01",
       "strength": "hard",
       "reason": "中考复习整合国情法治道德三大板块的知识"
+    },
+    {
+      "topicId": "ct_zz_g10a_02",
+      "prerequisiteId": "ct_zz_g10a_01",
+      "strength": "hard",
+      "reason": "科学社会主义理论落地为中国实践——必修一前后两课的逻辑链"
+    },
+    {
+      "topicId": "ct_zz_g10b_01",
+      "prerequisiteId": "ct_zz_g10a_02",
+      "strength": "hard",
+      "reason": "基本经济制度是社会主义制度体系的经济基础"
+    },
+    {
+      "topicId": "ct_zz_g11b_01",
+      "prerequisiteId": "ct_zz_g10a_01",
+      "strength": "soft",
+      "reason": "马克思主义哲学为科学社会主义提供理论基石（两块基石之一）"
+    },
+    {
+      "topicId": "ct_zz_g11b_02",
+      "prerequisiteId": "ct_zz_g11b_01",
+      "strength": "hard",
+      "reason": "历史唯物主义（社会历史的本质）承接辩证唯物主义之后"
+    },
+    {
+      "topicId": "ct_zz_g12a_03",
+      "prerequisiteId": "ct_zz_g11b_01",
+      "strength": "hard",
+      "reason": "辩证思维方法是唯物辩证法在思维科学中的延伸"
     }
   ]
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "version": "1.72.0",
+  "version": "2.0.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1583,
+  "topicCount": 1592,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -48982,6 +48982,277 @@
       },
       "prerequisites": [
         "ct_zz_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g10a_01",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "中国特色社会主义",
+      "name": "社会主义为什么能：从空想到科学",
+      "description": "必修一第一课：空想社会主义为什么「空」；科学社会主义为什么「科学」（唯物史观与剩余价值学说两大基石）；社会主义发展史的总脉络。高中的第一堂思政课——用历史逻辑回答制度自信从哪里来。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说出科学社会主义诞生的两大理论基石",
+        "能梳理社会主义运动的大事件线"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说《共产党宣言》的发表是科学社会主义诞生的标志？中国特色社会主义与科学社会主义什么关系？",
+      "standards": [
+        "hspolitics-2017:H1.SS.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一课 社会主义从空想到科学、从理论到实践的发展",
+        "book": "必修1 中国特色社会主义",
+        "editionYear": 2019
+      }
+    },
+    {
+      "id": "ct_zz_g10a_02",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "中国特色社会主义",
+      "name": "只有中国特色社会主义才能发展中国",
+      "description": "必修一第二、三、四课：改革开放史（三个阶段）；中国特色社会主义道路、理论、制度、文化四位一体；习近平新时代中国特色社会主义思想。当代中国的一堂大课——我们从哪里来、要到哪里去。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明四个自信的内在关系",
+        "能梳理改革开放以来的关键节点"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么改革开放是「关键一招」？四个自信分别自信什么？中国梦的内涵是什么？",
+      "standards": [
+        "hspolitics-2017:H1.SS.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二三四课",
+        "book": "必修1 中国特色社会主义",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g10a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g10b_01",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "经济与社会",
+      "name": "我国的基本经济制度",
+      "description": "必修二：公有制为主体多种所有制共同发展（两个毫不动摇）；社会主义市场经济体制（市场决定性作用与更好发挥政府作用）；新发展理念（创新协调绿色开放共享）与高质量发展。中国经济的基本盘——政府与市场、公与私的辩证法。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明公有制与非公有制的关系",
+        "能解释宏观调控的经济手段"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么既要有国企又要有民企？「有效市场+有为政府」怎么理解？共享发展体现在哪？",
+      "standards": [
+        "hspolitics-2017:H2.ES.01",
+        "hspolitics-2017:H2.ES.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一、二单元 生产资料所有制与经济体制/经济发展与社会进步",
+        "book": "必修2 经济与社会",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g10a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g11a_01",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "政治与法治",
+      "name": "党的领导、人民当家作主与依法治国",
+      "description": "必修三：中国共产党领导（性质宗旨与执政方式——政治领导思想领导组织领导）；人民当家作主（人大制度根本政治制度、政党制度民族区域自治基层群众自治基本政治制度）；全面依法治国（法治国家法治政府法治社会一体建设）。政治与法治的「三环」——三者有机统一。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明根本制度与基本制度的层级",
+        "能解释党领导、人民当家作主、依法治国为什么统一"
+      ],
+      "assessmentPrompt": "问{{name}}：人大代表怎么产生、代表谁？为什么中国共产党领导是中国特色社会主义最本质的特征？宪法宣誓为什么向宪法宣誓？",
+      "standards": [
+        "hspolitics-2017:H3.PL.01",
+        "hspolitics-2017:H3.PL.02",
+        "hspolitics-2017:H3.PL.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "全册三单元",
+        "book": "必修3 政治与法治",
+        "editionYear": 2019
+      }
+    },
+    {
+      "id": "ct_zz_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "哲学与文化",
+      "name": "马克思主义哲学：唯物论与辩证法",
+      "description": "必修四前半：哲学基本问题（思维与存在）；唯物论（物质与意识——一切从实际出发）；认识论（实践是认识的基础）；唯物辩证法（联系发展矛盾——矛盾分析法与具体问题具体分析）。思维的操作系统——高中思政的哲学地基。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明物质与意识的辩证关系",
+        "能用矛盾分析法分析一个现实问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「具体问题具体分析」的哲学依据是什么？为什么说矛盾是事物发展的源泉？画蛇添足错在哪个哲学层面？",
+      "standards": [
+        "hspolitics-2017:H4.PC.01",
+        "hspolitics-2017:H4.PC.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第一、二、三单元 探索世界与追求真理/思维方法",
+        "book": "必修4 哲学与文化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g10a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g11b_02",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "哲学与文化",
+      "name": "历史唯物主义与文化传承",
+      "description": "必修四后半：社会历史的本质（社会存在决定社会意识）；人民群众是历史的创造者；价值观与人生价值；文化传承与文化创新（中华优秀传统文化创造性转化、发展中国特色社会主义文化）。哲学的落脚点——如何过有价值的人生。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明人生价值两个层面的统一",
+        "能解释文化创新的途径"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说人民是历史的创造者？劳动在人生价值中的地位？故宫文创是文化创新的什么途径？",
+      "standards": [
+        "hspolitics-2017:H4.PC.03"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第四单元 社会历史的本质/文化单元",
+        "book": "必修4 哲学与文化",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g11b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g12a_01",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "当代国际政治与经济",
+      "name": "国际政治经济与全球治理",
+      "description": "选必一：国体与政体（民主与专政的辩证）；国际关系（国家利益是决定因素）；世界多极化与经济全球化（全球治理的中国方案——一带一路、三大全球倡议）。世界格局的教科书——从「东西南北」问题到人类命运共同体。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能分析影响国际关系的因素",
+        "能说明中国参与全球治理的主张"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说国家利益是国际关系的决定因素？多极化趋势怎么看？人类命运共同体和霸权稳定论差别在哪？",
+      "standards": [
+        "hspolitics-2017:H5.IE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "全册各单元",
+        "book": "选择性必修1 当代国际政治与经济",
+        "editionYear": 2020
+      }
+    },
+    {
+      "id": "ct_zz_g12a_02",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "法律与生活",
+      "name": "民事、家庭与就业中的法律",
+      "description": "选必二：民事权利与义务（民事法律关系三要素——物权合同人格权）；婚姻家庭（结婚条件与父母子女关系）；就业创业（劳动合同——劳动法保障）；社会争议解决（调解仲裁诉讼）。生活法律手册——从出生到工作的法律护航。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明民事行为能力的三分法",
+        "能写出劳动合同应具备的核心条款"
+      ],
+      "assessmentPrompt": "问{{name}}：8 岁孩子打赏主播的钱能退吗？试用期不签合同合法吗？遇到消费纠纷有哪些解决途径？",
+      "standards": [
+        "hspolitics-2017:H6.LL.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "全册各单元",
+        "book": "选择性必修2 法律与生活",
+        "editionYear": 2020
+      }
+    },
+    {
+      "id": "ct_zz_g12a_03",
+      "type": "CONCEPTUAL",
+      "subject": "思想政治",
+      "domain": "逻辑与思维",
+      "name": "逻辑思维与辩证思维方法",
+      "description": "选必三：形式逻辑（概念判断推理——三段论与逻辑错误辨析）；遵循逻辑思维规则；辩证思维（分析与综合、质量互变、超前思维）。思维的工具箱——思政课的「数学」，训练讲理的严密性。",
+      "grade": 12,
+      "semester": "下",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能识别三段论的结构与常见错误",
+        "能说明分析与综合的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「中国人勤劳，我是中国人，所以我勤劳」这个三段论错在哪？中项不周延是什么意思？",
+      "standards": [
+        "hspolitics-2017:H7.LT.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 12,
+        "volume": "下",
+        "unit": "全册各单元",
+        "book": "选择性必修3 逻辑与思维",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_zz_g11b_01"
       ]
     }
   ]
