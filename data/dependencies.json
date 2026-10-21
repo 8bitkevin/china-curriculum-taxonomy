@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.9.0",
+  "version": "0.10.0",
   "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
-  "edgeCount": 460,
+  "edgeCount": 511,
   "dependencies": [
     {
       "topicId": "ct_g1a_04",
@@ -2763,6 +2763,312 @@
       "prerequisiteId": "ct_g5b_13",
       "strength": "soft",
       "reason": "分数基本性质帮助解释每次取一半的剩余关系"
+    },
+    {
+      "topicId": "ct_g6b_01",
+      "prerequisiteId": "ct_g1b_11",
+      "strength": "soft",
+      "reason": "0 的意义（表示没有/起点）在负数学习中扩展为正负分界点"
+    },
+    {
+      "topicId": "ct_g6b_01",
+      "prerequisiteId": "ct_g4a_05",
+      "strength": "hard",
+      "reason": "自然数体系（含 0、无最大数）的认识是数系扩展到负数的直接基础"
+    },
+    {
+      "topicId": "ct_g6b_02",
+      "prerequisiteId": "ct_g6b_01",
+      "strength": "hard",
+      "reason": "数轴以 0 为界向两方延伸，正负数概念是前提"
+    },
+    {
+      "topicId": "ct_g6b_02",
+      "prerequisiteId": "ct_g5a_06",
+      "strength": "soft",
+      "reason": "用数对/直线上的点表示位置的经验帮助理解数与点的一一对应"
+    },
+    {
+      "topicId": "ct_g6b_03",
+      "prerequisiteId": "ct_g6b_02",
+      "strength": "hard",
+      "reason": "实际应用中的正负记录还原与比较依赖数轴表示"
+    },
+    {
+      "topicId": "ct_g6b_04",
+      "prerequisiteId": "ct_g6a_23",
+      "strength": "hard",
+      "reason": "折扣成数是求一个数的百分之几的直接应用"
+    },
+    {
+      "topicId": "ct_g6b_05",
+      "prerequisiteId": "ct_g6b_04",
+      "strength": "hard",
+      "reason": "税率利率与折扣同属百分数的生活应用，方法结构一致"
+    },
+    {
+      "topicId": "ct_g6b_06",
+      "prerequisiteId": "ct_g6b_05",
+      "strength": "hard",
+      "reason": "方案比较综合运用折扣等单项百分数技能"
+    },
+    {
+      "topicId": "ct_g6b_06",
+      "prerequisiteId": "ct_g4b_04",
+      "strength": "soft",
+      "reason": "列表比较选优的策略沿用租船问题经验"
+    },
+    {
+      "topicId": "ct_g6b_07",
+      "prerequisiteId": "ct_g5b_07",
+      "strength": "hard",
+      "reason": "表面积概念与「数面」经验来自长方体正方体表面积"
+    },
+    {
+      "topicId": "ct_g6b_07",
+      "prerequisiteId": "ct_g6a_18",
+      "strength": "hard",
+      "reason": "底面积计算直接使用圆面积公式"
+    },
+    {
+      "topicId": "ct_g6b_08",
+      "prerequisiteId": "ct_g6b_07",
+      "strength": "hard",
+      "reason": "体积推导沿用侧面展开+切拼转化，与表面积同单元递进"
+    },
+    {
+      "topicId": "ct_g6b_08",
+      "prerequisiteId": "ct_g5b_09",
+      "strength": "hard",
+      "reason": "V=Sh（底面积×高）的柱体通式来自长方体正方体体积"
+    },
+    {
+      "topicId": "ct_g6b_09",
+      "prerequisiteId": "ct_g6b_08",
+      "strength": "hard",
+      "reason": "圆锥体积以等底等高圆柱体积为参照（1/3 关系）"
+    },
+    {
+      "topicId": "ct_g6b_10",
+      "prerequisiteId": "ct_g6a_13",
+      "strength": "hard",
+      "reason": "比例由两个相等的比组成，比的意义是前提"
+    },
+    {
+      "topicId": "ct_g6b_10",
+      "prerequisiteId": "ct_g6a_14",
+      "strength": "hard",
+      "reason": "比例基本性质与比的化简同源于商不变结构"
+    },
+    {
+      "topicId": "ct_g6b_11",
+      "prerequisiteId": "ct_g6b_10",
+      "strength": "hard",
+      "reason": "正反比例的表示（两个比相等或乘积相等）以比例概念为载体"
+    },
+    {
+      "topicId": "ct_g6b_11",
+      "prerequisiteId": "ct_g4a_15",
+      "strength": "soft",
+      "reason": "积的变化规律是反比例（积一定）的先行经验"
+    },
+    {
+      "topicId": "ct_g6b_11",
+      "prerequisiteId": "ct_g4a_26",
+      "strength": "soft",
+      "reason": "商不变规律是正比例（商一定）的先行经验"
+    },
+    {
+      "topicId": "ct_g6b_12",
+      "prerequisiteId": "ct_g6b_11",
+      "strength": "hard",
+      "reason": "图象是正比例关系的直观表示，以意义为前提"
+    },
+    {
+      "topicId": "ct_g6b_12",
+      "prerequisiteId": "ct_g5b_24",
+      "strength": "soft",
+      "reason": "描点画图的操作经验来自折线统计图"
+    },
+    {
+      "topicId": "ct_g6b_13",
+      "prerequisiteId": "ct_g6b_10",
+      "strength": "hard",
+      "reason": "比例尺的定义与换算（解比例）直接依赖比例概念"
+    },
+    {
+      "topicId": "ct_g6b_13",
+      "prerequisiteId": "ct_g6a_06",
+      "strength": "soft",
+      "reason": "图上标注方向与距离的技能用于绘制位置平面图"
+    },
+    {
+      "topicId": "ct_g6b_14",
+      "prerequisiteId": "ct_g6b_13",
+      "strength": "hard",
+      "reason": "放大缩小按比例进行，与比例尺（缩小特例）同法"
+    },
+    {
+      "topicId": "ct_g6b_15",
+      "prerequisiteId": "ct_g6b_12",
+      "strength": "hard",
+      "reason": "用比例解题需判断正反关系并理解变化规律"
+    },
+    {
+      "topicId": "ct_g6b_15",
+      "prerequisiteId": "ct_g6b_10",
+      "strength": "hard",
+      "reason": "列比例和解比例是解题的操作核心"
+    },
+    {
+      "topicId": "ct_g6b_16",
+      "prerequisiteId": "ct_g5b_26",
+      "strength": "soft",
+      "reason": "最不利推理的严密性与找次品的排除推理同属一脉"
+    },
+    {
+      "topicId": "ct_g6b_16",
+      "prerequisiteId": "ct_g3b_26",
+      "strength": "soft",
+      "reason": "枚举验证（把 4 支笔的放法列全）是有序排列枚举经验的应用"
+    },
+    {
+      "topicId": "ct_g6b_17",
+      "prerequisiteId": "ct_g6b_02",
+      "strength": "hard",
+      "reason": "整数体系总复习收纳刚学的负数与数轴"
+    },
+    {
+      "topicId": "ct_g6b_17",
+      "prerequisiteId": "ct_g4b_11",
+      "strength": "hard",
+      "reason": "小数意义（计数单位）是小数体系复习的核心"
+    },
+    {
+      "topicId": "ct_g6b_18",
+      "prerequisiteId": "ct_g6b_17",
+      "strength": "hard",
+      "reason": "分数百分数体系在整数小数体系之后对照复习"
+    },
+    {
+      "topicId": "ct_g6b_18",
+      "prerequisiteId": "ct_g5b_13",
+      "strength": "soft",
+      "reason": "分数基本性质是分数体系复习的主轴之一"
+    },
+    {
+      "topicId": "ct_g6b_19",
+      "prerequisiteId": "ct_g6b_18",
+      "strength": "hard",
+      "reason": "运算复习在数系复习之后，对象涵盖全数系"
+    },
+    {
+      "topicId": "ct_g6b_19",
+      "prerequisiteId": "ct_g4b_10",
+      "strength": "soft",
+      "reason": "简算策略体系以四年级运算律综合运用为骨干"
+    },
+    {
+      "topicId": "ct_g6b_20",
+      "prerequisiteId": "ct_g5b_10",
+      "strength": "hard",
+      "reason": "体积单位换算是单位体系的最高阶，复习以其为难点"
+    },
+    {
+      "topicId": "ct_g6b_20",
+      "prerequisiteId": "ct_g4b_16",
+      "strength": "soft",
+      "reason": "小数与单位换算（乘除进率移小数点）的方法迁移汇总"
+    },
+    {
+      "topicId": "ct_g6b_21",
+      "prerequisiteId": "ct_g5a_18",
+      "strength": "hard",
+      "reason": "式与方程复习的主干是列方程解决实际问题"
+    },
+    {
+      "topicId": "ct_g6b_21",
+      "prerequisiteId": "ct_g6b_19",
+      "strength": "soft",
+      "reason": "解方程的运算技能以数的运算复习为基础"
+    },
+    {
+      "topicId": "ct_g6b_22",
+      "prerequisiteId": "ct_g6b_15",
+      "strength": "hard",
+      "reason": "比和比例复习收纳用比例解题等最新技能"
+    },
+    {
+      "topicId": "ct_g6b_22",
+      "prerequisiteId": "ct_g6a_15",
+      "strength": "soft",
+      "reason": "按比分配是比的应用复习的典型题型"
+    },
+    {
+      "topicId": "ct_g6b_23",
+      "prerequisiteId": "ct_g6a_19",
+      "strength": "hard",
+      "reason": "平面图形复习以圆环等组合图形为综合顶点"
+    },
+    {
+      "topicId": "ct_g6b_23",
+      "prerequisiteId": "ct_g5a_19",
+      "strength": "soft",
+      "reason": "面积公式树的根（割补转化）来自平行四边形面积推导"
+    },
+    {
+      "topicId": "ct_g6b_24",
+      "prerequisiteId": "ct_g6b_09",
+      "strength": "hard",
+      "reason": "立体复习以圆锥体积为最新成员"
+    },
+    {
+      "topicId": "ct_g6b_24",
+      "prerequisiteId": "ct_g5b_09",
+      "strength": "soft",
+      "reason": "V=Sh 通式与等积变形问题贯穿复习"
+    },
+    {
+      "topicId": "ct_g6b_25",
+      "prerequisiteId": "ct_g5b_18",
+      "strength": "hard",
+      "reason": "运动复习以旋转三要素（最新最细）为重点"
+    },
+    {
+      "topicId": "ct_g6b_25",
+      "prerequisiteId": "ct_g6a_07",
+      "strength": "soft",
+      "reason": "位置复习收纳方向距离路线图技能"
+    },
+    {
+      "topicId": "ct_g6b_26",
+      "prerequisiteId": "ct_g6a_25",
+      "strength": "hard",
+      "reason": "统计复习以扇形统计图与选图为综合点"
+    },
+    {
+      "topicId": "ct_g6b_26",
+      "prerequisiteId": "ct_g5a_13",
+      "strength": "soft",
+      "reason": "可能性大小的定性比较纳入复习"
+    },
+    {
+      "topicId": "ct_g6b_27",
+      "prerequisiteId": "ct_g4b_31",
+      "strength": "soft",
+      "reason": "假设策略以鸡兔同笼为经典案例"
+    },
+    {
+      "topicId": "ct_g6b_27",
+      "prerequisiteId": "ct_g6a_12",
+      "strength": "soft",
+      "reason": "工程问题是假设（设总量为 1）策略的代表"
+    },
+    {
+      "topicId": "ct_g6b_27",
+      "prerequisiteId": "ct_g6b_21",
+      "strength": "hard",
+      "reason": "方程是策略体系的集大成者，复习置于式与方程之后"
     }
   ]
 }

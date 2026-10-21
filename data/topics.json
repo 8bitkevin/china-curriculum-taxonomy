@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "version": "0.9.0",
+  "version": "0.10.0",
   "note": "中国 K12 课程知识图谱·微主题。当前发布：义务教育数学第一学段（人教版 1-2 年级）；规划覆盖小学到高中全学段。id 规则：ct_g{年级}{a|b学期}_{序号}，年级 1-6 小学、7-9 初中、10-12 高中。",
-  "topicCount": 283,
+  "topicCount": 310,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -8694,6 +8694,850 @@
       "prerequisites": [
         "ct_g5b_13",
         "ct_g6a_26"
+      ]
+    },
+    {
+      "id": "ct_g6b_01",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正负数的认识（相反意义的量）",
+      "description": "零上 3℃ 和零下 3℃ 意义相反，零下记作 -3℃。表示一对相反意义的量，就用正负数：收入支出、 east西、海拔高低。0 是正负数的分界，既不正也不负。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用正负数表示相反意义的量并解释含义",
+        "知道 0 既不是正数也不是负数"
+      ],
+      "assessmentPrompt": "问{{name}}：「支出 200 元记作什么？-4 米表示什么？0 是正数还是负数？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g1b_11",
+        "ct_g4a_05"
+      ]
+    },
+    {
+      "id": "ct_g6b_02",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "数轴上表示正负数与比较大小",
+      "description": "画一条数轴：0 居中，右边是正数、左边是负数，右边的数总比左边大。-3 < -1 < 0 < 2。数轴让「负数比谁小」一眼看穿——数与点从此一一对应。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能在数轴上标出正负数并按顺序排列",
+        "能比较负数的大小（-5 < -2）并说明道理"
+      ],
+      "assessmentPrompt": "问{{name}}：「-5 和 -2 谁大？在数轴上指给妈妈看。零下 5 度和零下 2 度哪个冷？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_06",
+        "ct_g6b_01"
+      ]
+    },
+    {
+      "id": "ct_g6b_03",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正负数的实际应用",
+      "description": "班平均分 85，小刚 88 记 +3，小红 81 记 -4；比平均高记正、低记负。统计表、质量误差（500±5g）、海拔高程——正负数让「偏差」有了一致的记法。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能在具体情境中解释正负数记录的含义",
+        "能根据正负记录还原原数值"
+      ],
+      "assessmentPrompt": "问{{name}}：「包装标着 500±5 克是什么意思？4 名同学与平均分的差是 +3、-2、0、+7，他们的实际分数各是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.11"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_g6b_04",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "折扣与成数",
+      "description": "打八折就是按原价的 80% 出售；「三成」就是 30%。商场促销、粮食增产都这么说。原价×折扣=现价——百分数在商业社会的高频应用。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说清折扣、成数与百分数的对应关系",
+        "能解决折扣问题（求现价、原价、折扣）"
+      ],
+      "assessmentPrompt": "问{{name}}：「320 元的鞋打七五折多少钱？『增产二成』什么意思？现价 240 元相当于几折？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_23"
+      ]
+    },
+    {
+      "id": "ct_g6b_05",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "税率与利率",
+      "description": "营业额的 3% 是税；存款年利率 2.5%，1000 元存一年得利息 25 元（利息=本金×利率×时间）。社会的钱怎么流动，百分数怎么参与——公民财商第一课。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能计算应纳税额与利息",
+        "能说清本金、利率、利息三者的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：「妈妈存 20000 元，年利率 2.1%，存两年利息多少？中500 万元大奖要按 20% 交税，实得多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6b_04"
+      ]
+    },
+    {
+      "id": "ct_g6b_06",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "百分数综合应用（促销方案比较）",
+      "description": "「满 300 减 80」和「打七五折」哪个划算？算出各自实付再比。同一件商品不同的促销话术，用百分数算一算才见真章——理性消费的数学护身符。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能计算并比较不同促销方案",
+        "能根据购物金额选择最优方案并说明理由"
+      ],
+      "assessmentPrompt": "问{{name}}：「标价 400 元的商品，甲店满 300 减 100，乙店打七折，丙店八折再满 200 减 40，哪家最划算？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.10"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_04",
+        "ct_g6b_05"
+      ]
+    },
+    {
+      "id": "ct_g6b_07",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆柱的认识与表面积",
+      "description": "圆柱的两个底面是相等的圆，侧面展开是长方形（长=底面周长）。S = 2πr² + 2πrh。水桶无盖少一个底、烟囱只有侧面——先想清楚有几个面。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说明圆柱侧面展开图的形状与尺寸来源",
+        "能正确计算圆柱表面积（含无盖等变式）"
+      ],
+      "assessmentPrompt": "问{{name}}：「做一个有盖铁桶底面半径 2 分米高 5 分米，要多少铁皮？侧面展开的长方形长是多少？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_07",
+        "ct_g6a_18"
+      ]
+    },
+    {
+      "id": "ct_g6b_08",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆柱的体积",
+      "description": "圆柱切拼成近似长方体：V = Sh = πr²h。底面积×高的柱体公式第三次登场（长方体、正方体、圆柱）——一个公式统治所有直柱体。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能推导圆柱体积公式并正确计算",
+        "能解决容积问题（升毫升换算）"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆柱水杯底面直径 6 厘米高 10 厘米，能装多少毫升水？V=Sh 的 S 怎么求？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_09",
+        "ct_g6b_07"
+      ]
+    },
+    {
+      "id": "ct_g6b_09",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "圆锥的认识与体积",
+      "description": "圆锥有一个顶点、一个底面（圆）、侧面展开是扇形。等底等高时圆锥体积是圆柱的 1/3：V = (1/3)πr²h——倒沙子实验亲眼所见。记住：先算圆柱再除以 3。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出圆锥的特征及与圆柱的关系",
+        "能正确计算圆锥体积"
+      ],
+      "assessmentPrompt": "问{{name}}：「圆锥底半径 3 厘米高 6 厘米，体积多少？为什么要除以 3？等底等高什么意思？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6b_08"
+      ]
+    },
+    {
+      "id": "ct_g6b_10",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "比例的意义与基本性质（解比例）",
+      "description": "表示两个比相等的式子叫比例：3:4 = 9:12。内项之积等于外项之积（3×12=4×9）——解比例的钥匙。知道三项就能求第四项，x:4 = 9:12，x=3。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能判断两个比能否组成比例",
+        "能运用比例基本性质解比例"
+      ],
+      "assessmentPrompt": "问{{name}}：「0.5:0.25 和 1/2:1/4 能组成比例吗？解比例 x/8 = 3/4，x 是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_13",
+        "ct_g6a_14"
+      ]
+    },
+    {
+      "id": "ct_g6b_11",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正比例与反比例的意义",
+      "description": "速度一定，路程随时间扩大——比值一定，成正比例；路程一定，速度越快时间越短——乘积一定，成反比例。「商不变」与「积不变」，两种携手共进的方式。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用「比值一定/乘积一定」判断正反比例",
+        "能各举一个正、反比例的生活实例"
+      ],
+      "assessmentPrompt": "问{{name}}：「单价一定，总价和数量成什么比例？长方形面积一定，长和宽呢？你怎么判断的？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4a_15",
+        "ct_g4a_26",
+        "ct_g6b_10"
+      ]
+    },
+    {
+      "id": "ct_g6b_12",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "正比例图象与变化规律",
+      "description": "正比例关系画出来是一条过原点的直线：时间×2 路程也×2。看图能估、能验、能预测——图象让「比例」从表格走向函数的雏形。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能根据数据画出正比例图象并描述特征",
+        "能利用图象进行估计和检验"
+      ],
+      "assessmentPrompt": "问{{name}}：「把 2 千克苹果 10 元的表画成图象，5 千克苹果多少钱从图上怎么找？图象是什么形状？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_24",
+        "ct_g6b_11"
+      ]
+    },
+    {
+      "id": "ct_g6b_13",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "比例尺（数值比例尺与线段比例尺）",
+      "description": "图上距离:实际距离 = 比例尺。1:100000 表示图上 1 厘米代表实距 1 千米。地图、建筑图、零件图都靠它把大世界装进小纸片——放大比例尺（如 2:1）也一样。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能进行图距与实距的互相换算",
+        "能读懂线段比例尺并理解放大比例尺"
+      ],
+      "assessmentPrompt": "问{{name}}：「比例尺 1:500000 的图上 3 厘米代表实际多少千米？一个 5 毫米零件画成 10 厘米，比例尺是多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_06",
+        "ct_g6b_10"
+      ]
+    },
+    {
+      "id": "ct_g6b_14",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形的放大与缩小",
+      "description": "把图形按 2:1 放大：每条边都变成 2 倍，角不变、形状不变、大小变。按 1:3 缩小同理。放大缩小的本质是按相同的比变化——相似形的儿童版。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能在方格纸上按指定比放大或缩小图形",
+        "知道放大缩小中什么变什么不变"
+      ],
+      "assessmentPrompt": "问{{name}}：「把一个直角三角形按 3:1 放大，三条边各变成几格？两个锐角变吗？为什么？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6b_13"
+      ]
+    },
+    {
+      "id": "ct_g6b_15",
+      "type": "PROCEDURAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "用比例解决问题",
+      "description": "「8 吨水交 20 元，10 吨交多少？」水费÷吨数一定，成正比例，列 20/8 = x/10 解出。用比例解题先判断正反、再设未知、列比例、解比例——方程思维的又一形态。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能判断问题中的正反比例关系并正确列式",
+        "能用比例方法解决实际问题并与算术方法互相印证"
+      ],
+      "assessmentPrompt": "问{{name}}：「6 吨水费 21 元，10 吨水费多少元？先说什么一定，再列比例解一解。」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6b_10",
+        "ct_g6b_12"
+      ]
+    },
+    {
+      "id": "ct_g6b_16",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "数学广角：鸽巢问题（抽屉原理）",
+      "description": "4 支铅笔放进 3 个笔筒，总有一个笔筒至少 2 支——抽屉原理。把 n+1 个物体放进 n 个抽屉，必有一个抽屉至少 2 个。「至少」的底气，来自最不利情况的推理。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能用抽屉原理解释「至少」类问题",
+        "能构造抽屉并计算物体数÷抽屉数"
+      ],
+      "assessmentPrompt": "问{{name}}：「13 名同学里至少有几人生日在同一个月？为什么？『至少』怎么保证？」",
+      "standards": [
+        "csmath-2022:S3.IP.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g3b_26",
+        "ct_g5b_26"
+      ]
+    },
+    {
+      "id": "ct_g6b_17",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：整数与小数体系",
+      "description": "把六年的数捋成一张图：自然数→整数（含负数）→小数、分数、百分数。十进制计数法、数位顺序表、近似数——「数」的世界观一次成形。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能画出数的分类图并举例各类数",
+        "能熟练完成读写、改写、近似等基本操作"
+      ],
+      "assessmentPrompt": "让{{name}}把「3、-1、0.5、2/3、75%」分进数的家族树，问「0 属于哪类？百分数和分数完全一样吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.11",
+        "csmath-2022:S2.NA.NO.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_11",
+        "ct_g6b_02"
+      ]
+    },
+    {
+      "id": "ct_g6b_18",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：分数与百分数体系",
+      "description": "分数的意义与单位、基本性质、四则运算、与百分数的互化——一条主线串到底：都是「分率」家族。找单位「1」仍是解题的第一反应。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能熟练进行分数百分数的运算与互化",
+        "能解决典型分数百分数应用题并口述思路"
+      ],
+      "assessmentPrompt": "问{{name}}：「一根绳子先增加 1/4 再减少 1/4，还是原长吗？增加和减少的单位 1 一样吗？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.04",
+        "csmath-2022:S3.NA.NO.09"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_13",
+        "ct_g6b_17"
+      ]
+    },
+    {
+      "id": "ct_g6b_19",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：数的运算与简算体系",
+      "description": "四则的意义与关系、运算顺序、运算律（五条）、简算策略——整数小数分数百分数通用的计算法则。又对又快又巧，是六年底功的总成。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能梳理运算律体系并各举一例",
+        "能对混合运算选择合理途径（简算或竖式）"
+      ],
+      "assessmentPrompt": "让{{name}}简算 2.5×12.5×32 和 99×86，说出每步依据。",
+      "standards": [
+        "csmath-2022:S3.NA.NO.05",
+        "csmath-2022:S2.NA.NO.08"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_10",
+        "ct_g6b_18"
+      ]
+    },
+    {
+      "id": "ct_g6b_20",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：量的计量（单位体系）",
+      "description": "长度、面积、体积、质量、时间、人民币——单位家族总点名：相邻进率 10（长度）、100（面积）、1000（体积）。名数换算统一套路：判高低、乘除进率、移小数点。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能完整列出各量常用单位及进率",
+        "能熟练进行名数换算（含复名数）"
+      ],
+      "assessmentPrompt": "问{{name}}：「3.05 立方米 = 多少立方分米？2 时 45 分 = 多少时？1.5 升 = 多少毫升？」",
+      "standards": [
+        "csmath-2022:S2.NA.QR.03",
+        "csmath-2022:S2.NA.QR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_16",
+        "ct_g5b_10"
+      ]
+    },
+    {
+      "id": "ct_g6b_21",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：式与方程",
+      "description": "用字母表示数→等式性质→解方程→列方程解应用题。方程是「顺着想」的武器：找等量关系、设未知数，难题也能顺流而下。小学方程直通初中代数。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能规范解各类简易方程并检验",
+        "能列方程解答典型应用题（和差、倍数、行程）"
+      ],
+      "assessmentPrompt": "问{{name}}：「果园里梨树比苹果树的 3 倍多 15 棵，共 185 棵，方程怎么列？解出来呢？」",
+      "standards": [
+        "csmath-2022:S3.NA.QR.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_18",
+        "ct_g6b_19"
+      ]
+    },
+    {
+      "id": "ct_g6b_22",
+      "type": "META",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "总复习：比和比例",
+      "description": "比的意义与性质、化简、按比分配、比例与解比例、正反比例、比例尺——「比」的家族全体集合。判断正反比例的口诀：商定正、积定反。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能梳理比与比例的知识结构图",
+        "能综合运用比例知识解决问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「比例尺 1:2000 的图上长 5 厘米的操场实际长多少？按 3:5 分 96 颗糖各得多少？」",
+      "standards": [
+        "csmath-2022:S3.NA.NO.08",
+        "csmath-2022:S3.NA.QR.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g6a_15",
+        "ct_g6b_15"
+      ]
+    },
+    {
+      "id": "ct_g6b_23",
+      "type": "META",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "总复习：平面图形（周长与面积）",
+      "description": "从长方形面积出发，割补拼转化出一串公式：平行四边形→三角形→梯形→圆。所有面积公式一棵树，根都是「数方格」。周长面积一对概念，混淆一次澄清一次。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能推导并默写全部平面图形周长面积公式",
+        "能解决组合图形与不规则图形问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「为什么三角形面积要除以 2、圆面积公式怎么来的？一个圆半径扩大 2 倍，周长面积各扩几倍？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.01",
+        "csmath-2022:S3.GS.CM.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_19",
+        "ct_g6a_19"
+      ]
+    },
+    {
+      "id": "ct_g6b_24",
+      "type": "META",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "总复习：立体图形（表面积与体积）",
+      "description": "长方体→正方体→圆柱→圆锥：表面积想「面」，体积想「V=Sh」一律通吃，圆锥记得除以 3。切、拼、挖、铸——立体问题最后的综合演练。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能默写全部立体图形表面积体积公式",
+        "能解决切拼、等积变形等综合问题"
+      ],
+      "assessmentPrompt": "问{{name}}：「正方体切成两个长方体，表面积增加几个面？圆柱铸成等底圆锥，高怎么变？」",
+      "standards": [
+        "csmath-2022:S3.GS.CM.02",
+        "csmath-2022:S3.GS.CM.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_09",
+        "ct_g6b_09"
+      ]
+    },
+    {
+      "id": "ct_g6b_25",
+      "type": "META",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "总复习：图形的运动与位置",
+      "description": "平移、旋转、轴对称三兄弟 + 数对、方向角度距离两套定位法。运动看「变与不变」，位置看「参照系」——图形世界的动静总纲。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能描述三种运动并完成方格纸作图",
+        "能综合运用方向距离和数对确定位置"
+      ],
+      "assessmentPrompt": "问{{name}}：「风车转动、电梯升降、蝴蝶翅膀各是什么运动？学校在小明家东偏北 30° 400 米处，返程怎么描述？」",
+      "standards": [
+        "csmath-2022:S3.GS.MT.01",
+        "csmath-2022:S3.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5b_18",
+        "ct_g6a_07"
+      ]
+    },
+    {
+      "id": "ct_g6b_26",
+      "type": "META",
+      "subject": "数学",
+      "domain": "统计与概率",
+      "name": "总复习：统计与可能性",
+      "description": "收集→整理→描述→分析：单式复式、条形折线扇形，各司其职；平均数代表一般水平；可能性有大小。用数据说话，是现代公民的基本素养。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能根据目的选择统计图表并解读",
+        "能计算平均数、比较可能性大小"
+      ],
+      "assessmentPrompt": "问{{name}}：「要反映销量趋势和各项占比分别用什么图？怎么用平均数判断哪个小组成绩更稳？」",
+      "standards": [
+        "csmath-2022:S3.SP.DE.01",
+        "csmath-2022:S3.SP.DE.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g5a_13",
+        "ct_g6a_25"
+      ]
+    },
+    {
+      "id": "ct_g6b_27",
+      "type": "META",
+      "subject": "数学",
+      "domain": "综合与实践",
+      "name": "总复习：解决问题的策略",
+      "description": "画图（线段图、示意图）、转化（化新为旧）、列表（有序枚举）、假设（鸡兔同笼）、方程（顺向建模）、找规律（数与形）——六六三十六计，计计破题。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出至少四种策略的适用场景",
+        "面对新问题能自选策略并说清思路"
+      ],
+      "assessmentPrompt": "问{{name}}：「『鸡兔同笼』你会哪两种解法？『工程问题』用了什么假设？遇到没见过的问题先做什么？」",
+      "standards": [
+        "csmath-2022:S2.IP.02",
+        "csmath-2022:S3.IP.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 6,
+        "editionYear": 2022
+      },
+      "prerequisites": [
+        "ct_g4b_31",
+        "ct_g6a_12",
+        "ct_g6b_21"
       ]
     }
   ]
