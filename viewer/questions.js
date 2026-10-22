@@ -10,20 +10,37 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
 
 // ---------- 纯函数（供单测） ----------
 
-/** 填空题宽松比对：剥 $、反斜杠、空白与常见中文标点后忽略大小写比较 */
+/** 填空题宽松比对：剥 $、反斜杠、空白与常见中文标点后忽略大小写比较；
+ *  源数据答案偶用「\# \#」分隔多个可接受写法（如分数与小数），先拆分再逐一比对 */
 export function normalizeFill(s) {
   return String(s ?? '')
     .replace(/\$/g, '')
     .replace(/\\[a-zA-Z]+/g, (m) => m.slice(1)) // \frac → frac（只影响相等性比对）
+    .replace(/\\/g, '')
     .replace(/[\s{}]/g, '')
     .replace(/[，,。；;：:]/g, '')
     .toLowerCase();
 }
 
+export function splitAnswerAlt(answer) {
+  return String(answer ?? '').split(/\\?#/).map((s) => s.trim()).filter(Boolean);
+}
+
 export function judgeFill(userInput, answerList) {
   const got = normalizeFill(userInput);
   if (!got) return false;
-  return answerList.some((a) => normalizeFill(a) === got);
+  return answerList.some((a) => splitAnswerAlt(a).some((alt) => normalizeFill(alt) === got));
+}
+
+/** 答案展示：拆分备用写法、重整 $ 定界符（KaTeX 渲染用） */
+export function formatAnswer(answerList) {
+  return answerList
+    .flatMap((a) => splitAnswerAlt(a))
+    .map((alt) => {
+      const bare = alt.replace(/\$/g, '').trim();
+      return /\\[a-zA-Z]|[\^_{}]/.test(bare) ? `$${bare}$` : bare;
+    })
+    .join('；');
 }
 
 /** 展示用来源行 */
@@ -68,19 +85,34 @@ export function loadQuestions() {
 let katexPromise = null;
 function loadKaTeX() {
   if (katexPromise) return katexPromise;
-  const loadScript = (base) => new Promise((resolve, reject) => {
+  // 国内可达性优先放前面；单个 CDN 挂起（不触发 onerror）6s 后自动跳下一个
+  const BASES = [
+    'https://registry.npmmirror.com/katex/0.16.11/files/dist',
+    'https://cdn.jsdelivr.net/npm/katex@0.16.11/dist',
+    'https://unpkg.com/katex@0.16.11/dist',
+  ];
+  const tryLoad = (base) => new Promise((resolve, reject) => {
     const css = document.createElement('link');
     css.rel = 'stylesheet'; css.href = `${base}/katex.min.css`;
     document.head.appendChild(css);
+    // katex.min.js 只定义 window.katex；逐题渲染所需的 renderMathInElement 在 contrib/auto-render 扩展里，需链式加载
     const js = document.createElement('script');
-    js.src = `${base}/katex.min.js`; js.onload = resolve; js.onerror = reject;
+    js.src = `${base}/katex.min.js`;
+    js.onload = () => {
+      const ext = document.createElement('script');
+      ext.src = `${base}/contrib/auto-render.min.js`;
+      ext.onload = resolve; ext.onerror = reject;
+      document.head.appendChild(ext);
+      setTimeout(reject, 6000);
+    };
+    js.onerror = reject;
     document.head.appendChild(js);
+    setTimeout(reject, 6000); // 挂起兜底：超时视为失败
   });
   katexPromise = new Promise((resolve) => {
-    const bases = ['https://cdn.jsdelivr.net/npm/katex@0.16.11/dist', 'https://unpkg.com/katex@0.16.11/dist'];
     const tryNext = (i) => {
-      if (i >= bases.length) return resolve(false); // 全部失败 → 纯文本
-      loadScript(bases[i]).then(() => resolve(true)).catch(() => tryNext(i + 1));
+      if (i >= BASES.length) return resolve(false); // 全部失败 → 纯文本
+      tryLoad(BASES[i]).then(() => resolve(true)).catch(() => tryNext(i + 1));
     };
     tryNext(0);
   });
@@ -133,7 +165,7 @@ function questionCard(q) {
       ${body}
       <div class="qverdict" hidden></div>
       <div class="qanswer" hidden>
-        <p class="qans-line"><b>参考答案</b>：${esc((q.answer || []).join('；'))}</p>
+        <p class="qans-line"><b>参考答案</b>：${esc(formatAnswer(q.answer))}</p>
         ${q.analysis ? `<details class="qanalysis"><summary>解析</summary><div>${esc(q.analysis)}</div></details>` : ''}
       </div>
     </div>
