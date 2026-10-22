@@ -55,6 +55,7 @@ scripts/
   build-manifest.mjs         # 生成 manifest、注入 prerequisites 冗余字段
   apply-batch.mjs            # 数据批次合并工具（合并→manifest→validate 一键落库）
   report.mjs                 # 质量报告（孤岛/覆盖率/倒挂边，TOOL-2）
+  dev.mjs                    # 本地开发服务器（静态托管 + 只读 API + 题库 pack 代理）
   fetch-textbooks.py         # 从 ChinaTextbook 仓库下载教材 PDF（本地校验用）
 textbooks/                   # 教材 PDF（.gitignore，不入库）
 ```
@@ -105,7 +106,15 @@ npm run manifest && npm run validate
 - **3D 全景**：three.js WebGL（本地 vendor，零构建）渲染的深空星系视图——年级沿竖轴向上生长、四大领域成四股螺旋藤蔓；惯性拖拽旋转、滚轮缩放、搜索飞行定位；点选主题后先修闭包橙色分层发光、解锁闭包青色发光、其余暗淡，路径节点浮现中文标签（视觉范式对标 [Marble curriculum](https://withmarble.com/curriculum/)，代码原创）。
 - **质量自查**：孤岛主题、测评问法/课标引用覆盖率、跨年级倒挂边等指标卡（口径与 `npm run report` 一致），供维护者批次合入前后对照。
 
-本地运行（零构建，任一静态服务器）：
+本地运行与调试（推荐 `npm run dev`）：
+
+```bash
+npm run dev                # http://127.0.0.1:8787/viewer/（Ctrl+C 停止；端口对齐 wrangler，M9 tutor-app 可平移）
+```
+
+开发服务器（`scripts/dev.mjs`，零依赖）一条命令起前后端联调环境：静态托管整个仓库（`Cache-Control: no-store`，改代码/数据刷新即得，`data/*.json` 按 mtime 热缓存）；提供与 viewer 口径一致的只读 API（CORS 全开）：`/api/summary`、`/api/topics?subject=数学&grade=1&q=凑十`、`/api/topic/ct_g1a_22`（含先修/解锁树）、`/api/standards?code=S1.NA.NO.06`；并代理题库仓 `pack.json`——本地检出的 `../china-curriculum-questions`（env `CHINA_QUESTIONS_REPO` 可覆盖）直接零网络读取，无则走磁盘缓存 → 上游 GitHub（响应头 `X-Pack-Origin` 标记实际来源，`?refresh=1` 重拉上游）。viewer 真题区在 localhost 下自动改走该代理，探测失败回退远程（GitHub Pages 线上行为不变）。
+
+无 Node 环境时任一静态服务器亦可（真题区将从 GitHub 跨域拉取 pack）：
 
 ```bash
 python -m http.server 8931
@@ -181,6 +190,10 @@ python -m http.server 8931
 - [ ] 物理、化学（初中起）、生物、历史、地理、道德与法治/思想政治
 - [ ] 领域×年级簇摘要（家长版）
 - [ ] 与 os-taxonomy 相同的证据/研究层（teaching research）
+
+**产品化（AI 私教 Agent，三仓 open-core，D-017/D-018/D-022）**
+
+在图谱与题库（公开仓）之上做面向学生+家长的产品 tutor-app（私有仓），体验主线：知识阅读中心（年级/学科/单元阅读动线）→ 练习×图谱闭环（举一反三 / 打印工作纸 / 拍照 AI 批改讲解）→ 学习追踪与计划（双视角 Dashboard / 周计划 / 间隔复习）。设计见 [AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md) 与 [DEV-PLAN.md](docs/DEV-PLAN.md)。
 
 ## 致谢
 
