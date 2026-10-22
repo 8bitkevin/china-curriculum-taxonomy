@@ -8,6 +8,8 @@
 
 ## [Unreleased]
 
+- **viewer：主题详情页「相关真题」区块**（M8/PROD-3 公开演示部分，D-017/D-020）：消费题库仓 `china-curriculum-questions` 的 `build/pack.json`（GAOKAO-Bench 数学 844 题全量入库，2021–2022 已打标 120 题），单选本地判定 / 填空宽松比对 / 解答自评，KaTeX 惰性渲染（零构建约束不变，CDN 失败降级纯文本）。新增 `viewer/questions.js` 与纯函数单测。
+
 ## [2.0.0] - 2026-10-21 — 九科 K12 全线贯通（学科横向铺开完成）
 
 **总量：1592 微主题 / 2207 先修边 / 532 课标条目（18 套课标，均为 codes-only）/ 111 册教材全量（九科）。** 质量四门全绿（孤岛 0、assessmentPrompt 100%、课标引用 100%、跨年级倒挂 0），16 项单测通过。执行计划 [docs/SUBJECTS-BACKFILL-PLAN.md](docs/SUBJECTS-BACKFILL-PLAN.md)，决策 D-015/D-016。

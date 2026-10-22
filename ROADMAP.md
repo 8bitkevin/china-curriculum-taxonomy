@@ -6,7 +6,7 @@
 
 ## 近期（产品化 P0–P3：AI 私教 Agent，对应 DEV-PLAN M8–M11，D-017 + D-018 已拍板）
 
-- [ ] **P0（M8）**：题库仓库 `china-curriculum-questions` 立项（schema + validate + CI）→ GAOKAO-Bench 数学真题转换打标入库 → viewer 主题详情页「相关真题」区块
+- [ ] **P0（M8）** 🔄：题库仓库 `china-curriculum-questions` ✅ 立项（公开，D-020，schema + validate + CI 全绿）→ GAOKAO-Bench 数学 844 题 ✅ 全量转换入库（逐题 license+checksum）→ 打标进行中（2021–2022 完成 120 题，剩 2010–2020）→ viewer 主题详情页「相关真题」区块 ✅（可作答）
 - [ ] **P1（M9）**：tutor-app 私有仓立项（Cloudflare Workers thin API + 模型 adapter，D-018）+ 学生模型 + 练习闭环（知识点练/整卷练/判定/错题本，作答落 D1）
 - [ ] **P2（M10）**：**Agent MVP**——工具层（图谱 × 题库 × 学生模型 + `render_widget`）+ 教学策略（苏格拉底默认 / DAG 门控 / 防作弊锁）+ 聊天私教 + 数学子集动态图解（函数绘图/几何画板，PROD-10②），走通「诊断→规划→出题→讲解（配图）」
 - [ ] **P3（M11）**：家长周报 + 数学 K12 2D 分片星图（掌握度染色 + Agent 根因链高亮）+ 全库 1592 主题派生概念图（PROD-10①）
@@ -42,6 +42,6 @@
 ## 关键待决策（需要明确后才能动工）
 
 1. **许可核验**：发布 1.0 前请法律视角复核 LICENSE 分层（ODbL 数据库层 + CC BY-SA 内容层）是否与预期商用场景一致。
-2. **题库仓库可见性**（D-017 子项，M8 建仓前定）：公开 open-core（生态与演示价值，Apache/MIT 内容本已公开，护城河在打标质量与体验）vs 私有保护自建资产（中考收集/LLM 生成题）。可先公开起步，自建资产成形商用前再评估拆仓。
+2. ~~题库仓库可见性~~ 已拍板（2026-10-22，D-020）：公开起步——Apache/MIT 内容本已公开，生态与演示价值优先，自建资产成形商用前再评估拆仓。
 
-已拍板：D-006（按学期逐步跟进新版，`textbook.editionYear` 已落地）、D-009（远端仓库 `8bitkevin/china-curriculum-taxonomy`，公开）、D-012（高中人教 A 版）。
+已拍板：D-006（按学期逐步跟进新版，`textbook.editionYear` 已落地）、D-009（远端仓库 `8bitkevin/china-curriculum-taxonomy`，公开）、D-012（高中人教 A 版）、D-020（题库仓公开起步 + 题库工程口径）。

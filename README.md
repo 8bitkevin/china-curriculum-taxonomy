@@ -101,6 +101,7 @@ npm run manifest && npm run validate
 功能：
 
 - **图谱浏览**：按册分组的主题列表（含入度/出度），年级/领域过滤 + 搜索；点击任一主题查看完整**先修链**（每条边附「必需/有益」与理由）与**解锁树**、掌握证据、测评问法（可自定义孩子姓名）、课标对齐；`#id=ct_…` 深链可直接分享定位。
+- **相关真题**：高中数学主题详情页展示挂靠真题（来自公开题库仓 [china-curriculum-questions](https://github.com/8bitkevin/china-curriculum-questions)，GAOKAO-Bench 数学 2010–2022，Apache-2.0），可展开作答——单选本地判定、填空宽松比对、解答对照自评，公式 LaTeX 实时渲染（CDN 不可用时降级纯文本）；打标覆盖随题库仓推进。
 - **3D 全景**：three.js WebGL（本地 vendor，零构建）渲染的深空星系视图——年级沿竖轴向上生长、四大领域成四股螺旋藤蔓；惯性拖拽旋转、滚轮缩放、搜索飞行定位；点选主题后先修闭包橙色分层发光、解锁闭包青色发光、其余暗淡，路径节点浮现中文标签（视觉范式对标 [Marble curriculum](https://withmarble.com/curriculum/)，代码原创）。
 - **质量自查**：孤岛主题、测评问法/课标引用覆盖率、跨年级倒挂边等指标卡（口径与 `npm run report` 一致），供维护者批次合入前后对照。
 
