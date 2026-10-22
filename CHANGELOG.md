@@ -8,7 +8,7 @@
 
 ## [Unreleased]
 
-- **viewer：主题详情页「相关真题」区块**（M8/PROD-3 公开演示部分，D-017/D-020）：消费题库仓 `china-curriculum-questions` 的 `build/pack.json`（GAOKAO-Bench 数学 844 题全量入库，2021–2022 已打标 120 题），单选本地判定 / 填空宽松比对 / 解答自评，KaTeX 惰性渲染（零构建约束不变，CDN 失败降级纯文本）。新增 `viewer/questions.js` 与纯函数单测。
+- **viewer：主题详情页「相关真题」区块**（M8/PROD-3 公开演示部分，D-017/D-020）：消费题库仓 `china-curriculum-questions` 的 `build/pack.json`（GAOKAO-Bench 数学 844 题全量入库，766 题已挂标覆盖 90.8%），单选本地判定 / 填空宽松比对（支持「# #」分隔多可接受写法）/ 解答自评，KaTeX 惰性渲染（npmmirror 优先 + 双 CDN 超时回退，失败降级纯文本；零构建约束不变）。新增 `viewer/questions.js` 与纯函数单测。M8（P0）完成：题库仓 CI 绿、全量打标、真题区块浏览器实测通过。
 
 ## [2.0.0] - 2026-10-21 — 九科 K12 全线贯通（学科横向铺开完成）
 
