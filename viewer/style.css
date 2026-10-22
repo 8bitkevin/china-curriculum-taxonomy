@@ -275,3 +275,51 @@ table.qt th { background: var(--bg); font-size: 12.5px; color: var(--muted); fon
   .detail { padding: 16px; }
   .ctl input[type="search"] { width: 130px; }
 }
+
+/* ---------- 相关真题（题库仓 pack.json，M8） ---------- */
+.questions-sec .qlist { display: flex; flex-direction: column; gap: 8px; }
+.qcard { border: 1px solid var(--line, #2a3247); border-radius: 10px; overflow: hidden; background: rgba(148,163,184,.05); }
+.qhead {
+  font: inherit; width: 100%; display: flex; align-items: center; gap: 10px;
+  padding: 9px 12px; background: none; border: 0; color: inherit; cursor: pointer; text-align: left;
+}
+.qhead:hover { background: rgba(148,163,184,.09); }
+.qtag { flex: none; font-size: 11px; padding: 2px 7px; border-radius: 6px; background: rgba(61,99,216,.2); color: #b8c8ee; }
+.qsrc { flex: 1; font-size: 12px; color: #8b93a7; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.qtoggle { flex: none; font-size: 12px; color: #767e93; }
+.qbody { padding: 2px 12px 12px; }
+.qstem { white-space: pre-wrap; font-size: 13.5px; line-height: 1.65; margin: 6px 0 10px; }
+.qopts { display: grid; gap: 6px; }
+.qopt {
+  font: inherit; font-size: 13px; text-align: left; padding: 7px 10px; cursor: pointer;
+  border-radius: 8px; border: 1px solid rgba(148,163,184,.28); background: none; color: inherit;
+}
+.qopt:hover:not(:disabled) { background: rgba(61,99,216,.16); }
+.qopt.right { border-color: rgba(74,222,128,.6); background: rgba(74,222,128,.12); }
+.qopt.wrong { border-color: rgba(248,113,113,.6); background: rgba(248,113,113,.12); }
+.qopt:disabled { cursor: default; opacity: .9; }
+.qfill, .qoe { display: flex; gap: 8px; align-items: center; }
+.qoe { flex-direction: column; align-items: stretch; }
+.qfill input, .qoe textarea {
+  font: inherit; font-size: 13px; padding: 7px 10px; border-radius: 8px;
+  border: 1px solid rgba(148,163,184,.35); background: rgba(10,14,26,.5); color: inherit; width: 100%;
+}
+.qbtn {
+  font: inherit; font-size: 12.5px; padding: 7px 12px; cursor: pointer; flex: none;
+  border-radius: 8px; border: 1px solid rgba(148,163,184,.35); background: rgba(61,99,216,.18); color: #b8c8ee;
+}
+.qbtn:hover { background: rgba(61,99,216,.3); color: #fff; }
+.qverdict { font-size: 13px; margin: 10px 0 0; }
+.qverdict.ok { color: #4ade80; }
+.qverdict.bad { color: #f87171; }
+.qanswer { margin-top: 10px; padding-top: 10px; border-top: 1px dashed rgba(148,163,184,.3); }
+.qans-line { font-size: 13px; margin: 0 0 6px; }
+.qanalysis { font-size: 12.5px; }
+.qanalysis summary { cursor: pointer; color: #8b93a7; margin-bottom: 4px; }
+.qanalysis > div { white-space: pre-wrap; line-height: 1.6; }
+.qmore {
+  font: inherit; font-size: 12.5px; margin-top: 8px; padding: 6px 12px; cursor: pointer;
+  border-radius: 8px; border: 1px dashed rgba(148,163,184,.4); background: none; color: #8b93a7;
+}
+.qmore:hover { color: #fff; border-color: rgba(148,163,184,.8); }
+.qfoot { margin: 10px 0 0; font-size: 11.5px; }

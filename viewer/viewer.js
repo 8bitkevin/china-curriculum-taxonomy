@@ -6,6 +6,7 @@ import {
   qualityMetrics, filterTopics, renderPrompt,
 } from './logic.js';
 import { Graph3D, buildLayout } from './graph3d.js';
+import { mountQuestions } from './questions.js';
 
 const DATA_BASE = '../data/';
 const TYPE_ZH = {
@@ -226,6 +227,8 @@ function renderDetail() {
       ${uStats.uniqueCount ? renderTree(t.id, uTree) : '<p class="muted">尚无更高年级主题依赖它（后续册数据推进中）。</p>'}
     </div>`;
   bindTreeLinks(el);
+  // 相关真题（题库仓 pack.json，异步可用后再挂载；不可用时静默隐藏）
+  mountQuestions(el, t.id);
 }
 
 // placeholder 初始内容留档（首次渲染后复用）
