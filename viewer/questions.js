@@ -52,17 +52,34 @@ export function sourceLine(q) {
 // ---------- pack 加载 ----------
 
 const state = { status: 'loading', byTopic: new Map(), meta: null };
+const LOCAL_API_PACK = '/api/questions/pack';
 
-export function packUrl() {
-  const fromQuery = new URLSearchParams(location.search).get('pack');
-  return fromQuery || window.QUESTIONS_PACK_URL || DEFAULT_PACK_URL;
+/** 本地 dev（scripts/dev.mjs）判定：localhost/127.0.0.1 源才探测同源 API 代理 */
+export function isLocalOrigin(origin) {
+  return /^https?:\/\/(localhost|127\.0\.0\.1)(:\d+)?$/i.test(String(origin ?? ''));
+}
+
+/** 取 pack：?pack= 显式指定则始终用之；否则本地源先试同源 API 代理
+ *  （dev server 直读本地题库仓，零网络），失败回退远程 URL（线上行为不变）。
+ *  依赖全部参数化注入，供 Node 单测离线跑。 */
+export async function fetchPack({ origin, search, globalConfig, fetchImpl = fetch } = {}) {
+  const fromQuery = search ? new URLSearchParams(search).get('pack') : null;
+  const fallbackUrl = fromQuery || globalConfig || DEFAULT_PACK_URL;
+  if (!fromQuery && isLocalOrigin(origin)) {
+    try {
+      const r = await fetchImpl(LOCAL_API_PACK);
+      if (r.ok) return { pack: await r.json(), origin: `local-api: ${LOCAL_API_PACK}` };
+    } catch { /* 本地静态服务器（如 python -m http.server）无 /api → 回退 */ }
+  }
+  const r = await fetchImpl(fallbackUrl);
+  if (!r.ok) throw Error(`HTTP ${r.status}`);
+  return { pack: await r.json(), origin: fallbackUrl };
 }
 
 export function loadQuestions() {
   if (state.status !== 'loading') return Promise.resolve(state);
-  return fetch(packUrl())
-    .then((r) => { if (!r.ok) throw Error(`HTTP ${r.status}`); return r.json(); })
-    .then((pack) => {
+  return fetchPack({ origin: location.origin, search: location.search, globalConfig: window.QUESTIONS_PACK_URL })
+    .then(({ pack }) => {
       for (const q of pack.questions) {
         for (const tid of q.topicIds) {
           if (!state.byTopic.has(tid)) state.byTopic.set(tid, []);
@@ -154,7 +171,7 @@ function questionCard(q) {
     </div>`;
   }
   return `
-  <div class="qcard" data-id="${esc(q.id)}">
+  <div class="q-card" data-id="${esc(q.id)}">
     <button class="qhead" type="button" aria-expanded="false">
       <span class="qtag">${TYPE_ZH[q.type] ?? q.type}</span>
       <span class="qsrc">${esc(sourceLine(q))}</span>
@@ -209,7 +226,7 @@ function bindCards(sec, allQuestions) {
     btn.addEventListener('click', () => {
       const q = byId.get(btn.closest('.qopts').dataset.qid);
       if (!q) return;
-      const verdict = btn.closest('.qcard').querySelector('.qverdict');
+      const verdict = btn.closest('.q-card').querySelector('.qverdict');
       const chosen = btn.dataset.letter;
       const right = q.answer[0] === chosen;
       for (const b of btn.parentElement.querySelectorAll('.qopt')) {
@@ -220,13 +237,13 @@ function bindCards(sec, allQuestions) {
       verdict.hidden = false;
       verdict.textContent = right ? '✓ 回答正确' : `✗ 应选 ${q.answer[0]}`;
       verdict.className = `qverdict ${right ? 'ok' : 'bad'}`;
-      revealAnswer(btn.closest('.qcard'));
+      revealAnswer(btn.closest('.q-card'));
     });
   }
   for (const box of sec.querySelectorAll('.qfill, .qoe')) {
     box.querySelector('.qbtn')?.addEventListener('click', () => {
       const q = byId.get(box.dataset.qid);
-      const card = box.closest('.qcard');
+      const card = box.closest('.q-card');
       const verdict = card.querySelector('.qverdict');
       if (q.type === 'fill-in') {
         const input = box.querySelector('input');

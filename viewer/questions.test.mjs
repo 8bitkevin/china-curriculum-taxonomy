@@ -1,6 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { normalizeFill, judgeFill, sourceLine, splitAnswerAlt, formatAnswer } from './questions.js';
+import {
+  normalizeFill, judgeFill, sourceLine, splitAnswerAlt, formatAnswer,
+  isLocalOrigin, fetchPack,
+} from './questions.js';
 
 test('normalizeFill 剥离 LaTeX 记号与空白后等价', () => {
   assert.equal(normalizeFill('$x^{2}+y^{2}=2$'), normalizeFill('x^2+y^2=2'));
@@ -37,4 +40,56 @@ test('sourceLine 含年份/卷别/难度星数', () => {
   assert.match(line, /新课标Ⅰ/);
   assert.match(line, /★★★/);
   assert.match(line, /☆☆/);
+});
+
+// ---------- pack 源选择（本地 dev API 探测 + 回退） ----------
+
+test('isLocalOrigin 仅认 localhost/127.0.0.1 源', () => {
+  assert.equal(isLocalOrigin('http://localhost:8787'), true);
+  assert.equal(isLocalOrigin('http://127.0.0.1:8000'), true);
+  assert.equal(isLocalOrigin('https://8bitkevin.github.io'), false);
+  assert.equal(isLocalOrigin('http://example.com:8787'), false); // 端口相同也非本地
+});
+
+test('fetchPack：本地源先探同源 API，失败回退远程', async () => {
+  const calls = [];
+  // 本地 API 可用 → 用之，不再碰远程
+  let r = await fetchPack({
+    origin: 'http://localhost:8787',
+    fetchImpl: async (url) => { calls.push(url); return { ok: true, json: async () => ({ questionCount: 766 }) }; },
+  });
+  assert.equal(r.pack.questionCount, 766);
+  assert.equal(r.origin, 'local-api: /api/questions/pack');
+  assert.equal(calls.length, 1);
+
+  // 本地 API 404（python -m http.server 场景）→ 回退远程 URL
+  calls.length = 0;
+  r = await fetchPack({
+    origin: 'http://127.0.0.1:8000',
+    globalConfig: 'https://cfg.example/pack.json',
+    fetchImpl: async (url) => {
+      calls.push(url);
+      if (url === '/api/questions/pack') return { ok: false, status: 404, json: async () => ({}) };
+      return { ok: true, json: async () => ({ via: url }) };
+    },
+  });
+  assert.equal(r.pack.via, 'https://cfg.example/pack.json');
+  assert.deepEqual(calls, ['/api/questions/pack', 'https://cfg.example/pack.json']);
+
+  // 非本地源 → 直接远程，零探测（线上 GitHub Pages 行为）
+  calls.length = 0;
+  r = await fetchPack({
+    origin: 'https://8bitkevin.github.io',
+    fetchImpl: async (url) => { calls.push(url); return { ok: true, json: async () => ({}) }; },
+  });
+  assert.deepEqual(calls, ['https://raw.githubusercontent.com/8bitkevin/china-curriculum-questions/main/build/pack.json']);
+
+  // ?pack= 显式指定 → 跳过探测始终用之
+  calls.length = 0;
+  r = await fetchPack({
+    origin: 'http://localhost:8787',
+    search: '?pack=https://mirror.example/pack.json',
+    fetchImpl: async (url) => { calls.push(url); return { ok: true, json: async () => ({ via: url }) }; },
+  });
+  assert.deepEqual(calls, ['https://mirror.example/pack.json']);
 });

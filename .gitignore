@@ -7,6 +7,12 @@ textbooks/
 # 数据批次片段（apply-batch.mjs 的输入，合并后即完成使命，不入库）
 .ct-batches/
 
+# dev server 题库 pack 磁盘缓存（scripts/dev.mjs 上游回写，可随时删）
+.cache/
+
+# 本地 AI 会话工作目录（ZCode）
+.zcode/
+
 # Python
 __pycache__/
 *.pyc

@@ -13,6 +13,7 @@
     "test": "node --test scripts/*.test.mjs viewer/*.test.mjs",
     "extract-toc": "python scripts/extract-toc.py",
     "toc-check": "python scripts/extract-toc.py --check",
-    "report": "node scripts/report.mjs"
+    "report": "node scripts/report.mjs",
+    "dev": "node scripts/dev.mjs"
   }
 }
