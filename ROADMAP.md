@@ -12,7 +12,10 @@
 - [x] **P3（M11）纸笔闭环** ✅（2026-10-22 完成，tutor-app 仓）：工作纸批次短码服务端登记 → 拍照上传 → vision 识别（**识别与判定分离**：识别请求不带答案，客观题服务端本地判定，零判定模型调用）→ 解答题 evidence 锚定 rubric 保守给分 → 低置信转家长确认/改判（reviewHistory 回流日志）→ 照片默认不留/待复核 TTL 2h 可一键删（D-022 红线）→ 错题带上下文走 Agent 讲解 → 写回学生模型（PROD-14；tutor-app 决策 T-012，测试 70 项全绿 + 375px 浏览器全链路实测；真实手写识别待 vision Key 补验）
 - [x] **P4（M12）追踪与计划** ✅（2026-10-23 完成，tutor-app 仓，决策 T-013~T-017）：学生/家长**双视角 Dashboard**（学生今日任务/学习曲线（周正确率+滑动平均）/本册进度，家长薄弱点 Top5（图谱回溯疑似根因）/各科进度/28 天频次/建议动作，PROD-15）+ **首用摸底**（当前册跨单元抽 8–12 道客观题初始化掌握图；配题不足诚实跳过——题库现状 1–9 年级零配题）+ **周计划**（目标主题 + 全量闭包拓扑序 + 年级亲和排期 + 每周时长约束 + 滚动重排不惩罚，PROD-16）+ **间隔复习队列**（纯派生零建表：1/3/7/14 天调度、答对拉长、答错重置、连对 4 次毕业）+ **家长周报**（规则生成零 LLM + 周缓存，「问私教」注入周报换家长视角，PROD-9）+ **数学 K12 2D 星图**（布局离线预计算入库 `starmap.json`，563 节点/942 边；掌握度染色 + 根因链金色高亮 + 默认定位该生年级，PROD-4）+ **1592 主题邻域概念图**（主题页零内容成本全覆盖，PROD-10①）；Agent 工具 +review_queue（13 个）；375px 全链路 + 1024px 双断点实测，测试 99 项全绿
 
-设计蓝图：[AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md)。
+- [ ] **G 段（商用化，G0–G5）**：总纲 [docs/COMMERCIALIZATION-PLAN.md](docs/COMMERCIALIZATION-PLAN.md)（2026-10-23 立项，D-025；C-DEC-1~9 已定，C-DEC-10/11 待拍板）。**G0** 4–9 年级数学配题冲刺（≥2400 题，COMM-A1/A2）∥ **G1** ICP 备案 + 微信支付商户号 + 小程序备案（域名 k12aixue.com 已购）→ **G2** 商业化基建（前半已随 M13a/tutor-app T-018 落地：家长账号/监护人同意/权益 gating/兑换码会员/埋点审计/功能分期；余微信支付、真实短信、国内云迁移）→ **G3** 质量与 Beta → **G4** v1 公开发布（H5+小程序，零 AI 申报）→ **G4.5** 生成式 AI 登记 → **G5** v2（chat+拍照批改）与 iOS App
+- [ ] **M14 视觉 v3「多邻国范式」**（2026-10-23 立项，D-026，tutor-app 仓 + viewer token 同步）：活力绿双绿体系 + 3D 按压组件（底唇 shadow-as-lip）+ 原创吉祥物小恐龙「跃跃」+ SVG 图标系统替换 tabbar emoji + 轻量激励（streak 火焰/每日目标环/庆祝彩带，纯前端零后端改动）+ 动效规范放宽（庆祝 0.4–1.2s 弹性）；A4 打印永浅色不动；质量门 design-tokens 对比度测试 + UI-GUIDE v3 走查清单；营销站 m/ 配色后续单独过
+
+设计蓝图：[AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md)；商用化总纲：[COMMERCIALIZATION-PLAN.md](docs/COMMERCIALIZATION-PLAN.md)。
 
 ## 已完成——数学纵向打通 K12（M3–M6）
 
@@ -43,7 +46,8 @@
 
 ## 关键待决策（需要明确后才能动工）
 
-1. **许可核验**：发布 1.0 前请法律视角复核 LICENSE 分层（ODbL 数据库层 + CC BY-SA 内容层）是否与预期商用场景一致。
+1. **许可核验**：**商用发布前**请法律视角复核 LICENSE 分层（ODbL 数据库层 + CC BY-SA 内容层）是否与预期商用场景一致（v1.0/v2.0 发布时未及复核，触发条件改锚到商用 G4；商用边界见 COMMERCIALIZATION-PLAN C-DEC-8）。
 2. ~~题库仓库可见性~~ 已拍板（2026-10-22，D-020）：公开起步——Apache/MIT 内容本已公开，生态与演示价值优先，自建资产成形商用前再评估拆仓。
+3. **未成年人数据合规法务复核**：商用发布前完成（COMM-B 段承接、G4 发布判据之一；DEV-PLAN M13 出口条件与 AGENT-PRODUCT-DESIGN §8 引用本项）。
 
-已拍板：D-006（按学期逐步跟进新版，`textbook.editionYear` 已落地）、D-009（远端仓库 `8bitkevin/china-curriculum-taxonomy`，公开）、D-012（高中人教 A 版）、D-020（题库仓公开起步 + 题库工程口径）。
+已拍板：D-006（按学期逐步跟进新版，`textbook.editionYear` 已落地）、D-009（远端仓库 `8bitkevin/china-curriculum-taxonomy`，公开）、D-012（高中人教 A 版）、D-020（题库仓公开起步 + 题库工程口径）、D-025（商用化 G 段立项 + C-DEC-1~9 批量拍板，2026-10-23）。

@@ -1,11 +1,12 @@
 /* viewer/style.css — 零构建静态样式（系统字体栈，无外部资源）。
-   品牌色/语义色/字体链对齐「学伴设计系统 v2」（tutor-app docs/UI-GUIDE.md，D-023 跨仓统一）。 */
+   品牌色/语义色/字体链对齐「学伴设计系统 v3」（tutor-app docs/UI-GUIDE.md，D-026 跨仓统一）。 */
 
 :root {
-  /* 品牌与语义色（tutor-app 同款；-ink 档为浅底文字用，保对比度） */
-  --brand: #4f46e5;        /* 靛蓝：与 tutor-app 一致 */
-  --brand-press: #4338ca;
-  --brand-weak: #eef2ff;
+  /* 品牌与语义色（tutor-app v3 活力绿族；viewer 的 --brand 直接作链接/文字色，
+     故取文字安全档 #3f7d00 = tutor-app --brand-deep，5.1:1 过 AA；鲜艳绿只进图形） */
+  --brand: #3f7d00;
+  --brand-press: #2f6200;
+  --brand-weak: #d7ffb8;
   --ok: #16a34a;   --ok-weak: #dcfce7;   --ok-ink: #15803d;
   --bad: #e11d48;  --bad-weak: #ffe4e6;  --bad-ink: #be123c;
   --warn: #d97706; --warn-weak: #fef3c7; --warn-ink: #b45309;
@@ -94,7 +95,7 @@ code { font-family: var(--mono); font-size: 12px; background: var(--brand-weak);
   padding: 9px 12px; margin-bottom: 6px; cursor: pointer;
 }
 .item:hover { background: var(--bg); }
-.item.sel { background: var(--brand-weak); outline: 1px solid #c7d2fe; }
+.item.sel { background: var(--brand-weak); outline: 1px solid #3c8a02; }
 .item .row1 { display: flex; align-items: center; gap: 8px; }
 .item .name { font-weight: 600; font-size: 14.5px; flex: 1; }
 .item .deg { font-size: 12px; color: var(--muted); font-family: var(--mono); white-space: nowrap; }
@@ -140,7 +141,7 @@ ul.evidence { margin: 0; padding-left: 20px; max-width: 72ch; }
 ul.evidence li { margin: 3px 0; }
 
 .prompt-box {
-  background: var(--brand-weak); border: 1px solid #e0e7ff; border-radius: var(--radius);
+  background: var(--brand-weak); border: 1px solid #c3efa0; border-radius: var(--radius);
   padding: 10px 14px; max-width: 72ch;
 }
 .prompt-box .lbl { font-size: 12px; color: var(--brand); font-weight: 700; }
@@ -269,9 +270,9 @@ table.qt th { background: var(--bg); font-size: 12.5px; color: var(--muted); fon
 .g3-open {
   font: inherit; font-size: 12.5px; width: 100%; padding: 9px; cursor: pointer;
   border-radius: 9px; border: 1px solid rgba(148,163,184,.28);
-  background: rgba(79,70,229,.16); color: #c7d2fe; margin-top: auto;
+  background: rgba(88,204,2,.16); color: #b9e58a; margin-top: auto;
 }
-.g3-open:hover { background: rgba(79,70,229,.32); color: #fff; }
+.g3-open:hover { background: rgba(88,204,2,.32); color: #fff; }
 
 .g3-hint {
   position: absolute; z-index: 4; left: 50%; bottom: 16px; transform: translateX(-50%);
