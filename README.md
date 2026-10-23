@@ -186,14 +186,14 @@ python -m http.server 8931
 
 **其他学科横向铺开（数学 v1.0 之后）**
 
-- [ ] 语文、英语（K12 全学段）
-- [ ] 物理、化学（初中起）、生物、历史、地理、道德与法治/思想政治
+- [x] 语文、英语（K12 全学段）✅ 2026-10-21
+- [x] 物理、化学（初中起）、生物、历史、地理、道德与法治/思想政治 ✅ 2026-10-21（九科 K12 全线 → **v2.0.0**）
 - [ ] 领域×年级簇摘要（家长版）
 - [ ] 与 os-taxonomy 相同的证据/研究层（teaching research）
 
 **产品化（AI 私教 Agent，三仓 open-core，D-017/D-018/D-022）**
 
-在图谱与题库（公开仓）之上做面向学生+家长的产品 tutor-app（私有仓），体验主线：知识阅读中心（年级/学科/单元阅读动线）→ 练习×图谱闭环（举一反三 / 打印工作纸 / 拍照 AI 批改讲解）→ 学习追踪与计划（双视角 Dashboard / 周计划 / 间隔复习）。设计见 [AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md) 与 [DEV-PLAN.md](docs/DEV-PLAN.md)。
+在图谱与题库（公开仓）之上做面向学生+家长的产品 tutor-app（私有仓），体验主线：知识阅读中心（年级/学科/单元阅读动线）→ 练习×图谱闭环（举一反三 / 打印工作纸 / 拍照 AI 批改讲解）→ 学习追踪与计划（双视角 Dashboard / 周计划 / 间隔复习）。设计见 [AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md) 与 [DEV-PLAN.md](docs/DEV-PLAN.md)。产品化段 M8–M12 已收官（2026-10-23）；商业化方案（G 段：内容冲刺→备案支付→v1 零 AI 发布→AI 登记→v2）见 [COMMERCIALIZATION-PLAN.md](docs/COMMERCIALIZATION-PLAN.md)。
 
 ## 致谢
 
