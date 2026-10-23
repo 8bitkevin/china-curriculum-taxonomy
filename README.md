@@ -102,7 +102,7 @@ npm run manifest && npm run validate
 功能：
 
 - **图谱浏览**：按册分组的主题列表（含入度/出度），年级/领域过滤 + 搜索；点击任一主题查看完整**先修链**（每条边附「必需/有益」与理由）与**解锁树**、掌握证据、测评问法（可自定义孩子姓名）、课标对齐；`#id=ct_…` 深链可直接分享定位。
-- **相关真题**：高中数学主题详情页展示挂靠真题（来自公开题库仓 [china-curriculum-questions](https://github.com/8bitkevin/china-curriculum-questions)，GAOKAO-Bench 数学 2010–2022，Apache-2.0），可展开作答——单选本地判定、填空宽松比对、解答对照自评，公式 LaTeX 实时渲染（CDN 不可用时降级纯文本）；打标覆盖随题库仓推进。
+- **相关真题**：高中数学主题详情页展示挂靠真题（GAOKAO-Bench 数学 2010–2022，Apache-2.0；源数据挂标自题库工程仓，该仓已于 2026-10-23 转私有 D-027——**线上（GitHub Pages）真题数据随私有化暂不可用，自动降级隐藏**；本地 `npm run dev` 检出题库仓后可用），可展开作答——单选本地判定、填空宽松比对、解答对照自评，公式 LaTeX 实时渲染（CDN 不可用时降级纯文本）；打标覆盖随题库仓推进。
 - **3D 全景**：three.js WebGL（本地 vendor，零构建）渲染的深空星系视图——年级沿竖轴向上生长、四大领域成四股螺旋藤蔓；惯性拖拽旋转、滚轮缩放、搜索飞行定位；点选主题后先修闭包橙色分层发光、解锁闭包青色发光、其余暗淡，路径节点浮现中文标签（视觉范式对标 [Marble curriculum](https://withmarble.com/curriculum/)，代码原创）。
 - **质量自查**：孤岛主题、测评问法/课标引用覆盖率、跨年级倒挂边等指标卡（口径与 `npm run report` 一致），供维护者批次合入前后对照。
 
@@ -112,7 +112,7 @@ npm run manifest && npm run validate
 npm run dev                # http://127.0.0.1:8787/viewer/（Ctrl+C 停止；端口对齐 wrangler，M9 tutor-app 可平移）
 ```
 
-开发服务器（`scripts/dev.mjs`，零依赖）一条命令起前后端联调环境：静态托管整个仓库（`Cache-Control: no-store`，改代码/数据刷新即得，`data/*.json` 按 mtime 热缓存）；提供与 viewer 口径一致的只读 API（CORS 全开）：`/api/summary`、`/api/topics?subject=数学&grade=1&q=凑十`、`/api/topic/ct_g1a_22`（含先修/解锁树）、`/api/standards?code=S1.NA.NO.06`；并代理题库仓 `pack.json`——本地检出的 `../china-curriculum-questions`（env `CHINA_QUESTIONS_REPO` 可覆盖）直接零网络读取，无则走磁盘缓存 → 上游 GitHub（响应头 `X-Pack-Origin` 标记实际来源，`?refresh=1` 重拉上游）。viewer 真题区在 localhost 下自动改走该代理，探测失败回退远程（GitHub Pages 线上行为不变）。
+开发服务器（`scripts/dev.mjs`，零依赖）一条命令起前后端联调环境：静态托管整个仓库（`Cache-Control: no-store`，改代码/数据刷新即得，`data/*.json` 按 mtime 热缓存）；提供与 viewer 口径一致的只读 API（CORS 全开）：`/api/summary`、`/api/topics?subject=数学&grade=1&q=凑十`、`/api/topic/ct_g1a_22`（含先修/解锁树）、`/api/standards?code=S1.NA.NO.06`；并代理题库仓 `pack.json`——本地检出的 `../china-curriculum-questions`（env `CHINA_QUESTIONS_REPO` 可覆盖）直接零网络读取；题库仓已转私有（D-027），上游 GitHub 拉取仅对有权限的协作者有效（响应头 `X-Pack-Origin` 标记实际来源，`?refresh=1` 重拉上游）。viewer 真题区在 localhost 下自动改走该代理，探测失败回退远程（GitHub Pages 线上行为不变）。
 
 无 Node 环境时任一静态服务器亦可（真题区将从 GitHub 跨域拉取 pack）：
 
@@ -191,9 +191,9 @@ python -m http.server 8931
 - [ ] 领域×年级簇摘要（家长版）
 - [ ] 与 os-taxonomy 相同的证据/研究层（teaching research）
 
-**产品化（AI 私教 Agent，三仓 open-core，D-017/D-018/D-022）**
+**产品化与商用化（三仓架构，D-017/D-018/D-022/D-027）**
 
-在图谱与题库（公开仓）之上做面向学生+家长的产品 tutor-app（私有仓），体验主线：知识阅读中心（年级/学科/单元阅读动线）→ 练习×图谱闭环（举一反三 / 打印工作纸 / 拍照 AI 批改讲解）→ 学习追踪与计划（双视角 Dashboard / 周计划 / 间隔复习）。设计见 [AGENT-PRODUCT-DESIGN.md](docs/AGENT-PRODUCT-DESIGN.md) 与 [DEV-PLAN.md](docs/DEV-PLAN.md)。产品化段 M8–M12 已收官（2026-10-23）；商业化方案（G 段：内容冲刺→备案支付→v1 零 AI 发布→AI 登记→v2）见 [COMMERCIALIZATION-PLAN.md](docs/COMMERCIALIZATION-PLAN.md)。
+在图谱数据之上做面向学生+家长的产品「学伴」（tutor-app，私有仓：前端 + Agent 服务端 + 数据库一体单服务）。产品化段 M8–M14 已收官，商用化进行中。产品计划（DEV-PLAN）、决策档案（D-xxx）与商用文档均已随 D-027（2026-10-23）迁至私有仓；本仓 `docs/DECISIONS.md` 保留脱敏决策索引。
 
 ## 致谢
 
