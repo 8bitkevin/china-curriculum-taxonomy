@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中思想政治必修2经济与社会",
+  "pdf": {
+    "file": "高中思想政治必修2经济与社会.pdf",
+    "sha256": "ca37929133396dc3a8da833841ccac2eadf3db217930b77a1b202758362c7209",
+    "pages": 70,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我国的生产资料所有制",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "我国的社会主义市场经济体制",
+      "page": 14
+    },
+    {
+      "index": 3,
+      "title": "我国的经济发展",
+      "page": 32
+    },
+    {
+      "index": 4,
+      "title": "我国的个人收入分配与社会保障",
+      "page": 44
+    }
+  ]
+}

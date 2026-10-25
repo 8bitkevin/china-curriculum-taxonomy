@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中数学七年级上册",
+  "pdf": {
+    "file": "初中数学七年级上册.pdf",
+    "sha256": "cb14b1c61bc4f85e42f714073f67eedd9cfeaacc28bc663b3d68b19b4e8df58a",
+    "pages": 162,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "有理数",
+      "page": null,
+      "sections": [
+        {
+          "no": "1.1",
+          "title": "正数和负数",
+          "page": 2
+        },
+        {
+          "no": "1.2",
+          "title": "有理数",
+          "page": 6
+        },
+        {
+          "no": "1.3",
+          "title": "有理数的加减法",
+          "page": 16
+        },
+        {
+          "no": "1.4",
+          "title": "有理数的乘除法",
+          "page": 28
+        },
+        {
+          "no": "1.5",
+          "title": "有理数的乘方",
+          "page": 41
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "整式的加减",
+      "page": null,
+      "sections": [
+        {
+          "no": "2.1",
+          "title": "整式",
+          "page": 54
+        },
+        {
+          "no": "2.2",
+          "title": "整式的加减",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "一元一次方程",
+      "page": null,
+      "sections": [
+        {
+          "no": "3.1",
+          "title": "从算式到方程",
+          "page": 78
+        },
+        {
+          "no": "3.2",
+          "title": "解一元一次方程(一)",
+          "page": null
+        },
+        {
+          "no": "3.3",
+          "title": "解一元一次方程(二)",
+          "page": null
+        },
+        {
+          "no": "3.4",
+          "title": "实际问题与一元一次方程",
+          "page": 100
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "几何图形初步",
+      "page": null,
+      "sections": [
+        {
+          "no": "4.1",
+          "title": "几何图形",
+          "page": 114
+        },
+        {
+          "no": "4.2",
+          "title": "直线、射线、线段",
+          "page": 125
+        },
+        {
+          "no": "4.3",
+          "title": "角",
+          "page": 132
+        },
+        {
+          "no": "4.4",
+          "title": "课题学习 设计制作长方体形状的包装纸盒",
+          "page": 142
+        }
+      ]
+    }
+  ]
+}

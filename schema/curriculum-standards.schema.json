@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/curriculum-standards.schema.json",
+  "title": "中国课程知识图谱 — 课程标准条目",
+  "type": "object",
+  "required": ["schemaVersion", "curriculumCount", "curricula", "codeScheme"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "codeScheme": {
+      "type": "object",
+      "required": ["id", "description"],
+      "properties": {
+        "id": { "type": "string" },
+        "description": {
+          "type": "string",
+          "description": "代码编号方案说明：本仓库自建的稳定代码，非官方编号"
+        }
+      },
+      "additionalProperties": false
+    },
+    "codesOnlySources": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "仅收录代码与极简标题、不含原文的课标来源（slug 列表）"
+    },
+    "curriculumCount": { "type": "integer", "minimum": 0 },
+    "curricula": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["slug", "title", "issuer", "year", "textIncluded", "topicCount", "topics"],
+        "properties": {
+          "slug": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+          "title": { "type": "string" },
+          "issuer": { "type": "string", "description": "发布机构，如教育部" },
+          "year": { "type": "integer" },
+          "officialUrl": { "type": ["string", "null"] },
+          "textIncluded": {
+            "type": "boolean",
+            "description": "false = 只存代码与短标题（codes-only 版权保守策略）"
+          },
+          "topicCount": { "type": "integer", "minimum": 0 },
+          "topics": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "code", "stage", "domain", "title"],
+              "properties": {
+                "key": {
+                  "type": "string",
+                  "description": "全局键：<slug>:<code>，topics.json 的 standards 引用它"
+                },
+                "code": {
+                  "type": "string",
+                  "description": "本仓库自建代码，如 S1.NA.NO.01（学段.领域.子领域.序号）"
+                },
+                "stage": { "type": "integer", "minimum": 1, "maximum": 5, "description": "学段：1-4 义务教育四学段，5 高中" },
+                "domain": { "type": "string" },
+                "title": { "type": "string", "description": "极简条目标题（自拟概括，非课标原文）" },
+                "data": {
+                  "type": ["string", "null"],
+                  "description": "仅 textIncluded=true 时可有：条目要求概述（自拟改写）"
+                }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "name": "china-curriculum-taxonomy",
+  "version": "0.1.0",
+  "description": "中国 K12 课程知识图谱：微主题 + 先修依赖图 + 国家课程标准对齐（小学/初中/高中，数据模型对齐 os-taxonomy）",
+  "private": true,
+  "type": "module",
+  "license": "SEE LICENSE IN README.md",
+  "scripts": {
+    "fetch": "python scripts/fetch-textbooks.py",
+    "toc": "python scripts/fetch-textbooks.py --toc",
+    "manifest": "node scripts/build-manifest.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test scripts/*.test.mjs viewer/*.test.mjs",
+    "extract-toc": "python scripts/extract-toc.py",
+    "toc-check": "python scripts/extract-toc.py --check",
+    "report": "node scripts/report.mjs",
+    "dev": "node scripts/dev.mjs"
+  }
+}

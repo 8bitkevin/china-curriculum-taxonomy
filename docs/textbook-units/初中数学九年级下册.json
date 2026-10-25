@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中数学九年级下册",
+  "pdf": {
+    "file": "初中数学九年级下册.pdf",
+    "sha256": "f591b70d999712d11ce03f43853005395a97daae7b62312904202f09ac2b1df8",
+    "pages": 120,
+    "hasTextLayer": false
+  },
+  "source": "manual",
+  "extractedAt": "2026-10-20",
+  "note": "扫描版 PDF 无文本层，单元结构人工整理自公开教材目录；章级结构可靠，节级划分以纸书为准待复核。获得带文本层的 PDF 后可重跑 extract-toc.py 覆盖（source=pdf-text）。",
+  "units": [
+    {
+      "index": 26,
+      "title": "反比例函数",
+      "sections": [
+        {
+          "no": "26.1",
+          "title": "反比例函数"
+        },
+        {
+          "no": "26.2",
+          "title": "实际问题与反比例函数"
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "title": "相似",
+      "sections": [
+        {
+          "no": "27.1",
+          "title": "图形的相似"
+        },
+        {
+          "no": "27.2",
+          "title": "相似三角形"
+        },
+        {
+          "no": "27.3",
+          "title": "位似"
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "title": "锐角三角函数",
+      "sections": [
+        {
+          "no": "28.1",
+          "title": "锐角三角函数"
+        },
+        {
+          "no": "28.2",
+          "title": "解直角三角形及其应用"
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "title": "投影与视图",
+      "sections": [
+        {
+          "no": "29.1",
+          "title": "投影"
+        },
+        {
+          "no": "29.2",
+          "title": "三视图"
+        },
+        {
+          "no": "29.3",
+          "title": "课题学习 制作立体模型"
+        }
+      ]
+    }
+  ]
+}

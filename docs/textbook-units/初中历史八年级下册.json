@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中历史八年级下册",
+  "pdf": {
+    "file": "初中历史八年级下册.pdf",
+    "sha256": "a3d861a3108a18ac7c8a3d32920ca68dcc4217cf1d884525605be356297f2912",
+    "pages": 114,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第1课",
+          "title": "中华人民共和国成立",
+          "page": 2
+        },
+        {
+          "no": "第2课",
+          "title": "抗美援朝",
+          "page": 8
+        },
+        {
+          "no": "第3课",
+          "title": "土地改革",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第4课",
+          "title": "新中国工业化的起步和人民代表大会制度的",
+          "page": null
+        },
+        {
+          "no": "第5课",
+          "title": "三大改造",
+          "page": 23
+        },
+        {
+          "no": "第6课",
+          "title": "艰辛探索与建设成就",
+          "page": 27
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第7课",
+          "title": "伟大的历史转折34统编版",
+          "page": null
+        },
+        {
+          "no": "第8课",
+          "title": "经济体制改革",
+          "page": 38
+        },
+        {
+          "no": "第9课",
+          "title": "对外开放",
+          "page": 42
+        },
+        {
+          "no": "第10课",
+          "title": "建设中国特色社会主义",
+          "page": 46
+        },
+        {
+          "no": "第11课",
+          "title": "为实现中国梦而努力奋斗",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第12课",
+          "title": "民族大团结",
+          "page": 60
+        },
+        {
+          "no": "第13课",
+          "title": "香港和澳门回归祖国",
+          "page": 65
+        },
+        {
+          "no": "第14课",
+          "title": "海峡两岸的交往",
+          "page": 70
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第15课",
+          "title": "钢铁长城",
+          "page": 76
+        },
+        {
+          "no": "第16课",
+          "title": "独立自主的和平外交",
+          "page": 81
+        },
+        {
+          "no": "第17课",
+          "title": "外交事业的发展",
+          "page": 85
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第18课",
+          "title": "科技文化成就",
+          "page": 90
+        },
+        {
+          "no": "第19课",
+          "title": "社会生活的变迁",
+          "page": 97
+        },
+        {
+          "no": "第20课",
+          "title": "活动课:生活环境的巨大变化",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "附录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

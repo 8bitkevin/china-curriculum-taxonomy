@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中语文九年级下册",
+  "pdf": {
+    "file": "初中语文九年级下册.pdf",
+    "sha256": "6b425c773808fcd43e94a113ff8dccde3288cfadd34e81f33af97e3da4d00df5",
+    "pages": 158,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 2,
+      "sections": [
+        {
+          "no": null,
+          "title": "1祖国啊,我亲爱的祖国/舒婷",
+          "page": null
+        },
+        {
+          "no": "4",
+          "title": "海燕/ 高尔基",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "写作学习扩写15",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 18,
+      "sections": [
+        {
+          "no": null,
+          "title": "5孔乙己/鲁迅",
+          "page": null
+        },
+        {
+          "no": "6",
+          "title": "变色龙/ 契诃夫",
+          "page": 23
+        },
+        {
+          "no": null,
+          "title": "写作审题立意42",
+          "page": 42
+        },
+        {
+          "no": null,
+          "title": "综合性学习统编版",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 48,
+      "sections": [
+        {
+          "no": null,
+          "title": "9鱼我所欲也/《孟子》",
+          "page": null
+        },
+        {
+          "no": "11",
+          "title": "送东阳马生序/ 宋濂",
+          "page": 54
+        },
+        {
+          "no": "12",
+          "title": "词四首",
+          "page": 57
+        },
+        {
+          "no": null,
+          "title": "写作布局谋篇62",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读69",
+          "page": 69
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 72,
+      "sections": [
+        {
+          "no": null,
+          "title": "13短文两篇",
+          "page": null
+        },
+        {
+          "no": "14",
+          "title": "山水画的意境/ 李可染",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "写作修改润色90",
+          "page": 90
+        },
+        {
+          "no": null,
+          "title": "口语交际",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": null,
+      "sections": [
+        {
+          "no": null,
+          "title": "·探究",
+          "page": null
+        },
+        {
+          "no": "17",
+          "title": "屈原(节选)/ 郭沫若",
+          "page": 98
+        },
+        {
+          "no": "18",
+          "title": "天下第一楼(节选)/ 何冀平",
+          "page": 104
+        },
+        {
+          "no": "19",
+          "title": "枣儿/ 孙鸿",
+          "page": 113
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 124,
+      "sections": [
+        {
+          "no": null,
+          "title": "20曹刿论战/《左传》",
+          "page": null
+        },
+        {
+          "no": "23",
+          "title": "出师表/ 诸葛亮",
+          "page": 133
+        },
+        {
+          "no": "24",
+          "title": "诗词曲五首",
+          "page": 137
+        },
+        {
+          "no": null,
+          "title": "写作有创意地表达141",
+          "page": 141
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读147",
+          "page": 147
+        },
+        {
+          "no": null,
+          "title": "注:阅读单元课文分“教读”和“自读”两类。篇名前标有*的为“自读”课文。“活动·探究”单元的",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

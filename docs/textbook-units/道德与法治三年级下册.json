@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治三年级下册",
+  "pdf": {
+    "file": "道德与法治三年级下册.pdf",
+    "sha256": "3fa051f7afd12ddc192a740c932ed349ed26e996979ed192448d83538efc39c4",
+    "pages": 98,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我和我的同伴",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "我是独特的",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "不一样的你我他",
+          "page": 10
+        },
+        {
+          "no": "3",
+          "title": "我很诚实",
+          "page": 16
+        },
+        {
+          "no": "4",
+          "title": "同学相伴",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我在这里长大",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "我的家在这里",
+          "page": 28
+        },
+        {
+          "no": "6",
+          "title": "我家的好邻居",
+          "page": 34
+        },
+        {
+          "no": "7",
+          "title": "请到我的家乡来",
+          "page": 42
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "我们的公共生活",
+      "page": null,
+      "sections": [
+        {
+          "no": "8",
+          "title": "大家的“朋友”",
+          "page": 50
+        },
+        {
+          "no": "9",
+          "title": "生活离不开规则",
+          "page": 58
+        },
+        {
+          "no": "10",
+          "title": "爱心的传递者",
+          "page": 64
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "多样的交通和通信",
+      "page": null,
+      "sections": [
+        {
+          "no": "11",
+          "title": "四通八达的交通",
+          "page": 70
+        },
+        {
+          "no": "12",
+          "title": "慧眼看交通",
+          "page": 78
+        },
+        {
+          "no": "13",
+          "title": "万里一线牵",
+          "page": 82
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中语文选择性必修中册",
+  "pdf": {
+    "file": "高中语文选择性必修中册.pdf",
+    "sha256": "5b561935422047b1f7f1b99c1340b5d623a77013062a6bf8bdb863fc010cd269",
+    "pages": 138,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "社会历史的决定性基础/恩格斯",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "改造我们的学习/毛泽东",
+          "page": 7
+        },
+        {
+          "no": "3",
+          "title": "实践是检验真理的唯一标准/《光明日报》特约评论员",
+          "page": 15
+        },
+        {
+          "no": "4",
+          "title": "* 修辞立其诚/张岱年",
+          "page": 23
+        },
+        {
+          "no": "5",
+          "title": "* 人应当坚持正义/柏拉图",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 37,
+      "sections": [
+        {
+          "no": "6",
+          "title": "记念刘和珍君/鲁迅",
+          "page": 38
+        },
+        {
+          "no": "7",
+          "title": "包身工/夏衍",
+          "page": 52
+        },
+        {
+          "no": "8",
+          "title": "荷花淀/孙犁",
+          "page": 61
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 81,
+      "sections": [
+        {
+          "no": "9",
+          "title": "屈原列传/司马迁",
+          "page": 82
+        },
+        {
+          "no": "10",
+          "title": "* 苏武传/班固",
+          "page": 87
+        },
+        {
+          "no": "11",
+          "title": "过秦论/贾谊",
+          "page": 93
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 101,
+      "sections": [
+        {
+          "no": "12",
+          "title": "玩偶之家(节选)/易卜生",
+          "page": 102
+        },
+        {
+          "no": "13",
+          "title": "迷娘(之一)/歌德",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "注:篇名前标有*的为自读课文。",
+          "page": null
+        },
+        {
+          "no": "2",
+          "title": "语文选择性必修中册",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

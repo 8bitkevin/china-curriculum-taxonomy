@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "volume": "英语四年级上册",
+  "pdf": {
+    "file": "英语四年级上册.pdf",
+    "sha256": "8bc38efb62ba2937ddca40ff3661216c1ee9970522323867f26d78cd25eeb301",
+    "pages": 82,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "My classroom",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "My schoolbag",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "My friends",
+      "page": null,
+      "sections": [
+        {
+          "no": "32",
+          "title": "Recycle",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "My home",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "Dinner's ready",
+      "page": null
+    },
+    {
+      "index": 6,
+      "title": "Meet my family!",
+      "page": null,
+      "sections": [
+        {
+          "no": "66",
+          "title": "Recycle",
+          "page": 2
+        },
+        {
+          "no": "70",
+          "title": "Appendix 1: Words in each unit",
+          "page": null
+        },
+        {
+          "no": "72",
+          "title": "Appendix 2: Vocabulary",
+          "page": null
+        },
+        {
+          "no": "74",
+          "title": "Appendix 3: Useful expressions",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

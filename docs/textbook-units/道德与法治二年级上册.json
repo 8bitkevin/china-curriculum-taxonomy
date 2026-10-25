@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治二年级上册",
+  "pdf": {
+    "file": "道德与法治二年级上册.pdf",
+    "sha256": "e2f7d1cccae0783b29f3c7bfe7275172862a90b717c4209c37ad86d0ef4de2f6",
+    "pages": 74,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我们的节假日",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "假期有收获",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "周末巧安排",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "欢欢喜喜庆国庆",
+          "page": 10
+        },
+        {
+          "no": "4",
+          "title": "团团圆圆过中秋",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们的班级",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "我爱我们班",
+          "page": 18
+        },
+        {
+          "no": "6",
+          "title": "班级生活有规则",
+          "page": 22
+        },
+        {
+          "no": "7",
+          "title": "我是班级值日生",
+          "page": 26
+        },
+        {
+          "no": "8",
+          "title": "装扮我们的教室",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "我们在公共场所",
+      "page": null,
+      "sections": [
+        {
+          "no": "9",
+          "title": "这些是大家的",
+          "page": 34
+        },
+        {
+          "no": "10",
+          "title": "我们不乱扔",
+          "page": 38
+        },
+        {
+          "no": "11",
+          "title": "大家排好队",
+          "page": 42
+        },
+        {
+          "no": "12",
+          "title": "我们小点儿声",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "我们生活的地方",
+      "page": null,
+      "sections": [
+        {
+          "no": "13",
+          "title": "我爱家乡山和水",
+          "page": 50
+        },
+        {
+          "no": "14",
+          "title": "家乡物产养育我",
+          "page": 54
+        },
+        {
+          "no": "15",
+          "title": "可亲可敬的家乡人",
+          "page": 58
+        },
+        {
+          "no": "16",
+          "title": "家乡新变化",
+          "page": 62
+        },
+        {
+          "no": "1",
+          "title": "假期有收获",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

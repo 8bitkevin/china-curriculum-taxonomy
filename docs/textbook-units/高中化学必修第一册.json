@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中化学必修第一册",
+  "pdf": {
+    "file": "高中化学必修第一册.pdf",
+    "sha256": "101c079d2a6cc8e9cf5dc5488375ef7b89f30061610870faafeb77281a03203c",
+    "pages": 139,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "物质及其变化",
+      "page": 5,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "物质的分类及转化",
+          "page": 6
+        },
+        {
+          "no": "第二节",
+          "title": "离子反应",
+          "page": 14
+        },
+        {
+          "no": "第三节",
+          "title": "氧化还原反应",
+          "page": 22
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "海水中的重要元素——钠和氯",
+      "page": 33,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "钠及其化合物",
+          "page": 34
+        },
+        {
+          "no": "第二节",
+          "title": "氯及其化合物",
+          "page": 44
+        },
+        {
+          "no": "第三节",
+          "title": "物质的量",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "铁 金属材料",
+      "page": 67,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "铁及其化合物",
+          "page": 68
+        },
+        {
+          "no": "第二节",
+          "title": "金属材料",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "物质结构 元素周期律",
+      "page": 91,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "原子结构与元素周期表",
+          "page": 92
+        },
+        {
+          "no": "第二节",
+          "title": "元素周期律",
+          "page": 107
+        },
+        {
+          "no": "第三节",
+          "title": "化学键",
+          "page": 113
+        }
+      ]
+    }
+  ]
+}

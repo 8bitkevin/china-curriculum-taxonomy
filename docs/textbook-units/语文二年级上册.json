@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文二年级上册",
+  "pdf": {
+    "file": "语文二年级上册.pdf",
+    "sha256": "3b5a3fd64d4600563bca2dedc7e5b2c9e5eda7503ffb67d4e9da9461f9e86c71",
+    "pages": 127,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

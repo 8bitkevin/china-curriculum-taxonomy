@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文四年级上册",
+  "pdf": {
+    "file": "语文四年级上册.pdf",
+    "sha256": "0836b8e6449b2467ef13e1a54e61c2f163667de6f5d143107277213a4795dc33",
+    "pages": 138,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "61◎语文园地",
+      "page": 107,
+      "sections": [
+        {
+          "no": "16",
+          "title": "麻雀",
+          "page": 62
+        },
+        {
+          "no": "17",
+          "title": "爬天都峰 65 第八单元",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:25王戎不取道旁李110",
+          "page": 110
+        },
+        {
+          "no": null,
+          "title": "◎习作:生活万花筒72扁鹊治病115",
+          "page": 115
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "73◎口语交际:",
+      "page": null,
+      "sections": [
+        {
+          "no": "18",
+          "title": "牛和鹅 74 讲历史人物故事",
+          "page": 118
+        },
+        {
+          "no": "19",
+          "title": "一只窝囊的大老虎 79 ◎ 习作:我的心儿怦怦跳",
+          "page": 119
+        },
+        {
+          "no": "20",
+          "title": "陀螺 84 ◎ 语文园地",
+          "page": 120
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:安慰89",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "◎习作:记一次游戏90识字表123",
+          "page": 123
+        },
+        {
+          "no": null,
+          "title": "◎语文园地91写字表126",
+          "page": 126
+        },
+        {
+          "no": null,
+          "title": "词语表128",
+          "page": 128
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": 93,
+      "sections": [
+        {
+          "no": "21",
+          "title": "古诗三首 94 标*的是略读课文",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

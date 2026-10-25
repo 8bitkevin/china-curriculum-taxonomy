@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中语文选择性必修上册",
+  "pdf": {
+    "file": "高中语文选择性必修上册.pdf",
+    "sha256": "59f554868f974b0c31686a2978c785f5de6dab40dfb1d7a5496775cb6fdbd456",
+    "pages": 114,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "中国人民站起来了/毛泽东",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "长征胜利万岁/杨成武",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "别了,“不列颠尼亚”/周婷杨兴",
+          "page": 16
+        },
+        {
+          "no": "4",
+          "title": "在民族复兴的历史丰碑上",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 43,
+      "sections": [
+        {
+          "no": "5",
+          "title": "《论语》十二章",
+          "page": 44
+        },
+        {
+          "no": "6",
+          "title": "《老子》四章",
+          "page": 48
+        },
+        {
+          "no": "7",
+          "title": "* 兼爱/《墨子》",
+          "page": 51
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 55,
+      "sections": [
+        {
+          "no": "8",
+          "title": "大卫·科波菲尔(节选)/狄更斯",
+          "page": 56
+        },
+        {
+          "no": "9",
+          "title": "复活(节选)/列夫·托尔斯泰",
+          "page": 67
+        },
+        {
+          "no": "10",
+          "title": "* 老人与海(节选)/海明威",
+          "page": 73
+        },
+        {
+          "no": "11",
+          "title": "* 百年孤独(节选)/加西亚·马尔克斯",
+          "page": 84
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": null,
+      "sections": [
+        {
+          "no": null,
+          "title": "注:篇名前标有*的是自读课文。",
+          "page": null
+        },
+        {
+          "no": "2",
+          "title": "语文选择性必修上册",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中数学选择性必修第二册",
+  "pdf": {
+    "file": "高中数学选择性必修第二册.pdf",
+    "sha256": "464b9b236aa043bd44685ee07362a19ef3cd8fb1805df5553cc773232ae527b0",
+    "pages": 114,
+    "hasTextLayer": false
+  },
+  "source": "manual",
+  "extractedAt": "2026-10-20",
+  "note": "扫描版 PDF 无文本层，单元结构人工整理自公开教材目录；章级结构可靠，节级划分以纸书为准待复核。获得带文本层的 PDF 后可重跑 extract-toc.py 覆盖（source=pdf-text）。",
+  "units": [
+    {
+      "index": 1,
+      "title": "数列",
+      "sections": [
+        {
+          "no": "1.1",
+          "title": "数列的概念"
+        },
+        {
+          "no": "1.2",
+          "title": "等差数列"
+        },
+        {
+          "no": "1.3",
+          "title": "等比数列"
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "一元函数的导数及其应用",
+      "sections": [
+        {
+          "no": "2.1",
+          "title": "导数的概念及其意义"
+        },
+        {
+          "no": "2.2",
+          "title": "导数的四则运算法则"
+        },
+        {
+          "no": "2.3",
+          "title": "简单的复合函数的导数"
+        },
+        {
+          "no": "2.4",
+          "title": "导数在研究函数中的应用"
+        }
+      ]
+    }
+  ]
+}

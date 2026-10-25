@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中国 K12 课程知识图谱</title>
+<meta name="description" content="微主题 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
+<link rel="stylesheet" href="style.css?v=ui4">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+        <path d="M12 8.4 5.6 16.7M12 8.4l6.4 8.3" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
+        <circle cx="12" cy="5.6" r="2.7" fill="#fff"/>
+        <circle cx="5" cy="18.2" r="2.5" fill="#cfd6ff"/>
+        <circle cx="19" cy="18.2" r="2.5" fill="#cfd6ff"/>
+      </svg>
+    </span>
+    <div>
+      <h1>中国 K12 课程知识图谱</h1>
+      <p id="brand-sub">加载数据中…</p>
+    </div>
+  </div>
+
+  <div class="controls">
+    <nav class="tabs" role="tablist">
+      <button id="tab-graph" class="tab active" type="button">图谱浏览</button>
+      <button id="tab-graph3d" class="tab" type="button">3D 全景</button>
+      <button id="tab-quality" class="tab" type="button">质量自查</button>
+    </nav>
+    <label class="ctl">搜索
+      <input id="search" type="search" placeholder="如：凑十法 / 拼音 / 欧姆定律" autocomplete="off">
+    </label>
+    <label class="ctl">年级
+      <select id="grade"><option value="0">全部</option></select>
+    </label>
+    <label class="ctl">领域
+      <select id="domain"><option value="">全部</option></select>
+    </label>
+  </div>
+</header>
+
+<main class="layout">
+  <aside id="side" class="side">
+    <div class="side-head">
+      <button id="back-btn" class="back-btn" type="button" hidden aria-label="返回全部学科">‹</button>
+      <span id="list-title">全部学科</span>
+      <span id="list-count" class="muted"></span>
+    </div>
+    <div id="list" class="list"></div>
+  </aside>
+
+  <section id="detail" class="detail">
+    <div class="placeholder" id="detail-placeholder">
+      <p>从左侧选择一个微主题，或直接搜索（试试「凑十法」「拼音」）。</p>
+      <p class="muted">点击任一主题，用<b>学习路径图</b>一眼看清：左边要先学什么、右边能解锁什么（连线附「必需/有益」理由，双击可跳转）；另有掌握证据、测评问法与课标对齐。可用「学科」筛选切换科目。</p>
+    </div>
+  </section>
+
+  <div id="graph3d-mount" class="g3" hidden></div>
+</main>
+
+<footer class="foot">
+  <span><a href="https://github.com/8bitkevin/china-curriculum-taxonomy" target="_blank" rel="noopener">GitHub</a> ·
+  数据 <a href="https://github.com/8bitkevin/china-curriculum-taxonomy#许可" target="_blank" rel="noopener">ODbL 1.0 / CC BY-SA 4.0</a> ·
+  浏览器直接 fetch <code>data/*.json</code> 即可集成</span>
+</footer>
+
+<script src="vendor/dagre.min.js"></script>
+<script type="module" src="viewer.js?v=ui4"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中地理选择性必修1自然地理基础",
+  "pdf": {
+    "file": "高中地理选择性必修1自然地理基础.pdf",
+    "sha256": "7fccdf1de16bbb5b9a92a90c41084807c7ce5a1c329ee29057adaf5d37bd6a4f",
+    "pages": 106,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "地球的运动",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "地球的自转和公转",
+          "page": 2
+        },
+        {
+          "no": "第二节",
+          "title": "地球运动的地理意义",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "地表形态的塑造",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "塑造地表形态的力量",
+          "page": 18
+        },
+        {
+          "no": "第二节",
+          "title": "构造地貌的形成",
+          "page": 26
+        },
+        {
+          "no": "第三节",
+          "title": "河流地貌的发育",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "大气的运动",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "常见天气系统",
+          "page": 42
+        },
+        {
+          "no": "第二节",
+          "title": "气压带和风带",
+          "page": 48
+        },
+        {
+          "no": "第三节",
+          "title": "气压带和风带对气候的影响",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "水的运动",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "陆地水体及其相互关系",
+          "page": 64
+        },
+        {
+          "no": "第二节",
+          "title": "洋流",
+          "page": 68
+        },
+        {
+          "no": "第三节",
+          "title": "海—气相互作用",
+          "page": 72
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "自然环境的整体性与差异性",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然环境的整体性",
+          "page": 80
+        },
+        {
+          "no": "第二节",
+          "title": "自然环境的地域差异性",
+          "page": 86
+        }
+      ]
+    }
+  ]
+}

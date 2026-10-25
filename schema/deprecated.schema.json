@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/deprecated.schema.json",
+  "title": "中国课程知识图谱 — 废弃主题登记",
+  "type": "object",
+  "required": ["schemaVersion", "entryCount", "entries"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "note": { "type": "string" },
+    "entryCount": { "type": "integer", "minimum": 0 },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "reason", "deprecatedAt"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^ct_", "description": "被废弃的主题 id（已从 topics.json 移除）" },
+          "reason": { "type": "string", "minLength": 1, "description": "废弃原因：拆分 / 合并 / 内容错误 / 教材改版等" },
+          "replacedBy": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^ct_" },
+            "description": "替代主题 id（必须仍存在于 topics.json；可为空表示无直接替代）"
+          },
+          "deprecatedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "废弃日期" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

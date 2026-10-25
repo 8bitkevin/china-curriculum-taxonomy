@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中英语七年级上册",
+  "pdf": {
+    "file": "初中英语七年级上册.pdf",
+    "sha256": "4cdfd213e2c54164b6b97bcd6d15e93b71e6b243e8aea958f330e6bf8822f46e",
+    "pages": 138,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

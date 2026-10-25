@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "volume": "数学四年级下册",
+  "pdf": {
+    "file": "数学四年级下册.pdf",
+    "sha256": "6f8fc1dc5a5105c91dcd65221232041f9a89de232fb26009bfee42b35f6ebe02",
+    "pages": 123,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "四则运算",
+      "page": 2
+    },
+    {
+      "index": 2,
+      "title": "观察物体(二)",
+      "page": 13
+    },
+    {
+      "index": 3,
+      "title": "运算律",
+      "page": 17
+    },
+    {
+      "index": 4,
+      "title": "小数的意义和性质",
+      "page": 32
+    },
+    {
+      "index": 5,
+      "title": "三角形",
+      "page": 57
+    },
+    {
+      "index": 6,
+      "title": "小数的加法和减法",
+      "page": 69
+    },
+    {
+      "index": 7,
+      "title": "图形的运动(二)",
+      "page": 79
+    },
+    {
+      "index": 8,
+      "title": "平均数与条形统计图",
+      "page": 87
+    },
+    {
+      "index": 9,
+      "title": "数学广角—鸡兔同笼",
+      "page": 99
+    },
+    {
+      "index": 10,
+      "title": "总复习",
+      "page": 103
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治五年级上册",
+  "pdf": {
+    "file": "道德与法治五年级上册.pdf",
+    "sha256": "e2aa4d0bd7c16178942912988b168885e5434953a11f6e7ff32e7b57f06159e0",
+    "pages": 98,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "面对成长中的新问题",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "自主选择课余生活",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "学会沟通交流",
+          "page": 10
+        },
+        {
+          "no": "3",
+          "title": "主动拒绝烟酒与毒品",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们是班级的主人",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "选举产生班委会",
+          "page": 26
+        },
+        {
+          "no": "5",
+          "title": "协商决定班级事务",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "我们的国土我们的家园",
+      "page": null,
+      "sections": [
+        {
+          "no": "6",
+          "title": "我们神圣的国土",
+          "page": 44
+        },
+        {
+          "no": "7",
+          "title": "中华民族一家亲",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "骄人祖先灿烂文化",
+      "page": null,
+      "sections": [
+        {
+          "no": "8",
+          "title": "美丽文字民族瑰宝",
+          "page": 62
+        },
+        {
+          "no": "9",
+          "title": "古代科技耀我中华",
+          "page": 72
+        },
+        {
+          "no": "10",
+          "title": "传统美德源远流长",
+          "page": 82
+        }
+      ]
+    }
+  ]
+}

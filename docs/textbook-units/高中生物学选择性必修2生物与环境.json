@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中生物学选择性必修2生物与环境",
+  "pdf": {
+    "file": "高中生物学选择性必修2生物与环境.pdf",
+    "sha256": "c9245089c2babf9928e6527656f56b0747de9206c2367282e9a47741dcd6d201",
+    "pages": 126,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": []
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中化学选择性必修2物质结构与性质",
+  "pdf": {
+    "file": "高中化学选择性必修2物质结构与性质.pdf",
+    "sha256": "e97c1448605a4b26fd50e40663555fe868b0752800128dbaed52fe69345fb7e3",
+    "pages": 115,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "原子结构与性质",
+      "page": 5,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "原子结构",
+          "page": 6
+        },
+        {
+          "no": "第二节",
+          "title": "原子结构与元素的性质",
+          "page": 18
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "分子结构与性质",
+      "page": 33
+    },
+    {
+      "index": 3,
+      "title": "晶体结构与性质",
+      "page": 67,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "物质的聚集状态与晶体的常识",
+          "page": 68
+        },
+        {
+          "no": "第二节",
+          "title": "分子晶体与共价晶体",
+          "page": 78
+        },
+        {
+          "no": "第三节",
+          "title": "金属晶体与离子晶体",
+          "page": 86
+        },
+        {
+          "no": "第四节",
+          "title": "配合物与超分子",
+          "page": 95
+        }
+      ]
+    }
+  ]
+}

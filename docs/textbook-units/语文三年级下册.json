@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文三年级下册",
+  "pdf": {
+    "file": "语文三年级下册.pdf",
+    "sha256": "9878324d564f7cad317a052ef9a2178bba2f7cfe33c7abfba3f006a3cd7e4b35",
+    "pages": 130,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 4,
+      "title": "47第七单元",
+      "page": 85,
+      "sections": [
+        {
+          "no": "13",
+          "title": "花钟 48 22 我们奇妙的世界",
+          "page": 86
+        },
+        {
+          "no": "14",
+          "title": "蜜蜂 51 23 海底世界",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "◎习作:我做了一项小实验56◎口语交际:劝告93",
+          "page": 93
+        },
+        {
+          "no": null,
+          "title": "◎语文园地57◎习作:国宝大熊猫94",
+          "page": 94
+        },
+        {
+          "no": null,
+          "title": "◎语文园地95",
+          "page": 95
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 59,
+      "sections": [
+        {
+          "no": "16",
+          "title": "宇宙的另一边 60 第八单元",
+          "page": 97
+        },
+        {
+          "no": "17",
+          "title": "我变成了一棵树 63 25 慢性子裁缝和急性子顾客",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:26*方帽子店102",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "◎习作:奇妙的想象70◎口语交际:趣味故事会112",
+          "page": 112
+        },
+        {
+          "no": null,
+          "title": "◎习作:这样想象真有趣113",
+          "page": 113
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "71◎语文园地",
+      "page": 114,
+      "sections": [
+        {
+          "no": "18",
+          "title": "童年的水墨画",
+          "page": 72
+        },
+        {
+          "no": "19",
+          "title": "剃头大师 74 识字表",
+          "page": 116
+        },
+        {
+          "no": "20",
+          "title": "肥皂泡 77 写字表",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "◎习作:统编版",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "◎语文园地83标*的是略读课文",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治一年级下册",
+  "pdf": {
+    "file": "道德与法治一年级下册.pdf",
+    "sha256": "6c4a4530c51f4303ed0afffb00b5007077f6b25e8a81442f7a56a608799c09ad",
+    "pages": 78,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "我的好习惯",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "我们爱整洁",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "我们有精神",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "我不拖拉",
+          "page": 10
+        },
+        {
+          "no": "4",
+          "title": "不做 “ 小马虎 ”",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我和大自然",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "风儿轻轻吹",
+          "page": 18
+        },
+        {
+          "no": "6",
+          "title": "花儿草儿真美丽",
+          "page": 22
+        },
+        {
+          "no": "7",
+          "title": "可爱的动物",
+          "page": 26
+        },
+        {
+          "no": "8",
+          "title": "大自然 ,谢谢您",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "我爱我家",
+      "page": null,
+      "sections": [
+        {
+          "no": "9",
+          "title": "我和我的家",
+          "page": 34
+        },
+        {
+          "no": "10",
+          "title": "家人的爱",
+          "page": 38
+        },
+        {
+          "no": "11",
+          "title": "让我自己来整理",
+          "page": 42
+        },
+        {
+          "no": "12",
+          "title": "干点家务活",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "我们在一起",
+      "page": null,
+      "sections": [
+        {
+          "no": "13",
+          "title": "我想和你们一起玩",
+          "page": 50
+        },
+        {
+          "no": "14",
+          "title": "请帮我一下吧",
+          "page": 54
+        },
+        {
+          "no": "15",
+          "title": "分享真快乐",
+          "page": 58
+        },
+        {
+          "no": "16",
+          "title": "大家一起来合作",
+          "page": 62
+        },
+        {
+          "no": "17",
+          "title": "我们都是少先队员",
+          "page": 66
+        }
+      ]
+    }
+  ]
+}

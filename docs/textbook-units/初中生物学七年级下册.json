@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中生物学七年级下册",
+  "pdf": {
+    "file": "初中生物学七年级下册.pdf",
+    "sha256": "3ff44d179abaff626474b0d2ba89ebf28ddccd7413276ea1497df8e73b449a2b",
+    "pages": 120,
+    "hasTextLayer": false
+  },
+  "source": "pending",
+  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+}

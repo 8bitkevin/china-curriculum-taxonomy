@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "volume": "英语三年级上册",
+  "pdf": {
+    "file": "英语三年级上册.pdf",
+    "sha256": "349949e1df2ad88b9f6a8cbb6d96951f1113770d59ee1d9db4cfaaab1d9b685d",
+    "pages": 82,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "Hello!",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "Colours",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "Look at me!",
+      "page": null,
+      "sections": [
+        {
+          "no": "32",
+          "title": "Recycle",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "We love animals",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "Let’s eat!",
+      "page": null
+    },
+    {
+      "index": 6,
+      "title": "Happy birthday!",
+      "page": null,
+      "sections": [
+        {
+          "no": "66",
+          "title": "Recycle",
+          "page": 2
+        },
+        {
+          "no": "70",
+          "title": "Appendix 1: Words in each unit",
+          "page": null
+        },
+        {
+          "no": "72",
+          "title": "Appendix 2: Vocabulary",
+          "page": null
+        },
+        {
+          "no": "74",
+          "title": "Appendix 3: Useful expressions",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

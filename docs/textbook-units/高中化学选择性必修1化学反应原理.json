@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "volume": "高中化学选择性必修1化学反应原理",
+  "pdf": {
+    "file": "高中化学选择性必修1化学反应原理.pdf",
+    "sha256": "d38d5f3cb0d379d7860e9f7389d657b43828a1b088f38e0b231146743778fe76",
+    "pages": 139,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "化学反应的热效应",
+      "page": 3,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "反应热",
+          "page": 4
+        },
+        {
+          "no": "第二节",
+          "title": "反应热的计算",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "化学反应速率与化学平衡",
+      "page": 23,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "化学反应速率",
+          "page": 24
+        },
+        {
+          "no": "第二节",
+          "title": "化学平衡",
+          "page": 32
+        },
+        {
+          "no": "第三节",
+          "title": "化学反应的方向",
+          "page": 43
+        },
+        {
+          "no": "第四节",
+          "title": "化学反应的调控",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "水溶液中的离子反应与平衡",
+      "page": 57,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "电离平衡",
+          "page": 58
+        },
+        {
+          "no": "第二节",
+          "title": "水的电离和溶液的pH",
+          "page": 63
+        },
+        {
+          "no": "第三节",
+          "title": "盐类的水解",
+          "page": 71
+        },
+        {
+          "no": "第四节",
+          "title": "沉淀溶解平衡",
+          "page": 79
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "化学反应与电能",
+      "page": 95,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "原电池",
+          "page": 96
+        },
+        {
+          "no": "第二节",
+          "title": "电解池",
+          "page": 104
+        },
+        {
+          "no": "第三节",
+          "title": "金属的腐蚀与防护",
+          "page": 111
+        }
+      ]
+    }
+  ]
+}

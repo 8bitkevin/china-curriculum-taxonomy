@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中数学八年级下册",
+  "pdf": {
+    "file": "初中数学八年级下册.pdf",
+    "sha256": "0c9ce86ae90f59091f5c9a2204d3a56cb11fc31da46865c28fa65a18e3ecaedc",
+    "pages": 145,
+    "hasTextLayer": false
+  },
+  "source": "manual",
+  "extractedAt": "2026-10-20",
+  "note": "扫描版 PDF 无文本层，单元结构人工整理自公开教材目录；章级结构可靠，节级划分以纸书为准待复核。获得带文本层的 PDF 后可重跑 extract-toc.py 覆盖（source=pdf-text）。",
+  "units": [
+    {
+      "index": 16,
+      "title": "二次根式",
+      "sections": [
+        {
+          "no": "16.1",
+          "title": "二次根式"
+        },
+        {
+          "no": "16.2",
+          "title": "二次根式的乘除"
+        },
+        {
+          "no": "16.3",
+          "title": "二次根式的加减"
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "title": "勾股定理",
+      "sections": [
+        {
+          "no": "17.1",
+          "title": "勾股定理"
+        },
+        {
+          "no": "17.2",
+          "title": "勾股定理的逆定理"
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "title": "平行四边形",
+      "sections": [
+        {
+          "no": "18.1",
+          "title": "平行四边形"
+        },
+        {
+          "no": "18.2",
+          "title": "特殊的平行四边形"
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "title": "一次函数",
+      "sections": [
+        {
+          "no": "19.1",
+          "title": "函数"
+        },
+        {
+          "no": "19.2",
+          "title": "一次函数"
+        },
+        {
+          "no": "19.3",
+          "title": "课题学习 选择方案"
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "title": "数据的分析",
+      "sections": [
+        {
+          "no": "20.1",
+          "title": "数据的集中趋势"
+        },
+        {
+          "no": "20.2",
+          "title": "数据的波动程度"
+        },
+        {
+          "no": "20.3",
+          "title": "课题学习 体质健康测试中的数据分析"
+        }
+      ]
+    }
+  ]
+}

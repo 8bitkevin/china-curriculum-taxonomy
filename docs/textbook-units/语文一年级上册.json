@@ -1,0 +1,264 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文一年级上册",
+  "pdf": {
+    "file": "语文一年级上册.pdf",
+    "sha256": "a692a990d41b6291b6c33078b6739c9c7d2c07ad70a949e39f031fd05c6ac8a5",
+    "pages": 127,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": null,
+      "title": "识字",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "天地人",
+          "page": 6
+        },
+        {
+          "no": "2",
+          "title": "金木水火土",
+          "page": 7
+        },
+        {
+          "no": "3",
+          "title": "口耳目",
+          "page": 9
+        },
+        {
+          "no": "4",
+          "title": "日月水火",
+          "page": 11
+        },
+        {
+          "no": "5",
+          "title": "对韵歌",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:我说你做14",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "◎语文园地一15",
+          "page": 15
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧:读书真快乐19",
+          "page": 19
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "汉语拼音",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "a o e",
+          "page": 20
+        },
+        {
+          "no": "2",
+          "title": "i u ü y w",
+          "page": 22
+        },
+        {
+          "no": "5",
+          "title": "g k h",
+          "page": 28
+        },
+        {
+          "no": "6",
+          "title": "j q x",
+          "page": 30
+        },
+        {
+          "no": "7",
+          "title": "z c s",
+          "page": 32
+        },
+        {
+          "no": null,
+          "title": "◎语文园地二36",
+          "page": 36
+        },
+        {
+          "no": "11",
+          "title": "ie üe er",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎语文园地三51",
+          "page": 51
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "课文",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "秋天",
+          "page": 54
+        },
+        {
+          "no": "2",
+          "title": "小小的船",
+          "page": 56
+        },
+        {
+          "no": "3",
+          "title": "江南",
+          "page": 58
+        },
+        {
+          "no": "4",
+          "title": "四季",
+          "page": 60
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:我们做朋友62",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "◎语文园地四63",
+          "page": 63
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "识字（二）",
+      "page": null,
+      "sections": [
+        {
+          "no": "6",
+          "title": "画",
+          "page": 67
+        },
+        {
+          "no": "7",
+          "title": "大小多少",
+          "page": 68
+        },
+        {
+          "no": "8",
+          "title": "小书包",
+          "page": 70
+        },
+        {
+          "no": "9",
+          "title": "日月明",
+          "page": 72
+        },
+        {
+          "no": "10",
+          "title": "升国旗",
+          "page": 74
+        },
+        {
+          "no": null,
+          "title": "◎语文园地五76",
+          "page": 76
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "课文（二）",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "影子",
+          "page": 80
+        },
+        {
+          "no": "6",
+          "title": "比尾巴",
+          "page": 82
+        },
+        {
+          "no": "7",
+          "title": "青蛙写诗",
+          "page": 84
+        },
+        {
+          "no": "8",
+          "title": "雨点儿",
+          "page": 87
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:用多大的声音89",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "◎语文园地六90",
+          "page": 90
+        },
+        {
+          "no": "9",
+          "title": "明天要远足",
+          "page": 93
+        },
+        {
+          "no": "10",
+          "title": "大还是小",
+          "page": 96
+        },
+        {
+          "no": "11",
+          "title": "项链",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "◎语文园地七100",
+          "page": 100
+        },
+        {
+          "no": "12",
+          "title": "雪地里的小画家",
+          "page": 104
+        },
+        {
+          "no": "13",
+          "title": "乌鸦喝水",
+          "page": 106
+        },
+        {
+          "no": "14",
+          "title": "小蜗牛",
+          "page": 108
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:小兔运南瓜111",
+          "page": 111
+        },
+        {
+          "no": null,
+          "title": "◎语文园地八112",
+          "page": 112
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治二年级下册",
+  "pdf": {
+    "file": "道德与法治二年级下册.pdf",
+    "sha256": "30335ab9e22d3608f5532e47fb303233c63439d4863da5af86d0d3984f79ea88",
+    "pages": 74,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "让我试试看",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "挑战第一次",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "学做“快乐鸟”",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "做个“开心果”",
+          "page": 10
+        },
+        {
+          "no": "4",
+          "title": "试种一粒籽",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们好好玩",
+      "page": null,
+      "sections": [
+        {
+          "no": "5",
+          "title": "健康游戏我常玩",
+          "page": 18
+        },
+        {
+          "no": "6",
+          "title": "传统游戏我会玩",
+          "page": 22
+        },
+        {
+          "no": "7",
+          "title": "我们有新玩法",
+          "page": 26
+        },
+        {
+          "no": "8",
+          "title": "安全地玩",
+          "page": 30
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "绿色小卫士",
+      "page": null,
+      "sections": [
+        {
+          "no": "9",
+          "title": "小水滴的诉说",
+          "page": 34
+        },
+        {
+          "no": "10",
+          "title": "清新空气是个宝",
+          "page": 38
+        },
+        {
+          "no": "11",
+          "title": "我是一张纸",
+          "page": 42
+        },
+        {
+          "no": "12",
+          "title": "我的环保小搭档",
+          "page": 46
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "我会努力的",
+      "page": null,
+      "sections": [
+        {
+          "no": "13",
+          "title": "我能行",
+          "page": 50
+        },
+        {
+          "no": "14",
+          "title": "学习有方法",
+          "page": 54
+        },
+        {
+          "no": "15",
+          "title": "坚持才会有收获",
+          "page": 58
+        },
+        {
+          "no": "16",
+          "title": "奖励一下自己",
+          "page": 62
+        },
+        {
+          "no": "1",
+          "title": "挑战第一次",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

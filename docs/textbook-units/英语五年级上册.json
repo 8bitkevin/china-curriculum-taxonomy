@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "volume": "英语五年级上册",
+  "pdf": {
+    "file": "英语五年级上册.pdf",
+    "sha256": "daa90314ad92db7b37ac01d32caa1c7eca99960a9c17e66e9b086275fc161c17",
+    "pages": 86,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "What‘s he like?",
+      "page": null
+    },
+    {
+      "index": 2,
+      "title": "My week",
+      "page": null
+    },
+    {
+      "index": 3,
+      "title": "What would you like?",
+      "page": null,
+      "sections": [
+        {
+          "no": "32",
+          "title": "Recycle",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "What can you do?",
+      "page": null
+    },
+    {
+      "index": 5,
+      "title": "There is a big bed",
+      "page": null
+    },
+    {
+      "index": 6,
+      "title": "In a nature park",
+      "page": null,
+      "sections": [
+        {
+          "no": "66",
+          "title": "Recycle",
+          "page": 2
+        },
+        {
+          "no": "70",
+          "title": "Appendix 1: Songs in each unit",
+          "page": null
+        },
+        {
+          "no": "72",
+          "title": "Appendix 2: Words in each unit",
+          "page": null
+        },
+        {
+          "no": "75",
+          "title": "Appendix 3: Vocabulary",
+          "page": null
+        },
+        {
+          "no": "78",
+          "title": "Appendix 4: Useful expressions",
+          "page": null
+        },
+        {
+          "no": "79",
+          "title": "Appendix 5: Proverbs",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "volume": "语文六年级上册",
+  "pdf": {
+    "file": "语文六年级上册.pdf",
+    "sha256": "9916db7cc39a5f13df599a8e221399e6a92b7e28668b185ddb56673e94ea1192",
+    "pages": 142,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 5,
+      "title": "73伯牙鼓琴",
+      "page": 102,
+      "sections": [
+        {
+          "no": "16",
+          "title": "夏天里的成长 74 书戴嵩画牛",
+          "page": 103
+        },
+        {
+          "no": "17",
+          "title": "盼 76 23 月光曲",
+          "page": 105
+        },
+        {
+          "no": null,
+          "title": "◎习作例文:24*京剧趣谈107",
+          "page": 107
+        },
+        {
+          "no": null,
+          "title": "◎习作:围绕中心意思写84◎语文园地111",
+          "page": 111
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "85第八单元",
+      "page": 113,
+      "sections": [
+        {
+          "no": "18",
+          "title": "古诗三首 86 25 少年闰土",
+          "page": 114
+        },
+        {
+          "no": "19",
+          "title": "只有一个地球 88 ◎ 习作:有你,真好",
+          "page": 127
+        },
+        {
+          "no": null,
+          "title": "◎口语交际:意见不同怎么办97写字表130",
+          "page": 130
+        },
+        {
+          "no": null,
+          "title": "◎习作:学写倡议书98词语表132",
+          "page": 132
+        },
+        {
+          "no": null,
+          "title": "◎语文园地99",
+          "page": 99
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": 101,
+      "sections": [
+        {
+          "no": "22",
+          "title": "文言文二则",
+          "page": 102
+        }
+      ]
+    }
+  ]
+}

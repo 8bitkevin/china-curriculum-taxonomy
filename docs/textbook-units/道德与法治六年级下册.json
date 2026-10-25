@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "volume": "道德与法治六年级下册",
+  "pdf": {
+    "file": "道德与法治六年级下册.pdf",
+    "sha256": "0567292f34f28ca7408d9333b9b92c43fbc6b54140bc56375cd18bb2e6c0de59",
+    "pages": 90,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "完善自我健康成长",
+      "page": null,
+      "sections": [
+        {
+          "no": "1",
+          "title": "学会尊重",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "学会宽容",
+          "page": 12
+        },
+        {
+          "no": "3",
+          "title": "学会反思",
+          "page": 20
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "爱护地球共同责任",
+      "page": null,
+      "sections": [
+        {
+          "no": "4",
+          "title": "地球—我们的家园",
+          "page": 28
+        },
+        {
+          "no": "5",
+          "title": "应对自然灾害",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "多样文明多彩生活",
+      "page": null,
+      "sections": [
+        {
+          "no": "6",
+          "title": "探访古代文明",
+          "page": 44
+        },
+        {
+          "no": "7",
+          "title": "多元文化多样魅力",
+          "page": 50
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "让世界更美好",
+      "page": null,
+      "sections": [
+        {
+          "no": "8",
+          "title": "科技发展造福人类",
+          "page": 58
+        },
+        {
+          "no": "9",
+          "title": "日益重要的国际组织",
+          "page": 66
+        },
+        {
+          "no": "10",
+          "title": "我们爱和平",
+          "page": 74
+        }
+      ]
+    }
+  ]
+}

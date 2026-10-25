@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中化学九年级下册",
+  "pdf": {
+    "file": "初中化学九年级下册.pdf",
+    "sha256": "62e5616df6507ffe48e47794321c59e281eccadc10f6c4afd92bf26a32a7a70e",
+    "pages": 121,
+    "hasTextLayer": false
+  },
+  "source": "pending",
+  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+}

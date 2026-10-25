@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中历史九年级下册",
+  "pdf": {
+    "file": "初中历史九年级下册.pdf",
+    "sha256": "4a9043ed1685ae4645b8f83fcbd87f6d19892a1d0359c35e96f8999d6eaa4b1f",
+    "pages": 119,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第1课",
+          "title": "殖民地人民的反抗斗争",
+          "page": 2
+        },
+        {
+          "no": "第2课",
+          "title": "俄国的改革",
+          "page": 6
+        },
+        {
+          "no": "第3课",
+          "title": "美国内战",
+          "page": 10
+        },
+        {
+          "no": "第4课",
+          "title": "日本明治维新",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第5课",
+          "title": "第二次工业革命",
+          "page": 18
+        },
+        {
+          "no": "第6课",
+          "title": "工业化国家的社会变化",
+          "page": 23
+        },
+        {
+          "no": "第7课",
+          "title": "近代科学与文化",
+          "page": 28
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第8课",
+          "title": "第一次世界大战",
+          "page": 34
+        },
+        {
+          "no": "第9课",
+          "title": "列宁与十月革命",
+          "page": 39
+        },
+        {
+          "no": "第10课",
+          "title": "《凡尔赛条约》和《九国公约》",
+          "page": 43
+        },
+        {
+          "no": "第11课",
+          "title": "苏联的社会主义建设",
+          "page": 47
+        },
+        {
+          "no": "第12课",
+          "title": "亚非拉民族民主运动的高涨",
+          "page": 52
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第13课",
+          "title": "罗斯福新政",
+          "page": 58
+        },
+        {
+          "no": "第14课",
+          "title": "法西斯国家的侵略扩张",
+          "page": 63
+        },
+        {
+          "no": "第15课",
+          "title": "第二次世界大战",
+          "page": 67
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第16课",
+          "title": "冷战",
+          "page": 74
+        },
+        {
+          "no": "第17课",
+          "title": "二战后资本主义的新变化",
+          "page": 79
+        },
+        {
+          "no": "第18课",
+          "title": "社会主义的发展与挫折",
+          "page": 83
+        },
+        {
+          "no": "第19课",
+          "title": "亚非拉国家的新发展",
+          "page": 87
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": null,
+      "sections": [
+        {
+          "no": "第20课",
+          "title": "联合国与世界贸易组织",
+          "page": 92
+        },
+        {
+          "no": "第21课",
+          "title": "冷战后的世界格局",
+          "page": 97
+        },
+        {
+          "no": "第22课",
+          "title": "不断发展的现代社会",
+          "page": 102
+        },
+        {
+          "no": "第23课",
+          "title": "活动课:时事溯源",
+          "page": 107
+        },
+        {
+          "no": null,
+          "title": "附录统编版",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

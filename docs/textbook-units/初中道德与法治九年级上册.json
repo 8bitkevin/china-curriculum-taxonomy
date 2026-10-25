@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中道德与法治九年级上册",
+  "pdf": {
+    "file": "初中道德与法治九年级上册.pdf",
+    "sha256": "a759e80bd8ef87c29c1504e062c81d0c123dde8b8ccf026bbf58b4bf7daa6ae9",
+    "pages": 126,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "富强与创新",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一课",
+          "title": "踏上强国之路",
+          "page": 2
+        },
+        {
+          "no": "第二课",
+          "title": "创新驱动发展",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "民主与法治",
+      "page": 29,
+      "sections": [
+        {
+          "no": "第三课",
+          "title": "追求民主价值",
+          "page": 30
+        },
+        {
+          "no": "第四课",
+          "title": "建设法治中国",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "文明与家园",
+      "page": 57,
+      "sections": [
+        {
+          "no": "第五课",
+          "title": "守望精神家园",
+          "page": 58
+        },
+        {
+          "no": "第六课",
+          "title": "建设美丽中国",
+          "page": 74
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "和谐与梦想",
+      "page": 89,
+      "sections": [
+        {
+          "no": "第七课",
+          "title": "中华一家亲",
+          "page": 90
+        },
+        {
+          "no": "第八课",
+          "title": "中国人中国梦",
+          "page": 104
+        }
+      ]
+    }
+  ]
+}

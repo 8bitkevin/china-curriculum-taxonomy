@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中化学九年级上册",
+  "pdf": {
+    "file": "初中化学九年级上册.pdf",
+    "sha256": "49a90f62a568bc1763838ddf3c0f25ef3c15958c0e1919fae6a3c2bbf9b35941",
+    "pages": 162,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "走进化学世界",
+      "page": 5,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "物质的变化和性质",
+          "page": 6
+        },
+        {
+          "no": "课题2",
+          "title": "化学是一门以实验为基础 的科学",
+          "page": 11
+        },
+        {
+          "no": "课题3",
+          "title": "走进化学实验室",
+          "page": 17
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "我们周围的空气",
+      "page": 25,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "空气",
+          "page": 26
+        },
+        {
+          "no": "课题2",
+          "title": "氧气",
+          "page": 33
+        },
+        {
+          "no": "课题3",
+          "title": "制取氧气",
+          "page": 37
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "物质构成的奥秘",
+      "page": 47,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "分子和原子",
+          "page": 48
+        },
+        {
+          "no": "课题2",
+          "title": "原子的结构",
+          "page": 53
+        },
+        {
+          "no": "课题3",
+          "title": "元素",
+          "page": 59
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "自然界的水",
+      "page": 67,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "爱护水资源",
+          "page": 68
+        },
+        {
+          "no": "课题2",
+          "title": "水的净化",
+          "page": 74
+        },
+        {
+          "no": "课题3",
+          "title": "水的组成",
+          "page": 79
+        },
+        {
+          "no": "课题4",
+          "title": "化学式与化合价",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "化学方程式",
+      "page": 91,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "质量守恒定律",
+          "page": 92
+        },
+        {
+          "no": "课题2",
+          "title": "如何正确书写化学方程式",
+          "page": 99
+        },
+        {
+          "no": "课题3",
+          "title": "利用化学方程式的简单计算",
+          "page": 102
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "碳和碳的氧化物",
+      "page": 105,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "金刚石、石墨和C60",
+          "page": 106
+        },
+        {
+          "no": "课题2",
+          "title": "二氧化碳制取的研究",
+          "page": 113
+        },
+        {
+          "no": "课题3",
+          "title": "二氧化碳和一氧化碳",
+          "page": 117
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "燃料及其利用",
+      "page": 127,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "燃烧和灭火",
+          "page": 128
+        },
+        {
+          "no": "课题2",
+          "title": "燃料的合理利用与开发",
+          "page": 136
+        },
+        {
+          "no": null,
+          "title": "附录I初中化学实验室常用仪器151",
+          "page": 151
+        },
+        {
+          "no": null,
+          "title": "附录II相对原子质量表153",
+          "page": 153
+        },
+        {
+          "no": null,
+          "title": "附录III部分名词中英文对照表154",
+          "page": 154
+        },
+        {
+          "no": "2",
+          "title": "2 目录",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

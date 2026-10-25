@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中语文七年级下册",
+  "pdf": {
+    "file": "初中语文七年级下册.pdf",
+    "sha256": "a8f132a4524a92b6093d33addf4b13d0241baa7dea78b9773d34e8c42ab76446",
+    "pages": 178,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-22",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 2,
+      "sections": [
+        {
+          "no": null,
+          "title": "1邓稼先/杨振宁",
+          "page": null
+        },
+        {
+          "no": "2",
+          "title": "说和做",
+          "page": null
+        },
+        {
+          "no": "4",
+          "title": "孙权劝学/《资治通鉴》",
+          "page": 22
+        },
+        {
+          "no": null,
+          "title": "写作写出人物的精神24",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 28,
+      "sections": [
+        {
+          "no": null,
+          "title": "5黄河颂/光未然",
+          "page": null
+        },
+        {
+          "no": "6",
+          "title": "老山界/ 陆定一",
+          "page": 31
+        },
+        {
+          "no": "7",
+          "title": "谁是最可爱的人/ 魏巍",
+          "page": 37
+        },
+        {
+          "no": "9",
+          "title": "木兰诗",
+          "page": 47
+        },
+        {
+          "no": null,
+          "title": "写作学习抒情50",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元",
+      "page": 56,
+      "sections": [
+        {
+          "no": null,
+          "title": "10阿长与《山海经》/鲁迅统编版",
+          "page": null
+        },
+        {
+          "no": "11",
+          "title": "老王/ 杨绛",
+          "page": 63
+        },
+        {
+          "no": "13",
+          "title": "卖油翁/ 欧阳修",
+          "page": 75
+        },
+        {
+          "no": null,
+          "title": "写作抓住细节77",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读85",
+          "page": 85
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 88,
+      "sections": [
+        {
+          "no": null,
+          "title": "14叶圣陶先生二三事/张中行",
+          "page": null
+        },
+        {
+          "no": "15",
+          "title": "驿路梨花/ 彭荆风",
+          "page": 93
+        },
+        {
+          "no": "17",
+          "title": "短文两篇",
+          "page": 101
+        },
+        {
+          "no": null,
+          "title": "写作怎样选材104",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 112,
+      "sections": [
+        {
+          "no": null,
+          "title": "18紫藤萝瀑布/宗璞",
+          "page": null
+        },
+        {
+          "no": "21",
+          "title": "古代诗歌五首",
+          "page": 123
+        },
+        {
+          "no": null,
+          "title": "写作文从字顺127",
+          "page": 127
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 130,
+      "sections": [
+        {
+          "no": null,
+          "title": "22伟大的悲剧/茨威格",
+          "page": null
+        },
+        {
+          "no": "23",
+          "title": "太空一日/ 杨利伟",
+          "page": 138
+        },
+        {
+          "no": "25",
+          "title": "活板/ 沈括",
+          "page": 154
+        },
+        {
+          "no": null,
+          "title": "写作语言简明157",
+          "page": 157
+        },
+        {
+          "no": null,
+          "title": "综合性学习",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "名著导读",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读168",
+          "page": 168
+        },
+        {
+          "no": null,
+          "title": "注:阅读课文分“教读”和“自读”两类。篇名前标有*的为自读课文。",
+          "page": null
+        }
+      ]
+    }
+  ]
+}

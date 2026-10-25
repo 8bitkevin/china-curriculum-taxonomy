@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: >-
+  如果本数据集对你的研究或产品有帮助，请按本文件引用。
+  数据层（微主题集合/结构/关系）以 ODbL-1.0 发布；原创文本内容层以
+  CC-BY-SA-4.0 发布，详见仓库 LICENSE 的分层说明。
+title: china-curriculum-taxonomy
+type: dataset
+authors:
+  - alias: 8bitkevin
+repository-code: "https://github.com/8bitkevin/china-curriculum-taxonomy"
+url: "https://github.com/8bitkevin/china-curriculum-taxonomy"
+abstract: >-
+  中国 K12 课程知识图谱：微主题（micro-topics）+ 先修依赖图（DAG）
+  + 国家课程标准对齐。数据模型对齐 Marble Skill Taxonomy
+  （os-taxonomy），当前发布为义务教育数学第一学段（1-2 年级），
+  按里程碑推进至数学 K12 全学段后横向扩展其他学科。
+keywords:
+  - K12
+  - curriculum
+  - knowledge-graph
+  - taxonomy
+  - prerequisite-graph
+  - mathematics-education
+  - chinese-education
+license: ODbL-1.0
+version: 0.1.0
+date-released: "2026-10-20"

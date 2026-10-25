@@ -1,0 +1,3952 @@
+{
+  "schemaVersion": 1,
+  "codeScheme": {
+    "id": "cct-code-v1",
+    "description": "本仓库自建的稳定课标条目代码，格式 学段.领域.子领域.序号（如 S1.NA.NO.01）。官方课程标准原文无条目编号；此代码仅为数据引用便利，不代表官方编号。义务教育课标（csmath-2022）学段：S1=一（1-2 年级）、S2=二（3-4 年级）、S3=三（5-6 年级）、S4=四（7-9 年级）。领域：NA=数与代数、GS=图形与几何、SP=统计与概率、IP=综合与实践。子领域：NO=数与运算、QR=数量关系、CM=图形的认识与测量、MT=图形的位置与运动、DC=数据分类、DE=数据的收集整理与表达；S4 细分：AL=代数式、EQ=方程与不等式、FN=函数、PT=图形的性质、CG=图形的变化、CO=图形与坐标、PB=随机事件的概率。高中课标（hsmath-2017，stage=5）用 H{册} 前缀（H1=必修第一册、H2=必修第二册、H3=选择性必修第一册、H4=选择性必修第二册、H5=选择性必修第三册），域：PK=预备知识、FN=函数、GA=几何与代数、SP=统计与概率、MM=数学建模活动。"
+  },
+  "codesOnlySources": [
+    "csmath-2022",
+    "hsmath-2017",
+    "cschinese-2022",
+    "hschinese-2017",
+    "csenglish-2022",
+    "hsenglish-2017",
+    "csphysics-2022",
+    "hsphysics-2017",
+    "cschemistry-2022",
+    "hschemistry-2017",
+    "csbiology-2022",
+    "hsbiology-2017",
+    "cshistory-2022",
+    "hshistory-2017",
+    "csgeography-2022",
+    "hsgeography-2017",
+    "csmorality-2022",
+    "hspolitics-2017"
+  ],
+  "curriculumCount": 18,
+  "curricula": [
+    {
+      "slug": "csmath-2022",
+      "title": "义务教育数学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "textIncluded": false,
+      "topicCount": 127,
+      "topics": [
+        {
+          "key": "csmath-2022:S1.NA.NO.01",
+          "code": "S1.NA.NO.01",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "10以内数的认识（数数、基数、读写、大小、序数）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.02",
+          "code": "S1.NA.NO.02",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "20以内数的认识与位值初步"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.03",
+          "code": "S1.NA.NO.03",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "100以内数的认识与数位"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.04",
+          "code": "S1.NA.NO.04",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "万以内数的认识与数位顺序"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.05",
+          "code": "S1.NA.NO.05",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "10以内数的加减法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.06",
+          "code": "S1.NA.NO.06",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "20以内进位加法与退位减法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.07",
+          "code": "S1.NA.NO.07",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "100以内数的加减法（口算与竖式）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.08",
+          "code": "S1.NA.NO.08",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "表内乘法（乘法意义与口诀）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.09",
+          "code": "S1.NA.NO.09",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "表内除法（平均分与用口诀求商）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.NO.10",
+          "code": "S1.NA.NO.10",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "有余数的除法"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.01",
+          "code": "S1.NA.QR.01",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "一一对应与比多少"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.02",
+          "code": "S1.NA.QR.02",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "加减法实际问题（总量与部分量、差比关系）"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.03",
+          "code": "S1.NA.QR.03",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "份总关系与乘除法实际问题"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.04",
+          "code": "S1.NA.QR.04",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "混合运算的运算顺序"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.05",
+          "code": "S1.NA.QR.05",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：人民币"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.06",
+          "code": "S1.NA.QR.06",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：钟表与时、分"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.07",
+          "code": "S1.NA.QR.07",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "常见的量：克与千克"
+        },
+        {
+          "key": "csmath-2022:S1.NA.QR.08",
+          "code": "S1.NA.QR.08",
+          "stage": 1,
+          "domain": "数与代数",
+          "title": "探索简单的排列规律"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.01",
+          "code": "S1.GS.CM.01",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长方体、正方体、圆柱、球的直观辨认"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.02",
+          "code": "S1.GS.CM.02",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长方形、正方形、三角形、圆、平行四边形的直观辨认"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.03",
+          "code": "S1.GS.CM.03",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "角与直角、锐角、钝角的初步认识"
+        },
+        {
+          "key": "csmath-2022:S1.GS.CM.04",
+          "code": "S1.GS.CM.04",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "长度单位（厘米、米）与线段、测量、估测"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.01",
+          "code": "S1.GS.MT.01",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "用上下、前后、左右描述相对位置"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.02",
+          "code": "S1.GS.MT.02",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "从不同方向观察物体"
+        },
+        {
+          "key": "csmath-2022:S1.GS.MT.03",
+          "code": "S1.GS.MT.03",
+          "stage": 1,
+          "domain": "图形与几何",
+          "title": "图形运动初步：轴对称、平移、旋转"
+        },
+        {
+          "key": "csmath-2022:S1.SP.DC.01",
+          "code": "S1.SP.DC.01",
+          "stage": 1,
+          "domain": "统计与概率",
+          "title": "按给定标准分类、自定标准分类"
+        },
+        {
+          "key": "csmath-2022:S1.SP.DE.01",
+          "code": "S1.SP.DE.01",
+          "stage": 1,
+          "domain": "统计与概率",
+          "title": "数据的收集、记录与简单整理（象形图、简单统计表）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.01",
+          "code": "S2.NA.NO.01",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "万以内数与亿以内大数（读写、组成、比大小、近似数、改写）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.02",
+          "code": "S2.NA.NO.02",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "万以内加减法（口算、笔算、验算与估算）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.03",
+          "code": "S2.NA.NO.03",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "多位数乘一位数（口算、笔算、因数中间或末尾有 0）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.04",
+          "code": "S2.NA.NO.04",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "两位数乘两位数与三位数乘两位数"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.05",
+          "code": "S2.NA.NO.05",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "除数是一位数的除法（口算、笔算、验算）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.06",
+          "code": "S2.NA.NO.06",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "除数是两位数的除法（试商、调商、商的变化规律）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.07",
+          "code": "S2.NA.NO.07",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "四则混合运算顺序与小括号（三步式题）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.08",
+          "code": "S2.NA.NO.08",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "运算律（加法交换律结合律、乘法交换律结合律分配律与简算）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.09",
+          "code": "S2.NA.NO.09",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "小数的初步认识、意义与性质（数位、比大小、小数点移动规律）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.10",
+          "code": "S2.NA.NO.10",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "小数加减法"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.01",
+          "code": "S2.NA.QR.01",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "倍的认识与倍数关系问题"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.02",
+          "code": "S2.NA.QR.02",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "常见的量：年月日与 24 时计时法"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.03",
+          "code": "S2.NA.QR.03",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "常见的量：毫米、分米、千米与吨"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.04",
+          "code": "S2.NA.QR.04",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "周长与面积的意义、常用单位及换算"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.05",
+          "code": "S2.NA.QR.05",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "数量关系：单价×数量=总价、速度×时间=路程"
+        },
+        {
+          "key": "csmath-2022:S2.NA.QR.06",
+          "code": "S2.NA.QR.06",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "估算策略与「够不够、大约」实际问题"
+        },
+        {
+          "key": "csmath-2022:S2.GS.CM.01",
+          "code": "S2.GS.CM.01",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "线段直线射线、角与角的度量、平行与垂直"
+        },
+        {
+          "key": "csmath-2022:S2.GS.CM.02",
+          "code": "S2.GS.CM.02",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "长方形正方形的特征、周长与面积计算"
+        },
+        {
+          "key": "csmath-2022:S2.GS.CM.03",
+          "code": "S2.GS.CM.03",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "三角形的认识（分类、内角和、三边关系）"
+        },
+        {
+          "key": "csmath-2022:S2.GS.CM.04",
+          "code": "S2.GS.CM.04",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "平行四边形与梯形的认识"
+        },
+        {
+          "key": "csmath-2022:S2.GS.MT.01",
+          "code": "S2.GS.MT.01",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "八个方向的辨认与简单路线图"
+        },
+        {
+          "key": "csmath-2022:S2.GS.MT.02",
+          "code": "S2.GS.MT.02",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "从三个方向观察由小正方体拼搭的立体图形"
+        },
+        {
+          "key": "csmath-2022:S2.SP.DE.01",
+          "code": "S2.SP.DE.01",
+          "stage": 2,
+          "domain": "统计与概率",
+          "title": "复式统计表与条形统计图（一格表示多个单位）"
+        },
+        {
+          "key": "csmath-2022:S2.SP.DE.02",
+          "code": "S2.SP.DE.02",
+          "stage": 2,
+          "domain": "统计与概率",
+          "title": "平均数的意义与简单应用"
+        },
+        {
+          "key": "csmath-2022:S2.IP.01",
+          "code": "S2.IP.01",
+          "stage": 2,
+          "domain": "综合与实践",
+          "title": "集合与搭配（重叠问题、排列组合初步）"
+        },
+        {
+          "key": "csmath-2022:S2.IP.02",
+          "code": "S2.IP.02",
+          "stage": 2,
+          "domain": "综合与实践",
+          "title": "优化与鸡兔同笼（统筹安排、假设法）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.01",
+          "code": "S3.NA.NO.01",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "小数乘法（算理、积的近似值）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.02",
+          "code": "S3.NA.NO.02",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "小数除法（算理、循环小数、单位换算）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.03",
+          "code": "S3.NA.NO.03",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "因数与倍数（2/3/5 的倍数特征、质数合数、奇偶性）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.04",
+          "code": "S3.NA.NO.04",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "分数的意义与基本性质（真假带分数、约分通分、比大小）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.05",
+          "code": "S3.NA.NO.05",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "分数加减法（同分母、异分母、简算）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.06",
+          "code": "S3.NA.NO.06",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "分数乘法（算理、倒数的认识）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.07",
+          "code": "S3.NA.NO.07",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "分数除法（算理、分数混合运算）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.08",
+          "code": "S3.NA.NO.08",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "比（比的意义与性质、按比分配）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.09",
+          "code": "S3.NA.NO.09",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "百分数的意义、与分数小数互化及简单应用"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.10",
+          "code": "S3.NA.NO.10",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "百分数的应用（折扣、税率、利率）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.NO.11",
+          "code": "S3.NA.NO.11",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "负数的认识（正负数表示、数轴初步）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.QR.01",
+          "code": "S3.NA.QR.01",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "简易方程（字母表示数、等式性质、解方程、列方程解题）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.QR.02",
+          "code": "S3.NA.QR.02",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "用数对确定位置（列与行）"
+        },
+        {
+          "key": "csmath-2022:S3.NA.QR.03",
+          "code": "S3.NA.QR.03",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "比例的意义与基本性质、解比例"
+        },
+        {
+          "key": "csmath-2022:S3.NA.QR.04",
+          "code": "S3.NA.QR.04",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "正比例与反比例"
+        },
+        {
+          "key": "csmath-2022:S3.NA.QR.05",
+          "code": "S3.NA.QR.05",
+          "stage": 3,
+          "domain": "数与代数",
+          "title": "比例尺与图形的放大缩小"
+        },
+        {
+          "key": "csmath-2022:S3.GS.CM.01",
+          "code": "S3.GS.CM.01",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "多边形的面积（平行四边形、三角形、梯形、组合图形）"
+        },
+        {
+          "key": "csmath-2022:S3.GS.CM.02",
+          "code": "S3.GS.CM.02",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "长方体和正方体（特征、表面积、体积与容积）"
+        },
+        {
+          "key": "csmath-2022:S3.GS.CM.03",
+          "code": "S3.GS.CM.03",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "圆的认识（周长与面积）"
+        },
+        {
+          "key": "csmath-2022:S3.GS.CM.04",
+          "code": "S3.GS.CM.04",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "圆柱与圆锥（表面积、体积）"
+        },
+        {
+          "key": "csmath-2022:S3.GS.MT.01",
+          "code": "S3.GS.MT.01",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "图形的运动：平移、旋转与轴对称（方格纸上作图）"
+        },
+        {
+          "key": "csmath-2022:S3.GS.MT.02",
+          "code": "S3.GS.MT.02",
+          "stage": 3,
+          "domain": "图形与几何",
+          "title": "用方向和距离确定位置、描述简单路线"
+        },
+        {
+          "key": "csmath-2022:S3.SP.DE.01",
+          "code": "S3.SP.DE.01",
+          "stage": 3,
+          "domain": "统计与概率",
+          "title": "折线统计图"
+        },
+        {
+          "key": "csmath-2022:S3.SP.DE.02",
+          "code": "S3.SP.DE.02",
+          "stage": 3,
+          "domain": "统计与概率",
+          "title": "扇形统计图与统计图的选择"
+        },
+        {
+          "key": "csmath-2022:S3.SP.DE.03",
+          "code": "S3.SP.DE.03",
+          "stage": 3,
+          "domain": "统计与概率",
+          "title": "可能性（确定与不确定事件、可能性大小）"
+        },
+        {
+          "key": "csmath-2022:S3.IP.01",
+          "code": "S3.IP.01",
+          "stage": 3,
+          "domain": "综合与实践",
+          "title": "植树问题（两端都栽、一端不栽、环形）"
+        },
+        {
+          "key": "csmath-2022:S3.IP.02",
+          "code": "S3.IP.02",
+          "stage": 3,
+          "domain": "综合与实践",
+          "title": "找次品（最优策略）"
+        },
+        {
+          "key": "csmath-2022:S3.IP.03",
+          "code": "S3.IP.03",
+          "stage": 3,
+          "domain": "综合与实践",
+          "title": "数与形（数形结合找规律）"
+        },
+        {
+          "key": "csmath-2022:S3.IP.04",
+          "code": "S3.IP.04",
+          "stage": 3,
+          "domain": "综合与实践",
+          "title": "鸽巢问题（抽屉原理初步）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.NO.01",
+          "code": "S4.NA.NO.01",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "有理数（正负数、数轴、相反数、绝对值）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.NO.02",
+          "code": "S4.NA.NO.02",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "有理数的运算（四则混合、乘方、科学记数法、近似数）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.NO.03",
+          "code": "S4.NA.NO.03",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "实数（平方根、立方根、无理数、大小比较）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.NO.04",
+          "code": "S4.NA.NO.04",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "二次根式（性质与加减乘除运算）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.01",
+          "code": "S4.NA.AL.01",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "代数式与整式的概念（列式、求值）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.02",
+          "code": "S4.NA.AL.02",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "整式的加减（合并同类项、去括号）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.03",
+          "code": "S4.NA.AL.03",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "幂的运算与整式的乘除"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.04",
+          "code": "S4.NA.AL.04",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "乘法公式（平方差、完全平方）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.05",
+          "code": "S4.NA.AL.05",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "因式分解（提公因式法、公式法）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.01",
+          "code": "S4.NA.EQ.01",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一元一次方程的解法（等式性质、移项、去分母）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.02",
+          "code": "S4.NA.EQ.02",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一元一次方程的应用（行程、工程、配套、利润）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.03",
+          "code": "S4.NA.EQ.03",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "二元一次方程组（代入消元、加减消元及应用）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.04",
+          "code": "S4.NA.EQ.04",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "不等式与不等式组（性质、解法、应用）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.05",
+          "code": "S4.NA.EQ.05",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一元二次方程的解法（配方法、公式法、因式分解法）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.06",
+          "code": "S4.NA.EQ.06",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一元二次方程的应用及根的判别式"
+        },
+        {
+          "key": "csmath-2022:S4.NA.EQ.07",
+          "code": "S4.NA.EQ.07",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "可化为一元一次方程的分式方程"
+        },
+        {
+          "key": "csmath-2022:S4.NA.FN.01",
+          "code": "S4.NA.FN.01",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一次函数（图象、性质、待定系数法）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.FN.02",
+          "code": "S4.NA.FN.02",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "一次函数与方程不等式的关系及实际应用"
+        },
+        {
+          "key": "csmath-2022:S4.NA.FN.03",
+          "code": "S4.NA.FN.03",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "反比例函数（图象、性质、应用）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.FN.04",
+          "code": "S4.NA.FN.04",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "二次函数（图象与性质、系数与图象的关系）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.FN.05",
+          "code": "S4.NA.FN.05",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "二次函数与一元二次方程、最值应用"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.01",
+          "code": "S4.GS.PT.01",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "几何图形初步（立体与平面、直线射线线段、角、余角补角）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.02",
+          "code": "S4.GS.PT.02",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "相交线与平行线（对顶角、三线八角、判定与性质、命题与证明）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.03",
+          "code": "S4.GS.PT.03",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "三角形的基本性质（三边关系、内角和、中线高角平分线）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.04",
+          "code": "S4.GS.PT.04",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "全等三角形（判定与性质）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.05",
+          "code": "S4.GS.PT.05",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "轴对称与垂直平分线、等腰三角形"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.06",
+          "code": "S4.GS.PT.06",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "勾股定理及其逆定理"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.07",
+          "code": "S4.GS.PT.07",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "多边形与平行四边形（内角和、性质与判定）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.08",
+          "code": "S4.GS.PT.08",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "特殊平行四边形（矩形、菱形、正方形）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.09",
+          "code": "S4.GS.PT.09",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "旋转与中心对称"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.10",
+          "code": "S4.GS.PT.10",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "圆的基本性质（垂径定理、圆心角弧弦关系）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.11",
+          "code": "S4.GS.PT.11",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "点线圆与圆的位置关系、切线的判定与性质"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.12",
+          "code": "S4.GS.PT.12",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "圆的有关计算（弧长、扇形面积、圆锥侧面积）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.13",
+          "code": "S4.GS.PT.13",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "相似三角形（判定、性质、位似）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.PT.14",
+          "code": "S4.GS.PT.14",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "锐角三角函数（解直角三角形及应用）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.CG.01",
+          "code": "S4.GS.CG.01",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "投影与视图（平行投影、中心投影、三视图）"
+        },
+        {
+          "key": "csmath-2022:S4.GS.CO.01",
+          "code": "S4.GS.CO.01",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "平面直角坐标系与用坐标表示位置"
+        },
+        {
+          "key": "csmath-2022:S4.GS.CO.02",
+          "code": "S4.GS.CO.02",
+          "stage": 4,
+          "domain": "图形与几何",
+          "title": "图形变化与坐标（平移的坐标规律）"
+        },
+        {
+          "key": "csmath-2022:S4.SP.DE.01",
+          "code": "S4.SP.DE.01",
+          "stage": 4,
+          "domain": "统计与概率",
+          "title": "数据的收集、整理与描述（抽样、频数分布直方图）"
+        },
+        {
+          "key": "csmath-2022:S4.SP.DE.02",
+          "code": "S4.SP.DE.02",
+          "stage": 4,
+          "domain": "统计与概率",
+          "title": "数据的分析（平均数、中位数、众数、方差、样本估计总体）"
+        },
+        {
+          "key": "csmath-2022:S4.SP.PB.01",
+          "code": "S4.SP.PB.01",
+          "stage": 4,
+          "domain": "统计与概率",
+          "title": "概率初步（随机事件、概率定义、列举法求概率、频率估计概率）"
+        },
+        {
+          "key": "csmath-2022:S4.IP.01",
+          "code": "S4.IP.01",
+          "stage": 4,
+          "domain": "综合与实践",
+          "title": "综合与实践（课题学习与数学活动）"
+        },
+        {
+          "key": "csmath-2022:S2.NA.NO.11",
+          "code": "S2.NA.NO.11",
+          "stage": 2,
+          "domain": "数与代数",
+          "title": "分数的初步认识（几分之一与几分之几、同分母比大小、简单加减）"
+        },
+        {
+          "key": "csmath-2022:S2.GS.MT.03",
+          "code": "S2.GS.MT.03",
+          "stage": 2,
+          "domain": "图形与几何",
+          "title": "图形的轴对称与平移（方格纸上认识对称轴、补全图形、平移作图）"
+        },
+        {
+          "key": "csmath-2022:S4.NA.AL.06",
+          "code": "S4.NA.AL.06",
+          "stage": 4,
+          "domain": "数与代数",
+          "title": "分式（意义、基本性质、约分通分与运算）"
+        }
+      ]
+    },
+    {
+      "slug": "hsmath-2017",
+      "title": "普通高中数学课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsmath-2017:H1.PK.01",
+          "code": "H1.PK.01",
+          "stage": 5,
+          "domain": "预备知识",
+          "title": "集合的概念与表示（元素、列举法与描述法）"
+        },
+        {
+          "key": "hsmath-2017:H1.PK.02",
+          "code": "H1.PK.02",
+          "stage": 5,
+          "domain": "预备知识",
+          "title": "集合间的关系与运算（子集、交并补、Venn 图）"
+        },
+        {
+          "key": "hsmath-2017:H1.PK.03",
+          "code": "H1.PK.03",
+          "stage": 5,
+          "domain": "预备知识",
+          "title": "常用逻辑用语（充分必要条件、全称量词与存在量词）"
+        },
+        {
+          "key": "hsmath-2017:H1.PK.04",
+          "code": "H1.PK.04",
+          "stage": 5,
+          "domain": "预备知识",
+          "title": "等式与不等式的性质、基本不等式"
+        },
+        {
+          "key": "hsmath-2017:H1.PK.05",
+          "code": "H1.PK.05",
+          "stage": 5,
+          "domain": "预备知识",
+          "title": "一元二次不等式及其与二次函数、一元二次方程的关系"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.01",
+          "code": "H1.FN.01",
+          "stage": 5,
+          "domain": "函数",
+          "title": "函数的概念（对应关系、定义域与值域）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.02",
+          "code": "H1.FN.02",
+          "stage": 5,
+          "domain": "函数",
+          "title": "函数的表示方法（解析法、图象法、分段函数）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.03",
+          "code": "H1.FN.03",
+          "stage": 5,
+          "domain": "函数",
+          "title": "函数的基本性质（单调性、奇偶性、最值）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.04",
+          "code": "H1.FN.04",
+          "stage": 5,
+          "domain": "函数",
+          "title": "幂函数"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.05",
+          "code": "H1.FN.05",
+          "stage": 5,
+          "domain": "函数",
+          "title": "指数与指数函数（指数运算、图象与性质）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.06",
+          "code": "H1.FN.06",
+          "stage": 5,
+          "domain": "函数",
+          "title": "对数与对数函数（对数运算、图象与性质）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.07",
+          "code": "H1.FN.07",
+          "stage": 5,
+          "domain": "函数",
+          "title": "函数与方程（零点、二分法）及函数模型应用"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.08",
+          "code": "H1.FN.08",
+          "stage": 5,
+          "domain": "函数",
+          "title": "任意角与弧度制、三角函数的概念"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.09",
+          "code": "H1.FN.09",
+          "stage": 5,
+          "domain": "函数",
+          "title": "同角三角函数基本关系与诱导公式"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.10",
+          "code": "H1.FN.10",
+          "stage": 5,
+          "domain": "函数",
+          "title": "三角函数的图象与性质（含 y=Asin(ωx+φ)）"
+        },
+        {
+          "key": "hsmath-2017:H1.FN.11",
+          "code": "H1.FN.11",
+          "stage": 5,
+          "domain": "函数",
+          "title": "三角恒等变换（两角和与差、二倍角）"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.01",
+          "code": "H2.GA.01",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "平面向量的概念与线性运算"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.02",
+          "code": "H2.GA.02",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "平面向量的坐标表示与运算"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.03",
+          "code": "H2.GA.03",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "平面向量的数量积（夹角、投影、模）"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.04",
+          "code": "H2.GA.04",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "向量的应用与解三角形（正弦定理、余弦定理）"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.05",
+          "code": "H2.GA.05",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "复数的概念与几何意义"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.06",
+          "code": "H2.GA.06",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "复数的四则运算"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.07",
+          "code": "H2.GA.07",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "基本立体图形与直观图（棱柱棱锥圆柱圆锥球、展开图）"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.08",
+          "code": "H2.GA.08",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "平面的基本事实与线面平行"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.09",
+          "code": "H2.GA.09",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "线面垂直与面面垂直"
+        },
+        {
+          "key": "hsmath-2017:H2.GA.10",
+          "code": "H2.GA.10",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "简单几何体的表面积与体积"
+        },
+        {
+          "key": "hsmath-2017:H2.SP.01",
+          "code": "H2.SP.01",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "数据的收集（普查与抽样）"
+        },
+        {
+          "key": "hsmath-2017:H2.SP.02",
+          "code": "H2.SP.02",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "数据的数字特征与直观图表（频率分布直方图、百分位数）"
+        },
+        {
+          "key": "hsmath-2017:H2.SP.03",
+          "code": "H2.SP.03",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "概率的概念与古典概型"
+        },
+        {
+          "key": "hsmath-2017:H2.SP.04",
+          "code": "H2.SP.04",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "事件的独立性、频率与概率"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.01",
+          "code": "H3.GA.01",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "空间向量及其运算、坐标表示"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.02",
+          "code": "H3.GA.02",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "用空间向量研究平行、垂直、距离与夹角"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.03",
+          "code": "H3.GA.03",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "直线的方程（斜率、方向向量、五种形式、位置关系与距离）"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.04",
+          "code": "H3.GA.04",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "圆的方程与点、线、圆的位置关系"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.05",
+          "code": "H3.GA.05",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "椭圆的定义、标准方程与性质"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.06",
+          "code": "H3.GA.06",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "双曲线的定义、标准方程与性质"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.07",
+          "code": "H3.GA.07",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "抛物线的定义、标准方程与性质"
+        },
+        {
+          "key": "hsmath-2017:H3.GA.08",
+          "code": "H3.GA.08",
+          "stage": 5,
+          "domain": "几何与代数",
+          "title": "直线与圆锥曲线的综合问题（弦长、中点弦）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.01",
+          "code": "H4.FN.01",
+          "stage": 5,
+          "domain": "函数",
+          "title": "数列的概念与表示（通项公式、递推关系）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.02",
+          "code": "H4.FN.02",
+          "stage": 5,
+          "domain": "函数",
+          "title": "等差数列（通项公式、前 n 项和）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.03",
+          "code": "H4.FN.03",
+          "stage": 5,
+          "domain": "函数",
+          "title": "等比数列（通项公式、前 n 项和）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.04",
+          "code": "H4.FN.04",
+          "stage": 5,
+          "domain": "函数",
+          "title": "数列求和的常用方法（裂项相消、错位相减）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.05",
+          "code": "H4.FN.05",
+          "stage": 5,
+          "domain": "函数",
+          "title": "导数的概念与几何意义（平均变化率、瞬时变化率、切线）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.06",
+          "code": "H4.FN.06",
+          "stage": 5,
+          "domain": "函数",
+          "title": "导数的运算（基本初等函数导数、四则运算、复合函数）"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.07",
+          "code": "H4.FN.07",
+          "stage": 5,
+          "domain": "函数",
+          "title": "用导数研究函数的单调性、极值与最值"
+        },
+        {
+          "key": "hsmath-2017:H4.FN.08",
+          "code": "H4.FN.08",
+          "stage": 5,
+          "domain": "函数",
+          "title": "导数的实际应用（优化问题）"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.01",
+          "code": "H5.SP.01",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "分类加法计数原理与分步乘法计数原理"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.02",
+          "code": "H5.SP.02",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "排列与组合"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.03",
+          "code": "H5.SP.03",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "二项式定理"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.04",
+          "code": "H5.SP.04",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "条件概率与全概率公式"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.05",
+          "code": "H5.SP.05",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "离散型随机变量的分布列、均值与方差"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.06",
+          "code": "H5.SP.06",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "二项分布、超几何分布与正态分布"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.07",
+          "code": "H5.SP.07",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "成对数据的相关性与一元线性回归"
+        },
+        {
+          "key": "hsmath-2017:H5.SP.08",
+          "code": "H5.SP.08",
+          "stage": 5,
+          "domain": "统计与概率",
+          "title": "独立性检验（2×2 列联表）"
+        }
+      ],
+      "topicCount": 54
+    },
+    {
+      "slug": "cschinese-2022",
+      "title": "义务教育语文课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cschinese-2022:S1.LZ.01",
+          "code": "S1.LZ.01",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "汉语拼音：声母、韵母、整体认读音节与拼读"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.02",
+          "code": "S1.LZ.02",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "基本笔画与笔顺规则、独体字书写"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.03",
+          "code": "S1.LZ.03",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "偏旁部首与合体字结构（上下、左右、半包围）"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.04",
+          "code": "S1.LZ.04",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "借助图画与语境识字（象形、会意等识字方法）"
+        },
+        {
+          "key": "cschinese-2022:S1.LZ.05",
+          "code": "S1.LZ.05",
+          "stage": 1,
+          "domain": "识字与写字",
+          "title": "音序查字法与部首查字法（查字典）"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.01",
+          "code": "S1.YD.01",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "借助拼音和图画阅读浅近课文"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.02",
+          "code": "S1.YD.02",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "朗读：读正确、读通顺，注意标点停顿与语气"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.03",
+          "code": "S1.YD.03",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "结合图文提取明显信息、了解课文内容"
+        },
+        {
+          "key": "cschinese-2022:S1.YD.04",
+          "code": "S1.YD.04",
+          "stage": 1,
+          "domain": "阅读与鉴赏",
+          "title": "儿歌童谣的节奏朗读与背诵积累"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.01",
+          "code": "S1.BD.01",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "说完整句（谁、在哪里、干什么）"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.02",
+          "code": "S1.BD.02",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "口语交际：认真听、大胆说、讲礼貌"
+        },
+        {
+          "key": "cschinese-2022:S1.BD.03",
+          "code": "S1.BD.03",
+          "stage": 1,
+          "domain": "表达与交流",
+          "title": "写话起步：句号、问号、感叹号的初步使用"
+        },
+        {
+          "key": "cschinese-2022:S1.SL.01",
+          "code": "S1.SL.01",
+          "stage": 1,
+          "domain": "梳理与探究",
+          "title": "字词的分类与整理（生活类别）"
+        },
+        {
+          "key": "cschinese-2022:S1.SL.02",
+          "code": "S1.SL.02",
+          "stage": 1,
+          "domain": "梳理与探究",
+          "title": "和大人一起读：亲子共读与阅读习惯养成"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.01",
+          "code": "S2.LZ.01",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "累计识字 2500、会写 1600；硬笔书写规范"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.02",
+          "code": "S2.LZ.02",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "形声字形旁表义、声旁表音的构字规律"
+        },
+        {
+          "key": "cschinese-2022:S2.LZ.03",
+          "code": "S2.LZ.03",
+          "stage": 2,
+          "domain": "识字与写字",
+          "title": "联系上下文理解词句、近反义词辨析"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.01",
+          "code": "S2.YD.01",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "默读：不出声不指读，初知大意"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.02",
+          "code": "S2.YD.02",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "关键词句的意思与表达作用"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.03",
+          "code": "S2.YD.03",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "自然段与段落大意的把握、借助关键句概括"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.04",
+          "code": "S2.YD.04",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "复述课文（详细复述与简要复述）"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.05",
+          "code": "S2.YD.05",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "童话、寓言故事蕴含道理的领会"
+        },
+        {
+          "key": "cschinese-2022:S2.YD.06",
+          "code": "S2.YD.06",
+          "stage": 2,
+          "domain": "阅读与鉴赏",
+          "title": "古诗的朗读背诵与画面想象"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.01",
+          "code": "S2.BD.01",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "观察与片段写话：把看到的过程写清楚"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.02",
+          "code": "S2.BD.02",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "习作起步：把一件事写完整（时间地点人物事件）"
+        },
+        {
+          "key": "cschinese-2022:S2.BD.03",
+          "code": "S2.BD.03",
+          "stage": 2,
+          "domain": "表达与交流",
+          "title": "口语交际：转述、讨论中的倾听与回应"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.01",
+          "code": "S2.SL.01",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "观察记录与观察日记"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.02",
+          "code": "S2.SL.02",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "词句段的分类积累与尝试运用"
+        },
+        {
+          "key": "cschinese-2022:S2.SL.03",
+          "code": "S2.SL.03",
+          "stage": 2,
+          "domain": "梳理与探究",
+          "title": "查阅资料解决阅读中的疑问"
+        },
+        {
+          "key": "cschinese-2022:S3.LZ.01",
+          "code": "S3.LZ.01",
+          "stage": 3,
+          "domain": "识字与写字",
+          "title": "累计识字 3000、会写 2500；行款整齐的书写"
+        },
+        {
+          "key": "cschinese-2022:S3.LZ.02",
+          "code": "S3.LZ.02",
+          "stage": 3,
+          "domain": "识字与写字",
+          "title": "词语的感情色彩与在不同语境中的分寸"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.01",
+          "code": "S3.YD.01",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "默读有一定速度、边读边思考"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.02",
+          "code": "S3.YD.02",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "说明性文章：抓住要点、了解基本说明方法"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.03",
+          "code": "S3.YD.03",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "叙事性作品：情节、人物、环境三要素"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.04",
+          "code": "S3.YD.04",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "诗歌散文的初步鉴赏（意象与情感）"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.05",
+          "code": "S3.YD.05",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "文言诗文启蒙：借助注释理解词句与文意"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.06",
+          "code": "S3.YD.06",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "非连续性文本的信息提取与整合"
+        },
+        {
+          "key": "cschinese-2022:S3.YD.07",
+          "code": "S3.YD.07",
+          "stage": 3,
+          "domain": "阅读与鉴赏",
+          "title": "整本书阅读：名著导读与阅读方法"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.01",
+          "code": "S3.BD.01",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "习作：记实与想象，做到有中心、有条理"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.02",
+          "code": "S3.BD.02",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "读书笔记与读后感"
+        },
+        {
+          "key": "cschinese-2022:S3.BD.03",
+          "code": "S3.BD.03",
+          "stage": 3,
+          "domain": "表达与交流",
+          "title": "演讲与即席发言：观点加理由"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.01",
+          "code": "S3.SL.01",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "资料搜集与简单的研究报告"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.02",
+          "code": "S3.SL.02",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "汉字文化与语言现象的探究"
+        },
+        {
+          "key": "cschinese-2022:S3.SL.03",
+          "code": "S3.SL.03",
+          "stage": 3,
+          "domain": "梳理与探究",
+          "title": "作文的自查自改与互改"
+        },
+        {
+          "key": "cschinese-2022:S4.LZ.01",
+          "code": "S4.LZ.01",
+          "stage": 4,
+          "domain": "识字与写字",
+          "title": "字音字形字义的准确辨析（3500 常用字）"
+        },
+        {
+          "key": "cschinese-2022:S4.LZ.02",
+          "code": "S4.LZ.02",
+          "stage": 4,
+          "domain": "识字与写字",
+          "title": "词义语境推断与成语的正确使用"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.01",
+          "code": "S4.YD.01",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "朗读与默读：把握语气、节奏与文意"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.02",
+          "code": "S4.YD.02",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "现代文整体感知与思路梳理"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.03",
+          "code": "S4.YD.03",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "记叙文：叙述角度、详略安排与线索"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.04",
+          "code": "S4.YD.04",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "说明文：对象、顺序与方法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.05",
+          "code": "S4.YD.05",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "议论文：论点、论据与论证方法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.06",
+          "code": "S4.YD.06",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "小说阅读：三要素与主题理解"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.07",
+          "code": "S4.YD.07",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "散文阅读：线索与情感把握"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.08",
+          "code": "S4.YD.08",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "诗歌阅读：意象、节奏与情感"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.09",
+          "code": "S4.YD.09",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "文言文阅读：实词虚词句式与翻译"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.10",
+          "code": "S4.YD.10",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "古代诗歌鉴赏：意象意境与表现手法"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.11",
+          "code": "S4.YD.11",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "名著导读与整本书阅读"
+        },
+        {
+          "key": "cschinese-2022:S4.YD.12",
+          "code": "S4.YD.12",
+          "stage": 4,
+          "domain": "阅读与鉴赏",
+          "title": "非连续性文本与跨媒介信息整合"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.01",
+          "code": "S4.BD.01",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：记叙文多角度立意与细节描写"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.02",
+          "code": "S4.BD.02",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：说明文条理与特征"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.03",
+          "code": "S4.BD.03",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "写作：议论文观点明确、有理有据"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.04",
+          "code": "S4.BD.04",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "应用文写作（书信、通知、活动方案等）"
+        },
+        {
+          "key": "cschinese-2022:S4.BD.05",
+          "code": "S4.BD.05",
+          "stage": 4,
+          "domain": "表达与交流",
+          "title": "口语交际：讨论、采访、演讲"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.01",
+          "code": "S4.SL.01",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "词句段梳理与语言运用规律探究"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.02",
+          "code": "S4.SL.02",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "综合性学习：策划活动与表达成果"
+        },
+        {
+          "key": "cschinese-2022:S4.SL.03",
+          "code": "S4.SL.03",
+          "stage": 4,
+          "domain": "梳理与探究",
+          "title": "文学文化常识整理（作家作品与文体）"
+        }
+      ],
+      "topicCount": 66
+    },
+    {
+      "slug": "hschinese-2017",
+      "title": "普通高中语文课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hschinese-2017:H1.LZ.01",
+          "code": "H1.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "语音文字规范运用与语病辨析"
+        },
+        {
+          "key": "hschinese-2017:H1.LZ.02",
+          "code": "H1.LZ.02",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "词语（含熟语）的准确理解与选用"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.01",
+          "code": "H1.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "现代诗歌：意象选择与抒情方式"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.02",
+          "code": "H1.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "写景抒情散文：景与情的融合"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.03",
+          "code": "H1.WX.03",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "小说：叙事视角与人物塑造"
+        },
+        {
+          "key": "hschinese-2017:H1.WX.04",
+          "code": "H1.WX.04",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "青春主题诗文朗读与创作"
+        },
+        {
+          "key": "hschinese-2017:H1.SW.01",
+          "code": "H1.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "议论性文章的论证结构与逻辑分析"
+        },
+        {
+          "key": "hschinese-2017:H1.SY.01",
+          "code": "H1.SY.01",
+          "stage": 5,
+          "domain": "实用性阅读与交流",
+          "title": "新闻传媒类文本：信息获取与立场辨析"
+        },
+        {
+          "key": "hschinese-2017:H1.ZB.01",
+          "code": "H1.ZB.01",
+          "stage": 5,
+          "domain": "整本书阅读与研讨",
+          "title": "《乡土中国》学术著作整本书阅读"
+        },
+        {
+          "key": "hschinese-2017:H1.KJ.01",
+          "code": "H1.KJ.01",
+          "stage": 5,
+          "domain": "跨媒介阅读与交流",
+          "title": "家乡文化生活调查与当代文化参与"
+        },
+        {
+          "key": "hschinese-2017:H2.LZ.01",
+          "code": "H2.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "文言实词推断与词义系统梳理"
+        },
+        {
+          "key": "hschinese-2017:H2.LZ.02",
+          "code": "H2.LZ.02",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "词类活用与文言特殊句式"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.01",
+          "code": "H2.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中华传统文化经典研习（史传、诸子散文）"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.02",
+          "code": "H2.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "古诗词鉴赏：意象意境、手法与情感"
+        },
+        {
+          "key": "hschinese-2017:H2.WX.03",
+          "code": "H2.WX.03",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "戏剧文学：矛盾冲突与人物台词"
+        },
+        {
+          "key": "hschinese-2017:H2.SW.01",
+          "code": "H2.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "信息性阅读：多元文本的观点整合"
+        },
+        {
+          "key": "hschinese-2017:H2.SY.01",
+          "code": "H2.SY.01",
+          "stage": 5,
+          "domain": "实用性阅读与交流",
+          "title": "科普说明与社会调查类实用文本阅读"
+        },
+        {
+          "key": "hschinese-2017:H2.BD.01",
+          "code": "H2.BD.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "议论性文章写作：观点与材料的统一"
+        },
+        {
+          "key": "hschinese-2017:H3.WX.01",
+          "code": "H3.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中国现当代作家作品研习"
+        },
+        {
+          "key": "hschinese-2017:H3.WX.02",
+          "code": "H3.WX.02",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "外国作家作品研习与比较阅读"
+        },
+        {
+          "key": "hschinese-2017:H3.SW.01",
+          "code": "H3.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "驳论与批判性思维写作"
+        },
+        {
+          "key": "hschinese-2017:H3.ZB.01",
+          "code": "H3.ZB.01",
+          "stage": 5,
+          "domain": "整本书阅读与研讨",
+          "title": "《红楼梦》长篇小说整本书阅读"
+        },
+        {
+          "key": "hschinese-2017:H4.WX.01",
+          "code": "H4.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "中华传统文化专题研习（诗文互证）"
+        },
+        {
+          "key": "hschinese-2017:H4.SW.01",
+          "code": "H4.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "逻辑规则与复杂论证的构建"
+        },
+        {
+          "key": "hschinese-2017:H4.KJ.01",
+          "code": "H4.KJ.01",
+          "stage": 5,
+          "domain": "跨媒介阅读与交流",
+          "title": "跨媒介信息甄别与数字化表达"
+        },
+        {
+          "key": "hschinese-2017:H5.LZ.01",
+          "code": "H5.LZ.01",
+          "stage": 5,
+          "domain": "语言积累、梳理与探究",
+          "title": "汉语专题梳理：成语、修辞与语体系统"
+        },
+        {
+          "key": "hschinese-2017:H5.WX.01",
+          "code": "H5.WX.01",
+          "stage": 5,
+          "domain": "文学阅读与写作",
+          "title": "科学与文化论著研读"
+        },
+        {
+          "key": "hschinese-2017:H5.SW.01",
+          "code": "H5.SW.01",
+          "stage": 5,
+          "domain": "思辨性阅读与表达",
+          "title": "学术性小论文写作与修改"
+        }
+      ],
+      "topicCount": 28
+    },
+    {
+      "slug": "csenglish-2022",
+      "title": "义务教育英语课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csenglish-2022:S2.PH.01",
+          "code": "S2.PH.01",
+          "stage": 2,
+          "domain": "语音",
+          "title": "26 个字母的认读与规范书写"
+        },
+        {
+          "key": "csenglish-2022:S2.PH.02",
+          "code": "S2.PH.02",
+          "stage": 2,
+          "domain": "语音",
+          "title": "字母与字母组合的常见发音（自然拼读起步）"
+        },
+        {
+          "key": "csenglish-2022:S2.VB.01",
+          "code": "S2.VB.01",
+          "stage": 2,
+          "domain": "词汇",
+          "title": "话题词汇起步：颜色、动物、食物、数字、文具、身体"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.01",
+          "code": "S2.GR.01",
+          "stage": 2,
+          "domain": "语法",
+          "title": "自我介绍句型：I'm... / My name is..."
+        },
+        {
+          "key": "csenglish-2022:S2.GR.02",
+          "code": "S2.GR.02",
+          "stage": 2,
+          "domain": "语法",
+          "title": "What's this/that? 与 this/that 指示代词"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.03",
+          "code": "S2.GR.03",
+          "stage": 2,
+          "domain": "语法",
+          "title": "喜好表达：I like... / Do you like...?"
+        },
+        {
+          "key": "csenglish-2022:S2.GR.04",
+          "code": "S2.GR.04",
+          "stage": 2,
+          "domain": "语法",
+          "title": "How many...? 数字提问与应答"
+        },
+        {
+          "key": "csenglish-2022:S2.LS.01",
+          "code": "S2.LS.01",
+          "stage": 2,
+          "domain": "听说",
+          "title": "问候、告别、感谢等基本社交用语"
+        },
+        {
+          "key": "csenglish-2022:S2.LS.02",
+          "code": "S2.LS.02",
+          "stage": 2,
+          "domain": "听说",
+          "title": "听懂课堂指令并做动作（TPR）"
+        },
+        {
+          "key": "csenglish-2022:S2.RD.01",
+          "code": "S2.RD.01",
+          "stage": 2,
+          "domain": "阅读",
+          "title": "借助图片听懂并读懂简单对话与小故事"
+        },
+        {
+          "key": "csenglish-2022:S2.RD.02",
+          "code": "S2.RD.02",
+          "stage": 2,
+          "domain": "阅读",
+          "title": "朗读、背诵与表演课本对话和歌谣"
+        },
+        {
+          "key": "csenglish-2022:S2.WR.01",
+          "code": "S2.WR.01",
+          "stage": 2,
+          "domain": "写作",
+          "title": "四线三格规范抄写字母、单词与简单句子"
+        },
+        {
+          "key": "csenglish-2022:S3.PH.01",
+          "code": "S3.PH.01",
+          "stage": 3,
+          "domain": "语音",
+          "title": "长短元音对比与字母组合拼读规则（phonics）"
+        },
+        {
+          "key": "csenglish-2022:S3.PH.02",
+          "code": "S3.PH.02",
+          "stage": 3,
+          "domain": "语音",
+          "title": "单词重音与升降调初步"
+        },
+        {
+          "key": "csenglish-2022:S3.VB.01",
+          "code": "S3.VB.01",
+          "stage": 3,
+          "domain": "词汇",
+          "title": "话题词汇扩展：家庭、学校、时间、天气、爱好、职业（累计约 600 词）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.01",
+          "code": "S3.GR.01",
+          "stage": 3,
+          "domain": "语法",
+          "title": "一般现在时与第三人称单数变化"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.02",
+          "code": "S3.GR.02",
+          "stage": 3,
+          "domain": "语法",
+          "title": "现在进行时（be + V-ing）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.03",
+          "code": "S3.GR.03",
+          "stage": 3,
+          "domain": "语法",
+          "title": "there be 句型与方位介词"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.04",
+          "code": "S3.GR.04",
+          "stage": 3,
+          "domain": "语法",
+          "title": "情态动词 can 与能力、请求表达"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.05",
+          "code": "S3.GR.05",
+          "stage": 3,
+          "domain": "语法",
+          "title": "一般过去时（规则与常用不规则动词）"
+        },
+        {
+          "key": "csenglish-2022:S3.GR.06",
+          "code": "S3.GR.06",
+          "stage": 3,
+          "domain": "语法",
+          "title": "特殊疑问句体系（what/where/when/why/how）"
+        },
+        {
+          "key": "csenglish-2022:S3.LS.01",
+          "code": "S3.LS.01",
+          "stage": 3,
+          "domain": "听说",
+          "title": "询问与提供信息的日常对话（问路、购物、约会）"
+        },
+        {
+          "key": "csenglish-2022:S3.RD.01",
+          "code": "S3.RD.01",
+          "stage": 3,
+          "domain": "阅读",
+          "title": "读懂 80–100 词短文并抓主要信息"
+        },
+        {
+          "key": "csenglish-2022:S3.RD.02",
+          "code": "S3.RD.02",
+          "stage": 3,
+          "domain": "阅读",
+          "title": "借助图片和上下文猜测词义"
+        },
+        {
+          "key": "csenglish-2022:S3.WR.01",
+          "code": "S3.WR.01",
+          "stage": 3,
+          "domain": "写作",
+          "title": "仿写句子与简单语篇（自我介绍、我的一天）"
+        },
+        {
+          "key": "csenglish-2022:S3.WR.02",
+          "code": "S3.WR.02",
+          "stage": 3,
+          "domain": "写作",
+          "title": "英语标点与大小写的正确使用"
+        },
+        {
+          "key": "csenglish-2022:S4.PH.01",
+          "code": "S4.PH.01",
+          "stage": 4,
+          "domain": "语音",
+          "title": "音标系统与拼读规则的整体化"
+        },
+        {
+          "key": "csenglish-2022:S4.VB.01",
+          "code": "S4.VB.01",
+          "stage": 4,
+          "domain": "词汇",
+          "title": "课标词汇约 1600 词与 200–300 个习惯搭配"
+        },
+        {
+          "key": "csenglish-2022:S4.VB.02",
+          "code": "S4.VB.02",
+          "stage": 4,
+          "domain": "词汇",
+          "title": "构词法初步：合成、派生（前后缀）、转化"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.01",
+          "code": "S4.GR.01",
+          "stage": 4,
+          "domain": "语法",
+          "title": "一般将来时与过去进行时"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.02",
+          "code": "S4.GR.02",
+          "stage": 4,
+          "domain": "语法",
+          "title": "现在完成时（have/has + 过去分词）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.03",
+          "code": "S4.GR.03",
+          "stage": 4,
+          "domain": "语法",
+          "title": "被动语态（一般时态）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.04",
+          "code": "S4.GR.04",
+          "stage": 4,
+          "domain": "语法",
+          "title": "动词不定式与动名词的基本用法"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.05",
+          "code": "S4.GR.05",
+          "stage": 4,
+          "domain": "语法",
+          "title": "形容词、副词的比较级与最高级"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.06",
+          "code": "S4.GR.06",
+          "stage": 4,
+          "domain": "语法",
+          "title": "宾语从句与常见状语从句"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.07",
+          "code": "S4.GR.07",
+          "stage": 4,
+          "domain": "语法",
+          "title": "限制性定语从句初步（who/which/that）"
+        },
+        {
+          "key": "csenglish-2022:S4.GR.08",
+          "code": "S4.GR.08",
+          "stage": 4,
+          "domain": "语法",
+          "title": "简单句五大基本句型与 there be"
+        },
+        {
+          "key": "csenglish-2022:S4.LS.01",
+          "code": "S4.LS.01",
+          "stage": 4,
+          "domain": "听说",
+          "title": "日常话题的听说交互（个人情况、学校生活等话题）"
+        },
+        {
+          "key": "csenglish-2022:S4.LS.02",
+          "code": "S4.LS.02",
+          "stage": 4,
+          "domain": "听说",
+          "title": "听懂正常语速的对话与短文并抓关键信息"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.01",
+          "code": "S4.RD.01",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "读懂约 300 词语篇，理解主旨与细节"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.02",
+          "code": "S4.RD.02",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "略读（skimming）与寻读（scanning）策略"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.03",
+          "code": "S4.RD.03",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "利用上下文猜测词义"
+        },
+        {
+          "key": "csenglish-2022:S4.RD.04",
+          "code": "S4.RD.04",
+          "stage": 4,
+          "domain": "阅读",
+          "title": "图表、菜单等非连续性文本的信息提取"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.01",
+          "code": "S4.WR.01",
+          "stage": 4,
+          "domain": "写作",
+          "title": "应用文写作：书信、邮件、通知、贺卡"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.02",
+          "code": "S4.WR.02",
+          "stage": 4,
+          "domain": "写作",
+          "title": "话题作文 80–100 词（开头—主体—结尾三段式）"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.03",
+          "code": "S4.WR.03",
+          "stage": 4,
+          "domain": "写作",
+          "title": "用 and/but/so/because 等连接词衔接语篇"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.04",
+          "code": "S4.WR.04",
+          "stage": 4,
+          "domain": "写作",
+          "title": "记叙文与说明性短文的写作"
+        },
+        {
+          "key": "csenglish-2022:S4.WR.05",
+          "code": "S4.WR.05",
+          "stage": 4,
+          "domain": "写作",
+          "title": "写作自查：时态一致、主谓一致、单词拼写"
+        }
+      ],
+      "topicCount": 48
+    },
+    {
+      "slug": "hsenglish-2017",
+      "title": "普通高中英语课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsenglish-2017:H1.VB.01",
+          "code": "H1.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "主题语境词汇：人与自我、人与社会、人与自然（3000 词级）"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.01",
+          "code": "H1.GR.01",
+          "stage": 5,
+          "domain": "语法",
+          "title": "非谓语动词（不定式、动名词、分词）的理解与使用"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.02",
+          "code": "H1.GR.02",
+          "stage": 5,
+          "domain": "语法",
+          "title": "名词性从句与定语从句的系统掌握"
+        },
+        {
+          "key": "hsenglish-2017:H1.GR.03",
+          "code": "H1.GR.03",
+          "stage": 5,
+          "domain": "语法",
+          "title": "时态与语态在语篇中的得体运用"
+        },
+        {
+          "key": "hsenglish-2017:H1.LS.01",
+          "code": "H1.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "听力中获取主要信息与说话人态度意图"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.01",
+          "code": "H1.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "略读寻读与主旨要义的把握"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.02",
+          "code": "H1.RD.02",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "细节理解、推理判断与作者意图"
+        },
+        {
+          "key": "hsenglish-2017:H1.RD.03",
+          "code": "H1.RD.03",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "语篇衔接与词汇猜测（语篇填空与七选五基础）"
+        },
+        {
+          "key": "hsenglish-2017:H1.WR.01",
+          "code": "H1.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "应用文写作：建议信、邀请函、申请信"
+        },
+        {
+          "key": "hsenglish-2017:H1.WR.02",
+          "code": "H1.WR.02",
+          "stage": 5,
+          "domain": "写作",
+          "title": "读后续写初步：情节合理续接"
+        },
+        {
+          "key": "hsenglish-2017:H2.VB.01",
+          "code": "H2.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "熟词生义、词汇搭配与 3500 词积累"
+        },
+        {
+          "key": "hsenglish-2017:H2.GR.01",
+          "code": "H2.GR.01",
+          "stage": 5,
+          "domain": "语法",
+          "title": "虚拟语气的基本形式与含义"
+        },
+        {
+          "key": "hsenglish-2017:H2.RD.01",
+          "code": "H2.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "说明文与议论文的语篇结构分析"
+        },
+        {
+          "key": "hsenglish-2017:H2.WR.01",
+          "code": "H2.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "概要写作：paraphrase 与信息压缩"
+        },
+        {
+          "key": "hsenglish-2017:H3.LS.01",
+          "code": "H3.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "批判性听读：区分事实与观点"
+        },
+        {
+          "key": "hsenglish-2017:H3.RD.01",
+          "code": "H3.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "文学语篇（小说节选、剧本）的阅读与赏析"
+        },
+        {
+          "key": "hsenglish-2017:H3.WR.01",
+          "code": "H3.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "读后续写的情感与动作描写"
+        },
+        {
+          "key": "hsenglish-2017:H4.VB.01",
+          "code": "H4.VB.01",
+          "stage": 5,
+          "domain": "词汇",
+          "title": "词汇语义网与主题词块（collocations）"
+        },
+        {
+          "key": "hsenglish-2017:H4.RD.01",
+          "code": "H4.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "长难句解析与语篇逻辑关系词"
+        },
+        {
+          "key": "hsenglish-2017:H4.WR.01",
+          "code": "H4.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "议论文写作：观点对比与论证展开"
+        },
+        {
+          "key": "hsenglish-2017:H5.LS.01",
+          "code": "H5.LS.01",
+          "stage": 5,
+          "domain": "听说",
+          "title": "跨文化交际的得体表达"
+        },
+        {
+          "key": "hsenglish-2017:H5.RD.01",
+          "code": "H5.RD.01",
+          "stage": 5,
+          "domain": "阅读",
+          "title": "科普与文化语篇的综合理解"
+        },
+        {
+          "key": "hsenglish-2017:H5.WR.01",
+          "code": "H5.WR.01",
+          "stage": 5,
+          "domain": "写作",
+          "title": "概要与续写综合训练（高考题型）"
+        }
+      ],
+      "topicCount": 23
+    },
+    {
+      "slug": "csphysics-2022",
+      "title": "义务教育物理课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csphysics-2022:S4.MT.01",
+          "code": "S4.MT.01",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的形态与物态变化"
+        },
+        {
+          "key": "csphysics-2022:S4.MT.02",
+          "code": "S4.MT.02",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的属性：质量与密度"
+        },
+        {
+          "key": "csphysics-2022:S4.MT.03",
+          "code": "S4.MT.03",
+          "stage": 4,
+          "domain": "物质",
+          "title": "物质的微观结构：分子与原子"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.01",
+          "code": "S4.MI.01",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "机械运动、参照物与速度"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.02",
+          "code": "S4.MI.02",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "声现象：产生、传播、特性与利用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.03",
+          "code": "S4.MI.03",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "光现象：直线传播、反射与折射"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.04",
+          "code": "S4.MI.04",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "透镜及其应用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.05",
+          "code": "S4.MI.05",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "力、运动和力的关系、二力平衡"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.06",
+          "code": "S4.MI.06",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "压强：固体、液体与大气"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.07",
+          "code": "S4.MI.07",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "浮力及其应用"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.08",
+          "code": "S4.MI.08",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电流与电路"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.09",
+          "code": "S4.MI.09",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电压、电阻与欧姆定律"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.10",
+          "code": "S4.MI.10",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电功率、焦耳定律与家庭电路"
+        },
+        {
+          "key": "csphysics-2022:S4.MI.11",
+          "code": "S4.MI.11",
+          "stage": 4,
+          "domain": "运动和相互作用",
+          "title": "电与磁：磁场、电磁铁、电磁感应"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.01",
+          "code": "S4.EN.01",
+          "stage": 4,
+          "domain": "能量",
+          "title": "内能、比热容与热机"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.02",
+          "code": "S4.EN.02",
+          "stage": 4,
+          "domain": "能量",
+          "title": "机械能及其转化"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.03",
+          "code": "S4.EN.03",
+          "stage": 4,
+          "domain": "能量",
+          "title": "功、功率与机械效率"
+        },
+        {
+          "key": "csphysics-2022:S4.EN.04",
+          "code": "S4.EN.04",
+          "stage": 4,
+          "domain": "能量",
+          "title": "能量守恒与能源可持续"
+        },
+        {
+          "key": "csphysics-2022:S4.PR.01",
+          "code": "S4.PR.01",
+          "stage": 4,
+          "domain": "实验探究",
+          "title": "测量工具的使用与误差"
+        },
+        {
+          "key": "csphysics-2022:S4.PR.02",
+          "code": "S4.PR.02",
+          "stage": 4,
+          "domain": "实验探究",
+          "title": "科学探究方法：控制变量、转换、等效替代"
+        }
+      ],
+      "topicCount": 20
+    },
+    {
+      "slug": "hsphysics-2017",
+      "title": "普通高中物理课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsphysics-2017:H1.MC.01",
+          "code": "H1.MC.01",
+          "stage": 5,
+          "domain": "力学",
+          "title": "质点、位移、速度与加速度"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.02",
+          "code": "H1.MC.02",
+          "stage": 5,
+          "domain": "力学",
+          "title": "匀变速直线运动的规律与图像"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.03",
+          "code": "H1.MC.03",
+          "stage": 5,
+          "domain": "力学",
+          "title": "重力、弹力、摩擦力与力的合成分解"
+        },
+        {
+          "key": "hsphysics-2017:H1.MC.04",
+          "code": "H1.MC.04",
+          "stage": 5,
+          "domain": "力学",
+          "title": "牛顿三大运动定律及应用"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.05",
+          "code": "H2.MC.05",
+          "stage": 5,
+          "domain": "力学",
+          "title": "曲线运动与抛体运动"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.06",
+          "code": "H2.MC.06",
+          "stage": 5,
+          "domain": "力学",
+          "title": "圆周运动与向心力"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.07",
+          "code": "H2.MC.07",
+          "stage": 5,
+          "domain": "力学",
+          "title": "万有引力定律与航天"
+        },
+        {
+          "key": "hsphysics-2017:H2.EN.08",
+          "code": "H2.EN.08",
+          "stage": 5,
+          "domain": "能量",
+          "title": "功、动能定理与机械能守恒"
+        },
+        {
+          "key": "hsphysics-2017:H2.MC.09",
+          "code": "H2.MC.09",
+          "stage": 5,
+          "domain": "力学",
+          "title": "动量、冲量与动量守恒"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.10",
+          "code": "H2.WM.10",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "静电场：电场强度、电势与电容"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.11",
+          "code": "H2.WM.11",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "电路：欧姆定律的深化、电能与焦耳定律"
+        },
+        {
+          "key": "hsphysics-2017:H2.WM.12",
+          "code": "H2.WM.12",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "磁场、电磁感应现象与电磁波"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.13",
+          "code": "H3.WM.13",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "机械振动：简谐运动与单摆"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.14",
+          "code": "H3.WM.14",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "机械波：波速波长频率与干涉衍射"
+        },
+        {
+          "key": "hsphysics-2017:H3.OP.15",
+          "code": "H3.OP.15",
+          "stage": 5,
+          "domain": "光学",
+          "title": "光的折射、全反射、干涉与衍射"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.16",
+          "code": "H3.WM.16",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "安培力与洛伦兹力"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.17",
+          "code": "H3.WM.17",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "法拉第电磁感应定律"
+        },
+        {
+          "key": "hsphysics-2017:H3.WM.18",
+          "code": "H3.WM.18",
+          "stage": 5,
+          "domain": "电磁",
+          "title": "交变电流、变压器与远距离输电"
+        },
+        {
+          "key": "hsphysics-2017:H4.RE.19",
+          "code": "H4.RE.19",
+          "stage": 5,
+          "domain": "热学",
+          "title": "分子动理论、热力学定律与能量守恒"
+        },
+        {
+          "key": "hsphysics-2017:H4.MO.20",
+          "code": "H4.MO.20",
+          "stage": 5,
+          "domain": "近代物理",
+          "title": "原子结构与玻尔理论"
+        },
+        {
+          "key": "hsphysics-2017:H4.MO.21",
+          "code": "H4.MO.21",
+          "stage": 5,
+          "domain": "近代物理",
+          "title": "原子核、放射性、核能与相对论初步"
+        },
+        {
+          "key": "hsphysics-2017:H4.EN.22",
+          "code": "H4.EN.22",
+          "stage": 5,
+          "domain": "能量",
+          "title": "能源利用与可持续发展"
+        }
+      ],
+      "topicCount": 22
+    },
+    {
+      "slug": "cschemistry-2022",
+      "title": "义务教育化学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cschemistry-2022:S4.ST.01",
+          "code": "S4.ST.01",
+          "stage": 4,
+          "domain": "科学探究",
+          "title": "基本实验操作、仪器使用与实验安全"
+        },
+        {
+          "key": "cschemistry-2022:S4.ST.02",
+          "code": "S4.ST.02",
+          "stage": 4,
+          "domain": "科学探究",
+          "title": "科学探究的环节：问题—猜想—设计—实验—结论"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.01",
+          "code": "S4.SM.01",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "空气、氧气与二氧化碳"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.02",
+          "code": "S4.SM.02",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "水的组成、净化与硬水软水"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.03",
+          "code": "S4.SM.03",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "金属与金属材料"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.04",
+          "code": "S4.SM.04",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "常见的酸、碱、盐"
+        },
+        {
+          "key": "cschemistry-2022:S4.SM.05",
+          "code": "S4.SM.05",
+          "stage": 4,
+          "domain": "身边的化学物质",
+          "title": "溶液、溶解度与溶质质量分数"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.01",
+          "code": "S4.SS.01",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "分子、原子、离子"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.02",
+          "code": "S4.SS.02",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "原子结构与相对原子质量"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.03",
+          "code": "S4.SS.03",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "元素与元素周期表初步"
+        },
+        {
+          "key": "cschemistry-2022:S4.SS.04",
+          "code": "S4.SS.04",
+          "stage": 4,
+          "domain": "物质构成的奥秘",
+          "title": "化学式与化合价"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.01",
+          "code": "S4.CC.01",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "物理与化学变化、四种基本反应类型"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.02",
+          "code": "S4.CC.02",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "质量守恒定律与化学方程式"
+        },
+        {
+          "key": "cschemistry-2022:S4.CC.03",
+          "code": "S4.CC.03",
+          "stage": 4,
+          "domain": "物质的化学变化",
+          "title": "燃烧条件与灭火原理"
+        },
+        {
+          "key": "cschemistry-2022:S4.CS.01",
+          "code": "S4.CS.01",
+          "stage": 4,
+          "domain": "化学与社会发展",
+          "title": "化学与能源、材料、环境和健康"
+        }
+      ],
+      "topicCount": 15
+    },
+    {
+      "slug": "hschemistry-2017",
+      "title": "普通高中化学课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hschemistry-2017:H1.PR.01",
+          "code": "H1.PR.01",
+          "stage": 5,
+          "domain": "化学实验与探究",
+          "title": "高中实验安全、仪器与分离提纯（蒸馏萃取过滤）"
+        },
+        {
+          "key": "hschemistry-2017:H1.ST.01",
+          "code": "H1.ST.01",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "物质的分类、分散系与胶体"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.01",
+          "code": "H1.RC.01",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "离子反应与离子方程式"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.02",
+          "code": "H1.RC.02",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "氧化还原反应的本质与表示"
+        },
+        {
+          "key": "hschemistry-2017:H1.RC.03",
+          "code": "H1.RC.03",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "物质的量：摩尔质量、气体摩尔体积与浓度"
+        },
+        {
+          "key": "hschemistry-2017:H1.IN.01",
+          "code": "H1.IN.01",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "钠及其化合物"
+        },
+        {
+          "key": "hschemistry-2017:H1.IN.02",
+          "code": "H1.IN.02",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "氯及其化合物"
+        },
+        {
+          "key": "hschemistry-2017:H1.ST.02",
+          "code": "H1.ST.02",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "元素周期律与元素周期表"
+        },
+        {
+          "key": "hschemistry-2017:H2.ST.03",
+          "code": "H2.ST.03",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "化学键：离子键与共价键"
+        },
+        {
+          "key": "hschemistry-2017:H2.RC.04",
+          "code": "H2.RC.04",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学反应速率与限度（初步）"
+        },
+        {
+          "key": "hschemistry-2017:H2.RC.05",
+          "code": "H2.RC.05",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学反应中的能量变化（初步）"
+        },
+        {
+          "key": "hschemistry-2017:H2.IN.03",
+          "code": "H2.IN.03",
+          "stage": 5,
+          "domain": "无机物及其应用",
+          "title": "硫、氮及其化合物与化工资源"
+        },
+        {
+          "key": "hschemistry-2017:H2.OR.01",
+          "code": "H2.OR.01",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "有机化合物初步：甲烷、乙醇、乙酸与基本燃料"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.06",
+          "code": "H3.RC.06",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "热化学与盖斯定律"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.07",
+          "code": "H3.RC.07",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "化学平衡与平衡移动原理"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.08",
+          "code": "H3.RC.08",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "水溶液中的离子平衡：电离、pH、水解、沉淀溶解"
+        },
+        {
+          "key": "hschemistry-2017:H3.RC.09",
+          "code": "H3.RC.09",
+          "stage": 5,
+          "domain": "化学反应原理",
+          "title": "电化学：原电池、电解池与金属防护"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.04",
+          "code": "H4.ST.04",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "原子结构与性质：核外电子排布、电离能与电负性"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.05",
+          "code": "H4.ST.05",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "分子结构：杂化轨道、VSEPR 与分子间作用力"
+        },
+        {
+          "key": "hschemistry-2017:H4.ST.06",
+          "code": "H4.ST.06",
+          "stage": 5,
+          "domain": "物质结构与性质",
+          "title": "晶体结构与晶胞计算"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.02",
+          "code": "H5.OR.02",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "烃：烷烯炔苯的结构、性质与命名"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.03",
+          "code": "H5.OR.03",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "烃的衍生物：卤代烃、醇酚、醛、羧酸与酯"
+        },
+        {
+          "key": "hschemistry-2017:H5.OR.04",
+          "code": "H5.OR.04",
+          "stage": 5,
+          "domain": "有机化学基础",
+          "title": "生命中的有机物与合成高分子"
+        }
+      ],
+      "topicCount": 23
+    },
+    {
+      "slug": "csbiology-2022",
+      "title": "义务教育生物学课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csbiology-2022:S4.ST.01",
+          "code": "S4.ST.01",
+          "stage": 4,
+          "domain": "生物体的结构层次",
+          "title": "细胞是生命活动的基本单位：显微镜观察与细胞结构"
+        },
+        {
+          "key": "csbiology-2022:S4.ST.02",
+          "code": "S4.ST.02",
+          "stage": 4,
+          "domain": "生物体的结构层次",
+          "title": "细胞分裂、分化与组织器官系统"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.01",
+          "code": "S4.PL.01",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "绿色植物的类群与种子萌发"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.02",
+          "code": "S4.PL.02",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "光合作用与呼吸作用"
+        },
+        {
+          "key": "csbiology-2022:S4.PL.03",
+          "code": "S4.PL.03",
+          "stage": 4,
+          "domain": "植物的生活",
+          "title": "蒸腾作用与水分无机盐运输"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.01",
+          "code": "S4.HB.01",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "人体的营养、消化、呼吸与循环"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.02",
+          "code": "S4.HB.02",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "泌尿、神经调节与激素调节"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.03",
+          "code": "S4.HB.03",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "人类的生殖与发育"
+        },
+        {
+          "key": "csbiology-2022:S4.HB.04",
+          "code": "S4.HB.04",
+          "stage": 4,
+          "domain": "人体生理与健康",
+          "title": "传染病、免疫与健康生活"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.01",
+          "code": "S4.BD.01",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "动物的主要类群及其与环境适应"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.02",
+          "code": "S4.BD.02",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "细菌真菌病毒与微生物应用"
+        },
+        {
+          "key": "csbiology-2022:S4.BD.03",
+          "code": "S4.BD.03",
+          "stage": 4,
+          "domain": "生物的多样性",
+          "title": "生物分类的方法与多样性保护"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.01",
+          "code": "S4.GE.01",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "生殖与发育的多种方式"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.02",
+          "code": "S4.GE.02",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "基因、性状、遗传变异的基本规律"
+        },
+        {
+          "key": "csbiology-2022:S4.GE.03",
+          "code": "S4.GE.03",
+          "stage": 4,
+          "domain": "遗传与进化",
+          "title": "生物进化的历程与原因"
+        },
+        {
+          "key": "csbiology-2022:S4.BE.01",
+          "code": "S4.BE.01",
+          "stage": 4,
+          "domain": "生物与环境",
+          "title": "生态系统的组成、食物网与物质能量流动"
+        },
+        {
+          "key": "csbiology-2022:S4.BE.02",
+          "code": "S4.BE.02",
+          "stage": 4,
+          "domain": "生物与环境",
+          "title": "生物与环境的关系、人与生物圈"
+        }
+      ],
+      "topicCount": 17
+    },
+    {
+      "slug": "hsbiology-2017",
+      "title": "普通高中生物学课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsbiology-2017:H1.MC.01",
+          "code": "H1.MC.01",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的分子组成：水、无机盐、蛋白质、核酸、糖类与脂质"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.02",
+          "code": "H1.MC.02",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的基本结构与生物膜系统"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.03",
+          "code": "H1.MC.03",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "物质的跨膜运输"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.04",
+          "code": "H1.MC.04",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "酶与 ATP 在细胞代谢中的作用"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.05",
+          "code": "H1.MC.05",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞呼吸与光合作用的过程与相互关系"
+        },
+        {
+          "key": "hsbiology-2017:H1.MC.06",
+          "code": "H1.MC.06",
+          "stage": 5,
+          "domain": "分子与细胞",
+          "title": "细胞的生命历程：增殖、分化、衰老、凋亡与癌变"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.01",
+          "code": "H2.GE.01",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "遗传的分子基础：DNA 结构、复制与基因表达"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.02",
+          "code": "H2.GE.02",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "遗传的基本规律：分离与自由组合"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.03",
+          "code": "H2.GE.03",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "伴性遗传与人类遗传病"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.04",
+          "code": "H2.GE.04",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "可遗传变异的来源：基因突变、重组与染色体变异"
+        },
+        {
+          "key": "hsbiology-2017:H2.GE.05",
+          "code": "H2.GE.05",
+          "stage": 5,
+          "domain": "遗传与进化",
+          "title": "现代生物进化理论"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.01",
+          "code": "H3.HR.01",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "内环境与稳态"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.02",
+          "code": "H3.HR.02",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "神经调节：兴奋的传导与传递"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.03",
+          "code": "H3.HR.03",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "体液调节与免疫调节"
+        },
+        {
+          "key": "hsbiology-2017:H3.HR.04",
+          "code": "H3.HR.04",
+          "stage": 5,
+          "domain": "稳态与调节",
+          "title": "植物激素调节"
+        },
+        {
+          "key": "hsbiology-2017:H4.BE.01",
+          "code": "H4.BE.01",
+          "stage": 5,
+          "domain": "生物与环境",
+          "title": "种群与群落"
+        },
+        {
+          "key": "hsbiology-2017:H4.BE.02",
+          "code": "H4.BE.02",
+          "stage": 5,
+          "domain": "生物与环境",
+          "title": "生态系统的结构与功能、稳定性"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.01",
+          "code": "H5.BT.01",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "发酵工程与传统发酵技术"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.02",
+          "code": "H5.BT.02",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "细胞工程：植物组织培养与克隆"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.03",
+          "code": "H5.BT.03",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "基因工程：工具、步骤与应用"
+        },
+        {
+          "key": "hsbiology-2017:H5.BT.04",
+          "code": "H5.BT.04",
+          "stage": 5,
+          "domain": "生物技术与工程",
+          "title": "生态工程与生物技术的安全伦理"
+        }
+      ],
+      "topicCount": 21
+    },
+    {
+      "slug": "cshistory-2022",
+      "title": "义务教育历史课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "cshistory-2022:S4.AC.01",
+          "code": "S4.AC.01",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "史前与夏商周：早期国家的产生与社会变革"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.02",
+          "code": "S4.AC.02",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "秦汉：统一多民族国家的建立和巩固"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.03",
+          "code": "S4.AC.03",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "三国至南北朝：政权分立与民族交融"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.04",
+          "code": "S4.AC.04",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "隋唐：繁荣与开放的时代"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.05",
+          "code": "S4.AC.05",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "辽宋夏金元：民族关系发展和社会变化"
+        },
+        {
+          "key": "cshistory-2022:S4.AC.06",
+          "code": "S4.AC.06",
+          "stage": 4,
+          "domain": "中国古代史",
+          "title": "明清：统一多民族国家的巩固与发展"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.01",
+          "code": "S4.MC.01",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "晚清时期的内忧外患与救亡图存"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.02",
+          "code": "S4.MC.02",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "辛亥革命与中华民国的建立"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.03",
+          "code": "S4.MC.03",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "新民主主义革命的兴起与胜利"
+        },
+        {
+          "key": "cshistory-2022:S4.MC.04",
+          "code": "S4.MC.04",
+          "stage": 4,
+          "domain": "中国近代史",
+          "title": "近代经济、社会生活与教育文化"
+        },
+        {
+          "key": "cshistory-2022:S4.WA.01",
+          "code": "S4.WA.01",
+          "stage": 4,
+          "domain": "世界古代史",
+          "title": "古代亚非欧文明与封建时代"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.01",
+          "code": "S4.WM.01",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "走向近代：文艺复兴、新航路与资本主义制度确立"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.02",
+          "code": "S4.WM.02",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "两次工业革命与殖民地人民的反抗"
+        },
+        {
+          "key": "cshistory-2022:S4.WM.03",
+          "code": "S4.WM.03",
+          "stage": 4,
+          "domain": "世界近代史",
+          "title": "第一次世界大战与战后初期的世界"
+        },
+        {
+          "key": "cshistory-2022:S4.WC.01",
+          "code": "S4.WC.01",
+          "stage": 4,
+          "domain": "世界现代史",
+          "title": "经济大危机、二战与战后世界格局"
+        },
+        {
+          "key": "cshistory-2022:S4.WC.02",
+          "code": "S4.WC.02",
+          "stage": 4,
+          "domain": "世界现代史",
+          "title": "冷战后的世界与科技文化发展"
+        },
+        {
+          "key": "cshistory-2022:S4.SA.01",
+          "code": "S4.SA.01",
+          "stage": 4,
+          "domain": "跨学科主题",
+          "title": "史料实证与时空观念的方法训练"
+        }
+      ],
+      "topicCount": 17
+    },
+    {
+      "slug": "hshistory-2017",
+      "title": "普通高中历史课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hshistory-2017:H1.OA.01",
+          "code": "H1.OA.01",
+          "stage": 5,
+          "domain": "中外历史纲要（上）",
+          "title": "中国古代政治制度与社会治理"
+        },
+        {
+          "key": "hshistory-2017:H1.OA.02",
+          "code": "H1.OA.02",
+          "stage": 5,
+          "domain": "中外历史纲要（上）",
+          "title": "中国近现代史通览：从救亡图存到民族复兴"
+        },
+        {
+          "key": "hshistory-2017:H1.OB.01",
+          "code": "H1.OB.01",
+          "stage": 5,
+          "domain": "中外历史纲要（下）",
+          "title": "世界古代与中古文明多元发展"
+        },
+        {
+          "key": "hshistory-2017:H1.OB.02",
+          "code": "H1.OB.02",
+          "stage": 5,
+          "domain": "中外历史纲要（下）",
+          "title": "世界近现代：全球联系的建立与格局演变"
+        },
+        {
+          "key": "hshistory-2017:H2.NG.01",
+          "code": "H2.NG.01",
+          "stage": 5,
+          "domain": "国家制度与社会治理",
+          "title": "政治体制、官员选拔与法律教化"
+        },
+        {
+          "key": "hshistory-2017:H2.ES.01",
+          "code": "H2.ES.01",
+          "stage": 5,
+          "domain": "经济与社会生活",
+          "title": "食物生产、商业贸易与村镇城市"
+        },
+        {
+          "key": "hshistory-2017:H2.CE.01",
+          "code": "H2.CE.01",
+          "stage": 5,
+          "domain": "文化交流与传播",
+          "title": "源远流长的中华文化、世界文化多样性与交流"
+        }
+      ],
+      "topicCount": 7
+    },
+    {
+      "slug": "csgeography-2022",
+      "title": "义务教育地理课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csgeography-2022:S4.EG.01",
+          "code": "S4.EG.01",
+          "stage": 4,
+          "domain": "地球与地图",
+          "title": "地球与地球仪、地图三要素与地形图判读"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.01",
+          "code": "S4.NG.01",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "地球运动及其地理意义、海陆分布与变迁"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.02",
+          "code": "S4.NG.02",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "气温降水与气候、天气与天气预报"
+        },
+        {
+          "key": "csgeography-2022:S4.NG.03",
+          "code": "S4.NG.03",
+          "stage": 4,
+          "domain": "自然地理",
+          "title": "居民与聚落、人口人种语言宗教"
+        },
+        {
+          "key": "csgeography-2022:S4.WG.01",
+          "code": "S4.WG.01",
+          "stage": 4,
+          "domain": "世界地理",
+          "title": "大洲大洋与地区国家的地理特征"
+        },
+        {
+          "key": "csgeography-2022:S4.WG.02",
+          "code": "S4.WG.02",
+          "stage": 4,
+          "domain": "世界地理",
+          "title": "世界经济发展与合作、国际合作"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.01",
+          "code": "S4.CG.01",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的疆域人口民族与自然环境"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.02",
+          "code": "S4.CG.02",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的自然资源与经济发展（农业工业交通）"
+        },
+        {
+          "key": "csgeography-2022:S4.CG.03",
+          "code": "S4.CG.03",
+          "stage": 4,
+          "domain": "中国地理",
+          "title": "中国的地域差异与省级行政区、家乡地理"
+        },
+        {
+          "key": "csgeography-2022:S4.RD.01",
+          "code": "S4.RD.01",
+          "stage": 4,
+          "domain": "区域发展",
+          "title": "认识区域的方法：区域分析与区域联系"
+        }
+      ],
+      "topicCount": 10
+    },
+    {
+      "slug": "hsgeography-2017",
+      "title": "普通高中地理课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hsgeography-2017:H1.NG.01",
+          "code": "H1.NG.01",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "宇宙中的地球与太阳对地球的影响"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.02",
+          "code": "H1.NG.02",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地球上的大气：大气受热与环流"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.03",
+          "code": "H1.NG.03",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地球上的水：水循环与洋流"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.04",
+          "code": "H1.NG.04",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "地貌：内外力作用与典型地貌"
+        },
+        {
+          "key": "hsgeography-2017:H1.NG.05",
+          "code": "H1.NG.05",
+          "stage": 5,
+          "domain": "自然地理基础",
+          "title": "自然环境的整体性与差异性"
+        },
+        {
+          "key": "hsgeography-2017:H2.HG.01",
+          "code": "H2.HG.01",
+          "stage": 5,
+          "domain": "人文地理",
+          "title": "人口、城镇与乡村、产业区位"
+        },
+        {
+          "key": "hsgeography-2017:H2.HG.02",
+          "code": "H2.HG.02",
+          "stage": 5,
+          "domain": "人文地理",
+          "title": "交通运输布局与环境发展、环境问题与可持续发展"
+        },
+        {
+          "key": "hsgeography-2017:H3.RD.01",
+          "code": "H3.RD.01",
+          "stage": 5,
+          "domain": "区域发展",
+          "title": "区域与区域发展、资源枯竭型城市转型"
+        },
+        {
+          "key": "hsgeography-2017:H3.RD.02",
+          "code": "H3.RD.02",
+          "stage": 5,
+          "domain": "区域发展",
+          "title": "生态脆弱区治理与流域开发、城市产业与地理信息"
+        },
+        {
+          "key": "hsgeography-2017:H4.RE.01",
+          "code": "H4.RE.01",
+          "stage": 5,
+          "domain": "资源、环境与国家安全",
+          "title": "自然资源与国家安全、环境与国家安全"
+        }
+      ],
+      "topicCount": 10
+    },
+    {
+      "slug": "csmorality-2022",
+      "title": "义务教育道德与法治课程标准（2022年版）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2022,
+      "officialUrl": "http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_616944.html",
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "csmorality-2022:S1.MR.01",
+          "code": "S1.MR.01",
+          "stage": 1,
+          "domain": "道德修养",
+          "title": "入学适应与良好习惯（低段）"
+        },
+        {
+          "key": "csmorality-2022:S1.LH.01",
+          "code": "S1.LH.01",
+          "stage": 1,
+          "domain": "生命安全与健康",
+          "title": "自我保护与安全常识（低段）"
+        },
+        {
+          "key": "csmorality-2022:S2.MR.01",
+          "code": "S2.MR.01",
+          "stage": 2,
+          "domain": "道德修养",
+          "title": "诚实守信、遵守规则与集体生活"
+        },
+        {
+          "key": "csmorality-2022:S2.LH.01",
+          "code": "S2.LH.01",
+          "stage": 2,
+          "domain": "生命安全与健康",
+          "title": "健康生活与安全自护（交通、居家）"
+        },
+        {
+          "key": "csmorality-2022:S3.TR.01",
+          "code": "S3.TR.01",
+          "stage": 3,
+          "domain": "中华优秀传统文化与革命传统",
+          "title": "家乡与传统节日、革命先辈故事"
+        },
+        {
+          "key": "csmorality-2022:S3.MR.01",
+          "code": "S3.MR.01",
+          "stage": 3,
+          "domain": "道德修养",
+          "title": "家庭责任、同伴交往与诚信"
+        },
+        {
+          "key": "csmorality-2022:S3.LE.01",
+          "code": "S3.LE.01",
+          "stage": 3,
+          "domain": "法治教育",
+          "title": "生活规则与法律初识"
+        },
+        {
+          "key": "csmorality-2022:S4.TR.01",
+          "code": "S4.TR.01",
+          "stage": 4,
+          "domain": "中华优秀传统文化与革命传统",
+          "title": "中华文化的认同与爱国情怀"
+        },
+        {
+          "key": "csmorality-2022:S4.MR.01",
+          "code": "S4.MR.01",
+          "stage": 4,
+          "domain": "道德修养",
+          "title": "青春期的自我认识与情绪管理、责任担当"
+        },
+        {
+          "key": "csmorality-2022:S4.LE.01",
+          "code": "S4.LE.01",
+          "stage": 4,
+          "domain": "法治教育",
+          "title": "宪法意识、公民权利义务与法律体系"
+        },
+        {
+          "key": "csmorality-2022:S4.NA.01",
+          "code": "S4.NA.01",
+          "stage": 4,
+          "domain": "国情教育",
+          "title": "基本国情、创新发展与全球视野"
+        }
+      ],
+      "topicCount": 11
+    },
+    {
+      "slug": "hspolitics-2017",
+      "title": "普通高中思想政治课程标准（2017年版2020年修订）",
+      "issuer": "中华人民共和国教育部",
+      "year": 2020,
+      "officialUrl": null,
+      "textIncluded": false,
+      "topics": [
+        {
+          "key": "hspolitics-2017:H1.SS.01",
+          "code": "H1.SS.01",
+          "stage": 5,
+          "domain": "中国特色社会主义",
+          "title": "社会主义从空想到科学、从理论到实践的发展"
+        },
+        {
+          "key": "hspolitics-2017:H1.SS.02",
+          "code": "H1.SS.02",
+          "stage": 5,
+          "domain": "中国特色社会主义",
+          "title": "只有中国特色社会主义才能发展中国、实现中华民族伟大复兴"
+        },
+        {
+          "key": "hspolitics-2017:H2.ES.01",
+          "code": "H2.ES.01",
+          "stage": 5,
+          "domain": "经济与社会",
+          "title": "我国的生产资料所有制与社会主义市场经济体制"
+        },
+        {
+          "key": "hspolitics-2017:H2.ES.02",
+          "code": "H2.ES.02",
+          "stage": 5,
+          "domain": "经济与社会",
+          "title": "新发展理念、收入分配与社会保障"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.01",
+          "code": "H3.PL.01",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "中国共产党的领导（历史与执政方式）"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.02",
+          "code": "H3.PL.02",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "人民当家作主（根本政治制度与基本政治制度）"
+        },
+        {
+          "key": "hspolitics-2017:H3.PL.03",
+          "code": "H3.PL.03",
+          "stage": 5,
+          "domain": "政治与法治",
+          "title": "全面依法治国（宪法与法治国家）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.01",
+          "code": "H4.PC.01",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "哲学基本问题与马克思主义哲学（唯物论与认识论）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.02",
+          "code": "H4.PC.02",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "唯物辩证法（联系发展矛盾与创新）"
+        },
+        {
+          "key": "hspolitics-2017:H4.PC.03",
+          "code": "H4.PC.03",
+          "stage": 5,
+          "domain": "哲学与文化",
+          "title": "历史唯物主义（社会历史观与价值观）与中华优秀传统文化"
+        },
+        {
+          "key": "hspolitics-2017:H5.IE.01",
+          "code": "H5.IE.01",
+          "stage": 5,
+          "domain": "当代国际政治与经济",
+          "title": "国体政体与国际关系、经济全球化"
+        },
+        {
+          "key": "hspolitics-2017:H6.LL.01",
+          "code": "H6.LL.01",
+          "stage": 5,
+          "domain": "法律与生活",
+          "title": "民事权利义务、家庭婚姻与就业创业中的法律"
+        },
+        {
+          "key": "hspolitics-2017:H7.LT.01",
+          "code": "H7.LT.01",
+          "stage": 5,
+          "domain": "逻辑与思维",
+          "title": "形式逻辑（概念判断推理）与辩证思维方法"
+        }
+      ],
+      "topicCount": 13
+    }
+  ]
+}
