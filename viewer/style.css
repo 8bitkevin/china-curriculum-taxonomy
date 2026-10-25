@@ -1,54 +1,59 @@
 /* viewer/style.css — 零构建静态样式（系统字体栈，无外部资源）。
-   设计语言 v4「纸墨图谱」：按知识图谱工具的行业最佳实践独立设计
-   （参照 Gephi Lite / Kumu / React Flow / Linear 一类数据工具的惯例），
-   不再对齐任何商业产品皮肤。核心原则：
-   1. 彩色只用于编码数据，不作装饰——学科 = 分类色板；先修强度 =
-      玫红(必需·实线) / 琥珀(有益·虚线)，色觉冗余（线型 + 文字标签）；
-   2. 主色靛蓝只承担「交互语义」：链接/选中/焦点/主按钮，不编码数据；
+   设计语言 v5「K12 纸墨」：在 v4 数据可视化原则之上，整体采用
+   K12aixue 设计系统（品牌绿 #0FA968 / 冷蓝黑墨色 #1B2B33 / 粉彩渐变 /
+   大圆角 14-20px / 极浅大扩散阴影），只取其设计令牌，不取业务组件。
+   沿用 v4 的核心原则：
+   1. 彩色只用于编码数据，不作装饰——学科 = K12 学科彩色系（九科双色阶
+      定义在 graph3d.js）；先修强度 = 玫红(必需·实线) / 琥珀(有益·虚线)，
+      色觉冗余（线型 + 文字标签），且与学科色零撞车；
+   2. 品牌绿只承担「交互语义」：链接/选中/焦点/主按钮，不编码数据
+      （数学学科色同为绿，与 K12aixue 原生一致，靠上下文区分）；
    3. 文本对比度对齐 WCAG AA（≥4.5:1）；焦点全程可见；
       prefers-reduced-motion 全局降级动画；
    4. 分类色板双色阶：bright 档用于深色画布（3D），deep 档用于浅色界面，
-      权威定义在 graph3d.js（SUBJ），两档一一对应；
+      权威定义在 graph3d.js（SUBJECT_COLORS），两档一一对应；
    5. 图表画布 = 纸面浅色（点阵），沉浸探索画布 = 深色（3D 星系），
       两种画布的浮层各随其底。 */
 
 :root {
-  /* ---- 主色：靛蓝（交互强调，非数据编码） ---- */
-  --accent: #4353d9;          /* 白底 6.0:1，作链接/主按钮文字色 */
-  --accent-press: #3644b8;
-  --accent-ink: #3a49c4;      /* 弱底上的强调文字 */
-  --accent-weak: #eef0fc;     /* 选中底 / 标签底 */
-  --accent-line: #c8cff4;     /* 选中描边 */
+  /* ---- 主色：K12 品牌绿（交互强调，非数据编码） ---- */
+  --accent: #0fa968;          /* 链接/主按钮底（K12 --k12-primary） */
+  --accent-press: #0b8f57;    /* 按下态（--k12-primary-deep） */
+  --accent-ink: #0b7a4c;      /* 白底 5.0:1，作强调文字（AA 延伸档） */
+  --accent-weak: #e6f7ef;     /* 选中底 / 标签底（--k12-primary-soft） */
+  --accent-line: #bce5cf;     /* 选中描边 */
 
   /* ---- 语义色：先修强度 + 质量红绿 ---- */
-  --hard: #d81e6a;  --hard-ink: #a81354; --hard-weak: #fceef5;   /* 必需 */
-  --soft: #b4690e;  --soft-ink: #8a5110; --soft-weak: #faf1e2;   /* 有益 */
-  --ok: #15803d;    --ok-weak: #eaf6ef;
-  --bad: #dc2626;   --bad-weak: #fdeeee;
+  --hard: #d81e6a;  --hard-ink: #a81354; --hard-weak: #fceef5;   /* 必需（玫红，与学科色零撞车） */
+  --soft: #c07c00;  --soft-ink: #8a6100; --soft-weak: #fff6e5;   /* 有益（琥珀，浅底/深字对齐 K12 黄系） */
+  --ok: #0b8f57;    --ok-weak: #e6f7ef;
+  --bad: #f0533d;   --bad-weak: #fdeeee;
 
-  /* ---- 中性纸面（冷灰基调） ---- */
-  --bg: #f6f7f9;               /* 页面底 */
-  --bg-sunken: #eef0f4;        /* 表头/次级面 */
+  /* ---- 中性纸面（K12 冷蓝黑墨色基调） ---- */
+  --bg: #f6f8fa;               /* 页面底（--k12-bg） */
+  --bg-sunken: #edf0f3;        /* 表头/次级面（--k12-line 面向底色用法） */
   --panel: #ffffff;
-  --ink: #1b1f27;              /* 正文 */
-  --ink-2: #3d4350;
-  --muted: #5c6373;            /* 白底 5.2:1 */
-  --faint: #8b92a3;            /* 辅助数字/占位 */
-  --line: #e5e8ee;             /* 常规描边 */
-  --line-strong: #d4d9e3;      /* 输入框描边 */
+  --ink: #1b2b33;              /* 正文（--k12-ink） */
+  --ink-2: #35464f;
+  --muted: #5a6b77;            /* 白底 5.4:1 */
+  --faint: #8a97a5;            /* 辅助数字/占位（--k12-ink-2） */
+  --line: #edf0f3;             /* 常规描边 */
+  --line-strong: #dce1e7;      /* 输入框描边 */
 
-  /* ---- 深色画布（3D 全景） ---- */
-  --canvas-dark: #0a0d14;
-  --canvas-panel: rgba(16, 20, 30, 0.92);
-  --canvas-line: rgba(150, 162, 188, 0.22);
-  --canvas-ink: #d9dee9;
-  --canvas-muted: #8d95a8;
+  /* ---- 深色画布（3D 全景，墨绿黑呼应品牌绿；K12 无深色画布，此层为仓内延伸） ---- */
+  --canvas-dark: #0b1410;
+  --canvas-panel: rgba(14, 22, 18, 0.92);
+  --canvas-line: rgba(148, 178, 166, 0.22);
+  --canvas-ink: #dce7e1;
+  --canvas-muted: #8ca79a;
 
-  /* ---- 形状与阴影 ---- */
-  --radius: 10px;  --radius-sm: 8px;  --radius-lg: 14px;
-  --shadow-1: 0 1px 2px rgba(23, 28, 40, 0.05);
-  --shadow-2: 0 6px 24px rgba(23, 28, 40, 0.10);
-  --shadow-canvas: 0 16px 48px rgba(5, 8, 14, 0.55);
+  /* ---- 形状与阴影（K12 度量：卡片大圆角 + 极浅大扩散阴影） ---- */
+  --radius: 14px;  --radius-sm: 10px;  --radius-lg: 20px;
+  --shadow-1: 0 4px 20px rgba(27, 43, 51, 0.06);
+  --shadow-2: 0 8px 32px rgba(27, 43, 51, 0.10);
+  --shadow-accent: 0 6px 16px rgba(15, 169, 104, 0.35);   /* 主按钮彩影 */
+  --shadow-canvas: 0 16px 48px rgba(4, 9, 7, 0.55);
+  --grad-hero: linear-gradient(135deg, #efcaff 0%, #dceaff 45%, #dcfff0 100%);  /* K12 粉彩渐变 */
 
   /* ---- 字号阶梯（工具站信息密度较高，正文 15px） ---- */
   --fs-title: 20px; --fs-h3: 13px; --fs-body: 15px; --fs-sub: 13px; --fs-mini: 12px;
@@ -66,7 +71,7 @@ body {
   flex-direction: column;
   -webkit-font-smoothing: antialiased;
 }
-::selection { background: #dde3fb; }
+::selection { background: #cdefe1; }
 :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
@@ -82,15 +87,15 @@ code {
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
 /* 细滚动条（深浅两套，侧栏与浮层内使用） */
-.side .list, .detail, .g3-card, .pm-card { scrollbar-width: thin; scrollbar-color: #ccd2dd transparent; }
-.g3-card, .pm-card { scrollbar-color: #333c4e transparent; }
+.side .list, .detail, .g3-card, .pm-card { scrollbar-width: thin; scrollbar-color: #ccd4da transparent; }
+.g3-card, .pm-card { scrollbar-color: #2f3f38 transparent; }
 .side .list::-webkit-scrollbar, .detail::-webkit-scrollbar { width: 10px; }
 .side .list::-webkit-scrollbar-thumb, .detail::-webkit-scrollbar-thumb {
-  background: #d3d8e2; border-radius: 6px; border: 3px solid var(--panel);
+  background: #d5dce1; border-radius: 6px; border: 3px solid var(--panel);
 }
 .g3-card::-webkit-scrollbar, .pm-card::-webkit-scrollbar { width: 8px; }
 .g3-card::-webkit-scrollbar-thumb, .pm-card::-webkit-scrollbar-thumb {
-  background: #333c4e; border-radius: 5px;
+  background: #2f3f38; border-radius: 5px;
 }
 
 /* ---------- 顶栏 ---------- */
@@ -102,10 +107,10 @@ code {
 }
 .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark {
-  width: 40px; height: 40px; border-radius: 11px; flex: none;
+  width: 40px; height: 40px; border-radius: 12px; flex: none;
   display: grid; place-items: center;
-  background: linear-gradient(135deg, #4b5ae0, #6d5ae0);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18), 0 2px 8px rgba(75, 90, 224, 0.35);
+  background: linear-gradient(135deg, #0fa968, #0b8f57);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18), 0 2px 8px rgba(15, 169, 104, 0.35);
 }
 .brand-mark svg { display: block; }
 .brand h1 { font-size: 16.5px; margin: 0; letter-spacing: 0.01em; }
@@ -122,17 +127,17 @@ code {
 .ctl input[type="search"] { width: 200px; }
 .ctl input:focus-visible, .ctl select:focus-visible {
   outline: none; border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(67, 83, 217, 0.15);
+  box-shadow: 0 0 0 3px rgba(15, 169, 104, 0.15);
 }
 
-/* 页签：分段控件（segmented control） */
+/* 页签：胶囊分段控件（K12 pill segmented control） */
 .tabs {
-  display: flex; background: var(--bg-sunken); border-radius: 10px; padding: 3px;
+  display: flex; background: var(--bg-sunken); border-radius: 999px; padding: 3px;
   border: 1px solid var(--line);
 }
 .tab {
   font: inherit; font-size: 13.5px; border: 0; background: transparent; color: var(--muted);
-  padding: 5px 14px; border-radius: 7px; cursor: pointer;
+  padding: 5px 16px; border-radius: 999px; cursor: pointer;
   transition: color 0.15s, background 0.15s;
 }
 .tab:hover { color: var(--ink); }
@@ -211,7 +216,7 @@ details.vol-group:last-child { border-bottom: 0; }
 .vol-group summary::-webkit-details-marker { display: none; }
 .vol-group summary::before {
   content: ''; width: 0; height: 0; flex: none;
-  border-left: 5px solid #aab2c2; border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+  border-left: 5px solid #a9b4bd; border-top: 4px solid transparent; border-bottom: 4px solid transparent;
   transition: transform 0.15s ease;
 }
 .vol-group[open] summary::before { transform: rotate(90deg); }
@@ -231,7 +236,15 @@ details.vol-group:last-child { border-bottom: 0; }
 
 /* ---------- 详情 ---------- */
 .detail { flex: 1; overflow-y: auto; padding: 24px 30px 60px; min-width: 0; }
-.placeholder { color: var(--muted); max-width: 560px; margin-top: 11vh; }
+/* 空态：K12 粉彩渐变浅卡（全站唯一装饰性渐变位） */
+.placeholder {
+  color: var(--muted); max-width: 560px; margin-top: 11vh;
+  background: var(--grad-hero);
+  border: 1px solid rgba(27, 43, 51, 0.05);
+  border-radius: var(--radius-lg);
+  padding: 26px 28px;
+  box-shadow: var(--shadow-1);
+}
 .placeholder p { line-height: 1.75; }
 
 .topic-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
@@ -243,15 +256,15 @@ details.vol-group:last-child { border-bottom: 0; }
   display: inline-block; font-size: 11.5px; font-weight: 600; padding: 2px 9px;
   border-radius: 999px; background: var(--bg-sunken); color: var(--ink-2);
 }
-.badge.type-CONCEPTUAL { color: #5b21b6; background: #f1ecfe; }
-.badge.type-PROCEDURAL { color: #155e75; background: #e7f6fa; }
-.badge.type-REPRESENTATIONAL { color: #92400e; background: #fbf2e1; }
-.badge.type-LANGUAGE { color: #166534; background: #eaf6ee; }
-.badge.type-META { color: #9f1239; background: #fceef2; }
-.badge.d-数与代数 { color: #1e40af; background: #e9f0fe; }
-.badge.d-图形与几何 { color: #115e59; background: #e6f7f4; }
-.badge.d-统计与概率 { color: #92400e; background: #fbf2e1; }
-.badge.d-综合与实践 { color: #5b21b6; background: #f1ecfe; }
+.badge.type-CONCEPTUAL { color: #5f43d6; background: #f1edff; }
+.badge.type-PROCEDURAL { color: #0b7f8a; background: #e0f6f8; }
+.badge.type-REPRESENTATIONAL { color: #8a6100; background: #fff6e5; }
+.badge.type-LANGUAGE { color: #0b7a4c; background: #e6f7ef; }
+.badge.type-META { color: #cc3a28; background: #fdeeee; }
+.badge.d-数与代数 { color: #2f6fe0; background: #e8f1ff; }
+.badge.d-图形与几何 { color: #0b7f8a; background: #e0f6f8; }
+.badge.d-统计与概率 { color: #8a6100; background: #fff6e5; }
+.badge.d-综合与实践 { color: #5f43d6; background: #f1edff; }
 
 .meta-line { color: var(--muted); font-size: 13px; margin-top: 6px; }
 .desc { margin: 14px 0 4px; max-width: 72ch; }
@@ -278,7 +291,7 @@ ul.evidence li { margin: 3px 0; }
 .tlink {
   font: inherit; font-size: 14px; font-weight: 600; color: var(--ink);
   background: none; border: 0; padding: 0; cursor: pointer; text-decoration: none;
-  border-bottom: 1px dashed #b9c2d2;
+  border-bottom: 1px dashed #b6c1ca;
 }
 .tlink:hover { color: var(--accent); border-bottom-color: var(--accent); }
 .tvia { font-size: 12.5px; color: var(--muted); }
@@ -339,7 +352,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
   font-size: 11px; letter-spacing: 0.2em; color: var(--canvas-muted);
   margin-bottom: 7px; font-weight: 600;
 }
-.g3-head h2 { margin: 0 0 8px; font-size: 25px; line-height: 1.2; color: #f3f5fa; font-weight: 700; letter-spacing: 0.01em; }
+.g3-head h2 { margin: 0 0 8px; font-size: 25px; line-height: 1.2; color: #f2f8f5; font-weight: 700; letter-spacing: 0.01em; }
 .g3-count { font-size: 12px; color: var(--canvas-muted); font-variant-numeric: tabular-nums; }
 .g3-count b { color: var(--canvas-ink); font-weight: 600; }
 
@@ -354,10 +367,10 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
   padding: 4px 10px; border-radius: 7px; cursor: pointer;
   transition: background 0.12s, opacity 0.12s;
 }
-.g3-legend .chip:hover { background: rgba(148, 163, 188, 0.13); }
-.g3-legend .chip:focus-visible { outline: 1px solid #97a4c4; }
+.g3-legend .chip:hover { background: rgba(148, 178, 166, 0.13); }
+.g3-legend .chip:focus-visible { outline: 1px solid #7fb89e; }
 .g3-legend .chip .sw { width: 10px; height: 10px; border-radius: 3px; flex: none; }
-.g3-legend .chip .ct { margin-left: auto; color: #767f94; font-size: 11.5px; font-variant-numeric: tabular-nums; }
+.g3-legend .chip .ct { margin-left: auto; color: #7d968b; font-size: 11.5px; font-variant-numeric: tabular-nums; }
 .g3-legend .chip.off { opacity: 0.32; }
 .g3-legend .chip.off .nm { text-decoration: line-through; }
 
@@ -371,8 +384,8 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
 .g3-tip.on { display: block; }
 .g3-tip .sw { display: inline-block; width: 9px; height: 9px; border-radius: 3px; margin-right: 6px; }
 .g3-tip .ts { font-size: 11px; color: var(--canvas-muted); }
-.g3-tip .ttl { font-size: 13.5px; color: #f3f5fa; margin: 4px 0 2px; line-height: 1.35; }
-.g3-tip .q { font-size: 11.5px; color: #a9b1c2; line-height: 1.5; max-height: 66px; overflow: hidden; }
+.g3-tip .ttl { font-size: 13.5px; color: #f2f8f5; margin: 4px 0 2px; line-height: 1.35; }
+.g3-tip .q { font-size: 11.5px; color: #a4b8ae; line-height: 1.5; max-height: 66px; overflow: hidden; }
 
 /* 详情卡（右侧，先修浏览器） */
 .g3-card {
@@ -388,7 +401,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
   position: absolute; right: 10px; top: 8px; border: 0; background: none; color: var(--canvas-muted);
   font-size: 20px; cursor: pointer; padding: 2px 8px; border-radius: 6px;
 }
-.g3-card .close:hover { color: #fff; background: rgba(148, 163, 188, 0.15); }
+.g3-card .close:hover { color: #fff; background: rgba(148, 178, 166, 0.15); }
 .g3-card .back {
   border: 0; background: none; color: var(--canvas-muted); font: inherit; font-size: 12px;
   cursor: pointer; padding: 0 0 10px; display: none; text-align: left;
@@ -399,7 +412,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
 .g3-card .csw .sw { width: 9px; height: 9px; border-radius: 3px; }
 .g3-card .cs { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--canvas-muted); }
 .g3-card .ctl { margin: 0 24px 8px 0; font-size: 19px; line-height: 1.3; color: #fff; font-weight: 700; }
-.g3-card .cq { font-size: 12.5px; line-height: 1.6; color: #a9b1c2; margin: 0 0 14px; }
+.g3-card .cq { font-size: 12.5px; line-height: 1.6; color: #a4b8ae; margin: 0 0 14px; }
 .g3-card .cnum { display: flex; align-items: baseline; gap: 8px; margin-bottom: 4px; }
 .g3-card .cnum .n { font-size: 30px; font-weight: 700; color: #fff; line-height: 1; font-variant-numeric: tabular-nums; }
 .g3-card .cnum .u { font-size: 12px; color: var(--canvas-muted); }
@@ -410,21 +423,21 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
 .g3-card .rows { display: flex; flex-direction: column; gap: 1px; }
 .g3-card .row {
   font: inherit; display: flex; align-items: center; gap: 8px; text-align: left;
-  font-size: 12.5px; color: #cdd3e0; background: none; border: 0;
+  font-size: 12.5px; color: #c8d8d0; background: none; border: 0;
   padding: 5px 8px; border-radius: 7px; cursor: pointer;
 }
-.g3-card .row:hover { background: rgba(148, 163, 188, 0.13); }
+.g3-card .row:hover { background: rgba(148, 178, 166, 0.13); }
 .g3-card .row .rdot { width: 8px; height: 8px; border-radius: 3px; flex: none; }
 .g3-card .row .rt { flex: 1; line-height: 1.35; }
-.g3-card .row .ra { color: #767f94; font-size: 11px; white-space: nowrap; font-variant-numeric: tabular-nums; }
-.g3-card .empty { font-size: 12px; color: #767f94; padding: 4px 8px; }
+.g3-card .row .ra { color: #7d968b; font-size: 11px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.g3-card .empty { font-size: 12px; color: #7d968b; padding: 4px 8px; }
 .g3-open {
   font: inherit; font-size: 12.5px; width: 100%; padding: 9px; cursor: pointer;
-  border-radius: 9px; border: 1px solid rgba(125, 144, 255, 0.35);
-  background: rgba(125, 144, 255, 0.15); color: #aab8ff; margin-top: auto;
+  border-radius: 9px; border: 1px solid rgba(82, 208, 147, 0.38);
+  background: rgba(82, 208, 147, 0.14); color: #8fe3b8; margin-top: auto;
   transition: background 0.15s, color 0.15s;
 }
-.g3-open:hover { background: rgba(125, 144, 255, 0.3); color: #fff; }
+.g3-open:hover { background: rgba(82, 208, 147, 0.28); color: #fff; }
 
 .g3-hint {
   position: absolute; z-index: 4; left: 50%; bottom: 16px; transform: translateX(-50%);
@@ -480,7 +493,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
   font-size: 11.5px; color: var(--muted); pointer-events: none;
   background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(4px);
-  padding: 4px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(229, 232, 238, 0.9);
+  padding: 4px 10px; border-radius: var(--radius-sm); border: 1px solid rgba(237, 240, 243, 0.9);
 }
 .pm-legend .lg-item { display: inline-flex; align-items: center; gap: 5px; }
 .pm-legend .lg-line { width: 18px; height: 0; border-top: 2.5px solid var(--hard); border-radius: 2px; }
@@ -508,7 +521,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
   max-height: calc(100% - 24px); overflow-y: auto; overscroll-behavior: contain;
   background: rgba(255, 255, 255, 0.98); border: 1px solid var(--line);
   border-radius: 12px; padding: 14px 14px 12px;
-  box-shadow: 0 10px 40px rgba(23, 28, 40, 0.15);
+  box-shadow: 0 8px 32px rgba(27, 43, 51, 0.12);
 }
 .pm-card-close {
   position: absolute; top: 6px; right: 8px; border: 0; background: none;
@@ -539,6 +552,7 @@ table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--mute
 .pm-open {
   font: inherit; font-size: 13px; font-weight: 600; width: 100%; padding: 8px; cursor: pointer;
   border-radius: 9px; border: 0; background: var(--accent); color: #fff; margin-top: 2px;
+  box-shadow: var(--shadow-accent);
 }
 .pm-open:hover { background: var(--accent-press); }
 

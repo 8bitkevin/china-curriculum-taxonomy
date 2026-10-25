@@ -16,18 +16,17 @@ const NW = 150;            // 节点卡宽
 const NH = 34;             // 节点卡高
 const PAD = 56;            // fit 视图的内边距
 const FONT = '"Segoe UI", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif';
-// 画布配色（与 style.css 的 --hard/--soft/--accent 等变量同源，改一处核两处）
+// 画布配色（与 style.css 的 --hard/--soft/--accent 等变量同源，改一处核两处；
+// 中性色/品牌绿取自 K12aixue 设计系统，设计语言 v5）
 const C = {
-  hardA: '216,30,106',     // 必需（玫红 #d81e6a）
-  softA: '180,105,14',     // 有益（琥珀 #b4690e）
-  grid: '#e8ebf1',         // 点阵
-  bg: '#fcfdfe',           // 画布底
+  hardA: '216,30,106',     // 必需（玫红 #d81e6a，与学科色零撞车）
+  softA: '192,124,0',      // 有益（琥珀 #c07c00）
   card: '#ffffff',
-  cardLine: '#dfe3ec',
-  ink: '#1b1f27',
-  sub: '#8b92a3',
-  brand: '#4353d9',        // 靛蓝 = 当前主题/交互强调（--accent）
-  brandPress: '#3644b8',
+  cardLine: '#dce1e7',
+  ink: '#1b2b33',
+  sub: '#8a97a5',
+  brand: '#0fa968',        // K12 品牌绿 = 当前主题/交互强调（--accent）
+  brandPress: '#0b8f57',
 };
 
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
@@ -462,22 +461,8 @@ export class PathMap {
   draw() {
     const { ctx, W, H, DPR } = this;
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    // 画布透明：不铺底色、无点阵，露出 .pathmap 卡片的白底（与整站纸面一致）
     ctx.clearRect(0, 0, W, H);
-    ctx.fillStyle = C.bg;
-    ctx.fillRect(0, 0, W, H);
-
-    // 点阵背景（屏幕空间，密度不随缩放变化 —— 图表工具惯例）
-    ctx.fillStyle = C.grid;
-    const o = this.toData(0, 0);
-    const step = 26;
-    const x0 = Math.floor(o.x / step) * step, y0 = Math.floor(o.y / step) * step;
-    const x1 = o.x + W / this.view.k, y1 = o.y + H / this.view.k;
-    for (let x = x0; x < x1; x += step) {
-      for (let y = y0; y < y1; y += step) {
-        const s = this.toScreen({ x, y });
-        ctx.fillRect(s.x - 1, s.y - 1, 2, 2);
-      }
-    }
 
     const lin = this.lineage;
     const hasFocus = !!lin;
@@ -526,8 +511,8 @@ export class PathMap {
 
       ctx.globalAlpha = alpha;
       // 卡片底
-      if (isRoot) { ctx.shadowColor = 'rgba(67,83,217,.32)'; ctx.shadowBlur = 16 * k; }
-      else { ctx.shadowColor = 'rgba(23,28,40,.07)'; ctx.shadowBlur = 5 * k; }
+      if (isRoot) { ctx.shadowColor = 'rgba(15,169,104,.32)'; ctx.shadowBlur = 16 * k; }
+      else { ctx.shadowColor = 'rgba(27,43,51,.07)'; ctx.shadowBlur = 5 * k; }
       roundRect(ctx, s.x, s.y, w, h, r);
       ctx.fillStyle = isRoot ? C.brand : C.card;
       ctx.fill();
@@ -567,12 +552,12 @@ export class PathMap {
         const tw = ctx.measureText(label).width + 10 * k;
         const bh = 15 * k;
         roundRect(ctx, bx - tw, by - bh / 2, tw, bh, bh / 2);
-        ctx.fillStyle = '#eef1f6';
+        ctx.fillStyle = '#edf0f3';
         ctx.fill();
-        ctx.strokeStyle = '#d8dde8';
+        ctx.strokeStyle = '#dce1e7';
         ctx.lineWidth = 1;
         ctx.stroke();
-        ctx.fillStyle = '#5c6373';
+        ctx.fillStyle = '#5a6b77';
         ctx.textAlign = 'center';
         ctx.fillText(label, bx - tw / 2, by + 0.5);
       }

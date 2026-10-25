@@ -2,23 +2,24 @@
 // 代码为本仓库原创中文版）。布局为锥形（纺锤）星系：y = 年级高度场，
 // 平均半径随高度线性张开；节点尺寸 = sqrt(中心性)*7.5 的幂律分布。
 
-// 分组 = 学科。学科色板是本图谱仓的独立设计（设计语言 v4，不对齐任何产品皮肤）：
+// 分组 = 学科。学科色板采用 K12aixue 设计系统的学科彩色系（设计语言 v5）：
 // 双色阶一一对应 —— bright 档用于深色画布（本视图），deep 档用于浅色界面
-// （徽章/色条/圆点，白底对比 ≥4:1）。取色遵循 qualitative 色板惯例（Paul Tol
-// 色觉安全思路）：9 类 hue 拉开 + 明度交替；同一条线的初中/高中科（道德与法治/
-// 思想政治）共用一色。学科身份全程伴随文字标签（色觉冗余编码）。
-// pathmap.js（学习路径图）同样引用 —— 修改色板请两处视图一起核对。
+// （徽章/色条/圆点，白底对比 ≥4:1）。语/数/英/物/化/生六科直接取用其
+// 学科色（#F0533D/#0FA968/#4A8CFF/#7B61FF/#00A8B5/#5BAE2E），
+// 历史/地理/道法(思政) 为同气质扩展（金黄/深青/玫红）。同一条线的初中/
+// 高中科（道德与法治/思想政治）共用一色；学科身份全程伴随文字标签（色觉
+// 冗余编码）。pathmap.js（学习路径图）同样引用 —— 修改色板请两处视图一起核对。
 export const SUBJECT_COLORS = {
-  '数学': { deep: '#2f5fe0', bright: '#7d9bff' },
-  '语文': { deep: '#d92d2a', bright: '#ff8078' },
-  '英语': { deep: '#7048e8', bright: '#b9a0ff' },
-  '物理': { deep: '#e8590c', bright: '#ffa05c' },
-  '化学': { deep: '#1e8a4a', bright: '#5bd98e' },
-  '生物学': { deep: '#0d9488', bright: '#4dd6c7' },
-  '历史': { deep: '#b06e10', bright: '#ffc35c' },
-  '地理': { deep: '#0f83c7', bright: '#5fc6ff' },
-  '道德与法治': { deep: '#d6336c', bright: '#f783ac' },
-  '思想政治': { deep: '#d6336c', bright: '#f783ac' },
+  '数学': { deep: '#0fa968', bright: '#52d093' },
+  '语文': { deep: '#f0533d', bright: '#ff8f7a' },
+  '英语': { deep: '#4a8cff', bright: '#8fb8ff' },
+  '物理': { deep: '#7b61ff', bright: '#ad9bff' },
+  '化学': { deep: '#00a8b5', bright: '#5bd9e0' },
+  '生物学': { deep: '#5bae2e', bright: '#98db63' },
+  '历史': { deep: '#b9770e', bright: '#ffc043' },
+  '地理': { deep: '#0e7490', bright: '#53cfe0' },
+  '道德与法治': { deep: '#c2255c', bright: '#f783ae' },
+  '思想政治': { deep: '#c2255c', bright: '#f783ae' },
 };
 const PALETTE = Object.values(SUBJECT_COLORS);
 export const subjectColor = (name, i = 0) => (SUBJECT_COLORS[name] ?? PALETTE[i % PALETTE.length]).bright;
@@ -391,11 +392,11 @@ export class Graph3D {
     const { ctx, VW, VH, DPR } = this;
     const N = this.layout.nodes, E = this.layout.edges, P = this.P;
     ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    // 深空底：垂直渐变（顶部微亮、底部沉暗，星系有纵深）
+    // 深空底：垂直渐变（顶部微亮、底部沉暗，星系有纵深）；墨绿黑呼应品牌绿
     if (!this.bgGrad) {
       this.bgGrad = ctx.createLinearGradient(0, 0, 0, VH);
-      this.bgGrad.addColorStop(0, '#0d1220');
-      this.bgGrad.addColorStop(1, '#070910');
+      this.bgGrad.addColorStop(0, '#0b1410');
+      this.bgGrad.addColorStop(1, '#060b09');
     }
     ctx.fillStyle = this.bgGrad;
     ctx.fillRect(0, 0, VW, VH);
@@ -413,7 +414,7 @@ export class Graph3D {
         else alpha = 0.04;
       } else alpha = e[2] ? 0.10 : 0.05;
       const depth = (P[a * 3 + 2] + P[b * 3 + 2]) / 2;
-      ctx.strokeStyle = col ? `rgba(${col},${alpha})` : `rgba(150,165,205,${alpha * depth})`;
+      ctx.strokeStyle = col ? `rgba(${col},${alpha})` : `rgba(148,178,166,${alpha * depth})`;
       ctx.lineWidth = lw;
       ctx.beginPath();
       ctx.moveTo(P[a * 3], P[a * 3 + 1]); ctx.lineTo(P[b * 3], P[b * 3 + 1]);
@@ -441,7 +442,7 @@ export class Graph3D {
       ctx.beginPath(); ctx.arc(sx, sy, r, 0, 6.2832); ctx.fill();
       ctx.shadowBlur = 0;
       // 深色描边环：让同色点之间有边界（Marble 锐利感的来源）
-      ctx.strokeStyle = `rgba(8,10,18,${0.5 * dim})`;
+      ctx.strokeStyle = `rgba(6,11,9,${0.5 * dim})`;
       ctx.lineWidth = 1;
       ctx.beginPath(); ctx.arc(sx, sy, r, 0, 6.2832); ctx.stroke();
       if (isFocus) {
