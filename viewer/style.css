@@ -306,9 +306,15 @@ details.tbranch > summary:hover { text-decoration: underline; }
 .std-title { font-size: 13px; }
 
 /* ---------- 质量视图 ---------- */
-/* 独占主区的面板（.layout 的 flex 子项，需显式伸展 + 自滚动） */
+/* 独占主区的面板（.layout 的 flex 子项，需显式伸展 + 自滚动；hidden 切换与 3D 一致） */
 #quality-panel { flex: 1; min-width: 0; overflow-y: auto; padding: 24px 30px 60px; }
-.qcards { display: grid; grid-template-columns: repeat(auto-fill, minmax(168px, 1fr)); gap: 12px; }
+#quality-panel[hidden] { display: none; }
+/* 超宽屏约束内容宽度并居中，避免表格窄挤左侧、右侧大片空白 */
+.qwrap { max-width: 1100px; margin-inline: auto; }
+.qtitle { margin: 4px 0; }
+.qcards {
+  display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-top: 14px;
+}
 .qcard {
   background: var(--panel); border: 1px solid var(--line);
   border-radius: var(--radius); padding: 14px 16px 12px;
@@ -321,14 +327,42 @@ details.tbranch > summary:hover { text-decoration: underline; }
 .qcard.ok .v { color: var(--ok); }
 .qcard.bad .v { color: var(--bad); }
 
+/* 学科/类型两张短表并排；分册/领域长表独占一行（领域可折叠） */
+.qgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 28px; align-items: start; }
+.qfold { margin-top: 26px; }
+.qfold > summary {
+  display: flex; align-items: center; gap: 8px; cursor: pointer; user-select: none;
+  font-size: var(--fs-h3); font-weight: 700; color: var(--muted); letter-spacing: 0.07em;
+  margin-bottom: 10px; list-style: none;
+}
+.qfold > summary::-webkit-details-marker { display: none; }
+.qfold > summary::before {
+  content: ''; width: 0; height: 0; flex: none;
+  border-left: 5px solid #a9b4bd; border-top: 4px solid transparent; border-bottom: 4px solid transparent;
+  transition: transform 0.15s ease;
+}
+.qfold[open] > summary::before { transform: rotate(90deg); }
+.qfold > summary:hover { color: var(--ink); }
+.qfold > summary .count { font-weight: 400; color: var(--faint); font-size: 12px; letter-spacing: 0; }
+.qfold:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 8px; }
+
+/* 表格拉满容器宽（条形列为百分比列），collapse→separate 保证圆角在各浏览器可靠 */
 table.qt {
-  border-collapse: collapse; font-size: 13.5px; background: var(--panel);
-  border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
+  width: 100%; border-collapse: separate; border-spacing: 0; font-size: 13.5px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden;
 }
 table.qt th, table.qt td { padding: 6px 14px; border-bottom: 1px solid var(--line); text-align: left; }
 table.qt tr:last-child td { border-bottom: 0; }
 table.qt th { background: var(--bg-sunken); font-size: 12.5px; color: var(--muted); font-weight: 600; }
+table.qt th.num, table.qt td.num { text-align: right; font-variant-numeric: tabular-nums; }
+table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .bar { height: 6px; border-radius: 3px; background: var(--accent); min-width: 2px; }
+
+@media (max-width: 900px) {
+  #quality-panel { padding: 16px 16px 40px; }
+  .qcards { grid-template-columns: repeat(2, 1fr); }
+  .qgrid { grid-template-columns: 1fr; gap: 0; }
+}
 
 .foot {
   padding: 10px 20px; font-size: 12.5px; color: var(--muted);

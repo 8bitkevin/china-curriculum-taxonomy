@@ -123,7 +123,7 @@ export class Graph3D {
     mount.innerHTML = `
       <div class="g3-head">
         <div class="g3-kicker">九科 K12 · 知识点星系</div>
-        <h2>一个孩子要学的一切</h2>
+        <h2>从小学到高中，一个知识点都不落下</h2>
         <div class="g3-count mono"><b id="g3n">${n}</b> 个知识点 · <b id="g3e">${e}</b> 条先修关系</div>
       </div>
       <div class="g3-legend" id="g3chips" role="group" aria-label="领域筛选"></div>

@@ -113,7 +113,7 @@ function switchView(view) {
   $('#tab-graph3d').classList.toggle('active', view === 'graph3d');
   $('#tab-quality').classList.toggle('active', view === 'quality');
   const qp = $('#quality-panel');
-  if (qp) qp.style.display = view === 'quality' ? '' : 'none';
+  if (qp) qp.hidden = view !== 'quality';   // 与 3D 的 hidden 机制一致
   $('.side').style.display = view === 'graph' ? '' : 'none';
   $('#detail').style.display = view === 'graph' ? '' : 'none';
   const g3 = $('#graph3d-mount');
@@ -420,37 +420,47 @@ document.addEventListener('DOMContentLoaded', () => {
 function renderQuality() {
   const m = qualityMetrics(state.index);
   const pct = (x) => `${(x * 100).toFixed(1)}%`;
-  // 条形按本表最大值归一化（同表可比，跨表不受总数影响）
-  const distRows = (rows, total) => {
+  // 条形按本表最大值归一化（同表可比，跨表不受总数影响）；宽度为列内百分比，随容器缩放
+  const distTable = (rows, firstCol) => {
     const maxN = Math.max(1, ...rows.map(([, n]) => n));
-    return rows.sort((a, b) => b[1] - a[1]).map(([k, n]) =>
-      `<tr><td>${esc(k)}</td><td>${n}</td><td><div class="bar" style="width:${(n / maxN * 240).toFixed(0)}px"></div></td></tr>`).join('');
+    return `<table class="qt">
+      <tr><th>${esc(firstCol)}</th><th class="num">数量</th><th class="barcell-h">分布</th></tr>${
+      rows.sort((a, b) => b[1] - a[1]).map(([k, n]) =>
+        `<tr><td>${esc(k)}</td><td class="num">${n}</td><td class="barcell"><div class="bar" style="width:${(n / maxN * 100).toFixed(1)}%"></div></td></tr>`).join('')}</table>`;
   };
 
   const el = document.createElement('div');
   el.id = 'quality-panel';
-  el.style.display = 'none';
+  el.hidden = true;
   el.innerHTML = `
-    <h2 style="margin:4px 0 4px">数据质量自查</h2>
-    <p class="muted">口径与 <code>scripts/report.mjs</code> 一致，供维护者在批次合入前后对照。</p>
-    <div class="qcards" style="margin-top:14px">
-      <div class="qcard"><div class="v">${m.topicCount}</div><div class="k">知识点</div></div>
-      <div class="qcard"><div class="v">${m.edgeCount}</div><div class="k">先修边（${m.hardCount} hard / ${m.edgeCount - m.hardCount} soft）</div></div>
-      <div class="qcard"><div class="v">${m.edgeDensity}</div><div class="k">边密度（对标 ≈2.0）</div></div>
-      <div class="qcard ${m.islands.length ? 'bad' : 'ok'}"><div class="v">${m.islands.length}</div><div class="k">孤岛知识点（目标 0）</div></div>
-      <div class="qcard ${m.noPrompt.length ? 'bad' : 'ok'}"><div class="v">${pct(m.promptCoverage)}</div><div class="k">测评问法覆盖（目标 100%）</div></div>
-      <div class="qcard ${m.noStandards.length / Math.max(1, m.topicCount) > 0.05 ? 'bad' : 'ok'}"><div class="v">${pct(m.standardsCoverage)}</div><div class="k">课标引用覆盖（目标 ≥95%）</div></div>
-      <div class="qcard ${m.inverted.length ? 'bad' : 'ok'}"><div class="v">${m.inverted.length}</div><div class="k">跨年级倒挂边（目标 0）</div></div>
-      <div class="qcard"><div class="v">${m.roots.length}</div><div class="k">起点知识点（参考）</div></div>
-    </div>
+    <div class="qwrap">
+      <h2 class="qtitle">数据质量自查</h2>
+      <p class="muted">口径与 <code>scripts/report.mjs</code> 一致，供维护者在批次合入前后对照。</p>
+      <div class="qcards">
+        <div class="qcard"><div class="v">${m.topicCount}</div><div class="k">知识点</div></div>
+        <div class="qcard"><div class="v">${m.edgeCount}</div><div class="k">先修边（${m.hardCount} hard / ${m.edgeCount - m.hardCount} soft）</div></div>
+        <div class="qcard"><div class="v">${m.edgeDensity}</div><div class="k">边密度（对标 ≈2.0）</div></div>
+        <div class="qcard ${m.islands.length ? 'bad' : 'ok'}"><div class="v">${m.islands.length}</div><div class="k">孤岛知识点（目标 0）</div></div>
+        <div class="qcard ${m.noPrompt.length ? 'bad' : 'ok'}"><div class="v">${pct(m.promptCoverage)}</div><div class="k">测评问法覆盖（目标 100%）</div></div>
+        <div class="qcard ${m.noStandards.length / Math.max(1, m.topicCount) > 0.05 ? 'bad' : 'ok'}"><div class="v">${pct(m.standardsCoverage)}</div><div class="k">课标引用覆盖（目标 ≥95%）</div></div>
+        <div class="qcard ${m.inverted.length ? 'bad' : 'ok'}"><div class="v">${m.inverted.length}</div><div class="k">跨年级倒挂边（目标 0）</div></div>
+        <div class="qcard"><div class="v">${m.roots.length}</div><div class="k">起点知识点（参考）</div></div>
+      </div>
 
-    ${m.islands.length ? `<div class="sec"><h3>孤岛知识点</h3><ul class="evidence">${m.islands.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
-    ${m.noPrompt.length ? `<div class="sec"><h3>缺测评问法</h3><ul class="evidence">${m.noPrompt.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
-    ${m.inverted.length ? `<div class="sec"><h3>跨年级倒挂边</h3><ul class="evidence">${m.inverted.map((x) => `<li>${esc(x.t.id)}（${x.t.grade} 年级）← ${esc(x.p.id)}（${x.p.grade} 年级）</li>`).join('')}</ul></div>` : ''}
+      ${m.islands.length ? `<div class="sec"><h3>孤岛知识点</h3><ul class="evidence">${m.islands.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
+      ${m.noPrompt.length ? `<div class="sec"><h3>缺测评问法</h3><ul class="evidence">${m.noPrompt.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
+      ${m.inverted.length ? `<div class="sec"><h3>跨年级倒挂边</h3><ul class="evidence">${m.inverted.map((x) => `<li>${esc(x.t.id)}（${x.t.grade} 年级）← ${esc(x.p.id)}（${x.p.grade} 年级）</li>`).join('')}</ul></div>` : ''}
 
-    <div class="sec"><h3>分册分布</h3><table class="qt"><tr><th>册</th><th>知识点</th><th></th></tr>${distRows(m.byVolume, m.topicCount)}</table></div>
-    <div class="sec"><h3>领域分布</h3><table class="qt"><tr><th>领域</th><th>知识点</th><th></th></tr>${distRows(m.byDomain, m.topicCount)}</table></div>
-    <div class="sec"><h3>类型分布</h3><table class="qt"><tr><th>类型</th><th>知识点</th><th></th></tr>${distRows(m.byType.map(([k, n]) => [TYPE_ZH[k] ?? k, n]), m.topicCount)}</table></div>`;
+      <div class="qgrid">
+        <div class="sec"><h3>学科分布</h3>${distTable(m.bySubject, '学科')}</div>
+        <div class="sec"><h3>类型分布</h3>${distTable(m.byType.map(([k, n]) => [TYPE_ZH[k] ?? k, n]), '类型')}</div>
+      </div>
+      <div class="sec"><h3>分册分布</h3>${distTable(m.byVolume, '册')}</div>
+      <details class="qfold">
+        <summary>领域分布 <span class="count">${m.byDomain.length} 个 · 跨学科平铺（含「学科·」前缀），默认收起</span></summary>
+        ${distTable(m.byDomain, '领域')}
+      </details>
+    </div>`;
 
   $('#detail').parentElement.appendChild(el);
 }
