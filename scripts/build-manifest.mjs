@@ -49,6 +49,11 @@ const lessonDocs = (existsSync(lessonsDir)
 ).map((name) => ({ name, doc: JSON.parse(readFileSync(resolve(lessonsDir, name), 'utf8')) }));
 const lessonTotal = lessonDocs.reduce((n, { doc }) => n + doc.lessons.length, 0);
 const lessonCovered = new Set(lessonDocs.flatMap(({ doc }) => doc.lessons.map((l) => l.topicId))).size;
+// D-031：练习数与教材对齐标记数（lesson.source 存在即视为已对齐）
+const lessonExercises = lessonDocs.reduce(
+  (n, { doc }) => n + doc.lessons.reduce((m, l) => m + (Array.isArray(l.exercises) ? l.exercises.length : 0), 0), 0);
+const lessonsAligned = lessonDocs.reduce(
+  (n, { doc }) => n + doc.lessons.filter((l) => l.source).length, 0);
 
 // 3) manifest
 const byGrade = {};
@@ -75,6 +80,7 @@ const manifest = {
     standards: standardsDoc.curricula.reduce((n, c) => n + c.topics.length, 0),
     deprecated: deprecatedDoc.entries.length,
     lessons: lessonTotal,
+    lessonExercises,
     byGrade,
   },
   coverage: {
@@ -82,10 +88,10 @@ const manifest = {
     subjects: [...new Set(topicsDoc.topics.map((t) => t.subject))],
     grades: [...new Set(topicsDoc.topics.map(t => t.grade))].sort((a, b) => a - b),
     textbookSeries: [...new Set(topicsDoc.topics.map((t) => `${t.textbook.publisher}·${t.textbook.editionYear} 年版`))].sort(),
-    lessonCoverage: { topics: lessonCovered, of: topicsDoc.topics.length },
+    lessonCoverage: { topics: lessonCovered, of: topicsDoc.topics.length, aligned: lessonsAligned },
     note: `覆盖 ${[...new Set(topicsDoc.topics.map((t) => t.subject))].join('、')}（人教系/统编教材）；进度详见 CHANGELOG。`,
   },
   files,
 };
 writeFileSync(resolve(ROOT, 'data/manifest.json'), dump(manifest));
-console.log(`✓ manifest 已生成：${manifest.counts.topics} 知识点 / ${manifest.counts.dependencies} 依赖 / ${manifest.counts.standards} 课标条目 / ${lessonTotal} 条学习内容（覆盖 ${lessonCovered} 个知识点）`);
+console.log(`✓ manifest 已生成：${manifest.counts.topics} 知识点 / ${manifest.counts.dependencies} 依赖 / ${manifest.counts.standards} 课标条目 / ${lessonTotal} 条学习内容（覆盖 ${lessonCovered} 个知识点，教材对齐 ${lessonsAligned} 条，练习 ${lessonExercises} 题）`);

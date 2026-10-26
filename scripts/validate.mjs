@@ -250,8 +250,9 @@ if (dangling > 5) errors.push(`…另有 ${dangling - 5} 个未知课标引用`)
   }
 }
 
-// --- 学习内容层（D-030）：data/lessons/*.json ---------------------------------
+// --- 学习内容层（D-030/D-031）：data/lessons/*.json ----------------------------
 let lessonTopicCount = 0;
+let lessonExerciseCount = 0;
 {
   const lessonsDir = resolve(ROOT, 'data', 'lessons');
   const names = existsSync(lessonsDir)
@@ -281,6 +282,32 @@ let lessonTopicCount = 0;
         `${path}: 知识点 ${l.topicId} 属于「${t.subject}」，与文件学科「${doc.subject}」不一致`);
       if (seenLessonIds.has(l.topicId)) errors.push(`知识点 ${l.topicId} 的讲解重复（同一/跨文件）`);
       seenLessonIds.add(l.topicId);
+      // D-031 教材对齐标记：unit 与 topic.textbook.unit 一致；页码范围起 ≤ 止
+      if (t && l.source) {
+        check(l.source.unit === t.textbook.unit,
+          `${path}: ${l.topicId} source.unit ${l.source.unit} 与 topic.textbook.unit ${t.textbook.unit} 不一致`);
+        const p = l.source.pages;
+        if (Array.isArray(p) && p.length === 2) check(p[0] <= p[1],
+          `${path}: ${l.topicId} source.pages 页码范围颠倒 [${p[0]}, ${p[1]}]`);
+      }
+      // D-031 练习层：条件必填与内容配比（schema 管 per-item 必填，这里管跨字段规则）
+      const ex = l.exercises;
+      if (Array.isArray(ex) && ex.length) {
+        lessonExerciseCount += ex.length;
+        for (let i = 0; i < ex.length; i++) {
+          const e = ex[i];
+          if (e.kind === 'textbook' || e.kind === 'variant') {
+            check(!!e.source?.label,
+              `${path}: ${l.topicId} 练习第 ${i + 1} 题为 ${e.kind}，必须带 source.label（册·页·题号，D-031）`);
+          }
+        }
+        const minCount = t && t.grade <= 2 ? 3 : 4;   // 小学低段 ≥3，其余 ≥4
+        check(ex.length >= minCount,
+          `${path}: ${l.topicId} 练习仅 ${ex.length} 题（D-031：${t && t.grade <= 2 ? '小学低段' : '本学段'}应 ≥${minCount} 题）`);
+        const tb = ex.filter((e) => e.kind === 'textbook').length;
+        check(tb * 2 >= ex.length,
+          `${path}: ${l.topicId} 练习教材题仅 ${tb}/${ex.length}（D-031：textbook 应 ≥50%）`);
+      }
     }
   }
   lessonTopicCount = seenLessonIds.size;
@@ -314,6 +341,7 @@ for (const t of topics) bySubject[t.subject] = (bySubject[t.subject] ?? 0) + 1;
 console.log(
   `✓ 有效 — ${topics.length} 个知识点, ${deps.length} 条先修边, ${standardKeys.size} 条课标条目` +
     (lessonTopicCount ? `, ${lessonTopicCount} 条学习内容` : '') +
+    (lessonExerciseCount ? `, ${lessonExerciseCount} 道练习` : '') +
     `。引用完整性 + DAG + 校验和 通过。分科: ` +
     Object.entries(bySubject).map(([k, n]) => `${k} ${n}`).join(' / ') +
     `。分册分布: ` +

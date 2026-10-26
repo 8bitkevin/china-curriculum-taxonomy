@@ -1,11 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/lessons.schema.json",
-  "title": "中国课程知识图谱 — 知识点学习内容（讲解/方法/例题，D-030）",
+  "title": "中国课程知识图谱 — 知识点学习内容（讲解/方法/例题/练习，D-030 + D-031）",
   "type": "object",
   "required": ["schemaVersion", "subject", "version", "lessonCount", "lessons"],
   "properties": {
-    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "schemaVersion": { "type": "integer", "minimum": 1, "description": "结构版本：1 = 讲解层（D-030）；2 = 追加练习层与教材对齐标记（D-031）。向后兼容，新批次一律写 2" },
     "subject": { "type": "string", "minLength": 1, "description": "学科，如「数学」；一个文件一个学科，文件名 = LESSON_FILE_CODE[subject].json" },
     "version": { "type": "string", "description": "数据集版本，随 topics.json 的 version 走" },
     "lessonCount": { "type": "integer", "minimum": 0 },
@@ -20,7 +20,7 @@
           "explanation": {
             "type": "array", "minItems": 1,
             "items": { "type": "string", "minLength": 1 },
-            "description": "讲解正文，每段一个自然段（原创，不搬教材原文，D-030）"
+            "description": "讲解正文，每段一个自然段（D-031：教材对齐层优先——定义/法则/术语/方法与教材一致，再通俗化与加深）"
           },
           "methods": {
             "type": "array",
@@ -37,7 +37,7 @@
           },
           "examples": {
             "type": "array",
-            "description": "讲解性例题（带解析，原创；非题库产品，D-028/D-030 边界）",
+            "description": "讲解性例题（带解析；D-031：优先取教材例题的题型与数据，表述规范重写）",
             "items": {
               "type": "object",
               "required": ["question", "solution", "difficulty"],
@@ -54,6 +54,44 @@
             "type": "array",
             "items": { "type": "string", "minLength": 1 },
             "description": "易错提醒，可选"
+          },
+          "source": {
+            "type": "object",
+            "description": "教材对齐标记（D-031）：本条讲解对齐的教材单元/小节/页码，人工可翻书核对",
+            "required": ["unit", "alignedAt"],
+            "properties": {
+              "unit": { "type": "integer", "minimum": 1, "description": "教材单元号（与 topic.textbook.unit 对应）" },
+              "sections": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "对齐小节（来自 docs/textbook-units；小学低段无小节号可省略）" },
+              "pages": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 2, "maxItems": 2, "description": "对齐页码范围 [起, 止]（含端点）" },
+              "alignedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "对齐日期（ISO）" }
+            },
+            "additionalProperties": false
+          },
+          "exercises": {
+            "type": "array",
+            "description": "练习题（D-031 新增）：每点 ≥4 题（小学 1-2 年级可 ≥3），kind=textbook 占比 ≥50%；kind=textbook/variant 必须带 source 页码题号标注",
+            "items": {
+              "type": "object",
+              "required": ["kind", "question", "answer", "solution", "difficulty"],
+              "properties": {
+                "kind": { "type": "string", "enum": ["textbook", "variant", "extension"], "description": "textbook = 教材题（题型数据保留、表述规范重写）；variant = 教材题变式；extension = 扩展加深" },
+                "question": { "type": "string", "minLength": 1, "description": "题干（规范重写，图形题用文字重述）" },
+                "options": { "type": "array", "minItems": 2, "maxItems": 6, "items": { "type": "string", "minLength": 1 }, "description": "选择题选项，可选（仅选择题）" },
+                "answer": { "type": "string", "minLength": 1, "description": "终答：选择题给字母；解答题给简短终答" },
+                "solution": { "type": "string", "minLength": 1, "description": "解析（过程，面向家长/自学学生）" },
+                "difficulty": { "type": "integer", "enum": [1, 2, 3], "description": "1 基础 / 2 提高 / 3 挑战" },
+                "source": {
+                  "type": "object",
+                  "description": "教材来源标注（kind=textbook/variant 必填；extension 可省）",
+                  "required": ["label"],
+                  "properties": {
+                    "label": { "type": "string", "minLength": 1, "description": "册·页·题号，如「人教版一上 P12·练习一 T3」" }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "additionalProperties": false
+            }
           }
         },
         "additionalProperties": false

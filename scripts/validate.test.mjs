@@ -168,3 +168,76 @@ test('废弃登记的 replacedBy 指向未知知识点应被拒绝', () => {
     rmSync(root, { recursive: true, force: true });
   }
 });
+
+// --- D-031 练习层负例 ---------------------------------------------------------
+
+/** 在 math.json 首条讲解上做最小侵入修改（保持校验和一致由 refreshChecksum 处理） */
+function patchFirstLesson(root, patch) {
+  const doc = readJson(root, 'lessons/math.json');
+  Object.assign(doc.lessons[0], patch);
+  writeJson(root, 'lessons/math.json', doc);
+  refreshChecksum(root, 'lessons/math.json');
+}
+
+test('教材题练习缺 source.label 应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    patchFirstLesson(root, {
+      exercises: [
+        { kind: 'textbook', question: '数一数共几只？', answer: '4', solution: '逐一点数。', difficulty: 1 },
+      ],
+    });
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /为 textbook，必须带 source\.label/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('练习数量低于学段下限应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    patchFirstLesson(root, {
+      exercises: [
+        { kind: 'textbook', question: 'q1', answer: '1', solution: 's', difficulty: 1, source: { label: '人教版一上 P5·T1' } },
+        { kind: 'variant', question: 'q2', answer: '2', solution: 's', difficulty: 1, source: { label: '人教版一上 P6·T2' } },
+      ],
+    });
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /练习仅 2 题（D-031：小学低段应 ≥3 题）/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('教材题占比不足 50% 应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    patchFirstLesson(root, {
+      exercises: [
+        { kind: 'textbook', question: 'q1', answer: '1', solution: 's', difficulty: 1, source: { label: '人教版一上 P5·T1' } },
+        { kind: 'variant', question: 'q2', answer: '2', solution: 's', difficulty: 1, source: { label: '人教版一上 P6·T2' } },
+        { kind: 'extension', question: 'q3', answer: '3', solution: 's', difficulty: 2 },
+      ],
+    });
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /练习教材题仅 1\/3（D-031：textbook 应 ≥50%）/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});
+
+test('source.unit 与 topic.textbook.unit 不一致应被拒绝', () => {
+  const root = makeFixture();
+  try {
+    patchFirstLesson(root, { source: { unit: 9, alignedAt: '2026-10-26' } });
+    const result = runValidate(root);
+    assert.equal(result.status, 1);
+    assert.match(result.stderr, /source\.unit 9 与 topic\.textbook\.unit \d 不一致/);
+  } finally {
+    rmSync(root, { recursive: true, force: true });
+  }
+});

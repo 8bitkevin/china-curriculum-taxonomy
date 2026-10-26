@@ -37,7 +37,7 @@
 - 条目 `title` 为**自拟概括**（如「10以内数的认识（数数、基数、读写、大小、序数）」），不是课标原文
 - 代码由本仓库分配，规则见文件内 `codeScheme.description`；义务教育学段用 `S1`–`S4`（S4=初中第四学段），高中学段用 `H{册}` 前缀（另一套课标：《普通高中课程标准（2017 年版 2020 修订）》）；新增学段时先扩此文件再引用
 
-## data/lessons/ — 学习内容层（D-030，可选、渐进覆盖）
+## data/lessons/ — 学习内容层（D-030 建层 / D-031 原则修订 + 练习层，可选、渐进覆盖）
 
 按学科一个文件：`data/lessons/{学科码}.json`（数学 math / 语文 yw / 英语 yy / 物理 wl / 化学 hx / 生物学 sw / 历史 ls / 地理 dl / 道法 zz / 思政 sxzz；码表权威在 `viewer/logic.js` `LESSON_FILE_CODE`）。未覆盖的学科可以没有文件，viewer 显示「建设中」空态。
 
@@ -50,8 +50,10 @@
 | `lessons[].methods` | 可选：`{name, steps[], tip?}` 方法步骤 |
 | `lessons[].examples` | 可选：`{question, solution, difficulty(1-3), pitfall?}` 讲解性例题，**必带解答** |
 | `lessons[].mistakes` | 可选：易错提醒 |
+| `lessons[].source` | 可选（D-031）：`{unit, sections?, pages[起,止], alignedAt}` 教材对齐标记，unit 必须与 `topic.textbook.unit` 一致（validate 强制） |
+| `lessons[].exercises` | 可选（D-031）：`{kind: textbook/variant/extension, question, options?, answer, solution, difficulty(1-3), source?{label}}` 练习题；有练习时 ≥3 题（小学低段）/ ≥4 题（其余）且教材题 ≥50%，kind=textbook/variant 必带 source.label（validate 强制） |
 
-内容边界（D-030）：讲解与例题为**自建原创**，不搬教材原文/教辅/真题；例题是带解析的讲解性内容，不是题库产品。数据懒加载：viewer 首次打开某学科知识点时才 fetch 对应文件。
+内容原则（D-031，修订 D-030 纯原创条款）：教材是权威与基础——讲解必须覆盖对应教材单元的核心知识（定义/法则/术语/方法与教材对齐）再通俗化加深；练习教材题优先（题型与数据保留、题干规范重写、标注册·页·题号）+ 变式 + 扩展。边界不变：教材 PDF 仅本地参考（D-004）、不整段照抄原文、课文/语篇原文（语文英语）不收录。数据懒加载：viewer 首次打开某学科知识点时才 fetch 对应文件。
 
 ## data/manifest.json — 清单（生成物，勿手编）
 
@@ -59,4 +61,4 @@
 
 ## 校验器覆盖的不变量
 
-`npm run validate` 强制：schema 一致 / 计数一致 / id 唯一 / 边引用可解析且无自环无重复 / 全图无环 / 课标引用可解析 / codes-only / prerequisites 与边一致 / 年级↔学期↔教材↔年龄交叉一致 / assessmentPrompt 含占位符 / lessons schema+引用+学科+版本+不重复 / manifest 校验和。
+`npm run validate` 强制：schema 一致 / 计数一致 / id 唯一 / 边引用可解析且无自环无重复 / 全图无环 / 课标引用可解析 / codes-only / prerequisites 与边一致 / 年级↔学期↔教材↔年龄交叉一致 / assessmentPrompt 含占位符 / lessons schema+引用+学科+版本+不重复 / manifest 校验和 / lessons 练习配比与教材对齐标记（D-031）。

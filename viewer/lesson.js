@@ -1,9 +1,9 @@
-// viewer/lesson.js — 知识点学习内容抽屉（D-030：讲解 / 方法 / 例题）。
+// viewer/lesson.js — 知识点学习内容抽屉（D-030：讲解 / 方法 / 例题；D-031：练习）。
 // 零构建组件：initLessonDrawer 挂到 index.html 的 #lesson-mount 上。
 // 数据懒加载：首次打开某学科的知识点时才 fetch data/lessons/<code>.json
 // （Map 缓存；404 = 该学科暂无内容，显示空态）。渲染全部走 esc() 纯文本，
-// 例题解答用 <details> 折叠（先想再看）。深链 #lesson=ct_xx 由 viewer.js
-// 的 applyHash 驱动，open/close 用 replaceState 保持不产生历史记录。
+// 例题解答与练习答案均用 <details> 折叠（先想再看）。深链 #lesson=ct_xx 由
+// viewer.js 的 applyHash 驱动，open/close 用 replaceState 保持不产生历史记录。
 
 import { lessonFileOf } from './logic.js';
 import { subjectDeep } from './graph3d.js';
@@ -12,6 +12,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
   (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const DIFF_ZH = { 1: '基础', 2: '提高', 3: '挑战' };
+// D-031 练习题来源徽标：教材题优先，变式/扩展为补充
+const KIND_ZH = { textbook: '教材题', variant: '变式', extension: '扩展' };
 const CONTRIB_URL = 'https://github.com/8bitkevin/china-curriculum-taxonomy/blob/main/CONTRIBUTING.md';
 
 /**
@@ -76,6 +78,22 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
       </details>
     </div>`;
 
+  const exerciseHtml = (e, i) => `
+    <div class="lesson-ex lesson-exr">
+      <div class="lesson-q">
+        <span class="lesson-kind k-${e.kind}">${KIND_ZH[e.kind] ?? '练习'}</span>
+        <span class="lesson-diff d${e.difficulty}">${DIFF_ZH[e.difficulty] ?? ''}</span>
+        <span>${i + 1}. ${esc(e.question)}</span>
+      </div>
+      ${e.options ? `<ol class="lesson-opts" type="A">${e.options.map((o) => `<li>${esc(o)}</li>`).join('')}</ol>` : ''}
+      <details class="lesson-sol">
+        <summary>对答案 · 看解析</summary>
+        <p class="lesson-ans">答案：<b>${esc(e.answer)}</b></p>
+        <p class="lesson-sol-text">${esc(e.solution)}</p>
+        ${e.source ? `<p class="lesson-src">出处：${esc(e.source.label)}</p>` : ''}
+      </details>
+    </div>`;
+
   const emptyHtml = (t) => `
     <div class="lesson-empty">
       <p class="lesson-empty-title">「${esc(t.name)}」的讲解还在建设中</p>
@@ -106,7 +124,12 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
         <h4>⚠️ 易错提醒</h4>
         <ul>${lesson.mistakes.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
       </section>` : '';
-    body.innerHTML = head + methods + examples + mistakes;
+    const exercises = lesson.exercises?.length ? `
+      <section class="lesson-sec">
+        <h4>📝 练习（先做再看答案）</h4>
+        ${lesson.exercises.map(exerciseHtml).join('')}
+      </section>` : '';
+    body.innerHTML = head + methods + examples + mistakes + exercises;
   };
 
   const open = async (topicId) => {
