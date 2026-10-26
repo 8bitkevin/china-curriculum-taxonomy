@@ -128,7 +128,7 @@ test('createDataSources 读真仓数据并通过 mtime 热缓存', async () => {
   const ds = createDataSources({ root: resolve(dirname(fileURLToPath(import.meta.url)), '..') });
   const { index, doc } = ds.loadIndex();
   assert.equal(doc.topicCount, index.topics.length);
-  assert.ok(index.topics.length > 1500, `期望全量主题，实际 ${index.topics.length}`);
+  assert.ok(index.topics.length > 1500, `期望全量知识点，实际 ${index.topics.length}`);
   assert.ok(index.byId.has('ct_g1a_22'));
   // 二次调用命中同一索引对象（未改文件不重建）
   assert.equal(ds.loadIndex().index, index);

@@ -113,10 +113,10 @@ export async function handleApi(method, pathname, query, deps) {
   if (m) {
     const { index } = deps.loadIndex();
     const t = index.byId.get(m[1]);
-    if (!t) return json(404, { error: `主题 ${m[1]} 不存在` });
+    if (!t) return json(404, { error: `知识点 ${m[1]} 不存在` });
     const pTree = prereqTree(index, t.id);
     const uTree = unlockTree(index, t.id);
-    // 边附带对端主题摘要（name/grade 等），消费方无需再 join topics 表
+    // 边附带对端知识点摘要（name/grade 等），消费方无需再 join topics 表
     const peerOf = (id) => {
       const p = index.byId.get(id);
       return p ? { name: p.name, subject: p.subject, grade: p.grade, semester: p.semester } : null;

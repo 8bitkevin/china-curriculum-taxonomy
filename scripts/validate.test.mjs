@@ -11,7 +11,8 @@ import { spawnSync } from 'node:child_process';
 
 function makeFixture() {
   const fixture = mkdtempSync(join(tmpdir(), 'cct-validate-'));
-  for (const dir of ['data', 'schema', 'scripts']) {
+  // viewer 目录必须随行：validate.mjs 复用 viewer/logic.js 的学习内容文件码表（D-030）
+  for (const dir of ['data', 'schema', 'scripts', 'viewer']) {
     cpSync(new URL(`../${dir}`, import.meta.url), join(fixture, dir), { recursive: true });
   }
   return fixture;
@@ -44,7 +45,7 @@ test('健康数据应通过校验', () => {
   }
 });
 
-test('依赖边引用未知主题应被拒绝', () => {
+test('依赖边引用未知知识点应被拒绝', () => {
   const root = makeFixture();
   try {
     const deps = readJson(root, 'dependencies.json');
@@ -74,7 +75,7 @@ test('先修图出现环应被拒绝', () => {
   }
 });
 
-test('主题引用未定义课标条目应被拒绝', () => {
+test('知识点引用未定义课标条目应被拒绝', () => {
   const root = makeFixture();
   try {
     const topics = readJson(root, 'topics.json');
@@ -108,7 +109,7 @@ test('prerequisites 冗余字段与依赖边不一致应被拒绝', () => {
   const root = makeFixture();
   try {
     const topics = readJson(root, 'topics.json');
-    const victim = topics.topics.find(t => t.id === 'ct_g1a_05'); // 有 prerequisites 的主题
+    const victim = topics.topics.find(t => t.id === 'ct_g1a_05'); // 有 prerequisites 的知识点
     victim.prerequisites.push('ct_g1b_20');
     writeJson(root, 'topics.json', topics);
     refreshChecksum(root, 'topics.json');
@@ -135,7 +136,7 @@ test('assessmentPrompt 缺少 {{name}} 占位符应被拒绝', () => {
   }
 });
 
-test('依赖边引用已废弃主题应被拒绝', () => {
+test('依赖边引用已废弃知识点应被拒绝', () => {
   const root = makeFixture();
   try {
     const dep = readJson(root, 'deprecated.json');
@@ -145,13 +146,13 @@ test('依赖边引用已废弃主题应被拒绝', () => {
     refreshChecksum(root, 'deprecated.json');
     const result = runValidate(root);
     assert.equal(result.status, 1);
-    assert.match(result.stderr, /依赖边引用已废弃主题 ct_g1a_02（prerequisiteId）/);
+    assert.match(result.stderr, /依赖边引用已废弃知识点 ct_g1a_02（prerequisiteId）/);
   } finally {
     rmSync(root, { recursive: true, force: true });
   }
 });
 
-test('废弃登记的 replacedBy 指向未知主题应被拒绝', () => {
+test('废弃登记的 replacedBy 指向未知知识点应被拒绝', () => {
   const root = makeFixture();
   try {
     const dep = readJson(root, 'deprecated.json');
@@ -162,7 +163,7 @@ test('废弃登记的 replacedBy 指向未知主题应被拒绝', () => {
     refreshChecksum(root, 'deprecated.json');
     const result = runValidate(root);
     assert.equal(result.status, 1);
-    assert.match(result.stderr, /replacedBy 指向未知主题 ct_g9z_98/);
+    assert.match(result.stderr, /replacedBy 指向未知知识点 ct_g9z_98/);
   } finally {
     rmSync(root, { recursive: true, force: true });
   }

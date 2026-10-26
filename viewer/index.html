@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中国 K12 课程知识图谱</title>
-<meta name="description" content="微主题 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
-<link rel="stylesheet" href="style.css?v=ui5">
+<meta name="description" content="知识点 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
+<link rel="stylesheet" href="style.css?v=ui7">
 </head>
 <body>
 <header class="topbar">
@@ -54,8 +54,8 @@
 
   <section id="detail" class="detail">
     <div class="placeholder" id="detail-placeholder">
-      <p>从左侧选择一个微主题，或直接搜索（试试「凑十法」「拼音」）。</p>
-      <p class="muted">点击任一主题，用<b>学习路径图</b>一眼看清：左边要先学什么、右边能解锁什么（连线附「必需/有益」理由，双击可跳转）；另有掌握证据、测评问法与课标对齐。可用「学科」筛选切换科目。</p>
+      <p>从左侧选择一个知识点，或直接搜索（试试「凑十法」「拼音」）。</p>
+      <p class="muted">点击任一知识点，用<b>学习路径图</b>一眼看清：左边沿加粗「主线」看必须先学什么（按学期泳道自上而下）、右边直接解锁什么、底部时间轴看学完通向哪些学期（连线附「必需/有益」理由，双击可跳转）；另有掌握证据、测评问法与课标对齐。可用「学科」筛选切换科目。</p>
     </div>
   </section>
 
@@ -68,7 +68,8 @@
   浏览器直接 fetch <code>data/*.json</code> 即可集成</span>
 </footer>
 
-<script src="vendor/dagre.min.js"></script>
-<script type="module" src="viewer.js?v=ui4"></script>
+<div id="lesson-mount" class="lesson-mount" hidden></div>
+
+<script type="module" src="viewer.js?v=ui7"></script>
 </body>
 </html>

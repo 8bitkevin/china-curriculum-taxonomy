@@ -3,17 +3,19 @@
  * build-manifest.mjs — 从权威数据生成 manifest.json。
  *
  * 步骤：
- *   1. 读取 data/dependencies.json，把先修列表按字母序注入每个主题的
+ *   1. 读取 data/dependencies.json，把先修列表按字母序注入每个知识点的
  *      prerequisites 冗余字段（topics.json 是权威，但该字段允许省略）。
  *   2. 重写 data/topics.json（2 空格缩进 + 尾换行，字节稳定）。
- *   3. 计算各文件 sha256/bytes，写入 data/manifest.json。
+ *   3. 扫描 data/lessons/*.json（学习内容层，D-030），统计覆盖率。
+ *   4. 计算各文件 sha256/bytes，写入 data/manifest.json。
  *
- * 修改 topics.json / dependencies.json / curriculum-standards.json 后运行：
+ * 修改 topics.json / dependencies.json / curriculum-standards.json /
+ * data/lessons/*.json 后运行：
  *   node scripts/build-manifest.mjs && node scripts/validate.mjs
  */
 
 import { createHash } from 'node:crypto';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -39,7 +41,16 @@ for (const t of topicsDoc.topics) {
 }
 writeFileSync(resolve(ROOT, 'data/topics.json'), dump(topicsDoc));
 
-// 2) manifest
+// 2) 学习内容层（D-030）：扫描 data/lessons/*.json（目录可为空 = 覆盖率 0）
+const lessonsDir = resolve(ROOT, 'data', 'lessons');
+const lessonDocs = (existsSync(lessonsDir)
+  ? readdirSync(lessonsDir).filter((n) => n.endsWith('.json')).sort()
+  : []
+).map((name) => ({ name, doc: JSON.parse(readFileSync(resolve(lessonsDir, name), 'utf8')) }));
+const lessonTotal = lessonDocs.reduce((n, { doc }) => n + doc.lessons.length, 0);
+const lessonCovered = new Set(lessonDocs.flatMap(({ doc }) => doc.lessons.map((l) => l.topicId))).size;
+
+// 3) manifest
 const byGrade = {};
 for (const t of topicsDoc.topics) {
   const k = `${t.grade}年级${t.semester}`;
@@ -50,6 +61,10 @@ for (const name of ['topics.json', 'dependencies.json', 'curriculum-standards.js
   const bytes = readFileSync(resolve(ROOT, 'data', name));
   files[name] = { bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') };
 }
+for (const { name } of lessonDocs) {
+  const bytes = readFileSync(resolve(lessonsDir, name));
+  files[`lessons/${name}`] = { bytes: bytes.length, sha256: createHash('sha256').update(bytes).digest('hex') };
+}
 const manifest = {
   taxonomy: 'china-curriculum-taxonomy',
   version: topicsDoc.version,
@@ -59,6 +74,7 @@ const manifest = {
     dependencies: depsDoc.dependencies.length,
     standards: standardsDoc.curricula.reduce((n, c) => n + c.topics.length, 0),
     deprecated: deprecatedDoc.entries.length,
+    lessons: lessonTotal,
     byGrade,
   },
   coverage: {
@@ -66,9 +82,10 @@ const manifest = {
     subjects: [...new Set(topicsDoc.topics.map((t) => t.subject))],
     grades: [...new Set(topicsDoc.topics.map(t => t.grade))].sort((a, b) => a - b),
     textbookSeries: [...new Set(topicsDoc.topics.map((t) => `${t.textbook.publisher}·${t.textbook.editionYear} 年版`))].sort(),
+    lessonCoverage: { topics: lessonCovered, of: topicsDoc.topics.length },
     note: `覆盖 ${[...new Set(topicsDoc.topics.map((t) => t.subject))].join('、')}（人教系/统编教材）；进度详见 CHANGELOG。`,
   },
   files,
 };
 writeFileSync(resolve(ROOT, 'data/manifest.json'), dump(manifest));
-console.log(`✓ manifest 已生成：${manifest.counts.topics} 主题 / ${manifest.counts.dependencies} 依赖 / ${manifest.counts.standards} 课标条目`);
+console.log(`✓ manifest 已生成：${manifest.counts.topics} 知识点 / ${manifest.counts.dependencies} 依赖 / ${manifest.counts.standards} 课标条目 / ${lessonTotal} 条学习内容（覆盖 ${lessonCovered} 个知识点）`);

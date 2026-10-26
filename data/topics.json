@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "version": "2.3.0",
+  "version": "2.4.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
   "topicCount": 1641,
   "topics": [

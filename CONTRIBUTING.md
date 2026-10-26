@@ -7,7 +7,7 @@
 - 从 `main` 切出特性分支：`feat/math-grade3`、`fix/deps-g2a`、`docs/roadmap` 等
 - 提交信息用约定式提交：`feat(scope): 说明` / `fix(scope): 说明` / `docs: …` / `chore: …`
   - scope 建议：`data`（数据内容）、`deps`（依赖边）、`standards`（课标对齐）、`tooling`（脚本）、`schema`（结构变更，慎重）
-- 一次 PR 只做一类变更（例如「新增三年级上册微主题」与「修订二年级依赖边」分开提）
+- 一次 PR 只做一类变更（例如「新增三年级上册知识点」与「修订二年级依赖边」分开提）
 
 ## 数据改动的标准流程
 
@@ -23,14 +23,14 @@ npm run validate && npm test
 
 > 忘记跑 `npm run manifest` 时，validate 会报「校验和不匹配」并提示。
 
-## 新增一批微主题（例如一个新学期）的检查清单
+## 新增一批知识点（例如一个新学期）的检查清单
 
 1. **教材核对**：`python scripts/fetch-textbooks.py` 下载对应教材，用 `--toc` 提取目录，逐单元核对；
 2. **id 分配**：`ct_g{年级}{a|b}_{序号}`，新学期从 `01` 重新编号；id 一经合入 `main` 即冻结，不可复用；
-3. **字段完整**：每个主题必须有通俗 `description`、≥1 条 `evidence`、带 `{{name}}` 的 `assessmentPrompt`、课标 `standards`（不确定时宁可留空数组并在 PR 里说明）、`textbook` 定位；
-4. **依赖边**：新主题至少考虑一条入边（它建立在什么之上）；跨学期的纵向链（如「凑十法 → 两位数进位口算 → 竖式进位」）是本数据集的核心价值，优先补全；
-5. **课标对齐**：新学段需要新条目时，先在 `curriculum-standards.json` 增补条目（自拟短标题，禁止抄课标原文），再在主题里引用；
-6. **自检**：`npm run validate` 全绿；抽查 3–5 个新主题的 description/assessmentPrompt 通读是否家长可读。
+3. **字段完整**：每个知识点必须有通俗 `description`、≥1 条 `evidence`、带 `{{name}}` 的 `assessmentPrompt`、课标 `standards`（不确定时宁可留空数组并在 PR 里说明）、`textbook` 定位；
+4. **依赖边**：新知识点至少考虑一条入边（它建立在什么之上）；跨学期的纵向链（如「凑十法 → 两位数进位口算 → 竖式进位」）是本数据集的核心价值，优先补全；
+5. **课标对齐**：新学段需要新条目时，先在 `curriculum-standards.json` 增补条目（自拟短标题，禁止抄课标原文），再在知识点里引用；
+6. **自检**：`npm run validate` 全绿；抽查 3–5 个新知识点的 description/assessmentPrompt 通读是否家长可读。
 
 ## 质量红线
 
@@ -42,8 +42,8 @@ npm run validate && npm test
 
 ## AI 生成数据的复核约定
 
-本数据集的主题内容为 AI 辅助生成，合并前的最低复核要求：
+本数据集的知识点内容为 AI 辅助生成，合并前的最低复核要求：
 
-- 每批（一册教材）至少人工通读 20% 主题的 `description` 与 `assessmentPrompt`；
+- 每批（一册教材）至少人工通读 20% 知识点的 `description` 与 `assessmentPrompt`；
 - 重点复核三类高风险内容：**依赖边的教学法正确性**、**evidence 的可观察性**（家长能照着判断）、**与教材单元的对应关系**；
 - 发现系统性偏差（如描述口吻不一致、证据太抽象）应整批返工，不逐条打补丁。

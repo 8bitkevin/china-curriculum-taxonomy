@@ -5,7 +5,7 @@
  * 输入：批次片段 JSON（不入库，放 .ct-batches/）：
  *   {
  *     "version": "0.2.0",                       // 必填，写入 topics/dependencies 的 version
- *     "topics":   [ { ...微主题，prerequisites 可省略（build-manifest 会从边派生）} ],
+ *     "topics":   [ { ...知识点，prerequisites 可省略（build-manifest 会从边派生）} ],
  *     "edges":    [ { topicId, prerequisiteId, strength, reason } ],
  *     "standardEntries": [                       // 可选：向已有课标追加条目
  *       { "curriculum": "csmath-2022", "entries": [ { code, stage, domain, title } ] }
@@ -42,7 +42,7 @@ const stdDoc = read('curriculum-standards.json');
 // --- 前置检查：id 不重复、批次内部自洽 ----------------------------------------
 const existing = new Set(topicsDoc.topics.map((t) => t.id));
 for (const t of batch.topics ?? []) {
-  if (existing.has(t.id)) { console.error(`✗ 主题 id 已存在：${t.id}`); process.exit(1); }
+  if (existing.has(t.id)) { console.error(`✗ 知识点 id 已存在：${t.id}`); process.exit(1); }
   existing.add(t.id);
   delete t.prerequisites; // 权威在 edges，统一由 build-manifest 注入
 }
@@ -102,4 +102,4 @@ const run = (cmd, args) => {
 };
 run('node', ['scripts/build-manifest.mjs']);
 run('node', ['scripts/validate.mjs']);
-console.log(`✓ 批次已落库：+${batch.topics?.length ?? 0} 主题 / +${batch.edges?.length ?? 0} 边 / +${stdAdded} 课标条目 → v${batch.version}`);
+console.log(`✓ 批次已落库：+${batch.topics?.length ?? 0} 知识点 / +${batch.edges?.length ?? 0} 边 / +${stdAdded} 课标条目 → v${batch.version}`);

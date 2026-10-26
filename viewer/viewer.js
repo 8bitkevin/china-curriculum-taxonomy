@@ -7,6 +7,7 @@ import {
 } from './logic.js';
 import { Graph3D, buildLayout, subjectDeep } from './graph3d.js';
 import { PathMap } from './pathmap.js';
+import { initLessonDrawer } from './lesson.js';
 
 const DATA_BASE = '../data/';
 const TYPE_ZH = {
@@ -38,13 +39,14 @@ async function load() {
     fetch(`${DATA_BASE}curriculum-standards.json`).then((r) => r.json()),
   ]);
   state.index = buildIndex(topicsDoc, depsDoc);
+  lessonDrawer = initLessonDrawer({ index: state.index, dataBase: DATA_BASE });
   state.standards = standardsDoc;
   for (const c of standardsDoc.curricula ?? []) {
     for (const s of c.topics ?? []) state.stdByKey.set(s.key, { title: s.title, curriculum: c.title });
   }
   const subjCount = [...new Set(topicsDoc.topics.map((t) => t.subject))];
   $('#brand-sub').textContent =
-    `${subjCount.join(' · ')} · ${topicsDoc.topics.length} 微主题 · ${depsDoc.dependencies.length} 先修边 · ${topicsDoc.version}`;
+    `${subjCount.join(' · ')} · ${topicsDoc.topics.length} 知识点 · ${depsDoc.dependencies.length} 先修边 · ${topicsDoc.version}`;
   initControls();
   renderList();
   renderQuality();   // 预渲染质量视图（切页签零延迟）
@@ -59,7 +61,16 @@ function initControls() {
 
   $('#search').addEventListener('input', (e) => { state.query = e.target.value; renderList(); });
   $('#grade').addEventListener('change', (e) => { state.grade = +e.target.value; renderList(); });
-  $('#domain').addEventListener('change', (e) => { state.domain = e.target.value; renderList(); });
+  $('#domain').addEventListener('change', (e) => {
+    state.domain = e.target.value;
+    // 学科层选中其他学科的领域（数学层选「力学」）：退回全部学科层再看该领域
+    if (state.subject && state.domain &&
+        !state.index.topics.some((t) => t.subject === state.subject && t.domain === state.domain)) {
+      state.subject = '';
+      fillGradeAndDomainOptions();
+    }
+    renderList();
+  });
   $('#back-btn').addEventListener('click', () => {
     state.subject = '';                 // 返回学科层（volOpen 保留，再进该科时还在）
     fillGradeAndDomainOptions();
@@ -78,9 +89,19 @@ function fillGradeAndDomainOptions() {
   gradeSel.innerHTML = '<option value="0">全部</option>' +
     [...new Set(scoped.map((t) => t.grade))].sort((a, b) => a - b)
       .map((g) => `<option value="${g}">${g} 年级</option>`).join('');
-  domainSel.innerHTML = '<option value="">全部</option>' +
-    [...new Set(scoped.map((t) => t.domain))]
-      .map((d) => `<option value="${esc(d)}">${esc(d)}</option>`).join('');
+  // 领域保持全量、按学科分组（当前学科组在最前）：下钻某科时其余学科领域仍可选，
+  // 选中即退回全部学科层——顶栏筛选不随侧栏下钻缩水，避免看起来「只剩本学科」
+  const domBySubj = new Map();
+  for (const t of state.index.topics) {
+    if (!domBySubj.has(t.subject)) domBySubj.set(t.subject, new Set());
+    domBySubj.get(t.subject).add(t.domain);
+  }
+  const subjOrder = [...domBySubj.keys()].sort((a, b) =>
+    (b === state.subject ? 1 : 0) - (a === state.subject ? 1 : 0) ||
+    SUBJECT_ORDER.indexOf(a) - SUBJECT_ORDER.indexOf(b));
+  domainSel.innerHTML = '<option value="">全部</option>' + subjOrder.map((s) =>
+    `<optgroup label="${esc(s)}">${[...domBySubj.get(s)].map((d) =>
+      `<option value="${esc(d)}">${esc(d)}</option>`).join('')}</optgroup>`).join('');
   gradeSel.value = String(keepGrade || 0);
   if (keepDomain && ![...scoped].some((t) => t.domain === keepDomain)) state.domain = '';
   domainSel.value = state.domain;
@@ -103,9 +124,18 @@ function switchView(view) {
 function applyHash() {
   const m = location.hash.match(/^#id=(ct_[\w]+)/);
   if (m && state.index.byId.has(m[1])) selectTopic(m[1], { scroll: true });
+  // 学习内容深链 #lesson=ct_xx：背后同步选中该知识点，关闭抽屉即落在详情
+  const l = location.hash.match(/^#lesson=(ct_[\w]+)/);
+  if (l && lessonDrawer && state.index.byId.has(l[1])) {
+    selectTopic(l[1], { scroll: true });
+    lessonDrawer.open(l[1]);
+  } else if (lessonDrawer?.isOpen()) {
+    // hash 导航离开 #lesson= 时收起抽屉，避免背后详情已换、抽屉还残留旧知识点内容
+    lessonDrawer.close();
+  }
 }
 
-// ---------- 列表（三级下钻导航：学科列表 → 学科内册(可折叠) → 主题行；搜索时全局结果视图） ----------
+// ---------- 列表（三级下钻导航：学科列表 → 学科内册(可折叠) → 知识点行；搜索时全局结果视图） ----------
 const volKey = (t) => `${t.subject}|${state.index.volumeOf(t)}`;
 
 function renderList({ revealSelected = false } = {}) {
@@ -117,10 +147,9 @@ function renderList({ revealSelected = false } = {}) {
       <button class="item ${t.id === state.selectedId ? 'sel' : ''}" data-id="${esc(t.id)}" type="button">
         <div class="row1">
           <span class="name">${esc(t.name)}</span>
-          <span class="deg">↑${index.prereqsOf.get(t.id)?.length ?? 0} ↓${index.unlocksOf.get(t.id)?.length ?? 0}</span>
         </div>
         <div class="row2">
-          ${ctx}${island ? '<span class="island-flag">孤岛</span> · ' : ''}${esc(t.domain)} · ${t.grade}${SEMESTER_ZH[t.semester] ?? ''} · <span class="muted">${esc(t.id)}</span>
+          ${ctx}${island ? '<span class="island-flag">孤岛</span> · ' : ''}${esc(t.domain)} · ${t.grade}${SEMESTER_ZH[t.semester] ?? ''}
         </div>
       </button>`;
   };
@@ -149,7 +178,7 @@ function renderList({ revealSelected = false } = {}) {
   if (q) {
     const hits = filterTopics(index, { ...state, subject: '' });
     setHead(`搜索「${q}」`);
-    $('#list-count').textContent = `${hits.length} 个主题`;
+    $('#list-count').textContent = `${hits.length} 个知识点`;
     const bySubj = new Map();
     for (const t of hits) {
       if (!bySubj.has(t.subject)) bySubj.set(t.subject, []);
@@ -160,7 +189,7 @@ function renderList({ revealSelected = false } = {}) {
       .map((s) => groupByVol(bySubj.get(s)).map(([vol, ts]) => `
         <div class="group-h">${esc(s)} · ${esc(vol)}（${ts.length}）</div>
         ${ts.map((t) => itemHtml(t)).join('')}`).join('')).join('');
-    $('#list').innerHTML = html || '<p class="muted" style="padding:12px">没有匹配的主题。</p>';
+    $('#list').innerHTML = html || '<p class="muted" style="padding:12px">没有匹配的知识点。</p>';
     bindItems($('#list'));
     if (revealSelected) $('#list .item.sel')?.scrollIntoView({ block: 'nearest' });
     return;
@@ -174,13 +203,13 @@ function renderList({ revealSelected = false } = {}) {
     const subjects = [...new Set(index.topics.map((t) => t.subject))]
       .sort((a, b) => SUBJECT_ORDER.indexOf(a) - SUBJECT_ORDER.indexOf(b));
     setHead('全部学科');
-    $('#list-count').textContent = `${subjects.length} 科 · ${scoped.length} 个主题`;
+    $('#list-count').textContent = `${subjects.length} 科 · ${scoped.length} 个知识点`;
     $('#list').innerHTML = subjects.map((s) => {
       const n = bySubj.get(s) ?? 0;
       return `
       <button class="subj-row" data-subject="${esc(s)}" type="button"${n ? '' : ' disabled'}>
         <span class="sr-dot" style="background:${subjectDeep(s)}" aria-hidden="true"></span>
-        <span class="sr-name">${esc(s)}</span><span class="sr-cnt">${n} 个主题 ›</span>
+        <span class="sr-name">${esc(s)}</span><span class="sr-cnt">${n} 个知识点 ›</span>
       </button>`;
     }).join('');
     $('#list').querySelectorAll('.subj-row:not([disabled])').forEach((el) =>
@@ -192,10 +221,10 @@ function renderList({ revealSelected = false } = {}) {
     return;
   }
 
-  // ---- 视图三：学科内册手风琴（默认全收，点册展开主题；选中/直达自动展开定位） ----
+  // ---- 视图三：学科内册手风琴（默认全收，点册展开知识点；选中/直达自动展开定位） ----
   const list = filterTopics(index, state);
   setHead(state.subject, true);
-  $('#list-count').textContent = `${list.length} 个主题`;
+  $('#list-count').textContent = `${list.length} 个知识点`;
   const selTopic = state.selectedId && index.byId.get(state.selectedId);
   const selKey = selTopic && selTopic.subject === state.subject ? volKey(selTopic) : null;
   const html = groupByVol(list).map(([vol, ts]) => {
@@ -203,11 +232,11 @@ function renderList({ revealSelected = false } = {}) {
     const open = state.volOpen.has(key) || key === selKey;
     return `
     <details class="vol-group" data-vol="${esc(key)}"${open ? ' open' : ''}>
-      <summary><span class="sg-name">${esc(vol)}</span><span class="sg-cnt">${ts.length} 个主题</span></summary>
+      <summary><span class="sg-name">${esc(vol)}</span><span class="sg-cnt">${ts.length} 个知识点</span></summary>
       ${ts.map((t) => itemHtml(t)).join('')}
     </details>`;
   }).join('');
-  $('#list').innerHTML = html || '<p class="muted" style="padding:12px">该学科没有匹配筛选的主题。</p>';
+  $('#list').innerHTML = html || '<p class="muted" style="padding:12px">该学科没有匹配筛选的知识点。</p>';
   bindItems($('#list'));
   if (revealSelected) $('#list .item.sel')?.scrollIntoView({ block: 'nearest' });
 }
@@ -222,6 +251,7 @@ document.addEventListener('toggle', (ev) => {
 
 // ---------- 详情 ----------
 let pathmapIns = null;   // 学习路径图实例（renderDetail 重建时随之销毁重建）
+let lessonDrawer = null; // 学习内容抽屉（lesson.js，全局单例，懒加载数据）
 
 function selectTopic(id, { scroll = false } = {}) {
   const t = state.index.byId.get(id);
@@ -257,7 +287,7 @@ function treeNodeHtml(n, path, depth, kind) {
   } else if (n.nodes.length) {
     kids = depth + 1 < TREE_OPEN_DEPTH
       ? `<div class="tree">${n.nodes.map((c, i) => treeNodeHtml(c, `${path}.${i}`, depth + 1, kind)).join('')}</div>`
-      : `<details class="tbranch" data-kind="${esc(kind)}" data-path="${esc(path)}"><summary>▸ 展开 ${n.nodes.length} 个${kind === 'prereq' ? '先修' : '后续'}主题</summary></details>`;
+      : `<details class="tbranch" data-kind="${esc(kind)}" data-path="${esc(path)}"><summary>▸ 展开 ${n.nodes.length} 个${kind === 'prereq' ? '先修' : '后续'}知识点</summary></details>`;
   }
   return `
       <div class="tnode">
@@ -307,7 +337,6 @@ function renderDetail() {
   el.innerHTML = `
     <div class="topic-head">
       <h2>${esc(t.name)}</h2>
-      <span class="topic-id">${esc(t.id)}</span>
       <span class="badge type-${esc(t.type)}">${TYPE_ZH[t.type] ?? t.type}</span>
       <span class="badge d-${esc(t.domain)}">${esc(t.domain)}</span>
     </div>
@@ -316,6 +345,11 @@ function renderDetail() {
       ${esc(t.textbook.publisher)}${t.grade}${SEMESTER_ZH[t.semester] ?? ''} ${esc(unitText)}（${t.textbook.editionYear} 版）
     </div>
     <p class="desc">${esc(t.description)}</p>
+
+    <div class="lesson-entry-row">
+      <button class="lesson-entry" type="button">📖 查看讲解与例题</button>
+      <span class="muted">讲解 · 方法 · 例题，几分钟快速掌握</span>
+    </div>
 
     <div class="sec">
       <h3>掌握证据</h3>
@@ -347,21 +381,23 @@ function renderDetail() {
       <details class="text-tree">
         <summary>列表视图：先修链与解锁树的文字版（适合复制、读屏）</summary>
         <div class="sec">
-          <h3>↑ 先修链 <span class="count">${pStats.uniqueCount ? `${pStats.depth} 层 · ${pStats.uniqueCount} 个主题（去重）` : '无先修（起点主题）'}</span></h3>
+          <h3>↑ 先修链 <span class="count">${pStats.uniqueCount ? `${pStats.depth} 层 · ${pStats.uniqueCount} 个知识点（去重）` : '无先修（起点知识点）'}</span></h3>
           ${pStats.uniqueCount ? renderTree('prereq') : '<p class="muted">这是学习的起点，没有前置要求。</p>'}
         </div>
         <div class="sec">
-          <h3>↓ 解锁树 <span class="count">${uStats.uniqueCount ? `${uStats.depth} 层 · ${uStats.uniqueCount} 个主题（去重）` : '暂无后续主题依赖它'}</span></h3>
-          ${uStats.uniqueCount ? renderTree('unlock') : '<p class="muted">尚无更高年级主题依赖它（后续册数据推进中）。</p>'}
+          <h3>↓ 解锁树 <span class="count">${uStats.uniqueCount ? `${uStats.depth} 层 · ${uStats.uniqueCount} 个知识点（去重）` : '暂无后续知识点依赖它'}</span></h3>
+          ${uStats.uniqueCount ? renderTree('unlock') : '<p class="muted">尚无更高年级知识点依赖它（后续册数据推进中）。</p>'}
         </div>
       </details>
     </div>`;
   bindTreeLinks(el);
+  el.querySelector('.lesson-entry')?.addEventListener('click', () => lessonDrawer?.open(t.id));
   // 学习路径图：详情 DOM 每次 innerHTML 重建，组件随建随毁（单实例，防 rAF 泄漏）
   if (pathmapIns) pathmapIns.destroy();
   pathmapIns = new PathMap(el.querySelector('#pathmap'), {
     index,
     onOpen: (id) => selectTopic(id, { scroll: true }),
+    onLesson: (id) => lessonDrawer?.open(id),
   });
   pathmapIns.setRoot(t.id);
   window.__pm = pathmapIns;   // 调试钩子:控制台可检查布局/视图状态
@@ -398,23 +434,23 @@ function renderQuality() {
     <h2 style="margin:4px 0 4px">数据质量自查</h2>
     <p class="muted">口径与 <code>scripts/report.mjs</code> 一致，供维护者在批次合入前后对照。</p>
     <div class="qcards" style="margin-top:14px">
-      <div class="qcard"><div class="v">${m.topicCount}</div><div class="k">微主题</div></div>
+      <div class="qcard"><div class="v">${m.topicCount}</div><div class="k">知识点</div></div>
       <div class="qcard"><div class="v">${m.edgeCount}</div><div class="k">先修边（${m.hardCount} hard / ${m.edgeCount - m.hardCount} soft）</div></div>
       <div class="qcard"><div class="v">${m.edgeDensity}</div><div class="k">边密度（对标 ≈2.0）</div></div>
-      <div class="qcard ${m.islands.length ? 'bad' : 'ok'}"><div class="v">${m.islands.length}</div><div class="k">孤岛主题（目标 0）</div></div>
+      <div class="qcard ${m.islands.length ? 'bad' : 'ok'}"><div class="v">${m.islands.length}</div><div class="k">孤岛知识点（目标 0）</div></div>
       <div class="qcard ${m.noPrompt.length ? 'bad' : 'ok'}"><div class="v">${pct(m.promptCoverage)}</div><div class="k">测评问法覆盖（目标 100%）</div></div>
       <div class="qcard ${m.noStandards.length / Math.max(1, m.topicCount) > 0.05 ? 'bad' : 'ok'}"><div class="v">${pct(m.standardsCoverage)}</div><div class="k">课标引用覆盖（目标 ≥95%）</div></div>
       <div class="qcard ${m.inverted.length ? 'bad' : 'ok'}"><div class="v">${m.inverted.length}</div><div class="k">跨年级倒挂边（目标 0）</div></div>
-      <div class="qcard"><div class="v">${m.roots.length}</div><div class="k">起点主题（参考）</div></div>
+      <div class="qcard"><div class="v">${m.roots.length}</div><div class="k">起点知识点（参考）</div></div>
     </div>
 
-    ${m.islands.length ? `<div class="sec"><h3>孤岛主题</h3><ul class="evidence">${m.islands.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
+    ${m.islands.length ? `<div class="sec"><h3>孤岛知识点</h3><ul class="evidence">${m.islands.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
     ${m.noPrompt.length ? `<div class="sec"><h3>缺测评问法</h3><ul class="evidence">${m.noPrompt.map((t) => `<li>${esc(t.id)} ${esc(t.name)}</li>`).join('')}</ul></div>` : ''}
     ${m.inverted.length ? `<div class="sec"><h3>跨年级倒挂边</h3><ul class="evidence">${m.inverted.map((x) => `<li>${esc(x.t.id)}（${x.t.grade} 年级）← ${esc(x.p.id)}（${x.p.grade} 年级）</li>`).join('')}</ul></div>` : ''}
 
-    <div class="sec"><h3>分册分布</h3><table class="qt"><tr><th>册</th><th>主题</th><th></th></tr>${distRows(m.byVolume, m.topicCount)}</table></div>
-    <div class="sec"><h3>领域分布</h3><table class="qt"><tr><th>领域</th><th>主题</th><th></th></tr>${distRows(m.byDomain, m.topicCount)}</table></div>
-    <div class="sec"><h3>类型分布</h3><table class="qt"><tr><th>类型</th><th>主题</th><th></th></tr>${distRows(m.byType.map(([k, n]) => [TYPE_ZH[k] ?? k, n]), m.topicCount)}</table></div>`;
+    <div class="sec"><h3>分册分布</h3><table class="qt"><tr><th>册</th><th>知识点</th><th></th></tr>${distRows(m.byVolume, m.topicCount)}</table></div>
+    <div class="sec"><h3>领域分布</h3><table class="qt"><tr><th>领域</th><th>知识点</th><th></th></tr>${distRows(m.byDomain, m.topicCount)}</table></div>
+    <div class="sec"><h3>类型分布</h3><table class="qt"><tr><th>类型</th><th>知识点</th><th></th></tr>${distRows(m.byType.map(([k, n]) => [TYPE_ZH[k] ?? k, n]), m.topicCount)}</table></div>`;
 
   $('#detail').parentElement.appendChild(el);
 }
@@ -425,6 +461,7 @@ function initGraph3D() {
   if (graph3d) { graph3d.resize(); return; }
   graph3d = new Graph3D($('#graph3d-mount'), buildLayout(state.index), {
     onOpenTopic: (id) => { switchView('graph'); selectTopic(id); },
+    onLesson: (id) => lessonDrawer?.open(id),
   });
   // 调试钩子：控制台可检查相机/选中状态
   window.__g3 = graph3d;

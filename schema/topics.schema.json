@@ -1,7 +1,7 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/topics.schema.json",
-  "title": "中国课程知识图谱 — 微主题",
+  "title": "中国课程知识图谱 — 知识点（topic，曾称微主题）",
   "type": "object",
   "required": ["schemaVersion", "version", "topicCount", "topics"],
   "properties": {

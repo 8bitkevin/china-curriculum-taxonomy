@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/8bitkevin/china-curriculum-taxonomy/schema/lessons.schema.json",
+  "title": "中国课程知识图谱 — 知识点学习内容（讲解/方法/例题，D-030）",
+  "type": "object",
+  "required": ["schemaVersion", "subject", "version", "lessonCount", "lessons"],
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "subject": { "type": "string", "minLength": 1, "description": "学科，如「数学」；一个文件一个学科，文件名 = LESSON_FILE_CODE[subject].json" },
+    "version": { "type": "string", "description": "数据集版本，随 topics.json 的 version 走" },
+    "lessonCount": { "type": "integer", "minimum": 0 },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["topicId", "summary", "explanation"],
+        "properties": {
+          "topicId": { "type": "string", "pattern": "^ct_", "description": "对应 topics.json 的知识点 id（D-003：id 永不改）" },
+          "summary": { "type": "string", "minLength": 1, "description": "一句话核心（通俗，抽屉顶部高亮条）" },
+          "explanation": {
+            "type": "array", "minItems": 1,
+            "items": { "type": "string", "minLength": 1 },
+            "description": "讲解正文，每段一个自然段（原创，不搬教材原文，D-030）"
+          },
+          "methods": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "steps"],
+              "properties": {
+                "name": { "type": "string", "minLength": 1 },
+                "steps": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+                "tip": { "type": "string", "description": "口诀/提示，可选" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "examples": {
+            "type": "array",
+            "description": "讲解性例题（带解析，原创；非题库产品，D-028/D-030 边界）",
+            "items": {
+              "type": "object",
+              "required": ["question", "solution", "difficulty"],
+              "properties": {
+                "question": { "type": "string", "minLength": 1 },
+                "solution": { "type": "string", "minLength": 1, "description": "解答过程（例题必须带解析）" },
+                "difficulty": { "type": "integer", "enum": [1, 2, 3], "description": "1 基础 / 2 提高 / 3 挑战" },
+                "pitfall": { "type": "string", "description": "本题易错点，可选" }
+              },
+              "additionalProperties": false
+            }
+          },
+          "mistakes": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 },
+            "description": "易错提醒，可选"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

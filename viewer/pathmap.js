@@ -1,33 +1,49 @@
-// viewer/pathmap.js — 学习路径图：以当前主题为中心的交互式 Canvas DAG。
-// 左 ← 先修（越左越基础）· 中心 = 当前主题 · 右 → 解锁（越右越后续），
-// 所有连线统一从左向右流动（学习顺序），不逐边画箭头。
-// 布局 = dagre（Sugiyama 分层算法的行业标准实现，viewer/vendor/dagre.min.js，
-// MIT，本地 vendor 零构建）：同层节点按邻接重排（交叉最小化）+ 边路由点。
-// 视觉参照 React Flow / 课程先修图：纸面白底点阵、圆角节点卡、圆角折线连线；
-// hard 必需 = 玫红实线 / soft 有益 = 琥珀虚线（线型+文字双重编码，色觉冗余），
-// 当前主题 = 靛蓝实心卡。配色 = 图谱仓独立设计语言 v4，与 style.css 变量同源。
+// viewer/pathmap.js — 学习路径图：以当前知识点为中心的「关键路径」Canvas 图。
+// 产品语义（2026-10 重构）：全展开的传递闭包在早期知识点上等于半张学科图
+// （538 节点 / 52 列的「蜘蛛网」），路径图的任务不是展示全图，而是回答
+// 「先学什么、学完去哪」——因此两侧非对称：
+//   来路（左）= 路由：只沿「必需」边构成关键路径，加粗玫红主线（地铁线路图
+//     隐喻：主线 = 必须走的路，站点 = 知识点），超过 40 站按层渐进展开；
+//     当前知识点的「有益」先修挂 1 跳叶子，不递归。
+//   去路（右）= 一跳直接解锁 + 底部「学完通向」学期时间轴热条：传递影响是
+//     计数不是网（每格 = 该册通向多少知识点，点开列清单，可直达）。
+// 布局 = 学期泳道（时间自上而下）× 依赖列（学习顺序自左向右）：先修自然落
+// 左上、当前知识点居中、解锁落右下，主线大致沿对角线贯穿；跨多泳道的连线
+// 即「跳级依赖」，一眼可辨。自研泳道布局取代 dagre——节点 Y 由学期决定
+// （时间语义），X 由依赖列决定，无需交叉最小化也能保持可读。
+// 配色 = 图谱仓设计语言 v5（K12aixue 令牌）：必需 = 玫红实线（主线加粗）/
+// 有益 = 琥珀虚线（线型+文字双重编码，色觉冗余）/ 当前知识点 = 品牌绿实心卡
+// / 学科色条与 3D 全景同源（graph3d SUBJECT_COLORS）。
 
 import { pathGraph } from './logic.js';
 import { subjectDeep } from './graph3d.js';
 
-const dagre = globalThis.dagre;   // 由 index.html 经典脚本先于本模块加载
-
 const NW = 150;            // 节点卡宽
 const NH = 34;             // 节点卡高
 const PAD = 56;            // fit 视图的内边距
+const STRIP_H = 58;        // 底部时间轴热条预留高（fit 时扣除）
+const LANE_GAP = 22;       // 泳道间距
+const LANE_PAD = 11;       // 泳道上下留白
+const STACK_GAP = 8;       // 同泳道同列的堆叠间距
+const COL_GAP = 54;        // 依赖列间距
+const LABEL_W = 64;        // 左侧学期标签预留宽（计入 bounds 供 fit）
 const FONT = '"Segoe UI", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif';
 // 画布配色（与 style.css 的 --hard/--soft/--accent 等变量同源，改一处核两处；
 // 中性色/品牌绿取自 K12aixue 设计系统，设计语言 v5）
 const C = {
-  hardA: '216,30,106',     // 必需（玫红 #d81e6a，与学科色零撞车）
+  hardA: '216,30,106',     // 必需（玫红 #d81e6a，与学科色零撞车）——主线同色加粗
   softA: '192,124,0',      // 有益（琥珀 #c07c00）
   card: '#ffffff',
   cardLine: '#dce1e7',
   ink: '#1b2b33',
   sub: '#8a97a5',
-  brand: '#0fa968',        // K12 品牌绿 = 当前主题/交互强调（--accent）
+  brand: '#0fa968',        // K12 品牌绿 = 当前知识点/交互强调（--accent）
   brandPress: '#0b8f57',
+  brandA: '15,169,104',
 };
+const CN_NUM = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'];
+const termIdx = (t) => t.grade * 2 + (t.semester === '下' ? 1 : 0);       // 学期排序键
+const termLabel = (t) => `${CN_NUM[t.grade - 1] ?? t.grade}${t.semester}`; // 如「三上」
 
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
@@ -35,22 +51,23 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
 
 export class PathMap {
   /**
-   * @param mount   挂载元素（.pm-stage）
-   * @param {{ index, onOpen(id) }} opts
+   * @param mount   挂载元素（.pm-stage 外层）
+   * @param {{ index, onOpen(id), onLesson(id) }} opts
    */
   constructor(mount, opts = {}) {
     this.index = opts.index;
     this.onOpen = opts.onOpen;
+    this.onLesson = opts.onLesson;
     this.reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
-    this.depth = 2;                    // 当前每侧展开深度（默认 2 层：先保证节点文字可读，
-                                       // 更深的链用「+1 层 / 展开全部」渐进披露）
-    this.view = { x: 0, y: 0, k: 1 };  // 平移 + 缩放（屏幕 = 数据 * k + t）
+    this.preDepth = null;               // null = 自适应（hard 闭包 ≤40 站全显）
+    this.view = { x: 0, y: 0, k: 1 };   // 平移 + 缩放（屏幕 = 数据 * k + t）
     this.hoverId = null;
     this.selId = null;
-    this.lineage = null;               // hover/选中节点的世系（高亮集）
+    this.lineage = null;                // hover/选中节点的世系（高亮集）
     this.anim = null;
     this.vAnim = null;
     this.onKey = null;
+    this.onDocDown = null;
     this.dirty = true;
 
     this.dom = this.buildDom(mount);
@@ -59,7 +76,7 @@ export class PathMap {
     this.raf = requestAnimationFrame(this.frame.bind(this));
   }
 
-  // ---------- DOM 骨架（工具条 / 画布 / 图例 / 提示 / 节点卡） ----------
+  // ---------- DOM 骨架（工具条 / 画布 / 图例 / 时间轴热条 / 提示 / 节点卡） ----------
   buildDom(mount) {
     mount.innerHTML = `
       <div class="pm-top">
@@ -71,34 +88,38 @@ export class PathMap {
         <div class="pm-acts">
           <span class="pm-hidden" id="pm-hidden" hidden></span>
           <button class="pm-btn" id="pm-more" type="button" hidden>+ 1 层</button>
-          <button class="pm-btn" id="pm-all" type="button" hidden>展开全部</button>
           <button class="pm-btn" id="pm-fit" type="button">适配</button>
           <button class="pm-btn" id="pm-reset" type="button">重置</button>
         </div>
       </div>
       <div class="pm-stage">
-        <canvas class="pm-cv" aria-label="学习路径图：左侧为先修主题，右侧为解锁主题，滚轮缩放、拖拽平移"></canvas>
+        <canvas class="pm-cv" aria-label="学习路径图：上方为学期泳道，左侧先修主线、右侧直接解锁；滚轮缩放、拖拽平移"></canvas>
         <div class="pm-legend" aria-hidden="true">
           <span class="lg-item"><i class="lg-line hard"></i>必需</span>
           <span class="lg-item"><i class="lg-line soft"></i>有益</span>
+          <span class="lg-item"><i class="lg-line main"></i>主线</span>
           <span class="lg-dir">← 先学 · 后学 →</span>
         </div>
-        <div class="pm-hint" aria-hidden="true">拖拽平移 · 滚轮缩放 · 单击看理由 · 双击打开主题</div>
+        <div class="pm-hint" aria-hidden="true">单击看理由 · 双击跳转 · 底部时间轴＝学完通向</div>
         <div class="pm-tip" id="pm-tip" hidden></div>
         <aside class="pm-card" id="pm-card" hidden></aside>
+        <div class="pm-strip" id="pm-strip" hidden>
+          <div class="pm-strip-cap" id="pm-strip-cap"></div>
+          <div class="pm-strip-cells" id="pm-strip-cells"></div>
+        </div>
+        <div class="pm-pop" id="pm-pop" hidden></div>
       </div>`;
     const $ = (s) => mount.querySelector(s);
     this.ui = {
-      stat: $('#pm-stat'), hidden: $('#pm-hidden'), more: $('#pm-more'), all: $('#pm-all'),
-      tip: $('#pm-tip'), card: $('#pm-card'), cv: $('.pm-cv'),
+      stat: $('#pm-stat'), hidden: $('#pm-hidden'), more: $('#pm-more'),
+      strip: $('#pm-strip'), stripCap: $('#pm-strip-cap'), stripCells: $('#pm-strip-cells'),
+      pop: $('#pm-pop'), tip: $('#pm-tip'), card: $('#pm-card'), cv: $('.pm-cv'),
     };
     $('#pm-fit').addEventListener('click', () => this.fit(true));
-    $('#pm-more').addEventListener('click', () => this.setDepth(this.depth + 1));
-    $('#pm-all').addEventListener('click', () => this.setDepth(Infinity));
-    const reset = $('#pm-reset');
-    reset.addEventListener('click', () => {
+    $('#pm-more').addEventListener('click', () => this.setDepth());
+    $('#pm-reset').addEventListener('click', () => {
       this.selId = null; this.hideCard();
-      this.setRoot(this.rootId, { keepDepth: false });
+      this.setRoot(this.rootId);
     });
     return mount;
   }
@@ -123,70 +144,89 @@ export class PathMap {
   }
 
   // ---------- 数据与布局 ----------
-  /** 换主题：全新数据 + 立即适配（无过渡动画）。 */
-  setRoot(id, { keepDepth = false } = {}) {
-    if (!keepDepth) this.depth = 2;
+  /** 换知识点：全新数据 + 立即适配（无过渡动画）。 */
+  setRoot(id) {
+    this.preDepth = null;
     this.rootId = id;
-    this.g = pathGraph(this.index, id, this.depth);
+    this.g = pathGraph(this.index, id, null);
     this.layout();
     this.anim = null;
     this.selId = null; this.hoverId = null; this.lineage = null;
-    this.hideCard(); this.hideTip();
+    this.hideCard(); this.hideTip(); this.hidePop();
     this.fit(false);
-    this.syncToolbar();
+    this.syncToolbar(); this.syncStrip();
     this.dirty = true;
   }
 
-  /** 加深展开：节点位置带过渡动画滑到新布局。 */
-  setDepth(d) {
-    this.depth = d;
+  /** 先修主线加深一层（渐进披露；解锁侧是一跳+计数，无「展开」概念）。 */
+  setDepth() {
+    this.preDepth = this.g.counts.preLevels + 1;
     const old = new Map([...this.pos.entries()].map(([k, v]) => [k, { ...v }]));
-    this.g = pathGraph(this.index, this.rootId, this.depth);
+    this.g = pathGraph(this.index, this.rootId, this.preDepth);
     this.layout();
     if (!this.reduce) {
       this.anim = { t0: performance.now(), dur: 280, from: old };
     }
     this.fit(true);
-    this.syncToolbar();
+    this.syncToolbar(); this.syncStrip();
     this.dirty = true;
   }
 
   /**
-   * 布局：dagre（Sugiyama 分层算法的行业标准实现，本地 vendor，MIT）。
-   * 整个子图一次性 LR 布局——先修自然落左、解锁自然落右；同层节点按
-   * 邻接关系重排（交叉最小化）+ 边路由点，这是自研 tidy 布局「乱」的解药。
-   * 边路由点存入 edgePts，绘制为圆角折线（跨层边不再横穿节点）。
+   * 学期泳道布局：Y = 学期（时间自上而下），X = 依赖列（先修负、解锁正）。
+   * 同泳道同列的节点垂直堆叠；泳道高度随其最大堆叠自适应。先修自然落
+   * 左上（学期早 + 依赖深）、解锁落右下，主线沿对角线贯穿——这比 dagre 的
+   * 交叉最小化更有信息量：时间结构显式可见，跨泳道长线即「跳级依赖」。
    */
   layout() {
-    const g = new dagre.graphlib.Graph();
-    g.setGraph({
-      rankdir: 'LR',
-      nodesep: 14,            // 同层节点垂直间距
-      edgesep: 6,
-      ranksep: 50,            // 层间水平间距
-      marginx: 12, marginy: 12,
-    });
-    g.setDefaultEdgeLabel(() => ({}));
-    for (const { id } of this.g.nodes.values()) g.setNode(id, { width: NW, height: NH });
-    for (const e of this.g.edges) g.setEdge(e.from, e.to);
-    dagre.layout(g);
-
-    const pos = new Map();      // id -> { x, y }（节点左上角）
-    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    // 泳道：可见节点的学期（升序 = 时间自上而下）
+    const laneOf = new Map();           // termKey -> lane 对象
     for (const { id } of this.g.nodes.values()) {
-      const n = g.node(id);
-      const x = n.x - NW / 2, y = n.y - NH / 2;
-      pos.set(id, { x, y });
-      minX = Math.min(minX, x); maxX = Math.max(maxX, x + NW);
-      minY = Math.min(minY, y); maxY = Math.max(maxY, y + NH);
+      const t = this.index.byId.get(id);
+      const k = termIdx(t);
+      if (!laneOf.has(k)) laneOf.set(k, { key: k, label: termLabel(t), cols: new Map() });
+    }
+    const lanes = [...laneOf.values()].sort((a, b) => a.key - b.key);
+
+    // 归位：每个节点进入 (泳道, 列) 格子，同格堆叠
+    for (const n of this.g.nodes.values()) {
+      const t = this.index.byId.get(n.id);
+      const lane = laneOf.get(termIdx(t));
+      if (!lane.cols.has(n.depth)) lane.cols.set(n.depth, []);
+      lane.cols.get(n.depth).push(n.id);
+    }
+
+    // 泳道高度与 y 基线
+    let y = 6;
+    for (const lane of lanes) {
+      let maxStack = 1;
+      for (const arr of lane.cols.values()) maxStack = Math.max(maxStack, arr.length);
+      lane.h = maxStack * (NH + STACK_GAP) - STACK_GAP + LANE_PAD * 2;
+      lane.y = y;
+      y += lane.h + LANE_GAP;
+    }
+
+    // 列 x：depth 已是连续带符号列号（root=0），排序映射为等距 x
+    const cols = [...new Set([...this.g.nodes.values()].map((n) => n.depth))].sort((a, b) => a - b);
+    const colX = new Map(cols.map((c, i) => [c, i * (NW + COL_GAP)]));
+
+    const pos = new Map();              // id -> { x, y }（节点左上角）
+    let minX = Infinity, minY = Infinity, maxX = -Infinity, maxY = -Infinity;
+    for (const lane of lanes) {
+      for (const [col, arr] of lane.cols) {
+        arr.forEach((id, i) => {
+          const x = colX.get(col), yy = lane.y + LANE_PAD + i * (NH + STACK_GAP);
+          pos.set(id, { x, y: yy });
+          minX = Math.min(minX, x); maxX = Math.max(maxX, x + NW);
+          minY = Math.min(minY, yy); maxY = Math.max(maxY, yy + NH);
+        });
+      }
     }
     this.pos = pos;
+    this.lanes = lanes;
+    this.rootLaneKey = termIdx(this.index.byId.get(this.rootId));
+    minX -= LABEL_W;                    // 左侧学期标签计入可视范围（fit 不裁掉）
     this.bounds = { minX, minY, maxX, maxY };
-
-    this.edgePts = new Map();   // "from>to" -> [{x,y}, ...]（dagre 路由点）
-    for (const e of g.edges()) {
-      this.edgePts.set(`${e.v}>${e.w}`, g.edge(e).points ?? []);
-    }
 
     // 文本截断缓存（需要在 ctx 上量宽）
     this.labels = new Map();
@@ -209,10 +249,11 @@ export class PathMap {
   fit(animate) {
     const b = this.bounds;
     const w = b.maxX - b.minX, h = b.maxY - b.minY;
+    const reserveB = this.g.counts.closureNext > 0 ? STRIP_H : 0;
     // 下限 0.55：更小的图宁可超出画布（可拖拽平移），不牺牲节点文字可读性
-    const k = clamp(Math.min((this.W - PAD * 2) / w, (this.H - PAD * 2) / h), 0.55, 1.15);
+    const k = clamp(Math.min((this.W - PAD * 2) / w, (this.H - PAD * 2 - reserveB) / h), 0.55, 1.15);
     const tx = this.W / 2 - (b.minX + w / 2) * k;
-    const ty = this.H / 2 - (b.minY + h / 2) * k;
+    const ty = (this.H - reserveB) / 2 - (b.minY + h / 2) * k;
     if (animate && !this.reduce) {
       const from = { ...this.view };
       this.vAnim = { t0: performance.now(), dur: 300, from, to: { x: tx, y: ty, k } };
@@ -270,7 +311,13 @@ export class PathMap {
       drag = null;
       if (moved) return;
       const hit = this.pick(e.clientX - r.left, e.clientY - r.top);
-      if (hit?.badge) { this.setDepth(this.depth + 1); return; }   // 点「+N」徽标 = 加深
+      if (hit?.badge) {
+        // 先修侧「+N」= 加深一层；解锁侧「+N」= 该知识点自己的解锁影响数，看出卡片
+        const n = this.g.nodes.get(hit.id);
+        if (n && n.side === 'next') this.select(hit.id);
+        else this.setDepth();
+        return;
+      }
       if (hit?.id) this.select(hit.id);
       else { this.selId = null; this.hideCard(); this.lineage = null; this.dirty = true; }
     };
@@ -309,8 +356,11 @@ export class PathMap {
     ['pointerup', 'pointercancel'].forEach((ev) => cv.addEventListener(ev, rel));
 
     window.addEventListener('keydown', this.onKey = (e) => {
-      if (e.key === 'Escape' && this.selId) {
-        this.selId = null; this.lineage = null; this.hideCard(); this.dirty = true;
+      if (e.key === 'Escape') {
+        if (!this.ui.pop.hidden) { this.hidePop(); return; }
+        if (this.selId) {
+          this.selId = null; this.lineage = null; this.hideCard(); this.dirty = true;
+        }
       }
     });
     // 卡片内交互不冒泡到画布手势
@@ -322,6 +372,7 @@ export class PathMap {
     cancelAnimationFrame(this.raf);
     this.ro?.disconnect();
     window.removeEventListener('keydown', this.onKey);
+    if (this.onDocDown) document.removeEventListener('pointerdown', this.onDocDown);
   }
 
   pick(mx, my) {
@@ -390,6 +441,7 @@ export class PathMap {
   showCard(id) {
     const t = this.index.byId.get(id);
     const isRoot = id === this.rootId;
+    const onChain = this.g.chain.idSet.has(id);
     const preEdges = (this.index.prereqsOf.get(id) ?? []);
     const nextEdges = (this.index.unlocksOf.get(id) ?? []);
     const edgeRow = (e) => {
@@ -405,22 +457,24 @@ export class PathMap {
     }).join('');
     this.ui.card.innerHTML = `
       <button class="pm-card-close" type="button" title="关闭 (Esc)">×</button>
-      <div class="pm-tip-meta"><i style="background:${subjectDeep(t.subject)}"></i>${esc(t.subject)} · ${esc(t.domain)} · ${t.grade}年级${t.semester}${isRoot ? ' · <b>当前主题</b>' : ''}</div>
+      <div class="pm-tip-meta"><i style="background:${subjectDeep(t.subject)}"></i>${esc(t.subject)} · ${esc(t.domain)} · ${t.grade}年级${t.semester}${isRoot ? ' · <b>当前知识点</b>' : ''}${onChain ? ' · <b class="pm-chain-mark">主线</b>' : ''}</div>
       <h4>${esc(t.name)}</h4>
       ${preEdges.length ? `
         <div class="pm-card-sec"><span class="pm-sh">为什么先学这些（${preEdges.length}）</span>
           ${preEdges.map(edgeRow).join('')}</div>` :
-        '<div class="pm-card-sec"><span class="pm-sh">先修</span><p class="pm-none">起点主题，无前置要求。</p></div>'}
+        '<div class="pm-card-sec"><span class="pm-sh">先修</span><p class="pm-none">起点知识点，无前置要求。</p></div>'}
       ${nextEdges.length ? `
         <div class="pm-card-sec"><span class="pm-sh">学会后解锁（${nextEdges.length}）</span>
           <div class="pm-next-list">${nextList}${nextEdges.length > 8 ? `<span class="pm-next-more">等 ${nextEdges.length} 个</span>` : ''}</div></div>` :
-        '<div class="pm-card-sec"><span class="pm-sh">解锁</span><p class="pm-none">暂无后续主题依赖它。</p></div>'}
-      <button class="pm-open" type="button">打开这个主题 →</button>`;
+        '<div class="pm-card-sec"><span class="pm-sh">解锁</span><p class="pm-none">暂无后续知识点依赖它。</p></div>'}
+      <button class="pm-lesson" type="button">📖 讲解与例题</button>
+      <button class="pm-open" type="button">打开这个知识点 →</button>`;
     this.ui.card.hidden = false;
     const $ = (s) => this.ui.card.querySelector(s);
     $('.pm-card-close').addEventListener('click', () => {
       this.selId = null; this.lineage = null; this.hideCard(); this.dirty = true;
     });
+    $('.pm-lesson').addEventListener('click', () => this.onLesson?.(id));
     $('.pm-open').addEventListener('click', () => this.onOpen?.(id));
     this.ui.card.querySelectorAll('b[data-id]').forEach((el) =>
       el.addEventListener('click', () => this.select(el.dataset.id)));
@@ -432,14 +486,81 @@ export class PathMap {
 
   syncToolbar() {
     const { counts } = this.g;
-    this.ui.stat.textContent =
-      `先修 ${counts.pre} · 解锁 ${counts.next}` +
-      (counts.pre + counts.next === 0 ? '' : ` · ${this.g.truncated.size ? '部分展开' : '全部展开'}`);
+    const parts = [];
+    parts.push(counts.chainLen > 1 ? `主线 ${counts.chainLen} 站` : '起点知识点');
+    parts.push(`直接解锁 ${counts.next}`);
+    if (counts.closureNext) parts.push(`通向 ${counts.closureNext} 个知识点`);
+    this.ui.stat.textContent = parts.join(' · ');
     const hasHidden = counts.hidden > 0;
     this.ui.hidden.hidden = !hasHidden;
     this.ui.more.hidden = !hasHidden;
-    this.ui.all.hidden = !hasHidden;
-    if (hasHidden) this.ui.hidden.textContent = `还有 ${counts.hidden} 个主题未展开`;
+    if (hasHidden) this.ui.hidden.textContent = `还有 ${counts.hidden} 站必修未展开`;
+  }
+
+  // ---------- 学完通向：学期时间轴热条 ----------
+  /** 传递解锁按学期聚合计数：每格 = 该册通向多少知识点（计数不是网），
+      当前学期高亮描边，点格弹出该册清单（可直达知识点）。 */
+  syncStrip() {
+    const { counts } = this.g;
+    if (!counts.closureNext) { this.ui.strip.hidden = true; return; }
+    this.ui.strip.hidden = false;
+    const rootT = this.index.byId.get(this.rootId);
+    this.ui.stripCap.innerHTML = `学完通向<b>${counts.closureNext}</b>个知识点`;
+
+    const cells = [...counts.nextByTerm.values()].sort((a, b) =>
+      a.grade * 2 + (a.semester === '下' ? 1 : 0) - (b.grade * 2 + (b.semester === '下' ? 1 : 0)));
+    const max = Math.max(...cells.map((c) => c.count), 1);
+    const rootKey = `${rootT.grade}|${rootT.semester}`;
+    const frag = [];
+    for (const cell of cells) {
+      const a = 0.14 + 0.8 * Math.sqrt(cell.count / max);          // 感知线性：平方根映射
+      const here = `${cell.grade}|${cell.semester}` === rootKey;
+      const light = cell.count / max > 0.55;                       // 深底换白字
+      frag.push(`<button class="pm-cell${here ? ' here' : ''}" type="button"
+        data-key="${esc(`${cell.grade}|${cell.semester}`)}"
+        style="background:rgba(${C.brandA},${a.toFixed(3)});${light ? 'color:#fff' : ''}"
+        title="${cell.grade}年级${cell.semester}册 · 通向 ${cell.count} 个知识点">
+        <b>${cell.count}</b><i${light ? ' style="color:rgba(255,255,255,.85)"' : ''}>${termLabel(cell)}</i></button>`);
+    }
+    this.ui.stripCells.innerHTML = frag.join('');
+    this.ui.stripCells.querySelectorAll('.pm-cell').forEach((el) =>
+      el.addEventListener('click', () => this.showPop(el)));
+  }
+
+  showPop(cellEl) {
+    const key = cellEl.dataset.key;
+    const cell = this.g.counts.nextByTerm.get(key);
+    if (!cell) return;
+    const items = cell.ids.map((id) => {
+      const t = this.index.byId.get(id);
+      return `<button class="pm-pop-item" data-id="${esc(id)}" type="button">${esc(t.name)}<small>${termLabel(t)}</small></button>`;
+    }).join('');
+    this.ui.pop.innerHTML = `
+      <h5>${cell.grade}年级${cell.semester}册 · 通向 ${cell.count} 个知识点</h5>
+      ${items}${cell.count > cell.ids.length ? `<span class="pm-next-more">等 ${cell.count} 个</span>` : ''}`;
+    this.ui.pop.hidden = false;
+    // 弹层定位在触发热条格上方
+    const stage = this.ui.pop.parentElement.getBoundingClientRect();
+    const cr = cellEl.getBoundingClientRect();
+    const pw = this.ui.pop.offsetWidth;
+    const left = clamp(cr.left - stage.left + cr.width / 2 - pw / 2, 8,
+      stage.width - pw - 8);
+    this.ui.pop.style.left = left + 'px';
+    this.ui.pop.querySelectorAll('.pm-pop-item').forEach((el) =>
+      el.addEventListener('click', () => this.onOpen?.(el.dataset.id)));
+    // 点外部关闭
+    if (this.onDocDown) document.removeEventListener('pointerdown', this.onDocDown);
+    document.addEventListener('pointerdown', this.onDocDown = (e) => {
+      if (!this.ui.pop.hidden && !this.ui.pop.contains(e.target) &&
+        !this.ui.stripCells.contains(e.target)) this.hidePop();
+    });
+  }
+  hidePop() {
+    this.ui.pop.hidden = true;
+    if (this.onDocDown) {
+      document.removeEventListener('pointerdown', this.onDocDown);
+      this.onDocDown = null;
+    }
   }
 
   // ---------- 绘制 ----------
@@ -447,7 +568,7 @@ export class PathMap {
     const p = this.pos.get(id);
     if (!this.anim) return p;
     const a = this.anim.from.get(id);
-    if (!a) return p;   // 新节点：直接落位（配合整卡透明度渐入可后续增强）
+    if (!a) return p;   // 新节点：直接落位
     const t = clamp((performance.now() - this.anim.t0) / this.anim.dur, 0, 1);
     const e = 1 - Math.pow(1 - t, 3);   // ease-out cubic
     return { x: a.x + (p.x - a.x) * e, y: a.y + (p.y - a.y) * e };
@@ -464,35 +585,42 @@ export class PathMap {
     // 画布透明：不铺底色、无点阵，露出 .pathmap 卡片的白底（与整站纸面一致）
     ctx.clearRect(0, 0, W, H);
 
+    // ---- 学期泳道背景带 + 左侧标签（时间自上而下）----
+    const x0 = this.bounds.minX + LABEL_W, x1 = this.bounds.maxX;
+    this.lanes.forEach((lane, i) => {
+      const isRootLane = lane.key === this.rootLaneKey;
+      const p0 = this.toScreen({ x: x0 - 12, y: lane.y });
+      const p1 = this.toScreen({ x: x1 + 12, y: lane.y + lane.h });
+      const band = isRootLane ? `rgba(${C.brandA},.055)`       // 当前学期：品牌绿淡带
+        : (i % 2 === 1 ? 'rgba(27,43,51,.026)' : null);        // 其余：隔行纸面灰
+      if (band) {
+        ctx.fillStyle = band;
+        ctx.fillRect(p0.x, p0.y, p1.x - p0.x, p1.y - p0.y);
+      }
+      // 标签
+      ctx.font = `600 ${Math.max(10.5 * this.view.k, 8.5)}px ${FONT}`;
+      ctx.fillStyle = isRootLane ? C.brandPress : C.sub;
+      ctx.textAlign = 'right'; ctx.textBaseline = 'middle';
+      ctx.fillText(lane.label, p0.x - 10 * this.view.k, (p0.y + p1.y) / 2);
+    });
+
     const lin = this.lineage;
     const hasFocus = !!lin;
 
-    // ---- 边 ----（稳态用 dagre 路由点画圆角折线——跨层边绕行不横穿节点；
-    //      展开过渡期节点在滑动，退化为端点贝塞尔跟随插值位置）
-    const animating = this.animating();
+    // ---- 边 ----（普通边先画，主线压在其上：粗玫红实线 = 必须走的关键路径）
+    const backbone = [];
     for (let i = 0; i < this.g.edges.length; i++) {
       const e = this.g.edges[i];
-      const a = this.nodePos(e.from), b = this.nodePos(e.to);
-      if (!a || !b) continue;
-      const on = !hasFocus || lin.edges.has(i);
-      const rgb = e.strength === 'hard' ? C.hardA : C.softA;
-      ctx.strokeStyle = `rgba(${rgb},${on ? (hasFocus ? 0.9 : 0.42) : 0.05})`;
-      ctx.lineWidth = on && hasFocus ? 2.1 : 1.5;
-      ctx.setLineDash(e.strength === 'soft' ? [6, 5] : []);
-      const pts = !animating ? this.edgePts.get(`${e.from}>${e.to}`) : null;
-      ctx.beginPath();
-      if (pts && pts.length > 2) {
-        roundedPolyline(ctx, pts.map((p) => this.toScreen(p)), 7);
-      } else {
-        const p1 = pts?.length === 2 && !animating
-          ? this.toScreen(pts[0]) : this.toScreen({ x: a.x + NW, y: a.y + NH / 2 });
-        const p2 = pts?.length === 2 && !animating
-          ? this.toScreen(pts[1]) : this.toScreen({ x: b.x, y: b.y + NH / 2 });
-        const dx = Math.max(36, (p2.x - p1.x) / 2);
-        ctx.moveTo(p1.x, p1.y);
-        ctx.bezierCurveTo(p1.x + dx, p1.y, p2.x - dx, p2.y, p2.x, p2.y);
-      }
-      ctx.stroke();
+      if (e.backbone) { backbone.push(e); continue; }
+      this.drawEdge(e, {
+        rgb: e.strength === 'hard' ? C.hardA : C.softA,
+        on: !hasFocus || lin.edges.has(i),
+        hasFocus,
+        width: on => (on && hasFocus ? 2.1 : 1.5),
+      });
+    }
+    for (const e of backbone) {
+      this.drawEdge(e, { rgb: C.hardA, on: true, hasFocus: false, width: () => 3.2 });
     }
     ctx.setLineDash([]);
 
@@ -511,7 +639,7 @@ export class PathMap {
 
       ctx.globalAlpha = alpha;
       // 卡片底
-      if (isRoot) { ctx.shadowColor = 'rgba(15,169,104,.32)'; ctx.shadowBlur = 16 * k; }
+      if (isRoot) { ctx.shadowColor = `rgba(${C.brandA},.32)`; ctx.shadowBlur = 16 * k; }
       else { ctx.shadowColor = 'rgba(27,43,51,.07)'; ctx.shadowBlur = 5 * k; }
       roundRect(ctx, s.x, s.y, w, h, r);
       ctx.fillStyle = isRoot ? C.brand : C.card;
@@ -564,6 +692,23 @@ export class PathMap {
     }
   }
 
+  /** 学习顺序连线：from 右缘 → to 左缘的三次贝塞尔（主线由调用方加粗压层）。 */
+  drawEdge(e, { rgb, on, hasFocus, width }) {
+    const { ctx } = this;
+    const a = this.nodePos(e.from), b = this.nodePos(e.to);
+    if (!a || !b) return;
+    const p1 = this.toScreen({ x: a.x + NW, y: a.y + NH / 2 });
+    const p2 = this.toScreen({ x: b.x, y: b.y + NH / 2 });
+    ctx.strokeStyle = `rgba(${rgb},${on ? (hasFocus ? 0.9 : 0.42) : 0.05})`;
+    ctx.lineWidth = width(on);
+    ctx.setLineDash(e.strength === 'soft' ? [6, 5] : []);
+    const dx = clamp((p2.x - p1.x) * 0.45, 30, 92);
+    ctx.beginPath();
+    ctx.moveTo(p1.x, p1.y);
+    ctx.bezierCurveTo(p1.x + dx, p1.y, p2.x - dx, p2.y, p2.x, p2.y);
+    ctx.stroke();
+  }
+
   frame(ts) {
     // 布局/视图过渡
     if (this.vAnim) {
@@ -585,24 +730,6 @@ export class PathMap {
 }
 
 // ---------- 工具 ----------
-/** 折线拐点圆角化（屏幕坐标，r 为圆角半径，短段自动减半防越界）。 */
-function roundedPolyline(ctx, pts, r) {
-  ctx.moveTo(pts[0].x, pts[0].y);
-  for (let i = 1; i < pts.length - 1; i++) {
-    const p = pts[i], prev = pts[i - 1], next = pts[i + 1];
-    const d1 = Math.hypot(p.x - prev.x, p.y - prev.y);
-    const d2 = Math.hypot(next.x - p.x, next.y - p.y);
-    const rr = Math.min(r, d1 / 2, d2 / 2);
-    const t1 = rr / Math.max(d1, 1e-6), t2 = rr / Math.max(d2, 1e-6);
-    const ax = p.x + (prev.x - p.x) * t1, ay = p.y + (prev.y - p.y) * t1;
-    const bx = p.x + (next.x - p.x) * t2, by = p.y + (next.y - p.y) * t2;
-    ctx.lineTo(ax, ay);
-    ctx.quadraticCurveTo(p.x, p.y, bx, by);
-  }
-  const last = pts[pts.length - 1];
-  ctx.lineTo(last.x, last.y);
-}
-
 function roundRect(ctx, x, y, w, h, r) {
   ctx.beginPath();
   ctx.moveTo(x + r, y);

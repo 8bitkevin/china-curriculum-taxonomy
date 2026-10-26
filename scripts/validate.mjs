@@ -4,16 +4,18 @@
  *
  * 检查：schema 一致性、声明计数、ID 唯一、依赖引用完整、无自依赖、
  * 先修图无环（DAG）、topic→课标条目引用可解析、prerequisites 冗余字段
- * 与 dependencies.json 一致、年级/学期/教材/年龄交叉一致、manifest 校验和。
+ * 与 dependencies.json 一致、年级/学期/教材/年龄交叉一致、学习内容层
+ * （lessons）引用/学科/版本/重复一致、manifest 校验和。
  *
  *   node scripts/validate.mjs
  */
 
 import { createHash } from 'node:crypto';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { checkSchema } from './check-schema.mjs';
+import { lessonFileOf } from '../viewer/logic.js';
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const load = (name) => JSON.parse(readFileSync(resolve(ROOT, name), 'utf8'));
@@ -86,49 +88,49 @@ for (const c of standardsDoc.curricula) {
   check(c.topicCount === c.topics.length, `curriculum ${c.slug}: topicCount != length`);
 }
 
-// --- 主题 id 唯一 + 字段交叉一致 --------------------------------------------
+// --- 知识点 id 唯一 + 字段交叉一致 --------------------------------------------
 const topicIds = new Set();
 const byId = new Map();
 for (const t of topics) {
-  if (topicIds.has(t.id)) errors.push(`重复主题 id: ${t.id}`);
+  if (topicIds.has(t.id)) errors.push(`重复知识点 id: ${t.id}`);
   topicIds.add(t.id);
   byId.set(t.id, t);
-  check(SUBJECT_CODE.hasOwnProperty(t.subject), `主题 ${t.id}: 未知学科 ${t.subject}（受控清单见 SUBJECT_CODE）`);
+  check(SUBJECT_CODE.hasOwnProperty(t.subject), `知识点 ${t.id}: 未知学科 ${t.subject}（受控清单见 SUBJECT_CODE）`);
   check(DOMAIN_BY_SUBJECT[t.subject]?.includes(t.domain),
-    `主题 ${t.id}: 学科「${t.subject}」不允许领域「${t.domain}」（受控清单见 DOMAIN_BY_SUBJECT）`);
+    `知识点 ${t.id}: 学科「${t.subject}」不允许领域「${t.domain}」（受控清单见 DOMAIN_BY_SUBJECT）`);
   // id 前缀与学科代码一致（数学 = v1.0 历史格式；其余 = ct_{code}_g…）
   const code = SUBJECT_CODE[t.subject];
   if (code === null) {
-    check(RE_ID_MATH.test(t.id), `主题 ${t.id}: 数学主题 id 应为历史格式 ct_g{年级}{a|b}_{序号}`);
+    check(RE_ID_MATH.test(t.id), `知识点 ${t.id}: 数学知识点 id 应为历史格式 ct_g{年级}{a|b}_{序号}`);
   } else if (code) {
     const re = new RegExp(`^ct_${code}_g\\d{1,2}[ab]_\\d{2}$`);
-    check(re.test(t.id), `主题 ${t.id}: 学科「${t.subject}」id 前缀应为 ct_${code}_g{年级}{a|b}_{序号}`);
+    check(re.test(t.id), `知识点 ${t.id}: 学科「${t.subject}」id 前缀应为 ct_${code}_g{年级}{a|b}_{序号}`);
   }
   check(t.textbook.publisher === '统编版' || t.textbook.publisher.startsWith('人教'),
-    `主题 ${t.id}: 目前仅支持人教系教材（人教版/人教A版/统编版），实际 ${t.textbook.publisher}`);
+    `知识点 ${t.id}: 目前仅支持人教系教材（人教版/人教A版/统编版），实际 ${t.textbook.publisher}`);
   // 统编三科（语文、道法/政治、历史）用「统编版」，其余人教系用「人教版/人教A版」
   const TONGBIAN = t.subject === '数学' ? null
     : ['语文', '道德与法治', '思想政治', '历史'].includes(t.subject) ? '统编版' : null;
   if (TONGBIAN) check(t.textbook.publisher === TONGBIAN,
-    `主题 ${t.id}: 学科「${t.subject}」教材 publisher 应为「${TONGBIAN}」`);
-  else check(t.textbook.publisher !== '统编版', `主题 ${t.id}: 非统编学科不应使用 publisher 统编版`);
-  check(t.textbook.grade === t.grade, `主题 ${t.id}: grade ${t.grade} 与教材 grade ${t.textbook.grade} 不一致`);
-  check(t.textbook.volume === t.semester, `主题 ${t.id}: semester ${t.semester} 与教材 volume ${t.textbook.volume} 不一致`);
+    `知识点 ${t.id}: 学科「${t.subject}」教材 publisher 应为「${TONGBIAN}」`);
+  else check(t.textbook.publisher !== '统编版', `知识点 ${t.id}: 非统编学科不应使用 publisher 统编版`);
+  check(t.textbook.grade === t.grade, `知识点 ${t.id}: grade ${t.grade} 与教材 grade ${t.textbook.grade} 不一致`);
+  check(t.textbook.volume === t.semester, `知识点 ${t.id}: semester ${t.semester} 与教材 volume ${t.textbook.volume} 不一致`);
   // 中国一年级入学约 6 岁：年龄带宽 = 年级 + 4 .. 年级 + 7
-  check(t.ageRangeStart >= t.grade + 4 && t.ageRangeStart <= t.grade + 6, `主题 ${t.id}: ageRangeStart ${t.ageRangeStart} 与年级 ${t.grade} 不匹配`);
-  check(t.ageRangeEnd >= t.grade + 5 && t.ageRangeEnd <= t.grade + 8, `主题 ${t.id}: ageRangeEnd ${t.ageRangeEnd} 与年级 ${t.grade} 不匹配`);
-  check(t.ageRangeStart <= t.ageRangeEnd, `主题 ${t.id}: 年龄区间颠倒`);
-  check(!t.assessmentPrompt || t.assessmentPrompt.includes('{{name}}'), `主题 ${t.id}: assessmentPrompt 缺少 {{name}} 占位符`);
+  check(t.ageRangeStart >= t.grade + 4 && t.ageRangeStart <= t.grade + 6, `知识点 ${t.id}: ageRangeStart ${t.ageRangeStart} 与年级 ${t.grade} 不匹配`);
+  check(t.ageRangeEnd >= t.grade + 5 && t.ageRangeEnd <= t.grade + 8, `知识点 ${t.id}: ageRangeEnd ${t.ageRangeEnd} 与年级 ${t.grade} 不匹配`);
+  check(t.ageRangeStart <= t.ageRangeEnd, `知识点 ${t.id}: 年龄区间颠倒`);
+  check(!t.assessmentPrompt || t.assessmentPrompt.includes('{{name}}'), `知识点 ${t.id}: assessmentPrompt 缺少 {{name}} 占位符`);
   // 高中册名（D-016 按学科映射）：册名必填且与 grade/semester 约定一致；小学/初中 book 省略
   if (t.grade >= 10) {
     const books = HS_BOOKS_BY_SUBJECT[t.subject] ?? {};
     check(books.hasOwnProperty(t.textbook.book),
-      `主题 ${t.id}: 学科「${t.subject}」高中主题 textbook.book 应为 ${Object.keys(books).join('/')} 之一`);
+      `知识点 ${t.id}: 学科「${t.subject}」高中知识点 textbook.book 应为 ${Object.keys(books).join('/')} 之一`);
     const [g, s] = books[t.textbook.book] ?? [];
     check(g === t.grade && s === t.semester,
-      `主题 ${t.id}: 册名「${t.textbook.book}」约定映射为 ${g}年级${s}，与主题 ${t.grade}年级${t.semester} 不一致`);
+      `知识点 ${t.id}: 册名「${t.textbook.book}」约定映射为 ${g}年级${s}，与知识点 ${t.grade}年级${t.semester} 不一致`);
   } else {
-    check(!('book' in t.textbook), `主题 ${t.id}: book 字段仅高中主题使用`);
+    check(!('book' in t.textbook), `知识点 ${t.id}: book 字段仅高中知识点使用`);
   }
 }
 
@@ -181,7 +183,7 @@ for (const d of deps) {
       if (indeg.get(next) === 0) queue.push(next);
     }
   }
-  check(seen === topics.length, `先修图存在环：仅 ${seen}/${topics.length} 个主题完成拓扑排序`);
+  check(seen === topics.length, `先修图存在环：仅 ${seen}/${topics.length} 个知识点完成拓扑排序`);
 }
 
 // --- 重复依赖边 --------------------------------------------------------------
@@ -194,7 +196,7 @@ for (const d of deps) {
   }
 }
 
-// --- 废弃主题登记（DATA-4） ---------------------------------------------------
+// --- 废弃知识点登记（DATA-4） ---------------------------------------------------
 {
   const dep = load('data/deprecated.json');
   errors.push(...checkSchema(dep, load('schema/deprecated.schema.json'), 'data/deprecated.json'));
@@ -203,18 +205,18 @@ for (const d of deps) {
   for (const e of dep.entries) {
     if (deprecatedIds.has(e.id)) errors.push(`废弃登记重复 id: ${e.id}`);
     deprecatedIds.add(e.id);
-    check(!topicIds.has(e.id), `废弃主题 ${e.id} 仍存在于 topics.json（应先移除再登记）`);
+    check(!topicIds.has(e.id), `废弃知识点 ${e.id} 仍存在于 topics.json（应先移除再登记）`);
     for (const r of e.replacedBy ?? []) {
-      check(topicIds.has(r), `废弃登记 ${e.id}: replacedBy 指向未知主题 ${r}`);
+      check(topicIds.has(r), `废弃登记 ${e.id}: replacedBy 指向未知知识点 ${r}`);
     }
   }
   for (const d of deps) {
-    check(!deprecatedIds.has(d.topicId), `依赖边引用已废弃主题 ${d.topicId}（topicId）`);
-    check(!deprecatedIds.has(d.prerequisiteId), `依赖边引用已废弃主题 ${d.prerequisiteId}（prerequisiteId）`);
+    check(!deprecatedIds.has(d.topicId), `依赖边引用已废弃知识点 ${d.topicId}（topicId）`);
+    check(!deprecatedIds.has(d.prerequisiteId), `依赖边引用已废弃知识点 ${d.prerequisiteId}（prerequisiteId）`);
   }
   for (const t of topics) {
     for (const p of t.prerequisites ?? []) {
-      check(!deprecatedIds.has(p), `主题 ${t.id}: prerequisites 引用已废弃主题 ${p}`);
+      check(!deprecatedIds.has(p), `知识点 ${t.id}: prerequisites 引用已废弃知识点 ${p}`);
     }
   }
 }
@@ -225,7 +227,7 @@ for (const t of topics) {
   for (const key of t.standards) {
     if (!standardKeys.has(key)) {
       dangling++;
-      if (dangling <= 5) errors.push(`主题 ${t.id} 引用未知课标条目 ${key}`);
+      if (dangling <= 5) errors.push(`知识点 ${t.id} 引用未知课标条目 ${key}`);
     }
   }
 }
@@ -236,7 +238,7 @@ if (dangling > 5) errors.push(`…另有 ${dangling - 5} 个未知课标引用`)
   const depPairs = new Set(deps.map(d => `${d.topicId}->${d.prerequisiteId}`));
   for (const t of topics) {
     for (const p of t.prerequisites ?? []) {
-      check(depPairs.has(`${t.id}->${p}`), `主题 ${t.id}: prerequisites 含未建边 ${p}`);
+      check(depPairs.has(`${t.id}->${p}`), `知识点 ${t.id}: prerequisites 含未建边 ${p}`);
     }
   }
   const withRedundant = new Set(topics.filter(t => t.prerequisites?.length).map(t => t.id));
@@ -246,6 +248,42 @@ if (dangling > 5) errors.push(`…另有 ${dangling - 5} 个未知课标引用`)
         `边 ${d.topicId}->${d.prerequisiteId} 未反映在 prerequisites 冗余字段中`);
     }
   }
+}
+
+// --- 学习内容层（D-030）：data/lessons/*.json ---------------------------------
+let lessonTopicCount = 0;
+{
+  const lessonsDir = resolve(ROOT, 'data', 'lessons');
+  const names = existsSync(lessonsDir)
+    ? readdirSync(lessonsDir).filter((n) => n.endsWith('.json')).sort()
+    : [];
+  const lessonSchema = load('schema/lessons.schema.json');
+  const seenLessonIds = new Set();
+  for (const name of names) {
+    const path = `data/lessons/${name}`;
+    const doc = JSON.parse(readFileSync(resolve(lessonsDir, name), 'utf8'));
+    errors.push(...checkSchema(doc, lessonSchema, path));
+    const code = typeof doc.subject === 'string' ? lessonFileOf(doc.subject) : null;
+    check(code !== null, `${path}: 未知学科「${doc.subject}」（受控清单见 viewer/logic.js LESSON_FILE_CODE）`);
+    check(code !== null && `${code}.json` === name,
+      `${path}: 学科「${doc.subject}」的学习内容文件名应为 lessons/${code}.json`);
+    if (typeof doc.version === 'string' && doc.version !== topicsDoc.version) {
+      errors.push(`${path}: version ${doc.version} 与 topics.json 版本 ${topicsDoc.version} 不一致（学习内容版本随数据集走）`);
+    }
+    if (Number.isInteger(doc.lessonCount)) {
+      check(doc.lessonCount === doc.lessons.length, `${path}: lessonCount ${doc.lessonCount} != ${doc.lessons.length}`);
+    }
+    for (const l of doc.lessons ?? []) {
+      if (typeof l.topicId !== 'string') continue; // schema 已报错
+      const t = byId.get(l.topicId);
+      check(!!t, `${path}: 讲解引用未知知识点 ${l.topicId}`);
+      if (t) check(t.subject === doc.subject,
+        `${path}: 知识点 ${l.topicId} 属于「${t.subject}」，与文件学科「${doc.subject}」不一致`);
+      if (seenLessonIds.has(l.topicId)) errors.push(`知识点 ${l.topicId} 的讲解重复（同一/跨文件）`);
+      seenLessonIds.add(l.topicId);
+    }
+  }
+  lessonTopicCount = seenLessonIds.size;
 }
 
 // --- manifest 校验和 ---------------------------------------------------------
@@ -274,8 +312,9 @@ for (const t of topics) {
 const bySubject = {};
 for (const t of topics) bySubject[t.subject] = (bySubject[t.subject] ?? 0) + 1;
 console.log(
-  `✓ 有效 — ${topics.length} 个微主题, ${deps.length} 条先修边, ${standardKeys.size} 条课标条目。` +
-    `引用完整性 + DAG + 校验和 通过。分科: ` +
+  `✓ 有效 — ${topics.length} 个知识点, ${deps.length} 条先修边, ${standardKeys.size} 条课标条目` +
+    (lessonTopicCount ? `, ${lessonTopicCount} 条学习内容` : '') +
+    `。引用完整性 + DAG + 校验和 通过。分科: ` +
     Object.entries(bySubject).map(([k, n]) => `${k} ${n}`).join(' / ') +
     `。分册分布: ` +
     Object.entries(grades).map(([k, n]) => `${k} ${n}`).join(' / '),
