@@ -169,7 +169,7 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B0 | 基建 + 小一数学上册复核 | 24 | ✅ 完成（2026-10-26：schema v2 + 练习区 + 96 题） | 见 CHANGELOG Unreleased B0 条目 |
 | B1 | 数学 G1下 | 20 | ✅ 完成（2026-10-26：20 点讲解+80 题） | 见 CHANGELOG Unreleased B1 条目 |
 | B2 | 数学 G2上 | 22 | ✅ 完成（2026-10-26：22 点讲解+88 题；练习出处改「页码+内容描述」式标注） | 见 CHANGELOG Unreleased B2 条目 |
-| B3 | 数学 G2下 | 17 | ⬜ | — |
+| B3 | 数学 G2下 | 17 | ✅ 完成（2026-10-26：17 点讲解+68 题；本册 PDF 文字层改用 PyMuPDF 提取） | 见 CHANGELOG Unreleased B3 条目 |
 | B4 | 数学 G3上 | 32 | ⬜ | — |
 | B5 | 数学 G3下 | 28 | ⬜ | — |
 | B6 | 数学 G4上 | 30 | ⬜ | — |
