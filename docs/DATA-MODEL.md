@@ -53,7 +53,7 @@
 | `lessons[].source` | 可选（D-031）：`{unit, sections?, pages[起,止], alignedAt}` 教材对齐标记，unit 必须与 `topic.textbook.unit` 一致（validate 强制） |
 | `lessons[].exercises` | 可选（D-031）：`{kind: textbook/variant/extension, question, options?, answer, solution, difficulty(1-3), source?{label}}` 练习题；有练习时 ≥3 题（小学低段）/ ≥4 题（其余）且教材题 ≥50%，kind=textbook/variant 必带 source.label（validate 强制） |
 
-内容原则（D-031，修订 D-030 纯原创条款）：教材是权威与基础——讲解必须覆盖对应教材单元的核心知识（定义/法则/术语/方法与教材对齐）再通俗化加深；练习教材题优先（题型与数据保留、题干规范重写、标注册·页·题号）+ 变式 + 扩展。边界不变：教材 PDF 仅本地参考（D-004）、不整段照抄原文、课文/语篇原文（语文英语）不收录。数据懒加载：viewer 首次打开某学科知识点时才 fetch 对应文件。
+内容原则（D-031 + D-032，修订 D-030 纯原创条款）：教材是权威与基础——讲解必须覆盖对应教材单元的核心知识（定义/法则/术语/方法与教材对齐）再通俗化加深，直接引用教材原文时标注册·页；练习教材题优先（题型与数据保留、题干规范重写、标注册·页·题号）+ 变式 + 扩展；课文/语篇原文（语文英语）可直接收录为讲解素材与练习语料（D-032）。教材 PDF 仅本地参考（D-004）。数据懒加载：viewer 首次打开某学科知识点时才 fetch 对应文件。
 
 ## data/manifest.json — 清单（生成物，勿手编）
 
