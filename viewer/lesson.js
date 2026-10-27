@@ -12,8 +12,8 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
   (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
 const DIFF_ZH = { 1: '基础', 2: '提高', 3: '挑战' };
-// D-031 练习题来源徽标：教材题优先，变式/扩展为补充
-const KIND_ZH = { textbook: '教材题', variant: '变式', extension: '扩展' };
+// D-031/D-033 练习题分类徽标（面向用户不提来源，textbook=与课堂同步的基础题）
+const KIND_ZH = { textbook: '同步', variant: '变式', extension: '扩展' };
 const CONTRIB_URL = 'https://github.com/8bitkevin/china-curriculum-taxonomy/blob/main/CONTRIBUTING.md';
 
 /**
@@ -90,7 +90,6 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
         <summary>对答案 · 看解析</summary>
         <p class="lesson-ans">答案：<b>${esc(e.answer)}</b></p>
         <p class="lesson-sol-text">${esc(e.solution)}</p>
-        ${e.source ? `<p class="lesson-src">出处：${esc(e.source.label)}</p>` : ''}
       </details>
     </div>`;
 
