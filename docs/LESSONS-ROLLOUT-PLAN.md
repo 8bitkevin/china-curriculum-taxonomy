@@ -215,5 +215,6 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-E12 | 初中英语 G8下 | 14 | ✅ 完成（2026-10-29：14 点讲解+练习 56 题；扫描版 OCR 第二册（偏移-9）；病痛医嘱/could 志愿/Could 两级/过去进行时/用英语讲中国故事/地理之最/**现在完成时三部曲**（yet-already/ever been/for-since 延续）；装配期修 1 处两选项题） | 见 CHANGELOG Unreleased B-E12 条目 |
 | B-E13 | 初中英语 G9全 | 17 | ✅ 完成（2026-10-29：17 点讲解+练习 68 题；**初中英语 5 册 75 点全学段双覆盖收官**；by V-ing/宾语从句两讲/used to/被动三时态/情态推测/定语从句/be supposed to/make 复合结构/过去完成时/中考阅读题型/语法地图/写作自查；14 单元×8 页版式一次锁定） | 见 CHANGELOG Unreleased B-E13 条目 |
 | B-E14 | 高中英语必修一 | 12 | ✅ 完成（2026-10-29：12 点讲解+练习 48 题；高中开篇（人教 2019 版新教材 Welcome Unit+5 单元 12 页距版式）；听力笔记法/Skimming-Scanning/进行时表将来/定语从句深化 whose-whom/时态语态语篇整合/词块搭配/建议信/Presentation/世界语言文化） | 见 CHANGELOG Unreleased B-E14 条目 |
+| B-E15 | 高中英语必修二 | 12 | ✅ 完成（2026-10-29：12 点讲解+练习 48 题；定语从句三（where/when/why）/进行时与完成时被动/非谓语起步（过去分词作定语）/五大主题语境（文化遗产/野生动物/互联网/历史传统/音乐）/构词法系统/新闻事件报道/说明文结构） | 见 CHANGELOG Unreleased B-E15 条目 |
 
 > 执行入口：新会话直接说「按 LESSONS-ROLLOUT-PLAN 执行 B{n}」即可。

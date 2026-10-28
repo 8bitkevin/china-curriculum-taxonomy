@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 187,
+  "lessonCount": 199,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -23286,6 +23286,1474 @@
           "question": "以“一门语言的身世”为题写一段约 60 词的英文小介绍：先总起一句（如 The Chinese writing system connects the past and the present.），再给两个文化事实（可写汉字的发展，也可写英语的英美变体），最后回扣一句。",
           "answer": "示例：The Chinese writing system connects the past and the present. At the beginning, written Chinese was a picture-based language. Emperor Qinshihuang united the seven major states, and the writing system began to develop in one direction. That is why we can still read classics written long ago.",
           "solution": "自查三点：总起句是否点明“连接/多样”主题、两个事实是否是真实文化知识（时间、事件要对）、结尾是否回扣总起；写完读一遍，长句拆成两句更稳。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_01",
+      "summary": "先行词指地点、时间、原因时，定语从句改用关系副词 where/when/why 引导，它们都能换成介词加 which。",
+      "explanation": [
+        "书上这部分先带你从阿斯旺大坝语篇里圈关系词，其中关系副词一句是 “Temples and other cultural sites were taken down piece by piece, and then moved and put back together again in a place where they were safe from the water.”（寺庙等文化遗址被逐块拆下，搬到一个不会被水危及的安全之处再重新拼合起来）——where 的先行词是 a place。随后的“下定义”游戏给出关键提示：What is an exit? — An exit is the door where / through which you can leave a building.（出口就是你能从中离开建筑的那扇门），同一个空既可填 where 又可填 through which；改写任务还要求把三句话分别改成以 The time、The place、The reason 开头的定语从句；新闻语篇里另有原句 “Today, the caves are just as international as they were at the time when people travelled the Silk Road.”（如今这些洞窟与人们走丝绸之路的年代一样具有国际性）。",
+        "为什么这三个词叫关系副词？因为先行词是“在哪里、在何时、为什么”这类信息时，从句里主语宾语都不缺，缺的是一个状语：the place where... ＝在那“个地方”发生，the day when... ＝在“那天”发生，the reason why... ＝“因为那个原因”发生。它们本质上都等于“介词＋which”：where＝in which，when＝on/at/during which，why＝for which。就像中文说“我出生的城市”“我们相遇的那天”“他迟到的理由”，都是给名词补充一句身份说明。",
+        "三步选对关系副词：第一步找先行词——定语从句紧前面的那个名词；第二步分类——地点（place/city/spot）选 where，时间（day/time/year/moment）选 when，原因（reason）选 why；第三步验证——把 where 换成 in which、when 换成 on/at/during which、why 换成 for which，句意不变就选对了。书上的下定义游戏正是这个思路：An exit is the door where/through which you can leave a building，一个意思，两种说法任你换。",
+        "最要紧的辨析是关系代词与关系副词之分：从句缺主语或宾语，用 which/that/who；从句主谓宾齐全、只缺状语，才用 where/when/why。比较两句：This is the museum which we visited last year.（visit 缺宾语，先行词 museum 充当宾语）与 This is the museum where we met.（meet 不缺主宾，缺地点状语）。再记三条：why 的先行词基本只有 reason；where 没有写成 that 的说法；关系代词作宾语可以省略（书上的讨论题正问哪些关系代词能删），而关系副词一律不能省。",
+        "定语从句至此凑齐三件套：此前学过 who/which/that 指人指物，如今补上 where/when/why 指地点、时间、原因。往后读长难句（如 a person or group who works to protect cultural heritage）、写作文介绍一座城市（the city where I grew up）、讲述难忘的一天（the day when we said goodbye），全靠它们把两句话拧成一句。拿到长句先找先行词、再核对从句缺不缺成分，这个习惯从现在养起来，语法填空里它可是常客。"
+      ],
+      "methods": [
+        {
+          "name": "先行词分类法",
+          "steps": [
+            "第一步：找到先行词——定语从句紧前面的那个名词；",
+            "第二步：给先行词归类——地点（place/city/spot）用 where，时间（day/time/year）用 when，原因（reason）用 why；",
+            "第三步：代入朗读，确认从句不缺主语和宾语、只缺状语。"
+          ],
+          "tip": "地点 where，时间 when，原因 why；where=in which，地点先行。"
+        },
+        {
+          "name": "介词+which 互换法",
+          "steps": [
+            "把 where 写成 in which，when 写成 on/at/during which，why 写成 for which；",
+            "替换后通读一遍，句意不变即确认无误；",
+            "下定义类表达两种说法都算对：the door where / through which you can leave a building。"
+          ],
+          "tip": "副词还原介词 which，一换现原形。"
+        },
+        {
+          "name": "缺成分判断法",
+          "steps": [
+            "看从句：主语、宾语缺不缺？",
+            "缺主语或宾语→用关系代词 which/that/who；",
+            "成分齐全、只缺状语→用关系副词 where/when/why。"
+          ],
+          "tip": "缺主宾用代词，只缺状语用副词。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "三连填空（用 where/when/why）：① the place ___ they were safe from the water；② the time ___ people travelled the Silk Road；③ The reason ___ scientists worked together day and night was to rescue the temple.",
+          "solution": "① where（先行词 place 表地点）；② when（先行词 time 表时间，语篇原句）；③ why（先行词 reason 表原因）。",
+          "difficulty": 1,
+          "pitfall": "别看从句长短，只盯先行词的类别；reason 前只用 why。"
+        },
+        {
+          "question": "把 “I found the documents about the cultural relics under the desk.” 改成以 The place 开头的定语从句句式（书上改写任务的同款开头）。",
+          "solution": "The place where I found the documents about the cultural relics is under the desk.（where 也可换成 in which。）",
+          "difficulty": 2,
+          "pitfall": "改写后必须是完整句：The place where... is under the desk，别只写从句丢掉主句。"
+        },
+        {
+          "question": "单选：This is the museum ___ we visited last summer.（A where / B which / C when / D why）",
+          "solution": "选 B。visit 是及物动词，从句缺宾语，先行词 museum 充当宾语，用 which（that 也可以，且可省略）。",
+          "difficulty": 3,
+          "pitfall": "museum 是地点，但先行词是地点不等于用 where——从句缺宾语时仍用关系代词。"
+        }
+      ],
+      "mistakes": [
+        "见到地点名词就填 where：The city ___ I visited last year 里 visit 缺宾语，该用 which/that（可省略），不是 where。",
+        "把 why 套在 reason 之外的先行词上：why 只与 reason 搭配，时间用 when、地点用 where。",
+        "以为 where 能换成 that：关系副词没有 that 的说法，地点状语只能 where 或 in which。",
+        "擅自省略关系副词：关系代词作宾语可省（the app (which) I downloaded），where/when/why 一律不能省。"
+      ],
+      "source": {
+        "unit": "Unit 1 Cultural Heritage",
+        "pages": [
+          1,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：If we don't protect those traditions, there may come a time ___ they disappear.",
+          "options": [
+            "where",
+            "when",
+            "why",
+            "which"
+          ],
+          "answer": "B",
+          "solution": "先行词 a time 表时间，从句 they disappear 主谓齐全、只缺时间状语，用 when；本句出自书上自测部分的补全对话。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P10·自测补全对话（there may come a time ___ they disappear）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "按书上“下定义”游戏作答（提示词 from/in which; where）：What's a library?",
+          "answer": "A library is a place where / in which you can read and borrow books.（开放作答，句子完整、用 where 或 in which 即可）",
+          "solution": "library 是地点，从句 you can read and borrow books 成分齐全、只缺地点状语，用 where，等于 in which。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P6·语法板块下定义游戏（What's a library? from/in which; where）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：哪一句的关系词可以换成“介词＋which”（如 in which）而意思不变？",
+          "options": [
+            "I know a shop where you can buy traditional crafts.",
+            "The photo which I took in Xi'an is my favourite.",
+            "Do you know the man who lives next door?",
+            "I'll never forget the day which changed my life."
+          ],
+          "answer": "A",
+          "solution": "A 句先行词 shop 表地点、从句 you can buy traditional crafts 成分齐全，where＝in which；B/C/D 的关系词是关系代词（作宾语或主语），不能换成介词＋which。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P6·定语从句改写任务变式（关系副词与介词＋which 互换）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以 “Our school is a place where...”、“I still remember the day when...”、“The reason why I love English is...” 三个句式为开头，各写一句完整的话，介绍你的校园生活。",
+          "answer": "示例：Our school is a place where we study and make friends. / I still remember the day when we won the football match. / The reason why I love English is that it opens a window to the world.",
+          "solution": "三个关系副词各司其职：where 配地点、when 配时间、why 配理由；写完自查从句是否成分齐全。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_02",
+      "summary": "is/are being done 表示“正在被做”：大象正被猎杀、湿地正被破坏，野生动物保护话题的标配句型。",
+      "explanation": [
+        "书上语法板块从语篇句子入手，要求圈出现在进行时被动并讨论它的功能：“African elephants are being hunted.”（非洲象正被猎杀）、“What is being done to help them?”（正在为它们做些什么？）、“What measures are being taken to help them?”（正在采取哪些措施帮助它们？）。随后的核心任务是“用括号动词的现在进行时被动补全短文”，写家乡湿地的变化：Small birds ___ (catch) with nets.→ Small birds are being caught with nets.（小鸟正被网捕走）；Wild ducks ___ (sell) at food markets.→ are being sold（野鸭正被卖往食品市场）；the wetland ___ (destroy)→ is being destroyed（湿地正被破坏）。",
+        "“正在进行”＋“被动”叠在一起，就是“此刻正被怎样怎样”：主语是动作的承受者，而动作正在发生——大象自己不会猎杀谁，它们是“被猎杀”的一方；湿地不会破坏自己，它是“被破坏”的一方。这就像看直播画面：事情正在上演，镜头对准的恰恰是挨事儿的那个。保护类话题里它出场率最高，因为人们总在追问“现在正在为它们做什么”。",
+        "结构公式：am/is/are ＋ being ＋ 过去分词。三步套用：第一步判语态——主语是不是承受者（被猎杀、被出售、被粉刷）；第二步判时态——动作此刻是否正在进行（right now、these days、at the moment 等信号，或语境明显“正在”）；第三步套公式——be 动词随主语变（单数 is、复数 are），疑问句把 be 提到句首：What is being done to help them?",
+        "三组近邻要分清：一是 is done 与 is being done——一般现在时被动表经常性动作（The room is cleaned every day. 房间每天都被打扫），进行时被动表此刻正在（书上选词题 my office is being painted，办公室此刻正被粉刷）；二是主动与被动——Who is hunting the kangaroos?（谁在猎杀袋鼠，问施动者用主动）对比 Where are they being hunted?（它们在哪里被猎杀，问承受者用被动）；三是别丢 being——are hunted 是“经常被猎”，are being hunted 才是“正在被猎”。",
+        "被动体系正在升级：此前学过一般现在时与一般过去时的被动（is done / was done），现在学进行时被动 is being done，下一站还有完成时被动 has been done。新闻报道、环保倡议、海报标语全靠它传递紧迫感，比如书上海报句 “Billions of trees are being cut down every year to make paper for humans.”（每年数十亿棵树正被砍去造纸）；学会它，描述“正在发生的变化”就多了一件趁手的工具。"
+      ],
+      "methods": [
+        {
+          "name": "语态时态双判法",
+          "steps": [
+            "一判语态：主语是承受者吗？被猎杀、被出售、被破坏——是，才用被动；",
+            "二判时态：动作此刻正在进行吗？找 right now、these days 等信号或体会语境；",
+            "三套公式：am/is/are + being + 过去分词，be 随主语变化。"
+          ],
+          "tip": "正在被动 being 上，be 动词跟着主语变。"
+        },
+        {
+          "name": "is done / is being done 对照卡",
+          "steps": [
+            "经常发生：The wetland is polluted every year.（每年都被污染）",
+            "此刻正在：The wetland is being polluted now.（正在被污染）",
+            "做题先问一句：说的是常态，还是眼下正在发生？"
+          ],
+          "tip": "常态 is done，眼下 is being done。"
+        },
+        {
+          "name": "保护话题金句库",
+          "steps": [
+            "问进展：What is being done to help them?",
+            "答措施：Measures are being taken to help them.",
+            "总结陈词：Much is being done to protect wildlife."
+          ],
+          "tip": "问 is being done，答 are being taken。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "填空：Right now, the deer ___ (watch) over by many volunteers.",
+          "solution": "are being watched over。鹿群是“被看护”的一方，right now 提示动作正在进行；deer 此处指一群鹿，用复数 are。",
+          "difficulty": 1,
+          "pitfall": "deer 单复数同形，这里由语境可知是复数，别误用 is being watched。"
+        },
+        {
+          "question": "书上选词：The alarming report is (written / being written). It will be finished soon. 该选哪个？为什么？",
+          "solution": "选 being written。后句 It will be finished soon（很快就会写完）说明报告还没写完、此刻正在被写。",
+          "difficulty": 2,
+          "pitfall": "只看主句不看后句最容易错：后句语境才是判断“完成还是进行”的依据。"
+        },
+        {
+          "question": "对比两句的言外之意：① Billions of trees are cut down every year. ② Billions of trees are being cut down every year to make paper for humans.（书上海报原句）",
+          "solution": "②用进行时被动强调“正被砍伐、一刻未停”，渲染危机正在发生的紧迫感；①只是陈述“每年都被砍”的常态。",
+          "difficulty": 3,
+          "pitfall": "别见 every year 就认定只能用一般现在时——作者要突出“正在进行”的危机感时，进行时被动照样成立。"
+        }
+      ],
+      "mistakes": [
+        "丢 being：African elephants are hunted.（经常被猎）与 are being hunted.（正在被猎）意思不同，谈“眼下危机”必须带 being。",
+        "be 不随主语变：The wetland are being destroyed 是错的，应说 is being destroyed；birds 作主语才用 are。",
+        "主动被动用反：问“谁在猎杀袋鼠”用主动 Who is hunting the kangaroos?；问“袋鼠在哪里被猎杀”才用被动 Where are they being hunted?",
+        "与完成时被动混用：正在修说 is being repaired，已修好说 has been repaired，先判断事办完没有。"
+      ],
+      "source": {
+        "unit": "Unit 2 Wildlife Protection",
+        "pages": [
+          13,
+          25
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：I'm working at home today because my office ___.",
+          "options": [
+            "is painted",
+            "is being painted",
+            "paints",
+            "has painted"
+          ],
+          "answer": "B",
+          "solution": "“我今天在家办公”的原因是办公室“此刻正被粉刷”，用 is being painted；is painted 表经常被粉刷，不合语境。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P18·语法板块选词填空（my office is being painted）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用现在进行时被动补全书中湿地短文里的两句：Small birds ___ (catch) with nets. Wild ducks ___ (sell) at food markets.",
+          "answer": "are being caught；are being sold",
+          "solution": "小鸟、野鸭都是“被捕捉/被出售”的承受者，动作正在进行，套 are being done。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P18·湿地短文填空（Small birds are being caught with nets.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话（书上的大象保护场景）：A: I'm concerned about the African elephants. They're being hunted, you know. B: That's terrible. What measures ___ to help them? A: The authorities are under pressure to build elephant parks.",
+          "options": [
+            "are taking",
+            "are taken",
+            "is being taken",
+            "are being taken"
+          ],
+          "answer": "D",
+          "solution": "measures 与 take 是被动关系，且措施“正在被采取”，复数主语用 are being taken——正是书上对话的问句原形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P15·大象保护对话变式（What measures are being taken to help them?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "观察你家或学校周边正在发生的变化，写三句“现在进行时被动”：一句写建设（如 A new park is being built...），一句写保护（如 Endangered birds are being protected...），再用 What is being done...? 提一个问题。",
+          "answer": "示例：A new library is being built near my home. / Old trees in our school are being protected by volunteers. / What is being done to keep the river clean?",
+          "solution": "先找承受者（楼、树、河），再确认动作正在进行，套 is/are being done；问句把 be 提到句首。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_03",
+      "summary": "have/has been done 表示“已经被做”：密码已被确认、生活已被改变，强调动作完成且影响延续至今。",
+      "explanation": [
+        "书上用一首小诗开场：“Look at the way your face has been washed / your teeth have been brushed / your shoes have been cleaned — You'd better do them again.”（看看你的脸已经洗过、牙已经刷过、鞋已经擦净——你最好再重来一遍）。接着对比主被动两组：The Internet has greatly improved Jan's life.（互联网大大改善了 Jan 的生活）↔ “Jan's life has been greatly improved by the Internet.”（Jan 的生活已被互联网大大改善，语篇原句）；People have written much about the wonders of the World Wide Web. ↔ “Much has been written about the wonders of the World Wide Web.”。最后补全公式：主动是 have/has＋v-ed，被动是 have/has＋been＋v-ed。",
+        "“完成”＋“被动”＝“已经被做完了，而且结果还在”：脸洗过了、牙刷过了、鞋擦过了——动作完成，承受者身上留下了“干净”的结果。互联网语篇说 Jan's life has been greatly improved，强调的不只是“改善”这个动作，更是“生活已经变好、好处延续至今”。就像作业已被批改、海报已被贴出：事办完了，痕迹还在。",
+        "结构公式：have/has＋been＋过去分词。三步套用：第一步判语态——主语是承受者（密码被确认、生活被改变）；第二步判时态——动作已完成且与现在相关，常见信号词有 already、yet、so far、recently、since；第三步套公式——have/has 随主语变（Jan 用 has，they 用 have），been 始终不变。变疑问句时把 Have/Has 提前：Have you confirmed the Wi-Fi password? → Has the Wi-Fi password been confirmed?",
+        "三组辨析：一是主被动对照——The Internet has improved Jan's life.（互联网是施动者）与 Jan's life has been improved by the Internet.（生活是承受者），改写思路是“宾语提前做主语，动词变成 have been done，原主语塞给 by”；二是 has been done 与 is being done——已经完成用 been，正在进行用 being（报告 is being written 还没写完，has been written 已写完）；三是别丢 been 或误用 being——been 与 being 一字母之差，隔着两个时态。",
+        "至此被动体系集齐三件套：一般被动 is done、进行被动 is being done、完成被动 has been done。互联网话题的读与写处处用得上：书上的阅读语篇标题就叫 “Stronger Together: How We Have Been Changed by the Internet”（我们如何被互联网改变），自测语篇里还有 “The world has been turned upside down.”（世界已被彻底颠覆）。读长难句时认出 has been done，就能快速抓住“谁被怎样了”；写作时用它汇报成果，句子既正式又有分量。"
+      ],
+      "methods": [
+        {
+          "name": "完成被动三步法",
+          "steps": [
+            "一判语态：主语是承受者吗？",
+            "二判时态：动作完成且影响至今吗？找 already / yet / so far / since 等信号；",
+            "三套公式：have/has + been + 过去分词，have/has 随主语变化。"
+          ],
+          "tip": "已经被动 been 添，have has 随主变。"
+        },
+        {
+          "name": "主被动互换法",
+          "steps": [
+            "把主动句的宾语提到句首做主语；",
+            "动词改为 have/has been done；",
+            "原主语需要交代时用 by 引出，someone 等泛指施动者可省去。"
+          ],
+          "tip": "宾语升主语，动词 been 化，原主语交给 by。"
+        },
+        {
+          "name": "been / being 分清卡",
+          "steps": [
+            "has been done：已经被做完（The Wi-Fi password has been confirmed.）",
+            "is being done：此刻正在被做（The report is being written.）",
+            "做题先问：事办完了，还是正办着？"
+          ],
+          "tip": "been 已完成，being 正进行。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "填空：Much ___ (write) about the wonders of the World Wide Web.",
+          "solution": "has been written。much（许多内容）是“被写”的承受者，动作已完成且影响延续，用 has been written——书上对比句原形。",
+          "difficulty": 1,
+          "pitfall": "much 指代不可数的内容，按单数处理用 has，别误用 have。"
+        },
+        {
+          "question": "按书上示范改写：Someone has lost an identity card.（用现在完成时被动）",
+          "solution": "An identity card has been lost. 宾语 an identity card 提前做主语，动词改 has been lost；someone 泛指，by 短语省去。",
+          "difficulty": 2,
+          "pitfall": "不明确的施动者不必补 by someone，写出来反而累赘。"
+        },
+        {
+          "question": "单选：The Wi-Fi password ___ yet, so nobody can get online.（A has confirmed / B has been confirmed / C hasn't been confirmed / D is being confirmed）",
+          "solution": "选 C。not...yet 表示“还没”，密码“尚未被确认”所以大家上不了网；hasn't been confirmed 是完成被动的否定式，思路正来自书上问句 Have you confirmed the Wi-Fi password?",
+          "difficulty": 3,
+          "pitfall": "见 yet 先想否定完成；B 说“已被确认”，与后半句 nobody can get online 自相矛盾。"
+        }
+      ],
+      "mistakes": [
+        "丢 been：A kind of new PC has built 是错的，应说 has been built；被动式里 been 不能省。",
+        "been / being 用混：has been done 已完成，is being done 正进行，先判断事办完没有。",
+        "have/has 不随主语变：The flowers has been planted 是错的，应说 have been planted。",
+        "疑问句语序错：应为 Has the button been pressed yet?，不是 Has been the button pressed yet?"
+      ],
+      "source": {
+        "unit": "Unit 3 The Internet",
+        "pages": [
+          26,
+          37
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选（书上的小诗）：Look at the way your shoes ___.",
+          "options": [
+            "have cleaned",
+            "have been cleaned",
+            "are being cleaned",
+            "had cleaned"
+          ],
+          "answer": "B",
+          "solution": "鞋是“已经被擦净”的承受者，用现在完成时被动 have been cleaned——小诗正是靠这一串“已经……了”提醒你再擦一遍。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P30·语法板块小诗（your shoes have been cleaned）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把书上的问句改成现在完成时被动：Have you pressed the button yet to copy the file?",
+          "answer": "Has the button been pressed yet to copy the file?",
+          "solution": "宾语 the button 提前做主语，have been pressed 随新主语变为 has been pressed，Has 提前构成疑问，yet 保留。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P30·被动改写任务（Have you pressed the button yet to copy the file?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选（书上自测语篇句）：The world ___ since the invention of the Internet.",
+          "options": [
+            "turned upside down",
+            "has turned upside down",
+            "has been turned upside down",
+            "is being turned upside down"
+          ],
+          "answer": "C",
+          "solution": "turn the world upside down 意为“颠覆世界”，世界是承受者，须用被动；since 引出起点，与完成时连用，故选 has been turned upside down。A 缺完成、B 主动、D 表正在进行。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教必修二 P34·自测语篇变式（The world has been turned upside down since the invention of the Internet.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以“互联网改变了我的学习生活”为话题，用 have/has been done 写三句：一句肯定（...has been changed by...），一句否定（...hasn't been replaced by...），一句疑问（Has...been...?）。",
+          "answer": "示例：My study habits have been changed by online courses. / Paper dictionaries haven't been replaced by apps in my schoolbag. / Has your way of making friends been changed by the Internet?",
+          "solution": "肯定、否定、疑问各套一次公式，注意 have/has 随主语变化、been 不缺席。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_04",
+      "summary": "过去分词作定语表“被…的、已…的”：单个分词放名词前，分词短语放名词后，与 -ing 定语一对比就分清。",
+      "explanation": [
+        "书上先让你在句子里圈过去分词：“Most people just use the shortened name: 'the United Kingdom' or 'the UK'.”（多数人只用简称“联合王国”或“UK”）——shortened 是前置定语；“They use the same flag, known as the Union Jack”（他们用同一面国旗，即众所周知的“米字旗”）——known as 短语是后置定语。随后两个方框正面对比：方框一全是分词放名词前——tired visitors（疲惫的游客）、a well-organised trip（组织周密的旅行）、beautifully dressed stars（打扮漂亮的明星）；方框二是分词短语放名词后——visitors tired of the long wait（等得厌烦的游客）、a trip organised well by my workplace、stars dressed beautifully at the event。",
+        "过去分词自带两层含义：被动或完成。a well-organised trip＝旅行“被”组织得很周密；tired visitors＝游客“已经”累了。对照中文更好懂：晒干的衣服（被晒过）、落地的叶子（已经落地）、煮好的饺子（被煮熟了）。它和现在分词 -ing 正好是一对反光镜：-ing 表主动或进行，-ed 表被动或完成。",
+        "三步上手：第一步查关系——名词与动词之间是“被动”或“已完成”的关系，才用过去分词；第二步看长短——单个分词放名词前（the shortened name），分词短语放名词后（the same flag known as the Union Jack），带副词的合成词（well-organised）仍可前置；第三步还原验证——把 done 还原成“who/which/that＋be＋done”：soldiers wounded in the First World War＝soldiers who were wounded in the First World War（第一次世界大战中受伤的士兵），还原通顺即正确。",
+        "与 -ing 定语一对比就清楚：boiling water（正在烧开的水）vs boiled water（已经烧开的水）；falling leaves（正在飘落的叶）vs fallen leaves（已落在地的叶）；the exciting news（令人兴奋的消息）vs the excited visitors（感到兴奋的游客）。口诀：令人……的用 -ing，感到……的用 -ed。位置上再记一条：单个 -ed 前置、短语 -ed 后置，别把 wounded in the war soldiers 这样的短语硬塞到名词前面。",
+        "这是非谓语动词的第一站：过去分词除了作定语，还能作宾语补足语（书上的 Judy had her eyes fixed on Van Gogh's Sunflowers.）与状语（音乐语篇原句 “Moved by this music, he said, 'It was like seeing color for the first time.'”）。读长难句时先认出 done 定语，句子立刻“瘦身”——a year-end concert arranged by my teacher 里 arranged by... 只是修饰 concert 的小尾巴；写作时多用 done 定语，句子紧凑、正式度立升。"
+      ],
+      "methods": [
+        {
+          "name": "被动完成二查法",
+          "steps": [
+            "一查被动：名词是动作的承受者吗？（trip 被组织、flag 被称为）",
+            "二查完成：状态已经形成了吗？（游客已经累了、叶子已经落了）",
+            "两者占其一，就用过去分词 done。"
+          ],
+          "tip": "被动或完成用 -ed，主动或进行用 -ing。"
+        },
+        {
+          "name": "前短后长定位法",
+          "steps": [
+            "单个分词放名词前：the shortened name、tired visitors；",
+            "分词短语放名词后：the same flag known as the Union Jack；",
+            "副词＋分词的合成词仍前置：a well-organised trip。"
+          ],
+          "tip": "单词前置，短语后置，合成词照旧前置。"
+        },
+        {
+          "name": "从句还原验证法",
+          "steps": [
+            "把过去分词定语还原成 who/which/that ＋ be ＋ 过去分词；",
+            "cameras positioned on the hill＝cameras which were positioned on the hill（架在小山上的摄像机）；",
+            "还原后通顺、意思不变，说明用对了。"
+          ],
+          "tip": "还原从句验一验，对错立刻见分晓。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断：the photo taken at Cardiff Castle（在加的夫城堡拍的照片）中 taken 作什么成分？为什么用 taken 而不用 taking？",
+          "solution": "过去分词短语作后置定语。photo 与 take 是被动关系——照片是“被拍摄”的，所以用 taken；taking 表主动进行，不成立。",
+          "difficulty": 1,
+          "pitfall": "判断的锚点是名词与动词的主被动关系，不是分词离名词的远近。"
+        },
+        {
+          "question": "按书上改写任务，用过去分词作定语改写：The family's ancestors once attended to soldiers who were wounded in the First World War.",
+          "solution": "The family's ancestors once attended to soldiers wounded in the First World War. 定语从句 who were wounded 瘦身为过去分词短语 wounded in the First World War，后置修饰 soldiers。",
+          "difficulty": 2,
+          "pitfall": "wounded 不能提到 soldiers 前面——带状语的分词短语一律后置。"
+        },
+        {
+          "question": "选词填空并说明理由：After the ___ (tiring / tired) climb, the ___ (tiring / tired) climbers fell asleep at once.",
+          "solution": "tiring；tired。攀登“令人疲惫”用 -ing（主动使人累），登山者“感到疲惫”用 -ed（被动承受），正是书上 tired visitors 的逻辑。",
+          "difficulty": 3,
+          "pitfall": "别见人就用 -ed、见物就用 -ing，关键看谁“使人怎样”、谁“感到怎样”。"
+        }
+      ],
+      "mistakes": [
+        "单个分词不前置：把“缩写名称”说成 the name shortened 是错的，应为 the shortened name。",
+        "分词短语塞到名词前：wounded in the war soldiers 是错的，应为 soldiers wounded in the war；带状语的短语必须后置。",
+        "-ed/-ing 用反：the audience felt bored at the boring talk——talk 令人无聊用 -ing，观众感到无聊用 -ed。",
+        "不分主被动一律套 -ed：the man inviting us to dinner（正邀请我们的那位男士）表主动，用 -ing，不能写成 invited。"
+      ],
+      "source": {
+        "unit": "Unit 4-5 语法板块",
+        "pages": [
+          38,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选（书上例句）：They use the same flag, ___ as the Union Jack.",
+          "options": [
+            "known",
+            "knowing",
+            "to know",
+            "is known"
+          ],
+          "answer": "A",
+          "solution": "flag 与 know 是被动关系（旗“被称为”），过去分词短语 known as the Union Jack 作后置定语，相当于 which is known as。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P42·语法板块例句（They use the same flag, known as the Union Jack）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用过去分词把书上的两句合成一句：The photo won the first prize in the competition. It was taken at Cardiff Castle.",
+          "answer": "The photo taken at Cardiff Castle won the first prize in the competition.",
+          "solution": "It was taken 瘦身为过去分词短语 taken at Cardiff Castle 作后置定语，两句信息一句说完。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P46·自测合并句子（The photo won the first prize in the competition.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：翻译“经过令人疲惫的一天，疲惫的游客们早早睡去”，选出用词全部正确的一组：",
+          "options": [
+            "a tiring day; the tired visitors",
+            "a tired day; the tiring visitors",
+            "a tiring day; the tiring visitors",
+            "a tired day; the tired visitors"
+          ],
+          "answer": "A",
+          "solution": "day“令人疲惫”用 -ing；visitors“感到疲惫”用 -ed——-ing 主动使人、-ed 被动感受，与书上 tired visitors 的用法一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P42·过去分词定语方框对比变式（tired visitors / a well-organised trip）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用上三个过去分词定语写一段五句左右的短文，介绍你去过的一个地方：一个单个分词前置（如 a well-planned trip、fallen leaves），一个分词短语后置（如 a small town surrounded by hills），再用一句 -ing/-ed 对比（tiring trip / tired walkers）收尾。",
+          "answer": "示例：Our well-planned trip began in a small town surrounded by green hills. Fallen leaves covered the stone streets. The tiring climb left us tired but happy.",
+          "solution": "写完自查：前置的是单个分词，后置的是分词短语；-ing/-ed 看“使人怎样”还是“感到怎样”。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_05",
+      "summary": "阿斯旺大坝的故事告诉我们：发展必要、遗产也要护住，在进步与保护的取舍中找到平衡。",
+      "explanation": [
+        "开篇引言先立观点：“Heritage is our legacy from the past, what we live with today, and what we pass on to future generations.”（遗产是我们从过去继承的财富，今天与之共处，还要传给后代——出自 World Heritage Centre）。阅读语篇 From Problems to Solutions 讲的是埃及修建阿斯旺大坝的两难：“Economic development is necessary if we want to improve society. There comes a time when the old must give way to the new, and it is not possible to preserve everything from our past as we move towards the future.”（经济发展必要；旧的要让位于新的，不可能把过去的一切原样保存），以及 “Finding and keeping the right balance between progress and the protection of cultural sites can be a big challenge.”（在进步与遗迹保护之间找到并守住平衡，是个大挑战）。读这篇文章有个现成策略：标题里 Problems 与 Solutions 两个词已经提示全文是“问题—方案”结构，先按这个框架预测，再读细节。",
+        "放到生活里想：家里翻新房子，想铺新地板，可老柜子是奶奶留下的，拆还是留？国家层面也一样——大坝能防洪、发电、给更多农民供水，但蓄水会淹没神庙。书上给的答案是“两头都要”：五十个国家捐了近 8000 万美元，成千上万的工程师和工人花了二十年，把神庙化整为零搬到安全处再原样拼回——“Temples and other cultural sites were taken down piece by piece, and then moved and put back together again in a place where they were safe from the water.”。这不是放弃发展，也不是丢弃过去，而是把两者安排妥当。",
+        "可操作的三步读法：第一步找问题段——大坝与神庙冲突，1959 年埃及政府听取科学家与附近居民意见后转向联合国求助；第二步圈方案动词链——建立委员会、向各部门与国际社会筹款、专家调查并多次试验、提出方案、签署文件、1960 年开工；第三步画时间线——1959 求助、1960 开工、1961 第一座神庙由德国工程师搬迁、1980 完工。时间线一画，事件之间的因果就一目了然，这正是这类说明文最常用的整理办法。",
+        "要辨析的是 protect 与 preserve：protect 侧重“保护……使其不受伤害”，常与 from 搭配，书上写建立委员会是为了 limit damage 并 prevent the loss of cultural relics；preserve 侧重“保存原貌、留给后代”，写作范文里写 Chen Lei 拍老建筑照片、采访老人、写文章，是为了 preserve the city's cultural heritage。再补几个高频搭配：donate ... to（捐给）、turn to ... for help（向……求助）、keep a balance between A and B、take part in、be proud of——语篇里的很多空格题考的就是它们。",
+        "这套“平衡取舍”的读法会一路用下去：接下来把镜头转向野生动物，保护藏羚羊同样要在人的发展与动物生存之间找平衡；写作上你将学着把“观点+措施+目的”组织成一篇新闻或短评，worthwhile（值得的）、in danger 这类表达会反复出现。学习习惯上记住一条：读观点性语篇，先画结构图，再回原句找依据，态度题才有根。"
+      ],
+      "methods": [
+        {
+          "name": "“问题—方案”结构三步读法",
+          "steps": [
+            "第一步：读标题预测——From Problems to Solutions 已经暗示先讲冲突再讲办法；",
+            "第二步：圈出问题段与方案动词（establish 建立、raise funds 筹款、investigate 调查、make a proposal 提方案、sign 签署）；",
+            "第三步：画时间线标年份，把每个事件与它的结果连成因果链。"
+          ],
+          "tip": "先题后文画时间，问题方案各一半。"
+        },
+        {
+          "name": "protect 与 preserve 分辨法",
+          "steps": [
+            "protect＝挡住伤害，常配 from：protect the wall from rain；",
+            "preserve＝保存原貌留给后代，对象多是 heritage、buildings、traditions；",
+            "拿不准时想场景：防破坏用 protect，修旧如旧、传给后人用 preserve。"
+          ],
+          "tip": "protect 挡伤害，preserve 存原貌。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇里写 “There comes a time when the old must give way to the new.”（旧的要让位于新的），这句话想说明什么？",
+          "solution": "说明经济发展有其必要、不可能把过去的一切都原样保存——它为下文“在进步与保护之间找平衡”的主线做铺垫，而不是主张抛弃遗产。",
+          "difficulty": 1,
+          "pitfall": "不能只翻译字面就停笔，要联系下一句 “it is not possible to preserve everything from our past” 一起理解。"
+        },
+        {
+          "question": "神庙是怎么被救下来的？请按原文动词链复述。",
+          "solution": "taken down piece by piece（逐块拆下）→ moved（搬运）→ put back together again（重新拼合），最后安放在远离水患的安全之处；二十年间 22 座神庙和无数文物因此获救。",
+          "difficulty": 2,
+          "pitfall": "不是修新庙仿旧庙，也不是原地筑高堤坝；书上写的是“拆解—搬迁—重组”三步。"
+        },
+        {
+          "question": "选词填空：Volunteers take photos of old buildings and interview old people in order to ___ the city's cultural heritage.（用 protect 或 preserve）",
+          "solution": "preserve。拍照、采访、写文章都是为了把老建筑的原貌记录下来传给后人，是“保存原貌”；若是挡住拆除或风雨侵袭，才用 protect ... from。",
+          "difficulty": 2,
+          "pitfall": "两词都能译成“保护”，但语义侧重不同；把 preserve 填成 protect 就丢了“留原貌给后代”这层意思。"
+        }
+      ],
+      "mistakes": [
+        "把语篇读成“反对建坝”：作者并未否定发展，强调的是平衡；态度题要回到 “Finding and keeping the right balance ...” 这类原句找依据。",
+        "protect 与 preserve 混用：说“保存原貌传给后代”时应选 preserve；两词互换会失分。",
+        "细节张冠李戴：1959 年向联合国求助的是埃及政府，出钱出人的是五十个国家，首座神庙由德国工程师迁移；主体别记错。",
+        "只背年份不看因果：时间线上每个点都要能说出“为什么发生”，比如 1959 求助之后才有 1960 开工。"
+      ],
+      "source": {
+        "unit": "Unit 1 Cultural Heritage",
+        "pages": [
+          1,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：读语篇可知，1961 年首座神庙搬迁之后，各国工程师和工人用了约二十年完成了什么？",
+          "options": [
+            "在大坝上新建了 22 座神庙",
+            "把 22 座神庙和无数文物迁到安全处并逐一重组",
+            "把神庙改造成水电站",
+            "把文物全部运往各国博物馆收藏"
+          ],
+          "answer": "B",
+          "solution": "原文 “Over the next 20 years, thousands of engineers and workers rescued 22 temples and countless cultural relics”，五十个国家为此捐了近 8000 万美元，1980 年工程完工。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P4·From Problems to Solutions（rescued 22 temples and countless cultural relics）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词补全：Volunteers take photos of old buildings and interview old people in order to ___ the city's cultural heritage.",
+          "options": [
+            "preserve",
+            "damage",
+            "ignore",
+            "reduce"
+          ],
+          "answer": "A",
+          "solution": "拍照与采访是把老建筑原貌记录下来传给后代，选 preserve；这正是范文里 Chen Lei 做的事。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P9·写作范文语料（Chen Lei ... in order to preserve the city's cultural heritage）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·观点态度：作者如何看待阿斯旺大坝这项工程？",
+          "options": [
+            "它是一次彻底的失败：钱花得太多",
+            "作者持中立怀疑态度，认为得不偿失",
+            "它是一次伟大的成功：各国找到了一条不碾压过去遗产的通往未来之路",
+            "作者认为应推迟到科技更发达时再做"
+          ],
+          "answer": "C",
+          "solution": "结尾段写 “When the project ended in 1980, it was considered a great success. Not only had the countries found a path to the future that did not run over the relics of the past, but they had also learnt that it was possible for countries to work together to build a better tomorrow.”——态度是肯定与赞赏。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P4·结尾段作者态度变式（considered a great success）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "情境写作：你的城市要修地铁，线路可能碰到一段明代老城墙。请用上 turn to、keep a balance between ... and ...、prevent ... from 各一次，写两三句你的建议。",
+          "answer": "示例：We can turn to experts for help and keep a balance between development and protection, so that we can prevent the old wall from being damaged.",
+          "solution": "按“观点+措施+目的”组织：求助谁、如何平衡、防止什么后果；三个短语各出现一次且搭配正确即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_06",
+      "summary": "从藏羚羊摘掉濒危帽子的故事里，学会抓非法猎杀、栖息地、和谐共生关键词，读懂动物保护语篇。",
+      "explanation": [
+        "开篇引言只有一句话：“When the buying stops, the killing can too.”（没有买卖，就没有杀害——WildAid）。语篇 A Day in the Clouds 从高原写起：“The air is thin and we have to rest several times on the short hike from camp.”（空气稀薄，短短一段路要歇好几脚），点明此行目的 “This is why we're here—to observe Tibetan antelopes.”。最耐读的是向导 Zhaxi 的话：“We're not trying to save the animals,” he says. “Actually, we're trying to save ourselves.”，而结尾把观点推到高处：“Only when we learn to exist in harmony with nature can we stop being a threat to wildlife and to our planet.”（只有学会与自然和谐共存，我们才不再是野生动物和地球的威胁）。这一部分的阅读策略是区分字面义（literal）与隐含义（implied）：字面义是词语直说的意思，隐含义要靠已知信息推断——书上的示例正是由 “The air is thin” 推出藏羚羊生活在高海拔。",
+        "把故事串起来：上世纪 80 到 90 年代是藏羚羊的至暗时刻——它们因绒毛珍贵遭到非法猎杀，数量骤降超过一半；公路和铁路越修越多，栖息地被压缩得越来越小。转机来自行动：国家把它列为保护动物，Zhaxi 和志愿者日夜看守，还专门修建桥梁与通道让它们安全穿行。成效写在 2015 年 6 月——藏羚羊被移出濒危物种名录，但保护并未叫停，因为威胁并未消失。整个过程像一场“抢救正在缩小的家”。",
+        "方法上先立主题词四件套：endangered（濒危的）、habitat（栖息地）、illegal hunting（非法猎杀）、adapt to（适应）。再按“危机—行动—成效—展望”四格读语篇：危机句是 “The population dropped by more than 50 percent.” 与栖息地变小的描述；行动句是置于国家保护之下、志愿者日夜看守、修桥修通道；成效句是 “The antelope population has recovered and in June 2015, the Tibetan antelope was removed from the endangered species list.”；展望句是结尾的 in harmony with nature。四格一填，主旨与细节题都有了着落。",
+        "辨析几组易混点：extinct（灭绝的，彻底消失）与 endangered（濒危的，仍可拯救）程度完全不同；藏羚羊 2015 年离开的是濒危物种名录，不是“灭绝名单”。hunt 在 “They were hunted, illegally, for their valuable fur.” 中是及物动词“猎杀”，插入的 illegally 是重音强调——猎杀本身非法才是危机根源。reserve 在这里指自然保护区（The reserve is a shelter for the animals and plants），不是“预订”。另外，隐含义题必须先找字面证据再推断，比如 “save ourselves” 字面是“救我们自己”，隐含义是救动物就是救人类自己，推断要能指出原句依据。",
+        "这套“危机—行动—成效”读法可以直接迁移：接下来你会学到为濒危动物设计海报、用正在进行时的被动描述“正在被做”的保护措施；议论表达如 make people aware of the problem（让人们意识到问题）、change our way of life 也是议论文常客。习惯上记住：读科普语篇先圈数字与年份——50 percent、2015 年 6 月这些数字往往就是细节题的题眼。"
+      ],
+      "methods": [
+        {
+          "name": "危机—行动—成效四格法",
+          "steps": [
+            "第一格“危机”：标出数量下降、栖息地缩小的证据句；",
+            "第二格“行动”：标出“谁+做了什么”的保护句；",
+            "第三格“成效”：标出数字回升、移出名录的结果句；",
+            "第四格“展望”：结尾的呼吁句通常就是主旨与态度所在。"
+          ],
+          "tip": "危机行动成效展望，四格一填语篇通。"
+        },
+        {
+          "name": "主题词链记忆",
+          "steps": [
+            "以藏羚羊为线索串词：endangered species 濒危物种→illegal hunting 非法猎杀→habitat 栖息地→national protection 国家保护→removed from the endangered species list 摘帽；",
+            "每个词配一句原文，如 “They were hunted, illegally, for their valuable fur.”；",
+            "复述时按时间顺序把词链讲一遍。"
+          ],
+          "tip": "词随文走，一句一词记得牢。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "由 “The air is thin and we have to rest several times on the short hike from camp.” 能推出什么隐含义（implied meaning）？",
+          "solution": "藏羚羊生活在高海拔地区，高原空气稀薄、行走吃力——书上示例正是把这一条判为 implied，推断依据是“空气稀薄”。",
+          "difficulty": 2,
+          "pitfall": "字面只说“空气稀薄”，“高海拔”是推断结论；答题时要能指出推断依据，不能凭空联想。"
+        },
+        {
+          "question": "20 世纪 80 到 90 年代，藏羚羊遭遇了什么？",
+          "solution": "数量下降超过 50%：猎人为了牟利非法射杀藏羚羊获取珍贵绒毛，公路与铁路建设又让栖息地不断缩小。",
+          "difficulty": 1,
+          "pitfall": "别漏掉 illegally——“非法”猎杀才是危机根源，与合法的科考观察完全是两回事。"
+        },
+        {
+          "question": "选词补全：Elephants need large living spaces, so it's difficult for them to ___ the changes.",
+          "solution": "adapt to。adapt to 意为“适应”，后接名词或动名词；大象需要大片生存空间，栖息地缩小后很难适应变化。",
+          "difficulty": 2,
+          "pitfall": "不要与 adopt（收养、采纳）混淆；adapt to 后面的 to 是介词，不能丢。"
+        }
+      ],
+      "mistakes": [
+        "extinct 与 endangered 混用：灭绝无法挽回，濒危仍可拯救；藏羚羊是“被移出濒危物种名录”，不是“灭绝后复活”。",
+        "把 reserve 读成“预订”：此处 the Changtang National Nature Reserve 指“自然保护区”，是动植物的 shelter。",
+        "隐含义当成字面义：判断前先问“原词有没有直说”；“save ourselves” 的隐含义是守护动物就是守护人类自己。",
+        "忽略转折：摘帽之后还有 “The government, however, does not intend to stop the protection programmes”——however 之后才是重点，威胁并未消失。"
+      ],
+      "source": {
+        "unit": "Unit 2 Wildlife Protection",
+        "pages": [
+          13,
+          25
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：下列哪一项不是语篇中藏羚羊数量在 20 世纪 80 到 90 年代锐减的原因？",
+          "options": [
+            "猎人非法射杀藏羚羊牟利",
+            "公路与铁路建设压缩了栖息地",
+            "大量游客涌入保护区踩踏草场",
+            "它们因珍贵绒毛被猎杀取皮毛"
+          ],
+          "answer": "C",
+          "solution": "原文给出的两个原因是 “Hunters were shooting antelopes to make profits” 和 “Their habitats were becoming smaller as new roads and railways were built”；游客踩踏草场并未在语篇中出现。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P16·A Day in the Clouds（dropped by more than 50 percent）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "单选：这篇语篇最好的主旨概括是？",
+          "options": [
+            "高原露营的见闻与攻略",
+            "藏羚羊的繁殖习性研究",
+            "藏羚羊从濒危到恢复的保护历程与启示",
+            "羌塘自然保护区的旅游开发"
+          ],
+          "answer": "C",
+          "solution": "全文按“危机—行动—成效—展望”展开，落点是“学会与自然和谐共存”，主旨是保护历程与启示，而非旅行攻略或习性研究。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P16·A Day in the Clouds 主旨（learn about protecting endangered animals）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·隐含义：“We're not trying to save the animals. Actually, we're trying to save ourselves.” 这句话的隐含义是？",
+          "options": [
+            "志愿者其实并不喜欢动物",
+            "守护野生动物就是守护人类自己的未来",
+            "动物离开人类就无法生存",
+            "作者后悔参加了这次旅行"
+          ],
+          "answer": "B",
+          "solution": "字面说“我们在救自己”，隐含义是人类与野生动物命运相连：破坏自然最终伤害的是人类自己，保护它们就是保护我们共同的家园。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教必修二 P17·字面义与隐含义判读变式（save ourselves）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "情境应用：学校举办“拒绝买卖野生动物制品”倡议活动。请以 “When the buying stops, the killing can too.” 为标语，再用 in harmony with 和 adapt to 各写一句倡议语。",
+          "answer": "示例：We should learn to live in harmony with nature and help wildlife adapt to the changing world, so that people and animals can share the same planet.",
+          "solution": "先亮标语，再用两个词块各成一句：一句讲“与自然和谐共存”，一句讲“帮助野生动物适应变化”，倡议语要给出可做的行动。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_07",
+      "summary": "互联网把世界连成地球村：既要享受便利，也要守住安全与礼貌的底线，做聪明的上网者。",
+      "explanation": [
+        "开篇引言出自 Bill Gates：“The Internet is becoming the town square for the global village of tomorrow.”（互联网正成为明日地球村的城镇广场）。语篇 Stronger Together: How We Have Been Changed by the Internet 写英国教师 Jan 的故事：病退居家后，她发现 “surfing the Internet could help her feel less lonely and bored”（上网能排解孤独无聊），进而意识到 “one of the greatest benefits of the Internet was its ability to remove the distance that usually exists between people”（互联网最大的好处之一是消除人与人之间的距离），并坚信 “it is highly important to bridge the digital divide and make sure that everyone has access to the Internet”（弥合数字鸿沟、让人人都能用上互联网至关重要）。写作语篇是一篇关于网络安全的博客，开篇提问 “how do you stay safe online and avoid bad experiences on the Internet?”，随后给出守则，第一条就是 “the golden rule of the Internet: If you see or read something that makes you feel uncomfortable, leave the site immediately.”。听力上还有一个专用策略：听定义——定义常以 “it's like”, “that is”, “for example” 开头，比如 “A blog is an online diary where you write about something you're interested in.”。",
+        "放到生活里看：网上购物不必排队、不必带现金——“We no longer have to wait in line or carry cash around when we go shopping.”；资料软件随用随下。更动人的是它改变普通人的命运：Jan 创办 IT 俱乐部教老年人用电脑，一位 59 岁的男士学会网上求职找到好工作，女儿因此能安心读大学；一位独居的 61 岁女士和朋友开了线上小公司，不再孤单。但便利与风险并存：身份盗用（identity theft）、网上捣乱者（troll）与网络霸凌者（cyberbully）就藏在评论区里。",
+        "词块分三组记：活动类——surf the Internet、chat online、stream movies and music、write a blog post、use a search engine，还有 keep up with（跟上、及时了解，如 keep up with the news）；获益类——have access to（能够使用）、bridge the digital divide（弥合数字鸿沟）、get updated information；安全类——stay safe online、protect your privacy、leave the site immediately、be polite。做观点题的技巧：先找观点句（She realised that ... / She believes that ...），再看例证人物，观点与例证一对号，答案就稳了。",
+        "辨析三个易混点：其一，troll 泛指“发帖故意捣乱者”（posts comments or questions in order to stir up trouble online），cyberbully 特指“针对具体的人实施网络霸凌者”（usually directed at particular people），二者范围不同；其二，identity theft 是“盗用身份信息”，不是偷实物；其三，keep up with 表“与……保持同步”，与 catch up with（把落后的进度赶上来）不同。态度上博主旗帜鲜明：“Being online is no excuse for being rude.”（上网不是粗鲁的借口），而且 “the more polite you are, the less likely it is you will be attacked.”（你越有礼貌，越不容易成为攻击目标）。",
+        "互联网主题还会与语法课会合：Jan's life has been greatly improved by the Internet 这样的句子，正是现在完成时被动的真实语料；写作上你将学着写博客文——开头自我介绍并点题，中间分条建议，结尾邀请读者留言（Post your comments below!）。下一部分我们换一个话题，读“从名字认识英国的历史与传统”，会发现找观点句、词块归类这些策略完全通用。"
+      ],
+      "methods": [
+        {
+          "name": "网络词块三筐归类法",
+          "steps": [
+            "活动筐：surf the Internet / chat online / stream movies and music / write a blog post / keep up with；",
+            "获益筐：have access to / bridge the digital divide / remove the distance；",
+            "安全筐：stay safe online / protect your privacy / leave the site immediately；",
+            "每天从三筐里各挑一词各造一句。"
+          ],
+          "tip": "活动获益加安全，三筐词块全装满。"
+        },
+        {
+          "name": "网络安全三条金律",
+          "steps": [
+            "不适即离：看到令人不适的内容立即离开该网站，不评论、不点击；",
+            "护隐私：地址电话不外泄，谨防身份盗用；",
+            "讲礼貌：网上也不可粗鲁，越礼貌越不容易被攻击。"
+          ],
+          "tip": "不适就走，隐私守口，礼貌到手。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "博客提出的 the golden rule of the Internet（互联网黄金法则）是什么？",
+          "solution": "“If you see or read something that makes you feel uncomfortable, leave the site immediately.”——遇到让你不适的内容立即离开该网站，并且不评论、不点击任何东西。",
+          "difficulty": 1,
+          "pitfall": "关键词是 immediately：不是“截图留证再理论”，也不是“先跟对方讲理”。"
+        },
+        {
+          "question": "Jan 为什么要创办 IT 俱乐部？",
+          "solution": "她被网上结识的人们深深鼓舞——“She was so inspired by the people she met online that she decided to start an IT club to teach older people how to use computers and the Internet.”，想让更多老年人跨过数字鸿沟。",
+          "difficulty": 2,
+          "pitfall": "不是为了卖电脑，也不是为自己消遣；线索在前一句的 inspired（受鼓舞）。"
+        },
+        {
+          "question": "猜词：在 “It's hard to keep up with the news these days.” 中，keep up with 是什么意思？",
+          "solution": "“跟上、及时了解”。keep up with 表示与（消息、进度、变化）保持同步：如今新闻更新太快，很难条条都跟上。",
+          "difficulty": 2,
+          "pitfall": "不是“追赶并反超”（那更接近 catch up with 的意味），也不是单纯“保持”。"
+        }
+      ],
+      "mistakes": [
+        "把 troll 和 cyberbully 混为一谈：前者泛指网上捣乱者，后者针对具体的人；答题要回到定义句比对。",
+        "以为“上网安全＝装软件”：博客给的三条守则全是行为准则——离场、护隐私、讲礼貌，并没有谈杀毒软件。",
+        "keep up with 误译成“赶上并超过”：它表示保持同步；把落下的进度赶上来才是 catch up with。",
+        "忽视博主的结尾句 “Post your comments below!”：以邀请评论收尾是博客文体的标志，判断文体与结构时别漏掉。"
+      ],
+      "source": {
+        "unit": "Unit 3 The Internet",
+        "pages": [
+          26,
+          37
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—How much time do you spend online every day?　—___",
+          "options": [
+            "I'm fine, thank you.",
+            "It depends. I'd say from half an hour to three hours.",
+            "Yes, I'd love to.",
+            "You're welcome."
+          ],
+          "answer": "B",
+          "solution": "问的是“每天上网多长时间”，应答时长；It depends.（看情况）后再给出时间段，正是原对话的答语。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P27·谈论上网习惯对话（How much time do you spend online every day?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "单选：在 IT 俱乐部的帮助下，那位 59 岁男士的生活发生了什么变化？",
+          "options": [
+            "他学会网上求职并找到好工作，女儿得以安心读大学",
+            "他开了一家线上小公司",
+            "他成了俱乐部的电脑老师",
+            "他成功戒掉了网瘾"
+          ],
+          "answer": "A",
+          "solution": "原文 “A 59-year-old man learnt how to apply for work online and found a great job. Now that he works and can take care of himself, his daughter has time to study at university.”；开线上公司的是那位 61 岁女士。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P28·Stronger Together 语篇（apply for work online and found a great job）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·网络礼仪：同学在班级群里被恶意刷屏嘲讽。按照博客的观点，你应该怎么做？",
+          "options": [
+            "用更难听的话回击他",
+            "把对方的地址电话发到群里曝光",
+            "假装看不见，继续潜水",
+            "不做围观者，提醒对方停止并告诉老师，同时保持自己的礼貌"
+          ],
+          "answer": "D",
+          "solution": "博主的态度是 “Being online is no excuse for being rude”，且 “the more polite you are, the less likely it is you will be attacked”——以礼貌方式制止并求助老师，才是正确的网络礼仪。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P32·网络安全博客变式（Being online is no excuse for being rude）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "写作应用：用 surf the Internet、keep up with、bridge the digital divide 各写一句，内容是“给爷爷奶奶的上网建议”。",
+          "answer": "示例：Grandma and Grandpa can surf the Internet to keep up with the news. We can bridge the digital divide by teaching them step by step.",
+          "solution": "三个词块各出现一次：先说能做什么（上网看新闻跟上时事），再说家人怎么帮（一步步教会，弥合数字鸿沟）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_08",
+      "summary": "从名字之谜走进英国历史：理清四大组成与四批来客，用时间线读懂一个国家的历史与传统。",
+      "explanation": [
+        "开篇引言出自 Marcus Garvey：“A people without the knowledge of their past history, origin and culture is like a tree without roots.”（不了解自己历史、起源与文化的民族，就像无根之树）。语篇 What's in a Name? 开篇就抛出困惑：“The United Kingdom, Great Britain, Britain, England—many people are confused by what these different names mean.”，然后用历史解开谜团：“In the 16th century, the nearby country of Wales was joined to the Kingdom of England.”；18 世纪苏格兰加入形成 the Kingdom of Great Britain；19 世纪爱尔兰加入；20 世纪爱尔兰南部脱离后，才有今天的全名 the United Kingdom of Great Britain and Northern Ireland。读这类语篇的现成策略有两个：一是读地图（Read a map）——先想地图展示什么、符号代表什么；二是按 When（何时）/ What happened（何事）/ What changed（何变）三栏整理时间线。",
+        "把英国想成一幅拼图：英格兰、威尔士、苏格兰、北爱尔兰四块拼在一起，用同一面旗帜（the Union Jack）、同一种货币、共同的防务；但它们又有各不相同的教育体系、法律体系，连国庆日、国菜甚至世界杯足球队都各自独立。再往深处看，这片土地先后迎来四批主人：罗马人于公元 1 世纪到来，留下了城镇与道路；盎格鲁-撒克逊人于 5 世纪到来，带来英语的开端，也改变了人们造房子方式；8 世纪维京人到来，“left behind lots of new vocabulary, and also the names of many locations across the UK”；最后是诺曼人，“They conquered England after the well-known Battle of Hastings in the 11th century.”，带来城堡、法律变革和大量法语词汇。今天的英语本身就是一部“活的历史”。",
+        "历史语篇三步读法：第一步抓时间标志词（in the 16th century / later / finally），在纸上画出世纪轴；第二步给每个世纪配对“事件—结果”，动词短语就是钥匙——was joined to（并入）、was added to（被添入）、broke away from（脱离）；第三步用名词链记四批来客：the Romans→the Anglo-Saxons→the Vikings→the Normans，每批配一个“留下什么”。词块顺手积累：a long history（悠久历史）、cultural traditions（文化传统）、keep your eyes open（保持留意——原句 “If you keep your eyes open, you will be surprised to find that you can see both its past and its present.”）、date back to、be surrounded by。",
+        "名称与动词的辨析是这里的高频考点：England 只是四国之一，不能代指全 UK；“People from the UK are called ‘British’” 说明英国人的通称是 British；Great Britain 指大不列颠岛（英格兰+苏格兰+威尔士），不含北爱尔兰。动词方向别搞反：be joined to 是“并入”，break away from 是“脱离”，爱尔兰南部是 break away 的那一个。观点句常在结尾——“The UK is a fascinating mix of history and modern culture, with both new and old traditions.”（英国是历史与现代文化的迷人交融），一个 fascinating 已经透露出作者欣赏的态度。",
+        "这套“时间线+文化视角”能直接搬来介绍我们自己的国家：听说部分 William 与 Xiao Kong 在曲阜谈孔子与“三孔”，就是同一个思路——先历史、再传统、后个人感受；写作上你将学到用五感描写一个地方（看见连绵青山、听见海浪、闻到花香）。考试里历史传统话题常考细节排序与观点态度，方法不变：先搭时间框架，再填细节，最后回原句找态度词。"
+      ],
+      "methods": [
+        {
+          "name": "时间线三栏法",
+          "steps": [
+            "第一步：横轴标世纪——16th、18th、19th、20th；",
+            "第二步：每格写“事件+结果”——Wales was joined→Scotland was joined（Great Britain）→Ireland was added→southern Ireland broke away（今名确立）；",
+            "第三步：检查因果链是否闭环——今日全名 the United Kingdom of Great Britain and Northern Ireland 是怎么一步步来的。"
+          ],
+          "tip": "世纪为轴，事件结果，一线读通。"
+        },
+        {
+          "name": "四批来客记忆链",
+          "steps": [
+            "按先后记四组人：the Romans（1 世纪·城镇道路）→the Anglo-Saxons（5 世纪·英语开端）→the Vikings（8 世纪·词汇地名）→the Normans（11 世纪·法语与法律）；",
+            "每组配一个“留下什么”，用“人+时间+遗产”三要素造句；",
+            "合上书，按顺序复述一遍，卡壳处回到原文核对。"
+          ],
+          "tip": "罗盎维诺四批客，一路走来一路留。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "英国的正式全名是什么？它是如何形成的？",
+          "solution": "the United Kingdom of Great Britain and Northern Ireland；20 世纪爱尔兰南部脱离后形成，日常多用简称 the UK 或 Britain。",
+          "difficulty": 2,
+          "pitfall": "England 只是四国之一，不能当全名用；Great Britain 也不含北爱尔兰。"
+        },
+        {
+          "question": "四批来客中，谁“留下了大量新词汇和英国各地的地名”？",
+          "solution": "the Vikings（维京人）——他们在 8 世纪到来，“left behind lots of new vocabulary, and also the names of many locations across the UK”。",
+          "difficulty": 1,
+          "pitfall": "别与诺曼人混淆：诺曼人带来的是法语词汇与法律体系的改变。"
+        },
+        {
+          "question": "猜词：原句 “If you keep your eyes open, you will be surprised to find that you can see both its past and its present.” 中 keep your eyes open 是什么意思？",
+          "solution": "“保持留意、善于观察”——指在英国各处走动时留心观察，就能同时看见它的过去与现在。",
+          "difficulty": 2,
+          "pitfall": "不是字面的“睁大眼睛看风景”，这是一个习惯表达，考“留心观察”之意。"
+        }
+      ],
+      "mistakes": [
+        "用 England 指代整个英国：England 只是四国之一，正式表达要用 the UK；British 才是“英国人”的通称。",
+        "四批来客顺序记反：正确顺序是罗马人→盎格鲁-撒克逊人→维京人→诺曼人（11 世纪黑斯廷斯战役之后）。",
+        "break away from 与 be joined to 方向搞反：前者“脱离”、后者“并入”；爱尔兰南部是 break away 的那一个。",
+        "只背名字不写变化：时间线上要记“什么改变了”（如诺曼人带来法语词与法律变革），否则因果题与排序题容易丢分。"
+      ],
+      "source": {
+        "unit": "Unit 4 History and Traditions",
+        "pages": [
+          38,
+          49
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：历史上先后统治或移居英国的四个群体，按到达时间排序正确的是？",
+          "options": [
+            "罗马人→维京人→盎格鲁-撒克逊人→诺曼人",
+            "盎格鲁-撒克逊人→罗马人→诺曼人→维京人",
+            "罗马人→盎格鲁-撒克逊人→维京人→诺曼人",
+            "维京人→罗马人→盎格鲁-撒克逊人→诺曼人"
+          ],
+          "answer": "C",
+          "solution": "正确顺序是 the Romans（1 世纪）→the Anglo-Saxons（5 世纪）→the Vikings（8 世纪）→the Normans（11 世纪，黑斯廷斯战役之后）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P41·时间线整理（Romans→Anglo-Saxons→Vikings→Normans）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—There's England, Britain, Great Britain!　—Well, it helps if you remember that there are four countries that ___ the UK.",
+          "options": [
+            "date back to",
+            "belong to",
+            "break away from",
+            "keep your eyes open"
+          ],
+          "answer": "B",
+          "solution": "belong to 意为“属于”——四个国家同属 the UK，这正是它叫 the United Kingdom（联合王国）的原因；break away from 方向相反，date back to 表“追溯到”，keep your eyes open 是“保持留意”，均不合语境。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P41·补全对话（belong to / break away from / keep your eyes open）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·观点态度：作者写道 “If you keep your eyes open, you will be surprised to find that you can see both its past and its present.”，结合全文可以读出作者对英国历史文化的态度是？",
+          "options": [
+            "欣赏与着迷——历史与现代交织的迷人之国",
+            "担忧——历史正在被现代文明摧毁",
+            "冷淡——只是客观罗列事实，没有态度",
+            "批判——认为传统阻碍了国家发展"
+          ],
+          "answer": "A",
+          "solution": "结尾句 “The UK is a fascinating mix of history and modern culture, with both new and old traditions.” 中 fascinating（迷人的）与 surprised to find 都透露出欣赏、着迷的积极态度。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教必修二 P41·结尾段作者态度变式（a fascinating mix of history and modern culture）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "迁移写作：仿照“时间线+文化视角”的读法，用 a long history 和 cultural traditions 各一次，写三句话介绍你熟悉的一座城市或一个家乡传统。",
+          "answer": "示例：My hometown has a long history of over two thousand years. Its cultural traditions, such as temple fairs and local opera, are still alive today. If you keep your eyes open, you can see the past and the present side by side.",
+          "solution": "三句话分别完成：亮出历史厚度（a long history）→举一个仍在延续的文化传统（cultural traditions）→以观察者视角收尾；有具体例证更佳。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_09",
+      "summary": "构词法三招：合成拼积木，派生加词缀，转化换词性——学会拆词，见生词能猜出大半意思。",
+      "explanation": [
+        "书上的词汇练习把构词法三条路都铺好了：一条是合成——两个词拼成一个新词，wildlife（wild+life，野生动物）、hometown（home+town，家乡）、network（net+work，网络）、worldwide（world+wide，遍及世界的）；一条是派生——给词根装上前后缀，练习让你把 achieve、describe、king 加上 -ment、-tion、-dom，变成 achievement（成就）、description（描述）、kingdom（王国）；还有一条是转化——词形不变、词性互换，练习原话是 The words in the box can be used as both nouns and verbs.（方框里的词既可作名词又可作动词）：had a nice chat（名词“闲聊”）对 chat about the Internet（动词“聊”），a click（名词“一次点击”）对 click on this link（动词“点击”）。",
+        "为什么值得专门学？因为英语造新词大多不出这三招。合成像拼积木：blackboard（黑板）就是 black+board；派生像给零件装接口：-tion 把动词变成名词（pollute→pollution 污染、extinct→extinction 灭绝），-ment 也造名词（announce→announcement 通告、treat→treatment 治疗），-ful 表示“充满”（peaceful、successful、helpful），-less 表示“没有”（countless 数不清的、homeless 无家可归的），前缀 un-/dis-/il- 表示“相反”（unusual 不寻常的、disadvantage 劣势、illegal 非法的）；转化最省事：water 本是名词“水”，书上一句 The flowers in my room have been watered.（房间的花浇过水了）里它就变成了动词“浇水”。",
+        "拆词三问法：第一问，是不是两个词拼的？wild+life、home+town，拆开各认一半，词义就出来了；第二问，有没有前后缀？把认识的词根剥出来——illegally 剥成 il+legal（合法的）+ly，马上猜出“非法地”；第三问，词形没变是不是换了词性？看它在句子里站的位置：前面有 a/an/the 或形容词，多半是名词；前面是主语、后面带宾语，多半是动词。",
+        "易混点要盯住：-less 不是“少”，是“没有”——countless 是“多到数不清”，别理解成“没数”；un- 多加在形容词前（unusual、uncomfortable），dis- 常加在名词、动词前（disadvantage、disappear），l 开头的词前用 il-（illegal），三者不能乱换；转化词要靠位置定词性，have a comment（名词“评论”）和 comment on the design（动词“评论”）读法完全不同。",
+        "构词法是词汇量的放大器：认识 hunt 就能认出 hunter（猎人），认识 announce 就能猜出 announcement（通告），这正是书上 Combine the words with the endings to form words 的用意——把构词法当工具练。以后课外阅读遇到生词，先拆一拆再查词典，配合词缀卡每周翻一遍，一个月后需要查词典的生词能少一大半。"
+      ],
+      "methods": [
+        {
+          "name": "拆词三问法",
+          "steps": [
+            "第一问：它是两个词拼成的吗？如 wild+life=wildlife、home+town=hometown",
+            "第二问：它带前后缀吗？把认识的词根剥出来，如 il+legal+ly=illegally（非法地）、count+less=countless（数不清的）",
+            "第三问：词形没变是不是换了词性？a click 前有冠词是名词，click on this link 后带宾语是动词"
+          ],
+          "tip": "先拆积木，再剥词缀，最后看岗位。"
+        },
+        {
+          "name": "词缀收集卡法",
+          "steps": [
+            "后缀各做一张卡：-tion（pollute→pollution 污染）、-ment（achieve→achievement 成就）、-ful（peaceful 平和的）、-less（homeless 无家可归的）",
+            "前缀卡记方向：un-/dis-/il- 都表相反，分别配 unusual、disadvantage、illegal",
+            "课外阅读遇到卡上词缀的新词，随手添一行例词，每月通读一遍卡片"
+          ],
+          "tip": "一个词缀一张卡，见新词就添一行。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "hometown、wildlife、network、countless 四个词里，哪一个的构成方式与其他三个不同？为什么？",
+          "solution": "countless。它由 count（数）加后缀 -less 派生而来，意为“数不清的”；hometown、wildlife、network 都是两个词拼成的合成词。",
+          "difficulty": 1,
+          "pitfall": "看到 countless 也是“一个词”，就忘了它带词缀——先剥后缀 -less 再归类。"
+        },
+        {
+          "question": "把 achieve、describe 变成名词，各用什么后缀？写出完整单词。",
+          "solution": "achieve+ment=achievement（成就）；describe 去掉词尾 e 再加 -tion=description（描述）。书上构词练习里还有 king+dom=kingdom（王国）。",
+          "difficulty": 2,
+          "pitfall": "description 容易拼成 describtion——describe 加 -tion 前要先去 e。"
+        },
+        {
+          "question": "读句子 The flowers in my room have been watered. 这里的 water 是什么词性、什么意思？",
+          "solution": "动词，“浇水”。water 本是名词“水”，这里转化成动词，have been watered 表示“被浇过水”。",
+          "difficulty": 2,
+          "pitfall": "按名词死译成“花被水”就读不通——被动结构里 water 只能当动词。"
+        }
+      ],
+      "mistakes": [
+        "把 -less 当成“少”：countless 是“数不清的（多）”，-less 的意思是“没有”。",
+        "describe 变 description 要先去 e，拼成 describtion 就错了。",
+        "转化词读死一种词性：have a chat 里 chat 是名词，chat about the Internet 里是动词，要看位置。",
+        "否定前缀乱换：unusual 不说 disusual，illegal 不用 unlegal——un-/dis-/il- 各有习惯搭配。"
+      ],
+      "source": {
+        "unit": "各单元词汇板块",
+        "pages": [
+          34,
+          46
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选词填空：For your homework this week, please do some research on the major ___ of Isaac Newton.（用 achieve 的正确形式）",
+          "options": [
+            "achieve",
+            "achieving",
+            "achievement",
+            "achievements"
+          ],
+          "answer": "D",
+          "solution": "major 后接复数名词，书上原句即 the major achievements of Isaac Newton and give a full description of one of these in class——achieve 加 -ment 再加 -s。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P46·构词练习（achieve→achievement / describe→description / king→kingdom）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书上有组练习注明：The words in the box can be used as both nouns and verbs.（方框里的词既可作名词又可作动词）。blog、chat、click、comment 这类“一词两性”体现的构词法是？",
+          "options": [
+            "合成",
+            "派生",
+            "转化",
+            "缩略"
+          ],
+          "answer": "C",
+          "solution": "转化——词形不变、词性互换：had a nice chat（名词）/ chat about the Internet（动词）；a click（名词）/ click on this link（动词）。同一类还有 water：名词“水”转化为动词“浇水”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P34·名词动词两用练习（blog / chat / click / comment / function / target）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇里说藏羚羊 They were hunted, illegally, for their valuable fur.（它们因贵重的毛皮被猎杀）。用拆词法把 illegally 拆成几部分，并说出它的意思。",
+          "answer": "il+legal（合法的）+ly，意为“非法地”。",
+          "solution": "legal 是词根“合法的”，l 开头的词前否定前缀用 il-，再加副词后缀 -ly。同一思路：hunter=hunt（打猎）+er（人）→“猎人”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P17·选词填空变式（hunter / illegally 拆词猜义）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一张三栏构词卡：把 hometown、announcement、unusual、peaceful、countless、water（v.）分进“合成/派生/转化”三栏，并给派生栏每个词标出词缀。",
+          "answer": "合成：hometown；派生：announcement（announce+-ment）、unusual（un+usual）、peaceful（peace+-ful）、countless（count+-less）；转化：water（名词“水”→动词“浇水”）。",
+          "solution": "先判断有没有词根拼接（合成），再找前后缀（派生），最后看词形未变只换词性的（转化）；之后每周往卡上添三个新词，坚持一个月。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_10",
+      "summary": "事件报道四部件：标题抓人、导语四问、主体摆事实、结尾一句话——过去时叙事，写完再自测。",
+      "explanation": [
+        "书上写作板块把事件报道拆成四个部件，每个部件都有明确任务：Headline 标题——Write a title to get the readers' attention（写个吸引读者的标题）；Lead sentence 导语——Tell the readers who, what, where, and why（告诉读者谁、做了什么、在哪里、为什么）；Body 主体——Tell the reader the facts, details, examples, etc.（摆出事实、细节、例子），中间用引语和转述增色；Ending 结尾——End with a short summary to help the readers remember the main idea（用简短总结收尾）。书上样例的导语一句话就交代了人物和事件：The Small Friends Pet Shelter was started by a group of high school students and their parents（这家宠物收容所由一群高中生和他们的家长创办）。",
+        "报道和日记分工不同：日记写“我”的感受，报道要当传声筒，把最重要的事用最短的句子先告诉读者。导语像快递面单——谁寄的、寄的什么、何时何地，一眼看清；主体再一层层拆开讲；结尾帮读者带走一句要点。报道要靠事实说话：书上的听力报道一开口就是数据——Our planet's wildlife is dying out at an alarming rate. Between 150 and 200 species are becoming extinct every day.（地球上的野生动物正以惊人的速度消亡，每天有 150 到 200 个物种灭绝。）",
+        "四步成稿法：第一步拟标题，学书上海报标题的路数，用感叹和悬念抓人——Don't Make Paper with My Home!（别用我的家造纸！）；第二步写导语，一句话尽量回答 who/what/when/where，能带一个数字或事实更有说服力；第三步写主体，按“背景→经过→数据/引语”展开，引语前用 said 等转述词标明谁在说话；第四步收尾，一句话总结或发出行动号召——So if you find a pet that is lost, call the young people at Small Friends Pet Shelter!（捡到走失的宠物就给他们打电话！）",
+        "时态辨析：讲已经发生的事用过去时叙事——was started（被创办）、were left behind（被遗弃）、moved away（搬走了）；讲延续到现在的成果换现在完成时——They have already helped to find homes for nearly 200 animals.（他们已经帮近 200 只动物找到了家。）描述眼下还在进行的事才用现在进行时。一条线划清楚：过去时管“当时发生了什么”，完成时管“到现在留下了什么”。",
+        "会写事件报道，校园新闻稿、班级推送、英语角的 news corner 都用得上。写完照书上的自测单过一遍：有没有标题？导语说清 who/what/where/why 了吗？有没有细节、数据和引语？结尾是不是一句话总结？最后检查时态有没有跳错，一篇合格的报道就成型了。"
+      ],
+      "methods": [
+        {
+          "name": "四步成稿法",
+          "steps": [
+            "拟标题：短，有感叹或悬念，如 Don't Make Paper with My Home!",
+            "写导语：一句话答 who/what/when/where，如 The Small Friends Pet Shelter was started by a group of high school students and their parents.",
+            "写主体：背景→经过→数据/引语，引语前用 said 等转述词",
+            "写结尾：一句话总结或号召，如 go and volunteer your time and love"
+          ],
+          "tip": "标题钩人，导语四问，主体摆事实，结尾一句话。"
+        },
+        {
+          "name": "时态检查法",
+          "steps": [
+            "叙事主干用过去时：was started / were left behind / moved away",
+            "延续到现在的结果换现在完成时：have already helped to find homes for nearly 200 animals",
+            "通读全文，圈出时态跳错的地方改掉"
+          ],
+          "tip": "过去时讲故事，完成时讲结果。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "报道的开头 The Small Friends Pet Shelter was started by a group of high school students and their parents 回答了导语四问中的哪几问？",
+          "solution": "who（谁：a group of high school students and their parents）和 what（做了什么：started the shelter，创办了收容所）。",
+          "difficulty": 1,
+          "pitfall": "别硬把 when/where 也塞进这一句——导语不要求一句答完四问，缺的信息放主体补。"
+        },
+        {
+          "question": "为“每年数十亿棵树被砍去造纸、考拉的家园正在被毁”这件事选标题，书上的选择是哪一个？它为什么比 About Trees and Paper 更好？",
+          "solution": "Don't Make Paper with My Home! 它用感叹句和“我的家”制造冲击，替考拉发声，让人想读下去；About Trees and Paper 平铺直叙，没有钩子。",
+          "difficulty": 2,
+          "pitfall": "标题不是越完整越好——短、有情绪才抓得住注意力。"
+        },
+        {
+          "question": "比较两句：A. The Small Friends Pet Shelter was started by students and parents. B. They have already helped to find homes for nearly 200 animals. 哪句是过去时叙事？哪句是现在完成时？各管什么？",
+          "solution": "A 是过去时叙事（was started），管“当时发生的事”；B 是现在完成时（have already helped），管“延续到现在的成果”。",
+          "difficulty": 2,
+          "pitfall": "把 have already helped 写成 helped，就丢了“到现在为止已经……”的意味。"
+        }
+      ],
+      "mistakes": [
+        "导语写成“最近发生了很多事”这类空话——who/what/when/where 一问都没答。",
+        "全文一律一般现在时：讲已发生的事件要用过去时叙事（was started / were left behind），说现在留存的成果才用现在完成时（have already helped）。",
+        "标题写成完整长句——标题要短，能省的虚词就省，先抓注意力再谈完整。",
+        "主体写完就停笔——缺一句结尾，读者抓不住要点，也没有行动号召。"
+      ],
+      "source": {
+        "unit": "Unit 2 Reading for Writing",
+        "pages": [
+          20,
+          23
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Small Friends Pet Shelter 报道的主体说，经营收容所的年轻人具体做了哪些事？",
+          "options": [
+            "保持场所干净、照顾动物、宣传领养",
+            "只给动物喂食",
+            "把动物卖掉赚钱",
+            "训练动物表演节目"
+          ],
+          "answer": "A",
+          "solution": "原文是 work hard to keep the place clean, take care of the animals, and advertise the animals so that they can be adopted——他们已经帮 nearly 200 animals 找到了新家。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P23·动物救助中心报道语篇（Small Friends Pet Shelter：was started by... / nearly 200 animals）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "为“每年数十亿棵树被砍去造纸、考拉的家园正在被毁”这件事选标题，书上用的是哪一个？",
+          "options": [
+            "Don't Make Paper with My Home!",
+            "About Trees and Paper",
+            "Paper Is Useful",
+            "Please Save Paper"
+          ],
+          "answer": "A",
+          "solution": "书上海报标题用感叹句和“我的家”的拟人冲击，替失去栖息地的考拉发声：Don't Make Paper with My Home!；其余标题平铺直叙，抓不住人。同页另一张海报的标题 Give Ugly a Chance! 也是同样路数。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P20·海报标题（Don't Make Paper with My Home! / Give Ugly a Chance!）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把一篇报道的四个部件排成正确顺序：①标题 Saving Our Wildlife ②导语 Our planet's wildlife is dying out at an alarming rate. ③主体 Between 150 and 200 species are becoming extinct every day. ④结尾 Change begins with you!",
+          "options": [
+            "①②③④",
+            "②①③④",
+            "①③②④",
+            "③①②④"
+          ],
+          "answer": "A",
+          "solution": "事件报道固定走“标题→导语→主体→结尾”：导语先给总判断（wildlife is dying out at an alarming rate），主体用数据支撑（Between 150 and 200 species...），结尾一句号召（Change begins with you）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P14·听力报道变式（Our planet's wildlife is dying out at an alarming rate / Change begins with you）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "为你身边一件刚发生的事（运动会、义卖、社团招新）拟一份事件报道提纲：写出标题、一句导语（标明回答了 who/what/when/where 中的哪几个）、主体的两个事实点、一句结尾。",
+          "answer": "示例——标题：Spring Sports Meet Kicks Off；导语：Our school's spring sports meet started on Friday afternoon on the playground.（who: our school; what: sports meet started; when: Friday afternoon; where: on the playground）；主体：①1,000 students took part ②the headmaster gave a speech；结尾：The meet will last two days.",
+          "solution": "导语四问能答几问答几问，缺的放主体补；提纲阶段先不管语法细节，把事实按“背景→经过”排好序。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_11",
+      "summary": "采访和播客都是“有准备的聊天”：破冰、礼貌提问、追问细节；播客再配开场白，两分钟录起来。",
+      "explanation": [
+        "书上听说板块给了成套的采访句式。校报记者采访学生音乐喜好时（A reporter from the school newspaper is interviewing students about music），先问 What kind of music do you like? 对方答 I like techno music 后，追问 What makes it so special to you?（它对你特别在哪儿？）；礼貌提问表里列着 I beg your pardon, but ... / Forgive me for asking, but ... / Excuse me, but what is ...? / Excuse me. Could you please tell me about ...? / Do you know ...?；采访练习里还有完整的问答链：开场致意 Congratulations on winning the Best Singer award!（恭喜获得最佳歌手奖！），请教 Would you please tell us the structure of your novel?（能讲讲您小说的结构吗？），收尾 Thank you for speaking with us.（感谢接受采访。）",
+        "采访和播客都是“有准备的聊天”。采访是一问一答：主持人的问题像钩子，把对方的故事钓出来；播客更像对着麦克风说话，听众戴着耳机在另一头听——书上有位同学就是上学路上戴耳机，listen to an English podcast with interesting talks about many different topics（听谈论各种话题的英语播客）来练听力。所以播客的开场要自我介绍、点明今天聊什么，中间靠问题推进，结尾再说一句总结。",
+        "采访问答三步法：第一步破冰——Congratulations on ...! 或 I've been told that ...（听说……），让对方放松；第二步礼貌提问——用 May I ask you ...? / Could you please tell me about ...? / Would you please tell us ...? 开口，比直接的 What...? 客气得多；第三步追问细节——抓住对方回答里的关键词往深处问：Why did you do that? / What makes it so special to you? 播客式表达则按“自我介绍→点题→问题推进→一句话收尾”走。",
+        "几个客气说法要分清：Could you please tell me...? 比 Can you tell me...? 更客气，采访、请教、问路都用它；I beg your pardon 是“没听清，请再说一遍”，不是插话；Excuse me 是开口前引起注意。回答也别只甩 Yes/No——补一句原因或例子，像 It gives me energy.（它给我能量）那样，对方才有得追问。",
+        "这套问答结构到处用得上：口语考试的情景提问、英语演讲的开场白、向外国朋友介绍校园，都是“破冰—提问—追问—收尾”。每周挑一个话题，给同学录一分钟小播客或小采访，一个月后你的口语流利度和听力都会明显上一个台阶。"
+      ],
+      "methods": [
+        {
+          "name": "采访问答三步法",
+          "steps": [
+            "破冰：Congratulations on ...! / I've been told that ... 让对方放松",
+            "礼貌提问：May I ask you ...? / Could you please tell me about ...? / Would you please tell us ...?",
+            "追问细节：抓住对方话里的关键词问 Why did you do that? / What makes it so special to you?"
+          ],
+          "tip": "一破冰，二请教，三追问。"
+        },
+        {
+          "name": "小播客四件套",
+          "steps": [
+            "开场：Hello, I'm ... Today I'm talking about ...（自我介绍+点题）",
+            "中间：用两三个问题推进话题，一次只问一个",
+            "口语化：多用短句，说错了自然改口重来",
+            "收尾：一句话总结，说 Thank you for listening."
+          ],
+          "tip": "开场报名，问题推进，短句说话。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "在景点听讲解时想请导向导，最客气的一句是：A. What is this? B. Excuse me. Could you please tell me about it? C. Tell me what it is.",
+          "solution": "B。书上礼貌提问表的原句就是 Excuse me. Could you please tell me about ...?——先用 Excuse me 引起注意，再用 could 加 please 显得客气。",
+          "difficulty": 1,
+          "pitfall": "直呼 Tell me what it is 像下命令，采访和请教里都不能这么问。"
+        },
+        {
+          "question": "校报记者采访你音乐喜好时会把你的话换一种说法复述（paraphrase）：你说 Country music touches my heart.（乡村音乐触动我心）记者复述为 So you like music that's full of ___? 该填什么？",
+          "solution": "feeling。full of feeling（充满感情）正是 touches my heart 的另一种说法——复述用更简单的词说出同一个意思。",
+          "difficulty": 2,
+          "pitfall": "按字面填 heart 或 music——复述要换说法，不是重复原词。"
+        },
+        {
+          "question": "给同学的英语播客写开场：只用一句话把“你是谁、今天聊什么”都交代清楚。",
+          "solution": "示例：Hello, I'm Li Hua, and today I'm talking about my favourite sport—table tennis.",
+          "difficulty": 3,
+          "pitfall": "开场只说一句 Hello 就进正文，听众不知道在听谁、要听什么。"
+        }
+      ],
+      "mistakes": [
+        "把采访问成审问：连珠炮式 What/Why 不加缓和语——套上 May I ask...? / Could you please tell me...? 立刻客气起来。",
+        "把 I beg your pardon 当“打扰一下”用——它是“没听清，请再说一遍”；开口引起注意用 Excuse me。",
+        "回答采访只说 Yes/No——要补一句原因或例子，如 It gives me energy.，对方才有得追问。",
+        "播客没有开场白，上来就说正文——先用一句自我介绍加点题，听众才知道在听谁、听什么。"
+      ],
+      "source": {
+        "unit": "各单元 Listening and Talking",
+        "pages": [
+          7,
+          51
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "把采访式提问补完整：—___, but is this the Xuanyuan Mirror? Could you please tell me about it? —Yes, it is. It is said that it's a mirror that can tell right from wrong!",
+          "options": [
+            "I beg your pardon",
+            "I don't know",
+            "You're wrong",
+            "Never mind"
+          ],
+          "answer": "A",
+          "solution": "书上游客就是用 I beg your pardon, but ... 开口，再接 Could you please tell me about it?——先礼貌引起注意，再请教细节。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P7·礼貌提问（I beg your pardon, but... / Excuse me. Could you please tell me about...?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "校报记者在采访同学们的音乐喜好（A reporter from the school newspaper is interviewing students about music）。同学说完 Country music touches my heart. 后，记者想用复述确认意思，说：So you like music that's full of ___?",
+          "options": [
+            "feeling",
+            "facts",
+            "noise",
+            "speed"
+          ],
+          "answer": "A",
+          "solution": "touches my heart（触动我心）换一种说法就是 full of feeling（充满感情）——复述用更简单的词表达同一个意思，是采访里确认信息的常用手法。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P50·记者采访与复述（Country music touches my heart. → music that's full of feeling）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "仿照书上的追问结构补全采访：—What kind of music do you like? —I like techno music. It gives me energy. —___? —Because I always listen to it when I exercise.",
+          "options": [
+            "What makes it so special to you",
+            "How much does it cost",
+            "When did you buy it",
+            "Who taught you music"
+          ],
+          "answer": "A",
+          "solution": "书上原对话正是 What makes it so special to you? → I like to listen to it when I exercise. It gives me energy.——追问要接住对方刚说出的理由（when I exercise）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P51·采访问答变式（What kind of music do you like? → What makes it so special to you?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "策划并录一段两分钟小播客：选一个校园话题，写出开场白（自我介绍+点题）、三个采访问题（一个破冰、一个礼貌请教、一个追问）和一句收尾，然后真的找同学录下来。",
+          "answer": "示例——开场：Hello, I'm Wang Mei. Today I'm talking about after-school clubs at our school.；问题：①What clubs are you in? ②Could you please tell me about your favourite club activity? ③Why do you like it so much?；收尾：That's all for today. Thank you for listening.",
+          "solution": "三个问题对应“破冰—请教—追问”三步；录完回听一遍，把没说清的问题换掉再录一次。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10b_12",
+      "summary": "读说明文先认结构：问题—方案抓“麻烦与对策”，比较—对比抓“相同与不同”，画张结构图再复述。",
+      "explanation": [
+        "书上的阅读语篇正好提供两种说明文结构范本。问题—方案型：FROM PROBLEMS TO SOLUTIONS 先摆问题——Water from the dam would likely damage a number of temples and destroy cultural relics（大坝蓄水可能损毁神庙、毁坏文物）；再给方案——the government turned to the United Nations for help（政府向联合国求助），a committee was established（成立委员会）；然后写实施——Temples and other cultural sites were taken down piece by piece, and then moved and put back together again in a place where they were safe from the water.（神庙等被逐块拆下、迁移，再在水淹不到的地方重新拼装起来）；最后点结果——it was considered a great success（被视为巨大的成功）。比较—对比型：WHAT'S IN A NAME? 先讲相同——They use the same flag ... as well as share the same currency and military defence（用同一面国旗、同一种货币，共享防务）；再转折讲不同——However, they also have some differences ... all have different education systems and legal systems（教育制度、法律制度各不相同）。",
+        "说明文像一张导游图：先弄清作者带你走的路线，就不会迷路。问题—方案型是“先报忧、再报喜”：遇到什么麻烦→谁想出什么办法→结果怎样；比较—对比型是“照镜子”：把两个或几个对象放在一起，先说像的地方，再说不像的地方。路线看懂了，细节各自归位，主旨题和细节题都好答。",
+        "结构图分析法：读完先问一句——这篇是在“解决麻烦”还是在“比较异同”？问题—方案型画三栏：问题（damage temples）→方案（turn to the UN；take down piece by piece）→结果（a great success）；比较—对比型画两栏：相同（the same flag、the same currency）／不同（different education systems and legal systems）。画完合上书，照图复述一遍，卡壳的那栏就是没读懂的地方。书上还配了时间轴活动（Make a timeline）和思维导图（mind map），多事件、多层次的文章都可以先画图再读细节。",
+        "两型别混：有难题、有对策的是问题—方案型；用 the same / similar / however / different / in contrast 这类信号词把对象放在一起比的是比较—对比型。特别注意 However 不是“总结”，它是比较—对比型转向另一面的信号，后面常跟着不同点；For example 引出的只是例子，别当成新的一栏。",
+        "会画结构图，读说明文的速度和答题准确率都会上来：主旨题看结构第一层，细节题按栏索骥。往后自己写说明文也能套骨架——写“家乡如何治理河道”用问题—方案（现状问题→措施→变化），写“两座城市的异同”用相同/不同两栏。结构先行，下笔就不散。"
+      ],
+      "methods": [
+        {
+          "name": "问题—方案三栏法",
+          "steps": [
+            "快读第一遍，铅笔标出问题句（damage / in danger / threat 附近）和方案句（turn to / establish / take measures 附近）",
+            "画三栏：问题→方案→结果，把标出的句子各归一栏，如 damage temples→turn to the UN→a great success",
+            "合上书照图复述，卡壳的那栏回头再读"
+          ],
+          "tip": "问题—方案—结果，三栏走天下。"
+        },
+        {
+          "name": "相同不同两栏法",
+          "steps": [
+            "圈信号词：the same / similar 归“相同”栏，however / different / in contrast 归“不同”栏",
+            "相同点写在中间共用，不同点按对象分列两边",
+            "用一句英文收束：They share ... but differ in ..."
+          ],
+          "tip": "same 进左栏，different 进右栏。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "读句子 The measures were effective. The antelope population has recovered and in June 2015, the Tibetan antelope was removed from the endangered species list. 这两句话在问题—方案结构里属于哪一栏？",
+          "solution": "“结果”栏。此前的问题（The population dropped by more than 50 percent / habitats were becoming smaller）和措施（placed it under national protection / Bridges and gates were added）之后，这两句交代方案见效——种群恢复、移出濒危物种名单。",
+          "difficulty": 2,
+          "pitfall": "看到年份 2015 就当成纯时间顺序文章——判断结构要看句子功能，不是看有没有数字。"
+        },
+        {
+          "question": "给 WHAT'S IN A NAME? 里的四个国家画“相同点”栏：文中说它们 share 哪三样？",
+          "solution": "the same flag（the Union Jack 同一面国旗）、the same currency（同一种货币）、military defence（共同防务）——They use the same flag ... as well as share the same currency and military defence.",
+          "difficulty": 2,
+          "pitfall": "别把 different education systems and legal systems 填进相同栏——那是 However 后面的不同点。"
+        },
+        {
+          "question": "用一句英文给 WHAT'S IN A NAME? 的比较—对比结构做总结。",
+          "solution": "示例：The four countries share the same flag, currency and military defence, but they differ in education systems, legal systems and traditions.",
+          "difficulty": 3,
+          "pitfall": "总结句两边都要有——只写相同或只写不同都不完整。"
+        }
+      ],
+      "mistakes": [
+        "把 However 当“总结”的信号——它是比较—对比型转向另一面的信号词，后面常跟不同点。",
+        "问题—方案型只找到问题没找到方案——方案句里常有 turn to / establish / take measures / be added 这类动词。",
+        "判断结构只看话题不看功能：两篇都讲保护，一篇按问题—方案走，一篇按比较—对比走，要看句子在干什么。",
+        "把 For example 引出的具体例子当成新的一栏——它只是给前面的观点举例子。"
+      ],
+      "source": {
+        "unit": "各单元 Reading and Thinking",
+        "pages": [
+          4,
+          41
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "阅读语篇 FROM PROBLEMS TO SOLUTIONS 讲阿斯旺大坝与神庙保护，它的结构是？",
+          "options": [
+            "先提出问题，再给出解决方案",
+            "比较两个国家的相同与不同",
+            "按时间顺序介绍一个人的生平",
+            "罗列实验数据后得出结论"
+          ],
+          "answer": "A",
+          "solution": "标题已经点破结构——from problems to solutions：先写建坝可能损毁神庙的问题（Water from the dam would likely damage...），再写向联合国求助、拆建迁移神庙的方案，最后说 it was considered a great success。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修二 P4·阿斯旺大坝语篇（FROM PROBLEMS TO SOLUTIONS：problems→solutions）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语篇 WHAT'S IN A NAME? 的主旨是？",
+          "options": [
+            "讲清 the UK 几个名称的由来，帮助读者通过历史了解这个国家",
+            "教读者如何看地图和使用地图",
+            "介绍英国四国的美食与节日",
+            "比较伦敦与乡村的生活差异"
+          ],
+          "answer": "A",
+          "solution": "开篇设问 The United Kingdom, Great Britain, Britain, England—many people are confused by what these different names mean，随后用历史沿革解答（16 世纪 Wales 并入英格兰、18 世纪苏格兰加入……），结尾说了解历史让旅行更愉快——主线是“名称由来+以史识国”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P40·英国名称语篇（WHAT'S IN A NAME?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把藏羚羊语篇里的两句话分别归入“问题”栏还是“措施”栏：①The population dropped by more than 50 percent. ②Bridges and gates were added to let the antelopes move easily and keep them safe from cars and trains.",
+          "answer": "①问题（种群数量骤降一半以上，是濒危的困境）；②措施（加装桥和闸门让藏羚羊安全迁移，是保护行动）。",
+          "solution": "同一篇语篇里问题与措施交替出现——此前还有 Hunters were shooting antelopes（问题）和 the Chinese government placed it under national protection（措施），先归类再串成结构图。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修二 P16·藏羚羊语篇变式（The population dropped by more than 50 percent / Bridges and gates were added）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从课外读物里找一篇说明文，先判断它是问题—方案型还是比较—对比型，再画结构图：问题—方案型画三栏，比较—对比型画两栏，最后照图用五句话复述给同桌。",
+          "answer": "示例——某篇讲“城市内涝治理”的文章判为问题—方案型：问题（暴雨积水）→方案（修建排水系统、增加绿地）→结果（积水点减少）；比较型示例（实体书店与网上书店）：相同（都能买书、都服务读者）→不同（体验与翻阅 vs 价格与送货上门）。",
+          "solution": "判断口径看句子功能：有难题与对策走三栏，有 the same/different 信号词走两栏；复述卡壳处就是没读懂的那栏，回头再读。",
           "difficulty": 3
         }
       ]
