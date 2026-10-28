@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 229,
+  "lessonCount": 239,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -28427,6 +28427,1250 @@
           "question": "以 \"Doing regular exercise is important for high school students.\" 为观点句，用「观点—论据—分析」三步法写一个 80 词左右的英语段落，要求至少用上 Therefore 和 For example，写完用连接词清单自查一遍。",
           "answer": "80 词左右的三步段落一段，含 For example 与 Therefore",
           "solution": "参考提纲：观点句照抄所给句；论据一 For example, ...（如每天跑步二十分钟的同学上课更专注）；分析句 This shows that...；收尾 Therefore, ...（呼吁坚持锻炼）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_01",
+      "summary": "it 一词三用会辨认：真主语太长先让 it 占位，find/make 后用 it 顶宾语，It is...that 把重点推到聚光灯下。",
+      "explanation": [
+        "语法板块用真实语料教 it：先并列对比 \"To change bad habits is never easy.\"（不定式直接作主语）与 \"It took the surgeon three hours to finish my mother's lung surgery.\"（it 先占住主语的位置，真正的主语 to finish... 放到句尾）、\"It was not polite to disturb your neighbours with loud music last night.\"，再示范连词成句 \"It is important to avoid passive cigarette smoking.\"，正式语体还有 \"To join the People's Liberation Army, it is required for men to shave off their beards.\"。同册材料里同款句子不少：\"It is believed that the version in the Palace Museum is the Song Dynasty original painting.\"（it 后面藏的是整个 that 从句）、\"I realised that it was very, very important to adjust my lifestyle.\"（信件原文）、\"What choices or preferences make it easier for people to develop these bad habits?\"（it 顶替宾语）。在形式主语、形式宾语之上，高考还常考同以 It is/was 打头的强调句：It is/was + 被强调部分 + that/who + 其余部分——这是本知识点要补齐的第三型。",
+        "it 像球场上替队友占位的人：句首必须有主语，可真正的主语——一长串 to do 或一个 that 从句——太长，放在前面头重脚轻，于是先让短小的 it 顶上去，真主语安静地待在句尾。宾语位置同理：find、make、think 这类动词后先放 it 占位，再接形容词，最后才让真正的宾语 to do 上场。强调句则是舞台聚光灯：把最想让听众注意的部分——人、物、时间、原因——推到 It is/was 之后，剩下的内容原封不动跟上，一句话的重音就换了地方。",
+        "三种 it 分三步核对。第一步看主语或宾语位置是不是 it 而后面藏着 to do 或 that 从句：是，就是形式主语或形式宾语；形式宾语的标志动词有 find、make、think、feel、consider。第二步遇到 It is/was...that/who 就做减法：把 It is/was 和 that/who 一起遮住，剩下的词如果能直接连成完整的句子，就是强调句。第三步核对框架时态：强调句要与原句时态一致，说过去的事用 It was，说现在的事用 It is。",
+        "最容易混的是形式主语与强调句，全靠去框架检验分开：\"It is important to avoid passive cigarette smoking.\" 遮住 It is 后剩 important to avoid passive cigarette smoking，连不成句子，它是形式主语；\"It was the loud music that disturbed the neighbours last night.\" 遮住 It was 和 that，剩下 the loud music disturbed the neighbours last night，句子完整，它是强调句，强调的是 the loud music。另外两点别错：强调人时 that 和 who 都可以用，强调物只能用 that；it 表示天气、时间、距离或指代前文事物（\"It was a really interesting talk.\"）时，与以上三类都不同，先指认它指什么，再谈别的。",
+        "it 的用法是高级写作的地基：议论文里 It is widely believed that... 开门亮观点，读后续写里 I find it hard to... 刻画心理挣扎，用的是同一套 it。把去框架检验练成本能，之后学 It was not until... that... 这类强调时间的句式和名词性从句时就不会迷路；做题时凡遇 It is...that，先做减法再下结论，是最稳的答题习惯。"
+      ],
+      "methods": [
+        {
+          "name": "去框架检验法",
+          "steps": [
+            "找到 It is/was ... that/who 的框架，用笔把框架词一起遮住",
+            "把剩下的词按原顺序连读，看能否组成完整的句子",
+            "能连成完整句子→强调句；连不成→it 是形式主语或其他用法"
+          ],
+          "tip": "去掉 It is…that 句子仍完整，就是强调句；不完整，it 只是占位"
+        },
+        {
+          "name": "占位还原法",
+          "steps": [
+            "看主语或宾语位置是否是 it，句尾是否藏着 to do 或 that 从句",
+            "把 to do 或 that 从句搬回 it 的位置读一遍，句子通顺即确认形式主语/形式宾语",
+            "形式宾语先认标志动词：find / make / think / feel / consider + it + 形容词"
+          ],
+          "tip": "it 占位不干活，真主语真宾语在后头"
+        },
+        {
+          "name": "三用法定性法",
+          "steps": [
+            "先问 it 指什么：天气、时间、前文事物→指代用法",
+            "it 后藏着 to do 或 that 从句→形式主语或形式宾语",
+            "It is/was + 某成分 + that/who→做去框架检验，定性是否强调句"
+          ],
+          "tip": "一指代二占位三强调，先定性再动手"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断下句中 it 的作用，并说出真正的主语：It took the surgeon three hours to finish my mother's lung surgery.",
+          "solution": "it 是形式主语，真正的主语是不定式 to finish my mother's lung surgery；three hours 是 took 的宾语，表示花费的时间",
+          "difficulty": 1,
+          "pitfall": "误把 three hours 当主语——动词 took 的主语是 it，时间长度只是宾语"
+        },
+        {
+          "question": "用去框架检验法判断下句是不是强调句，并指出被强调的部分：It was the loud music that disturbed the neighbours last night.",
+          "solution": "是强调句。遮住 It was 和 that，剩下 the loud music disturbed the neighbours last night，句子完整，被强调的是 the loud music",
+          "difficulty": 2,
+          "pitfall": "只遮 It was 不遮 that——框架词 It is/was 和 that/who 要一起去掉再检验"
+        },
+        {
+          "question": "用 it 补全句子（每空一词）：What choices or preferences make ___ easier for people to develop these bad habits?",
+          "solution": "it。make 后接形容词 easier，真正的宾语是 to develop these bad habits，宾语太长先让 it 占位，构成 make it easier for sb to do",
+          "difficulty": 2,
+          "pitfall": "误填 this/that——形式宾语固定用 it，不随语境换指示代词"
+        }
+      ],
+      "mistakes": [
+        "把形式主语当强调句：\"It is important to avoid passive cigarette smoking.\" 遮住框架后 important to avoid... 连不成句，不是强调句。",
+        "形式宾语漏掉 it：写成 I find hard to get up early，必须说 I find it hard to get up early。",
+        "以为强调人只能用 who：强调人时 that 和 who 都可以，如 It was the expert that/who advised us...；强调物只能用 that。",
+        "强调句框架时态与原句不一致：原句是过去的动作用 It was，误写成 It is；只有现在的事才用 It is。"
+      ],
+      "source": {
+        "unit": "选择性必修三语法板块",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全医生的建议：—I want to lose weight, but I just can't seem to do it. What can you do to help me? —Well, first, ___ necessary to decide on what you eat. Cut out all fatty food and sugary drinks.",
+          "options": [
+            "it is",
+            "that is",
+            "what is",
+            "there is"
+          ],
+          "answer": "A",
+          "solution": "真正的主语是 to decide on what you eat，太长后置，句首用 it 作形式主语：it is necessary to do",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P17·语法板块对话补全（it's necessary to decide on what you eat）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用所给单词和词组连成完整句子：important / avoid / passive cigarette smoking，下面哪一句是正确的？",
+          "options": [
+            "Important it is to avoid passive cigarette smoking.",
+            "It is important to avoid passive cigarette smoking.",
+            "It important is to avoid passive cigarette smoking.",
+            "To avoid passive cigarette smoking important it is."
+          ],
+          "answer": "B",
+          "solution": "不定式 to avoid passive cigarette smoking 作真正的主语后置，it 作形式主语：It is important to avoid passive cigarette smoking.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P17·语法板块连词成句（important / avoid / passive cigarette smoking）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把下句改写成强调句，强调 the expert：The expert advised us to work together to stop climate change.",
+          "answer": "It was the expert who/that advised us to work together to stop climate change.",
+          "solution": "强调人用 It was + the expert + who/that，其余部分不变；用去框架检验：the expert advised us to work together to stop climate change，句子完整，确认是强调句",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P29·语法板块变式（the expert advised us to work together...改为强调句）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "下列句子中，it 用于强调句的是：",
+          "options": [
+            "It is obvious that everyone can do something to cut carbon emissions.",
+            "It often takes me half an hour to fall asleep at night.",
+            "It is important to know whether what the speakers say is a fact or an opinion.",
+            "It was the loud music that kept me awake last night."
+          ],
+          "answer": "D",
+          "solution": "前三句去掉框架后都连不成完整句子，是形式主语；第四句去掉 It was 和 that 后 the loud music kept me awake last night 完整，是强调句",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_02",
+      "summary": "省略与替代让英语说得省力：重复的词能删就删，so 与 not 整句顶替，不定式动词省掉时 to 要留下。",
+      "explanation": [
+        "这本书里处处是省略与替代的活例：阅读策略说 \"The main idea is sometimes stated in either the opening or closing sentence. If not, look for another 'standout' sentence...\"——If not 顶替 If it is not stated...；建议句型列有 \"I'd like/love to ..., but ...\"，to 后面省掉了动词；环保调查里同学写道 \"Don't print out documents unless really necessary.\"，unless 后省掉 it is；节能建议清单写着 \"Use cold water to wash clothes when possible\"，when 后省掉 it is；诗歌讨论开场问 \"Have you ever written a poem before? If so, what did you write about?\"，If so 顶替 If you have (written a poem before)。这些句子合起来说明：英语靠连接词和上下文补全省略，靠 so 和 not 替代整个分句。",
+        "省略和替代都是为了让话省力：刚说过、对方听得到的信息不再重复，就像家里人都认识的人不用每次报名字；替代则像给整句话找了个小代班——肯定的事让 so 上场（I think so.），否定的事让 not 顶班（I hope not.）。省略是删掉重复的词，替代是换个词顶上去，分工不同，目的相同。",
+        "补全省略句三步走：第一步找连接词——and/but/or、if/unless/when/while/though；第二步到相邻分句里找被省的成分，状语从句里常省掉与主句相同的主语和 be 动词，并列句里常省掉相同的主语或谓语；第三步把猜出的词补回去通读，通顺且意思不变才算补对。so/not 替代配对记：think、believe、suppose、expect、hope、be afraid 后接 so 表肯定（I think so. / I believe so.），接 not 表否定（I hope not. / I'm afraid not.）。不定式省略只记一条铁律：动词可以省，to 必须留下———Would you like to join us? —I'd love to.；否定省略则让 not 和 to 一起留下（I'll try not to be late.）。",
+        "省略与替代别张冠李戴：省略删掉的成分必须能从上下文唯一还原，否则不能省；状语从句省略主语和 be 时，从句主语必须与主句主语一致——Walking along the river, I felt relaxed. 里省掉的是 While I was walking...，主语同为 I 才能省。so 与 not 的搭配也有讲究：hope 的否定替代固定说 I hope not.；think、believe 的否定更常说 I don't think so.，把否定挪到主句。另外 so 替代的是整件事（你刚做出的判断），不是某个名词，替代名词要用 it/one/that，别混。",
+        "会省略才会写简洁：读后续写的对话靠省略才像真人说话（—Me too. / —I'd love to.），议论文靠替代避免重复啰嗦；后续还会学到 So do I. 这类倒装式替代，以及 one/ones/that/those 的名词替代，思路一脉相承——英语厌恶重复，能省则省，能代则代。"
+      ],
+      "methods": [
+        {
+          "name": "还原补全省略法",
+          "steps": [
+            "圈出连接词：and / but / or、if / unless / when / while / though",
+            "到相邻分句找重复成分：相同的主语、be 动词或不定式动词",
+            "把省略的词补回去通读，意思不变、句子通顺才算补对"
+          ],
+          "tip": "省掉的是重复，补回去才看清骨架"
+        },
+        {
+          "name": "so/not 配对替代法",
+          "steps": [
+            "先判断应答是肯定还是否定",
+            "肯定用 so：I think so. / I believe so. / I hope so.",
+            "否定用 not：I hope not. / I'm afraid not.；think、believe 更常说 I don't think so."
+          ],
+          "tip": "肯定 so，否定 not；别让 so 和 not 站错队"
+        },
+        {
+          "name": "to 后留空法",
+          "steps": [
+            "找到省略动词的不定式位置：I'd love ___. / I want to ___.",
+            "动词省掉，to 原样保留",
+            "否定省略连 not 一起保留：I'll try not to."
+          ],
+          "tip": "动词可省，to 不能丢"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全省略成分：Don't print out documents unless really necessary. 中 unless 后省掉了什么？",
+          "solution": "省掉了 it is，完整形式是 Don't print out documents unless it is really necessary.",
+          "difficulty": 1,
+          "pitfall": "补成 unless it really necessary——省略还原时 be 动词 is 不能丢"
+        },
+        {
+          "question": "选择正确应答：—Do you think our team will win the match? 选项：I hope not / I think so / I'd love to / Unless really necessary。后文是 We've been practising every day and we're in good form.",
+          "solution": "选 I think so。后文每天训练、状态正佳，表明说话人持肯定判断，用 so 替代 we will win the match 这一整件事",
+          "difficulty": 2,
+          "pitfall": "误选 I hope not——not 表否定替代，与后文的自信口气矛盾"
+        },
+        {
+          "question": "补全对话（每空一词）：—Would you like to go rock climbing with us this weekend? —I'd love ___, but I have to prepare for an exam.",
+          "solution": "to。I'd love to 后省去 go rock climbing with us this weekend，动词省略后 to 必须保留",
+          "difficulty": 2,
+          "pitfall": "只答 I'd love——省略动词后 to 不能丢，否则不成句"
+        }
+      ],
+      "mistakes": [
+        "否定替代误用 so：别人问 Do you think it will rain? 想说不会，应答 I hope not. / I'm afraid not.，so 只表肯定。",
+        "不定式省略丢 to：—Will you come? —I'd love. 应为 I'd love to.。",
+        "状语从句主语不一致也省略：While walking in the street, the tall buildings attracted me. 错——省略的主语必须与主句主语一致。",
+        "把 so 当名词替代词：so 替代整个分句，替代名词要用 it/one/that。"
+      ],
+      "source": {
+        "unit": "选择性必修三语法板块",
+        "pages": [
+          14,
+          54
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全婉拒建议的对话：—We're going hiking this weekend. Would you like to join us? —___. I have to finish my science report first.",
+          "options": [
+            "I'd love to",
+            "I think so",
+            "If so",
+            "I hope not"
+          ],
+          "answer": "A",
+          "solution": "I'd love to 后省去 join you，to 保留；but 后说明原因，是典型的婉拒句式",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P19·听说句型（I'd like/love to ..., but ...）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全节能建议（选择正确形式）：Use cold water to wash clothes when ___ .",
+          "options": [
+            "possible",
+            "possibly",
+            "is possible",
+            "being possible"
+          ],
+          "answer": "A",
+          "solution": "when 后省去 it is，只留形容词 possible，即 when (it is) possible；副词 possibly 和谓语形式 is possible 都不能接在 when 后作省略",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P35·节能建议清单（Use cold water to wash clothes when possible）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把省略句还原为完整句：Don't print out documents unless really necessary.",
+          "answer": "Don't print out documents unless it is really necessary.",
+          "solution": "unless 后省去了 it is，还原后从句主语 it 对应主句祈使句的逻辑主语 you，be 动词 is 不能丢",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P29·环保调查语句变式（Don't print out documents unless really necessary）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话：—Do you believe that small daily actions, like taking your own cloth bag when shopping, can slow climate change? —Yes, I believe ___. I never use plastic bags.",
+          "answer": "so",
+          "solution": "believe 后用 so 替代 that small daily actions can slow climate change 这一整件事，肯定应答用 so",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_03",
+      "summary": "读后续写先抓两条线：情节线管发生了什么，情感线管心情起伏，两段续写顺着段首句长出来。",
+      "explanation": [
+        "写作板块给出的是沙克尔顿探险队的真实故事：先 \"predict what happened to the crew members\"（预测船员们的命运），再读续篇验证预测——这正是读后续写的思维内核。日记原文情感词密集：船被冰挤碎时 \"And when the ship sank, our hearts sank with it.\"；困守荒岛时 \"I feel low.\"，但战友的关怀 \"fill me with hope.\"；续篇开头 \"We felt so alone and desperate. But it was not for long.\"；获救一刻 \"When we were finally rescued, we felt such relief and joy that many of us could not hide our tears.\"。一条是出海遇险、弃船求生、孤岛待援的情节线，一条是从期待到心沉、从低谷到希望再到喜极而泣的情感线，双线交织才是完整的故事。",
+        "把故事想成一条山路：情节线是路的走向——出发、遇险、求生、获救；情感线是走路人的体温——期待、心沉、低落、燃起希望、喜极而泣。只画路不记体温，故事就是干巴巴的流水账；只写心情不给事件，读者又不知道发生了什么。续写前先在草稿上把两条线并排画出来，写的时候一起推进，文章才立得住。",
+        "动笔前做三件事：第一，精读原文，用笔分别标出情节线（起因—发展—冲突悬而未决处）与情感线（逐句抄下情绪词）；第二，细读两段段首句，推出每段的任务——第一段通常接着冲突向前推进，第二段负责结局收束；第三，按段首句→情节推进→情感呼应的顺序写，情绪词的档次要与原文衔接，比如 desperate 之后先给 hope，再给 relief and joy，结尾点一下乐观与坚持这类主题。写完自查：两段是否都接住了各自的段首句。",
+        "续写最易失分四处：一是只写情节不写情绪，情感线断裂；二是情绪跳变没有铺垫，上一句还绝望下一句就狂喜，读者跟不上；三是两段脱节，第一段结尾没有为第二段段首句留好接口；四是人称时态跑偏，原文是第一人称过去时（We watched / I feel low），续写必须保持一致。情绪词也要升级：sad 太笼统，原文用 feel low、so alone and desperate、such relief and joy，再配上 hide our tears 这样的身体反应，情绪才具体可感。",
+        "读后续写是高考写作题型，考的其实是读与写的合体：读要读到情感词，写要写到情感句。这里积累的语料（fill me with hope / could not hide our tears / such relief and joy）既是续写的弹药库，也能搬进演讲稿和书信；再往后练，把双线标注升级为情节表格加情绪曲线，速度和准确度都会再上一层。"
+      ],
+      "methods": [
+        {
+          "name": "双线标注法",
+          "steps": [
+            "第一遍精读，情节线记关键事件：出发—遇险—求生—待援",
+            "第二遍精读，逐句抄情绪词：sank / feel low / hope / relief and joy",
+            "把两条线并排画在草稿上，续写每段各推进一格"
+          ],
+          "tip": "情节线管走向，情感线管温度"
+        },
+        {
+          "name": "段首句推理法",
+          "steps": [
+            "先读第二段段首句倒推结局方向，再读第一段段首句定第一段任务",
+            "第一段写冲突的推进，结尾停在第二段开头之前的那一刻",
+            "每段开头第一句之后的两三句必须紧贴段首句展开"
+          ],
+          "tip": "段首句是路标：第一段奔冲突，第二段奔结局"
+        },
+        {
+          "name": "情绪阶梯法",
+          "steps": [
+            "把情绪词排成阶梯：low → hopeful → relieved → joyful",
+            "每段至少落一个阶梯点，且只能顺阶走",
+            "要跳阶必须给台阶：交代让情绪转变的事件"
+          ],
+          "tip": "情绪顺阶走，跳阶先搭台阶"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断情感线：日记里写 \"And when the ship sank, our hearts sank with it.\"，此刻人物的情绪是什么？这句为什么比 I was very sad 更有感染力？",
+          "solution": "情绪是沉痛、绝望（hearts sank 心随船沉）；它用船沉与心沉同步的比喻把外景和内心绑在一起，具体可感，而 I was very sad 只贴了个情绪标签",
+          "difficulty": 1,
+          "pitfall": "只答伤心不点出写法——情感线判断要说清情绪词如何与情节挂钩"
+        },
+        {
+          "question": "续写第二段段首句是 \"When we were finally rescued, we felt such relief and joy that many of us could not hide our tears.\"，第一段的结尾应该停在哪里才衔接自然？",
+          "solution": "停在获救前最后一刻的悬点：如远处出现船影、众人认出那是救援船——把 relief and joy 的来由（终于获救）留给第二段段首句引爆",
+          "difficulty": 3,
+          "pitfall": "第一段提前写到获救后的庆祝，与第二段段首句内容重复，衔接失效"
+        },
+        {
+          "question": "把情绪句升级到与原文匹配的档次：I was very happy when we were saved.",
+          "solution": "示例：We felt such relief and joy that we could not hide our tears.（借 relief and joy 加具体动作 hide our tears，情绪具体化）",
+          "difficulty": 2,
+          "pitfall": "只换成 very very happy——升级要换具体的情绪词加身体动作，不是堆程度副词"
+        }
+      ],
+      "mistakes": [
+        "只写情节不写情绪：情节线推进了，情感线却断了，拿不到情感分。",
+        "情绪跳变无铺垫：上一句还 so alone and desperate，下一句直接狂喜，没有交代让情绪转变的事件。",
+        "两段脱节：第一段结尾没有接住第二段段首句，各写各的。",
+        "人称时态跑偏：原文是第一人称过去时，续写误用第三人称或现在时。"
+      ],
+      "source": {
+        "unit": "选择性必修三 Reading for Writing",
+        "pages": [
+          38,
+          45
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "按日记先后顺序，下面哪一条情感线是正确的？",
+          "options": [
+            "满怀期待→心随船沉→身处低谷却燃起希望",
+            "一直兴奋→偶有担心→恢复平静",
+            "满怀期待→心随船沉→彻底绝望",
+            "紧张害怕→愤怒失望→心如止水"
+          ],
+          "answer": "A",
+          "solution": "登船时 this is the adventure that I have been dreaming of，满怀期待；船沉时 our hearts sank with it；困守荒岛时 I feel low，但战友的关怀 fill me with hope",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P38·阅读语篇（日记：dreaming of / our hearts sank with it）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "续篇里写道：\"We felt so alone and desperate. But it was not for long.\" 第二句的意思是：",
+          "options": [
+            "这种孤独绝望的情绪并没有持续太久",
+            "危险的环境很快就消失了",
+            "晚餐和音乐很快就变得乏味",
+            "等待救援的日子并不算长"
+          ],
+          "answer": "A",
+          "solution": "it 替代上句所说的 so alone and desperate 这种情绪状态，not for long 指情绪不久就被一顿好晚餐和音乐振奋起来",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P44·阅读语篇（We felt so alone and desperate. But it was not for long.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "原文结尾是 \"Perhaps there is a chance we will return home, after all.\"，续写第二段段首句已给出 \"When we were finally rescued, we felt such relief and joy that many of us could not hide our tears.\"。请为第一段写一句结尾，使其能与第二段段首句自然衔接。",
+          "answer": "示例：Just then, a small figure appeared on the sea far away — it was the rescue ship! （停在获救前一瞬的悬点，把 relief and joy 留给第二段）",
+          "solution": "第一段结尾要停在获救之前的最后一刻并保留悬念，让第二段段首句的 When we were finally rescued 顺势接续",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P45·语篇续写衔接变式（When we were finally rescued…段首句承接）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "为读后续写积累情绪词库：写出两个比 happy 更具体、可用于获救场景的情绪词，并用其中一个造一句情感句。",
+          "answer": "示例：relieved、joyful；造句示例：We felt so relieved that we all burst into tears.",
+          "solution": "具体情绪词加身体反应（burst into tears / could not hide our tears）构成高质量情感句",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_04",
+      "summary": "态度题认准四类词：positive、negative、neutral、objective；推理题不靠猜，用原文证据句加常识搭出完整证据链。",
+      "explanation": [
+        "书上把这两样本领都放进真实语篇里练。科普语篇《CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION》通篇引用科学家与研究证据——According to the scientists… / Experts claimed… / There is strong and comprehensive evidence that…，配套问题直指态度与目的：Why did the author mention the climate scientists' warning? What is the author's purpose of writing this text? 日记体叙事《A SUCCESSFUL FAILURE》旁的策略框则给出推理的定义：To infer means to guess something based on the evidence.，并要求回答 What personal qualities did Shackleton, Wild, and Blackborow exhibit? Find examples from the text to support your answers.——先摆证据，再下判断，顺序不能反。",
+        "态度词是作者说话的温度计：positive 是点赞，negative 是差评与担忧，neutral 是不站队地转述，objective 是只按事实证据说话。作者很少直说“我很担心”，而是借专家之口、用 alarming 这类词悄悄传温。推理题则像侦探破案：原文证据是线索，常识与逻辑是桥，结论是目的地——缺了任何一环，都是瞎猜。",
+        "态度题三步：①定位作者评价的对象；②圈出情感词与转述词（shocked / alarming / fortunately / according to / experts claimed）；③对照词库选最贴的一类，多找证据、少凭感觉。推理题四步：①抓题干关键词回原文定位；②抄下 1~2 句证据；③在证据之间补逻辑桥——因果（cause / lead to / result in / so）、对比（but / however）、常识；④用“原文说…，加上常识…，所以…”完整说一遍，检查链条是否闭合。",
+        "两组最易踩的坑：一是 neutral 与 objective——不表态地转述双方说法是 neutral，以证据和数据立论是 objective；科普文列举研究、引用专家，通常落在后一类。二是把“人物的心情”当“作者的态度”——回忆录里 We felt so alone and desperate. 写的是被困队员的低谷，不代表作者消极，全篇反而以 optimism、perseverance、hope 收束，基调是积极的。",
+        "态度与推理是高考阅读的固定考点，也直接支撑主旨题——不少主旨选项的差别就在基调一词；这套功夫同样通向写作：议论文里让步与转折（while / however）正是态度的语法外衣。平时读英文报道，给每段标一个态度词、抄一句证据，坚持两周就能养出“先证据后判断”的语感。"
+      ],
+      "methods": [
+        {
+          "name": "态度词温度计三步法",
+          "steps": [
+            "定位评价对象：作者在评价什么（北极熊之死？气候变暖？某项决定？）",
+            "圈词：情感词（alarming / shocked / fortunately）与转述词（according to / experts claimed）",
+            "对照词库定调：positive（赞同）／negative（批评担忧）／neutral（不表态转述）／objective（凭证据说话）"
+          ],
+          "tip": "口诀：先找对象再找词，四类态度对号入。"
+        },
+        {
+          "name": "推理证据链四步法",
+          "steps": [
+            "抓题干关键词回原文，抄下 1~2 句证据",
+            "证据之间补逻辑桥：因果（cause / lead to / so）、对比（but / however）、常识",
+            "完整说一遍推理：原文说…＋常识…→所以…",
+            "反向检验：抽掉某句证据，结论是否还站得住"
+          ],
+          "tip": "口诀：证据是骨桥是筋，没有原文不推理。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "科普语篇报道北极熊之死后，通篇以 According to the scientists… / Experts claimed… / There is strong and comprehensive evidence that… 的方式展开论述。作者对全球变暖议题的整体态度最接近 positive、negative、neutral、objective 中的哪一类？",
+          "solution": "objective（客观）。作者不直接抒情，而是引用专家结论、摆出证据再作判断，“凭证据说话”正是 objective 的标志；alarming 一词虽带担忧色彩，但全文的论述骨架仍是事实与证据。",
+          "difficulty": 1,
+          "pitfall": "neutral 与 objective 别混：转述双方说法、不加评论才是 neutral；引用证据、以事实立论是 objective。"
+        },
+        {
+          "question": "日记写道：Shackleton himself threw away all his gold. But to our surprise, he allowed Hussey to keep his banjo.（沙克尔顿扔掉了自己全部的金子，却允许 Hussey 留下班卓琴。）由此可以推断他是一位怎样的领袖？",
+          "solution": "证据链：扔掉金子→个人财物让位于生存必需；却留下一件乐器→他看重音乐对士气的鼓舞。两相对照可推断：务实、有远见、体恤队员心理的领袖——先保命，再保心。",
+          "difficulty": 2,
+          "pitfall": "只答“他不贪财”就浅了：金子与班卓琴的对比才是关键——留下的不是财物，是士气。"
+        },
+        {
+          "question": "赏析兼推理：And when the ship sank, our hearts sank with it.（船沉时，我们的心也随之下沉。）句中 sank 出现两次，作者借它传达了什么？",
+          "solution": "一语双关：第一个 sank 写船沉入海的事实，第二个 sank 写心情跌至谷底；同一个动词把外部灾难与内心绝望焊在一句里，以具体动作写抽象悲痛——这既是文学笔法，也是判断情绪基调的现成证据。",
+          "difficulty": 3,
+          "pitfall": "第二个 sank 不能只按字面“下沉”理解——它写的是心情，不是心脏。"
+        }
+      ],
+      "mistakes": [
+        "把引述当立场：Experts claimed that… 是转述专家观点，作者本人的态度要看全文用词倾向与结论句，不能见引号就归为作者所信。",
+        "neutral 与 objective 混用：不表态的转述与凭证据的立论不是一回事；科普说明类语篇多数应选 objective。",
+        "推理脱离原文：凭生活经验直接下结论（如“极地探险一定很浪漫”）却找不到对应证据句——推理题的答案必须能指着原文说“证据在此”。",
+        "把人物情绪当作者态度：I feel low. 是 Blackborow 身处象岛时的即时心情，不能推广为全篇基调或作者立场。"
+      ],
+      "source": {
+        "unit": "高考题型训练",
+        "pages": [
+          26,
+          39
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇报道北极熊之死时写道：This alarming case showed how the increase in temperature had an impact on Earth's ecology. 句中 alarming 一词透露出作者怎样的态度倾向？",
+          "options": [
+            "positive 积极赞同",
+            "negative 担忧与批评",
+            "neutral 完全中立",
+            "humorous 幽默调侃"
+          ],
+          "answer": "B",
+          "solution": "alarming（令人惊恐的）带明显的负面评价色彩，与前文 people were shocked 相呼应，透露出作者对变暖后果的担忧；它既非赞同，也不是不带色彩的客观陈述。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P26·阅读语篇《CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION》（alarming case 句）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "日记写道：Before we abandoned the ship, Shackleton calmly called us together and told us to rescue our most essential supplies… This was no time to panic. 由 calmly 与 no time to panic 可以推断，危机中的 Shackleton 最突出的特点是——",
+          "options": [
+            "惊慌失措，率先逃命",
+            "冷静果断，稳定军心",
+            "犹豫不决，听天由命",
+            "冷漠自私，只顾财物"
+          ],
+          "answer": "B",
+          "solution": "calmly（镇定地）召集众人、有序安排抢救小艇、食物、炊具等必需物资，并断言“现在不是恐慌的时候”——证据链指向冷静果断、稳定军心的领袖形象。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P38·日记节选（弃船段 calmly…This was no time to panic）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·写作目的：科普语篇以 It is our responsibility to seize every opportunity to educate everyone about global warming… So what will you do to help? 收尾，作者这样写的主要目的是——",
+          "options": [
+            "总结北极熊之死的经过",
+            "比较两种温室效应的区别",
+            "呼吁读者行动起来应对全球变暖",
+            "罗列极端天气造成的经济损失"
+          ],
+          "answer": "C",
+          "solution": "结尾先以 responsibility（责任）点题，再用 So what will you do to help? 直接向读者发问，是典型的呼吁行动式收束；其余三项只是文中出现过的局部信息，撑不起全篇落点。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P27·阅读语篇变式（结尾 So what will you do to help? 与写作目的）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "拓展：任选一篇近期读过的英文短文，做一张“态度小卡”：①用一句英语写出作者评价的对象；②从 positive / negative / neutral / objective 中选一个态度词，并抄出证据句；③自设一个推理问题，用“原文说…＋常识…→所以…”写出两步推理。",
+          "answer": "示例：对象—plastic waste in the ocean；态度词—negative，证据句 Plastic waste kills sea animals every year.；推理问题—Why do sea animals die? 原文说 plastic waste kills sea animals，常识是海洋动物会误食塑料→所以塑料垃圾直接威胁海洋动物的生命。",
+          "solution": "用“对象—态度词—证据句—两步推理”的固定格式把课上方法迁移到课外阅读；每读完一篇标一张卡，态度题与推理题的识别速度会明显提升。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_05",
+      "summary": "小说式语篇按人物、情节、环境、主题四要素拆开读：谁在何地经历了什么、为何而写；赏析盯住双关、比喻与情感词。",
+      "explanation": [
+        "书上用一组完整的探险叙事教“读故事”：先读探险家招募广告 MEN WANTED——for a dangerous journey: small wages, bitter cold, long months of complete darkness, constant danger, and safe return uncertain.，再读 Perce Blackborow 的三则日记（31 Oct 1914 / 21 Nov 1915 / 20 May 1916），课后追问 What personal qualities did Shackleton, Wild, and Blackborow exhibit? Find examples from the text to support your answers.；策略框写明 To infer means to guess something based on the evidence.；写作板块再以回忆录《THE REWARD FOR PERSEVERANCE》收束，要求先写 who、what、where、when、why、how 六要素梗概，结尾 End your essay by talking about how the story made you feel——从读人物到说主题，一条线走完。",
+        "小说式语篇像搭一座戏台：人物是演员，情节是剧本，环境是布景，主题是导演真正想说的话。日记与回忆录取材真人真事，但读法与小说节选同源——南极的酷寒、象岛的寒风与不毛，这些环境描写越把人逼到墙角，人物的选择就越见品质；只追“后来呢”，就会错过作者藏在细节里的声音。",
+        "四要素四问法：①人物 who——谁在做事、说了什么，台词见性格；②情节 what——按起因（应聘被拒）→发展（偷渡上船）→高潮（船被冰压沉）→结局（象岛获救）画时间线；③环境 where & when——Antarctica、Endurance 号、Elephant Island、1914-1916，圈出天气与处境句；④主题 why——把人物品质与情节走向合炼成一句话（如乐观与坚毅让绝境中的团队活了下来）。赏析句子则三看：看动词双关、看比喻意象、看情感词（desperate / relief / joy）。",
+        "三个易混：一是情节复述不等于主题概括——按时间说完事件只是“讲了一遍”，主题要回答作者为什么写；二是纪实不等于没有文学加工——日记回忆录的选材与剪裁处处见匠心，sank 的双关是笔法而非巧合；三是环境描写不是闲笔——It's cold and windy. The island has no plants. 句句都在为“生存艰难、互助可贵”服务，跳读即失分。",
+        "四要素读法直接通向读后续写：续写前先梳理原文的人物关系、情节线与情感线，动笔才接得住段首句；也与高考小说、传记类阅读同源。平时读完英文小说节选，合上书用“谁＋在哪里＋经历了什么＋说明什么”造四个短句，是最省力的复盘习惯。"
+      ],
+      "methods": [
+        {
+          "name": "四要素四问法",
+          "steps": [
+            "人物 who：圈出人名与言行，各配 2~3 个形容词并附证据句",
+            "情节 what：起因→发展→高潮→结局，每段压缩成一个动词短语",
+            "环境 where & when：抄下地点、时间、天气句，自问“环境给人物添了什么难”",
+            "主题 why：人物品质＋情节走向炼成一句话，回查全文是否都有支撑"
+          ],
+          "tip": "口诀：人物情节环境主题，四问一答文章见底。"
+        },
+        {
+          "name": "文学句三看法",
+          "steps": [
+            "看动词：是否一词两用、双关（如 sank）",
+            "看修辞：比喻、拟人、排比在营造什么画面",
+            "看情感词：desperate / relief / hope 定基调，再回到四要素印证主题"
+          ],
+          "tip": "口诀：一眼动词二眼修辞，三眼情感定基调。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把四条信息归入四要素：①Antarctica、Endurance 号与 1914-1916 的极地背景；②乐观与坚毅使绝境中的团队生还；③Blackborow、Shackleton、Frank Wild 的言行；④应聘被拒→偷渡上船→船沉冰困→象岛获救。①②③④依次对应——",
+          "solution": "①时间地点处境是环境；②全篇提炼的答案是主题；③言行与品质是人物；④事件时间线是情节。四要素各就各位，复述与答题都不慌。",
+          "difficulty": 1,
+          "pitfall": "先判最明显的：带年份地名的多为环境，动词短语串成的多为情节，再排其余。"
+        },
+        {
+          "question": "赏析日记里的句子：And when the ship sank, our hearts sank with it. 作者的表达妙在何处？",
+          "solution": "sank 一词两用：前一个写船沉入海的事实，后一个写心情跌落谷底。一语双关把外部灾难与内心绝望压进同一句，以具体动作代替抽象抒情，是“以实写虚”的典型文学笔法。",
+          "difficulty": 2,
+          "pitfall": "只译成“船沉了我们很难过”会丢掉双关——要点出两个 sank 各管什么。"
+        },
+        {
+          "question": "日记里 Frank Wild 隔门打趣：We've caught another penguin, so it's penguin soup tonight! 事后 Blackborow 又感叹：Bless Frank Wild, the kindest man there is after our leader, Ernest Shackleton. 综合两处，Wild 是怎样的人？这一形象支撑什么主题？",
+          "solution": "玩笑话见风趣，kindest 见温厚：他在最冷的处境里给别人热气，是“希望的传递者”；这一形象与 Shackleton 的领袖形象互补，共同支撑全篇“乐观与坚毅助人绝境求生”的主题。",
+          "difficulty": 3,
+          "pitfall": "别只抄 kindest 下结论——玩笑＋评价两处证据合起来，人物才立得住、主题才接得上。"
+        }
+      ],
+      "mistakes": [
+        "只追情节不点题：把日记复述成流水账却答不出“作者为什么写”——主题句必须能同时涵盖人物品质与情节走向。",
+        "人物评价贴标签无证据：夸 Shackleton 勇敢却指不出原文句子——人物判断要配 Find examples from the text 式的证据。",
+        "把环境描写当废话跳读：cold and windy、no plants 正是推人物之难、衬品质之贵的布景。",
+        "用读新闻的方式读文学：只取信息不理笔法，sank 双关、广告五连排比这类赏析点全部漏网。"
+      ],
+      "source": {
+        "unit": "选择性必修三文学单元",
+        "pages": [
+          38,
+          45
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "招募广告写道：for a dangerous journey: small wages, bitter cold, long months of complete darkness, constant danger, and safe return uncertain. 这则广告描绘的探险环境是——",
+          "options": [
+            "舒适安稳",
+            "艰苦危险",
+            "轻松有趣",
+            "神秘浪漫"
+          ],
+          "answer": "B",
+          "solution": "small wages（薪水微薄）、bitter cold（严寒）、long months of complete darkness（长夜无昼）、constant danger（危险不断）、safe return uncertain（生还难料）五连排比，字字指向艰苦与危险。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P38·招募广告 MEN WANTED（for a dangerous journey…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "日记写道：Their genuine concern for others, their perseverance, and their resolve fill me with hope. 这句最能支撑下列哪个主题？",
+          "options": [
+            "极地旅行风景壮美",
+            "乐观与坚毅帮助绝境中的团队活下去",
+            "航海技术决定探险成败",
+            "年轻人应尽早离家闯荡"
+          ],
+          "answer": "B",
+          "solution": "concern for others（关爱他人）、perseverance（坚毅）、resolve（决心）与 hope（希望）四词齐指精神力量，正是“乐观坚毅助人渡过绝境”的直接证据；其余选项在文中并无支撑。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P39·日记节选（Their genuine concern…fill me with hope）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·情感线：回忆录先写 We felt so alone and desperate.，结尾又写 When we were finally rescued, we felt such relief and joy that many of us could not hide our tears. 全篇情感线的变化是——",
+          "options": [
+            "从喜悦到绝望",
+            "从平静到愤怒",
+            "从绝望到如释重负的喜悦",
+            "从恐惧滑向更深的恐惧"
+          ],
+          "answer": "C",
+          "solution": "alone and desperate 是等待救援期的低谷，relief and joy 是获救时刻的高点，一低一高构成上扬的情感线；情感线与情节线并行，是叙事文的双轨。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P44·回忆录 THE REWARD FOR PERSEVERANCE 变式（绝望到喜悦的情感线）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "拓展：选一段你读过的英文小说节选或分级读物，做一页四要素读书卡：人物（名字＋2 个形容词＋证据句）、情节（起因→高潮→结局各一句）、环境（抄 1 句）、主题（一句话）；最后挑一句最喜欢的句子，写出它妙在哪里。",
+          "answer": "示例：人物—Anne，curious and talkative，证据句 She asked questions all the way.；情节—来到绿山墙→误被收养→赢得马修喜爱；环境—A brook gurgled through the woods.；主题—A warm heart can light up a quiet life.；赏析—gurgled 拟声兼拟人，小溪像会说话，恰好衬出安妮的到来让安静的老屋有了声音。",
+          "solution": "用固定四格把方法迁移到自主阅读，赏析沿用“动词—修辞—情感词”三看；坚持一读一卡，小说类语篇的概括速度与主旨准确率都会提升。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_06",
+      "summary": "海冰消融、北极熊挨饿、海洋变暖：科普语篇沿现象引入、机制解释、证据呈现、呼吁行动四步，把全球变暖讲成一条因果链。",
+      "explanation": [
+        "书上的科普语篇《CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION》按四步展开：先以 2013 年北极熊之死的新闻照片引入——In 2013, a lot of people were shocked by a news photo of a dead polar bear that was found on Norway's Arctic island of Svalbard.；再解释机制，区分 “natural” greenhouse effect 与 “man-made” greenhouse effect 两种含义；继而摆证据——There is strong and comprehensive evidence that the rise in temperature has led to an increase in extreme weather and natural disasters worldwide…；最后落到行动：政府制定政策减排，个人缩小 carbon footprint。语篇旁的策略框还建议读科学类文章时画示意图：When you read an essay about scientific issues, you can try drawing a diagram。",
+        "科普文是一条多米诺骨牌链：燃烧化石燃料→温室气体增多→热量被困→海冰消融→北极熊捕不到海豹→挨饿。北极熊只是第一张倒下的牌，作者用一只熊的遭遇把抽象的“全球变暖”变成看得见的画面；海洋也在证据链上——A warming ocean and atmosphere along with melting ice and rising sea levels provide evidence of a dramatic change in the global climate.，海水变暖、冰雪消融、海平面上升，环环咬合。",
+        "科普阅读四步：①找引入现象（哪个案例、照片或数据开场）；②抓核心概念并核对定义——greenhouse effect 有两义：“natural”的一支是地球温暖宜居的前提，“man-made”的一支才是问题；③顺因果信号词画链——caused by / lead to / result in / so that，把文字变成箭头图；④找对策段与态度句——Governments need to consider making policies…；We as individuals can also reduce our “carbon footprint”。遇到 methane、carbon dioxide 这类专业词，看同位语 greenhouse gases 定词类即可，不必逐词查典。",
+        "两个高频坑：一是两种温室效应混为一谈——“natural”的一支让生命得以存续（Without this process, Earth could not sustain life.），出问题的是人为加剧的部分；二是把证据当结论——变暖的海洋、消融的冰雪、上升的海平面是 evidence，“地球正在变暖”（Earth is getting warmer and warmer）才是 conclusion，科普题常拿这一字之差设错。极地语料再补一笔：象岛上没有树、没有油，队员只能化海水为饮、烧动物脂肪取暖——海冰与海洋是极地生存的命脉，与气候语篇互为印证。",
+        "现象→机制→影响→对策的四步骨架，是环保、能源、健康类语篇的通用读法，也是“就环境议题写报告”类写作的现成提纲；往后读外刊科普，先画因果链图再做题，速度与正确率都会上一个台阶。"
+      ],
+      "methods": [
+        {
+          "name": "因果链画图法",
+          "steps": [
+            "首尾各写一个方框：引入案例（北极熊之死）与最终结论（全球变暖，需要行动）",
+            "顺信号词补中间环节：burning fossil fuels→extra greenhouse gases→more heat trapped→melting ice→cannot hunt seals→starve",
+            "每个箭头旁标注原文信号词：caused by / lead to / result in / so",
+            "合上书复述整条链，卡壳处回原文校对"
+          ],
+          "tip": "口诀：现象开头机制中，证据说话对策终。"
+        },
+        {
+          "name": "科普词义三猜法",
+          "steps": [
+            "看同位语与举例：methane and carbon dioxide 前有 greenhouse gases，词类立现",
+            "看构词：greenhouse＋effect＝温室效应，carbon＋footprint＝碳足迹",
+            "代入检验：把猜出的词义放回原句，逻辑通顺即收"
+          ],
+          "tip": "口诀：同位举例定词类，代回原句验真伪。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "细节因果：北极熊为什么会饿死？按语篇补全链条——low sea-ice levels caused by climate change → the bear could not hunt seals as before → ______ → starved。",
+          "solution": "原文：Experts claimed that low sea-ice levels caused by climate change meant the bear could not hunt seals as before, so it had to travel greater distances in order to find food. 空档处应填“不得不长途跋涉觅食”：海冰减少→无法照常捕海豹→被迫远行→体力耗尽。",
+          "difficulty": 1,
+          "pitfall": "细节题答案必须能回指原句，别用“年纪太大”这类想当然的因果替换原文链条。"
+        },
+        {
+          "question": "概念辨析：关于 “natural” greenhouse effect，下列哪种说法与语篇一致——是“纯粹的人为灾难，应彻底消除”，还是“使地球温暖宜居，没有它生命无法存续”？",
+          "solution": "后者正确。语篇说 Greenhouse gases…trap some of the heat, keeping Earth's climate warm and habitable，并点明 Without this process, Earth could not sustain life.——天然温室效应是生命存续的前提；成为问题的是人为排放加剧的 “man-made” 部分。",
+          "difficulty": 2,
+          "pitfall": "两种温室效应只差一个定语：先圈出题干问的是 natural 还是 man-made，再作答。"
+        },
+        {
+          "question": "文体特点：作者为什么以一只北极熊的死讯开场，而不是先给出全球气温数据？",
+          "solution": "用具体、有冲击力的案例引入抽象话题是科普文的典型开场：a news photo of a dead polar bear 先抓住读者，再顺势抛出“是什么让极地变成这样”的疑问，过渡到温室效应机制——由感性到理性、由个案到规律，降低了理解门槛。",
+          "difficulty": 3,
+          "pitfall": "这不是猎奇式开头：它与气温曲线、专家引证一样，都服务于“气候变化需要全世界关注”这一写作目的。"
+        }
+      ],
+      "mistakes": [
+        "“natural”与“man-made”温室效应混为一谈：前者让地球宜居，后者才是问题根源；只看 effect 不看定语必错。",
+        "只背单词不连因果：sea-ice、seal、starve 单记无用，连成 caused by→so 的箭头链才能应对细节与排序。",
+        "把证据当结论：melting ice、rising sea levels 是 evidence，Earth is getting warmer and warmer 才是结论，选项常用这一字之差设错。",
+        "被专业词吓退：见到 methane、carbon dioxide 就放弃整段——用同位语 greenhouse gases 定位词类即可继续读。"
+      ],
+      "source": {
+        "unit": "选择性必修三科普单元",
+        "pages": [
+          26,
+          27
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇首段写道：A warming ocean and atmosphere along with melting ice and rising sea levels provide evidence of a dramatic change in the global climate. 这句话列出的全球气候变化证据依次是——",
+          "options": [
+            "两项：海洋变暖、大气变暖",
+            "三项：海洋与大气变暖、冰雪消融、海平面上升",
+            "四项：另加极端天气增多",
+            "一项：只有气温升高"
+          ],
+          "answer": "B",
+          "solution": "warming ocean and atmosphere（海洋与大气变暖）、melting ice（冰雪消融）、rising sea levels（海平面上升）三项并列作主语，共同 provide evidence；along with 引导并列时别漏项。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P26·阅读语篇首段（a warming ocean…evidence of a dramatic change）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "关于应对气候变化的责任，语篇既说 Governments need to consider making policies…，又说 We as individuals can also reduce our “carbon footprint”。与之一致的说法是——",
+          "options": [
+            "应对气候变化只是各国政府的责任",
+            "只是环保科学家的事，与普通人无关",
+            "政府与个人各有可为：政策减排之外，个人也可约束自己的碳足迹",
+            "只有极地居民才需要行动"
+          ],
+          "answer": "C",
+          "solution": "语篇两条线并写：政府层面 making policies and taking appropriate actions and measures to reduce greenhouse gas emissions；个人层面 reduce our “carbon footprint” by restricting the amount of carbon dioxide our lifestyles produce——双管齐下，C 概括最全面。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P27·阅读语篇对策段（governments…policies；individuals…carbon footprint）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·最佳标题：为这篇科普语篇选一个最合适的标题——",
+          "options": [
+            "The Life of a Polar Bear",
+            "How Seals Survive in the Arctic",
+            "Climate Change Requires the World's Attention",
+            "Greenhouse Gases: A Complete History"
+          ],
+          "answer": "C",
+          "solution": "标题要覆盖全篇落点：语篇从北极熊个案讲到变暖的证据与影响，最终呼吁各国政府与个人行动——“气候变化需要全世界的关注”；A、B 以偏概全，D 范围过宽且偏离“呼吁关注”的主旨。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P27·阅读语篇变式（最佳标题与主旨概括）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "拓展：围绕“保护海洋与极地”用英语写四句科普小短文：第一句给一个现象（如 melting sea ice）；第二句用 because 或 lead to 写一条因果；第三句写一条对策（个人或政府）；第四句用 We should… 发出呼吁。",
+          "answer": "示例：Melting sea ice is changing the Arctic. Less sea ice makes it hard for polar bears to hunt seals, because they have to travel greater distances for food. Governments need to make policies to reduce greenhouse gas emissions. We should reduce our carbon footprint and protect the blue planet.",
+          "solution": "按“现象→因果→对策→呼吁”四步成段，即科普文结构的写作版；写完回查 because / lead to / so that 是否用在因果环节上。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_07",
+      "summary": "正式演讲分开场、主体、总结三段，用路标词一路引航；即席应答先接一句争取思考时间，再用例子支撑观点，最后小结收口。",
+      "explanation": [
+        "听说板块把一场正式演讲拆成三部分：开场（Introduction）欢迎听众并亮出话题，主体（Main body）依次讲背景、描述、点评，结尾（Conclusion）收束要点。衔接三部分的是路标词（signpost markers）——专门告诉听者「接下来要讲什么」的短语，分四类：引入话题用 I'm glad to have this opportunity to ... / Today, I'd like to talk/speak (to you) about ... / My topic today is ... / I'd like to share some thoughts on ...；开启要点用 Let me/Let's start by ... / First, let me tell you about ... / I've divided my topic into ... parts / Let's turn now to ...；举例用 For instance, ... / For example, ... / Take ... for example, ... / To illustrate, ...；总结用 In conclusion, ... / To sum up, ... / All in all, ... / In short, ...。听力里专门抓路标词，就能跟上讲话人的结构与节奏。",
+        "路标词就是高速公路上的指示牌：听到 For example，知道马上上例子；听到 In conclusion，知道快到终点了。没有指示牌的演讲像蒙着眼坐车，听众不知道走到哪儿了。演讲也不是背稿子，而是牵着听众的手走一段路——先把他们迎进门（I'm glad to have this opportunity），再一路插旗子告诉他们到了哪一站，最后把风景总结给他们看。别人提问相当于半路有人问路，慌不得：先稳稳接住，再从容指路。",
+        "三步搭一场短演讲：第一步开场亮题——用 My topic today is ... 一句话讲清要讲什么，别只顾说 hello；第二步主体分点——I've divided my topic into three parts，每讲一点配一个例子（For instance, ...）；第三步总结收尾——To sum up, ... 用两三句把要点收拢。即席应答三步：先用争取时间句接住问题，比如 That's a good question. / Let me think for a moment. / Well, let me see.（这一组是通用的应答技巧）；再按「观点一句＋例子一句」展开，For instance 顺手就用上了；最后 In short, ... 一句收口。实在不会答就诚实说 I'm not sure, but I guess ...，比硬编强得多。",
+        "三组易混：一是举例子与总结的路标词位置——For instance 只出现在论证中段，In conclusion 一出现就该收尾，结尾还在 For example 会让听众以为你没讲完；二是「欢迎听众」与「亮出话题」不是一回事——I'm glad to have this opportunity to ... 是礼节性开场，My topic today is ... 才真正报题，开场两句都要有；三是应答时先分清对方问的是事实还是观点——带 I think / In my opinion 的是观点，可以发表不同看法，摆数据讲经过的是事实，别去反驳事实本身。另外，争取时间句只用一两秒，别把 That's a good question 当口头禅，每问必夸反而显得敷衍。",
+        "这套路标词是通用的：课堂展示、口语考试的看图说话、英语演讲比赛，将来大学里的学术报告，骨架全是它；反过来，听力考题里 speaker 的结构题、态度题，也靠路标词定位。养成两个习惯：每次听完一段长对话，用 In short 自己复述一遍要点；每次被提问，先在心里默数一句争取时间的话再开口——争取到的两三秒，正是组织语言的黄金时间。"
+      ],
+      "methods": [
+        {
+          "name": "路标词演讲四步",
+          "steps": [
+            "开场：欢迎＋亮题——I'm glad to have this opportunity to ...，My topic today is ...",
+            "主体：分点预告——I've divided my topic into ... parts，逐点展开",
+            "例证：每点配例子——For instance, ... / Take ... for example, ...",
+            "总结：收束要点——To sum up, ... / In short, ..."
+          ],
+          "tip": "口诀：亮题—分点—举例—收尾，路标插一路，听众不迷路。"
+        },
+        {
+          "name": "即席应答三步",
+          "steps": [
+            "接：肯定问题并争取时间——That's a good question. / Let me think for a moment.",
+            "答：观点一句＋例子一句——For instance, ...",
+            "收：一句话小结——In short, ...；不会就诚实说 I'm not sure, but I guess ..."
+          ],
+          "tip": "口诀：先接住，再展开，一句话收口。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "演讲中你依次听到三句话：① Today, I'd like to talk about ...　② For instance, ...　③ In conclusion, ...。它们分别标志演讲的哪个部分？",
+          "solution": "①亮出话题，属于开场；②举例子，属于主体论证；③总结要点，属于结尾。按开场—主体—结尾的顺序，路标词正好标出演讲的三段结构。",
+          "difficulty": 1,
+          "pitfall": "别把 In conclusion 当成「继续讲下一个例子」——它一出现就是收尾信号。"
+        },
+        {
+          "question": "演讲结束后有同学提问，你一时没想好怎么回答。下面哪种开场最得体？「Sorry, I don't know.」「That's a good question. Let me think for a moment.」「低头沉默，等老师来救场。」",
+          "solution": "选 That's a good question. Let me think for a moment.：先用争取时间句接住问题，为自己赢得两三秒组织语言；直接说不知道显得敷衍，沉默则让气氛尴尬。之后按「观点＋例子＋小结」作答。",
+          "difficulty": 1,
+          "pitfall": "争取时间句不是答案本身，接完要真的开始回答，不能只夸问题就停。"
+        },
+        {
+          "question": "演讲开头已经说了 I'm glad to have this opportunity to speak here.，紧接着说下面哪一句才顺？为什么另外两句不行：In conclusion, ... / For instance, ...",
+          "solution": "接着报题，用 My topic today is ... 或 I'd like to share some thoughts on ...——前一句只是礼节性欢迎，还没告诉听众要讲什么。In conclusion 是收尾用语，提前出现等于直接剧终；For instance 用来举具体例子，论证还没开始就用不上。",
+          "difficulty": 2,
+          "pitfall": "「欢迎听众」和「亮出话题」是开场缺一不可的两步，只欢迎不报题，听众不知道你要讲什么。"
+        }
+      ],
+      "mistakes": [
+        "演讲从头念到尾一个路标词都没有，听众抓不住结构——听起来流利，实则散架。",
+        "开场只说 Good morning 就直接进内容，忘了用 My topic today is ... 报题，听众半天才猜到主题。",
+        "被提问时要么慌到语塞，要么一句 Sorry, I don't know 顶回去，不懂先用争取时间句稳住局面。",
+        "结尾用错路标词：该说 To sum up / In conclusion 时说成 For example，听众以为还在举例子，不知道演讲已经结束。"
+      ],
+      "source": {
+        "unit": "选择性必修三听说板块",
+        "pages": [
+          1,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "听一场介绍水墨动画的演讲时，你先后听到五项内容。按演讲的常规顺序排列：① a description of the story in the film　② introduction to the topic　③ the background of the films　④ a short review of the film　⑤ an explanation of the decline",
+          "options": [
+            "②①③④⑤",
+            "②③①④⑤",
+            "①③②④⑤",
+            "②③④①⑤"
+          ],
+          "answer": "B",
+          "solution": "顺序＝开场亮题②→背景③→描述故事①→点评④→解释衰落⑤，正与「开场—主体（背景/描述/点评）—结尾」框架对应；先讲描述再补背景，听众会一头雾水。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P6·听演讲排内容顺序（introduction / background / description / review / explanation of the decline）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "你做完关于中国画《清明上河图》的演讲后，有同学问：「Why is this painting so famous?」你一时没组织好语言，最得体的回应是？",
+          "options": [
+            "That's a good question. Let me think for a moment.",
+            "I have no idea. Next question, please.",
+            "沉默不语，等老师帮忙",
+            "Sorry, your question is too difficult."
+          ],
+          "answer": "A",
+          "solution": "争取时间句既礼貌又赢来思考时间，随后可以答：It provides a look into ordinary people's lives in the Song Dynasty——这正是这幅世界名画最吸引人的地方。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P12·清明上河图（One of the most famous Chinese paintings in the world）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面四组表达中，全部属于「总结要点」类路标词的一组是？",
+          "options": [
+            "In conclusion / To sum up / All in all",
+            "For instance / For example / To illustrate",
+            "My topic today is / I'd like to share some thoughts on",
+            "First, let me tell you about / Let's turn now to"
+          ],
+          "answer": "A",
+          "solution": "总结类路标词：In conclusion / To conclude / In short / To sum up / All in all / In brief；B 组是举例类，C 组是引入话题类，D 组是开启要点类。分清四类，听演讲能定位结构，做演讲能搭骨架。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P7·演讲路标词表（Introducing the topic / Starting a point / Giving an example / Summarising the points）变式（路标词归类）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以 My topic today is ... 开头，写一段四句话的迷你演讲介绍一件你喜欢的艺术品或一部动画：第 1 句亮题，第 2 句讲背景，第 3 句用 For instance 举一个细节，第 4 句用 In short 收尾。写完请同桌就你的演讲提一个问题，你先用争取时间句应答再作答。",
+          "answer": "示例：My topic today is a famous ink wash animation. It was made with traditional Chinese painting skills. For instance, every frame looks like an ink wash painting. In short, it is art in motion.（应答示例：That's a good question. Let me think for a moment. ...）",
+          "solution": "四句正好对应演讲四步：亮题—背景—例证—收尾；被提问时先接住再答，能明显降低即席表达的紧张感，也练熟了路标词的切换。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_08",
+      "summary": "写作提分靠精确：把笼统的 good 和笼统的「使发生」换成精准词——cause 是肇因，lead to 是引出，result in 是终局，近义词细辨一步不能懒。",
+      "explanation": [
+        "词汇板块给出成组近义词的精细辨析，活动要求是：查词典、讨论差异、再自己造句。第一组核心是表示「使发生」的五个动词：cause、be responsible for、bring about、lead to、result in，配两句语境例句——According to the report submitted by researchers, between 20 and 25 percent of all annual carbon dioxide emissions are caused by the destruction of tropical forests. 以及 A breakdown in the computer system was responsible for yesterday's chaos in the subway station.。第二组是形容词与副词辨析：accurately / precisely / exactly；rank / grade / degree；realistic / practical / actual；reputation / fame / popularity；subsequent / later / latter，同样各配语境例句，比如 You need to have realistic expectations of the returns from investments.、The bride appeared five years younger than her actual age.、Mr Liu has a lot of practical experience in restoring historic buildings.。",
+        "good、important、make happen 这类词像「万能胶」，哪里都能粘，却粘不出画面。读者读到 The plan is good，完全不知道好在哪；换成精确的词，一句话就能让人看见、听见、感受到。精确表达就像量衣服：用「拃」量人人不同，用软尺量到毫米，做出来的衣服才合身。近义词之间的差别往往只有一点点，但正是这一点点，决定了你是不是真的「会用」这个词——认识它和驾驭它是两回事。",
+        "「笼统词升级三步」：第一步圈——把自己作文里的 good / bad / important / make happen 全部圈出来；第二步查——用英英词典或近义词组辨析，按语境选精确词：写因果链时 cause 指直接肇因，lead to 指一步步引出，result in 指最终导致的结果，bring about 指促成了变化，be responsible for 带有「该负责、归因于」的口气；第三步验——把新词放回原句读一遍，检查搭配和语气是否成立。同样的方法迁移到其他组：recite 是凭记忆背诵，repeat 是原样重复，retell 是用自己的话复述；actual 强调「事实上的」，realistic 强调「现实可行的」，practical 强调「有实操价值的」。",
+        "五组高频混用：①cause 与 result in——cause 后常接灾难、事故、疾病等直接后果，result in 强调过程的终点；②be responsible for 与 cause——前者多用于归因追责（系统故障 was responsible for 地铁混乱），后者更中性客观；③recite / repeat / retell——「要求背诵六十多首古诗」用 recite，请对方把刚说的话再说一遍用 repeat，读完故事用自己的话讲是 retell；④emotion / mood / spirit——看不见的情绪是 emotion（couldn't see any emotion in him），天气带来的心境是 mood（rainy days put everyone in a depressed mood），精气神是 spirit（her spirit rose at the approach of the summer holidays）；⑤actual / realistic / practical——新娘比实际年龄显小五岁用 actual age，投资回报要有 realistic expectations，修老房子的经验是 practical experience。",
+        "精确选词直接服务高考写作与读后续写：应用文里一个精确动词胜过三个形容词的堆叠；读后续写的动作链更要靠多样精确的动词避免重复。它也是读的能力——阅读的词义猜测题考的就是「这个语境里该取哪个义」。建议建一个「笼统词替换本」：左边写 good、important、make happen，右边抄下查到的精确替换和例句，每次作文前翻一遍、写完再更新，一个学期下来就是你的私人升级词典。"
+      ],
+      "methods": [
+        {
+          "name": "笼统词升级三步",
+          "steps": [
+            "圈：标出作文里所有笼统词（good / bad / important / make happen）",
+            "查：查英英词典或近义词组，按语境挑精确词",
+            "验：新词放回原句回读，检查搭配与语气是否成立"
+          ],
+          "tip": "口诀：good 是懒词，精确才加分；圈出它，换掉它，再读一遍。"
+        },
+        {
+          "name": "因果动词五选",
+          "steps": [
+            "cause：直接肇因（事故、疾病、灾害）",
+            "lead to：一步步引出某个结果",
+            "result in：强调最终导致的结果",
+            "bring about：促成变化、带来转变",
+            "be responsible for：带归因、追责的口气"
+          ],
+          "tip": "口诀：肇因 cause，引出 lead to，终局 result in，促变 bring about，担责 responsible。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用 cause 的适当形式补全句子：Between 20 and 25 percent of all annual carbon dioxide emissions are ____ by the destruction of tropical forests. 并说明为什么选这个动词。",
+          "solution": "填 caused。森林被毁是碳排放的直接肇因，cause 表「直接导致」，本句是被动式 are caused by（由……引起）；borrowed / invented / decorated 与因果语境无关。",
+          "difficulty": 1,
+          "pitfall": "are caused by 是「被……引起」，介词固定用 by，别写成 caused from。"
+        },
+        {
+          "question": "actual / realistic / practical 三选一填空：① You need to have ____ expectations of the returns from investments.　② The bride appeared five years younger than her ____ age.　③ Mr Liu has a lot of ____ experience in restoring historic buildings.",
+          "solution": "① realistic——对投资回报要抱「现实可行」的期望；② actual——比「实际年龄」显小五岁；③ practical——修缮老房子的「实操」经验。口诀：可行的 realistic，事实上的 actual，动手干的 practical。",
+          "difficulty": 2,
+          "pitfall": "actual 强调「真实数字、事实」，别与「现实合理的」realistic 混为一谈。"
+        },
+        {
+          "question": "recite / repeat / retell 三选一：① Could you ____ what you just said?　② Students are required to ____ over 60 ancient poems or works of prose.　③ If you have finished reading the story, please try to ____ it in your own words.",
+          "solution": "① repeat——请对方把刚说的话再说一遍；② recite——凭记忆背诵；③ retell——用自己的话复述。区分点：repeat 原样再说，recite 背出原文，retell 换自己的话讲。",
+          "difficulty": 2,
+          "pitfall": "in your own words 是 retell 的标志，见到它别选 recite。"
+        }
+      ],
+      "mistakes": [
+        "作文里 good / important 满天飞，读者抓不到具体信息——笼统词只是「占位符」，不是表达。",
+        "把 cause 与 result in 随意互换：cause 接直接肇因（暴雨 caused 洪水），result in 强调最终结果，位置和语气都不同。",
+        "只背中文释义不看英文例句，一写就用错搭配——近义词必须连例句一起记。",
+        "以为近义词可以任意互换；每组词都有自己的高频语境，换了语境就要重新验证搭配。"
+      ],
+      "source": {
+        "unit": "各单元词汇板块",
+        "pages": [
+          1,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选出符合语境的精确表达：A breakdown in the computer system ____ yesterday's chaos in the subway station.",
+          "options": [
+            "was responsible for",
+            "was fond of",
+            "was afraid of",
+            "was proud of"
+          ],
+          "answer": "A",
+          "solution": "电脑故障「导致了」地铁混乱，且带归因口气，用 was responsible for；be fond of 是「喜爱」，be afraid of「害怕」，be proud of「自豪」，都与因果无关。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P28·近义动词辨析（cause / be responsible for / bring about / lead to / result in 及其例句）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全莫奈与印象派的语段：As one of the most ____ Impressionist painters, Claude Monet was impressed by the visual effects of the steam engine.",
+          "options": [
+            "influential",
+            "invisible",
+            "delicious",
+            "comfortable"
+          ],
+          "answer": "A",
+          "solution": "「最有影响力的」用 influential：莫奈受蒸汽机视觉效果吸引，后来画了十二幅巴黎火车站；invisible 看不见的、delicious 美味的、comfortable 舒适的，均不合语境。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P4·莫奈与印象派语篇选词填空（be fond of / emerge / influential / in particular / purchase 等）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "升级下面的句子，把笼统的 make 换成精确动词：The heavy rain made the river rise and made many houses under water. 最合适的升级是？",
+          "options": [
+            "The heavy rain caused the river to rise and left many houses under water.",
+            "The heavy rain repeated the river to rise and forgot many houses under water.",
+            "The heavy rain recited the river to rise and told many houses under water.",
+            "The heavy rain borrowed the river to rise and decorated many houses under water."
+          ],
+          "answer": "A",
+          "solution": "「暴雨使河水上涨」是直接肇因，用 caused；「房屋被淹在水中」用 left（使处于某种状态）。把笼统的 make 升级为精确动词，正是本知识点的核心策略；其余选项的动词与搭配均不成立。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P28·「使发生」五动词辨析变式（make 的精确升级）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从你最近一篇英语作文里圈出全部笼统词（good / bad / important / make 等），每个至少给出一个精确替换并造一句新句，整理成「替换卡」；下次动笔前先翻卡片再写作。",
+          "answer": "示例：good → fascinating（The story about the Antarctic explorers is fascinating.）；make happen → lead to（Staying up late can lead to poor sleep.）",
+          "solution": "精确替换要连例句一起存档；写作前翻卡片相当于「预升级」，比写完再改效率更高，也逼着自己在语境里选词，一学期就能攒出专属的精确词库。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_09",
+      "summary": "跨文化交流先补背景再求共鸣：误会来自文化差异而非恶意，化解靠三步——解释自己的文化逻辑，必要时真诚道歉，最后找到共同热爱。",
+      "explanation": [
+        "语料里的跨文化语段给出两条路径。一条是「把我们的文化讲给世界」：面向外国观众的中国艺术展览公告会把朝代、年代一一注明（From Shang to Qing: Chinese Art Through the Ages），水墨动画的演讲要先向不熟悉中国画的听众解释 ink wash painting 与齐白石，《清明上河图》则被称为世界上最著名的中国画之一；另一条是「把世界的文化引进来」：俳句本是日本诗歌形式，却 very popular with English writers；English speakers also enjoy poems from China, those from the Tang Dynasty in particular——大量唐诗被译成英文。这些语段共同说明：跨文化交流的关键是主动补充背景、寻找共通情感。",
+        "文化像不同的操作系统：同一个动作，不同系统解读不同。你按中式谦虚回答「哪里哪里」，对方的系统里没有这个程序，就显示「错误」——他以为你真的在自我贬低，或是在否决他的夸奖。绝大多数跨文化冲突不是有人使坏，而是两个系统互发了乱码。所以化解的第一原则是：别急着给对方定罪，先想想「他是不是在按他的文化规则运行」；同样，自己引发误会时，也要想到「我的好意没有被翻译过去」。",
+        "冲突与误会三步化解：第一步解释——把文化背景讲清楚，句型如 In our culture, ... / It is a way of showing ...（在我们文化里，这是表达……的方式）；第二步道歉——如果确实让对方不适，就真诚致歉：I'm sorry if I came across the wrong way.（如果表达得让你不舒服，抱歉，我不是那个意思）；第三步求同——把话题拉回共同点：艺术、诗歌、家庭、美食都是通用语言，We both love ... / Art speaks to everyone.。三步可按需组合，核心是「先降温，再解释，最后牵手」。",
+        "三个高频误区：一是谦辞直译出口——别人夸 You speak English well!，回答 No, no, my English is very poor. 在中文里是客气，直译过去对方会当真并感到困惑，更好的回应是 Thank you. I'm still learning.；二是把道歉等同于认错——道歉是照顾对方感受，不代表人格有亏，该道歉时爽快道歉反而显得成熟；三是把解释变成说教——解释的目的是让对方理解你，不是证明对方错了，先共情（I understand why you feel that way.）再解释，效果完全不同。",
+        "跨文化语用已进入高考应用文与口语情境题：给外国笔友写信介绍中国节日、接待交换生、国际交流营的自我介绍，考的都是「补充背景＋寻找共通」。把「解释—道歉—求同」练成条件反射，未来留学、国际网络社区交流、对外文化传播都用得上；再往深处走，翻译与比较文化（唐诗英译、俳句西传）本身就是跨文化能力的高级形态——能站在两种文化之间当桥梁的人，走到哪里都受欢迎。"
+      ],
+      "methods": [
+        {
+          "name": "误会化解三步",
+          "steps": [
+            "解释：讲清文化背景——In our culture, ... / It is a way of showing ...",
+            "道歉：若确有冒犯，真诚致歉——I'm sorry if I came across the wrong way.",
+            "求同：拉回共同热爱——We both love ... / Art speaks to everyone."
+          ],
+          "tip": "口诀：先降温，再解释，最后求同牵手。"
+        },
+        {
+          "name": "求同三找",
+          "steps": [
+            "找共同爱好：音乐、绘画、诗歌、美食",
+            "找共同情感：思念家人、渴望友谊、追逐梦想",
+            "找共同价值：勤奋、诚实、尊敬长辈——各文化里都受敬重"
+          ],
+          "tip": "口诀：爱好、情感、价值观——三样总有一款相通。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "外国朋友参观中国艺术展后问：「Why are the dynasties and dates written next to every exhibit?」（为什么每件展品旁都标着朝代和年份？）你的最佳回应是什么？",
+          "solution": "把它当作「补充背景」的机会，耐心解释：中国画讲究传承脉络，朝代与年份能帮外国观众理解作品的来历与风格——从商代青铜到明清绘画跨越三千多年，这正是面向外国观众的展览公告一一标注朝代年份的原因。对他们来说这是必要的文化背景，而不是多余的细节。",
+          "difficulty": 1,
+          "pitfall": "别以为对方在挑刺；他只是缺少背景信息，主动补背景正是跨文化表达的基本功。"
+        },
+        {
+          "question": "英语读者特别喜爱唐诗英译，日本俳句在英语写作者中也很流行。这给跨文化交流的最大启示是什么？",
+          "solution": "唐诗与俳句能被英语世界接受，靠的是诗里共通的美与真挚情感——美的体验与情感可以跨越语言与文化，这正是「求同」策略最有力的文化证据；翻译不必一字不差，理解也不会因差异而不可能，外语学习更不止于背单词。",
+          "difficulty": 2,
+          "pitfall": "「求同」不是要求对方变得和自己一样，而是找到双方都能共鸣的东西。"
+        },
+        {
+          "question": "你请外国朋友吃饭，按习惯不断给他夹菜，他露出为难的神色并说 Thanks, but I really can't eat more.。请按「解释—道歉—求同」写出一组得体的应对。",
+          "solution": "解释：In our culture, serving food to guests is a way of showing warmth and care.（给客人夹菜是表达热情与关心的方式）；道歉：I'm sorry I didn't notice you were full.（抱歉没注意到你已经饱了）；求同：Next time, let's order whatever you like.（下次按你的口味点菜）。三步完成：讲清好意、照顾感受、给出双方都满意的方案。",
+          "difficulty": 3,
+          "pitfall": "只说 I'm sorry 而不解释，对方下次遇到同样情况仍会困惑；先解释好意再道歉，误会才算真正化解。"
+        }
+      ],
+      "mistakes": [
+        "把文化差异当敌意直接反击——大多数冲突是「系统乱码」，不是恶意，先降温再处理。",
+        "谦辞直译出口（No, no, my English is very poor.），对方当真后气氛更尴尬；换成 Thank you. I'm still learning. 更得体。",
+        "只道歉不解释，或者把解释变成说教——先共情，再讲文化背景，别急着证明对方错。",
+        "求同时贬低自己或对方的文化（my culture is boring）——求同的前提是互相尊重，两边的文化都值得骄傲。"
+      ],
+      "source": {
+        "unit": "选择性必修三文化单元",
+        "pages": [
+          1,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "外国笔友看到你画的水墨画后问：「Why don't you use bright colors?」（为什么不用鲜艳的颜色？）最能体现「解释」策略的回应是？",
+          "options": [
+            "Because bright colors are ugly.",
+            "Because in Chinese ink wash painting, dark and light shades of ink plus white space themselves express light and shadow.",
+            "I don't want to tell you.",
+            "Why do you always ask strange questions?"
+          ],
+          "answer": "B",
+          "solution": "「解释」策略＝讲清文化逻辑：水墨画以墨色浓淡与留白表现光影意境，不靠鲜艳色彩。A、C、D 带攻击性，会把交流推向冲突而不是理解。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P6·水墨动画与中国画话题（ink wash animation film / ink wash painting / Qi Baishi）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语料提到 English speakers also enjoy poems from China, those from the Tang Dynasty in particular.。最适合作为这条信息「跨文化启示」的理解是？",
+          "options": [
+            "唐诗里的人类共通情感能打动不同语言的读者",
+            "英语读者只对唐诗感兴趣",
+            "中国诗歌必须放弃原有形式才能走向世界",
+            "翻译会把诗歌的美全部丢失"
+          ],
+          "answer": "A",
+          "solution": "唐诗经翻译仍被英语世界喜爱，说明思乡、亲情、自然之美这些共通情感能跨越语言——这正是「求同」的依据；B、C、D 都与原文信息不符。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P51·俳句与唐诗英译（English speakers also enjoy poems from China）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "交换生 Alice 在联欢会上夸你 Your English is so good!，你习惯性回答 No, no, my English is very poor.，Alice 一脸困惑地走开了。意识到误会后，你最得体的后续做法是？",
+          "options": [
+            "以后见到她绕着走，等她自己想通",
+            "找到她解释：在中国文化里这是谦虚的说法，并向她道谢",
+            "向老师投诉 Alice 反应过度",
+            "从此再也不接受任何夸奖"
+          ],
+          "answer": "B",
+          "solution": "误会源于文化差异：谦辞直译会被当真。按「解释＋求同」处理——说明这只是表达谦虚的方式，再补一句 Thank you. I'm still learning. 让对话回到正向；回避、投诉和极端自我否定都解决不了问题。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P51·俳句与唐诗英译（跨文化交流语段）变式（谦虚回应的文化差异）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从生活、新闻或影视里找一个真实的跨文化误会案例，用三步写出应对话术：一句解释（In our culture, ...）、一句道歉（I'm sorry ...）、一句求同（We both ...），并与同学分角色演一遍；然后互换文化视角再演一次。",
+          "answer": "示例（案例：对方当面拆开礼物）：解释 In our culture, opening a gift right away may seem impatient, but I know you mean well. 道歉 I'm sorry if I looked unhappy just now. 求同 We both care about giving and receiving gifts with respect.",
+          "solution": "互换视角是点睛之笔：站到对方的文化里重看同一场景，你会发现自己「被冒犯」的动作，在对方的规则里可能恰恰是礼貌。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_10",
+      "summary": "高考阅读四大题型各有一把钥匙：细节靠定位比对，主旨靠首末句与高频词，推理靠证据链，词义靠上下文；先辨型再动笔，一题一策。",
+      "explanation": [
+        "四大题型在语料里都有「官方样本」。细节题问具体事实，比如 What are the three stages of the habit cycle?——原文写得明明白白：先是 cue（触发信号），再是 routine（惯常行为），然后是 reward（奖赏）；坏习惯的例子也按这三环展开：感到不开心（cue）→吃大量零食（routine）→感到开心（reward）。主旨题问 mainly about / best title / purpose，语料明确提示：段落主旨常在首句或末句；气候变化语篇的标题 CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION 本身就是全文主旨的句式示范。推理题的关键定义是：To infer means to guess something based on the evidence——推断必须以证据为基础，从人物的言行推断品质与情感。词义题如 What do the highlighted words mean?，要求结合语境用自己的话解释生词；语料里的赏析范文直接演示了查证过程：hold fast 意为 to hold onto something，barren 意为 empty。",
+        "四个题型就是四种侦探任务：细节题是「对指纹」——回现场找原话逐字比对；主旨题是「看全城地图」——别把一条街当成整座城；推理题是「顺着脚印推」——脚印到哪儿推到哪儿，不能凭空飞；词义题是「问邻居」——生词的意思往往写在它旁边的句子里。拿到题目先认出自己接的是哪种案子，工具才不会拿错；很多阅读失分，不是读不懂文章，而是用细节题的刀去切主旨题的蛋糕。",
+        "「先辨型再解题」四套组合拳：①细节题——题干划出关键词（人名、数字、术语如 cue），回原文定位，逐项比对，警惕偷换时间、张冠李戴、以偏概全；②主旨题——读首末句、找高频复现词，自问 What is it mainly about?，选项太宽（比全文还大）或太窄（只覆盖某段）都排除；③推理题——每一步都问「原文哪句话支持我」，常见问法 Why did the author mention ... / What can we infer from the text；④词义题——找上下文线索：定义句（refers to / means）、举例句（for example / such as）、转折对比（but / however），把猜出的意思代回原句验证通不通。",
+        "四个「条件反射」级陷阱：①细节题选项只要偷换了时间、对象或范围中的一个词，整句作废——比如把「1914 年的南极」悄悄换成「今天的北极」；②推理题里「我觉得对」不算数，原文没提的再合理也不选，一步之外的推论都是过度推理；③主旨题里最吸引人的具体细节往往正是「以偏概全」的陷阱项——写极地熊的照片，不等于全文只讲极地熊；④词义题最危险的是「背过的第一个意思」——熟词僻义专考这个：barren 你背的是「贫瘠的」，放进 Life is a barren field / Frozen with snow 里取的是「荒芜、空无一物」的语境义。",
+        "四大题型是整个阅读板块的地基：七选五靠主旨概括与逻辑衔接，读后续写靠推理人物情感与情节走向，完形填空靠词义的语境判断。建议「一篇四练」：同一篇语篇，自己出一道细节、一道主旨、一道推理、一道词义题并写出解析——站上出题人的视角，你会比埋头刷题更快看穿选项套路，四个题型从「四道关」变成「四张牌」。"
+      ],
+      "methods": [
+        {
+          "name": "先辨型再解题",
+          "steps": [
+            "读题干关键词定题型：What / How many / When→细节；mainly about / best title / purpose→主旨；infer / suggest / Why did the author→推理；What does the word ... mean→词义",
+            "细节：定位关键词→逐项与原文比对",
+            "主旨：首末句＋高频词→排除太宽太窄",
+            "推理：找证据句→只推一步不过度",
+            "词义：上下文线索→代回原句验证"
+          ],
+          "tip": "口诀：先辨型，再定位；细节比对，主旨收网，推理循证，词义问邻。"
+        },
+        {
+          "name": "词义猜测四线索",
+          "steps": [
+            "定义线索：refers to / means / that is",
+            "举例线索：for example / such as",
+            "对比线索：but / however / unlike",
+            "代入验证：把猜出的意思放回原句读一遍"
+          ],
+          "tip": "口诀：上下文是词典，定义、例子、转折三处先看。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇举例：当我们感到不开心→吃很多不健康零食→感到开心。在这个习惯循环里，「吃很多零食」属于哪一环？三环的顺序是什么？",
+          "solution": "属于 routine（惯常行为）。三环依次是：cue（感到不开心，触发信号）→ routine（吃零食，作出的惯常反应）→ reward（感到开心，获得的奖赏）。记住「信号—反应—奖赏」的顺序，细节题直接与原文比对即可。",
+          "difficulty": 1,
+          "pitfall": "cue 是「触发信号」而不是坏习惯本身，别把「感到不开心」当成循环里的行为。"
+        },
+        {
+          "question": "南极探险日记写道：Shackleton calmly called us together. / Shackleton himself threw away all his gold. But to our surprise, he allowed Hussey to keep his banjo.（沙克尔顿沉着地把大家召集起来；他扔掉了自己全部的金子，却出人意料地允许哈西留下班卓琴）。由此推断 Shackleton 是怎样的人？",
+          "solution": "冷静、以身作则、体恤士气：calmly 说明临危不乱；扔掉金子说明物资优先、与船员同甘共苦；留班卓琴说明他明白音乐能鼓舞士气——后文 Hussey often plays it to keep our spirits up 正是佐证。推断的每一步都有原文言行支撑。",
+          "difficulty": 2,
+          "pitfall": "只推一步即可：若再推出「他其实并不富有」就属于过度推理，原文没有依据。"
+        },
+        {
+          "question": "诗句 Life is a barren field / Frozen with snow.（人生是冰封雪盖的原野）中，barren 是什么意思？你靠哪条上下文线索猜出来的？",
+          "solution": "barren 意为「荒芜的、空无一物的（empty）」。线索有二：一是并列意象 frozen with snow（冰封雪盖、寸草不生）；二是与上句 Life is a broken-winged bird（折翼之鸟）并列，都在写失去梦想后的荒凉。赏析范文也直接印证：barren 意为 empty。",
+          "difficulty": 2,
+          "pitfall": "别只凭背过的「贫瘠的」硬套；词义题取的是本语境义，代回诗句读得通才算对。"
+        }
+      ],
+      "mistakes": [
+        "不辨题型就回原文乱找：细节题要精确定位，主旨题要通读收网，工具拿错白费时间。",
+        "推理题用常识代替原文证据——「原文没说，但我认为」是推理题的头号大忌。",
+        "主旨题选了只概括某一段的选项（以偏概全），或选了比全文范围还大的「万金油」选项。",
+        "词义题按自己背过的第一个意思选，不看上下文——熟词僻义专考这一点。"
+      ],
+      "source": {
+        "unit": "高考题型综合训练",
+        "pages": [
+          1,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇举例：当我们感到不开心（cue）时吃大量不健康零食，吃完感到开心（reward）。语篇给出的「改掉这个坏习惯」的办法是？",
+          "options": [
+            "把 routine 换成更积极的行为，比如不开心时听喜欢的音乐",
+            "把 cue 换成开心",
+            "把 reward 换成难过",
+            "跳过 habit cycle，全靠意志硬扛"
+          ],
+          "answer": "A",
+          "solution": "原文方案正是替换惯常行为：feel unhappy again (cue)，rather than eat snacks, we could listen to some of our favourite music instead (routine), which will make us feel relaxed (reward)。cue 与 reward 无需强行更换，改 routine 才是关键——典型的细节比对题。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必三 P15·习惯循环替换例（cue—listen to favourite music instead—routine—feel relaxed—reward）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "「Which of the following is the best title for the text?」这类题干属于哪类题型？对应的解题策略是？",
+          "options": [
+            "细节题——定位关键词逐项比对",
+            "主旨题——抓首末句与高频词，排除太宽太窄",
+            "推理题——顺着证据链只推一步",
+            "词义题——找定义与举例线索"
+          ],
+          "answer": "B",
+          "solution": "best title 问全文标题，属于主旨题；策略是抓首末句与高频复现词，再排除范围过宽或过窄的选项。气候变化语篇的标题 CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION 正是「话题＋呼吁」式主旨的范例。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必三 P26·气候变化语篇标题（CLIMATE CHANGE REQUIRES THE WORLD'S ATTENTION）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把解题策略与题型配对，配对错误的一项是？",
+          "options": [
+            "细节题——回原文定位，警惕偷换与张冠李戴",
+            "主旨题——问自己 What is it mainly about，看首末句",
+            "推理题——To infer means to guess based on the evidence",
+            "词义题——选自己背过的第一个词义，不必看上下文"
+          ],
+          "answer": "D",
+          "solution": "词义题恰恰相反：必须回到语境取义，用定义（refers to）、举例、转折等线索猜词后，再代回原句验证；背过的第一个意思常是陷阱（熟词僻义）。前三项配对都正确。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必三 P39·推断与释义策略（To infer means to guess something based on the evidence / What do the highlighted words mean）变式（题型—策略配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "任选一篇你做过的英语阅读文章，仿照四大题型各出一道题（细节、主旨、推理、词义各一），写出答案与解析；与同学交换互做，再互相点评「这道题真正考的是什么」。",
+          "answer": "示例：细节——How many men were left on Elephant Island?（22 人）；主旨——选 best title；推理——从日记言行推断人物品质；词义——结合上下文解释一个生词。",
+          "solution": "出题视角是最高效的题型训练：要出一道词义题，你就必须先找到上下文线索；要出一道主旨题，你就必须先摸清文章骨架。四个题型从「四道关」练成「四张牌」。",
           "difficulty": 3
         }
       ]
