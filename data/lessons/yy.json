@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 15,
+  "lessonCount": 27,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -1962,6 +1962,1543 @@
           ],
           "answer": "C",
           "solution": "轮换方法能把看、听、说、用四关都查到，不会的词做卡片定期复查，单词才记得牢、用得出。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_01",
+      "summary": "新朋友见面，用 I'm from… 报上来自哪个国家，再用 Where are you from? 问一问对方，一句话交到全世界的朋友。",
+      "explanation": [
+        "开学第一面就热闹：同学互相说 Welcome back!（欢迎回来）、Nice to see you again.（又见面啦）。老师宣布 We have two new friends today.（今天我们有两位新朋友），新朋友站起来自报家门：Hi, I'm Zhang Peng. I'm from Shandong. Hi, I'm Amy. I'm from the UK. Hi, I'm Sarah. I'm from the USA. Hi, I'm Mike. I'm from Canada. 最后一句 What about you?（你呢？）把话头递给每个人。接着认识国家词：China（中国）、Canada（加拿大）、the USA（美国）、the UK（英国），后来又添上 Australia（澳大利亚）。别人问 Where are you from?（你来自哪里？），就用 I'm from… 回答；介绍第三个人时说 This is…，再用 He's a teacher. / She's a student. 补上一句他的身份。",
+        "I'm from… 就像在地图上插一面小旗：我来自这里。Amy 的小旗插在英国，Mike 的插在加拿大，你的小旗插在中国。班里转来新同学时，大家围过去问『你从哪里来呀』，用英语说就是 Where are you from? 会问这一句、会答这一句，全世界的小朋友都能聊到一块儿，一句自我介绍就是友谊的开头。",
+        "见面介绍分三步走：第一步打招呼，说 Hi! 或 Nice to meet you.；第二步报名字和国家，I'm…（名字）. I'm from…（国家）.；第三步把问题抛回去，What about you? 或直接问 Where are you from? 记住 I'm from 后面直接跟国家名，UK 和 USA 前面要加 the。介绍别人时先说 This is…，男的说 He's…，女的说 She's…，再补上 student、teacher 这样的身份词。",
+        "最容易混的是『国家加不加 the』：the USA、the UK 必须带 the，China、Canada、Australia 前面什么都不加。he 和 she 也要盯紧：he 指男的、she 指女的，介绍 Miss White 要说 She's a teacher.，顺口溜记：he 他 she 她，男 he 女 she。还有，Where are you from? 问的是『你来自哪里』，别用 I'm fine, thank you. 来回答——那是回应『你好吗』的。",
+        "学会 I'm from…，以后遇到新同学、新老师都能大方开口；国家词还会出现在地图、国旗、运动会的入场式里，处处用得上。He's/She's 更是大功臣：接下来介绍家人、以后介绍朋友和动物，都要靠它们开口。每天对着镜子说一遍 I'm… I'm from…，再问自己一句 Where are you from?，口语越说越顺。"
+      ],
+      "methods": [
+        {
+          "name": "见面三步介绍法",
+          "steps": [
+            "第一步打招呼：Hi! / Nice to meet you.",
+            "第二步报名字和国家：I'm… . I'm from… .",
+            "第三步反问对方：Where are you from?",
+            "听到回答别忘了说一句 Welcome!"
+          ],
+          "tip": "一问好、二报名、三问来自哪里；I'm from 后面跟国家，UK、USA 前面带 the。"
+        },
+        {
+          "name": "国家词配对记",
+          "steps": [
+            "把国家词和国旗、代表性动物配成对：China—熊猫、Australia—袋鼠、Canada—枫叶、the USA、the UK",
+            "大声读一遍：China、Canada、Australia、the USA、the UK",
+            "玩快问快答：听 I'm from… 判断是哪个国家",
+            "说错的重读三遍，直到全部配齐"
+          ],
+          "tip": "中英美加澳，China、USA、UK、Canada、Australia；UK、USA 前带 the，China、Canada 光杆跑。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "新同学说：Hi, I'm Sarah. I'm from the USA. 她来自哪个国家？",
+          "solution": "美国。the USA 是美国；英国是 the UK，别看花眼。",
+          "difficulty": 1,
+          "pitfall": "USA 和 UK 都带 the，只差一个字母：USA 美国，UK 英国。"
+        },
+        {
+          "question": "别人问你 Where are you from?，你来自中国，该怎么回答？",
+          "solution": "I'm from China. 意思是『我来自中国』，China 首字母要大写。",
+          "difficulty": 1,
+          "pitfall": "别答 I'm fine, thank you.，那是回答『你好吗』的。"
+        },
+        {
+          "question": "把两句补充完整，填 He's 或 She's：介绍女同学 Amy——___ a new student.；介绍男老师 Mr Jones——___ a teacher.",
+          "solution": "She's a new student. He's a teacher. 女用 She's，男用 He's。",
+          "difficulty": 2,
+          "pitfall": "别只看后面的 student、teacher 猜，要看被介绍的人是男是女。"
+        }
+      ],
+      "mistakes": [
+        "国家名首字母要大写：China、Canada、the UK，写成 china、uk 就错了。",
+        "the USA 是美国、the UK 是英国，两个都带 the 但不是同一个国家；China、Canada、Australia 前面不加 the。",
+        "介绍别人分男女：he 他 she 她，男 he 女 she；把 Miss White 说成 He's a teacher. 就闹笑话了。",
+        "Where are you from? 问的是『你来自哪里』，别用 I'm fine, thank you. 回答，那是回应『你好吗』的。"
+      ],
+      "source": {
+        "unit": "Unit 1 Welcome back to school!",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "开学第一天，四位新朋友自报家门。Amy 说：Hi, I'm Amy. I'm from the UK. 她来自哪个国家？",
+          "options": [
+            "英国",
+            "美国",
+            "加拿大",
+            "澳大利亚"
+          ],
+          "answer": "A",
+          "solution": "the UK 是英国；the USA 才是美国。听清 I'm from 后面的国家词就能配对。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P5·国家词（China Canada USA UK）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "老师问 Wu Binbin：Where are you from? 他来自中国，该怎样回答？",
+          "options": [
+            "I'm fine, thank you.",
+            "I'm from China.",
+            "I'm nine.",
+            "Welcome back!"
+          ],
+          "answer": "B",
+          "solution": "I'm from China. 意思是『我来自中国』；I'm fine 是回答身体好不好的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P7·对话问答（Where are you from? I'm from China.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式挑战：介绍你的女老师 Miss White，横线上选哪个词？This is Miss White. ___ a teacher.",
+          "options": [
+            "He's",
+            "She's",
+            "I'm"
+          ],
+          "answer": "B",
+          "solution": "Miss White 是女士，用 She's a teacher.；He's 用于男士。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P9·He's／She's 介绍变式（This is Miss White. She's a teacher.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "班里来了一位从澳大利亚来的新朋友。请你写出这一问一答，把对话补充完整：你问『你来自哪里』，他回答『我来自澳大利亚』。",
+          "answer": "Where are you from? — I'm from Australia.",
+          "solution": "先问 Where are you from?，再用 I'm from + 国家名回答；Australia 首字母要大写。问完别忘了补一句 Welcome!",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_02",
+      "summary": "举着家庭相册问 Who's that man/woman?，用 He's/She's my… 介绍爸爸妈妈和爷爷奶奶，全家人都能用英语说出来。",
+      "explanation": [
+        "这部分学的是照片问答。指着照片问：Who's that man?（那位男士是谁？）答 He's my father.（他是我爸爸）；Who's that woman?（那位女士是谁？）答 She's my mother.（她是我妈妈）。称呼一家子一起学：father（爸爸，昵称 dad）、mother（妈妈，昵称 mum）、man（男士）、woman（女士）；接着是 grandfather（爷爷或外公，昵称 grandpa）、grandmother（奶奶或外婆，昵称 grandma）、sister（姐姐或妹妹）、brother（哥哥或弟弟）。猜人游戏里问 Is he your father?，答 No, he isn't. He's my… 或 Yes, he is.。向朋友展示全家福，开口第一句是 This is my family.，然后一句一个 This is my father. 地往下数。",
+        "Who's that…? 就是『那个是谁』的英语问法，像举着家庭相册一个个指给朋友看：这位男士是谁？爸爸！那位女士是谁？妈妈！一问一答，全家人就都认识了一遍。有个有趣的地方：英语里爷爷和外公都叫 grandfather，奶奶和外婆都叫 grandmother，不像中文分得那么细；平时说话更常用昵称 grandpa、grandma，又短又亲热。",
+        "照片问答三步：第一步用 Who's that…? 提问，指男士用 man、指女士用 woman、指男孩用 boy、指女孩用 girl；第二步回答 He's/She's my…，my 后面接称呼；第三步想猜一猜就用 Is he/she your…?，回答 Yes, he/she is. 或 No, he/she isn't.。介绍全家从 This is my family. 开始，再按爸爸、妈妈、爷爷、奶奶一句句介绍。记人称口诀：he 他 she 她，男 he 女 she。",
+        "别把 man 和 woman 弄反：man 是男士、woman 是女士，问错词答句就跟着偏。He's 和 She's 更要盯紧：grandpa、dad、brother 是男的用 He's，grandma、mum、sister 是女的用 She's。还有 isn't——它是 is not 的缩写，中间的撇号不能丢，写成 isnt 就错了；回答 Is he your father? 要用 he 答：No, he isn't.，别答成 No, it isn't.",
+        "会介绍家人，就拿到了打开『家』这扇大门的钥匙：以后写我的家庭小短文、给笔友寄全家福照片配英文说明，开头都用得上 This is my family.。家人称呼还常和爱连在一起，像那首歌唱的 I love my father. I love my mother. They love me.。回家练一练：指着相册用英语把全家人介绍一遍，说得越顺，下次开口越自信。"
+      ],
+      "methods": [
+        {
+          "name": "照片问答三步法",
+          "steps": [
+            "指着照片上的人用 Who's that man/woman/boy/girl? 提问",
+            "回答 He's/She's my…，my 后面接称呼",
+            "想猜一猜就问 Is he/she your…?",
+            "用 Yes, he/she is. 或 No, he/she isn't. 收尾"
+          ],
+          "tip": "man 问男、woman 问女，he 他 she 她，男 he 女 she；my 后面接称呼，一问一答全认识。"
+        },
+        {
+          "name": "家庭称呼阶梯记",
+          "steps": [
+            "第一级爸妈：father（dad）、mother（mum）",
+            "第二级上一辈：grandfather（grandpa）、grandmother（grandma）",
+            "第三级同辈：brother、sister",
+            "指着全家福按阶梯从下往上说一遍 This is my…"
+          ],
+          "tip": "爸爸 father 简称 dad，妈妈 mother 简称 mum；grand 打头是上一辈，grandpa 爷爷、grandma 奶奶。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "指着照片上的老爷爷问：Who's that man? 他是我爷爷，用英语怎么回答？",
+          "solution": "He's my grandfather. 口语里也可以说 He's my grandpa.",
+          "difficulty": 2,
+          "pitfall": "爷爷是男士要用 He's；grandfather 别错写成 grandmother。"
+        },
+        {
+          "question": "Who's that woman? — She's my mother. 这组问答在问谁、答谁？",
+          "solution": "问：那位女士是谁？答：她是我的妈妈。woman 指成年女士。",
+          "difficulty": 1,
+          "pitfall": "woman 是女士，girl 是小女孩，两个词别混。"
+        },
+        {
+          "question": "猜人游戏里，同伴问：Is she your mother? 她真的是你妈妈，该怎样回答？",
+          "solution": "Yes, she is. 问句里用 she，答句也要用 she。",
+          "difficulty": 2,
+          "pitfall": "别答成 Yes, it is. 或 Yes, he is.，问 she 就用 she 答。"
+        }
+      ],
+      "mistakes": [
+        "man 指男士、woman 指女士，Who's that 后面接错词，答句就跟着答偏。",
+        "He's/She's 别混：he 他 she 她；grandpa、dad、brother 用 He's，grandma、mum、sister 用 She's。",
+        "isn't 是 is not 的缩写，撇号不能丢；回答 Is he…? 要用 he 答成 Yes, he is.，别答成 Yes, it is.",
+        "英语的 grandfather 一个词当爷爷和外公用，grandmother 当奶奶和外婆用，中文的细分英语里没有，别奇怪。"
+      ],
+      "source": {
+        "unit": "Unit 2 My family",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Wu Binbin 指着家庭照片问：Who's that woman? 妈妈回答：She's my mother. 照片上的女士是 Wu Binbin 的谁？",
+          "options": [
+            "妈妈",
+            "爸爸",
+            "妹妹",
+            "奶奶"
+          ],
+          "answer": "A",
+          "solution": "She's my mother. 意思是『她是我妈妈』；woman 问的是女士，答句 She's 告诉我们是女性家人。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P15·Who's that woman? She's my mother.（mother father woman man 词卡）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Who's that man? —___ my father.",
+          "options": [
+            "She's",
+            "He's",
+            "I'm"
+          ],
+          "answer": "B",
+          "solution": "爸爸是男士，用 He's my father.；She's 用于女士，I'm 用于说自己。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P14·对话（Who's that man? He's my father.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式猜人游戏：同伴指着你家的照片问 Is she your mother? 她真的是你妈妈，该选哪个回答？",
+          "options": [
+            "Yes, she is.",
+            "No, he isn't.",
+            "Yes, it is."
+          ],
+          "answer": "A",
+          "solution": "Is she your mother? 用 she 提问，肯定回答就是 Yes, she is.；It 用于物，不用于人。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P17·猜人问答变式（Is she your mother? Yes, she is.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "像 Wu Binbin 那样介绍全家：先写一句开场白 This is my family.，再写一句介绍你的爷爷（可以用昵称 grandpa）。写出这两句英语。",
+          "answer": "This is my family. This is my grandpa.（写 This is my grandfather. 也对）",
+          "solution": "开场先说 This is my family.，再一句一个 This is my… 介绍；爷爷是男士，后面提到时要用 He's。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_03",
+      "summary": "动物园里 Look at that giraffe. It's so tall!，用 tall、fat、big 这些形容词给动物画像，又快又形象。",
+      "explanation": [
+        "动物园里的英语从『看』开始：Look at the elephant.（看那头大象）It has a long nose.（它有长鼻子）；仰头看到长颈鹿喊 Look at the giraffe. It's so tall!（它好高呀！）；看到猴子说 Look at that monkey. It's so fat!（它好胖呀！）。形容词分两批学：第一批 tall（高的）、short（矮的；短的）、fat（胖的）、thin（瘦的），配着口令边说边做——Be fat. Be fat. Be fat, fat, fat! 这样节节高；第二批 big（大的）、small（小的）、long（长的）、short（短的），口令像 Big, big, big! Make your eyes big.（把眼睛睁大）。说动物的身体用 It has…：It has small eyes and big ears. It has a short tail. It has a big body.。动物园里还挂着一句提醒：Don't feed the animals!（不要投喂动物！）",
+        "It's so tall! 里的 so 是『真、好』的意思，加上它就像给形容词踩了一脚油门：tall 是『高』，so tall 就是『好高好高』！踮起脚也够不着长颈鹿的肚子时，脱口而出的那句惊叹正是它。形容词是给动物画像的彩笔：胖瘦用 fat 和 thin，高矮用 tall 和 short，大小用 big 和 small，长短用 long 和 short——两两配对，一说出口，动物的样子就在眼前立起来了。",
+        "描述动物两句话就够：第一句先指给大家看，Look at that giraffe.；第二句给评价，It's so tall! 想说身体部位就换成 It has a long nose. / It has big ears.。把反义词配成对记：tall—short（高—矮）、fat—thin（胖—瘦）、big—small（大—小）、long—short（长—短）。做口令操时听到 Be tall! 就踮脚站高，听到 Be short! 就蹲下变矮，边做边说记得最牢。",
+        "short 一词两用：说个子 It's short. 是『矮』，说尾巴 It has a short tail. 是『短』，先看它形容谁。so 别随便丢：It's tall 只是陈述『它高』，It's so tall! 才是『好高呀』的惊叹。两个句型各管各的：说整体样子用 It's…，说身体部位用 It has…，不能说成 It has tall。指远处的东西用 that（Look at that giraffe.），指近处的才用 this，指错了对方会看错方向。",
+        "这几个形容词是万金油，不光说动物：说大树 It's tall.，说小猫 It's fat.，说自己的铅笔盒 It's small.，都行。以后读英语小故事，描写主人公的高矮胖瘦全靠这几个词打底；到动物园游玩时，试着用 It's so… 和 It has… 给看到的动物各配一句话，还有那句要记牢——Don't feed the animals! 做个文明小游客。"
+      ],
+      "methods": [
+        {
+          "name": "两句话描述法",
+          "steps": [
+            "第一句引起注意：Look at that/this…",
+            "第二句给评价：It's (so) + 形容词",
+            "说身体部位换句型：It has a/an + 形容词 + 部位",
+            "想加强惊叹就在形容词前加 so"
+          ],
+          "tip": "Look at 先指路，It's 后面跟形容；说部位用 It has，加个 so 更惊讶。"
+        },
+        {
+          "name": "反义词配对记",
+          "steps": [
+            "高矮一对：tall—short",
+            "胖瘦一对：fat—thin",
+            "大小一对：big—small",
+            "长短一对：long—short",
+            "抽一张词卡，抢答它的反义词"
+          ],
+          "tip": "高矮 tall short 一对宝，胖瘦 fat thin 手拉手，大小 big small、长短 long short 各成对。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "猴子胖胖的：Look at that monkey. It's so ___. 横线上填哪个形容词？说出完整句子。",
+          "solution": "fat——It's so fat! 猴子胖胖的用 fat，so 让惊叹更足。",
+          "difficulty": 1,
+          "pitfall": "别填 tall，长颈鹿才 tall；猴子这里该夸它圆滚滚的 fat。"
+        },
+        {
+          "question": "反义词配对：tall、fat、big 的反义词各是哪个词？",
+          "solution": "tall—short（高—矮），fat—thin（胖—瘦），big—small（大—小）。",
+          "difficulty": 2,
+          "pitfall": "short 既配 tall 又配 long：一对说高矮、一对说长短，别只记一个意思。"
+        },
+        {
+          "question": "读谜面猜动物：It's big. It has a short tail. It's black and white. 它是谁？",
+          "solution": "It's a panda. 大大的身子、短短的尾巴、黑白两色，三样凑齐就是熊猫。",
+          "difficulty": 2,
+          "pitfall": "别看到 big 就选大象，先抓住最特别的那条——黑白色才是熊猫的招牌。"
+        }
+      ],
+      "mistakes": [
+        "short 一词两用：说个子 It's short. 是『矮』，说尾巴 It has a short tail. 是『短』，先看它形容谁再理解。",
+        "so 是加强语气的『真、好』：It's so tall! 是惊叹『好高呀』，丢掉 so 惊叹味就没了。",
+        "说整体样子用 It's…，说身体部位用 It has…，两个句型别串门：不能说 It has tall。",
+        "看远处的动物用 that：Look at that giraffe.；近处的才用 this，指错了对方会看错方向。"
+      ],
+      "source": {
+        "unit": "Unit 3 At the zoo",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "动物园里，大家抬头看到长颈鹿，齐声说：Look at that giraffe. Wow! It's so ___.",
+          "options": [
+            "tall",
+            "short",
+            "fat",
+            "thin"
+          ],
+          "answer": "A",
+          "solution": "长颈鹿个子最高，It's so tall! 是『它好高呀！』；short、fat、thin 都对不上长颈鹿。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P24·对话（Look at that giraffe. Wow! It's so tall!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "和小伙伴玩形容词口令操：听到 Be short! 应该做哪个动作？",
+          "options": [
+            "蹲下来变矮",
+            "踮起脚变高",
+            "挺起肚子装胖",
+            "张开双臂变长"
+          ],
+          "answer": "A",
+          "solution": "Be short! 是『变矮』的口令，蹲下就对了；踮脚是 Be tall!，挺肚子是 Be fat!。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P25·口令操（Be fat／thin／tall／short）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式猜动物：谜面说 It's big. It has a short tail. It's black and white. 它是下面哪只动物？",
+          "options": [
+            "panda 熊猫",
+            "elephant 大象",
+            "giraffe 长颈鹿",
+            "monkey 猴子"
+          ],
+          "answer": "A",
+          "solution": "黑白色、大身子、短尾巴是熊猫的招牌；大象的长鼻子、长颈鹿的高个子都对不上。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P29·描述猜动物变式（It's big. It has a short tail. It's black and white. It's a panda.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给家里的宠物或心爱的玩具编一个英语小谜语：用上 It's…（一个形容词）和 It has…（一个部位特点），让家人猜。写出你的两句谜面和谜底。",
+          "answer": "示例：It's fat. It has a short tail. It's a cat.（谜底可以换成你自己的动物）",
+          "solution": "先想最特别的一两条特征写进谜面，别人猜不出再逐条补充；形容词从 big、small、long、short、fat、thin、tall 里挑。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_04",
+      "summary": "找东西先问 Where is my car?，用 in、on、under 说清位置，猜一猜就问 Is it in your bag?，回答 Yes, it is. 或 No, it isn't.",
+      "explanation": [
+        "这部分从一段找东西的对话学起：Uh-oh! Where is my pencil box?（哎呀！我的铅笔盒在哪儿？）—Look! It's in your desk.（看！在你桌子里。）—And your pencil! It's under your book!（还有你的铅笔！在你书下面！）自己忘了东西放哪儿，当事人会拍拍头说 Silly me!（我真傻！）。接着学三个方位介词：in（在…里）、on（在…上）、under（在…下面），配上 desk（书桌）、chair（椅子）两个词，边说边做指令：Put your foot under your chair. Put your hand on your chair. Put your arm in your desk. Put your hand under your desk.；还会指着问 Where is the ruler?（尺子在哪儿？）—It's under the chair!。再往后学玩具词 cap（帽子）、ball（球）、car（小汽车）、boat（小船）、map（地图），猜位置用一般疑问句：Is it in your bag? Is it in your toy box?（在你的玩具箱里吗？），回答 Yes, it is.（是的，在。）或 No, it isn't.（不，不在。）",
+        "in、on、under 用家里的事一演就懂：书放进书包，是 in the bag；橡皮摆在桌面上，是 on the desk；拖鞋躲在床底下，是 under the bed。Where is…? 就是问“…在哪儿”，回答用 It's… 开头，意思是“它在…”。Is it…? 是带着猜的问法，像捉迷藏时猜“是不是藏在书包里”，猜对了答 Yes, it is.，猜错了换一个地方接着猜。",
+        "找东西分三步走：第一步问 Where is my…?，把丢了的东西说出来；第二步猜位置 Is it in/on/under the…?，一个地方一个地方排查；第三步按事实回答，在就说 Yes, it is.，不在就说 No, it isn't.，全部找齐了别忘了笑自己一句 Silly me!。记三个介词配上口诀：in 里面、on 上面、under 下面，再用手比划——握拳包住是 in，手掌平放是 on，手掌压到下面是 under。",
+        "最容易混的有三处：一是 in、on、under 要看东西和参照物的真实关系，摆在“上面”用 on，装在“里面”用 in，吊在“正下方”用 under，球在盒子上、盒子里、盒子下，说法各不相同；二是 Where is…? 问的是地点，要用 It's in/on/under… 回答，不能答 Yes 或 No，那是回答 Is it…? 的；三是 No, it isn't. 里 isn't 是 is not 的缩写，中间的小撇号丢了，句子就不规范了。",
+        "找东西的游戏天天能玩：把一件文具藏起来让家人猜，你来当出题人，Is it in your bag? 问一轮，介词就练一遍。捉迷藏里还会碰到更多的方位词，比如故事里躲猫猫的小朋友冒出一句 I'm behind you!（我在你后面！）的 behind。把 in、on、under 用顺了，以后描述自己的房间、看地图找地点都离不开这些小词。"
+      ],
+      "methods": [
+        {
+          "name": "找东西三步法",
+          "steps": [
+            "第一步：先问 Where is my…?（我的…在哪儿？）",
+            "第二步：猜位置 Is it in/on/under the…?，一个地方一个地方排查",
+            "第三步：在就答 Yes, it is.，不在就答 No, it isn't.，找齐了笑说一句 Silly me!"
+          ],
+          "tip": "in 里面 on 上面 under 下面；Where 来问路，Is it 来猜谜，Yes, it is. / No, it isn't. 回答它。"
+        },
+        {
+          "name": "动作演示法",
+          "steps": [
+            "听指令做动作：Put your hand on your chair. 就把手放椅子上",
+            "Put your arm in your desk. 把胳膊伸进桌肚",
+            "Put your foot under your chair. 把脚放到椅子底下",
+            "边做边大声说出介词，动作和单词绑在一起记"
+          ],
+          "tip": "手到、脚到、口到，介词一演就会。"
+        },
+        {
+          "name": "藏宝问答法",
+          "steps": [
+            "挑一件玩具藏进家里的角落",
+            "家人用 Is it in your toy box? 这样的话来猜",
+            "你只回答 Yes, it is. 或 No, it isn't.",
+            "找到后一起说完整句 It's under the bed!，再换人藏"
+          ],
+          "tip": "每天藏一物，三个介词一周熟。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "橡皮在铅笔盒里面，用英语说 It's ___ the pencil box. 空格里该填哪个介词？",
+          "solution": "填 in。在…里面用 in：It's in the pencil box.",
+          "difficulty": 1,
+          "pitfall": "见到“放”就顺手写 on，先想清楚东西是在“里面”还是“上面”。"
+        },
+        {
+          "question": "—Is it in your bag? 帽子其实不在书包里，该怎么回答？",
+          "solution": "No, it isn't. 不在就用否定回答，语气完整，还能接着补一句真实位置。",
+          "difficulty": 2,
+          "pitfall": "只说一个 No 就完了，要把 it isn't 带上，句子才完整。"
+        },
+        {
+          "question": "文字场景：小汽车摆在地图上面。选出正确的英语句子。",
+          "solution": "It's on the map. 摆在…上面用 on。",
+          "difficulty": 2,
+          "pitfall": "写成 It's in the map.，“放在…上面、摆在…上面”都要用 on。"
+        }
+      ],
+      "mistakes": [
+        "in、on、under 三个词看混：装在…里面用 in，摆在…上面用 on，藏在…下面用 under，动手比划一下再下笔。",
+        "用 Yes 或 No 回答 Where is…?。Where is…? 问的是地点，要答 It's in/on/under…；Yes/No 是回答 Is it…? 的。",
+        "No, it isn't. 写成 No, it isnt.。isn't 是 is not 的缩写，中间的撇号不能丢。",
+        "猜位置忘了加 Is：要说 Is it in your bag?，只说 It in your bag? 缺了 Is 就不成句子。"
+      ],
+      "source": {
+        "unit": "Unit 4 Where is my car?",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "文字描述：铅笔在书下面。下面哪一句英语说对了？",
+          "options": [
+            "It's in the book.",
+            "It's on the book.",
+            "It's under the book.",
+            "It's under the desk."
+          ],
+          "answer": "C",
+          "solution": "铅笔在书“下面”，用 under：It's under the book.；书下面的东西不在“里面”（in）也不在“上面”（on）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P38·Where is my pencil box? It's in your desk. It's under your book."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Mum, where is my cap? —Is it in your bag? —____（帽子其实在玩具箱里）",
+          "options": [
+            "Yes, it is.",
+            "No, it isn't. It's in my toy box.",
+            "Yes, I do.",
+            "It's a cap."
+          ],
+          "answer": "B",
+          "solution": "帽子不在书包里，先用 No, it isn't. 否定，再补充正确位置 It's in my toy box.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P41·Mum, where is my cap? Is it in your bag? Is it in your toy box?（Yes, it is./No, it isn't.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "捉迷藏变式：小猫躲在椅子底下，选出正确的英语句子。",
+          "options": [
+            "The cat is on the chair.",
+            "The cat is under the chair.",
+            "The cat is in the chair.",
+            "The chair is under the cat."
+          ],
+          "answer": "B",
+          "solution": "在…下面用 under：The cat is under the chair.；注意主语是猫，别把 The chair is under the cat. 说反了。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P43·Is it under the chair? 变式（方位句换成小猫捉迷藏）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你和朋友玩捉迷藏，朋友数完 1, 2, 3 ... 10 问 Where are you? 你躲在桌子底下，最合适的一句回答是：",
+          "options": [
+            "I'm under the table!",
+            "I'm fine, thank you.",
+            "Yes, it is.",
+            "I see ten."
+          ],
+          "answer": "A",
+          "solution": "躲在桌子底下就喊 I'm under the table!；被发现前还能学故事里的样子俏皮一句 I'm behind you! 以后还会学到 behind（在…后面）这样的新方位词，把说位置的本领越练越强。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_05",
+      "summary": "问别人喜不喜欢用 Do you like pears?，喜欢答 Yes, I do.，不喜欢答 No, I don't.，水果词一起记，还有一句 An apple a day keeps the doctor away.",
+      "explanation": [
+        "这部分从一段买水果的对话学起：Honey, let's buy some fruit.（宝贝，我们买点水果吧。）—Do you like oranges?（你喜欢橙子吗？）—No, I don't.（不，我不喜欢。）—I like apples.（我喜欢苹果。）你答 Yes, I do. 时，对方会递上来一句 Here you are.（给你。），你再说 Thanks.（谢谢。）。接着学水果词：pear（梨）、apple（苹果）、orange（橙子）、banana（香蕉），后来又添了 watermelon（西瓜）、strawberry（草莓）、grape（葡萄）。说自己不喜欢用 I don't like grapes.；别人请你吃、你不想要，可以客气地说 Sorry, I don't like grapes. Can I have some bananas?（抱歉，我不喜欢葡萄。我能要些香蕉吗？）；对方说什么你同样不喜欢，就接一句 Me, neither.（我也不喜欢。）歌谣里还藏着一句谚语：An apple a day keeps the doctor away.（一天一苹果，医生远离我。）",
+        "do 是问句里请来的小帮手：问的时候带着 Do you like…?，回答时也要把 do 还回去——Yes, I do. 或 No, I don't.。like 后面直接跟水果，问“这一类爱不爱”时水果用复数：Do you like pears?（你喜欢梨吗？）自己喜欢什么，就用 I like… 说出来，不喜欢就用 I don't like…，一句话把心意讲明白。",
+        "问答分三步：第一步听清问句开头是不是 Do you like…?；第二步心里想清楚喜欢还是不喜欢；第三步回答 Yes, I do. 或 No, I don't.，最好再补一句真话，比如 I like apples.，把话题接下去。记水果词可以跟着小歌谣打节奏：I eat apples. I eat grapes. I eat bananas — yummy! I eat oranges. I eat pears. A fruit bowl in my tummy!（水果肚里装，单词顺口忘不了。）",
+        "容易混的有三处：一是 Do you like…? 的回答用 I do / I don't，别答成 Yes, it is.——那是回答 Is it…? 的；二是 Yes, I do. 不能缩成 Yes, I like.，do 要跟着 Yes 走完整；三是 like 后面表示一类水果用复数 pears、oranges，别写单个的 Do you like pear?。还有 don't 中间的撇号，少了就不规范。",
+        "学会这组问答，生活里马上能用：跟家人逛水果店，一句 Honey, let's buy some fruit. 就把英语带进了日子。An apple a day keeps the doctor away. 值得抄进积累本，以后还会遇到更多有趣的英文谚语；Me, neither. 也是和伙伴聊天时好用的小回应，把“同样不喜欢”说得又快又地道。"
+      ],
+      "methods": [
+        {
+          "name": "do 助手问答法",
+          "steps": [
+            "听问句：开头是 Do you like…? 才用 do 来回答",
+            "想清楚心意：喜欢就答 Yes, I do.，不喜欢就答 No, I don't.",
+            "补一句真话：I like apples. 或 I don't like pears.，把话接下去"
+          ],
+          "tip": "问 do 答 do，Yes, I do. No, I don't. 不迷路。"
+        },
+        {
+          "name": "水果卡轮问法",
+          "steps": [
+            "把 pear、apple、orange、banana 做成水果卡",
+            "再添 watermelon、strawberry、grape 凑齐七张",
+            "抽一张问家人 Do you like pears?",
+            "答完互换角色，轮流出题，七张全问遍"
+          ],
+          "tip": "七张水果卡，抽到哪张问到哪。"
+        },
+        {
+          "name": "水果摊演一演",
+          "steps": [
+            "一人当店主，一人当顾客",
+            "顾客开口：Honey, let's buy some fruit. Do you like oranges?",
+            "店主递上 Here you are.，顾客说 Thanks.",
+            "不喜欢就换：Sorry, I don't like grapes. Can I have some bananas?"
+          ],
+          "tip": "Here you are. 递过去，Thanks 说回来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Do you like pears? —____（你很喜欢梨）横线上该填哪句？",
+          "solution": "Yes, I do. 喜欢就用肯定回答 Yes, I do.",
+          "difficulty": 1,
+          "pitfall": "答成 Yes, it is.——那是回答 Is it…? 的句式，问“你”要用 I do。"
+        },
+        {
+          "question": "你不喜欢葡萄，但想要一些香蕉，怎么有礼貌地说？",
+          "solution": "Sorry, I don't like grapes. Can I have some bananas? 先说明不喜欢，再客气地提出想要什么。",
+          "difficulty": 2,
+          "pitfall": "只说一句 No! 太生硬，加上 Sorry 和 Can I have…? 才礼貌。"
+        },
+        {
+          "question": "伙伴说他不喜欢西瓜，你也不喜欢，接哪句最地道？",
+          "solution": "Me, neither.（我也不喜欢。）对方否定的意见你也一样时，就用这句接话。",
+          "difficulty": 2,
+          "pitfall": "以为要说 Me, too.——too 是跟着肯定走的，“同样不”要用 neither。"
+        }
+      ],
+      "mistakes": [
+        "Do you like pears? 答成 Yes, it is.。问的是“你”，要用 I do / I don't 来回答。",
+        "No, I don't. 写成 No, I dont.。don't 是 do not 的缩写，中间的撇号不能丢。",
+        "like 后面的水果该用复数却用单数：问一类水果要说 Do you like pears?，别写 Do you like pear?",
+        "别人问 Do you like oranges? 只摇头不吭声。英语问答要有来有回，至少说一句 No, I don't.，想客气些再补 I like apples."
+      ],
+      "source": {
+        "unit": "Unit 5 Do you like pears?",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Do you like pears? —____（你很喜欢梨）",
+          "options": [
+            "Yes, I do.",
+            "Yes, it is.",
+            "No, I don't.",
+            "I'm fine."
+          ],
+          "answer": "A",
+          "solution": "Do you like…? 的肯定回答是 Yes, I do.。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P46·Do you like pears? Yes, I do."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Honey, let's buy some fruit. Do you like oranges? —No, I don't. —____（你喜欢苹果）",
+          "options": [
+            "I don't like apples.",
+            "It's an apple.",
+            "I like apples.",
+            "Yes, I do."
+          ],
+          "answer": "C",
+          "solution": "不喜欢橙子但喜欢苹果，接着说 I like apples. 把自己的喜好讲清楚。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P48·Honey, let's buy some fruit. Do you like oranges? No, I don't. I like apples."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型套用变式：桌上放着一篮草莓，朋友问 Do you like strawberries? 你很喜欢，应该回答：",
+          "options": [
+            "Yes, it is.",
+            "Yes, I do.",
+            "No, it isn't.",
+            "Yes, I am."
+          ],
+          "answer": "B",
+          "solution": "水果换成什么词都一样，Do you like…? 的肯定回答都是 Yes, I do.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P52·strawberry grape watermelon 变式（新水果词套用问答）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "关于 An apple a day keeps the doctor away. 这句谚语，下面哪种理解是对的？",
+          "options": [
+            "每天吃点苹果，身体棒，不容易生病",
+            "医生看到苹果会生气",
+            "苹果必须一天吃一个，多一个都不行",
+            "生病了只要吃苹果就能好"
+          ],
+          "answer": "A",
+          "solution": "这是提醒大家常吃水果、健康饮食的谚语，不是真说医生怕苹果。把它抄进积累本，以后还会遇到更多有趣的英文谚语。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_06",
+      "summary": "数东西有几件，问 How many birds do you see?，答 I see 16.；数字词从 eleven 排到 twenty，拼写大多有规律，几个小调皮要单独记。",
+      "explanation": [
+        "这部分先在放风筝的场景里学问数量：Look at the kites!（看那些风筝！）How many kites do you see?（你看见了多少只风筝？）—1, 2 ... I see 12!；数错了会有人提醒：No! The black one is a bird!（不对！黑色那只是小鸟！）问自己拥有的用 How many crayons do you have?（你有多少支蜡笔？），先说 Open it and see!（打开看看！）再数：1, 2 ... 16. You have 16 crayons!（你有 16 支蜡笔！）数字词分两批学：先学 eleven（11）、twelve（12）、thirteen（13）、fourteen（14）、fifteen（15），再学 sixteen（16）、seventeen（17）、eighteen（18）、nineteen（19）、twenty（20）。歌谣里还能边数边算：10 and 8 makes 18. 4 times 5 makes 20. Can you count with me?（十加八得十八，四个五得二十，跟我一起数，好不好？）",
+        "How many…? 就是问“有几个”。see 是眼睛看到的，have 是自己手里有的——问 do you see 就答 I see…，问 do you have 就答 I have…。数字词还像搭积木：sixteen 就是 six 接上 -teen，seventeen、nineteen 也这么搭，会拼个位数，十几的数字就一大半会写了。",
+        "记拼写抓规律：13 到 19 大多在个位数词后面加 -teen，比如 six→sixteen，seven→seventeen，nine→nineteen；三个“小调皮”要单独记：13 是 thirteen（不是 threeteen），15 是 fifteen（不是 fiveteen），18 是 eighteen（整词只有一个 t）；12 的 twelve 和 20 的 twenty 也各记各的。数数时手指点着实物一个一个点，点完再报总数 I see 12!，又准又快。",
+        "容易错的有四处：一是 How many 后面的名词要带复数，说 How many birds do you see?，不能只说 How many bird…；二是问 do you see 就用 I see 答，问 do you have 就用 I have 答，别答串了；三是拼写别想当然，thirteen 开头是 thir-，fifteen 开头是 fif-，twenty 结尾是 -ty 不是 -teen；四是数错别慌，像书里那样，小伙伴会帮你指出 The black one is a bird!，重新数一遍就好。",
+        "数字的本领在生活中处处用得上：上楼梯数层数、看车牌念号码、买东西点个数，都能用英语数一数。歌谣里 10 and 8 makes 18. 还把英语和算术连在了一起。把 1 到 20 数顺、拼熟，以后学更大的数字、学时间表达，都有了底气。"
+      ],
+      "methods": [
+        {
+          "name": "规律拼词法",
+          "steps": [
+            "先写个位数词：six、seven、nine",
+            "13 到 19 大多在后面接 -teen：sixteen、seventeen、nineteen",
+            "三个小调皮单独记：thirteen、fifteen、eighteen（整词只有一个 t）",
+            "12 和 20 也单独记：twelve、twenty"
+          ],
+          "tip": "thir- fif- 别写错，eighteen 一个 t，twenty 结尾是 ty。"
+        },
+        {
+          "name": "see / have 对号答法",
+          "steps": [
+            "听清问句尾巴：是 do you see 还是 do you have",
+            "问 do you see 就答 I see…，问 do you have 就答 I have…",
+            "数字可以直接写阿拉伯数字：I see 16.",
+            "数大数目先一个一个点，再报总数"
+          ],
+          "tip": "see 看 have 有，问啥答啥不错位。"
+        },
+        {
+          "name": "生活数数法",
+          "steps": [
+            "上下楼梯用英语数层数",
+            "水果摆上桌，问家人 How many apples?",
+            "和家人互相考 11 到 20 的拼写，轮流出题",
+            "会说会拼的数字打个勾，缺哪个补哪个"
+          ],
+          "tip": "楼梯当音阶，数字天天见。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "数字 15 的英文词是 fifteen 还是 fiveteen？",
+          "solution": "fifteen。15 的拼写特殊，开头是 fif-，不是把 five 直接接上 -teen。",
+          "difficulty": 1,
+          "pitfall": "顺着 five 的样子拼成 fiveteen，就掉进小陷阱了。"
+        },
+        {
+          "question": "—How many kites do you see? —1, 2 ... ____（看见 12 只）横线上怎么答？",
+          "solution": "I see 12! 问的是看见多少，用 I see 加数字回答。",
+          "difficulty": 2,
+          "pitfall": "答成 I have 12.——have 是“自己拥有”，眼睛看见的要用 see。"
+        },
+        {
+          "question": "找找错：How many crayon do you have? 这句哪里不对？",
+          "solution": "crayon 要用复数 crayons。How many 后面的名词表示“多个”，要加 -s。",
+          "difficulty": 2,
+          "pitfall": "只顾着数数，忘了给名词添上复数。"
+        }
+      ],
+      "mistakes": [
+        "把 13 写成 threeteen、15 写成 fiveteen。正确写法是 thirteen、fifteen，这两位的开头不按常规出牌。",
+        "eighteen 多写一个 t，写成 eightteen。eight 本身就以 t 结尾，eighteen 整词只有一个 t。",
+        "How many 后面的名词忘加复数：要说 How many birds do you see?，不能只说 How many bird…",
+        "问 do you have 却用 I see 回答。问拥有答 I have…，问看见答 I see…，先听清问句再开口。"
+      ],
+      "source": {
+        "unit": "Unit 6 How many?",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "数字「15」对应的英文词是：",
+          "options": [
+            "fifty",
+            "fifteen",
+            "five",
+            "fourteen"
+          ],
+          "answer": "B",
+          "solution": "15 是 fifteen，开头是 fif-，别和 14 的 fourteen 混淆。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P59·How many cars do you see? One, two, three ... I see eleven. I see fifteen."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Look at the kites! How many kites do you see? —1, 2 ... ____",
+          "options": [
+            "I have 12.",
+            "I see 12!",
+            "It's 12.",
+            "Yes, I do."
+          ],
+          "answer": "B",
+          "solution": "问 do you see，就用 I see 加数字回答：I see 12!",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P58·Look at the kites! How many kites do you see? 1, 2 ... I see 12!"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "拼写规律变式：下面四个数字词里，只有一个是拼对的，它是：",
+          "options": [
+            "threeteen",
+            "fiveteen",
+            "eighteen",
+            "twoty"
+          ],
+          "answer": "C",
+          "solution": "eighteen 拼对了（整词只有一个 t）；13 应为 thirteen，15 应为 fifteen，20 应为 twenty。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P62·sixteen seventeen eighteen nineteen twenty 变式（拼写找对错）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你和朋友比赛数苹果，你最先数到 20，这时最开心的一句宣布是：",
+          "options": [
+            "18, 19, 20. I won!",
+            "I'm sorry.",
+            "No, it isn't.",
+            "Me, neither."
+          ],
+          "answer": "A",
+          "solution": "数到 20 就能喊 18, 19, 20. I won!（我赢啦！）数字的本领在游戏里最显眼，生活里报楼层、记车牌、点人数都靠它，以后还要用它学更大的数。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_07",
+      "summary": "辅音+短元音+辅音三个音一碰，c-a-t 拼出 cat；记住五个短元音，见到没学过的小单词也能自己拼出来。",
+      "explanation": [
+        "这部分学的拼读规律叫 CVC：辅音+元音+辅音，三个字母抱成一个小单词，中间的元音读短音。五个短元音各带一批例词：短音 a 有 cat（猫）、bag（书包）、dad（爸爸）、hand（手），圈词里还有 Canada、panda；短音 e 有 red（红色）、leg（腿）、ten（十）、pen（钢笔），还有 seven、pencil；短音 i 有 six（六）、pig（猪）、gift（礼物）、milk（牛奶），还有 big、it；短音 o 有 dog（狗）、box（盒子）、doll（娃娃）、mom（妈妈），还有 on、body、orange；短音 u 有 duck（鸭子）、cut（切）、run（跑）、fun（有趣），还有 under、up。最后用一首填空歌谣把五个元音一起复习：My h_nd has five little fingers, My l_gs have t_n little toes, My d_g has one cute little face, But my d_ck has one b_g nose. 空里依次填 a、e、e、o、u、i——hand、legs、ten、dog、duck、big。",
+        "26 个字母像一支乐队，辅音是鼓点，元音是主唱。CVC 词里主唱换了人：中间坐 a，整词就跟着发 a 的短音，像 cat 里那样又短又脆；中间坐 u，就发 u 的短音，像 duck 里那样。短元音是『急性子』，一声就完、绝不拖长——这也是它和字母本音最大的不同：字母 a 的名字读『诶』，可在 cat 里它只肯短促地『哎』一下就收住。",
+        "拼读三步走：第一步指认，点着字母说出 c、a、t 三个字母名；第二步发音，先读开头的辅音，再读中间的短元音，最后读尾音；第三步连读，三个音由慢到快连成一口气，k-æ-t 读出 cat。练熟了再反过来玩：听到 cat 想出 c-a-t，听写就从这里起步。最后背口诀：a e i o u 五兄弟，各占 CVC 中间位；cat、ten、pig、dog、duck，谁坐中间读谁音。",
+        "最要紧的是认准中间那个元音：big、pig、six 中间都是 i，都读 i 的短音；扫错了字母，音就全乱。短音 e 和短音 i 最像双胞胎：ten 嘴半开、声音更开，tin 嘴更扁、声音更细，拿 ten、pen、leg 和 six、pig 对着读，耳朵就分得清了。还有一个大坑：把 cat 读成『凯特』——那是读成了字母 a 的本音，CVC 词里的 a 只读短音，又短又促，一点不拖。",
+        "CVC 拼读是『见词能读、听音能写』的第一把钥匙：以后见到没学过的词，只要符合辅音+短元音+辅音，就能自己拼出读音；听到生词，也能倒着拆出该写哪几个字母。试着用这把钥匙拼一拼 p-i-g，再猜猜 h-a-t 是什么词——拼得越多，认词越快，读英语小故事时就不用一个一个等老师教了。"
+      ],
+      "methods": [
+        {
+          "name": "三音连读拼读法",
+          "steps": [
+            "点读三个字母：c、a、t",
+            "分别发音：/k/—/æ/—/t/",
+            "由慢到快连读：k-æ-t，读出 cat",
+            "盖住单词听音默拼，再对照检查"
+          ],
+          "tip": "辅音短元音辅音，三音相碰一口气；中间元音读短音，短促干脆不拖长。"
+        },
+        {
+          "name": "五元音对号入座",
+          "steps": [
+            "把 cat、bag、hand 排进 a 队，ten、pen、leg、red 排进 e 队",
+            "six、pig、gift、big 排 i 队，dog、box、doll、mom 排 o 队",
+            "duck、run、fun、cut 排 u 队",
+            "抽一张词卡，说出它中间的元音字母和短音，再读整词"
+          ],
+          "tip": "a e i o u 五兄弟，中间一把交椅轮流坐；cat、ten、pig、dog、duck，谁坐中间读谁音。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 c-a-t 三个音连起来拼读，拼出的是哪个词？",
+          "solution": "cat（猫）。c 读 /k/，a 读短音 /æ/，t 读 /t/，三个音连成 cat。",
+          "difficulty": 1,
+          "pitfall": "中间的 a 读短音，别读成字母名『诶』，把 cat 读成『凯特』。"
+        },
+        {
+          "question": "d-u-ck 按三音连读拼一拼，是哪个词？",
+          "solution": "duck（鸭子）。u 坐中间读短音，d 和 ck 一前一后合起来就是 duck。",
+          "difficulty": 1,
+          "pitfall": "别看到 d 开头就想到 dog；dog 中间坐的是 o，duck 中间坐的是 u。"
+        },
+        {
+          "question": "ten、pen、leg、big 四个词里混进来一个『卧底』——哪个词中间的元音字母和其它三个不一样？",
+          "solution": "big。ten、pen、leg 中间都是 e 读短音，big 中间是 i 读 i 的短音。",
+          "difficulty": 2,
+          "pitfall": "只盯着开头的 t、p、l 会看乱，要逐个认准每个词中间的元音。"
+        }
+      ],
+      "mistakes": [
+        "CVC 词中间的元音读短音：cat 的 a 读短促的 /æ/，不读字母名，把 cat 读成『凯特』就跑了调。",
+        "先认中间的元音再定音：big、pig、six 中间都是 i、读法相同；扫一眼首字母就开拼容易拼错。",
+        "拼读要三个音连成一口气：k-æ-t 拆成三截慢慢念不算会拼，要由慢到快连成 cat。",
+        "短音 e 和短音 i 最容易听混：ten 嘴半开、tin 嘴更扁；拿 ten、leg 和 six、pig 对着读，耳朵就灵了。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "三音连读 c-a-t，拼出的是哪个词？",
+          "options": [
+            "cat 猫",
+            "cap 帽子",
+            "bag 书包",
+            "can 罐头"
+          ],
+          "answer": "A",
+          "solution": "k-æ-t 连读就是 cat；cap 结尾辅音是 p，bag 开头是 b，can 结尾是 n——首尾辅音一变，词就换了。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P6·短元音 a 例词（cat bag dad hand）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "t-e-n 三个音一口气连读，读出的是哪个词？",
+          "options": [
+            "ten 十",
+            "pen 钢笔",
+            "leg 腿",
+            "red 红色"
+          ],
+          "answer": "A",
+          "solution": "t-e-n 连读是 ten；pen、leg、red 换了开头或结尾的辅音，词义就全不同了。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P16·短元音 e 例词（red leg ten pen）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式挑战：big 里的 i 读短音。照同样的方法把 p-i-g 连读拼出来，是哪个词？",
+          "options": [
+            "pig 猪",
+            "bag 书包",
+            "dig 挖",
+            "big 大"
+          ],
+          "answer": "A",
+          "solution": "中间的 i 不变、照读短音，换上开头的 p 和结尾的 g，拼出来就是 pig。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P26·短元音 i 例词变式（six pig gift milk big it）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 CVC 拼读法自己试拼两个没学过拼法的新词：p-i-g 拼出什么？h-a-t 又拼出什么？",
+          "answer": "pig（猪）；hat（帽子）",
+          "solution": "每个词都按辅音—短元音—辅音连读：p-ɪ-g 拼出 pig，h-æ-t 拼出 hat。以后见到短小陌生的词，都可以这样自己拼。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_08",
+      "summary": "歌谣和歌曲是英语的节拍器：拍着手跟节奏说唱，读响重音、连好连读，语感就在一拍一拍里长出来。",
+      "explanation": [
+        "书上的每个话题都配着歌谣和歌曲：认人认友的有 He and she. He and she. Boy and girl. You and me!，说家庭的有 The man is the father — tall, tall, tall!，逛动物园的有 Cat is fast. Rat is fat. See them run. Fun! Fun! Fun!，挑水果的有 Do you like pears? Yes, I do.，数数的有 One, two, three, four, five. Once I caught a fish alive.。歌谣句子短、爱重复、常常押韵，跟着节拍说唱着学，句子就唱进嘴巴里了。",
+        "为什么歌谣特别好记？因为它自带节奏。英语说起来像跳绳：重要的词落在拍子上，读得又响又长；the、a、my、I、to 这些小词像踮着脚尖，轻轻滑过去。tall, tall, tall! 三个 tall 一下一下踩在重拍上，越拍越有劲；Fun! Fun! Fun! 一个比一个干脆响亮，节奏感就是这样喊出来的。",
+        "跟唱三步走：第一步先听，不出声，用手或脚轻轻打拍子，找到节奏；第二步拍手跟读，一个重音词拍一下手，大词读响、小词读轻；第三步配动作说唱——fast 双手快摆，fat 摸摸肚子，tall 把手举高，How many 就掰手指头。遇到相邻好连的词就连起来：I eat apples 里 eat 和 apples 连成一口气，越说越顺口。",
+        "三个常见毛病要躲开：一是一字一顿像机器人，每个词读得一样重，节奏全无——记住大词响、小词轻；二是问句忘了尾巴上扬，像 Do you like pears? 这样的一般疑问句，句尾要往上一挑；三是光动嘴不动手，拍子丢了，重音也就散了。先拍准节奏，再说顺句子。",
+        "节奏感是语音语调的地基。歌谣说唱熟了，读句子时轻重自然分明，听对话时也更容易抓住关键词。以后遇到长句子、小故事，先找它的'节拍'，读起来就不打结。每天课后跟唱一首，一个月后你会发现自己的英语开始'有味儿'了。"
+      ],
+      "methods": [
+        {
+          "name": "拍手节奏法",
+          "steps": [
+            "先完整听一遍，不出声，用手轻轻打拍子找节奏",
+            "跟读时一个重音词拍一下手，大词读响、小词读轻",
+            "合上书配动作整段说唱，熟练了再慢慢加速"
+          ],
+          "tip": "重音拍手响，小词轻轻带。"
+        },
+        {
+          "name": "连读顺口法",
+          "steps": [
+            "把相邻好连的词找出来，比如 I eat apples 里的 eat 和 apples",
+            "前一个词的尾巴和后一个词的开头连成一口气",
+            "整句连读三遍，直到不打磕巴为止"
+          ],
+          "tip": "尾巴开头手拉手，一口气读完不打架。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "歌谣里唱 Cat is fast. Rat is fat. See them run. Fun! Fun! Fun! 哪个词连着出现三次，每次都踩在重拍上？",
+          "solution": "Fun! Fun! Fun! 三个 Fun 一个接一个落在重拍上，是整段歌谣的重音担当。",
+          "difficulty": 1,
+          "pitfall": "别只盯着 run，连着重复三次又踩拍的是 Fun!。"
+        },
+        {
+          "question": "说 I eat apples. I eat grapes. 时，怎么读最顺口？",
+          "solution": "把 eat 的结尾音和 apples、grapes 的开头音连起来，一口气读成 eat-apples、eat-grapes，这就是连读。",
+          "difficulty": 2,
+          "pitfall": "每个单词中间都停顿一下，节奏就断了。"
+        },
+        {
+          "question": "歌谣里一问一答：How many cars do you see? — One, two, three ... I see eleven.。问句和答句的句尾语调有什么不同？",
+          "solution": "问句句尾上扬，像把声音抛出去等回答；答句 I see eleven. 句尾下降，稳稳落地。",
+          "difficulty": 2,
+          "pitfall": "问句答句都读成平调，就没有一问一答的味道了。"
+        }
+      ],
+      "mistakes": [
+        "一字一顿像机器人，每个词读得一样重。要大词响、小词轻，拍子踩准。",
+        "一般疑问句句尾忘了上扬：Do you like pears? 的 pears 要往上挑。",
+        "只动嘴不动手，节奏全靠猜。拍手打拍子，重音才落得准。",
+        "歌词里有词不认识就整段不唱了。先跟着节奏哼下来，意思可以慢慢猜。"
+      ],
+      "source": {
+        "unit": "各单元 Let's chant / Sing",
+        "pages": [
+          2,
+          69
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "歌谣里唱 The man is the father — tall, tall, tall! 连续三次踩在重拍上的是哪个词？",
+          "options": [
+            "the",
+            "man",
+            "tall"
+          ],
+          "answer": "C",
+          "solution": "三个 tall 一个接一个落在重拍上，读的时候一个比一个响亮。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P15·歌谣（The man is the father — tall, tall, tall!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "说 I eat bananas — yummy! A fruit bowl in my tummy! 这两句时，最自然的读法是哪种？",
+          "options": [
+            "eat 和 bananas、in 和 my 都连起来，一口气读顺",
+            "每个单词后面都停顿一秒",
+            "把 yummy 拆成两半读"
+          ],
+          "answer": "A",
+          "solution": "相邻好连的音连起来读，节奏才顺，这也是歌谣上口的小秘密。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P49·歌谣（I eat apples. I eat grapes. A fruit bowl in my tummy!）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "歌谣里有两句问话：一句是 Do you like pears?（你喜欢吃梨吗），一句是 How many cars do you see?（你看见几辆车）。说唱时两句的句尾语调应该怎么处理？",
+          "options": [
+            "前者上扬，后者下降",
+            "都上扬",
+            "都下降"
+          ],
+          "answer": "A",
+          "solution": "Do you like pears? 是一般疑问句，句尾上扬等回答；How many cars do you see? 问的是具体内容，句尾下降，像在认真数数。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP三下 P59·歌谣（How many cars do you see?）变式（问句语调对比）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一首这个学期最喜欢的歌谣，配上拍手和动作表演给家人：重音词读响、问句句尾上扬、连读的地方一口气带过。唱完请家人当评委，在三颗星里给你打几颗。",
+          "answer": "完整说唱 1 首并请家人评分",
+          "solution": "每天课后跟唱一首，坚持一个月，重音、连读、语调都会跟着节拍长进嘴巴里。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_09",
+      "summary": "把学过的句型串成完整对话：一个场景认识新朋友，一个场景钻进果园摘水果，问与答手拉手连成一串。",
+      "explanation": [
+        "书后半部分的综合复习，把前面学过的本领放进两个大场景里。场景一是认朋友：Who's that boy? — He's my friend, John. — Hi, John. This is my friend, Wang Tong. — Nice to meet you, Wang Tong! — Nice to meet you, too. — Where are you from? — I'm from the USA. — You're tall! — Yes, I like sports.。场景二是果园摘水果：Look! So much fruit! — I can get the grapes. — I'm short. I can get the strawberries. — I'm big and tall. I can get the bananas. — 13 bananas! 20 grapes... — Where are the bananas? — Hey! I like bananas, too.。",
+        "为什么要串起来练？平时一个话题学几句，像一颗颗珠子；综合场景就是那根线，把问好、介绍、问国籍、夸个子、比本领、说喜好一次全穿上。真实生活里交新朋友、去果园玩，也是一口气说好多句，不会一句一句等你。",
+        "场景串联三步：第一步定场景定任务——这个场景里要办成什么事，是认识新朋友，还是帮大家摘到水果；第二步按事情的先后排句子——先问是谁，再介绍名字，再问从哪儿来，最后互相夸一夸、约着一起玩；第三步问答配对——把对话里的答句遮住自己补，再对照原句检查。升级玩法：和同学分角色演一遍。",
+        "几个容易串线的问答要分清：Who's that boy? 要用 He's… 回答，不能答 It's…；Where are you from? 问的是从哪儿来，要答 I'm from the USA.，答成 I'm fine, thank you. 就闹笑话了；I'm short 说人的时候是'我个子矮'，别理解成'我很短'；I can get the strawberries. 说的是本领——够得着，I like bananas. 说的是喜好，两件事别搅在一起。",
+        "能把七八个句型串成一段完整对话，说明这些句子真的变成你自己的了。以后遇到更长的故事、更多的场景，都用这招：先想场景任务，再排先后顺序，最后问答配对。假期里和家人演一演这两个场景，开学时嘴巴不会生锈。"
+      ],
+      "methods": [
+        {
+          "name": "场景串联法",
+          "steps": [
+            "先说清这个场景里要办成什么事",
+            "按事情先后把问句、答句排成队伍",
+            "遮住答句自己补，再分角色完整演一遍"
+          ],
+          "tip": "一条场景线，串起一串句。"
+        },
+        {
+          "name": "问答配对法",
+          "steps": [
+            "把问句和答句分别写成两排小卡",
+            "配对：Where are you from? 配 I'm from…，Who's that boy? 配 He's…",
+            "打乱重配，越配越快、越配越准"
+          ],
+          "tip": "问什么答什么，钥匙开对锁。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "对话补全：—Who's that boy? —He's my friend, John. —Where are you from, John? —____。John 来自美国，他该怎么回答？",
+          "solution": "I'm from the USA. 问句里有 from，答句也要用 I'm from… 来配。",
+          "difficulty": 1,
+          "pitfall": "别答成 I'm fine, thank you.，那是回答 How are you? 的。"
+        },
+        {
+          "question": "果园场景里，个子高的大个子说：I'm big and tall. I can get the bananas. 你个子小小的，够不着香蕉，你该怎么接话？",
+          "solution": "I'm short. I can get the strawberries. 先说自己个子矮，再说自己能够到的东西，一高一矮正好配合。",
+          "difficulty": 2,
+          "pitfall": "只说 I'm short. 不接 I can get…，对话就断在半路。"
+        },
+        {
+          "question": "把四句话排成一段通顺的对话：① Nice to meet you, too. ② This is my friend, Wang Tong. ③ Nice to meet you, Wang Tong! ④ Hi, John.",
+          "solution": "④②③①：先打招呼，再介绍朋友，然后问好，最后回应。",
+          "difficulty": 3,
+          "pitfall": "Nice to meet you, too. 是回应别人的问好，不能放在最前面。"
+        }
+      ],
+      "mistakes": [
+        "Who's that boy? 用 It's a boy. 回答。问人要用 He's… 或 She's…。",
+        "Where are you from? 答成 I'm fine, thank you.。一个问来处，一个问身体，答非所问。",
+        "句子排反了：还没介绍名字就先问 Where are you from?。按事情先后排队。",
+        "把 I'm short 理解成'我很短'。说人的时候它是'我个子矮'。"
+      ],
+      "source": {
+        "unit": "Recycle 1 & 2",
+        "pages": [
+          32,
+          69
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "综合场景里指着照片问：—Who's that man? —____。下面哪个回答正确？",
+          "options": [
+            "It's so tall!",
+            "He's Sarah's grandfather.",
+            "I'm from China."
+          ],
+          "answer": "B",
+          "solution": "问'那位男士是谁'，要用 He's… 回答身份：He's Sarah's grandfather.（他是萨拉的爷爷）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P34·综合复习（Find Sarah's family：Who's that man? He's/She's Sarah's …）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "果园对话：—I'm short. I can get the strawberries. —I'm big and tall. —____。高个子接哪句最合适？",
+          "options": [
+            "Where is my car?",
+            "I don't like bananas.",
+            "I can get the bananas."
+          ],
+          "answer": "C",
+          "solution": "前一句说个子矮、能够到草莓，个子高的自然接 I can get the bananas.（我能够到香蕉），一高一矮配合摘水果。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P66·综合复习对话（I'm short. I can get the strawberries. / I'm big and tall. I can get the bananas.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "四句话打乱了顺序：① Where are you from? ② He's my friend, John. ③ I'm from the USA. ④ Who's that boy? 排成一段通顺的对话，正确的顺序是哪个？",
+          "options": [
+            "④②①③",
+            "①②④③",
+            "②④③①"
+          ],
+          "answer": "A",
+          "solution": "先问 ④ Who's that boy?，答 ② He's my friend, John.，再问 ① Where are you from?，最后答 ③ I'm from the USA.。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP三下 P32·综合复习对话（Who's that boy? He's my friend, John.）变式（句子排序）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "和家人玩'认识新朋友'的角色扮演：让一个玩具当新朋友，你要用上 Who's that…? / He's (She's) my friend… / Where are you from? / I'm from… / Nice to meet you! 里的至少四句，完整演一遍。",
+          "answer": "用上至少 4 句完成一段表演",
+          "solution": "能连着用四句以上、问答都对得上，就算闯关成功；卡住的地方回到场景串联法，把先后顺序排一排。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_10",
+      "summary": "抄写英语整句有三关：句号问号感叹号各就各位，句首人名国家名和 I 要大写，I'm 的小撇号千万别弄丢。",
+      "explanation": [
+        "这学期抄写从单词升级到整句，先认三条规矩。第一，句末标点三兄弟：事情说完用句号 .，像 I'm from the UK.；在提问用问号 ?，像 Where are you from? Do you like pears?；感情强烈用感叹号 !，像 It's so tall! 13 bananas!。第二，大写规则：句子的第一个字母要大写；人名 Amy、John、Mike 要大写；国家名 the UK、the USA、China、Canada 要大写；还有一个特别的——I（我）不管站在句首还是句中，永远大写。第三，撇号：I'm、What's、He's、She's、don't、isn't 里的那一小撇，抄的时候别弄丢。",
+        "标点就像路口的红绿灯：句号是红灯，意思是'我说完了，请停'；问号是等回答的提示，意思是'该你说了'；感叹号是惊喜的小喇叭，'哇——'。大写字母像给重要的词戴帽子：名字是专属的，要戴帽；I 这个词天天站岗，帽子从不离头。这样一想，规矩就不是死记的条条了。",
+        "抄写三步：先看——用手指点着范句，把大写字母、标点、撇号一个一个找出来；再描——在四线三格里描红两遍，撇号小小的，站在中格靠上的位置，别描丢；后默——遮住原句默写一遍，再逐字母对照检查。默写时最容易丢的就是那一小撇和句末的小圆点。",
+        "四个高频错误现场：I 写成小写 i——错，我永远大写；I'm 抄成 Im——撇号掉了，两个词挤成一团；国家名写成 uk、china——错，要 UK、China；问句 Do you like pears 末尾写成句号——错，在提问就要用问号。抄完按'一标点、二大写、三撇号'的顺序查一遍，这些问题全都逃不掉。",
+        "整句抄写是写英语的地基。以后要写留言、写小短文，第一印象就来自工整的句子：标点清楚、大小写规矩、撇号到位，读的人一眼就舒服。养成抄完三查的习惯，比多抄十遍都管用。"
+      ],
+      "methods": [
+        {
+          "name": "先看描默法",
+          "steps": [
+            "看：手指点着范句，找出所有大写字母、标点和撇号",
+            "描：在四线三格里描红两遍，撇号小而靠上，别描丢",
+            "默：遮住原句默写，再逐字母对照，错了重默一遍"
+          ],
+          "tip": "一看二描三默写，标点大写不落单。"
+        },
+        {
+          "name": "抄完三查法",
+          "steps": [
+            "一查句末标点：说完句号、提问问号、惊叹感叹号",
+            "二查大写：句首、人名、国家名，还有永远大写的 I",
+            "三查撇号：I'm、What's、don't、isn't 的小撇在不在"
+          ],
+          "tip": "抄完别急着玩，三查过关才算完。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "歌曲里唱 I'm in a fat cat.。如果抄成 im in a fat cat，错在哪里？",
+          "solution": "两处：I 变成了小写 i，还丢了 I'm 的撇号。正确写法是 I'm in a fat cat.，句末还有句号。",
+          "difficulty": 1,
+          "pitfall": "撇号虽然小，丢了大不同：I'm 是'我是'，im 就不是词了。"
+        },
+        {
+          "question": "Where is my car? 和 Look! So much fruit! 两句，为什么一个用问号、一个用感叹号？",
+          "solution": "Where is my car? 在提问，等别人回答，用问号；Look! So much fruit! 是又惊又喜的喊声，感情强烈，用感叹号。",
+          "difficulty": 1,
+          "pitfall": "不是句句都随便点一点，先想想这句话是在问、在说，还是在惊叹。"
+        },
+        {
+          "question": "把 He's my friend, john. 抄正确，要改哪里？",
+          "solution": "john 是人名，要大写成 John：He's my friend, John.。撇号也别丢。",
+          "difficulty": 2,
+          "pitfall": "人名不光在句首要大写，藏在句子中间也要大写。"
+        }
+      ],
+      "mistakes": [
+        "I 写成小写 i。我（I）不管在句子哪里都大写。",
+        "I'm、What's 抄成 Im、Whats，撇号弄丢了。撇号小，但不能丢。",
+        "国家名小写：uk、usa、china。要写 UK、USA、China。",
+        "问句句末忘写问号，整句像流水账。抄完先查句末标点。"
+      ],
+      "source": {
+        "unit": "各单元书写练习",
+        "pages": [
+          2,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句抄写完全正确？",
+          "options": [
+            "im from the uk.",
+            "I'm from the UK.",
+            "i'm from The uk"
+          ],
+          "answer": "B",
+          "solution": "I 大写、撇号在位、国家名 UK 大写、句末有句号，四关全过才是 B。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P7·对话（Where are you from? I'm from the UK.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把 Where is my car 抄完整，句末应该加什么标点？",
+          "options": [
+            "句号 .",
+            "问号 ?",
+            "感叹号 !"
+          ],
+          "answer": "B",
+          "solution": "这句话在提问、等回答，句末用问号：Where is my car?",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P36·对话（Where is my car? Is it in the desk? No.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "抄写 He's my friend, John. 时，下面哪种写法既保住了撇号，大小写又全对？",
+          "options": [
+            "Hes my friend, john.",
+            "He's my friend, john.",
+            "He's my friend, John."
+          ],
+          "answer": "C",
+          "solution": "撇号在 He's 里不能丢；人名 John 藏在句子中间也要大写。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P32·综合复习对话（He's my friend, John.）变式（撇号与大写）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "开一个'句子医院'本子：把这学期抄错过的句子当'病人'收进去，在错处画圈写上病因（丢撇号、小写 I、国家名小写、标点用错），每周末给它们'治好'一遍——重抄正确的版本。",
+          "answer": "建一本句子医院，每周复诊一次",
+          "solution": "坚持一个月，你会发现自己几乎不再犯同样的错，因为病因都记录在案了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_11",
+      "summary": "英语国家的复活节有 Easter Bunny 送彩蛋；外国孩子把爷爷和外公都叫 grandpa；还有一句 An apple a day keeps the doctor away. 和过节要说的礼貌用语。",
+      "explanation": [
+        "复活节的时候，一只小兔子蹦出来打招呼：Hey, I'm the Easter Bunny!（嘿，我是复活节兔子！）复活节是英语国家的孩子们期待的春天节日，这一天有找彩蛋的游戏，找到还要数一数 How many eggs?（有多少个彩蛋？）。家庭称呼也有意思：family 的家庭图里画着 father (dad)、mother (mum)、grandfather (grandpa)、grandmother (grandma)，而且 grandpa 画了两位、grandma 也画了两位——因为英语只用 grandpa、grandma 各一个词，分不出是爸爸的爸爸还是妈妈的爸爸。歌谣里唱道：Grandma, grandpa, Sister, brother: All my family help each other.（奶奶爷爷、姐姐哥哥，一家人互相帮忙。）水果那部分还送上一句谚语：An apple a day keeps the doctor away.（一天一苹果，医生远离我。）伙伴要去玩了，送上一句 Have a good time!（玩开心点儿！）",
+        "中文里的老人分得细：爷爷、外公、奶奶、外婆，四个称呼各管一位；英文图省事，四位老人都叫 grandpa 或 grandma，想知道到底是谁，要靠说话的上下文。节日也一样各有各的玩法：我们过六一儿童节、春节，英语国家的孩子春天盼着复活节找彩蛋，冬天还有圣诞节收礼物。文化不同，那份开心是一样的。",
+        "学文化可以三步走：第一步先想中文里怎么说；第二步再学英文的说法；第三步找出不同点记牢——比如家庭图里 grandpa 有两位这件事，讲给家人听一遍，就再也忘不掉。过节交际还有小规矩：见面主动送祝福，收到礼物当面说 Thank you，小伙伴要去玩了送一句 Have a good time!，嘴甜有礼的孩子走到哪儿都受欢迎。",
+        "几个容易想岔的地方：一是别以为 grandpa 只能叫爷爷，外公也叫 grandpa，书上家庭图里画了两位可不是画错；二是 father 和 dad 都是爸爸，dad 更亲昵，妈妈既叫 mother 也叫 mum，口语里多用 dad、mum；三是 An apple a day keeps the doctor away. 是句健康谚语，别按字面硬翻成“一个苹果把医生赶走”；四是复活节的彩蛋是节日游戏里的道具，常常是画了花样的蛋或巧克力蛋，找着玩的，别当成平常的鸡蛋敲开吃。",
+        "可以准备一个小小的“文化积累本”：左边记中国的节日和称呼，右边记英语国家的，一页一页攒下去。以后还会遇到更多节日问候语和谚语，见了外国朋友也能送上得体的一句祝福。懂得比较、懂得尊重不同的文化，你就是有礼貌的小小文化小使者。"
+      ],
+      "methods": [
+        {
+          "name": "文化对比法",
+          "steps": [
+            "先说中文：爷爷、外公、奶奶、外婆",
+            "再学英文：爷爷和外公都叫 grandpa，奶奶和外婆都叫 grandma",
+            "找出不同：英文一个词管两位老人",
+            "讲给家人听：为什么家庭图里 grandpa 出现两次"
+          ],
+          "tip": "中文四位老人四个名，英文 grandpa grandma 全包啦。"
+        },
+        {
+          "name": "节日问候法",
+          "steps": [
+            "节日见面先送祝福：Happy New Year! Happy Easter!",
+            "收到礼物看着对方说 Thank you",
+            "朋友要去玩了，送一句 Have a good time!",
+            "临别挥挥手说再见，笑容别忘了带上"
+          ],
+          "tip": "过节嘴巴甜，祝福走在前，收到礼物说 Thank you。"
+        },
+        {
+          "name": "谚语积累法",
+          "steps": [
+            "把 An apple a day keeps the doctor away. 抄进积累本",
+            "读三遍，读出节奏",
+            "用中文把意思讲给家人听",
+            "再收集一句新谚语，比比谁的宝藏多"
+          ],
+          "tip": "一天一句谚语，积累本越来越厚。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "妈妈的爸爸，用英语怎么称呼？",
+          "solution": "也叫 grandpa。英语里外公和爷爷共用 grandpa 一个词，奶奶和外婆同理共用 grandma。",
+          "difficulty": 1,
+          "pitfall": "以为要另造一个新词，或者以为书上把家庭图画错了。"
+        },
+        {
+          "question": "复活节里背着彩蛋篮子的兔子叫什么？学它的原话向大家打个招呼吧。",
+          "solution": "它是 Easter Bunny，会蹦出一句 Hey, I'm the Easter Bunny!",
+          "difficulty": 2,
+          "pitfall": "把它当成故事里普通的兔子角色，忘了它的节日身份。"
+        },
+        {
+          "question": "春节收到奶奶的红包，除了双手接过，英语里该说哪句礼貌用语？",
+          "solution": "Thank you! 还可以再加一句祝福 Happy New Year!",
+          "difficulty": 2,
+          "pitfall": "只顾着开心收下忘了道谢；中外交际里 Thank you 都是必备礼貌。"
+        }
+      ],
+      "mistakes": [
+        "以为 grandpa 只能叫爷爷。英语里外公、爷爷都叫 grandpa，奶奶、外婆都叫 grandma，家庭图里各画了两位。",
+        "把 An apple a day keeps the doctor away. 硬翻成“一个苹果把医生赶走”。它是健康谚语，意思是常吃苹果身体好。",
+        "收到礼物不吭声或者只顾玩。当面说 Thank you，才是有礼貌的孩子。",
+        "把复活节彩蛋当真鸡蛋敲开吃。节日里的 Easter eggs 常是画了花样的蛋或巧克力蛋，是找彩蛋游戏的道具。"
+      ],
+      "source": {
+        "unit": "文化角与节日",
+        "pages": [
+          12,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "复活节里给孩子们送彩蛋、还会说 I'm the Easter Bunny! 的是：",
+          "options": [
+            "the Easter Bunny",
+            "the Easter Cat",
+            "Zoom",
+            "Mr Jones"
+          ],
+          "answer": "A",
+          "solution": "复活节兔子叫 the Easter Bunny，Bunny 指小兔子，它会在节日里给孩子们送彩蛋。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P12·Hey, I'm the Easter Bunny!（复活节开页）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "英语里，妈妈的妈妈和爸爸的妈妈都可以叫：",
+          "options": [
+            "grandpa",
+            "grandma",
+            "mother",
+            "sister"
+          ],
+          "answer": "B",
+          "solution": "英语不分奶奶和外婆，都用 grandmother，口语说 grandma；爷爷和外公同理用 grandpa。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P18·grandfather (grandpa)、grandmother (grandma) 家庭图与家庭歌谣"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "谚语理解变式：An apple a day keeps the doctor away. 想告诉我们的道理是：",
+          "options": [
+            "常吃水果，身体好，生病少",
+            "医生不爱吃苹果",
+            "苹果吃得越多越好",
+            "看病之前要先吃苹果"
+          ],
+          "answer": "A",
+          "solution": "谚语用夸张有趣的说法提醒大家天天吃点水果、健康饮食，不是字面上的“医生被赶走”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P54·An apple a day keeps the doctor away. 变式（谚语道理理解）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "春节见到爷爷奶奶，你想用英语送上祝福，接过红包时最有礼貌的一组话是：",
+          "options": [
+            "Thank you! Happy New Year!",
+            "Give me the red packet.",
+            "No, it isn't mine.",
+            "I don't like it."
+          ],
+          "answer": "A",
+          "solution": "收礼物先说 Thank you!，再送上一句节日祝福 Happy New Year!，这是中外通用的礼貌。以后学到更多节日，你还能送上更多祝福语，把这份礼貌带进每个节日。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3b_12",
+      "summary": "书后的词汇表是学期的词汇藏宝图：黑体词要听说认读，白体词要听说，约 70 个新词加上学期的，累计约 140 个自查过关。",
+      "explanation": [
+        "书后的词汇表把这一学期的词分队伍排好：认国家的 UK、USA、China、Canada，认家人的 father、mother、grandma、grandpa，说外形的 tall、short、big、small，说方位的 in、on、under，认水果的 pear、apple、banana、watermelon、strawberry、grape，数数的 eleven 到 twenty。表头写着分级要求：黑体词要求听、说、认读，白体词只作听、说要求。上学期学了约 70 个词，这学期又新增约 70 个，累计约 140 个词等你清点。",
+        "为什么词要分两级？常用核心词是每天都要见面的老朋友，要听得懂、说得出、认得出、还能动笔写，所以是黑体；有些词只在对话里露个脸，先混个脸熟、耳朵认识就行，那是白体。约 140 个词像 140 颗星星，分级就是先找亮星连星座，不必一把全抓。",
+        "自查三招升级版。第一招看图说句：遮住词表中文看英文回忆意思，还要升级成说整句——看到 watermelon 不只说'西瓜'，要说 It's a watermelon. 或 I like watermelons.；第二招归类卡：把词抄在小卡上分堆——水果堆、数字堆、家人堆、方位堆、外形堆，翻乱重分计时挑战，最薄弱的一堆重点练；第三招听写闯关：家人报中文你写英文，重点写要求认读的黑体词，白体词练到听到能反应就行。",
+        "几对容易打架的词要分清：grandma 和 grandpa 别配反——grandma 是（外）祖母，grandpa 是（外）祖父；in、on、under 三个方位词——在里、在上、在下；pear（梨）和 bear（熊）只差一个字母，一个是水果一个是动物；单复数也要留心：two pears、some grapes 要加 s，strawberry 变复数更特别——y 变 i 加 es，成了 strawberries。",
+        "约 140 个词不是终点，是四年级读小故事、写小短句的本钱。假期别让词卡睡大觉：每天听写 5 个黑体词、用句型说 3 句话，开学时你的词汇星座还是亮闪闪的。"
+      ],
+      "methods": [
+        {
+          "name": "看图说句法",
+          "steps": [
+            "遮住词汇表的中文，看英文回忆意思",
+            "升级：不说单词，用句型说整句——This is… / I like… / I see…",
+            "说不上来的词做记号，归入'重点复习堆'"
+          ],
+          "tip": "单词过关不算过，句子出口才是真。"
+        },
+        {
+          "name": "归类卡牌法",
+          "steps": [
+            "把新词抄上小卡，按水果、数字、家人、方位、外形分堆",
+            "翻乱重分，计时挑战自己",
+            "错得最多的一堆多读多写两遍"
+          ],
+          "tip": "一堆一堆来清点，薄弱卡牌重点练。"
+        },
+        {
+          "name": "听写闯关法",
+          "steps": [
+            "家人报中文，你写英文，注意大写和复数变化",
+            "对照词汇表批改，错的词写三遍",
+            "黑体词动笔写熟，白体词听到能反应即可"
+          ],
+          "tip": "黑体动笔写，白体耳朵听。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "strawberry 是草莓，'两个草莓'写成 two strawberry 对吗？",
+          "solution": "不对。strawberry 的复数是 strawberries——y 变 i 加 es，要写 two strawberries.。",
+          "difficulty": 2,
+          "pitfall": "不是所有词加 s 就完事，y 结尾的词要先变 i。"
+        },
+        {
+          "question": "用看图说句法自查水果词：看到一张西瓜图，怎么说才算过关？",
+          "solution": "只喊出 watermelon 还不够，要说整句：It's a watermelon. 或 I like watermelons.，单词进了句子才算真的会。",
+          "difficulty": 1,
+          "pitfall": "像背词表一样报词名，不是自查的终点。"
+        },
+        {
+          "question": "pear 和 bear 长得很像，怎么把它们分开？",
+          "solution": "pear 是梨，水果队伍的；bear 是熊，动物队伍的。归类分堆时让它们各回各家，混在一起就容易认错。",
+          "difficulty": 2,
+          "pitfall": "两个词只差一个字母，听写时最容易串门，要放进不同的词堆里记。"
+        }
+      ],
+      "mistakes": [
+        "自查只顺着一遍读，从不遮住中文回忆。遮中文回想，才知道是真会还是假会。",
+        "黑体白体不分，全部只读不写。要求认读的词要动笔写，白体词听到能反应就行。",
+        "复数忘了变形：two pear、some strawberry。要 two pears、strawberries。",
+        "单词一个个都认识，放进句子就不会用。自查要升级到用句型说整句。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          70,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇表注明：黑体词要求听、说、认读，白体词只作听、说要求。自查时下面哪种做法符合这个分级？",
+          "options": [
+            "所有词都只跟读一遍就算过关",
+            "要求认读的词要能听、会说、认得、还动笔写一写",
+            "所有词都要会默写"
+          ],
+          "answer": "B",
+          "solution": "黑体词要求听、说、认读——听得懂、说得出、认得出还要会写；白体词只要求听、说，不必都默写。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P70·词汇表说明（黑体词听说认读，白体词听说）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用归类卡法把词分堆：pear、apple、banana 是水果堆，那 watermelon、eleven、under 里谁和它们一队？",
+          "options": [
+            "eleven",
+            "watermelon",
+            "under"
+          ],
+          "answer": "B",
+          "solution": "watermelon（西瓜）是水果；eleven（十一）进数字堆，under（在……下面）进方位堆。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三下 P71·词汇表（pear apple orange banana watermelon strawberry grape）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "听写闯关：家人报'十六'，下面哪个写法正确？",
+          "options": [
+            "sixtean",
+            "sixty",
+            "sixteen"
+          ],
+          "answer": "C",
+          "solution": "十六是 sixteen，six 加 teen；sixty 是六十，别混。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三下 P71·词汇表（sixteen seventeen eighteen nineteen twenty）变式（听写数字词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一张'约 140 颗星星'进度表：上学期约 70 个词和这学期约 70 个新词各占一列，每天自查 10 个（看图说句或听写），说对或写对一个就涂亮一颗星，争取两周左右点满整张表。",
+          "answer": "两周内点亮约 140 颗星",
+          "solution": "点满之后，把还没亮的那几颗挑出来重点补，词汇星座就完整了。",
           "difficulty": 3
         }
       ]
