@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 199,
+  "lessonCount": 209,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -24754,6 +24754,1212 @@
           "question": "从课外读物里找一篇说明文，先判断它是问题—方案型还是比较—对比型，再画结构图：问题—方案型画三栏，比较—对比型画两栏，最后照图用五句话复述给同桌。",
           "answer": "示例——某篇讲“城市内涝治理”的文章判为问题—方案型：问题（暴雨积水）→方案（修建排水系统、增加绿地）→结果（积水点减少）；比较型示例（实体书店与网上书店）：相同（都能买书、都服务读者）→不同（体验与翻阅 vs 价格与送货上门）。",
           "solution": "判断口径看句子功能：有难题与对策走三栏，有 the same/different 信号词走两栏；复述卡壳处就是没读懂的那栏，回头再读。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_01",
+      "summary": "动词加 -ing 变成“一件事”：站在句首当主语，跟在 enjoy、avoid 这类词后面当宾语，一个词形顶两个岗位。",
+      "explanation": [
+        "书上语法板块先给出一组句子，让你讨论 -ing 形式的功能与含义，再从全册中找更多例子。书上的原句有：Finding a good husband should be their final goal!（-ing 短语作主语）；It was great fun walking along the streets, enjoying the relaxing atmosphere!（it 作形式主语，真正的主语是 walking along the streets）；Sending people to other planets or even beyond the solar system is not an easy goal to achieve.（-ing 短语作主语）。宾语位置的书上例子：I loved watching the traditional performances.（loved 后接 watching 作宾语）；She was more interested in tending patients, publishing medical research on care for women and children, and training the next generation of doctors.（介词 in 后接三个并列的 -ing）。",
+        "动名词的意思好懂：动词加上 -ing 之后，动作就变成了“一件事”，可以像名词一样在句子里干活。比如 swimming 本来是“游泳”这个动作，加 -ing 后就是“游泳”这件事，于是 Swimming is my favorite sport. 里它站上了主语的位置；enjoy doing 里它又被“享受”这个动作支配，站在宾语的位置。它像一个既能当班干部又能当科代表的多面手。",
+        "位置定角色三步：第一步，圈出句子的谓语动词（带时态、能单独充当谓语的那个）；第二步，看 -ing 短语站在哪里——谓语动词之前或句首，是主语；行为动词或介词之后，是宾语；第三步，-ing 短语作主语时按第三人称单数处理谓语，如 Taking part in the celebration was... 里的 was 用单数。",
+        "最容易混的是“接 doing 还是接 to do”：enjoy、avoid、mind、keep、practise、suggest 等动词后面只接 doing，如 enjoy doing、avoid doing、mind doing；want、decide、hope、plan 等只接 to do。另外，it 作形式主语的句子（It was great fun walking...）其实和 -ing 直作主语说的是同一件事，只是把长主语挪到了后面，别把它当成新的语法。",
+        "这一讲是动名词的“入门岗”：主语和宾语。后面它还要去定语和状语的岗位上班（如 the shining moon、Thinking of all the people...），和 -ed 分词一起在非谓语收官讲里对比辨析。现在先把“动作变名词”这一个观念立稳，阅读时遇到句首或动词后的 -ing 能迅速判断它是名词性用法还是别的功能，写作时用一两个动名词开头句，句子立刻地道很多。"
+      ],
+      "methods": [
+        {
+          "name": "位置定角色法",
+          "steps": [
+            "第一步：圈出句子的谓语动词，一个简单句只有一个。",
+            "第二步：看 -ing 短语的位置——句首或谓语动词之前是主语，行为动词或介词之后是宾语。",
+            "第三步：作主语时谓语动词按第三人称单数处理。"
+          ],
+          "tip": "句首 doing 是主语，动词介词后面是宾语。"
+        },
+        {
+          "name": "接宾动词分类法",
+          "steps": [
+            "第一类：enjoy、avoid、mind、keep、practise、suggest 只接 doing。",
+            "第二类：want、decide、hope、plan 只接 to do。",
+            "第三类：like、love、begin 两者皆可，意思差别不大。"
+          ],
+          "tip": "enjoy、avoid、mind、keep，后面只跟 doing 来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "指出 Finding a good husband should be their final goal! 中 Finding a good husband 的句子成分，并说出真正的谓语是什么。",
+          "solution": "Finding a good husband 是动名词短语作主语；真正的谓语是 should be。",
+          "difficulty": 1,
+          "pitfall": "别把 Finding 当成谓语动词——一个简单句只有一个谓语，should be 已经占了这个位置。"
+        },
+        {
+          "question": "用所给动词的适当形式填空：Most visitors enjoy ______ (watch) the dragon dances during the Spring Festival.",
+          "solution": "watching。enjoy 后接动名词作宾语。",
+          "difficulty": 1,
+          "pitfall": "enjoy 不接 to do，这是固定搭配。"
+        },
+        {
+          "question": "把 It is great fun to swim in the sea in summer. 改写成以动名词短语开头的句子。",
+          "solution": "Swimming in the sea in summer is great fun. it 作形式主语的句子可以还原为 -ing 短语直接作主语。",
+          "difficulty": 2,
+          "pitfall": "还原之后谓语动词仍用单数 is，不要因为主语变长就改成 are。"
+        }
+      ],
+      "mistakes": [
+        "把句首的 -ing 短语误认成谓语：Finding a good husband should be their final goal! 的谓语是 should be，Finding a good husband 只是主语。",
+        "enjoy、avoid、mind 后误接 to do；正确搭配是 enjoy doing、avoid doing、mind doing。",
+        "动名词短语作主语时谓语误用复数：应说 Swimming makes me happy，不说 Swimming make me happy。",
+        "介词后误接不定式：interested in to tend patients 是错的，介词 in 后要用 tending。"
+      ],
+      "source": {
+        "unit": "必修三语法板块",
+        "pages": [
+          16,
+          17
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "用所给动词的适当形式填空：______ (take) part in the celebration was a satisfying experience for us.",
+          "answer": "Taking",
+          "solution": "动词短语 taking part in... 位于谓语 was 之前作主语，动名词开头大写，谓语按单数处理。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P10·圈出正确单词（Taking part in the celebration was a satisfying/satisfied experience for us）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "She was more interested in ______ patients, publishing medical research, and training the next generation of doctors.",
+          "options": [
+            "tend",
+            "tending",
+            "to tend",
+            "tended"
+          ],
+          "answer": "B",
+          "solution": "介词 in 后面接动名词 tending 作宾语，与后面的 publishing、training 三个并列。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P17·语篇续文（She was more interested in tending patients, publishing medical research…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下列句子中，-ing 短语作主语的是？",
+          "options": [
+            "Sending people to other planets is not an easy goal to achieve.",
+            "The new China saw Dr Lin playing a key role.",
+            "The man dressed in a ghost costume looks frightened.",
+            "I love watching the traditional performances."
+          ],
+          "answer": "A",
+          "solution": "A 句 -ing 短语站在谓语 is 之前作主语；B 句是宾语补足语，C 句 dressed 是定语，D 句 watching 是宾语。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P42·用所给动词的适当形式补全语篇变式（Sending people to other planets…is not an easy goal to achieve）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话并说出每空 -ing 的成分：—What do you usually do at the Spring Festival? —______ (get) together with my family is my favorite part, and I also enjoy ______ (watch) the lion dances.",
+          "answer": "Getting; watching",
+          "solution": "第一空动名词短语 Getting together with my family 作主语，谓语用单数 is；第二空 watching 作 enjoy 的宾语。动名词的下一个岗位是定语和状语，将在非谓语收官讲里与 -ed 对比学习。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_02",
+      "summary": "to do 像一张“待办清单”：能当主语和宾语，能跟在 be 后当表语，长句里还常让 it 顶在前头当形式主语。",
+      "explanation": [
+        "书上不定式板块先观察一组斜体不定式的功能与含义，再仿写改写。书上的原句有：Yuri Gagarin became the first person in the world to go into space.（不定式作定语）；I trained for a long time to fly airplanes as a fighter pilot.（不定式作目的状语）；As we all know, an astronaut needs to be healthy and calm in order to work in space.（needs 后接不定式作宾语）。主语与表语位置的书上例子：Is it possible to travel faster than light?（it 作形式主语，真正的主语是 to travel faster than light）；I don't think a man's main goal in life is to earn as much money as possible. My dream is to live a more meaningful life.（be 动词后接不定式作表语）。宾语位置的书上例子：she chose to study medicine（chose 后接不定式作宾语）；She wanted to serve the women and children at home.",
+        "不定式 to do 表示“还没做、打算去做”的动作，像待办清单上的一条：I want to learn driving 是“我想学开车”这个尚未发生的打算。它和不定式的兄弟 -ing 正好互补：-ing 像正在上演或已成习惯的事，to do 像计划里、愿望里的事。理解了这层“将来、打算”的味道，很多搭配选择就不靠背了。",
+        "三位置扫描法：第一步扫主语位——句首直接出现 To do...，或 It is + 形容词/名词后藏着 to do（it 是形式主语，真正主语后移）；第二步扫宾语位——want、choose、decide、hope、need、plan 等动词后面接 to do；第三步扫表语位——be 动词后面接 to do，说明主语“是什么、梦想是什么”，如 My dream is to live a more meaningful life.",
+        "辨析三个高频坑：其一，It is important to learn English 里的 It 不是指物的“它”，只是形式主语，真正干活的是 to learn English；其二，choose、decide、hope、want 只接 to do，不接 doing，这与 enjoy、avoid、mind 只接 doing 形成对照；其三，look forward to 里的 to 是介词，后面要接 doing（look forward to seeing you），别和不定式的 to 混淆。",
+        "不定式的岗位不止这三个：它还能作定语（the first person in the world to go into space，相当于 the first person who went into space）和目的状语（I trained for a long time to fly airplanes，相当于 so that I could fly...），可以和定语从句、目的从句互换。下一讲把 -ing 与 -ed 一起收进非谓语全家桶，到时五种岗位（主语、宾语、表语、定语、状语）合起来看，长难句里的非谓语就都能认领了。"
+      ],
+      "methods": [
+        {
+          "name": "三位置扫描法",
+          "steps": [
+            "第一步：扫主语位——句首出现 to do，或 It is + adj./n. 后藏着 to do。",
+            "第二步：扫宾语位——want、choose、decide、hope、need 等动词后接 to do。",
+            "第三步：扫表语位——be 动词后接 to do，说明主语的内容或梦想。"
+          ],
+          "tip": "主语宾语和表语，to do 三位都能去。"
+        },
+        {
+          "name": "it 形式主语句型法",
+          "steps": [
+            "记住句型 It is + 形容词/名词 + to do sth.，it 只占位，不翻译。",
+            "把真正的主语（不定式短语）放到句子末尾，句子头轻脚重才平衡。",
+            "还原验证：去掉 it，让不定式直接开头，句子依然成立。"
+          ],
+          "tip": "It 开头是幌子，真主语在后面 to do。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "指出 My dream is to live a more meaningful life. 中 to live a more meaningful life 的成分。",
+          "solution": "be 动词 is 后面的不定式短语作表语，说明 dream 的具体内容。",
+          "difficulty": 1,
+          "pitfall": "表语说明主语“是什么”，别把 to live 当成将要发生的谓语动作。"
+        },
+        {
+          "question": "用所给动词的适当形式填空：At age 18, she chose ______ (study) medicine instead of getting married.",
+          "solution": "to study。choose 后接不定式作宾语。",
+          "difficulty": 1,
+          "pitfall": "choose 只接 to do，不接 doing；句中 instead of 后面的 getting 是介词后接 doing，正好对照。"
+        },
+        {
+          "question": "用 it 作形式主语改写：To travel faster than light is impossible.",
+          "solution": "It is impossible to travel faster than light. it 占住主语位，真正的主语 to travel faster than light 后移。",
+          "difficulty": 2,
+          "pitfall": "改写后不定式必须整体后移且不能丢 to。"
+        }
+      ],
+      "mistakes": [
+        "把 It is important to learn English 里的 It 当成指物的代词翻译成“它”——它只是形式主语，真正的主语是 to learn English。",
+        "decide、hope、want 后误接 doing；正确搭配是 decide to do、hope to do、want to do。",
+        "不定式作主语时谓语误用复数：应说 To learn English well is important，不是 are important。",
+        "look forward to 里的 to 是介词，后面误接动词原形；应说 look forward to seeing you。"
+      ],
+      "source": {
+        "unit": "必修三语法板块",
+        "pages": [
+          34,
+          42
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Yuri Gagarin became the first person in the world ______ into space.",
+          "options": [
+            "go",
+            "going",
+            "to go",
+            "went"
+          ],
+          "answer": "C",
+          "solution": "不定式 to go 作定语修饰 the first person，相当于 the first person who went into space。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P42·观察不定式例句（Yuri Gagarin became the first person in the world to go into space）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "完成句子：My dream is ______ (live) a more meaningful life.",
+          "answer": "to live",
+          "solution": "be 动词 is 后接不定式短语作表语，说明梦想的具体内容。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P34·词汇语法填空（My dream is to live a more meaningful life）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把 To travel faster than light is possible. 改成含 it 形式主语的句子，正确的是？",
+          "options": [
+            "It is possible to travel faster than light.",
+            "It is possible traveling faster than light.",
+            "It possible to travel faster than light.",
+            "To travel faster than light it is possible."
+          ],
+          "answer": "A",
+          "solution": "句型是 It is + adj. + to do sth.：it 作形式主语，is 后接形容词，不定式短语整体后移。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P42·语篇填空变式（Is it possible to travel faster than light?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话：—What do you want to be in the future? —My dream is ______ (become) an astronaut, so I have decided ______ (work) hard from now on.",
+          "answer": "to become; to work",
+          "solution": "第一空不定式作表语，第二空作 decided 的宾语。不定式还能作定语和目的状语（如 the first person to go into space、trained to fly airplanes），与非谓语收官讲呼应。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_03",
+      "summary": "-ing 主动进行，-ed 被动完成：the rising sun 与 fallen leaves 一字之差，作定语状语前先问“谁发出动作”。",
+      "explanation": [
+        "书上先给句子观察 -ing 的功能与含义：Families celebrating the Lunar New Year can enjoy exciting dragon dances and carnivals together.（celebrating the Lunar New Year 作后置定语，相当于 Families who celebrate the Lunar New Year）；families gather to admire the shining moon（shining 作前置定语）。-ed 作定语的书上例子：the Wenhai Scholarship, the highest prize given to graduates（given to graduates 作后置定语，相当于 the prize that was given to graduates）。作状语的书上例子：Thinking of all the people still in need of help, Dr Lin opened a private clinic.（句首状语，表原因）；...her brother complained, thinking of the high tuition fees.（句尾状语，表伴随）；Hearing that his wife had been injured in an accident, Mr Johnson hurried to the hospital.。随后配分词辨析练习：The man dressed in a ghost costume looks quite frightened. / Kate was surprised by the sight of the Kongming lanterns flying up into the sky.",
+        "两条口诀先立住：-ing 表示主动和进行，-ed 表示被动和完成。the rising sun 是“正在升起的太阳”（太阳自己升起，主动进行），fallen leaves 是“已经落下的叶子”（落下动作已完成）；the girl standing there 是“正站在那儿的女孩”。描述感受的形容词也是同一套逻辑：surprising 是“令人惊讶的”（事物让人惊讶，主动），surprised 是“感到惊讶的”（人被惊讶，被动）。",
+        "两个可操作方法：定语用“主被动测试”——看被修饰的名词能不能发出这个动作，能则 -ing，不能（被动或完成）则 -ed；状语用“回找主语”——句首或句尾的 -ing/-ed，它的逻辑主语必须是主句主语，主动关系用 -ing（Hearing that..., Mr Johnson hurried...），被动关系用 -ed（如 Seen from the hill, the city looks beautiful，城市是“被看”的）。",
+        "辨析四组高频坑：其一，描述人的感受用 -ed（I'm bored），描述事物给人的感受用 -ing（The film is boring）；其二，单个分词作定语放在名词前（fallen leaves），分词短语放在名词后（the prize given to graduates）；其三，状语的逻辑主语必须与主句主语一致，Seen from the hill, we found the city beautiful 就是错的——被看的不是 we；其四，名词后的 -ing 短语是定语，别误当成缺了 be 的进行时。",
+        "这一讲是非谓语的收官：主语、宾语（第一讲）、表语（第二讲）、定语、状语（本讲）五种岗位集齐。长难句阅读时，看到名词后的分词短语先当定语处理，看到句首句尾的分词先当状语处理，把它们分别还原成定语从句或状语从句，主干立刻清晰。写作中用一处分词状语替代一个从句，句子也会更紧凑地道。"
+      ],
+      "methods": [
+        {
+          "name": "主被动测试法",
+          "steps": [
+            "第一步：找到被修饰的名词，问它能不能自己发出这个动作。",
+            "第二步：能主动发出或动作正在进行，用 -ing，如 the rising sun、the girl standing there。",
+            "第三步：被动承受或动作已完成，用 -ed，如 fallen leaves、the prize given to graduates。"
+          ],
+          "tip": "-ing 主动进行，-ed 被动完成。"
+        },
+        {
+          "name": "状语回找主语法",
+          "steps": [
+            "第一步：在句首或句尾找到 -ing/-ed 状语。",
+            "第二步：问“谁在做这个动作”，答案必须是主句主语。",
+            "第三步：逻辑主语与动词是主动关系用 -ing，被动关系用 -ed；对不上就改写句子。"
+          ],
+          "tip": "状语找主语，主动 -ing，被动 -ed。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "秋天路上铺满了落叶，应该说 falling leaves 还是 fallen leaves？为什么？",
+          "solution": "fallen leaves。叶子“已经落下”，与 fall 是完成关系，用 -ed；falling leaves 指正在飘落的叶子。",
+          "difficulty": 1,
+          "pitfall": "见到“落叶”别习惯性选 -ing，先判断动作是进行中还是已完成。"
+        },
+        {
+          "question": "用所给动词的适当形式填空：The man ______ (dress) in a ghost costume looks quite ______ (frighten).",
+          "solution": "dressed; frightened。人是“被装扮”的，dressed in... 作定语；“感到害怕”用 -ed 形容词 frightened。",
+          "difficulty": 2,
+          "pitfall": "frightening 是“令人害怕的”，主语通常是事物，不能形容人的感受。"
+        },
+        {
+          "question": "用所给动词的适当形式填空：______ (hear) that his wife had been injured in an accident, Mr Johnson hurried to the hospital.",
+          "solution": "Hearing。逻辑主语 Mr Johnson 与 hear 是主动关系，句首用 -ing 短语作原因状语。",
+          "difficulty": 2,
+          "pitfall": "状语的逻辑主语必须是主句主语 Mr Johnson，不能凭空换成别人。"
+        }
+      ],
+      "mistakes": [
+        "描述自己的感受误用 -ing：想表达“我觉得无聊”应说 I'm bored，I'm boring 的意思是“我这个人很无趣”。",
+        "单个分词作定语误后置：落叶应说 fallen leaves，分词短语才后置，如 the prize given to graduates。",
+        "分词状语与主句主语不一致（悬垂分词）：Seen from the hill, we found the city beautiful 是错的，被看的对象是 the city，应说 Seen from the hill, the city looks beautiful。",
+        "把名词后的 -ing 短语当成进行时：the girl standing there 中 standing there 是定语，不能写成 the girl is standing there 再去修饰别的名词。"
+      ],
+      "source": {
+        "unit": "必修三语法板块",
+        "pages": [
+          10,
+          18
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Most of the people were ______ by the lion dances during the new year celebrations.",
+          "options": [
+            "amazing",
+            "amazed",
+            "amaze",
+            "to amaze"
+          ],
+          "answer": "B",
+          "solution": "人“感到惊讶”用 -ed 形式的 amazed；amazing 意为“令人惊讶的”，主语通常是事物。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P10·圈出正确单词（Most of the people were amazing/amazed by the lion dances during the new year celebrations）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用所给动词的适当形式补全短语：the highest prize ______ (give) to graduates.",
+          "answer": "given",
+          "solution": "奖项是“被颁发”的，用 -ed 短语 given to graduates 作后置定语，相当于 the prize that was given to graduates。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P16·人物语篇（the Wenhai Scholarship, the highest prize given to graduates）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "The autumn wind is blowing ______ leaves along the road.（秋风正把落叶吹得沿路翻滚，叶子已经落下）",
+          "options": [
+            "fall",
+            "falling",
+            "fallen",
+            "to fall"
+          ],
+          "answer": "C",
+          "solution": "叶子与 fall 是完成关系，已落在地上被风吹动，用 -ed 分词 fallen 作定语；falling leaves 指“正在飘落的叶子”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P10·圈出正确单词变式（dressing/dressed、frightening/frightened、flying/flown 分词辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用分词状语把两句合并成一句（第一句变作状语）：① He heard someone knocking at his door. ② He suddenly woke up at midnight.",
+          "answer": "Hearing someone knocking at his door, he suddenly woke up at midnight.",
+          "solution": "hear 与主语 He 是主动关系，句首用 Hearing 作时间状语；长难句阅读时要把这类状语还原成 when he heard...，先抓主句主干 He woke up.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_04",
+      "summary": "读节日语篇学三件事：节日起源多样、习俗会随时代改变，而分享喜悦感恩爱与和平的精神是共同的。",
+      "explanation": [
+        "节日语篇 WHY DO WE CELEBRATE FESTIVALS? 开篇总起：Festivals are celebrated all around the world. They have a wide range of origins, such as the seasons of the year, religions, famous figures, and important events. 紧接着点出所有节日的共同内核：However, no matter how different they may seem, all over the world, the spirit of sharing joy, gratitude, love, or peace is common in all festivals. 第二段聚焦丰收节：Of all the traditional festivals, the harvest festival can be found in almost every culture. This important agricultural festival takes place after all the crops have been gathered in. 随后讲习俗之变：许多大城市为避免空气污染放弃了燃放鞭炮的年俗，Halloween 则由宗教节日慢慢变成孩子们的狂欢。结尾升华：Festivals are an important part of society. They reflect people's wishes, beliefs, faiths, and attitudes towards life.",
+        "节日是日历上的驿站。农忙收获之后要感恩，辞旧迎新时要团聚，纪念先人与重要事件时要有仪式——这就是节日的来由。古埃及人在春季庆祝丰收，游行、盛宴、歌舞与体育一样不少；一些欧洲国家用鲜花和水果装饰教堂与市政厅，聚在一起吃顿庆祝饭；中国人在中秋夜全家赏月、分吃月饼。形式千差万别，但那颗分享喜悦、心怀感恩、祈愿爱与和平的心是相通的——这正是语篇标题那个问题的答案。",
+        "读节日语篇三步走：第一步找主旨句（topic sentence 常在段首，如第二段首句 Of all the traditional festivals…直接给出主旨）；第二步圈三类信息——origins（从哪来）、customs（怎么过）、meanings（为什么过）；第三步问 spirit——这个节日让人们分享什么。节日活动词块按“节日→场景”成对记：Chinese Lantern Festival→visit a lantern fair、guess riddles；Rio Carnival→dress up in carnival costumes、watch samba dance；Coming-of-Age Day→attend the ceremony、receive congratulations。",
+        "几组词分清：celebrate 是动词（We celebrate the Spring Festival.），celebration 是名词（a great celebration）；harvest 既可作名词（the harvest festival 丰收节）也可作动词（harvest the crops 收庄稼）；custom 指群体的风俗（lighting firecrackers 的年俗），habit 指个人的习惯；fade away 是“渐渐消失”（some traditions may fade away），give up 是“主动放弃”（many big cities have given up this custom）。",
+        "这一话题马上通向两项输出：写作按“时间—活动—感受”记一次节日经历，开头可用 This was my first time spending…；口语分享节日感受用 It was fantastic! / It's always exciting for me / I'm really looking forward to the next festival.。再往后，节日还是跨文化交际的万能入口——用它开启与外国朋友的对话最自然不过。"
+      ],
+      "methods": [
+        {
+          "name": "节日语篇三步读法",
+          "steps": [
+            "第一步找主旨句：常在段首，如 Of all the traditional festivals, the harvest festival can be found in almost every culture.",
+            "第二步圈三类信息：origins（起源）、customs（习俗）、meanings（意义）",
+            "第三步问 spirit：所有节日共同分享的是什么——joy, gratitude, love, or peace"
+          ],
+          "tip": "口诀：段首定主旨，源俗义三线，精神一条心。"
+        },
+        {
+          "name": "节日活动配对法",
+          "steps": [
+            "灯会场景：visit a lantern fair、guess riddles",
+            "狂欢节场景：dress up in carnival costumes、watch samba dance、march along the streets",
+            "成人节场景：attend the ceremony、receive congratulations"
+          ],
+          "tip": "口诀：先想画面，词块自然对号。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇说：However, no matter how different they may seem, all over the world, the spirit of sharing joy, gratitude, love, or peace is common in all festivals. 这句话里，所有节日共同的精神（spirit）是什么？",
+          "solution": "分享喜悦、感恩、爱与和平——the spirit of sharing joy, gratitude, love, or peace；no matter how different 表示“无论多么不同”，转折之后才是句子重心。",
+          "difficulty": 1,
+          "pitfall": "只读到前半句“各不相同”就停——however 之后的 common in all festivals 才是作者要强调的。"
+        },
+        {
+          "question": "语篇举了哪些地方的丰收节？它们有什么共同点？",
+          "solution": "三处：古埃及在春季（the Egyptian harvest season）庆祝，有 parade 和 great feast with music, dancing, and sports；一些欧洲国家用鲜花水果装饰教堂与市政厅、聚餐饮庆；中国中秋节全家赏月吃月饼。共同点：都在庄稼收完之后（after all the crops have been gathered in）庆祝，感谢一年的食物供给。",
+          "difficulty": 2,
+          "pitfall": "只记得中秋节——三个例子都要找齐，“收获之后感恩”才是它们的共性。"
+        },
+        {
+          "question": "“大城市禁放鞭炮”和“Halloween 变成孩子们的节日”这两个例子想说明什么？请用原文一句回答。",
+          "solution": "Customs play a significant role in festivals, but sometimes they can change over time.——习俗在节日中举足轻重，但会随时间改变；前一例是旧俗淡出（fade away），后一例是新俗确立（others may be established）。",
+          "difficulty": 2,
+          "pitfall": "两个例子的方向不同：一个是放弃旧俗（given up this custom），一个是习俗演变，别混为一谈。"
+        }
+      ],
+      "mistakes": [
+        "celebrate 与 celebration 词性混用——动词说 We celebrate…，名词才说 a great celebration。",
+        "以为“节日各不相同就没有共性”——语篇的立场是形式各异、精神相通（the spirit of sharing joy, gratitude, love, or peace is common）。",
+        "fade away 与 give up 混用——fade away 是“渐渐消失”，give up 是“主动放弃”，大城市对鞭炮用的是 give up。",
+        "谈节日只罗列活动——要说得出意义，用 They are occasions that allow us to… / They help us understand… 收尾。"
+      ],
+      "source": {
+        "unit": "必修三 Unit 1 Festivals",
+        "pages": [
+          1,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇写道：In ancient Egypt, the harvest festival was celebrated during the springtime—the Egyptian harvest season. It featured a parade and a great feast with music, dancing, and sports. 古埃及的丰收节在什么季节庆祝？",
+          "options": [
+            "夏季",
+            "春季（springtime）",
+            "秋季",
+            "冬季"
+          ],
+          "answer": "B",
+          "solution": "原句明确说 during the springtime——the Egyptian harvest season（埃及的收获季节在春天），活动包括游行和有音乐、舞蹈与体育的盛宴。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P4·Why Do We Celebrate Festivals?（In ancient Egypt, the harvest festival was celebrated during the springtime…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "节日语篇第二段聚焦 harvest festival，这一段的主旨是？",
+          "options": [
+            "古埃及的农业生产很发达",
+            "月饼是中秋节唯一的文化符号",
+            "丰收节是世界上几乎所有文化共有的传统节日",
+            "节日正在变得越来越商业化"
+          ],
+          "answer": "C",
+          "solution": "段首主旨句：Of all the traditional festivals, the harvest festival can be found in almost every culture.——在几乎所有文化中都能找到丰收节；古埃及、欧洲、中秋都只是例子。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P4·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式配对：在节日活动词块里，visit a lantern fair（逛灯会）和 guess riddles（猜灯谜）属于哪个节日的活动？",
+          "options": [
+            "Chinese Lantern Festival（元宵灯节）",
+            "Rio Carnival（里约狂欢节）",
+            "Coming-of-Age Day（成人节）",
+            "Halloween（万圣节）"
+          ],
+          "answer": "A",
+          "solution": "逛灯会、猜灯谜是元宵灯节的活动；里约狂欢节对应 dress up in carnival costumes、watch samba dance；成人节对应 attend the ceremony、receive congratulations。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P2·听说板块节日活动词块（visit a lantern fair / guess riddles / Chinese Lantern Festival）变式（节日活动配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "模仿语篇结尾的思路，用两三句英语说说：人们为什么庆祝节日？可以用上 They are occasions that allow us to… 或 They help us understand…",
+          "answer": "示例：Festivals are occasions that allow us to relax and enjoy life with our family. They help us understand where we came from and what to appreciate.",
+          "solution": "先说功能（relax、enjoy、get together），再说意义（understand where we came from, who we are, what to appreciate），正是语篇给的“意义双句”骨架。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_05",
+      "summary": "沿时间轴读林巧稚传记：18 岁弃婚学医、一生接生五万婴儿，在一次次人生选择里读懂道德与美德。",
+      "explanation": [
+        "人物传记从一句引语开场：\"Life is precious. ... To a person nothing is more precious than their life, and if they entrust me with that life, how could I refuse that trust, saying I'm cold, hungry, or tired?\" 这是林巧稚（Lin Qiaozhi, 1901—1983）的心声。时间轴上是一连串困难的选择：五岁那年母亲病逝，她深受打击；18 岁，她没有像大多数女孩那样走婚姻这条路，而是 chose to study medicine，面对哥哥“女孩读这么多书干什么”的抱怨，她回答 \"I'd rather stay single to study all my life!\"；八年后她以毕业生最高奖 Wenhai Scholarship 从 PUMC 毕业，成为该院妇产科（OB-GYN department）第一位女住院医师，半年内升任 chief resident physician；1939 年在美国进修，同事极力挽留，她拒绝回国——She wanted to serve the women and children at home.；1941 年她成为第一位担任 PUMC 医院妇产科主任的中国女性，几个月后科室因战争关闭，她开办私人诊所，收费极低，常给穷苦病人减免，有时还骑着毛驴去偏远村庄送医。",
+        "传记其实是一部“选择题合集”：每一步都要在个人与家国、安稳与理想之间做取舍。1954 年她当选第一届全国人大代表、身兼多职，但 Her heart, however, was elsewhere.——她更愿意看病、写论文、带学生。她对新同事说：\"The OB-GYN department cares for two lives.\" \"As doctors, we should be responsible for the patients and treat them as our sisters.\"（妇产科守护的是两条生命；要把病人当姐妹。）她一生未婚，却接生了五万多个婴儿，人们叫她 \"mother of ten thousand babies\"；1983 年 4 月 22 日她逝世当天仍未退休，遗言是 \"I'm ready to go. Don't try to rescue me any more. Don't waste the medicine any more.\"，积蓄留给了幼儿园和培养新医生的基金。什么是美德？就是她在每个岔路口都把别人放在前面。",
+        "读人物传记三步走：第一步画时间轴——five-year-old→at age 18→eight years later→in 1939→in 1941→1954→22 April 1983；第二步圈“选择”——chose to study medicine、rejected the offer、opened a private clinic，每个动词都是岔路口；第三步品引语——引语是人物的心声，最能回答“她是什么样的人”。谈人物品质用美德词配证据：devotion 奉献（接生五万婴儿）、courage 勇气（18 岁逆流学医）、kindness 善良（为穷苦病人减费）、responsibility 责任（cares for two lives）。",
+        "几组词分清：moral 作形容词指“道德的”（a moral dilemma 道德两难），virtue 是名词“美德”（integrity 诚信、honesty 诚实、generosity 慷慨、thankfulness 感恩都在美德清单上）；dilemma 特指“两难处境”——A moral dilemma is a situation in which you have two or more difficult choices to make. 选了一个，就可能为没选的另一个付出代价；deliver babies 是“接生”，不是“运送”；affect 是动词“影响”（was deeply affected by her mother's death），effect 才是名词；would rather do 表示“宁愿、宁可”（I'd rather stay single），比 choose to do 语气更决绝。",
+        "这套“时间轴＋选择＋品质”的读法马上能迁移：写作任务要求给一篇道德寓言写书评，读 The Stone in the Road 时同样先理情节、再评人物；口语里讲“善良的故事”用 I remember this happened when I was… / first of all… then… finally… 把事情讲清楚；遇到两难话题，表态句式是 If I were…, I would choose to…, because…。以后读任何人物报道——科学家、医生、普通人——都用这三步。"
+      ],
+      "methods": [
+        {
+          "name": "传记三步读法",
+          "steps": [
+            "第一步画时间轴：five-year-old→at age 18→eight years later→in 1939→in 1941→1954→22 April 1983",
+            "第二步圈选择：chose to study medicine / rejected the offer / opened a private clinic，每个动词都是岔路口",
+            "第三步品引语：Life is precious…、I'm ready to go…是人物心声，用来回答“她是什么样的人”"
+          ],
+          "tip": "口诀：时间轴上找选择，引语里读人心。"
+        },
+        {
+          "name": "美德配证据法",
+          "steps": [
+            "先记美德词：integrity 诚信、courage 勇气、honesty 诚实、generosity 慷慨、thankfulness 感恩、patriotism 爱国",
+            "再配证据：说 kindness，就举 charged very low fees / reduced costs for poor patients",
+            "表态句式：I admire her because… / Her choice shows…"
+          ],
+          "tip": "口诀：一德配一事，空夸不如事。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "18 岁那年，林巧稚面临怎样的选择？她用什么话回应哥哥的抱怨？",
+          "solution": "她没有像大多数女孩那样选择婚姻，而是 chose to study medicine（选择学医）；面对哥哥 Why should girls learn so much? 的抱怨，她回答 \"I'd rather stay single to study all my life!\"——宁可终身不嫁也要读书。",
+          "difficulty": 1,
+          "pitfall": "别把哥哥的话当成她的观点——Why should girls learn so much? 是抱怨，I'd rather stay single 才是她的回答。"
+        },
+        {
+          "question": "她为什么被称为 the \"mother of ten thousand babies\"？文中用了哪个词块说明她的工作？",
+          "solution": "原文：Though Lin Qiaozhi never married, she was known as the \"mother of ten thousand babies\", having delivered over 50,000 babies in her lifetime.——终身未婚却接生了五万多个婴儿，故得此名；词块是 deliver babies（接生）。",
+          "difficulty": 2,
+          "pitfall": "把 deliver babies 译成“运送婴儿”就错了——deliver 在这里是“接生”。"
+        },
+        {
+          "question": "战时妇产科关闭后，她做了哪三件事？分别体现什么品质？",
+          "solution": "opened a private clinic（开办私人诊所——担当）；charged very low fees and often reduced costs for poor patients（低收费、给穷人减费——善良慷慨）；was even seen riding a donkey to faraway villages to provide medical care（骑毛驴下乡送医——奉献）。",
+          "difficulty": 2,
+          "pitfall": "三件事都要回到原文找：诊所、收费、毛驴，一个都不能漏。"
+        }
+      ],
+      "mistakes": [
+        "把 deliver babies 理解成“递送婴儿”——这里是固定表达“接生”。",
+        "把 moral dilemma 泛泛当成“困难”——它特指两难处境：选了一个，就可能为没选的另一个付出代价（you might get in trouble for not choosing the other(s)）。",
+        "评价人物只贴标签（“她很伟大”）不给证据——每个品质都要配原文事实，如 kindness 配 charged very low fees。",
+        "跳过引语直接读情节——引语是传主心声，Life is precious… 一句就能回答“她为什么这样选”。"
+      ],
+      "source": {
+        "unit": "必修三 Unit 2 Morals and Virtues",
+        "pages": [
+          13,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "传记里写道：At age 18, instead of following the traditional path of marriage like the majority of girls, she chose to study medicine. 林巧稚 18 岁时的选择是什么？她如何回应哥哥的抱怨？",
+          "options": [
+            "听从家人安排早早结婚",
+            "放弃婚嫁之路选择学医，并说 I'd rather stay single to study all my life!",
+            "先工作赚钱再读书",
+            "出国留学再也不回来"
+          ],
+          "answer": "B",
+          "solution": "她不走传统婚嫁老路而选择学医；面对哥哥为学费的抱怨，她回答 I'd rather stay single to study all my life!（我宁愿终身不嫁也要读书）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P16·Reading and Thinking（At age 18…she chose to study medicine…I'd rather stay single to study all my life!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语篇说她 Though Lin Qiaozhi never married, she was known as the \"mother of ten thousand babies\"。这个称呼的由来是？",
+          "options": [
+            "她创办了一所大型幼儿园",
+            "她收养了上万名孤儿",
+            "她一生接生了 50,000 多个婴儿",
+            "她发表了上万篇医学论文"
+          ],
+          "answer": "C",
+          "solution": "原句后半：having delivered over 50,000 babies in her lifetime.——一生接生了五万多个婴儿；她积蓄留给的幼儿园是身后捐赠，与称呼无关。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P17·Reading and Thinking（mother of ten thousand babies…delivered over 50,000 babies in her lifetime）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式配对：她拒绝美国同事的挽留，因为 She wanted to serve the women and children at home.；战时科室关闭后她开私人诊所、给穷苦病人减费，甚至骑毛驴去偏远村庄出诊。这两处共同体现的美德是？",
+          "options": [
+            "幽默与乐观",
+            "节俭与朴素",
+            "勇敢与冒险",
+            "奉献与爱国"
+          ],
+          "answer": "D",
+          "solution": "放弃国外优渥条件回国服务妇女儿童，战时坚持为穷人看病下乡送医——都是把病人放在自己前面的奉献与爱国；美德词清单里的 patriotism（爱国）正可用在这里。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P16·Reading and Thinking（She wanted to serve the women and children at home…riding a donkey to faraway villages）变式（人物品质配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "听说部分的故事里，一位女生在升学考试中遇到邻座考生晕倒：扶人离场，考试受影响；不管不问，心里过不去。用 If I were…, I would choose to… 和 Because I think … is most important. 说出你的选择和理由（两句英语）。",
+          "answer": "示例：If I were in a situation like the girl faced, I would choose to help the student first. Because I think life is most important.",
+          "solution": "先亮选择再给理由，是语篇示范的表态句式；理由落在自己最看重的价值上（生命、责任、诚信都可以，说清即可）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_06",
+      "summary": "从汉堡、幸运饼干到唐人街粤菜：一道菜就是一部文化融合史，学会用四问法聊饮食，再谈出健康门道。",
+      "explanation": [
+        "多元文化语料用两组材料讲饮食文化。听力访谈介绍四种美国食物的来历：hamburger 是 a mix of German + American cultures 的产物（判断题特意设了 Hamburgers were invented in Germany. 来考你）；fortune cookie 约 100 年前发明于美国，饼干里藏着 a piece of paper with a fortune on it（一张写有签语的纸条）；nachos 是盖满奶酪的玉米片（chips covered in cheese），由一位墨西哥厨师为美国人发明；gumbo 是新奥尔良的 spicy stew（辣炖菜），混合了法式、非裔、原住民与西班牙烹饪。访谈的主线句是 American cooking often mixes things from around the world to make something completely new. 旅行日记里，作者在使命区（Mission District）的 food truck 吃到 Mexican-Chinese noodles，感叹 A real mix of cultures here! 傍晚在唐人街挑了一家粤菜馆，菜品盛在精美的瓷盘上，她写下 What great food! 写作语料 WELCOME TO CHINATOWN! 则说：But perhaps what many tourists and San Franciscans treasure most about Chinatown is its food. There is Chinese food to suit everyone's taste, with traditional dishes from all over China.",
+        "一道菜就是一部微缩的移民史。1848 年加州发现金矿，Over 300,000 people came from all over the world to seek their fortune，旧金山迅速成为大城市；许多华人也在此时到来，有人开店开餐馆，唐人街由此成型。日记里写得很动人：When these immigrants left their countries, they carried a bit of home in their hearts, and built a new home here.——移民把家乡味也装进了行囊。potluck dinner（各带一道菜的聚餐）是美国常见的聚会方式：每人端来自己的拿手菜或家乡菜，一桌菜就是一张多元文化地图。所以聊饮食不能只说 delicious——背后是“谁来到这里、带来了什么、留下了什么”。",
+        "聊一道菜用“饮食文化四问”：What is it?（是什么菜）Where is it from?（起源哪里、受哪种 cuisine 影响）How is it made?（原料与做法）What does it tell about culture?（体现什么文化）。听力笔记技巧也在这里：只记关键词——食物名、发明地、年代、混合的文化；省略冠词 a/an/the，用缩写，如 N.O. 代表 New Orleans、yrs 代表 years、+ 代表 and。谈健康再加一问 Is it healthy?——从做法（steamed 蒸、boiled 煮偏清爽，fried 煎炸油多）与营养（rich in protein 富含蛋白质、low in fat 低脂）两个角度说。",
+        "几组词别混：food 是食物统称，dish 指一道菜，meal 指一餐，cuisine 指某地的菜系风味（Mexican cuisine、Cantonese restaurant 粤菜馆）；mild 在 The climate is mild all year round 里指气候温和，形容口味则是“清淡”；seek one's fortune 是“谋出路、闯世界”，不是“寻宝藏”；treasure 在 what many tourists…treasure most about Chinatown 里是动词“珍视”；日记里 I selected a Cantonese restaurant 的 select 就是“挑选”。",
+        "饮食是跨文化交际最亲切的入口。这部分通向综合活动的“旅行手册”（向外国朋友介绍多元文化）与写作任务的“介绍你的城市”（is home to… / popular foods include…）。把四问法先用在自家餐桌上：介绍一道家乡菜，再说清它为什么健康——两句英语，文化感与健康意识就都有了；今后遇到任何陌生食物，都可以用这套问题去“吃懂”它。"
+      ],
+      "methods": [
+        {
+          "name": "饮食文化四问法",
+          "steps": [
+            "一问 What is it?：说清是什么菜",
+            "二问 Where is it from?：起源与受哪种 cuisine 影响（hamburger＝German + American）",
+            "三问 How is it made?：原料做法（chips covered in cheese）",
+            "四问 What does it tell about culture?：背后的迁徙与融合（A real mix of cultures here!）"
+          ],
+          "tip": "口诀：一名二源三做法，四说文化不落俗。"
+        },
+        {
+          "name": "健康饮食表达法",
+          "steps": [
+            "做法定健康：steamed（蒸）、boiled（煮）偏清爽，fried（煎炸）油多",
+            "营养点到位：rich in protein（富含蛋白质）、low in fat（低脂）、full of vitamins",
+            "结论句式：It is healthy because… / It suits people who…"
+          ],
+          "tip": "口诀：先说怎么做，再说富什么，最后一句 because。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "nachos（玉米片配奶酪）是怎么来的？由谁为谁发明？",
+          "solution": "nachos 是盖满奶酪的玉米片（chips covered in cheese），由一位墨西哥厨师为美国人发明——所以访谈判断题里 Nachos were invented for Americans by a foreigner. 是对的。",
+          "difficulty": 1,
+          "pitfall": "别把 nachos 当成美国“土生土长”的小吃——发明者是墨西哥厨师，这正是“美国食物多源混合”的例子。"
+        },
+        {
+          "question": "判断并说明理由：Hamburgers were invented in Germany.",
+          "solution": "不对。访谈里汉堡是 mix of German + American cultures 的产物；访谈的主线是 American cooking often mixes things from around the world to make something completely new.——美国烹饪常把世界各地的元素混出全新的东西。",
+          "difficulty": 2,
+          "pitfall": "判断题不能只答“对/错”，要像访谈笔记那样补一句理由。"
+        },
+        {
+          "question": "日记里 A real mix of cultures here! 的“混”体现在哪里？如果用一道菜解释这句话，你会选哪道？",
+          "solution": "体现在使命区：居民多来自墨西哥或中美洲，作者却在 food truck 吃到 Mexican-Chinese noodles（墨西哥-中式面条）——一道菜里两种文化；选它最能解释“混”。",
+          "difficulty": 2,
+          "pitfall": "这里的“混”不是混乱，而是多元文化的融合，回答要落到具体细节上。"
+        }
+      ],
+      "mistakes": [
+        "把 fortune cookie 当成中国传统点心——访谈说它约 100 年前发明于美国，纸条上写的是签语。",
+        "把 seek one's fortune 理解成“寻找金矿宝藏”——它是“谋生路、闯天下”，30 多万人涌入旧金山是为了新生活。",
+        "food、dish、meal、cuisine 混用——一道菜用 dish，一餐用 meal，菜系用 cuisine，泛指食物才用 food。",
+        "谈饮食只说 delicious、nice——要说得出文化含义或健康理由，用 It tells… / It is healthy because…。"
+      ],
+      "source": {
+        "unit": "必修三相关单元",
+        "pages": [
+          25,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "听力访谈介绍了四种美国食物的来历。关于 nachos 的说法正确的是？",
+          "options": [
+            "饼干里藏着写有签语的纸条",
+            "德国肉饼夹面包",
+            "新奥尔良的辣炖菜",
+            "盖满奶酪的玉米片，由一位墨西哥厨师为美国人发明"
+          ],
+          "answer": "D",
+          "solution": "笔记表里 nachos 一栏：chips covered in cheese；made by a Mexican cook——盖满奶酪的玉米片，墨西哥厨师为美国人所创。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P27·美国饮食访谈笔记表（nachos…chips covered in cheese…made by a Mexican cook）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "访谈判断题：Hamburgers were invented in Germany.（汉堡包发明于德国）这句话在访谈里的判断与理由是？",
+          "options": [
+            "真——它完全是德国菜",
+            "假——汉堡是德国与美国两种文化混合的产物",
+            "假——它发明于中国",
+            "真——但只在加州流行"
+          ],
+          "answer": "B",
+          "solution": "笔记表写 hamburger 是 mix of German + American cultures，并非“发明于德国”；这也印证了主线句：美国烹饪常把世界各地元素混成新东西。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P26·美国饮食访谈判断题（Hamburgers were invented in Germany.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：旅行日记里，作者在使命区的 food truck 吃到 Mexican-Chinese noodles 后感叹 A real mix of cultures here! 这句话想说什么？",
+          "options": [
+            "一道普通快餐，没什么特别",
+            "这里的面条比墨西哥本土的更正宗",
+            "一道菜里融合了多种文化，正是多元文化的写照",
+            "作者吃不惯美式快餐"
+          ],
+          "answer": "C",
+          "solution": "使命区居民多来自墨西哥或中美洲，一道 Mexican-Chinese noodles 却同时带着两种文化的影子——“混”指的是文化融合；下文的移民句 carried a bit of home in their hearts 也印证这一点。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P28·Reading and Thinking（Mexican-Chinese noodles…A real mix of cultures here!）变式（饮食与文化）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "朋友邀请你参加 potluck dinner（每人带一道菜的聚餐）。用三句英语介绍你要带的一道家乡菜：第一句说菜名与主要原料，第二句说做法或特点，第三句说说它为什么健康。",
+          "answer": "示例：I will bring steamed fish with ginger and scallions. It is cooked with little oil but lots of fresh ginger. It is healthy because it is rich in protein and low in fat.",
+          "solution": "菜名—原料—做法—健康理由，正好把“四问法”用全；健康理由落在做法（少油）与营养（protein、low in fat）上最稳。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_07",
+      "summary": "长难句拆解三步走：先找谓语定骨架，再回找主语，最后把修饰成分一件件挂回去，句子就读顺了。",
+      "explanation": [
+        "进入高中阶段，阅读语篇里的句子明显变长了。传记里有 Though Lin Qiaozhi never married, she was known as the \"mother of ten thousand babies\", having delivered over 50,000 babies in her lifetime. 节日语篇里有 Of all the traditional festivals, the harvest festival can be found in almost every culture. 唐人街介绍里有 Most of Chinatown was destroyed in the 1906 earthquake, but the city and residents rebuilt it, taking care to include lots of Chinese architecture. 这类句子修饰成分多、从句套从句，从头硬读容易迷路。拆解长难句的基本功是“主谓定位”：先找到谓语动词，再回头找主语，最后把修饰成分一件件切下来——骨架立住了，整句自然读顺。",
+        "把长句想成一个穿了很多外套的人：主语和谓语是“人本身”，介词短语、从句、-ing 结构都是他身上一层层的外套。读长句就像认人：先摸到“心跳”——谓语动词，全句唯一真正“在干活”的动词；再顺着心跳找到“这个人是谁”——主语；最后把外套一件件脱下来看，修饰成分各管各的。检验方法很简单：只留主语和谓语，句子照样完整——Lin Qiaozhi was known as the \"mother of ten thousand babies.\"——说明你抓对了骨架。",
+        "三步操作：第一步找谓语——锁定带时态的动词（was known、can be found、rebuilt），注意一个分句通常只有一个谓语，看到 and/but 连接的第二套主谓，那就是并列分句；第二步回找主语——从谓语往前找中心名词，把 of、in、for 引导的介词短语从主语里剔除（Most of Chinatown 的中心是 Most，the harvest festival 前面的 Of all the traditional festivals 是状语）；第三步切修饰——逗号后的 -ing/-ed、to do、从句都是“挂件”：having delivered… 是伴随状语，taking care to… 也是伴随状语，Though… 引导的让步从句整句让位。",
+        "三个高频陷阱：一是句首的 -ing 短语不是主语——Thinking of all the people still in need of help, Dr Lin opened a private clinic. 里主语是 Dr Lin，-ing 短语是状语；二是 As a five-year-old girl 这类身份状语不是主语——As a five-year-old girl, Lin Qiaozhi was deeply affected by her mother's death. 的主语是 Lin Qiaozhi；三是并列句有两套主谓——“…, but the city and residents rebuilt it”里 rebuilt 的主语是 the city and residents，不是 Chinatown。另外 The new People's Republic of China saw Dr Lin Qiaozhi playing a key role. 中，saw 的主语是“新中国”，Dr Lin Qiaozhi 是宾语，千万别看走眼。",
+        "主谓定位是语法学习的“总开关”：找对了谓语，非谓语动词（doing / to do / done 不充当谓语）一眼识破；找对了主语，主谓一致、被动语态都不会错；写作时先立“主语＋谓语”骨架再挂修饰，长句才不会写散。以后每遇到读不懂的长句，就回到这三步——这个方法管用一辈子。"
+      ],
+      "methods": [
+        {
+          "name": "主谓定位三步法",
+          "steps": [
+            "第一步找谓语：锁定带时态的动词（was known / can be found / rebuilt），一个分句通常只有一个谓语",
+            "第二步回找主语：从谓语往前找中心名词，剔除 of/in/for 介词短语（Most of Chinatown 的中心是 Most）",
+            "第三步切修饰：-ing/-ed、to do、从句都是挂件（having delivered…＝伴随状语）"
+          ],
+          "tip": "口诀：一找谓语二定主，三切修饰看挂件。"
+        },
+        {
+          "name": "骨架验证法",
+          "steps": [
+            "删掉所有修饰成分，只留主语和谓语",
+            "读一遍：Lin Qiaozhi was known… / The harvest festival can be found…，句子完整即骨架正确",
+            "再逐件挂回修饰，说明各自作用（状语、定语、从句）"
+          ],
+          "tip": "口诀：删到只剩主和谓，句子还通就找对。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用三步法拆解：Of all the traditional festivals, the harvest festival can be found in almost every culture.",
+          "solution": "第一步谓语是 can be found；第二步主语是 the harvest festival；第三步切修饰：Of all the traditional festivals 是介词短语作状语，in almost every culture 是地点状语。骨架：The harvest festival can be found.",
+          "difficulty": 1,
+          "pitfall": "别把句首 Of all the traditional festivals 当主语——它是状语，真正的主语在逗号后面。"
+        },
+        {
+          "question": "As a five-year-old girl, Lin Qiaozhi was deeply affected by her mother's death. 这句的主语和谓语各是什么？",
+          "solution": "主语 Lin Qiaozhi，谓语 was deeply affected（一般过去时被动语态）；As a five-year-old girl 是介词短语作身份状语，by her mother's death 说明动作的来源。",
+          "difficulty": 2,
+          "pitfall": "受中文语序影响，容易把 a five-year-old girl 当成主语——它只是状语里的名词。"
+        },
+        {
+          "question": "Most of Chinatown was destroyed in the 1906 earthquake, but the city and residents rebuilt it, taking care to include lots of Chinese architecture. 这句由几个分句组成？各自主语和谓语是什么？",
+          "solution": "两个并列分句：①主语 Most of Chinatown，谓语 was destroyed；②主语 the city and residents，谓语 rebuilt。句末的 taking care to include… 是伴随状语。",
+          "difficulty": 3,
+          "pitfall": "but 连接的第二个分句有自己的主谓，别把 rebuilt 的主语看成 Chinatown。"
+        }
+      ],
+      "mistakes": [
+        "把句首的 -ing 短语或介词短语当成主语——句首状语后用逗号隔开，真正的主语要到谓语前面找。",
+        "把非谓语动词当谓语——having delivered、to seek、taking care 都不带时态，不是谓语；谓语必须能确定时态。",
+        "Most of… / One of… 结构里认错中心词——Most of Chinatown 的中心是 Most，不是 Chinatown。",
+        "长句只顾从头读到尾——不先定主谓骨架，修饰成分一多就会“读后面忘前面”。"
+      ],
+      "source": {
+        "unit": "各单元 Reading and Thinking",
+        "pages": [
+          1,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "「The new People's Republic of China saw Dr Lin Qiaozhi playing a key role.」这句的主语是？",
+          "options": [
+            "Dr Lin Qiaozhi",
+            "The new People's Republic of China",
+            "a key role",
+            "playing"
+          ],
+          "answer": "B",
+          "solution": "谓语是 saw，往前找主语是 The new People's Republic of China（新生的中国见证了林巧稚医生发挥重要作用）；Dr Lin Qiaozhi 是 saw 的宾语，playing a key role 是宾语补足语。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P17·Reading and Thinking（The new People's Republic of China saw Dr Lin Qiaozhi playing a key role.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "「Of all the traditional festivals, the harvest festival can be found in almost every culture.」这句的主语是？",
+          "options": [
+            "the harvest festival",
+            "all the traditional festivals",
+            "every culture",
+            "almost"
+          ],
+          "answer": "A",
+          "solution": "谓语是 can be found，主语是 the harvest festival；Of all the traditional festivals 是介词短语作状语前置。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P4·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：「Thinking of all the people still in need of help, Dr Lin opened a private clinic.」这句的主语是？",
+          "options": [
+            "all the people",
+            "Dr Lin",
+            "a private clinic",
+            "help"
+          ],
+          "answer": "B",
+          "solution": "句首的 Thinking of… 是 -ing 短语作状语（“想到还有许多需要帮助的人”），真正的主语是 Dr Lin，谓语是 opened——先找谓语再回找主语就不会被句首挂件骗到。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教必修三 P16·Reading and Thinking（Thinking of all the people still in need of help, Dr Lin opened a private clinic.）变式（主谓定位）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从你最近读到的一篇英语文章里挑一个 20 词以上的长句，用三步法拆解：写出它的谓语、主语，并说明修饰成分各是什么。",
+          "answer": "示例：Though festivals may seem different, the spirit of sharing joy, gratitude, love, or peace is common in all festivals.——主句主语 the spirit of sharing joy, gratitude, love, or peace，谓语 is；Though festivals may seem different 是让步状语从句。",
+          "solution": "检验标准：只留主语和谓语，句子仍然完整通顺（The spirit … is common.），说明骨架找对了。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_08",
+      "summary": "介绍节日抓三段：开头点时间与节日名，中段写人们的活动，结尾说清为什么庆祝——三问三答，一篇介绍文就立起来了。",
+      "explanation": [
+        "书上的写作板块用一篇那达慕节日记示范了怎么写节日：第一段先交代地点、时间与节日——\"I experienced the Naadam Festival in China's Inner Mongolia Autonomous Region for the first time this year. The festival falls on the fourth day of the sixth month of the lunar calendar, usually lasting for three days.\"；中间几段写活动——\"...it is represented by three events: horse racing, wrestling, and archery\"；结尾总结感受——\"I'm finally back home now, feeling really tired, but celebrating Naadam with my friend was totally worth it.\"。综合活动示例还把节日信息列成提纲：Time: On the third day of the third month of the Chinese lunar year；Festival activities: Sing songs, ...；Local festival food: five-coloured sticky rice, duck in lemon sauce——时间、活动、吃食一目了然。",
+        "为什么先写时间？读者对你的节日一无所知：时间段像通知的抬头，先回答 When（什么时候过）和 What festival（过什么节）；活动段像一张节目单，人们做什么、吃什么、看什么；意义段是点睛之笔，回答 Why celebrate。阅读语篇里的句子是最好的示范——\"People celebrate to show that they are grateful for the year's supply of food.\"：收获祭的意义是感恩一年的粮食供给。先时间、再活动、后意义，读者就跟着你三步走完了整个节日。",
+        "动笔前先列三问提纲：When/What festival、What do people do、Why celebrate，每个问题写一句主旨句再补两三句细节。时间段背熟 falls on（正逢、在……举行）和 last（持续）的搭配：The festival falls on ..., usually lasting for three days；活动段主语多用 people / families，一般现在时串起两三个活动；意义段用 ... symbolises ...（象征）或 It is a time for ...（是……的时刻）。开头还可以借书上的句式起笔：\"This was my first time spending ... and it was an enjoyable and exciting experience for me.\" 或 \"I'll never forget ... because ...\"",
+        "说明文式介绍不等于记自己某一天的经历：日记按时间顺序讲我做了什么（I set off ... Then ...），介绍文按『时间—活动—意义』三类信息分块展开，不必写自己几点起床。最易跑偏的是意义段——把活动再说一遍不算意义，要回答为什么庆祝、节日承载什么情感：元宵的圆子象征团圆（reunion, harmony），收获祭感恩粮食，各类节日共同的精神是 sharing joy, gratitude, love, or peace。时态也要分清：介绍节日的常规时间与活动用一般现在时（falls on / people do），只有写自己某一次的经历才用一般过去时。",
+        "这套三段式是最通用的说明文骨架，学会之后可以迁移到介绍一道传统美食、一种家乡文化甚至一座城市。写完别急着交：用写作板块配套的自评清单过一遍——组织是否清楚？每段开头有没有主旨句？细节够不够？有没有语法、拼写、标点错误？自查一遍再定稿的习惯，比多写一篇更值钱。"
+      ],
+      "methods": [
+        {
+          "name": "三问提纲法",
+          "steps": [
+            "第一问 When/What festival：节日名称＋农历或公历时间＋持续几天，写成时间段主旨句",
+            "第二问 What do people do：挑 2~3 个代表性活动，用 people / families 作主语，一般现在时",
+            "第三问 Why celebrate：用 ... symbolises ... / It is a time for ... / because ... 点出意义与情感",
+            "收尾补感受：This was my first time ... and it was ... for me."
+          ],
+          "tip": "时间开路，活动铺路，意义点题。"
+        },
+        {
+          "name": "句式脚手架法",
+          "steps": [
+            "时间段先套框架 The festival falls on ..., lasting for ... 再换节日内容",
+            "活动句用 and / also / then 串连，避免一句一个逗号的流水账",
+            "意义句先写 It is a time for ... 再用 because 补一条理由",
+            "写完通读只查两件事：时态是否统一、每段首句是不是主旨句"
+          ],
+          "tip": "句式是脚手架——先套框架，再换砖瓦。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "要写介绍元宵节的第一段（时间），下面哪一句适合作主旨句：① The Lantern Festival falls on the 15th day of the first month of the lunar year. ② I like colourful lanterns very much. ③ Tangyuan tastes sweet.",
+          "solution": "选①。第一段要交代节日名称与时间，falls on 表示『正逢、在……举行』，正是时间段的核心句式；②③只是个人感受和细节描写，撑不起主旨。",
+          "difficulty": 1,
+          "pitfall": "别拿个人喜好句当时间主旨句——先定位节日，再谈感受。"
+        },
+        {
+          "question": "把元宵节的活动串成活动段：看灯、猜灯谜、吃元宵。写出两句一般现在时的句子。",
+          "solution": "示例：During the festival, people enjoy looking at colourful lanterns and guessing riddles. Families get together and eat yuanxiao or tangyuan.——people / families 作主语，用 and 串连活动，时态统一为一般现在时。",
+          "difficulty": 2,
+          "pitfall": "活动段不是名词清单，要用完整句子把动作串起来，不能一句一个逗号。"
+        },
+        {
+          "question": "为意义段补一句：人们为什么吃圆圆的元宵？The round tangyuan symbolises ______, so people eat it to wish for a happy family life.",
+          "solution": "填 reunion and harmony（团圆与和谐）：元宵节语料说圆子的圆形象征 reunion 与 harmony，意义段正是借象征义回答为什么庆祝。",
+          "difficulty": 3,
+          "pitfall": "意义句要落在情感与祝愿上，不要复述『人们吃元宵』这个动作本身。"
+        }
+      ],
+      "mistakes": [
+        "时间段写成某一次的经历：Last Sunday I went to ...——介绍节日常规时间要用 falls on ＋ 月份日期，用一般现在时。",
+        "活动段时态混乱：把常规活动写成过去时 People watched ...，介绍性文字应统一用一般现在时。",
+        "意义段复述活动，没有回答为什么庆祝——symbolise / It is a time for 才是意义句的标志。",
+        "三段挤成一段，或每段没有主旨句，读者抓不住文章层次。"
+      ],
+      "source": {
+        "unit": "必修三 Reading for Writing",
+        "pages": [
+          8,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "介绍端午节时写了三个句子：a. People hold dragon boat races and eat zongzi to celebrate it. b. The Dragon Boat Festival falls on the fifth day of the fifth month of the lunar year. c. It is a festival in memory of Qu Yuan, showing people's love for their country. 按说明文三段（时间—活动—意义）排列，正确的顺序是——",
+          "options": [
+            "b—a—c",
+            "a—b—c",
+            "c—a—b",
+            "b—c—a"
+          ],
+          "answer": "A",
+          "solution": "b 是时间段（falls on ＋ 日期），a 是活动段（people do），c 是意义段（in memory of / showing ...），所以顺序是 b—a—c。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P9·写作提纲（Name of the festival；The topic and my feeling；The festival activities；A summary）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面三句话介绍元宵节，哪一句写的是庆祝的意义？① The Lantern Festival falls on the 15th day of the first month of the lunar year. ② People enjoy looking at lanterns, guessing riddles and eating tangyuan. ③ The round tangyuan symbolises reunion and harmony, so families eat it together.",
+          "options": [
+            "第①句",
+            "第②句",
+            "第③句"
+          ],
+          "answer": "C",
+          "solution": "③用 symbolises（象征）点出团圆与和谐，回答了为什么吃圆子、为什么庆祝，属于意义段；①是时间句，②是活动句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P12·Video Time 元宵节语料（the 15th day of the first month of the lunar year；looking at lanterns, guessing riddles, eating yuanxiao or tangyuan；symbolises reunion, harmony）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "原句：I experienced the Naadam Festival for the first time this year. 用书上的开头句式改写这句话，正确的一项是——",
+          "options": [
+            "This was my first time experiencing the Naadam Festival and it was an enjoyable and exciting experience for me.",
+            "This was my first time experience the Naadam Festival and it was enjoyed and excited for me.",
+            "This was my first time of the Naadam Festival and it was enjoy and excite."
+          ],
+          "answer": "A",
+          "solution": "句式 This was my first time doing ... and it was an enjoyable and exciting experience for me：first time 后接动名词 experiencing；experience 作名词时前面加冠词与形容词，用 an enjoyable and exciting experience。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P9·开头句式改写变式（This was my first time spending ... and it was an enjoyable and exciting experience for me.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以春节为例，为介绍文写一句意义句：用 It is a time for ... 或 ... symbolises ... 说明人们为什么庆祝春节。",
+          "answer": "示例：The Spring Festival is a time for family reunion, because the red colour symbolises good luck and family members get together to share joy and love.（意思对、句式对即可）",
+          "solution": "意义句两步走：先用 It is a time for ... 或 ... symbolises ... 点出节日的情感内核，再用 because 补一条理由；写完通读，确认全文是一般现在时。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_09",
+      "summary": "讨论有分歧先别急着反驳：用 I see your point 先接住对方，再用 but / however 转出自己的看法——礼貌异议，观点鲜明又不伤和气。",
+      "explanation": [
+        "书上的听说板块有一段现成的示范：Joe 直言烟花吵——\"But, to be frank, the fireworks going off throughout the night were really annoying.\"，Song Lin 这样接住——\"Oh, well, yes, I can see your point there! But it's all part of the tradition to frighten away the evil spirits.\"（我明白你的意思！不过吓走邪祟本就是传统的一部分）。讨论示例里还有一组完整的交锋：\"I think it's kind of Roderick and Oliver to give Henry the money.\" — \"I'm afraid I disagree. They shouldn't be making a bet on him.\" — \"Maybe you're right. But I guess that would be a different story ...\"。表示在认真听的回应语也一并记下：Exactly! / You're right! / I see. / I know what you mean. / Tell me about it!",
+        "直接说 You're wrong 像一扇门砰地关上，对方只想防守；先认可再转折，就像先递台阶再上楼——对方感到被听见，才愿意听你的理由。中文里『你说的有道理，不过……』就是这个逻辑。注意礼貌不等于放弃立场：I see your point 之后必须有 but / however 带出自己的看法，否则对方会以为你同意了。",
+        "操作上记三步：第一步认可——I see your point. / That's a good idea. / Exactly!；第二步转折——口语最常用 but，稍正式用 however；第三步亮观点——I think ... because ... / I'm not sure I'd ..., because ...。语气想再软一点，就加缓冲垫：I'm afraid I disagree.（恐怕我不敢苟同）。讨论节日感受时配上情感语块更自然：It was fantastic! / That's amazing. / It was great fun! / I'm really happy that ...",
+        "易混点在 however 与 but 的接法：but 是连词，直接连两个分句（..., but ...）；however 是副词，前面要用句号或分号断开、后面加逗号（.... However, ...），不能写成 ...point, however I...。I'm afraid 也不是真害怕，是委婉语气。还有两个常见毛病：只认可不转折——说完 I see your point 就停，等于同意对方；只否定不说理——No way! 对熟人无妨，正式讨论里会显得失礼，记得补上 because。",
+        "这套先让步后转折的功夫会一路用到议论文里：书上的议论文开头就是先摆反方——\"Some people argue that we should stop wasting time and money exploring space.\"，接着 \"However, others feel this is a shallow view...\"。口语里的礼貌异议，就是书面议论文让步段的雏形：先承认对方合理处，再给出自己的理由，文章和对话都立得住。"
+      ],
+      "methods": [
+        {
+          "name": "先接再转三步法",
+          "steps": [
+            "第一步认可：I see your point. / That's a good idea. / I know what you mean.",
+            "第二步转折：口语用 but，稍正式用 However,（前面用句号或分号）",
+            "第三步亮观点：I think ... because ...，给出自己的理由",
+            "收尾留余地：Maybe you're right, but ... 让讨论继续下去"
+          ],
+          "tip": "先接住，再转腕，后出手。"
+        },
+        {
+          "name": "语气软化法",
+          "steps": [
+            "生硬句加缓冲：You're wrong → I'm afraid I disagree.",
+            "部分否定：I'm not sure I'd enjoy it in such hot weather 比直接否定留有余地",
+            "倾听配合：Exactly! / I see. / Tell me about it. 让对方愿意继续说",
+            "理由先行：先 because 再结论，异议听起来像讨论而不是抬杠"
+          ],
+          "tip": "I'm afraid 不是怕，是礼貌的缓冲垫。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "朋友说：I think the Rio Carnival would be the most exciting. 你也喜欢跳舞，但担心天气太热，怎样礼貌地表示不完全认同？",
+          "solution": "可以像书上对话那样说：I love dancing, too, but I'm not sure I'd enjoy it in such hot weather.——先用 too 认可共同点，再用 but 转出担心，I'm not sure 让语气留有余地。",
+          "difficulty": 1,
+          "pitfall": "只回一句 I don't think so 而不给理由，对方会觉得被直接否定。"
+        },
+        {
+          "question": "把生硬句 You are wrong. The fireworks are part of the fun. 改成一句礼貌异议。",
+          "solution": "示例：I can see your point there! But it's all part of the tradition, and many people enjoy the fun.——先 I can see your point 认可对方的感受，再用 But 转出不同看法并补一句理由。",
+          "difficulty": 2,
+          "pitfall": "礼貌异议不是放弃观点：转折之后必须有自己的看法和理由。"
+        },
+        {
+          "question": "用 however 改写这句话：I see your point, but it costs too much.",
+          "solution": "I see your point. However, it costs too much.（或 I see your point; however, it costs too much.）——however 是副词，前面要用句号或分号断开，后面加逗号。",
+          "difficulty": 2,
+          "pitfall": "不能写成 I see your point, however it costs too much.——那是 but 的连法，however 不能只用一个逗号连接两个分句。"
+        }
+      ],
+      "mistakes": [
+        "把 You're wrong. / I don't agree. 当万能回应——太直接，讨论容易当场中断。",
+        "说完 I see your point 就没了下文——只认可不转折，等于同意了对方。",
+        "however 当连词用：I see your point, however I ...（错）——前面要用句号或分号断开。",
+        "把 I'm afraid I disagree 理解成『我害怕不同意』——afraid 在这里是委婉语气，整句意为『恐怕我不能同意』。"
+      ],
+      "source": {
+        "unit": "各单元 Listening and Talking",
+        "pages": [
+          7,
+          54
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Joe 说：But, to be frank, the fireworks going off throughout the night were really annoying. 你想礼貌地表示不同看法，最合适的一句是——",
+          "options": [
+            "You're wrong. I like fireworks very much.",
+            "I can see your point there! But it's all part of the tradition.",
+            "Sorry, I don't want to talk about it."
+          ],
+          "answer": "B",
+          "solution": "书上原对话正是这样回应的：先 I can see your point there! 认可对方的感受，再用 But 转出传统这层理由；A 太直接，C 回避了交流。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P7·Listening and Talking 对话（I can see your point there! But it's all part of the tradition...）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：A: I think it's kind of Roderick and Oliver to give Henry the money. B: ______ A: But Henry might get into trouble if they didn't offer him the money.",
+          "options": [
+            "I'm afraid I disagree. They shouldn't be making a bet on him.",
+            "You are completely wrong. It's not kind at all!",
+            "Whatever. I don't really care about it."
+          ],
+          "answer": "A",
+          "solution": "书上讨论示例的原句就是 I'm afraid I disagree. They shouldn't be making a bet on him.——委婉否定＋具体理由，正好接得住后面的讨论。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P54·观点交流示例对话（I'm afraid I disagree. They shouldn't be making a bet on him.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "小组讨论时同伴说：That's a good idea. 我们照它做吧。你想既回应对方又礼貌地表达不同意见，最合适的一句是——",
+          "options": [
+            "That's a good idea. However, I see it a little differently, because we don't have enough time.",
+            "Good idea? No. Bad idea! We don't have time.",
+            "That's a good idea, however we don't have enough time."
+          ],
+          "answer": "A",
+          "solution": "A 先认可（That's a good idea.）再用 However 转折并给出理由；C 的错误在于 however 前只用逗号连接两个分句，正确写法是句号或分号＋However,；B 生硬且没有理由。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P43·课堂讨论示例变式（That sounds like a good question. But I'd also like to know about...）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "朋友说：Festivals are becoming more and more commercial, and that's good for the economy. 你部分同意，但更看重节日的文化内涵。写一句先认可再异议的话（可用 I see your point, but ... 或 That's a good idea. However, ...）。",
+          "answer": "示例：I see your point, but I think festivals should be more about family and culture than about shopping.（认可＋转折＋己见，言之成理即可）",
+          "solution": "三步齐全：先 I see your point 接住对方的合理处，再 but / however 转折，最后亮出自己的理由；注意 however 单独成句时前后的标点。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11a_10",
+      "summary": "同一个单词换个句子就换身份：run 会跑也会『耗尽』，interest 是兴趣也是『关注』——靠前后搭配、逻辑关系、主题场景三条线索锁定词义。",
+      "explanation": [
+        "书上的语篇里，同一个词在不同句子中意思并不相同：游记写赛马——'the horses can run faster and farther'（run＝奔跑）；议论文提醒——'It is necessary to find a new home for people in space, as the resources on Earth will run out.'（run out＝耗尽）；词汇练习里——'attracted a lot of interest from the (media)'（interest＝关注），另一句——'they tend to show interest in their work and they are eager to learn'（interest＝兴趣）。阅读策略也明说了方法：'You can find this implied meaning by looking at the context.'——结合上下文找含义。",
+        "一词多义像一个人的多重身份：run 在操场上是『跑』，跟着 resources（资源）就变成『耗尽』；interest 跟着 media 是『关注』，跟着 in their work 是『兴趣』。语境就是判断身份的工作牌——只盯着单词本身背义项，永远猜不准；高中阅读考的正是『把这个放回这句话里它是什么意思』。",
+        "三线索定词义，按顺序走：一看前后搭配——划出目标词前后的名词与介词伙伴（resources + run out；interest from the media）；二看逻辑关系——but / however / because / so 这些信号词提示语义往哪边走；三看主题场景——整段在谈太空资源、媒体关注还是工作热情，场景把词义锁死。最后一步是代回检验：把猜出的意思放回原句通读一遍，通顺才算数，不通顺就回到第一步。",
+        "易混点逐个排：run out 的主语多是资源、时间、耐心这类东西，别理解成『跑出去』；interest 要分清兴趣、关注、利息三个义项——银行、买卖语境才是利息；book 作名词是『书』，生活里还常作动词『预订』（book a ticket），阅读中遇到 book 要先看它在句子里当名词还是动词。一词多义不是死记义项表，而是『核心义＋语境引申』：run 的核心是『动起来』，资源被动态完了，就是耗尽。",
+        "高中阅读生词密度大，语境猜词是不查词典的随身工具，再配上构词法就是双保险。遇到熟词生义（run / interest / book 这一类），先自己猜、再查词典验证差距，然后把『核心义＋语境义＋原句』整理成一词多义卡——考试里专门考熟词生义的题，检验的正是这项长期积累的功夫。"
+      ],
+      "methods": [
+        {
+          "name": "三线索定词义法",
+          "steps": [
+            "第一步搭配：划出目标词前后的名词、介词伙伴，看它跟谁搭伙",
+            "第二步逻辑：找 but / however / because / so 等信号词，确定语义方向",
+            "第三步场景：用整段主题（太空／媒体／工作）锁定最合理的意思",
+            "第四步检验：把词义代回原句通读，不通顺就回到第一步"
+          ],
+          "tip": "搭配画圈，逻辑划线，场景定音。"
+        },
+        {
+          "name": "一词多义积累法",
+          "steps": [
+            "遇到熟词的新意思，先自己猜，再查词典验证差距",
+            "按『核心义→语境义』整理：run＝跑（核心）→ run out 耗尽（引申）",
+            "短语和例句一起背：show interest in / run out / book a ticket 不拆开记",
+            "每周翻一次多义卡，自测能否根据语境说出对应义项"
+          ],
+          "tip": "单词不单飞，例句一起背。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "The horses can run faster and farther.——run 在句中是什么意思？",
+          "solution": "奔跑。主语是 the horses（马），赛马场景里马跑得更快更远，run 用的正是本义；别因为见过 run out 就先想到耗尽。",
+          "difficulty": 1,
+          "pitfall": "一词多义词先验证本义是否通顺，本义通顺就不必绕远。"
+        },
+        {
+          "question": "It is necessary to find a new home for people in space, as the resources on Earth will run out.——run out 在句中是什么意思？",
+          "solution": "耗尽、用完。resources（资源）与 run out 搭配，场景是人类要在太空找新家——地球资源将『用完』。",
+          "difficulty": 2,
+          "pitfall": "run out 的主语多是资源／时间／耐心，不是『人跑到外面』。"
+        },
+        {
+          "question": "The female soldiers forming the biggest group in the National Day parade attracted a lot of interest from the media.——interest 在句中是什么意思？",
+          "solution": "关注。attract（吸引）＋ from the media（来自媒体）锁定义项：国庆阅兵方阵吸引了媒体的广泛关注；不是利息，也不只是个人兴趣。",
+          "difficulty": 2,
+          "pitfall": "interest 在银行、买卖语境里才是利息；attract ... from the media 提示这里是『关注』。"
+        }
+      ],
+      "mistakes": [
+        "只背一个释义，遇到 run out 仍译成『跑出去』，句子读不通还硬读。",
+        "猜词只盯目标词本身，不找前后搭配与逻辑词，方向猜反（比如把转折关系读成并列）。",
+        "猜出意思后不代回原句检验，通不通顺都不复查。",
+        "把 interest 一律理解成利息——阅读里『兴趣、关注』才是高频义项。"
+      ],
+      "source": {
+        "unit": "各单元词汇与阅读",
+        "pages": [
+          8,
+          53
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "'I heard it is because children are lighter and the horses can run faster and farther.'——句中 run 的意思最接近——",
+          "options": [
+            "奔跑",
+            "经营",
+            "运转"
+          ],
+          "answer": "A",
+          "solution": "主语是 the horses（马），赛马场景里骑手是孩子、马跑得比驮着成年人更快更远，run 取本义『奔跑』。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修三 P8·Naadam 游记语篇（the horses can run faster and farther）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "'It is necessary to find a new home for people in space, as the resources on Earth will run out.'——句中 run out 的意思最接近——",
+          "options": [
+            "用完；耗尽",
+            "跑到外面",
+            "溢出；流出"
+          ],
+          "answer": "A",
+          "solution": "resources（资源）作主语，整句谈的是为人类在太空找新家，run out 指『用完；耗尽』——靠前后搭配与主题场景双重锁定。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P45·议论文观点句（the resources on Earth will run out）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式再练一词多义：'One of the advantages of hiring energetic and positive young people is that they tend to show interest in their work and they are eager to learn.'——句中 interest 的意思最接近——",
+          "options": [
+            "兴趣",
+            "利息",
+            "股份"
+          ],
+          "answer": "A",
+          "solution": "show interest in their work 与 eager to learn（渴望学习）并列，说的是年轻人对工作有热情、有兴趣——取『兴趣』义。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修三 P17·词汇练习变式（tend to show interest in their work and they are eager to learn）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "读到 'The harvest festival takes place after all the crops have been gathered in. People celebrate to show that they are grateful for the year's supply of food.'，要猜 harvest 的词义。下面哪种做法使用的线索类型正确且最有效？",
+          "options": [
+            "用主题场景线索：crops（庄稼）、gathered in（收进来）、supply of food（粮食供给）共同指向『收获』义",
+            "只看 harvest 这个词的拼写长短来猜",
+            "按首字母 h 在字母表中的位置来猜"
+          ],
+          "answer": "A",
+          "solution": "harvest 处在农耕庆祝的场景里，crops / gathered in / supply of food 都是场景证据——主题场景线索最有效；猜出『收获；收割』后代回原句通顺。",
           "difficulty": 3
         }
       ]
