@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 219,
+  "lessonCount": 229,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -27205,6 +27205,1228 @@
           "question": "方法自测：拿到一篇新的完形填空，按三遍完形法说出你的操作顺序，并用一句话说明回读时要检查什么。",
           "answer": "顺序：第一遍通读抓主线与情感基调→第二遍逐空找复现与搭配→第三遍回读验证。回读检查：代入选项后全文逻辑词方向是否正确、情感线是否前后一致。（表述完整即可）",
           "solution": "三遍法的核心是『先整体后局部再回到整体』：回读是把每个局部选择放回全局检验的最后一关，省不得。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_01",
+      "summary": "if 条件句表示与事实相反的假设：现在用 did/were，过去用 had done，主句配合 would，把愿望说得得体又自然。",
+      "explanation": [
+        "语法板块讲虚拟语气，先带你在真实语料里认出与事实相反的假设句：如 \"If you had a chance to go overseas as an international student, which country would you go to?\"（假如你有出国交流的机会，你会去哪个国家？——机会只是假设）和 \"If you were taking a journey across Canada, would you stop to explore Quebec?\"（假如你正横穿加拿大旅行……），再对比真实条件句 \"if you do not experience one, you can never really know the other\"（条件可能成真，不用虚拟），由此归纳出 if 型虚拟条件句的三种时间形态。",
+        "虚拟语气像时光机假设：说的是现实中没发生、大概率也不会发生的事——要是我是你就好了、假如当初你来了就能见到他。既然事情与事实相反，英语就用退一步的时态来标记：现在的事用过去式说，过去的事用过去完成时说，让听的人一听就知道这是假设，不是在陈述事实。",
+        "操作分三步：第一步看从句时间信息（now、yesterday、tomorrow）判断与哪一时间的相反；第二步从句定形——与现在相反用 did/were，与过去相反用 had done，与将来相反用 were to do 或 should do；第三步主句定形——三种情况主句都是 would do，唯独与过去相反要升级为 would have done。核对时先读从句再读主句，两头的时态必须配套。",
+        "最容易混的是虚拟条件与真实条件：if you do not experience one, you can never really know the other 说的是不去体验就真的无法了解，条件完全可能成立，所以用一般时态；而 If you had a chance to go overseas... 的说话人默认你眼下没有机会，才用虚拟。另外注意 be 动词在虚拟条件句中不分人称，正式书面语里 If I were you、If he were here 都用 were；与过去相反时，从句不能因为昨天、去年就只写 did，必须升级为 had done。",
+        "if 型三态是虚拟语气的骨架，接下来要学的 wish 后的虚拟、as if 的虚拟以及 insist/suggest 等建议类虚拟，共同逻辑仍是退一步的时态。写作里用 If everyone were to save water, we would make a big difference. 这类句子提建议，语气委婉又不失力度，是议论文的加分句式。"
+      ],
+      "methods": [
+        {
+          "name": "三态公式配对法",
+          "steps": [
+            "圈出从句时间信息（now / yesterday / tomorrow / in the future），判断与哪一时间的相反",
+            "从句定形：与现在相反用 did/were，与过去相反用 had done，与将来相反用 were to do 或 should do",
+            "主句定形：三种情况主句都是 would do，只有与过去相反升级为 would have done"
+          ],
+          "tip": "与现在：did/were＋would do；与过去：had done＋would have done；与将来：were to/should＋would do"
+        },
+        {
+          "name": "中文语感检验法",
+          "steps": [
+            "把句子译成中文，看是否含有「要是……就好了」「假如当初……」这类与事实相反的口气",
+            "有相反口气→虚拟语气，按三态公式选形",
+            "只是普通假设且可能成真→真实条件句，从句一般现在时，主句 will do"
+          ],
+          "tip": "中文说「要是」「假如当初」，英文就退一步用虚拟"
+        },
+        {
+          "name": "主从时态互查法",
+          "steps": [
+            "先读从句，确定时间与形态",
+            "再读主句，核对 would do / would have done 是否与从句配套",
+            "从句多退一步，主句只退半步：had done 必须配 would have done"
+          ],
+          "tip": "从句退一步，主句退半步，两头配套才完整"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用所给动词的正确形式填空：If I ___ (be) you, I would take the chance to study abroad.",
+          "solution": "were。与现在相反，虚拟条件句中 be 动词一律用 were，即使主语是 I",
+          "difficulty": 1,
+          "pitfall": "误用 am——虚拟语气中 be 不随人称变化，正式场合 I 也配 were"
+        },
+        {
+          "question": "用所给动词的正确形式填空：If you ___ (come) to the lecture yesterday, you would have seen the famous scientist.",
+          "solution": "had come。yesterday 表与过去相反，从句用过去完成时，主句配套 would have done",
+          "difficulty": 2,
+          "pitfall": "误用 came——不能因为 yesterday 就写一般过去时，与过去相反必须 had done"
+        },
+        {
+          "question": "用所给动词的正确形式填空：If it ___ (rain) tomorrow, we would put off the sports meeting.",
+          "solution": "were to rain（或 should rain）。与将来相反，从句用 were to do 或 should do，主句仍是 would do",
+          "difficulty": 3,
+          "pitfall": "主句误用 would have done——它只配与过去相反；与将来相反主句用 would do"
+        }
+      ],
+      "mistakes": [
+        "把虚拟条件当真实条件：If it will rain tomorrow...——与将来相反的虚拟从句不能用 will，要用 were to do 或 should do。",
+        "与过去相反时从句只写 came/went：应为 had done，主句相应改为 would have done。",
+        "主从时态错配：从句用了 had done，主句却写 would do——had done 必须配套 would have done。",
+        "以为第三人称单数要用 was：虚拟条件句书面语一律用 were（If he were here...）。"
+      ],
+      "source": {
+        "unit": "选择性必修二语法板块",
+        "pages": [
+          24,
+          49
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—If you had a chance to go overseas as an international student, which country ___ you go to? —Australia. I love its beaches.",
+          "options": [
+            "will",
+            "would",
+            "do",
+            "did"
+          ],
+          "answer": "B",
+          "solution": "机会只是与现在/将来相反的假设，主句用 would do，构成 which country would you go to",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P24·视频讨论题（If you had a chance to go overseas as an international student…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全句子：If you ___ (be) free next month, would you take a journey across Canada by train?",
+          "options": [
+            "were",
+            "are",
+            "will be",
+            "have been"
+          ],
+          "answer": "A",
+          "solution": "与将来相反也可用 were 表纯属假设，主句 would do；条件句里不填 are 或 will be",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P49·视频讨论题（If you were taking a journey across Canada…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把两句合并成与过去相反的虚拟条件句（以 If you... 开头）：You didn't have a chance to go overseas last year. You didn't visit the country you like.",
+          "answer": "If you had had a chance to go overseas last year, you would have visited the country you like.",
+          "solution": "last year 表与过去相反：从句 didn't have 改为 had had，主句 didn't visit 改为 would have visited",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P24·go overseas 假设变式（与过去相反合并成句）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话：—What would you do if it ___ (rain) on the day of the sports meeting? —We would move the events indoors.",
+          "answer": "were to rain / should rain（均可）",
+          "solution": "与将来相反：从句用 were to do 或 should do，主句 would do；注意不填 rains 或 will rain",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_02",
+      "summary": "wish 表遗憾、suggest 表建议时从句都要退一步：愿望用过去相关时态，建议类用 (should)+动词原形，词义变则语气变。",
+      "explanation": [
+        "虚拟语气第二讲处理两类句型。一是 wish 后的宾语从句：自测对话里有原句 \"I wish you ___ me earlier. ... You could have taken your parents there.\"，提示词 tell 要填成 had told——对过去的遗憾用过去完成时。二是 suggest、insist 等词后的 that 从句：语音对话里说 \"I suggest you pay more attention to the weak forms.\"，suggest 后接动词原形 pay（should 被省略）；而健康饮食语篇里 \"scientists have insisted for years that a big enemy of health is fatty food\" 的 insist 表坚持认为，从句用陈述语气 is。同样的词，意思不同，语气就不同。",
+        "wish 像吹灭蜡烛时许愿：愿望和现实正好相反，所以才 wish——现实是你没早点告诉我，才说 I wish you had told me earlier。suggest、insist 的建议和要求针对还没发生的事，从句用 (should)+动词原形，把动作悬在应该做的状态里，should 一词可以悄悄省去。",
+        "wish 三对时：愿望在现在→从句用过去式 did/were；遗憾在过去→从句用 had done；盼在将来→从句用 would/could do。建议类记清单：insist（坚决要求）、demand、suggest、advise、require、request、order，后接 that sb (should) 动词原形；省略 should 后务必检查动词是否还原为原形。",
+        "同一动词两种语气，全看词义：insist 表坚决要求用虚拟（She insisted that he (should) be present），表坚持认为用陈述（scientists have insisted for years that...is fatty food）；suggest 表建议用虚拟，表表明、暗示用陈述（Her smile suggested that she was satisfied）。wish 与 hope 也不同：hope 后接可能实现的希望，从句用正常时态。",
+        "本讲与 if 型虚拟合起来构成完整体系：if 管条件，wish 管心愿，建议类管别人该做什么。写作提建议时可升级句式：I suggest that the school (should) set up a reading corner，比 You should... 更正式得体，也为议论文写作储备了建议段落的表达。"
+      ],
+      "methods": [
+        {
+          "name": "wish 三对时法",
+          "steps": [
+            "先判断愿望针对现在、过去还是将来",
+            "现在→从句过去式 did/were；过去→从句 had done；将来→从句 would/could do",
+            "译成中文核对：愿望与事实是否正好相反"
+          ],
+          "tip": "wish 一出现，时态退一步：现在退到过去，过去退到过去完成"
+        },
+        {
+          "name": "建议类 should 省略法",
+          "steps": [
+            "认出 insist / demand / suggest / advise / require / request / order 且意为要求、建议",
+            "that 从句动词用 (should)＋原形，should 常省略",
+            "省略后检查动词是否还原为原形（不加 -s、不加 -ed）"
+          ],
+          "tip": "建议要求加坚持，should 可以悄悄省"
+        },
+        {
+          "name": "词义定语气法",
+          "steps": [
+            "先翻译 that 前面的动词",
+            "表认为、表明、暗示→陈述语气，该什么时态就用什么时态",
+            "表要求、建议、命令→虚拟语气，用 (should)＋原形"
+          ],
+          "tip": "先问动词什么意思，再定从句什么语气"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用所给动词的正确形式填空：I wish I ___ (be) as tall as my brother.",
+          "solution": "were。wish 后的从句表与现在相反的愿望，be 一律用 were",
+          "difficulty": 1,
+          "pitfall": "误用 am——wish 之后不出现现在时，愿望要退一步"
+        },
+        {
+          "question": "补全句子：I wish you ___ (tell) me earlier. You could have taken your parents to that buffet restaurant.",
+          "solution": "had told。对过去未发生之事表示遗憾，从句用过去完成时",
+          "difficulty": 2,
+          "pitfall": "误用 told——对过去的遗憾要再退一步用 had told，后半句 could have taken 是配套线索"
+        },
+        {
+          "question": "单项选择（选出正确项）：The doctor suggested that he ___ more exercise every week. 选项：takes / take / took / will take",
+          "solution": "选 take。suggest 表建议，that 从句用 (should) do，动词用原形 take",
+          "difficulty": 3,
+          "pitfall": "误选 takes——建议类从句里动词不受第三人称单数限制，应用原形"
+        }
+      ],
+      "mistakes": [
+        "wish 后误用现在时：I wish I am...→应为 I wish I were。",
+        "建议类从句保留第三人称单数：He suggested that she goes...→应为 (should) go。",
+        "insist 表坚持认为也套虚拟：scientists have insisted for years that a big enemy of health is fatty food 里的 is 不能改成 be。",
+        "suggest 表表明、暗示时误用虚拟：The evidence suggested that he was at home 是陈述语气，不接 (should) do。"
+      ],
+      "source": {
+        "unit": "选择性必修二语法板块",
+        "pages": [
+          19,
+          34
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—I finally tried that buffet restaurant today. —I wish you ___ (tell) me earlier. We could have gone together.",
+          "answer": "had told",
+          "solution": "遗憾发生在过去（没早点告诉我），wish 从句用 had told；后半句 could have gone 是配套提示",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P34·补全对话（I wish you had told me earlier…You could have taken your parents there）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全句子：The teacher suggests that we ___ more attention to pronunciation when listening.",
+          "options": [
+            "pay",
+            "pays",
+            "paid",
+            "will pay"
+          ],
+          "answer": "A",
+          "solution": "suggest 表建议，从句用 (should) do，动词原形 pay——与语音对话 I suggest you pay more attention to the weak forms 同型",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P19·语音对话（I suggest you pay more attention to the weak forms）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇里写道：Scientists have insisted for years that a big enemy of health ___ fatty food. 此处 insist 意为坚持认为，从句应选哪种形式？",
+          "options": [
+            "is（陈述语气）",
+            "(should) be（虚拟语气）",
+            "was（过去虚拟）",
+            "will be（将来时）"
+          ],
+          "answer": "A",
+          "solution": "insist 表坚持认为、陈述事实时从句用陈述语气，饮食习惯是常态事实，用 is；只有 insist 表坚决要求才用 (should) do",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P32·健康饮食语篇变式（insisted that a big enemy of health is fatty food）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话：—Your spoken English is so fluent. —Thanks. But I still wish I ___ (can) speak it like a native speaker.",
+          "answer": "could",
+          "solution": "wish 后盼将来的愿望用 would/could do，can 退一步变成 could",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_03",
+      "summary": "否定词或 here、only 放句首时句子要倒装：助动词提到主语前，Never have I seen... 一出场就醒目有力。",
+      "explanation": [
+        "语法板块在这一级引入倒装：把谓语或助动词移到主语之前，让句首信息先声夺人。两条主线：一是否定词开头用部分倒装——Never have I seen...（从未见过……）、Not until... did...（直到……才……）；二是 here/there 与 only＋状语开头的倒装——Here comes...、Only in this way can we...（只有这样我们才能……）。自测对话里的 \"We've never been to such an attractive restaurant before.\" 就可以倒装成 Never have we been to such an attractive restaurant before.，句子重心从餐厅移到了从未二字上。",
+        "倒装像给句子打聚光灯：正常语序平铺直叙，把 Never、Only in this way 挪到最前面，等于把最想强调的词推上台口，读者第一眼就接收到从来没有、只有这样。口语里的 Here comes the bus（公交车来了）也是倒装，说得又快又自然，可见倒装并不高冷。",
+        "否定开头两步走：第一步把否定词或否定短语（Never / Seldom / Hardly / Not until...）整体移到句首；第二步在主语前补上与原时态一致的助动词 do / does / did / have / can / will，凑出疑问句语序，动词本身的时态、词形都不变。here/there 开头且主语是名词时，谓语动词整个提前（Here comes the bus）；only 修饰状语放句首时，从 only 短语之后的句子开始部分倒装。",
+        "部分倒装与完全倒装要分清：Never have we been... 只把助动词 have 提前，是部分倒装；Here comes the bus 把整个谓语提前，是完全倒装，且主语是代词时不倒装（Here it comes）。only 的倒装条件是修饰状语：Only in this way can we solve the problem 倒装，Only John knows the answer 里 only 修饰主语，不倒装。Not until 句型中，until 从句本身语序不变，只有主句倒装。",
+        "掌握初步倒装后，写作里可以主动用 Never before have I...、Only by practising every day can we... 来强调观点，议论文结尾尤其好用；后续还会遇到 Hardly...when...、No sooner...than... 等进阶倒装，套路一脉相承：否定信号打头，助动词跟上。"
+      ],
+      "methods": [
+        {
+          "name": "否定提前两步法",
+          "steps": [
+            "把否定词或否定短语（Never / Seldom / Not until...）移到句首",
+            "在主语前补上与原时态一致的助动词 do / does / did / have / can / will，构成疑问句语序",
+            "检查动词是否还原：提前了 did，动词就不再用过去式"
+          ],
+          "tip": "否定开头要倒装，助动词提前帮个忙"
+        },
+        {
+          "name": "正倒互换练手感法",
+          "steps": [
+            "拿正常语序的句子，把 never 或 only 状语挪到句首",
+            "按规则改成倒装句",
+            "再倒回去，来回互改三组，形成条件反射"
+          ],
+          "tip": "只挪位置不变时态，助动词是搬运工"
+        },
+        {
+          "name": "here 与 only 分流法",
+          "steps": [
+            "句首是 here/there 且主语为名词→完全倒装：Here comes the bus",
+            "句首是 only＋状语→部分倒装：Only in this way can we...",
+            "主语是代词或 only 修饰主语→不倒装：Here it comes / Only John knows"
+          ],
+          "tip": "here 带名词跑句首，动词跟着往前走；only 带状语打头阵，句子学疑问句"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：Never ___ I seen such a wonderful experiment before. 选项：have / had been / am / do",
+          "solution": "选 have。never 开头部分倒装，现在完成时把 have 提到 I 前：Never have I seen...",
+          "difficulty": 1,
+          "pitfall": "误选 do——时态由句子本身决定（现在完成时用 have），倒装只挪位不换时态"
+        },
+        {
+          "question": "按要求改为倒装句：We have never been to such an attractive restaurant before.",
+          "solution": "Never have we been to such an attractive restaurant before.",
+          "difficulty": 2,
+          "pitfall": "只把 Never 搬到句首、忘了把 have 挪到 we 之前，仍是陈述语序"
+        },
+        {
+          "question": "用 Not until 开头改写句子：He didn't realize the value of the old map until he grew up.",
+          "solution": "Not until he grew up did he realize the value of the old map.",
+          "difficulty": 3,
+          "pitfall": "until 从句保持陈述语序不变，倒装只发生在主句；主句补 did 并把 realize 还原"
+        }
+      ],
+      "mistakes": [
+        "倒装后时态跟着变形：写成 Never I have seen... 或 Never did I saw...——只挪助动词，saw 要还原成 see。",
+        "only 修饰主语也倒装：Only John did know...——only 修饰主语时用正常语序 Only John knows。",
+        "here/there 开头且主语是代词仍倒装：Here comes it——代词作主语不倒装，应为 Here it comes。",
+        "Not until 句型把 until 从句也倒装——倒装只落在主句上，从句语序保持不变。"
+      ],
+      "source": {
+        "unit": "选择性必修二语法板块",
+        "pages": [
+          2,
+          34
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "对话里有一句：\"We've never been to such an attractive restaurant before.\" 它的倒装形式是哪一句？",
+          "options": [
+            "Never we have been to such an attractive restaurant before.",
+            "Never have we been to such an attractive restaurant before.",
+            "Never been we have to such an attractive restaurant before.",
+            "Never have been we to such an attractive restaurant before."
+          ],
+          "answer": "B",
+          "solution": "never 开头部分倒装：助动词 have 提到主语 we 之前，其余成分位置不变",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P34·补全对话（We've never been to such an attractive restaurant before）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "阅读语篇讲到约翰·斯诺请人拆掉水泵的把手，霍乱就此止住：Accordingly, he had the handle of the pump removed so that it could not be used. 请补全倒装句：Only in this way ___ the disease ___ (stop) in its tracks.",
+          "answer": "could；be stopped",
+          "solution": "Only in this way 修饰状语放句首，句子部分倒装：情态动词 could 提到主语 the disease 前，被动结构 be stopped 保留",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P2·阅读语篇（约翰·斯诺拆水泵柄、止住霍乱）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "阅读语篇开头说，约翰·斯诺之前没人知道如何预防霍乱。请用 Not until 开头合并两句：John Snow found the cause of cholera. Then people knew how to prevent it.",
+          "solution": "Not until John Snow found the cause of cholera did people know how to prevent it.（until 从句用陈述语序 found 不倒装，主句补 did 并把 knew 还原成 know）",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P2·阅读语篇变式（no one knew how to prevent or treat cholera）"
+          },
+          "answer": "Not until John Snow found the cause of cholera did people know how to prevent it."
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话：—Look, the school bus is coming! —Right. Here ___ the bus. Run quickly!",
+          "answer": "comes",
+          "solution": "here 开头且主语 the bus 是名词，完全倒装：谓语动词 comes 直接提到主语前",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_04",
+      "summary": "科技悄悄改写了生活：网上叫车、手机支付怎么用英语说？还能有理有据地聊聊利与弊。",
+      "explanation": [
+        "书上把“科技改变生活”藏进了日常场景里：点餐付账部分给出一整块支付句块——How will you pay? / Do you accept credit cards? / I'll pay in cash/through my mobile phone/by credit card.（你打算怎么付？接受信用卡吗？我付现金/用手机/刷信用卡）；语法部分的例句池里躺着一句 I had ordered a taxi online.（我已经在网上叫好了车）。这本分册没有整页谈人工智能，科技的痕迹都在这些一句话的生活细节里——先学会在真实场景里把支付、叫车说出口，再往前一步，用它们去讨论科技的利与弊。",
+        "这些句子出现在点餐场景并不奇怪：科技已经改写了“吃饭”和“出门”这两件小事——出门不带钱包，手机一扫就付钱；深夜不站在路边招手，打开软件就能叫到车。在国外旅行时，服务员一句 How will you pay? 你要能听懂、能回答；向外国朋友介绍国内生活，“手机支付、网上叫车”也是最容易被问到的两个话题。科技是把双刃剑：方便快捷是真，没电没网就抓瞎也是真——能把两面都用英语说清楚，才算真掌握。",
+        "方法上分两步走。第一步“话题词块三分法”：把词块按场景分三堆记忆——支付堆（in cash / by credit card / through my mobile phone）、出行堆（order a taxi online / take the train / by bike）、未来生活堆（sustainable / convenient / save time），每堆各造一句真话（如 I usually pay through my mobile phone.）。第二步“利弊四句支架”：In my opinion, ... 亮观点 → To begin with, ... 摆一条利 → However, ... 补一条弊 → In short, ... 一句收束，四句就是一段完整的小议论。",
+        "辨析三个易混点：一是介词搭配各管各的——付现金书上写作 in cash，刷卡是 by credit card，手机支付是 through my mobile phone，三个介词不能串门；二是分清“事实句”和“观点句”——I'll pay through my mobile phone. 只是陈述做法，不含利弊评价，能当论点的是 Mobile payment makes life easier.（利）或 If your phone runs out of power, you may fail to pay.（弊）；三是词序——order a taxi online 是“动词+宾语+方式状语”，不要说成 order online a taxi。",
+        "这类讨论练出的“观点—利—弊—结论”四步，正是后面议论文段落写作的雏形，也为概要写作里“找论点、辨两面”打底。平时刷到科技类英文短视频或新闻，可以顺手摘一句 advantage、一句 disadvantage 抄进积累本；下次向外教或笔友介绍生活变化时，先利后弊、末尾一句总结，说法立刻显得有条理。"
+      ],
+      "methods": [
+        {
+          "name": "话题词块三分法",
+          "steps": [
+            "按场景把词块分三堆：支付堆（in cash / by credit card / through my mobile phone）、出行堆（order a taxi online / take the train）、未来生活堆（convenient / sustainable / save time）；",
+            "每堆各造一句真话，如 I seldom carry cash because I usually pay through my mobile phone.；",
+            "隔天遮住中文，看着场景图回忆整堆词块，漏掉的补进积累本。"
+          ],
+          "tip": "一堆一个场景，词块成串记。"
+        },
+        {
+          "name": "科技利弊四句支架",
+          "steps": [
+            "第一句亮观点：In my opinion, mobile payment changes our life a lot.；",
+            "第二句摆一条利：To begin with, it is fast and we can go out without cash.；",
+            "第三句补一条弊：However, if the phone runs out of power, we may fail to pay.；",
+            "第四句下结论：In short, it makes life easier, but we should not depend on it totally."
+          ],
+          "tip": "有利有弊有结论，四句成段才算议。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "情景应答：在国外餐厅结账时，服务员问 “How will you pay?”，最恰当的回答是哪一项？",
+          "solution": "选 I'll pay through my mobile phone. 问句问的是支付方式，用书上付账句块直接作答；I'd like some juice, please. 是点单，Enjoy your meal! 是用餐祝福，Here is the menu. 是递菜单，都答非所问。",
+          "difficulty": 1,
+          "pitfall": "先判断问句在问什么（怎么付），再从选项里找“支付方式”，别被点单类选项带跑。"
+        },
+        {
+          "question": "选词填空：I seldom carry cash now — I usually pay _____ credit card and order taxis _____ my mobile phone.（in / by / through）",
+          "solution": "填 by; through。按书上搭配：pay by credit card（刷卡）、pay through my mobile phone（手机支付）、pay in cash（付现金），三个介词各管各的支付方式。",
+          "difficulty": 2,
+          "pitfall": "介词不要凭感觉互换：in cash、by credit card、through my mobile phone 是三套固定搭配，混用就错。"
+        },
+        {
+          "question": "下面哪一句指出了手机支付的一个缺点（disadvantage）？",
+          "solution": "选 If your phone runs out of power, you may not be able to pay. 它点出了“手机没电就付不了款”的不便；第一句 With mobile payment, you can go out without any cash. 说的是优点，第三句 I'll pay in cash, please. 只是中性的事实陈述，不含评价。",
+          "difficulty": 2,
+          "pitfall": "别把“陈述做法”的句子当成“评价利弊”的句子——观点句里要能找到 convenient / problem / fail to 这类带评价色彩的词。"
+        }
+      ],
+      "mistakes": [
+        "介词搭配混用：把 in cash 说成 by cash、把 through my mobile phone 说成 by my mobile phone——按书上口径记：in cash、by credit card、through my mobile phone。",
+        "利弊讨论只夸不弹：通篇好处、没有 However 转折，或说完利弊没有结论句，两面缺一面、缺结论都不完整。",
+        "把中性事实句当观点句：I'll pay through my mobile phone. 只是说法，不含评价，不能当论点使用。",
+        "词序错误：order a taxi online 误说成 order online a taxi——方式状语 online 放在句尾。"
+      ],
+      "source": {
+        "unit": "选择性必修二科技单元",
+        "pages": [
+          29,
+          30
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "情景应答：在国外餐厅结账，服务员问 “How will you pay?”，最恰当的回答是哪一项？",
+          "options": [
+            "I'll pay in cash, please.",
+            "I'd like some juice, please.",
+            "Enjoy your meal!",
+            "Here is the menu."
+          ],
+          "answer": "A",
+          "solution": "问句问支付方式，用书上付账句块作答：I'll pay in cash/through my mobile phone/by credit card. 其余三项分别是点单、祝福与递菜单。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P30·点餐付账句块（How will you pay? I'll pay in cash/through my mobile phone/by credit card）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪一句最能体现“科技让出行更便利”？",
+          "options": [
+            "I had ordered a taxi online before the rain started.",
+            "I had just finished my homework.",
+            "The light had been switched off.",
+            "The windows had been closed."
+          ],
+          "answer": "A",
+          "solution": "A 句意为“下雨前我已经在网上叫好了车”，网上叫车正是科技便利出行的写照；其余三句都是普通生活句，与科技无关。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P29·语法例句池（I had ordered a taxi online）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·利弊观点句：关于手机支付，下面哪一句先说好处、再点出不足？",
+          "options": [
+            "With mobile payment you can go out without cash, but if your phone runs out of power, you may fail to pay.",
+            "With mobile payment you can go out without cash.",
+            "I usually pay through my mobile phone."
+          ],
+          "answer": "A",
+          "solution": "A 用 but 把利与弊连在一句里，两面俱到；B 只说了优点；C 是中性事实句，不含利弊评价。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P30·付账句块变式（移动支付利弊观点句仿写）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以 “Paying in a smart way” 为题，用英语写 4 句话聊手机支付的利与弊：要求用上 in cash 或 through my mobile phone，写出一利一弊，最后一句下结论。",
+          "answer": "示例：Nowadays many people pay through their mobile phones instead of paying in cash. It is fast and convenient, and we can go out without a wallet. However, if the phone has no power or no signal, payment becomes a problem. In short, mobile payment makes life easier, but we had better sometimes carry a little cash.",
+          "solution": "按“观点—利—弊—结论”四句支架组织：第一句摆现象，二、三句各说一条利与弊（用 However 转折），末句用 In short 收束；写完回读一遍，检查 in cash 与 through my mobile phone 的介词搭配是否用对。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_05",
+      "summary": "概要写作两把刀：同义改写换词换句不换义，压缩删例证留论点，长文收成 60 词小结。",
+      "explanation": [
+        "书上写作部分有一篇现成的概要训练范本：健康饮食一文五段全是“论点句打头、细节跟上”的写法——首段论点是 The real driver of poor health is not so much fatty food, as it is sugar.（损害健康的真正推手与其说是油腻食物，不如说是糖）；其后有 Much of this extra sugar comes from sweets and sweet drinks.（多余的糖大多来自甜食和甜饮料）、A fundamental key to healthy eating is to eat slowly.（健康饮食的一个根本关键是吃得慢）、There is no one trick to healthy eating. Rather, healthy eating starts with having a healthy attitude towards food.（健康饮食没有唯一诀窍，它始于对食物的健康态度）。配套练习要求给五段各配一个主旨小标题（如 The Real Killer is Sugar、Slow Eating is Good），并追问 What are the key details that support each point?（哪些细节在支撑论点）——先分清“论点”和“细节”，概要就有了骨架。书里还留下了 paraphrase 这个词本身：一位同学说 I paraphrased it a bit（我稍作了同义改写），这正是概要写作的第一项基本功。",
+        "概要就像把一大杯奶茶浓缩成一颗糖：篇幅砍掉十之八九，甜味（主旨）一点不能少。同义改写 paraphrase 则是“换衣服不换人”——句子换一套说法，意思分毫不动。为什么必须改写？因为概要是写给没读过原文的人看的“自己的话”，整句照抄既算不得概括，也显不出理解；为什么必须压缩？因为原文里的例子、数据、比喻都只是论点的“仆人”，留下论点、送走仆人，六十个词才装得下千字文。",
+        "方法上用两件工具。工具一“四步概要法”：①通读全文，用一句话定出主题；②逐段找论点（多半在段首或段尾的结论处）；③删例证——例子、数字、重复解释全部划掉；④用连接词（however / therefore / in addition）把留下的论点串成一段 60 词左右的连贯小段。工具二“改写双转换”：词转换——同义词替换（important→vital、buy→purchase）；句转换——主动换被动（People waste too much food. → Too much food is wasted.）或换主语视角；改完必做一步“回读保义”：把改写句和原句对照，确认意思没走样。",
+        "辨析三组易混：一是论点与细节——The real driver of poor health is ... sugar. 是论点，“1/3 的糖来自甜饮料”“大脑需要约二十分钟才知道饱”都是支撑它的细节，概要留前者舍后者；二是改写与变义——important→vital 是改写，important→difficult 是改错，一词之差全文皆输；三是压缩与照抄——把原句原样搬进概要，长度没降、语言没变，那叫摘抄不叫概要。",
+        "概要是读与写之间的桥：先在阅读语篇里练“找论点”，再到写作部分用“自己的话”成段，这套功夫直接通向考试里的概要写作题（约 60 词）和读后续写前的文本梳理；平时读完一篇英文短文，顺手用三句话说出“作者最想说什么”，就是最低成本的每日训练。"
+      ],
+      "methods": [
+        {
+          "name": "四步概要法",
+          "steps": [
+            "通读全文，用一句话说出主题（这篇文章最想证明什么）；",
+            "逐段圈出论点句，多看段首句与段尾结论句；",
+            "删例证：例子、数据（如 1/3、二十分钟）、重复解释一律划掉；",
+            "用连接词把留下的论点串成一段 60 词左右的话，写完数字数。"
+          ],
+          "tip": "先抽骨再裹肉，六十字内见全文。"
+        },
+        {
+          "name": "paraphrase 双转换",
+          "steps": [
+            "词转换：同义词替换——important→vital、buy→purchase、begin→start；",
+            "句转换：主动换被动——People waste too much food. → Too much food is wasted.；",
+            "回读保义：把改写句与原句并排对照，逐词检查意思是否一致。"
+          ],
+          "tip": "换词换句不换义，改完回读再交卷。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下列哪一句是 “Eating slowly is important.” 的同义改写？",
+          "solution": "选 Eating slowly is vital. important 与 vital 同义，句义不变；difficult（困难）和 impossible（不可能）都把句义改没了。",
+          "difficulty": 1,
+          "pitfall": "别挑看起来“高级”的词，先回译检查：换完之后意思是否与原句完全一致。"
+        },
+        {
+          "question": "把主动句 “People waste too much food.” 改成被动句，正确的一项是？",
+          "solution": "选 Too much food is wasted. 被动转换把动作对象 food 提到主语位，动词变为 is wasted；B 句主宾颠倒（食物不会浪费人），C 句语义荒唐（人不能被食物浪费）。",
+          "difficulty": 2,
+          "pitfall": "被动句别把主宾关系接反：先找动作的承受者作主语，施动者若不重要，by 短语可以省略。"
+        },
+        {
+          "question": "原文：“There is no one trick to healthy eating. Rather, healthy eating starts with having a healthy attitude towards food. One question you can ask yourself is, ‘Do I eat to live, or live to eat?’” 最佳压缩句是哪一项？",
+          "solution": "选 Healthy eating begins with the right attitude towards food. 它把两句论点浓缩成一句并换了说法（starts with→begins with）；B 项 Do I eat to live, or live to eat? 是文中的设问，属于吸引读者的例证性细节；C 项照抄原句，不是概要。",
+          "difficulty": 3,
+          "pitfall": "设问句很醒目，但通常只是引出论点的手段——被问句吸引而把它当论点写进概要，是常见失分点。"
+        }
+      ],
+      "mistakes": [
+        "概要写成原句摘抄：把范文里的长句原样拼进概要，一字不改——概要必须是改写加压缩后的自己的话。",
+        "留下例证丢掉论点：把 1/3、二十分钟这类数据细节当主旨写进概要，真正的论点反而没写。",
+        "改写变了义：把 important 换成 difficult、把“少糖”写成“完全戒糖”，意思走样还不自知——改完必须回读对照。",
+        "无视词数与衔接：60 词的概要写成八句流水账，或一逗到底不用连接词，读不成段。"
+      ],
+      "source": {
+        "unit": "选择性必修二 Reading for Writing",
+        "pages": [
+          32,
+          46
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "写作部分的范文中，每段配有一个主旨小标题。论点句 “A fundamental key to healthy eating is to eat slowly.”（慢慢吃是健康饮食的一个根本关键）这一段的小标题是哪一项？",
+          "options": [
+            "Slow Eating is Good",
+            "Reducing Sweets is Key",
+            "Keep It Fresh and Balanced",
+            "The Real Killer is Sugar"
+          ],
+          "answer": "A",
+          "solution": "该段论点是“吃得慢”，对应标题 Slow Eating is Good；Reducing Sweets is Key 对应减糖段，Keep It Fresh and Balanced 对应新鲜均衡段，The Real Killer is Sugar 对应“糖才是真凶”的首段。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P33·健康饮食范文小标题配对（Slow Eating is Good）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一句是 “The real driver of poor health is not so much fatty food, as it is sugar.” 的同义改写（意思不变）？",
+          "options": [
+            "Sugar, rather than fatty food, is the real cause of poor health.",
+            "Fatty food is more harmful than sugar.",
+            "Both sugar and fatty food are good for health."
+          ],
+          "answer": "A",
+          "solution": "原句说“真正损害健康的与其说是油腻食物，不如说是糖”，A 用 rather than 保留“是糖、不是油腻食物”的原义；B 把比较方向说反了，C 曲解原义。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P32·健康饮食范文论点句（The real driver of poor health is not so much fatty food, as it is sugar）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·去数据留论点：原文 “Much of this extra sugar comes from sweets and sweet drinks. The average American gets 1/3 of his or her sugar through sweet drinks alone.” 压缩后最好的概要句是哪一项？",
+          "options": [
+            "Sweet drinks are a major source of extra sugar.",
+            "One third of Americans drink sweet drinks.",
+            "Americans should never drink anything sweet."
+          ],
+          "answer": "A",
+          "solution": "压缩要去掉数据细节、留住论点：甜饮料是多余糖分的主要来源；B 曲解了数据（1/3 指糖分的来源比例，不是喝饮料的人数），C 语气绝对化、偏离原义。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P32·甜饮料数据段变式（去数据留论点压缩）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "读下面的短文，用 60 词左右写出概要：至少用一处同义改写（换一个词，或把主动句改成被动句），写完后标出你改写的地方。短文：Many students today eat too fast. They finish a meal in five minutes while looking at their phones. Doctors warn that fast eaters often feel hungry again soon and end up eating more than they need. Chewing slowly gives the brain about twenty minutes to notice that the body is full, so slow eaters usually take in less food and enjoy it more.",
+          "answer": "示例（53 词）：Nowadays many students eat too quickly, often while using their phones. Doctors warn that fast eaters soon feel hungry again and eat more than needed, because the brain needs about twenty minutes to realise that the body is full. Eating slowly, therefore, helps people take in less food and enjoy their meals more.（改写处：too fast→too quickly；looking at→using；notice→realise）",
+          "solution": "示例保留了三条论点（吃得快更易饿、吃得更多；大脑约二十分钟才收到饱腹信号；慢吃让人吃得更少更享受），删去了“五分钟吃完”等细节，并做了三处同义改写。交稿前数字数、回读对照原文，确认意思没走样。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_06",
+      "summary": "访谈与自我推销英语：听懂 What was your biggest challenge? 用事例接住，再亮出 I'm good at…",
+      "explanation": [
+        "书上听说部分给出一套现成的访谈句块：主持人开场用 We are pleased to welcome ... / Thanks for joining us.，展开提问用 Tell us more about ...，问题链依次是 What was your biggest challenge? / How did you overcome it? / What are you keen on? / What is the key to your success? / What do you feel is your biggest achievement?（你最大的挑战是什么？怎么克服的？你热衷什么？成功的秘诀是什么？最大的成就是什么？），收尾互道 Thanks for your time. / It was a pleasure talking with you.。示范对话一开口就是完整的应答示范：“Hi, Jane. Welcome to the show!”—“Thanks for inviting me.”—“Tell us, what was your biggest challenge in learning Chinese at the beginning?”—“Well, I suppose it was difficult to grasp the tones at first.”——观点句（it was difficult to grasp the tones）加铺垫语（Well, I suppose ...），被访者的答话有板有眼。",
+        "这套问答不止用在电视访谈里：求职面试、社团招新、竞赛答辩都是同一副骨架——对面的核心关切无非“你遇到过什么困难、怎么解决的、你热衷什么、你的秘诀是什么”。回答的诀窍是观点先行、事例跟上：先一句 The key to my success is practising every day.，再补一件具体的事（For example, ...），比空喊 I'm very good 有说服力得多。反过来说，坐在被面试的位置上也常要主动“推销自己”：I'm good at ...（我擅长……）、I have experience in ...（我有……的经验）、I'm keen on ...（我热衷于……）三句一亮，优势立刻看得见。",
+        "方法上两个支架。支架一“面试三步应答法”：①抓关键词定方向——听到 challenge 答困难、听到 achievement 答成绩、听到 keen on 答爱好，先辨清问的是什么；②观点加事例——Well, I suppose ... / For me, ... 开头，接一个具体经历（At first ..., but ...）；③礼貌收尾——Thanks for your time. It was a pleasure talking with you. 支架二“自我推销三件套”：I'm good at + 技能、I have experience in + 做过的事、I'm keen on + 热爱与意愿，每句后面跟一个具体证据，三句连用就是一段立得住的自我介绍。",
+        "辨析三处易混：一是答非所问——问 biggest challenge 却答 achievement，全盘皆输，开口前先在心里复述一遍问题关键词；二是 keen on 后接名词或动名词（I'm keen on photography / taking photos），不接动词原形；三是角色句不能混用——Thanks for joining us. 是主持人对嘉宾说的，嘉宾的开场谢语是 Thanks for inviting me.，两句话筒方向相反；四是自我推销的分寸——先亮优势再坦然谈不足，一开口就罗列缺点（I don't think I have any strengths.）是面试大忌。",
+        "课堂上和同伴 role-play 一遍访谈，这套句块就能迁移到班干部竞选、志愿者面试、将来的求职 conversation，也是口语考试话题交流的通用底子。积累本上单开一页“面试页”，左栏抄问句、右栏配自己的真实回答，每次大考或活动前翻一遍、更新一遍——会说“我擅长什么、我做成过什么”，英语才算从答题走向了运用。"
+      ],
+      "methods": [
+        {
+          "name": "面试三步应答法",
+          "steps": [
+            "抓关键词定方向：challenge→答困难，overcome→答办法，keen on→答热爱，key to success→答方法；",
+            "观点先行再补事例：Well, I suppose it was difficult to ..., but I overcame it by ...；",
+            "礼貌收尾：Thanks for your time. It was a pleasure talking with you."
+          ],
+          "tip": "问啥答啥，观点加例子，末尾道声谢。"
+        },
+        {
+          "name": "自我推销三件套",
+          "steps": [
+            "亮优势：I'm good at communicating with people.；",
+            "给证据：I have experience in organising class activities, such as the sports meet sign-in.；",
+            "表意愿：I'm keen on helping others, so I would love to take this role."
+          ],
+          "tip": "优势不空喊，证据跟上才有说服力。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "对话开场：主持人对你说 “Hi, Jane. Welcome to the show!”，作为嘉宾最恰当的回应是哪一项？",
+          "solution": "选 Thanks for inviting me. 这是嘉宾的开场谢语；It was a pleasure talking with you. 是访谈结束时的收尾句；Tell us more about it. 是主持人请嘉宾展开的话，三句话筒方向不同。",
+          "difficulty": 1,
+          "pitfall": "先看清自己扮演的是主持人还是嘉宾，再决定用哪一句——角色句混用是访谈题的第一陷阱。"
+        },
+        {
+          "question": "问句 “What is the key to your success?”（你的成功秘诀是什么）的最佳回答是哪一项？",
+          "solution": "选 Practising a little every day and never giving up. 问秘诀就答方法与坚持；My biggest challenge was speaking in public. 答成了“挑战”，答非所问；It was a pleasure talking with you. 是收尾客套句。",
+          "difficulty": 2,
+          "pitfall": "开口前先抓问题里的关键词（key to success），再检查选项答的是不是同一件事。"
+        },
+        {
+          "question": "竞选志愿者时做自我推销，下面哪一段最有说服力？",
+          "solution": "选 I'm good at communicating with people. I have experience in organising school sports events. I'm keen on helping others. 三件套齐上：优势、经历证据、意愿各有一句；I'm very good. Please choose me. 只有空喊没有证据；I like many things, such as music, sports and reading. 只列爱好，与志愿者岗位无关。",
+          "difficulty": 3,
+          "pitfall": "自我推销的说服力来自“优势+具体事例”，形容词堆得再多，没有做过什么事做支撑就立不住。"
+        }
+      ],
+      "mistakes": [
+        "答非所问：问 What was your biggest challenge? 却回答自己的 achievement——先抓问题关键词再开口。",
+        "keen on 后接错形式：I'm keen on take photos 是错的，应为 I'm keen on taking photos（接动名词或名词）。",
+        "角色句混用：Thanks for joining us. 是主持人对嘉宾说的，嘉宾的开场谢语是 Thanks for inviting me.——两句话筒方向相反。",
+        "自我推销只喊形容词不给事例：通篇 I'm very good 却说不出做过什么，说服力为零。"
+      ],
+      "source": {
+        "unit": "选择性必修二听说板块",
+        "pages": [
+          18,
+          19
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "对话应答：访谈开场，主持人说 “Hi, Jane. Welcome to the show!”，作为嘉宾最恰当的回应是哪一项？",
+          "options": [
+            "Thanks for inviting me.",
+            "It was a pleasure talking with you.",
+            "Tell us more about it.",
+            "What a surprise!"
+          ],
+          "answer": "A",
+          "solution": "嘉宾开场谢语是 Thanks for inviting me.；B 是访谈收尾句，C 是主持人请嘉宾展开的话，D 是表达惊讶的感叹，都不在开场谢语的位置上。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P19·访谈示范对话（Hi, Jane. Welcome to the show!—Thanks for inviting me）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "问答配对：“What is the key to your success?” 的最佳回答是哪一项？",
+          "options": [
+            "Practising a little every day and never giving up.",
+            "My biggest challenge was speaking in public.",
+            "It was a pleasure talking with you.",
+            "I'm keen on playing basketball."
+          ],
+          "answer": "A",
+          "solution": "问“成功秘诀”就答方法与坚持；B 答的是 challenge，C 是收尾客套句，D 答的是爱好，都与 key to success 错位。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P18·访谈句块（What is the key to your success? What do you feel is your biggest achievement?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·面试自我推销：面试官问 “What are your strengths?”（你的优势是什么），最有说服力的回答是哪一项？",
+          "options": [
+            "I'm good at teamwork, and I have experience in organising class activities.",
+            "I'm strong, and I can lift heavy boxes.",
+            "I don't think I have any strengths.",
+            "I like music and movies very much."
+          ],
+          "answer": "A",
+          "solution": "A 用“优势+经历证据”结构：I'm good at teamwork 亮优势，I have experience in organising class activities 证明确实做过；B 把 strengths 理解成了力气，C 自我否定是面试大忌，D 只谈爱好与岗位无关。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P18·访谈句块变式（自我推销应答：I'm good at… / I have experience in…）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你要竞选学生会某部门的成员，用英语写 3-4 句自我介绍：必须各用一次 I'm good at ...、I have experience in ...、I'm keen on ...，并给至少一个具体事例。",
+          "answer": "示例：I'm good at communicating with people. I have experience in organising our class sports events, where I made the schedule and solved problems quickly. I'm keen on helping others, so I would love to serve the whole school.",
+          "solution": "三件套各管一件事：good at 亮技能、experience in 举证据、keen on 表意愿；证据要具体到“做过什么、做成了什么”。写完大声读一遍，检查句子是否顺口、有没有答非所问的话。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_07",
+      "summary": "写景三件套：breathtaking/spectacular 选词，take one's breath away 抒感，方位词块说位置。",
+      "explanation": [
+        "阅读语篇跟着两个女孩坐火车横穿加拿大，一路都是现成的写景语言：火车抵达 Lake Louise 时，where the blue water literally took their breath away with its exceptional beauty（蓝色的湖水美得令人屏息）；窗外 the mountains and forests of Canada looked massive（山峦与森林显得无比巨大），她们看到了 spectacular mountain peaks（壮丽的山峰），并称这是 the most awesome journey they had ever taken；词汇练习里还有 the beautiful coastline and breathtaking landscape of St Andrews（圣安德鲁斯壮美的海岸线与风景）。进入城市又是另一套笔墨：they were astonished to see misty clouds rising from the great Niagara Falls（惊叹于雾气从尼亚加拉大瀑布上空升起）；蒙特利尔保留着 unique Quebec culture and traditions（独特的魁北克文化与传统），让人想起 beautiful cobblestone streets, old brick buildings（美丽的鹅卵石街道与老砖房）——自然奇观与文明遗产，书里各给了一套描写语言。",
+        "写景像拍照：先拍远景轮廓——山体 massive、群峰 spectacular；再拍近处细节——湖水的 exceptional beauty、升腾的 misty clouds；最后收进自己的感受——took their breath away / were astonished to see。写古城老街则像伸手摸纹理：cobblestone streets、old brick buildings、shops selling crafts and antiques（手工艺品与古董小店），一句 unique culture and traditions 点出遗产的分量。两套镜头换着用，笔下的风景才既有“奇”又有“魂”。",
+        "方法上用“写景三件套”：①形容词定基调——breathtaking / spectacular / massive / awesome 中选最贴的一个；②感受句抒怀——The blue water took our breath away. / We were astonished to see ...；③方位句块定位——in/on/to the north/south/west/east of ... / alongside the coast/river / It's about ... kilometres from ... / ... is close to ...，书上的方位句块能把“在哪里”说得干净利落。再配“奇观遗产分柜记”：自然柜收 peak / falls / bay / lake / frost 与 massive / spectacular，人文柜收 antique / cobblestone street / brick building / culture and traditions，写景时各取一件不串柜。",
+        "辨析四个易混点：一是 breathtaking 修饰景（a breathtaking landscape / coastline），不修饰人；二是 massive 写体量巨大（the mountains looked massive），awesome 本义“令人敬畏”，感叹味最重，正式描述里可换 spectacular；三是方位介词——在范围内部用 in the north of，在外部用 to the north of，“在湖南岸”书上的说法是 on the south side of the lake（the great Niagara Falls, which is on the south side of the lake）；四是形容词别空洞堆叠——beautiful very beautiful 出不了画面，换成 massive/spectacular 再补一句感受，句子立刻立起来。",
+        "这套语言直接服务后面的“旅程邮件”写作：开头用方位句块交代路线，中间挑两三处奇观与遗产，用形容词加感受句展开，结尾一句抒情收束；它也是向外国朋友介绍家乡的现成句库——桂林山水、敦煌石窟、苏州园林，都能装进这个模板。积累本上开一页“风景遗产页”，左自然柜、右人文柜，读到好句就归柜入档。"
+      ],
+      "methods": [
+        {
+          "name": "写景三件套",
+          "steps": [
+            "选形容词定基调：breathtaking / spectacular / massive / awesome 中挑最贴切的一个；",
+            "补一句感受：The blue water took our breath away. / We were astonished to see ...；",
+            "加方位句定位：... is in the west of ... / alongside the river / It's about ... kilometres from ..."
+          ],
+          "tip": "景—感—位，三句成段。"
+        },
+        {
+          "name": "奇观遗产分柜记忆",
+          "steps": [
+            "自然柜：peak / falls / bay / lake / frost，配 massive / spectacular / freezing cold；",
+            "人文柜：antique / cobblestone street / brick building / culture and traditions，配 breathtaking landscape / unique；",
+            "描述时先判断对象属于哪一柜，再从柜里取词，避免山水景用上人文词的错位。"
+          ],
+          "tip": "山水进自然柜，老街上人文柜。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "“breathtaking landscape” 中 breathtaking 的意思最接近于哪一项？",
+          "solution": "选“壮美得令人惊叹的”。breathtaking 由 breath（呼吸）+ taking（夺走）构成，形容景色美到让人屏住呼吸，是写景高频形容词；“让人呼吸困难的”是字面误读，“寒冷刺骨的”是 freezing。",
+          "difficulty": 1,
+          "pitfall": "别按字面把 breathtaking 译成“喘不过气”——它几乎只用于风景、表演等令人赞叹的事物。"
+        },
+        {
+          "question": "选词填空：Standing in the distance, they were _____ to see misty clouds rising from the great Niagara Falls.",
+          "solution": "选 astonished。面对大瀑布的奇景，书上的用词是 astonished（大为惊讶）；annoyed（恼火）与 bored（无聊）都和观赏奇景的心情相悖。",
+          "difficulty": 2,
+          "pitfall": "描述“人被景震撼”用 -ed 形式（were astonished），-ing 形式 astonishing 用来修饰景物本身，主语是人时别用错。"
+        },
+        {
+          "question": "下面哪一句用了“形容词写景+感受句+方位词块”的完整组合？",
+          "solution": "选 The Great Wall winds along massive mountains in the north of Beijing, and its ancient towers took my breath away. 一句俱全：massive 写山体、in the north of Beijing 定方位、took my breath away 抒感受；第二句只有干瘪的泛词堆叠，第三句只交代了事件。",
+          "difficulty": 3,
+          "pitfall": "long / old 这类泛词出不了画面——换用书上的具体描述词（massive/spectacular/breathtaking）并补上感受句，写景才算入门。"
+        }
+      ],
+      "mistakes": [
+        "breathtaking 拿来形容人：He is breathtaking 说出来很怪——书上都用它修饰 landscape / coastline 这类景。",
+        "方位介词混用：在范围内部用 in the north of，在外部用 to the north of；“在湖南岸”的说法是 on the south side of the lake。",
+        "形容词空洞堆叠：beautiful very beautiful 连用说不出画面，应换成 massive / spectacular / breathtaking 并补一句感受。",
+        "awesome 当口头禅滥用：它本义“令人敬畏”，正式描述里换成 spectacular 或 exceptional 更稳妥。"
+      ],
+      "source": {
+        "unit": "选择性必修二相关单元",
+        "pages": [
+          38,
+          45
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "原句填词：They took a taxi to Lake Louise, where the blue water literally took their breath away with its _____ beauty.",
+          "options": [
+            "exceptional",
+            "ordinary",
+            "freezing",
+            "hidden"
+          ],
+          "answer": "A",
+          "solution": "书上原句用 exceptional beauty（绝美）呼应 took their breath away；ordinary（平凡）与“美得屏息”矛盾，freezing 只说冷，hidden 说被藏起，都不搭。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P38·阅读语篇（Lake Louise：the blue water literally took their breath away with its exceptional beauty）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词填空：We visited a famous tourist site in Scotland: the beautiful coastline and _____ landscape of St Andrews.",
+          "options": [
+            "breathtaking",
+            "freezing",
+            "boring",
+            "crowded"
+          ],
+          "answer": "A",
+          "solution": "书上练习原句用 breathtaking landscape（壮美的风景）；freezing 只说冷，boring（无聊）与“著名景点”相悖，crowded（拥挤）也撑不起赞美语境。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P40·词汇练习（the beautiful coastline and breathtaking landscape of St Andrews）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·迁移仿写：用书上的描述词介绍国内景观，最符合“形容词+方位+感受”组合的一句是？",
+          "options": [
+            "Huangshan lies in the south of Anhui, and its spectacular peaks take countless visitors' breath away.",
+            "Huangshan is a mountain in China.",
+            "I climbed Huangshan last year and it was tiring.",
+            "Huangshan has many trees and rocks."
+          ],
+          "answer": "A",
+          "solution": "A 三件套齐全：spectacular 写奇峰、in the south of Anhui 定方位、take one's breath away 抒感受，正是书上 Lake Louise 一句的迁移；其余三句要么只有地点事实，要么只写了个人经历。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P38·阅读语篇变式（spectacular mountain peaks + take one's breath away 仿写）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一处中国的自然奇观或文明遗产（如桂林山水、敦煌石窟、苏州园林），用英语写 3 句话：至少用两个书上的描述词（breathtaking / spectacular / massive / awesome / exceptional），一个方位词块，再加一句感受。",
+          "answer": "示例：The Li River winds alongside the green karst hills in the north of Guangxi. At dawn the misty peaks look massive and spectacular. One glance at their reflection in the clear water took my breath away.",
+          "solution": "先用方位句块 alongside ... in the north of ... 定位，再用 massive / spectacular 写景，末句用 take one's breath away 收感受；写完对照自查：描述词是否真用了书上这套、方位表达是否准确、有没有一句明确的感受。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_08",
+      "summary": "把单词按话题归成语义场，再用动词搭配串成词块网络：记一个带一串，阅读写作随取随用。",
+      "explanation": [
+        "本册的词汇练习始终按话题组织词群：动词与介词的组词练习把 subscribe、suspect、blame、link 和 to、of、for 组合出 \"Many scientists subscribe to the view that it is human activity that has caused global warming.\"（许多科学家赞同是人类活动导致了全球变暖这一观点）这样的句子；留学话题的词群练习则写下 \"Actively getting involved in various social activities is the best way to overcome culture shock.\"（积极参加各种社交活动是克服文化冲击的最好办法）。先按语义场认词、再按词块记搭配，就是书上记词的两条主线。",
+        "语义场像超市货架：水果区放苹果香蕉，冷冻区放饺子汤圆。把 germ（细菌）、outbreak（爆发）、statistics（统计数据）一起摆上「科学研究」这排货架，要用时一拿就是一把。词块网络则像同学关系网：动词是班长，介词和名词是固定同桌——subscribe 一出场，身后的 to 和 the view 就是老位置；记住一个人等于记住一桌人，遗忘率自然低。",
+        "三步建网：第一步定场名，给要记的词贴话题标签，如科学研究场（theory、evidence、data、analyse、proof）、留学适应场（accommodation、adapt to、culture shock、feel at home）、旅行见闻场（spectacular、take one's breath away、bound for）；第二步场内分工，按名词群、动词群、形容词群归位并标词性——infection 是名词、infect 是动词、infected 是形容词，同场不同职；第三步挂词块，以动词为轴挂介词和宾语：subscribe to a theory、suspect sb of sth、blame sb for sth、a link between A and B，每个词块配一句自己造的句子，把网焊牢。",
+        "三个易混点：一，语义场不等于同义词库，同场词词性常不同、分工不同，cuisine（菜肴风格）与 food（食物统称）同场不同用；二，介词挂靠不能凭感觉，subscribe 后必接 to，a link 后接 between...and，漏掉介词整句就垮；三，词块要整体记、忌拆字直译，take one's breath away 是「美得令人屏息」，kill time 是「打发时间」，字面拼不出意思。",
+        "有了话题词群，读议论文时能一眼认出反复出现的主题词场，抓主旨更快；写作文时从同一场取词，段落用词自然集中统一；概要写作要同义改写，词块网络正是现成的替换库。复习时给每类话题做一张「词块网络卡」，考前扫一遍卡，等于把货架重新盘点一遍。"
+      ],
+      "methods": [
+        {
+          "name": "语义场归类法",
+          "steps": [
+            "定场名：先确定话题，如科学研究、留学适应、旅行见闻",
+            "分职责：场内按名词群、动词群、形容词群归位，标注词性",
+            "找场友：把生词挂进已有词群，如把 statistics 归入科学研究场",
+            "定期盘点：按场默写，缺哪个补哪个，场与场不混放"
+          ],
+          "tip": "话题定场，同类归仓；名词动词形容词，各就各位"
+        },
+        {
+          "name": "词块网络记忆法",
+          "steps": [
+            "选轴心：以动词或名词短语为节点，如 subscribe、be to blame",
+            "挂钩子：把固定介词和宾语挂上，subscribe to the view、blame sb for sth",
+            "造句焊接：每个词块造一句真话或常理句，用一次记一生",
+            "串场成网：把同话题词块连成一小段话，一次复习一整片"
+          ],
+          "tip": "动词作轴心，介词是挂钩；记块不记字，整体搬进句"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下列单词中，与 germ、outbreak 同属「疾病与研究」语义场的是哪一个：accommodation／infection／qualification／presentation？",
+          "solution": "infection。germ（细菌）与 outbreak（爆发）属于疾病研究词群；infection（感染）同场。accommodation 是住宿，qualification 是资格，presentation 是演讲，分属留学与表达话题",
+          "difficulty": 1,
+          "pitfall": "只看中文大意不看使用场景，容易把 accommodation（住宿）误当成医院场景词"
+        },
+        {
+          "question": "在 subscribe（　）the theory、be to blame（　）the accident、a link（　）diet and health 三处填入介词，正确的一组是 to；for；between／for；to；with／to；on；between／of；for；to 中的哪一组？",
+          "solution": "to；for；between。subscribe to 表示「赞同（观点）」；be to blame for 表示「对……负有责任」；a link between A and B 表示「A 与 B 之间的联系」",
+          "difficulty": 2,
+          "pitfall": "subscribe 习惯单用而漏掉 to；blame 的固定形式是 (be) to blame for，不要写成 be to blame of"
+        },
+        {
+          "question": "用「留学适应」词群补全句子：Linda suffered from ___ at first, but joining clubs helped her ___ and gradually she began to ___ in her new school.（每空一个词块，从 culture shock / get involved in / feel at home 中选）",
+          "solution": "依次填 culture shock；get involved in；feel at home：先遭遇文化冲击，再通过参加社团参与进来，最后有了家的感觉",
+          "difficulty": 3,
+          "pitfall": "get involved in 后接活动时要带 in；feel at home 不能说成 feel like home"
+        }
+      ],
+      "mistakes": [
+        "把语义场当成同义词库：同场词词性常不同（infection/infect/infected），归类时要标词性，不能随手混换",
+        "介词搭配凭感觉：subscribe to、suspect sb of sth、a link between...and 都是固定挂法，漏掉或换错介词整句就错",
+        "词块逐词直译：take one's breath away 是「美得让人屏息」，不是「把呼吸拿走」；kill time 是「打发时间」",
+        "归类只抄中文意思：cuisine 指一地特色菜肴与饮食风格，与泛指食物的 food 同场不同用，写作选词要看场合"
+      ],
+      "source": {
+        "unit": "各单元词汇板块",
+        "pages": [
+          4,
+          52
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "「to accept, admit, or recognise sth or the truth/existence of sth（接受、承认或认识到某事或其真实性）」是哪个单词的释义？（　）",
+          "options": [
+            "recall",
+            "acknowledge",
+            "comfort",
+            "qualify"
+          ],
+          "answer": "B",
+          "solution": "释义配对的答案是 acknowledge（承认）；recall 是回忆，comfort 是安慰，qualify 是使合格",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P16·Build up your vocabulary 释义配对（to accept, admit, or recognise sth → acknowledge）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "完成句子：Many scientists ___ the view that it is human activity that has caused global warming.（用 subscribe 的正确形式与搭配补全，一空一词）",
+          "answer": "subscribe to",
+          "solution": "subscribe 与 the view 之间要用介词 to，subscribe to the view 意为「赞同这一观点」；主语 Many scientists 是复数，动词用原形",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P4·Build up your vocabulary 动词介词组词（Many scientists subscribe to the view that…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "按词块网络补全两空：It is one of the most difficult ___ to climb in the Rocky Mountains. / We all remember the ___ of the trip—visiting the Huangguoshu Waterfall. 两空的名词依次是（　）",
+          "options": [
+            "peaks；highlight",
+            "highlights；peak",
+            "peaks；sight",
+            "curtains；highlight"
+          ],
+          "answer": "A",
+          "solution": "落基山里最难攀登的是「山峰」peaks；旅行最难忘的部分是「亮点」the highlight of the trip。注意 highlight 常用单数搭配 the highlight of...；peak 指山峰本身，sight 泛指景物，强调「最难攀登」须用 peak",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必二 P40·Build up your vocabulary 词块搭配变式（the most difficult peaks to climb / the highlight of the trip）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从本册学过的词群里任选一个话题（如旅行、饮食、急救），制作一张「词块网络卡」：写出场名、4 个词块（动词＋介词＋名词），并用其中两个词块各造一句。",
+          "answer": "一张词块网络卡：场名＋4 个词块＋2 个造句",
+          "solution": "示例（旅行场）：bound for Toronto（开往多伦多）、take one's breath away（美得令人屏息）、the highlight of the journey（旅程亮点）、in the duration of eight months（历时八个月）；造句：The train bound for Toronto passed endless wheat fields. / The blue lake took our breath away.",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_09",
+      "summary": "议论文先亮观点、再摆论据、最后下结论；认出举例、数据、引用三种论据，读长文章就像拿着地图走路。",
+      "explanation": [
+        "议论文书信的开局方式书上演示得很清楚：一封信用问句开路——\"Is studying abroad a good idea or not? There are certainly disadvantages, but in my opinion, the advantages are much greater.\"（留学到底是不是好主意？缺点当然有，但依我看，优点要大得多。）配套的结构分析任务把全文拆成四块：以问题或事实开头、表明观点、给出理由和论据支撑观点、陈述结论。反对方的信同样如此，结尾一句 \"To sum up, one cannot deny the fact that studying abroad has its disadvantages, so when you think about studying abroad, you should consider these many factors.\" 就是标准收束。",
+        "议论文像一场辩论赛：开头抛问句或摆事实是立靶子，亮观点是站立场，论据是出招，结论是收招。没有论据的观点是空喊口号，没有观点的论据是一盘散沙。先把这四块拼图认出来，文章再长也不会迷路——主旨题和作者态度题的答案，通常就藏在观点句和结论句里。",
+        "四步定位法：第一步看开头，问句（Is studying abroad a good idea or not?）或事实句（\"In the past few decades, there has been a dramatic increase in the number of people studying abroad.\"）都是起手式；第二步抓观点句，盯住 in my opinion / I think / personally 后面的句子；第三步数论据，顺着 To begin with / Another important factor / A final point 一条条数；第四步找结论，认 To sum up / All in all / In conclusion。论据再分三型：举例型找 for example / for instance / such as，数据型找百分数、数字、年份和研究来源，引用型认人名加直接引语。",
+        "三个易混点：事实开头不是观点——留学人数大增、花费高昂是客观现象，作者立场要看表态词之后；例子不是论点——\"For example, you will certainly become more independent because you will have to deal with all kinds of difficulties by yourself.\" 只是把「个人成长」这条分论据说具体；引用不是作者的话——\"Tell me what you eat, and I will tell you what you are.\" 出自法国作家布里亚-萨瓦兰，作者借它引出自己的判断，转述时不能安到作者头上。",
+        "这张结构地图直接通向三件事：阅读理解里的观点题、结论题按图索骥；概要写作去例证、留论点，靠的正是分清结构与细节；后面写议论文段落时，观点—论据—分析的骨架与今天读的结构完全同轨——读什么结构，就写什么结构。"
+      ],
+      "methods": [
+        {
+          "name": "四步定位法",
+          "steps": [
+            "看开头：问句或事实句都是起手式",
+            "抓观点：盯住 in my opinion / I think / personally 后面的句子",
+            "数论据：顺着 To begin with / Another... / A final point 数出论据条数",
+            "找结论：To sum up / All in all / In conclusion 引出全文收束句"
+          ],
+          "tip": "开头立靶子，观点亮立场；论据一二三，总结收回全"
+        },
+        {
+          "name": "论据三型识别法",
+          "steps": [
+            "举例型：找 for example / for instance / such as / a case in point",
+            "数据型：找百分数、具体数字、年份或研究报告来源",
+            "引用型：名人名言或研究结果，人名加直接引语",
+            "对号入座：判断这条论据支撑的是哪一条分论点"
+          ],
+          "tip": "例子找 for example，数据盯数字年份，引用认人名引号"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪一句最可能是书信作者亮出的观点：In the past few decades, there has been a dramatic increase in the number of people studying abroad.／I think the disadvantages for young people are greater.／Tuition fees and living expenses are much more expensive than at home.／Many students who study abroad face great economic pressure.？",
+          "solution": "I think the disadvantages for young people are greater. 只有 I think 引出的句子表达作者立场；第一句是客观事实开头，后两句是用来支撑观点的论据",
+          "difficulty": 1,
+          "pitfall": "把事实性开头当成观点，主旨题就会答偏"
+        },
+        {
+          "question": "\"The French author Jean Anthelme Brillat-Savarin once wrote, 'Tell me what you eat, and I will tell you what you are.'\" 这条论据属于哪种类型：举例／数据／引用／类比？",
+          "solution": "引用。有人名（法国作家）、有直接引语，是典型的引用型论据，作者借名言引出「饮食反映文化与性格」的论点",
+          "difficulty": 2,
+          "pitfall": "看到名言里谈吃就误判成举例；举例型必须有 for example 一类标志或具体事例"
+        },
+        {
+          "question": "把下面四句排成一段完整的议论文：①All in all, studying abroad is a life-changing experience worth trying. ②Is studying abroad a good idea or not? ③For example, you will certainly become more independent because you will have to deal with all kinds of difficulties by yourself. ④There are certainly disadvantages, but in my opinion, the advantages are much greater.（用序号作答，如 ①②③④）",
+          "solution": "②④③①：问句开头立题，④亮明观点，③举例支撑，①All in all 收束全文",
+          "difficulty": 3,
+          "pitfall": "例句③不能放在观点④之前——论据必须挂在观点下面，不能裸奔"
+        }
+      ],
+      "mistakes": [
+        "把开头的客观事实（人数大增、花费高昂）当成作者观点；观点要看 I think / in my opinion 之后",
+        "把 for example 引出的例子当成主要论点；例子是支撑，论点是它头顶上那句主张",
+        "忽略总结标志词，把最后一条论据误当结论；To sum up / All in all / In conclusion 后面才是结论",
+        "把引用的名言当成作者自己的话转述；引用只是借来的证据，作者观点要另找"
+      ],
+      "source": {
+        "unit": "各单元 Reading and Thinking",
+        "pages": [
+          20,
+          33
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "议论文四步结构的正确顺序是（　）",
+          "options": [
+            "提出问题或摆事实→表明观点→给出理由和论据→陈述结论",
+            "表明观点→提出问题→陈述结论→给出论据",
+            "给出论据→表明观点→提出问题→陈述结论",
+            "陈述结论→给出论据→表明观点→提出问题"
+          ],
+          "answer": "A",
+          "solution": "书上对议论文书信的结构归纳正是：以问题或事实开头、表明观点、给理由和论据、陈述结论",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P21·Analyse the argumentative letters（Start with a question or a fact→State an opinion→Give reasons and evidence→State a conclusion）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "\"To begin with, many students who study abroad face great economic pressure.\" 中 To begin with 引出的这条内容，在议论文结构中属于（　）",
+          "options": [
+            "观点",
+            "分论点（第一条论据）",
+            "结论",
+            "背景事实"
+          ],
+          "answer": "B",
+          "solution": "To begin with 是列举第一条理由的标志，引出的是支撑观点的第一条分论点（经济压力），不是观点本身也不是结论",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P20·Studying Abroad: Is It a Good or a Bad Idea? 两封书信（To begin with…economic pressure）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "健康饮食短文先说 \"There is increasing evidence that the real driver of poor health is not so much fatty food, as it is sugar.\"，接着写道：people who receive 25% of their daily calories or more through sugar are twice as likely to die from heart disease...（Journal of the American Medical Association, 2014）。这条论据属于（　）",
+          "options": [
+            "举例",
+            "数据（含研究来源）",
+            "引用名人名言",
+            "类比"
+          ],
+          "answer": "B",
+          "solution": "百分数 25%、倍数 twice as likely 加期刊来源，是典型的数据型论据。注意出现期刊名不代表是引用名人名言型——判断关键是数字证据与研究来源",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P32·Workbook 健康饮食短文变式（25% of daily calories→数据论据）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从你最近读过的英语文章里选一段议论文字，用「四步定位法」画出结构图：标出开头（问题或事实）、观点句、每条论据及其类型、结论句；再想想删掉例子后还剩哪些句子。",
+          "answer": "一张含开头、观点句、论据类型、结论句的结构图",
+          "solution": "示例：观点句=In my opinion...；论据一=For example...（举例）；论据二=数字或年份（数据）；结论=All in all...；删例后保留观点句、分析句与结论句，这正是概要写作的骨架",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12a_10",
+      "summary": "议论文段落三步走：一句亮观点、两行摆论据、一句用 Therefore 分析收尾，80 词左右观点就立得住。",
+      "explanation": [
+        "书上的写作任务是给编辑写一封表达自己对留学看法的信，随任务附了一张连接词库：表态用 in my opinion / personally，列举用 to begin with / what is more / moreover，因果用 because / so / therefore / as a result，复述用 in other words / that is to say，总结用 in short / to sum up / all in all。范文给出升级示范：\"Therefore, China needs more talented young people with a global perspective who are highly competent with languages, have leadership and organisational skills, and have strong cultural awareness.\"；健康饮食短文则演示复述式衔接：\"In other words, if you want to be healthy, you have to cut down on desserts, and cut out sweet drinks altogether.\"。写作自检清单还会追问一句：连接词有没有把全文串起来。",
+        "一个议论文段落像一个汉堡：顶层面包是观点句，中间的肉饼和生菜是论据，底层面包是分析句，把上下的味道兜在一起。连接词是串汉堡的竹签：Therefore 让因果立起来，Furthermore 让理由摞上去；缺了竹签，句子各散各的，读者咬不到一块儿。",
+        "三步成段，控制在 80 词上下：第一步亮观点，一句 In my opinion... 定调；第二步摆论据，一到两条——For example 引实例，或甩出数字、名言，随后必须紧跟一句分析，说明这条论据凭什么撑得起观点；第三步收尾，用 Therefore / Consequently / All in all 归纳呼应。写完三查：观点是不是只有一句？论据有没有具体细节？连接词升级了没有（so→therefore，and→furthermore）？",
+        "升级讲分寸：因果链上 so 偏口语，议论文首选 therefore，语气更重的用 consequently；递进时 and 太平，换 furthermore / moreover / what is more——写人物时 \"Furthermore, he was quite determined.\" 就是标准示范；转折 however 之后常接让步再反驳，不能随便顶替 but。位置与标点有讲究：Therefore / Furthermore 放句首，后面要加逗号；一段两三个连接词足够，堆成串反而挡路。",
+        "三步段落是整篇议论文的地砖：前面加一个问句或事实开头的引入段，末尾加一段 To sum up 的总结段，段落拼合即成全文；概要写作删例子、留论点的本领，也和这里的分析句一脉相承。平时按话题攒「观点句＋论据＋Therefore 分析」的例段，考场上就是拆装组合。"
+      ],
+      "methods": [
+        {
+          "name": "观点-论据-分析三步法",
+          "steps": [
+            "亮观点：In my opinion, ... 一句定调，一段只立一个观点",
+            "摆论据：For example 引实例，或用数字、名言，一到两条",
+            "接分析：用一句话点明论据如何支撑观点",
+            "收尾呼应：Therefore / Consequently 归纳，回扣观点句"
+          ],
+          "tip": "观点一句亮，论据两行撑；分析 Therefore，首尾要呼应"
+        },
+        {
+          "name": "连接词升级阶梯",
+          "steps": [
+            "因果升级：so → therefore → consequently",
+            "递进升级：and → what is more → furthermore / moreover",
+            "表态升级：I think → in my opinion → personally speaking",
+            "收束升级：so that's all → in short / to sum up / all in all"
+          ],
+          "tip": "so 留给便条，therefore 入文章；句首连接词，逗号紧跟不慌张"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪一句最适合做议论文段落的开头观点句：Sports are tiring and take time.／In my opinion, doing sports every day helps students stay focused in class.／My cousin plays basketball every weekend.／Therefore, students should do sports regularly.？",
+          "solution": "In my opinion, doing sports every day helps students stay focused in class. 观点句要表明立场、可被论证；第一句是反方理由，第三句是例子，第四句是结论句，都不适合开头",
+          "difficulty": 1,
+          "pitfall": "别拿结论当开头——Therefore 引出的是收尾归纳，不是起手式"
+        },
+        {
+          "question": "选词补全：Too much sugar is hidden in sweet drinks. ___ , cutting out sugary drinks is a smart first step towards a healthy diet.（从 Although / For example / Therefore / Because 中选）",
+          "solution": "Therefore。前句是因（糖藏在饮料里），后句是果（戒含糖饮料是聪明的第一步），因果收尾用 Therefore",
+          "difficulty": 2,
+          "pitfall": "For example 引例子不表因果；Although 表让步，放这里逻辑不通"
+        },
+        {
+          "question": "把三句排成「观点—论据—分析」的议论文段落：①For example, the average American gets 1/3 of his or her sugar through sweet drinks alone. ②In my opinion, the real enemy of health is not fat but sugar. ③Therefore, if you want to be healthy, you have to cut down on desserts and cut out sweet drinks altogether.（用序号作答）",
+          "solution": "②①③：②亮观点，①For example 摆数据例证，③Therefore 因果收尾",
+          "difficulty": 3,
+          "pitfall": "分析句③并非可有可无——没有 Therefore 收尾，段落在例子里戛然而止"
+        }
+      ],
+      "mistakes": [
+        "一段塞好几个观点：一个段落只论证一个观点，其余移到下一段，80 词装不下三条战线",
+        "论据与观点脱节：例子讲运动、观点谈饮食，中间没有分析句缝合，读者看不出因果",
+        "连接词不升级：正式书面段落满篇 so、and、but 显得口语化，应换 therefore、furthermore、however",
+        "句首连接词后丢逗号：Therefore, / Furthermore, 放句首要加逗号；一段堆四五个连接词反而挡路"
+      ],
+      "source": {
+        "unit": "选择性必修二写作板块",
+        "pages": [
+          20,
+          33
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "用连接词衔接两句：Students who want to study abroad must consider their parents' budget. ___ , they should think about whether they can afford the costs of studying overseas.（后句是对前句的换说，应选哪个连接词？）（　）",
+          "options": [
+            "for instance",
+            "in other words",
+            "to sum up",
+            "however"
+          ],
+          "answer": "B",
+          "solution": "后句是对前句的同义复述，用 in other words（换句话说）衔接最贴切",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必二 P21·Use connectors 连接词库与句子改写（consider their parents' budget 一句·换说关系 in other words/that is to say）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词补全书信原句：China's global outlook, with projects such as the Belt and Road Initiative, has helped us make connections across the world. ___, China needs more talented young people with a global perspective.（　）",
+          "options": [
+            "Therefore",
+            "For instance",
+            "In short",
+            "However"
+          ],
+          "answer": "A",
+          "solution": "前句是因（中国与世界的联系增多），后句是果（需要国际化青年人才），因果推论用 Therefore，与原文一致。注意 In short 表总结而非因果；此处是从原因推出需求，不是全文收束",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P20·Studying Abroad: Is It a Good or a Bad Idea? 书信原句（Therefore, China needs more talented young people…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "健康饮食短文先说多余糖分大多来自甜食和甜饮，接着写道：___ , if you want to be healthy, you have to cut down on desserts, and cut out sweet drinks altogether. 空处的连接词是（　）",
+          "options": [
+            "As a result",
+            "In addition",
+            "In other words",
+            "After all"
+          ],
+          "answer": "C",
+          "solution": "原文用 In other words 复述并强调前句建议——换一种说法让读者听得更明白。注意 As a result 表结果，但这里并非因果推出，而是同一建议的换说；认准「复述」关系",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必二 P32·Workbook 健康饮食短文连接词变式（In other words, …cut out sweet drinks altogether）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以 \"Doing regular exercise is important for high school students.\" 为观点句，用「观点—论据—分析」三步法写一个 80 词左右的英语段落，要求至少用上 Therefore 和 For example，写完用连接词清单自查一遍。",
+          "answer": "80 词左右的三步段落一段，含 For example 与 Therefore",
+          "solution": "参考提纲：观点句照抄所给句；论据一 For example, ...（如每天跑步二十分钟的同学上课更专注）；分析句 This shows that...；收尾 Therefore, ...（呼吁坚持锻炼）",
           "difficulty": 3
         }
       ]
