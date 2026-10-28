@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 99,
+  "lessonCount": 114,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -12405,6 +12405,1914 @@
           "question": "给自己出一份「毕业词汇卷」：一张 8 词的主题词网 + 5 对不规则动词默写 + 1 段动词挖空的过去时小短文，考考同桌再互批。",
           "answer": "示例 词网：school, teacher, friend, hobby, holiday, farm, family, nature；动词：do→did, take→took, make→made, come→came, get→got；短文挖空：Last summer, I ______ (go) to Beijing and ______ (visit) the Great Wall.",
           "solution": "三道题正好对应三招自查——词网、默写、语篇填空，全部过关就是词汇收官。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_01",
+      "summary": "认全 26 个字母、抓住五个元音字母，再懂一点音素：英语读音的积木一共 48 块，元音字母还有长音短音两副面孔。",
+      "explanation": [
+        "入门先认字母：起始部分按 Aa-Hh、Ii-Rr、Ss-Zz 三批学完 26 个字母，每个字母都有一对大小写；字母歌唱全了它们：A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z. X, Y, Z — now you see, I can say my ABCs. 接着按读音给字母归类，朗读表里五个元音字母当组长：/eɪ/ 组 A H J K（Dale、Grace），/iː/ 组 B C D E G P T V Z（evening），/e/ 组 F L M N S X（Helen、pen），/aɪ/ 组 I Y（hi、fine、white），/əʊ/ 组 O（OK、no），/juː/ 组 Q U，/uː/ 组 U（ruler、blue）；还有一首字母音顺口溜：A in Dale, E in evening, I in hi, O in OK, U in ruler. 后面的语音部分又给出两条规律——辅音字母在单词里的读音表：b /b/（bat、ball、Bob），c /k/（call、can、music）和 c /s/（city、pencil、price），d /d/（dad、date），f /f/（father、fun），g /g/（get、go）和 /dʒ/（orange），j /dʒ/（July、jacket），y /j/（yes、your、yellow），z /z/（zero、zoo）等；元音字母在重读音节里常有两类读法：a 读 /eɪ/（name、game、late）或 /æ/（map、bag、black），e 读 /iː/（he、she、we、these）或 /e/（bed、egg、pen），i 读 /aɪ/（like、nice、nine）或 /ɪ/（big、quilt、in），o 读 /əʊ/（no、home、OK）或 /ɒ/（dog、not、orange），u 读 /juː/（music、excuse、computer）或 /ʌ/（cup、bus、must）。",
+        "字母和音素是两码事：字母是「写」的单位，一共 26 个；音素是「读」的单位，是英语发音最小的积木，一共 48 块，一般分成 20 个元音音素和 28 个辅音音素。就像汉语拼音有声母、韵母，英语单词也是拿音素拼出来的。五个元音字母 A E I O U 是积木里的主角，几乎每个音节都少不了它们；所以背字母不光要会认会写，还要会「听名归组」——听到一个字母的名字，就能说出它和谁是同一组的。",
+        "方法有两把。第一把，元音组长归类法：先把五个组长的名称读熟——A /eɪ/、E /iː/、I /aɪ/、O /əʊ/、U /juː/，再把名称读音相同的字母排进同组：/eɪ/ 组 A H J K，/iː/ 组 B C D E G P T V Z，/e/ 组 F L M N S X，/aɪ/ 组 I Y，/əʊ/ 组 O，/juː/ 组 Q U，/uː/ 组 U（blue、ruler、June），R 的名称是长音 /ɑː(r)/ 单独一组。第二把，哑 e 两读法：看词形定元音长短——词尾是「元音＋辅音＋不发音的 e」时，元音读字母本音，如 name /eɪ/、these /iː/、like /aɪ/、home /əʊ/、excuse /juː/；元音被辅音前后夹住时读短音，如 map /æ/、bed /e/、big /ɪ/、dog /ɒ/、cup /ʌ/。拿到生词先用规律猜一猜读音，再听录音验证。",
+        "几个容易绊倒的地方：一是把字母和音素混为一谈——26 个字母是书写符号，48 个音素是读音单位，背单词靠音素拼读，不是死记字母顺序；二是把 Y 当成第六个元音字母——元音字母只有 A E I O U，Y 只是名称里含 /aɪ/、跟 I 同一组；三是同一个元音字母读音不同——name 的 a 读 /eɪ/，map 的 a 读 /æ/，只看字母不看词形就会读错；四是辅音字母有多张面孔——c 在 e、i、y 前常读 /s/（city、pencil），其余读 /k/（call、cup），s 有时读 /z/（his、always）。",
+        "音素和读音规律是初中英语的地基：会按读音归组，背单词就能「听音拼词」；认识了音标符号，以后翻开词典看到生词的音标也能自己拼出来。从现在起养成一个习惯——每学一个新单词，先用哑 e 两读法猜读音，再听录音对照，猜错的记下来，多半是 ea、oo 这类字母组合有特殊读音，后面会专门学；把 48 块积木认全，语音关就过了一大半。"
+      ],
+      "methods": [
+        {
+          "name": "元音组长归类法",
+          "steps": [
+            "先记五个组长及其名称音：A /eɪ/、E /iː/、I /aɪ/、O /əʊ/、U /juː/",
+            "按名称读音归组：/eɪ/ 组 A H J K；/iː/ 组 B C D E G P T V Z；/e/ 组 F L M N S X；/aɪ/ 组 I Y；/əʊ/ 组 O；/juː/ 组 Q U；/uː/ 组 U（blue、ruler、June）；R 单独读 /ɑː(r)/",
+            "每天按组把字母表朗读一遍，读出字母名，也说得出它属于哪一组"
+          ],
+          "tip": "A 带 H J K，E 组排最长；I 牵着小 Y，Q U 跟着 U"
+        },
+        {
+          "name": "哑 e 两读法",
+          "steps": [
+            "词尾是「元音＋辅音＋哑 e」（e 不发音）：元音读字母本音——name /eɪ/、these /iː/、like /aɪ/、home /əʊ/、excuse /juː/",
+            "元音被辅音前后夹住：读短音——map /æ/、bed /e/、big /ɪ/、dog /ɒ/、cup /ʌ/",
+            "新单词先用规律猜读音，再听录音验证，猜错的记进生词本"
+          ],
+          "tip": "哑 e 不出声，元音读本音；夹在中间读短音"
+        }
+      ],
+      "examples": [
+        {
+          "question": "26 个字母中的五个元音字母是哪几个？它们的名称分别读什么音？",
+          "solution": "A、E、I、O、U；名称分别读 /eɪ/、/iː/、/aɪ/、/əʊ/、/juː/。这五个音就是朗读表里五个组的「组长音」。",
+          "difficulty": 1,
+          "pitfall": "把 Y 也算成元音字母——Y 只是名称含 /aɪ/、和 I 同组，元音字母只有 A E I O U。"
+        },
+        {
+          "question": "下面四个单词 map、name、bag、black 里，a 读 /eɪ/ 的是哪一个？",
+          "solution": "name。name 词尾是「元音＋辅音＋哑 e」，a 读本音 /eɪ/；map、bag、black 里 a 被辅音夹住，读短音 /æ/。",
+          "difficulty": 2,
+          "pitfall": "只看字母不看词形，见到 a 就随便挑一个。"
+        },
+        {
+          "question": "辅音字母读音表里，c 在 cup、call 里读 /k/，那么 c 在 city、pencil 里读什么音？",
+          "solution": "读 /s/。c 在 e、i、y 前常读 /s/，其余情况多读 /k/，一个字母两副面孔。",
+          "difficulty": 2,
+          "pitfall": "记死 c 只读 /k/，遇到 city 也读成 /k/。"
+        }
+      ],
+      "mistakes": [
+        "字母和音素混为一谈：26 个字母是书写单位，48 个音素是读音单位，背单词要靠音素拼读，不是死记字母顺序。",
+        "把 Y 当第六个元音字母：元音字母只有 A E I O U 五个，Y 只是和 I 同读 /aɪ/。",
+        "name 读成短音：词尾哑 e 让 a 读本音 /eɪ/，别和 map 的 /æ/ 混；只看字母不看词形最容易读错。",
+        "c 只会读 /k/：city、pencil 里的 c 在 e、i、y 前读 /s/，cup、call 里才读 /k/。"
+      ],
+      "source": {
+        "unit": "Starter Units 1-3 与语音学习",
+        "pages": [
+          1,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "字母读音分类表里，名称里都含 /eɪ/ 的一组是：　A. H、J、K　B. F、L、M、N　C. I、Y　D. Q、U、W",
+          "options": [
+            "H、J、K",
+            "F、L、M、N",
+            "I、Y",
+            "Q、U、W"
+          ],
+          "answer": "A",
+          "solution": "A H J K 的名称里都有 /eɪ/；F L M N S X 的名称读 /e/，I Y 读 /aɪ/，Q U W 归在 U 组。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P12·字母读音分类朗读表（/eɪ/：A H J K；/aɪ/：I Y；/juː/：Q U W）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "辅音字母读音表里，c 在 call、cup 里读 /k/，在 city、pencil 里读：　A. /k/　B. /s/　C. /dʒ/　D. /g/",
+          "options": [
+            "/k/",
+            "/s/",
+            "/dʒ/",
+            "/g/"
+          ],
+          "answer": "B",
+          "solution": "c 在 e、i、y 前常读 /s/（city、pencil、price），其余情况多读 /k/（call、can、music）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P77·辅音字母读音表（c /k/ call can music；c /s/ city pencil price）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "朗读表里 E 组字母 B、C、D、E、G、P 的名称都有 /iː/，he 里的 e 也读 /iː/。照哑 e 两读法规律，新词 bed 里的 e 读：　A. /iː/　B. /e/　C. /eɪ/　D. /æ/",
+          "options": [
+            "/iː/",
+            "/e/",
+            "/eɪ/",
+            "/æ/"
+          ],
+          "answer": "B",
+          "solution": "bed 里 e 被辅音 b、d 前后夹住，读短音 /e/；he 词尾开音，读 /iː/。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P8·字母音朗读表（E 组 B C D E G P—Helen pen，试读 he、leg）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "打开词典的生词表，挑五个没学过的单词，先用「哑 e 读本音、夹中间读短音」的规律猜读音，再听录音或查音标验证，把猜对和猜错的各记一笔。",
+          "answer": "开放作答，记录五个单词的猜读与验证结果即可。",
+          "solution": "规律能解决大部分常见词；猜错的多半是 ea、oo、ou 这类字母组合有特殊读音，后面会专门学。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_02",
+      "summary": "Good morning! 到 Good evening! 按时段问好，How are you? 用 I'm fine, thanks. 接住，课堂指令抓动词开头。",
+      "explanation": [
+        "入门先学打招呼。图里的人物这样互相问候：Good morning, Helen! —Hi, Bob!／Hello, Frank!／Hello, Eric!／Good morning, Cindy!／Good morning, Alice!／Good morning, Dale! 人物名字分列 Boys' names 和 Girls' names 两栏：Bob、Dale、Frank、Eric 是男孩名，Grace、Helen、Cindy、Alice 是女孩名。按时段再扩展：Good afternoon, Eric!／Good afternoon, Frank!／Good evening, Alice!／Good evening, Bob! 问候问答链是这样的：A: Hi, Cindy! How are you?　B: I'm fine, thanks. How are you?　A: I'm OK. 问候歌反复唱的也是这几句：Good morning! Good afternoon! Good evening! How are you? I'm fine, thanks. I'm OK. 课堂上的指令句有：Listen and repeat.（听录音并跟读）、Write down the names in the picture.（写出图中人物的名字）、Look and copy.（观察并按笔画抄写）、Practice the conversations in the picture. Then greet your partner.（练习图中对话，然后问候同伴）。",
+        "打招呼是英语礼貌的第一步，说什么要先看钟表：从早到中午用 morning，午后用 afternoon，天黑以后用 evening。How are you? 并不是真的在关心你的身体状况，它是熟人之间的客套话，回答永远可以安全地说 I'm fine, thanks.，想轻松一点就说 I'm OK.；有来有往才礼貌，答完别忘了把问题抛回去——How are you? 课堂指令则是老师带大家动起来的口令，听懂它们，整节课就不会掉队。",
+        "三步问候法：第一步，看时间选问候语——morning 用 Good morning!，afternoon 用 Good afternoon!，evening 用 Good evening!；第二步，加上名字更亲切——Good morning, Cindy!；第三步，接上问答链——How are you? —I'm fine, thanks. How are you? —I'm OK. 课堂指令抓动词：listen 是听、look 是看、write 是写、practice 是练、repeat 是跟读，指令句几乎都以动词开头，听到动词就知道该做什么动作。",
+        "几个容易混的地方：一是问候不看时段——下午说 Good morning! 会让人发笑，Good night. 是睡前道别，不能当问候语；二是 How are you? 答非所问——要答 I'm fine, thanks. 或 I'm OK.，答成 I'm Cindy. 就串到报名字去了；三是英文名分男女——给自己选英文名时，男孩别选 Helen、Cindy，女孩别选 Bob、Frank，而且英文名首字母必须大写（Helen 不能写成 helen）；四是称呼——对男老师用 Mr＋姓，对女老师用 Ms＋姓（不分婚否）或 Miss＋姓（未婚），称呼后面接姓不接名，如 Ms. Brown、Ms. Miller。",
+        "会问候才能交朋友：这套问候语是初中英语的开场白，下一步就要学自我介绍 I'm Cindy.／My name's Gina.，再往后学问电话号码、认识新同学。从明天起，每天早读把三组问候语和问答链大声练一遍，开学第一次见到英语老师，就能用英语问好了——学过的句子马上用出来，才是真正学会了。"
+      ],
+      "methods": [
+        {
+          "name": "时段问候三选一",
+          "steps": [
+            "从早到中午：Good morning!（上午好）",
+            "午后到傍晚：Good afternoon!（下午好）",
+            "天黑以后：Good evening!（晚上好）；熟悉的人之间也可以直接 Hi!/Hello!"
+          ],
+          "tip": "morning 太阳升，afternoon 日头偏，evening 掌灯后"
+        },
+        {
+          "name": "问候问答链",
+          "steps": [
+            "A 先问：Hi/Hello, 名字! How are you?",
+            "B 再答：I'm fine, thanks. How are you?（答完回问一句）",
+            "A 收尾：I'm OK.（或再答 I'm fine, thanks.）"
+          ],
+          "tip": "How are you 抛出去，fine thanks 接回来，OK 也能收个尾"
+        },
+        {
+          "name": "课堂指令抓动词",
+          "steps": [
+            "Listen and repeat.＝听录音并跟读",
+            "Look and copy.＝观察并按笔画抄写",
+            "Write down the names.＝写下名字；Practice the conversations with your partner.＝和同伴练习对话"
+          ],
+          "tip": "动词打头是指令：listen 听 look 看，write 写 practice 练"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把问候语和时间配对：早上八点、下午三点、晚上七点出门，各该说哪句问候语？",
+          "solution": "早上八点说 Good morning!；下午三点说 Good afternoon!；晚上七点说 Good evening!。开口前先看钟表再选句子。",
+          "difficulty": 1,
+          "pitfall": "句子都背熟了却不看时间，下午还说 Good morning!"
+        },
+        {
+          "question": "补全对话：A: Hi, Helen! How are you?　B: ____________",
+          "solution": "I'm fine, thanks.（也可以再回问一句 How are you?）How are you? 问「你好吗」，用 I'm fine, thanks. 或 I'm OK. 作答。",
+          "difficulty": 1,
+          "pitfall": "答成 I'm Helen.——那是回答 What's your name? 的，答非所问。"
+        },
+        {
+          "question": "给自己选英文名：Cindy、Grace、Frank、Helen 这四个名字里，哪个是男孩名？",
+          "solution": "Frank 是男孩名；Cindy、Grace、Helen 是女孩名。选英文名要和自己的性别一致，首字母大写。",
+          "difficulty": 2,
+          "pitfall": "男女名记混，选英文名时闹笑话。"
+        }
+      ],
+      "mistakes": [
+        "问候不分时段：下午说 Good morning! 会让人发笑；Good night. 是睡前道别，不能当问候语用。",
+        "How are you? 答非所问：要答 I'm fine, thanks. 或 I'm OK.，答成 I'm Cindy. 就串到报名字去了。",
+        "英文名大小写与性别出错：Helen 不能写成 helen；男孩名（Bob、Dale、Frank、Eric）和女孩名（Grace、Helen、Cindy、Alice）别选反。",
+        "称呼后接错词：Mr/Ms/Miss 后面接姓，如 Ms. Brown、Ms. Miller；写成 Ms. Cindy 就错了。"
+      ],
+      "source": {
+        "unit": "Starter Unit 1",
+        "pages": [
+          1,
+          4
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Good afternoon, Eric!　—____________　A. Good afternoon, Frank!　B. Good morning, Frank!　C. I'm fine, thanks.",
+          "options": [
+            "Good afternoon, Frank!",
+            "Good morning, Frank!",
+            "I'm fine, thanks."
+          ],
+          "answer": "A",
+          "solution": "时段问候要对称回答：对方说 Good afternoon，就答 Good afternoon, Frank!；I'm fine, thanks. 是回答 How are you? 的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P3·时段问候对话（Good afternoon, Eric!／Good evening, Alice!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全问候问答链：A: Hi, Cindy! How are you?　B: ____________　A: I'm OK.",
+          "answer": "I'm fine, thanks. How are you?",
+          "solution": "中间一句先答 I'm fine, thanks.，再回问 How are you?，对方才能接 I'm OK.。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P3·问候问答链（Hi, Cindy! How are you? —I'm fine, thanks. How are you? —I'm OK.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "傍晚六点半在小区里遇到老师 Ms. Gao，最得体的问候是：　A. Good morning, Ms. Gao!　B. Good evening, Ms. Gao!　C. Good night, Ms. Gao!",
+          "options": [
+            "Good morning, Ms. Gao!",
+            "Good evening, Ms. Gao!",
+            "Good night, Ms. Gao!"
+          ],
+          "answer": "B",
+          "solution": "天黑后的问候用 Good evening, Ms. Gao!；Good night. 是睡前道别不是问候；女老师用 Ms＋姓称呼。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P3·时段问候（Good evening, Alice!）变式（Ms 称呼）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从男孩名（Bob、Dale、Frank、Eric）或女孩名（Grace、Helen、Cindy、Alice）里给自己选一个英文名，写一段三句的见面问候对话，明天用它和同学真实地打招呼一次。",
+          "answer": "开放作答，如：A: Good morning, Linda!　B: Good morning! How are you?　A: I'm fine, thanks.",
+          "solution": "选和自己性别一致的英文名，问候语和时段对上，问答链接得顺，就是一段合格的见面对话。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_03",
+      "summary": "自我介绍三件套：I'm Gina. 报名字，Nice to meet you! 拉近关系，What's your telephone number? 留下联系方式。",
+      "explanation": [
+        "认新朋友从报名字开始。开场对话就有三种样子：Good morning! I'm Cindy. —Hello, Cindy! I'm Dale.；Hi. My name's Gina. —I'm Jenny. Nice to meet you! —Nice to meet you, too.；What's your name? —Alan. 语法归纳把回答配成三种等价形式：What's your name? Alan./I'm Alan./My name's Alan.，问别人则用 What's his name? He's Eric./His name's Eric.，What's her name? She's Mary./Her name's Mary.，缩写有 what's = what is、name's = name is、I'm = I am、he's = he is、she's = she is。电话问答：What's your telephone number, Li Xin? It's 281-9176.，号码要用数字 zero、one、two…nine 一个一个念。姓名两分法：What's your first name? Jack. What's your last name? Smith.——Jack 是名，Smith 是姓；信息短文里 My name is Jenny Green. My phone number is 281-9176.，而 Zhang Mingming 里 Zhang 是 last name（中文姓在前）。学生卡要填三栏：First Name: Alice，Last Name: Green，Phone Number: 951-3397，就能写出 Her first name is…／Her last name is…／Her phone number is…。",
+        "认识新朋友，第一步报名字，第二步礼貌地表示高兴（Nice to meet you!），第三步留下联系方式。英语报名字有两条路：I'm Gina. 和 My name's Gina.，意思完全一样，可以换着说；what's 是 what is 的缩写，口语里几乎总用缩写形式，撇号一小撇不能丢。first name 和 last name 是英语姓名的两大件：名在前、姓在后，和中文正相反——这一条记住，填任何英文表格都不会乱。",
+        "自我介绍三步走：① 打招呼——Hi./Hello./Good morning!；② 报名字——I'm Gina. 或 My name's Gina.；③ 客套收尾——Nice to meet you!（对方要回 Nice to meet you, too.）。姓名两分法：把英文姓名切成两半，前半是 first name（名），后半是 last name（姓），如 Gina Smith；中文姓名顺序相反，Zhang Mingming 里 Zhang 是姓（last name）、Mingming 是名（first name）。电话问答两步：问 What's your (telephone) phone number?，答 It's 281-9176.，号码逐位念出来。",
+        "容易绊倒的地方：一是 first name 望文生义——它是「名」不是「姓」，Gina Smith 里 Smith 才是 last name；二是问男生用 What's his name?（He's…/His name's…），问女生用 What's her name?（She's…/Her name's…），his 和 her 别串；三是一般疑问句的否定回答要补信息——Is he Jack? No, he isn't. His name's Mike.，只说 No 不补名字就没把话说明白；四是 Nice to meet you! 的回答必须带 too，表示「我也很高兴认识你」。",
+        "信息卡是初中第一份「英文简历」：先会看 First Name／Last Name／Phone Number 三栏，再用 Her first name is… 这样的句子把卡片读成话；往后填英文表格、写自我介绍小短文，用的都是这一套。把数字 0 到 9 念熟，电话号码就能又快又准地报出来——这也是明天问同学联系方式时要用的真本领。"
+      ],
+      "methods": [
+        {
+          "name": "自我介绍三步走",
+          "steps": [
+            "打招呼：Hi./Hello./Good morning!",
+            "报名字：I'm Gina. 或 My name's Gina.（缩写 what's = what is，name's = name is）",
+            "客套收尾：Nice to meet you! —Nice to meet you, too."
+          ],
+          "tip": "先问好，再报名，meet you 记得加 too"
+        },
+        {
+          "name": "姓名两分法",
+          "steps": [
+            "英文姓名切两半：前半 first name＝名，后半 last name＝姓，如 Gina Smith",
+            "中文姓名顺序相反：Zhang Mingming 里 Zhang 是 last name（姓），Mingming 是 first name（名）",
+            "信息卡三栏对应填：First Name／Last Name／Phone Number"
+          ],
+          "tip": "first 是名前半截，last 是姓排最后；中式姓名倒着排，姓在前头别拆错"
+        },
+        {
+          "name": "电话号码问答",
+          "steps": [
+            "问：What's your telephone number?（口语也常说 phone number）",
+            "答：It's 281-9176.（It's 打头，号码一个数字一个数字念）",
+            "先把数字念熟：zero one two three four five six seven eight nine"
+          ],
+          "tip": "问 number 用 What，答句 It's 带头，号码逐位念"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What's your name? 下面三种回答 I'm Gina.／I'm fine.／My name Gina.，哪一种是正确的？",
+          "solution": "I'm Gina. 规范答法有三种：Alan.／I'm Alan.／My name's Alan.；I'm fine. 是回答 How are you? 的；My name Gina. 漏了 's，不成句。",
+          "difficulty": 1,
+          "pitfall": "缩写漏撇号，把 My name's 写成 My name。"
+        },
+        {
+          "question": "Gina Smith 和 Zhang Mingming 的 last name 分别是什么？",
+          "solution": "Gina Smith 的 last name 是 Smith（英文姓在后）；Zhang Mingming 的 last name 是 Zhang（中文姓在前）。",
+          "difficulty": 2,
+          "pitfall": "照英语习惯拆中文名，把 Zhang 当成 first name。"
+        },
+        {
+          "question": "学生卡上写着 First Name: Alice／Last Name: Green／Phone Number: 951-3397，用三句话把卡片读出来。",
+          "solution": "Her first name is Alice. Her last name is Green. Her phone number is 951-3397.",
+          "difficulty": 2,
+          "pitfall": "名和姓填反，把 Green 写进 first name。"
+        }
+      ],
+      "mistakes": [
+        "first name 当姓用：first name 是名，last name 才是姓；Gina Smith 里 Smith 是 last name。",
+        "Nice to meet you! 忘了 too：要回 Nice to meet you, too.，too 表示「我也很高兴认识你」。",
+        "his/her 串用：问男生 What's his name?，问女生 What's her name?；写出 His name's Mary. 就闹笑话了。",
+        "缩写漏撇号：what's、name's、I'm 的小撇号不能丢，My name Gina. 不成句。"
+      ],
+      "source": {
+        "unit": "Unit 1 My name's Gina.",
+        "pages": [
+          1,
+          6
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What's his name?　—____________　A. He's Eric.　B. She's Eric.　C. Her name's Eric.",
+          "options": [
+            "He's Eric.",
+            "She's Eric.",
+            "Her name's Eric."
+          ],
+          "answer": "A",
+          "solution": "问 his（他的）用 He's Eric. 或 His name's Eric. 回答；B、C 把性别人称用反了。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P3·询问他人姓名（What's his name? He's Eric./His name's Eric.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全电话问答：A: What's your telephone number, Li Xin?　B: ____________（号码是 281-9176）",
+          "answer": "It's 281-9176.",
+          "solution": "电话问答用 It's＋号码作答，号码逐位念：two eight one — nine one seven six。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P4·电话号码问答（What's your telephone number, Li Xin? It's 281-9176.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "新同学 Wang Lei 的英文信息卡上，Last Name 一栏应该填：　A. Lei　B. Wang　C. Wang Lei",
+          "options": [
+            "Lei",
+            "Wang",
+            "Wang Lei"
+          ],
+          "answer": "B",
+          "solution": "中文姓名姓在前：Wang 是姓，填 Last Name；Lei 是名，填 First Name。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P5·first name/last name 两分法（Zhang Mingming—Zhang 是 last name）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己设计一张英文信息卡（First Name／Last Name／Phone Number 三栏），再用三句话向同学介绍自己：一句报名字、一句说电话、一句用 Nice to meet you! 收尾。",
+          "answer": "开放作答，如：My name's Li Hua. My phone number is 627-8502. Nice to meet you!",
+          "solution": "信息卡三栏对应 first name／last name／phone number，介绍时套用 I'm…／My name's… 和 It's… 句型。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_04",
+      "summary": "Is this your pencil? 帮失物找主人：It's mine. 一词顶 my＋东西；this/that 用 it 答，these/those 用 they 答。",
+      "explanation": [
+        "这一部分教的是「确认物品归属」。核心对话三连问：Is this your pencil? —Yes, it is. It's mine.／Is that your schoolbag? —No, it isn't. It's his.／Are these your books? —No, they aren't. They're hers. 语法归纳把问答配成对：Is this your pencil? Yes, it is. It's mine./No, it isn't. It's hers.；Is this his green pen? Yes, it is./No, it isn't. The blue pen is his.；Are those her keys? Yes, they are./No, they aren't. They're mine.，缩写有 it's = it is、isn't = is not、aren't = are not。角色对话里出现「人名＋'s」：Are these your pencils? —No, they're Bob's.／What about this dictionary? —It's Helen's. And the green pen is hers, too.／And the eraser? Is that yours? —Yes, it is. 自测的代词表给出对应关系：I—me—my—mine、you—your—yours、he—him—his、she—her—hers。应用文是公告栏启事：Lost: I lost my school ID card. I must find it. Call me at 685-6034.（寻物）；Found: Some keys are in Classroom 7E. Are they yours?／Is this your watch? My phone number is 495-3539. Call me.（招领）；Found: A set of keys. Are these yours? Call Jenny at 284-5486.",
+        "「这是你的铅笔吗？」是在帮失物找主人，也是教室里天天用得上的英语。说「我的」有两个词：my 是「贴身保镖」，后面必须跟着东西（my pencil、your schoolbag）；mine 是「独行者」，一个人就能顶「我的铅笔」——It's mine. 就等于 It's my pencil.。回答还有一条铁律：问 this/that（单数）用 it 回答，问 these/those（复数）用 they 回答，be 动词和代词要跟着单复数走。",
+        "两套物主代词对照着记：形容词性 my、your、his、her——后面必须跟名词；名词性 mine、yours、his、hers——单独站岗。换算关系是 It's mine.＝It's my pencil.，The blue pen is his.＝The blue pen is his pen.。认领物品三步：① 问——单数用 Is this/that your＋物品单数?，复数用 Are these/those your＋物品复数?；② 肯定答——Yes, it is./Yes, they are. 再加 It's/They're mine.；③ 否定答——No, it isn't./No, they aren't. 再加 It's his./They're hers.，指出真正的主人。",
+        "易混点盘点：一是 mine、yours、hers 都带 s，只有 his 两套同形、不带 s；二是 It's my. 是病句——my 后面必须跟名词，光杆说「是我的」只能用 mine；三是用 it 答复 these/those——Are these your books? 要答 Yes, they are.／No, they aren't. They're hers.；四是 Bob's 不是 Bob is 的缩写——人名后加 's 表示「某人的」，they're Bob's＝它们是 Bob 的，和 mine、hers 一样都表示归属，只是 Bob's 用名字点明主人。",
+        "失物招领启事是初中遇到的第一篇英文应用文：标题（Lost 寻物／Found 招领）＋物品说明＋联系方式（Call me at 电话号码），三样缺一不可。把两套物主代词练熟，认领对话就能脱口而出；往后还会学到名词所有格的更多用法、房间物品的方位表达，而「形容词性跟名词、名词性独立站」这条规矩会一直用下去——现在记牢，以后省力。"
+      ],
+      "methods": [
+        {
+          "name": "两套物主代词对照",
+          "steps": [
+            "形容词性：my、your、his、her——后面必须跟东西：my pencil、your schoolbag、her keys",
+            "名词性：mine、yours、his、hers——单独站岗：It's mine.／They're hers.／Is that yours?",
+            "换算：It's mine.＝It's my pencil.；The blue pen is his.＝The blue pen is his pen."
+          ],
+          "tip": "带东西用 my，光杆用 mine；his 两套一个样，hers yours 记得加 s"
+        },
+        {
+          "name": "认领物品三步问答",
+          "steps": [
+            "单数问：Is this/that your pencil?；复数问：Are these/those your books?",
+            "肯定答：Yes, it is. It's mine.／Yes, they are. They're mine.",
+            "否定答：No, it isn't.／No, they aren't. 再加 It's his.／They're hers.，点出真正的主人"
+          ],
+          "tip": "this、that 问 it 答，these、those 问 they 答"
+        },
+        {
+          "name": "启事三要素",
+          "steps": [
+            "标题定性质：Lost 是寻物（我的丢了），Found 是招领（我捡到了）",
+            "写清物品：I lost my school ID card.／Some keys are in Classroom 7E.",
+            "留联系方式：Call me at 685-6034.，最后署上名字"
+          ],
+          "tip": "Lost 找、Found 还，物品电话加署名，缺一样就找不回来"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全对话：—Is this your pencil?　—Yes, it is. It's ______.（从 my、mine、me 里选一个填入）",
+          "solution": "填 mine。句尾没有名词，要用名词性物主代词 mine 独立收尾；my 后面必须跟东西，It's my. 是病句。",
+          "difficulty": 1,
+          "pitfall": "选 my——后面没有名词，形代不能光杆站。"
+        },
+        {
+          "question": "选一选填入：—Are these your books?　—No, they aren't. They're ______（her／hers）",
+          "solution": "填 hers。these 问、they 答；句尾没有名词，用名词性 hers（her 的后面要跟名词，如 her books）。",
+          "difficulty": 2,
+          "pitfall": "用 her——her 是形容词性，后面必须跟名词。"
+        },
+        {
+          "question": "角色对话里说 No, they're Bob's. 和 It's Helen's.——这里的 Bob's 和 Helen's 表示什么？",
+          "solution": "人名后加 's 表示「某人的」：they're Bob's＝它们是 Bob 的（铅笔），It's Helen's＝它是 Helen 的（词典）。和 mine、hers 一样都表示物品归属。",
+          "difficulty": 3,
+          "pitfall": "把 Bob's 当成 Bob is 的缩写，意思就全拧了。"
+        }
+      ],
+      "mistakes": [
+        "It's my. 不成句：my 是形容词性，后面必须跟名词；独立说「是我的」要用 It's mine.",
+        "用 it 答复 these/those：Are these your books? 要答 Yes, they are.／No, they aren't. They're hers.",
+        "hers、yours 漏 s：my→mine、your→yours、her→hers 都要变形，只有 his 两套同形不加 s。",
+        "Bob's 看不懂：人名＋'s 表示「某人的」，they're Bob's＝它们是 Bob 的，不是 Bob is。"
+      ],
+      "source": {
+        "unit": "Unit 2 Is this your pencil?",
+        "pages": [
+          13,
+          18
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Is that your schoolbag?　—No, it isn't. It's ______.　A. him　B. his　C. he",
+          "options": [
+            "him",
+            "his",
+            "he"
+          ],
+          "answer": "B",
+          "solution": "that 问 it 答；句尾没有名词，用名词性 his 独立收尾——his 的形容词性和名词性同形。he/him 是「他」，不是「他的」。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P13·认领物品对话（Is that your schoolbag? No, it isn't. It's his.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全答语：—Are those her keys?　—No, they aren't. They're ______.",
+          "answer": "mine",
+          "solution": "语法归纳原句：Are those her keys? No, they aren't. They're mine.；those 问 they 答，句尾没有名词，用名词性 mine。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P15·物主代词问答配对（Are those her keys? No, they aren't. They're mine.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "公告栏上有三则启事，哪一则能让失主顺利找回东西（写清了物品和联系方式）？　A. Lost: I lost my school ID card. Call Tom at 685-6034.　B. Lost: I lost my school ID card.　C. Call me at 495-3539.",
+          "options": [
+            "Lost: I lost my school ID card. Call Tom at 685-6034.",
+            "Lost: I lost my school ID card.",
+            "Call me at 495-3539."
+          ],
+          "answer": "A",
+          "solution": "启事三要素：Lost/Found 标题、物品说明、联系方式。B 缺电话号码，C 连丢了什么都不知道，失主都没法联系。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标七上 P17·寻物启事与招领（Lost: I lost my school ID card... Call me at 685-6034.／Is this your watch? My phone number is 495-3539.）变式（应用文格式判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你丢了一块手表（watch），仿照启事格式写一则寻物启事：Lost 开头，写明丢的物品、一句 I must find it. 和联系电话，最后别忘了署名。",
+          "answer": "开放作答，如：Lost: I lost my watch. I must find it. Call me at 555-0163. Thanks. Tom",
+          "solution": "应用文三要素齐全：Lost 标题＋物品说明＋联系方式，再加署名，一则规范的寻物启事就完成了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_05",
+      "summary": "介绍家人用 This is/These are：近 this 远 that、加 s 变复数、单 is 复 are，Who's she? 用 She's my sister. 答。",
+      "explanation": [
+        "指着全家福介绍家人，核心对话是：That's my family. Those are my parents. —Who's she? —She's my sister. Oh, and these are my brothers.／This is my sister. 语法归纳四句定调：This is my friend Jane.／That's my grandfather.／These are my brothers.／Those are my parents.；问答链：Who's she? She's my sister.／Who's he? He's my brother.／Who're they? They're my grandparents.，缩写有 that's = that is、who's = who is、who're = who are、they're = they are。角色对话演示介绍礼仪：Oh, Jane, this is my sister Kate. Kate, this is my friend Jane. —Nice to meet you, Jane. —Nice to meet you, too. —Are those your parents? —Yes, they are. —And who's he? —He's my brother, Paul. 家人词有：mother、father、parents、brothers、grandmother、grandfather、friend、grandparents、sister，口语称呼还有 grandpa、grandma、dad、mom，以及 uncle、aunt、cousin、son、daughter。短文范例这样开头：Hi, I'm Jenny. Here are two nice photos of my family. My grandfather and grandmother are in the first photo. These are my parents, Alan and Mary. In the next picture are my brothers, Bob and Eric. These two girls are my sister Cindy and my cousin Helen.",
+        "指着人说「这是／那是」，要用指示代词：近处的一个人用 this，远处的一个人用 that；人一多就变复数——these（这些，近）、those（那些，远）。四个词两两配对，be 动词跟着单复数走：this/that 配 is，these/those 配 are，和远近没关系、只看人数。介绍家人还有一条英语习惯：把一个人介绍给别人时，开场用 This is…，哪怕介绍的是自己的妈妈，也说 This is my mother.，这是英语的礼貌定式。",
+        "介绍句两选一：介绍一个人用 This/That is my…；介绍几个人用 These/Those are my…。问答链跟着人数走：问一个人 Who's she?／Who's he?，用 She's my…／He's my… 回答；问几个人 Who're they?，用 They're my… 回答。家人词成对记更快：father＋mother＝parents（父母），grandfather＋grandmother＝grandparents（祖父母/外祖父母），再加上 sister（姐妹）、brother（兄弟）、cousin（堂/表亲）、uncle（叔伯舅）、aunt（姑姨婶），一张家庭树就画全了。",
+        "易混点有四个：一是 These/Those 后面必须接 are、接复数名词——These is my brothers. 就错了；二是介绍他人开口就 She is my mother. 不合习惯——英语要用 This is my mother. 作介绍语；三是 parents 指父母两个人，parent 只指父或母一方，grandparents 同理指祖父母/外祖父母两位，单复数别混；四是 Who's 和 Who're 各管一头——Who's 问一个人、用 She's/He's 答，Who're 问几个人、用 They're 答，问句答句人数要对齐。另外 dad、mom、grandpa、grandma 是家人之间的亲昵称呼，father、mother、grandmother 更正式，作文里两种都可以用。",
+        "会介绍家人，就能写 My Family 小短文了：开头 Hi, I'm… 一句总起，中间用 This is…／These are… 把家里人逐个请出场，结尾再加一句自己的感受，一篇家庭介绍就成了形。指示代词下一段还要用来指物品、谈方位（Where's/Where are…?），「单数 is、复数 are」的搭配一路通用——把这套搭配练成本能，后面的语法关就轻松了一半。"
+      ],
+      "methods": [
+        {
+          "name": "四词两两配对",
+          "steps": [
+            "this（这，单数，近）↔ these（这些，复数，近）",
+            "that（那，单数，远）↔ those（那些，复数，远）",
+            "搭配定死：this/that＋is；these/those＋are，后面名词也分单复"
+          ],
+          "tip": "近 this 远 that，加 s 成复数；单 is 复 are，别配错"
+        },
+        {
+          "name": "家人介绍问答链",
+          "steps": [
+            "介绍一个人：This/That is my sister.",
+            "介绍几个人：These/Those are my parents.",
+            "问一个人：Who's she? —She's my sister.；问几个人：Who're they? —They're my grandparents."
+          ],
+          "tip": "一个 this 多个 these；who 问人 she/he 答，人多 they 一起上"
+        },
+        {
+          "name": "家庭树成对记",
+          "steps": [
+            "父母一对：father＋mother＝parents；祖辈一对：grandfather＋grandmother＝grandparents",
+            "平辈：sister、brother、cousin（堂/表亲）；长辈旁支：uncle（叔伯舅）、aunt（姑姨婶）",
+            "口语称呼换装：dad＝father，mom＝mother，grandpa＝grandfather，grandma＝grandmother"
+          ],
+          "tip": "成对记快一半：parents 两人，grandparents 两位老人家"
+        }
+      ],
+      "examples": [
+        {
+          "question": "看着远处的合影说「那些是我的父母」：That、Those、This 三个词里，哪一个填进 ______ are my parents. 的空里对？",
+          "solution": "Those。parents 是复数、合影在远处，用 Those；That 和 This 都是单数，后面要接 is。",
+          "difficulty": 1,
+          "pitfall": "只看远近忘了单复数，远处也选了 That。"
+        },
+        {
+          "question": "补全问答：—Who's she?　—______ my sister.（从 He's、They're、She's 里选一个填入）",
+          "solution": "填 She's。Who's she? 问一位女性，用 She's my sister. 回答；问句答句人数、性别都要对齐。",
+          "difficulty": 1,
+          "pitfall": "问她答他（He's），或用 They're 去答单数问句。"
+        },
+        {
+          "question": "用 is 或 are 填空：This ______ my brother, and those ______ my grandparents.",
+          "solution": "is；are。this 是单数，配 is；those 是复数，配 are。be 动词只看单复数，不看远近。",
+          "difficulty": 2,
+          "pitfall": "this 后面误用 are——单数指示代词永远配 is。"
+        }
+      ],
+      "mistakes": [
+        "These/Those is：复数指示代词必须配 are——These are my brothers. 才对。",
+        "介绍他人开口就 She is my mother.：英语习惯用 This is my mother. 作介绍语。",
+        "parents 当一个人：parents＝father＋mother 两个人；说其中一方要用 parent。",
+        "Who're they? 用 She's 答：多人问句要用 They're my grandparents. 回答，问句答句人数要一致。"
+      ],
+      "source": {
+        "unit": "Unit 3 This is my sister.",
+        "pages": [
+          7,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—______?　—They're my grandparents.　A. Who's she　B. Who're they　C. Who's he",
+          "options": [
+            "Who's she",
+            "Who're they",
+            "Who's he"
+          ],
+          "answer": "B",
+          "solution": "答句 They're 说的是两个人以上，问句要用 Who're they?；Who's 只问一个人。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P9·指示代词语法归纳（Who're they? They're my grandparents.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用方框词各造一句：this＋brother、those＋parents（都用 my）。",
+          "answer": "This is my brother.／Those are my parents.",
+          "solution": "单数 this 配 is，复数 those 配 are：This is my brother.／Those are my parents. 造句方框里还有 this/that/these/those 与 father、mother、grandparents 等词，都可以两两组合。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P9·三框选词造句（this that these those／father mother…brother sister／my your）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "向同学介绍照片：近处一个女孩是妹妹，远处两位是父母。正确的一句是：　A. This is my sister and those are my parents.　B. These is my sister and that are my parents.　C. This are my sister and those is my parents.",
+          "options": [
+            "This is my sister and those are my parents.",
+            "These is my sister and that are my parents.",
+            "This are my sister and those is my parents."
+          ],
+          "answer": "A",
+          "solution": "近处单数用 This is，远处复数用 Those are；B、C 的 be 动词搭配全错了。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P8·分角色对话（this is my sister Kate／Are those your parents? Yes, they are.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑一张全家福（或想象一张），写三句话：一句用 This is… 介绍近处的一个人，一句用 Those are… 介绍远处的几个人，再自问自答一句 Who's…?；有余力就把它扩成五句的 My Family 小短文。",
+          "answer": "开放作答，如：This is my father. Those are my grandparents. Who's she? She's my sister.",
+          "solution": "单数 This is、复数 Those are、问答链 Who's…? —She's/He's…，三句凑齐就是一篇家庭介绍的骨架。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_06",
+      "summary": "学会用 have 说“有什么”：Do you have a soccer ball? 回答 Yes, I do.／No, I don't.；他她它要变 has，提问改用 Does。",
+      "explanation": [
+        "这部分先认识球类和器材词：tennis ball、ping-pong bat、soccer ball、volleyball、basketball、baseball bat，然后练最核心的问答：A: Do you have a ping-pong bat? B: Yes, I do. A: Do you have a ping-pong ball? B: No, I don't.。语法总表接着把人称铺开：Does she have a tennis ball? Yes, she does./No, she doesn't. She has a baseball. Does he have a soccer ball? Yes, he does./No, he doesn't. He has two ping-pong bats. Do they have a basketball? Yes, they do./No, they don't. They have a volleyball.，并给出两条缩写说明：don't = do not，doesn't = does not。",
+        "have 的意思是“拥有”。想知道对方有没有足球，就抛出 Do you have…?，一来一回像打乒乓球。主语换成他、她、它或某个人的名字时，句子里所有“三单”身份的词都要换装：have 变 has，问句由 Does 开头，回答用 does／doesn't——一句话里三处要配套，牵一发而动全身。",
+        "三步走：第一步看主语，I、you、we、they 和复数人名归 do 家族，he、she、it 和单个人名归 does 家族；第二步搭问句，Do/Does ＋ 主语 ＋ have…?；第三步配回答，Yes, 主语＋do/does. 或 No, 主语＋don't/doesn't.。陈述句同样分工：I have a volleyball. / He has a soccer ball.。想约同伴一起活动，用 Let's ＋ 动词原形（课上的对话就是 Let's go! We're late!），对方觉得是好主意就回应 That sounds good.，夸活动有趣还能说 That sounds interesting.。",
+        "最容易被 do/does 绊倒：Does he have a soccer ball? 不能写成 Does he has…?——Does 已经替三单站了岗，后面的动词要用原形 have。回答也要跟问句配对：问 Does…答 Yes, he does.，不能冒出 Yes, he do.。否定句同理：I don't have 配 you/we/they，He doesn't have 配三单，don't 和 doesn't 别串门。",
+        "这套 do/does 问答是一般现在时的地基，后面的 like、want 等动词全部照此办理，学会一次终身受用。读懂校刊调查那样的小短文——谁有两个足球、谁只有乒乓球拍——就是在练“三单陈述＋but 转折”的组合，这也为接下来谈论喜好、描述他人的表达做好了铺垫。"
+      ],
+      "methods": [
+        {
+          "name": "主语分拣法",
+          "steps": [
+            "把常见主语分两堆：I、you、we、they 放 do 堆，he、she、it 和单个人名（Eric、Bob）放 does 堆",
+            "问句从对应堆里取助动词：Do you have…? / Does he have…?",
+            "回答用同一个词收尾：Yes, I do. / Yes, he does.",
+            "检查全句：Does 后面的动词必须是原形 have"
+          ],
+          "tip": "你我复数归 do 管，三单他她它找 does。"
+        },
+        {
+          "name": "have-has 配套法",
+          "steps": [
+            "主语是 I、you、we、they 时用 have：They have a volleyball.",
+            "主语是 he、she、it 或一个人名时变 has：He has two ping-pong bats.",
+            "否定句 don't/doesn't 后面 have 用原形：He doesn't have a baseball bat.",
+            "问答四句一组朗读，练到脱口而出"
+          ],
+          "tip": "三单 has，其余 have；doesn't 后面，have 素颜。"
+        },
+        {
+          "name": "提议与回应法",
+          "steps": [
+            "约同伴一起活动：Let's ＋ 动词原形，比如课上的 Let's go!",
+            "同伴同意就说 OK. 或 That sounds good.",
+            "评论活动用形容词：That sounds interesting.（boring、difficult、fun、relaxing 同理）",
+            "回应和评论都从 That sounds 开头，顺口又礼貌"
+          ],
+          "tip": "Let's 提议，That sounds 来捧场。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Does Bob have a soccer ball? —Yes, he ____. 横线上填 do 还是 does？",
+          "solution": "填 does。问句用 Does 开头，回答就用 does：Yes, he does.。问答配套，课上的问答示范正是这一组。",
+          "difficulty": 1,
+          "pitfall": "顺手写成 Yes, he do.——问句和答句必须用同一个助动词。"
+        },
+        {
+          "question": "用 have 或 has 填空：He ____ two ping-pong bats.",
+          "solution": "填 has。he 是第三人称单数，have 要变成 has；two 说明球有两个，但动词变形只看主语。",
+          "difficulty": 1,
+          "pitfall": "看见 two 就以为动词也要跟着变——变形只跟主语走。"
+        },
+        {
+          "question": "把 They have a volleyball. 改成一般疑问句，并作否定回答。",
+          "solution": "Do they have a volleyball? No, they don't.。they 是复数，用 Do 提问，否定回答用 don't。",
+          "difficulty": 2,
+          "pitfall": "忘了把 Do 提到句首，或否定回答丢了 don't。"
+        }
+      ],
+      "mistakes": [
+        "把 Does he have…? 写成 Does he has…?——Does 后面的动词要用原形 have。",
+        "问 Does、答 do：Yes, he does. 才配套，不能答 Yes, he do.。",
+        "have/has 不看主语乱用：he、she、it 和人名单数必须用 has。",
+        "don't 和 doesn't 串用：I don't have 对，He doesn't have 才对。"
+      ],
+      "source": {
+        "unit": "Unit 5 Do you have a soccer ball?",
+        "pages": [
+          25,
+          30
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "用 do 或 does 填空补全对话：—____ your friends have a basketball? —Yes, they ____.",
+          "options": [
+            "Do; do",
+            "Does; does",
+            "Do; does",
+            "Does; do"
+          ],
+          "answer": "A",
+          "solution": "your friends 是复数，问句用 Do，回答用 Yes, they do.。书上这组填空的后文还有 They have two basketballs.，正好印证。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P27·用 do 或 does 填空（Do your friends have a basketball? Yes, they do.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全问句：—____？—Yes, my mom has a baseball bat.",
+          "options": [
+            "Does your mom have a baseball bat",
+            "Do your mom have a baseball bat",
+            "Does your mom has a baseball bat",
+            "Is your mom have a baseball bat"
+          ],
+          "answer": "A",
+          "solution": "回答里有 has，说明主语 your mom 是三单：问句用 Does 开头，动词用原形 have。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P30·补全问句或答语（Yes, my mom has a baseball bat.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "校刊调查里 Gina 说：I have two soccer balls. 现在转述成 Gina ____ two soccer balls.，横线上填 have 还是 has？",
+          "options": [
+            "has",
+            "have",
+            "haves",
+            "is have"
+          ],
+          "answer": "A",
+          "solution": "主语从 I 换成 Gina（三单），have 要变成 has：Gina has two soccer balls.。句子意思不变，变的只是动词形式。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P29·校刊调查 Who has a soccer ball?（I have two soccer balls…）变式（主语换三单选 have/has）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 but 把两句话连成一句：I don't have a volleyball. I have a soccer ball.",
+          "answer": "I don't have a volleyball, but I have a soccer ball.",
+          "solution": "but 表转折，一正一反两句话用 but 连接，but 前加逗号。课上有现成的示范：I don't have a baseball, but I have a soccer ball.，照这个样子写自己的情况吧。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_07",
+      "summary": "名词分两家：能一颗颗数的要变复数（banana→bananas），milk、bread、rice 数不清就永远用原形。",
+      "explanation": [
+        "这部分一口气学十个食物词：hamburgers、tomatoes、oranges、ice-cream、salad、bananas、strawberries、pears、milk、bread。语法总表把名词分成三栏：可数名词——hamburgers、eggs、oranges、bananas、apples、pears、carrots、vegetables、tomatoes、strawberries；不可数名词——milk、bread、rice；两者皆可——food、fruit、ice-cream、salad、chicken。课末的自测还把复数变化排成三栏：＋s、＋es、y 变 i 再加 es。",
+        "可数名词像豆子，一颗一颗数得清，要表示“不止一个”就得穿上复数外衣；不可数名词像牛奶，倒进杯子里分不出一颗颗，永远保持原形。判断的第一反应就是问自己：这个东西能不能一个一个数？能数是可数，数不清是不可数。",
+        "三步判断：第一步，能加“两个、三个”的是可数名词；第二步，可数名词泛指一类或表示多个时要变复数，banana→bananas、egg→eggs、carrot→carrots；第三步，记特殊变形，tomato→tomatoes 加 es，strawberry→strawberries 变 y 为 i。some 是个百搭词，后面可数复数（some bananas）和不可数（some milk）都能接。",
+        "易混三组盯牢：tomato 复数加 es 不加 s；photo、radio 虽然也以 o 结尾，却只加 s——课末归类表里它俩和 tomato 分在不同栏；strawberry、family、dictionary 这类辅音字母＋y 结尾的，要变 y 为 i 再加 es。ice-cream、salad、chicken 两栏都能站：当作一类食物整体看是不可数，指一份、一只时又可数。",
+        "可数与不可数是英语名词的第一道分类，后面学 How many 和 How much 提问、学 some 和 any 的用法，全靠这道分类打底。买东西、安排一日三餐、讨论健康饮食，开口闭口都在用它；先把食物词的两栏分清，后面的句子才不会乱。"
+      ],
+      "methods": [
+        {
+          "name": "数一数分栏法",
+          "steps": [
+            "问自己：这个名词能不能一个一个数？",
+            "数得清（banana、egg、carrot、hamburger）归可数栏，多数场合用复数",
+            "数不清（milk、bread、rice）归不可数栏，永远用原形",
+            "两栏都能站的（ice-cream、salad、chicken、fruit）先按整体记，遇到“一份、一只”再当可数"
+          ],
+          "tip": "能数的穿复数，数不清的原样留。"
+        },
+        {
+          "name": "复数变形三招",
+          "steps": [
+            "第一招直接加 s：banana→bananas、hamburger→hamburgers、photo→photos、radio→radios",
+            "第二招加 es：tomato→tomatoes",
+            "第三招辅音字母＋y 结尾，变 y 为 i 加 es：strawberry→strawberries、family→families、dictionary→dictionaries",
+            "写完回读一遍，检查 y 的前面是不是辅音字母"
+          ],
+          "tip": "tomato 加 es 要记牢，photo radio 只加 s。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "tomato 的复数形式怎么写？",
+          "solution": "tomatoes。tomato 以 o 结尾，要加 es，不直接加 s。",
+          "difficulty": 1,
+          "pitfall": "照一般习惯写成 tomatos。"
+        },
+        {
+          "question": "banana、milk、egg、carrot 四个词中，哪个是不可数名词？",
+          "solution": "milk。牛奶数不清一颗颗，属于不可数名词，保持原形；banana、egg、carrot 都能数，是可数名词。",
+          "difficulty": 1,
+          "pitfall": "以为牛奶装在瓶里能一瓶瓶数就当可数——名词本身指的是“奶”。"
+        },
+        {
+          "question": "strawberry 的复数怎么变？",
+          "solution": "strawberries。辅音字母＋y 结尾，变 y 为 i 再加 es。",
+          "difficulty": 2,
+          "pitfall": "直接加 s 写成 strawberrys。"
+        }
+      ],
+      "mistakes": [
+        "tomato 的复数写成 tomatos——要加 es：tomatoes。",
+        "给 milk、bread、rice 加复数——不可数名词没有复数形式。",
+        "strawberry、family 直接加 s——辅音字母＋y 结尾要变 y 为 i 加 es。",
+        "以为 some 后面只能接复数可数名词——some milk、some bread 同样正确。"
+      ],
+      "source": {
+        "unit": "Unit 6 Do you like bananas?",
+        "pages": [
+          31,
+          36
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一组单词变复数时都直接加 -s？",
+          "options": [
+            "tomato、banana、egg",
+            "hamburger、photo、radio",
+            "table、key、tomato",
+            "banana、carrot、strawberry"
+          ],
+          "answer": "B",
+          "solution": "hamburger、photo、radio 都直接加 s：hamburgers、photos、radios；tomato 要加 es，strawberry 要变 y 为 i 加 es。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P36·复数归类（＋s / ＋es / y→i＋es 分栏）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪个词属于不可数名词？",
+          "options": [
+            "bread",
+            "carrot",
+            "pear",
+            "hamburger"
+          ],
+          "answer": "A",
+          "solution": "语法分类里 milk、bread、rice 列在不可数一栏；carrot、pear、hamburger 都能一颗颗数，是可数名词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P33·Grammar Focus 名词三栏分类（milk、bread、rice 不可数）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "生日晚餐的对话里大家商量买 some fruit。仿照它补全句子：Let's take some ____ to the picnic.（带些牛奶去野餐）",
+          "options": [
+            "milk",
+            "milks",
+            "breads",
+            "rices"
+          ],
+          "answer": "A",
+          "solution": "milk 不可数，some 后面用原形：some milk。原对话的 some fruit 同理，fruit 在这里也按不可数用；milks、breads、rices 都是画蛇添足。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P32·生日晚餐对话（…and some fruit）变式（some 接不可数名词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把 carrot、milk、rice、tomato 分成可数与不可数两栏，并把可数名词写成复数。",
+          "answer": "可数：carrots、tomatoes；不可数：milk、rice",
+          "solution": "carrot、tomato 能数，复数分别加 s 和 es：carrots、tomatoes；milk、rice 数不清，保持原形。分清了栏，后面学 How many 和 How much 提问就不会再错。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_08",
+      "summary": "喜欢用 like 说：I like bananas. 不喜欢加 don't；他她它要用 likes 和 doesn't，三单处处换装。",
+      "explanation": [
+        "问答先走三组：Do you like oranges? Yes, I do. / Do you like bananas? Yes, I do. / Do you like salad? No, I don't.。语法总表给出六个陈述句样板：I like oranges. I don't like bananas. We like rice. We don't like hamburgers. He likes ice-cream. He doesn't like vegetables.，再加三组问答：Do they like pears? Yes, they do./No, they don't. Does she like tomatoes? Yes, she does./No, she doesn't.。括号选词练习里有一句样板：She (like/likes) bread, but she (doesn't/don't) like salad.。三餐搭配在采访里出现：What do you like for breakfast?",
+        "like 就是“喜欢”。说自己喜欢什么，I like ＋ 食物；不喜欢就加 don't。麻烦出在他、她、它身上：三单主语不仅要把 like 变成 likes，否定和提问的助动词也要换成 doesn't／does——三单的人，全句都要跟着换装，一处都别落下。",
+        "四步成句：第一步认主语，I、you、we、they 配 like，he、she、it 和人名单数配 likes；第二步变否定，don't/doesn't ＋ like，动词还原成原形；第三步变疑问，Do/Does 提到句首，回答用同一个助动词；第四步谈三餐，like ＋ 食物 ＋ for breakfast/lunch/dinner，比如 I like chicken for dinner.。",
+        "三单否定是双重陷阱：She doesn't like salad. 里 like 不能再带 s，写成 She doesn't likes 就错了——doesn't 已经扛下了三单任务。但转折句里前后各看各的主语：He likes bananas, but he doesn't like oranges.，likes 和 doesn't 并存不矛盾，因为分属两个分句。",
+        "like 的句型和 have 是同一套规则的两兄弟：do/does 一套走天下，以后学 want、play 等动词全部照搬。谈饮食喜好也是写作起步——用五句话写同伴的一日三餐，练的正是“肯定＋否定＋三单”的组合拳，句句都有用武之地。"
+      ],
+      "methods": [
+        {
+          "name": "三单 likes 门禁法",
+          "steps": [
+            "出句前先看主语：I、you、we、they 放行 like；he、she、it 和人名单数换成 likes",
+            "否定句 doesn't 开门后，like 一律用原形",
+            "疑问句 Do/Does 提前，回答 Yes, … does. / No, … don't.",
+            "读一遍检查：助动词与动词是否配套"
+          ],
+          "tip": "三单 likes，doesn't 后面 like 还原。"
+        },
+        {
+          "name": "三餐搭配法",
+          "steps": [
+            "问喜好带上餐次：What do you like for breakfast?",
+            "回答句尾呼应：I like eggs and milk for breakfast.",
+            "午餐用 for lunch，晚餐用 for dinner",
+            "换主语练三单：What does she like for lunch?"
+          ],
+          "tip": "like 食物 for 三餐，一天三顿都能谈。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：He ____ bananas.（like / likes）",
+          "solution": "填 likes。he 是三单，like 要加 s。",
+          "difficulty": 1,
+          "pitfall": "只顾读着顺口，漏看了主语是三单。"
+        },
+        {
+          "question": "选词填空：She ____ like salad.（don't / doesn't）",
+          "solution": "填 doesn't。she 是三单，否定用 doesn't，后面的 like 保持原形。",
+          "difficulty": 1,
+          "pitfall": "填了 doesn't 又把 like 写成 likes——三单变了两次。"
+        },
+        {
+          "question": "把 They like pears. 改成否定句。",
+          "solution": "They don't like pears.。they 是复数，否定加 don't，like 不变。",
+          "difficulty": 2,
+          "pitfall": "漏掉 don't，或者顺手给 like 加了 s。"
+        }
+      ],
+      "mistakes": [
+        "He like bananas. 漏掉三单 s——he、she、it 后面要用 likes。",
+        "She doesn't likes salad.——doesn't 后面的动词要用原形 like。",
+        "Does she…? 的回答写成 Yes, she do.——问 does 答 does。",
+        "He don't like vegetables.——三单的否定要用 doesn't。"
+      ],
+      "source": {
+        "unit": "Unit 6 Do you like bananas?",
+        "pages": [
+          31,
+          36
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选出括号里正确的单词：She ____ bread, but she ____ like salad.",
+          "options": [
+            "likes; doesn't",
+            "like; don't",
+            "likes; don't",
+            "like; doesn't"
+          ],
+          "answer": "A",
+          "solution": "she 是三单：肯定用 likes，否定用 doesn't；but 转折句前后各看各的主语，互不干扰。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P33·括号内选词填空（She (like/likes) bread, but she (doesn't/don't) like salad.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Do you like salad? —____",
+          "options": [
+            "No, I don't.",
+            "No, I'm not.",
+            "Yes, I like.",
+            "No, she doesn't."
+          ],
+          "answer": "A",
+          "solution": "Do 开头的问句用 do／don't 回答：喜欢说 Yes, I do.，不喜欢说 No, I don't.。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P31·食物喜好问答（Do you like salad? No, I don't.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "对话里说 John likes hamburgers.。把它改成否定句，横线上填所缺部分：John ____ ____ hamburgers.",
+          "answer": "doesn't like",
+          "solution": "John 是三单，否定用 doesn't，like 还原成原形：John doesn't like hamburgers.。同一段对话里还有 I don't like salad. 可以对照——主语一换，助动词也换。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P32·生日晚餐对话（John likes hamburgers）变式（肯定句改否定句）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 like…for breakfast 的结构，完整回答：What do you like for breakfast?",
+          "answer": "示例：I like eggs and milk for breakfast.",
+          "solution": "句式：like ＋ 食物 ＋ for breakfast；可数食物用复数（eggs），不可数用原形（milk）。采访排球明星的那段对话就是用 What do you like for breakfast? 开场的，换成自己的真实喜好答一答吧。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_09",
+      "summary": "问价格用 How much：一件说 It's seven dollars.，成双成对说 They're two dollars.，数字 ten 到 thirty-one 帮你报价格。",
+      "explanation": [
+        "先认十件衣物：socks、T-shirt、shorts、sweater、bag、hat、trousers、shoes、jacket、skirt。价格问答两条主干：How much is this T-shirt? It's seven dollars. / How much are these socks? They're two dollars.。语法总表把远近、单复铺满五行：How much is the hat? It's five dollars. How much is that brown sweater? It's eight dollars. How much are those black trousers? They're nine dollars.。描述词学四个：long、big、small、short；颜色有 yellow、green、purple、blue、brown、red、white、black。数字从 ten 一直学到 thirty-one。",
+        "How much 问的是“多少钱”。答句先看东西是一件还是成双成对：一件用 It's…，socks、shoes、trousers、shorts 这类成双的用 They're…。商店对话还有一条完整流程：Can I help you? 主动搭话，I need a sweater for school. 说出需求，How much is it? 问价，I'll take it. 决定买，Here you are. 递货，Thank you. 道谢——一套走完，礼貌满分。",
+        "问价三步：第一步判断单复数——socks、shoes、trousers、shorts 永远以复数身份出现；第二步单数用 How much is this/that…?，复数用 How much are these/those…?；第三步回答 It's ＋ 价格 ＋ dollars. 或 They're ＋ 价格 ＋ dollars.。要描述得更具体，就把颜色、长短大小放在名词前：those yellow socks、that brown sweater。",
+        "数字拼写有规律也有陷阱：13 到 19 以 teen 结尾（thirteen…nineteen），20、30 这类整十以 ty 结尾（twenty、thirty），21 到 29 用连字符把整十和个位连起来：twenty-one、twenty-five；nineteen 别误写成 ninteen。金额那头也要留心：dollar 表示复数金额要加 s——seven dollars。",
+        "价格问答是数字家族的第一站：把 ten 到 thirty-one 读熟，后面生日、日期表达全都离不开数字。Can I help you? 和 Here you are. 还是永久通用的礼貌模板，买东西、借东西、递东西都用得上——练的是英语，也是礼貌。"
+      ],
+      "methods": [
+        {
+          "name": "单复配答法",
+          "steps": [
+            "先判断商品：一件（T-shirt、sweater、bag、hat）还是成双（socks、shoes、trousers、shorts）",
+            "单数问 How much is this/that…?，复数问 How much are these/those…?",
+            "回答跟着配：It's… / They're…",
+            "把价签上的数字大声读一遍，练数字反应"
+          ],
+          "tip": "裤袜鞋成双，is 让位给 are。"
+        },
+        {
+          "name": "数字分段记法",
+          "steps": [
+            "10 到 12 三个词单独背：ten、eleven、twelve",
+            "13 到 19 全带 teen：thirteen、fourteen…nineteen",
+            "整十带 ty：twenty、thirty",
+            "21 到 29 整十＋连字符＋个位：twenty-one…twenty-nine；30、31 是 thirty、thirty-one"
+          ],
+          "tip": "teen 是十几，ty 是几十，twenty-one 手拉手。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：—How much ____ these socks? —They're two dollars.（is / are）",
+          "solution": "填 are。socks 是复数，问句用 are，回答用 They're。",
+          "difficulty": 1,
+          "pitfall": "只看 How much 就顺手选 is。"
+        },
+        {
+          "question": "用完整句子回答：—How much is this T-shirt? —____（七美元）",
+          "solution": "It's seven dollars.。单数物品用 It's ＋ 价格 ＋ dollars.。",
+          "difficulty": 1,
+          "pitfall": "答成 They're…——单数物品要用 It。"
+        },
+        {
+          "question": "用英语说出 25。",
+          "solution": "twenty-five。整十 twenty 加连字符再加 five。",
+          "difficulty": 2,
+          "pitfall": "漏写连字符，或把十几和几十搞混。"
+        }
+      ],
+      "mistakes": [
+        "How much are this T-shirt?——单数物品要用 is。",
+        "How much is these socks?——socks、shoes、trousers、shorts 永远复数，要用 are。",
+        "复数问句用 It's 回答——应该用 They're。",
+        "金额忘了加 s：seven dollars 不能写成 seven dollar。"
+      ],
+      "source": {
+        "unit": "Unit 7 How much are these socks?",
+        "pages": [
+          37,
+          42
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How much are these socks? —____",
+          "options": [
+            "They're two dollars.",
+            "It's two dollars.",
+            "They're two dollar.",
+            "It's seven dollars."
+          ],
+          "answer": "A",
+          "solution": "socks 是复数，问句用 are，回答用 They're ＋ 数字 ＋ dollars.，金额别忘了加 s。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P37·价格问答（How much is this T-shirt? It's seven dollars. / How much are these socks? They're two dollars.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—How much is that brown sweater? —____",
+          "options": [
+            "They're eight dollars.",
+            "It's eight dollars.",
+            "It's nine dollars.",
+            "It's eight dollar."
+          ],
+          "answer": "B",
+          "solution": "that brown sweater 是单数，问句用 is，回答用 It's eight dollars.——单数配 It's，金额加 s。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P39·Grammar Focus 价格问答（How much is that brown sweater? It's eight dollars.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "价签上写着 twenty-eight dollars，对应的数字是哪一个？",
+          "options": [
+            "28",
+            "82",
+            "18",
+            "38"
+          ],
+          "answer": "A",
+          "solution": "twenty-eight ＝ 28；-teen 结尾是十几（18 是 eighteen），-ty 结尾是整十，28 是 twenty-eight。听读数字时抓住这个尾巴就不会错。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P40·数字 ten–thirty-one 听读圈词变式（twenty-eight 与数字配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己的“小店”写两句广告，各推销一件商品，用句式 We have … for only …（价格用英语数字词）。",
+          "answer": "示例：We have green sweaters for only fifteen dollars. We have black shoes for only twenty-eight dollars.",
+          "solution": "句式来自商店广告：We have ＋ 衣物 ＋ for only ＋ 价格。十几的词以 -teen 结尾（fifteen），几十的词以 -ty 结尾（twenty、thirty），几十几用连字符（twenty-eight）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_10",
+      "summary": "十二个月份词加序数词拼出日期：When is your birthday? My birthday is on May 2nd.；问年龄说 How old are you?",
+      "explanation": [
+        "先学十二个月份词，按顺序排开：January、February、March、April、May、June、July、August、September、October、November、December。再学序数词 1st 到 31st，全表还有完整拼法：first、second、third、fourth、fifth…twentieth、twenty-first、twenty-second、twenty-third…thirtieth、thirty-first。问答主干：When is your birthday, Linda? My birthday is on May 2nd.。语法总表铺开全家福：When is his birthday? His birthday is on January 17th. When is her birthday? It's in August. When is Alice's birthday? Her birthday is on September 5th.。年龄问答在对话里：So, how old are you, Alan? I'm twelve. How old are you? I'm thirteen.。活动词有 English test、party、school trip、basketball game。",
+        "日期像门牌：月份是小区名，序数词是门牌号。序数词表示“第几”，写在月份后面就是日期；问句 When is your birthday? 里的 when 是“什么时候”，答句要交代月份和日子。还有个隐藏规则：只说月份时用 in，说到具体哪天就得用 on。",
+        "说日期四步：第一步，月份词首字母永远大写；第二步，“几号”用序数词缩写——1st、2nd、3rd、4th、21st、22nd、23rd；第三步，月份＋日期前用 on：on May 2nd、on April 21st；第四步，只提月份用 in：in August。问年龄用 How old are you?，回答 I'm ＋ 数字.。",
+        "序数词里有几个“钉子户”必须死记：one→first、two→second、three→third，前三个不能套公式；five→fifth、nine→ninth、twelve→twelfth 各有小变形。20 以上的序数词尾巴跟个位走：twenty-first、twenty-second、twenty-third。介词最考眼力：It's in August. 对，It's on August. 错——on 后面必须跟着具体日期。",
+        "日期系统马上要上岗：写活动通知、生日邀请便条，句句都是 on ＋ 月份 ＋ 日期；party、school trip、basketball game 这些活动词也会反复出现在日程表里。先把十二个月按顺序背到滚瓜烂熟，像唱歌一样顺口，再配上 How old 谈年龄，你的个人小档案就齐了。"
+      ],
+      "methods": [
+        {
+          "name": "月份四季串记法",
+          "steps": [
+            "按 1 到 12 的顺序朗读十二个月份词，读出节奏感",
+            "按四季打包记忆：春季 March、April、May；夏季 June、July、August；秋季 September、October、November；冬季 December、January、February",
+            "每天用英语写一遍当天的月份",
+            "打乱顺序抽查：April 的下一个月是谁？"
+          ],
+          "tip": "十二个月分四季，一季三月手拉手。"
+        },
+        {
+          "name": "序数词变身法",
+          "steps": [
+            "大多数基数词直接加 th：four→fourth、six→sixth、seven→seventh",
+            "钉子户单独背：one→first、two→second、three→third",
+            "小变形各记一笔：five→fifth、nine→ninth、eight→eighth、twelve→twelfth",
+            "日期缩写＝数字＋尾巴：May 2nd、April 21st、August 22nd"
+          ],
+          "tip": "first second third 是头三户，单独伺候。"
+        },
+        {
+          "name": "in-on 择介法",
+          "steps": [
+            "只说月份，用 in：in August、in December",
+            "月份加具体日期，用 on：on May 2nd、on January 17th",
+            "回答前先看对方问的是月份还是日期",
+            "写完检查介词：on 后面必须有日期"
+          ],
+          "tip": "光说月份用 in，连日带月要 on。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—When is your birthday, Linda? —____ 该怎么回答？",
+          "solution": "My birthday is on May 2nd.。月份＋日期前要用 on。",
+          "difficulty": 1,
+          "pitfall": "漏掉 on，说成 My birthday is May 2nd.。"
+        },
+        {
+          "question": "把 January、April、May、July 按一年中的先后顺序排列。",
+          "solution": "January → April → May → July。April 是第 4 个月，May 第 5 个，July 第 7 个。",
+          "difficulty": 2,
+          "pitfall": "把 April 和 August 弄混——August 排在第 8 位。"
+        },
+        {
+          "question": "nine 的序数词怎么写？",
+          "solution": "ninth。nine 去掉 e 再加 th。",
+          "difficulty": 2,
+          "pitfall": "想当然写成 nineth。"
+        }
+      ],
+      "mistakes": [
+        "月份词首字母小写——September、October 等月份永远大写开头。",
+        "1st、2nd、3rd 写成 1th、2th、3th——前三个序数词的尾巴特殊。",
+        "具体日期前误用 in：说到几月几号要用 on（on May 2nd），只说月份才用 in（in August）。",
+        "fifth、ninth 误拼成 fiveth、nineth。"
+      ],
+      "source": {
+        "unit": "Unit 8 When is your birthday?",
+        "pages": [
+          43,
+          48
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面四个月份中，在一年里排最前的是哪一个？",
+          "options": [
+            "March",
+            "January",
+            "June",
+            "April"
+          ],
+          "answer": "B",
+          "solution": "January 是一年的第一个月；March 第 3、April 第 4、June 第 6。月份表要按 1 到 12 的顺序记牢。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P43·MONTHS 月份表（January–December 十二个月）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—When is Alice's birthday? —____",
+          "options": [
+            "Her birthday is on September 5th.",
+            "His birthday is on September 5th.",
+            "It's in September 5th.",
+            "Her birthday is at September 5th."
+          ],
+          "answer": "A",
+          "solution": "Alice 是女生，用 Her；月份＋日期前用 on，不用 in 或 at。语法表里的问答正是这一组。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P45·Grammar Focus 问答（When is Alice's birthday? Her birthday is on September 5th.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "生日配对表里 Frank 的生日是八月二十二日，写成英语日期正确的是：",
+          "options": [
+            "August 22nd",
+            "August 22th",
+            "August 22st",
+            "August 22rd"
+          ],
+          "answer": "A",
+          "solution": "22 的序数词是 twenty-second，缩写 22nd；th、st、rd 的尾巴要跟个位数走——2 结尾用 nd。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P44·序数词 1st–31st 与生日配对（Frank August 22nd）变式（日期缩写辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "学校的通知说 School Day 在 10 月 22 日。用一句完整的英语说出这个日期（用 on ＋ 月份 ＋ 序数词）。",
+          "answer": "It's on October 22nd.",
+          "solution": "月份 October 首字母大写，日期用序数词缩写 22nd，具体某天前用 on。学会这个句式，写活动通知、生日邀请便条都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_11",
+      "summary": "用 What's your favorite subject? 问最爱学科，用 Why…? Because… 说出理由，评价词 fun、interesting 来帮忙。",
+      "explanation": [
+        "书上这部分先认八个学科词：P.E.（体育）、art（美术）、science（科学）、music（音乐）、math（数学）、Chinese（语文）、geography（地理）、history（历史），再学核心问答：—What's your favorite subject? —My favorite subject is science.。接着学说理由：—Why do you like P.E.? —Because it's fun.；问老师：—Who is your music teacher? —My music teacher is Ms. Xie.；问上课日：—When is your geography class? —It's on Monday and Friday.。评价词五个一起记：fun（有趣）、interesting（有意思）、boring（无聊）、difficult（难）、relaxing（令人放松）。书上的角色对话里还有一句很地道的表达：I like Monday because I have P.E. and history. They're my favorite subjects.",
+        "favorite 意思是「最喜爱的」——你心里排第一的那门课。because 就是「因为」，它像一座小桥：前面是问原因的 Why（为什么），后面接的就是你的理由。生活里也一样：问你为什么喜欢星期五，可以说 Because the next day is Saturday!（因为第二天是星期六！）——书上的 Frank 就是这么回答的。",
+        "问答链三步走：第一步用 What's your favorite subject? 问出对方最爱的学科；第二步追问 Why do you like…?，听对方用 Because it's… 给理由；第三步再问 Who is your … teacher? 认识老师。回答时把学科词、评价词往句框里换：My favorite subject is art. / Because it's relaxing. 问别人时换成 What's his/her favorite subject? — His/Her favorite subject is Chinese/art.",
+        "三个易混点：一是 why 和 because 是一对——why 出现在问句里，because 出现在答句里，别拿 because 去回答 What 或 Who 的问句；二是问第三个人要说 Why does Bob like history?，用 does，后面的 like 不加 s，回答 Because it's interesting.；三是评价词别张冠李戴：boring 是「无聊」，relaxing 是「放松」，difficult 是「难」，夸错学科会闹笑话。",
+        "会说「因为」是从背句子走向表达观点的第一步：以后写作文、做口头报告，观点后面都要跟一句 because 给理由。把评价词和学科词对上号，再对照课程表说说哪天的课你最喜欢、为什么；一次采访三个同学，把 What、Why、Who 三个问题各问一遍，你的「理由库」就攒起来了。"
+      ],
+      "methods": [
+        {
+          "name": "问答链三步法",
+          "steps": [
+            "第一步：用 What's your favorite subject? 问出最爱的学科",
+            "第二步：用 Why do you like…? 追问原因",
+            "第三步：用 Who is your … teacher? 再问问老师是谁",
+            "回答句套框换词：My favorite subject is… / Because it's…"
+          ],
+          "tip": "what 问什么、why 问为啥、who 问何人，because 专门接 why 的球。"
+        },
+        {
+          "name": "评价词配对面",
+          "steps": [
+            "左右两栏写词：左边学科词，右边感受词",
+            "连线朗读：P.E.—fun、history—interesting",
+            "再玩反义词配对：difficult—easy、busy—free、interesting—boring",
+            "每天换一门课，用 Because it's… 说一句新理由"
+          ],
+          "tip": "好词坏词配成对，说理由时张口就来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—____ do you like music? —Because it's relaxing. 横线上应该填 What、Who 还是 Why？",
+          "solution": "填 Why。答句用 Because 给理由，问句就要用 Why（为什么）来问原因。",
+          "difficulty": 1,
+          "pitfall": "看到横线就随手填 What。要先看答句：Because 说明问的是原因。"
+        },
+        {
+          "question": "Bob 觉得历史有意思，Frank 觉得无聊。用 Bob 的口吻回答：—Why do you like history?",
+          "solution": "Because it's interesting.（因为它有意思。）Frank 说的是 It's boring.，Bob 的想法相反，评价词换成 interesting。",
+          "difficulty": 2,
+          "pitfall": "顺着 Frank 的口气答成 Because it's boring.。答题前先看清是谁在回答。"
+        },
+        {
+          "question": "把「Bob 为什么喜欢历史？」变成英文问句，注意第三人称的用法。",
+          "solution": "Why does Bob like history? 主语 Bob 是第三人称单数，疑问词后要用 does，动词 like 保持原形。",
+          "difficulty": 2,
+          "pitfall": "写成 Why does Bob likes history?——does 后面的动词不能再加 s。"
+        }
+      ],
+      "mistakes": [
+        "用 Because it's fun. 去回答 What's your favorite subject?。问学科要答学科名：My favorite subject is…，Because 是回答 Why 的。",
+        "三单问句漏掉 does：Why Bob likes history? 是错的，要说 Why does Bob like history?",
+        "favorite 拼写漏字母，写成 favrite。它由 favor（喜爱）加 ite 组成，按音节慢慢拼不容易错。",
+        "评价词意思记反：以为 relaxing 是「累」。relaxing 是「令人放松的」，difficult 才是「难的、费劲的」。"
+      ],
+      "source": {
+        "unit": "Unit 9 My favorite subject is science.",
+        "pages": [
+          49,
+          52
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "课间同学问你：—What's your favorite subject? 你最喜欢科学课，应该回答：",
+          "options": [
+            "Because it's fun.",
+            "My favorite subject is science.",
+            "My favorite day is Friday.",
+            "Who is your science teacher?"
+          ],
+          "answer": "B",
+          "solution": "问「你最喜欢的学科是什么」，答句给出学科名：My favorite subject is science.；Because 是回答 Why 的，放在这里答非所问。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P49·核心对话（What's your favorite subject? My favorite subject is science.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用 what、who 或 why 补全对话：—____ likes math? —Eric does.",
+          "options": [
+            "What",
+            "Who",
+            "Why",
+            "Where"
+          ],
+          "answer": "B",
+          "solution": "答句 Eric does. 回答的是「谁」喜欢数学，问句要用 Who（谁）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P51·疑问词选词填空（What / Who / Why 补全对话）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一组评价词互为反义词？",
+          "options": [
+            "difficult — easy",
+            "fun — difficult",
+            "interesting — fun",
+            "relaxing — free"
+          ],
+          "answer": "A",
+          "solution": "difficult（难）和 easy（容易）意思相反；fun 和 interesting 都是夸「有趣」，relaxing 和 free 也都不表示相反。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P52·形容词反义词配对变式（boring、difficult、busy、easy、interesting、fun、free、cool 连线改选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把下面的句子排成一段通顺的问答：①What's your favorite subject? ②Because it's fun. ③Why do you like it? ④My favorite subject is music.",
+          "options": [
+            "①④③②",
+            "①③④②",
+            "④①③②",
+            "①④②③"
+          ],
+          "answer": "A",
+          "solution": "先用 What 问出学科，答句紧跟其后；再用 Why 追问，Because 答句收尾。学完可以照这个链条去采访三个同学，做成小调查表，再把结果讲给同组听。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_12",
+      "summary": "听力四步走：听前读题划关键词、预测答案类型，听时抓词速记，听后复查，稳稳拿分。",
+      "explanation": [
+        "书上的听力任务有好几种问法：Listen and number the conversations [1–3].（给对话编号）、Listen and circle the names you hear.（圈出听到的名字：Eric、Tom、Alice、Bob、Mike、Jack、Mary、Ms. Miller）、Listen and write the telephone number.（听对话写出电话号码 281-9176）、Listen and check the things you hear.（勾出听到的物品，备选词有 pencil、erasers、ruler、pencil box、books）、Listen and put the conversation in order.（给打乱的句子编号组成对话）。指令不同，要抓的东西也不同：名字、数字、物品、顺序。",
+        "听力像接球：球飞过来之前，你得先站好位。题目和选项就是「来球路线预告」——读一遍题，就知道该盯人名、盯数字还是盯物品。录音不等人，一个词卡住就追不上了，所以会预读、会预测，比一味硬听更重要。",
+        "四步法：第一步，趁读题时间快速读完题目和选项，划出关键词（疑问词、备选词）；第二步，预测答案类型——问人名就盯名字，问号码就盯数字，问地点就留意 library、classroom 这样的词；第三步，播放时边听边记，人名记首字母、号码直接写数字、物品写前几个字母；第四步，录音结束后回头复查，看有没有漏填、拼写对不对。有些任务还会给第二次机会（Listen again），专门用来补漏。",
+        "两个容易栽跟头的地方：一是数字辨音——thirteen 和 thirty、fourteen 和 forty 重音不同，-teen 结尾的重音靠后，听到短促的「-ty」别急着写三十，结合内容判断；二是别逐词翻译——脑子里想着把每句翻成中文，后面的话就全漏了，抓关键词就够。",
+        "预读和预测的习惯会一直用到以后：更长的对话、短文听力、考试听力都靠它。平时练习就按四步走，对完答案想一想：哪个词没抓到？下次预测时多留意这类词，耳朵会越来越尖。"
+      ],
+      "methods": [
+        {
+          "name": "四步听力法",
+          "steps": [
+            "读题：快速读题目和选项，划关键词",
+            "预测：判断要听的是人名、数字、地点还是物品",
+            "边听边记：缩写、首字母、阿拉伯数字都用上",
+            "复查：检查漏填和拼写，有第二次录音就专门补漏"
+          ],
+          "tip": "一读二猜三记四查，耳朵不慌手不忙。"
+        },
+        {
+          "name": "关键词速记法",
+          "steps": [
+            "人名只写首字母大写，如 T 代表 Tom",
+            "电话号码直接写数字，别拼单词",
+            "物品词写前两三个字母",
+            "听到就记，记完继续听，别回头琢磨"
+          ],
+          "tip": "笔头快一点，耳朵才追得上录音。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "题目要求 Listen and circle the names you hear.，录音还没放，你现在该做什么？",
+          "solution": "先把名单快速默读一遍，记住有哪几个人名（如 Tom、Mary、Ms. Miller），预判接下来要抓的是人名。",
+          "difficulty": 1,
+          "pitfall": "等录音响了才低头找题，前两个名字已经过去了。"
+        },
+        {
+          "question": "配对表左边是 Tom、Linda、Bob、Mary 四个人名，右边是几串电话号码，听前要预测的重点是什么？",
+          "solution": "重点抓「人名＋数字」的搭配：听清谁对应哪个号码，号码直接写数字。",
+          "difficulty": 2,
+          "pitfall": "以为要把数字拼成英文单词，又慢又容易错。"
+        },
+        {
+          "question": "听写电话号码，第一遍录音漏听了一位，该怎么办？",
+          "solution": "先把听清的数字按顺序写下，空出那一位；第二遍录音（Listen again）专门用来补漏，眼睛盯住空位等它出现。",
+          "difficulty": 3,
+          "pitfall": "卡在那一位上反复回想，结果后面整串号码全没听到。"
+        }
+      ],
+      "mistakes": [
+        "不听指令直接看选项猜答案。指令圈名字就圈名字，勾物品就勾物品，写号码就写号码。",
+        "逐词翻译，前一句还没翻完，录音已经读到后面去了。抓关键词就够。",
+        "数字写成英文单词太慢，来不及听下一个。听写号码先写阿拉伯数字。",
+        "听到熟悉的词就急着选，没注意题目问的是「谁」还是「哪一件物品」。"
+      ],
+      "source": {
+        "unit": "各单元听力训练",
+        "pages": [
+          1,
+          52
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "拿到听力题，录音还没开始播放，第一步应该：",
+          "options": [
+            "赶紧把题目和选项读一遍，划出关键词",
+            "先把笔试部分的题做完",
+            "把所有选项抄写一遍",
+            "闭眼放松等录音"
+          ],
+          "answer": "A",
+          "solution": "趁读题时间读题划关键词，预测要听的内容类型，录音一响就能对上号。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P2·听录音圈人名（Eric、Tom、Alice、Bob、Mike、Jack、Mary、Ms. Miller）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "题目要求听一段对话写出电话号码，你预测要重点抓的信息类型是：",
+          "options": [
+            "人名和称呼",
+            "数字",
+            "学科名",
+            "物品名称"
+          ],
+          "answer": "B",
+          "solution": "电话号码由数字组成，听时盯住数字，直接写阿拉伯数字最快。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P4·听对话写电话号码（What's your phone number? It's 281-9176.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把听力四步排成正确顺序：①边听边记 ②读题划关键词 ③复查 ④预测答案类型",
+          "options": [
+            "②④①③",
+            "②①④③",
+            "④②①③",
+            "②④③①"
+          ],
+          "answer": "A",
+          "solution": "先读题划关键词，再预测答案类型，播放时边听边记，最后复查。这就像书上「听录音给句子编号组成对话」的任务一样，先理顺序再动手。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标七上 P50·听录音给句子编号变式（Listen and put the conversation in order. 听力步骤排序改选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "下面哪种做法属于「边听边记」？",
+          "options": [
+            "整段听完再凭记忆回忆所有内容",
+            "听到人名 Tom 就在旁边写个 T",
+            "一边听一边把每句话翻译成中文",
+            "只竖起耳朵听，什么都不写"
+          ],
+          "answer": "B",
+          "solution": "边听边记就是用最快的符号把关键信息落在纸面：首字母、缩写、数字都行，记完马上继续听。这个本领以后听长对话、听短文都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_13",
+      "summary": "启事、广告、学校通知都是应用文：抓标题、认格式，圈出人物物品、时间地点和联系方式。",
+      "explanation": [
+        "书上的公告栏里有四则启事。第一则：Lin Hai, A computer game is in the school library. Is it yours? Ask the teacher for it. — Mike；第二则寻物：Lost: I lost my school ID card. I must find it. Call me at 685-6034. Thanks. — Tom；第三则招领：Found: Some keys are in Classroom 7E. Are they yours? E-mail me at maryg2@gfimail.com.；第四则：Is this your watch? My phone number is 495-3539. Call me. — John。商店广告长这样：Mr. Cool's Clothes Store. Come and buy your clothes at our great sale! We sell all our clothes at very good prices. We have green sweaters for only 15! 学校通知的开头是：Dear students, We have some interesting and fun things for you this term. On September 21st, we have a school trip in the afternoon.",
+        "应用文就是「有用之文」：启事帮失物找主人，广告吸引你去买东西，通知告诉你学校里有什么活动。它们都有固定的「长相」——标题（Lost／Found／商店名）、正文、署名（Tom、John、Mike）、联系方式（电话或邮箱）。认出格式，读起来就快。",
+        "三步抓信息：第一步看标题定类型——Lost 是寻物（我丢了东西，很着急），Found 是招领（我捡到东西，等主人来认领）；第二步按行读，圈出四类关键词：物品、地点、时间、联系方式；第三步合上材料自查三问：谁丢的（或谁捡的）？什么东西？怎么联系？",
+        "Lost 和 Found 千万别搞反：Lost 后面写的是「我丢的东西」，署名是失主，比如 I lost my school ID card；Found 后面写的是「捡到的东西和地点」，比如 Some keys are in Classroom 7E，署名是捡到的人。联系方式记两个搭配：Call me at ＋ 电话号码；E-mail me at ＋ 邮箱。",
+        "会读还要会写：下次你丢了尺子或捡到一块橡皮，就能照格式写一则启事贴出去；班级活动的海报、义卖会的通知也用同样的路子。读广告找价格、读通知记时间，是以后查资料、读说明书的看家本领。"
+      ],
+      "methods": [
+        {
+          "name": "标题三看法",
+          "steps": [
+            "先看标题：Lost（寻物）还是 Found（招领），或是广告、通知",
+            "再看结尾：有没有署名和联系方式",
+            "最后圈关键词：物品、地点、时间、电话",
+            "圈完把四类信息各用一句话说出来"
+          ],
+          "tip": "一看标题二看名，三圈物品和电话。"
+        },
+        {
+          "name": "三问核对法",
+          "steps": [
+            "读完后自问：东西是什么？",
+            "在哪里、什么时候？",
+            "怎么联系失主或捡到的人？",
+            "答不上来的地方回材料里再找"
+          ],
+          "tip": "物、地、时、联系方式，四样找齐才算读完。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Tom 写的启事是：Lost: I lost my school ID card. I must find it. Call me at 685-6034. — Tom 丢了什么？想找他该打哪个号码？",
+          "solution": "丢了校牌（school ID card），找他打 685-6034。Call me at 685-6034 就是「打 685-6034 找我」。",
+          "difficulty": 1,
+          "pitfall": "把启事当成捡到东西的招领。署名 Tom 前面写着 I lost…，说明东西是他丢的。"
+        },
+        {
+          "question": "判断：下面哪一句最可能出现在 Found（招领）启事里？",
+          "solution": "类似 Some keys are in Classroom 7E. Are they yours?（有些钥匙在教室 7E，是你们的吗？）——先说捡到了什么、在哪里，再问是不是你的。而 I lost my… 是失主的口吻，属于 Lost。",
+          "difficulty": 2,
+          "pitfall": "看到 Call me 就以为是招领。要看清前面说的是丢了（lost）还是捡到了（found）。"
+        },
+        {
+          "question": "读广告：We have green sweaters for only 15! Yellow sweaters are only 12! 绿色毛衣多少钱？比黄色的贵多少？",
+          "solution": "绿色毛衣 15（美元），黄色 12（美元），贵 3。only 后面的数字就是价格。",
+          "difficulty": 3,
+          "pitfall": "只找到 sweaters 就选了第一个数字，没注意颜色词 green 和 yellow 的区别。"
+        }
+      ],
+      "mistakes": [
+        "Lost 和 Found 意思弄反：Lost 是寻物启事，写的人丢了东西；Found 是招领启事，写的人捡到了东西。",
+        "忽略署名，不知道启事是谁写的、该找谁。署名一般单独一行放在末尾，如 Tom、John。",
+        "电话号码抄错位：495-3539 少抄一位就联系不上了，抄完要回头核对一遍。",
+        "把启事当故事逐句翻译，速度慢还漏关键信息。读应用文抓关键词就够。"
+      ],
+      "source": {
+        "unit": "各单元阅读板块",
+        "pages": [
+          1,
+          52
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Tom 的启事里写着 Call me at 685-6034.，这句话让你做什么？",
+          "options": [
+            "按 685-6034 这个号码给他打电话",
+            "去教室 7E 找钥匙",
+            "给玛丽发电子邮件",
+            "把校牌上交给老师"
+          ],
+          "answer": "A",
+          "solution": "Call me at ＋ 号码，意思是打这个号码找我。这是启事里最常见的联系方式写法。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P17·寻物启事（Lost: I lost my school ID card. I must find it. Call me at 685-6034.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "学校通知里写道：On September 21st, we have a school trip in the afternoon. 学校旅行是哪一天？",
+          "options": [
+            "October 22nd",
+            "November 3rd",
+            "September 21st",
+            "December 3rd"
+          ],
+          "answer": "C",
+          "solution": "On September 21st, we have a school trip.（9 月 21 日下午学校旅行。）抓时间就盯 On ＋ 日期的句子。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P47·学校通知（Dear students… school trip September 21st、art festival November 3rd、book sale December 3rd）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Jenny 捡到一串钥匙，写招领启事：Found: A set of keys. Are these ____? Call Jenny at 284-5486. 横线上应填：",
+          "options": [
+            "yours",
+            "my",
+            "his",
+            "their"
+          ],
+          "answer": "A",
+          "solution": "Are these yours?（这些是你们的吗？）yours 是名词性物主代词，单独使用，相当于 your keys。补全启事要先分清 Lost 还是 Found，再选对词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P18·补全启事变式（Found: A set of keys. Are these yours? Call Jenny at 284-5486.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "读广告句子：Socks are only 2 for three pairs! 三双袜子多少钱？",
+          "options": [
+            "2 美元",
+            "3 美元",
+            "6 美元",
+            "15 美元"
+          ],
+          "answer": "A",
+          "solution": "2 for three pairs 是「三双一共 2 美元」，不是每双 2 美元。广告里的价格句式是 … for only ＋ 数字。以后逛超市看促销标签，用的就是这套读法。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_14",
+      "summary": "五句话写好自我介绍便条：姓名、年龄、爱好、电话加结尾句，称呼开头、署名收尾。",
+      "explanation": [
+        "书上的自我介绍信息句是现成的模板：My name is Jenny Green. My phone number is 281-9176. My friend is Gina Smith. Her phone number is 232-4672.；I'm Dale Miller and my friend is Eric Brown. My telephone number is 358-6344.；My name is Mary Brown. My friend is in China. Her name is Zhang Mingming.。书上还示范了写法：先填自己的信息卡（First Name、Last Name、Phone Number），再用 My first name… 开头写几句话介绍自己。年龄句往后会学到：—How old are you? —I'm twelve.。便条的格式参照启事和通知：称呼开头（Dear…,）、正文写信息、末尾署名。",
+        "便条就像「迷你名片加小作文」：读的人要在十秒内拿到你的关键信息——你叫什么、多大了、喜欢什么、怎么联系你。所以句子要短、信息要准，一句只说一个信息点，别绕弯子。",
+        "五句模板：第一句姓名 My name's Li Ming.（也可以说 I'm Li Ming.）；第二句年龄 I'm twelve years old.；第三句爱好 I like music and P.E.；第四句联系方式 My telephone number is 123-4567.；第五句结尾 Let's be friends!（做朋友吧！）最后署名。动笔前先列信息点：名字→年龄→爱好→电话→结尾，一条不漏再成句。",
+        "细节决定分数：I'm twelve years old. 的 years 别丢 s；电话号码用数字分节写 123-4567，别拼成一长串；句首字母和人名要大写；英语姓名是名在前、姓在后，Jenny Green 里 Jenny 是 first name（名），Green 是 last name（姓），写自己的名字时同样先名后姓。",
+        "这套「信息句＋结尾句」以后直接升级成书信和邮件：加上日期就是正式信件，加上主题行就是电子邮件。养成先列信息点、再成句、写完自查三处（大写、标点、数字）的习惯，写作就稳了。"
+      ],
+      "methods": [
+        {
+          "name": "五句模板法",
+          "steps": [
+            "称呼：Dear…, 或 Hi!",
+            "第一句 My name's…；第二句 I'm twelve years old.",
+            "第三句 I like…；第四句 My telephone number is…",
+            "第五句结尾 Let's be friends!，末尾署名"
+          ],
+          "tip": "名、龄、好、号、友，五句一线全都有。"
+        },
+        {
+          "name": "三查誊写法",
+          "steps": [
+            "查大写：句首字母、人名都大写",
+            "查标点：每句末尾有句点，撇号不丢",
+            "查数字：电话号码分节清楚",
+            "小声默读一遍，读着别扭的地方改一改"
+          ],
+          "tip": "写完默读一遍，撇号和大写最容易被漏。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用两句话介绍你的姓名和年龄（12 岁，名叫 Gina）。",
+          "solution": "My name's Gina. I'm twelve years old. 名字一句、年龄一句，一句一个信息点。",
+          "difficulty": 1,
+          "pitfall": "写成 I'm twelve year old.——years 的 s 不能丢。"
+        },
+        {
+          "question": "把打乱的句子排成一段通顺的自我介绍：①My name's Bill. ②Let's be friends! ③I'm twelve years old. ④I like music.",
+          "solution": "①③④②：先报姓名，再说年龄，接着讲爱好，最后用 Let's be friends! 收尾。",
+          "difficulty": 2,
+          "pitfall": "把结尾句 Let's be friends! 放在中间——信息还没说完就喊做朋友，逻辑断了。"
+        },
+        {
+          "question": "下面的便条有一处错误，找出来并改正：Dear Mike, My name's Lisa. I is twelve years old. I like art. My telephone number is 123-4567. — Lisa",
+          "solution": "I is 改成 I'm（I am）。I 搭配 am，这是全篇唯一的动词错误。",
+          "difficulty": 3,
+          "pitfall": "只顾看内容写全没有，没查 be 动词搭配。誊写完要逐句读一遍。"
+        }
+      ],
+      "mistakes": [
+        "I'm twelve year old. 漏了 years 的 s。年龄句固定说 … years old.",
+        "大小写不加分：my name's lisa 错，句首和名字首字母都要大写。",
+        "电话号码写成 one two three… 太啰嗦，直接写数字 123-4567，用短横分节。",
+        "忘写署名，读的人不知道这张便条是谁的。署名放在末尾。"
+      ],
+      "source": {
+        "unit": "写作板块（Self-introduction）",
+        "pages": [
+          1,
+          52
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "介绍自己的电话号码，下面哪一句是正确的？",
+          "options": [
+            "My telephone number are 358-6344.",
+            "My telephone number is 358-6344.",
+            "I telephone number 358-6344.",
+            "My phone number 358-6344."
+          ],
+          "answer": "B",
+          "solution": "My telephone number is ＋ 号码。number 是单数，be 动词用 is。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P5·自我介绍信息句（I'm Dale Miller… My telephone number is 358-6344.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "照信息卡的顺序把三句话排好：①My phone number is 951-3397. ②My first name is Alice. ③My last name is Green.",
+          "options": [
+            "③②①",
+            "①②③",
+            "②③①",
+            "②①③"
+          ],
+          "answer": "C",
+          "solution": "先说名（first name），再说姓（last name），最后说电话号码，和信息卡上的顺序一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P6·学生卡信息（First Name: Alice, Last Name: Green, Phone Number: 951-3397）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "I'm twelve. 的另一种说法（意思不变）是：",
+          "options": [
+            "I am 12 years old.",
+            "I has twelve years.",
+            "I twelve years old.",
+            "My age is twelve years old I."
+          ],
+          "answer": "A",
+          "solution": "I'm＝I am，twelve 也可以写成 12，years old 部分不变。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P45·年龄问答变式（—How old are you? —I'm twelve.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "在便条的 I like science. 后面再加一句，让介绍更有内容，下面哪句最合适？",
+          "options": [
+            "Because I'm twelve.",
+            "Because my phone number is 123-4567.",
+            "Because it's boring.",
+            "Because it's interesting."
+          ],
+          "answer": "D",
+          "solution": "喜欢一门课的理由要说它好：Because it's interesting.（因为它有趣）。以后写作文，观点后面跟一句 Because 给理由，内容立刻丰富起来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7a_15",
+      "summary": "词汇句型自查三件套：分块默写、句型三态转换、数字日期专项，黑体重点词一个不放过。",
+      "explanation": [
+        "书后有一份按话题分块收词的词汇表，还注明「重点词汇用黑体标出」——自查时黑体词必须全部过关。数字词一块：zero、one…nine 和 ten…thirty-one；月份一块：January 到 December 共十二个，首字母都要大写；序数词一块：first、second、third、fourth…thirty-first。核心句型自查清单：What's your name?／Is this your pencil?／Where's my schoolbag?／Do you have a baseball? —Yes, I do. —No, I don't.／Do you like bananas?／How much are these socks?／When is your birthday? My birthday is on May 2nd.／What's your favorite subject? —Why do you like it? —Because it's fun.",
+        "自查像体检：先量「词汇身高」——默写看看记住了多少；再测「句型灵活度」——同一个意思会不会换个说法；最后做「专项补短板」——数字、日期这些容易混的单项集中练。三关都过，这一册才算真正掌握。",
+        "三步自查法：第一步分块默写，把词汇按话题分成问候、学习用品、家人、房间物品、球类、食物、服装价格、月份日期、学科九块，遮住英文看中文默、遮住中文看英文写，黑体重点词错一个抄三遍；第二步三态转换，每个核心句型练「陈述→一般疑问→否定」：I have a soccer ball. → Do you have a soccer ball? → I don't have a soccer ball.；He likes oranges. → Does he like oranges? → He doesn't like oranges.；第三步数字日期专项：默 1 到 31 的数字词、12 个月份、序数词，再练日期句 My birthday is on May 2nd.",
+        "易混点盯着四对：where 和 when（问地点／问时间）、how much 和 how many（问价格／问数量）、this 和 these（单数／复数）、do 和 does（I、you、they 搭 do；he、she、it 搭 does，does 后动词还原不加 s）。序数词特殊记三个：first、second、third，其余多数直接加 th。",
+        "把这套自查法带走：以后每一册都做「词—句—专项」三层复盘，错词抄进错词本，一周后重新默一遍。词汇是砖、句型是梁，自查就是验收工程——现在养成习惯，初中三年英语会越学越轻松。"
+      ],
+      "methods": [
+        {
+          "name": "分块默写法",
+          "steps": [
+            "按话题把词汇分块：问候、用品、家人、食物、学科……",
+            "遮住英文看中文默写，再反过来遮中文写英文",
+            "黑体重点词必须全对，错词抄三遍进错词本",
+            "第二天只重默昨天错过的词"
+          ],
+          "tip": "一块过关再下一块，黑体词一个都不放过。"
+        },
+        {
+          "name": "三态转换法",
+          "steps": [
+            "陈述句：I have a soccer ball.",
+            "一般疑问句：do 提到句首，I 换成 you → Do you have a soccer ball?",
+            "否定句：加 don't／doesn't → I don't have a soccer ball.",
+            "三单主语用 does，动词还原：He likes… → Does he like…?"
+          ],
+          "tip": "do 提问 does 三单，doesn't 后面动词回原形。"
+        },
+        {
+          "name": "数字日期专项法",
+          "steps": [
+            "默写 1 到 31 的数字词，thirteen／thirty 这对重点辨音",
+            "12 个月份默写，首字母大写",
+            "序数词先记特殊的 first、second、third，再看 fourth…thirty-first",
+            "练日期句：月份＋序数词，前面用 on——on May 2nd"
+          ],
+          "tip": "月大写、序数词，on 加日期别忘记。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 I like bananas. 变成一般疑问句。",
+          "solution": "Do you like bananas? do 提到句首，同时 I 换成 you，like 保持原形。",
+          "difficulty": 1,
+          "pitfall": "只把 do 搬到句首，忘了把 I 改成 you。"
+        },
+        {
+          "question": "Does he like oranges? 的否定回答是什么？",
+          "solution": "No, he doesn't. does 的问句用 doesn't 答，后面不再重复动词。",
+          "difficulty": 2,
+          "pitfall": "答成 No, he doesn't like.——否定回答到 doesn't 就停，别多加动词。"
+        },
+        {
+          "question": "挑错并改正：My birthday is on May 2th.",
+          "solution": "2th 改成 2nd。two 的序数词是 second，缩写 2nd，不能按普通规则加 th。",
+          "difficulty": 3,
+          "pitfall": "以为所有数词加 th 就完事。first、second、third 要特殊记。"
+        }
+      ],
+      "mistakes": [
+        "默写只会顺着背，打乱顺序就认不出。要遮盖互译，再请人乱序抽查。",
+        "does 问句里动词还带着 s：Does he likes… 错，应为 Does he like…",
+        "how much 和 how many 用混：问价格用 how much，问数量用 how many。",
+        "月份不大写：march 错，月份词首字母一律大写 March。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          1,
+          123
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪种做法属于有效的词汇自查？",
+          "options": [
+            "遮住英文看中文默写英文，再对照词汇表订正",
+            "把词汇从头到尾读三遍就结束",
+            "只默写自己已经会的词",
+            "抄一遍词汇但不检查"
+          ],
+          "answer": "A",
+          "solution": "自查的关键是「遮盖＋核对」：遮住答案默写，再对照订正，错词进错词本。黑体重点词要全部过关。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七上 P94·词汇表 Words and Expressions（重点词汇用黑体标出，按话题分块收词）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Do you have a baseball? 的否定回答是：",
+          "options": [
+            "No, I am not.",
+            "No, I don't.",
+            "No, I haven't.",
+            "Yes, I don't."
+          ],
+          "answer": "B",
+          "solution": "Do 开头的一般疑问句，否定回答用 No, I don't.；Yes 后面要接肯定，Yes, I don't. 自相矛盾。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P27·Grammar Focus（Do you have a baseball? Yes, I do. / No, I don't.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把 He likes oranges. 变成一般疑问句：",
+          "options": [
+            "Does he like oranges?",
+            "Does he likes oranges?",
+            "Do he like oranges?",
+            "Is he like oranges?"
+          ],
+          "answer": "A",
+          "solution": "he 是第三人称单数，用 does 提问，likes 还原成 like。这是三态转换里最容易错的一步。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七上 P27·Grammar Focus 变式（Does he have a soccer ball? Yes, he does.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "下面哪个日期表达完全正确？",
+          "options": [
+            "My birthday is in May 2nd.",
+            "My birthday is on May 2nd.",
+            "My birthday is on may 2th.",
+            "My birthday is at May 2nd."
+          ],
+          "answer": "B",
+          "solution": "具体日期用 on＋月份＋序数词：on May 2nd。月份大写，second 缩写 2nd。把月份、序数词、on 的搭配一起自查一遍，日期题就稳了。",
           "difficulty": 3
         }
       ]
