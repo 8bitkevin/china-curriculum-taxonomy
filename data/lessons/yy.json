@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 64,
+  "lessonCount": 77,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -8183,6 +8183,1615 @@
           "answer": "A",
           "solution": "一般疑问句问的扬、答的稳。每天分角色读两句对话，耳朵和嘴巴都会记住英语的节奏，以后朗读长句子、上台展示都用得上。",
           "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_01",
+      "summary": "学会用 When do you get up? 问作息、用 at 加钟点回答，再用 always、usually、often、sometimes 说做事的频繁程度。",
+      "explanation": [
+        "书上先带出一组作息短语：get up（起床）、eat breakfast（吃早饭）、have...class（上……课）、play sports（做运动）、eat dinner（吃晚饭）、do morning exercises（做晨练）、go to bed（上床睡觉），再把问答练成对话：When do you get up? Usually at 9 o'clock. / I often get up at 7 o'clock. I always start class at 8 o'clock.；周末活动则换成 What do you do on the weekend? 来问，配 clean my room、go for a walk、go shopping、take a dancing class 这些短语来答。",
+        "always、usually、often、sometimes 像一支「频率温度计」：always 是百分之百，一周七天都做；usually 十有八九，偶尔破例一次；often 经常做，但空档更多；sometimes 只是偶尔一两次。想想自己的一周：天天刷牙用 always，六天都晨读用 usually，三四天打球用 often，偶尔帮厨用 sometimes，频率从高到低正好排成一列。",
+        "回答 When do you...? 分两步：第一步按真实频率挑频度副词，第二步接 at 加钟点，如 Usually at 9:30 or 10 o'clock.；造句时副词放在主语后面、实义动词前面——I usually wash my clothes. I often watch TV and play ping-pong.；sometimes 最自由，还能提到句首：Sometimes I cook dinner.（首字母大写，后面加逗号）。",
+        "易混点有三处：一是 usually 与 often 中文都带「常」字，但 usually 更稳定、更接近「总是」，别把顺序排反；二是副词位置，要放主语后、动词前，不说 I go often shopping.；三是时间介词，具体钟点用 at（at 7 o'clock、at 2:30），上午下午用 in（in the morning）；另外 finish class、go back to school 这类短语要整体记，别拆散。",
+        "这套表达是「介绍我的一天」的万能模板：写作文按早上、中午、晚上各挑一句，换用不同频度副词就不单调；以后谈假期安排、问朋友习惯都靠它；到中学学一般现在时第三人称时，同样的问答只需把 do 换成 does，先把频度副词的位置练熟，就是在为后面打地基。"
+      ],
+      "methods": [
+        {
+          "name": "问答两步法",
+          "steps": [
+            "听清 When do you + 动作短语的问句，先想清对方问的是哪件事的时间",
+            "按真实频率挑频度副词，如 Usually、Often、Sometimes",
+            "补上 at 加具体钟点收尾，如 Usually at 7 o'clock."
+          ],
+          "tip": "口诀：问 When，答 at，频度副词中间搭。"
+        },
+        {
+          "name": "频度阶梯记忆法",
+          "steps": [
+            "按频率从高到低排队：always（总是）＞usually（通常）＞often（经常）＞sometimes（有时）",
+            "造句把副词放主语后、实义动词前：I often watch TV.",
+            "sometimes 可提至句首，注意首字母大写并加逗号：Sometimes I cook dinner."
+          ],
+          "tip": "口诀：总、通、经、有排好队，主后动前不站错。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 usually、sometimes、always、often 按频率从高到低排成一排。",
+          "solution": "always（总是）＞usually（通常）＞often（经常）＞sometimes（有时）。",
+          "difficulty": 1,
+          "pitfall": "usually 和 often 中文都带「常」字容易排反；usually 是十有八九都这样，比 often 更稳定。"
+        },
+        {
+          "question": "把 usually 填进句子的正确位置：I wash my clothes.",
+          "solution": "放在主语后、动词前：I usually wash my clothes.",
+          "difficulty": 2,
+          "pitfall": "别放到动词后面（I wash usually my clothes.）；提去句首时别忘了大写和逗号。"
+        },
+        {
+          "question": "—When do you usually eat dinner? 选出正确回答：At 7:30 in the evening. / I like dinner very much. / Dinner is ready.",
+          "solution": "问的是时间，用 at 加钟点回答：At 7:30 in the evening.",
+          "difficulty": 1,
+          "pitfall": "问 When 别答感受；具体钟点前用 at 不用 in。"
+        }
+      ],
+      "mistakes": [
+        "频度副词顺序记反：从高到低应是 always＞usually＞often＞sometimes，usually 比 often 更稳定。",
+        "usually、often 位置放错：应放主语后、实义动词前（I often go shopping.），不能说 I go often shopping.",
+        "用 in 回答钟点：具体钟点要用 at，如 at 7 o'clock、at 2:30，in 留给 in the morning 这类时间段。",
+        "sometimes 放句首忘了变形：要大写首字母并加逗号，写成 Sometimes I cook dinner."
+      ],
+      "source": {
+        "unit": "Unit 1 My day",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—When do you finish class in the morning? —____",
+          "options": [
+            "We finish class at 1 o'clock.",
+            "We finish class in the Monday.",
+            "Yes, we do."
+          ],
+          "answer": "A",
+          "solution": "问句问上午几点下课，答句用 We finish class at 1 o'clock.，钟点前用 at。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P4·师生对话（When do you finish class in the morning? We finish class at 1 o'clock. Then we eat lunch at home.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—What do you do on the weekend? —I often ____ with my mum.",
+          "options": [
+            "go shopping",
+            "go homework",
+            "play shopping"
+          ],
+          "answer": "A",
+          "solution": "去购物是 go shopping，go 和 shopping 搭配；周末活动问答用 What do you do on the weekend?",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P8·周末活动与频度（I sometimes go shopping with my mum on the weekend.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词填空：Robinson 住在岛上，他每天都早起，他说 I ____ get up early every day.",
+          "options": [
+            "always",
+            "sometimes",
+            "never"
+          ],
+          "answer": "A",
+          "solution": "every day 说明天天如此，用频率最高的 always；sometimes 只是偶尔，never 是从不。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P9·Robinson 语篇（I always get up early every day. Sometimes I clean my cave, too.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小调查：问问家里人什么时候起床、吃晚饭、睡觉，把每次问答记成一行 When do you...? —Usually/Often/Sometimes at...，最后挑一条写成 I usually... 开头的句子。",
+          "answer": "示例：—When do you go to bed, Mum? —Usually at 10 o'clock. I usually go to bed at 9:30.",
+          "solution": "先按真实频率挑频度副词，再套 at 加钟点；写句子时副词放在主语后、动词前。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_02",
+      "summary": "用 Which season do you like best? 选出最爱的季节，用 because 把喜欢它的理由说清楚，还能配上四季活动短语。",
+      "explanation": [
+        "书上把四季学成一小组词：spring（春天）、summer（夏天）、autumn（秋天，也常说 fall）、winter（冬天），核心问答是 Which season do you like best? Autumn. Why? Because the colours are pretty!；理由句照原样记：I like winter because I can play in the snow.，也可以说 Because I like summer vacation!；配的四季活动短语有 go on a picnic（去野餐）、go swimming（去游泳）、pick apples（摘苹果）、make a snowman（堆雪人）、play in the snow（玩雪）、plant flowers（种花）、eat ice cream（吃冰淇淋）。",
+        "Why 和 because 是一对问答钥匙：Why 开头问「为什么」，because 开头「递原因」。because 后面接一整句话，把好处讲明白——I can play in the snow 就是冬天能做成的事；Which season...best 里的 best 表示「最」，四个季节里挑一个最爱的。理由有两条路：能做什么（I can go swimming every day!），天气景色怎么样（The colours are pretty! / There are beautiful flowers everywhere.）。",
+        "回答三步法：第一步直接报季节名（Winter.）；第二步听到 Why 就用 because 接茬；第三步把理由装进 because 后面——能做的事用 I can...，天气用 the weather is...，景色用 there are...。搭配活动先想季节：春天 go on a picnic、plant flowers；夏天 go swimming、eat ice cream；秋天 pick apples；冬天 make a snowman、play in the snow。",
+        "辨析三处：autumn 和 fall 同指秋天，但阅读里 The leaves fall and fall and fall 的 fall 是动词「落下」，要靠前后句判断；because 后接完整句子，because of 后只接短语——I like summer best because of Children's Day.；中文爱说「因为……所以」，英文 because 和 so 只挑一个用，别双写。",
+        "会用 because，写作就能从一句话长成一小段：季节名＋天气＋because 理由＋活动＋感受，五句就是一篇小短文；比较两个节日、解释自己的选择也都用它；科学课上弄懂了四季是怎么来的，再用英语说出 I like spring because...，表达就有了内容。"
+      ],
+      "methods": [
+        {
+          "name": "Which—Why—because 问答链",
+          "steps": [
+            "听到 Which season do you like best? 直接报季节名，如 Autumn.",
+            "对方追问 Why 时，用 because 开头递理由",
+            "理由二选一：能做的事（I can go swimming every day.）或天气景色（The colours are pretty!）"
+          ],
+          "tip": "口诀：Which 挑季节，Why 要理由，because 来开路。"
+        },
+        {
+          "name": "活动对季节配套法",
+          "steps": [
+            "按季节归堆活动：spring——go on a picnic、plant flowers；summer——go swimming、eat ice cream；autumn——pick apples；winter——make a snowman、play in the snow",
+            "说理由时把活动装进 because I can... 的句型",
+            "自问自答练一遍：Which season do you like best? Winter. Why? Because I can play in the snow."
+          ],
+          "tip": "口诀：春野餐夏游泳，秋摘苹果冬堆雪。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Which season do you like best? 下面哪个回答对？Autumn. / It's Monday. / At 6 o'clock.",
+          "solution": "Autumn. 问的是最喜欢哪个季节，直接报季节名。",
+          "difficulty": 1,
+          "pitfall": "别用星期或钟点去回答季节问题。"
+        },
+        {
+          "question": "补全句子：I like winter ___ I can play in the snow.",
+          "solution": "填 because：because 连接「喜欢的原因」，后面跟完整句子。",
+          "difficulty": 2,
+          "pitfall": "别填 and 或 so；because 和 so 不能同时用。"
+        },
+        {
+          "question": "pick apples 和 make a snowman 分别是哪个季节的活动？",
+          "solution": "pick apples 是秋天（autumn），make a snowman 是冬天（winter）。",
+          "difficulty": 1,
+          "pitfall": "活动要和季节配套，别把游泳配给冬天。"
+        }
+      ],
+      "mistakes": [
+        "because 后面只跟了词组：它要接完整句子，如 because I can play in the snow.，主语谓语都要有。",
+        "because、so 连用：中文说「因为……所以」，英文只能挑一个，别写成 Because...so...。",
+        "autumn 和 fall 混淆：两个都指秋天；阅读里 The leaves fall 的 fall 是动词「落下」，要靠上下文分辨。",
+        "活动配错季节：go swimming 属于夏天，make a snowman 属于冬天，配反了理由就不成立。"
+      ],
+      "source": {
+        "unit": "Unit 2 My favourite season",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Why do you like spring best? —____",
+          "options": [
+            "Because the weather is nice.",
+            "I like spring best.",
+            "It's in May."
+          ],
+          "answer": "A",
+          "solution": "Why 问原因，要用 because 开头说理由：Because the weather is nice.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P20·疑问词填空（Why do you like spring best? Because the weather is nice.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Which season do you like best? —Winter. —Why? —____",
+          "options": [
+            "Because I can play in the snow.",
+            "Because I can go swimming.",
+            "Because I can pick apples."
+          ],
+          "answer": "A",
+          "solution": "冬天的活动是 play in the snow；go swimming 是夏天、pick apples 是秋天，季节和活动要对上。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P19·阅读语篇（I like winter because I can play in the snow.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "补全句子：I like autumn best because ____（用书上秋天的理由）",
+          "options": [
+            "the colours are pretty",
+            "I can play in the snow",
+            "it's too hot"
+          ],
+          "answer": "A",
+          "solution": "秋天喜欢的是色彩漂亮：I like autumn best because the colours are pretty.，与 Because the colours are pretty! 一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P12·主题问答（Which season do you like best? Autumn. Why? Because the colours are pretty!）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：问问家里人最爱哪个季节，把答案写成两句完整的话：I like ___ best because ___.，再补一个和季节相配的活动短语。",
+          "answer": "示例：I like summer best because I can go swimming every day.",
+          "solution": "一句报季节、一句给理由；理由可以是能做的活动，也可以是天气和景色，活动和季节要配套。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_03",
+      "summary": "记牢 12 个月份词（February 最难拼），用 When is Tree Planting Day? It's in March. 说节日月份，并会用 That's very kind of you. 礼貌回应。",
+      "explanation": [
+        "书上按「学期日历」学月份，十二个月依次是 January、February、March、April、May、June、July、August、September、October、November、December；核心问答是 When is Tree Planting Day? It's in March.；节日各归各月——New Year's Day 在 January，May Day 和 Mother's Day 在 May，Children's Day 在 June，Teachers' Day 在 September，China's National Day 在 October，Christmas 在 December；收到好意还可以回一句 That's very kind of you.（你真好。）",
+        "月份像十二节车厢连成一整年，in 加月份就是「把事件装进哪节车厢」——It's in March 表示这件事发生在三月这节车厢里。月份词是专有名词，开头永远大写；端午、中秋这类节日按农历走，日子每年会挪，所以书上说 It's usually in June（端午节）、usually in September or October（中秋节），usually 这个老朋友又来帮忙了。",
+        "记月份三招：按季节分组——春天 March、April、May，夏天 June、July、August，秋天 September、October、November，冬天 December、January、February；盯紧难拼词 February，中间的 -ru- 别弄丢，September、November、December 三个「兄弟」共享 -ber 结尾；答节日题两步走——先想节日属于哪个月，再套 When is...? —It's in + 月份。",
+        "in、on、at 三兄弟分工：月份用 in（in March、in February），具体某一天用 on（on May 1st、on Tuesdays），具体钟点用 at（at 7 o'clock）——书上的填空正是 We will have an English party in February. / I get up at 7 o'clock every day. / What do you have on Tuesdays?；另外 May 小写还是「可以」，身份全看开头是否大写。",
+        "月份是学日期的地基：月份后面加序数词，就能说出 April 4th 这样的具体日子；做班级日历、写生日贺卡、读活动通知都先过月份关；That's very kind of you. 这句礼貌回应也别浪费——收到邀请、得到帮助时都能用，配上 Sounds great! 会让对话更有温度。"
+      ],
+      "methods": [
+        {
+          "name": "四季分组记月份法",
+          "steps": [
+            "春天 March、April、May；夏天 June、July、August；秋天 September、October、November；冬天 December、January、February",
+            "难词单练：February 中间的 -ru- 别丢；September、November、December 共享 -ber 结尾",
+            "任何场合月份首字母都大写"
+          ],
+          "tip": "口诀：十二月按季排，ber 尾三兄弟，February 多看一眼。"
+        },
+        {
+          "name": "节日月份配对法",
+          "steps": [
+            "先背固定节日六对：New Year's Day—January、Tree Planting Day—March、Children's Day—June、Teachers' Day—September、China's National Day—October、Christmas—December",
+            "农历节日加 usually：Dragon Boat Festival usually in June、Mid-Autumn Day usually in September or October",
+            "回答统一套 It's in + 月份"
+          ],
+          "tip": "口诀：公历直接 in，农历 usually 跟上。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 March、January、February 按一年中的先后顺序排列。",
+          "solution": "January→February→March，一月、二月、三月。",
+          "difficulty": 1,
+          "pitfall": "February 拼写别丢中间的 -ru-。"
+        },
+        {
+          "question": "—When is Children's Day? 该怎么回答？",
+          "solution": "It's in June. 儿童节在六月，月份前用 in。",
+          "difficulty": 1,
+          "pitfall": "月份前用 in 不用 on；月份词首字母要大写。"
+        },
+        {
+          "question": "选词：We will have an English party ___ February.（in / on / at）",
+          "solution": "填 in：月份前用 in，on 留给具体某一天，at 配具体钟点。",
+          "difficulty": 2,
+          "pitfall": "别把 on February 当成正确搭配。"
+        }
+      ],
+      "mistakes": [
+        "February 拼写漏掉 -ru-，误写成 Feburary，默写前多拼两遍。",
+        "月份首字母小写：March 写成 march 就错了，十二个月永远大写开头。",
+        "月份前误用 on：月份用 in（in March），on 只配具体某一天（on May 1st）。",
+        "农历节日漏掉 usually：端午节要说 It's usually in June.，中秋 usually in September or October.，别答成固定月份。"
+      ],
+      "source": {
+        "unit": "Unit 3 My school calendar",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—When is Tree Planting Day? —____",
+          "options": [
+            "It's in March.",
+            "It's in May.",
+            "It's on March."
+          ],
+          "answer": "A",
+          "solution": "植树节在三月，月份前用 in：It's in March.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P22·开篇问答（When is Tree Planting Day? It's in March.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "依次填空：We will have an English party ___ February. / I get up ___ 7 o'clock every day.",
+          "options": [
+            "in; at",
+            "at; in",
+            "on; at"
+          ],
+          "answer": "A",
+          "solution": "月份用 in（in February），具体钟点用 at（at 7 o'clock）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P30·介词填空（We will have an English party in February. I get up at 7 o'clock every day. What do you have on Tuesdays?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "判断并改正：Tree Planting Day is in February.",
+          "answer": "不对，应改为 Tree Planting Day is in March.（植树节在三月）",
+          "solution": "植树节在三月不在二月；把月份换对，句子其余部分不变。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P25·月份判断改错（Tree Planting Day is in February.(×) → March）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一张家庭月历：挑出家里 4 个重要的日子（生日、节日都行），每条写一句 It's in + 月份；农历节日记得加上 usually。",
+          "answer": "示例：My birthday is in August. Mother's Day is in May. Dragon Boat Festival is usually in June.",
+          "solution": "先想清楚每个日子在哪个月，再套 It's in...；检查月份首字母大写、in 和 usually 的位置。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_04",
+      "summary": "生日、节日都要报日期：first 1st、second 2nd、third 3rd……序数词一站好队，on April 4th 就把日子说得准准的。",
+      "explanation": [
+        "这部分从一句生日祝福开场：Happy birthday, Mum! Thank you. 妈妈的生日哪天过？When is Mother's Day? — It's on the second Sunday in May.（五月的第二个星期日。）接下来一串日子排着队报到：When is the art show? — It's on May 1st.（五月一日），阅读节 It's on May 5th.；运动会 It's on April 5th.，英语测试 It's on November 2nd.；When is China's National Day? — It's on October 1st.；问生日就答日子：When is your birthday? — My birthday is on April 4th.（四月四日）；When is Grandpa's birthday? — It's on October 12th.；My birthday is on March 21st.。序数词一排排认过去：first（1st）、second（2nd）、third（3rd）、fourth（4th）、fifth（5th）……twelfth（12th）、twentieth（20th）、twenty-first（21st）。节日也有了自己的编号牌：New Year's Day 在 January 1st，May Day 在 May 1st，Children's Day 在 June 1st，China's National Day 在 October 1st。",
+        "基数词管『有几个』，序数词管『第几个』：three 是三个，third 是第三个；twenty 是二十，twentieth 是第二十。报日期就像给日子发编号牌：April 4th 读作 April (the) fourth，就是四月四日。生日日历、节日表、活动通知，处处都是序数词的岗位；妈妈的节日定在『五月的第二个星期日』，也得靠 the second Sunday in May 把它说准。复活节（Easter）这样的西方节日也爱用『第几个星期日』来定日子，学会了序数词，各种节日的日子你都能读出来。",
+        "基变序三步走：第一步背三个特殊成员 first、second、third（缩写 1st、2nd、3rd）；第二步一般词尾加 th（fourth、fifth、sixth、seventh、twelfth……）；第三步整十把 ty 变 tieth（twenty→twentieth，即 20th），二十几只变个位（twenty-first→21st）。缩写规则是『数字+词尾两个字母』：1st、2nd、3rd、4th、12th、20th、21st。写日期句子时记住介词分工：只说月份用 in（in April、in May），具体到某一天用 on（on April 4th、on May 1st、on the second Sunday in May）。",
+        "最容易栽跟头的三处：一是三个特殊成员写成 3th、2th——third 取词尾 rd、second 取词尾 nd，要单独背；二是 twenty-first 写成 21th——二十几只变个位，1 配 st、2 配 nd、3 配 rd，其余配 th；三是 in 和 on 用反——月份用 in，日子用 on，一旦说了具体日期就改口用 on，不能再留在 in 里。还有 twelfth 拼写特殊：twelve 结尾的 ve 要换成 f，别照着 twentyeth 的样子乱套。",
+        "日期是生活英语的高频工具：写英语日记要先标日子（Sarah 的小猫日记每篇开头都写着 April 15th、May 3rd 这样的日期）；做全家的生日日历、读活动通知都离不开它。以后学年份、读英语故事、写邀请卡，都从『第几日』这一步起步；把 1st 到 31st 的编号牌挂熟，一本日历就是你的英语练习册。"
+      ],
+      "methods": [
+        {
+          "name": "基变序口诀法",
+          "steps": [
+            "先背三个特殊成员：first、second、third（1st 2nd 3rd）",
+            "一般规则：词尾加 th（fourth fifth sixth twelfth）",
+            "整十变化：twenty→twentieth（ty 变 tieth）",
+            "二十几只变个位：twenty-first→21st"
+          ],
+          "tip": "1、2、3 特殊记，8 去 t、9 去 e；整十 ty 变 tieth，二十几里变个位。"
+        },
+        {
+          "name": "日期介词分工法",
+          "steps": [
+            "只说月份：in April、in May",
+            "具体到某天：on April 4th、on May 1st",
+            "『几月的第几个星期几』也用 on：on the second Sunday in May"
+          ],
+          "tip": "月份 in，日子 on；说了日子就换 on。"
+        },
+        {
+          "name": "缩写挂牌法",
+          "steps": [
+            "缩写 = 数字 + 序数词词尾两个字母",
+            "st 配 1（1st 21st 31st），nd 配 2（2nd 22nd），rd 配 3（3rd 23rd）",
+            "其余一律 th（4th 5th 12th 20th）"
+          ],
+          "tip": "1 st、2 nd、3 rd，其余 th 跟上来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 three 变成序数词，并写出它的缩写。",
+          "solution": "third，缩写 3rd。1、2、3 特殊记，three 的序数词是 third。",
+          "difficulty": 1,
+          "pitfall": "顺手写成 3th——前三个序数词不走加 th 的路，要单独背。"
+        },
+        {
+          "question": "把『我的生日在四月四日』写成一句英语。",
+          "solution": "My birthday is on April 4th.（读作 April (the) fourth）",
+          "difficulty": 2,
+          "pitfall": "介词写成 in——具体到某一天要用 on。"
+        },
+        {
+          "question": "写出 twentieth 和 twenty-first 的缩写。",
+          "solution": "20th；21st。整十 ty 变 tieth；二十几只变个位，1 配 st。",
+          "difficulty": 3,
+          "pitfall": "21st 写成 21th——只变个位，别把整十的 th 也拖过来。"
+        }
+      ],
+      "mistakes": [
+        "3rd 写成 3th、2nd 写成 2th：前三个特殊成员 first second third 要单独背，缩写分别取 rd、nd。",
+        "on 和 in 用反：具体日期用 on（on May 1st），只说月份才用 in（in May）。",
+        "When is your birthday? 的答句丢介词：要说 My birthday is on April 4th.，on 不能丢。",
+        "twentieth 拼成 twentyth：整十要把 ty 变 tieth，y 先变 ie 再加 th。"
+      ],
+      "source": {
+        "unit": "Unit 4 When is Easter?",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "序数词缩写配对：把 three 变成序数词缩写，正确的是？",
+          "options": [
+            "3th",
+            "3rd",
+            "13th",
+            "30th"
+          ],
+          "answer": "B",
+          "solution": "three 的序数词是 third，取词尾 rd：3rd。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P44·序数词填表 one two three 4th five 6th seven 8th nine ten（把基数词与序数词缩写配对）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词填空：My birthday is ____ April 4th.",
+          "options": [
+            "on",
+            "in",
+            "at",
+            "of"
+          ],
+          "answer": "A",
+          "solution": "具体到某一天用 on：My birthday is on April 4th.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P41·Chen Jie: When is your birthday? Mike: My birthday is on April 4th."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "in / on 选词变式：下面哪一组把月份和日期的介词都用对了？",
+          "options": [
+            "It's cold in December. My birthday is on December 13th.",
+            "It's cold on December. My birthday is in December 13th.",
+            "It's cold in December. My birthday is in December 13th.",
+            "It's cold on December. My birthday is on December."
+          ],
+          "answer": "A",
+          "solution": "只说月份用 in December；具体到某天用 on December 13th。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P44·The man's birthday is on December 13th.（听音勾生日）变式（in 月份 / on 日期辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一张八月生日日历：爸爸的生日在八月二十日，表哥的生日在八月二十一日。照着 April 4th 的样子，写出这两个日期的英文缩写形式。",
+          "answer": "August 20th；August 21st",
+          "solution": "20 是整十，twenty 变 twentieth→20th；21 只变个位，twenty-first→21st。照这样把全家人的生日做成一张英文日历，日期天天念，序数词越念越熟。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_05",
+      "summary": "此刻正在做的事交给 be+V-ing：The dog is drinking water. Look! Listen! 一喊，进行时就该上场了。",
+      "explanation": [
+        "这部分从一幅画开场：Wow! What a beautiful painting! 画上的小狗在干嘛？He's sleeping. He's very tired.（他睡着了，他很累。）一路看下去全是『正在发生』：Why is it jumping? — It's playing with its friends.（它正在和朋友们玩。）小狗 Fido 在厨房：Is he drinking water? — No, he isn't. He's eating.（他没在喝水，他在吃饭。）兔子那边：Are these rabbits eating? — No. They're playing with each other.（它们在互相追着玩。）罗宾逛动物园更像在表演：I'm looking at a bear. I'm dancing like a bear. I'm running like a tiger. I'm climbing like him.（我正像老虎一样跑。）写句练习照样子变：Zoom is eating.，后面还有 jump、drink、sing 等着穿上 ing 外衣。",
+        "现在进行时就是『此刻正在做』的摄像头：be（am / is / are）是发动机，动词加上 ing 是轮子，缺一不可。Look! Listen! Shh! 是导演喊『开机』的口令——口令一响，后面的话多半是进行时（Look! There is a picture of Shanghai, too.，正指着正说着的东西）；句子里冒出 now（现在）也是信号：The rabbits are eating their carrots now.。看到照片、图里的小动物在动，用进行时一描述，画面立刻活了。",
+        "造进行时句三步：第一步选 be——I 用 am，he / she / it 和单个的人、单个的动物用 is，we / you / they 用 are；第二步把动词变成 V-ing；第三步回头检查 be 没丢、主语和 be 对上号。V-ing 变形三规则：词尾直接加（eat→eating，drink→drinking，sing→singing，jump→jumping）；不发音的 e 先去 e 再加（dance→dancing）；重读闭音节双写词尾字母再加（run→running，swim→swimming）。",
+        "易错点排队：丢 be 是头号错误——The dog sleeping. 不成句，要说 The dog is sleeping.；runing 少写一个 n，swiming 同理，双写不能省；danceing 没去 e，正确是 dancing；They is playing. 主语是复数却配 is，要说 They're playing.。另外 Look! 后面接着说的如果是正在发生的事，别用回一般现在时，要用 be+V-ing。",
+        "会陈述『正在做什么』，照片描述、看图写话、动物观察日记全有了骨架。下一步就是把陈述句改装成疑问句去问别人（What are they doing?），再往后还有祈使句来维持秩序；读英语故事时进行时句子一大片，先把 V-ing 变形练到不假思索，阅读速度自然提上来。"
+      ],
+      "methods": [
+        {
+          "name": "选 be 三步法",
+          "steps": [
+            "I 用 am（I'm dancing.）",
+            "一个人或一只动物用 is（The dog is sleeping.）",
+            "两个人以上用 are（They're playing with each other.）"
+          ],
+          "tip": "I 配 am，单数 is，复数 are，be 是发动机不能熄火。"
+        },
+        {
+          "name": "V-ing 三规则变形法",
+          "steps": [
+            "直接加：eat→eating，sing→singing，jump→jumping",
+            "去 e 加：dance→dancing，take→taking",
+            "双写加：run→running，swim→swimming"
+          ],
+          "tip": "直接加、去 e 加、双写加，三招穿好 ing 外衣。"
+        },
+        {
+          "name": "标志词雷达法",
+          "steps": [
+            "听到看到 Look! Listen! Shh!，马上切换到进行时频道",
+            "句中冒出 now，也用 be+V-ing",
+            "答完回头查：有 be 有 ing，句子才算完整"
+          ],
+          "tip": "Look 一喊，ing 上场。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "The dog ____ (sleep). 写出完整的句子。",
+          "solution": "The dog is sleeping. 一只狗用 is，sleep 直接加 ing。",
+          "difficulty": 1,
+          "pitfall": "写成 The dog sleeping.——be 是发动机，丢了句子就发动不了。"
+        },
+        {
+          "question": "I'm ____ (dance) like a bear. 横线上填什么？",
+          "solution": "dancing。dance 结尾的 e 不发音，先去 e 再加 ing。",
+          "difficulty": 2,
+          "pitfall": "写成 danceing——去 e 加 ing，e 要先请走。"
+        },
+        {
+          "question": "The tiger is ____ (run). 照双写规律完成句子。",
+          "solution": "running。run 是重读闭音节，双写词尾的 n 再加 ing。",
+          "difficulty": 2,
+          "pitfall": "写成 runing——跑起来忘带第二只 n。"
+        }
+      ],
+      "mistakes": [
+        "丢 be：The dog sleeping. 缺发动机，要说 The dog is sleeping.",
+        "双写漏掉：run→running、swim→swimming，写成 runing、swiming 都少一个字母。",
+        "去 e 忘记：dance 的 e 不发音，先去 e 再加 ing，是 dancing 不是 danceing。",
+        "主语和 be 配错：They is playing. 不对，they 是复数要说 They're playing."
+      ],
+      "source": {
+        "unit": "Unit 5 Whose dog is it?",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Is he drinking water? —No, he isn't. He's ____.",
+          "options": [
+            "eating",
+            "eatting",
+            "eat",
+            "eats"
+          ],
+          "answer": "A",
+          "solution": "he 是单数用 He's；eat 直接加 ing：He's eating.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P51·Sam: Is he drinking water? Chen Jie: No, he isn't. He's eating."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "照样子写 V-ing：Zoom is eating. 那小兔子呢？The rabbit is ____ (jump).",
+          "options": [
+            "jumping",
+            "jumps",
+            "jump",
+            "to jump"
+          ],
+          "answer": "A",
+          "solution": "jump 直接加 ing：jumping。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P50·Zoom is eating.（照样子把 eat jump drink sing 写成 V-ing）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "V-ing 变形变式：run 变 running 要双写 n。照这个双写规则，swim 的 V-ing 形式是？",
+          "options": [
+            "swiming",
+            "swimming",
+            "swims",
+            "to swim"
+          ],
+          "answer": "B",
+          "solution": "swim 同样双写词尾的 m：swimming。双写的是词尾辅音字母，一个都不能少。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P52·V-ing 词块 running climbing jumping sleeping drinking eating 变式（双写规则类推）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "拍全家福时你要用英语播报：弟弟正在客厅唱歌（sing）。下面哪句说对了？",
+          "options": [
+            "My brother sings in the living room.",
+            "My brother is singing in the living room.",
+            "My brother is sing in the living room.",
+            "My brother are singing in the living room."
+          ],
+          "answer": "B",
+          "solution": "此刻正在唱用 be+V-ing：he 用 is，sing 直接加 ing。练熟了就能给家庭录像、运动会照片配英语解说。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_06",
+      "summary": "问『是谁的』用 Whose… is it? 回答交给独行侠：It's mine. It's theirs.——mine yours his hers ours theirs 单独当家。",
+      "explanation": [
+        "这部分围绕『认领东西』展开。画展上：Wow! What a beautiful painting! Is it yours? — Oh, it's mine.；Hey! Whose dog is this? — No. It's his.。胡萝卜堆旁：Whose carrots are these? — The carrots are theirs.。图画角更热闹：Chen Jie: The yellow picture is mine. Are these all ours? — Yes, they are. Wow! That picture of Beijing is beautiful. Whose is it? — It's Zhang Peng's. It's Binbin's. — Oh, yes! It's his.。词块配对把规律摆得明明白白：his dog—his / her dog—hers / their dog—theirs / my dog—mine；It's your dog. The dog is yours. It's her book. The book is hers.。疑问句也一起练：Is he drinking water? Are these rabbits eating? — No. They're playing with each other.；What are they doing? — They're eating lunch! What's the little monkey doing? — It's playing with its mother!",
+        "两套物主代词分工明确：形容词性像帽子，必须扣在名词头上——my dog、her book；名词性是独行侠，自己就能当家——The dog is mine.、The book is hers.。独行侠 = 帽子 + 名词：mine 就是 my dog，theirs 就是 their carrots。Whose 问『谁的』，回答走两条路：人名加 's（It's Zhang Peng's.），或者直接派独行侠出场（It's his. It's theirs.）。认领失物、归还物品，全靠这套对话。",
+        "三步选对代词：第一步看句尾——后面有名词，用形容词性（my / your / his / her / our / their）；后面光秃秃没有名词，用名词性（mine / yours / his / hers / ours / theirs）；第二步记住 his 是两栖选手，当帽子也当独行侠（his dog / The dog is his.）；第三步答 Whose 问句先想好走哪条路：It's Zhang Peng's. 或 It's theirs.。进行时疑问三步：be 提前（Is he eating?→Is he eating? 的陈述句 He is eating. 把 is 搬到句首），单复数对准主语（Is he…? / Are they…?），回答像回声（Yes, he is. / No, they aren't.）。",
+        "独行侠的词尾 s 是身份证：theirs、hers、ours、yours、mine 结尾的 s 不能丢，丢了就变回帽子；his 独一份，加不加名词都长一样。『The book is hers.』和『It's her book.』二选一，不能说 The book is her.。Is he…? 的回答跟着 be 走：No, he isn't.，别答成 No, he doesn't.。还有 it's（它是）和 its（它的）只差一个撇号：It's playing with its mother! 里两个都出现了，别写串。",
+        "借文具、认领失物、办小画展，都要过『谁的』这一关；把六个独行侠背熟，以后再把两套物主代词放进一张对照表时就能一眼看穿。答 Whose 用名词性代词，其实是把『帽子+名词』打包成一个词——这种能省则省的打包思想，以后学更复杂的句型还会一次次遇到；进行时疑问也是从陈述句把 be 搬个家来的，句子变形的功夫是相通的。"
+      ],
+      "methods": [
+        {
+          "name": "帽子与独行侠判别法",
+          "steps": [
+            "后面有名词→帽子（形容词性）：my dog、their carrots",
+            "后面没名词→独行侠（名词性）：mine、theirs",
+            "his 两边都能站：his dog / The dog is his."
+          ],
+          "tip": "带名词用 my，单独站队用 mine；hers theirs 尾巴带 s。"
+        },
+        {
+          "name": "Whose 两招回答法",
+          "steps": [
+            "人名加 's：It's Zhang Peng's.",
+            "独行侠直接出场：It's his. It's theirs.",
+            "先想清答的是谁的东西，再选词"
+          ],
+          "tip": "Whose 问谁家，人名's 和独行侠都能答。"
+        },
+        {
+          "name": "进行时疑问回声法",
+          "steps": [
+            "be 提前：He is eating. → Is he eating?",
+            "单复数对准主语：Is he…? / Are they…?",
+            "回声回答：Yes, he is. / No, they aren't."
+          ],
+          "tip": "问 is 答 is，问 are 答 are，回声不跑调。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "填 my 还是 mine：This is ____ dog. The dog is ____.",
+          "solution": "my；mine。第一空后面有名词 dog，用帽子 my；第二空后面光秃秃，独行侠 mine 单独当家。",
+          "difficulty": 1,
+          "pitfall": "两空都填 my——第二空后面没有名词，得派 mine 出场。"
+        },
+        {
+          "question": "—Whose carrots are these? —____（这些是他们的）怎么回答？",
+          "solution": "They're theirs. carrots 是复数，用 They're；『他们的』单独用 theirs。",
+          "difficulty": 2,
+          "pitfall": "答成 They're their.——their 是帽子，后面必须跟名词。"
+        },
+        {
+          "question": "—Is the dog eating? —____（不，它在睡觉）",
+          "solution": "No, he isn't. He's sleeping.（书上的小狗 Fido 正是这样一问一答的）",
+          "difficulty": 2,
+          "pitfall": "答成 No, he doesn't.——用 be 问就用 be 答。"
+        }
+      ],
+      "mistakes": [
+        "独行侠丢词尾 s：The carrots are their. 错了，theirs、hers、ours、yours 的 s 是身份证。",
+        "The book is her. 帽子独行——名词性位置该用 hers：The book is hers.",
+        "Is he…? 答成 No, he doesn't.：问句用 is，回答就跟着 is / isn't 走。",
+        "it's 和 its 混写：it's = it is（它是），its = 它的（It's playing with its mother!）"
+      ],
+      "source": {
+        "unit": "Unit 5-6",
+        "pages": [
+          46,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Wow! What a beautiful painting! Is it yours? —Oh, ____.",
+          "options": [
+            "it's mine",
+            "it's my",
+            "its mine",
+            "it's me"
+          ],
+          "answer": "A",
+          "solution": "答『是我的』用名词性代词：it's mine.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P46·Wow! What a beautiful painting! Is it yours? Oh, it's mine. He's sleeping."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—That picture of Beijing is beautiful. Whose is it? —____.",
+          "options": [
+            "It's Zhang Peng.",
+            "It's Zhang Peng's.",
+            "It's Zhang Pengs'.",
+            "It's he."
+          ],
+          "answer": "B",
+          "solution": "『某人的』用人名加 's：It's Zhang Peng's.；也可以直接说 It's his.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P48·That picture of Beijing is beautiful. Whose is it? It's Zhang Peng's. It's Binbin's. Oh, yes! It's his."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词填空变式：两空都表示『我的』，This is ____ dog. Look! The dog is ____. 横线上依次填？",
+          "options": [
+            "my；mine",
+            "mine；my",
+            "my；my",
+            "mine；mine"
+          ],
+          "answer": "A",
+          "solution": "第一空后面有名词 dog 用 my；第二空单独站队用 mine：The dog is mine.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P49·his dog—his her dog—hers their dog—theirs my dog—mine It's your dog. The dog is yours. 变式（my / mine 选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "在动物园里，你想用英语说：『熊猫们正在吃午饭，它们太可爱了。』哪句最贴切？",
+          "options": [
+            "They eat lunch. They're so cute.",
+            "They're eating lunch. They're so cute.",
+            "They eating lunch. They're so cute.",
+            "It's eating lunch. They're so cute."
+          ],
+          "answer": "B",
+          "solution": "正在发生用 be+V-ing，pandas 是复数用 They're：They're eating lunch. They're so cute. 接着还能学着用祈使句维持秩序：Shh! Work quietly!",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_07",
+      "summary": "用动词原形开头的祈使句定公共规则：Work quietly! Take turns!，想禁止就在前面加 Don't。",
+      "explanation": [
+        "书上把“公共场合怎么守规矩”直接写成一句句口令式的祈使句：Work quietly!（安静做事）Talk quietly.（小声讲话）Keep your desk clean.（保持桌面整洁）Take turns.（按顺序来）Keep to the right.（靠右走）Quiet, please!（请安静）；墙上贴的标识还有 No eating!（禁止吃东西）。这些句子都以动词原形开头，听的人就是“你”，只是 you 被省略了；要表达禁止，就在原形前加 Don't，比如 Don't run in the hallway.（别在走廊里跑）。",
+        "为什么这些句子这么短、这么干脆？因为它们像小队长喊的口令——在图书馆、教室、桥上这种公共场合，一句 Keep to the right. 比长长一大串解释管用得多。想想你看过的电影散场、操场排队，最有效的话往往就三四个词。祈使句就是英语里最利落的“提醒工具”，一听就知道该做什么。",
+        "识别和使用祈使句分三步：第一步看句首——是不是动词原形（work、keep、talk、take）；第二步找主语——祈使句里没有主语，“你”被藏起来了；第三步定语气——肯定句直接说“该做什么”，否定句用 Don't 加动词原形说“别做什么”。想提醒得更客气，句尾或句首加个 please：Talk quietly, please.",
+        "几个易混点要分清：Work quietly. 和 Talk quietly. 都有 quietly，前者是“做事别出声”，后者是“说话小点声”；Keep to the right. 是“靠右走”，不是“保持右边干净”。祈使句和陈述句也要分家——He is talking in the library. 是陈述句，只描述“他正在图书室讲话”；要给出规则，就得换成祈使句 Talk quietly.",
+        "祈使句是往后一切“规则与提示”文字的钥匙：班规、公告牌、说明书里的注意事项，大多用它写。养成一个小习惯：出门看到英文标识先自己默读一遍、猜猜意思，再想办法确认——猜得多了，No… 这类禁止标识就成了你的老朋友。"
+      ],
+      "methods": [
+        {
+          "name": "口令三看法",
+          "steps": [
+            "看句首是不是动词原形：work、keep、talk、take",
+            "找主语：没有主语的句子多半是祈使句，“你”被省略了",
+            "定语气：肯定句说该做什么，禁止就加 Don't，想客气再加 please"
+          ],
+          "tip": "原形开头当口令，Don't 一加就变禁令。"
+        },
+        {
+          "name": "场景配对法",
+          "steps": [
+            "先想场景：图书室、课堂、桥上、游乐设施前",
+            "再挑规则：图书室→Talk quietly.，桥上→Keep to the right.，抢着玩→Take turns.",
+            "把行为句和规则句配成对，各读两遍记牢"
+          ],
+          "tip": "先看场合，再挑口令。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "图书室里有位同学在大声说话，你想提醒他，用哪句最合适？",
+          "solution": "Talk quietly.（小声讲话）——想更礼貌可以说 Talk quietly, please.",
+          "difficulty": 1,
+          "pitfall": "别说成 Work quietly.，那是提醒“做事别打扰别人”；对方在聊天，该管的是说话音量。"
+        },
+        {
+          "question": "下面哪一句是祈使句？A. They're eating lunch. B. Keep your desk clean. C. She is listening to music.",
+          "solution": "B——以动词原形 keep 开头，句中没有主语；A 和 C 都是“谁正在做什么”的陈述句。",
+          "difficulty": 2,
+          "pitfall": "句子里有动词不代表是祈使句，关键看动词是不是“原形开头”。"
+        },
+        {
+          "question": "游乐场的滑梯前，几个小朋友挤成一团抢着玩，管理员该说哪句？",
+          "solution": "Take turns.（按顺序来）——提醒大家轮流、守秩序。",
+          "difficulty": 2,
+          "pitfall": "Take turns 强调“轮流”，不是催“快一点”，也不是“别玩”。"
+        }
+      ],
+      "mistakes": [
+        "把祈使句说成 You work quietly.——主语多余；祈使句直接用动词原形开头，you 要省略。",
+        "否定写成 Not run 或 No run；表禁止用 Don't + 动词原形，如 Don't run.",
+        "混淆 Work quietly. 和 Talk quietly.：一个管做事、一个管说话，选错就提醒错了对象。",
+        "看到标识 No eating! 误以为是“没有吃的”；No + doing 是“禁止做某事”的固定结构。"
+      ],
+      "source": {
+        "unit": "Unit 6 Work quietly!",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句是祈使句？",
+          "options": [
+            "He is talking in the library.",
+            "Keep your desk clean.",
+            "We are playing a game."
+          ],
+          "answer": "B",
+          "solution": "keep 是动词原形、开头无主语，正是口令式的祈使句；另外两句有主语，在描述“谁正在做什么”。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P56·开篇场景（Zoom! Keep your desk clean! / Work quietly!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "行为配规则：下面哪种行为最该收到“Keep to the right.”这句提醒？",
+          "options": [
+            "在桥上并排乱走的一群人",
+            "在图书室里大声聊天的人",
+            "抢着荡秋千的两个孩子"
+          ],
+          "answer": "A",
+          "solution": "Keep to the right. 是“靠右走”，正适合桥上通行的人；大声聊天对应 Talk quietly.，抢秋千对应 Take turns.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P62·行为配规则（They are walking on a bridge. → Keep to the right.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "标识理解变式：餐厅墙上贴着标识 No eating!，下面理解正确的是？",
+          "options": [
+            "禁止吃东西",
+            "没有食物卖了",
+            "请安静用餐"
+          ],
+          "answer": "A",
+          "solution": "No + doing 表示“禁止做某事”，No eating! 就是“禁止吃东西”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P61·公共标识变式（Quiet, please! / Work quietly! / No eating!）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小小规则设计师：给你的书房或教室角落写两条英文规则——一条用肯定祈使句（如 Keep… / Work…），一条用 Don't 否定句。",
+          "answer": "示例——Keep your desk clean. / Don't eat in the reading corner.",
+          "solution": "先想这个场合最容易出的问题，再把“该做什么”写成肯定句、“不该做什么”写成 Don't 句。写好贴出来，你就是这个角落的规则小主人。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_08",
+      "summary": "ch、sh、th、wh、ng 五个字母组合各有发音暗号，th 还分清浊两读——three 咬舌送气，this 振动声带。",
+      "explanation": [
+        "书上分几次把五个字母组合的例词集中呈现——ch 发 /tʃ/：China、Chinese、children、chicken、lunch、teacher；sh 发 /ʃ/：she、sheep、shirt、shorts、fish、fresh；th 一音两读，清音 /θ/：three、thin、thirteen、third、fifth、maths、birthday，浊音 /ð/：this、that、mother、father、brother、there；wh 也两读，发 /w/：what、when、where、white、wait，发 /h/：who、whose；ng 发鼻音 /ŋ/：sing、song、long、ring、young、thing、morning，nk 组合则在 /ŋ/ 后带一个 /k/：thank、think、drink、pink、trunk。",
+        "字母组合就是几个字母手拉手只出一个音。/θ/ 像轻轻给舌尖吹气，声音里不带「嗡嗡」声；/ð/ 是它的有声版本，读时喉咙要振动；/ʃ/ 就是让人安静的「嘘——」；/ŋ/ 像哼歌时鼻腔里的余音，收尾时舌头后部抬起来抵住上颚。掌握了这些「暗号」，见到生词就能猜个八九不离十。",
+        "三步读法：第一步圈出单词里的组合字母；第二步查类别——th 记两条队伍，three、maths、birthday 这类读清音 /θ/，this、that 和家人称呼 mother、father、brother 这类读浊音 /ð/；wh 记特殊户，who、whose 发 /h/，其余多发 /w/；第三步整词连读再造句，如 I sing a long song in the morning.（一句里四个 /ŋ/）。",
+        "最容易混的是 th 清浊：three、this 同一个开头却是两个音——three 清音送气，this 浊音带声；判断不准就把手指放在喉咙上，能感到振动的是浊音。who、whose 别照 /w/ 规律读；sing 的 ng 和 thank 的 nk 只差一个 k，一个纯鼻音收尾、一个鼻音后补爆破；ch 组合要一发到位，别把 teacher 拆成逐字母的拼读。",
+        "语音规律是拼写的杠杆：听到 /ʃ/ 想到 sh，就能写出 sheep、fish；听到 /ŋ/ 想到 ng，sing、long 不易拼错。以后遇到新组合也走同一条路——先收集例词找规律，再单独记例外；朗读时把咬舌音、鼻音读准，说出来的英语才自然，也为初中系统学音标铺路。"
+      ],
+      "methods": [
+        {
+          "name": "th 清浊对照法",
+          "steps": [
+            "清音 /θ/ 队伍：three、thin、thirteen、third、fifth、maths、birthday，舌尖轻咬、送气不出声",
+            "浊音 /ð/ 队伍：this、that、mother、father、brother、there，舌尖轻咬、声带振动",
+            "自查：手指放喉咙，读浊音能感到嗡嗡振动"
+          ],
+          "tip": "口诀：数词多清、代词称呼多浊，th 咬舌分两家。"
+        },
+        {
+          "name": "组合归音法",
+          "steps": [
+            "见生词先圈组合：ch、sh、th、wh、ng",
+            "对号入座：ch /tʃ/、sh /ʃ/、wh /w/（who、whose 例外发 /h/）、ng /ŋ/（nk 多一个 /k/）",
+            "把例词各读三遍，再自造一句：I sing a long song in the morning."
+          ],
+          "tip": "口诀：ch 如「吃」，sh 如「嘘」，th 咬舌，ng 哼鼻。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "three、this、maths 三个词里，哪个 th 发浊音 /ð/？",
+          "solution": "this。three 和 maths 发清音 /θ/，this 是代词，发浊音 /ð/。",
+          "difficulty": 2,
+          "pitfall": "手放喉咙试试：读 this 时能感到声带振动，three 不会。"
+        },
+        {
+          "question": "who 和 what 的 wh 读音一样吗？",
+          "solution": "不一样。who 的 wh 发 /h/，what 的 wh 发 /w/。",
+          "difficulty": 2,
+          "pitfall": "who、whose 是例外词，别按 /w/ 读。"
+        },
+        {
+          "question": "sing、long、morning 里的 ng 和 thank 里的 nk 发音完全相同吗？",
+          "solution": "不完全相同：sing 等词的 ng 收在鼻音 /ŋ/；thank 是 nk，鼻音后面还有一个 /k/ 音。",
+          "difficulty": 3,
+          "pitfall": "nk 结尾别忘了补出 k 的爆破音。"
+        }
+      ],
+      "mistakes": [
+        "three 和 this 的 th 读成同一个音：three 是清音 /θ/ 送气，this 是浊音 /ð/，要振动声带。",
+        "who、whose 按一般规律读 /w/：这两个词的 wh 发 /h/，属于例外，要单独记。",
+        "把组合拆成单个字母读：sh 要一口气读出 /ʃ/，不能读成 s 加 h。",
+        "nk 结尾漏掉 /k/：thank、think 的鼻音后还有个轻快的 k 音，别只哼鼻音。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选出与 lunch 中 ch 发音相同的单词。",
+          "options": [
+            "teacher",
+            "sheep",
+            "fish"
+          ],
+          "answer": "A",
+          "solution": "lunch 和 teacher 里的 ch 都发 /tʃ/；sheep、fish 里没有 ch，是 sh 发 /ʃ/。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P26·ch/sh 例词（Chinese children a shirt and shorts fish for lunch China sheep chicken lunch shirt teacher）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪个单词的 th 发清音 /θ/？",
+          "options": [
+            "brother",
+            "birthday",
+            "that"
+          ],
+          "answer": "B",
+          "solution": "birthday 与 three、maths 同属清音组，th 咬舌尖送气 /θ/；brother、that 在浊音组，读时喉咙振动。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P40·th 例词（three thin thirteen maths birthday / this that mother father brother there）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "朗读判断：That is her brother. 这句话里两个 th 怎么读？",
+          "options": [
+            "都发浊音 /ð/",
+            "都发清音 /θ/",
+            "一个清音一个浊音"
+          ],
+          "answer": "A",
+          "solution": "That 和 brother 都在浊音组里，读时舌尖轻咬、喉咙振动。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P40·th 例句（That is her brother. Thursday is his eleventh birthday.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "语音小侦探：从你学过的单词里找出 2 个含 sh、2 个含 th 的词，给每个词标出发音（/ʃ/ 或 /θ/、/ð/），并读给家长听。",
+          "answer": "示例：sh——sheep /ʃ/、fish /ʃ/；th——three /θ/、this /ð/。",
+          "solution": "按圈组合、归类发音、出声朗读三步走，读错的记进纠音本下次再练。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_09",
+      "summary": "用 Which season do you like best? 聊四季、because 说理由，再用 When is your birthday? 把生日报清楚。",
+      "explanation": [
+        "书上两套问答可以拼成一个“话题百宝箱”。聊季节：Which season do you like best? — Autumn. Why? — Because the colours are pretty! 还有理由更足的说法：I like winter because I can play in the snow. 配套的活动短语随季节取用：go on a picnic / go swimming / pick apples / make a snowman / play in the snow / plant flowers / eat ice cream。聊生日：When is your birthday? — My birthday is on April 4th. 也可以只说月份：My birthday is in May.",
+        "把四季想象成四位性格不同的朋友：介绍任何一位都要说三件事——叫什么名字、你为什么喜欢他、你们常一起做什么。生日问答则像查日历：问一句 When is your birthday?，对方就在自己的“人生日历”上找到那一天报出来。两套对话一拼，聊天的素材立刻多了一倍。",
+        "介绍最爱的季节有个“三件套”句式：句一报名字 I like winter best.；句二讲理由 I like winter because I can play in the snow.——because 后面要接一个完整的小句子；句三补活动 I often make a snowman with my friends.。聊生日记牢介词分工：只说月份用 in（My birthday is in May.），说到几月几号用 on（My birthday is on May 12th.）。",
+        "易混点逐个排雷：because 后面必须跟完整句子，不能只扔一个词；如果后面想接名词短语，要说 because of，比如书上的 I like summer best because of Children's Day.——of 后面是节日名。in 和 on 别装反：in 管月份，on 管具体某天。回答生日也别漏介词：My birthday is on April 4th. 里的 on 不能丢。",
+        "这两套问答是“小采访”的底子：先问季节再问生日，两轮问答就能拼出一位同学的“季节生日档案”。以后做班级日历、编节日小报，用的还是同一套功夫——because 把理由说清楚，in/on 把时间说准确。"
+      ],
+      "methods": [
+        {
+          "name": "季节三件套",
+          "steps": [
+            "句一报名字：I like … best.",
+            "句二给理由：… because I can … 或 … because the colours are pretty.",
+            "句三补活动：I often … with my family."
+          ],
+          "tip": "名字、理由、活动，三句介绍不落空。"
+        },
+        {
+          "name": "生日日历问答法",
+          "steps": [
+            "问：When is your birthday?",
+            "答：先选介词——只说月份用 in，说到日期用 on",
+            "加分：补一句节日联想，如 My birthday is near Children's Day."
+          ],
+          "tip": "in 管月份，on 管日子。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同学问 Which season do you like best? 你最喜欢冬天，因为能在雪里玩。怎么答最完整？",
+          "solution": "Winter. I like winter because I can play in the snow.——先报季节，再用 because 把理由说全。",
+          "difficulty": 1,
+          "pitfall": "只答一个 Winter. 对话就断了；because 后面记得接完整的句子。"
+        },
+        {
+          "question": "填介词：My birthday is ___ May. / My birthday is ___ May 20th.",
+          "solution": "第一空填 in——只说月份；第二空填 on——说到具体日期。",
+          "difficulty": 2,
+          "pitfall": "两个介词最容易装反：in 管月份，on 管具体某天。"
+        },
+        {
+          "question": "把“秋天摘苹果、去野餐”两个活动连成一句介绍。",
+          "solution": "I often pick apples and go on a picnic in autumn.——用 and 连接两个活动短语，再补上季节。",
+          "difficulty": 2,
+          "pitfall": "别漏掉 in autumn 这样的时间短语，活动才有“季节归属”。"
+        }
+      ],
+      "mistakes": [
+        "because 后面只跟词组，如 I like winter because snow.；要接完整句子 I can play in the snow.",
+        "in 和 on 混用：in May 12th、on May 都不对；月份用 in，具体日期用 on。",
+        "介绍季节只报名字不给理由，别人不知道你为什么喜欢；加一句 because 介绍立刻立体。",
+        "问生日用错疑问词；问时间要用 When is your birthday?，不能用 What。"
+      ],
+      "source": {
+        "unit": "Unit 2/4 综合任务",
+        "pages": [
+          12,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全句子：I like winter because ___.",
+          "options": [
+            "I can play in the snow.",
+            "it is just a season.",
+            "I like apples."
+          ],
+          "answer": "A",
+          "solution": "because 后面接完整的理由句；在雪里玩正是冬天特有的活动。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P19·四季语篇（I like winter because I can play in the snow.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—When is your birthday? 下面哪个回答是正确的？",
+          "options": [
+            "My birthday is in April 4th.",
+            "My birthday is on April 4th.",
+            "My birthday is at April 4th."
+          ],
+          "answer": "B",
+          "solution": "生日在具体某一天要说 on + 月份 + 日期；in 用于月份，at 不这样用。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P41·生日对话（When is your birthday? My birthday is on April 4th.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "季节介绍排序：把打乱的四个句子排成一段完整的介绍。① I like spring best. ② Because there are beautiful flowers everywhere. ③ I often go on a picnic with my family. ④ Spring is a pretty season!",
+          "options": [
+            "②①④③",
+            "①③②④",
+            "①②③④"
+          ],
+          "answer": "C",
+          "solution": "按介绍套路走：先报名字（①）→再说 because 理由（②）→然后补活动（③）→最后一句感受收尾（④）。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五下 P18·四季活动短语变式（go on a picnic / beautiful flowers everywhere）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小小档案员：采访一位家人，问 When is your birthday? 和 Which season do you like best? Why? 记下答案，再用三句话做出这位家人的“季节＋生日”档案。",
+          "answer": "示例——Mum likes summer best because she can go swimming. Her birthday is in July. I will make a card for her birthday.",
+          "solution": "两轮问答先记关键词，再用 I like… because… 和 Her/His birthday is in… 串起来。这套“提问—记录—汇总”的功夫，以后做全家节日日历正好用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_10",
+      "summary": "读说明语篇三步走：读前猜大意、读中划关键、读后回原文找证据，公共标识一眼读懂。",
+      "explanation": [
+        "书上的阅读语篇有两类。一类是说明性小语篇：写四季的短文里有这样的句子——I like spring because there are beautiful flowers everywhere. The leaves fall and fall and fall. I love fall!；一封来自悉尼的邮件写道：It is autumn in April here in Sydney. Autumn is my favourite season! It is warm in the day and cool at night.。另一类是公共规则与标识：Quiet, please! / Work quietly! / Talk quietly! / Keep your desk clean! / No eating!。每篇语篇后面都跟着问答题、判断题或补全句子任务。",
+        "读说明文像逛科技馆：先在门口看总介绍，知道整个馆讲什么（大意）；再一间展厅一间展厅看过去，把有趣的细节记下来。公共标识则像“纸上的交通灯”：No 开头的是红灯——禁止做某事；动词原形加叹号的是绿灯——提醒你该怎么做。扫一眼就要明白，这才是标识的本领。",
+        "三步读法练起来：第一步读前——看标题和首句，猜猜文章讲谁、讲什么事；第二步读中——动笔划关键信息：时间、地点、because 后面的理由、数字；第三步读后——每道题都回原文找到那一句，指着原句再选答案，指不到就重读相关句子。",
+        "两个经典陷阱要提防。一词多义：语篇里 The leaves fall and fall and fall. 前三个 fall 是“落下”，结尾 I love fall! 的 fall 却是“秋天”（美式说法）——所以问最后一个 fall 的意思，答案是 autumn，不是“可爱”或“凉爽”。偷换时间：邀请函写 WHEN: April 12th, 7 p.m.，又写 Please send an email by March 23rd.——4 月 12 日才是活动时间，3 月 23 日只是回邮件的截止日期，by 是“在……之前”。",
+        "说明文是将来读科学读物、新闻报道的雏形，标识理解是出门看世界的基本功。把“预测—抓信息—找证据”练成习惯，以后文章再长也不慌：先搭出大意骨架，再一块块填细节，答案永远在原文里有据可查。"
+      ],
+      "methods": [
+        {
+          "name": "三步读篇法",
+          "steps": [
+            "读前：看标题和首句，猜猜文章讲谁、讲什么事",
+            "读中：动笔划关键——时间、地点、because 理由、数字",
+            "读后：每道题回原文指到那一句，再落笔"
+          ],
+          "tip": "一猜、二划、三对证。"
+        },
+        {
+          "name": "标识破译法",
+          "steps": [
+            "看结构：No + doing 是禁止，动词原形加叹号是提醒怎么做",
+            "心里翻成中文默念一遍",
+            "配一个场景记牢，如 No eating! → 图书室里"
+          ],
+          "tip": "No 开头是禁令，原形开头是口令。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇里写道：I like winter because I can play in the snow. 作者喜欢冬天的理由是什么？",
+          "solution": "能在雪里玩——because 后面就是作者自己给的理由。",
+          "difficulty": 1,
+          "pitfall": "别只看到 snow 就乱选；because 引导的从句才是理由所在。"
+        },
+        {
+          "question": "邀请函上写着 WHEN: April 12th, 7 p.m. 和 Please send an email by March 23rd. 派对什么时候开始？",
+          "solution": "4 月 12 日晚 7 点——WHEN 后面的日期才是活动时间；3 月 23 日只是回复邮件的截止日期。",
+          "difficulty": 2,
+          "pitfall": "别把 by March 23rd 当成派对时间；by 表示“在……之前”。"
+        },
+        {
+          "question": "图书室门口贴着 Quiet, please! 这是什么意思？",
+          "solution": "请安静——quiet 是“安静的”，please 让语气更客气。",
+          "difficulty": 1,
+          "pitfall": "别看成“慢慢走”或“保持干净”；“安静”对应 quiet，“干净”对应 clean。"
+        }
+      ],
+      "mistakes": [
+        "读完一遍就凭印象答题；答案必须回原文找到那句话，指不出来就重读。",
+        "把 fall 只理解成“落下”，读不懂结尾的 I love fall!；它还有“秋天”的意思，要靠上下文选。",
+        "把邀请函里的截止日期当成活动日期；WHEN 才是时间，by 表示“在此之前”。",
+        "看到标识只认识单词、拼不出意思；No + 动词-ing 是固定的禁止结构，要整体理解。"
+      ],
+      "source": {
+        "unit": "各单元 Read and write",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "四季语篇的结尾说：Robin likes them all! 那么 Robin 喜欢的季节是？",
+          "options": [
+            "只有冬天",
+            "四个季节都喜欢",
+            "只喜欢春天"
+          ],
+          "answer": "B",
+          "solution": "them 指前文提到的四季，likes them all 就是“全都非常喜欢”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P19·四季语篇（The leaves fall and fall and fall. I love fall! / Robin likes them all!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "邀请函的 WHAT 一栏写着：You will play games. You will read riddles. You will act out stories. 下面哪项活动没有提到？",
+          "options": [
+            "玩游戏",
+            "读谜语",
+            "唱歌跳舞"
+          ],
+          "answer": "C",
+          "solution": "WHAT 一栏列了玩游戏、读谜语、表演故事三项，没有提到唱歌跳舞。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P29·英语派对邀请函（You will play games. You will read riddles. You will act out stories.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "标识理解变式：在电影院，大猩猩吃着爆米花响声太大，老虎指着标识说：Shh! Talk quietly! 这个标识的意思是？",
+          "options": [
+            "小声交谈",
+            "快点离开",
+            "保持桌面整洁"
+          ],
+          "answer": "A",
+          "solution": "talk quietly 就是“小声讲话”；“保持桌面整洁”是另一句 Keep your desk clean.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P65·影院故事变式（Look at the sign. Shh! Talk quietly!）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "带着问题读：先读小日记的开头 My cat has two new kittens. They are pink because they are very young. 预测后面的日记会写小猫的什么变化；再读这几句验证——They have white fur now. Their eyes are open! The kittens can walk now. 用一句话说说你的预测准不准。",
+          "answer": "示例——我猜日记会接着写小猫慢慢长大，果然：长出白毛、睁开眼睛、学会走路，都是长大的变化。",
+          "solution": "读前预测、读中验证是读长文章的好习惯；猜错了也没关系，回原文找证据修正猜测，这正是阅读的乐趣。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_11",
+      "summary": "写 My favourite season 有五句模板：季节名、天气、because 理由、活动、感受，动笔先列提纲。",
+      "explanation": [
+        "书上的四季语篇就是现成的范文骨架，原句可以直接借鉴。天气句：Spring is green with flowers and songs. Summer is hot and the days are long. Autumn is golden and farmers are busy. Winter is white and the year is gone. 理由句：I like spring because there are beautiful flowers everywhere. I like winter because I can play in the snow. 语篇后还留了半成品等你补全：I like ___ best because ___. 把这些句子拼一拼，“我最爱的季节”的模子就有了。",
+        "五句话像搭积木：第一块放季节名字，第二块放天气，第三块放 because 理由，第四块放活动，第五块放感受。五块搭好，短文既不会跑题，也不会写到一半没话可说。先在心里把五块积木码整齐，再动笔——这就是“先提纲、后成文”。",
+        "动笔分三步：第一步列提纲——在草稿上写五个关键词（季节、天气、理由、活动、感受）；第二步按模板成句——My favourite season is winter. / It is cold and it often snows. / I like winter because I can play in the snow. / I often make a snowman with my friends. / I am very happy in winter! 第三步查规范——每句首字母大写、句末加标点、because 前后都是完整的句子。",
+        "书写规范上有几处容易栽跟头：句子开头的字母要大写；月份名的首字母要大写（May、June），但季节词不用——写 spring、winter，不写 Spring；句末别忘了句号，问句才用问号。because 连接的两个分句各自都要完整，不能写成 I like winter because play in the snow.——少了主语和 can，句子就断了。",
+        "“列提纲—套模板—查规范”是所有写话的万能骨架：写我的周末、我的城市、我的朋友都能套用。写完别急着交，出声读一遍给家人听，哪里不顺口就改哪里——好文章都是改出来的。"
+      ],
+      "methods": [
+        {
+          "name": "五句提纲法",
+          "steps": [
+            "草稿上写五个关键词：季节名、天气、because 理由、活动、感受",
+            "每个关键词扩成一句话，按模板顺序排好",
+            "通读一遍，检查首字母大写和句末标点"
+          ],
+          "tip": "五块积木搭一搭，短文不垮架。"
+        },
+        {
+          "name": "范文借句法",
+          "steps": [
+            "借天气句换内容：Summer is hot and the days are long. → Autumn is cool and the leaves are golden.",
+            "借理由句换主角：I like … because I can …",
+            "只借句型不抄整篇，换成自己的季节和活动"
+          ],
+          "tip": "借骨架不借血肉，写出来才是自己的。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "给“冬天”补一句理由：I like winter because ___.",
+          "solution": "I can play in the snow.——because 后面接“我能做什么”的完整小句。",
+          "difficulty": 1,
+          "pitfall": "少了主语和 can，句子就不完整；不能只写 play in the snow."
+        },
+        {
+          "question": "把关键词 winter / cold / snow 扩成一句天气句。",
+          "solution": "Winter is cold and it often snows. 也可以写 It is cold in winter and there is lots of snow.",
+          "difficulty": 2,
+          "pitfall": "只写一个 Cold. 不成句；天气句要有主语和动词。"
+        },
+        {
+          "question": "找找这句短文开头有什么书写问题：i like Spring best.",
+          "solution": "两处错：句首的 i 应大写成 I；季节词 spring 不需要大写，应写 i like spring best. 改正后为 I like spring best.",
+          "difficulty": 2,
+          "pitfall": "月份名才要首字母大写，季节词不大写，别混在一起。"
+        }
+      ],
+      "mistakes": [
+        "不列提纲提笔就写，写到第三句就没话了；先写五个关键词再成文。",
+        "句首字母忘了大写、句末漏了句号；每写完一句回头检查一次。",
+        "把季节词写成大写 Spring；首字母大写是月份和人名的规矩，spring、winter 不用。",
+        "because 后面丢三落四，如 I like winter because snow.；要接完整句子，主语谓语一个不能少。"
+      ],
+      "source": {
+        "unit": "Unit 2 写作任务",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全写作句：I like spring best because ___.",
+          "options": [
+            "I can make a snowman.",
+            "there are beautiful flowers everywhere.",
+            "it is very hot."
+          ],
+          "answer": "B",
+          "solution": "春天的理由配“到处都是美丽的花”；堆雪人是冬天的事，天太热是夏天的事。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P19·补全句子（I like ___ best because ___.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "想写“夏天很热、白天很长”，借用学过的句子该选哪句？",
+          "options": [
+            "Summer is hot and the days are long.",
+            "Winter is white and the year is gone.",
+            "Autumn is golden and farmers are busy."
+          ],
+          "answer": "A",
+          "solution": "这一句正是写夏天天气热、白昼长；另外两句分别写冬天和秋天。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P15·四季小诗（Spring is green with flowers and songs. Summer is hot and the days are long.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "五句成篇排序：把打乱的五个句子排成一篇“我最爱的季节”。① My favourite season is winter. ② I am very happy in winter! ③ It is cold and it often snows. ④ I often make a snowman with my friends. ⑤ I like winter because I can play in the snow.",
+          "options": [
+            "①③⑤④②",
+            "③①②④⑤",
+            "①⑤③④②"
+          ],
+          "answer": "A",
+          "solution": "按模板走：季节名（①）→天气（③）→because 理由（⑤）→活动（④）→感受收尾（②）。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五下 P18·季节活动变式（make a snowman / play in the snow）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "先提纲后成文：给自己最喜欢的季节列五个关键词（季节、天气、理由、活动、感受），照五句模板写一小段，写完检查首字母大写和句末标点。",
+          "answer": "示例——My favourite season is autumn. / It is cool and the leaves are golden. / I like autumn because the colours are pretty. / I often pick apples with my grandpa. / I am very happy in autumn!",
+          "solution": "提纲列得快，成文才不慌；“列提纲—套模板—查规范”三步走，以后写任何小短文都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_12",
+      "summary": "书末词汇表分四会词和认读词两档，自查靠默写、V-ing 变形和语篇填空三招过关。",
+      "explanation": [
+        "书末的词汇总表把词分了两档：一类要求“听、说、读、写”四会，另一类只要求“听、说、认读”。四会词有：eat breakfast（吃早饭）、do morning exercises（做早操）、play sports（进行体育运动）、spring / summer / autumn / winter（四季）、season（季节）、go on a picnic（去野餐）、pick apples（摘苹果）、make a snowman（堆雪人）、go swimming（去游泳）、January 到 December 十二个月份、first / second / third 等序数词、mine / yours / his / hers / ours / theirs（名词性物主代词）、climbing / eating / playing / jumping / drinking / sleeping（动词 -ing 形式）、keep your desk clean、talk quietly、take turns；认读词有 because、vacation、paint、lovely 等。分课词汇之后还有按字母排序的总表和常用表达法，全册累计约 430 个词。",
+        "词汇表像超市货架：四会区是“必买清单”——不但要认识，还要能默写、会运用；认读区是“试吃区”——看到能读出意思就行。自查就是自己当收银员，把四会区的每个词挨个“扫码”：拼写对不对、变形会不会、放进句子里用不用得动，三关都过才算真掌握。",
+        "三招自查法：第一招默写——合上书，看中文写英文，比如“堆雪人”要能写出 make a snowman，错词抄进错词盒；第二招变形——把动词变 -ing 形式，核对三条规则：直接加（sleep→sleeping）、去 e 加（make→making）、双写加（run→running）；第三招语篇填空——做这样的填空：It is 9 p.m. They ___ now, but they often go to bed at 10 p.m.（填 are sleeping），填得出、说得通，词才是真正会用了。",
+        "难词专区重点盯：February 的 -br- 别丢也别多，要一个字母一个字母过；序数词 1-3 特殊（first、second、third），整十变 -ieth（twentieth、thirtieth），twenty-one 只变个位（twenty-first），twelfth 是 ve 变 f 再加 th，不是 twelveth；物主代词 mine / yours 本身就含“……的”，后面不再接名词——my book 也可以说 the book is mine，但不能说 mine book。",
+        "给自己做一张三栏自查表：会写、会认、还不会。错词盒每天挑三个遮住英文回忆，周末清盒——全部过关才算出盒。这套“默写＋变形＋填空”的自查法练熟了，到了六年级词汇量翻倍的时候，你照样能三步过关。"
+      ],
+      "methods": [
+        {
+          "name": "三招自查法",
+          "steps": [
+            "第一招默写：看中文写英文，四会词一个不落",
+            "第二招变形：动词变 -ing，核对直接加、去 e 加、双写加三条规则",
+            "第三招填空：把词放进小语篇里用一用，通顺才算过关"
+          ],
+          "tip": "默写抓拼写，变形抓规则，填空抓运用。"
+        },
+        {
+          "name": "错词盒管理法",
+          "steps": [
+            "默写错的词抄进错词盒，旁边写上中文意思",
+            "每天挑三个，遮住英文凭意思回忆",
+            "周末清盒：全对了才准出盒"
+          ],
+          "tip": "错词不清盒，周末不过关。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "词汇表里 spring、because、vacation 三个词，哪个要求达到听、说、读、写四会？",
+          "solution": "spring——四季词属于四会档；because 和 vacation 只要求听到能认读。",
+          "difficulty": 1,
+          "pitfall": "别以为长词才要四会；分级看的是词汇表上的要求，不是词的长短。"
+        },
+        {
+          "question": "把 sleep 变成 -ing 形式，并放进句子：It is 9 p.m. They ___ now.",
+          "solution": "are sleeping——they 配 are，sleep 双写 p 再加 -ing。",
+          "difficulty": 2,
+          "pitfall": "sleep 是重读闭音节（辅音＋元音＋辅音结尾），要双写末尾字母再加 -ing，不能写成 sleeping 少个 p。"
+        },
+        {
+          "question": "默写自查时写下了 Febuary，错在哪里？",
+          "solution": "漏了一个 r，正确拼写是 February（二月）——F-e-b-r-u-a-r-y，两个 r 都不能丢。",
+          "difficulty": 2,
+          "pitfall": "February 中间的 -br- 容易吞音吞字母，默写月份词要放慢速度逐个字母过。"
+        }
+      ],
+      "mistakes": [
+        "只会认不会写，把认读词和四会词混为一谈；先分清两档，再安排复习时间。",
+        "run 的 -ing 写成 runing；重读闭音节要双写末尾辅音字母：running。",
+        "序数词写错：twelveth、twentith 都不对；twelfth、twentieth 要单独记。",
+        "把 mine 当形容词用，如 mine book；mine 单独用，my 后面才接名词。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          72,
+          80
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇总表里，下面哪个词要求达到“听、说、读、写”四会？",
+          "options": [
+            "winter",
+            "because",
+            "vacation"
+          ],
+          "answer": "A",
+          "solution": "四季词 winter 是四会档；because、vacation 只要求听、说、认读。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P72·词汇表（spring、summer、autumn、winter、season 等四会词）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语篇填空：It is 9 p.m. They ___ now, but they often go to bed at 10 p.m.（用 sleep 的正确形式）",
+          "options": [
+            "sleep",
+            "sleeps",
+            "are sleeping"
+          ],
+          "answer": "C",
+          "solution": "“此刻正在睡”要用 be + V-ing；they 配 are，sleep 双写 p 加 -ing。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P74·词汇表（sleeping、drinking、climbing 等动词 -ing 形式词）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "月份词默写自纠变式：下面三个月份词，哪个拼写完全正确？",
+          "options": [
+            "Febuary",
+            "February",
+            "Febrary"
+          ],
+          "answer": "B",
+          "solution": "February 由 Febru- 和 -ary- 组成，中间的 -br- 和结尾的 -ry 里的 r 都不能丢。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P73·词汇表月份词变式（January–December 默写自纠）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "全册词汇终极自查：合上书默写 10 个四会词（至少含一个季节词、一个月份词、一个 -ing 形式词），再用 why 各造一个疑问句。",
+          "answer": "示例——默写：winter / February / sleeping / eat breakfast / take turns / mine / theirs / season / pick apples / go swimming；造句：Why do you like winter?",
+          "solution": "默写抓四会、造句抓运用；这套自查法到词汇量翻倍的时候，照样三步过关。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5b_13",
+      "summary": "读英语遇到生词别慌：看图、抓上下文线索、拆熟词三招猜词义，猜完再放回原句检验。",
+      "explanation": [
+        "这部分把散在各处的阅读语篇当练兵场。小猫日记：My cat has two new kittens. They are pink because they are very young. They still can't see. The kittens are six days old. They make noises when they are hungry. They have white fur now. They are cute.——kittens、noises、fur 都是生词，可阅读任务照做不误。动物园语篇：Sarah and Robin are at the zoo. Robin is excited! I'm looking at a bear. I'm dancing like a bear.。机器人语篇：The world robot exhibition 里，Asako is making sushi.——sushi 没学过也能猜出个大概。三篇的共同点是：图在旁边，线索就藏在前后句里。",
+        "读英语故事像侦探破案：生词是『案子』，线索藏在三处——插图里、前后句里、单词自己身体里。小猫日记配着图，图上两只粉色小猫一望而知 kittens 是『小猫』；『因为它们很小，所以是 pink 的』，because 后面就藏着解释。猜词不是认输的退路，而是高手的基本功——英语国家的孩子读新故事，也在一路猜着往下读。",
+        "猜词三步走：第一步看图，把图上的东西和生词一一对号（两只粉色小猫→kittens 小猫）；第二步读前后句找线索，because、when、so 后面常跟着解释——They make noises when they are hungry.，小猫饿了会叫，noises 就是『叫声』，fur 就是小猫身上长出的『毛』；第三步拆单词，认出熟词加 s 或 ing——kitten+s 是小猫们，colour+ing 是正在涂色（She is colouring at her desk.）。猜完把意思放回原句通读一遍，通顺才算猜对。",
+        "猜词不等于瞎猜：线索不够就再多读一句，全段读完还猜不出，先跳过接着往下读，大意在手再回头补；猜出的意思要过两道检验——放回原句通不通、和图和生活对不对得上（fur 猜成『毛』原句就通，猜成『帽子』就讲不通）。还有一点：生词不妨碍懂大意时，别急着停下来查词典，一路打断反而丢了对全篇的感觉。",
+        "猜词是自主阅读的钥匙：以后读英语分级读物、做阅读理解题，生词永远都在，这三招一路管用；读的书越厚，拆词法还会升级成词根词缀的高阶版。每天挑一小段英语读一读，遇到生词先猜再验，词汇量就在不知不觉里滚雪球。"
+      ],
+      "methods": [
+        {
+          "name": "看图对词法",
+          "steps": [
+            "先读插图再读文字，图上的东西和生词一一对号",
+            "小猫日记的配图画着两只粉色小猫，kittens 一望而知",
+            "图上找不到的词，转第二招"
+          ],
+          "tip": "图是第一线索库，先看图再读句。"
+        },
+        {
+          "name": "前后句找线索法",
+          "steps": [
+            "生词前后常藏着 because、when、so 带出的解释句",
+            "They make noises when they are hungry.——饿了会叫，noises 是叫声",
+            "Robin is excited!——在动物园看动物的那股高兴劲儿，excited 是兴奋的"
+          ],
+          "tip": "because 后面，经常藏着答案。"
+        },
+        {
+          "name": "拆词认亲法",
+          "steps": [
+            "把生词拆成熟词加词尾：kitten+s、colour+ing",
+            "She is colouring at her desk.——colour 学过，colouring 就是正在涂色",
+            "拆完放回原句读一遍，通顺就算认对"
+          ],
+          "tip": "拆一拆，熟词里认出它。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "小猫日记：They are pink because they are very young. 不认识 pink。用 because 后面的线索猜一猜它的意思。",
+          "solution": "pink 是『粉色的』——刚出生的小猫嫩嫩的，常常是粉色，放回原句正通顺。",
+          "difficulty": 1,
+          "pitfall": "抛开 because 瞎猜一个意思——线索就在后半句里。"
+        },
+        {
+          "question": "They make noises when they are hungry.（小猫饿了）noises 是什么意思？",
+          "solution": "叫声、响声。小猫饿了会发出声音，when 后面的 hungry 就是线索。",
+          "difficulty": 2,
+          "pitfall": "只盯着 noises 干着急——先读 when 引导的那半句。"
+        },
+        {
+          "question": "She is colouring at her desk.（她在桌上涂涂画画）colour 学过是『涂色』，colouring 呢？",
+          "solution": "正在涂色。colour + ing，拆开就认出来了。",
+          "difficulty": 2,
+          "pitfall": "当成新词死记硬背——先拆一拆，跟熟词认个亲。"
+        }
+      ],
+      "mistakes": [
+        "一见生词就停下或马上查词典：先读完整段，大意在手再回头猜。",
+        "猜完不检验：把猜的意思放回原句通读一遍，不通顺就要换一个猜法。",
+        "只盯生词本身：线索多藏在前后句和插图里，抬头看路别埋头抠词。",
+        "把阅读当翻译：不必每个词都翻成中文，读懂故事大意就算赢。"
+      ],
+      "source": {
+        "unit": "各单元 Read and write",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇细节：小猫日记里写 Their eyes are open! 小猫们的眼睛是哪一天睁开的？",
+          "options": [
+            "April 26th",
+            "April 21st",
+            "April 15th",
+            "May 3rd"
+          ],
+          "answer": "A",
+          "solution": "日记第三篇标着 April 26th：Their eyes are open! They are blue.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五下 P43·April 26th Their eyes are open! They are blue.（小猫日记语篇）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "上下文猜词：机器人语篇里 Asako is making sushi. 结合『Asako 是日本名字，making 是正在做』，sushi 最可能是什么？",
+          "options": [
+            "一种食物",
+            "一种乐器",
+            "一个节日",
+            "一项运动"
+          ],
+          "answer": "A",
+          "solution": "前一句 I'm cooking rice. 在做饭，making sushi 自然也是『做食物』——sushi 是寿司。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P63·Yes. I'm cooking rice. Asako is making sushi.（机器人语篇）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "猜词方法选择变式：读到 They make noises when they are hungry.，不认识 noises。下面哪种做法最聪明？",
+          "options": [
+            "跳过整段，不读了",
+            "把单词抄写十遍再猜",
+            "读前后句找线索：小猫饿了会发出声音，猜 noises 是『叫声』",
+            "断定这篇文章读不懂，放弃"
+          ],
+          "answer": "C",
+          "solution": "when they are hungry（当它们饿了）就是线索：饿了会叫，noises 是叫声。猜完放回原句检验，正通顺。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五下 P43·They make noises when they are hungry.（小猫日记语篇）变式（猜词方法选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "课外小故事里读到：The bird is tired. It flies to its nest. 前一句说小鸟累了，用猜词三法想一想，nest 最可能是什么意思？",
+          "options": [
+            "一种食物",
+            "鸟的家（鸟巢）",
+            "一种玩具",
+            "一条小河"
+          ],
+          "answer": "B",
+          "solution": "累了要回家休息——上下文线索指向『鸟巢、鸟的家』。以后读整本的英文小书，就带着这三招一路闯关。",
+          "difficulty": 3
         }
       ]
     }
