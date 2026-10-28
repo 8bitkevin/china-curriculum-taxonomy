@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 144,
+  "lessonCount": 158,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -17989,6 +17989,1772 @@
           "question": "给自己排一张一周自查表：周一默写一个部分的黑体词，周三做变形三连测，周五做语篇填空；错词全收进错词本，下周一只默错词。坚持两轮后数一数：错词本是变厚了还是变薄了？",
           "answer": "变薄，说明词汇真正长在了你身上；不变薄，就把语篇填空加到每周两次。",
           "solution": "执行要点：默写遮英文、订正用红笔、错词三天后复测。错词本由厚变薄，就是自查生效的信号。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_01",
+      "summary": "用 What's the matter? 问病情，have a+病痛说症状，should 给建议——既会关心别人，也会照顾自己。",
+      "explanation": [
+        "开篇就是一组「健康问答」核心句：What's the matter? — I have a cold.／What's the matter? — I have a stomachache. 对话还补上病因：What's the matter with Judy? — She talked too much yesterday and didn't drink enough water. She has a very sore throat now. 听力配对把五个问题——fever、stomachache、cough and sore throat、toothache、cut myself——和五条医嘱一一对上：take your temperature（量体温）、lie down and rest（躺下休息）、drink some hot tea with honey（喝加蜂蜜的热茶）、see a dentist and get an X-ray（看牙医拍 X 光片）、put some medicine on it（上药）。角色扮演对话里，Lisa 说 I have a headache and I can't move my neck. What should I do? Should I take my temperature? Mandy 回答：You need to take breaks away from the computer. I think you should lie down and rest. 语法聚焦把问答收成一组：What's the matter with Ben? — He hurt himself. He has a sore back. — He should lie down and rest.／Does he have a toothache? — Yes, he does. — He should see a dentist and get an X-ray.／What should she do? — She should take her temperature.／Should I put some medicine on it? — Yes, you should.／No, you shouldn't.",
+        "这组句型其实就是一条「问诊流水线」：先问哪里不舒服，再说清症状，最后开一条医嘱。同学脸色发白趴在桌上，你一句 What's the matter? 就能打开话匣子；他用 I have a stomachache. 告诉你哪里疼；你再用 You should lie down and rest. 帮他想办法。身体部位词在这里全部派上用场：head 对 headache（头疼），stomach 对 stomachache（胃疼），tooth 对 toothache（牙疼）；throat（喉咙）、back（背）则和 sore 搭伙，组成 sore throat（嗓子疼）、sore back（背疼）。should 就像一位温和的小医生——语气坚定，但不是命令。",
+        "掌握三步问答法：第一步开口问——What's the matter (with you)? 或者 What's wrong?；第二步说症状——have a 加病痛，I have a headache.／I have a sore throat.，还可以追问 Do you have a fever?／Does he have a toothache?；第三步给建议——should 加动词原形，You should lie down and rest.／He should see a dentist and get an X-ray.，要劝阻就加 not：You shouldn't eat so much next time. 自己拿不准时，就用 Should I take my temperature? 这样的一般疑问句向别人求证。",
+        "易混点有三处。一是 -ache 与 sore 的摆法：headache、stomachache、toothache 是「身体部位+ache」合成的单词，sore throat、sore back 是 sore 放在部位前面，两种构词别混着改。二是反身代词：He hurt himself.／Jenny cut herself.／I hurt myself playing soccer.——受伤的人正是主语自己，宾语就要用 himself、herself、myself 这类反身代词「照镜子」。三是 should 问句的回答：Should I put some medicine on it? 肯定答 Yes, you should.，否定答 No, you shouldn't.——主语 I 问、you 答，should 必须带回答句里。",
+        "这套「问—答—建议」的骨架会一路用下去：后面谈烦恼时用 What's wrong? 开头，用 Why don't you…? 和 could 出主意，语气比 should 更商量；给同学写关心便条、提建议也都靠它。习惯上，每天留意身边人：谁咳嗽了、谁揉眼睛了，主动问一句 What's the matter?，再送一条靠谱的建议——语言就是在这些真实的关心里练熟的。"
+      ],
+      "methods": [
+        {
+          "name": "病痛问诊三步法",
+          "steps": [
+            "第一步开口问：What's the matter (with you)?／What's wrong?",
+            "第二步说症状：have a+病痛——I have a stomachache.／I have a sore throat.，可追问 Do you have a fever?",
+            "第三步给建议：should+动词原形——You should lie down and rest.；劝阻用 shouldn't——You shouldn't eat so much next time."
+          ],
+          "tip": "一问二答三建议，should 后面动词站原形"
+        },
+        {
+          "name": "病痛医嘱配对法",
+          "steps": [
+            "fever 发烧→take your temperature 量体温",
+            "stomachache 胃疼→lie down and rest 躺下休息；toothache 牙疼→see a dentist and get an X-ray 看牙医拍片",
+            "cough and sore throat 咳嗽嗓子疼→drink some hot tea with honey 喝加蜂蜜的热茶；cut myself 割伤→put some medicine on it 上药"
+          ],
+          "tip": "发烧量体温，牙疼找牙医，嗓子疼蜂蜜茶，割伤先上药"
+        },
+        {
+          "name": "反身代词照镜子法",
+          "steps": [
+            "判断受伤的是不是主语自己：我伤到自己→I hurt myself，他伤到自己→He hurt himself，她割到自己→She cut herself",
+            "单数反身代词：myself、yourself、himself、herself、itself；复数：ourselves、yourselves、themselves",
+            "常见搭配：hurt oneself 伤到自己、cut oneself 割到自己、enjoy oneself 玩得开心"
+          ],
+          "tip": "主语宾语同一人，反身代词来照镜子——you 配 yourself，he 配 himself"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选出最佳建议：Ben has a toothache. 他应该______。A. see a dentist and get an X-ray　B. drink some hot tea with honey　C. lie down and rest",
+          "solution": "选 A。语法聚焦原句：Does he have a toothache? — He should see a dentist and get an X-ray. 牙疼找牙医拍片；蜂蜜茶是给嗓子疼的，躺下休息是给胃疼的。",
+          "difficulty": 1,
+          "pitfall": "病痛要和医嘱对症配对——别张冠李戴，把牙疼的建议安到发烧头上。"
+        },
+        {
+          "question": "改错：—Should I take my temperature?　—No, you don't.",
+          "solution": "应改为 No, you shouldn't.。Should I…? 的否定回答是 No, you shouldn't.，要把 should 带回答句里，不能换成 don't。",
+          "difficulty": 2,
+          "pitfall": "回答 should 问句时丢掉 should——肯定用 should，否定用 shouldn't。"
+        },
+        {
+          "question": "选词填空：Lisa played computer games all weekend and now she can't move her neck. She ______ (should / shouldn't) take breaks away from the computer.",
+          "solution": "填 should。对话原话：You need to take breaks away from the computer.——久坐造成的脖颈僵硬，建议是离开电脑休息，用肯定形式 should。",
+          "difficulty": 2,
+          "pitfall": "分清建议与劝阻——该做的事用 should，不该做的事（吃太多、熬夜）才用 shouldn't。"
+        }
+      ],
+      "mistakes": [
+        "should 后面必须接动词原形：You should lie down and rest. 不能写成 should to lie down 或 should lying。",
+        "-ache 和 sore 两种病痛摆法不能混：headache、stomachache 是「部位+ache」合成一个词，sore throat、sore back 是 sore 放在部位前面，别自造 a sore throatache 这样的词。",
+        "反身代词要和主语一致：He hurt himself. 主语是 he 就配 himself；写成 He hurt herself 就成了「他伤到她自己」，闹笑话。",
+        "What's the matter (with you)? 里 matter 前有 the；也别和 What's wrong? 混写——wrong 前面不加任何词，说成 What's the wrong? 就错了。"
+      ],
+      "source": {
+        "unit": "Unit 1 What's the matter?",
+        "pages": [
+          1,
+          8
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "病痛选最佳医嘱：Jenny cut herself. 她应该怎么做？　A. get an X-ray　B. put some medicine on the cut　C. take her temperature",
+          "options": [
+            "get an X-ray",
+            "put some medicine on the cut",
+            "take her temperature"
+          ],
+          "answer": "B",
+          "solution": "选最佳医嘱原题：Jenny cut herself. — She should put some medicine on the cut. 割伤先上药；拍片是牙医的事，量体温是发烧的事。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P4·病痛选最佳医嘱（Jenny cut herself — She should put some medicine on the cut.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把词语排成给 Bob 的两句话（一句说病情，一句给建议）：a sore back / has / Bob / lie down and rest / should",
+          "answer": "Bob has a sore back. He should lie down and rest.",
+          "solution": "选最佳医嘱原题：Bob has a sore back. — He should lie down and rest.；语法聚焦同款：He has a sore back. — He should lie down and rest.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P4·病痛选最佳医嘱与语法聚焦（Bob has a sore back — He should lie down and rest.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：—What's the matter?　—I hurt ______ playing soccer. I have a sore leg.　—Oh, that doesn't sound good. I think you should see a doctor and get an X-ray.（填反身代词）",
+          "answer": "myself",
+          "solution": "对话原句：I hurt myself playing soccer. I have a sore leg. 主语是 I，受伤的是自己，用反身代词 myself。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P8·自测对话排序（I hurt myself playing soccer. I have a sore leg.）变式（反身代词补全）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "同桌今天咳嗽嗓子疼：你用 What's the matter? 开头关心他，再给两条医嘱——一条从 drink some hot tea with honey、see a doctor 里选，一条自己想。把这段一问一答写下来。",
+          "answer": "开放作答，如：—What's the matter? —I have a cough and a sore throat. —You should drink some hot tea with honey. You shouldn't talk too much.",
+          "solution": "建议用 should+动词原形，劝阻用 shouldn't；加蜂蜜的热茶正是嗓子疼的原配医嘱。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_02",
+      "summary": "用 We could… 出点子、I'll… 认任务，把 cheer up、give out、come up with、put off 用活，做社区里的热心人。",
+      "explanation": [
+        "开篇图片对话商量志愿安排：I hope to work outside. — You could help to clean up the city parks.。城市公园清洁日的计划对话最完整：We need to come up with a plan to tell people about the city park clean-up.／Clean-Up Day is only two weeks from now. We can't put off making a plan.／We could make signs.／Then I'll hand them out after school.／We could each call up 10 students and ask them to come. 语法聚焦再给一条万能提议：You could ask hospitals to let you visit the kids and cheer them up. 阅读篇里 Mario 和 Mary 是榜样：He volunteers at an animal hospital every Saturday morning.／She decided to try out for a volunteer after-school reading program. Mario 说：I get such a strong feeling of satisfaction when I see the animals get better. 老人之家的对话还提醒：A lot of old people are lonely. We should listen to them and care for them.",
+        "志愿服务就是不计报酬地帮别人做事：去医院逗生病的孩子开心、在食物救济站分发食品、教小学生读书、清扫公园。这组课文的说话套路很讲究分寸：could 是「商量着提建议」——We could make signs. 听起来给对方留了余地；I'll（will）是「主动认领任务」——Then I'll hand them out after school. 一诺千金。先摆需要、再出点子、最后认任务，一个志愿计划就商量成了。",
+        "短语动词是这一部分的主角，一共有七兄弟：come up with（想出主意、计划）、put off（推迟）、put up（张贴）、hand out／give out（分发）、call up（打电话）、cheer up（使振作）。两条硬规矩：一是 put off 后面接动词要用 -ing 形式——put off making a plan（不能说 put off to make）；二是代词作宾语要放在短语动词中间——hand them out、cheer them up，不能说 hand out them、cheer up them。",
+        "易混三组：一是 give out 与 hand out 同义，都指「分发」，可以互换；come up with 才是「想出」，别看到 out 就以为是分发。二是 put up（张贴）与 put off（推迟）只差一个介词，意思南辕北辙。三是 could 的两副面孔——You could help sick kids. 里的 could 是给现在提建议，不是过去的能力；volunteer 的用法也记两笔：volunteer to do sth 自愿做某事，volunteer at＋地点 在某处做志愿者。",
+        "这些短语动词加上 will／could 的组合，正是后面写「志愿计划」的骨架：想做什么用 will，能做什么用 could，为什么用 because。阅读那封感谢信里，导盲犬 Lucky 帮残障人士重获独立生活，写信人说 volunteering is a dream come true——把语言学到手，就能把善意落到具体的行动上。"
+      ],
+      "methods": [
+        {
+          "name": "短语动词配对记忆法",
+          "steps": [
+            "come up with＝想出（计划、主意）：come up with a plan",
+            "give out＝hand out＝分发：give out food at the food bank；call up＝打电话：call up 10 students",
+            "cheer up＝使振作：cheer up sick children；put off＝推迟：put off making a plan；put up＝张贴：put up signs"
+          ],
+          "tip": "come up 想主意，give out 发东西，cheer up 打气，put off 拖不得"
+        },
+        {
+          "name": "could 提议三步法",
+          "steps": [
+            "第一步摆需要：We need to come up with a plan to tell people about the city park clean-up.",
+            "第二步用 could 出点子：We could make signs.／You could help sick kids.",
+            "第三步用 I'll（will）认任务：Then I'll hand them out after school."
+          ],
+          "tip": "could 出点子，I'll 认任务"
+        },
+        {
+          "name": "代词归位法（短语动词的宾语位置）",
+          "steps": [
+            "宾语是名词，放中间放后面都行：put up signs＝put signs up",
+            "宾语是代词 it/them/me，必须放中间：hand them out、cheer them up、put it off",
+            "读一遍检验：cheer up them 一读就别扭，正确的是 cheer them up"
+          ],
+          "tip": "代词爱站中间——cheer them up，不说 cheer up them"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：Clean-Up Day is only two weeks from now. We can't ______ making a plan.　A. put up　B. put off　C. call up",
+          "solution": "选 B。原句：We can't put off making a plan.——清洁日只剩两周，计划不能再推迟；put off 后面的动词 making 用 -ing 形式。",
+          "difficulty": 1,
+          "pitfall": "只看 put 不看介词——put up 是张贴，call up 是打电话，「推迟」是 put off。"
+        },
+        {
+          "question": "下面哪句正确？A. Our class is trying to come up with some ideas to cheer up sick children.　B. Our class is trying to come up some ideas with to cheer up sick children.",
+          "solution": "选 A。come up with 是固定搭配，「想出主意」；原句：Our class is trying to come up with some ideas to cheer up sick children. with 不能和 ideas 换位。",
+          "difficulty": 2,
+          "pitfall": "come up with 三个词是一个整体，拆开换位就错了。"
+        },
+        {
+          "question": "用所给词的适当形式填空：The volunteers will ______ (give) out food at the food bank after school.",
+          "solution": "填 give。will 后接动词原形：give out food at the food bank（在食物救济站分发食物）；give out 也可以换成 hand out。",
+          "difficulty": 1,
+          "pitfall": "will 后面接动词原形，别加 -s 或 -ing。"
+        }
+      ],
+      "mistakes": [
+        "代词作宾语必须放在短语动词中间：cheer them up、hand them out；写成 cheer up them、hand out them 不合习惯。",
+        "put off 后面的动词要用 -ing 形式：put off making a plan，不能说 put off to make a plan。",
+        "give out 和 come up with 意思完全不同：give out 是「分发」，come up with 是「想出」，别被 out 带偏。",
+        "could 在这里表示提建议，不是过去的能力——You could help sick kids. 说的是现在可以这样做，理解成「你过去能」就错了。"
+      ],
+      "source": {
+        "unit": "Unit 2 I'll help to clean up the city parks.",
+        "pages": [
+          10,
+          16
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全计划对话：We need to ______ a plan to tell people about the city park clean-up.　A. come up with　B. cheer up　C. put off",
+          "options": [
+            "come up with",
+            "cheer up",
+            "put off"
+          ],
+          "answer": "A",
+          "solution": "原句：We need to come up with a plan to tell people about the city park clean-up.「想出计划」用 come up with。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P10·城市公园清洁日计划（We need to come up with a plan to tell people about the city park clean-up.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用合适的短语动词补全句子：Our class is trying to ______ some ideas to ______ sick children.（第一空「想出」，第二空「使振作」）",
+          "answer": "come up with; cheer up",
+          "solution": "原句：Our class is trying to come up with some ideas to cheer up sick children. trying to 后接动词原形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P12·短语动词选词填空（come up with some ideas to cheer up sick children）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选择：下面哪句把代词放对了位置？",
+          "options": [
+            "I will hand out them after school.",
+            "I will hand them out after school.",
+            "I will hand out it them after school."
+          ],
+          "answer": "B",
+          "solution": "代词 them 必须放在短语动词 hand 和 out 中间：hand them out。原对话：Then I will hand them out after school.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P10·清洁日计划对话（Then I will hand them out after school.）变式（短语动词代词位置）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你想参加社区志愿服务：用 We could… 写一条建议，用 I'll… 认领一件实事，再用 because 说明原因，组成三句话的小计划。",
+          "answer": "开放作答，如：We could visit the old people in the nursing home. I'll read newspapers to them every Saturday because a lot of old people are lonely.",
+          "solution": "could 出点子、will 认任务、because 说原因，正好是志愿计划的三要素。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_03",
+      "summary": "Could you please…? 是请人做事，Could I…? 是请求许可——一对 could 两种礼貌，家务短语里练个遍。",
+      "explanation": [
+        "语法聚焦把两级问答收在一起：Could I go out for dinner with my friends? — Sure, that should be OK.／Could we get something to drink after the movie? — No, you can't. You have a basketball game tomorrow.／Could you please take the dog for a walk? — OK, but I want to watch one show first.／Could you please take out the rubbish? — Yes, sure. 开篇列了六件家务：do the dishes（洗碗）、take out the rubbish（倒垃圾）、fold your clothes（叠衣服）、sweep the floor（扫地）、make your bed（铺床）、clean the living room（打扫客厅）。配套对话：Could you please sweep the floor? — Yes, sure. Can you do the dishes? — Well, could you please do them? I'm going to clean the living room. — No problem. 练习还要求把句子分成 Requests（请求）和 Permission（许可）两类：Could you please pass me the salt? 是请求，Could I borrow that book? 是许可。",
+        "这两级句型天天用在家里：想让家人帮忙倒垃圾，说 Could you please take out the rubbish?——主语是 you，请对方做事；想出去玩、想借电脑，说 Could I go out for dinner?／Could I use your computer?——主语是 I，请求对方允许自己做事。could 听起来比 can 客气得多，像是先敲门再说话；加上 please 更显礼貌。拒绝也不能硬邦邦：Sorry. I'm going to work on it now. 或者 No, you can't. You have a basketball game tomorrow.——拒绝常带一条理由。",
+        "判断两级只看主语：Could you please＋动词原形，请对方做事，属于请求；Could I／Could we＋动词原形，请求允许自己做事，属于许可。应答各有套路——请求的答应：Yes, sure.／No problem.；请求的拒绝：Sorry, I have to…；许可的答应：Sure, that should be OK.／Yes, you can.；许可的拒绝：No, you can't.，常跟一条理由 You have a basketball game tomorrow. 或者 You have to clean your room.",
+        "易混三处：一是 could 只是客气，不是过去——回答里常用 can：Yes, you can.；二是许可问句的回答要换主语——Could I watch TV? 的否定回答是 No, you can't.，不能答 No, I can't（问「我」行不行，答的是「你」行不行）；三是 please 只放在请求句里（Could you please clean your room?），许可句一般不说 Could I please…?。家务短语也别写错：rubbish 是不可数名词，前面不加 a；fold 后面的 clothes 用复数。",
+        "这对礼貌句型往后处处用得上：请同学递东西、向老师借书、和家人商量分工都靠它。做家务的阅读语篇里还有一句值得记住的话：Everyone should do their part in keeping it clean and tidy.——会礼貌地请求，也肯动手分担，才是家里的好帮手；这套分寸感正是为后面的商量与建议句型打底。"
+      ],
+      "methods": [
+        {
+          "name": "请求许可两级判断法",
+          "steps": [
+            "看主语：Could you please＋动词原形——主语是你，请对方做事，属于请求",
+            "看主语：Could I／Could we＋动词原形——主语是我（们），请求允许自己做事，属于许可",
+            "对号应答：请求——Yes, sure.／No problem.／Sorry, I have to…；许可——Sure, that should be OK.／Yes, you can.／No, you can't.（常带理由）"
+          ],
+          "tip": "Could you 请求 Could I 许可"
+        },
+        {
+          "name": "委婉应答三件套",
+          "steps": [
+            "爽快答应：Yes, sure.／No problem.／Sure, that should be OK.",
+            "婉拒给理由：Sorry. I'm going to work on it now.／No, you can't. You have a basketball game tomorrow.",
+            "回敬一句商量：Well, could you please do them? I'm going to clean the living room."
+          ],
+          "tip": "答应干脆，拒绝讲理，不行就商量"
+        },
+        {
+          "name": "家务短语分组记",
+          "steps": [
+            "do 与 make：do the dishes 洗碗、make your bed 铺床",
+            "take out 与 fold：take out the rubbish 倒垃圾、fold the clothes 叠衣服",
+            "sweep 与 clean：sweep the floor 扫地、clean the living room 打扫客厅"
+          ],
+          "tip": "do dishes make bed，take out rubbish fold clothes，sweep floor clean room"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断下面哪句是在请求许可：A. Could you please pass me the salt?　B. Could I borrow that book?　C. Could you help me do the dishes?",
+          "solution": "选 B。Could I borrow that book? 主语是 I，请求对方允许「我」借书，属于许可；A、C 的主语都是 you，请对方做事，属于请求。",
+          "difficulty": 1,
+          "pitfall": "别只看句子长短——抓主语是 you 还是 I，一眼分清两级。"
+        },
+        {
+          "question": "补全对话：—Could I use your computer?　—Sorry. I'm going to work on it now.　—Well, could I watch TV?　—Yes, you can, but first you have to ______.",
+          "solution": "填 clean your room。原句：Yes, you can, but first you have to clean your room.——许可可以给，但常附带一个条件；have to 后接动词原形。",
+          "difficulty": 2,
+          "pitfall": "have to 后面接动词原形，「先做……」的条件别漏掉。"
+        },
+        {
+          "question": "看中文写短语：「倒垃圾」的英文是______，「叠衣服」的英文是______。",
+          "solution": "take out the rubbish；fold the clothes。rubbish 前要加 the；clothes 用复数形式。",
+          "difficulty": 1,
+          "pitfall": "rubbish 是不可数名词，前面不加 a；别把 clothes 写成 cloth。"
+        }
+      ],
+      "mistakes": [
+        "Could I…? 的否定回答主语要换成 you：No, you can't.——问句问「我能不能」，回答说的是「你不能」，答成 No, I can't 就把对象说反了。",
+        "could 只是让语气客气，不是过去式——Could you please take out the rubbish? 是现在请人做事，回答里常用 can：Yes, you can.",
+        "Could you please 后接动词原形：Could you please take out the rubbish? 不能写成 Could you please to take out…。",
+        "please 的位置在 Could you please＋动词处，别挪到句尾；许可句 Could I watch TV? 一般不加 please。"
+      ],
+      "source": {
+        "unit": "Unit 3 Could you please clean your room?",
+        "pages": [
+          17,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下列哪句属于许可（Permission）？A. Could you please pass me the salt?　B. Could I hang out with my friends after the movie?　C. Could you help me do the dishes?",
+          "options": [
+            "Could you please pass me the salt?",
+            "Could I hang out with my friends after the movie?",
+            "Could you help me do the dishes?"
+          ],
+          "answer": "B",
+          "solution": "分类原题：Could I hang out with my friends after the movie? 归入 Permission——Could I…? 问的是「我能不能去」。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P20·请求与许可分类（Could I hang out with my friends after the movie?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "分类并应答：Could you take out the rubbish first? 这句属于 Requests（请求）还是 Permission（许可）？写出类别，再配一句合适应答。",
+          "answer": "Requests；可答 Yes, sure.／No problem. 等",
+          "solution": "自测分类原题把 Could you take out the rubbish first? 放进 Requests 一栏——Could you…? 是请对方做事；应答用 Yes, sure.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P24·自测请求与许可分类（Could you take out the rubbish first?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：—Could I watch TV?　—Yes, you can, but first ______.　A. you have to clean your room　B. I have to clean your room　C. you have cleaning your room",
+          "options": [
+            "you have to clean your room",
+            "I have to clean your room",
+            "you have cleaning your room"
+          ],
+          "answer": "A",
+          "solution": "原句：Yes, you can, but first you have to clean your room.——许可附条件；主语是 you，have to 后接动词原形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P18·Could I 问答（Could I watch TV? Yes, you can, but first you have to clean your room.）变式（许可附带条件）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "周末大扫除：用 Could you please…? 向家人提一个请求，用 Could I…? 要一项许可，各配一句应答，写成四句小对话。",
+          "answer": "开放作答，如：—Could you please sweep the floor? —Yes, sure. —Could I go out after that? —Yes, you can, but first fold the clothes.",
+          "solution": "请求与许可各用一次；注意应答主语别搞反——Could I…? 的回答用 you。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_04",
+      "summary": "What's wrong? 问出烦恼，Why don't you…? 给出建议，until 到点、so that 图目的——把关心串成完整的话。",
+      "explanation": [
+        "开篇对话原句：What's wrong? — I'm really tired because I studied until midnight last night. — Why don't you go to sleep earlier this evening? 烦恼清单里有一条：My parents don't allow me to hang out with my friends. 语法聚焦四组：You look tired. What's the matter? — I studied until midnight last night so I didn't get enough sleep.／What should I do? — Why don't you forget about it? Although she's wrong, it's not a big deal.／What should he do? — He should talk to his friend so that he can say he's sorry.／Maybe you could go to his house. — I guess I could, but I don't want to surprise him. 选词练习把 although、so that、until 放进同一组对话：You shouldn't wait until the last minute to study for a test. 回信语篇里还有：Maybe you could do more jobs around the house so that they have more time for proper communication.／Why don't you sit down and communicate with your brother?",
+        "这部分聊的全是真实的烦恼：学习到半夜、和好朋友吵架、父母不许外出、兄弟姐妹乱翻自己的东西。用英文把烦恼说出来本身就是一种疏解——What's wrong?／What's the matter?／You look sad. 都是打开话匣子的钥匙；而给建议的三种说法各有脾气：Why don't you…? 最商量、You should… 最直接、You could… 给足选择。回信里那句 Although she's wrong, it's not a big deal. 也值得学——先让一步，矛盾才有台阶下。",
+        "连词分工要记牢：until 后面接时间——studied until midnight（学到半夜）、watch whatever he wants until late at night（看到深夜），表示「一直到」；so that 后面接完整句子（常带 can、will）——so that you can say you're sorry（好让你能道歉），表示「为了、以便」。开头问烦恼用 What's wrong?；给建议的完整链是：问一句烦恼→给一条建议→用 so that 说明这样做的好处。",
+        "易混点辨析：一是 until 与 so that 的选词——空格后面是时间点（midnight、late at night）选 until，后面是「能／会…」的句子选 so that；二是 so that 与 because 方向相反——so that 前是行动、后是目的，because 前是结果、后是原因；三是相处短语：get on with＝get along with「与……相处」（I can't get on with my family.），communicate with 侧重「沟通」（sit down and communicate with your brother.），allow sb to do sth「允许某人做某事」的 to 不能丢（don't allow me to hang out）。",
+        "这一串句型正是「给建议回信」类写作的骨架：先共情一句 It's not easy being your age.，再用 Why don't you…?／You could… 给建议，最后用 so that 说明好处——Maybe you could do more jobs around the house so that they have more time for proper communication. 就是现成的范本。把 until、so that 用准了，建议就既有温度又有条理。"
+      ],
+      "methods": [
+        {
+          "name": "until 与 so that 选词法",
+          "steps": [
+            "看空格后面：是时间点或时间段——midnight、late at night，选 until",
+            "是带主语谓语的句子（常含 can、will）——so that you can say you're sorry，选 so that",
+            "代入检验：until＝「一直到」，so that＝「为了、以便」，意思通顺才算选对"
+          ],
+          "tip": "until 到点 so that 为目的"
+        },
+        {
+          "name": "建议三句式升级法",
+          "steps": [
+            "先问烦恼：What's wrong?／What's the matter?／You look sad.",
+            "再给建议：Why don't you talk to your parents?（＝You should talk to your parents.）",
+            "补上目的或宽心话：so that you can be friends again.／Although she's wrong, it's not a big deal."
+          ],
+          "tip": "Why don't you 最商量，should 稳当 could 缓"
+        },
+        {
+          "name": "相处短语对照法",
+          "steps": [
+            "get on with＝get along with「与……相处」：I can't get on with my family.",
+            "communicate with「与……沟通」：sit down and communicate with your brother.",
+            "allow sb to do sth「允许某人做某事」：My parents don't allow me to hang out with my friends."
+          ],
+          "tip": "相处 get on，沟通 communicate，允许 allow 带 to"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：You shouldn't wait ______ the last minute to study for a test.（until / so that）",
+          "solution": "填 until。原句：You shouldn't wait until the last minute to study for a test.——the last minute 是时间点，「等到最后一刻」用 until。",
+          "difficulty": 1,
+          "pitfall": "空格后 the last minute 是时间，不是目的句，填 so that 讲不通。"
+        },
+        {
+          "question": "选词填空：You should eat more now ______ you won't be hungry later.（until / so that / although）",
+          "solution": "填 so that。原句：You should eat more now so that you won't be hungry later.——空格后是带主语谓语的完整句，表目的「以便晚点不饿」。",
+          "difficulty": 2,
+          "pitfall": "别被 although 干扰——although 表「尽管」，放这里意思正好拧了。"
+        },
+        {
+          "question": "同义句改写：Why don't you go to sleep earlier this evening?（改为以 You should 开头的同义句）",
+          "solution": "You should go to sleep earlier this evening. Why don't you＋动词原形…? 与 You should＋动词原形. 意思相近，都是给建议。",
+          "difficulty": 2,
+          "pitfall": "改写后动词保持原形——go to sleep earlier，别变成 goes 或 going。"
+        }
+      ],
+      "mistakes": [
+        "Why don't you 后接动词原形：Why don't you talk to your parents? 不能写成 Why don't you to talk…。",
+        "so that 后面必须是完整句子（常含 can、will、won't），until 后面通常只接时间——两个连词互换，句子就不通了。",
+        "allow sb to do sth 的 to 不能丢：My parents don't allow me to hang out with my friends. 不是 allow me hang out。",
+        "not…until 是「直到……才」，和肯定句的 until「一直到」意思不同：I didn't go to bed until midnight.＝半夜十二点才睡。"
+      ],
+      "source": {
+        "unit": "Unit 4 Why don't you talk to your parents?",
+        "pages": [
+          25,
+          32
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What's wrong?　—I'm really tired because I studied ______ midnight last night.　A. until　B. so that　C. although",
+          "options": [
+            "until",
+            "so that",
+            "although"
+          ],
+          "answer": "A",
+          "solution": "原句：I studied until midnight last night.——midnight 是时间点，「学到半夜」用 until。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P25·烦恼对话（What's wrong? I studied until midnight last night.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用 should 和 so that 补全建议：You ______ talk to him ______ you can say you're sorry.",
+          "answer": "should; so that",
+          "solution": "原句：You should talk to him so that you can say you're sorry.——should 给建议，so that 带出目的「好让你能道歉」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P26·建议填空（You should talk to him so that you can say you're sorry.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选词：Kids shouldn't play computer games ______ late at night.　A. so that　B. until　C. because",
+          "options": [
+            "so that",
+            "until",
+            "because"
+          ],
+          "answer": "B",
+          "solution": "原句：Kids shouldn't play computer games until late at night.——late at night 是时间，用 until「玩到深夜」；shouldn't…until 表示「不该……到」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P32·自测 until/so that/although 选词（Kids shouldn't play computer games until late at night.）变式（时间连词辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "好朋友因为和弟弟吵架而不开心：用 What's wrong? 开头问一句，用 Why don't you…? 给一条建议，再用 so that 说明这样做的好处，写三句连贯的话。",
+          "answer": "开放作答，如：—What's wrong? —Why don't you sit down and talk to him? —Talk to him so that you can understand each other.",
+          "solution": "建议＋目的连词是回信的常用骨架：Why don't you…? 出主意，so that 说好处。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_05",
+      "summary": "What were you doing when the rainstorm came?——was/were+V-ing 回放过去画面，while 长动作、when 短动作。",
+      "explanation": [
+        "语法聚焦五组问答：What were you doing at eight last night? — I was taking a shower.／What was she doing at the time of the rainstorm? — She was doing her homework.／What was he doing when the rainstorm came? — He was reading in the library when the rainstorm came.／What was Ben doing when it began to rain heavily? — When it began to rain, Ben was helping his mom make dinner.／What was Jenny doing while Linda was sleeping? — While Linda was sleeping, Jenny was helping Mary with her homework. 改写练习给出同义双句：While John was taking photos, Mary bought a drink.＝John was taking photos when Mary bought a drink. 语篇「暴风雨把人们拉得更近」里满是这样的句子：Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working.／Ben was helping his mom make dinner when the rain began to beat heavily against the windows.",
+        "过去进行时像「回放录像」：把时间拨回昨天晚上八点，那一刻正在进行的动作就是 I was taking a shower.。暴风雨来的那一刻，有人在图书馆看书，有人在帮妈妈做饭——「正在」就是这个时态的灵魂。突发动作（雨来了、电话响了）像快门咔嚓一声，用一般过去时；背景动作像长镜头，用过去进行时。两种时态一搭，故事立刻有了画面感。",
+        "搭积木两步走：第一步选 be——主语 I、he、she、it 配 was，you、we、they 配 were；第二步变 V-ing——一般直接加 -ing（do→doing），去 e 加 -ing（take→taking），重读闭音节双写（run→running）。拼起来：I was taking a shower.／They were playing basketball.；问句把 was／were 提到主语前：What were you doing…?；否定在 was／were 后加 not。连接词分工：when 常引出短动作或突发一刻，while 后面通常接进行中的长动作。",
+        "易混三处：一是 was／were 别配错——He was reading in the library. 对，He were reading 错；二是 while 与 when 选词——While Linda was sleeping,…（进行中的长动作），…when the rainstorm came（突发一刻）；同一件事可以两种说法：While John was taking photos, Mary bought a drink.＝John was taking photos when Mary bought a drink.；三是别丢 be 动词——I was taking a shower. 不能说成 I taking a shower。",
+        "过去进行时是「讲故事、写报道」的主力时态：突发事件报道的结构就是「时间＋当时正在做什么＋突然发生什么」——At eight last night, I was doing my homework when the phone rang. 把它和一般过去时配合好，写日记、写叙事作文就能把「背景画面」和「突发事件」分得清清楚楚。习惯养成：每晚睡前用两句话回放今天，练的就是这对老搭档。"
+      ],
+      "methods": [
+        {
+          "name": "过去进行时搭积木法",
+          "steps": [
+            "第一步选 be：主语 I/he/she/it 用 was，you/we/they 用 were",
+            "第二步变 V-ing：do→doing、take→taking（去 e）、run→running（双写）",
+            "拼装成句：I was taking a shower.／They were playing basketball.；问句把 was/were 提到主语前"
+          ],
+          "tip": "I was 你 were，动词尾巴加 ing"
+        },
+        {
+          "name": "while 与 when 选词法",
+          "steps": [
+            "while 后接进行中的长动作：While Linda was sleeping, Jenny was helping Mary with her homework.",
+            "when 后常接短动作或突发一刻：He was reading in the library when the rainstorm came.",
+            "同类句可互换：While John was taking photos, Mary bought a drink.＝John was taking photos when Mary bought a drink."
+          ],
+          "tip": "while 长动作 when 短动作"
+        },
+        {
+          "name": "突发事件叙事框架",
+          "steps": [
+            "先铺背景（过去进行时）：Ben was helping his mom make dinner",
+            "再点突发（一般过去时）：when the rain began to beat heavily against the windows",
+            "最后补结果：After dinner, they tried to play a card game…／the neighborhood in a mess"
+          ],
+          "tip": "长镜头用进行时，快门一响过去时"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用所给词的适当形式填空：—What were you doing at eight last night?　—I ______ (take) a shower.",
+          "solution": "填 was taking。语法聚焦原句：What were you doing at eight last night? — I was taking a shower.——主语 I 配 was，take 去 e 加 ing。",
+          "difficulty": 1,
+          "pitfall": "别只写 took——问的是「那一刻正在做」，要用过去进行时 was taking。"
+        },
+        {
+          "question": "选词填空：______ Linda was sleeping, Jenny was helping Mary with her homework.（When / While）",
+          "solution": "填 While。原句：While Linda was sleeping, Jenny was helping Mary with her homework.——两个长动作同时进行，用 while。",
+          "difficulty": 1,
+          "pitfall": "while 后接 was sleeping 这样的进行时；接突发短动作时才优先考虑 when。"
+        },
+        {
+          "question": "单选：The rainstorm came when we ______ dinner.　A. have　B. had　C. were having",
+          "solution": "选 C。雨「来」是突发短动作（一般过去时 came），「正在吃晚饭」是背景长动作，用过去进行时 were having；主语 we 配 were。",
+          "difficulty": 2,
+          "pitfall": "别选 had——一般过去时只说「吃过」，表达不出「正在吃」的画面感。"
+        }
+      ],
+      "mistakes": [
+        "过去进行时不能丢 be 动词：I was taking a shower. 不是 I taking a shower——was/were 是这个时态的骨架。",
+        "was/were 要和主语配套：he/she/it/I 用 was，you/we/they 用 were——She were sleeping 是硬伤。",
+        "V-ing 变化别偷懒：take 去 e 加 ing 变 taking，run 双写 n 变 running，直接加 ing 的如 do→doing、read→reading。",
+        "while 与 when 别乱放：while 后接进行中的长动作，when 常引出突发的短动作——While the rainstorm came 这种说法就不对。"
+      ],
+      "source": {
+        "unit": "Unit 5 What were you doing when the rainstorm came?",
+        "pages": [
+          33,
+          40
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What ______ she doing at the time of the rainstorm?　—She ______ doing her homework.　A. was; was　B. were; was　C. was; were",
+          "options": [
+            "was; was",
+            "were; was",
+            "was; were"
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：What was she doing at the time of the rainstorm? — She was doing her homework.——主语 she 是单数，两处都用 was。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P36·语法聚焦过去进行时问答（What was she doing at the time of the rainstorm? She was doing her homework.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用所给词的适当形式填空：Ben's dad ______ (put) pieces of wood over the windows while his mom was making sure the flashlights and radio were working.",
+          "answer": "was putting",
+          "solution": "语篇原句：Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working.——while 两边都是进行中的长动作，dad 单数用 was putting。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P35·暴风雨之夜语篇（Ben's dad was putting pieces of wood over the windows while his mom was making sure…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选择：While John was taking photos, Mary bought a drink. 与下面哪句意思相同？A. John was taking photos when Mary bought a drink.　B. John took photos when Mary was buying a drink.　C. John was taking photos while Mary bought a drink.",
+          "options": [
+            "John was taking photos when Mary bought a drink.",
+            "John took photos when Mary was buying a drink.",
+            "John was taking photos while Mary bought a drink."
+          ],
+          "answer": "A",
+          "solution": "改写原句：John was taking photos when Mary bought a drink.——长动作（拍照）用进行时作背景，短动作（买饮料）用 when 引出；while 与 when 在这类句子里可以互换位置。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P36·while 与 when 同义改写（While John was taking photos, Mary bought a drink.）变式（when 与 while 互换）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "昨天傍晚突然下起大雨。用过去进行时写你当时正在做的事，再用一般过去时写雨突然下起来，最后写一句你是怎么应对的，组成三句小报道。",
+          "answer": "开放作答，如：At about six, I was walking home. Suddenly the rain began to fall heavily. I ran into a shop and waited for the rain to stop.",
+          "solution": "报道三段式：背景（was/were+V-ing）→突发（一般过去时）→应对，正是叙事作文的基本骨架。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_06",
+      "summary": "学会用英语讲中国故事：Once upon a time 开场，as soon as 承接情节，instead of 说改道，还能介绍会七十二变的 the Monkey King。",
+      "explanation": [
+        "书上这部分从四个故事标题起步：Journey to the West（西游记）、Yu Gong Moves a Mountain（愚公移山）、Hou Yi Shoots the Suns（后羿射日）、Nu Wa Repairs the Sky（女娲补天）。愚公的故事先抓三件事实：The two mountains were very high and big. A very old man tried to move the mountains. A man told Yu Gong that he could never do it. 语法聚焦把讲故事问答定型：How does the story begin? —Once upon a time, there was a very old man. What happened next? —As soon as the man finished talking, Yu Gong said that his family could continue to move the mountains after he died. 猴王语段再补一笔：he can make 72 changes to his shape and size, turning himself into different animals and objects. But unless he can hide his tail, he cannot turn himself into a man.",
+        "为什么用这几个词讲故事？Once upon a time 是万能开场白，等于中文的「从前」；as soon as 是情节传送带，表示「一……就……」，前一幕刚结束，后一幕立刻接上；instead of 是故事的岔路口，表示「不做这件，改做那件」；a little bit silly 则是评故事时的看法表达——课上的对话里，有人觉得愚公 it's a little bit silly（有点傻），也有人坚信 anything is possible if you work hard。讲故事和评故事，这几件工具就够了。",
+        "讲一个故事可以走三步：第一步开场，用 Once upon a time, there was…交代人物背景；第二步推进，用 as soon as 把事件串起来——As soon as the man finished talking, Yu Gong said…，从句用一般过去时；第三步收尾，用 This story reminds us that…（这个故事提醒我们……）点出道理。中间要写「变身」就用 turn…into…：turn himself into different animals and objects（把自己变成不同的动物和物品）；要写「继续做某事」就用 continue to do：continue to move the mountains。",
+        "三个易混点要分清：一是 instead of 后面的动词要加 -ing——instead of moving the mountains（而不是移山），不能说 instead of move；二是 as soon as 和 unless 功能不同：as soon as 管「时间上一……就……」，unless 管「条件上除非」——Unless he can hide his tail, he cannot turn himself into a man（除非藏起尾巴，否则变不成人）；三是 turn into 不是 turn on：turn himself into a man 是「变成一个人」，turn on 是「打开（电器）」，意思天差地别。",
+        "这套讲故事工具是通用的：接着还能讲剧本式的故事《糖果屋》（Hansel and Gretel），里面同样满是 as soon as（As soon as the moon rises, we can follow them instead）和 unless（Unless we do, we won't find our way out）。用英语讲中国故事还能当文化小使者：语段里说，三十多年前一档电视节目一播出，西方孩子就迷上了 the clever Monkey King，因为他 keeps fighting to help the weak and never gives up——把中国的故事讲给世界听，就从这几句开始。"
+      ],
+      "methods": [
+        {
+          "name": "讲故事三步套",
+          "steps": [
+            "第一步开场：Once upon a time, there was…（从前有……）",
+            "第二步推进：as soon as＋从句，一幕接一幕（As soon as the man finished talking, …）",
+            "第三步收尾：This story reminds us that…（这个故事提醒我们……）",
+            "需要变身加 turn…into…，需要「继续做」加 continue to do"
+          ],
+          "tip": "口诀：Once upon a time 开场，as soon as 接戏，reminds us 收尾。"
+        },
+        {
+          "name": "instead of 岔路口",
+          "steps": [
+            "找到原计划：moving the mountains（移山）",
+            "找到替代方案：build a road（修路）",
+            "用 instead of 连接：instead of moving the mountains",
+            "检查 of 后面的动词加 -ing"
+          ],
+          "tip": "口诀：instead of 不选它，of 后动词穿 ing。"
+        },
+        {
+          "name": "as soon as 与 unless 分工法",
+          "steps": [
+            "先问：这句话说时间还是说条件？",
+            "说「一……就……」→ as soon as",
+            "说「除非……否则不……」→ unless",
+            "两个从句里都不用 will，讲过去的事就用过去时"
+          ],
+          "tip": "口诀：as soon as 抢时间，unless 卡条件。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全句子：____ the prince saw her, he fell in love with her. 横线上用 As soon as 还是 Unless？",
+          "solution": "用 As soon as。句子说的是「王子一见到她，就爱上了她」，前一动作发生、后一动作立刻跟上，是典型的时间关系；这正是连词选词练习里的原句。",
+          "difficulty": 1,
+          "pitfall": "顺手填 Unless——unless 表「除非」，接条件；这里是「一看见就爱上」，时间上的紧接。"
+        },
+        {
+          "question": "课上的对话问：But what could Yu Gong do instead of ____ the mountains? 横线上填 move、moving 还是 to move？",
+          "solution": "填 moving。instead of 里的 of 是介词，后面的动词要加 -ing：instead of moving the mountains（不移山，而做别的）。对话里给出的替代方案是 he could build a road（修条路）。",
+          "difficulty": 2,
+          "pitfall": "写成 instead of move——of 是介词，后面动词必须加 -ing。"
+        },
+        {
+          "question": "介绍 the Monkey King 的本领：He can turn himself ____ different animals and objects. 横线上填 into 还是 on？",
+          "solution": "填 into。turn himself into…表示「把自己变成……」，语段原句是 turning himself into different animals and objects（能七十二变）；turn on 只表示「打开」。",
+          "difficulty": 1,
+          "pitfall": "把 turn into（变成）和 turn on（打开）弄混——变身用 into。"
+        }
+      ],
+      "mistakes": [
+        "instead of 后面的动词忘加 -ing：要说 instead of moving the mountains，不能说 instead of move。",
+        "as soon as 从句里误用将来时：As soon as he comes back, we'll start（他一回来我们就开始），从句用一般现在时，不写 will come。",
+        "turn into 与 turn on 混用：turn himself into a man 是「变成人」，turn on 是「打开」，用错意思全变。",
+        "continue to do 丢掉 to：Yu Gong said his family could continue to move the mountains，to 后面接动词原形，不能光写 continue move。"
+      ],
+      "source": {
+        "unit": "Unit 6 An old man tried to move the mountains.",
+        "pages": [
+          41,
+          49
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—____ the man finished talking, Yu Gong said that his family could continue to move the mountains after he died.",
+          "options": [
+            "As soon as",
+            "Instead of",
+            "Unless",
+            "So that"
+          ],
+          "answer": "A",
+          "solution": "原句是 As soon as the man finished talking, Yu Gong said…——那人一说完，愚公就说……，表示「一……就……」；instead of 后不接从句，unless 表条件，so that 表目的，意思都不通。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P42·愚公移山听力句（As soon as the man finished talking, Yu Gong said that his family could continue to move the mountains after he died.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Journey to the West（《西游记》）里的主角是谁？",
+          "options": [
+            "the Monkey King (Sun Wukong)",
+            "Yu Gong",
+            "Hou Yi",
+            "Nu Wa"
+          ],
+          "answer": "A",
+          "solution": "语段原句：The Monkey King or Sun Wukong is the main character in the traditional Chinese book Journey to the West.——猴王孙悟空是主角；Yu Gong 是《愚公移山》的主人公，Hou Yi 射日，Nu Wa 补天。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P41·四则故事标题配对（Journey to the West / Yu Gong Moves a Mountain / Hou Yi Shoots the Suns / Nu Wa Repairs the Sky）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "He cannot turn himself into a man ____ he can hide his tail.",
+          "options": [
+            "unless",
+            "as soon as",
+            "instead of",
+            "so"
+          ],
+          "answer": "A",
+          "solution": "原句：He cannot turn himself into a man unless he can hide his tail.——除非他能藏住尾巴，否则没法把自己变成人；unless 引导条件，「除非……否则不……」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P44·语法聚焦连词选词填空（unless / as soon as / so...that；He cannot turn himself into a man unless he can hide his tail.）变式（unless 条件句辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用讲故事三步套给《守株待兔》编一个英文开头：先写 Once upon a time 交代农夫，再用 as soon as 写兔子撞上树桩后农夫做了什么。",
+          "answer": "示例：Once upon a time, there was a farmer. As soon as he saw a rabbit crash into the tree stump, he picked it up and went home.",
+          "solution": "三步套：Once upon a time 开场交代人物，as soon as 从句写「一……就……」的紧接动作，从句用一般过去时；想更进一步，还可以用 instead of waiting（不干等）写农夫本该做什么。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_07",
+      "summary": "学会用英语报地理之最：What's the highest mountain in the world? 问冠军，8,844.43 meters high 报数字，much older than 比差距。",
+      "explanation": [
+        "语法聚焦的地理问答是这部分的主干：What's the highest mountain in the world? —Qomolangma. How high is Qomolangma? —It's 8,844.43 meters high. It's higher than any other mountain. Which is the deepest salt lake in the world? —The Caspian Sea is the deepest of all the salt lakes. Did you know that China is one of the oldest countries in the world? —Yes, I did. It's much older than the US. 听力材料再补两条硬核数据：The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long. 以及 China is over 5,000 years old. It has a much longer history than the US.",
+        "英语量东西有一套「数词＋单位＋方向词」的标尺：meters high 竖着量（山的高度），kilometers long 横着量（河的长度），meters deep 往下量（湖的深度）。8,844.43 读作 eight thousand, eight hundred and forty-four point four three，千位逗号是分节号。比较差距时，中文说「老得多」，英文用 much older；差距小用 a little；成倍差用 many times——程度词就是差距的刻度尺。",
+        "介绍一个地理之最走三步：第一步问冠军，What's the highest mountain in the world? —Qomolangma.；第二步报数字，It's 8,844.43 meters high.（数词＋单位＋方向词，放在 be 动词后）；第三步比差距，It's higher than any other mountain. 或 It's much older than the US.。想表达「最……之一」就用 one of the＋最高级＋复数名词：China is one of the oldest countries in the world. The Amazon River is one of the longest rivers in the world.",
+        "三个坑要绕开：一是 much、a lot、many times、a little 能修饰比较级，very、more 不能——说 much older、a lot bigger，不说 very older；二是 higher than any other mountain 里 any other 后接单数，意思是把比较对象里的自己排除在外（比其他任何一座山都高）；三是 as…as 中间用原级：China is almost as big as the US（中国几乎和美国一样大），No ocean in the world is as big as the Pacific Ocean（没有哪个大洋有太平洋大）——中间夹的是 big，不是 bigger。",
+        "这套「冠军＋数字＋差距」的介绍法马上能派上用场：长城的导游词就是这么搭的——it's about 8,850 kilometers long. This makes it the longest wall in the world.（这使它成为世界上最长的墙）。随后的阅读还会用数字讲大熊猫：野生大熊猫不足 2,000 只，成年熊猫每天花 12 个多小时吃约 10 公斤竹子——「数词＋单位＋方向词」的标尺，从地理一直量到动物保护。"
+      ],
+      "methods": [
+        {
+          "name": "地理之最三步介绍法",
+          "steps": [
+            "第一步问冠军：What's the highest mountain in the world? —Qomolangma.",
+            "第二步报数字：It's 8,844.43 meters high.（数词＋单位＋方向词）",
+            "第三步比差距：It's higher than any other mountain. / It's much older than the US."
+          ],
+          "tip": "口诀：一问冠军，二报数字，三比高低。"
+        },
+        {
+          "name": "数词单位方向词标尺法",
+          "steps": [
+            "竖着量用 high：8,844.43 meters high（山高）",
+            "横着量用 long：6,300 kilometers long（河长）",
+            "往下量用 deep：1,025 meters deep（湖深）",
+            "说面积用 in size：about 9,600,000 square kilometers in size"
+          ],
+          "tip": "口诀：high 竖 long 横 deep 往下量，面积结尾 in size。"
+        },
+        {
+          "name": "差距刻度尺法",
+          "steps": [
+            "差距大：much / a lot＋比较级（much older than the US）",
+            "成倍差：many times＋比较级（weighs many times more than）",
+            "差距小：a little＋比较级（a little longer than the Yangtze River）",
+            "自检：very、more 不能修饰比较级"
+          ],
+          "tip": "口诀：much 大 little 小，many times 倍数到。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "How high is Qomolangma? —It's 8,844.43 meters ____. 横线上填 high、tall 还是 highly？",
+          "solution": "填 high。数词＋单位＋high 是高度固定表达（It's 8,844.43 meters high.），山和建筑都用 high 不用 tall；highly 是副词「高度地」，不能搭单位。",
+          "difficulty": 1,
+          "pitfall": "写成 meters tall——人的身高用 tall，山和建筑的高度表达是数词＋单位＋high。"
+        },
+        {
+          "question": "China is over 5,000 years old, and the US is not even 300 years old. So China is ____ older than the US. 横线上选 much 还是 a little？",
+          "solution": "选 much。五千多年对比不到三百年，差距悬殊，用 much older（老得多）；a little 表示差距很小。语法聚焦原句正是 It's much older than the US.",
+          "difficulty": 2,
+          "pitfall": "选 a little——差距刻度要看数字：五千对三百是悬殊差距，该用 much。"
+        },
+        {
+          "question": "补全句子：Did you know that China is one of ____ in the world? 横线上选 the oldest countries、the oldest country 还是 older countries？",
+          "solution": "选 the oldest countries。one of the＋最高级＋复数名词，表示「最……之一」：China is one of the oldest countries in the world.——「之一」从群体里挑，用复数 countries，the 别丢。",
+          "difficulty": 2,
+          "pitfall": "选单数 the oldest country——one of 后面必须跟复数名词。"
+        }
+      ],
+      "mistakes": [
+        "用 very 或 more 修饰比较级：要说 much older、a lot bigger，very 只修饰原级和最高级。",
+        "山高写成 meters tall：固定表达是数词＋单位＋high（8,844.43 meters high），tall 一般用于人的身高。",
+        "one of the＋最高级后面接单数名词：要说 one of the oldest countries，one of 后面必须是复数。",
+        "higher than any other mountain 里 any other 后用了复数：any other 后接单数 mountain，比较时先把自己排除。"
+      ],
+      "source": {
+        "unit": "Unit 7 What's the highest mountain in the world?",
+        "pages": [
+          50,
+          56
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What's the highest mountain in the world? —____",
+          "options": [
+            "Qomolangma.",
+            "The Nile.",
+            "The Caspian Sea.",
+            "The Sahara."
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：What's the highest mountain in the world? —Qomolangma.——世界最高的山是珠穆朗玛峰；the Nile 是最长的河，the Caspian Sea 是盐湖里最深的，the Sahara 是最大的沙漠。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P52·语法聚焦地理问答（What's the highest mountain in the world? Qomolangma. How high is Qomolangma? It's 8,844.43 meters high.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—How long is the Yangtze River? —It's about ____ kilometers long.",
+          "options": [
+            "6,300",
+            "5,464",
+            "8,844",
+            "8,850"
+          ],
+          "answer": "A",
+          "solution": "听力原句：The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long.——长江约 6,300 千米长；5,464 是黄河的长度，8,850 是长城明代部分的长度。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P50·长江黄河长度听力（The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "A cat eats only a little food, but an adult panda can eat about 10 kilos of bamboo a day. So an adult panda eats ____ more than a cat.",
+          "options": [
+            "much",
+            "a little",
+            "few",
+            "many"
+          ],
+          "answer": "A",
+          "solution": "自测原句：An adult panda can eat (much / a little) more than a cat.——成年熊猫的饭量远超猫，差距大用 much more；few 不能修饰比较级。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P56·自测程度词圈词（An adult panda can eat much more than a cat. A tiger is much stronger than a man.）变式（much/a little 差距判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用「一问冠军，二报数字，三比高低」三步法，把长城介绍给外国朋友：已知长城约 8,850 kilometers long，是世界上最长的墙。写出你的三句话。",
+          "answer": "示例：How long is the Great Wall? It's about 8,850 kilometers long. It's the longest wall in the world.",
+          "solution": "三步套：先设问引出话题，再用数词＋单位＋long 报长度，最后用最高级 the longest wall in the world 点出冠军地位；书上导游词的原句 This makes it the longest wall in the world. 也可以直接借用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_08",
+      "summary": "学会问读没读过：Have you read Treasure Island yet? 读完用 already，还没读完用 yet，have 加过去分词一步到位。",
+      "explanation": [
+        "这部分围绕读书经历展开，主角句型是：A: Have you read Little Women yet? B: No, I haven't. Have you? A: Yes, I've already read it. B: What's it like? A: It's fantastic. 语法聚焦把问答补齐：Has Tina read Treasure Island yet? —Yes, she has. She thinks it's fantastic. Have you decided which book to write about yet? —Yes, I have. I've already finished reading it. 鲁滨逊的语段里满是完成时：I've found the ship and made a small boat. 以及 I have already cut down trees and built a house. 还有 I have already taught him some English.",
+        "现在完成时说的是「过去做的事，现在留下了痕迹」：书读完了，现在可以聊感想；树砍倒了，房子建起来了，现在有地方住。already 是「已经」，站在肯定句里报喜；yet 是「还（没）」，站在疑问句和否定句的句尾——问别人读没读过用 yet，说自己还没读完也用 yet：I haven't finished reading it yet.（我还没读完呢。）",
+        "搭一个完成时句子走三步：第一步选 have 或 has——主语是 he、she、Tina 这类第三人称单数用 has，其余用 have；第二步把动词变成过去分词，放在 have/has 后面；第三步摆位置——already 放在 have/has 和分词中间（I've already read it），yet 放在句尾（Have you read it yet? / I haven't read it yet.）。简短回答用 Yes, I have. / No, I haven't.，第三人称用 Yes, she has. / No, she hasn't.",
+        "最容易错的是过去分词的形态：read 是「三态同形」词——read-read-read，拼写不变，过去分词还是 read（I've read it three times.）；cut、put 也是这一家：cut-cut-cut、put-put-put，千万别写成 cutted、puted。不规则动词则各有各的分词：find-found-found、make-made-made、lose-lost-lost。另外 already 和 yet 不换岗：already 待在肯定句，yet 待在疑问句和否定句，写 I haven't read it already 就错了。",
+        "这是现在完成时的第一站：这里练「读了没、做了没」，接着会升级成「去过没」（Have you ever been to…?），再往后学 for 加时间段、since 加时间点（I've had this bike for three years.）说明动作延续了多久。写读书报告也能直接用：I've already finished reading it! It was really good, so I couldn't put it down.（读完了！太好看了，简直放不下来。）"
+      ],
+      "methods": [
+        {
+          "name": "完成时三步搭句法",
+          "steps": [
+            "第一步选助动词：I/you/we/they 用 have，he/she/人名用 has",
+            "第二步变分词：动词过去分词放在 have/has 后面",
+            "第三步摆位置：already 放 have/has 与分词之间，yet 放句尾",
+            "简答对齐：Yes, I have. / No, I haven't.（三单用 has）"
+          ],
+          "tip": "口诀：have has 打头阵，动词变身过去分词。"
+        },
+        {
+          "name": "already yet 定位法",
+          "steps": [
+            "肯定句报「已经」：I've already read it.（already 居中）",
+            "疑问句问「还没吧」：Have you read it yet?（yet 句尾）",
+            "否定句报「还没」：I haven't finished reading it yet.",
+            "互检：already 不进否定句，yet 不进肯定句"
+          ],
+          "tip": "口诀：already 肯定句中站，yet 在问否句尾藏。"
+        },
+        {
+          "name": "三态同形归类法",
+          "steps": [
+            "read-read-read：拼写不变，读音变（过去分词读 /red/）",
+            "cut-cut-cut、put-put-put：原样三连",
+            "变形别画蛇添足：没有 cutted、puted",
+            "同类扩展：let-let-let、hit-hit-hit"
+          ],
+          "tip": "口诀：read cut put 三胞胎，三态同形不用改。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全句子：I've ____ finished reading Little Women. 横线上填 already 还是 yet？",
+          "solution": "填 already。这是肯定句，报「已经读完」，already 放在 have 和分词 finished 中间；yet 只出现在疑问句和否定句的句尾。",
+          "difficulty": 1,
+          "pitfall": "填 yet——yet 是疑问句、否定句的专属词，肯定句里报「已经」要用 already。"
+        },
+        {
+          "question": "—Has Tina read Treasure Island yet? 从下面三句里选正确的回答：Yes, she has. She thinks it's fantastic. / Yes, she did. / Yes, she is.",
+          "solution": "选第一句。完成时的简短回答重复助动词：Has she…? 用 Yes, she has.——语法聚焦原句就是 Yes, she has. She thinks it's fantastic.；she did 是过去时的回答，she is 对应 be 动词，都对不上。",
+          "difficulty": 2,
+          "pitfall": "选 Yes, she did.——问句助动词是 has，回答要用 has 呼应，不能跳回过去时。"
+        },
+        {
+          "question": "Robinson Crusoe 语段：I have already ____ down trees and built a house. 横线上 cut 的正确形式是什么？",
+          "solution": "还是 cut。cut 是三态同形动词：cut-cut-cut，过去分词不变，I have already cut down trees and built a house.（我已经砍倒树木、建起了房子）；写成 cutted 就错了。",
+          "difficulty": 2,
+          "pitfall": "写 cutted——read、cut、put 这类三态同形动词，过去分词和原形拼写完全一样。"
+        }
+      ],
+      "mistakes": [
+        "三单主语漏用 has：She has read…、Tina has decided…，不能一律用 have。",
+        "already 误放进否定句：还没读完要说 I haven't finished reading it yet，already 不进否定句。",
+        "三态同形动词乱变形：read、cut、put 的过去分词拼写不变，没有 cutted、puted。",
+        "简短回答错位：Have you read…? 答 Yes, I have. / No, I haven't.，不答 Yes, I did。"
+      ],
+      "source": {
+        "unit": "Unit 8 Have you read Treasure Island yet?",
+        "pages": [
+          57,
+          64
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Have you read Little Women yet? —Yes, I've ____ read it.",
+          "options": [
+            "already",
+            "yet",
+            "ever",
+            "never"
+          ],
+          "answer": "A",
+          "solution": "肯定句报「已经读过」，用 I've already read it.——already 放在 have 与分词之间；yet 属于疑问句和否定句，ever、never 是经历问答里的词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P57·读书对话（Have you read Little Women yet? No, I haven't. Have you? Yes, I've already read it. It's fantastic.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Have you read Little Women yet? —____",
+          "options": [
+            "No, I haven't.",
+            "No, I didn't.",
+            "No, I don't.",
+            "No, I'm not."
+          ],
+          "answer": "A",
+          "solution": "完成时问句用 have/has 呼应作答：No, I haven't.——didn't、don't、'm not 分别属于过去时、一般现在时和 be 动词，都对不上号。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P60·语法聚焦完成时问答（Have you read Little Women yet? Yes, I have. / No, I haven't.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Tony has bought a pop music CD, but he hasn't listened to it ____.",
+          "options": [
+            "yet",
+            "already",
+            "ever",
+            "too"
+          ],
+          "answer": "A",
+          "solution": "否定句句尾用 yet：He hasn't listened to it yet.（他买了 CD 但还没听）——自测原题正是 already 与 yet 的对照：肯定句 have read five books already，否定句 hasn't listened to it yet。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P64·自测动词形式填空（I have read five books already. He has bought a CD but he hasn't listened to it yet.）变式（already/yet 选填）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用完成时汇报你的读书进度：已经读完的书用 already 说一句，还没读完的书用 yet 说一句，再用 What's it like? 问一句同伴的读后感。",
+          "answer": "示例：I've already finished reading Tom Sawyer. I haven't finished reading Robinson Crusoe yet. Have you read it yet? What's it like?",
+          "solution": "肯定句 already 居中报「已经」，否定句句尾 yet 报「还没」，追问读后感用 What's it like?——这三句就是读书对话的完整闭环，还能加一句 It's fantastic. 发表感想。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_09",
+      "summary": "学会聊去过哪儿：Have you ever been to a museum? been to 说去过，never been to 说没去过，Me neither 接「我也没有」。",
+      "explanation": [
+        "开头的对话就是模板：Have you ever been to a science museum? —Yes, I have. I went to the National Science Museum last year. Have you ever been to a history museum? —No, I haven't. —Me neither. Let's go to one tomorrow. 要逛的场所一排排摆好：history museum、space museum、art museum、water park、amusement park。语法聚焦把经历表达收拢：Yes, I've been to a science museum. / No, I've never been to a science museum.；I've been to the art museum many times. —Me, too. And I've also visited the nature museum.；I've never been to a water park. —Me neither.",
+        "问经历就像翻人生打卡册：ever 问「到目前为止有没有过」，never 说「一次也没有」。完成时只管「有没有这个经历」，细节要用过去时补——I went there last year.（去年去的）就是答完经历后追加的一笔。同伴说没去过，你也没去过，就接 Me neither.（我也没去过），顺势还能约一句 Let's go to one tomorrow.",
+        "经历问答三步走：第一步问——Have＋主语＋ever＋been to＋地点?（Have you ever been to the space museum?）；第二步答——去过用 Yes, I have. I've been there many times.，从没去过用 No, I haven't. I've never been there. 或干脆 Me neither.；第三步补细节——用一般过去时报时间：I went there last year. / I went there back in April.（四月里去的那次）。说次数用 many times、once、three times，直接放句尾。",
+        "两组搭配要分清：一是 been to 和 gone to——been to 表示「去过，人已经回来」（I've been to the art museum many times.），gone to 表示「去了，人还没回来」（He has gone to the amusement park，人还在乐园里）；聊经历用 been，说人此刻不在用 gone。二是 ever 和 never 的位置——都放在主语后、过去分词前；ever 只出现在疑问句（Have you ever…?），never 本身带否定，直接说 I've never been there，别再加 not。三是应答的分工——对方说去过你附和 Me, too.，对方说没去过你回应 Me neither.，两句不能互换。",
+        "经历问答的题材越铺越宽：从博物馆、水上乐园，到新加坡的夜间动物园（Night Safari）——Have you ever tried Chinese food outside of China? 把 ever been to / ever tried 用熟，你也能写出这样的旅行推荐。再往前一步就是完成时的延续用法：用 for 和 since 说「拥有、待了多久」，把经历和时间的长度连起来。"
+      ],
+      "methods": [
+        {
+          "name": "经历问答三步走",
+          "steps": [
+            "第一步问：Have＋主语＋ever＋been to＋地点?",
+            "第二步答：去过 Yes, I have. I've been there many times.；没去过 No, I haven't. I've never been there.",
+            "第三步补细节：过去时报时间（I went there last year.）",
+            "次数放句尾：many times / once / three times"
+          ],
+          "tip": "口诀：ever 问，never 否，答完经历补过去。"
+        },
+        {
+          "name": "been gone 分身法",
+          "steps": [
+            "been to＝去过，人已回来：I've been to the art museum many times.",
+            "gone to＝去了，人还没回：He has gone to the amusement park.",
+            "问「某人此刻在哪」想 gone，聊「有无经历」想 been",
+            "句型检查：Have/Has＋主语＋been/gone to＋地点?"
+          ],
+          "tip": "口诀：been 去过回来了，gone 去了还没回。"
+        },
+        {
+          "name": "Me too 与 Me neither 应答法",
+          "steps": [
+            "对方肯定（I've been to the art museum many times.）→ 你也有：Me, too.",
+            "对方否定（I've never been to a water park.）→ 你也没有：Me neither.",
+            "neither 自带否定，后面不再加 not",
+            "顺势邀约：Let's go to one tomorrow."
+          ],
+          "tip": "口诀：你也有 Me, too，你也没有 Me neither。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Have you ever been to a water park? 从下面三句里选正确的回答：Yes, I have. I went there last summer. / Yes, I did. / No, I wasn't.",
+          "solution": "选第一句。经历问答用 have 呼应：Yes, I have.，再补过去时细节 I went there last summer.（去年夏天去的）；did、was 的助动词都对不上。",
+          "difficulty": 1,
+          "pitfall": "选 Yes, I did.——问句用的是 Have you ever…，回答要用 Yes, I have.，补细节才用过去时。"
+        },
+        {
+          "question": "补全句子：I have ____ been to the space museum, so I want to go this weekend. 横线上填 never 还是 ever？",
+          "solution": "填 never。句子说「从没去过，所以这周末想去」，never 表示「一次也没有」，放在 have 和 been 之间；ever 是疑问句用词，不进陈述句。",
+          "difficulty": 2,
+          "pitfall": "填 ever——ever 用来发问（Have you ever…?），陈述里的否定用 never。"
+        },
+        {
+          "question": "—Where is Tom? —He has ____ to the amusement park. He'll be back at five. 横线上选 been 还是 gone？",
+          "solution": "选 gone。后一句 He'll be back at five（五点才回来）说明人还没回来，「去了没回」用 has gone to；「去过、人已回」才用 been to。",
+          "difficulty": 3,
+          "pitfall": "选 been——been to 是「去过且已回来」，人此刻不在、五点才回，要用 gone to。"
+        }
+      ],
+      "mistakes": [
+        "been to 与 gone to 混用：been to 去过已回（I've been there many times.），gone to 去了没回（He has gone to Beijing.）。",
+        "never 里再加 not：I've never been there 本身就是否定，别写成 haven't never been。",
+        "陈述句里硬塞 ever：ever 属于疑问句 Have you ever…?，说自己的经历用 I've been to… 或 I've never been to…",
+        "回应否定用错：对方说没去过，你也没去过要说 Me neither.，不是 Me, too.。"
+      ],
+      "source": {
+        "unit": "Unit 9 Have you ever been to a museum?",
+        "pages": [
+          65,
+          74
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Have you ever been to a science museum? —Yes, I have. I ____ to the National Science Museum last year.",
+          "options": [
+            "went",
+            "go",
+            "have gone",
+            "will go"
+          ],
+          "answer": "A",
+          "solution": "经历答完补细节要用一般过去时：last year 是过去时间标志，用 went——原对话正是 I went to the National Science Museum last year.；have gone 表示「去了还没回」，与 last year 冲突。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P65·科学博物馆对话（Have you ever been to a science museum? Yes, I have. I went to the National Science Museum last year. / No, I haven't. Me neither.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—I've never been to a water park. —____ Let's go to one this weekend.",
+          "options": [
+            "Me neither.",
+            "Me, too.",
+            "So do I.",
+            "Yes, I have."
+          ],
+          "answer": "A",
+          "solution": "对方用 never 表否定，你也没去过就说 Me neither.（我也没去过）——语法聚焦原句正是 I've never been to a water park. —Me neither.；Me, too. 只接肯定句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P68·语法聚焦经历表达（No, I've never been to a science museum. I've been to the art museum many times. I've never been to a water park. Me neither.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "补全听力事实：John has never ____ to the space museum, but Linda has ____ to the amusement park.",
+          "options": [
+            "been; been",
+            "gone; gone",
+            "been; gone",
+            "gone; been"
+          ],
+          "answer": "A",
+          "solution": "两空都填 been：has never been to 表示「从没去过」，has been to 表示「去过」——听力原句正是 John has never been to the space museum. Linda has been to the amusement park.；这里是聊经历，不是问人此刻在哪，不用 gone。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P66·听力真假判断（Tina went to the space museum last year. John has never been to the space museum. Linda has been to the amusement park.）变式（been to/never been to 选填）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "采访一位同伴两个经历问题（Have you ever been to…?），再把结果汇报成两句：去过的用 I've been to… 的口径，没去过的用 He/She has never been to…",
+          "answer": "示例：Have you ever been to the Palace Museum? —Yes, I have. Have you ever been to the Bird's Nest? —No, I haven't. 汇报：She has been to the Palace Museum. She has never been to the Bird's Nest.",
+          "solution": "问句用 Have you ever been to…?，答句用 Yes, I have. / No, I haven't.；转述时把 been to 与 never been to 对准对象——这些地标都出自课内的景点清单（the Palace Museum、the Great Wall、the Bird's Nest、the Terracotta Army）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_10",
+      "summary": "现在完成时谈拥有多久：for 后接一段时长，since 后接时间起点；buy 这类瞬间动词要换成 have had 才能和一段时间连用。",
+      "explanation": [
+        "这部分的核心句来自语法聚焦的三组问答：How long have you had that bike over there? —I've had it for three years. How long has his son owned the train and railway set? —He's owned it since his fourth birthday. Have you ever played football? —Yes, I did when I was little, but I haven't played for a while now. 庭院拍卖语篇里也有同样的表达：he has owned a train and railway set since his fourth birthday。家乡语篇则把延续感拉得更长：He has lived in Wenzhou for the last 13 years. / I haven't been back for almost three years now. / Children have learned to read and count at my old primary school since the mid-20th century.",
+        "have had 不是说曾经有过，而是说从过去某刻一直拥有到现在：一辆骑了三年的自行车、一套从四岁生日玩到现在的火车轨道套装。for 后面放一段时长（for three years、for a while），since 后面放那个起点（since his fourth birthday、since last November、since 2019、since I was 10 years old）。问句固定用 How long have you had/owned/known…? 一开口就是完成时。",
+        "操作分三步：第一步，问时长用 How long have you had it? How long has he owned it?；第二步，答句摆结构：主语+have/has+延续动词+for/since+时间；第三步，同一时长可以互推——for three years 就是 since three years ago，since last November 也能换成 for about a year。书上的改写练习是最好的模板：Jim is in Japan. He arrived there three days ago. 改成 Jim has been in Japan for three days.；I have a camera. I bought it in 2009. 改成 I have had the camera since 2009.；I know Anna. I first met her three years ago. 改成 I've known her for three years.",
+        "最容易出问题的是瞬间动词：buy、borrow、come、become 这类动作一发生就结束，装不下 for three years 这么长的时间段，必须换成对应的延续动词——buy→have had，borrow→have kept，come→have been in，become→have been。书上的动词填空正考这一转换：We have had a piano since last November. We bought it from the Li family when they moved to the US last year.——买发生在过去（bought），持有延续到现在（have had），两句各司其职。for 与 since 的分工也要盯紧：可以说 for three years，不能说 since three years；要接一段时间就得说 since three years ago。",
+        "for/since 是现在完成时的第三块拼图：前面已经学过用 yet/already 谈读书进度、用 ever/never 谈经历，这里补上谈持续时长的一角，完成时就能把进度、经历和时长一起说清。它也是介绍珍爱之物的开头句式：My favorite thing from childhood is… I've had it for/since…。往后更长的叙事写作和完成时深化，都建立在这套问答上。"
+      ],
+      "methods": [
+        {
+          "name": "for 加一段，since 加一点",
+          "steps": [
+            "问时长：How long have you had/owned/known…?",
+            "答时长：for+时间段（for three years / for a while / for the last 13 years）",
+            "答起点：since+时间点（since 2019 / since his fourth birthday / since last November / since I was 10 years old）",
+            "自检：把时间短语读一遍，能数出一段时长用 for，只能指出一个起点用 since"
+          ],
+          "tip": "口诀：for 加一段，since 加一点；一段对一段，一点对一点。"
+        },
+        {
+          "name": "瞬间换延续",
+          "steps": [
+            "buy→have had（买了多久说 have had）",
+            "borrow→have kept（借了多久说 have kept）",
+            "come→have been in（来某地多久说 have been in）",
+            "become→have been（成为某状态多久说 have been）",
+            "写完检查：句中若瞬间动词和 for/since 时间段同框，立即换延续动词"
+          ],
+          "tip": "口诀：买来要说 have had，借了就说 have kept；来的瞬间变 been in，变了状态用 been。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：I've had this bike ____ three years. 横线上该填 for 还是 since？",
+          "solution": "填 for。three years 是一段时间，for 后接时间段；题头句 I've had this bike for three years. 正是这个用法。",
+          "difficulty": 1,
+          "pitfall": "看到时间就顺手填 since——since 后面要的是时间点，比如 since 2019。"
+        },
+        {
+          "question": "把两句合成一句（用现在完成时加 for 或 since）：I know Anna. I first met her three years ago.",
+          "solution": "I've known Anna for three years. 书上改写练习的原题：meet 只是遇见的那一下，认识多久要用延续动词 know 的完成式 have known。",
+          "difficulty": 2,
+          "pitfall": "写成 I've met Anna for three years——met 是瞬间动作，接不了一段时间。"
+        },
+        {
+          "question": "挑出错误并改正：He has bought the train and railway set since his fourth birthday.",
+          "solution": "把 has bought 改成 has owned（或 has had）：He has owned the train and railway set since his fourth birthday. 语篇原句用的正是 has owned…since his fourth birthday。",
+          "difficulty": 2,
+          "pitfall": "buy 是瞬间动词，since 引出的一直延续到现在的拥有状态，要用 owned/had。"
+        }
+      ],
+      "mistakes": [
+        "误：I've bought this bike for three years.——buy 是瞬间动词，一段时间要配延续动词：I've had this bike for three years.",
+        "误：I've had it since three years.——since 后面接时间点（since 2019 / since three years ago），不能直接接一段时间。",
+        "误：How long do you have that bike?——问拥有多久要用现在完成时：How long have you had that bike?",
+        "误：She has lived here since five years.——five years 是时间段，用 for five years；要用 since 就说 since five years ago。"
+      ],
+      "source": {
+        "unit": "Unit 10 I've had this bike for three years.",
+        "pages": [
+          75,
+          82
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How long have you had that bike over there? —____",
+          "options": [
+            "I've had it for three years.",
+            "I've bought it for three years.",
+            "I have it three years ago.",
+            "I was having it for three years."
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：How long have you had that bike over there? —I've had it for three years. 问拥有时长，用完成时加 for+时间段作答。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P76·语法聚焦（How long have you had that bike over there? I've had it for three years.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "做书上的改写题：I have a camera. I bought it in 2009. 合成一句：I ____ the camera ____ 2009.",
+          "options": [
+            "have had; since",
+            "have bought; for",
+            "had; since",
+            "have had; for"
+          ],
+          "answer": "A",
+          "solution": "买发生在 2009 这个起点，拥有延续到现在：have had+since 2009。书上改写示例 Jim has been in Japan for three days. 同理：到达是过去点，待到现在用完成时。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P76·用 for 或 since 改写句子（I have a camera. I bought it in 2009.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一句完全正确？",
+          "options": [
+            "We have had the piano since last November.",
+            "We have bought the piano since last November.",
+            "We have had the piano for last November.",
+            "We bought the piano since last November and still have it."
+          ],
+          "answer": "A",
+          "solution": "书上动词填空原句：We have had a piano since last November. We bought it from the Li family when they moved to the US last year. 拥有用 have had+since，买用过去式 bought。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P76·动词填空（We have had a piano since last November. We bought it from the Li family…）变式（瞬间动词 buy 的正误辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "回家找一件你用了最久的旧物，先用 How long have you had it? 问自己，再用 for 和 since 各写一句回答（一句 for+时间段，一句 since+时间点），注意动词用延续形式。",
+          "answer": "示例：I have a toy bear. I've had it for eight years. = I've had it since 2018.",
+          "solution": "同一个时长有两种说法：for+一段时间，或 since+起点时间点；动词保持 have had 这类延续形式即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_11",
+      "summary": "读故事先抓三要素：人物是谁、遇到什么冲突、最后怎样收场；读到悬念问句就停下预测，猜完再往下验证。",
+      "explanation": [
+        "这一部分从书单聊起：Alice in Wonderland、Little Women、Treasure Island、Oliver Twist、Robinson Crusoe、Tom Sawyer 六本名著，配套问答是 Have you read Little Women yet? —No, I haven't. Have you? —Yes, I've already read it. —What's it like? —It's fantastic. 选书对话里 Steve 谈读后感只用两句：It's about four sisters growing up. It was really good, so I couldn't put it down. 主打语篇改写自 Robinson Crusoe，开头一句定下处境：When I first arrived on this island, I had nothing.",
+        "好故事都是一个谜：谁（人物）碰上什么麻烦（冲突），最后怎么样（走向与结局）。鲁滨逊语篇的设计非常典型：一无所有上岛是冲突起点，白手起家是发展，然后 A few weeks ago, I found the marks of another man's feet on the sand.——沙滩上的脚印把悬念推到顶点，紧跟着两个问句 Who else is on my island? How long have they been here? 读到这里停一停，先猜后文再往下验证，这就是续写的萌芽。",
+        "抓要素三步走：第一步圈人物，本篇就两位——Robinson Crusoe 和他救下的人：I named him Friday because that was the day I met him.；第二步画冲突句：Although I have lost everything, I have not lost my life. So I will not give up and I will wait for another ship. 还有野人袭击两人那一段；第三步定走向：救下 Friday、I have already taught him some English.、继续等船。人物、冲突、走向齐了，故事就握在手里了。",
+        "情节判断最怕张冠李戴：听力判断里 Oliver Twist is about a boy who goes out to sea and finds an island full of treasures. 是错的——出海寻宝岛是 Treasure Island 的情节；Tom Sawyer is about a boy who lives in the United Kingdom. 也是错的，Tom 住在美国。另有两个高频表达要吃透：fantastic（极棒的）用来夸书；couldn't put it down 是爱不释手，别按字面理解成拿不动书。",
+        "抓要素加做预测，是读整本书和写读书报告的基本功：报告要写清 what's it about（书里讲什么）、好在哪（It was really good），还得赶在截止日前读完——The book report is due in two weeks. 阅读策略也给出了路径：边读记要点、划主旨，读后用自己的话写一段小结。往后读长篇、写故事续编，都从这一套预测—验证—复述的循环里长出来。"
+      ],
+      "methods": [
+        {
+          "name": "故事三要素抓取法",
+          "steps": [
+            "一圈人物：故事里是谁（Robinson Crusoe、Friday）",
+            "二画冲突：他们遇到什么麻烦（一无所有、沙滩脚印、野人袭击）",
+            "三定走向：事情怎么发展收场（救下 Friday、教他英语、等待另一艘船）"
+          ],
+          "tip": "口诀：人物—冲突—走向，三样抓齐故事亮。"
+        },
+        {
+          "name": "悬念预测法",
+          "steps": [
+            "读到问句或意外处停一停（沙滩脚印、Who else is on my island?）",
+            "用已读情节猜后文：既然有人来过，接着会怎样？",
+            "读完回头核对：猜对了多少，为什么对、为什么错"
+          ],
+          "tip": "口诀：问号处停一停，猜完再往下读，读完对答案。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "鲁滨逊语篇里写道：I named him Friday because that was the day I met him. Friday 这个名字的来历是什么？",
+          "solution": "因为鲁滨逊遇到他的那天是星期五，就用相遇的日子给他命名；这是人物要素的关键细节，也是读后问题的原题。",
+          "difficulty": 1,
+          "pitfall": "望文生义猜成他生在星期五——原句 because 后面已经把来历说清了。"
+        },
+        {
+          "question": "读到 I found the marks of another man's feet on the sand. 之后，从下面四个推测里选最合理的一个：①他决定立刻离开海岛 ②岛上可能还有别人，他开始警惕观察 ③他把小船拆掉 ④他不再种水果蔬菜。",
+          "solution": "选②。脚印说明有人来过，自然引出 Who else is on my island? 的追问和警惕；预测要长在已读情节上。",
+          "difficulty": 2,
+          "pitfall": "随手选①——孤岛上并没有现成的船，离开不在合理预测里。"
+        },
+        {
+          "question": "用一句话说出 Robinson Crusoe 语篇的冲突：他遇到了什么麻烦？",
+          "solution": "鲁滨逊流落孤岛、失去了一切（Although I have lost everything），后来又发现岛上另有别人、遇到野人袭击，他要在岛上活下去并等待救援。",
+          "difficulty": 2,
+          "pitfall": "把冲突说成走向——救下 Friday、教他英语是情节发展，不是麻烦本身。"
+        }
+      ],
+      "mistakes": [
+        "把 Treasure Island 的寻宝情节安到 Oliver Twist 头上——判断情节句前先想清楚这本书讲谁、讲什么。",
+        "只顾查生词，丢了主线——fantastic、cannibals 这类词可以结合上下文猜，人物和冲突不能丢。",
+        "把预测当乱猜——预测必须基于已读情节（有脚印说明有人来过），读完还要回头验证。",
+        "复述故事漏掉悬念问句——Who else is on my island? 这类问句是预测的抓手，也是最值得讲给别人听的地方。"
+      ],
+      "source": {
+        "unit": "Unit 8 阅读板块",
+        "pages": [
+          57,
+          64
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Why does Robinson Crusoe call the man Friday?",
+          "options": [
+            "Because that was the day he met him.",
+            "Because the man was born on Friday.",
+            "Because the man likes Friday best.",
+            "Because their ship was called Friday."
+          ],
+          "answer": "A",
+          "solution": "语篇原句：I named him Friday because that was the day I met him. 读后问题原题就问这个名字的来历。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P59·鲁滨逊语篇与读后问答（I named him Friday because that was the day I met him.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "It's about four sisters growing up. 这句读后感说的是哪本书？",
+          "options": [
+            "Little Women",
+            "Treasure Island",
+            "Oliver Twist",
+            "Robinson Crusoe"
+          ],
+          "answer": "A",
+          "solution": "选书对话里 Steve 读完 Little Women 后说：It's about four sisters growing up. It was really good, so I couldn't put it down.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P58·选书对话（Yes, Little Women. I've already finished reading it! It's about four sisters growing up.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一句情节描述是对的？",
+          "options": [
+            "Treasure Island is about a boy who goes out to sea and finds an island full of treasures.",
+            "Oliver Twist is about a boy who finds an island full of treasures.",
+            "Tom Sawyer is about a boy who lives in the United Kingdom.",
+            "Robinson Crusoe lost his life on the island."
+          ],
+          "answer": "A",
+          "solution": "出海寻宝岛是 Treasure Island 的情节（听力判断里把这句安在 Oliver Twist 头上是错的）；Tom 住在美国不在英国；鲁滨逊虽然在岛上失去一切，但 I have not lost my life。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P58·听力正误判断（Oliver Twist is about a boy who goes out to sea and finds an island full of treasures. / Tom Sawyer is about a boy who lives in the United Kingdom.）变式（情节与书名配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "读完鲁滨逊语篇，往下续写两句：他和 Friday 接下来会遇到什么？写完读一遍，检查人物和已读情节是否接得上。",
+          "answer": "示例：One day, we saw a ship far away. We shouted and waved, and at last the ship came to take us home.",
+          "solution": "续写要接住已有要素：人物（Robinson 和 Friday）、处境（等船）、性格（不放弃），再顺着时间线往下编。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_12",
+      "summary": "60 词志愿者小计划三句式搭骨架：I'll help to… 说想做什么，I could… 说能做什么，because… 说为什么，再加时间地点就成篇。",
+      "explanation": [
+        "标题句先立样板：I'll help to clean up the city parks. 语法聚焦补足三个句式：I'd like to help homeless people. / You could ask hospitals to let you visit the kids and cheer them up. / I'm making some signs to put up around the school. 志愿者语篇给出成品示范：Mario volunteers at an animal hospital every Saturday morning，理由说得实在——I want to learn more about how to care for animals. I get such a strong feeling of satisfaction when I see the animals get better and the look of joy on their owners' faces. 志愿方向清单也列好了：Working in an old people's home / Helping kids in an after-school program / Being a guide at a museum.",
+        "一份志愿计划其实只回答三个问题：我想做什么？我做得来什么？我图什么？想做什么用 will 或 would like to 表态，能做什么用 could 摆本事，图什么用 because 讲理由——帮助别人，自己也收获成长和快乐。敬老院对话里 Tom 的经历就是注脚：reading the newspaper to the old people, or just talking to them，因为 a lot of old people are lonely，We should listen to them and care for them.",
+        "成文三步：第一步表态——I'll help to clean up the city parks this weekend. / I'd like to volunteer at an old people's home.；第二步摆能力——I could pick up rubbish and water the flowers. / I could read newspapers to them and chat with them.；第三步讲理由——because I love animals / because the park is our shared home。最后补一句时间就完整了：I'm free to help in / on…。申请信框架里这四问正好对上：想做什么（I'd like to volunteer as…）、擅长什么（I'm good at…）、为什么（because…）、何时有空（I'm free to help in/on…）。",
+        "will 与 could 的分工要分清：will 表已经拿定主意的打算（I'll help to…），could 表做得到、语气委婉的提议（We could make some signs. / You could ask hospitals to…）。一篇计划通常 will 定方向、could 列具体做法，通篇都是 will 就少了商量和余地。because 后面要接完整的理由句（because I love animals and want to learn how to care for them），别只丢一个词。另外 volunteer 作动词直接跟地点：volunteer at an animal hospital / in an old people's home。",
+        "这套三句式不止写计划：往大扩是申请信（加上称呼 Dear Sir or Madam 和落款），往小缩是一句承诺。表达感受的收尾句也顺手收进词库：a strong feeling of satisfaction / a dream come true / cheer them up——以后写倡议书、活动方案、感谢信，都是同一副骨架。"
+      ],
+      "methods": [
+        {
+          "name": "三句式搭骨架",
+          "steps": [
+            "第一句表态想做什么：I'll help to… / I'd like to volunteer at…",
+            "第二句摆出能做什么：I could…",
+            "第三句讲清为什么：because…",
+            "补一句时间地点收束：I'm free to help in / on…"
+          ],
+          "tip": "口诀：will 定方向，could 摆本事，because 讲道理。"
+        },
+        {
+          "name": "细节丰满法",
+          "steps": [
+            "加时间地点：this summer / at the animal hospital",
+            "加具体动作：reading the newspaper to the old people / water the flowers",
+            "加感受收尾：I get such a strong feeling of satisfaction when…"
+          ],
+          "tip": "口诀：何时何地做什么，一件小事加感受。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把三句排成一段通顺的志愿计划：①This summer I'll help to look after the animals at an animal hospital. ②I could walk the dogs and clean their homes. ③I want to do this because I love animals and want to learn how to care for them.",
+          "solution": "顺序是①②③：先表态（will）、再摆能力（could）、后讲理由（because），正是三句式骨架的顺序。",
+          "difficulty": 1,
+          "pitfall": "把理由句放开头——理由一般放在具体计划之后作收束。"
+        },
+        {
+          "question": "补全'能做什么'一句：I'll volunteer at the old people's home this summer. I ____ read newspapers to them and chat with them. 横线上填 could 还是 must？",
+          "solution": "填 could。could 表示做得到、愿意提供的帮助，语气委婉；语法聚焦示范句 You could ask hospitals to let you visit the kids and cheer them up. 正是这种用法；must 是必须，语气不对。",
+          "difficulty": 2,
+          "pitfall": "通篇 will/must 语气过硬——计划里的'能做什么'习惯用 could。"
+        },
+        {
+          "question": "用 because 连成一句：He volunteers at an animal hospital every Saturday morning. + He wants to learn more about how to care for animals.",
+          "solution": "He volunteers at an animal hospital every Saturday morning because he wants to learn more about how to care for animals. 语篇里 Mario 说的正是这个理由。",
+          "difficulty": 1,
+          "pitfall": "because 后面只写 because animals 这样的碎片——要接完整的原因句。"
+        }
+      ],
+      "mistakes": [
+        "通篇只有 will，没有 could——'能做什么'这一环丢了，计划就落不了地。",
+        "计划写成空话：I want to help people.——要落到具体活动：help kids learn to read / clean up the city parks / cheer them up。",
+        "because 后接不完整——要写完整理由句（because I love animals），不能只写一个词。",
+        "volunteer 词性混用——作动词直接接地点（volunteer at an animal hospital），别写成 volunteer to at。"
+      ],
+      "source": {
+        "unit": "Unit 2 写作板块",
+        "pages": [
+          10,
+          16
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—We need to come up with a plan for the City Park Clean-Up Day. —____",
+          "options": [
+            "We could make some signs and hand them out.",
+            "I did that last summer.",
+            "They are lonely old people.",
+            "It's hard work, but I love it."
+          ],
+          "answer": "A",
+          "solution": "清洁日计划的原话就是 We could make some signs. Let's make some notices, too.——用 could 提出能做的事。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P10·清洁日计划对话（We need to come up with a plan for the City Park Clean-Up Day. We could make some signs.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把志愿计划的四件事排成通顺一段：①I'll help to clean up the city parks this weekend. ②I could pick up rubbish and water the flowers. ③I want to do this because the park is our shared home. ④I'm free to help on Saturday morning.",
+          "options": [
+            "①②③④",
+            "②①④③",
+            "①③②④",
+            "③①②④"
+          ],
+          "answer": "A",
+          "solution": "表态（①will）→摆能力（②could）→讲理由（③because）→补时间（④free to help on…），四步正好对应申请信框架的四个问题。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P16·志愿申请信框架（I'd like to volunteer as… I'm good at… because… I'm free to help in / on…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "给计划补上'为什么'：Mario volunteers at an animal hospital every Saturday morning ____. 横线上选最合适的一项。",
+          "options": [
+            "because he wants to learn more about how to care for animals",
+            "because he is too busy with his studies",
+            "but he doesn't like animals at all",
+            "so he decides to give it up"
+          ],
+          "answer": "A",
+          "solution": "语篇原话：I want to learn more about how to care for animals. 志愿理由通常往'喜欢+想学+帮到谁'上写。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P11·志愿者语篇（Mario volunteers at an animal hospital every Saturday morning… I want to learn more about how to care for animals.）变式（because 理由句补全）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句式写一份 60 词左右的志愿者计划：第一句 I'll help to…，第二句 I could…，第三句 because…，可再加一句 I'm free to…。写完数一数词数。",
+          "answer": "示例：This summer, I'll help to clean up the city park near my home. I could pick up rubbish, water the flowers and make signs to tell people about it. I want to do this because the park is our shared home and clean places make everyone happy. I'm free to help on Sunday morning.",
+          "solution": "三句式起骨架，加时间地点和具体动作把它撑到 60 词左右：will 定方向、could 摆本事、because 讲道理。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_13",
+      "summary": "用过去进行时报突发事件：先报时间，再说当时正在 was/were doing，when 一引出突发，最后交代结果，四步一篇报道。",
+      "explanation": [
+        "这部分从一组通话问答练起：What were you doing last night, Linda? I called at seven and you didn't pick up. Linda 的回答给出标准结构——When you called, I was taking a shower.，稍后又有 I was sleeping at that time.，还有两边同时进行的句子 So while you were sleeping, I called Jenny and she helped me. 语法聚焦把问答收拢：What was he doing when the rainstorm came? —He was reading in the library when the rainstorm came. / When it began to rain, Ben was helping his mom make dinner. / While Linda was sleeping, Jenny was helping Mary with her homework.",
+        "过去进行时是慢镜头：was/were+动词-ing，画的是过去某刻正在进行、还没结束的画面；when 引出的突发事件是快镜头，咔嚓一下打断慢镜头。风暴语篇就是完整的一出：Ben was helping his mom make dinner when the rain began to beat heavily against the windows.——'正在帮妈妈做晚饭'是慢镜头，'雨开始猛敲窗户'是快镜头。报道一个人经历的突发事件，本质就是把慢镜头、快镜头和结果按顺序摆出来。",
+        "报道四步：第一步报时间——At about eight last night / Yesterday morning；第二步放慢镜头——I was doing my homework in my room.；第三步快镜头突发——when the light suddenly went out / when the rainstorm came；第四步交代结果——My dad found a candle and lit it for me. 记者采访的框架正是这么问的：Tell us what happened yesterday morning. So, when the rainstorm suddenly came, what were you doing? 照这个问答填内容，一篇口头报道就成形了。",
+        "when 与 while 的分工是本块最大的辨析点：when 后面常接一般过去时的短暂动作（When you called…/ when the rainstorm came），while 后面常接过去进行时的持续画面（While Linda was sleeping… / While I was walking home from school, I saw a strange light in the sky.）；两个持续画面同时进行，就用 while 牵手两个进行时（While Linda was sleeping, Jenny was helping Mary with her homework.）。be 动词别忘了跟主语：I was… / He was… / They were…。自测里那组句子值得背下来：While I was walking home from school, I saw a strange light in the sky. But when I pointed it out to my friend, it went away.",
+        "这套四步报道是叙事写作的雏形：风暴语篇的结尾还会升华一句——Although the storm broke many things apart, it brought families and neighbors closer together. 往后写记叙文、讲难忘的经历，都是时间—当时—事件—结果的骨架，再添一句感受收尾。听别人报道时也一样，抓住这四步，就能复述个八九不离十。"
+      ],
+      "methods": [
+        {
+          "name": "报道四步法",
+          "steps": [
+            "第一步报时间：At about eight last night / Yesterday morning",
+            "第二步放慢镜头：I was doing…（was/were+动词-ing）",
+            "第三步快镜头突发：when+一般过去时（when the light went out）",
+            "第四步交代结果：So… / Finally…"
+          ],
+          "tip": "口诀：时间—正在—突发—结果，四步成篇不缺角。"
+        },
+        {
+          "name": "when/while 分工法",
+          "steps": [
+            "短暂插入用 when：when you called / when the rainstorm came",
+            "持续背景用 while：While I was walking home…",
+            "两个进行时同时进行，用 while 牵线两边",
+            "检查 be 动词：I was / He was / They were"
+          ],
+          "tip": "口诀：when 一下，while 一段；两段同时，while 牵线。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：____ Linda was sleeping, Jenny was helping Mary with her homework. 横线上填 when 还是 while？",
+          "solution": "填 while。两边都是过去进行时的持续画面，用 while 牵线；语法聚焦原句就是 While Linda was sleeping, Jenny was helping Mary with her homework.",
+          "difficulty": 1,
+          "pitfall": "看见'当……时'就填 when——两个同时进行的持续动作用 while。"
+        },
+        {
+          "question": "填空并检查 be 动词：They ____ (have) dinner in the kitchen when they heard the news on the radio.",
+          "solution": "were having。主语 they 配 were，have 变 having；'正在吃晚饭'是慢镜头，'听到新闻'是 when 引出的快镜头。",
+          "difficulty": 1,
+          "pitfall": "只顾变 -ing 忘了 be 动词——They was 是错的，复数用 were。"
+        },
+        {
+          "question": "把四句排成一篇通顺的小报道：①At about eight last night, I was doing my homework at home. ②When I was writing, the light suddenly went out. ③My dad found a candle and lit it for me. ④Then I went on with my homework by candlelight.",
+          "solution": "①②③④：先报时间与慢镜头，再 when 引出突发，接着写应对，最后收在结果。",
+          "difficulty": 2,
+          "pitfall": "把结果句放在突发前——报道要按时间线走，先出事再应对。"
+        }
+      ],
+      "mistakes": [
+        "误：When the rainstorm came, I read in the library.——想表达'当时正读到一半'要用过去进行时：I was reading in the library when the rainstorm came.",
+        "误：While I was taking a shower, the phone was ringing.——电话响是一下子的事，用一般过去时：…the phone rang.",
+        "误：They was playing basketball.——复数主语配 were。",
+        "报道漏了结果——只说当时在做什么，不说后来怎样，听众听完还是不知道事情怎么了。"
+      ],
+      "source": {
+        "unit": "Unit 5 听说板块",
+        "pages": [
+          33,
+          40
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What was he doing when the rainstorm came? —____",
+          "options": [
+            "He was reading in the library.",
+            "He reads in the library.",
+            "He is reading at home.",
+            "He was do his homework."
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：He was reading in the library when the rainstorm came. 问当时正在做什么，用过去进行时回答。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P36·语法聚焦（What was he doing when the rainstorm came? He was reading in the library when the rainstorm came.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全记者采访：—So, when the rainstorm suddenly came, what were you doing? —I ____ (wait) for the bus.",
+          "answer": "was waiting",
+          "solution": "问句已经给出 were doing 的框架，答句保持一致：I was waiting for the bus.——雨中在等公交车正是这一板块的场景之一。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P34·记者采访（TV reporter: So, when the rainstorm suddenly came, what were you doing?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "自测句变式，选词填空：____ I was walking home from school, I saw a strange light in the sky. 横线上填 While 还是 When？",
+          "options": [
+            "While",
+            "When",
+            "What",
+            "Where"
+          ],
+          "answer": "A",
+          "solution": "walking home 是持续背景动作，用 while 引出；下一句 But when I pointed it out to my friend, it went away. 里的一下子动作才用 when。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P40·自测 when/while 填空（While I was walking home from school, I saw a strange light in the sky.）变式（when/while 选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "想一件你经历过的小突发事件（停电、阵雨、找不到东西都行），按四步说给家人听：报时间→当时正在做什么→when 突发→结果，说完让对方复述一遍，检查四步齐不齐。",
+          "answer": "示例：At about nine last night, I was reading in bed. When I was reading, the light suddenly went out. My mom found a flashlight, and we looked at the old photos together by its light.",
+          "solution": "四步各一句就够：时间、was/were doing、when+一般过去时、结果；平时多练口头报道，写记叙文时直接搬骨架。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8b_14",
+      "summary": "全册词汇约 720 词分层自查：黑体重点词要过听说读写四关；过去分词集中建库，三态同形一族与 gone/been 的区别是两道关卡。",
+      "explanation": [
+        "册末的词汇工具分几块：先按内容顺序列出各部分的词与短语，注明重点词汇用黑体标出、英式美式发音有区别时分别注音；再按字母顺序把全册词汇建成总索引，累计约 720 个词与短语；最后是不规则动词表，三栏对齐：原形—过去式—过去分词，例如 put-put-put、cut-cut-cut、read（原形读 /riːd/）-read /red/-read /red/，以及 go-went-gone、be（am/is/are）-was/were-been、buy-bought-bought、write-wrote-written。",
+        "词汇要分层管理：黑体词是重点词，要求听、说、读、写四会——听到能懂、开口能说、看到能认、提笔能写；非黑体词做到听得懂、读得出即可。死记词表容易背了就忘，书里的词都长在句子上：have had this bike、come up with a plan、take a shower、pick up rubbish——记词顺手记搭配，一词带走一条短语。",
+        "自查三件套：第一关按内容板块滚动默写，把黑体词中英互默，错的收进错词本；第二关分词变形，把不规则动词按三态归类默写——三态同形一族 cut、put、let、set、shut、hurt、cost、read（read 的过去式和过去分词拼写不变、读音变 /red/），ABB 型 buy-bought-bought、have-had-had，ABC 型 go-went-gone、write-wrote-written、be-was/were-been；第三关语篇填空，把动词放回完成时句子里填分词，比如 She has already read more than 100 different books! 和 I have already cut down trees and built a house.",
+        "两道高频关卡：一是三态同形词千万别加 -ed——不说 cutted、putted；read 在完成时里要改读 /red/：Have you read Treasure Island yet? 二是 gone 与 been 之分：have gone to 是去了（人在那边还没回来），have been to 是去过（去了已经回来）——He has gone to Beijing. 说明他现在不在；He has been to Beijing. 说明他去过后回来了。判断只看人在不在：人不在用 gone，回过用 been。",
+        "词汇自查是长线功夫：黑体词滚动默写防遗忘，分词库随学随补——往后完成时深化、被动语态都要用过去分词，这张表会一路用下去。养成分词变形随口报三态的习惯（go—went—gone），再加上语篇填空验手感，词汇和语法就串成了一张网。"
+      ],
+      "methods": [
+        {
+          "name": "分词三态归类法",
+          "steps": [
+            "AAA 同形：cut put let set shut hurt cost，read（过去式与过去分词读音 /red/）",
+            "ABB 型：buy-bought-bought，have-had-had，make-made-made",
+            "ABC 型：go-went-gone，write-wrote-written，be-was/were-been",
+            "随口报三态自测：说原形，连报过去式和过去分词"
+          ],
+          "tip": "口诀：同形一族念三遍——cut put let set shut hurt read（红）；去了用 gone，回过用 been。"
+        },
+        {
+          "name": "gone/been 判别法",
+          "steps": [
+            "先问人在不在说话的地方",
+            "人不在（还没回来）：has gone to",
+            "人回过（去过已回）：has been to",
+            "造句自检：He has gone to the library. He'll be back soon. / He has been to the library twice."
+          ],
+          "tip": "口诀：去了用 gone，回过用 been；先看人，再选词。"
+        },
+        {
+          "name": "四会自查三件套",
+          "steps": [
+            "第一关按内容板块滚动默写黑体词，错词进本",
+            "第二关不规则动词三态归类默写",
+            "第三关完成时语篇填空验实际会用"
+          ],
+          "tip": "口诀：默写—变形—填空，三关都过才算会。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下列哪个动词的三态（原形—过去式—过去分词）拼写完全相同？read / write / go / see",
+          "solution": "read。它是三态同形词，只是过去式和过去分词读音变成 /red/；write 是 write-wrote-written，go 是 go-went-gone，see 是 see-saw-seen。",
+          "difficulty": 1,
+          "pitfall": "以为 read 三态读音也一样——拼写相同，读音要变 /red/。"
+        },
+        {
+          "question": "—Where is Tom? —He ____ to the library. He'll be back in an hour. 横线上填 has gone 还是 has been？",
+          "solution": "填 has gone。人现在不在、还没回来，用 has gone to；如果说他去过、已经回来了，才用 has been to。",
+          "difficulty": 2,
+          "pitfall": "只看词形不看人在不在——判断标准始终是：去了 gone，回过 been。"
+        },
+        {
+          "question": "用过去分词补全完成时句子：Sally has already ____ (read) more than 100 different books!",
+          "solution": "填 read（读 /red/）。填空语篇的原句就是 She has already read more than 100 different books!——完成时里 read 的过去分词拼写不变、读音变。",
+          "difficulty": 2,
+          "pitfall": "读成 /riːd/——完成时里要读 /red/，口头自查时最容易漏。"
+        }
+      ],
+      "mistakes": [
+        "误说 cutted、putted——三态同形动词不加 -ed，cut put let set shut hurt cost 全族照原形写。",
+        "误把 Have you read…yet? 的 read 读成 /riːd/——完成时里的 read 读 /red/。",
+        "误：He has been to Beijing, so he isn't here now.——been 是去过已回，人不在要用 has gone to。",
+        "黑体重点词只认不写——四会词必须会默写，只看得见拼不出的词，写的时候就卡壳。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          1,
+          138
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一组动词的三态（原形—过去式—过去分词）拼写完全相同？",
+          "options": [
+            "cut-cut-cut",
+            "go-went-gone",
+            "write-wrote-written",
+            "see-saw-seen"
+          ],
+          "answer": "A",
+          "solution": "册末不规则动词表里 cut、put、let、set、shut、hurt、cost、read 都是三态同形；go、write、see 都是三态各异。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P136·不规则动词表（cut cut cut / put put put / read /riːd/—/red/—/red/）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Have you read Treasure Island yet? —Yes, I have. I've already ____ it.",
+          "options": [
+            "read",
+            "readed",
+            "reading",
+            "reads"
+          ],
+          "answer": "A",
+          "solution": "问答原句：Have you read Little Women yet? —Yes, I've already read it. read 的过去分词仍是 read，读音 /red/。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八下 P57·名著问答（Have you read Little Women yet? Yes, I've already read it.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词填空变式：My parents have ____ to the museum twice, so they know it well.",
+          "options": [
+            "been",
+            "gone",
+            "went",
+            "being"
+          ],
+          "answer": "A",
+          "solution": "去过两次（twice）说明人回来了，用 have been to；have gone to 表示人还在那边没回来，不能和 twice 连用。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八下 P136·不规则动词表（go went gone / be was, were been）变式（gone 与 been 辨析填空）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己设计一张全册词汇自查表：列出黑体词默写进度（按内容板块分成十份）、不规则动词过去分词归类栏（同形/ABB/ABC 三栏）、两句待填的完成时句子，并写下自查顺序。",
+          "answer": "示例顺序：先默第 1 份黑体词并订正→归类默写 10 个不规则动词的三态→完成两句填空（如 She has already ____ (cut) down the old tree. / They have ____ (go) to Shanghai.）→错词收本，三天后重默。",
+          "solution": "自查的关键是滚动和验证：默写管拼写，归类管变形，语篇填空管实际使用；错词单独收本、定期回默。",
           "difficulty": 3
         }
       ]
