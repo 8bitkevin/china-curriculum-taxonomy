@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 175,
+  "lessonCount": 187,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -21808,6 +21808,1484 @@
           "question": "拿出你最近的一篇英语作文，用'写后三查法'过一遍：标出每段主线时态、核对三单、圈出拼写与大小写问题，再把其中一处 and 换成 besides 或 however。",
           "answer": "示例：查出并改正 2-3 处，如 am scared 改 was scared、everyone want 改 everyone wants、china 改 China。",
           "solution": "三查法的价值在改自己的文章：清单过一遍硬伤清零，再升级一处连接词，作文档次立刻不同。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_01",
+      "summary": "高中听力语段长、语速快，学会听前读题预测、听中用缩写符号记关键词，校园场景对话就能稳稳拿下。",
+      "explanation": [
+        "书上的听力从真实校园场景起步：开学报到时说 My name is Amy. I'd like to have a student ID card, please.（我想办一张学生证）；认识新同学时说 Hi, I'm Max Jackson. I'm an exchange student from the UK.（我是从英国来的交换生 Max Jackson）；还有向学校顾问咨询选课的对话，要回答 What does Amy want to be in the future? 和 What course will Amy probably choose? 这类问题。策略框明确给出听前动作：“Before you listen, you can read the questions and the choices. It will help you to predict what you will hear.”（听前先读题干和选项，能帮你预测将听到的内容）；学习策略自评表里也写下一条关键习惯：I take notes while listening and reading.（我边听边读时记笔记）。",
+        "高中听力与初中最大的不同是：语段更长、语速更快、信息更密——人名、科目、时间、地点一起涌来，想把每个词都抓住并不现实。这就像听老师宣布一周活动安排：你不可能记住每句话，但会自动抓住“什么时间、什么地点、做什么”。所以高中听力的目标要从“听清每个词”升级为“抓住大意、记下要点”。",
+        "可操作的三段式：听前，读题干与选项，圈出关键词，预判场景（报到、选课还是社团招新）与答案类型（数字、科目还是人名）；听中，做笔记——长词用缩写（info=information、subj=subject），逻辑用符号（↑上升、↓下降、→导致、≈大约），只记数字、人名、时间、动宾短语，不写整句；听后，借助笔记核对作答，答不出再回忆语境。",
+        "几个最容易踩的坑要辨清：一是“逐词听写”式听法，前半段记了半句，后半段主线全丢；二是听到生词就卡住慌神，其实多数生词不影响答题，跳过即可；三是笔记写完整句子，手速根本跟不上；四是把预测当成瞎猜——预测要以选项里的科目名、地点名为依据，听时重点验证。",
+        "笔记法是会陪你走完高中三年的通用技能：英语听力、各学科课堂、将来的讲座与面试都离不开它。建议每周做一次“笔记回看”：检查关键词是否记得住事、符号是否一目了然，把“边听边记”变成像查词典一样的本能，听力和课堂效率会一起提升。"
+      ],
+      "methods": [
+        {
+          "name": "听前预测三步",
+          "steps": [
+            "第一步：快速读题干与选项，圈出关键词（科目名、数字、人名、地点）；",
+            "第二步：由关键词预判场景与答案类型——是报到、选课还是社团招新？答案是数字还是科目名？",
+            "第三步：带着问题去听，重点捕捉与问题对应的信息。"
+          ],
+          "tip": "先读题、再预测，带着问题去听。"
+        },
+        {
+          "name": "笔记三招：缩写·符号·关键词",
+          "steps": [
+            "缩写长词：info=information、subj=subject、hw=homework；",
+            "符号表逻辑：↑上升、↓下降、→导致、=即、≈大约；",
+            "只记关键：数字、人名、时间、动宾短语，绝不写整句。"
+          ],
+          "tip": "缩写符号加关键词，手快脑快记得牢。"
+        },
+        {
+          "name": "听中抓大放小",
+          "steps": [
+            "先跟主线：谁、在什么场景、要做什么；",
+            "生词一律跳过，不回头、不纠结；",
+            "录音结束后再回看题目，用笔记核对答案。"
+          ],
+          "tip": "抓大放小，生词绕道。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "听前准备：马上要听一段对话，题目是 What course will Amy probably choose?（Amy 可能选什么课？），选项有 English、IT、Art。听前最该做的一件事是什么？",
+          "solution": "先读题干与选项，圈出 English、IT、Art 三个课程名，预判这是“选课”场景，听时重点捕捉课程名称与选择的理由。",
+          "difficulty": 1,
+          "pitfall": "不是先背选项里的单词，更不是等音频响了才想起读题。"
+        },
+        {
+          "question": "笔记练习：听到 “My name is Amy. I'd like to have a student ID card, please.” 这句，用关键词笔记法该记下哪两组信息？",
+          "solution": "记人名 Amy 和要办的事 student ID card，可缩写成 Amy→ID card；整句不必抄。",
+          "difficulty": 2,
+          "pitfall": "把整句话抄下来是最慢的记法，一定跟不上后面的内容。"
+        },
+        {
+          "question": "场景判断：一段对话里反复出现 adviser、courses、choose、recommend，这段对话最可能发生在什么场景？",
+          "solution": "选课咨询场景：adviser（顾问）围绕 courses（课程）给建议（recommend），与 Amy 向学校顾问咨询选课的对话一致。",
+          "difficulty": 2,
+          "pitfall": "判断场景要靠几个词共同指向，别被单个词带偏。"
+        }
+      ],
+      "mistakes": [
+        "逐词硬听：总想听懂并写下每个词，结果漏掉整段大意；应抓关键词、跟主线。",
+        "听到生词就停住慌神：生词多半不影响答题，跳过它继续往下听。",
+        "笔记写完整句：手速跟不上；要用缩写、符号加关键词。",
+        "听前不做预测：题干和选项是最大的提示，不读等于蒙着眼上场。"
+      ],
+      "source": {
+        "unit": "Welcome Unit & Unit 1",
+        "pages": [
+          1,
+          22
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "听力步骤排序：① 读题并圈出选项里的关键词；② 预判对话场景与答案类型；③ 边听边用缩写和符号记关键词；④ 听完借助笔记核对作答。正确顺序是？",
+          "options": [
+            "②→①→④→③",
+            "①→②→③→④",
+            "①→③→②→④",
+            "③→①→②→④"
+          ],
+          "answer": "B",
+          "solution": "正确顺序是先读题圈关键词（①），再预测场景（②），听中记要点（③），最后核对作答（④）——正是听前预测策略的完整流程。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P12·听力策略 Predict content（Before you listen, read the questions and the choices）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "单选：新同学自我介绍说 “Hi, I'm Max Jackson. I'm an exchange student from the UK.” 他的身份是？",
+          "options": [
+            "一名来自英国的交换生",
+            "学校负责选课的顾问",
+            "食堂新来的管理员",
+            "英国来访团的带队老师"
+          ],
+          "answer": "A",
+          "solution": "exchange student 意为“交换生”，from the UK 说明来自英国，合起来即“来自英国的交换生”。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P2·开学报到场景对话（Hi, I'm Max Jackson. I'm an exchange student from the UK.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选择：录音里提到 Li Ming 喜欢 work in groups、make mind maps，还 keep a learning diary。哪种笔记记得又快又好？",
+          "options": [
+            "逐字写出 Li Ming likes to work in groups and make mind maps and keep a learning diary.",
+            "只记关键词与缩写：Li Ming→groups；mind maps；diary",
+            "什么都不写，全靠事后回忆",
+            "把听到的每个单词都抄一遍"
+          ],
+          "answer": "B",
+          "solution": "关键词加缩写既能跟上语速又不丢要点；逐字抄写与全靠回忆都会顾此失彼。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P7·学习策略对话变式（work in groups / make mind maps / keep a learning diary）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "老师口头宣布本周安排：周三下午社团招新在操场，周五上交英语笔记，周日线上听力自测。用今天的笔记法，写出你会在本子上记下的三条关键词式笔记。",
+          "answer": "示例：周三→招新·操场；周五→交英语笔记；周日→听力自测·线上。",
+          "solution": "只记“时间+事项+地点”式关键词，用箭头连接，事后看到笔记就能还原整件事。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_02",
+      "summary": "Skimming 略读抓主旨、Scanning 寻读锁细节：先搭文章框架再定位原句，长文章读得快、答得准。",
+      "explanation": [
+        "书上把快速阅读分成两步走：先 Read the text quickly to find the main idea of each paragraph.（快速读全文，找出每段大意），再 Read the text again and answer the questions.（再读一遍，回答问题）。策略框写明了略读的要领：“You can find main ideas by first taking a quick look at the title, picture(s), key words and phrases, and topic sentences.”（先快速浏览标题、图片、关键词短语和主题句，就能找到大意）。以语篇 The Freshman Challenge 为例：首句 “Hi! My name is Adam and I'm a freshman at senior high school.” 一眼锁定人物与身份；第二段段首 “First, I had to think very carefully about which courses I wanted to take.” 正是“选课”这一段的主题句。",
+        "打个比方：skimming 像看预告片，几十秒过一遍就知道整部电影讲什么；scanning 像在通讯录里找电话号码，眼里只装着目标词，其余一概掠过。高中文章动辄几百词，先略读搭起“文章讲什么”的框架，再寻读填入“具体细节”，速度与准确率就都有了。",
+        "Skimming 四看：一看标题与图片，定话题；二读首段，抓背景与人物；三扫各段首句，主题句多在段首；四看末段收尾，最后用一句话说出全文主旨。Scanning 三步：先把题干关键词圈出来（人名、数字、科目名）；再让视线带着关键词快速扫读，找原词或同义替换；最后停在原句细读比对，确认它真的回答了问题再落笔。",
+        "三组易混要分清：其一，skimming 不是放慢速度的精读，也不等于只看标题；其二，scanning 不是漫无目的地翻页，没有关键词就扫不出结果；其三，两者通常有先后——先 skimming 掌握框架，再 scanning 定位细节。题型也对号入座：主旨题（文章主要讲什么）用 skimming；细节题（如 What courses did Adam choose?）用 scanning。",
+        "这对双技适用于各话题的每一类语篇：旅行手册要先判断文体再抓线路信息，人物报道要先抓标题与首段；将来读英文报刊、查英文资料、写研究性学习报告，用的都是“先略读后寻读”的组合。平时可以计时训练：三分钟说出主旨，再两分钟答完细节题，把两种速度都练出来。"
+      ],
+      "methods": [
+        {
+          "name": "Skimming 四看法",
+          "steps": [
+            "看标题与图片，猜话题；",
+            "读首段，抓背景与人物；",
+            "扫各段首句，主题句多在段首；",
+            "看末段收尾，用一句话概括主旨。"
+          ],
+          "tip": "标题首尾加段首，主旨自己浮上来。"
+        },
+        {
+          "name": "Scanning 三步定位法",
+          "steps": [
+            "圈出题干关键词（人名、数字、科目、地点）；",
+            "视线带着关键词快速扫读，找原词或同义替换；",
+            "停在原句细读，确认后再作答。"
+          ],
+          "tip": "先圈词、再扫描，命中原句再细读。"
+        },
+        {
+          "name": "主旨题与细节题分工",
+          "steps": [
+            "问“文章主要讲什么”——用 skimming；",
+            "问“某个人物、数字或细节”——用 scanning；",
+            "时间紧：先 skimming 定框架，再 scanning 补细节。"
+          ],
+          "tip": "主旨略读，细节寻读。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "任务判断：题目问 What courses did Adam choose?（Adam 选了哪些课程？），该用 skimming 还是 scanning？为什么？",
+          "solution": "用 scanning。这是细节题：先圈出 courses 当关键词，回原文定位到选课一段细读即可，不必通读全文。",
+          "difficulty": 1,
+          "pitfall": "也不要只凭主旨印象作答——细节题要落到原句。"
+        },
+        {
+          "question": "主旨判断：略读语篇 The Freshman Challenge，看到标题与首段原句 “Going from junior high school to senior high school is a really big challenge.”，全文主旨最可能是？",
+          "solution": "美国高一新生 Adam 初入高中面临的种种挑战——选课、课外活动、课业压力，而不是其中某一件小事。",
+          "difficulty": 2,
+          "pitfall": "只概括某一段（比如只说志愿活动）就是把段落大意当成了全文主旨。"
+        },
+        {
+          "question": "主题句定位：某段以 “I had to choose extra-curricular activities, too.” 开头，后面写落选足球队、改入志愿者社团。这一段的主题句是哪句？",
+          "solution": "首句 “I had to choose extra-curricular activities, too.”——它统摄全段（选课外活动），后面的落选、改选都是支撑细节。",
+          "difficulty": 3,
+          "pitfall": "主题句要逐段去找，多数在段首；别拿全文首句去套每一段。"
+        }
+      ],
+      "mistakes": [
+        "把 skimming 当成逐句精读，三分钟只读了两句，主旨和速度全失。",
+        "scanning 前不圈关键词，眼睛漫无目的地扫，扫完什么也没找到。",
+        "找到关键词就立刻选答案，不核对原句是否真正回答问题，容易掉进同义替换陷阱。",
+        "把某一段的大意当成全文主旨：主旨要能覆盖所有段落。"
+      ],
+      "source": {
+        "unit": "各单元 Reading and Thinking",
+        "pages": [
+          1,
+          70
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：阅读任务是“快速找出 Adam 加入了哪个社团、每周三去做什么”。最合适的读法是？",
+          "options": [
+            "寻读（scanning）：圈出 club、Wednesday 等关键词，定位相关句子细读",
+            "略读（skimming）：逐句翻译全文后再作答",
+            "只看文章标题，凭感觉直接作答",
+            "从最后一个词倒着往前读"
+          ],
+          "answer": "A",
+          "solution": "这是细节题，用 scanning：以社团名、星期为关键词定位到志愿者社团一段（周三在爱心厨房分发食物）再作答。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P15·读后再答任务（Read the text again and answer the questions.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "单选：用 skimming 读完标题 THE FRESHMAN CHALLENGE 与首段后，全文最可能讲的是？",
+          "options": [
+            "足球队教练挑选队员的标准",
+            "志愿者社团分发食物的流程",
+            "高一新生 Adam 迎接高中新生活的种种挑战",
+            "大学入学考试的科目安排"
+          ],
+          "answer": "C",
+          "solution": "标题“新生的挑战”加上首段原句 “Going from junior high school to senior high school is a really big challenge.”，都指向“高中新生活的挑战”这一主旨。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P14·语篇 The Freshman Challenge 首段（Going from junior high school to senior high school is a really big challenge.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式配对：任务一——三分钟内说出全文大意；任务二——找出文中提到的具体课程名。两个任务分别该用哪种读法？",
+          "options": [
+            "任务一用 skimming，任务二用 scanning",
+            "任务一用 scanning，任务二用 skimming",
+            "两个任务都逐句精读",
+            "两个任务都只看图片"
+          ],
+          "answer": "A",
+          "solution": "找大意是主旨任务，用 skimming；找具体课程名是细节任务，用 scanning——先主旨后细节是黄金顺序。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P14·快速读找段落大意任务变式（Read the text quickly to find the main idea of each paragraph.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "任选一篇英文短文（如英文新闻或旅行手册）做双技训练：先计时三分钟 skimming，用一句英文说出主旨；再 scanning 回答两个细节问题，并把“主旨句+两处原文依据”记进笔记本。",
+          "answer": "示例：Main idea: Travelling in Peru offers four different tours. 依据一：Machu Picchu Tour；依据二：Amazon Rainforest Tour（各线路的天数与活动）。",
+          "solution": "主旨来自标题与各部分首句；细节依据要能指回原文原句，练的是“定位—验证”的闭环。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_03",
+      "summary": "跟着美国高一新生 Adam 看高中生活：选课、社团、课业三重挑战，用 sign up for、join、be good at 等词块聊青少年生活，学他落选不放弃的劲头。",
+      "explanation": [
+        "语篇 The Freshman Challenge 以自我介绍开场：“Hi! My name is Adam and I'm a freshman at senior high school.”（我叫 Adam，是一名高一新生），总起句是 “Going from junior high school to senior high school is a really big challenge.”（从初中升入高中是个大挑战）。全文依次展开：选课——在学校顾问（adviser）帮助下确定 maths, English, chemistry, world history, and Chinese，还被建议 “sign up for advanced literature because I like English and I'm good at it”；课外活动——try to join the school football team 落选，“I joined a volunteer club instead”，每周三去爱心厨房给无家可归的人分发食物；课业——“I know I'll have to study harder as a senior high school student and get used to being responsible for a lot more.”。社团话题还给出 Ballet Club、Nature Club、Volunteer Club、Debate Club 及各自的活动清单。",
+        "中美高中生活有差异也有共鸣：美国高一新生要自己挑课程、报社团，就像我们面对社团招新与选修课；而新环境的不安、难度上升、时间不够用，是各地高中生的共同课题。Adam 的态度尤其值得学：足球队落选后 “Obviously, I was unhappy, but I won't quit.”——难过但不放弃，打算自己加练来年再战，同时加入志愿者社团，不让课余生活开天窗。",
+        "读这类“挑战—应对”语篇可以边读边填表：每个挑战对应“感受—解决办法—结果打算”三栏。谈论社团与校园生活有一包地道词块：报名 sign up for a club；加入 join a club；表达偏好 I'm interested in... / I prefer...；说明理由 because I like... and I'm good at it；描述付出 hand out food / work at a soup kitchen。",
+        "几组概念要分清：freshman 专指高一或大一新生，不是“新鲜的人”；courses（学校课程）与 extra-curricular activities（课外活动）是两条线，选课不等于选社团；sign up for 强调“报名注册”这个动作，join 强调“成为其中一员”；quit（放弃）与 improve on my own（自己提高）在文中正好构成一对态度对比。",
+        "青少年生活话题还通向两项本领：一是写作——给有困扰的同学写建议信，先点明问题再分条建议，用上 I recommend that... / Why not...?；二是综合活动——设计自己的社团（club name、slogan、aim、activity 四要素，招新时说 We're very pleased to introduce our club to you.）。把 Adam 的“挑战—应对”思路迁移到自己的高中规划，就是最好的学以致用。"
+      ],
+      "methods": [
+        {
+          "name": "挑战—应对三栏表",
+          "steps": [
+            "通读全文，标出 Adam 的三个挑战：选课、社团、课业；",
+            "每段记三栏：感受如何—怎么办—结果或打算；",
+            "合上书，用 First... Then... Finally... 复述全文。"
+          ],
+          "tip": "一段一挑战，先难后有招。"
+        },
+        {
+          "name": "社团话题词块包",
+          "steps": [
+            "报名：sign up for a club / an activity；",
+            "加入与参与：join a club、take part in activities；",
+            "偏好与理由：I'm interested in... / I prefer... because I'm good at it。"
+          ],
+          "tip": "报名 sign up，加入 join，兴趣 interested。"
+        },
+        {
+          "name": "中外校园生活对照卡",
+          "steps": [
+            "列出美国高中的三个关键词：选课、社团、顾问；",
+            "对照自己的学校生活，写两处相同、两处不同；",
+            "用一句英文总结：In the US, students... / In China, we..."
+          ],
+          "tip": "一同一异一张卡，文化对比不害怕。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "细节定位：Adam 的课程单里没有下面哪一项？① chemistry ② world history ③ physics",
+          "solution": "选③。文中课程是 maths, English, chemistry, world history, and Chinese，在学校顾问帮助下确定；physics 不在其中。",
+          "difficulty": 1,
+          "pitfall": "用课程名做关键词 scanning 定位，别凭印象把别的学科填进去。"
+        },
+        {
+          "question": "原句理解：“My adviser recommended that I should sign up for advanced literature because I like English and I'm good at it.” 顾问建议 Adam 报名文学进阶课的原因是？① 这门课容易拿高分 ② 他喜欢英语而且学得好 ③ 他的朋友都选了这门课",
+          "solution": "选②。原因在 because 之后：like English and I'm good at it（喜欢且擅长）。",
+          "difficulty": 2,
+          "pitfall": "because 引出的才是理由，别和后面足球队、社团的内容混在一起。"
+        },
+        {
+          "question": "态度推断：落选足球队后 Adam 说 “Obviously, I was unhappy, but I won't quit. I'll find a way to improve on my own so that I can make the team next year.” 这表现出他怎样的品质？① 遇挫即退、及时止损 ② 不服输、肯自己下功夫 ③ 怨天尤人、责怪教练",
+          "solution": "选②。unhappy 但 won't quit，自己练习、来年再战；同时 join a volunteer club instead，说明他既坚韧又会灵活调整。",
+          "difficulty": 3,
+          "pitfall": "won't quit 是“不放弃”，不是“不退学”；make the team 指通过选拔进入球队。"
+        }
+      ],
+      "mistakes": [
+        "把 freshman 理解成“新鲜人”或“新来的老师”——它专指高一、大一新生。",
+        "混淆 courses 与 extra-curricular activities：前者是课程，后者是社团等课外活动。",
+        "细节张冠李戴：Adam 落选的是 school football team，加入的是 volunteer club，两者别写反。",
+        "只背单词不记词块：sign up for、be good at、hand out 要整体记、整体用。"
+      ],
+      "source": {
+        "unit": "Unit 1 Teenage Life",
+        "pages": [
+          11,
+          22
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：按照语篇内容，Adam 每周三在社团里做的事是？",
+          "options": [
+            "在爱心厨房给无家可归的人分发食物",
+            "为芭蕾社团缝制演出服装",
+            "在温室里种植植物",
+            "参加辩论队的赛前训练"
+          ],
+          "answer": "A",
+          "solution": "他加入的是志愿者社团：Every Wednesday, we work at a soup kitchen and hand out food to homeless people in the community.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P14·语篇 The Freshman Challenge 社团段（I joined a volunteer club instead.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "单选：文中 Adam 面对足球队落选的反应，先后顺序正确的是？",
+          "options": [
+            "先放弃所有活动→再抱怨教练→最后转学",
+            "先失落（unhappy）→决心不放弃（won't quit）→打算自己加练（improve on my own）→转而加入志愿者社团",
+            "先加入志愿者社团→再尝试足球队→最终落选",
+            "先向顾问求助换课→再退出球队→最后放弃活动"
+          ],
+          "answer": "B",
+          "solution": "原文顺序：教练说他踢得不够好→unhappy but won't quit→find a way to improve on my own→joined a volunteer club instead。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P14·足球队落选段（Obviously, I was unhappy, but I won't quit.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：两人互帮选社团。A: How about you? Are you going to join a club? B: Yes. I'm wondering which one I should choose: the Acting Club or the Ballet Club? A: _____",
+          "options": [
+            "I have no idea, and I don't care at all.",
+            "You must choose the one your friends choose.",
+            "Clubs are a waste of time.",
+            "If you ask me, I think you should choose what you like."
+          ],
+          "answer": "D",
+          "solution": "书上的示范句是 “If you ask me, I think you should choose what you like.”——给建议时先表态再给理由，比“随便、无所谓”得体得多。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P13·社团选择对话变式（If you ask me, I think you should choose what you like.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "仿照招新开场白 “Hello, everyone! We're very pleased to introduce our club to you.”，为你想创办的社团写出名称、口号（slogan）与目标（aim），并说明每周的活动安排。",
+          "answer": "示例：Club name: Reading Club; Slogan: Read more, grow more; Aim: to share good books and improve our English; Activity: every Friday afternoon we meet in the library and swap books.",
+          "solution": "名称与口号短小有力；aim 用 to do 结构点明目标；常规活动用一般现在时表述即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_04",
+      "summary": "票已订、约已定，就说 I'm travelling to...：分清进行时表将来、am going to 与 will 的分工，旅行计划说得笃定又地道。",
+      "explanation": [
+        "语法板块围绕“谈论将来计划”展开，核心例句全是 be + V-ing：“I'm travelling around Europe for two weeks with my aunt and uncle.”（我要和叔叔、姨妈在欧洲旅行两周）；“We're renting a car and driving!”（我们打算租车自驾）；“My parents are taking me to Hong Kong during the October holiday.”（十月假期父母要带我去香港）。对话里同样如此：What are you doing this weekend? — Some friends and I are going to that new water park on Saturday. / We're meeting at 10:00 a.m. at the bus stop near our school. 随后的任务是勾出表将来计划的句子并改写：I'll visit my grandparents in December. → I'm visiting my grandparents in December.",
+        "现在进行时本来表示“此刻正在做”，但句中一旦出现将来的时间（this weekend、on Saturday、in December），它就表示“已经定好的安排”——像写进日历的日程：票订了、人约了、时间定了，事情已经“上了轨道”。旅行场景最典型：订好机票（book air tickets online）、办好签证（apply for a visa）、租好车（rent a car），就可以笃定地说 I'm travelling to...。",
+        "判断三问：一问时间——句中有没有将来时间词；二问确定程度——票订了吗、人约了吗、安排落实了吗；三问结构——be 动词（am/is/are）+ 动词-ing 是否都在位、be 是否随主语变化。造句模板可以背三句：I'm travelling to...（去哪）/ We're meeting at...（几点在哪碰头）/ My parents are taking me to...（谁带我去哪）。",
+        "三种将来表达的分工要辨清：am going to 表“打算、计划”或“有迹象”——It's going to be sunny.（天气有放晴的迹象）；现在进行时表“已定安排”——书中正是这样连用的：“it's going to be sunny in the morning and not very windy, so I'm having a picnic with my friends.”（天气是迹象，野餐是定局）；will 表临时决定或预测。把已定行程说成 I will travel，听上去就像临时起意；把天气迹象说成 it's being sunny 则是硬伤。",
+        "这一语法是旅行话题的语言引擎：读旅行手册（Peru 的四条线路）、写旅行计划邮件（书中的 Richard 写道 “We're taking the train, leaving the day before the October holiday begins. We're arriving at 9:30 a.m.”）、打电话订票订房，全靠它把安排说得清楚笃定。写“我的假期计划”作文时，穿插 am going to（打算）与 am doing（已定），计划会显得立体可信。"
+      ],
+      "methods": [
+        {
+          "name": "三问定进行时",
+          "steps": [
+            "一问时间：句中有 this weekend、next month、in December 这类将来时间吗？",
+            "二问确定：票订了吗？人约了吗？安排落实了吗？",
+            "三问结构：be（am/is/are）+ 动词-ing 在位吗？be 随主语变了吗？"
+          ],
+          "tip": "将来已定用进行，be 加 ing 才算行。"
+        },
+        {
+          "name": "will / going to / 进行时三兄弟",
+          "steps": [
+            "will：临时决定、预测——I'll help you. / It will be fine.",
+            "am going to：打算、计划或有迹象——I'm going to learn about wildlife.",
+            "am + V-ing：已定安排——I'm travelling to Peru next month."
+          ],
+          "tip": "临时 will，打算 going to，定好行程用进行。"
+        },
+        {
+          "name": "旅行计划三件套",
+          "steps": [
+            "去哪怎么去：I'm travelling to... / We're taking the train.",
+            "何时何地碰面：We're meeting at 9:00 a.m. at the school gate.",
+            "点出打算：I'm going to learn about local history there."
+          ],
+          "tip": "去哪、碰面、表打算，三句连成计划单。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "时态判断：“We're meeting at 10:00 a.m. at the bus stop near our school.” 用的是什么形式？是“此刻正在碰面”吗？",
+          "solution": "现在进行时表将来：meeting 配将来时间 10:00 a.m.，表示约好的安排，不是正在发生。",
+          "difficulty": 1,
+          "pitfall": "别一见到 am/is/are + doing 就认定“正在做”，先看时间词。"
+        },
+        {
+          "question": "句型改写：机票已订——I've just booked my air ticket! I'll visit my grandparents in December. 把第二句改写成“现在进行时表将来”。",
+          "solution": "I'm visiting my grandparents in December.（am + visiting；in December 保留。）",
+          "difficulty": 2,
+          "pitfall": "不能丢 be 写成 I visiting，也不能丢 -ing 写成 I'm visit。"
+        },
+        {
+          "question": "情境选择：天气预报说明天上午晴、风小，你已和朋友约好去野餐。下列哪句最贴切？① I'm having a picnic with my friends. ② I will have a picnic if I'm free. ③ I have a picnic every Sunday. ④ I had a picnic last week.",
+          "solution": "选①。安排已定用现在进行时，与原句 “it's going to be sunny..., so I'm having a picnic with my friends.” 完全对应；②是临时意愿，③是习惯，④是过去。",
+          "difficulty": 3,
+          "pitfall": "天气迹象用 it's going to be sunny（going to），野餐安排用 I'm having——两种将来表达各司其职。"
+        }
+      ],
+      "mistakes": [
+        "见 be + doing 就当成“此刻正在做”，忽略 this weekend、in December 等将来时间词。",
+        "结构缺件：I'm visit（丢 -ing）、I visiting（丢 be）；且 be 要随主语变成 I'm / We're / She's。",
+        "把已定行程说成 I will travel——will 听起来像临时决定，已定安排应说 I'm travelling。",
+        "天气、迹象类将来误用进行时：迹象要说 It's going to rain.，进行时管的是“定好的安排”。"
+      ],
+      "source": {
+        "unit": "Unit 2 Travelling Around",
+        "pages": [
+          23,
+          34
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：下列哪一句用“现在进行时”表达了“已定好的将来安排”？",
+          "options": [
+            "We're renting a car and driving!",
+            "We rented a car last week.",
+            "We rent a car every summer holiday.",
+            "We will rent a car if we have time."
+          ],
+          "answer": "A",
+          "solution": "A 句 be + doing 且语境是出行计划，表示已定安排；B 是过去，C 是习惯，D 是带条件的临时打算。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P28·将来计划例句组（I'm travelling around Europe... / We're renting a car and driving!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "句式改写：机票已订好，把 I'll visit my grandparents in December. 改写成现在进行时表将来（保留时间状语）。",
+          "answer": "I'm visiting my grandparents in December.",
+          "solution": "改写任务的要求就是把表将来计划的句子换成现在进行时：am + visiting，in December 保留。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P28·将来计划句式改写任务（Rewrite them in the present continuous tense.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：A: What are you doing this weekend? B: Some friends and I _____ to that new water park on Saturday. Do you want to join us?",
+          "options": [
+            "are going",
+            "go",
+            "went",
+            "is going"
+          ],
+          "answer": "A",
+          "solution": "主语 Some friends and I 是复数，且安排已定（on Saturday），用 are going，与原句一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P28·周末计划对话变式（Some friends and I are going to that new water park on Saturday.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句“现在进行时表将来”写一份周末出行小计划（去哪、怎么去、几点在哪碰头），再加一句 I'm going to... 说明这次出行的打算。",
+          "answer": "示例：I'm visiting the City Museum with my classmates on Saturday morning. We're taking the No. 8 bus there. We're meeting at 8:30 a.m. at the school gate. I'm going to learn about the city's history.",
+          "solution": "三句进行时各管一件事（去哪、交通、碰头），一句 going to 点出目的；注意 be 随主语变化、动词别丢 -ing。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_05",
+      "summary": "读体育人物报道学两招：抓身份总评句、圈事例与数字，读懂 never give up 的体育精神。",
+      "explanation": [
+        "这部分从一场\"评选\"开场：Help us choose some \"Living Legends of Sports\". They must be athletes who are masters in their sports and also set good examples for others. Here are our first two choices. 两位人物各占一段。郎平段用三个身份层层排开：As a player, Lang Ping brought honour and glory to her country. As a coach, she led the China women's volleyball team to medals at world championships and the Olympics. As a person, Lang Ping is loved by fans at home and abroad. 接着写 2015 年世界杯前的考验：One of the best players had been injured, and the team captain had to leave because of heart problems. 但 Losing two important players was a big challenge, but Lang Ping did not lose heart. 两周后球队捧起世界冠军，Then in 2016, Lang Ping led her volleyball team to Olympic gold in Brazil. 乔丹段则从画面写起：When Michael Jordan's feet left the ground, time seemed to stand still. 点出绰号 \"Air Jordan\" 的由来，再引他的名言：I can accept failure; everyone fails at something. But I can't accept not trying.",
+        "人物报道就像给运动员拍纪录片：先打字幕，再放画面。字幕是身份总评（As a player… As a coach… As a person…），画面是具体事例（主力受伤、队长离队、两周后夺冠）。郎平为什么值得尊敬？不是因为她从没遇到困难，而是困难来临时 she did not lose heart（没有泄气）。乔丹的独特也不只在球技——Jordan's skills were impressive, but the mental strength that he showed made him unique. 心理强度、从失败中学习、退役后办俱乐部帮助年轻人，合起来才是\"传奇\"。所以体育精神不等于\"必须赢\"：fair play（公平比赛）、尊重对手、helping others，同样是赛场上的赢。",
+        "读人物报道三步走：第一步，看标题与引语定主题——\"Living Legends of Sports\"已经告诉你写的是在世的体育传奇；第二步，抓每段首句或总评句——As a player… / Jordan's skills were impressive, but…这些句子是作者的\"定调\"；第三步，圈事例与数字——2015 World Cup、2016、since 1996、the Boys and Girls Club，用事实支撑评价。谈体育精神时用现成句块表态：同意说 I agree. / Exactly!；反对说 I don't think so.；委婉不同意说 I see what you mean, but ...",
+        "几组词块要分清：lose heart 是\"泄气、灰心\"（Lang Ping did not lose heart），lose the game 才是\"输掉比赛\"；bring glory and honour to…是\"为……带来荣耀\"，glory 与 honour 都不可数；injured 指\"受伤的\"，主语通常是人（One of the best players had been injured），说建筑受损用 damaged 或 destroyed；determination（决心）与 strength（力量、毅力）是名词；set a good example for others 里介词用 for 或 to 都行，但 example 前的 a 不能丢。",
+        "人物报道的\"总评＋事例\"结构马上能迁移到写作：这部分后面的写作任务就是给班级健康手册写一页，那篇 GOING POSITIVE 正是一篇自述式人物小传——从\"过去的样子\"写到\"现在的改变\"。介绍你敬佩的运动员，也按\"身份总评一两句＋具体事例两三个＋一句影响\"来组织；口头展示、综合活动里谈偶像，同样用这套骨架。"
+      ],
+      "methods": [
+        {
+          "name": "人物报道三步读法",
+          "steps": [
+            "看标题与引语定主题：Living Legends of Sports＝在世的体育传奇",
+            "抓每段首句或总评句：As a player… As a coach… As a person…是作者定调",
+            "圈事例与数字：2015 World Cup、2016 Brazil、since 1996，用事实支撑评价"
+          ],
+          "tip": "口诀：标题定调，首句定评，事例定据。"
+        },
+        {
+          "name": "观点表态句块法",
+          "steps": [
+            "同意：I agree. / Exactly! / So do I.",
+            "反对：I don't think so. / I'm sorry, but I disagree.",
+            "委婉反驳：I see what you mean, but …（先承认对方有理再转折）"
+          ],
+          "tip": "口诀：同意亮 Exactly，反驳先礼后兵 I see what you mean, but…"
+        }
+      ],
+      "examples": [
+        {
+          "question": "2015 年世界杯备赛时，中国队遭遇了什么困难？郎平是怎么应对的？请引用语篇原句作答。",
+          "solution": "原句：One of the best players had been injured, and the team captain had to leave because of heart problems.——主力受伤、队长因心脏问题离队，连失两员大将；但 Lang Ping did not lose heart，两周后她们成了世界冠军。",
+          "difficulty": 1,
+          "pitfall": "只凭大意概括——人物报道的细节要回原文找：受伤的是 best player，离队原因是 heart problems。"
+        },
+        {
+          "question": "乔丹说 \"I can accept failure; everyone fails at something. But I can't accept not trying.\" 这句话的核心意思是什么？",
+          "solution": "可以接受失败、人人都会失败，但绝不能接受不去尝试——这正是语篇说的 Losing games taught him to practise harder and never give up.（失败教会他更刻苦地练习、永不放弃）。",
+          "difficulty": 2,
+          "pitfall": "把\"接受失败\"读成\"躺平\"——乔丹的重点在后半句 not trying：失败是学费，不尝试才是真正的输。"
+        },
+        {
+          "question": "\"不泄气（did not lose heart / never give up）\"\"从失败中学习\"\"为他人树榜样（set a good example）\"\"退役后远离体育\"——哪几项能在郎平与乔丹身上找到依据？请分别举例。",
+          "solution": "前三项都有：郎平 2015 年连失两将仍夺冠（did not lose heart）；乔丹说从失败中学习（learning from his failures），还创办 the Boys and Girls Club 帮助年轻人（set a good example）。\"退役后远离体育\"没有依据，与两人事例相反。",
+          "difficulty": 2,
+          "pitfall": "比异同要回到两个人的段落各找证据，不能凭对名人的印象作答。"
+        }
+      ],
+      "mistakes": [
+        "把 lose heart 理解成\"输球\"——lose heart 是固定词块\"泄气、灰心\"，Lang Ping did not lose heart＝郎平没有泄气。",
+        "把人物报道读成流水账，只记住\"她赢了很多比赛\"——要能说出结构：身份总评（As a player…）＋具体事例（2015 年连失两将仍夺冠）。",
+        "表达不同意时直接说 You're wrong.——课堂上用 I don't think so. 或 I see what you mean, but …，先礼后兵。",
+        "把 injured 随手用来修饰事物——它一般说人受伤：the injured player / the injured boy；说建筑受损用 damaged 或 destroyed。"
+      ],
+      "source": {
+        "unit": "Unit 3 Sports and Fitness",
+        "pages": [
+          35,
+          46
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "根据郎平的人物语篇：As a coach, she led the China women's volleyball team to medals at world championships and the Olympics. 2016 年她带领球队取得的成绩是？",
+          "options": [
+            "世界杯冠军",
+            "奥运会金牌（Olympic gold in Brazil）",
+            "世界锦标赛银牌",
+            "全国联赛冠军"
+          ],
+          "answer": "B",
+          "solution": "语篇结句：Then in 2016, Lang Ping led her volleyball team to Olympic gold in Brazil.——2016 年巴西奥运会金牌。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P38·Living Legends（Then in 2016, Lang Ping led her volleyball team to Olympic gold in Brazil.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "自测短文原句：In sports, there is no use ___ to fall down or be hurt, because in the end, the audience will see through it. 横线处应填？",
+          "options": [
+            "compete",
+            "pretending",
+            "master",
+            "cheating"
+          ],
+          "answer": "B",
+          "solution": "there is no use doing sth 是固定句型，填 pretending（假装）：假装摔倒受伤没有用，观众终究会看穿。这段自测短文同时用到 compete、master、failure、audience 等词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P44·自测词汇填空（there is no use pretending to fall down…the audience will see through it）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "同学说：A soccer player should never pretend to fall down even if it helps his or her team. 你完全赞同，最恰当的回应是？",
+          "options": [
+            "I don't think so.",
+            "Exactly! It's important to do the right thing.",
+            "That doesn't make any sense!",
+            "I see what you mean, but many players do it."
+          ],
+          "answer": "B",
+          "solution": "完全赞同用 Exactly!（原对话示范句：Exactly! It's important to do the right thing.）；A、C 是反对，D 是委婉不同意。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P41·赞同与反对表达（Exactly! It's important to do the right thing.）变式（观点应答）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句话介绍你最敬佩的一位运动员：第一句给身份总评（用 As a player, … 或 He/She is famous for…），第二句讲一个具体事例（用上 injured、failure、give up 中至少一个词），第三句说影响（用 set a good example）。",
+          "answer": "示例：As a player, she brought honour and glory to her country. She was badly injured, but she never gave up. Her story sets a good example for us.",
+          "solution": "总评＋事例＋影响，就是人物报道的最小骨架；写完读一遍，检查时态——过去的事例用一般过去或过去完成。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_06",
+      "summary": "沿时间轴读地震语篇：征兆、摧毁、救援、重生四幕走，认齐八种灾害词与救援三词。",
+      "explanation": [
+        "语篇 THE NIGHT THE EARTH DIDN'T SLEEP 按时间线展开五段。震前一连串怪事：Strange things were happening in the countryside of northeastern Hebei. 井里的水 rose and fell、鸡和猪 too nervous to eat、狗 refuse to go inside buildings、老鼠出逃、鱼跳出水面，凌晨时分 bright lights were seen in the sky and loud noises were heard。3:42 a.m. 地震爆发：At 3:42 a.m., everything began to shake. It seemed as if the world were coming to an end! 随后是毁灭：In less than one minute, a large city lay in ruins. 救援段：the army sent 150,000 soldiers to Tangshan to dig out those who were trapped and to bury the dead. Workers built shelters for survivors whose homes had been destroyed. 结尾重生：Slowly, the city began to breathe again. 灾害词清单在听说板块出现：earthquake、tornado、wildfire、drought、landslide、tsunami、flood、volcanic eruption。",
+        "灾难报道像纪录片：远景给数字——one third of the whole nation felt it、死伤超过 400,000 人、75 percent 的工厂建筑倒塌；近景给细节——Bricks covered the ground like red autumn leaves（砖头像红秋叶铺满地面），比喻让毁灭变得可感。为什么结尾说 the city began to breathe again（城市重新呼吸）？因为标题写大地没有入睡，正文把城市写成一个被震停的生命，救援让它复活——首尾呼应。读灾害语篇，既要看数字，也要品这些有温度的句子。",
+        "灾害词三路归类记：地下闹的——earthquake（地震）、landslide（滑坡）、volcanic eruption（火山喷发）；天上闹的——drought（干旱）、wildfire（野火）、tornado（龙卷风）；水里闹的——flood（洪水）、tsunami（海啸）。新闻语篇用六要素抓主干：date/time/place/event/cause/effect——何时、何地、何事、原因、影响、后续救援。救援三词抓住：rescue（营救）、destroy（摧毁）、shelter（避难所），再用 trapped（被困）、bury（掩埋）、evacuate（疏散）扩容。",
+        "近义词辨析：damage 指\"损坏\"（部分受损，The tornado caused a lot of damage），destroy 是\"摧毁\"（彻底毁掉，Nearly everything in the city was destroyed）；rescue worker 是\"救援人员\"，不说 save worker；affected 指\"受影响\"（500,000 people affected），别写成 effected；in shock 是\"震惊、呆住\"（People were in shock）；trap 的过去分词 trapped 要双写 p。",
+        "这一部分直接通向两类输出：一是摘要写作——把长报道压缩成原文约三分之一的短文，只保留六要素主干；二是安全表达——First/First of all, you should… Stay calm. Stay away from… Finally… 一套指令句型，综合活动里讲灾害防护就用它。数字与时间的表达，也在为新闻听力和写作持续供料。"
+      ],
+      "methods": [
+        {
+          "name": "灾害词三路归类法",
+          "steps": [
+            "地下：earthquake、landslide、volcanic eruption",
+            "天上：drought、wildfire、tornado",
+            "水里：flood、tsunami"
+          ],
+          "tip": "口诀：地动山摇归地下，旱火旋风归天上，洪水海啸水里来。"
+        },
+        {
+          "name": "新闻六要素笔记法",
+          "steps": [
+            "读灾害报道先标五格：date/time/place/event/effect",
+            "圈数字：人数、percent、magnitude（震级）、时间点",
+            "补一栏救援动作：rescue / shelter / evacuate / provide food and water"
+          ],
+          "tip": "口诀：何时何地何事件，影响几何救援忙。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "一张新闻卡片写着：Began on 1 May / 2,400 homes destroyed / Almost 88,000 people evacuated / Hundreds of firefighters arrived。这是哪种灾害？判断依据是什么？",
+          "solution": "wildfire（野火）——这是加拿大艾伯塔野火的新闻卡片：房屋被大火摧毁（destroyed by fire）、近 8.8 万人疏散、数百名消防员（firefighters）到场，关键词都指向火灾。",
+          "difficulty": 1,
+          "pitfall": "看到 homes destroyed 就断定是地震——关键词是 firefighters（消防员）与 evacuated（疏散），指向火灾。"
+        },
+        {
+          "question": "语篇写了地震前哪些\"怪事\"？\"全城停电、水电难求\"算不算震前征兆？",
+          "solution": "震前征兆有：井里的水 rose and fell、井壁出现深裂缝、臭气冒出、鸡和猪 too nervous to eat、狗 refuse to go inside buildings、老鼠出逃、鱼跳出水面、天空中亮光与巨响。\"全城停电\"不是震前征兆——震后才是 Water, food, and electricity were hard to get.",
+          "difficulty": 2,
+          "pitfall": "把震后现象（水、食物、电难以获得）当成震前征兆——注意语篇的时间线。"
+        },
+        {
+          "question": "用 rescue/destroy/shelter 的适当形式补全：The earthquake ___ almost all the old houses, so the government built ___ for the homeless, and ___ teams arrived within hours.",
+          "solution": "destroyed；shelters；rescue。第一空主语是地震、宾语是房屋，说\"摧毁\"用 destroy 的过去式 destroyed；第二空 build shelters 建避难所，无家可归者不止一人，shelter 用复数；第三空 rescue teams 救援队，rescue 作定语用原形。",
+          "difficulty": 2,
+          "pitfall": "shelter 在这里是可数名词要加 -s；rescue 作定语修饰 teams 不加 -ed。"
+        }
+      ],
+      "mistakes": [
+        "damage 与 destroy 混用：caused a lot of damage（损坏）是固定搭配；彻底摧毁才用 destroy，如 Nearly everything in the city was destroyed.",
+        "把 effected 当\"受影响\"——正确的是 affected（500,000 people affected）；effect 是名词\"影响\"。",
+        "rescue 和 save 随手换——说救援人员要用 rescue worker（The mother thanked the rescue worker who found her baby.），save worker 不成立。",
+        "漏掉 trapped 的双写：trap→trapped（those who were trapped under the ruins）。"
+      ],
+      "source": {
+        "unit": "Unit 4 Natural Disasters",
+        "pages": [
+          47,
+          58
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "本部分出现的灾害词清单共八种：earthquake、tornado、wildfire、drought、landslide、tsunami、flood、volcanic eruption。下面哪一个不在清单里？",
+          "options": [
+            "drought",
+            "tsunami",
+            "sandstorm",
+            "landslide"
+          ],
+          "answer": "C",
+          "solution": "sandstorm（沙尘暴）不在清单中；其余三项都在。记不清就按\"地下、天上、水里\"三路归类回忆。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P48·灾害词清单（earthquake tornado wildfire drought landslide tsunami flood volcanic eruption）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "汶川地震新闻卡片（Earthquake, Wenchuan, China）上标注的发生时刻是？",
+          "options": [
+            "3:42 a.m., 28 July 1976",
+            "14:28, Monday, 12 May",
+            "around 7:00 a.m., Sunday",
+            "Began on 1 May"
+          ],
+          "answer": "B",
+          "solution": "卡片写着 14:28 Monday, 12 May，震级 Magnitude 7.8 (8.0)；A 是唐山语篇的时刻，C 是海啸报道里的时间，D 是艾伯塔野火。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P49·灾害新闻卡片（Earthquake Wenchuan, China 14:28 Monday, 12 May Magnitude 7.8 (8.0)）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇原句：In less than one minute, a large city lay in ruins. 结合上下文，ruins 的意思是？",
+          "options": [
+            "废墟",
+            "谣言",
+            "避难所",
+            "地平线"
+          ],
+          "answer": "A",
+          "solution": "上一句说巨大裂缝 cut across houses, roads, and waterways，下文说 Nearly everything in the city was destroyed——城市一分钟内沦为废墟。lay in ruins 是固定搭配。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P51·语境猜词（ruin brick trap bury）变式（ruins 词义判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一种你了解的自然灾害，用\"时间—地点—事件—影响—救援\"五要素写三句英文报道：第一句交代时间地点（用一般过去时），第二句说影响（可用 destroy、leave…homeless），第三句说救援（用 rescue 或 shelter）。",
+          "answer": "示例：A big flood hit a small town last summer. The flood destroyed hundreds of homes and thousands of people were affected. Rescue teams arrived quickly and set up shelters for the survivors.",
+          "solution": "五要素齐了就是一条合格的灾害新闻；写完对照检查：过去事件用一般过去时，被动句（were affected）把焦点放在灾民身上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_07",
+      "summary": "定语从句三件新装备：whose 管所属、whom 作宾格、介词提前配 which，从初中 that/who 平滑升级。",
+      "explanation": [
+        "语法板块先用五个例句圈出限制性定语从句，其中三句正是新装备：Mr Li is an architect whose designs for the new town have won praise.（whose）A doctor with whom James used to work died in the 2016 earthquake in Ecuador.（介词＋whom）These were animal bones and shells on which symbols were carved by ancient Chinese people.（介词＋which）填空练习再补：Here are some of the people whose homes were destroyed by the typhoon. / The injured boy whose mother was lost in the disaster was taken to the hospital. / The woman wrote a thank-you letter to the soldier by whom she was rescued. 阅读语篇里也有原句：Workers built shelters for survivors whose homes had been destroyed. 语法表格还给出关系副词的三张脸：the day when / the reason why / the place where，以及它们的替身 the place/time in(at) which。",
+        "初中你已经会用 who/that/which：先行词是人、从句缺主语用 who/that，指物用 that/which。高中添两件装备：第一件 whose——当从句里的名词属于先行词时（survivors 的 homes、the boy 的 mother、the architect 的 designs），用 whose 把\"的\"字译出来；第二件 whom——who 的宾格，在从句中作宾语，最常见于介词后面（with whom / by whom）。介词＋关系词并不神秘：把从句里的介词拎到关系词前面而已——she was rescued by the soldier → the soldier by whom she was rescued；symbols were carved on the bones and shells → the bones and shells on which symbols were carved。",
+        "选关系词三连问：一问从句缺什么？缺主语或宾语才用关系代词；先行词与从句某个名词是所属关系（……的）→ whose。二问先行词是人还是物？介词后人只能用 whom，介词后物只能用 which（介词后不用 who/that）。三问介词从哪来？看从句动词或形容词的固定搭配：rescued by、work with、carve on——介词跟着动词走，提前时一并带走。关系副词 when/why/where 可看成介词＋which 的替身：the day when＝on which，the place where＝in which。",
+        "四个坑：其一，whose 与 who's 同音不同义——who's＝who is，whose 才是\"谁的\"；其二，介词后面禁用 that 和 who（the soldier by whom ✓，by that ✗）；其三，when/where 之后从句已经完整，不再缺主语宾语，别再画蛇添足填 which；其四，先行词是 the way 时可用 that/in which 或省略，不要见到 way 就填 where。",
+        "定语从句是高中写作的升级器：两句合一（The man is a doctor. You talked with him. → The man with whom you talked is a doctor.）立刻显得地道；阅读长难句时，先找先行词、再把从句括起来，主句主干就露出来了。后面还会遇到非限制性定语从句（逗号版）与\"介词＋关系词\"在正式文体里的更多用法——这套三连问会一直用下去。"
+      ],
+      "methods": [
+        {
+          "name": "关系词三连问",
+          "steps": [
+            "一问缺什么：从句缺主语或宾语→关系代词；所属关系（……的）→ whose",
+            "二问指谁：人→who/whom，物→which；介词后只能 whom/which",
+            "三问介词哪来：跟从句动词搭配走（rescued by / work with / carve on），提前时一并带走"
+          ],
+          "tip": "口诀：所属用 whose，介后人 whom 物 which，that 不进介词门。"
+        },
+        {
+          "name": "介词前移法",
+          "steps": [
+            "写出从句原句：she was rescued by the soldier",
+            "找动词搭配里的介词：rescued by",
+            "介词提到关系词前：the soldier by whom she was rescued"
+          ],
+          "tip": "口诀：介词跟动词走，前移时不落空。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "The injured boy ___ mother was lost in the disaster was taken to the hospital. 横线处应填哪个关系词？说说理由。",
+          "solution": "填 whose：从句里 mother 前缺定语，\"男孩的母亲\"是所属关系，用 whose 引出 the injured boy whose mother…（原句出自关系词填空练习）。",
+          "difficulty": 1,
+          "pitfall": "见先行词是人就填 who——要看从句缺什么：这里缺的是 mother 前的定语，不是主语。"
+        },
+        {
+          "question": "A doctor with ___ James used to work died in the 2016 earthquake in Ecuador. 横线处填 whom 还是 who？为什么？",
+          "solution": "填 whom。介词 with 后面只能用宾格 whom：work with sb → the doctor with whom James used to work（原句出自语法板块例句）。介词后不用 who。",
+          "difficulty": 2,
+          "pitfall": "口语里介词后偶尔听到 who，书面语必须写 whom——考试按 whom 判。"
+        },
+        {
+          "question": "These were animal bones and shells ___ symbols were carved by ancient Chinese people. 用\"介词＋关系词\"补全。",
+          "solution": "on which。从句原句是 symbols were carved on the bones and shells（符号刻在兽骨和贝壳上），介词 on 随 carve on 搭配提前，指物用 on which（原句出自另一语篇的语法例句）。",
+          "difficulty": 3,
+          "pitfall": "介词想当然填 in 或 at——回到动词搭配 carve…on 找介词，不能凭语感。"
+        }
+      ],
+      "mistakes": [
+        "whose 与 who's 混写：whose designs＝他的设计；who's＝who is，缩写形式不能表示所属。",
+        "介词后用 that：by that she was rescued ✗——介词后只能 whom（人）/which（物）。",
+        "when/where 之后又补介词＋which：the day when on which…✗——when/where 本身已含介词义，二者取一。",
+        "把 whom 当主语用：A doctor whom died…✗——whom 是宾格，作主语要用 who。"
+      ],
+      "source": {
+        "unit": "Unit 4-5 Discovering Useful Structures",
+        "pages": [
+          47,
+          70
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Here are some of the people ___ homes were destroyed by the typhoon. 横线处应填？",
+          "options": [
+            "who",
+            "which",
+            "whose",
+            "whom"
+          ],
+          "answer": "C",
+          "solution": "people 的 homes（人们的家园）是所属关系，从句 homes 前缺定语，用 whose。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P52·关系词填空（some of the people ___ homes were destroyed by the typhoon）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "自测短文第二部分给出两盒词：building/class/day/way/someone 与 when/in which/where/who/that。句子 A good teacher is ___ is in love with what she or he is teaching. 应选哪组组合？",
+          "options": [
+            "someone who",
+            "someone whom",
+            "the day when",
+            "someone which"
+          ],
+          "answer": "A",
+          "solution": "someone who is in love with…——someone 指人且在从句中作主语，用 who 组合；原题正是两盒词组合填空。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P68·关系词组合填空（A good teacher is someone who is in love with what she or he is teaching.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语法短文原句：I had finally come to a place ___ I could think in this foreign language. 横线处应填？",
+          "options": [
+            "which",
+            "where",
+            "when",
+            "whose"
+          ],
+          "answer": "B",
+          "solution": "先行词 place 是地点，从句 I could think in this foreign language 主谓宾完整、不缺成分，用关系副词 where（＝in which）。原短文同段还有 the reason why my mum had encouraged me not to give up.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P64·关系词补全短文（a place ___ I could think in this foreign language）变式（关系副词判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把两句话各合成一句含\"介词＋whom/which\"的定语从句：①The soldier rescued the woman. The woman wrote a thank-you letter to him. ②This is the house. We talked about it yesterday.",
+          "answer": "示例：①The woman wrote a thank-you letter to the soldier by whom she was rescued. ②This is the house about which we talked yesterday.",
+          "solution": "先写出从句原句找出介词（rescued by / talked about），再把介词连着关系词提前即可；①就是语法板块例句的同款结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_08",
+      "summary": "在真实语篇里认时态：一般过去打点、过去进行铺景、过去完成提前、现在完成连到今天。",
+      "explanation": [
+        "以唐山大地震语篇为标本，五种时态在一篇里各司其职：Strange things were happening in the countryside of northeastern Hebei.（过去进行——震前几天持续出现的背景）；At 3:42 a.m., everything began to shake.（一般过去——瞬间节点）；地底深处震源其实更早开始，语篇写作 one of the most deadly earthquakes of the 20th century had begun（过去完成——比\"开始震动\"更早的动作）；The number of people who were killed or badly injured in the quake was more than 400,000.（一般过去被动）；The new city has become a home to more than seven million people.（现在完成——重建成果延续到今天）。人物语篇里同款：The Boys and Girls Club which he started in Chicago has been helping young people since 1996.（现在完成进行，since 1996 是标志）。",
+        "把语篇想成一条时间轴：主干事件打实心点（一般过去）；背景镜头像慢镜头平移（过去进行：were happening）；\"更早一步\"的动作往左再打一个点（过去完成：had begun——地在 3:42 震动之前，震源已经开始）；有一根线从过去一直拖到最右边的\"现在\"（现在完成：has become / has been helping）。被动语态则换镜头焦点：我们关心的是城市和灾民（the city lay in ruins / Water and food were brought into the city），不是\"谁做的\"。时态不是孤立考点，而是作者排布时间与焦点的工具——语法为意义服务。",
+        "语篇时态识别三步：第一步找时间标志——at 3:42 a.m.（过去点）、for several days（延续段）、since 1996（延续到今）、by then（先后）；第二步定叙事基准——讲已发生的故事，主干用一般过去，别被个别现在时态带偏；第三步查主被动——主语是承受者（城市、伤者、食物）就用 be＋过去分词（were killed / was built / were brought），需要点明执行者再加 by。翻译一遍验证：能自然译成\"当时正……\"是进行，\"已经……了\"且影响到现在是完成。",
+        "四组易混：was doing 与 did——过去进行铺持续背景（Strange things were happening），一般过去讲瞬间节点（everything began to shake）；had done 与 did——过去完成是\"过去的过去\"（had begun 早于 began），没有更早参照点就用一般过去；has done 与 did——现在完成强调对现在的影响（The new city has become…，今天仍是家园），有明确过去时间点（in 1976 / yesterday）就用一般过去；被动句并非必须带 by——执行者不明或不重要时省略（bright lights were seen in the sky）。",
+        "时态的语篇意识直接服务写作：写\"难忘的一天\"，背景用过去进行、事件用一般过去、感悟用现在完成，层次立刻分明；后续的读后续写、概要写作都要求时态一致（tense consistency）——叙述一旦以过去为基准，突然跳回现在讲故事就是硬伤。自测与综合活动里的语篇填空，本质都是在考\"这条时间轴上，这一点该用哪个时态\"。"
+      ],
+      "methods": [
+        {
+          "name": "时间轴定位法",
+          "steps": [
+            "画一条时间轴，右端标\"现在\"",
+            "主干事件打点：一般过去；背景平移：过去进行",
+            "更早的动作左移打点：过去完成；一根线拖到右端：现在完成"
+          ],
+          "tip": "口诀：过去讲事，进行铺景，完成连线到如今。"
+        },
+        {
+          "name": "主被动焦点判定法",
+          "steps": [
+            "问焦点在谁：焦点在施动者用主动，焦点在承受者就用被动",
+            "被动＝be＋过去分词：were killed / was built / were brought",
+            "执行者不明或不重要就省 by：Water and food were brought into the city."
+          ],
+          "tip": "口诀：谁挨动作谁在前，be 加过分才算全。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Strange things were happening in the countryside of northeastern Hebei. 这里为什么用 were happening 而不是 happened？",
+          "solution": "过去进行时。for several days 表明怪事连续多日反复出现，是地震前的持续背景，用 were happening 铺背景；单个瞬间动作才用一般过去。",
+          "difficulty": 2,
+          "pitfall": "以为过去的事一律用 did——背景延续用过去进行，节点动作用一般过去，两者常在一篇里交替。"
+        },
+        {
+          "question": "The new city has become a home to more than seven million people. 能改成 became 吗？",
+          "solution": "不能。\"新唐山成为七百多万人的家园\"这一结果延续至今，用现在完成 has become；became 需要明确的过去时间点，且暗示与现在无关，与语篇\"重建成果延续到今天\"的意思相悖。",
+          "difficulty": 2,
+          "pitfall": "见事情发生在过去就用过去时——判断标准是\"与现在有没有牵连\"，不只是\"什么时候发生的\"。"
+        },
+        {
+          "question": "Water and food were brought into the city by train, truck, and plane. 这句话是什么时态、什么语态？为什么用被动？",
+          "solution": "一般过去时的被动语态（were brought）。主语 water and food 是\"被运送\"的承受者，作者想把焦点放在物资与救援上；by train/truck/plane 是运输方式，不是执行者。",
+          "difficulty": 1,
+          "pitfall": "看见 by 就以为必须译成\"被某人\"——被动句的 by 短语表执行者时才是\"由谁做\"，这里 by 短语表方式。"
+        }
+      ],
+      "mistakes": [
+        "把 for several days、since 1996 这类延续标志配一般过去——延续到现在的标志要配现在完成（has been helping…since 1996）。",
+        "过去完成滥用：没有\"更早\"参照点（如 had begun 早于 began to shake）就不要用 had done。",
+        "被动漏 be：The new city built upon the ruins ✗——要说 The new city was built upon the ruins，be＋过去分词缺一不可。",
+        "叙述中间乱跳时态：一段以过去为基准的叙事里突然用一般现在讲故事，时态一致性（tense consistency）被破坏。"
+      ],
+      "source": {
+        "unit": "各单元语法复习",
+        "pages": [
+          1,
+          70
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇原句：At 3:42 a.m., everything ___ to shake. 横线处应填？",
+          "options": [
+            "begins",
+            "began",
+            "has begun",
+            "was beginning"
+          ],
+          "answer": "B",
+          "solution": "at 3:42 a.m. 是明确的过去时间点，everything began to shake 描述那一刻的瞬间动作，用一般过去时。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P50·阅读语篇（At 3:42 a.m., everything began to shake.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "人物语篇原句：The Boys and Girls Club which he started in Chicago ___ young people since 1996. 横线处应填？",
+          "options": [
+            "helped",
+            "was helping",
+            "has been helping",
+            "will help"
+          ],
+          "answer": "C",
+          "solution": "since 1996 表明从过去持续到现在，且俱乐部今天仍在帮助年轻人，用现在完成进行时 has been helping。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教必修一 P38·Living Legends（The Boys and Girls Club…has been helping young people since 1996.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇结句：Tangshan city ___ to China and the rest of the world that in times of disaster, people must unify and show the wisdom to stay positive. 横线处应填？",
+          "options": [
+            "has proved",
+            "was proving",
+            "had proved",
+            "is proving"
+          ],
+          "answer": "A",
+          "solution": "has proved——唐山给出的证明在今天依然成立，用现在完成时表\"已证明且影响延续\"；原句正是 has proved to China and the rest of the world that…",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P50·语篇结句（Tangshan city has proved to China and the rest of the world that…）变式（时态归属判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以\"运动会/一次比赛\"为题写三句英文：第一句用过去进行铺背景（如 The sun was shining…），第二句用一般过去讲事件结果，第三句用现在完成说这段经历对你的影响（I have learnt that…）。",
+          "answer": "示例：The sun was shining and everyone was cheering. Our team won the final race by half a second. I have learnt that teamwork matters more than talent.",
+          "solution": "三种时态各司其职：背景平移、事件打点、连线到今天的感悟——这就是\"语法为意义服务\"的最小实践。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_09",
+      "summary": "别一个一个背单词：像 take notes、make friends 这样把搭配整块记，说出来的英语才地道，忘得也慢。",
+      "explanation": [
+        "书上是把单词当“词块”教的：学法自测里就有 I take notes while listening and reading. 这样的原句，词汇练习还要你把动词和名词连成正确搭配——register for a class（报名选课）、design a dress（设计裙子）、give a lecture（做讲座）、explore the world（探索世界）、exchange ideas（交流想法）；阅读语篇 The Freshman Challenge 里同样全是成串的搭配：sign up for advanced literature（报名高级文学课）、make the team（成功入选校队）、hand out food（分发食物）。",
+        "为什么记搭配比记单个词划算？因为英语里动词和名词常常“绑死”在一起：中文说“做笔记”，英语固定说 take notes，不说 make notes；中文说“交朋友”，英语说 make friends，不说 take friends。把搭配当一个整体记下来，说出来的句子才地道，写作文时也能整块调用，不用现场组装零件。",
+        "具体做法分三步：第一步，读课文时圈词块，重点是“动词+名词”（take notes、make friends、make plans、keep a learning diary）和“动词+介词”（focus on 专注于、concentrate on 集中于、become addicted to 沉迷于）；第二步，整块抄到卡片上，正面英文背面中文；第三步，换主语造新句，把它变成自己会用的东西。",
+        "易错搭配要单独辨析：addicted 后面接 to 不接 of，原句是 Some students even become addicted to the Internet；自测题里的原句也告诉我们，说“他吸烟上瘾”要用 I think he is addicted to smoking.，不能换成 attracted to——那是“被吸引”，意思轻多了；make the team 指“入选队”，不是“制造一支队”。",
+        "词块意识是高中英语的分水岭：阅读时按词块扫读，速度会比逐词读快一截；写作时调用整块词组，语法错误也少。往后还可以照书上的活动建议建一个自己的 word bank：把词块按字母顺序或按话题分组收进去，写上英文释义和例句，考前翻一遍，比死背单词表有效得多。"
+      ],
+      "methods": [
+        {
+          "name": "词块收集三步法",
+          "steps": [
+            "读课文时把动词和它后面常跟的词一起圈出来，如 take notes、sign up for a course、become addicted to the Internet",
+            "整块抄进笔记本，正面写英文词块、背面写中文意思，不要把词拆开单个记",
+            "用同一个词块换三个主语造句：I take notes. / He takes notes. / We take notes."
+          ],
+          "tip": "词块整块记，拆开全白记。"
+        },
+        {
+          "name": "搭配自检问答法",
+          "steps": [
+            "抽一个动词，自己抢答它的固定搭档：take→notes，make→friends/plans/the team，sign up→for",
+            "答不出或觉得两个说法都行时，立刻查词典确认，把词典例句抄一行在词块旁边",
+            "每周把圈过的词块重读一遍，读熟的划掉，读生的回炉再记"
+          ],
+          "tip": "问动词一句：你的搭档是谁？"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪个搭配是英语里的固定说法？",
+          "solution": "take notes（记笔记）。学法自测原句就是 I take notes while listening and reading.；英语里不说 make notes。",
+          "difficulty": 1,
+          "pitfall": "受中文“做笔记”影响，误选 make notes。"
+        },
+        {
+          "question": "把动词和名词连成正确搭配：exchange / explore / take + ideas / the world / notes。",
+          "solution": "exchange ideas（交流想法）、explore the world（探索世界）、take notes（记笔记），正是书上的搭配连线练习。",
+          "difficulty": 2,
+          "pitfall": "exchange the world、explore notes 这类“看着好像也通”的错误组合最迷惑人。"
+        },
+        {
+          "question": "addicted 后面要接哪个介词？照原句 Some students even become addicted to the Internet 仿写一句“有的学生沉迷手机游戏”。",
+          "solution": "接 to；仿写：Some students even become addicted to mobile games.（沉迷对象可换，介词 to 不变）",
+          "difficulty": 2,
+          "pitfall": "写成 addicted of 或 addicted with。"
+        }
+      ],
+      "mistakes": [
+        "把 take notes 说成 make notes——中文直译最容易造出“假搭配”。",
+        "addicted 后接 to：become addicted to the Internet，不能写 addicted of。",
+        "make the team 意思是“成功入选（校队）”，不是“组建一支队伍”。",
+        "focus on 和 concentrate on 后面直接接名词，不用再套一层介词：concentrate on school and family life。"
+      ],
+      "source": {
+        "unit": "各单元词汇板块",
+        "pages": [
+          7,
+          69
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选出搭配完全正确的一组。",
+          "options": [
+            "make notes 记笔记 / take friends 交朋友",
+            "take notes 记笔记 / make friends 交朋友",
+            "take notes 记笔记 / take friends 交朋友",
+            "make notes 记笔记 / make friends 交朋友"
+          ],
+          "answer": "B",
+          "solution": "学法自测原句 I take notes while listening and reading. 用的是 take notes；展示范例里也有 I hope to make some friends.——两个都是固定搭配。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P7·学法自测（I take notes while listening and reading. / I write down new words in my notebook and review them often.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一组都是“旅行准备”词块表里的固定搭配？",
+          "options": [
+            "take a passport / apply for a visa / book a hotel room",
+            "get a passport / apply to a visa / book a hotel room",
+            "get a passport / apply for a visa / book a hotel room",
+            "receive a passport / apply for a visa / reserve a hotel room"
+          ],
+          "answer": "C",
+          "solution": "词块表原列：get a passport / apply for a visa / book tickets / book a hotel room / rent a car / buy a guidebook / pack some clothes / research the local weather——动词和名词是绑定的，换成 take、apply to、reserve 都不是书上的说法。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P24·旅行准备词块（get a passport / apply for a visa / book tickets / rent a car / pack some clothes）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "用词块整块记忆法处理 become addicted to：写出它的中文意思和介词搭档，再仿照原句 Some students even become addicted to the Internet. 造一个新句子。",
+          "answer": "意思是“沉迷于/对……上瘾”，搭档介词 to；示例：Some students even become addicted to mobile games.",
+          "solution": "原句出自建议信范文的后半段：Some students even become addicted to the Internet and cannot concentrate on school and family life.——仿写时只换沉迷对象，addicted to 的框架原样保留。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P20·搭配辨析变式（I think he is addicted to smoking. / Don't quit trying）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己开一个 word bank：从最近读的英语材料里挑 5 个词块收进去，每个词块配一条英文例句，并选定一种整理方式（按字母顺序、按话题分组或按易混词分组）。",
+          "answer": "示例：take notes—Take notes while the teacher is talking. / sign up for—I want to sign up for the debate club. / make mind maps—Making mind maps helps me organise my thoughts. ……整理方式选“按话题分组”，把学习方法类词块放进同一组。",
+          "solution": "例句要写成完整句，注意动词随主语变化；整理方式可以像书上建议的那样按话题分，比如 take notes、keep a learning diary、make mind maps 都归入“学习方法”组，方便整组一起复习。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_10",
+      "summary": "建议信有固定骨架：称呼、点题共情、I recommend that… 分条建议带理由、祝愿、落款——骨架稳了再填肉。",
+      "explanation": [
+        "书上的建议信范文结构非常清楚：先写日期 10 September 2018，再称呼 Dear Worried Friend, 然后点题——You wrote that you are very worried about your friend, Chen Lei. 共情——I understand quite well that you are anxious and feel terrible. 建议加理由——I recommend that you talk to your friend about his behaviour. I think you should encourage your friend to try new hobbies. Why not discuss the problem together? 最后收尾祝愿——All the best, 再落款。信的五个部件是 Date / Greeting / Body / Close / Signature，正文四步：I know what the problem is. → I understand how you feel. → This is my advice and reason(s). → I think my advice will help.",
+        "建议信的本质是“先安慰、再支招”：对方是带着烦恼写信来的，所以第一段要让对方知道你懂他的难处（You wrote that… I understand…），而不是一上来就甩三条命令；每条建议后面必须跟理由，因为“凭什么听你的”要靠 because 回答；最后给一个积极预期——I am sure he will listen to you, since you are his good friend.——让对方带着信心放下信纸。",
+        "动笔按五步走：第一步，称呼 Dear + 对方名字；第二步，转述点题，You wrote that + 对方的问题，一句概括就够；第三步，共情一句 I understand (quite well) that…；第四步，分条建议，句型从 I recommend that you… / I think you should… / Why not…? 里挑，每条后面接 because 理由；第五步，I am sure that… 收尾，再写 All the best, 或 Best wishes, 加落款。书上的提纲模板就是现成骨架：You wrote that ___. I understand that ___. I think ___ because ___. I am sure that ___.",
+        "得体度是建议信的隐形评分项：同样是请人开窗，对好朋友可以直接说 Open the window，对一般同学要说 Could you open the window, please? 对长辈要说 Would you mind opening the window, please? 建议句也有语法讲究：Why not 后接动词原形（Why not discuss…），I recommend that 后接动词原形（I recommend that you talk to your friend，即使主语是 you 前面也不加 to、不加 -s）。",
+        "这套骨架不止用于书信：英语学习博客里的求助帖和回帖、面对面给同学支招，用的都是“点题—共情—建议—理由—祝愿”同一条路。写完对照四个问题自查一遍：信件部件齐不齐？建议有没有给理由？建议用语得不得体？标点和大小写对不对？过了这四关再誊抄，分数就稳了。"
+      ],
+      "methods": [
+        {
+          "name": "建议信五步成文法",
+          "steps": [
+            "第一段两句起步：You wrote that + 对方的问题；I understand that + 共情",
+            "第二段分条建议：I recommend that you… / I think you should… / Why not…?，每条紧跟 because 理由",
+            "结尾 I am sure that… 给对方信心，另起一行写 All the best,（或 Best wishes,）和落款",
+            "检查四项：部件齐全、理由到位、语气得体、标点大小写"
+          ],
+          "tip": "点题—共情—建议—理由—祝愿，五步走完一封信。"
+        },
+        {
+          "name": "得体度升级法",
+          "steps": [
+            "给建议先挑句型：熟朋友用 Why not…?；一般同学用 I think you should…；正式场合用 I recommend that…",
+            "把命令句 You must do… 改成问句：Could you… please? / Would you mind doing… please?",
+            "出声读一遍成稿：听起来像商量还是像命令？像命令就换句型重写"
+          ],
+          "tip": "商量着说，建议才有人听。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "建议信开头要转述对方的问题，下面哪一句最适合放在 Dear Worried Friend, 之后？",
+          "solution": "You wrote that you are very worried about your friend, Chen Lei.——先概括对方的问题点题，再谈感受和建议。",
+          "difficulty": 1,
+          "pitfall": "开头直接写 I recommend that… 会显得没头没脑，对方的问题还没交代。"
+        },
+        {
+          "question": "找出一封信里的语病并改正：I recommend that you talks to your friend about his behaviour.",
+          "solution": "talks 应改为 talk——I recommend that 后接动词原形（可加 should），不受主语人称影响。",
+          "difficulty": 2,
+          "pitfall": "受一般现在时“三单加 -s”的影响，看到 you 后面就顺手写错时态。"
+        },
+        {
+          "question": "同样是请别人开窗，对好朋友和对不熟的同学分别该怎么开口？",
+          "solution": "好朋友：Open the window.；不熟的同学：Could you open the window, please?——对象越远，句子越长越客气。",
+          "difficulty": 2,
+          "pitfall": "对谁都一句命令式，听起来生硬，建议就没人愿意听。"
+        }
+      ],
+      "mistakes": [
+        "建议信漏写祝愿和落款——All the best,（或 Best wishes,）加署名一样都不能少。",
+        "You wrote that 后面照抄对方整段原话——只需一句概括问题，不是全文复述。",
+        "I recommend that you talks…——recommend that 后接动词原形，不加 -s，也不加 to。",
+        "通篇 You must… / You have to… 语气像命令，应换成 I recommend that… / I think you should… / Why not…?"
+      ],
+      "source": {
+        "unit": "Unit 1 Reading for Writing",
+        "pages": [
+          18,
+          19
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "一封建议信的四个部件按书信格式从上到下排列，正确的是？",
+          "options": [
+            "Dear Eric, → You wrote that… → I recommend that… → All the best,",
+            "You wrote that… → Dear Eric, → All the best, → I recommend that…",
+            "All the best, → Dear Eric, → I recommend that… → You wrote that…",
+            "Dear Eric, → All the best, → You wrote that… → I recommend that…"
+          ],
+          "answer": "A",
+          "solution": "顺序对应五个部件：Greeting（Dear…）→ Body（先点题 You wrote that…，再给建议 I recommend that…）→ Close（All the best,），日期在最上方、署名在 Close 之后。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P18·Reading for Writing（信件部件 Date/Greeting/Body/Close/Signature 与 Ms Luo 范文）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "一位同学写道：My parents won't listen when I tell them things. 请按书上提纲模板给 ta 写建议信主体四句：You wrote that… / I understand that… / I think … because… / I am sure that…",
+          "answer": "示例：You wrote that your parents won't listen when you tell them things. I understand that you feel sad about it. I think you should choose a relaxing time to talk with them because they may be too busy at other times. I am sure that they will understand you if you keep trying.",
+          "solution": "四句正好对应模板 You wrote that ___. I understand that ___. I think ___ because ___. I am sure that ___；这位同学的问题正是书上三封求助信之一，建议和理由能对上问题即可。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P19·写作提纲与求助信（My parents won't listen… / I always feel lonely after school…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪句建议最得体、也最符合书上的建议句式？",
+          "options": [
+            "You must talk to your friend at once.",
+            "I recommend that you talk to your friend about his behaviour.",
+            "I recommend that you to talk to your friend.",
+            "Why not to discuss the problem together?"
+          ],
+          "answer": "B",
+          "solution": "范文原句是 I recommend that you talk to your friend about his behaviour.——recommend that 后接动词原形；You must 语气太硬，B 选项多了 to，Why not 后要接动词原形不能带 to。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P18·建议句式变式（I recommend that you talk to… / Why not discuss the problem together?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把建议信骨架迁移到书面上：同桌英语听力总跟不上，先用一句点题共情，再用 I recommend that… / Why not…? 给两条建议，各带一个理由。写下来并标出你用的句型。",
+          "answer": "示例：I know you have trouble with listening. I recommend that you listen to English radio programmes every day because it helps you get used to how fast native speakers talk. Why not repeat what you hear? It can help you experience the feeling of the language.",
+          "solution": "句型来自书上的讨论帖：听英语广播、repeat what you hear、record my voice 都是现成方法；检查点是点题共情一句、两条建议各带理由、句型不出语法错。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_11",
+      "summary": "课堂展示三段走：Hello, everyone 开场亮题，First、Second、Finally 分三点，That's all. Thank you 收尾。",
+      "explanation": [
+        "书上的展示活动都给了现成话轮：社团招新介绍范例是 Hello, everyone! We're very pleased to introduce our club to you. It is called … Our slogan is …, and our club aims to …；夏令营展示范例用一个问题开场——Do you want to have fun and learn at the same time? Then come to our camp. 中间 First, we are going to … Then we'll … We also plan to … Finally, we'll … 最后 Please come to our camp! 收束；自然灾害展示活动还专门给出技巧：用“钩子”开场（Start your presentation with a \"hook\"——a story or fact to catch the attention of your listeners），把内容压缩成三个要点（Reduce your ideas to three main points），再准备照片、图表等视觉辅助。",
+        "展示和平时聊天不一样：听众不能倒回去重听，所以开头要一句话抓住注意力——一个具体日期、一个惊人数字（On Monday, 5 September, 600 people disappeared when…）都比“随便讲讲”管用；中间要点不要超过三个，三个正是听众一次能记住的上限；结尾的 Thank you 不只是礼貌，它是在告诉听众“我讲完了，可以提问或鼓掌了”。",
+        "三段式结构照这个模板搭：第一段开场，Hello, everyone. Today I'd like to talk about… 一句话亮出主题，或者用一个事实当 hook；第二段要点分述，用 First… / Second… / Third… 或 Finally… 串起来，每个要点配一句支撑；第三段收尾，先用 So always remember… 总结一句，再说 That's all. Thank you. 小组展示还要先分工：谁查资料、谁做图表、谁讲哪一部分，合练计时一遍再上台。",
+        "不同场合的“开场气质”要分清：介绍社团用欢迎语气——We're very pleased to introduce our club to you；汇报调查用陈述语气——This week, our group of five students did a survey of our classmates…，报告必须给数据和结论（Eight out of 15 students said…），光说感想不算汇报；hook 是钩子不是笑话，一个吓人的事实永远比一个段子更能把听众拉进来。",
+        "这套能力往后越用越多：调查报告（问题—结果—建议三件套）、研究型展示（先 brainstorm 集想法，再 research 查资料，再 organise 拼提纲，最后 present 上台）、课堂答问时的一二三条理，用的都是同一副“开场—分点—收尾”骨架；练熟了，英语演讲比赛、班委竞选发言、社团招新都能直接搬。"
+      ],
+      "methods": [
+        {
+          "name": "展示三段式排练法",
+          "steps": [
+            "写提纲只写三行：开场一句、三个要点、收尾一句",
+            "对着计时器练两遍：第一遍看稿读顺，第二遍脱稿，超时就删例句、不删要点",
+            "上台前定好眼位：看后排同学的额头方向，说完一句再移到下一句"
+          ],
+          "tip": "开场亮题、三点分述、Thank you 收尾。"
+        },
+        {
+          "name": "小组分工推进法",
+          "steps": [
+            "按四步分工：brainstorm 集想法、research 查资料、organise 拼提纲、present 上台讲",
+            "每人认领一个要点，各自写出要点句，组内互读纠正语法和发音",
+            "合练一遍，用过渡词把各人的部分连起来：First… / Next… / Finally…"
+          ],
+          "tip": "先分后合，一人一点不抢话。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "照书上的社团招新范例开场，下面哪一句接在 Hello, everyone! 之后最合适？",
+          "solution": "We're very pleased to introduce our club to you.——先亮身份和目的，再报 It is called… 和口号 Our slogan is…。",
+          "difficulty": 1,
+          "pitfall": "开场就讲一堆活动细节，听众还没弄清你要介绍什么。"
+        },
+        {
+          "question": "把夏令营展示的句子排成合理顺序：① Please come to our camp! ② Do you want to have fun and learn at the same time? ③ Finally, we'll have a campfire. ④ First, we are going to learn survival skills.",
+          "solution": "②→④→③→①——开场问题抓住注意，First 亮出第一个要点，Finally 收最后一个要点，最后邀请大家加入。",
+          "difficulty": 2,
+          "pitfall": "First 和 Finally 顺序颠倒，要点次序就全乱了。"
+        },
+        {
+          "question": "书上建议用 hook 开场，下面哪个开场更符合这个技巧？",
+          "solution": "On Monday, 5 September, 600 people disappeared when…——用具体日期加惊人事实；hook 的定义就是 a story or fact to catch the attention of your listeners。",
+          "difficulty": 2,
+          "pitfall": "把 hook 理解成开场讲笑话——抓注意力靠的是事实和悬念，不是段子。"
+        }
+      ],
+      "mistakes": [
+        "开场没亮主题就讲细节，听众不知道你要讲什么——先说 Today I'd like to talk about…",
+        "要点一口气列七八条，听众记不住——压缩成三个要点。",
+        "讲完直接下台，忘了收尾 That's all. Thank you.，听众不知道是结束了还是停顿。",
+        "小组展示变成一人从头讲到尾——先按 brainstorm、research、organise、present 分工，人人有话筒。"
+      ],
+      "source": {
+        "unit": "各单元 Project/Video Time",
+        "pages": [
+          17,
+          57
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "自然灾害主题展示的准备工作，按书上的步骤排序正确的是？",
+          "options": [
+            "头脑风暴集想法 → 查资料补答案 → 组织提纲 → 上台展示",
+            "查资料 → 头脑风暴 → 上台展示 → 组织提纲",
+            "组织提纲 → 头脑风暴 → 查资料 → 上台展示",
+            "头脑风暴 → 上台展示 → 查资料 → 组织提纲"
+          ],
+          "answer": "A",
+          "solution": "活动四步是 brainstorm → research → organise → present；配合三条技巧：用 hook 开场、压缩成三个要点（如 So always remember to drop, cover, and hold on.）、准备视觉辅助。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P57·Project（BRAINSTORM→RESEARCH→ORGANISE→PRESENT 四步与 hook/三要点/视觉辅助技巧）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "你们小组要成立辩论社，请照招新范例写四句介绍：开场引入、报名字、说目标（Our club aims to…）、邀请加入。",
+          "answer": "示例：Hello, everyone! We're very pleased to introduce our club to you. It is called the Debate Club. Our club aims to help students think and speak better. Join us and let your voice be heard!",
+          "solution": "范例骨架是 Hello, everyone! We're very pleased to introduce our club to you. It is called … Our slogan is …, and our club aims to …——把内容换成辩论社即可，四句对应引入、报名、目标、邀请。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P21·Project（Set up a student club 招新介绍范例）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "展示的中间部分要把内容“压缩成三个要点”，下面哪种说法最符合这一技巧？",
+          "options": [
+            "我先讲二十个地震小知识，大家随便听。",
+            "今天我想到哪说到哪，时间不够就跳过结尾。",
+            "So always remember to drop, cover, and hold on.",
+            "我把图表上每一行字都原样念一遍。"
+          ],
+          "answer": "C",
+          "solution": "技巧原文是 Reduce your ideas to three main points to help listeners remember what you say——一条便于记住的行动口令（drop, cover, and hold on）正是“三个要点”的示范；其他三种都是要点失控。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P57·展示技巧变式（Reduce your ideas to three main points / So always remember to drop, cover, and hold on.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一个你熟悉的校园话题（运动会、读书周等），写一份 60 秒展示提纲：开场一句（用 Today I'd like to talk about…）、三个要点（First / Second / Finally）、收尾一句（That's all. Thank you.）。",
+          "answer": "示例：Hello, everyone. Today I'd like to talk about our sports week. First, there will be a basketball match between classes. Second, we can sign up for the fun run. Finally, the best players will get prizes. That's all. Thank you.",
+          "solution": "自查三处：开场是否亮出主题、要点是否正好三个且有序号词、收尾是否有 Thank you；要点句尽量短，一条一句话。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g10a_12",
+      "summary": "汉字书写体系把古今连在一起，六种语言同列联合国官方语言——世界因语言多样而丰富，英语是常用的国际交往语。",
+      "explanation": [
+        "语篇 THE CHINESE WRITING SYSTEM: CONNECTING THE PAST AND THE PRESENT 的关键原句要照录记忆：At the beginning, written Chinese was a picture-based language. It dates back several thousand years to the use of longgu—animal bones and shells on which symbols were carved by ancient Chinese people. 到了秦朝，Emperor Qinshihuang united the seven major states into one unified country where the Chinese writing system began to develop in one direction. 点睛的一句是 Even today, no matter where Chinese people live or what dialect they speak, they can all still communicate in writing. 听说部分还给出世界语言的基本事实：联合国有六种官方语言——Arabic、Chinese、English、French、Russian、Spanish，使用这些语言的人约有 around 2.8 billion。",
+        "把汉字想成一条“时间隧道”：几千年前刻在甲骨上的符号一路演变，变成今天仍在使用的汉字，所以现代人还能读懂古人写的书；英语则像一张“世界通行证”——世界上的语言有几千种，不同国家的人见面时，常靠英语搭桥。语言没有高低贵贱，只有使用人数和使用场合的不同，这正是“语言多样性”的意思。",
+        "文化知识用三招记：第一招抓时间轴——longgu 刻符（几千年前）→ 商朝成体系（around 1600–1046 BCE）→ 秦朝统一文字（221–207 BCE）→ 书法成为艺术 → 今天走向世界；第二招抓对比——汉语是 picture-based language（象形起家），英语按读音拼写，英国人说 petrol、flat、mum，美国人说 gas、apartment、mom；第三招用“总—分—总”讲述：先一句总起（汉字连接古今），再举两三个事实，最后回扣主题。",
+        "易错点要划出来：书上的说法是 written Chinese 是 the oldest continuously used system of writing（连续使用至今的最古老文字体系），这不等于“其他文字都由汉字变来”；联合国官方语言是六种，不是八种——Japanese、Korean 都不在其中；英美英语只是用词不同，没有对错，看到 petrol 不能判成“拼写错误”，它和 gas 同义。",
+        "了解语言背后的文化，读后续英语国家的语篇就不会只见词不见人；这个主题还能一路延伸：词典里为什么收这么多词、为什么越来越多国际学生 through this amazing language 开始欣赏中国的文化和历史——下次轮到你做展示，讲一个语言的小故事，文化积累立刻变成表达素材。"
+      ],
+      "methods": [
+        {
+          "name": "文化事实时间轴法",
+          "steps": [
+            "把文化内容按时间排成一条线：longgu 刻符 → 商朝成体系 → 秦朝统一 → 书法艺术 → 走向世界",
+            "每个节点配一个英语短语：picture-based language、a unified country、Chinese calligraphy",
+            "复述时顺着时间轴讲，一个节点一句话，讲完再倒着说一遍检验"
+          ],
+          "tip": "时间轴一拉，文化点全挂上。"
+        },
+        {
+          "name": "英美用词对照法",
+          "steps": [
+            "成对记词：petrol/gas、flat/apartment、mum/mom、sweet/candy、toilet/restroom、autumn/fall",
+            "编一个双语小对话，故意用错其中一方，让同伴听出来并纠正",
+            "阅读遇到新词先问一句：这是英国英语还是美国英语？再决定抄进哪个词块组"
+          ],
+          "tip": "英美成对记，见到不慌张。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "书上说 written Chinese 最初是一种什么样的语言？",
+          "solution": "a picture-based language（以图画为基础的语言）——最早的汉字是刻在 longgu（兽骨龟甲）上的符号，原句是 At the beginning, written Chinese was a picture-based language.",
+          "difficulty": 1,
+          "pitfall": "误以为汉字一出现就是成熟文字体系，忘了它从图画符号起步。"
+        },
+        {
+          "question": "秦始皇统一七国之后，汉字书写体系发生了什么变化？用原文短语回答。",
+          "solution": "began to develop in one direction（开始朝一个方向发展，即走向统一）——这套统一文字在 unite the Chinese people and culture 上作用巨大，所以今天不管说什么方言，中国人都能笔谈。",
+          "difficulty": 2,
+          "pitfall": "只背了“秦统一”的历史事实，没对应到“文字统一”这条语言线索。"
+        },
+        {
+          "question": "汉字书写体系为什么能 connecting the past and the present？从原文里找出一条理由。",
+          "solution": "People in modern times can read the classic works which were written by Chinese in ancient times.——现代人能读古代经典；另外汉字还发展出书法艺术，成为中国文化的重要部分。",
+          "difficulty": 2,
+          "pitfall": "只答“因为历史悠久”，没有落到“能读懂古籍”这个具体理由上。"
+        }
+      ],
+      "mistakes": [
+        "把联合国官方语言记成八个——官方语言是 Arabic、Chinese、English、French、Russian、Spanish 六种，Japanese、Korean 不在其中。",
+        "petrol 是英国英语的说法，不是拼写错误，它和美国英语 gas 同义。",
+        "把“汉字最古老”扩大成“其他文字都源于汉字”——书上的准确说法是 the oldest continuously used（连续使用至今的最古老）。",
+        "讲文化只报年份和名词，不落到主线——“文字把人与文化连在一起”才是语篇的中心句。"
+      ],
+      "source": {
+        "unit": "Unit 5 Languages Around the World",
+        "pages": [
+          59,
+          70
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下列哪一组全部是联合国的官方语言？",
+          "options": [
+            "Chinese、Japanese、Korean、English、French、German",
+            "Chinese、English、French、Russian、Spanish、Arabic",
+            "Chinese、English、Portuguese、Italian、Russian、Arabic",
+            "Chinese、English、French、Hindi、Spanish、Russian"
+          ],
+          "answer": "B",
+          "solution": "联合国的六种官方语言是 Arabic、Chinese、English、French、Russian、Spanish；书上的听力活动要从八个候选里把这六个圈出来，Japanese、Korean 是干扰项，使用这些语言的人约有 around 2.8 billion。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教必修一 P60·听说板块（圈出联合国官方语言；They are spoken by around 2.8 billion people）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "根据 THE CHINESE WRITING SYSTEM 语篇，下面哪一项符合原文？",
+          "options": [
+            "Written Chinese was first carved on paper.",
+            "Even today, Chinese people can all still communicate in writing no matter what dialect they speak.",
+            "Emperor Qinshihuang divided the country into seven states.",
+            "Chinese calligraphy has nothing to do with the writing system."
+          ],
+          "answer": "B",
+          "solution": "原句：Even today, no matter where Chinese people live or what dialect they speak, they can all still communicate in writing.——统一的文字至今仍让说不同方言的人笔谈；最早刻在甲骨上而非纸上，秦是统一而非分裂七国，书法正是汉字发展出的艺术。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P62·Reading and Thinking（THE CHINESE WRITING SYSTEM: CONNECTING THE PAST AND THE PRESENT）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "英国朋友说 I live in a flat near the petrol station. 一位美国朋友表达同样的意思会说？",
+          "options": [
+            "I live in a basement near the oil station.",
+            "I live in a hotel near the gas stop.",
+            "I live in an apartment near the gas station.",
+            "I live in an apartment near the water station."
+          ],
+          "answer": "C",
+          "solution": "英美对照：flat→apartment，petrol→gas；词形变了，意思不变。其余选项要么换词错位，要么把 petrol 拆成了 oil、water 这类假对应。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教必修一 P65·英美英语对照变式（petrol/gas、flat/apartment、mum/mom、sweet/candy）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以“一门语言的身世”为题写一段约 60 词的英文小介绍：先总起一句（如 The Chinese writing system connects the past and the present.），再给两个文化事实（可写汉字的发展，也可写英语的英美变体），最后回扣一句。",
+          "answer": "示例：The Chinese writing system connects the past and the present. At the beginning, written Chinese was a picture-based language. Emperor Qinshihuang united the seven major states, and the writing system began to develop in one direction. That is why we can still read classics written long ago.",
+          "solution": "自查三点：总起句是否点明“连接/多样”主题、两个事实是否是真实文化知识（时间、事件要对）、结尾是否回扣总起；写完读一遍，长句拆成两句更稳。",
           "difficulty": 3
         }
       ]
