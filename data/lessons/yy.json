@@ -1,0 +1,1970 @@
+{
+  "schemaVersion": 2,
+  "subject": "英语",
+  "version": "2.4.0",
+  "lessonCount": 15,
+  "lessons": [
+    {
+      "topicId": "ct_yy_g3a_01",
+      "summary": "二十六个字母个个有大写小写两副模样，在四线三格里按个子找准楼层住下，写得端正又漂亮。",
+      "explanation": [
+        "字母是跟着 A B C song 认识的，从 A 一直唱到 Z，再按顺序一批一批学：先学 Aa、Bb、Cc、Dd，接着 Ee、Ff、Gg、Hh、Ii，再往后 Jj、Kk、Ll、Mm、Nn……一路学满二十六个。每个字母都有大写和小写一对，像 A 和 a、B 和 b、Q 和 q。写字母用四线三格：从上往下是上格、中格、下格，字母按个子住楼层——a、c、e、m、n、o 这些矮个子住满中格；b、d、h、k、l、t 长脖子，住上格和中格；g、p、q、y 带尾巴，住中格和下格；f 和 j 顶天立地，三格都占。写的时候照着笔顺数字一笔一笔写清楚。",
+        "把二十六个字母想成二十六个小朋友，每个都有两身衣服：大写像礼服，个子高、站得直，常站在名字和句子的开头；小写像校服，平时见得最多。四线三格本就像三层小楼，字母搬进去要按个头分楼层，住错楼层字就歪了、挤了。找准楼层，字母才站得稳、看得清。",
+        "认字母分三步：第一步听音看形，听一个读一个，眼睛盯住字母的样子；第二步大小写配对，把 A 和 a、E 和 e 拉起手；第三步打乱顺序认，能认乱序才算真认识。写字母分四步：一看（看清占哪几格、从哪笔起笔）、二描（沿着虚线描）、三写（独立写）、四对照（和示范比一比），写完检查有没有冒格、掉格。",
+        "有几对字母最爱认混：小写里 b 和 d 像照镜子，b 的肚子在右、d 的肚子在左；p 和 q 也是一对镜子伙伴；q 和 g 都有尾巴，一个朝右弯、一个朝左勾；a 和 o 差一条小尾巴。大写里 H 和 N 都有横竖，但 H 是两竖加一横、N 是斜线穿两竖；Q 比 O 多一条小尾巴。认的时候盯住差别，圈相同字母的游戏就是练这双火眼金睛。",
+        "字母认全、写正，后面学英语的路就通了：认识了字母才能学它在单词里的首音，看到 apple 就知道是 A 打头；以后翻词典、按字母排顺序都靠 A 到 Z 这个队形。每天花五分钟，按顺序唱一遍字母歌、写一行字母，手熟嘴熟，单词就等着和你交朋友了。"
+      ],
+      "methods": [
+        {
+          "name": "大小写配对法",
+          "steps": [
+            "把大小写字母卡洗乱摊开",
+            "翻到大写就去找它的小写，翻到小写就去找大写",
+            "配对成功大声读一遍：A、a！B、b！",
+            "配错的重来，直到全部配齐"
+          ],
+          "tip": "大写礼服个子高，小写校服天天见；A 牵 a、B 牵 b，一一配对不认错。"
+        },
+        {
+          "name": "四线三格占位法",
+          "steps": [
+            "先指认三格：上格、中格、下格",
+            "给字母分家：a c e m n o r s u v w x z 住中格；b d h k l t 住上两格；g p q y 住中下两格；f 和 j 三格全占",
+            "动笔前先说出这个字母住哪几格",
+            "写完检查有没有冒格、掉格"
+          ],
+          "tip": "中格住满不冒头，长个上格伸伸头，尾巴下格垂下来，f、j 顶天又立地。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "B b 的大写字母是下面哪一个——D、b 还是 B？",
+          "solution": "是 B。B 和 b 是同一个字母的大小写两副模样，D 和 d 才是另一对。",
+          "difficulty": 1,
+          "pitfall": "看到字形相近就顺手选 D，没分清大小写和不同的字母。"
+        },
+        {
+          "question": "在四线三格里写字母 g，它的小尾巴要伸进哪一格？",
+          "solution": "伸进下格。g 住中格和下格两格，尾巴要垂到底楼，不能悬在中格里。",
+          "difficulty": 2,
+          "pitfall": "把 g 整个写进中格，尾巴拐弯的地方挤成一团。"
+        },
+        {
+          "question": "Q 和 O 长得很像，怎么一眼分清它们？",
+          "solution": "Q 比 O 多一条小尾巴，像一只小小鸟；O 是圆溜溜的圈。圈相同字母时要盯住这条尾巴。",
+          "difficulty": 2,
+          "pitfall": "只看大概的圆形就下结论，漏看了 Q 右下角的小尾巴。"
+        }
+      ],
+      "mistakes": [
+        "b 和 d 不分：b 的肚子在右、d 的肚子在左，写之前先想肚子朝哪边。",
+        "占格出错：把 a、c 写到上格，或者把 b 的头缩在中格里。动笔前先念占格口诀，写完检查冒格和掉格。",
+        "大小写混认：把 b 当成大写、把 B 写成小写的样子。记住大写个子高、占上两格。",
+        "字母顺序记不牢：字母歌唱到后面就跳字母。每天按顺序唱一遍 A B C song，再用字母卡打乱认读。"
+      ],
+      "source": {
+        "unit": "各单元 Letters and sounds",
+        "pages": [
+          2,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "玩圈相同字母的游戏：H、N、A、Z 四个大写字母里，和开头的 H 一模一样的是哪一个？",
+          "options": [
+            "N",
+            "A",
+            "Z",
+            "H"
+          ],
+          "answer": "D",
+          "solution": "N 和 H 都有横竖，但 N 是斜线穿两竖；只有两竖加一横的 H 和开头的 H 完全相同。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P9·Circle the same letters（H N A Z／H Q D O Q C P 圈相同字母）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一对大小写字母配对了？",
+          "options": [
+            "A 和 b",
+            "G 和 g",
+            "D 和 q",
+            "M 和 w"
+          ],
+          "answer": "B",
+          "solution": "G 的大写和小写是 G 和 g；A 配 a、D 配 d、M 配 m，其余都是张冠李戴。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P9·字母认读与大小写辨认（小写与大写字母圈认）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "四线三格里，下面哪个字母写的时候要伸进下格？",
+          "options": [
+            "a",
+            "c",
+            "g",
+            "e"
+          ],
+          "answer": "C",
+          "solution": "g 带小尾巴，住中格和下格；a、c、e 都是矮个子，乖乖住满中格。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P9·四线三格占格变式（占格判断：中格／上两格／中下格）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "字母表按 A B C D……的顺序排队，E e 后面紧挨着的是哪一个？",
+          "options": [
+            "F f",
+            "G g",
+            "D d",
+            "H h"
+          ],
+          "answer": "A",
+          "solution": "F f 紧跟在 E e 后面。字母顺序以后用处很大：排队报数、按字母找单词、翻词典都要按 A 到 Z 的队形来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_02",
+      "summary": "apple 用 A a 打头，dog 用 D d 开路，记住每个字母的代表单词，见词就能认出开头字母。",
+      "explanation": [
+        "字母不是孤零零背的，每个字母都配两个单词当代表：Aa 配 ant 和 apple，Bb 配 book 和 bag，Cc 配 crayon 和 cat，Dd 配 dog 和 duck；往后学，Ee 配 egg 和 elephant，Ff 配 face 和 foot，Gg 配 gift 和 green，Hh 配 hand 和 hi，Ii 配 ice 和 ice cream，再往后 Jj 配 jeep 和 jump、Kk 配 kite 和 Kate、Ll 配 long 和 leg、Mm 配 milk 和 mum、Nn 配 nose 和 noodles。念的时候字母名和单词连着读：A a, ant, apple；B b, book, bag，后面的字母也照这样一批批配下去。",
+        "为什么每个字母要带两个单词？因为字母的声音要住在单词里才活起来：apple 一读出口，A a 的音就听到了。就像班里每个同学都有一个招牌动作，看到 apple 想起 A，看到 dog 想起 D，字母和单词互相帮忙记。家里的书 book、书包 bag 都可以挂上字母牌，走到哪儿认到哪儿。",
+        "找首音三步走：第一步把单词大声读出来，把第一个音拖长听清楚；第二步想这个音是哪个字母发出来的；第三步把单词放进那个字母的小组，比如 cat、crayon 都归 C c 组。再玩词卡归类：把 ant、apple、book、bag、crayon、cat、dog、duck 八张卡按 A、B、C、D 分成四堆，分完再齐读一遍。",
+        "易混的地方有三处：一是 b 和 d 的首音别颠倒，bag 是 B b 开头，duck 是 D d 开头，读慢一点先听第一个音；二是首音只看最前面的字母，ice cream 虽然是两个词合在一起，也只看开头的 i；三是 crayon、cat 开头的音干脆响亮，代表字母写的是 C c，认字母要看写法，别想当然写成别的字母。",
+        "首音是以后拼读单词的第一块砖：认熟了 A 配 apple、B 配 bag，慢慢就能自己发现规律——大多数单词的第一个字母就提示了它的第一个音。往后字母和单词的朋友越交越多，听词能想到字母，看词能猜出读法，自己读英语小故事就不远了。"
+      ],
+      "methods": [
+        {
+          "name": "首音归类法",
+          "steps": [
+            "把单词读出声，重读第一个音",
+            "说一说这个音对应哪个字母",
+            "把词卡放进对应字母的小组",
+            "一堆读完齐读：A a, ant, apple"
+          ],
+          "tip": "A 像 apple 苹果甜，B 是 book 书香飘，C 拿 crayon 涂一涂，D 学 dog 汪汪叫。"
+        },
+        {
+          "name": "词卡对战法",
+          "steps": [
+            "两人各拿一半词卡",
+            "轮流翻卡，说出首音字母，说对收卡",
+            "卡多的一方获胜",
+            "收工前把赢来的卡按字母顺序排好"
+          ],
+          "tip": "先读词，再报首音，字母单词手拉手。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "ant 和 apple 两个单词的开头字母是哪一个？",
+          "solution": "都是 A a。读 ant、apple 时，最前面那个音就是字母 A a 的音。",
+          "difficulty": 1,
+          "pitfall": "只看单词的长相或末尾字母，没有先把第一个音读出来再判断。"
+        },
+        {
+          "question": "duck、dog、egg 三个词里，哪一个和别的不在同一组？",
+          "solution": "egg。duck 和 dog 都是 D d 开头，归一组；egg 是 E e 开头，要单独一组。",
+          "difficulty": 2,
+          "pitfall": "看到 duck 和 egg 都和“下蛋”“动物”沾边就归一组，忘了按首音分组。"
+        },
+        {
+          "question": "ice cream 这么长，它的首音字母是哪个？",
+          "solution": "I i。首音只看最前面的字母，ice cream 合在一起也只看开头的 i。",
+          "difficulty": 2,
+          "pitfall": "被后面的 cream 迷惑，以为要看中间或末尾的字母。"
+        }
+      ],
+      "mistakes": [
+        "不读单词就猜首音：把 bag 的首音猜成 d。先把第一个音读响亮再判断。",
+        "b、d 首音颠倒：bag 认进 D d 组、duck 认进 B b 组。记口诀 b 肚朝右、d 肚朝左。",
+        "大小写写反：单词开头明明用小写，答题时写了大写。单词开头的字母一般用小写（单词 I 除外）。",
+        "只看词义不看首音：把 cat 和 dog 归成一组。归类看的是开头字母，不是意思。"
+      ],
+      "source": {
+        "unit": "各单元 Letters and sounds",
+        "pages": [
+          16,
+          66
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "ant 和 apple 的首音字母是哪个？",
+          "options": [
+            "A a",
+            "B b",
+            "C c",
+            "D d"
+          ],
+          "answer": "A",
+          "solution": "读 ant、apple，最前面的音对应字母 A a，它们是 A a 的代表词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P16·Aa ant apple 首音例词（Listen, repeat and chant）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪个词的开头字母和 cat 相同？",
+          "options": [
+            "duck",
+            "crayon",
+            "bag",
+            "egg"
+          ],
+          "answer": "B",
+          "solution": "cat 和 crayon 都是 C c 开头；duck 是 D d 开头，bag 是 B b 开头，egg 是 E e 开头。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P16·C c crayon cat 首音例词变式（听音圈首音改看词辨认）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "反过来考你：下面哪个词是字母 E e 的代表词？",
+          "options": [
+            "foot",
+            "green",
+            "egg",
+            "hand"
+          ],
+          "answer": "C",
+          "solution": "egg 是 E e 开头；face、foot 归 F f，gift、green 归 G g，hand 归 H h。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P26·Ee egg elephant 例词变式（看词找字母）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把 bag、book、egg、ice cream 四个词按首音分组，下面哪种分法对？",
+          "options": [
+            "bag、book 一组，egg、ice cream 各单独一组",
+            "四个词全放一组",
+            "bag、egg 一组，book、ice cream 一组",
+            "book、egg 一组，bag、ice cream 一组"
+          ],
+          "answer": "A",
+          "solution": "bag、book 都是 B b 开头，归一组；egg 是 E e 开头、ice cream 是 I i 开头，各单独一组。以后学了拼读，看到首音就能试着猜出整个词的读法。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_03",
+      "summary": "见面说 Hello 或 Hi，报名字用 I'm… 或 My name's…，问对方叫什么用 What's your name?，分别时道声 Goodbye.",
+      "explanation": [
+        "书上一开场就是打招呼：Hello! I’m Zoom.／Hello, I’m Mike.／Hi, I’m Wu Binbin.，另一种说法是 Hi! My name’s Zip.／My name’s Sarah.。想知道对方叫什么，问 What’s your name?，对方回答 My name’s John.。分开时说 Goodbye!，或者更短的 Bye, Miss White!。一起出场的小伙伴有 Mike、Sarah、Wu Binbin、Miss White，还有手偶 Zoom 和 Zip。",
+        "Hello 像敲门砖，随时随地都能用；Hi 更像好朋友之间的招呼，又短又亲热。I’m 是 I am 的缩写，My name’s 是 My name is 的缩写，两种说法都是“我叫……”。见面先打招呼再报名字，就像进别人家先敲门、再自报家门，有礼貌的问候谁都爱听。",
+        "认识新朋友三步走：第一步打招呼，说 Hello! 或 Hi!；第二步介绍自己，说 I’m＋名字，或者 My name’s＋名字；第三步想知道对方就叫什么，问 What’s your name?，听完可以回一句 Hello!。分开时记得说 Goodbye! 或 Bye!，一天练上几遍，开口就不紧张了。",
+        "几个易混点要看清：一是撇号不能丢，I’m、What’s、name’s 中间的小撇号是缩写的记号，丢了一个词就错了；二是答非所问，What’s your name? 问的是名字，要用 My name’s… 或 I’m… 回答，答 I’m fine, thank you. 就闹笑话了，那是回答问好的；三是 Hello 和 Goodbye 别用反，见面用 Hello、Hi，分手才说 Goodbye、Bye；四是 Hi 比 Hello 更随意，对老师、长辈打招呼用 Hello 更稳当。",
+        "会打招呼、会报名字，英语交际就开了头：接下来你会学到按时间问好 Good morning、Good afternoon，用 How are you? 互相关心，还能把朋友介绍给别人 This is…。每天用英语和家里人打一次招呼、报一次自己的英文名，见面问好就成了自然习惯。"
+      ],
+      "methods": [
+        {
+          "name": "自我介绍三步法",
+          "steps": [
+            "先打招呼：Hello!／Hi!",
+            "再报名字：I’m＋名字 或 My name’s＋名字",
+            "想认识对方就问：What’s your name?",
+            "告别时挥挥手说 Goodbye!／Bye!"
+          ],
+          "tip": "Hello 开路，I’m 报名号，What’s your name 交朋友，Goodbye 挥挥手。"
+        },
+        {
+          "name": "问答接龙法",
+          "steps": [
+            "一人问 What’s your name?",
+            "另一人用 My name’s… 回答并反问",
+            "轮流交换角色",
+            "配上动作：问时摊开手，答时指指自己"
+          ],
+          "tip": "你问 What’s your name?，我答 My name’s…，一问一答成朋友。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "新同学 Sarah 想介绍自己，下面哪种说法对？",
+          "solution": "Hello! I’m Sarah. 或者 My name’s Sarah. 都对，先打招呼再报名字更有礼貌。",
+          "difficulty": 1,
+          "pitfall": "光说名字不打招呼，或者把 I’m 用成 I is。"
+        },
+        {
+          "question": "你想知道新朋友叫什么，该怎么问？",
+          "solution": "What’s your name? 读的时候 name 稍微重一点，问完记得认真听清对方的名字。",
+          "difficulty": 2,
+          "pitfall": "问成 What’s this?，那是问东西的。"
+        },
+        {
+          "question": "I’m 中间的小撇号表示什么？",
+          "solution": "I’m 是 I am 的缩写，撇号代替了省掉的字母 a。",
+          "difficulty": 2,
+          "pitfall": "以为撇号是装饰随手丢掉，写成 Im。"
+        }
+      ],
+      "mistakes": [
+        "把 I’m 写成 Im、把 name’s 写成 names，撇号一丢单词就拼错了。",
+        "答非所问：别人问 What’s your name?，你答 I’m fine, thank you.。问名字要用名字回答。",
+        "见面说 Goodbye!、分手说 Hello!，把问候和告别用反了。",
+        "只背句型不带名字，介绍时卡壳。把 I’m 后面换成自己的名字多练几遍，张口就来。"
+      ],
+      "source": {
+        "unit": "Unit 1 Hello!",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What’s your name? 你应该回答：",
+          "options": [
+            "I’m fine, thank you.",
+            "My name’s Sarah.",
+            "Goodbye!",
+            "I see red."
+          ],
+          "answer": "B",
+          "solution": "What’s your name? 问的是名字，用 My name’s… 回答；I’m fine, thank you. 是回答问好的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P7·What’s your name? My name’s John. 对话"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Hello, I’m Mike. —____",
+          "options": [
+            "Hi, I’m Sarah.",
+            "I’m fine, thank you.",
+            "It’s a bag.",
+            "Carry your bag."
+          ],
+          "answer": "A",
+          "solution": "别人打招呼并介绍自己，你也打招呼再介绍自己：Hi, I’m Sarah.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P4·Hi, I’m John. Hello, I’m Liu Xin. 打招呼对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把 Zoom 和 Zip 的对话排通顺，第一句该是哪一句？三句是：①Goodbye! ②Hello! I’m Zoom. ③Bye, Zip!",
+          "options": [
+            "Goodbye!",
+            "Hello! I’m Zoom.",
+            "Bye, Zip!"
+          ],
+          "answer": "B",
+          "solution": "先打招呼、介绍自己，说完了才互相告别，所以第一句是 Hello! I’m Zoom.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P2·Hello! I’m Zoom.／Hello, I’m Mike. 对话排序变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "介绍完自己之后，想认识对方，接着说哪一句最自然？",
+          "options": [
+            "What’s your name?",
+            "Goodbye!",
+            "Show me your pen.",
+            "I see red."
+          ],
+          "answer": "A",
+          "solution": "报名字之后反问 What’s your name?，就能认识新朋友。以后学了按时间问好和 How are you?，聊天还能越聊越长。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_04",
+      "summary": "认一认八个颜色词，早上下午问候语不同，介绍朋友说 This is…，初见面互道 Nice to meet you.",
+      "explanation": [
+        "问候分时间：上午见面说 Good morning.，下午见面说 Good afternoon.。介绍别人有固定说法：Dad, this is Mr Jones.／This is Miss Green.／Mr Jones, this is Miss Green.，双方初次见面互道 Nice to meet you.—Nice to meet you, too.。颜色词分两批学：先学 red、yellow、green、blue，再学 black、white、brown、orange，一共八个。说看到的颜色用 I see red.，玩指令游戏用 Show me red.／Show me green.／Show me yellow.／Show me blue.。",
+        "太阳的位置变了，问候也跟着变：早上太阳刚升起说 Good morning.，中午过后说 Good afternoon.。介绍朋友像牵线搭桥：先叫一声家里人 Dad、Mum，再用 This is 把朋友领到面前，两边就笑眯眯互道 Nice to meet you.。颜色词是给世界贴的小标签：红旗是 red，香蕉是 yellow，树叶是 green，天空是 blue，走到哪儿都能练。",
+        "记颜色八词两两配对：red 对 yellow、green 对 blue 是鲜亮组，black 对 white 是黑白组，brown 对 orange 是暖色组。介绍他人三步：第一步叫住要介绍的人（Dad／Mum），第二步 This is＋名字，第三步等两边互道 Nice to meet you.—Nice to meet you, too.。自己在家练：指着东西说 I see green.，再玩 Show me blue. 让家人找颜色。",
+        "易混点辨析：Good morning. 用在中午十二点以前，Good afternoon. 用在下午，别对着夕阳说早上好；介绍别人用 This is…，介绍自己用 I’m…，说自己时不能说 This is；Nice to meet you. 的回答要补上 too，表示“我也很高兴认识你”；brown 和 blue 开头都是 b，brown 中间多一个 r、结尾多个 n，拼写要看清。",
+        "颜色词和问候语是日常英语的高频句：以后描述东西会说 A red flower.（一朵红花），颜色词放在东西前面；问候语往后还会发展成 How are you? 的关心式问好，全天候用得上。每天挑三种颜色说三句 I see…，再把家人朋友用 This is… 介绍一遍，英语就住进了生活里。"
+      ],
+      "methods": [
+        {
+          "name": "颜色实物联想法",
+          "steps": [
+            "身边找实物：红旗 red、香蕉 yellow、树叶 green、天空 blue",
+            "黑白配对：黑板 black、粉笔 white",
+            "暖色配对：巧克力 brown、橙子 orange",
+            "每天指物说词，说错重来"
+          ],
+          "tip": "red 红旗飘，yellow 香蕉弯，green 绿叶摇，blue 蓝天高；black 黑夜静，white 白云飘，brown 棕熊跑，orange 橙子俏。"
+        },
+        {
+          "name": "介绍牵手法",
+          "steps": [
+            "先叫人：Dad／Mum",
+            "牵线：This is＋名字",
+            "教双方握手语：Nice to meet you.—Nice to meet you, too.",
+            "换角色再演一遍"
+          ],
+          "tip": "先叫人，This is 牵个线，Nice to meet you 笑一笑，回答别忘加 too。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "香蕉的颜色用英语说是哪个词？",
+          "solution": "yellow。香蕉黄澄澄，yellow 就是黄色。",
+          "difficulty": 1,
+          "pitfall": "拼写漏掉结尾的 w，写成 yello。"
+        },
+        {
+          "question": "早上七点出门遇到邻居阿姨，你该怎么问候？",
+          "solution": "Good morning. 上午用这句；过了中午才换成 Good afternoon.。",
+          "difficulty": 2,
+          "pitfall": "不看时间，顺口说成 Good afternoon.。"
+        },
+        {
+          "question": "别人对你说 Nice to meet you.，最合适的回答是哪句？",
+          "solution": "Nice to meet you, too. 意思是“我也很高兴认识你”，too 不能少。",
+          "difficulty": 2,
+          "pitfall": "只回 Nice to meet you.，少了 too 就少了“我也”的意思。"
+        }
+      ],
+      "mistakes": [
+        "问候不看时间：下午说 Good morning.。太阳位置定问候，中午十二点是分界。",
+        "回答 Nice to meet you. 忘加 too。too 表示“我也”，一个词都不能省。",
+        "brown、blue 拼写混淆。brown 中间有 r，像棕熊背上的毛，多看一眼再写。",
+        "介绍自己和介绍他人混用：把自己的名字说成 This is…。This is 用来介绍别人，I’m／My name’s 介绍自己。"
+      ],
+      "source": {
+        "unit": "Unit 2 Colours",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "“红色”的英文是哪个词？",
+          "options": [
+            "red",
+            "green",
+            "blue",
+            "brown"
+          ],
+          "answer": "A",
+          "solution": "red 是红色；green 是绿色，blue 是蓝色，brown 是棕色。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P15·red yellow green blue 颜色词"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "你想向妈妈介绍你的同学，下面哪句说得对？",
+          "options": [
+            "Hi, Mum. This is Zoom.",
+            "Hi, Zoom. This is Mum.",
+            "I’m Mum.",
+            "Nice to meet you, Mum."
+          ],
+          "answer": "A",
+          "solution": "先叫住妈妈，再用 This is 介绍同学：Hi, Mum. This is Zoom.。This is 后面放的是被介绍的人。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P17·Hi, Mum. This is Wu Binbin. 介绍他人对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "老师说 Show me blue.，你该怎么做？",
+          "options": [
+            "指向身边蓝色的东西",
+            "指向红色的东西",
+            "站起来",
+            "说 Goodbye"
+          ],
+          "answer": "A",
+          "solution": "Show me blue. 意思是“给我看看蓝色”，听到指令就指蓝色。同类指令还有 Show me red.／Show me green.／Show me yellow.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P15·Show me red／green／yellow／blue 指令变式（连线改选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "歌里唱到 Red and yellow and pink and green, Purple and orange and blue.。下面哪句话用了“颜色＋东西”的说法？",
+          "options": [
+            "A red flower.",
+            "I’m Zoom.",
+            "Open your book.",
+            "How are you?"
+          ],
+          "answer": "A",
+          "solution": "A red flower. 是“一朵红花”，颜色词放在东西前面。以后认的东西多了，就能说出五颜六色的句子，还能把整首彩虹歌唱下来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_05",
+      "summary": "How are you? 是见面问候，用 I'm fine, thank you. 或 Very well, thanks. 回答，再带着身体部位词边摸边说。",
+      "explanation": [
+        "问候应答链是这样的：How are you?（你好吗？）—I’m fine, thank you.（我很好，谢谢你。）—Very well, thanks.（很好，谢谢。），答完还常接着说 Let’s go to school!（我们一起上学去吧！）。展示自己时说 Look at me!／Look at my nose!（看我的鼻子！）／This is my face.。身体部位词分两批：先学 ear（耳朵）、eye（眼睛）、nose（鼻子）、mouth（嘴巴）、face（脸），再学 head（头）、arm（手臂）、hand（手）、body（身体）、leg（腿）、foot（脚）。",
+        "How are you? 不是真的问你生病没有，它就像大人见面问“最近怎么样”，回一句“挺好的”就是完整又有礼貌的对话。身体部位词最适合边摸边学：说到 nose 摸鼻子，听到指令就做动作，嘴巴、耳朵、手脚一起上阵，单词就像长在了身上。",
+        "应答链三步：第一步听到 How are you? 立刻反应出这是在问好；第二步挑一句回答，I’m fine, thank you. 或 Very well, thanks. 都行；第三步接着往下聊，比如 Let’s go to school!。记身体词按从头到脚的顺序：head 头→eye 眼→ear 耳→nose 鼻→mouth 嘴→face 脸→arm 臂→hand 手→body 身体→leg 腿→foot 脚，配上指令玩：Touch your nose.／Clap your hands.／Wave your arms.／Stamp your foot.。",
+        "辨析三个点：I’m fine, thank you. 和 Very well, thanks. 意思一样，thanks 比 thank you 更随意，回答时挑一句说就行；ear 和 eye 都是五官词，ear 中间多个 r，像耳朵的轮廓，摸部位时别弄混；Look at my nose. 里用 my（我的），指着手偶说 This is the arm. 时用 the——说自己的部位用 my，介绍泛指的东西用 the。",
+        "学会这条应答链，每天用得上：见到同学、老师都可以来一遍 How are you?—I’m fine, thank you.，比只会 Hello 热络多了。身体词往后还能用来描述小动物的样子，配上动作玩游戏也行。晚上洗脸时从头到脚说一遍英文部位词，边洗边记最省事。"
+      ],
+      "methods": [
+        {
+          "name": "问候应答链法",
+          "steps": [
+            "听到 How are you? 判断出这是问好",
+            "选一句回答：I’m fine, thank you. 或 Very well, thanks.",
+            "补一句往下聊：Let’s go to school!",
+            "和同学互换角色再演一遍"
+          ],
+          "tip": "How are you 问声好，fine 回答加 thank you，Very well thanks 也地道，答完接着把手招。"
+        },
+        {
+          "name": "身体词从头到脚记",
+          "steps": [
+            "按顺序指认：head→eye→ear→nose→mouth→face→arm→hand→body→leg→foot",
+            "每指一个部位说一个词",
+            "听指令做动作：Touch your nose.／Clap your hands.／Wave your arms.／Stamp your foot.",
+            "打乱顺序快指快说"
+          ],
+          "tip": "从头 head 到脚 foot，摸到哪儿说到哪儿，身体就是活单词卡。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "朋友问你 How are you?，你想说“我很好，谢谢”，该怎么说？",
+          "solution": "I’m fine, thank you. 也可以说 Very well, thanks.，挑一句就行。",
+          "difficulty": 1,
+          "pitfall": "回答成 My name’s…，把问好当成了问名字。"
+        },
+        {
+          "question": "老师说 Clap your hands.，你该做什么动作？",
+          "solution": "拍拍手。clap 是拍，hands 是双手，合起来就是拍手。",
+          "difficulty": 2,
+          "pitfall": "听岔成 Stamp your foot. 去跺脚，指令词要听清开头的动词。"
+        },
+        {
+          "question": "同学指着自己的耳朵说 Look at my ____.，空格里填哪个词？",
+          "solution": "填 ear。Look at my＋部位词，指哪儿说哪儿。",
+          "difficulty": 2,
+          "pitfall": "ear、eye 部位弄混，eye 是眼睛，ear 是耳朵。"
+        }
+      ],
+      "mistakes": [
+        "答非所问：听到 How are you? 回答 I’m Zoom.。问好要用 fine 回答，报名字是回答 What’s your name? 的。",
+        "ear、eye 摸混：听到 Touch your ear. 却去摸眼睛。ear 中间有个 r，像耳朵的轮廓。",
+        "把 I’m 写成 Im，撇号又丢了。问候答句里 I’m、What’s 都带撇号。",
+        "只会一种回答。其实 Very well, thanks. 也是地道说法，两种换着说更自然。"
+      ],
+      "source": {
+        "unit": "Unit 3 Look at me!",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How are you? —____",
+          "options": [
+            "I’m fine, thank you.",
+            "My name’s John.",
+            "It’s a nose.",
+            "Goodbye!"
+          ],
+          "answer": "A",
+          "solution": "How are you? 用 I’m fine, thank you. 回答，意思是“我很好，谢谢你”。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P24·How are you? I’m fine, thank you. 问候对话"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—How are you? 下面哪句也可以用来回答？",
+          "options": [
+            "Very well, thanks.",
+            "My name’s John.",
+            "I see blue.",
+            "Nice to meet you."
+          ],
+          "answer": "A",
+          "solution": "Very well, thanks. 和 I’m fine, thank you. 一样都是“很好，谢谢”，回答时挑一句即可。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P27·Very well, thanks.／I’m fine, thank you. 问候应答对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "同学指着自己的鼻子说：Look at my ____. 空格里该填：",
+          "options": [
+            "nose",
+            "hand",
+            "foot",
+            "head"
+          ],
+          "answer": "A",
+          "solution": "鼻子是 nose，Look at my＋身体词就是“看我的……”。同类还能说 Look at my ear.／Look at my face.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P23·Look at my nose! 句型变式（替换身体词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把 Zoom 和 Zip 的对话排通顺：①How are you? ②Good morning, Zip. ③I’m fine, thank you. 正确顺序是：",
+          "options": [
+            "②①③",
+            "①②③",
+            "③②①",
+            "②③①"
+          ],
+          "answer": "A",
+          "solution": "先问好（Good morning, Zip.），再关心问候（How are you?），然后回答（I’m fine, thank you.）。练熟以后还能换上 Very well, thanks. 或者反问对方，对话就越拉越长了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_06",
+      "summary": "近处的动物问 What's this?，远处的问 What's that?，都用 It's a duck. 这样回答，喜欢就夸 Cool! I like it.",
+      "explanation": [
+        "这组内容先学近距离的问与答：What's this?（这是什么？）—It's a duck.（它是一只鸭子。）—It's a dog.；再学远距离的：What's that?—It's an elephant.（它是一头大象。）猜一猜的时候说 Guess! 猜中了夸一句 Cool! I like it.（酷！我喜欢它。）动物词分两批学：先学 cat（猫）、bear（熊）、pig（猪）、duck（鸭子）、dog（狗），再学 elephant（大象）、monkey（猴子）、bird（鸟）、tiger（老虎）、panda（熊猫），还有 zoo（动物园）。玩的时候老师会发指令：Act like a bird. Act like a monkey. Act like a tiger. Act like a panda. Act like an elephant. 注意 elephant 前面要用 an。",
+        "this 和 that 用手一比就懂：小玩具抱在手里、小动物就在脚边，问 What's this?；动物在远处笼子里，问 What's that?。回答就简单了，不管远近都用 It's… 开头。I like it. 就像你看到心爱的玩具时喊“我好喜欢”，Cool! 是夸它真棒。",
+        "问答分三步：第一步看距离选问句，近处用 What's this?，远处用 What's that?；第二步用 It's a（an）＋动物词回答，比如 It's a panda.；第三步加一句 Cool! I like it. 表达喜欢。记动物词要配上动作，边演边说，嘴里说着 It's a monkey.，手上学着猴子的样子，单词就记住了。",
+        "最容易混的有三个：一是 this 和 that 别用混，先看动物离你近还是远；二是 a 和 an，elephant 的第一个音是元音，要说 an elephant，duck、dog、pig 等用 a 就行；三是问句和答句要对上，What's this? 要用 It's… 回答，别答成 I'm fine.，那是回答 How are you? 的。另外 It's 中间的小撇号不能丢，丢了意思就不对了。",
+        "学会这组问答，就能玩猜动物游戏了：一人捂住动物卡问 Guess!，另一人猜 A bear? 猜错说 No! It's a panda.。以后你还会学到用 Look at the cat. It is fat. 这样的句子描述动物的样子，还会学动物名字的复数说法。每天挑一个动物，用 It's a… 介绍给家里人，一个学期下来动物词就全交上了朋友。"
+      ],
+      "methods": [
+        {
+          "name": "近远问答法",
+          "steps": [
+            "先看动物离你近还是远",
+            "近处举起来问 What's this?",
+            "远处指一指问 What's that?",
+            "回答都用 It's a（an）＋动物词，再加 Cool! I like it. 夸一夸"
+          ],
+          "tip": "this 近 that 远，It's 回答全都能用。"
+        },
+        {
+          "name": "动作记词法",
+          "steps": [
+            "每个动物词配一个动作：duck 摆鸭嘴、monkey 挠一挠、tiger 吼一声",
+            "听指令 Act like a panda. 就学熊猫的样子",
+            "边做动作边说 It's a panda.",
+            "五个动物一组轮着演，演完互换角色"
+          ],
+          "tip": "Act like 加动作，动物单词全活了。"
+        },
+        {
+          "name": "a 和 an 挑一挑",
+          "steps": [
+            "看动物词的第一个音",
+            "辅音音开头用 a：a duck、a pig、a cat",
+            "元音音开头用 an：an elephant",
+            "把 an elephant 多读几遍，读出顺口的感觉"
+          ],
+          "tip": "elephant 元音打头，出门要带 an。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—____？—It's a dog. 横线上该问什么？",
+          "solution": "What's this?（隔着远也可以问 What's that?）。答句 It's a dog. 是在回答“它是什么”，所以问句要用 What's this／that。",
+          "difficulty": 1,
+          "pitfall": "填成 How are you?，那是问候语，和动物没有关系。"
+        },
+        {
+          "question": "在动物园里隔着老远看到一只老虎，你想让妈妈看，该说 What's this? 还是 What's that?",
+          "solution": "What's that? 老虎在远处，远指用 that。",
+          "difficulty": 2,
+          "pitfall": "不看距离，顺口全说成 this。"
+        },
+        {
+          "question": "It's ___ elephant. 空格里填 a 还是 an？",
+          "solution": "填 an。elephant 的第一个音是元音，要说 an elephant。",
+          "difficulty": 2,
+          "pitfall": "一律填 a，写成 a elephant 就错了。"
+        }
+      ],
+      "mistakes": [
+        "把 It's 写成 Its。It's 是 It is 的缩写，中间的撇号不能丢。",
+        "距离不分：动物明明在远处，还问 What's this?，远处的要用 What's that?",
+        "an elephant 写成 a elephant。elephant 第一个音是元音，前面要用 an。",
+        "用 I'm fine. 回答 What's this?。I'm fine. 是回答 How are you? 的，问动物要答 It's a…"
+      ],
+      "source": {
+        "unit": "Unit 4 We love animals",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "同学举起玩具鸭问你：—What's this? 你应该回答：",
+          "options": [
+            "I'm fine, thank you.",
+            "It's a duck.",
+            "Goodbye!",
+            "I'm six."
+          ],
+          "answer": "B",
+          "solution": "What's this? 问的是“这是什么”，用 It's a duck. 回答；I'm fine 是回答 How are you? 的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P38·What's this? It's a duck. It's a dog. 对话"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What's that? —____",
+          "options": [
+            "It's a panda.",
+            "I'm a panda.",
+            "Have some cake.",
+            "This is Zoom."
+          ],
+          "answer": "A",
+          "solution": "What's that? 用 It's a panda. 回答；远处的东西照样用 It's… 开头。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P41·What's that? It's a panda. Guess 对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "老师说 Act like a monkey.，你该怎么做？",
+          "options": [
+            "拿出铅笔写字",
+            "学猴子的样子做动作",
+            "喝一杯水",
+            "说 Goodbye"
+          ],
+          "answer": "B",
+          "solution": "Act like a monkey. 意思是“模仿猴子的样子”，听到指令就演一演猴子。同类指令还有 Act like a bird. Act like a tiger. Act like a panda.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P42·Act like a bird / a tiger / a monkey / a panda 指令变式（连线改选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "下面哪一组全是动物类的词？",
+          "options": [
+            "bread, milk, cake",
+            "cat, dog, panda",
+            "red, blue, brown",
+            "one, two, three"
+          ],
+          "answer": "B",
+          "solution": "cat、dog、panda 都是动物词；bread、milk、cake 是食物，red、blue、brown 是颜色，one、two、three 是数字。学完可以试着用 It's a… 把动物介绍给家人，以后还会学动物名字的复数说法。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_07",
+      "summary": "饿了说 I'm hungry.，想吃就说 I'd like some juice, please.；别人说 Here you are.，你要接着说 Thank you.",
+      "explanation": [
+        "这组先学说饿和点餐：I'm hungry.（我饿了。）；想要什么就说 I'd like some bread, please.（我想要一些面包。）I'd like some juice, please. I'd like some bread, eggs and juice.；还可以请求：Can I have some milk? Can I have some juice, please? Can I have some water, please?（我能喝一些……吗？）招待别人说 Have some bread. Have some eggs. Have some juice. Have some milk. Have some cake.；递东西说 Here you are.（给你。）道谢说 Thank you. 或 Thanks.，主人回应 You're welcome.（不客气。）还有进餐指令：Eat some bread. Drink some milk. Eat some rice. Cut the cake.（切蛋糕。）食物词两批：juice（果汁）、egg（蛋）、milk（牛奶）、bread（面包），再学 fish（鱼）、rice（米饭）、water（水）、cake（蛋糕）。",
+        "这些句子就是饭桌上的话：早上想喝牛奶，对妈妈说 I'd like some milk, please.，加上 please 就很客气；妈妈把牛奶递给你说 Here you are.，你接过来说 Thank you.，妈妈笑着说 You're welcome.。请客人吃东西就说 Have some cake.，一来一回，一顿饭的英语就全用上了。",
+        "点餐分三步：第一步说饿或直接开口，I'm hungry.；第二步点想要的东西，用 I'd like some…, please. 或 Can I have some…, please?；第三步拿到食物道谢 Thank you.。当小主人也有两步：请客人吃 Have some bread.，客人道谢后回一句 You're welcome.。搭配上记住：能咬能嚼的用 eat，如 Eat some bread.；能倒能喝的用 drink，如 Drink some milk.",
+        "最容易混的是 I'd like 和 I like，一字之差意思不同：I'd like some cake. 是“我现在想要吃蛋糕”，I like cake. 是“我一直喜欢蛋糕”，点餐要用 I'd like。第二，Can I have some water, please? 里的 please 不能丢，丢了就像下命令。第三，eat 和 drink 别搭错：rice、bread、fish 用 eat，milk、water、juice 用 drink。第四，Here you are.（递给你）和 You're welcome.（不客气）别用反：递东西时说前者，回应别人道谢时说后者。",
+        "这组句子当天就能用起来：在家里当小主人，客人来了说 Have some fruit.；去别人家做客，想要什么用 Can I have some…, please?。以后你还会学到更多食物词，还会学 some 的用法和可数、不可数的讲究。吃到好吃的，别忘了加一句 I like it. 表达喜欢。"
+      ],
+      "methods": [
+        {
+          "name": "点餐三步法",
+          "steps": [
+            "先说 I'm hungry. 或直接开口点",
+            "用 I'd like some…, please. 或 Can I have some…, please?",
+            "拿到食物说 Thank you."
+          ],
+          "tip": "点餐 please 不离口，拿到先说 Thank you."
+        },
+        {
+          "name": "礼貌接力法",
+          "steps": [
+            "主人递上食物说 Here you are. 或 Have some bread.",
+            "客人双手接过说 Thank you.",
+            "主人笑着回应 You're welcome."
+          ],
+          "tip": "递—谢—不客气，三棒接力不掉棒。"
+        },
+        {
+          "name": "eat 和 drink 分队法",
+          "steps": [
+            "能咬能嚼的归 eat 队：bread、rice、fish",
+            "能倒能喝的归 drink 队：milk、water、juice",
+            "读指令做动作：Eat some rice. Drink some water."
+          ],
+          "tip": "干的 eat 湿的 drink，果汁牛奶跟着 drink。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "早餐时你想喝牛奶，怎么跟妈妈说最得体？",
+          "solution": "Mum, I'd like some milk, please.（或 Can I have some milk, please?）说清想要什么，再加上 please。",
+          "difficulty": 1,
+          "pitfall": "只喊一个词 Milk!，没有句子也不礼貌。"
+        },
+        {
+          "question": "同桌帮你捡起橡皮，你对他说 Thank you.，他应该怎么回应？",
+          "solution": "You're welcome.（不客气。）",
+          "difficulty": 2,
+          "pitfall": "回成 Here you are.，那是递东西时说的话。"
+        },
+        {
+          "question": "下面哪一句搭配是对的：Drink some rice. 还是 Drink some water.？",
+          "solution": "Drink some water. water 能喝；rice 要用 eat，说 Eat some rice.",
+          "difficulty": 2,
+          "pitfall": "只看句子顺不顺口，不看东西能不能喝。"
+        }
+      ],
+      "mistakes": [
+        "把 I'd like（我想要）写成 I like（我喜欢），点餐的意思就变了。",
+        "Can I have some water, please? 丢了 please，听起来像命令。",
+        "Drink some bread. 这样的搭配错误：bread 是吃的，要用 eat。",
+        "Here you are. 和 You're welcome. 用反：递东西说 Here you are.，回应感谢说 You're welcome."
+      ],
+      "source": {
+        "unit": "Unit 5 Let's eat!",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Here you are. —____",
+          "options": [
+            "You're welcome.",
+            "Thank you.",
+            "I'm hungry.",
+            "Goodbye!"
+          ],
+          "answer": "B",
+          "solution": "别人说 Here you are. 把东西递给你，你要道谢说 Thank you.；You're welcome. 是回应感谢时说的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P47·Here you are. — Thank you. 对话"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "「我想要一些果汁。」的英文是：",
+          "options": [
+            "I like juice.",
+            "Here you are.",
+            "I'd like some juice, please.",
+            "Have some juice."
+          ],
+          "answer": "C",
+          "solution": "点餐说“我想要”用 I'd like some…, please.；I like juice. 是“我喜欢果汁”，意思不同。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P48·I'd like some bread, eggs and juice. 对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "指令搭配变式：Drink some ____。",
+          "options": [
+            "bread",
+            "rice",
+            "water",
+            "fish"
+          ],
+          "answer": "C",
+          "solution": "water 能喝，说 Drink some water.；bread、rice、fish 是吃的，要用 eat，如 Eat some rice.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P52·Drink some water. Eat some rice. 变式（eat 与 drink 搭配）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你到好朋友家做客，想吃一块蛋糕，下面哪种说法最得体？",
+          "options": [
+            "Give me cake!",
+            "Cake! Quick!",
+            "Can I have some cake, please?",
+            "I eat cake."
+          ],
+          "answer": "C",
+          "solution": "Can I have some cake, please? 又清楚又客气，拿到蛋糕再说 Thank you.。以后你招待客人时，还可以学主人说 Have some cake.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_08",
+      "summary": "从 one 数到 ten，过生日送上 Happy birthday!，被问 How old are you? 就大大方方答 I'm six.",
+      "explanation": [
+        "这组先学数字一到五：one、two、three、four、five，再学六到十：six、seven、eight、nine、ten。生日场景里先送祝福：Happy birthday!（生日快乐！）问年龄用 How old are you?（你几岁？）回答 I'm six. 或 I'm six years old.（我六岁了。）也可以像书里那样说 I'm four years old.。数东西用 How many…?：How many plates?（多少个盘子？）—Five.（五个。）送礼物时还可以说 I have two gifts.（我有两份礼物。）",
+        "过生日的场面你很熟：唱生日歌、数蜡烛、分蛋糕。英语里问年龄就问 How old are you?，回答不用害羞，I'm six. 大方说出来；问“多少个东西”用 How many…?，先数一数再报数字，比如盘子有五个就答 Five.",
+        "记数字有两个好办法：一是手指数数法，伸出手指数 one、two、three…ten，还可以玩 Show me six.（出六根手指）的反应游戏；二是配对法，把 1–10 的数字卡和单词卡打乱，一张数字配一张单词，配完再抽读。数东西时按顺序点着数，数到最后一个，报出的数就是总数。",
+        "最容易混的有三个：一是 How old are you?（问年龄）和 How are you?（问你好不好）长得像，意思完全不同；二是 six 和 seven 字形相近，six 是 6，seven 是 7，看准再读；三是 I'm six years old. 里 years 的 s 不能丢，表示“……岁”要说 years old。另外 How many 问数量，How old 问年龄，别张冠李戴。",
+        "数字是英语和数学共同的好帮手：学会 one 到 ten，数蜡烛、数盘子、分糖果都用得上；以后你会学更大的数、加法算式的英语说法，还会学怎么用英语说时间和日期。下次家里有人过生日，记得先送上一句 Happy birthday!"
+      ],
+      "methods": [
+        {
+          "name": "手指出数法",
+          "steps": [
+            "伸出手指边数边说：one、two、three…ten",
+            "家长说单词，你出对应数量的手指",
+            "家长出手指数目，你说单词",
+            "倒着再数一遍：ten、nine、eight…one"
+          ],
+          "tip": "one 到 ten 顺着数，Show me 出手指不迷路。"
+        },
+        {
+          "name": "卡片配对法",
+          "steps": [
+            "自己写 1–10 的数字卡和单词卡",
+            "打乱后一张数字配一张单词",
+            "配好后再抽读：抽到 eight 说 8"
+          ],
+          "tip": "数字配单词，一抽一答记得牢。"
+        },
+        {
+          "name": "生日问答法",
+          "steps": [
+            "聚会开始先送祝福 Happy birthday!",
+            "问年龄用 How old are you?",
+            "回答 I'm six. 或 I'm six years old.",
+            "数蜡烛、数盘子用 How many…?"
+          ],
+          "tip": "How old 问几岁，How many 问几个。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—How old are you? —____（选出合适的答句并读一读）",
+          "solution": "I'm six.（或 I'm six years old.）问年龄就报自己的岁数。",
+          "difficulty": 1,
+          "pitfall": "答成 I'm fine, thank you.，那是回答 How are you? 的。"
+        },
+        {
+          "question": "桌上有 9 个盘子，用英语怎么报数？",
+          "solution": "nine。可以一问一答：How many plates? —Nine.",
+          "difficulty": 2,
+          "pitfall": "five 和 nine 都有长元音，读快了容易混，看准再答。"
+        },
+        {
+          "question": "I'm six years old. 里 years 为什么加了 s？",
+          "solution": "years old 表示“……岁”，six 是大于一的数，year 后面要加 s；口语里只说 I'm six. 也可以。",
+          "difficulty": 3,
+          "pitfall": "写成 I'm six year old.，漏掉了 years 的 s。"
+        }
+      ],
+      "mistakes": [
+        "How old are you? 和 How are you? 混用：一个问年龄，一个问身体好不好。",
+        "six 和 seven 认错：six 是 6，seven 是 7，字形相近要看清。",
+        "I'm six years old. 漏了 years 的 s。",
+        "数东西先用中文数完再翻译，试着直接用英语点数，数得又快又准。"
+      ],
+      "source": {
+        "unit": "Unit 6 Happy birthday!",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单词 six 对应哪个数字？",
+          "options": [
+            "7",
+            "9",
+            "6",
+            "10"
+          ],
+          "answer": "C",
+          "solution": "six 是 6；7 是 seven，9 是 nine，10 是 ten。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P62·six seven eight nine ten（Show me six. Show me ten.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "生日会上，阿姨问你 How old are you?，你应该回答：",
+          "options": [
+            "I'm fine, thank you.",
+            "I'm six.",
+            "Happy birthday!",
+            "You're welcome."
+          ],
+          "answer": "B",
+          "solution": "How old are you? 问年龄，回答 I'm six. 或 I'm six years old.；I'm fine. 是回答 How are you? 的。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P61·How old are you? I'm six years old. 对话"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "歌谣变式：歌里唱 Four little candles，是几根蜡烛？",
+          "options": [
+            "5 根",
+            "4 根",
+            "6 根",
+            "10 根"
+          ],
+          "answer": "B",
+          "solution": "four 是 4，所以是 4 根蜡烛；歌里从 one little 一直数到 ten little candles，边唱边数记得更牢。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P64·One little, two little, three little candles 歌谣变式（数蜡烛）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "妈妈买了 6 个苹果，又买来 2 个，一共有几个？用英语回答。",
+          "answer": "eight（8 个）",
+          "solution": "6 加 2 是 8，eight；数的时候可以点着数：six、seven、eight。以后学了加法的英语表达，还能用英语算一算。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_09",
+      "summary": "老师喊 Open your pencil box.，你一听就做动作——听指令动起来，英语记得又快又牢。",
+      "explanation": [
+        "这组是课堂指令，全都是动词开头：Open your pencil box.（打开你的铅笔盒。）Close your book.（合上你的书。）Show me your pen.（给我看你的钢笔。）Carry your bag.（背上你的书包。）颜色课上说 Show me red. Show me green.；口令儿歌是 Black, black. Stand up.（起立。）Orange, orange. Sit down.（坐下。）White, white. Touch the ground.（摸地面。）Brown, brown. Turn around.（转个圈。）Colour it brown!（把它涂成棕色。）动物课上发指令 Act like a bird. Act like a monkey.；进餐时说 Have some eggs. Eat some bread. Drink some milk. Cut the cake.；数字课上玩 Show me six. Show me ten.",
+        "这种边听英语指令边做动作的学法叫 TPR，中文叫全身反应法：耳朵听英语，身体做反应，动作帮大脑记住意思。就像玩“老师说”的游戏，听到 Open 就开，听到 Close 就关，玩着玩着，指令里的单词不用死背就记住了。",
+        "听指令分三步：第一步抓动词，句子开头的词最重要，Open 开、Close 关、Show me 给……看、Carry 背、Stand up 起立、Sit down 坐下、Touch 摸、Turn 转、Act like 模仿、Eat 吃、Drink 喝；第二步照着做动作；第三步跟着把整句读出来。自测的方法很简单：请家长报指令，你做动作，做对了说明真的听懂了。",
+        "最容易混的是三对反义词和一个短语：Open（打开）和 Close（合上）是一对，Stand up（起立）和 Sit down（坐下）是一对，Touch（摸一摸）和 Turn（转一转）别搞混；还有 Act like a monkey. 的 Act like 是“模仿……的样子”，不是“喜欢猴子”。另外吃的东西用 Eat，喝的东西用 Drink，搭错了指令就做不对。",
+        "指令学习会一路陪着你：以后每学一个新话题，都会配一组新指令，比如学了新单词就能玩新的 Show me 游戏。在家可以当小老师给爸爸妈妈发指令，轮换角色玩；做动作记单词的方法，背别的单词也同样管用。"
+      ],
+      "methods": [
+        {
+          "name": "抓动词听令法",
+          "steps": [
+            "听到句子先抓开头的动词",
+            "Open 开、Close 关、Show me 给看、Carry 背、Touch 摸、Turn 转",
+            "边做动作边跟读整句",
+            "做错了自己重来一遍"
+          ],
+          "tip": "先抓动词再动手，指令一听就明白。"
+        },
+        {
+          "name": "反义配对法",
+          "steps": [
+            "Open—Close 配一对：开铅笔盒、合上书",
+            "Stand up—Sit down 配一对：起立、坐下",
+            "Touch—Turn 比一比：摸一摸、转个圈",
+            "一对一对反着做，加深印象"
+          ],
+          "tip": "开合、起坐，反义成对记得牢。"
+        },
+        {
+          "name": "小老师游戏法",
+          "steps": [
+            "在家当小老师发指令：Show me your pen.",
+            "家长做动作，做错了你来纠正",
+            "交换角色，你听家长发指令",
+            "熟练后慢慢加快发令速度"
+          ],
+          "tip": "今天你发令，明天你听令，轮着玩记得清。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "老师说 Close your book.，你该怎么做？",
+          "solution": "把书合上。Close 是“合上”，和 Open（打开）正好相反。",
+          "difficulty": 1,
+          "pitfall": "听成 open，把书打开了。"
+        },
+        {
+          "question": "White, white. Touch the ground. 是什么动作？",
+          "solution": "摸一摸地面。Touch 是“摸”，ground 是“地面”。",
+          "difficulty": 2,
+          "pitfall": "和 Turn around.（转个圈）弄混。"
+        },
+        {
+          "question": "Act like an elephant. 该怎么做？",
+          "solution": "模仿大象的样子做动作，比如甩甩长鼻子。Act like 就是“学……的样子演一演”。",
+          "difficulty": 2,
+          "pitfall": "把 like 理解成“喜欢”，以为句子是说“喜欢大象”。"
+        }
+      ],
+      "mistakes": [
+        "Open 和 Close 做反：Open your pencil box. 是打开铅笔盒，不是合上。",
+        "Stand up 和 Sit down 弄反：Stand up 是起立，Sit down 是坐下。",
+        "把 Act like a monkey. 理解成“喜欢猴子”：Act like 是“模仿……的样子”。",
+        "只跟读不做动作，少了身体记忆这一步，单词忘得快。"
+      ],
+      "source": {
+        "unit": "各单元 Let's do",
+        "pages": [
+          8,
+          62
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "“Stand up.” 的意思是：",
+          "options": [
+            "坐下",
+            "起立",
+            "摸地面",
+            "转个圈"
+          ],
+          "answer": "B",
+          "solution": "Stand up. 是“起立”，它的反义指令是 Sit down.（坐下）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P18·Black, black. Stand up. / Orange, orange. Sit down."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "老师连说两句：Open your pencil box. Show me your pen. 你要按什么顺序做哪两个动作？",
+          "answer": "先打开铅笔盒，再拿出钢笔给老师看。",
+          "solution": "Open 是“打开”，Show me 是“给我看”；先抓每句的动词，再按顺序做动作。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P8·Open your pencil box. Show me your pen. Close your book. Carry your bag."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "数字指令变式：老师说 Show me eight.，你要出几根手指？",
+          "options": [
+            "6 根",
+            "7 根",
+            "8 根",
+            "10 根"
+          ],
+          "answer": "C",
+          "solution": "eight 是 8，出 8 根手指；同类指令还有 Show me six. Show me seven. Show me nine. Show me ten.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P62·Show me six. Show me seven. Show me eight. 变式（数字指令）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "听到三句指令：(1) Stand up. (2) Touch the ground. (3) Sit down. 按顺序写出三个动作（用中文写）。然后自己再编一组指令考考家人。",
+          "answer": "起立 → 摸地面 → 坐下。",
+          "solution": "先抓每句的动词：Stand 起立、Touch 摸、Sit 坐下，按顺序做。以后每学一个新话题，就把新指令加进你的指令游戏里。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_10",
+      "summary": "听对话先看图猜话题，再抓住问候、颜色、食物这些关键词，听懂大意就行，遇到生词跳过去别慌。",
+      "explanation": [
+        "书上的对话都配着图：两个人挥手打招呼、问名字，见面问 How are you?，指着小动物问 What's this?，坐在桌边说 I'd like some juice, please. 要果汁，还有吹蜡烛过生日的。听之前先看图，猜猜这两个人在做什么；听的时候抓住 hello、name、How are you、What's this、juice、Happy birthday 这样的关键词；听懂大意就够了，不要求每个词都听清。",
+        "听英语就像看动画片：有一句台词没听懂，接着看画面照样知道故事讲到哪了。对话里总有几盏“路灯”——打招呼的 Hello、问好的 How are you、递东西的 Here you are——认准路灯，就算中间卡住一个词，也能把大意连起来。",
+        "听力三步走：第一步听前看图猜话题——是打招呼、看动物、吃东西，还是过生日；第二步竖起耳朵抓关键词——听到 Hello、name 是互相认识，听到 red、yellow 是说颜色，听到 juice、bread 是在吃东西，听到 Happy birthday 是过生日；第三步听大意，把抓到的词连成一个故事。中间卡住了别停，深呼吸，跟着往下听。",
+        "最容易犯的错是逐词抠：一个词没听懂就愣在原地，后面几句话全飘走了。听力的正确姿势是放过生词、抓住认识的词。还有一种错是只看图不听音，或者只顾竖耳朵忘了图上的提示——图和声音是一件事的两半，要配着用。",
+        "听大意是听力能力的第一步。以后对话会越来越长，语速会越来越快，靠的都不是逐词翻译，而是抓关键词、连大意。从现在养成“先猜、再抓、后连”的习惯，等到听英文儿歌、看英文动画时，你会发现自己越听越明白。"
+      ],
+      "methods": [
+        {
+          "name": "看图猜话题法",
+          "steps": [
+            "听之前先看画面，猜猜两个人在做什么",
+            "把猜想轻轻记在心里",
+            "听的时候验证猜想：对了一路顺畅，不对就边听边修正"
+          ],
+          "tip": "先看图猜一猜，心里有底不害怕。"
+        },
+        {
+          "name": "关键词路灯法",
+          "steps": [
+            "只盯听得懂的“路灯词”：Hello、How are you、What's this、Here you are、Happy birthday",
+            "听到一个就在心里点一盏灯",
+            "听完把几盏灯连成一条故事线"
+          ],
+          "tip": "生词像石头跳过去，路灯越亮越好走。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "听到 “How are you?” “I'm fine, thank you.”，画面上两个小朋友在校门口见面挥手。这段对话大概在讲什么？",
+          "solution": "在打招呼问好。How are you? 是问“你好吗”，I'm fine, thank you. 是回答“我很好，谢谢你”，两个关键词一出现，主题就定了。",
+          "difficulty": 1,
+          "pitfall": "看画面以为是讲学校，其实画面只是背景，关键词才是主题。"
+        },
+        {
+          "question": "听到 “I'd like some juice, please.” “Here you are.”，画面上两个人坐在桌边吃东西。这段对话大概在做什么？",
+          "solution": "在要果汁、吃东西。juice（果汁）和 Here you are.（给你）是关键词，说明是用餐的话题。",
+          "difficulty": 2,
+          "pitfall": "只听到 Here you are. 就以为是送礼物，要结合 juice 判断是用餐场景。"
+        },
+        {
+          "question": "听对话时冒出来一个没学过的词，该怎么办？",
+          "solution": "跳过它继续往下听，抓住后面认识的词。听大意阶段，不和一个生词较劲。",
+          "difficulty": 1,
+          "pitfall": "停在生词上发呆，把后面整段都错过了。"
+        }
+      ],
+      "mistakes": [
+        "一听到生词就停下发愣，后面的内容全没听进去。生词要跳过，耳朵继续往前走。",
+        "以为必须每个词都听懂才算听懂。起步阶段抓关键词、懂大意就是胜利。",
+        "只看图不听音，或只顾听不看图，浪费了一半线索。图和声音要配着用。",
+        "一边听一边在心里默拼单词。听的时候任务是懂意思，拼写是以后的事。"
+      ],
+      "source": {
+        "unit": "各单元 Let's talk",
+        "pages": [
+          4,
+          58
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "听两个小朋友的对话：“Hello, I'm Mike.” “What's your name?” “My name's John.”，画面上是两个刚见面握手的小朋友。这段对话主要在做什么？",
+          "options": [
+            "谈论喜欢的颜色",
+            "互相问好并交换名字",
+            "数一数有几个盘子"
+          ],
+          "answer": "B",
+          "solution": "Hello、What's your name?、My name's… 都是打招呼问名字的路灯词，主题就是互相认识。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P7·对话（What's your name? My name's John.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "听到 “What's this?” “It's a duck.” “It's a dog.”，画面上有几只小动物。这段对话的话题最可能是什么？",
+          "options": [
+            "数字",
+            "生日",
+            "动物"
+          ],
+          "answer": "C",
+          "solution": "What's this? 和 duck（鸭子）、dog（狗）是关键词，说的全是动物。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P38·对话（What's this? It's a duck. It's a dog.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "听到 “I'd like some juice, please.” “Here you are.” “Thanks.”，画面上两个小朋友在吃东西。下面哪组词是这段对话的“路灯词”？",
+          "options": [
+            "red、yellow、green",
+            "one、two、three",
+            "juice、Here you are、Thanks"
+          ],
+          "answer": "C",
+          "solution": "这段对话讲的是要果汁和道谢；颜色词、数字词一句都没出现，不是路灯。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P48·对话变式（I'd like some juice, please. Here you are. Thanks.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "英语兴趣活动上，老师要放一段没学过的对话，画面上是一个插着蜡烛的生日蛋糕。还没开始听，下面哪种做法最聪明？",
+          "options": [
+            "闭上眼睛什么都不看，一个词一个词地听",
+            "先想中午吃了什么",
+            "先看画面猜是过生日的话题，再竖起耳朵找 Happy birthday 这样的词"
+          ],
+          "answer": "C",
+          "solution": "先猜话题、再抓关键词，听大意就轻松了。这个“先猜再听”的本领，以后听更长的对话、看英文动画都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_11",
+      "summary": "对话要读出来更要演出来：分好角色，问句尾音往上扬、答句往下落，配上表情动作，换个关键词就是新对话。",
+      "explanation": [
+        "书上的对话都是留给两个人演的：一人说 Hi, I'm John.，另一人答 Hello, I'm Liu Xin.；一人问 What's your name?，另一人答 My name's John.；见面问 How are you?，答 I'm fine, thank you. 或 Very well, thanks.。读的时候两人分角色，你问我答；问句尾音往上扬，答句往下落；打招呼挥挥手，问好握握手，说 It's a panda. 时用手指一指。还能玩替换：把 John 换成自己的名字，把 duck 换成别的动物，一段对话马上变成新对话。",
+        "说英语不是念字，就像平时讲话有表情有手势：问问题的时候声音自然往上飘，回答的时候稳稳落下来。再加上动作——挥手、握手、指物——单词就跟着动作一起记住了，比干背十遍都牢。",
+        "三步演活一段对话：第一步分角色，两人各拿一份台词，先各自读熟；第二步配音调，问句（What's your name? How are you?）句尾上扬像荡秋千，答句（My name's John. I'm fine, thank you.）句尾下降像滑滑梯；第三步加戏，配上表情和动作，再来一轮替换——换名字、换颜色、换动物，老对话立刻变新对话。",
+        "别把每句都读成平平的一条线，问句和答句的调子不一样；也别不管内容从头到尾喊得一样响，问 How old are you? 是好奇地打听，不是吵架。替换的时候只换“尾巴上的词”，句子框架不能动：What's this? — It's a duck. 换动物是 It's a bear.，要是换成 It's red.，话题就从动物跑到颜色去了。",
+        "会读会演，是对话学得最扎实的证明。以后的对话会更长，问句和感叹句会更多，全靠现在打下的语调底子。每天挑一段和家里人分角色演一演，轮换着当问的人和答的人，一个学期下来，你就是班里的“小配音员”。"
+      ],
+      "methods": [
+        {
+          "name": "分角色配音法",
+          "steps": [
+            "两人分好角色，各自把自己的台词读熟",
+            "问句句尾上扬，答句句尾下降",
+            "配上表情和动作：挥手、握手、指一指",
+            "演完互换角色再来一遍"
+          ],
+          "tip": "问话像荡秋千往上飘，答话像滑滑梯往下落。"
+        },
+        {
+          "name": "替换表演法",
+          "steps": [
+            "找出一句话尾巴上能换的词：名字、颜色、动物、食物都行",
+            "只换词，句子框架不动",
+            "用新词把整段对话再演一遍"
+          ],
+          "tip": "框架不变换尾巴，一段对话变出十段。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "“How are you?” 朗读时句尾要往上扬还是往下落？",
+          "solution": "往上扬。它是问句，句尾语调上升，读出关心问候的口气；答句 I'm fine, thank you. 的句尾再稳稳落下来。",
+          "difficulty": 1,
+          "pitfall": "问句答句读成同一个调，一问一答的味道就没了。"
+        },
+        {
+          "question": "和同桌演 What's this? — It's a panda.，配一个什么动作最合适？",
+          "solution": "一边问一边指一指（或举着熊猫玩具），回答时也指着它。指物能让问和答对上同一个东西。",
+          "difficulty": 1,
+          "pitfall": "两手一背干念台词，话和动作脱了节。"
+        },
+        {
+          "question": "用 “Hello, I'm ___. ” 演新对话，横线上可以填什么？",
+          "solution": "填自己的英文名或同学的名字，比如 Hello, I'm Lily.。名字换了，打招呼的框架不变。",
+          "difficulty": 2,
+          "pitfall": "把框架也改掉，说成 I Hello Lily，就不是原来的句型了。"
+        }
+      ],
+      "mistakes": [
+        "问句读成下降调、答句反而上扬，一问一答的味道全没了。",
+        "替换关键词时把句子框架也改坏，比如把 It's a bear. 说成 It's bear a.。",
+        "只干巴巴念台词，没有表情和动作，单词也记不牢。",
+        "抢台词或漏台词：要先分好角色，听完对方的话再接自己的。"
+      ],
+      "source": {
+        "unit": "各单元 Let's talk",
+        "pages": [
+          4,
+          58
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "朗读 “What's your name?”，下面哪种读法是对的？",
+          "options": [
+            "句尾语调下降，读得又平又快",
+            "句尾语调上扬，读出好奇提问的口气",
+            "每个词都重重地喊出来"
+          ],
+          "answer": "B",
+          "solution": "问句句尾语调上扬，读出想认识对方的好奇口气；答句 My name's John. 的句尾再下降。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P7·对话（What's your name? My name's John.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "两人表演问好：一人说 How are you?，另一人挥挥手回答，下面哪句最适合做答句？",
+          "options": [
+            "This is Miss Green.",
+            "I'd like some juice, please.",
+            "I'm fine, thank you."
+          ],
+          "answer": "C",
+          "solution": "How are you? 问“你好吗”，用 I'm fine, thank you. 回答，再配上微笑和挥手，问好就演活了。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P24·对话（How are you? I'm fine, thank you.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "替换演新对话：把 “What's this?” “It's a duck.” 里的 duck 换成别的动物词，下面哪组换得对？",
+          "options": [
+            "What's this? — It's red.",
+            "What's this? — It's a bear.",
+            "What's this? — It's a book red."
+          ],
+          "answer": "B",
+          "solution": "只把 duck 换成 bear（熊），句子框架一字不动；It's red. 说的是颜色，It's a book red. 语序就错了。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P38·对话变式（What's this? It's a duck. 替换动物词表演）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "下面哪种练法最能帮你把对话学扎实？",
+          "options": [
+            "把台词抄十遍，但一次也不读出声",
+            "和家里人分角色演：问句上扬答句下降，再加表情动作，最后换个名字演新版本",
+            "只听别人读，自己从不张口"
+          ],
+          "answer": "B",
+          "solution": "朗读表演要开口、要配调、要加动作，换词再演还能一套句型练出好几段对话；光抄和光听都代替不了开口说。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_12",
+      "summary": "字母住进四线三格：矮个住中格，高个占上格，长尾巴伸下格；抄句子要首词大写、句末标点、词间空格。",
+      "explanation": [
+        "英文写在四线三格里，就像住一栋三层小楼，每个字母都有自己的房间：a、c、e、m、n、o、r、u 个子矮，只住中间一格；b、d、h、k、l、t 长得高，占上面两格（上格加中格）；g、j、p、q、y 有小尾巴，往下伸进下格。抄单词时，单词和单词之间空一格，比如 pencil box；抄句子时，第一个词的首字母要大写，人名的首字母也要大写，句末别忘标点：My name's John. 用句号，What's your name? 用问号。",
+        "把四线三格想成三层宿舍楼就好记了：中间层是标准间，大多数字母都住这；b、d、l 这些“高个子”要把头伸到楼上；g、j、p、q、y 这些“长尾巴”要把脚垂到楼下。房间住对了，字母才站得直、长得精神。词和词中间空一格，就像两个小房子之间留一条小路，不然挤成一团谁也认不清。",
+        "抄写分三步：一看——看清字母住哪几格、单词怎么空格、句子哪里大写哪里加标点；二描——在印好的浅色字上一笔一笔描，感受每个字母从哪起笔、到哪收笔；三默写——把例字遮住，凭记忆写出来。写完自查三件事：占格对不对、词间距离够不够、大小写和标点有没有漏。",
+        "易混三处：一是占格，b 和 d 都占上两格，别让 a 也踮起脚跑到上格去；二是大小写，句首的词、人名要大写，My name's John. 里 My 的 M 和 John 的 J 都要大写；三是标点，英语的句号是一个小圆点，不是中文的小圆圈。另外 It's、name's 中间的撇号也不能丢，丢了意思就变了。",
+        "现在抄的是单词和短句，以后要写的句子会越来越长，写得工整不工整，一眼就看得出来。养成“一看二描三默写、写完三查”的习惯，手上的字母就会越来越漂亮；以后学新单词，看一眼就能照着写对。"
+      ],
+      "methods": [
+        {
+          "name": "占格三间房",
+          "steps": [
+            "中格住户：a、c、e、m、n、o、r、u，个子矮只住中间",
+            "高个子住户：b、d、h、k、l、t，占上两格",
+            "长尾巴住户：g、j、p、q、y，占中下两格",
+            "下笔前先想一想：这个字母住哪几间房？"
+          ],
+          "tip": "高个伸头上格站，长尾垂脚下格玩。"
+        },
+        {
+          "name": "一看二描三默写",
+          "steps": [
+            "先看清楚：占格、词间空格、大小写、标点",
+            "再描红，跟着浅色字走笔顺",
+            "然后遮住例字默写一遍",
+            "写完三查：占格、间距、标点"
+          ],
+          "tip": "一看二描三默写，写完三查才算完。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "在四线三格里，字母 a 住在哪个房间？",
+          "solution": "只住中格。a、c、e、m、n、o、r、u 这些“矮个子”都只占中间一格。",
+          "difficulty": 1,
+          "pitfall": "让 a 踮起脚伸进上格，占格就错了。"
+        },
+        {
+          "question": "抄写句子 my name's john.，哪里写错了、该怎么改？",
+          "solution": "两处要改：句首 My 的 M 要大写，人名 John 的 J 也要大写，句末保留小圆点句号。正确写法：My name's John.",
+          "difficulty": 2,
+          "pitfall": "只改一处，漏了句首或人名的大写。"
+        },
+        {
+          "question": "抄词组 pencil box，两个单词中间要注意什么？",
+          "solution": "中间空一格，别挤在一起写成 pencilbox，也别空出老大一条街，一格刚刚好。",
+          "difficulty": 1,
+          "pitfall": "词距太近认不出是两个词，空太远又散了。"
+        }
+      ],
+      "mistakes": [
+        "占格出错：把只住中格的 a、o 写到了上格，或让 b、l 的“头”缩在中格里。",
+        "句首和人名忘记大写，把 My name's John. 写成 my name's john.。",
+        "句末丢标点，或把英语的小圆点句号写成中文的小圆圈。",
+        "It's、name's 里的撇号漏掉，写成 Its、names。"
+      ],
+      "source": {
+        "unit": "各单元 Let's check / 书写练习",
+        "pages": [
+          9,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪个字母只住四线三格的中格？",
+          "options": [
+            "b",
+            "a",
+            "j"
+          ],
+          "answer": "B",
+          "solution": "a 只住中格；b 是高个子要占上两格，j 是长尾巴要伸进下格。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P9·字母书写与占格（a o e c b d q g j 在四线三格中的占位）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "抄写句子 “My name's John.”，下面哪种抄法完全正确？",
+          "options": [
+            "my name's john.",
+            "My name's john.",
+            "My name's John."
+          ],
+          "answer": "C",
+          "solution": "句首 My 和人名 John 的首字母都要大写，name's 保留撇号，句末用小圆点句号。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P74·常用表达法（My name's John.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "抄写练习的先后顺序，下面哪种安排是对的？",
+          "options": [
+            "先默写，再描红，最后才看一眼范例",
+            "只描红不默写，写完不用检查",
+            "先看范例，再描红，最后默写，写完检查占格、间距、标点"
+          ],
+          "answer": "C",
+          "solution": "先看后描再默写，最后三查过关，抄写才算完成；跳过哪一步都容易留下小毛病。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P16·字母书写变式（Write and say：字母描红与占格练习）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己安排一个抄写小计划，下面哪种做法最能练出漂亮又牢固的字？",
+          "options": [
+            "只挑好看的字抄，从不默写",
+            "每天抄 3 个学过的单词和 1 句话，写完当“小老师”检查占格、词距、大小写、标点，全对画一颗星",
+            "抄得越快越好，不用检查"
+          ],
+          "answer": "B",
+          "solution": "少量、天天写、写完自查，手上的字母就会越来越漂亮；以后学新单词，看一眼就能写对。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_13",
+      "summary": "收到东西说 Thank you，回应说 You're welcome，做错事说 Sorry，道别时 Goodbye、Bye-bye、See you 都能用。",
+      "explanation": [
+        "书里的礼貌话连成一条线：分手道别说 Goodbye! Bye, Miss White.；收到东西说 Thank you.（谢谢），随口一点说 Thanks.，特别感谢说 Thank you very much.；递东西的人先说 Here you are.（给你），对方接住说 Thank you.，递的人再回一句 You're welcome.（不客气）；过生日收到礼物要说 Thank you.；做错了事、碰到了别人，要说 Sorry.（对不起）。",
+        "礼貌用语就像人与人之间的小礼物，不花钱但特别贵重。别人帮你捡起橡皮，一句 Thank you. 让他心里暖暖的；说一句 Sorry.，对方的气就消了一半；放学时一句 Goodbye! 或 See you!（回头见），等于约好了明天再见。这些话天天用得上，会了它们，说英语立刻又自然又有礼貌。",
+        "记住两组搭子：递与谢——Here you are. 配 Thank you.；谢与回——Thank you. 配 You're welcome.。道谢分大小：平常说 Thank you.，特别感谢说 Thank you very much.，随口一点说 Thanks.。道别三选一：正式一些用 Goodbye.，亲热一些用 Bye-bye.，约着再见用 See you.。",
+        "三处别混：一是 Thank you. 是“谢谢”，You're welcome. 是“不客气”，要等别人先谢你才回 You're welcome.，别自己谢自己；二是 Here you are. 是递东西时说的“给你”，不是“你在这里”；三是 Sorry. 和 Thank you. 方向相反——给人家添了麻烦说 Sorry.，得了人家的好处说 Thank you.，用反了会闹笑话。",
+        "礼貌用语是学英语最先要说溜的话，因为天天用得上。以后学请客吃东西、借东西、约定时间，都会在 Thank you、Sorry 这些骨架上加新句子。从今天起给自己派个任务：每天至少说一次英语礼貌用语，向家人道个谢、道个别都行，一个星期后你就会发现张口就来。"
+      ],
+      "methods": [
+        {
+          "name": "递谢回三连",
+          "steps": [
+            "递东西时说 Here you are.",
+            "接的人说 Thank you.",
+            "递的人回一句 You're welcome.",
+            "和家人用铅笔、橡皮把三连演几遍"
+          ],
+          "tip": "你递我谢他回礼，三句话是好朋友。"
+        },
+        {
+          "name": "道别三选一",
+          "steps": [
+            "放学分手，正式一点说 Goodbye.",
+            "跟好朋友说 Bye-bye.，又快又亲热",
+            "约着明天见就说 See you.",
+            "配上挥手动作各说一遍"
+          ],
+          "tip": "Goodbye 站得直，Bye-bye 亲又甜，See you 明天见。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同桌把尺子递给你，说 Here you are.，你该说什么？",
+          "solution": "Thank you.（特别感谢还可以说 Thank you very much.）。",
+          "difficulty": 1,
+          "pitfall": "回成 You're welcome.——那是“不客气”，要等别人先谢你才轮到它。"
+        },
+        {
+          "question": "你不小心撞掉了同学的书，该说哪句？",
+          "solution": "Sorry. 表示对不起。也可以顺手把书捡起来还给他。",
+          "difficulty": 2,
+          "pitfall": "说成 Thank you.，道谢和道歉方向反了。"
+        },
+        {
+          "question": "放学和好朋友分手，明天还想见到他，可以用哪几种说法道别？",
+          "solution": "Goodbye.、Bye-bye.、See you. 都可以，See you. 还带着“回头见”的意思。",
+          "difficulty": 1,
+          "pitfall": "只会一种道别；三种都要会说，看场合挑着用。"
+        }
+      ],
+      "mistakes": [
+        "别人说 Thank you.，你也回 Thank you.，两人互相道谢没完——这时该回 You're welcome.",
+        "把 Here you are. 理解成“你在这里”，它是递东西时说的“给你”。",
+        "该说 Sorry. 的时候说了 Thank you.，道歉和道谢用反。",
+        "道别只会 Goodbye.，其实 Bye-bye.、See you. 更亲热也更常用。"
+      ],
+      "source": {
+        "unit": "各单元",
+        "pages": [
+          3,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "用餐时同桌把牛奶递给你，说 Here you are.，你该回答：",
+          "options": [
+            "You're welcome.",
+            "Sorry.",
+            "Thank you."
+          ],
+          "answer": "C",
+          "solution": "别人把东西给你，接的时候说 Thank you. 表示感谢；You're welcome. 是听到道谢后才说的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P46·对话（Here you are. You're welcome. Thanks.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "放学了，你向 White 老师道别，下面哪句可以用？",
+          "options": [
+            "How old are you?",
+            "Goodbye!",
+            "What's this?"
+          ],
+          "answer": "B",
+          "solution": "和老师同学分手说 Goodbye!，书上的小朋友就是这样和 White 老师道别的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P7·对话（Goodbye! Bye, Miss White.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "补全礼貌三连：—Can I have some water, please? —Here you are. —Thank you. —____",
+          "options": [
+            "I'm six.",
+            "It's a duck.",
+            "You're welcome."
+          ],
+          "answer": "C",
+          "solution": "听到 Thank you. 要回 You're welcome.（不客气），递水、道谢、回礼正好一圈。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P51·对话变式（Here you are. Thank you. You're welcome.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "走路时不小心踩到了别人的脚，下面哪种做法最有礼貌？",
+          "options": [
+            "说 Thank you. 然后跑开",
+            "说 Sorry.，再问一句 Are you OK?",
+            "什么也不说，装作没发生"
+          ],
+          "answer": "B",
+          "solution": "先道歉再关心：Sorry. 加一句 Are you OK?（你还好吗？），把道歉和问候连起来用是最有礼貌的做法。以后还会学到更多关心别人的句子。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_14",
+      "summary": "Mike、Sarah 是英语名，Wu Binbin 是拼音名、姓在前；叫女老师用 Miss White，名字开头字母要大写。",
+      "explanation": [
+        "这组认识书里的人物和名字：英语名有 Mike、Sarah、John、Lily，卡通角色叫 Zoom、Zip；拼音名有 Wu Binbin、Chen Jie、Liu Xin。原句是 Hello! I'm Zoom.／Hi, I'm Wu Binbin.／My name's Sarah.／Hello, I'm Chen Jie.／Hello, I'm Liu Xin.／Hi, I'm John.／My name's Lily. 称呼老师用 Miss White，原句 Bye, Miss White!／Hello, I'm Miss White.，后面还会学到 Mr Jones 这样的男老师称呼。",
+        "中外名字有个小差异：中国人的姓名姓在前、名在后，像吴斌斌 Wu Binbin，Wu 是姓、Binbin 是名；英语名常常只用一个名字，像 Mike、Sarah，不用连着姓。称呼老师也不直接叫名字，要在姓前面加称谓：女老师用 Miss，男老师用 Mr。",
+        "写名字要“三看”：一看首字母，英语名和拼音名每个词的开头都要大写，Mike、Sarah、Miss White、Wu Binbin 都是；二看称谓，Miss 用在女老师姓前，Mr 用在男老师姓前；三看顺序，拼音名保持姓前名后，不要照英语的顺序倒过来。",
+        "容易出错的地方：mike 这样小写不对，要写 Mike；miss white 的称谓和姓首字母都要大写，写成 Miss White；别把 Wu Binbin 拆成“名 Wu、姓 Binbin”，Wu 是姓、在前面；叫老师也不能只叫姓，White 老师要说 Miss White，不能只喊 White.",
+        "以后你会认识更多书里的人物，还会在真实交往中用到这些规矩：自我介绍用 I'm… 或 My name's…，称呼别人用对 Miss 和 Mr。想给自己起一个英文名也可以，不起、直接用拼音名同样很好。名字写得规范、称呼用得得体，就是跨文化交往的第一步。"
+      ],
+      "methods": [
+        {
+          "name": "大写检查法",
+          "steps": [
+            "写英语名字先看第一个字母",
+            "Mike 的 M、Sarah 的 S 要大写",
+            "Miss White 两个词的首字母都要大写",
+            "写完检查一遍：句子里有没有小写的名字"
+          ],
+          "tip": "名字是主角，头一个字母要站直——大写。"
+        },
+        {
+          "name": "姓名顺序观察法",
+          "steps": [
+            "把 Wu Binbin 拆开：Wu 是姓、在前，Binbin 是名、在后",
+            "对比英语名 Mike、Sarah：常常只有一个名字",
+            "拼读自己的中文名，记住姓在前、名在后",
+            "写名字时不调换顺序"
+          ],
+          "tip": "姓前名后是中文，英语常只叫名。"
+        },
+        {
+          "name": "称谓对号法",
+          "steps": [
+            "女老师用 Miss：Miss White",
+            "男老师用 Mr：Mr Jones",
+            "Miss、Mr 后面接的是姓",
+            "打招呼时称谓加姓：Bye, Miss White!"
+          ],
+          "tip": "Miss 女、Mr 男，放在姓前才规范。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "你的英语老师姓 White，是位女老师，放学时怎么和她道别？",
+          "solution": "Bye, Miss White! 称谓 Miss 加姓 White，一个都不能少。",
+          "difficulty": 1,
+          "pitfall": "只说 Bye, White!，少了称谓不礼貌。"
+        },
+        {
+          "question": "下面哪一种写法最规范：sarah、SaRah、Sarah？",
+          "solution": "Sarah。名字首字母大写、其余小写。",
+          "difficulty": 2,
+          "pitfall": "全部小写或大小写混着写。"
+        },
+        {
+          "question": "Wu Binbin 里哪一部分是姓？",
+          "solution": "Wu 是姓，在前；Binbin 是名，在后。中文姓名转成拼音仍保持姓前名后。",
+          "difficulty": 2,
+          "pitfall": "以为英语都是名在前，就把 Wu 当名、Binbin 当姓。"
+        }
+      ],
+      "mistakes": [
+        "英语名首字母小写：写成 mike，应为 Mike。",
+        "称谓漏写或小写：Miss White 写成 miss white。",
+        "把 Wu Binbin 的姓和名顺序弄反。",
+        "只用姓称呼老师：White 老师要叫 Miss White，不能只喊 White."
+      ],
+      "source": {
+        "unit": "Unit 1 Hello!",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下课了，你想和英语老师 White 女士道别，最合适的一句是：",
+          "options": [
+            "Bye, Miss White!",
+            "Bye, Mr White!",
+            "Bye, White!",
+            "White, bye!"
+          ],
+          "answer": "A",
+          "solution": "女老师用 Miss 加姓：Bye, Miss White!；Mr 是男老师的称谓，只叫姓不礼貌。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P3·Bye, Miss White!"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "照英语课上名字的写法，哪一个最规范？",
+          "options": [
+            "sarah",
+            "SaRah",
+            "Sarah",
+            "sArah"
+          ],
+          "answer": "C",
+          "solution": "Sarah。名字首字母大写、其余小写，像书里的 Hi, I'm Sarah.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P4·Hi, I'm Sarah. Hello, I'm Wu Binbin."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "名字分类变式：下面哪一个是英语名字（不是拼音名）？",
+          "options": [
+            "Wu Binbin",
+            "Sarah",
+            "Chen Jie",
+            "Liu Xin"
+          ],
+          "answer": "B",
+          "solution": "Sarah 是英语名；Wu Binbin、Chen Jie、Liu Xin 都是拼音名，姓在前、名在后。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P4·角色名分类变式（英语名与拼音名）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "关于英语名字，下面哪种说法是对的？",
+          "options": [
+            "必须起一个英文名才能学英语",
+            "可以起英文名，直接用拼音名也很好",
+            "英语课上不能用拼音名",
+            "英文名必须和同学的相同"
+          ],
+          "answer": "B",
+          "solution": "起英文名是个人选择，用 Wu Binbin 这样的拼音名自我介绍同样得体。以后写自我介绍时，记得名字首字母大写、称呼用对 Miss 和 Mr.",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g3a_15",
+      "summary": "60 多个单词分两级自查：重点词要会听、说、认、读；用看图说词、听词指卡、句型接龙查漏补缺。",
+      "explanation": [
+        "书最后的词汇表把整本学过的词分成两级：第一级要会听、说、认读——文具词 ruler、pencil、eraser、crayon、bag、pen、pencil box、book；颜色词 red、yellow、green、blue、black、brown、white、orange；身体词 face、ear、eye、nose、mouth、arm、hand、head、body、leg、foot；动物词 duck、pig、cat、bear、dog、elephant、monkey、bird、tiger、panda、zoo；食物词 bread、juice、egg、milk、water、cake、fish、rice；数字词 one 到 ten。第二级只要求听、说，比如 no、your、OK、mum、school、funny、brother、plate。还有按字母顺序排的总表和常用句子表，都是自查的好帮手。",
+        "词汇自查就像给单词点名：会的大声答“到”，不会的拉出来单独练。第一级词是“全优生”，听说认读样样要过关；第二级词是“旁听生”，听到能反应、嘴上能说出就合格。分清级别再复习，力气就不会平均使——重点词练四样，简单词练两样。",
+        "三种自查法轮着用：看图说词——指着实物或卡片说英文，看到书包说 bag，看到牛奶说 milk；听词指卡——请家长读单词，你从一沓卡片里挑出对应的那个，专考耳朵；句型接龙——把词放进句子里说，I see red.、I'd like some juice.，one 到 ten 边跳边数。三种都过关，这个词就画一个勾，收进“会了”的口袋。",
+        "自查别犯三个错：一是“看着认识”就放过，眼睛认识、嘴巴读不出，第一级词还不算过关；二是类别混淆，milk 是食物、bag 是文具、zoo 是地点，归类错了说明词义没真懂；三是二级词不练听，听到 brother、plate 反应不过来也不行——听和说正是它们的基本功。",
+        "这份词表是三年级的英语地基：下学期的新单词，一大半要踩着这些词往上盖，新句子也要用这些词来搭。把没记牢的词做成小卡片贴在床头，过一周再自查一次，会的打勾。地基打得牢，后面的英语楼才盖得高。"
+      ],
+      "methods": [
+        {
+          "name": "看图说词法",
+          "steps": [
+            "把六类卡片摆开：文具、颜色、身体、动物、食物、数字",
+            "指着实物或图说英文，看到书包说 bag，看到牛奶说 milk",
+            "说不出或卡壳的放到一边",
+            "一轮下来数一数，卡住的词就是重点复习对象"
+          ],
+          "tip": "家里就是词卡盒，看到什么说什么。"
+        },
+        {
+          "name": "听词指卡法",
+          "steps": [
+            "请家人读单词，你从卡片堆里挑出对应的",
+            "挑错或犹豫超过三秒的放进“再练”堆",
+            "换个人再考一轮，全对才算过关"
+          ],
+          "tip": "耳朵找词最快，三秒之内要出手。"
+        },
+        {
+          "name": "句型接龙法",
+          "steps": [
+            "用 I see ___ 说颜色，I'd like some ___ 说食物，one 到 ten 边跳边数",
+            "家人起头你来接，接不上的词做记号",
+            "把做了记号的词重新放进句子里说三遍"
+          ],
+          "tip": "词进句子才算会，接龙接出真本事。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "milk、bag、zoo 各属于哪一类词？",
+          "solution": "milk（牛奶）是食物类，bag（包）是文具类，zoo（动物园）表示地点。",
+          "difficulty": 1,
+          "pitfall": "看到 milk 只记得“喝的”，归不进食物类；分类是记词的绳子，要系紧。"
+        },
+        {
+          "question": "自查时发现 brother 眼熟却读不出来，它是第一级词还是第二级词？",
+          "solution": "brother（哥哥或弟弟）是第二级词，只要求听、说；第一级词才要听说认读四样全过关。",
+          "difficulty": 2,
+          "pitfall": "以为所有词都要四样全会，复习力气平均使，重点词反而没练够。"
+        },
+        {
+          "question": "句型接龙：一人说 I'd like some bread.，你用别的食物词接一句，可以怎么说？",
+          "solution": "比如 I'd like some juice. 或 I'd like some rice.，把 bread、juice、rice、cake、fish、egg、milk、water 轮着接下去。",
+          "difficulty": 2,
+          "pitfall": "接成 I'd like some red.——颜色词进不了食物句型。"
+        }
+      ],
+      "mistakes": [
+        "看着认识、张口读不出的词也打勾，其实第一级词必须听、说、认、读四样过关。",
+        "类别混淆：把 milk 归进文具、把 bag 当动物，说明词义还没真正记住。",
+        "忽略第二级词的听和说，听到 plate、brother 一时反应不过来。",
+        "只背词表，从不把词放进句子里说，一到用的时候就会卡壳。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          70,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇表把单词分成两级：第一级要会听、说、认读，第二级只要求听、说。下面哪个词属于第二级？",
+          "options": [
+            "ruler",
+            "plate",
+            "red"
+          ],
+          "answer": "B",
+          "solution": "plate（盘子）是第二级词，只要求听、说；ruler 和 red 都是第一级词，要听说认读全会。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P70·词汇表（黑体词听说认读、白体词只作听说的分级说明）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "自查食物类单词，milk、juice、water 都过关了，下面哪个词也可以放进食物类？",
+          "options": [
+            "bird",
+            "bag",
+            "bread"
+          ],
+          "answer": "C",
+          "solution": "bread（面包）是食物；bird（鸟）是动物，bag（包）是文具。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP三上 P73·词汇总表（milk、mum、one、orange 等按字母序排列）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型接龙：一人问 How old are you?，你答 I'm six years old.，把数字换着说，下面哪句接得对？",
+          "options": [
+            "I'm milk years old.",
+            "I'm nine years old.",
+            "I'm nine old years."
+          ],
+          "answer": "B",
+          "solution": "只把 six 换成 nine（九）等数字词，years old 的顺序不动；milk 是食物词，进不了数字句型。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP三上 P75·常用表达法变式（How old are you? I'm six years old.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己安排一次词汇大检查，下面哪种做法最有效？",
+          "options": [
+            "只从头到尾念词表，念完就合上",
+            "只挑会说的词练，不会的直接跳过",
+            "三种方法轮着用：先看图说词，再听词指卡，最后句型接龙，不会的做成卡片一周后再查"
+          ],
+          "answer": "C",
+          "solution": "轮换方法能把看、听、说、用四关都查到，不会的词做卡片定期复查，单词才记得牢、用得出。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}
