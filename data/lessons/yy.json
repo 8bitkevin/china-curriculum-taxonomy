@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 158,
+  "lessonCount": 175,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -19755,6 +19755,2059 @@
           "question": "给自己设计一张全册词汇自查表：列出黑体词默写进度（按内容板块分成十份）、不规则动词过去分词归类栏（同形/ABB/ABC 三栏）、两句待填的完成时句子，并写下自查顺序。",
           "answer": "示例顺序：先默第 1 份黑体词并订正→归类默写 10 个不规则动词的三态→完成两句填空（如 She has already ____ (cut) down the old tree. / They have ____ (go) to Shanghai.）→错词收本，三天后重默。",
           "solution": "自查的关键是滚动和验证：默写管拼写，归类管变形，语篇填空管实际使用；错词单独收本、定期回默。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_01",
+      "summary": "用 by + V-ing 说清学习妙招：想做某事有方法，by 后动词穿 -ing，一问 How 一答 by，句句能落地。",
+      "explanation": [
+        "书上的这部分围绕一个核心问题展开：How do you study for a test?（你怎样备考？），答句统一用 by + V-ing 结构：I study by working with a group.（我通过小组合作学习）、I study by making word cards.（我做单词卡）。随后列出一串学习方式：by working with friends（和朋友一起学）、by reading aloud（大声朗读）、by listening to tapes（听录音）、by asking the teacher for help（向老师求助）。语法聚焦里继续巩固：How do you learn English? — I learn by studying with a group. / Do you learn English by reading aloud? — Yes, I do. It helps my pronunciation.（它能帮我练发音）。",
+        "by 在这里表示“通过什么手段、用什么办法”，专门回答 How（怎么做）开头的问句。可以类比坐车出行：by bus（坐公交）、by bike（骑自行车）说的是“乘什么工具”；by + V-ing 说的是“做什么动作”。动词加上 -ing 之后就像变成了一个“事情”：reading aloud 就是“大声朗读这件事”。所以“我通过大声朗读来学习”就是 I study by reading aloud.——by 像一座小桥，桥这边是主语，桥那边是方法。",
+        "造句三步：第一步想清楚目标和办法；第二步在办法前加介词 by；第三步把动词改成 -ing 形式（write→writing 要先去 e，begin→beginning 要双写 n）。回答 How 问句时，直接用 By + V-ing. 也可以，比如 How do you learn new words? — By making word cards. 书上还给出万能建议句：You could try to improve your English by ...（你可以试着通过……来提高英语），书面表达里很好用。",
+        "三个最常混的地方：一是 by 后误接动词原形或不定式，“通过大声朗读”要写 by reading aloud，不是 by read aloud，也不是 by to read；二是 by 和 with 分工不同：by 接动作方式，with 接工具名词；三是提问方式要用 How 而不是 What——What 问“什么”，How 问“怎么做”。另外 by 短语单独作答句时，句首 By 要大写。",
+        "by + V-ing 会一路陪你走完初中英语：说明学习建议要用它——You can read faster by reading word groups.（通过按意群阅读读得更快）；猜词也要靠它——guess a word's meaning by reading the sentences before and after it（通过读前后句猜词义）；后面的被动语态里还会遇到另一个 by（by + 动作执行者），到时注意分辨：一个表“方式”，一个表“由谁做”。平时整理错题时，也可以顺手给每道题配一条 by + V-ing 的改进办法，把语法变成行动。"
+      ],
+      "methods": [
+        {
+          "name": "三步搭出 by + V-ing",
+          "steps": [
+            "第一步：想清楚要通过做什么来达成目标（背单词、练听力、纠发音……）；",
+            "第二步：在这个动作前面加介词 by；",
+            "第三步：把动词改成 -ing 形式，注意 write→writing 去 e、begin→beginning 双写 n。"
+          ],
+          "tip": "方式手段要用 by，by 后动词加 ing。"
+        },
+        {
+          "name": "How 问句配对接龙",
+          "steps": [
+            "用 How do you study/learn...? 向同伴提问；",
+            "用 I study/learn by + V-ing. 回答，动词原形立刻变 -ing；",
+            "轮换 by 后面的短语（working with friends / reading aloud / making word cards / asking the teacher for help），连成一条问答链。"
+          ],
+          "tip": "一问 How 一答 by，动词记得换 ing。"
+        },
+        {
+          "name": "by 与 with 分工表",
+          "steps": [
+            "by + 动作（V-ing）表做法：by listening to tapes 通过听录音；",
+            "with + 工具名词表用具：write with a pen 用钢笔写；",
+            "拿不准时自问：我说的是“做法”还是“用具”？做法用 by，用具用 with。"
+          ],
+          "tip": "by 管做法，with 管家伙。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：You can read faster _____ reading word groups.（by / with / to）",
+          "solution": "选 by。句子说“通过按意群阅读来读得更快”，表示方式用 by，后接 -ing：You can read faster by reading word groups.",
+          "difficulty": 1,
+          "pitfall": "看到 by 就要想到后面的动词要变成 -ing。"
+        },
+        {
+          "question": "用所给动词的正确形式填空：I learned a lot by _____ (watch) English movies.",
+          "solution": "填 watching。介词 by 后面接动名词，watch 变 watching。",
+          "difficulty": 1,
+          "pitfall": "不能填原形 watch，也不能填 to watch。"
+        },
+        {
+          "question": "选出能回答“—How do you learn new words?”的一项：① By making word cards. ② Yes, I do. ③ To make word cards. ④ By a word card.",
+          "solution": "选 ①。How 问句问方式，用 By + V-ing 短语回答；②答非所问，③用了不定式，④by 后接了名词而不是动作。",
+          "difficulty": 2,
+          "pitfall": "答句开头的 By 在句首要大写。"
+        }
+      ],
+      "mistakes": [
+        "把“通过大声朗读”写成 by read aloud——介词 by 后必须接 V-ing，正确说法是 by reading aloud。",
+        "混淆 by 与 with 的分工：说做法用 by + V-ing，说用具用 with + 名词，不能把“用钢笔写”说成 by a pen。",
+        "提问方式误用 What：问方法要说 How do you study...?，What 问的是“什么”而不是“怎么做”。",
+        "V-ing 拼写出错：write 要去 e 变 writing，begin 要双写 n 变 beginning，listen 直接加 ing 变 listening。"
+      ],
+      "source": {
+        "unit": "Unit 1 How can we become good learners?",
+        "pages": [
+          1,
+          8
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：—How do you practice speaking? —_____",
+          "options": [
+            "By having conversations with friends.",
+            "By bus.",
+            "Yes, I do.",
+            "To speak with friends."
+          ],
+          "answer": "A",
+          "solution": "How 提问方式，答句用 By + V-ing 短语；书上的对应回答正是 By having conversations with friends.（通过与朋友对话来练口语）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P4·语法聚焦问答回（How do you practice speaking? By having conversations with friends.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "改错：She improves her writing by write e-mails to her pen pals.（找出错误并写出正确的句子）",
+          "answer": "把 write 改为 writing：She improves her writing by writing e-mails to her pen pals.",
+          "solution": "介词 by 后接动名词，write 需变为 writing（去 e 加 -ing）。书上有 By writing e-mails to my pen pals. 的说法。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P4·语法聚焦句式（By writing e-mails to my pen pals.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：—_____ do you memorize new words? —_____ making word cards.",
+          "options": [
+            "What; By",
+            "How; By",
+            "How; With",
+            "What; With"
+          ],
+          "answer": "B",
+          "solution": "问方式用 How；表示“通过做某事”用 By + V-ing。完整对话：How do you memorize new words? — By making word cards.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P1·学习方式问答变式（How do you study for a test? I study by working with a group.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给你的朋友写一条英语学习建议，用上句式 “You can improve your English by ...”，再补一句说明这样做的理由。",
+          "answer": "示例：You can improve your pronunciation by reading aloud every morning, because it helps a lot with your spoken English.",
+          "solution": "句中 by 后接 V-ing（reading aloud）；理由句说清这样做的好处即可，注意把方法写具体、可执行。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_02",
+      "summary": "把整句话装进 think、wonder 后面：陈述句用 that，问“是否”用 if/whether，从句永远按主语加谓语排好队。",
+      "explanation": [
+        "这一部分从节日话题引出宾语从句：I think that mooncakes are delicious!（我觉得月饼很好吃）、I love the races. I think that they're fun to watch.（我觉得比赛看起来很有趣）。接着出现“想知道”类：I wonder if they'll have the races again next year.（我想知道明年是否还会再办比赛）、I wonder whether June is a good time to visit Hong Kong.。语法聚焦把这些句子集中成对呈现：I know that the Water Festival is really fun. / I believe that April is the hottest month in Thailand.，从句内部全部是“主语 + 谓语”的陈述语序。",
+        "宾语从句就是“把一整句话装进另一个句子里当宾语”，像把写好的纸条装进信封：I think 是信封，后面整句是信纸。think / believe / know 后面装的是你的“看法和消息”，用 that 连接（口语里常常省掉）；wonder 后面装的是“想知道的事”，如果原来是“……吗？”这样的一般疑问句，就用 if 或 whether，意思是“是否”。",
+        "造宾语从句三步：第一步看主句动词（think / believe / know / wonder / hope 这类能“装句子”的动词）；第二步选引导词——原句是陈述句用 that，原句是一般疑问句用 if 或 whether；第三步把从句排成陈述语序：主语在前、谓语在后。比如 Bill wonders whether they'll have zongzi again next year.（Bill 想知道明年是否会再吃粽子）。",
+        "四个易混点：一是 that 可省略，if / whether 一般不省，也不能换成 that；二是从句语序最容易被问句带偏——I wonder if they'll have the races again next year. 里 they 照常排在 will 前面，不能写成 if will they have；三是 that 和 what 不同：what 要在从句里充当主语或宾语，that 只起连接作用、不充当成分；四是主句动词的“口气”：think / believe 表看法，wonder 带着好奇和委婉，选动词先想清自己的态度。",
+        "宾语从句共有三个要点，本节掌握了引导词和陈述语序两个；第三个要点“时态呼应”会在后续总复习里补齐。表达观点的 I think that... / I believe that... 是书面表达的高频句式，发表看法、说明理由都离不开它；下一节还会把从句装进 Could you please tell me...? 这样的礼貌外壳里，向别人礼貌地打听消息。"
+      ],
+      "methods": [
+        {
+          "name": "引导词三分法",
+          "steps": [
+            "原句是陈述句（某事如何如何）→ 用 that，口语里可省略；",
+            "原句是一般疑问句（……吗？）→ 用 if 或 whether，意为“是否”；",
+            "从句一律排成“主语 + 谓语”的陈述语序再装进去。"
+          ],
+          "tip": "陈述 that 可省略，是否 if/whether 接；从句永远陈述序。"
+        },
+        {
+          "name": "信封装句法",
+          "steps": [
+            "先把要装进去的句子写完整、写通顺；",
+            "前面套上 I think / I believe / I wonder 等信封；",
+            "检查从句主语谓语没有被倒装，问句里的 will / does 等已回到主语后面。"
+          ],
+          "tip": "主句当信封，从句是信纸；纸要平铺，不能折角（倒装）。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "合并句子：I think + The mooncakes are delicious.（合并为含宾语从句的一句话）",
+          "solution": "I think (that) the mooncakes are delicious. that 可保留也可省略，从句保持陈述语序。",
+          "difficulty": 1,
+          "pitfall": "省略 that 后句子依然成立，但初学阶段建议先写上 that 再慢慢体会。"
+        },
+        {
+          "question": "选词填空：I wonder _____ they'll have the races again next year.（if / what / who）",
+          "solution": "填 if。原句“明年还会再办比赛吗？”是一般疑问句，问“是否”用 if（也可用 whether）：I wonder if they'll have the races again next year.",
+          "difficulty": 1,
+          "pitfall": "不能选 what 或 who——它们要在从句里充当成分，而这里从句成分已经完整。"
+        },
+        {
+          "question": "原意是“不知道他是否会来过节”，哪一句正确？① I don't know if he will come to the festival. ② I don't know if will he come to the festival. ③ I don't know that he will come to the festival.",
+          "solution": "选 ①。“是否”要用 if，且从句 he will come 保持陈述语序；②把 will 提前变成疑问语序，③用 that 把“是否”说成了“那件事”。",
+          "difficulty": 2,
+          "pitfall": "检查语序：从句里主语 he 要排在 will 前面。"
+        }
+      ],
+      "mistakes": [
+        "从句被问句带偏用成疑问语序：I wonder if will they have the races again next year. 是错的，应把 will 放回主语后面：if they'll have...",
+        "一般疑问句变宾语从句时误用 that：I wonder that... 不对，问“是否”要用 if 或 whether。",
+        "该用 what 的地方误用 that：I don't know that he said. 不对——what 在从句里要作 said 的宾语，that 不能充当成分。",
+        "把 if / whether 随意省略：that 可以省，但 if / whether 担着“是否”的意思，一般不能省。"
+      ],
+      "source": {
+        "unit": "Unit 2 I think that mooncakes are delicious!",
+        "pages": [
+          9,
+          16
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：按书上语法聚焦的原句补全：I believe that April is the _____ month in Thailand.",
+          "options": [
+            "hottest",
+            "hotter",
+            "hot",
+            "more hot"
+          ],
+          "answer": "A",
+          "solution": "书上的原句是 I believe that April is the hottest month in Thailand.（泰国四月是最热的月份），the 后接形容词最高级 hottest。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P12·语法聚焦（I believe that April is the hottest month in Thailand.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "连词成句（写出完整句子）：Bill / wonder / whether / they'll have zongzi again next year",
+          "answer": "Bill wonders whether they'll have zongzi again next year.",
+          "solution": "主句主语 Bill 是第三人称单数，wonder 加 s；从句 whether they'll have... 保持陈述语序。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P9·节日听力判断句（Bill wonders whether they'll have zongzi again next year.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：选出完全正确的一句",
+          "options": [
+            "Do you know if is the museum open on Monday?",
+            "Do you know if the museum is open on Monday?",
+            "Do you know that is the museum open on Monday?",
+            "Do you know the museum is open if on Monday?"
+          ],
+          "answer": "B",
+          "solution": "问“是否”用 if，从句 the museum is open 保持陈述语序；A、C 把 is 提前造成倒装，D 把 if 放错了位置。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P12·语法聚焦变式（I wonder if / whether 从句陈述语序）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以“我最喜欢的节日”为话题，用 I think that... 和 I wonder if... 各写一句话，写完自查两点：引导词选得对不对，从句是不是陈述语序。",
+          "answer": "示例：I think that the Dragon Boat Festival is exciting. I wonder if we will watch the races this year.",
+          "solution": "观点句用 that，问“是否”用 if；写完逐句检查从句主语是否排在谓语前面。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_03",
+      "summary": "礼貌打听消息有公式：Could you please tell me 后接疑问词加陈述语序，从句主谓不倒装，问路求助不尴尬。",
+      "explanation": [
+        "这一部分教“礼貌地问信息”：Could you please tell me where the restrooms are?（请问洗手间在哪里？）——注意从句是 where the restrooms are，不是 where are the restrooms。书里反复出现同一类外壳：Excuse me, could you please tell me how to get to the bookstore?（请问去书店怎么走？）/ Do you know when the bookstore closes today?（你知道书店今天几点关门吗？）/ Excuse me, do you know where I can buy some medicine? — Sure. There's a supermarket down the street.（街上有一家超市）。还有委婉的 I wonder where we should go next.（我想知道接下来该去哪）。",
+        "直接问 Where are the restrooms? 语法没错，但听起来像查户口；套上 Could you please tell me... 就像先敲了敲门，语气立刻客气起来。礼貌外壳里装的不是问句原样，而是“改装版”：疑问词仍然打头，但后面的主语谓语要按陈述句的顺序平铺——像把一叠纸放进信封前先抚平整。",
+        "把直接问句改装成礼貌问句三步：第一步写出直接问句，如 Where can I buy some grapes?；第二步选外壳：Could you please tell me...? / Do you know...? / I wonder... / Pardon me, could you tell me...?；第三步把问句装进去并改成陈述语序——Could you please tell me where I can buy some grapes? 陌生场合别忘了句首加 Excuse me。",
+        "几个高频混淆：一是语序——从句里助动词、be 动词必须回到主语后面：when the band starts playing 是对的（when does the band start 就错了）；二是 how to get to 和 how I can get to 两种说法都对，简式用“疑问词 + to do”，从句式别忘了主语；三是 get to 后面接地点名词（get to the post office），但 get home / get here 这类地点副词前不加 to。",
+        "问路指路是听力与情景交际的高频考点，礼貌求助句式也是书面表达里咨询信的开场模板。宾语从句的要点至此已经凑齐大半——that、if/whether、特殊疑问词三类引导词和陈述语序都已上手，时态呼应留待总复习串线；再往后学到被动语态、情态动词时，这套“外壳 + 从句”的句式还会反复登场。"
+      ],
+      "methods": [
+        {
+          "name": "礼貌三件套",
+          "steps": [
+            "开场加 Excuse me / Pardon me 引起注意；",
+            "套外壳：Could you please tell me...? / Do you know...? / I wonder...；",
+            "从句用“疑问词 + 主语 + 谓语”的陈述语序收尾。"
+          ],
+          "tip": "Excuse me 起个头，could you please 语气温；从句平铺陈述序。"
+        },
+        {
+          "name": "直接句改装三步",
+          "steps": [
+            "先写直接问句：Where is the bank?；",
+            "把 is / can / does 等送回主语后面：where the bank is；",
+            "套壳成句：Could you please tell me where the bank is?"
+          ],
+          "tip": "疑问词领路，主谓随后行，助动词回原位。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "单选：Could you please tell me _____? ① where the restrooms are ② where are the restrooms ③ where the restrooms is ④ where is the restrooms",
+          "solution": "选 ①。从句用陈述语序：the restrooms 排在 are 前面；restrooms 是复数，配 are。",
+          "difficulty": 1,
+          "pitfall": "最典型的错误就是把从句写成 where are the restrooms。"
+        },
+        {
+          "question": "把直接问句改得更礼貌：How do I get to the Central Library?",
+          "solution": "Could you please tell me how to get to the Central Library? 或 Could you please tell me how I can get to the Central Library?",
+          "difficulty": 2,
+          "pitfall": "两种改法都对：how to get to（简式）与 how I can get to（从句式）；注意 get to 后面要带 the。"
+        },
+        {
+          "question": "补全对话：—Excuse me, do you know _____ I can buy some medicine? —Sure. There's a supermarket down the street.（where / what / when / who）",
+          "solution": "填 where。答句回答了地点，问句自然问“在哪里能买到药”。",
+          "difficulty": 1,
+          "pitfall": "先看答句再定疑问词：答地点选 where，答时间选 when。"
+        }
+      ],
+      "mistakes": [
+        "从句保留疑问语序：Do you know where is the bookstore? 是错的，应为 where the bookstore is。",
+        "只套外壳不改装，从句丢了主语或把助动词提前，说出来像半截话。",
+        "how to get 后面漏掉 to：去某地要说 how to get to the post office；但 get home / get here 前不加 to。",
+        "对陌生人开口不加 Excuse me / Pardon me，句子再对也显得生硬不礼貌。"
+      ],
+      "source": {
+        "unit": "Unit 3 Could you please tell me where the restrooms are?",
+        "pages": [
+          17,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：—Could you please tell me where I can buy a magazine? —_____",
+          "options": [
+            "There's a bookstore on the third floor.",
+            "Yes, I can buy it.",
+            "It closes at 7:00 p.m.",
+            "You're welcome."
+          ],
+          "answer": "A",
+          "solution": "问句问“在哪里能买到杂志”，答句指明地点：There's a bookstore on the third floor.（三楼有一家书店）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P24·自测问答（Could you please tell me where I can buy a magazine? — There's a bookstore on the third floor.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "按“把句子改得更有礼貌”的要求改写：Where can I buy some grapes or other fruit?",
+          "answer": "Could you please tell me where I can buy some grapes or other fruit?",
+          "solution": "套上外壳 Could you please tell me，从句 where I can buy... 保持陈述语序。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P20·语法聚焦礼貌改写（Where can I buy some grapes or other fruit?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：选出正确的礼貌问句",
+          "options": [
+            "Excuse me, do you know when does the band start playing?",
+            "Excuse me, do you know when the band starts playing?",
+            "Excuse me, do you know when starts the band playing?",
+            "Excuse me, do you know what the band starts playing?"
+          ],
+          "answer": "B",
+          "solution": "从句 when the band starts playing 保持陈述语序，由疑问词 when 引导；A、C 倒装，D 疑问词用错。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P20·语法聚焦变式（Could you tell us when the band starts playing this evening?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "情景运用：你初到一个陌生城市，想打听最近的地铁站在哪里。写一句完整的礼貌问句，要求含开场语 Excuse me、礼貌外壳（Could you please tell me...? 或 Do you know...?）和 where 引导的从句。",
+          "answer": "示例：Excuse me, could you please tell me where the nearest subway station is?",
+          "solution": "检查三点：有开场语；从句 where the nearest subway station is 用陈述语序；全句以问号收尾。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_04",
+      "summary": "used to 是一张旧照片：过去常常、现在不了；肯定句直接用，否定和疑问请 did 帮忙，used 还原成 use。",
+      "explanation": [
+        "这一部分围绕今昔对比展开：I used to be afraid of the dark.（我过去怕黑，现在不怕了）、Paula used to be really quiet.（Paula 过去很安静）。语法聚焦成对呈现四种句式：肯定 I used to be short.；否定 I didn't use to be popular in school. / She didn't use to like tests.；一般疑问 Did he use to wear glasses? — Yes, he did. / No, he didn't.；反意疑问 You used to be short, didn't you? — Yes, I did.。",
+        "used to 像“翻旧照片”：说的全是过去的样子，而且话里藏着一个潜台词——现在不是这样了。I used to be short. 意思是“我以前个子矮（现在高了）”。所以这个结构常和 but now 连用：He used to be so shy and quiet.（他以前特别害羞、安静），接着就可以说 But look how big and strong he is now!（可你看他现在多高大壮实！）。",
+        "造句三步：第一步想一件过去常做的事或过去的状态；第二步在主语后加 used to，动词用原形（used to watch / used to be）；第三步补一句 but now... 完成今昔对比。否定句、疑问句请 did 帮忙，did 一出场，used 就还原成 use：didn't use to / Did...use to...? 回答用 Yes, I did. / No, I didn't.",
+        "三个容易踩坑的地方：一是 didn't 后面误写 used（要还原为 use）；二是 used to 后误接 -ing（used to watch 才对）；三是和“be used to doing（习惯于做某事）”混淆——I used to get up early. 是“过去常常早起（现在不了）”，要说“我习惯早起”得用 be used to getting up early，初中阶段先牢牢抓住 used to do 这一种。",
+        "“描写变化”是书面表达的经典话题：My life has changed a lot. I used to..., but now I'm...。书里的人物故事也用它串起成长线：Candy didn't use to be popular in school, but now she gets tons of attention.（她过去在学校不出名，现在到处受人关注）；Li Wen is much happier and more outgoing than he used to be.（他比过去快乐、外向多了）。used to 和比较级 than 连用，表示“比过去更……”，写作里非常好使。"
+      ],
+      "methods": [
+        {
+          "name": "旧照片三步法",
+          "steps": [
+            "第一步：想一件过去常做的事或过去的状态（怕黑、留长发、每天走路上学……）；",
+            "第二步：主语 + used to + 动词原形；",
+            "第三步：补上 but now... 说出现在的情况，今昔对比就完整了。"
+          ],
+          "tip": "used to 一亮相，旧照片开场；but now 一转折，今天才登场。"
+        },
+        {
+          "name": "did 还原法",
+          "steps": [
+            "否定句：didn't + use to + 动词原形；",
+            "一般疑问句：Did + 主语 + use to...?；",
+            "回答：Yes, ... did. / No, ... didn't.；反意疑问后缀用 ..., didn't + 主语?"
+          ],
+          "tip": "did 一来，used 退位变 use；回答还得请 did 应对。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用所给动词的适当形式填空：Mario _____ (use) to be really short, but he's tall now.",
+          "solution": "填 used。肯定句直接用 used to + 动词原形：Mario used to be really short.",
+          "difficulty": 1,
+          "pitfall": "肯定句不加 did，也不能写成 use to。"
+        },
+        {
+          "question": "选出正确的一句：① She didn't use to like tests. ② She didn't used to like tests. ③ She didn't use to liking tests.",
+          "solution": "选 ①。did 后面的 used 要还原为 use，且 use to 后接动词原形 like。",
+          "difficulty": 2,
+          "pitfall": "一看到 did，就要把 used 的 -ed 摘掉。"
+        },
+        {
+          "question": "补全对话：—_____ he _____ wear glasses? —Yes, he did.",
+          "solution": "填 Did; use to。一般疑问句 Did he use to wear glasses?，回答 Yes, he did.，与书上一致。",
+          "difficulty": 2,
+          "pitfall": "疑问句用 Did...use to，别写成 Did...used to。"
+        }
+      ],
+      "mistakes": [
+        "否定句写成 didn't used to——did 后面要用原形 use：didn't use to like tests.",
+        "used to 后误接动词 -ing 或第三人称单数：应为 used to + 动词原形，如 used to watch。",
+        "把“过去常常”和“习惯于”弄混：I used to get up early.（过去常早起，现在不了）与 be used to getting up early（习惯早起）是两回事。",
+        "反意疑问后缀写错：You used to be short, didn't you? 前肯后否，别写成 did you。"
+      ],
+      "source": {
+        "unit": "Unit 4 I used to be afraid of the dark.",
+        "pages": [
+          25,
+          32
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "单选：You used to be short, _____? —Yes, I did. But look at me now!",
+          "options": [
+            "didn't you",
+            "did you",
+            "don't you",
+            "weren't you"
+          ],
+          "answer": "A",
+          "solution": "used to 的反意疑问借助 did：前句肯定，后缀用 didn't you；回答 Yes, I did.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P28·语法聚焦（You used to be short, didn't you? — Yes, I did.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "按书上写句练习补全句子：Grace _____ watch a lot of TV, but she _____ use to watch a lot of movies.",
+          "answer": "used to; didn't",
+          "solution": "第一空是肯定句用 used to；第二空是否定句，空后已有 use to，填 didn't。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P28·语法聚焦配套写句（Grace used to watch a lot of TV. She didn't use to watch a lot of movies.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式单选：—_____ Mario _____ to be short? —Yes, he did. He's tall now.",
+          "options": [
+            "Did; use",
+            "Did; used",
+            "Does; use",
+            "Was; use"
+          ],
+          "answer": "A",
+          "solution": "一般疑问句用 Did Mario use to be short?，did 后的 used 还原为 use；书上的原问答正是如此。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P25·开场对话变式（Did Mario use to be short? Yes, he did. He used to be really short.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以 How I've Changed 为题写两句：第一句用 used to 描述过去的你，第二句用 but now... 说出现在，注意 used to 后接动词原形。",
+          "answer": "示例：I used to be afraid of speaking in class, but now I enjoy answering questions.",
+          "solution": "自查三点：used to 后是动词原形；第二句有 but now；两句说的是同一个人的今昔对比。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_05",
+      "summary": "用 is/are＋过去分词说东西的原料和产地：be made of 看得出原料，from 看不出，in 报产地。",
+      "explanation": [
+        "书上这部分围绕两个问题展开：东西是什么做的？哪里造的？配对表给出三件物品：shirts 用 cotton（棉花）做的、made in Korea；chopsticks 用 silver（银）、made in Thailand；ring 用 steel（钢）、made in America。对话示范：A: This ring looks nice. Is it made of silver? B: Yes, and it was made in Thailand. 茶话题的对话再进一步：China is famous for tea, right? — Where is tea produced in China? — How is tea produced? — Tea plants are grown on the sides of mountains. When the leaves are ready, they are picked by hand and then are sent for processing. 语法聚焦的四组问答里有：What's the model plane made of? — It's made of used wood and glass. / Are your shirts made of cotton? — Yes, they are. And they were made in the US. 并用一组对照句点明规则：Active Voice: People grow tea in Hangzhou. Passive Voice: Tea is grown (by people) in Hangzhou.",
+        "为什么英语爱用被动语态？因为很多时候我们关心的是「东西」本身，不是「谁做的」。你身上的球衣哪国造、手里这支笔什么原料，说的人未必知道工人是谁——The shirts are made of cotton 一出口，重点就落在 shirts 上。这就像介绍新同学先说「这是谁的球拍」，而不是「张三把球拍放在这儿」。生活中的例子随手可得：书包是布做的、筷子是竹子做的，一句 It's made of… 就交代了原料；补一句 It's made in…，连产地也报完了。",
+        "主动句改被动句走三步：第一步，把动作的承受者提到句首当主语（People grow tea → Tea…）；第二步，按新主语选 be 动词——单数或不可数用 is，复数用 are；第三步，动词变成过去分词（grow→grown，plant→planted），要强调动作执行者就用 by 引出（by farmers），不重要就省略。be made 家族分三路：原料看得出来用 be made of（The desk is made of wood），看不出来用 be made from，问产地用 be made in。说「以……闻名」用 be famous for：China is famous for tea.",
+        "三个易混点要分清：一是 of 和 from——be made of 的原料肉眼可辨（铅笔→wood），be made from 的原料「隐身」了（Cheese is made from milk，奶酪里看不出牛奶）；二是产地用 in 不是 by——It was made in Thailand 说产地，by 后面跟的是人；三是主谓一致：主语 shirts 复数用 are made，model plane 单数用 is made，不能漏掉 be 动词，也不能把 grown 写成 growed。",
+        "一般现在时的被动只是被动语态的第一站：接着要学一般过去时的被动（was invented），再往后是情态动词的被动（should be allowed）。这套句式写作里马上能用——介绍家乡特产就靠它：My town is famous for… It is made of/from… It is made in…。读说明文、新闻遇到 is grown、are picked 也不慌：先找 be 动词，再看过去分词，被动句的骨架一目了然。"
+      ],
+      "methods": [
+        {
+          "name": "被动变形三步法",
+          "steps": [
+            "把动作的承受者提到句首：People grow tea → Tea…",
+            "按新主语选 be：单数/不可数用 is，复数用 are",
+            "动词变过去分词：grow→grown；需要时 by+执行者（by farmers），可省"
+          ],
+          "tip": "口诀：被动语态 be 加过分，缺一个都不行。"
+        },
+        {
+          "name": "be made 三兄弟分家法",
+          "steps": [
+            "看得出原料 → be made of（The desk is made of wood）",
+            "看不出原料 → be made from（Cheese is made from milk）",
+            "问产地 → be made in（It was made in Thailand）",
+            "说「以……闻名」换 be famous for（China is famous for tea）"
+          ],
+          "tip": "口诀：看得出用 of，看不出用 from，问产地换 in。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 People grow tea in Hangzhou. 改成被动语态。",
+          "solution": "Tea is grown in Hangzhou.——tea 提到句首，grow 变 is grown；执行者 people 不重要，省略。这正是语法聚焦里的对照句。",
+          "difficulty": 1,
+          "pitfall": "只写 grown 忘了 is——被动语态 be 加过分，两样缺一不可。"
+        },
+        {
+          "question": "—What's your pencil made ___? —It's made of wood. 横线上填 of、from 还是 in？",
+          "solution": "填 of。铅笔能看得出木头原料，用 be made of；要是原料看不出（比如奶酪和牛奶）才用 from。",
+          "difficulty": 2,
+          "pitfall": "把看得出原料的 of 误写成 from——先问自己：原料肉眼认得出来吗？"
+        },
+        {
+          "question": "Tea plants ___ (grow) on the sides of mountains. 用所给动词的适当形式填空。",
+          "solution": "填 are grown。tea plants 是复数，be 选 are，grow 变过去分词 grown；原句出自茶生产过程的对话。",
+          "difficulty": 2,
+          "pitfall": "主谓不一致：复数主语配 are 不是 is；grow 的过去分词是 grown，别写成 growed。"
+        }
+      ],
+      "mistakes": [
+        "漏掉 be 动词：The tea grown in Hangzhou 不成句，必须说 Tea is grown in Hangzhou。",
+        "主谓不一致：shirts 复数用 are made，model plane 单数才用 is made。",
+        "of 和 from 用反：看得出原料用 of（made of wood），看不出用 from（made from milk）。",
+        "过去分词写错：grow→grown、speak→spoken，不能按规则硬加 -ed 写成 growed、speaked。"
+      ],
+      "source": {
+        "unit": "Unit 5 What are the shirts made of?",
+        "pages": [
+          33,
+          40
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What are the shirts made of? —They're made of ___.",
+          "options": [
+            "silver",
+            "cotton",
+            "steel",
+            "wood"
+          ],
+          "answer": "B",
+          "solution": "配对表里 shirts 对应 cotton（棉花）：What are the shirts made of? — They're made of cotton.，是语法聚焦同款问答；silver 对应 chopsticks，steel 对应 ring。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P33·物品与原料产地配对（shirts—cotton—Korea；What are the shirts made of?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把句子改成被动语态：Farmers plant the tea on the sides of mountains. → The tea ___ ___ on the sides of mountains by farmers.",
+          "answer": "are; planted",
+          "solution": "the tea 提前作主语，复数配 are，plant 变过去分词 planted；执行者 by farmers 保留。主动句变被动句，意思不变。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P36·主动句改被动句（Farmers plant the tea on the sides of mountains. → The tea is planted on the sides of mountains by farmers.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Cheese is a kind of food, and it is made ___ milk.",
+          "options": [
+            "from",
+            "of",
+            "in",
+            "by"
+          ],
+          "answer": "A",
+          "solution": "奶酪里看不出牛奶原料，用 be made from；原句是自测里的 Cheese is made from milk.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P40·动词正确形式填空（Cheese (make) from milk.）变式（be made of/from 选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句话介绍一样家乡特产：第一句用 My town is famous for…，第二句用 It is made of/from…，第三句用 It is made in…。",
+          "answer": "示例：My town is famous for tea. It is made from tea leaves. It is made in Hangzhou.",
+          "solution": "be famous for 报名气，be made of/from 报原料，be made in 报产地——三句连用就是一段完整的特产介绍，还能再加一句 It is used for…说用途。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_06",
+      "summary": "把被动搬进过去：was/were＋过去分词谈发明史，in 1876 报年份，by 报发明人，茶竟是误打误撞。",
+      "explanation": [
+        "书上这部分聊发明史。开篇先给四样发明排序：I think the TV was invented before the car.（我觉得电视比汽车发明得早）配对的四个年份是 1876、1885、1927、1971——电话对 1876，汽车对 1885。问法示范：A: When was the telephone invented? B: I think it was invented in 1876. 语法聚焦四组问答：When was the zipper invented? — It was invented in 1893. / Who was it invented by? — It was invented by Whitcomb Judson. / When was tea brought to Korea? — It was brought to Korea during the 6th and 7th centuries. / What is the hot ice-cream scoop used for? — It's used for serving really cold ice-cream. 主动被动对照：Active Voice: Alexander Graham Bell invented the telephone in 1876. Passive Voice: The telephone was invented (by Alexander Graham Bell) in 1876.",
+        "过去的事为什么要用被动？因为发明大多年代久远，普通人说不清也不必说清「谁做的」，大家关心的是「什么东西、哪一年」。就像介绍家里一台老收音机，说 It was made in 1970 比追查装配工人自然得多。发明者偶尔要隆重介绍时，就请 by 出场：It was invented by Whitcomb Judson. 茶的语篇里还有一句妙笔：茶这种全世界最受欢迎的饮料之一，竟然 was invented by accident（误打误撞被发明出来的）。",
+        "过去被动三步走：第一步，承受者提前（Alexander Graham Bell invented the telephone → The telephone…）；第二步，be 换成过去式——单数或不可数用 was，复数用 were；第三步，动词用过去分词（invent→invented，sell→sold）。年份用 in（in 1876），发明者用 by，用途用 be used for doing。这套句式是发明史语篇的骨架：Tea was first drunk about 5,000 years ago. / It is believed that tea was brought to Korea and Japan during the 6th and 7th centuries.",
+        "和上一部分比，区别只在 be 动词换装：现在时用 is/are，过去时用 was/were——tea 是不可数名词，Tea was brought to Korea 用 was。by 和 in 别搞混：Who was it invented by? 问人答 by，When was it invented? 问年份答 in。还有一类句子要先判断主被动：主语是承受动作的东西就用被动——Somebody stole my camera → My camera was stolen；有些说法习惯按被动式记：He was born in 1847（出生于 1847 年）。",
+        "was/were invented 是写「发明史」短文的标准配置，也是说明文的高频句式。读语篇可以用「找年份—找 by—找用途」三步抓信息：1876 定位电话，1893 定位拉链，December 21, 1891 定位第一场篮球赛（the first basketball game in history was played on December 21, 1891）。往下走还有情态动词的被动（should be allowed to），把被动语态三张牌凑齐，语法选择题里的被动考点就都能接住了。"
+      ],
+      "methods": [
+        {
+          "name": "过去被动三步法",
+          "steps": [
+            "承受者提前：The telephone was…",
+            "be 换过去式：单数/不可数用 was，复数用 were",
+            "动词用过去分词：invent→invented；年份 in 1876，发明者 by Judson"
+          ],
+          "tip": "口诀：单数 was 复数 were，be 加过分不落单。"
+        },
+        {
+          "name": "发明四问模板",
+          "steps": [
+            "When was it invented? — It was invented in 1876.",
+            "Who was it invented by? — It was invented by…",
+            "What is it used for? — It's used for…",
+            "三问三答串起来就是一段发明小档案"
+          ],
+          "tip": "口诀：When 用 in，Who 用 by，用途就用 used for。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—When ___ the telephone ___ (invent)? —I think it was invented in 1876. 填入所给动词的适当形式。",
+          "solution": "填 was invented。telephone 单数，be 用 was；invent 的过去分词还是 invented。问句答句都是过去被动。",
+          "difficulty": 1,
+          "pitfall": "复数惯性发作写成 were——先数一数主语：telephone 是单数。"
+        },
+        {
+          "question": "把句子改成被动语态：They sold the fridge at a low price.",
+          "solution": "The fridge was sold at a low price.——the fridge 提前，单数配 was，sell 的过去分词是 sold（三态同形）。",
+          "difficulty": 2,
+          "pitfall": "把 sold 误写成 selled——sell 的过去式和过去分词都是 sold。"
+        },
+        {
+          "question": "Tea was first ___ by Shen Nong about 5,000 years ago. 横线上填 drink 的适当形式。",
+          "solution": "填 drunk。drink 是不规则动词：drink→drank→drunk，被动语态要用过去分词 drunk；茶是被「喝」的，用被动。",
+          "difficulty": 2,
+          "pitfall": "按规则动词硬加 -ed 写成 drinked——drink 的过去分词是 drunk。"
+        }
+      ],
+      "mistakes": [
+        "was/were 用错：the telephone 单数用 was invented；the toys 这类复数才用 were。",
+        "by 和 in 混搭：问「谁发明的」答 by Whitcomb Judson，问「哪一年」才用 in 1876。",
+        "主动被动不分：Somebody stole my camera 要改成 My camera was stolen，不能写成 My camera stole。",
+        "不规则过去分词记错：drink→drunk、steal→stolen、bring→brought，别按 -ed 硬加。"
+      ],
+      "source": {
+        "unit": "Unit 6 When was it invented?",
+        "pages": [
+          41,
+          48
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—When was the telephone invented? —It was invented in ___.",
+          "options": [
+            "1927",
+            "1885",
+            "1876",
+            "1971"
+          ],
+          "answer": "C",
+          "solution": "对话原句：When was the telephone invented? — I think it was invented in 1876.；四个年份 1876、1885、1927、1971 分别对应电话、汽车、电视、个人电脑。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P41·发明与年份配对（1876/1885/1927/1971；When was the telephone invented? — I think it was invented in 1876.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把句子改成被动语态：Somebody stole my camera from my hotel room. → My camera ___ ___ from my hotel room.",
+          "answer": "was; stolen",
+          "solution": "my camera 提前作主语，单数配 was，steal 的过去分词是 stolen；执行者 somebody 泛指，省略。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P44·主动句改被动句（They sold the fridge at a low price. → The fridge was sold at a low price.；Somebody stole my camera from my hotel room.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Tea was first ___ by Shen Nong about 5,000 years ago.",
+          "options": [
+            "drunk",
+            "drank",
+            "drink",
+            "drinking"
+          ],
+          "answer": "A",
+          "solution": "茶是被喝的，用过去被动 was first drunk；drink 的过去分词是 drunk。原句出自茶的语篇配套填空。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P43·动词正确形式填空（Tea was first (drink) by Shen Nong about 5,000 years ago.）变式（过去被动选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一个你佩服的发明，用发明四问各写一句被动句：When was it invented? / Who was it invented by? / What is it used for?（第三问的答句用 It's used for…）",
+          "answer": "示例：When was the bicycle invented? It was invented in the 19th century. Who was it invented by? It was invented by… It's used for riding to school.",
+          "solution": "三问三答连起来就是一段发明小档案；写的时候记得 was/were 配单复数，in 后接年份，by 后接人。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_07",
+      "summary": "Teenagers should be allowed to…说「应该被允许做」，I agree / I disagree 有理有据谈规则。",
+      "explanation": [
+        "书上这部分讨论「青少年该被允许做什么」。标题句就是核心句型：Teenagers should be allowed to choose their own clothes.（青少年应该被允许选择自己的衣服）五条观点句依次是：Teenagers should not be allowed to smoke. / Sixteen-year-olds should be allowed to drive. / Students should not be allowed to have part-time jobs. / Sixteen-year-olds should be allowed to get their ears pierced. / Teenagers should be allowed to choose their own clothes. 对话表态：A: I don't think sixteen-year-olds should be allowed to drive. B: I agree. They aren't serious enough. 语法聚焦再补两组：Do you think teenagers should be encouraged to make their own decisions? — No, I don't agree with this. Teenagers are too young to make their own decisions. / Teenagers should not be allowed to have part-time jobs. — I disagree. They can learn a lot from working. 并给句式改写示范：You must clean your bedroom every day. → Your bedroom must be cleaned every day.",
+        "「允许」这个词天生适合被动：发出允许的是父母、老师、规则，被允许的是我们自己。讨论「我能不能做某事」时，主语永远是 teenagers、students 这些「被允许的人」，所以要说 sb should be allowed to do，而不是 sb should allow。sixteen-year-olds 指「十六岁的孩子们」——十六岁（sixteen-year-old）像一支复合形容词队伍，修饰 people 时名词保持单数；单独指「十六岁这个人群」时，复数 s 加在整个词尾。这类话题人人有话说：家务、打工、打扮、晚归，正是练表态的好素材。",
+        "should be allowed to do 的构造口诀是「情态后 be 不变身，过分照加 to 原形」：should/must/can 这类情态动词后面永远接 be，be 后接过去分词（allowed），allowed 后接动词原形（to drive、to choose）。否定在情态动词后加 not：should not be allowed to smoke。表达观点三句式：赞成说 I agree.，反对说 I disagree. 或 I don't agree with this.，委婉反对用否定转移 I don't think sixteen-year-olds should be allowed to drive.——think 里的从句保持肯定形式。",
+        "三个易混点：一是 allow 的两副面孔——主动是 allow sb to do sth（Parents won't allow him to train），被动是 sb be allowed to do sth，别漏 be；二是 sixteen-year-olds 的写法——作定语时名词保持单数（a sixteen-year-old boy），指「十六岁的人群」才整体加 s：sixteen-year-olds，不能写成 sixteen-years-olds；三是 must be done 和 should be allowed 力度不同——must 是硬规定（Your bedroom must be cleaned every day），should 是商量建议，表态时选对力度。",
+        "should be allowed to do 是被动语态三态的最后一张牌：is made（现在）→ was invented（过去）→ should be allowed（情态），三态串起来，语法选择题里的被动考点基本覆盖。它还是议论文表态的好帮手：I agree / I disagree 加上 should (not) be allowed to，就能有理有据地讨论班规家规。读语篇时遇到 I think I should be allowed to decide for myself 这类句子，顺着作者立场往下推，主旨就清楚了。"
+      ],
+      "methods": [
+        {
+          "name": "情态被动三件套",
+          "steps": [
+            "情态动词开头：should / must / can",
+            "后面接 be：should be…",
+            "be 后接过去分词：allowed / cleaned / kept",
+            "原形收尾：should be allowed to drive"
+          ],
+          "tip": "口诀：情态后 be 不变身，过分照加 to 原形。"
+        },
+        {
+          "name": "观点表态三句式",
+          "steps": [
+            "赞成：I agree.",
+            "反对：I disagree. / I don't agree with this.",
+            "委婉反对：I don't think sb should be allowed to…（从句用肯定形式）",
+            "表态后补理由：They aren't serious enough. / They can learn a lot from working."
+          ],
+          "tip": "口诀：agree 点头，disagree 摇头，don't think 后面跟肯定。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "青少年不应该被允许抽烟。英语表达：Teenagers should not ___ ___ to smoke.",
+          "solution": "填 be allowed。「被允许做某事」是 be allowed to do；should 后接 be，否定已经在 should not 里。原句即五条观点句之一。",
+          "difficulty": 1,
+          "pitfall": "漏掉 be 直接写 allowed——should allowed 不成句，情态动词后面必须有 be。"
+        },
+        {
+          "question": "Parents should give teenagers chances to make their own decisions. 改成以 Teenagers 开头的被动句。",
+          "solution": "Teenagers should be given chances to make their own decisions.——teenagers 提前，should 后接 be given；give→given。",
+          "difficulty": 2,
+          "pitfall": "写成 should gave——被动语态用过去分词 given，不是过去式 gave。"
+        },
+        {
+          "question": "Mobile phones should ___ (keep) off during the meeting. 填入所给动词的适当形式。",
+          "solution": "填 be kept。phones 是被「保持关机」的对象，should 后接 be kept；keep→kept。原句出自动词填空练习。",
+          "difficulty": 2,
+          "pitfall": "把 keep 的过去分词写成 keeped——不规则动词 keep→kept。"
+        }
+      ],
+      "mistakes": [
+        "漏 be 动词：should be allowed to do 不能写成 should allowed to do。",
+        "sixteen-year-olds 写成 sixteen-years-olds：指人群时 s 加在词尾，复合形容词内部名词保持单数。",
+        "give 的分词用错：被动要用 given（should be given chances），不是 gave。",
+        "表态没理由：I agree / I disagree 后面最好补一句原因（They aren't serious enough.），光摇头不说话说服不了人。"
+      ],
+      "source": {
+        "unit": "Unit 7 Teenagers should be allowed to choose their own clothes.",
+        "pages": [
+          49,
+          56
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "I don't think sixteen-year-olds should ___ to drive.",
+          "options": [
+            "allow",
+            "be allowed",
+            "allowed",
+            "be allowing"
+          ],
+          "answer": "B",
+          "solution": "sixteen-year-olds 是「被允许」的对象，should 后接 be allowed to do；对话原句：I don't think sixteen-year-olds should be allowed to drive.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P49·观点讨论句（Teenagers should be allowed to choose their own clothes.；I don't think sixteen-year-olds should be allowed to drive.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：A: I don't think teenagers should be allowed to have part-time jobs. B: ___. They can learn a lot from working.",
+          "answer": "I disagree",
+          "solution": "下句 They can learn a lot from working. 是反驳理由，所以填 I disagree.；原问答：Teenagers should not be allowed to have part-time jobs. — I disagree.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P52·语法聚焦表态问答（Teenagers should not be allowed to have part-time jobs. — I disagree. They can learn a lot from working.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Teenagers under eighteen must ___ to smoke or drink.",
+          "options": [
+            "not allowed",
+            "not be allowed",
+            "not allow",
+            "allowed not"
+          ],
+          "answer": "B",
+          "solution": "must 后接 not be allowed to do——否定词紧跟情态动词：must not be allowed to smoke；原题为动词填空：Teenagers under eighteen must (not allow) to smoke or drink.",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标九全 P56·动词正确形式填空（Teenagers under eighteen must (not allow) to smoke or drink.）变式（情态被动否定选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "就「中学生该不该带手机进校园」写三句小评论：第一句表态（I agree / I disagree），第二、三句用 should (not) be allowed to 或 must (not) be…说理由。",
+          "answer": "示例：I disagree. Mobile phones should not be allowed in school. But they must be kept off during class.",
+          "solution": "情态被动三态正好派上用场：should be allowed to 说允许，must be kept 说硬规定；表态+理由+规定的三层结构，也是议论文的雏形。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_08",
+      "summary": "must 表示十有八九的肯定推测，might/could 留余地，can't 基本排除，belong to 说归属。",
+      "explanation": [
+        "书上这部分学「猜测归属」。野餐场景示范：A: Whose volleyball is this? B: It must be Carla's. She loves volleyball.（肯定是 Carla 的，她最爱排球）配对表里还有：A: Whose book is this? B: It must be Mary's. J. K. Rowling is her favorite writer. 规则提示说得很直白：Use \"must\" to show that you think something is probably true. Use \"might\" or \"could\" to show that you think something is possibly true. Use \"can't\" to show that you are almost sure something is not true. 语法聚焦再给两例：Whose hair band is this? — It could be Mei's hair band. Or it might belong to Linda. They both have long hair. / What did you see that night? — I'm not sure, but it can't be a dog. It was bigger. I think it might be a bear or a wolf.",
+        "情态推测就是英语版的「侦探推理」：线索足就下重话，线索半拉子就留余地，线索对不上就干脆排除。丢书包的场景里就是这样层层排查：I attended a concert yesterday so it might still be in the music hall…So it can't be stolen……最后用 I think somebody must have picked it up 收尾。日常用起来也顺手：门铃响了多半是妈妈下班——It must be Mom；电话里声音陌生——It might be a new classmate。",
+        "推测三步走：第一步找线索——爱好、习惯、随身物品、当时在哪（She loves volleyball → 球是她的）；第二步给把握排队——线索十足用 must，半信半疑用 might 或 could，线索矛盾用 can't；第三步套句式——must/might/could/can't + be + 名词（It must be Carla's），或者用 belong to 直接说归属（It might belong to Linda）。说「可能正在做某事」还能接 -ing：He could be running for exercise.",
+        "最容易踩的坑是 must 的两副面孔：must be Carla's 是肯定推测「肯定是」，You must clean your room 里的 must 是「必须做」——两码事。否定推测用 can't be（不可能是），别用 mustn't——mustn't 表示「禁止」。belong to 也有讲究：to 后直接跟人，不加 's——It must belong to Linda 正确，belong to Linda's、be belong to Linda 都错。对比记忆：It must be Mary's（be+名词所有格）＝ It must belong to Mary。",
+        "情态推测是阅读理解的推理利器：语篇里 it must be teenagers having fun、it can't be a dog 这类句子，正是「根据线索推断」题的原型——推断要讲证据，不凭空想象。往后还有更进一步的说法：somebody must have picked it up（推测过去发生的事用 must have done）。巨石阵语篇里 must be almost 5,000 years old、this can't be true 一路复现——把 must/might/can't 的分寸感练足，读什么语篇都有底气。"
+      ],
+      "methods": [
+        {
+          "name": "推测三档选词法",
+          "steps": [
+            "找线索：爱好、习惯、随身物品、在场记录",
+            "线索十足 → must（It must be Carla's）",
+            "半信半疑 → might / could（It might belong to Linda）",
+            "线索矛盾 → can't（It can't be a dog）"
+          ],
+          "tip": "口诀：must 肯定 can't 否定，might could 站中间。"
+        },
+        {
+          "name": "belong to 归属法",
+          "steps": [
+            "要表达「属于某人」，直接用 belong to",
+            "情态推测套上：It must/might belong to Linda",
+            "to 后面跟人称或人名，不加 's",
+            "两种说法互换：It must be Mary's ＝ It must belong to Mary"
+          ],
+          "tip": "口诀：belong to 后直接跟人，不加撇号 s。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Whose book is this? —It must ___ Mary's. J. K. Rowling is her favorite writer. 填一个词。",
+          "solution": "填 be。must 后接 be+名词所有格：It must be Mary's；线索是 Mary 最爱 J. K. Rowling，把握足用 must。",
+          "difficulty": 1,
+          "pitfall": "漏 be 直接写 must Mary's——推测句式 must/might/can't 后面必须有 be（或 belong to）。"
+        },
+        {
+          "question": "He doesn't wear glasses. These glasses ___ be his. 用 can't / must / might 选词填空。",
+          "solution": "填 can't。他不戴眼镜，线索和「眼镜是他的」矛盾，几乎可以排除，用否定推测 can't be。",
+          "difficulty": 2,
+          "pitfall": "否定推测误用 mustn't——mustn't 表示「禁止」，不可能是 can't。"
+        },
+        {
+          "question": "把 It might be Linda's hair band. 换成用 belong to 的说法。",
+          "solution": "It might belong to Linda.——belong to 后直接跟人 Linda，不加 's；原句：Or it might belong to Linda.",
+          "difficulty": 2,
+          "pitfall": "写成 belong to Linda's——to 是介词，后面跟人名原形，不加所有格 's。"
+        }
+      ],
+      "mistakes": [
+        "must 的两个意思混用：It must be Carla's 是肯定推测「肯定是」，You must clean it 是「必须做」。",
+        "否定推测误用 mustn't：不可能是用 can't be；mustn't 表示「禁止」。",
+        "belong to 后加 's 或漏 be：It might belong to Linda 正确，belong to Linda's、must be belong to Linda 都错。",
+        "不看线索就下结论：must 的底气来自爱好、习惯这类硬线索，线索不足就退回 might/could。"
+      ],
+      "source": {
+        "unit": "Unit 8 It must belong to Carla.",
+        "pages": [
+          57,
+          64
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Whose volleyball is this? —It must be ___. She loves volleyball.",
+          "options": [
+            "Carla",
+            "Carla's",
+            "Carla is",
+            "Carlas"
+          ],
+          "answer": "B",
+          "solution": "「肯定是 Carla 的」用 must be+名词所有格 Carla's；线索句 She loves volleyball. 是把握的来源。原对话：Whose volleyball is this? — It must be Carla's.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P57·野餐物主对话（Whose volleyball is this? — It must be Carla's. She loves volleyball.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：A: Why do you think the man is running? B: He ___ be running for exercise. A: No, he's wearing a suit. He ___ be running to catch a bus to work.",
+          "answer": "could; might",
+          "solution": "第一空把握不大，用 could（可能是在跑步锻炼）；第二空根据穿西装的线索猜测，用 might（可能是赶车上班）。原对话：He could be running for exercise. / He might be running to catch a bus to work.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P61·猜测跑步原因对话（He could be running for exercise. He might be running to catch a bus to work.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "That bright light ___ be a UFO — there's no such thing!",
+          "options": [
+            "must",
+            "might",
+            "can't",
+            "could"
+          ],
+          "answer": "C",
+          "solution": "后半句 there's no such thing（根本没有这种东西）线索明确排除，用 can't；原题为 can't 填空：That bright light can't be a UFO.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P64·must/might/can't 选词填空（That bright light (can't) be a UFO — there's no such thing!）变式（选择形式）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "教室讲台上捡到一副羽毛球拍和一本漫画书。分别用 must、might、can't 各写一句推测，说说它们可能是谁的、为什么。",
+          "answer": "示例：The badminton rackets must be Li Lei's—he plays badminton every day. The comic book might belong to Amy. It can't be our teacher's—she never reads comics.",
+          "solution": "每句都按「推测词+be/belong to+线索」的骨架写：must 配最硬的线索，might 留余地，can't 摆出矛盾证据；三档连用就是一段完整的推理。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_09",
+      "summary": "定语从句给名词加定制说明：先行词是人用 who、是物用 that，I like music that I can dance to 就是最典型的样板句。",
+      "explanation": [
+        "这部分学\"表达喜好\"的定语从句。开篇四个句子先立样板：I like music that I can dance to. / I prefer music that has great lyrics. / I like music that isn't too loud. / I love music that I can sing along with. 问答示范接着练：A: What kind of music do you like? B: I like music that I can sing along with. What about you? A: I prefer music that has great lyrics. 语法聚焦把规则收拢成四组：I love music that/which I can sing along with. / He prefers groups that/which play quiet and slow songs. / I prefer movies that/which give me something to think about. / She likes musicians who play different kinds of music.——物用 that 或 which，人用 who；自测填空则明确要求在 who、that、which 里选。",
+        "定语从句就是给名词加一段\"定制说明\"。单说 I like music，范围太大——到底喜欢什么样的音乐？接上 that I can dance to，就说清了：是\"我能跟着跳舞的那种\"。被修饰的名词叫先行词，who/that/which 叫关系词，关系词一肩两挑：既代替先行词，又在从句里充当成分。She likes musicians who play different kinds of music. 里，who 既是先行词 musicians 的替身，又是从句动词 play 的主语。",
+        "操作三步：第一步找先行词，想清楚要说明的是哪个名词；第二步判断人还是物——人用 who，物用 that（也可用 which）；第三步把\"关系词+从句\"整体放到先行词后面，从句动词跟着先行词变：先行词 music 是单数，I like music that isn't too loud 用 isn't；先行词 movies 是复数，I only like movies that are funny 用 are。主句动词可以换口味：like 喜欢、love 热爱、prefer 更喜欢（比起别的更偏爱这个）；说\"比起 A 更喜欢 B\"用 prefer B to A。",
+        "易混点盯三处。一看指人还是指物：musicians、singers、actors、someone 都指人，要用 who——对话里 I'll ask someone who likes serious movies. 就是人+who 的样板，写成 She likes musicians which… 就错了。二看从句单复数：从句动词跟先行词走，不跟主句主语。三看 prefer 的搭档：prefer A to B 的介词固定是 to，别写成 than。prefer 还能直接接定语从句——I prefer music that has great lyrics.，两种用法都常见。",
+        "定语从句是初中语法的收官内容，也是读长句、写好句的分水岭：阅读语篇里 The piece which was played on the erhu especially moved me. 这类长句，抓住先行词就能拆出主干；写作时把 I like music. The music is quiet. 两句并成 I like music that is quiet.，表达立刻上一个台阶。接下来谈礼仪的 be supposed to、谈影响的 make 复合结构、谈时序的过去完成时，都会在这套\"主句+从句\"的框架里继续加码。"
+      ],
+      "methods": [
+        {
+          "name": "先行词三步定关系词",
+          "steps": [
+            "找先行词：圈出被修饰的名词（music、singers、movies）",
+            "判人判物：人用 who，物用 that 或 which",
+            "从句跟上：关系词+从句紧跟先行词，从句动词与先行词保持一致（music that is… / movies that are…）"
+          ],
+          "tip": "口诀：先行词人 who 物 that，物还可以换 which；从句紧跟先行词，动词单复数跟着它。"
+        },
+        {
+          "name": "喜好升级表达法",
+          "steps": [
+            "一般喜好：I like music that…",
+            "强烈喜好：I love music that…",
+            "偏爱比较：I prefer music that…；比起 A 更喜欢 B 说 prefer B to A",
+            "自检：读完句子，先找到先行词再看关系词对不对"
+          ],
+          "tip": "口诀：like 喜欢 love 深，prefer 更偏爱；两样相比 prefer…to…，介词用 to 别用 than。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：I like musicians ____ write their own music. 横线上填 who 还是 which？",
+          "solution": "填 who。先行词 musicians 指人，语法聚焦原句 She likes musicians who play different kinds of music. 正是\"人用 who\"的样板。",
+          "difficulty": 1,
+          "pitfall": "看见 musicians 是复数就犹豫该不该换词——who 不分单复数，判断标准只看指人还是指物。"
+        },
+        {
+          "question": "找先行词：I prefer movies that give me something to think about. 句中的 that 指代什么？它修饰哪个词？",
+          "solution": "that 指代 movies，定语从句 that give me something to think about 紧跟先行词 movies，意思是\"能给我思考空间的那类电影\"；句子主干是 I prefer movies。",
+          "difficulty": 2,
+          "pitfall": "把 that 当成主句的成分——它只在从句里当主语，主句主干 I prefer movies 已经完整。"
+        },
+        {
+          "question": "用 prefer…to… 翻译：比起吵闹的音乐，我更喜欢安静的音乐。",
+          "solution": "I prefer quiet music to loud music. prefer A to B 表示\"比起 B 更喜欢 A\"，介词固定用 to；书上更常见的是 prefer 接定语从句：I prefer music that has great lyrics.",
+          "difficulty": 2,
+          "pitfall": "写成 prefer quiet music than loud music——比较介词是 to，不跟 than。"
+        }
+      ],
+      "mistakes": [
+        "误：She likes musicians which play different kinds of music.——先行词指人用 who：She likes musicians who play different kinds of music.",
+        "误：I only like movies that is funny.——从句动词跟先行词走：movies 是复数，要说 I only like movies that are funny.",
+        "误：I prefer music than has great lyrics.——定语从句关系词用 that：I prefer music that has great lyrics.",
+        "从句甩错位置——关系词和从句要紧跟先行词，别把修饰 music 的从句丢到句子最末尾。"
+      ],
+      "source": {
+        "unit": "Unit 9 I like music that I can dance to.",
+        "pages": [
+          65,
+          72
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What kind of music do you like? —____",
+          "options": [
+            "I like music who I can dance to.",
+            "I like music that I can dance to.",
+            "I like music what I can dance to.",
+            "I like singers who I can dance to."
+          ],
+          "answer": "B",
+          "solution": "课上一问一答原句：A: What kind of music do you like? B: I like music that I can sing along with. What about you? 先行词 music 是物，关系词用 that；who 只用于指人。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P65·喜好问答与示例句（What kind of music do you like? I like music that I can dance to. I prefer music that has great lyrics.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "自测填空原题选关系词：The actor ____ plays the hero used to be a schoolteacher!",
+          "options": [
+            "who",
+            "which",
+            "what",
+            "whose"
+          ],
+          "answer": "A",
+          "solution": "先行词 actor 指人，用 who。自测原句正是 The actor who plays the hero used to be a schoolteacher! 同组还有 movies that try to describe the future——物用 that。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P72·自测 who/that/which 填空（The actor who plays the hero used to be a schoolteacher!）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一句完全正确？",
+          "options": [
+            "Carmen likes musicians which play different kinds of music.",
+            "Carmen likes musicians who plays different kinds of music.",
+            "Carmen like musicians who play different kinds of music.",
+            "Carmen likes musicians who play different kinds of music."
+          ],
+          "answer": "D",
+          "solution": "原句：Carmen likes musicians who play different kinds of music. 先行词指人用 who；从句动词随先行词 musicians 用复数 play；主语 Carmen 是第三人称单数，主句用 likes。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P66·听力完成句（I like musicians who… / I prefer groups that play quiet and slow songs.）变式（人 who 物 that 与主谓一致正误判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 I like / I love / I prefer + 名词 + that/who 从句写三句话，分别介绍你在音乐、电影、食物上的喜好；写完自查两件事：从句是否紧跟先行词、从句动词是否与先行词一致。",
+          "answer": "示例：I like music that isn't too loud. I prefer movies that give me something to think about. I enjoy food that is sweet.",
+          "solution": "三句都有书上依据：I like music that isn't too loud. 和 I prefer movies that give me something to think about. 是开篇示例，I enjoy food that is sweet. 出自语法聚焦；自查口诀——人 who 物 that，从句紧跟先行词。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_10",
+      "summary": "be supposed to 说的是礼仪上的\"应该\"：You're supposed to shake hands，后面接动词原形，各国见面与餐桌礼仪各不相同。",
+      "explanation": [
+        "这部分的主题句是 You're supposed to shake hands.——谈文化礼仪里的\"应该\"。见面礼仪先配对学习：bow（鞠躬）、shake hands（握手）、kiss（亲吻贴面）。问答示范：A: What are people in Korea supposed to do when they meet for the first time? B: They're supposed to bow. How about in the United States? A: In the United States, they're expected to shake hands. 语法聚焦收拢四组：You're supposed to shake hands. You're not supposed to kiss. / When were you supposed to arrive? I was supposed to arrive at 7:00. / Am I supposed to wear jeans? No, you're expected to wear a suit and tie. / Is it impolite to keep others waiting? Yes, it's very impolite to keep others waiting.——肯定、否定、过去、疑问四种形态全齐。",
+        "be supposed to 的\"应该\"不是个人建议，而是\"按习俗、按约定应该\"。第一次见面该握手还是鞠躬、被邀请做客该几点到、餐桌上面包该放哪——这些规矩不是自己定的，是文化约定俗成的。交换生 Maria 赴 7:00 的晚宴，该到的时间就是 7:00：I was supposed to arrive at 7:00.；而有的国家对时间很宽容，晚一点也无妨——同一条 supposed to，在不同文化里内容完全不同，这正是这个知识点最有意思的地方。",
+        "用法三步：第一步搭结构——主语+be（am/is/are/was/were）+supposed to+动词原形；第二步变形态——否定在 be 后加 not（You're not supposed to kiss.），问过去把 be 换成 was/were 并提前（When were you supposed to arrive?）；第三步换同义表达——be expected to 与它互通（you're expected to wear a suit and tie），还能用 It's impolite/important to do 补充规矩的轻重。书上的短语选填正是三选一：be supposed to / be expected to / be important to。",
+        "三个高频差错要盯住：一是 supposed 词尾的 -ed 不能丢——You're suppose to 就错了；二是 to 后面永远接动词原形——They're supposed to bow，不接 bowing；三是主语换人称 be 动词跟着换——I was supposed to arrive at 7:00，you 配 were。餐桌礼仪语料也值得记几条：In China, you're not supposed to stick your chopsticks into the food. / It's impolite to use your chopsticks to hit an empty bowl. / In France, you're supposed to put your bread on the table.——别国的\"应该\"可能正好是你的\"不该\"，做题先看清问的是哪个国家。",
+        "be supposed to 是语法与文化双主线的内容：语篇里瑞士学生把守时看成大事、哥伦比亚学生对时间很放松，同一条规则在两地分量不同。给外国朋友写建议信，三个句型就够——You're supposed to… / You're not supposed to… / It's impolite to…。再往后学 make 复合结构谈感受、过去完成时讲时序，初中语法版图就收官了；而\"入乡随俗\"的礼貌表达，会在真实的跨文化交流里一直用下去。"
+      ],
+      "methods": [
+        {
+          "name": "be supposed to 三形态",
+          "steps": [
+            "肯定：主语+be+supposed to+动词原形（You're supposed to shake hands.）",
+            "否定：be 后加 not（You're not supposed to kiss.）",
+            "过去与疑问：be 换 was/were 提前（When were you supposed to arrive? I was supposed to arrive at 7:00.）",
+            "自检：supposed 的 -ed 在不在、to 后是不是动词原形"
+          ],
+          "tip": "口诀：be 动词桥上站，supposed 带ed 别嫌烦，to 后原形排成行。"
+        },
+        {
+          "name": "礼仪三句型提建议",
+          "steps": [
+            "该做的：You're supposed to shake hands. / You're expected to…",
+            "不该做的：You're not supposed to stick your chopsticks into the food.",
+            "评价轻重：It's polite/impolite to… / It's important to be on time.",
+            "成文：按见面—餐桌—做客分场景，一场一句"
+          ],
+          "tip": "口诀：supposed 定规矩，expected 他人盼，impolite 讲失礼。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断并改正：You're suppose to shake hands when you meet someone for the first time.",
+          "solution": "错在 suppose 少了 -ed，应为 You're supposed to shake hands. 语法聚焦原句正是这句；supposed 是过去分词作表语，-ed 不能丢。",
+          "difficulty": 1,
+          "pitfall": "读音里 -ed 很轻就照着感觉写——落笔后回读一遍，检查词尾。"
+        },
+        {
+          "question": "用所给词的正确形式填空：In China, you're not supposed to ____ (stick) your chopsticks into the food.",
+          "solution": "填 stick（动词原形）。礼仪判断原句：In China, you're not supposed to stick your chopsticks into the food. be (not) supposed to 后一律接动词原形。",
+          "difficulty": 2,
+          "pitfall": "前面有 are 就顺手写 sticking 或 sticked——to 后面永远跟原形。"
+        },
+        {
+          "question": "你想问清\"我做客应该几点到\"，下面哪种问法是对的——When was I supposed to arrive? 还是 When were you supposed to arrive?",
+          "solution": "问自己的事，主语用 I，be 动词配 was：When was I supposed to arrive? 语法聚焦原句 When were you supposed to arrive? I was supposed to arrive at 7:00. 换人称时 be 动词随之变化——you 配 were，I 配 was。",
+          "difficulty": 2,
+          "pitfall": "套用书上问句却忘换主语——主语换成 I，were 就要变成 was。"
+        }
+      ],
+      "mistakes": [
+        "误：You're suppose to shake hands.——supposed 的 -ed 不能丢：You're supposed to shake hands.",
+        "误：They're supposed to bowing.——to 后接动词原形：They're supposed to bow.",
+        "误：What are you supposed do when you meet someone for the first time?——supposed to 的 to 别漏：What are you supposed to do…?",
+        "把 be supposed to 理解成\"可能、大概\"——它表示按礼仪或约定\"应该\"；各国习俗不同，看清场景再作答。"
+      ],
+      "source": {
+        "unit": "Unit 10 You're supposed to shake hands.",
+        "pages": [
+          73,
+          80
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What are people in Korea supposed to do when they meet for the first time? —____",
+          "options": [
+            "They're supposed to kiss.",
+            "They suppose to bow.",
+            "They're supposed to bow.",
+            "They're supposed to shaking hands."
+          ],
+          "answer": "C",
+          "solution": "问答原句：B: They're supposed to bow. How about in the United States? A: In the United States, they're expected to shake hands. be supposed to 后接动词原形 bow。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P73·见面礼仪问答（What are people in Korea supposed to do when they meet for the first time? They're supposed to bow.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Am I supposed to wear jeans? —No, you're expected to ____.",
+          "options": [
+            "wear a suit and tie",
+            "wear shorts",
+            "put your bread on the table",
+            "stick your chopsticks into the food"
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：Am I supposed to wear jeans? —No, you're expected to wear a suit and tie. be expected to 与 be supposed to 一样表\"应该\"，后接动词原形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P76·语法聚焦（Am I supposed to wear jeans? No, you're expected to wear a suit and tie.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "礼仪配对变式：交换生信里说，在法国吃面包应该把面包放在哪里？",
+          "options": [
+            "You're supposed to put your bread on your plate.",
+            "You're supposed to put your bread on the table.",
+            "You're supposed to eat everything with your hands.",
+            "You're supposed to put your elbows on the table."
+          ],
+          "answer": "B",
+          "solution": "书信原句：You're not supposed to put your bread on your plate. You're supposed to put it on the table!——面包放桌上不放盘里；手拿食物只限面包，手肘不上桌。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P78·法国餐桌礼仪书信（You're not supposed to put your bread on your plate. You're supposed to put it on the table!）变式（国家与礼仪配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给来中国做交换生的朋友写三条建议：一条用 You're supposed to…，一条用 You're not supposed to…，一条用 It's polite/impolite to…。写完按\"见面—餐桌—做客\"检查场景是否分开。",
+          "answer": "示例：You're supposed to shake hands when you meet someone for the first time. You're not supposed to stick your chopsticks into the food. It's impolite to use your chopsticks to hit an empty bowl.",
+          "solution": "第一句用见面礼仪示范，后两句出自餐桌礼仪判断原句；建议类短文按场景各写一条，每个句子自查 be 动词与动词原形。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_11",
+      "summary": "make 复合结构谈事物对人的影响：make sb+形容词说状态，make sb+动词原形说动作，make me cry 中间不加 to。",
+      "explanation": [
+        "这部分的主题句是 Sad movies make me cry.——用 make 复合结构说\"某事物让某人如何\"。语法聚焦给出四个样板：The loud music makes me nervous. / Soft and quiet music makes me relax. / Money and fame don't always make people happy. / She said that the sad movie made her cry.——前两句是\"make+宾语+形容词/动词\"的正反对照，后两句是复数主语与过去式的示范。对话里还有同款表达：But that music makes me sleepy. / Waiting for Amy drove Tina crazy. / it makes Alice unhappy / That can make our friendship stronger.",
+        "make 复合结构专门回答一类问题：什么东西让你有什么感受、想做什么？音乐让人放松还是紧张、电影让人想哭、朋友的举动让人不快，都能一句话说清。宾语后面有两个位置：放形容词，说\"处于什么状态\"——makes me sleepy、nervous、unhappy、happy；放动词原形，说\"引发什么动作\"——makes me relax、made her cry、makes me want to dance。一个管状态，一个管动作，就是这套结构的全部秘密。",
+        "操作三步：第一步定 make 的形式——主语第三人称单数用 makes（The loud music makes me nervous.），谈过去用 made（the sad movie made her cry）；第二步判断宾语后是状态还是动作——状态放形容词，动作放动词原形，说\"想让某人做某事\"用 make sb want to do；第三步接进问答——What makes you angry? When people throw rubbish on the streets, it makes me angry.。表态也可以用 would rather do（更愿意做某事，后接动词原形）：I'd rather go to Blue Ocean because I like to listen to quiet music while I'm eating.",
+        "最大的坑是给 make 后面多加 to：受 want sb to do、tell sb to do 的影响，写成 Sad movies make me to cry——错了，make 后省 to，直接 Sad movies make me cry。第二个坑是词性：说状态用形容词，makes me happily 就错了，要说 makes me happy。第三个坑是主谓一致：music 三单，makes 不能少 s。另外 so…that 句型常和 make 连用放大程度——The movie was so sad that it made Tina and Amy cry.；drive sb crazy 与 make sb crazy 同义，听力原句 Waiting for Amy drove Tina crazy. 就是例子。",
+        "make 复合结构是情绪表达和叙事写作的万金油：故事语篇里 His stupid mistake made him angry. / what his father said made him think carefully. / It made him feel lucky to know that he was on a winning team.——一条 make 线把人物的心理变化全串起来，写作时用它交代\"事情—感受\"，记叙就有了起伏。接下来过去完成时管时序，加上这条情绪线，叙事的时间和心情就都能拿捏了。"
+      ],
+      "methods": [
+        {
+          "name": "make 后两分支判断法",
+          "steps": [
+            "定形式：主语三单用 makes，谈过去用 made",
+            "判状态：说\"处于什么状态\"放形容词（makes me happy / nervous / sleepy）",
+            "判动作：说\"引发什么动作\"放动词原形（makes me relax / made her cry）",
+            "想让他做：make sb want to do 再接 to（It makes me want to tell them to clean up the streets.）"
+          ],
+          "tip": "口诀：make sb do 不加 to；说状态用形容词，说动作用动词原形。"
+        },
+        {
+          "name": "情绪问答三步法",
+          "steps": [
+            "问：What makes you angry / happy / nervous?",
+            "答：When…, it makes me+形容词（it makes me angry）",
+            "追问动作：It makes me want to do…",
+            "表态备用：I'd rather do…（would rather 后接动词原形）"
+          ],
+          "tip": "口诀：what 提问 it 作主，状态形容动作原形；更愿意做 would rather 接原形。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：Loud music makes me ____（nervous / nervously）。",
+          "solution": "填 nervous。语法聚焦原句 The loud music makes me nervous. make sb+形容词说\"让某人处于某种状态\"，这里保持形容词原形，不变副词。",
+          "difficulty": 1,
+          "pitfall": "以为修饰动词就要变副词——这个词是宾语补足语，描述人的状态，用形容词。"
+        },
+        {
+          "question": "改错：The movie made me to cry.",
+          "solution": "去掉 to：The movie made me cry. make sb do sth 中省 to；听力完成句也是同款：The movie was so sad that it made Tina and Amy cry.",
+          "difficulty": 2,
+          "pitfall": "受 want sb to do、tell sb to do 的影响给 make 也加上 to——make 后面不加。"
+        },
+        {
+          "question": "补全句子：Amy 更愿意去 Blue Ocean，她说：I ____ go to Blue Ocean because I like to listen to quiet music while I'm eating.",
+          "solution": "填 I'd rather（=I would rather）。would rather do 表示\"更愿意做某事\"，后接动词原形；要对比两件事就说 would rather do A than do B。",
+          "difficulty": 2,
+          "pitfall": "写成 would rather to go——rather 后面直接接动词原形，不加 to。"
+        }
+      ],
+      "mistakes": [
+        "误：Sad movies make me to cry.——make sb do sth 省 to：Sad movies make me cry.",
+        "误：The music makes me happily.——说状态用形容词：The music makes me happy.（makes me sleepy / makes me nervous 同理）",
+        "误：Loud music make me nervous.——主语三单用 makes：Loud music makes me nervous.",
+        "误：I'd rather to stay at home.——would rather 后接动词原形：I'd rather stay at home.（书上原句 I'd rather go to Blue Ocean.）"
+      ],
+      "source": {
+        "unit": "Unit 11 Sad movies make me cry.",
+        "pages": [
+          81,
+          88
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句是正确的？",
+          "options": [
+            "Sad movies make me to cry.",
+            "Sad movies make me cry.",
+            "Sad movies makes me cry.",
+            "Sad movies make me crying."
+          ],
+          "answer": "B",
+          "solution": "主题句 Sad movies make me cry. 是标准结构：make+宾语+动词原形，中间不加 to；主语 movies 是复数，用 make 不用 makes。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P81·主题句与选餐馆对话（Sad movies make me cry. But that music makes me sleepy.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "按语法聚焦原句补全：Soft and quiet music makes me ____.",
+          "options": [
+            "relax",
+            "to relax",
+            "relaxing",
+            "relaxed"
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句 Soft and quiet music makes me relax. 中 relax 是动词原形——make sb do 省 to；music 三单，用 makes。对照另一句 The loud music makes me nervous.（形容词说状态）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P84·语法聚焦（The loud music makes me nervous. Soft and quiet music makes me relax.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "情绪调查变式，选出正确的一句：",
+          "options": [
+            "When people throw rubbish on the streets, it makes me want to tell them to clean up the streets.",
+            "When people throw rubbish on the streets, it makes me to want tell them to clean up the streets.",
+            "When people throw rubbish on the streets, it make me angry.",
+            "When people throw rubbish on the streets, it makes me angrily."
+          ],
+          "answer": "A",
+          "solution": "问答原句：When people throw rubbish on the streets, it makes me angry. / It makes me want to tell them to clean up the streets. 说状态用形容词 angry，说动作 want 用动词原形，want to do 再接 to。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P84·情绪调查问答（What makes you angry? When people throw rubbish on the streets, it makes me angry.）变式（make sb do 正误判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "回想自己的一天，用 make 写三句情绪句：一句 make sb+形容词，一句 make sb+动词原形，一句用 would rather do 说出你更愿意的选择。写完对照两条规则自查：状态形容词、动作原形。",
+          "answer": "示例：Rainy days make me sleepy. Soft music makes me want to relax. I'd rather stay at home and listen to quiet music.",
+          "solution": "三条各用一次规则：形容词管状态（sleepy）、动词原形管动作（want to relax）、would rather 后接原形（stay）；书上对话 I'd rather go to Blue Ocean. 是现成样板。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_12",
+      "summary": "过去完成时管\"过去的过去\"：had+过去分词，与 by the time 搭用时，先发生的动作用 had done，后发生的用一般过去式。",
+      "explanation": [
+        "这部分的主题句是 Life is full of the unexpected.——生活充满意外，讲述这些意外要用过去完成时。玛丽的早晨三连：I overslept. By the time I got up, my brother had already gotten in the shower. / By the time I got outside, the bus had already left. / When I got to school, I realized I had left my backpack at home. 语法聚焦收拢：When I got to school, I realized that I had left my backpack at home. / By the time I got back to school, the bell had rung. / Before I got to the bus stop, the bus had already left. 连句示范给出公式：Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom.",
+        "过去完成时说的是\"过去的过去\"。Mary 到校是过去，书包落在家里是在到校之前——比过去还要早的动作，用 had+过去分词标记。时间轴上摆三个点最清楚：更早（落在家里，had left）→过去（到家，got）→现在（讲述）。Kevin 的连环迟到也一样：闹钟没响（My alarm clock didn't go off!）→赶到车站前车已开走（before I got to the bus stop, the bus had already left）→结果只迟到五分钟。先发生的动作穿上\"had done\"这层标记，听的人就不会把顺序听反。",
+        "操作三步：第一步搭结构——had+过去分词，had 不随人称变化；第二步找时间参照——by the time/before/when 引出的从句用一般过去时，先发生的动作用 had done，already 习惯放在 had 和分词之间（had already left）；第三步连句成篇——把两个短句按先后排好，后发生的进 by the time 从句，先发生的做主句：The coffee became cold. I put cream in the coffee. → By the time I put cream in the coffee, the coffee had become cold.。常用过去分词要过关：get-got-gotten（美式）/got（英式）、leave-left-left、ring-rang-rung、go-went-gone、take-took-taken。",
+        "三处易混盯清楚：一是别和现在完成时弄混——have done 说\"过去的事影响现在\"，had done 说\"在过去某点之前已发生\"，句中一出现 by the time I got up 这类过去参照，就用 had；二是从句别抢时态——by the time/before 后面接一般过去时（got、put），别写成 had gotten；三是分词拼写——had rang 是错的，要说 had rung；had went 是错的，要说 had gone。语篇里两个原句值得抄进笔记：the first plane had already hit my office building / by the time I got to the airport, my plane to New Zealand had already taken off.",
+        "过去完成时是初中时态体系的最后一块拼图，也是叙事文的高级装备：语篇 Life Is Full of the Unexpected 全篇靠它把两次\"因祸得福\"讲得层次分明，写作\"我的幸运/倒霉一天\"也要求按时间轴铺陈。到这部分学完，初中阶段的时态就集齐了——时态排序题考的就是这套\"谁先谁后\"的时间轴功夫，写作里用对一两处 had done，叙事立刻显得老练。"
+      ],
+      "methods": [
+        {
+          "name": "had done 时序标记法",
+          "steps": [
+            "找参照：句中的过去动作（got up、got to school）当参照点",
+            "比先后：发生在参照点之前的动作加 had+过去分词",
+            "选连接：by the time/before/when+过去式从句，主句用 had done",
+            "放 already：习惯夹在 had 与分词之间（had already left）"
+          ],
+          "tip": "口诀：by the time 过去式，主句 had 加分词；先发生 had done，后发生用过去式。"
+        },
+        {
+          "name": "两短句连一句法",
+          "steps": [
+            "排先后：判断哪个动作先发生",
+            "后发生的进从句：By the time+主语+过去式",
+            "先发生的做主句：主语+had（already）+过去分词",
+            "对答案：By the time Mary got up, Tim had already gone into the bathroom."
+          ],
+          "tip": "口诀：先 had 后 did，already 夹中间。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "画时间轴判断：By the time I got outside, the bus had already left. 这句里\"公交车离开\"和\"我出门\"哪个先发生？",
+          "solution": "公交车离开在先，我出门在后。\"出门\"用一般过去时 got，\"车已经走了\"发生在过去的过去，用 had left——先发生的动作由 had+过去分词标记。",
+          "difficulty": 1,
+          "pitfall": "按句子先后顺序判断动作先后——英语靠 had done 标记\"更早\"，不靠谁写在前面。"
+        },
+        {
+          "question": "用所给动词的适当形式填空：By the time I got back to school, the bell ____ (ring).",
+          "solution": "填 had rung。原句：By the time I got back to school, the bell had rung. by the time 从句的 got 是后发生的动作，先响的铃用 had+过去分词；ring-rang-rung，过去分词是 rung。",
+          "difficulty": 2,
+          "pitfall": "写成 had rang——ring 的三态是 ring-rang-rung，过去分词是 rung。"
+        },
+        {
+          "question": "连句：The coffee became cold. I put cream in the coffee. 用 By the time I put cream in the coffee 开头，后半句怎么接？",
+          "solution": "接 the coffee had become cold.。书上连句示范：Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom.——先发生的动作做主句用 had done，already 放在 had 与分词之间。",
+          "difficulty": 2,
+          "pitfall": "把 already 挪到句尾或句首——习惯位置是 had already done。"
+        }
+      ],
+      "mistakes": [
+        "误：By the time I got up, my brother has already gotten in the shower.——参照点是过去，用过去完成时：…my brother had already gotten in the shower.",
+        "误：By the time I had gotten up, my brother got in the shower.——时序装反了：by the time 引出后发生的动作用过去式 got up，先发生的动作用 had done。",
+        "误：He had went into the bathroom.——过去分词用错：go 的过去分词是 gone：He had gone into the bathroom.",
+        "误：When I got home, I realized I left my keys in the backpack.——强调\"落钥匙\"发生在\"到家\"之前，用 had left 更准：I realized I had left my keys in the backpack."
+      ],
+      "source": {
+        "unit": "Unit 12 Life is full of the unexpected.",
+        "pages": [
+          89,
+          96
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What happened? —I overslept. By the time I got up, my brother ____ already gotten in the shower.",
+          "options": [
+            "had",
+            "has",
+            "was",
+            "is"
+          ],
+          "answer": "A",
+          "solution": "问答原句：I overslept. By the time I got up, my brother had already gotten in the shower. \"起床\"是过去，\"进浴室\"在起床之前——过去的过去用 had+过去分词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P89·玛丽早晨问答（I overslept. By the time I got up, my brother had already gotten in the shower.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "动词填空原题：When I got home, I realized I ____ my keys in the backpack.",
+          "options": [
+            "had left",
+            "have left",
+            "leave",
+            "was leaving"
+          ],
+          "answer": "A",
+          "solution": "书上动词填空原句：When I got home, I realized I had left my keys in the backpack. \"落钥匙\"发生在\"到家\"之前：先发生的用 had done，后发生的用 got。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P90·动词填空（When I got home, I realized I had left my keys in the backpack.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "by the time 连句变式：The coffee became cold. I put cream in the coffee. 合成一句，正确的是：",
+          "options": [
+            "By the time I put cream in the coffee, the coffee had become cold.",
+            "By the time I had put cream in the coffee, the coffee became cold.",
+            "By the time I put cream in the coffee, the coffee has become cold.",
+            "By the time I put cream in the coffee, the coffee becomes cold."
+          ],
+          "answer": "A",
+          "solution": "书上连句公式：Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom. 同理：put cream 后发生用过去时，become cold 先发生用 had become；倒装时序就错在把 had done 放进了从句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P92·用 by the time 连句（Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom.）变式（咖啡变凉时序连句）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "回忆一个手忙脚乱的早晨，用 by the time 和过去完成时讲三句：一句说睡过头，一句说赶车失败，一句说结果。讲完按\"先 had done、后过去式\"自查每句的时序。",
+          "answer": "示例：My alarm didn't go off. By the time I got outside, the bus had already left. By the time I got to school, the first class had already begun.",
+          "solution": "每句都套\"by the time+过去式，主句 had done\"的骨架；书上对话里 alarm didn't go off / the bus had already left 都是现成零件，按时间轴补齐结果即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_13",
+      "summary": "环保语篇里三种语法同台：进行时写正在发生，被动写已被污染，情态动词提出办法；盯住动词形态，语篇层次一目了然。",
+      "explanation": [
+        "书上把环保话题和五种语法放进一张对照表：We're trying to save the earth.（现在进行时）、The river used to be so clean.（used to）、The air is badly polluted.（被动语态）、No scientific studies have shown that shark fins are good for health.（现在完成时）、We should help save the sharks.（情态动词）。鲨鱼语篇 Save the Sharks! 里这些形式轮番出现：they cut off their fins and throw the sharks back into the ocean；around 70 million sharks are caught and traded in this industry every year；The numbers of some kinds of sharks have fallen by over 90 percent in the last 20 to 30 years。河流对话也是同款混排：The river was dirty. / people are throwing litter into the river / Everyone in this town should play a part in cleaning it up!",
+        "读环保语篇就像看一场现场直播：正在发生的事用进行时（people are throwing litter into the river），已经被波及的事用被动（The air is badly polluted），出主意想办法用情态动词（We should help save the sharks.）。三种镜头来回切换，句子读起来才有层次——先看见谁在做什么，再看见谁被影响，最后听见大家商量怎么办。",
+        "操作分三步：第一步盯动词形态——am/is/are 加 V-ing 是正在发生（We're trying to save the earth.），be 加过去分词是'被怎样'（The air is badly polluted.），should/can/must 后面跟动词原形（We should help save the sharks.）；第二步抓信号词——now、these days 常配进行时；第三步理语篇三条线：问题线 The river was dirty.，原因线 Factories are putting waste into the river，办法线 we should write to the government and ask them to close the factories。",
+        "两处最易混：一是 are polluting 和 is polluted 只差一个词尾——主语是施动者用 polluting（People are polluting the river），主语是承受者用 polluted（The air is badly polluted）；二是 cut down 与 cut off——cut down air pollution 的 cut down 是'削减'，cut off their fins 的 cut off 才是'切掉'。另外 should 后面直接跟动词原形，不加 to。",
+        "环保话题在英语阅读和书面表达里经久不衰，把时态、被动、情态放进同一个话题里打通，读说明文、写倡议书都不慌。书上给市长的建议信模板 I think that... / We should/could... / I suggest... 就是现成的写作骨架，本组后面的写作自查还会再用到它。"
+      ],
+      "methods": [
+        {
+          "name": "动词形态三看",
+          "steps": [
+            "一看 be+V-ing：am/is/are 加动词 ing，正在发生（We're trying to save the earth.）",
+            "二看 be+过去分词：动作落在主语身上，被动（The air is badly polluted.）",
+            "三看情态动词：should/can/must 后接动词原形（We should help save the sharks.）",
+            "读完一句自问：谁在做？谁被做？谁在提建议？"
+          ],
+          "tip": "口诀：进行 be 加 ing，被动 be 加过分，情态后面动词原形站。"
+        },
+        {
+          "name": "语篇三条线",
+          "steps": [
+            "问题线：找出哪里出了毛病（The river was dirty.）",
+            "原因线：找出谁在造成污染（Factories are putting waste into the river）",
+            "办法线：找出该怎么救（we should write to the government and ask them to close the factories）"
+          ],
+          "tip": "口诀：先找毛病，再查凶手，最后开药方。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "The air is badly polluted. 这句话的谓语属于哪种结构？",
+          "solution": "be+过去分词，是被动语态：air 是'被污染'的承受者，不是自己在污染。它正对应书上语法对照表里的 Passive voice。",
+          "difficulty": 1,
+          "pitfall": "看到 is 加动词就当进行时——进行时要 be+V-ing，polluted 是过去分词不是 ing 形式。"
+        },
+        {
+          "question": "选词填空：Everyone in this town should ____ (play) a part in cleaning it up. 横线上该填什么形式？",
+          "solution": "填原形 play。should 是情态动词，后面永远接动词原形——原句 Everyone in this town should play a part in cleaning it up!",
+          "difficulty": 2,
+          "pitfall": "顺手写成 plays 或 to play——情态动词后面不加 s 也不加 to。"
+        },
+        {
+          "question": "读鲨鱼语篇回答：为什么鲨鱼数量下降会带来大麻烦？",
+          "solution": "因为鲨鱼处在海洋生态系统的顶端——Sharks are at the top of the food chain in the ocean's ecosystem. 语篇接着说 If their numbers drop too low, it will bring danger to all ocean life. 鲨鱼锐减会让整个海洋生态陷入危险。",
+          "difficulty": 3,
+          "pitfall": "只答'鲨鱼会死'——语篇要你推出的是对全部海洋生命的连锁影响，不是单看鲨鱼本身。"
+        }
+      ],
+      "mistakes": [
+        "把 The air is badly polluted. 看成现在进行时——polluted 是过去分词，这句话是被动语态。",
+        "should 后面多加 to：写成 should to play——情态动词后直接跟动词原形。",
+        "把 cut down air pollution 理解成'砍倒'——环保语境里 cut down 是'削减'，'切掉'才是 cut off。",
+        "看到 are caught and traded 就去找'谁抓的'——被动句的动作执行者常被省略，先抓'谁被怎样'。"
+      ],
+      "source": {
+        "unit": "Unit 13 We're trying to save the manatees!",
+        "pages": [
+          97,
+          104
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "把词与污染类型正确配对：loud music 属于哪一类污染？",
+          "options": [
+            "noise pollution",
+            "air pollution",
+            "water pollution",
+            "land pollution"
+          ],
+          "answer": "A",
+          "solution": "书上污染分类：loud music（嘈杂的音乐）归入 noise pollution；cars、smoking 归入 air pollution；rubbish、littering 等归入水或土地污染一类。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P97·污染类型分类（noise pollution / air pollution / water pollution：loud music, cars, rubbish, factories…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "完成对话原句：To cut down air pollution, we should take the bus or subway instead of ____.",
+          "options": [
+            "driving",
+            "drive",
+            "drove",
+            "to driving"
+          ],
+          "answer": "A",
+          "solution": "原句：to cut down air pollution, we should take the bus or subway instead of driving. instead of 是介词短语，后面接 V-ing 形式。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P98·对策对话（to cut down air pollution, we should take the bus or subway instead of driving）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇填空（变式）：Factories are putting waste into the river, so the river ____ badly ____. 选出正确形式：",
+          "options": [
+            "is; polluted",
+            "is; polluting",
+            "was; polluted",
+            "are; polluted"
+          ],
+          "answer": "A",
+          "solution": "河流是被污染的对象，用被动语态 is polluted；施害一方 factories 才用 are putting。对照书上自测原句 The river is polluted by factories.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P104·语法结构匹配（The river is polluted by factories.）变式（施害句改被动语态）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给市长写一封 3-4 句的环保建议信：先写一个问题（What are the problems?），再用 I think that... / We should/could... / I suggest... 各写一条建议，注意主动被动的选择。",
+          "answer": "示例：The river in our town is polluted by factories. I think that we should close the dirty factories. I suggest everyone play a part in cleaning it up.",
+          "solution": "按'问题—建议'两段走：问题用被动交代现状，建议用情态动词提出办法，句式直接套用书上的建议信模板。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_14",
+      "summary": "remember doing 记得做过的事：用'一件小事开头、一句成长撑腰、感谢展望收好'的三段式，把初中三年装进 60-80 词。",
+      "explanation": [
+        "这部分围着一个句型转：I remember meeting all of you in Grade 7. 书上的回忆清单全是 V-ing：winning a prize、being a volunteer、doing a school survey、a friend helping me with a problem；同学的回忆有 I remember scoring two goals in a row during a soccer competition. 和 I remember losing a schoolbag. 还有完成时的收获 I have learned to play the keyboard in music class. 诗歌 I Remember 开头四行：Looking back at these past three years / I remember many things / Trying to be on time for morning readings / Running when the lunch bell rings。毕业演讲里同一句重现：I remember meeting all of you when you were just starting Grade 7.",
+        "remember doing 说的是'记得做过'——动作已经发生，像翻毕业相册：照片里的事都真实发生过，所以 remember 后面的动词要穿 V-ing 这件'已完成'的外衣。毕业回顾文就是翻相册：挑一两张最亮照片讲细一点，再翻到'三年后的我'这一页说感谢和展望。",
+        "写回顾三段走：开头 I remember... 挑一件具体小事（I remember winning a prize.）；中间说成长 I have learned... / I used to..., but now...；结尾感谢加展望 Never fail to be thankful to the people around you. / I'm looking forward to...。书上演讲话题五问就是现成提纲：How have you changed since you started junior high school? Who has helped you most? What will you do after you graduate? 60-80 词的篇幅，每段两三句刚刚好。",
+        "最要紧的分界是：remember meeting you（记得见过——已发生）对 remember to lock the door（记得要去锁门——还没做）。判断口诀：动作在过去选 doing，动作在未来选 to do。同学那句 I remember losing a schoolbag（丢过书包）就是已发生。另外 I have learned to play the keyboard 用完成时强调三年积累的收获，比只说 I learned 多一层'到现在'。",
+        "毕业回顾的'回忆—感谢—展望'三段式，通用于告别信、教师节致辞、班级征文；remember doing 也常和完成时搭档（I still remember the first day of Grade 7 like it was yesterday.）。这套'小事开头、细节支撑'的写法，到高中写叙事文一样是开门钥匙。"
+      ],
+      "methods": [
+        {
+          "name": "三段回顾法",
+          "steps": [
+            "开头：I remember... 加一件具体小事（winning a prize / being a volunteer）",
+            "中间：I have learned... / I used to..., but now... 写三年变化",
+            "结尾：Thank you / Never fail to be thankful... 加 I'm looking forward to... 收展望"
+          ],
+          "tip": "口诀：小事开头，成长撑腰，感谢展望收好。"
+        },
+        {
+          "name": "做过 doing，要做 to do",
+          "steps": [
+            "回忆已发生的事：remember doing（I remember meeting all of you in Grade 7.）",
+            "提醒还没做的事：remember to do（Remember to bring your card tomorrow.）",
+            "自检：把时间往回想还是往前推——过去用 doing，将来用 to do"
+          ],
+          "tip": "口诀：做过 doing，要做 to do。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：I still remember ____ (meet) all of you in Grade 7. 该填 meeting 还是 to meet？",
+          "solution": "填 meeting。Grade 7 的相遇已经发生，remember doing 表示'记得做过'——标题句 I remember meeting all of you in Grade 7. 正是这样用的。",
+          "difficulty": 1,
+          "pitfall": "背过 remember to do sth 就往里填——to do 是'记得要去做'，只有将来的事才用。"
+        },
+        {
+          "question": "毕业演讲提醒大家感谢身边的哪些人？",
+          "solution": "your parents, your teachers and your friends——原句：I hope you'll remember the important people in your lives who helped and supported you — your parents, your teachers and your friends.",
+          "difficulty": 2,
+          "pitfall": "只写老师——演讲把父母、老师、朋友三个群体一并点到，感谢对象要写全。"
+        },
+        {
+          "question": "判断下面哪句 remember 用对了，并说明理由：I remember to meet all of you in Grade 7.",
+          "solution": "这句用错了。Grade 7 的相遇是过去的事，应该用 remember meeting；remember to meet 表示'记得要去见'，事情还没发生。",
+          "difficulty": 2,
+          "pitfall": "只看句型顺眼不看时间方向——先问自己这件事发生没有，再选 doing 还是 to do。"
+        }
+      ],
+      "mistakes": [
+        "把回忆写成 remember to do：I remember to meet you in Grade 7 不对——回忆已发生的事用 remember meeting。",
+        "回顾文写成流水账：只列 won a prize / did a survey，没有感受和感谢，60-80 词撑不出层次。",
+        "时态一句一换：回忆段突然蹦出 will，展望段又回到过去——回忆用过去时或完成时，展望用将来时，一段一主线。",
+        "通篇只喊 Thank you everyone——挑一件小事（winning a prize / a friend helping me with a problem）才有画面。"
+      ],
+      "source": {
+        "unit": "Unit 14 I remember meeting all of you in Grade 7.",
+        "pages": [
+          105,
+          112
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "把下面三行诗句排回原诗顺序：① Trying to be on time for morning readings ② Looking back at these past three years ③ Running when the lunch bell rings",
+          "options": [
+            "②①③",
+            "①②③",
+            "③②①",
+            "②③①"
+          ],
+          "answer": "A",
+          "solution": "原诗开头四行：Looking back at these past three years / I remember many things / Trying to be on time for morning readings / Running when the lunch bell rings——先总起'回望三年'，再落到晨读和午饭铃两件小事。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P107·诗歌 I Remember（Looking back at these past three years…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "毕业典礼演讲的开头，选出书上的原句：",
+          "options": [
+            "Thank you for coming today to attend the graduation ceremony at No. 3 Junior High School.",
+            "Happy birthday to you!",
+            "Let me tell you about my summer holiday plan.",
+            "How much is this T-shirt?"
+          ],
+          "answer": "A",
+          "solution": "演讲先致谢来宾再祝贺学生：Ladies and gentlemen, thank you for coming today to attend the graduation ceremony... 接着 I'd like to congratulate all the students who are here today.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P110·毕业典礼演讲（Ladies and gentlemen, thank you for coming today to attend the graduation ceremony…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "remember 用法判断（变式）：下面哪一句完全正确？",
+          "options": [
+            "I remember meeting this group of friends in Grade 7.",
+            "I remember to meet all of you in Grade 7.",
+            "Remember calling your mom when you get home tonight.",
+            "Did you remember locking the door when you left just now?"
+          ],
+          "answer": "A",
+          "solution": "回忆已发生的事用 remember+V-ing。B 把回忆错用成 to meet；C 今晚还没打电话，该用 Remember to call；D 刚才出门的检查动作该用 Did you remember to lock。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P105·回忆清单（I remember meeting all of you in Grade 7；winning a prize, being a volunteer…）变式（remember doing 与 remember to do 正误辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "写一篇 60-80 词的毕业回顾：回忆初中三年里你学会的一件事、最想感谢的一个人，并展望未来；至少用一次 remember doing 和一次 I'm looking forward to...",
+          "answer": "示例：I remember winning a prize in the English contest in Grade 8. My teacher Ms. Lee helped me a lot, and I'm thankful to her. I have learned to work hard and never give up. I'm looking forward to my new school life.",
+          "solution": "按'回忆—感谢—展望'三段展开：小事开头用 remember doing，感谢点名具体的人，展望用将来时或 looking forward to。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_15",
+      "summary": "三类阅读题一招破：推理判断找线索往外推，作者意图想'为什么写'，词义猜测靠上下文挤意思——答案永远以原文为据。",
+      "explanation": [
+        "初中三年读过的各篇长语篇就是现成的题库：How I Learned to Learn English（Wei Fen 从怕英语到迷上英文电影）、From Shy Girl to Pop Star（对歌星 Candy Wang 的采访）、An Accidental Invention（茶叶落进热水成就了茶）、Save the Sharks!（鲨鱼保护）。考试常问三类：What can we infer / learn from the passage?（推理判断）、Why does the writer mention...? / What's the purpose of...?（作者意图）、What does the word '...' probably mean?（词义猜测）。",
+        "推理判断像破案：原文是线索，常识是胶水，结论只能从线索里长出来，不能自己编。作者意图想的是'作者写这段为了什么'——讲故事是为了分享经验，写鲨鱼是为了喊你保护它们。词义猜测像读古文遇到生字：不查词典，靠前后句把意思'挤'出来。",
+        "通用三步法：第一步定位——圈出题干关键词（人名、动词、数字），回原文找到对应句；第二步对照——把四个选项挨个与原句比对，找同义改写；第三步排除——先划掉与原文矛盾、无依据、扩大范围的选项。推理题的正确答案往往是'原句换了个说法'：既不是原句照抄，也不是凭空脑补。",
+        "三类题各答各的：细节题原文能直接找到答案句；推理题原文没明说、但顺着线索能推出来（infer 是'推断'，不是'看一眼就猜'）；作者意图选'为什么写'，别选成'写了什么'；词义猜测选'本句语境义'，别选平时背的第一个词义。三类题混在一起时，先看问法关键词识别题型，再套对应方法。",
+        "从考试阅读的 A 篇到 D 篇，这三类题年年出现；练熟'定位—对照—排除'，任务型阅读的找依据、写作里的观点支撑，用的都是同一套'证据说话'的功夫——先有原文线索，再下结论。"
+      ],
+      "methods": [
+        {
+          "name": "定位—对照—排除",
+          "steps": [
+            "定位：圈出题干关键词（人名/动词/数字），回原文找对应句",
+            "对照：选项与原句逐词比对，认出同义改写",
+            "排除：先划掉与原文矛盾、无依据、扩大范围的选项"
+          ],
+          "tip": "口诀：题干找词，原文找句，选项对号，先删后挑。"
+        },
+        {
+          "name": "三问识题型",
+          "steps": [
+            "问 infer / learn from / conclude——推理判断题，找线索往外推",
+            "问 why does the writer... / the purpose——作者意图题，想'写它干什么用'",
+            "问 probably means / closest in meaning——词义猜测题，看前后句挤意思"
+          ],
+          "tip": "口诀：infer 推一推，why 问意图，means 猜词义。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "词义猜测：读句子猜划线词 hid 的意思——I was afraid to ask questions because of my poor pronunciation. I just hid behind my textbook and never said anything.",
+          "solution": "hid 意为'躲，藏'。前句说 afraid to ask questions（怕开口），后句说 never said anything（什么也不说），上下文把 hid 的意思'挤'出来——躲在书后面不吭声。",
+          "difficulty": 2,
+          "pitfall": "按平时背的第一个词义硬选——词义猜测题先看前后句，语境义才算数。"
+        },
+        {
+          "question": "推理判断：读 From Shy Girl to Pop Star，关于 Candy 下面哪项能从原文推出来？① She thinks the road to success is not easy. ② She regrets taking part in singing competitions. ③ She no longer dares to sing in front of crowds. ④ She wants to leave the music world at once.",
+          "solution": "选①。原句：Many times I thought about giving up, but I fought on. You really require a lot of talent and hard work to succeed.——多次想放弃仍坚持下来，可见成名路不轻松；②③④与原文矛盾或没有依据。",
+          "difficulty": 3,
+          "pitfall": "选'听起来合理'但原文没线索的选项——推理题的每个答案都要能指出线索句。"
+        },
+        {
+          "question": "作者意图：An Accidental Invention 一文写 A few thousand years later, Lu Yu, 'the saint of tea', mentioned Shen Nong in his book Cha Jing. 作者提这两句主要想干什么？① show that China's tea culture has a long history ② teach readers how to make tea at home ③ ask people to drink less tea ④ recommend a new book to readers",
+          "solution": "选①——借'茶圣'陆羽和他的书说明茶早已进入中国人的书写与生活，证明中国茶文化历史悠久、有典可查；语篇结尾也说 the Chinese are without doubt the ones who best understand the nature of tea.",
+          "difficulty": 3,
+          "pitfall": "把'写了什么'当'为什么写'——意图题要往写作目的上靠，别选内容概括。"
+        }
+      ],
+      "mistakes": [
+        "推理题选'我觉得对'的选项——正确答案必须在原文有线索句。",
+        "把原句照抄的选项当成推理答案——推理正确项常是同义改写，要多比对再下手。",
+        "词义猜测按词典第一个义项选——先看本句和前后句，语境义优先。",
+        "作者意图题选成段落大意——先问'作者写这段想让读者知道什么、做什么'。"
+      ],
+      "source": {
+        "unit": "各单元阅读与中考题型",
+        "pages": [
+          1,
+          112
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "细节题：根据语篇 How I Learned to Learn English，Wei Fen 发现学语言的秘诀（the secret to language learning）是什么？",
+          "options": [
+            "Listening to something interesting.",
+            "Copying new words ten times.",
+            "Hiding behind the textbook.",
+            "Reading word by word."
+          ],
+          "answer": "A",
+          "solution": "原句：I discovered that listening to something interesting is the secret to language learning.——细节题，答案句可以直接定位。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P3·语篇 How I Learned to Learn English（I discovered that listening to something interesting is the secret to language learning.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "细节题：现在 Candy 觉得和朋友逛街几乎不可能，原因是什么？",
+          "options": [
+            "There are always guards around her.",
+            "She moved to another city.",
+            "She doesn't like her friends any more.",
+            "She has no free weekends."
+          ],
+          "answer": "A",
+          "solution": "原句：Hanging out with friends is almost impossible for me now because there are always guards around me.——因为身边总有保镖跟着。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P27·语篇 From Shy Girl to Pop Star（Hanging out with friends is almost impossible…because there are always guards around me.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "设问归类（变式）：What can we infer from the last paragraph? 这道题属于哪一类阅读题型？",
+          "options": [
+            "推理判断题",
+            "词义猜测题",
+            "作者意图题",
+            "数字计算题"
+          ],
+          "answer": "A",
+          "solution": "infer（推断）是推理判断题的标志词——要依据段落线索往外推，而不是抄原句或猜单词。同类问法还有 What can we learn from the passage?",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P3·阅读设问变式（What can we learn/infer from the passage? 属推理判断类问法）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "任选一篇课外英语短文，自拟三道设问：一道推理判断、一道作者意图、一道词义猜测；每道题在原文划出线索句，再写出答案。",
+          "answer": "示例：推理判断—What can we infer...? 线索句+推出的结论；作者意图—Why does the writer...? 线索句+写作目的；词义猜测—What does '...' mean? 前后句线索+语境义。",
+          "solution": "出题是最好的复习：会设计 infer / why / means 三类问法，就真正分清了三种题型，做题时一眼识别。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_16",
+      "summary": "一张语法地图收下初中三年：八大时态排成时间轴，被动换乘，三大从句开支线；词汇按四类词形货架归类记忆。",
+      "explanation": [
+        "把三年语法收进一张图。时态主线：一般现在时 I study by working with friends.；一般过去时 Alexander Graham Bell invented the telephone in 1876.；现在进行时 We're trying to save the earth.；现在完成时 We have seen many changes in the environment.；过去完成时 Before I got to the bus stop, the bus had already left.；used to The river used to be so clean.。被动三态：is made / was invented in 1876 / should be allowed。三大从句：宾语从句 I think that mooncakes are delicious! / Could you please tell me where the restrooms are?；定语从句 I like music that I can dance to.；状语从句 if their numbers drop too low, it will bring danger to all ocean life. / turn off the shower while you are washing your hair。再加一张方法票：by V-ing（I study by making word cards.）。",
+        "把语法想成一张地铁图：时间是纵轴，过去、现在、将来三大站，每站停靠不同的时态列车；被动是换乘口，把'某人做'换成'某物被做'；从句是三条支线——宾语从句装在动词后面，定语从句跟在名词后面修饰它，状语从句管时间（when/while）和条件（if）。by V-ing 是'用什么办法'的专用票，哪里谈方法哪里刷它。",
+        "复习三步：第一步画时间轴，把时态公式写成站牌（do / did / will do / am(is/are) doing / was(were) doing / have(has) done / had done / used to do）；第二步给每站换被动票——动词位换成 be+过去分词（is made / was invented / should be allowed）；第三步开三条从句支线，各写一句书上原句。词汇另列四个货架：v.→n.（pollute—pollution, act—action, protect—protection, inspire—inspiration）、n.→adj.（fame—famous, wood—wooden, health—healthy）、adj.→n.（different—difference, important—importance）、adj.→adv.（slow—slowly, wide—widely, sudden—suddenly, real—really, care—carefully）。",
+        "从句三家别认错门牌：宾语从句跟在动词后且必须用陈述语序——Could you please tell me where the restrooms are?（不是 where are the restrooms）；定语从句跟在名词后，先行词是人常用 who、是物常用 that——I like music that I can dance to.；状语从句 if 表条件、when/while 表时间。used to 后面直接加动词原形，只谈过去，别和别的用法混。",
+        "这张图是语法选择题和语篇填空的总地图：拿到句子先定点（时态），再判向（主动/被动），最后看有没有支线（从句）。词汇四货架直接对应词形转换题；总复习阶段每两天沿图走一遍，比零散刷题更省力，也更容易看出自己漏了哪一站。"
+      ],
+      "methods": [
+        {
+          "name": "时态地铁图",
+          "steps": [
+            "画一条时间轴：过去—现在—将来三大站",
+            "挂时态站牌：do / did / will do / am(is/are) doing / was(were) doing / have(has) done / had done / used to do",
+            "每站换被动票：动词位换成 be+过去分词（is made / was invented / should be allowed）",
+            "开三条从句支线：宾语从句（陈述语序）、定语从句（that/who）、状语从句（if/when/while），各配一句原句"
+          ],
+          "tip": "口诀：一条轴，三座站，被动换票，从句支线连成片。"
+        },
+        {
+          "name": "词形四货架",
+          "steps": [
+            "v.→n.：pollute—pollution, act—action, protect—protection, inspire—inspiration",
+            "n.→adj.：fame—famous, wood—wooden, health—healthy",
+            "adj.→n.：different—difference, important—importance",
+            "adj.→adv.：slow—slowly, wide—widely, sudden—suddenly, real—really, care—carefully"
+          ],
+          "tip": "口诀：动变名常带 tion，名变形加 ous 与 y，形变副加 ly，形变名 difference 记心间。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语法地图归类：We have seen many changes in the environment. 属于哪一时态？① 现在进行时 ② 一般过去时 ③ 现在完成时 ④ 一般将来时",
+          "solution": "选③。have+过去分词（have seen）是现在完成时的标志——这正是书上自测里'句子配语法'的原句之一。",
+          "difficulty": 1,
+          "pitfall": "看到 seen 就当一般过去时——seen 是过去分词，配上 have 才构成现在完成时。"
+        },
+        {
+          "question": "主动改被动（书上原题）：Alexander Graham Bell invented the telephone in 1876. 下面哪种改法正确？① The telephone was invented by Alexander Graham Bell in 1876. ② The telephone is invented by Alexander Graham Bell in 1876. ③ The telephone invented by Alexander Graham Bell in 1876. ④ The telephone was inventing by Alexander Graham Bell in 1876.",
+          "solution": "选①。一般过去时的被动 = was/were+过去分词；invented 作过去分词，施动者用 by 引出——原句 The telephone was invented (by Alexander Graham Bell) in 1876.",
+          "difficulty": 2,
+          "pitfall": "漏掉 be 动词或把过去分词写成原形——被动语态的骨架是 be+过去分词，缺一不可。"
+        },
+        {
+          "question": "从句归类：I like music that I can dance to. 里的 that 引导的是①定语从句 ②宾语从句 ③时间状语从句 ④条件状语从句中的哪一种？",
+          "solution": "选①。that 引导的从句跟在名词 music 后面修饰它，是定语从句；先行词是物用 that。整句意为'我喜欢能跟着跳舞的音乐'。",
+          "difficulty": 3,
+          "pitfall": "凡见 that 就想宾语从句——宾语从句跟在动词后，定语从句跟在名词后，先看位置再定性。"
+        }
+      ],
+      "mistakes": [
+        "被动句漏 be：写成 The telephone invented in 1876——骨架 be+过去分词缺一不可。",
+        "宾语从句套疑问语序：Could you tell me where are the restrooms? 错——从句一律用陈述语序。",
+        "词形转换只背单词不背后缀：pollution / famous / slowly 各归各的货架，记住后缀规律考场现推更快。",
+        "used to 后面又接 to do：used to be short 里 used to 直接加原形。"
+      ],
+      "source": {
+        "unit": "全册与总复习",
+        "pages": [
+          1,
+          140
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "自测连线原题：People should take public transportation more. 该配哪种语法结构？",
+          "options": [
+            "Modal verbs",
+            "used to",
+            "Passive voice",
+            "Present progressive"
+          ],
+          "answer": "A",
+          "solution": "should 是情态动词，句子归入 Modal verbs——书上自测把五个句子与五种语法结构配对，这句配情态动词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P104·语法结构匹配自测（People should take public transportation more.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语法地图两站连线：The river is polluted by factories. 与 The air pollution is getting worse and worse. 依次属于——",
+          "options": [
+            "被动语态；现在进行时",
+            "现在进行时；被动语态",
+            "used to；现在完成时",
+            "情态动词；一般过去时"
+          ],
+          "answer": "A",
+          "solution": "is polluted 是 be+过去分词，归被动语态；is getting 是 be+V-ing，归现在进行时——两句都是书上自测连线的原句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P104·语法结构匹配自测（The river is polluted by factories. / The air pollution is getting worse and worse.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "词形归类（变式）：下面哪一组同属'形容词变副词'的货架？",
+          "options": [
+            "slow—slowly 与 wide—widely",
+            "pollute—pollution 与 act—action",
+            "fame—famous 与 wood—wooden",
+            "different—difference 与 important—importance"
+          ],
+          "answer": "A",
+          "solution": "形容词加 ly 变副词：slow—slowly、wide—widely；B 组是动词变名词，C 组是名词变形容词，D 组是形容词变名词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P104·词形变换自测（slow—slowly, wide—widely, sudden—suddenly, real—really…）变式（按词形归类）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把初中三年语法画成你自己的地铁图：三大站写时态公式，三条支线各写一句含从句的例句并标注从句类型，最后在旁边补一句 by V-ing。",
+          "answer": "示例：宾语从句 I think that English is fun.；定语从句 I like songs that are quiet.；状语从句 If it rains, we'll stay in.；by V-ing I learn English by watching movies.",
+          "solution": "画得出图，说明语法体系已经装进脑子；给每句标注时态与从句类型，复习时照图自查即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g9a_17",
+      "summary": "作文写完别急着交：一查时态主线、二查主谓三单、三查拼写大小写，再升级连接词，硬伤清零少丢分。",
+      "explanation": [
+        "书上写作任务的底层要求始终如一：给市长的建议信要写清 What are the problems? / Where are they? / What or who is causing these problems? 再用 I think that... / We should/could... / I suggest... 给建议；毕业演讲全文时态主线分明——I remember meeting all of you... You've all grown up so much and I'm so proud of you. ... The future is yours.；自测的动词填空一句跨三个时间层：I still remember the first day of Grade 7 like it was yesterday. I used to be a really shy person... I was so scared and nervous... Since then, I have made so many good friends... I am looking forward to new experiences in senior high!",
+        "作文写完像出门前照镜子：衣服穿好了（内容写好），还要照三下——时态照全身（主线别乱换）、主谓照搭配（he 后面动词加 s）、拼写照细节（大小写和常见错词）。连接词是最后系上的皮带：and 只会排队，besides / however / because / so 才能让句子各就各位。",
+        "写后三查法：一查时态——回忆过去用过去时或现在完成时，习惯观点用一般现在时，展望用将来时，一段一主线不乱跳；二查主谓一致——he/she/it/everyone 后动词加 s（He works. Everyone plays a part.），复数主语不加；三查拼写与大小写——句首大写、专名大写（China, Ms. Lee），because、believe、friend、reading 等高频词过一遍。最后通读补连接词：递进 besides / what's more，转折 but / however，因果 because—so。",
+        "两个易混点：其一，时态一致不等于全程一刀切——演讲里回忆段用过去时与完成时，展望段就是将来时，段内一致即可；其二，everyone / everybody / nobody 看着像'所有人'，动词一律按第三人称单数处理。连接词升级也别过头：80 词的作文有两三处 besides / however 足够，满篇 however 反而生硬。",
+        "三查清单通用于日记、书信、发言稿各类写作；阅卷时语法硬伤最扣印象分，交卷前两分钟按'时态—主谓—拼写'走一遍，是最省力的提分动作。写完的文章自己先当第一读者，比等人改快得多。"
+      ],
+      "methods": [
+        {
+          "name": "写后三查法",
+          "steps": [
+            "一查时态：标出每段主线（回忆过去时/完成时，观点现在时，展望将来时），段内不乱跳",
+            "二查主谓：he/she/it/everyone 后动词加 s，复数主语不加",
+            "三查拼写大小写：句首、专名大写；because / believe / friend 等高频错词过一遍",
+            "补连接词：递进 besides，转折 but/however，因果 because—so，全篇至少一处非 and 连接"
+          ],
+          "tip": "口诀：一查时态稳主线，二查三单不掉 s，三查拼写大小写，连接词来收个尾。"
+        },
+        {
+          "name": "连接词升级法",
+          "steps": [
+            "通读全文，找出清一色用 and 的句子",
+            "并列保留 and，递进换 besides / what's more",
+            "转折换 but / however，原因用 because，结果用 so",
+            "每段最多一处高级连接，多则生硬"
+          ],
+          "tip": "口诀：排队 and，递进 besides，转折 however，因果 because—so。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "找错：I still remember the first day of Grade 7. I am so scared and nervous that day.",
+          "solution": "把 am 改成 was。'第一天'是过去的事，回忆主线是过去时——书上原句正是 I was so scared and nervous.",
+          "difficulty": 2,
+          "pitfall": "后半句随手用了一般现在时——回忆语境里过去发生的事要用过去时。"
+        },
+        {
+          "question": "主谓一致：Everyone in this town ____ (want) cleaner air. 横线上填 want 还是 wants？",
+          "solution": "填 wants。everyone 看着像'所有人'，语法上按第三人称单数处理，动词加 s。",
+          "difficulty": 1,
+          "pitfall": "被 everyone 的词义骗了——它的谓语动词永远用三单形式。"
+        },
+        {
+          "question": "连接词升级：用 besides 把两句并成一句——I turn off the lights when I leave a room. I also use reusable bags instead of plastic bags.",
+          "solution": "I turn off the lights when I leave a room; besides, I use reusable bags instead of plastic bags. 两个办法都出自书上的环保建议：turn off the lights when you leave a room / use reusable bags instead of plastic bags.",
+          "difficulty": 3,
+          "pitfall": "besides 和 but 混用——besides 表递进（再补充一件），but 表转折，方向相反。"
+        }
+      ],
+      "mistakes": [
+        "一篇作文里时态乱跳：回忆、观点、展望各归各的主线，段内保持一致。",
+        "everyone / nobody 后接复数动词——它们一律按三单处理。",
+        "句首小写、专有名词小写：china 要写 China，Ms. lee 要写 Ms. Lee。",
+        "全文连接词只有 and——besides / however / because 各就各位，作文立刻有层次。"
+      ],
+      "source": {
+        "unit": "中考总复习·写作自查（Self Check 升格）",
+        "pages": [
+          1,
+          140
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "自测动词填空（书上原题）：I can't believe that today is the last day of junior high school. I still ____ (remember) the first day of Grade 7 like it was yesterday.",
+          "options": [
+            "remember",
+            "remembers",
+            "remembered",
+            "will remember"
+          ],
+          "answer": "A",
+          "solution": "主语是 I，'仍然记得'说现在的状态，用一般现在时 remember；like it was yesterday 是'仿佛昨天'的比喻，不是真昨天。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P112·动词填空自测（I still remember the first day of Grade 7 like it was yesterday.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "自查清单判断：给市长写环保建议信，下面哪组是书上给的建议句型？",
+          "options": [
+            "I think that... / We should/could... / I suggest...",
+            "I am watching TV... / What a nice day!",
+            "Once upon a time, there was...",
+            "How much is it? / Here you are."
+          ],
+          "answer": "A",
+          "solution": "建议信先摆问题再给办法：I think that... / We should/could... / I suggest... 正是书上给出的建议句型组合。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标九全 P104·给市长的建议信（I think that... We should/could... I suggest...）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "三查找错（变式）：下面哪一句时态、主谓、拼写全部过关？",
+          "options": [
+            "She has made many good friends since she came here.",
+            "She have made many good friend since she came here.",
+            "She has made many good friends since she come here.",
+            "She has maked many good friends since she came here."
+          ],
+          "answer": "A",
+          "solution": "B 主谓不一致（She have）且 friend 漏了复数；C 时态错——since 从句该用过去式 came；D 拼写错——make 的过去分词是 made。三查就是把这些硬伤拦在交卷前。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标九全 P112·动词填空自测（Since then, I have made so many good friends…）变式（时态/主谓/拼写三查）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "拿出你最近的一篇英语作文，用'写后三查法'过一遍：标出每段主线时态、核对三单、圈出拼写与大小写问题，再把其中一处 and 换成 besides 或 however。",
+          "answer": "示例：查出并改正 2-3 处，如 am scared 改 was scared、everyone want 改 everyone wants、china 改 China。",
+          "solution": "三查法的价值在改自己的文章：清单过一遍硬伤清零，再升级一处连接词，作文档次立刻不同。",
           "difficulty": 3
         }
       ]
