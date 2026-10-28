@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 114,
+  "lessonCount": 129,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -14313,6 +14313,1836 @@
           ],
           "answer": "B",
           "solution": "具体日期用 on＋月份＋序数词：on May 2nd。月份大写，second 缩写 2nd。把月份、序数词、on 的搭配一起自查一遍，日期题就稳了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_01",
+      "summary": "can 是能力开关：I can sing、I want to join the music club，两句问答就说清会什么、想进哪个社团。",
+      "explanation": [
+        "开篇先配对七项技能：sing（唱歌）、swim（游泳）、dance（跳舞）、draw（画画）、play chess（下棋）、speak English（说英语）、play the guitar（弹吉他），并给出第一组问答：Can you swim? —Yes, I can.／No, I can't.；I want to join the art club.／I want to join the music club. 接着学社团问答的核心句：What club do you want to join? —I want to join the chess club. 角色对话里，Bob 想加 sports club，会踢足球就进 soccer club；Jane 擅长讲故事，被推荐去 story telling club。语法聚焦把规则摆齐：can't = cannot；Can you swim? Yes, I can./No, I can't.；Can he play chess? Yes, he can./No, he can't.；Can you and Tom play chess? Yes, we can./No, we can't.；Can Jane and Jill swim? Yes, they can./No, they can't.；What can you do? I can dance./I can't sing.；What club do you want to join? We want to join the chess club. 阅读部分有三段自我介绍：Ma Huan 会打乒乓球、会下棋，喜欢和人聊天做游戏；Peter 会说英语、会踢足球；Alan 在学校音乐社团，会弹吉他、弹钢琴，也会唱歌跳舞。收尾是招募启事：Musicians Wanted for School Music Festival——Do you like music? Can you sing and dance? Can you play the piano or the violin? Can you play the guitar or the drums? Then you can be in our school music festival. Please call Mr. Zhang at 622-6033.",
+        "can 就像身上的「技能开关」：打开会做的，关掉不会做的。社团报名本质是「开关配对」——会什么，就进什么社团：会画画进 art club，会下棋进 chess club，会游泳进 swimming club。英语把「想加入」固定说成 want to join，join 后面直接跟社团名。问别人会不会，把 can 挪到句首变成小问句；回答不用再搬动词，Yes, I can.／No, I can't. 两个短句就够，干脆利落。",
+        "报名社团三步走：第一步报意愿 I want to join the music club.；第二步亮能力 Can you sing? —Yes, I can.；第三步给结论 You can join the music club. 乐器题记住「戴帽规则」：play the guitar、play the piano、play the violin、play the drums 都要在乐器前加 the；球类棋类光头不加——play basketball、play soccer、play chess、play ping-pong。招募启事四件套：标题 Wanted（招募）＋连续追问 Can you…?＋结论 Then you can be in…＋联系方式 Please call sb. at 号码。常用搭配一并记：be good at telling stories（擅长讲故事）、be good with old people（善于和老人相处）、talk to Mr. Zhang（找张老师谈）。",
+        "容易绊倒的四件事：一，can 后面的动词必须原形，不加 to 也不加 s——说 I can swim，不说 I can to swim；二，play 后面加不加 the 要看对象，乐器加（play the guitar），球类棋类不加（play chess）；三，回答 can 的问句用 can 答，不换成 do——Yes, I can. 不是 Yes, I do；四，can't 是 cannot 的缩写，本身就是否定，后面不能再叠 not。另外 What can you do? 问的是「你会做什么」，答句要给具体能力 I can dance.，不能只回 Yes 或 No。",
+        "can 是初中遇到的第一个情态动词，后面的 must、have to 都沿用它「后接动词原形」的脾气；学会了「能力问答＋社团报名」，就为表达规则（can't 表示不许做某事）打好了底子。习惯上，每学一个新动词就顺手造一句 I can…／I can't…，把自己的技能清单越拉越长；看到英文招募启事，先抓标题里的 Wanted，再数一数里面有几个 Can you…?，这张「能力网」在以后的听说读写里会反复用到。"
+      ],
+      "methods": [
+        {
+          "name": "社团报名三步走",
+          "steps": [
+            "报意愿：I want to join the music club.（want to join＋社团名）",
+            "亮能力：Can you sing? —Yes, I can.／No, I can't.",
+            "给结论：You can join the music club.／Then you can be in the school show."
+          ],
+          "tip": "can 提前问能力，can't 出场表不能；join 后面接社团。"
+        },
+        {
+          "name": "play 戴帽规则",
+          "steps": [
+            "乐器前加 the：play the guitar／play the piano／play the violin／play the drums",
+            "球类棋类不加：play basketball／play soccer／play chess／play ping-pong",
+            "遇到新短语先判断「乐器还是球棋」，再决定戴不戴 the"
+          ],
+          "tip": "乐器戴 the 帽，球棋光头跑。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用 can 把「Mike 会弹吉他」连成一句英文。",
+          "solution": "Mike can play the guitar. can 后面接动词原形 play，乐器 guitar 前要加 the。",
+          "difficulty": 2,
+          "pitfall": "漏掉 the 写成 play guitar，或给 play 加 s、加 to。"
+        },
+        {
+          "question": "补全对话：—What club do you want to join? —I want to join the ______（swim）club.",
+          "solution": "swimming club。swim 是重读闭音节动词，先双写 m 再加 ing：swimming club。",
+          "difficulty": 2,
+          "pitfall": "直接写成 swim club，漏掉双写。"
+        },
+        {
+          "question": "照招募启事的句子补全：Do you like music? Can you ______（play）the piano? Then you ______（can）be in our school music festival.",
+          "solution": "play；can。Can you 后接原形 play；Then you can be in…表示「那你就能参加」。",
+          "difficulty": 3,
+          "pitfall": "把第二空填成 are 或 can to be——can 后面直接接动词原形。"
+        }
+      ],
+      "mistakes": [
+        "can 后面加 to 或三单 s：I can to swim／He can swims 都不对，can 后动词永远用原形 I can swim。",
+        "乐器前漏 the：play the guitar 才对；反过来球类棋类又不能加 the，play the chess 是错的。",
+        "回答 can 问句误用 do：—Can you swim? 应答 Yes, I can.／No, I can't.，不是 Yes, I do。",
+        "把 can't 再叠否定：can't = cannot 本身就是否定，不说 can't not；否定回答短句就是 No, I can't."
+      ],
+      "source": {
+        "unit": "Unit 1 Can you play the guitar?",
+        "pages": [
+          1,
+          6
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Can you swim? —______　A. Yes, I can.　B. Yes, I do.　C. Yes, I am.　D. No, I can.",
+          "options": [
+            "Yes, I can.",
+            "Yes, I do.",
+            "Yes, I am.",
+            "No, I can."
+          ],
+          "answer": "A",
+          "solution": "can 引导的能力问句，肯定回答 Yes, I can.，否定回答 No, I can't.；do 和 am 是别类问句的回答，D 选项自相矛盾。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P1·能力问答（Can you swim?—Yes, I can.／No, I can't.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一句完全正确？　A. I can play the chess.　B. I can play the guitar.　C. I can to swim.　D. He can plays soccer.",
+          "options": [
+            "I can play the chess.",
+            "I can play the guitar.",
+            "I can to swim.",
+            "He can plays soccer."
+          ],
+          "answer": "B",
+          "solution": "乐器前加 the：play the guitar 正确；棋类不加 the（play chess）；can 后接原形，to swim、plays 都错。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P4·乐器词配对与问答（drums、piano、guitar、violin—Can you play the violin?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "补全社团对话：—What club do you want to join? —I want to join a sports club. —What sports can you play? —______　A. Yes, I can.　B. Soccer.　C. Soccer club.　D. I like sports.",
+          "options": [
+            "Yes, I can.",
+            "Soccer.",
+            "Soccer club.",
+            "I like sports."
+          ],
+          "answer": "B",
+          "solution": "问句问会玩什么运动，用具体项目回答：Soccer.；接着对方说 So you can join the soccer club.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P2·Jane 与 Bob 社团对话（What sports can you play?—Soccer.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "为班级活动写一则四句的英文招募启事：第一句是标题，套用 … Wanted（如 Helpers Wanted）；中间两句连用 Can you…? 追问两种能力；末句用 Please talk to…或 Please call…at…留下联系方式。写完检查每个 Can you 后面的动词是否原形。",
+          "answer": "开放作答，四句齐全、Can you 后动词均为原形即可。",
+          "solution": "招募启事的骨架是：Wanted 标题＋连续 Can you…?＋Please call/talk to…；语言点完全对齐 can 与 want to join。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_02",
+      "summary": "always 到 never 五个频度副词从满格排到空格，配上 What time 与 When 问答，每天作息说得明明白白。",
+      "explanation": [
+        "先学六个作息短语：get up（起床）、go to school（去上学）、get dressed（穿好衣服）、brush teeth（刷牙）、eat breakfast（吃早饭）、take a shower（洗澡），核心问答是 What time do you usually get up, Rick? —I usually get up at six thirty. 角色对话很有画面：Scott 在电台工作，节目从夜里十二点做到早上六点，他晚上八点半起床、九点吃早饭、十点二十左右锻炼，十一点去上班，还补一句 I'm never late for work.（我从不上班迟到）。语法聚焦摆出五组问答：What time do you usually get up? —I usually get up at six thirty.；What time do they get dressed? —They always get dressed at seven twenty.；What time does Rick eat breakfast? —He eats breakfast at seven o'clock.；When does Scott go to work? —He's never late.；When do your friends exercise? —They usually exercise on weekends. 练习明确要求用 always、usually 或 never 写句子。阅读短文对比姐弟作息：Tony 早上八点才起床、吃得飞快，说 I sometimes play basketball for half an hour.；Mary 六点半起床，总是先洗澡再吃顿好早餐，有时打排球。时间表达还有 half past six、a quarter past three、a quarter to seven 这类说法。",
+        "频度副词就是动作的「次数仪表盘」：always 满格 100%，天天如此；usually 十有八九，偶尔例外；often 一半以上，常做；sometimes 三三两两，偶尔来一次；never 空格 0%，一次也没有。描述作息就是把每个动作标上档位：I always brush my teeth.（天天刷牙）、I sometimes play basketball.（偶尔打球）、I never get up so early.（从不早起）。Scott 说 I'm never late for work.，一个 never 就把「零迟到」说得斩钉截铁。",
+        "站位规则两条：实义动词前——I always get up at six.、She usually swims in the evening.；be 动词后——He is never late for work.。问答骨架：问钟点用 What time do you…?／does he…?，主语是三单（he、she、Rick、Scott）就把 do 换成 does，后面动词用原形；回答再变回三单：He eats breakfast at seven o'clock. 时间点前用 at：at six thirty、at eleven o'clock。整点、半点、一刻钟的说法也备着：half past six（六点半）、a quarter past three（三点一刻）、a quarter to seven（差一刻到七点，即六点四十五）。",
+        "四个易混点：一，What time 与 When——What time 问具体钟点（at six thirty），When 可以问大范围（on weekends），两者都能配频度副词；二，do 与 does——When does Scott go to work? 里 does 背走了三单，go 仍用原形，回答才说 goes；三，never 本身是否定，不能再叠 not——He is never late. 对，He isn't never late. 错；四，频度词站错位置——I get up usually 不顺，要说 I usually get up；be 动词句里它又必须待在 be 后面。",
+        "always、usually、often、sometimes、never 正是一般现在时的「标志词」，看到它们就知道这句话在讲习惯和常态；接下来它们会和「正在做」的进行时正面相遇，一个管习惯、一个管此刻。把频度词用到自己的日程表上，就是一篇现成的 My Day 作息短文；再配上具体时间，习惯描述就完整了。建议每天睡前用三句话过一遍今天：一句 always、一句 sometimes、一句 never。"
+      ],
+      "methods": [
+        {
+          "name": "频度五级仪表盘",
+          "steps": [
+            "背熟从高到低的顺序：always→usually→often→sometimes→never",
+            "给每个词对号入座：always 天天做、usually 十有八九、often 一半以上、sometimes 偶尔、never 从不",
+            "造句前先想真实次数，再挑对应档位的词"
+          ],
+          "tip": "always 满格 never 空，usually、often、sometimes 依次往下降。"
+        },
+        {
+          "name": "频度词站位法",
+          "steps": [
+            "实义动词前：I always get up at six.／She usually swims in the evening.",
+            "be 动词后：He is never late for work.",
+            "三单提问用 does，回答动词变三单：When does Scott go to work? —He goes to work at eleven o'clock."
+          ],
+          "tip": "动词前面、be 后面站；三单发问 does 出动。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 usually、never、always、sometimes、often 按频度从高到低排队。",
+          "solution": "always＞usually＞often＞sometimes＞never，从满格 100% 一路降到空格 0%。",
+          "difficulty": 1,
+          "pitfall": "often 和 sometimes 排反——often 比 sometimes 更常做。"
+        },
+        {
+          "question": "Scott 从不迟到，用 never 造一句完整的英文。",
+          "solution": "Scott is never late for work.（或 He is never late.）never 要放在 be 动词 is 之后。",
+          "difficulty": 2,
+          "pitfall": "写成 Scott never is late，或再叠一个 not。"
+        },
+        {
+          "question": "补全问答：—What time ______ Rick ______（eat）breakfast? —He ______ breakfast at seven o'clock.",
+          "solution": "does；eat；eats。三单主语提问用 does，动词回到原形 eat；回答时主语 he 是三单，动词用 eats。",
+          "difficulty": 2,
+          "pitfall": "问句里写 eats，或回答漏掉三单 s。"
+        }
+      ],
+      "mistakes": [
+        "never 再叠 not：He isn't never late 是双重否定，正确说法是 He is never late.",
+        "频度词站错位：应说 I usually get up at six.，不要把 usually 挪到句尾；be 动词句里频度词要放 be 之后。",
+        "does 问、回答丢三单：When does Scott go to work? 的回答要说 He goes to work at eleven o'clock.，go 不能照抄。",
+        "always 与 usually 混用：always 是天天如此不留例外，usually 允许偶尔破例；说「每天刷牙」用 always 更准。"
+      ],
+      "source": {
+        "unit": "Unit 2 What time do you go to school?",
+        "pages": [
+          7,
+          12
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "按频度从高到低排出五个词：usually、never、always、sometimes、often，并写出 always 和 never 各自代表百分之多少的感觉。",
+          "answer": "always＞usually＞often＞sometimes＞never；always≈100%，never≈0%。",
+          "solution": "五个频度副词像仪表盘从满格到空格：always 天天做，usually 十有八九，often 一半以上，sometimes 偶尔，never 从不。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P9·频度副词运用练习（用 always、usually 或 never 写问答）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—What time ______ Rick eat breakfast? —He eats breakfast at seven o'clock.　A. do　B. does　C. is　D. are",
+          "options": [
+            "do",
+            "does",
+            "is",
+            "are"
+          ],
+          "answer": "B",
+          "solution": "主语 Rick 是第三人称单数，一般现在时疑问句用 does，后面的 eat 用原形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P9·语法聚焦（What time does Rick eat breakfast?—He eats breakfast at seven o'clock.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "弟弟的作息短文里有这句：Tony sometimes ______ basketball for half an hour. 空格处应填：　A. playing　B. play　C. plays　D. to play",
+          "options": [
+            "playing",
+            "play",
+            "plays",
+            "to play"
+          ],
+          "answer": "C",
+          "solution": "主语 Tony 三单，sometimes 后动词用一般现在时三单形式 plays；原句是 I sometimes play basketball for half an hour.，换成 Tony 就要加 s。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P11·Tony 与 Mary 作息短文（I sometimes play basketball for half an hour.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己的一天做一张英文作息表：写五句话，每句都用上频度词（至少一句 always、一句 sometimes、一句 never），其中三句带上具体时间（at six thirty 这样的写法）。写完自查：三单主语的动词加 s 了吗？频度词站对位置了吗？",
+          "answer": "开放作答，五句齐全、频度词使用与站位正确即可。",
+          "solution": "作息表是频度副词的最佳训练场：always／never／sometimes 各归各位，再加 at＋钟点，习惯描述就完整了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_03",
+      "summary": "How、How long、How far 三连问：怎么去、花多久、有多远，把上学路上的三件事一次问全。",
+      "explanation": [
+        "先配对五种出行方式：take the train（坐火车）、take the bus（坐公交）、take the subway（坐地铁）、ride a bike（骑自行车）、walk（步行），第一组问答是 How do you get to school? —I walk.／I ride my bike. 第三人再问 How does Mary get to school? —She takes the subway. 对话里 Jane 骑新车上学：How do you get to school? —I usually take the bus.；How far is it from your home to school? —I'm not sure…about 10 kilometers? The bus ride takes about 20 minutes.；How long does it take you to get to school? —About 15 minutes by bike. It's good exercise. 语法聚焦给出完整三连问：How do you get to school? —I ride my bike.；How does she get to school? —She usually takes the bus.；How long does it take to get to school? —It takes about 15 minutes.；How far is it from your home to school? —It's only about two kilometers.；还有 Does Jane walk to school? —No, she doesn't. She goes by bike. 和 Do they take the bus to school? —No, they don't. They walk. 数词部分学 sixty-one、seventy-two、eighty-four、ninety-nine、one hundred and five、two hundred；阅读短文讲 Liangliang 每天乘溜索过河上学的真实故事。",
+        "三个 How 各管一摊，像导航软件的三个信息：How 问「走哪条路」——方式；How long 问「要多久」——时长；How far 问「有多少公里」——距离。回答各有暗号：方式句给动作（I ride my bike.），时长句给 minutes（It takes about 15 minutes.），距离句给 kilometers（It's about two kilometers.）。看到问句里是 long 还是 far，就知道该掏 minutes 还是 kilometers，答案自己排队站好。",
+        "三问三答配对操练：How do you get to school? —I ride my bike.／I take the bus.；How long does it take (to get to school)? —It takes about 15 minutes.；How far is it from your home to school? —It's about two kilometers. 同一件事还有两套说法：动词版做谓语 take the bus／ride a bike；by 版本做状语 by bus／by bike——She goes by bike. 等于 She rides her bike. 数词规则：hundred 前面有具体数字时不加 s——two hundred、five hundred；一百零五说 one hundred and five。距离句骨架 It's about…kilometers from A to B.，时长句骨架 It takes sb. 一段时间 to get to…。",
+        "最容易打架的是 How long 与 How far：How long 的答案带 minutes／hours，How far 的答案带 kilometers／meters，先看问句再挑单位。第二种混淆是 take 与 by：take the bus 是动词短语能独立做谓语，by bus 只能跟在动词后面当状语，不能写 by the bus。第三，it 是三单，It takes 里的 s 不能丢；Does 问句后的动词保持原形。第四，hundred 被具体数字管住时不加 s，two hundreds 是错的。",
+        "how far 是第一次登场的距离问法，往后问路、指路、描述位置都要靠它开路；by bus／by bike 这套「by＋交通」的表达也会一路用到旅行话题。把上学路线当成第一个「调查项目」：用三连问采访两位同学，把方式、时长、距离记进表格，就是一份现成的英文出行报告；数词 hundred／kilometer／minute 也为以后读更大的数字和更长的行程铺路。"
+      ],
+      "methods": [
+        {
+          "name": "三连问配对法",
+          "steps": [
+            "问方式：How do you get to school? —I ride my bike.／I take the bus.",
+            "问时长：How long does it take? —It takes about 15 minutes.",
+            "问距离：How far is it from your home to school? —It's about two kilometers."
+          ],
+          "tip": "How 管方式、long 管时长、far 管距离；minutes 配 long，kilometers 配 far。"
+        },
+        {
+          "name": "交通表达两件套",
+          "steps": [
+            "动词版做谓语：take the bus／ride a bike／walk to school",
+            "by 版本做状语：by bus／by bike／by subway——She goes by bike.",
+            "数词口诀：具体数字＋hundred 不加 s——two hundred；一百零五＝one hundred and five"
+          ],
+          "tip": "take 当动词用，by 粘在动词后；百词不变形。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全问句：—______ do you get to school? —I ride my bike.",
+          "solution": "How。问出行方式用 How，回答给动作 I ride my bike.",
+          "difficulty": 1,
+          "pitfall": "误用 What time——那是问几点，不是问怎么去。"
+        },
+        {
+          "question": "选出 How long 的正确回答：—How long does it take to get to school?　A. At seven o'clock.　B. It's about 15 kilometers.　C. It takes about 15 minutes.　D. I ride my bike.",
+          "solution": "C。How long 问时长，答案带 minutes；B 是 How far 的答案，D 是 How 的答案，A 回答钟点。",
+          "difficulty": 2,
+          "pitfall": "minutes 和 kilometers 两个单位认错队。"
+        },
+        {
+          "question": "翻译成英文：从我家到学校大约两公里，骑自行车大约花 15 分钟。",
+          "solution": "It's about two kilometers from my home to school, and it takes about 15 minutes by bike. 距离句用 It's about…kilometers from…to…，时长句用 it takes…by bike.",
+          "difficulty": 3,
+          "pitfall": "takes 丢三单 s；by bike 写成 by the bike。"
+        }
+      ],
+      "mistakes": [
+        "How long 与 How far 答语错位：minutes 答 How long，kilometers 答 How far，先认问句再挑单位。",
+        "two hundreds：hundred 前有具体数字时不加 s，两百是 two hundred；只有 hundreds of（数以百计）才加 s。",
+        "It takes 丢三单：it 是三单主语，要说 It takes about 15 minutes.，不是 It take。",
+        "by the bus／ride bike：by 后不加 the（by bus、by bike），ride 后要接 a bike（ride a bike）；take the bus 保留 the。"
+      ],
+      "source": {
+        "unit": "Unit 3 How do you get to school?",
+        "pages": [
+          13,
+          18
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How far is it from your home to school? —______　A. It's only about two kilometers.　B. It takes two hours.　C. I ride my bike.　D. At seven o'clock.",
+          "options": [
+            "It's only about two kilometers.",
+            "It takes two hours.",
+            "I ride my bike.",
+            "At seven o'clock."
+          ],
+          "answer": "A",
+          "solution": "How far 问距离，答语给 kilometers：It's only about two kilometers.；B 是 How long 的答语，C 是 How 的答语。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P15·语法聚焦（How far is it from your home to school?—It's only about two kilometers.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "「两百」的正确英文是：　A. two hundreds　B. two hundred　C. two hundred of　D. two hundreds of",
+          "options": [
+            "two hundreds",
+            "two hundred",
+            "two hundred of",
+            "two hundreds of"
+          ],
+          "answer": "B",
+          "solution": "hundred 前有具体数字 two 时不加 s；hundreds of 才表示「数以百计」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P14·数词听读练习（ninety-nine、one hundred and five、two hundred）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "对话里 Jane 回答 About 15 minutes by bike.，她听到的上一句应该是：　A. How long does it take you to get to school?　B. How far is it from your home to school?　C. How do you get to school?　D. What time do you get up?",
+          "options": [
+            "How long does it take you to get to school?",
+            "How far is it from your home to school?",
+            "How do you get to school?",
+            "What time do you get up?"
+          ],
+          "answer": "A",
+          "solution": "答语给 minutes，问句是 How long does it take you to get to school?；原对话里 The bus ride takes about 20 minutes 之前也是问 How long。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P14·Lisa 与 Jane 上学对话（The bus ride takes about 20 minutes…About 15 minutes by bike）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一次出行小调查：用三连问采访两位同学——How do you get to school?／How long does it take?／How far is it from your home to school?，把方式、时长、距离记进表格，再用三句英文汇报，例如 He rides his bike. It takes about 10 minutes. It's about two kilometers.",
+          "answer": "开放作答，完成两份记录与三句汇报即可。",
+          "solution": "调查把三问三答串成真实的交际任务；汇报时注意三单：He rides…、It takes…。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_04",
+      "summary": "规则表达三件套：Don't 禁止、can't 不许、have to 不得不，校规家规一条条说得清清楚楚。",
+      "explanation": [
+        "规则从五条班规开始：Don't arrive late for class. You must be on time.（上课别迟到，必须准时）；Don't run in the hallways.（别在走廊奔跑）；Don't eat in the classroom. You must eat in the dining hall.（别在教室吃东西，必须去食堂吃）；Don't listen to music in class.；Don't fight.（别打架）。新生 John 与 Alice 的对话补上许可与必须：Can we bring music players to school? —No, we can't. And we always have to wear the school uniform.；we also have to be quiet in the library. 语法聚焦排成一张规则问答表：Don't run in the hallways.／Don't fight.；What are the rules? —We must be on time for class.；Can we eat in the classroom? —No, we can't, but we can eat in the dining hall.；Does he have to wear a uniform at school? —Yes, he does./No, he doesn't.；What do you have to do? —We have to be quiet in the library. 家规练习里有 practice the guitar（练吉他）、do the dishes（洗碗）、watch TV、go out on school nights 等短语，配 before dinner、after school、on school nights 这些时间。阅读是 Molly 写给 Dr. Know 的信：家里、学校规则太多，Dr. Know 回信说规则是帮助我们才定下的，We have to follow them. 自测里同一件事给出两种说法：Don't arrive late for class.＝We can't arrive late for class.",
+        "规则表达像家里的三色灯：Don't…是红灯，直接喊「别做」；can't 是禁行牌，「不被允许」；have to 是任务单，「不得不做」。三条班规读起来最有画面：走廊里不许跑、教室里不许吃东西、不许打架。同一件事可以换两种说法——禁止版 Don't arrive late for class. 对全班喊话，不许版 We can't arrive late for class. 说自己的处境，意思一样，视角不同。",
+        "造规则句三选一：禁止句 Don't＋动词原形（Don't be late for class.）；不许句主语＋can't＋动词原形（We can't arrive late.）；任务句主语＋have to＋动词原形（We have to wear a uniform.）。have to 会变形：主语三单变 has to——He has to practice the guitar after school.；疑问句借 does——Does he have to wear a uniform? —Yes, he does.；后面动词永远是原形：practice the guitar、do the dishes、be quiet。询问许可用 Can we…?，答 No, we can't, but we can…先拒绝再给出口，是规则问答最常见的节奏。",
+        "四个坑：一，Don't 后面跟原形，别写成 Don't runs／Don't running；二，have to 别忘三单 has to——She have to 错；三，Does he have to…? 的回答用 does 配套 Yes, he does.，不换成 can；四，must 与 have to 都能表示必须，must 多来自说话人主观的强要求（You must be on time.），have to 强调客观上不得不做（I have to do my homework.），初中阶段先记牢句型变化：have to 有 has to／Do you have to…? 的变形，must 没有。固定搭配别换字：do the dishes（不说 make the dishes）、practice the guitar、arrive late for class。",
+        "规则表达把 can 的「许可」一面翻出来，又引来 must 和 have to，情态动词家族就此凑齐了主力；往后写「我的家规」短文、给 Dr. Know 这样的人物写信诉苦，都靠这三件套搭骨架。建议给自己家立三条「英文家规」贴在门上：一条 Don't、一条 can't、一条 have to，每次进出门扫一眼，规则句式就刻进脑子了。"
+      ],
+      "methods": [
+        {
+          "name": "一事两说法",
+          "steps": [
+            "先写出违反的事：arrive late for class",
+            "禁止版喊话：Don't arrive late for class.",
+            "不许版陈述：We can't arrive late for class.",
+            "任务版补充：We have to be on time."
+          ],
+          "tip": "禁止 Don't 打头，不许 can't 跟上，任务 have to 原形站岗。"
+        },
+        {
+          "name": "have to 变形三看",
+          "steps": [
+            "一看主语：三单用 has to，其余 have to——He has to practice the guitar.",
+            "二看疑问：Does he have to…? —Yes, he does.",
+            "三看动词：have to 后面永远接原形——do the dishes、be quiet"
+          ],
+          "tip": "三单 has to 出马，后面动词保持原形。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "改错：Don't eats in the classroom.",
+          "solution": "Don't eat in the classroom. Don't 后面接动词原形，eats 要还原成 eat。",
+          "difficulty": 1,
+          "pitfall": "照抄三单 eats，忘了祈使句否定用原形。"
+        },
+        {
+          "question": "选词填空：After school, Dave ______ to practice the guitar.（have／has）",
+          "solution": "has。主语 Dave 是三单，have to 变 has to，后面 practice 用原形。",
+          "difficulty": 2,
+          "pitfall": "填 have，漏掉三单变化。"
+        },
+        {
+          "question": "把 We can't listen to music in class. 换成 Don't 开头的同义句。",
+          "solution": "Don't listen to music in class. can't 句与 Don't 句可以互换，动词都保持原形。",
+          "difficulty": 2,
+          "pitfall": "写成 Don't listening，或画蛇添足加 not。"
+        }
+      ],
+      "mistakes": [
+        "Don't 后动词变形：Don't runs／Don't running 都错，祈使句否定是 Don't＋原形：Don't run in the hallways.",
+        "have to 漏三单：She has to wear a uniform.，不是 She have to；疑问句 Does he have to…? 里 have 也用原形。",
+        "Does…have to 问句用 can 答：应答 Yes, he does.／No, he doesn't.，与提问的助动词保持一致。",
+        "搭配写混：洗碗是 do the dishes，不是 make the dishes；迟到是 arrive late for class；练吉他说 practice the guitar."
+      ],
+      "source": {
+        "unit": "Unit 4 Don't eat in class.",
+        "pages": [
+          19,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Can we eat in the classroom? —______　A. Yes, we can eat in the classroom.　B. No, we don't.　C. No, we can't, but we can eat in the dining hall.　D. Yes, we are.",
+          "options": [
+            "Yes, we can eat in the classroom.",
+            "No, we don't.",
+            "No, we can't, but we can eat in the dining hall.",
+            "Yes, we are."
+          ],
+          "answer": "C",
+          "solution": "规则问答先拒绝再给出口：No, we can't, but we can eat in the dining hall.，与语法聚焦原句一致。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P21·语法聚焦（Can we eat in the classroom?—No, we can't, but we can eat in the dining hall.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "「不要在走廊里奔跑」的英文规则是：　A. Don't run in the classroom.　B. Don't fight in the hallways.　C. Don't run in the hallways.　D. Don't arrive late for class.",
+          "options": [
+            "Don't run in the classroom.",
+            "Don't fight in the hallways.",
+            "Don't run in the hallways.",
+            "Don't arrive late for class."
+          ],
+          "answer": "C",
+          "solution": "五条班规原文：Don't run in the hallways.；hallways 是走廊，fight 是打架，arrive late 是迟到，都与题意不符。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P19·班规五条（Don't run in the hallways.／Don't arrive late for class. 等）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Dave 的家规表里，晚饭后他不得不洗碗：After dinner, Dave has to ______.　A. do the dishes　B. does the dishes　C. doing the dishes　D. do the dish",
+          "options": [
+            "do the dishes",
+            "does the dishes",
+            "doing the dishes",
+            "do the dish"
+          ],
+          "answer": "A",
+          "solution": "has to 后面接动词原形 do，固定搭配 do the dishes（dishes 用复数）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P22·家规问答表（practice the guitar、do the dishes、watch TV 等家规短语）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给家里立三条英文家规并各配一句理由：一条用 Don't…，一条用 can't…，一条用 have to…；写完自查三件事——Don't 后动词是否原形、三单主语是否用 has to、每条理由是否说清「为什么」。",
+          "answer": "开放作答，三条规则句式正确并各带理由即可。",
+          "solution": "规则＋理由的两步写法是书信体的雏形：先摆规则，再说感受与原因，正好接上给 Dr. Know 写信的思路。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_05",
+      "summary": "be＋V-ing 给动作开直播：What are you doing? —I'm watching TV，再分清问习惯与问此刻的两副面孔。",
+      "explanation": [
+        "先配对九个正在进行的动作：watching TV、cleaning、reading a newspaper、talking on the phone、listening to a CD、using the computer、making soup、washing the dishes、exercising。问答从三组人物展开：What are you doing? —I'm watching TV.；What's he doing? —He's using the computer.；What are they doing? —They're listening to a CD. 电话对话里 Jenny 与 Laura 互问：What are you doing? —Not much. I'm just washing my clothes.；—I'm watching TV. 语法聚焦摆出全套：What are you doing? —I'm watching TV.；What's she doing? —She's washing her clothes.；What are they doing? —They're listening to a CD.；Are you doing your homework? —Yes, I am./No, I'm not. I'm cleaning my room.；Is he reading a newspaper? —Yes, he is./No, he isn't. He's playing basketball.；Are they using the computer? —Yes, they are./No, they aren't. They're exercising. 最关键的是这对对比句：She's exercising (now). 与 She exercises (on Mondays/every night/in the mornings, etc.). 练习照样例写句：Jenny is cleaning the house now. 对 Bob makes dinner every Saturday. 自测给出三条 V-ing 变形样本：play—playing、make—making、run—running；阅读短文写 Zhu Hui 在纽约过端午节，通篇是进行时：His mom and aunt are making zongzi. His dad and uncle are watching the boat races on TV. He's talking on the phone to his cousin in Shenzhen.",
+        "现在进行时像给动作开一场「直播」：be 动词是直播间的支架，V-ing 是正在播放的画面。I'm watching TV.＝我正在看电视，此刻屏幕亮着；She's washing her clothes.＝她此刻正洗衣服。它和一般现在时是两台不同的摄像机：一台拍「直播」，一台拍「常设节目单」——She's exercising (now). 说此刻正在锻炼，She exercises (on Mondays). 说每逢周一都锻炼。直播靠 now、Look!、Listen! 这些现场信号提醒，节目单靠 every day、on Mondays 这些日历信号提醒。",
+        "组装两步：第一步按主语选 be——I 用 am，he/she/it 或单数人名用 is，you/we/they 用 are；第二步把动词变成 V-ing 直接接上：I am doing my homework.／He is playing basketball. 提问把 What 提前：What are you doing?／What's she doing?；一般疑问句把 be 挪到句首：Are you doing your homework? —Yes, I am.／No, I'm not. V-ing 三规则：一般动词直接加 ing（play—playing、watch—watching、do—doing）；以不发音的 e 结尾去 e 加 ing（make—making、write—writing、have—having）；重读闭音节结尾双写末尾字母再加 ing（run—running、swim—swimming、sit—sitting）。",
+        "最大的坑是两问相撞：What do you do? 问职业或惯常做什么——I'm a student.／I often play soccer.；What are you doing? 问此刻——I'm doing my homework. 答句的时态要跟问句走，拿直播答节目单就乱套。其次是 V-ing 拼写：make 要先去 e（makeing 错），run 要双写 n（runing 错）；cleaning、reading 这类直接加就行。最后别忘了 be：进行时没有 be 就散架，I watching TV 是错的，必须说 I'm watching TV。",
+        "进行时是接下来学习的主力时态：下一话题它要和天气搭档（外面正下着雨，It's raining.），往后还要长出过去进行时；「直播／节目单」的对比也会一路用到频度词、时间词的选择上。训练法很简单：在家里开一场「人肉直播」——每天挑一个时刻，说出每个人正在做什么：Mom is cooking. Dad is reading. I'm doing my homework. 三句下来 be＋V-ing 就长在嘴上了。"
+      ],
+      "methods": [
+        {
+          "name": "直播两件套组装法",
+          "steps": [
+            "第一步选 be：I→am，he/she/it 单数→is，you/we/they→are",
+            "第二步动词变 V-ing 接上：I am doing my homework.／He is playing basketball.",
+            "提问 What 提前：What are you doing?／What's she doing?；一般疑问把 be 挪句首：Are you doing…? —Yes, I am."
+          ],
+          "tip": "be 是支架，V-ing 是画面；谁做主语 be 就换谁。"
+        },
+        {
+          "name": "V-ing 三规则",
+          "steps": [
+            "直接加 ing：play—playing、watch—watching、do—doing",
+            "不发音 e 结尾去 e 加 ing：make—making、write—writing、have—having",
+            "重读闭音节双写末尾字母再加 ing：run—running、swim—swimming、sit—sitting"
+          ],
+          "tip": "直加、去 e 加、双写加；run 双 n，make 摘 e。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写出 swim 的 V-ing 形式，并用它说一句「他正在游泳」。",
+          "solution": "swimming；He is swimming. swim 是重读闭音节，双写 m 再加 ing。",
+          "difficulty": 2,
+          "pitfall": "写成 swiming，漏了双写。"
+        },
+        {
+          "question": "连词成句：he / read a newspaper / now",
+          "solution": "He is reading a newspaper now. he 配 is，read 变 reading，now 提示进行时。",
+          "difficulty": 2,
+          "pitfall": "选错 be（He are…），或 read 忘变 ing。"
+        },
+        {
+          "question": "别人问你 What do you do?，你正写着作业，该怎么回答？如果问的是 What are you doing? 呢？",
+          "solution": "What do you do? 问职业或惯常，答 I'm a student.；What are you doing? 问此刻，答 I'm doing my homework. 两问一问身份、一问直播，答案各归各。",
+          "difficulty": 3,
+          "pitfall": "拿 I'm doing my homework. 回答 What do you do?——时态与问题错位。"
+        }
+      ],
+      "mistakes": [
+        "漏掉 be：I watching TV 错，进行时必须 I'm watching TV，be 是支架不能省。",
+        "be 后接原形：He is watch TV 错，要说 He is watching TV，be 后动词必须变 V-ing。",
+        "V-ing 拼写出错：make—makeing 错（先去 e：making），run—runing 错（双写 n：running）。",
+        "两问混答：What do you do? 是问职业习惯，回答 I'm watching TV 就答非所问；先判断问句时态再作答。"
+      ],
+      "source": {
+        "unit": "Unit 6 I'm watching TV.",
+        "pages": [
+          31,
+          36
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What's she doing? —______　A. She's washing her clothes.　B. She washes her clothes on Sundays.　C. She is wash clothes.　D. She washing her clothes.",
+          "options": [
+            "She's washing her clothes.",
+            "She washes her clothes on Sundays.",
+            "She is wash clothes.",
+            "She washing her clothes."
+          ],
+          "answer": "A",
+          "solution": "What's she doing? 问此刻动作，回答用 be＋V-ing：She's washing her clothes.；B 是一般现在时说习惯，C、D 结构残缺。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P33·语法聚焦（What's she doing?—She's washing her clothes.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "写出三个动词的 V-ing 形式并注明用了哪条规则：make、run、listen。",
+          "answer": "making（去 e 加 ing）、running（双写 n 加 ing）、listening（直接加 ing）。",
+          "solution": "三条规则各管一摊：make 以不发音 e 结尾先摘 e；run 是重读闭音节要双写；listen 是一般动词直接加。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P36·V-ing 变形（play—playing、make—making、run—running）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一句说的是「她现在正在锻炼」（直播画面）？　A. She exercises now.　B. She exercising now.　C. She is exercising now.　D. She is exercise now.",
+          "options": [
+            "She exercises now.",
+            "She exercising now.",
+            "She is exercising now.",
+            "She is exercise now."
+          ],
+          "answer": "C",
+          "solution": "进行时＝be＋V-ing：She is exercising now.；对比句 She exercises (on Mondays). 说的是每周一都锻炼的习惯。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P33·两种时态对比句（She's exercising (now).／She exercises (on Mondays…).）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "晚饭后观察家人三分钟，写三句英文直播：爸爸在做什么、妈妈在做什么、你自己又在做什么（Mom is cooking. 这样的句式），其中至少一句用上 now。写完自查：每句都有 be 吗？V-ing 拼写过了三规则吗？",
+          "answer": "开放作答，三句进行时结构完整即可。",
+          "solution": "「家庭直播」把 be＋V-ing 变成日常口头禅；以后学天气话题，It's raining. 用的还是同一个直播机位。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_06",
+      "summary": "问天气说 How's the weather?，问近况说 How's it going?，再加一句 What are you doing?，天气加正在做的事，电话聊天就不冷场。",
+      "explanation": [
+        "这部分先学五个天气词 raining、windy、cloudy、sunny、snowing，用问答 \"How's the weather in Shanghai?\" \"It's cloudy.\" 练习城市天气；接着语法聚焦把天气和正在进行的事连起来：\"How's the weather? It's cloudy./It's sunny./It's raining.\" \"What are you doing? I'm cooking.\" \"What are they doing? They're playing basketball in the park.\"，还给出问候升级 \"How's it going? Great!/Not bad./Terrible!\"。电话对话里 Steve 先问 \"How's it going?\"，Rick 答 \"Not bad, thanks.\"，再问 \"What are you doing?\"，Steve 答 \"I'm playing basketball with some friends at the park.\"，Rick 回应 \"Sounds like you're having a good time.\"。",
+        "为什么天气和进行时放在一起学？朋友打电话来，最先聊的就是\"你那儿天气怎么样、你在干什么\"——一句 It's+天气词，一句 I'm+动词ing，聊天就自然展开了。How's it going? 是比 How are you? 更随口的\"最近怎么样\"，回答不用介绍自己，按心情说 Great!（很棒）/Not bad.（还不错）/Terrible!（糟透了）就行。",
+        "三步聊天气：第一步问 How's the weather (in+城市)?；第二步用 It's+天气词回答——动词变的用 raining、snowing，形容词的用 windy、cloudy、sunny；第三步追问 What are you doing?，用 I'm/He's/They're+动词ing 回答。记住进行时公式 be+V-ing，am/is/are 一个都不能丢。",
+        "易混点：一是 It's raining 强调\"正在下\"，It's rainy 泛指多雨，两个都对，但不能说 It's rain；二是 How's it going? 问的是近况，不是问天气，别张口就答 It's sunny；三是进行时不能省 be 动词，要说 I'm playing，不能只说 I playing。",
+        "这部分把前面刚学的进行时和天气词合到一起，是第一次综合运用；后面问路、点餐的问句也都靠 How's/Is there/What kind 这些疑问词开头，先把 How's 问句练熟，疑问句的语感就有了。平时可以每天抬头看一眼天，用一句英文自言自语报天气，坚持一周就成习惯了。"
+      ],
+      "methods": [
+        {
+          "name": "三步天气问答法",
+          "steps": [
+            "第一步：问天气——How's the weather (in Beijing/Shanghai)?",
+            "第二步：用 It's+天气词回答——It's raining./It's sunny./It's windy.",
+            "第三步：追问对方在做什么——What are you doing? 用 I'm+V-ing 回答"
+          ],
+          "tip": "问天气 How's the weather，答天气 It's 打头；问动作 What are you doing，答动作 be 加 ing。"
+        },
+        {
+          "name": "How's it going 问候应答法",
+          "steps": [
+            "听清对方问的是近况 How's it going?，不是问天气",
+            "按心情三选一回答：Great!（很棒）/ Not bad.（还不错）/ Terrible!（糟透了）",
+            "想接着聊就补一句正在做的事：I'm reading at home."
+          ],
+          "tip": "it going 问近况，Great、Not bad、Terrible 三选一，别答成天气。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "早上出门看到地上湿湿的、天上还在掉雨点，用一句英语报告天气。",
+          "solution": "It's raining.（raining 是 rain 的 -ing 形式，表示正在下雨。）",
+          "difficulty": 1,
+          "pitfall": "别说成 It's rain.——进行时必须有 be 动词加 -ing。"
+        },
+        {
+          "question": "电话里朋友问：What are you doing? 你正在公园和朋友们打篮球，用一句完整的话回答。",
+          "solution": "I'm playing basketball with some friends at the park.",
+          "difficulty": 2,
+          "pitfall": "丢掉 be 动词说成 I playing basketball 是最常见的错误。"
+        },
+        {
+          "question": "朋友打电话先说 Hi, it's Steve. How's it going? 下面三种回答哪个合适：It's cloudy. / Not bad, thanks. / I'm cooking.",
+          "solution": "Not bad, thanks.（How's it going? 问的是近况，按心情回答；另两句分别答的是天气和动作，答非所问。）",
+          "difficulty": 2,
+          "pitfall": "把 How's it going? 当成问天气，开口就报 It's sunny。"
+        }
+      ],
+      "mistakes": [
+        "weather 是不可数名词，永远单数：How's the weather? 不能说 How are the weathers?",
+        "It's raining. 里 be 动词不能丢，也不能只写 It's rain.——be+V-ing 是进行时的完整公式。",
+        "How's it going? 是问近况的随口问候，回答用 Great!/Not bad./Terrible!，不要当成问天气或问地点。",
+        "sunny、windy、cloudy 是形容词直接跟在 It's 后面；raining、snowing 是动词 -ing 形式，两组都对，但别写成 It's sun。"
+      ],
+      "source": {
+        "unit": "Unit 7 It's raining!",
+        "pages": [
+          37,
+          42
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "看描述选天气词：北风呼呼地吹，路人的围巾都被吹起来了。How's the weather? 应该回答（　）",
+          "options": [
+            "It's windy.",
+            "It's snowing.",
+            "It's sunny.",
+            "It's cloudy."
+          ],
+          "answer": "A",
+          "solution": "描述里只有风最大，选 It's windy.（windy=有风的）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P37·天气词与城市问答（How's the weather in Shanghai? It's cloudy.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全电话对话：—_____? —I'm playing basketball with some friends at the park.",
+          "options": [
+            "What do you do?",
+            "What are you doing?",
+            "How's the weather?",
+            "How's it going?"
+          ],
+          "answer": "B",
+          "solution": "回答是 I'm playing…（进行时），对应的问句是 What are you doing?；What do you do? 问的是平时做什么，How's the weather? 问天气，How's it going? 问近况。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P38·电话对话（Steve: I'm playing basketball with some friends at the park.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：改问近况——朋友发来一句 How's it going? 你今天过得糟透了，选出最合适的回答。",
+          "options": [
+            "Great!",
+            "Not bad.",
+            "Terrible!",
+            "It's sunny."
+          ],
+          "answer": "C",
+          "solution": "How's it going? 问近况，心情糟回答 Terrible!；It's sunny. 是天气，答非所问。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P39·问候应答变式（How's it going? Great!/Not bad./Terrible!）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "假设你在外地过寒假，用两三句英语给好朋友写一段话：先报当地天气，再说你和家人正在做什么，最后问一句对方近况。",
+          "answer": "It's snowy here. I'm making a snowman with my cousin. How's it going?",
+          "solution": "参考：It's snowy here. I'm making a snowman with my cousin. How's it going?（天气词+be+V-ing+问候句，三要素齐即可。）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_07",
+      "summary": "用 Is there…near here? 问附近有没有地方，用 across from、next to、between…and… 说清方位，再跟上 go along 和 turn left/right，问路带路都会了。",
+      "explanation": [
+        "这部分先学九个地点词 post office、police station、hotel、restaurant、bank、hospital、street、pay phone、park，和核心问答 \"Is there a hospital near here?\" \"Yes, there is. It's on Bridge Street.\"；再用六句话练方位：\"The pay phone is across from the library.\" \"…next to the library.\" \"…between the post office and the library.\" \"…in front of the library.\" \"…behind the library.\" \"…on Green Street.\"。语法聚焦还给出 \"Where's the hotel? It's behind the police station.\" \"Where are the pay phones? They're between the post office and the library.\"；指路用语是 \"Go along Bridge Street and turn left…\" 和 \"turn right at the first crossing and the restaurant is on your left\"。",
+        "问路就像玩\"找宝藏\"：Is there…near here? 先确认附不附近，Yes, there is 就是\"有\"；across from 是\"隔街的对面\"（隔着一条路脸对脸），in front of 是\"同侧的正前方\"，next to 是\"紧挨着\"，between A and B 是\"被夹在 A 和 B 中间\"。方向词 turn left/right 一转，go along 一走，路线就画出来了。",
+        "问路三步：①礼貌开头 Excuse me.；②问 Is there a bank near here? 或 Where's the hotel?；③抓两个关键信息记答案——街道（on Center Street）加参照物（across from the park）。指路四步：①go along+街名；②turn left/right（at+路口）；③It's on your left/right 说终点；④对方道谢时回 You're welcome.。",
+        "易混点：一是 Is there…? 的回答要用 there 开头——Yes, there is./No, there isn't.，不能顺口答 Yes, it is.；二是 across from（隔街相对）和 in front of（正前方）方向不同；三是 between…and… 必须两头都写：between the post office and the library，只写一个地点句子就不完整。",
+        "there be 句型在小学已见过，这里升级成\"问路指路\"的实用工具；本部分阅读短文里还有 I like to spend time there on weekends.（spend time 花时间）这样的好句子，之后写\"我的街区\"短文时，就用 there be 加方位介词搭骨架，再加一两句自己的感受。"
+      ],
+      "methods": [
+        {
+          "name": "问路三步法",
+          "steps": [
+            "① Excuse me. 开头有礼貌",
+            "② 问 Is there a bank near here? 或 Where's the hotel?",
+            "③ 抓两个关键信息：街道（on Center Street）+参照物（across from the park）"
+          ],
+          "tip": "Is there 提前，there is 来回答；先说街道再说对面，方位两步记清楚。"
+        },
+        {
+          "name": "指路方位词诀",
+          "steps": [
+            "记方位：across from=对面，next to=紧挨着，between…and…=夹在中间，in front of=正前方，behind=在后面",
+            "走位：go along+街道，turn left/right at+路口",
+            "终点：It's on your left/right."
+          ],
+          "tip": "across 对面 next 挨着，between 中间两边站；go along 一直走，turn 一转弯，on your 左右是终点。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "学校在邮局对面，中间隔一条马路，选正确的介词短语补全：The school is _____ the post office.",
+          "solution": "across from（隔街相对用 across from；in front of 是同侧的正前方，中间没隔马路。）",
+          "difficulty": 1,
+          "pitfall": "把 across from 和 in front of 混为一谈——一个是隔着街的对面，一个是同侧的正前方。"
+        },
+        {
+          "question": "补全对话：—Is there a bank near here? —_____. It's on Center Street.",
+          "solution": "Yes, there is.（Is there…? 的回答必须用 there is/there isn't，不用 it is。）",
+          "difficulty": 1,
+          "pitfall": "顺口答成 Yes, it is.——there be 问句要用 there 回答。"
+        },
+        {
+          "question": "快餐店被面包店和书店夹在中间，选正确表达补全：The fast-food restaurant is _____ the bakery and the bookstore.",
+          "solution": "between（between…and… 是固定搭配，两头缺一不可。）",
+          "difficulty": 2,
+          "pitfall": "只写 between the bakery 就停——between 后面必须跟 and+另一个地点。"
+        }
+      ],
+      "mistakes": [
+        "Is there…? 的回答是 Yes, there is./No, there isn't.，不能说 Yes, it is.——问句里是 there，回答也用 there。",
+        "between…and… 必须连着两个地点：between the post office and the library，漏掉 and 后面的地点句子就不完整。",
+        "across from 是隔街的\"对面\"，in front of 是同侧的\"正前方\"，描述位置时别互换。",
+        "turn left at the first crossing 里 at 引出转弯的路口；on your left 表示\"在你左手边\"，两个介词别混。"
+      ],
+      "source": {
+        "unit": "Unit 8 Is there a post office near here?",
+        "pages": [
+          43,
+          48
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "看描述选方位介词：公用电话亭和图书馆隔着一条街、脸对脸，正确说法是：The pay phone is _____ the library.",
+          "options": [
+            "in front of",
+            "across from",
+            "behind",
+            "next to"
+          ],
+          "answer": "B",
+          "solution": "隔一条街、脸对脸，用 across from（在……对面）；next to 是紧挨着，in front of 是正前方，behind 是在后面。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P44·方位介词句（The pay phone is across from the library.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全问路对话：—Excuse me, is there a bank around here? —Yes, there is. It's on Center Street. It's _____ the park.（银行恰好正对着公园）",
+          "options": [
+            "between",
+            "next to",
+            "across from",
+            "behind"
+          ],
+          "answer": "C",
+          "solution": "正对着公园用 across from the park；between 后面要跟 and+另一个地点，这里不合适。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P44·问路对话（It's on Center Street. It's across from the park.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：补全指路的话—How can I get to the restaurant? —Go _____ Bridge Street and _____ right at the first crossing. The restaurant is on your left.",
+          "options": [
+            "along; turn",
+            "on; go",
+            "to; take",
+            "at; turn"
+          ],
+          "answer": "A",
+          "solution": "go along+街道=沿着……走；turn right at+路口=在路口右转，是学过的指路标准说法。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标七下 P46·指路用语变式（go along Bridge Street; turn right at the first crossing）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "在纸上给自己家附近画一张简单路线图，然后用三句英语向同学介绍：一句用 there is 说有什么地方，一句用方位介词说它在哪，一句用 turn left/right 说怎么从家走到那里。",
+          "answer": "There is a bookstore near my home. It is next to a bank. Go along our street and turn right at the supermarket, and it is on your left.",
+          "solution": "参考：There is a bookstore near my home. It is next to a bank. Go along our street and turn right at the supermarket, and it is on your left.（there be+方位介词+指路，三句齐即可。）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_08",
+      "summary": "问外貌说 What does he look like?；is 报身高体型（He's really tall.），has 加头发眼镜（He has curly hair.）；多形容词排队：长短、卷直、颜色。",
+      "explanation": [
+        "这部分围绕问句 \"What does he look like?\" 展开，语法聚焦给出标准答法：\"What does he look like? He's really tall.\" \"What does she look like? She has long straight hair.\" \"Do they have straight or curly hair? They have curly hair.\" \"Is he tall or short? He isn't tall or short. He's of medium height.\"。词表分三组：身高 tall、short、medium height；体型 thin、heavy；头发 short hair、curly hair、long hair、straight hair。对话里还有 \"he has brown hair and wears glasses.\" 和 \"I may be a little late.\"；阅读短文里目击者这样描述嫌疑人：\"He has long straight brown hair and big eyes\"。",
+        "描写一个人=三块拼图：①身高——tall 高、short 矮、of medium height 不高不矮；②体型——thin 瘦、heavy 胖；③头发和五官——long/short、curly/straight、black/blonde/brown hair，还有 glasses、big eyes。身高体型说的是\"他是什么样\"，用 be 动词；头发眼镜说的是\"他有什么\"，用 have/has——两句连着说，人物就立体了。",
+        "描述四步：①用 What does he/she look like? 问；②先说身高体型 He's really tall./She's thin.；③再说头发 He has curly hair.；④补特征 He wears glasses.。多个形容词修饰头发有排队规则：长短在前、卷直居中、颜色最后——long curly black hair。",
+        "易混点：一是 look like 问外貌，别答成爱好；What does he like?（他喜欢什么）少了个 look，意思全变。二是 is 和 has 分工：He is tall. He has short hair.，说成 He has tall 就错了。三是 of medium height 里的 of 不能丢。四是\"一点儿\"用 a little，比如 may be a little late（可能迟到一会儿）。",
+        "这是第一次把人物外貌当成系统来学，\"is 加身高体型、has 加头发特征\"的分工和形容词排序规则，在写\"我的好朋友\"这类人物小作文时直接用得上；先照语法聚焦的问答练熟，再试着连成三五句的小段落，让同学听了能猜出是谁，就说明描述到位了。"
+      ],
+      "methods": [
+        {
+          "name": "外貌三块拼图法",
+          "steps": [
+            "第一块身高：He's really tall. / He isn't tall or short. He's of medium height.",
+            "第二块体型：She's thin. / He's heavy.",
+            "第三块头发与特征：He has long curly black hair. / He wears glasses."
+          ],
+          "tip": "描外貌 look like；身高体型 is 来报，头发眼镜 has 来加。"
+        },
+        {
+          "name": "形容词排队法",
+          "steps": [
+            "规则：长短 → 卷直 → 颜色 → hair",
+            "照着排：long curly black hair（长的+卷的+黑色的头发）",
+            "检查：颜色不能跑到最前——black long curly hair 是错序"
+          ],
+          "tip": "先说长短，再讲卷直，最后报颜色，排队口诀记心间。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把问句补充完整：你想问那位新老师长什么样——What _____ she look like?",
+          "solution": "does——第三人称单数用 What does she look like?；like 前少了 look，就变成问她喜欢什么了。",
+          "difficulty": 1,
+          "pitfall": "漏掉 look：What does she like? 是问喜好，不是问外貌。"
+        },
+        {
+          "question": "把形容词排成正确顺序填空：她留着一头长长的金色直发——She has _____ hair.（long / straight / blonde）",
+          "solution": "long straight blonde——排序规则：先长短，再卷直，最后颜色。",
+          "difficulty": 2,
+          "pitfall": "把颜色放最前（blonde long straight hair）是典型错序。"
+        },
+        {
+          "question": "用 is 或 has 填空：My brother _____ of medium height, and he _____ short black hair.",
+          "solution": "is; has——身高体型跟 be 动词，头发用 have/has。",
+          "difficulty": 2,
+          "pitfall": "身高说成 has medium height、头发说成 is black hair，都是 is/has 分工不清。"
+        }
+      ],
+      "mistakes": [
+        "What does he look like? 问的是外貌，用 does 不用 is；回答讲长相，不讲爱好。",
+        "身高体型用 be 动词（He is tall/thin/heavy），头发眼镜用 have/has（He has curly hair. He wears glasses.），两者分工不能乱。",
+        "of medium height（中等身高）里的 of 不能丢，也不能说 He is medium height。",
+        "多个形容词修饰头发的顺序是长短、卷直、颜色：long curly black hair 对，black long curly hair 错。"
+      ],
+      "source": {
+        "unit": "Unit 9 What does he look like?",
+        "pages": [
+          49,
+          54
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "读一读选一选：警察画像师转述目击者的话，嫌疑人是\"一头棕色的长直发\"，正确表达是（　）",
+          "options": [
+            "brown long straight hair",
+            "long straight brown hair",
+            "straight brown long hair",
+            "long brown straight hair"
+          ],
+          "answer": "B",
+          "solution": "按长短、卷直、颜色排队：long straight brown hair，与目击者的原话一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P53·目击者描述嫌疑人（He has long straight brown hair and big eyes）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What does Clark look like? —Well, he _____ thin, and he _____ black hair.",
+          "options": [
+            "is; has",
+            "has; is",
+            "is; is",
+            "has; has"
+          ],
+          "answer": "A",
+          "solution": "thin 是体型，用 is；black hair 是头发，用 has。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P51·is/has 选词（he is thin, and he has black hair）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：把描述词归队——下面哪一组词全部属于\"身高（Height）\"？",
+          "options": [
+            "tall; short; of medium height",
+            "thin; heavy; curly hair",
+            "curly hair; straight hair; blonde hair",
+            "tall; thin; glasses"
+          ],
+          "answer": "A",
+          "solution": "身高一栏收 tall/short/of medium height；thin、heavy 属于体型，curly/straight hair 属于头发，glasses 属于其他特征。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P54·描述词分类变式（Build/Height/Hair/Other features）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句英语描述你最好的一位朋友的外貌（不出现名字）：第一句说身高，第二句说体型，第三句说头发或眼镜，最后让同学猜猜是谁。",
+          "answer": "She's tall and thin. She has long straight black hair. She wears glasses.",
+          "solution": "参考：She's tall and thin. She has long straight black hair. She wears glasses.（身高、体型、头发三要素齐，is/has 用对即可。）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_09",
+      "summary": "点餐用 would like：What kind of noodles would you like? 问种类，What size would you like? 问大小，I'd like… 开口点单，potatoes 的复数加 -es。",
+      "explanation": [
+        "这部分主题是点餐。词表里有 mutton、beef、noodles、chicken、cabbage、potatoes、tomatoes、carrots。开篇对话是：\"What would you like?\" \"I'm not sure yet. Are there any vegetables in the beef noodles?\" \"Yes, there are some tomatoes.\" \"OK, I'd like the beef noodles, please.\"；语法聚焦给出完整问答链：\"What kind of noodles would you like? I'd like beef noodles, please.\" \"What size would you like? I'd like a large bowl, please.\" \"Would you like a large bowl? Yes, please./No, thanks.\"，还把名词分成可数（bowls、apples、carrots）和不可数（beef、mutton、milk、water）两类。服务员的开口语是 \"May I take your order?\"，顾客点 \"one large bowl of beef soup\" 和 \"gongbao chicken and some mapo tofu with rice\"。",
+        "would like 是 want 的礼貌版，点餐、招待客人时用它最合适。I'd like=I would like（我想要）。点一碗面要过三关：第一关 kind（什么面——牛肉面、羊肉面），第二关 size（多大碗——Large、Medium、Small），第三关 Would you like…? 的客气邀请——想吃就 Yes, please.，不想吃就 No, thanks.。",
+        "点餐对话模板：服务员 May I take your order? → 顾客 I'd like…, please. → 服务员 What size would you like? → 顾客 A large bowl, please. → 服务员推荐 Would you like some…? → 顾客 Yes, please. 或 No, thanks.。缩写记牢：I'd=I would，We'd=We would，She'd=She would。",
+        "易混点：一是 kind 问种类、size 问大小，两问别答反。二是名词分家：beef、mutton、chicken（鸡肉）、milk、water 是不可数名词，没有复数；potato、tomato 的复数要加 -es——potatoes、tomatoes。三是数量表达用 a bowl of：one large bowl of beef soup。四是 there be 又回来了：Are there any vegetables…? Yes, there are some tomatoes.。",
+        "小学阶段学过 I'd like some juice, please.，这里升级成完整的点餐问答链；本部分阅读短文还讲了各地生日食物传统（中国的长寿面、英国的幸运糖果），之后写餐厅小广告时会用到 Would you like…? We have…for…yuan 这些句型，练熟问答链就能自己演一段点餐对话了。"
+      ],
+      "methods": [
+        {
+          "name": "点餐问答链模板",
+          "steps": [
+            "服务员问：May I take your order?",
+            "顾客答：I'd like beef noodles, please.（要什么报什么）",
+            "服务员追问：What size would you like? → A large bowl, please.",
+            "客气推荐：Would you like some…? → Yes, please. / No, thanks."
+          ],
+          "tip": "点餐先 would like，kind 报种类，size 报大小；Yes, please 收下，No, thanks 婉拒。"
+        },
+        {
+          "name": "可数不可数分拣法",
+          "steps": [
+            "可数（有复数）：bowls、apples、carrots、potatoes、tomatoes——注意 potato/tomato 加 -es",
+            "不可数（无复数）：beef、mutton、chicken、meat、milk、water",
+            "要报数量就用 a bowl of / one large bowl of…"
+          ],
+          "tip": "土豆番茄脾气倔，复数偏要加 -es；牛羊肉汤不可数，数数量用 bowl 来帮。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全点餐对话：—What _____ of noodles would you like? —I'd like beef and tomato noodles, please.",
+          "solution": "kind——What kind of…? 问种类；如果问碗的大小要用 What size would you like?",
+          "difficulty": 1,
+          "pitfall": "kind 和 size 答反：问种类答 Large、问大小答 beef noodles 都是答非所问。"
+        },
+        {
+          "question": "菜单上写着土豆和番茄，写出它们的复数形式（potato / tomato）。",
+          "solution": "potatoes、tomatoes——这两个词的复数都加 -es。",
+          "difficulty": 2,
+          "pitfall": "写成 potatos、tomatos 都不对——两个词一起按加 -es 记牢。"
+        },
+        {
+          "question": "服务员问 Would you like some green tea? 你不想要，礼貌拒绝该怎么说？",
+          "solution": "No, thanks.（不想要时不能只说 No，加上 thanks 才礼貌；想要就答 Yes, please.）",
+          "difficulty": 1,
+          "pitfall": "只回一个 No 显得生硬，礼貌版是 No, thanks.。"
+        }
+      ],
+      "mistakes": [
+        "would like 没有人称变化：I'd/He'd/She'd like，不能说 He would likes。",
+        "What kind of…? 问种类，What size…? 问大小（Small/Medium/Large），回答别对调。",
+        "potato、tomato 的复数是 potatoes、tomatoes（加 -es）；beef、mutton 是不可数名词，没有复数。",
+        "报数量用 a bowl of：one large bowl of beef soup，别说成 one large beef soup bowl of。"
+      ],
+      "source": {
+        "unit": "Unit 10 I'd like some noodles.",
+        "pages": [
+          55,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全点餐问答链：—What kind of noodles would you like? —_____, please. —What size would you like? —A large bowl, please.",
+          "options": [
+            "I'd like beef noodles",
+            "I like beef noodles",
+            "I'd like a large bowl",
+            "Beef is delicious"
+          ],
+          "answer": "A",
+          "solution": "问句问的是 kind（种类），应答 I'd like beef noodles, please.；C 是对 size 问句的回答，答非所问；I like 表喜好，点餐要说 I'd like。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P57·点餐问答链（What kind of noodles…? What size would you like?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪个单词的复数形式是加 -es？",
+          "options": [
+            "carrot",
+            "apple",
+            "potato",
+            "bowl"
+          ],
+          "answer": "C",
+          "solution": "potato→potatoes 要加 -es；carrot、apple、bowl 是普通可数名词，直接加 -s。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P55·食材词表（mutton beef cabbage potatoes tomatoes carrots）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：读餐厅广告补空——At our restaurant, we have some great _____. We have different _____ of fruit ice-cream, like strawberry, banana or orange. 依次填入（　）",
+          "options": [
+            "specials; kinds",
+            "kinds; specials",
+            "sizes; bowls",
+            "bowls; sizes"
+          ],
+          "answer": "A",
+          "solution": "great specials=招牌特色菜；different kinds of=不同种类的，都是广告里的固定搭配。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标七下 P60·餐厅广告变式（some great specials; different kinds of fruit ice-cream）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给想象中的小餐厅写三句英文广告：第一句用 Would you like…? 发出邀请，第二句用 We have… 介绍招牌食物，第三句报价格。",
+          "answer": "Would you like some noodles? We have beef and mutton noodles. A large bowl is only ten yuan.",
+          "solution": "参考：Would you like some noodles? We have beef and mutton noodles. A large bowl is only ten yuan.（邀请句+介绍句+价格句，三句齐即可。）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_10",
+      "summary": "谈过去的事，am/is 变 was、are 变 were：How was your school trip? It was great!；fed、took、rode 这些不规则过去式也一起认识。",
+      "explanation": [
+        "这部分先学六件农场活动短语：went for a walk、milked a cow、rode a horse、fed chickens、talked with a farmer、took some photos；对话里问 \"Did you see any cows?\" 答 \"Yes, I did. I saw quite a lot.\"。语法聚焦给出 be 动词过去时的问答：\"How was your school trip? It was great!\" \"Were the strawberries good? Yes, they were./No, they weren't.\"；动词表分两栏——规则变化 play-played、visit-visited、study-studied、stop-stopped，不规则变化 do-did、is-was、are-were、have-had、eat-ate、buy-bought。对话里还有 \"How was your trip last week?\" \"It was excellent.\" 和 \"the air was so clean. I watched the stars at night. They were so beautiful.\"。",
+        "说\"昨天、上周、上次\"的事，动词要换上过去时的衣服。be 动词换装最简单：am 和 is 一起变 was，are 变 were。单数主语（I、he、she、it、the trip）配 was，复数主语（you、we、they、the strawberries）配 were。回忆一次旅行好不好，一句 How was…? It was great! 就够了。",
+        "三步谈过去的感受：①找时间词（yesterday、last week）确定用过去时；②按主语选 was/were——单数 was、复数 were、you 永远配 were；③感受词收尾：great、excellent、fun、terrible。否定直接加 not：wasn't、weren't；疑问把 was/were 提到句首：Were you…?",
+        "易混点：一是主语搭配——They were、You were，别写 They was；二是本部分的活动短语里藏着不规则过去式：ride→rode、feed→fed、take→took、go→went，不能一律加 -ed；三是 wasn't=was not、weren't=were not，撇号别丢；四是 How's…问现在、How was…问过去，只差一个字母，时态全变。",
+        "这是过去时的第一站（be 动词），接着就要学实义动词过去时（What did you do? I did my homework.）；先把 was/were 的单复数搭配和 fed、took、rode、went 这批不规则动词认熟，之后写周末日记、记录外出经历时就不会手忙脚乱了。"
+      ],
+      "methods": [
+        {
+          "name": "was/were 搭配法",
+          "steps": [
+            "单数主语配 was：I was… / He was… / The trip was…",
+            "复数主语配 were：You were… / We were… / They were… / The strawberries were…",
+            "否定加 not：wasn't / weren't；疑问提到句首：Were the strawberries good?"
+          ],
+          "tip": "单数 was 复数 were，you 见了就 were；wasn't、weren't 撇号站好岗。"
+        },
+        {
+          "name": "农场短语过去式记法",
+          "steps": [
+            "成对记：ride-rode（骑马）、feed-fed（喂鸡）、take-took（拍照）、go-went（去）",
+            "注意 milk 是规则变化：milked a cow 直接加 -ed",
+            "朗读时原形和过去式一起念：ride-rode、feed-fed、take-took"
+          ],
+          "tip": "骑马 rode 喂鸡 fed，拍照 took 走了 went；个别动词爱变形，成对朗读记得牢。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：—How _____ your school trip? —It _____ great!",
+          "solution": "was; was——主语 your school trip 和 It 都是单数，过去时用 was。",
+          "difficulty": 1,
+          "pitfall": "把 It was 写成 It is——谈已经过去的事要用过去时。"
+        },
+        {
+          "question": "选词填空：—_____ the strawberries good? —Yes, they _____.",
+          "solution": "Were; were——the strawberries 是复数，疑问句把 Were 提到句首。",
+          "difficulty": 2,
+          "pitfall": "复数主语误用 Was——were 才和 they 是一家人。"
+        },
+        {
+          "question": "圈出正确的一项：上周去农场，我喂了鸡还骑了马——I _____ chickens and _____ a horse.（fed / feeded；rode / rided）",
+          "solution": "fed; rode——feed→fed、ride→rode 都是不规则变化，不加 -ed。",
+          "difficulty": 2,
+          "pitfall": "按规则变化写成 feeded、rided 是高频错误。"
+        }
+      ],
+      "mistakes": [
+        "was 配单数（I/he/she/it/the trip），were 配复数（you/we/they），They was、You was 都不对。",
+        "否定式 wasn't（=was not）和 weren't（=were not）里的撇号不能丢。",
+        "ride→rode、feed→fed、take→took、go→went 是不规则变化，不能画蛇添足加 -ed。",
+        "How was…? 问过去，How's…? 问现在——只差一个字母时态全变，回答也要用 It was…。"
+      ],
+      "source": {
+        "unit": "Unit 11 How was your school trip?",
+        "pages": [
+          61,
+          66
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选词填空：—How _____ your trip last week? —It _____ excellent. I visited my grandparents in the countryside.",
+          "options": [
+            "was; was",
+            "were; were",
+            "is; is",
+            "was; were"
+          ],
+          "answer": "A",
+          "solution": "your trip 和 It 都是单数，过去时都用 was；对话原句正是 It was excellent.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P62·旅行对话（How was your trip last week? It was excellent.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全问答：—_____ the strawberries good? —No, they _____.（草莓不好吃）",
+          "options": [
+            "Was; wasn't",
+            "Were; weren't",
+            "Were; wasn't",
+            "Was; weren't"
+          ],
+          "answer": "B",
+          "solution": "the strawberries 是复数，用 Were 提问、weren't 回答，前后要一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P63·Were the strawberries good?（Yes, they were./No, they weren't.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：给动词原形选正确的过去式——ride、feed、take 依次对应（　）",
+          "options": [
+            "rided; feeded; taked",
+            "rode; fed; took",
+            "rode; feeded; took",
+            "rided; fed; took"
+          ],
+          "answer": "B",
+          "solution": "ride-rode、feed-fed、take-took 都是不规则变化，直接背成对形式。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P61·农场活动短语变式（rode a horse / fed chickens / took some photos）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句英语记录你的一次外出：第一句总评（It was…），第二句说去了哪（We went to…），第三句用 was/were 或一个学过的不规则过去式补充细节。",
+          "answer": "It was great! We went to the countryside. The air was so clean, and I took some photos.",
+          "solution": "参考：It was great! We went to the countryside. The air was so clean, and I took some photos.（总评+地点+细节，三句齐即可。）",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_11",
+      "summary": "did 一问、过去式一答，把上周末做过的事说清楚：规则动词加 ed，不规则的背配对。",
+      "explanation": [
+        "书上先列六个周末活动词组：did my homework、went to the cinema、went boating、camped by the lake、went to the beach、played badminton，再用核心问答开场：—What did you do last weekend, Lucy? —Well, on Saturday morning, I played badminton.。语法聚焦表给出完整句型：—What did you do last weekend? —I did my homework. / We went boating.；—Who visited her grandma? —Becky did.；—Where did she go last weekend? —She went to a farm.；—Who did she go with? —She went with her classmates.。对话里 Lisa 说 I worked as a guide at the Natural History Museum.，Paul 惊叹 Really? How interesting!，还有一句 I stayed up late to watch the soccer game.。",
+        "一般过去时专门讲「已经做完的事」：上个周末、昨天、两周前发生的事，动词都要换成过去式。周一早上同学互相问周末干了什么，用的就是 What did you do last weekend?——问的人和答的人都知道事情已经过去了，所以动词不能再用原形和三单形式。",
+        "变形有章法：规则动词直接加 ed（play→played、visit→visited、clean→cleaned），以不发音的 e 结尾只加 d，辅音字母加 y 结尾变 y 为 i 再加 ed（study→studied）；不规则的当配对卡背：do→did、go→went、see→saw、feed→fed、take→took、have→had、come→came、fly→flew、swim→swam、ride→rode。问句结构是「疑问词＋did＋主语＋动词原形」：What did you do last weekend?，答句再把动词换成过去式。",
+        "三个易混点：一是问句里已经有 did 扛着「过去」这面旗，后面的动词要退回原形，说 What did you do? 不说 What did you did?；二是答句里的 did 能代替前面出现过的动词——Who visited her grandma? 回答 Becky did.，这个 did 就等于 visited，避免重复；三是抓时间标志，last weekend、yesterday、two weeks ago 一出现，基本就要用过去时。",
+        "实义动词过去时和 be 动词过去时（How was your trip? It was great.）合在一起，你就能完整讲一段过去的事了：先问答，再连成几句小叙事，最后写成周末短文。不规则动词配对是长期积累——每见一对背一对，书后的不规则动词表就是你自己的「打卡清单」。"
+      ],
+      "methods": [
+        {
+          "name": "过去式变形三条路",
+          "steps": [
+            "规则动词词尾直接加 ed：play→played、visit→visited、clean→cleaned",
+            "以不发音的 e 结尾只加 d；辅音字母加 y 结尾变 y 为 i 再加 ed：study→studied",
+            "不规则动词当配对卡背：do→did、go→went、see→saw、feed→fed、take→took、have→had",
+            "每学一篇短文就把新出现的不规则动词收进配对卡"
+          ],
+          "tip": "直接加 ed、去 e 只加 d、变 y 为 i；不规则的见一对背一对。"
+        },
+        {
+          "name": "did 问答三步法",
+          "steps": [
+            "第一步抓时间标志：last weekend、yesterday、two weeks ago，锁定过去时",
+            "第二步组问句：疑问词＋did＋主语＋动词原形，如 What did you do last weekend?",
+            "第三步组答句：动词换过去式，如 I did my homework. / We went boating.",
+            "追问人物用 Who did you go with?，回答 She went with her classmates."
+          ],
+          "tip": "问句 did 扛旗、动词回原形；答句动词穿上过去式外衣。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全问答：—What did you do last weekend? —I ___ my homework.（横线处用 do 的正确形式）",
+          "solution": "填 did。问句里已有 did，答句要说做过的事，do 要换成过去式 did：I did my homework.",
+          "difficulty": 1,
+          "pitfall": "顺着问句填 do——答句讲的是过去做的事，动词必须换成过去式。"
+        },
+        {
+          "question": "写出下面三组动词的过去式：go、feed、see。",
+          "solution": "go→went、feed→fed、see→saw。这三个都是不规则动词，不能硬加 ed，要按配对背。",
+          "difficulty": 1,
+          "pitfall": "写成 goed、feeded、seed——不规则动词加 ed 是最常见的错。"
+        },
+        {
+          "question": "同学问你：—Who did you go to the cinema with? 你是和爸爸一起去的，用英语回答。",
+          "solution": "I went there with my father. 参照句型 —Who did she go with? —She went with her classmates.，答句动词用过去式 went。",
+          "difficulty": 2,
+          "pitfall": "答成 I go there with my father.——问的是过去的事，go 要变 went。"
+        }
+      ],
+      "mistakes": [
+        "问句里动词忘了还原，写成 What did you did?——did 后面的动词必须用原形 do。",
+        "不规则动词硬加 ed：goed、feeded 都不对，要背 went、fed、saw、took 这类配对。",
+        "把 What do you do?（问日常或职业）和 What did you do?（问过去的事）混用——一字之差，时态全变。",
+        "studied 拼成 studyed——辅音字母加 y 结尾要变 y 为 i 再加 ed。"
+      ],
+      "source": {
+        "unit": "Unit 12 What did you do last weekend?",
+        "pages": [
+          67,
+          72
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What did you do last weekend? —I ___ badminton with my father.",
+          "options": [
+            "play",
+            "plays",
+            "played",
+            "am playing"
+          ],
+          "answer": "C",
+          "solution": "last weekend 提示过去的事，动词用过去式：play→played。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P67·活动词组与核心问答（What did you do last weekend, Lucy? I played badminton.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全疑问词：—___ did she go last weekend? —She went to a farm.",
+          "options": [
+            "What",
+            "Where",
+            "Who",
+            "When"
+          ],
+          "answer": "B",
+          "solution": "答句回答去了哪儿（a farm 是地点），问句用 Where 问地点。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P69·语法聚焦问答表（Where did she go last weekend? She went to a farm.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下面哪一组动词过去式全部正确？",
+          "options": [
+            "go—goed，see—seed",
+            "feed—feeded，take—taked",
+            "take—took，feed—fed",
+            "see—saw，go—goed"
+          ],
+          "answer": "C",
+          "solution": "take→took、feed→fed 都是不规则变化；goed、feeded、taked、seed 都是硬加 ed 的错形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P68·听力句变式（I fed some sheep. I went to a farm. 不规则过去式配对改选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把打乱的四个句子排成一段通顺对话：①What did you do last weekend? ②My classmates. ③I did my homework and went boating. ④Who did you go with?",
+          "options": [
+            "①③④②",
+            "①④③②",
+            "③①④②",
+            "①③②④"
+          ],
+          "answer": "A",
+          "solution": "先用 What 问做了什么，答句说两件事；再用 Who did you go with? 追问同伴，答 My classmates. 收尾。学会这条问答链，可以接着采访三个同学，把他们的周末记成小档案。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_12",
+      "summary": "写 My last weekend：时间总起、三件活动全用过去式、感受收尾，写完专查动词过去式。",
+      "explanation": [
+        "书上先给填空范文：I had a busy weekend. On Saturday morning, I cleaned my room. In the afternoon, I ___ . It was a little difficult. On Saturday night, I stayed at home and cooked dinner. On Sunday morning, I read a book about history. … I saw an interesting talk show.；再用任务 Write about what you did last weekend. 让你自己写。长范文 A Weekend to Remember 用时间开场：My sister finished high school two weeks ago. As a special gift, our parents took us to India. Last weekend was interesting but scary.，结尾点出收获：This was a very useful lesson for me.",
+        "过去时记叙文有三件套：什么时候＋做了什么＋感觉怎样。像放录像带一样按时间顺序走：Saturday morning→afternoon→night，再到 Sunday morning→afternoon→night，读者跟着你的时间线一步一步看，文章自然就顺了。",
+        "四步成文（控制在 60-70 词）：第一步总起一句，交代时间与整体感受，如 I had a busy weekend.；第二步按时间线写三件活动，On Saturday morning, I cleaned my room. In the afternoon, I did my homework. On Sunday night, I saw an interesting talk show.，每句动词都用过去式；第三步加一句感受收尾，It was fun. / I was tired but happy.；第四步写完逐句检查动词过去式。",
+        "四个易错点：一是写着写着跳回现在时，前后时态要统一成过去；二是不规则动词硬加 ed（goed、sayed），要回配对卡核对 went、said；三是 On Saturday morning 的 On 和星期都要大写；四是 homework 不可数，别加 s。写完把动词圈出来挨个查，是这类作文的固定收尾动作。",
+        "这个框架以后一直用得上：下学期写日记（日期开头）、写更长的记叙文，都是「总起—按顺序叙事—感受收尾」这三段式。再把 first、then、after that 这类连接词加进去，活动之间就更有先后感。"
+      ],
+      "methods": [
+        {
+          "name": "周末记叙四步框架",
+          "steps": [
+            "第一步总起：I had a busy weekend. 一句交代时间与总印象",
+            "第二步按时间线写三件事：On Saturday morning…→In the afternoon…→On Sunday night…，动词全部过去式",
+            "第三步感受收尾：It was fun. / I was tired but happy.",
+            "第四步控制篇幅在 60-70 词"
+          ],
+          "tip": "总起给时间，三事排成线，感受来收尾。"
+        },
+        {
+          "name": "写后动词检查法",
+          "steps": [
+            "逐句圈出每一个动词",
+            "规则动词查词尾 ed：played、visited、studied",
+            "不规则动词回配对卡核对：did、went、saw、fed、took",
+            "最后数一遍词数，落在 60-70 之间"
+          ],
+          "tip": "动词圈一圈，ed 别漏填，不规则对卡看。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面两句哪句正确：A. I goed to the beach. B. I went to the beach. 为什么？",
+          "solution": "B 对。go 是不规则动词，过去式是 went，不能加 ed。写作文时遇到这类词要回配对卡核对。",
+          "difficulty": 1,
+          "pitfall": "觉得动词加 ed 就是过去式——不规则动词是例外，硬加 ed 一眼就露馅。"
+        },
+        {
+          "question": "I had a busy weekend. 后面接哪一句更符合时间线：A. On Saturday morning, I cleaned my room. B. Tomorrow I will play soccer.",
+          "solution": "A。周末已经过去，要从 Saturday morning 讲起；B 讲的是明天，时态和内容都接不上。",
+          "difficulty": 2,
+          "pitfall": "只看句子本身对不对，忘了检查它和总起句的时间是否连贯。"
+        },
+        {
+          "question": "给写完的活动补一个感受句：你周末去了海边，玩得很开心，用英语写一句收尾。",
+          "solution": "It was so much fun. / I was very happy. 用过去式 be 动词（was）把感受收住。",
+          "difficulty": 2,
+          "pitfall": "写成 It is so much fun.——感受也是当时的，动词要用过去式。"
+        }
+      ],
+      "mistakes": [
+        "全文时态跳来跳去：前一句 did my homework，后一句突然变成 I am playing basketball——叙事文要统一用过去时。",
+        "不规则动词硬加 ed：goed、sayed、feeled 都是错的，要背 went、said、felt。",
+        "时间短语书写不规范：on saturday morning 应为 On Saturday morning——介词 On 和星期首字母都要大写。",
+        "可数与不可数弄混：homework 不可数，说 did my homeworks 就错了。"
+      ],
+      "source": {
+        "unit": "Unit 12 写作板块",
+        "pages": [
+          67,
+          72
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句动词过去式用得完全正确？",
+          "options": [
+            "I studyed for the English test.",
+            "I goed to the library and read books.",
+            "I did my homework and went boating.",
+            "I taked some photos at the zoo."
+          ],
+          "answer": "C",
+          "solution": "did 是 do 的过去式，went 是 go 的过去式，都对；studyed（应 studied）、goed、taked 都是错形。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P72·看图完形与词组（I had a busy weekend. did my homework / went boating）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "范文里有一句讲周日晚上的活动：看了（一档有趣的脱口秀）。把这句用英语写出来，补在 On Sunday night, 之后。",
+          "answer": "I saw an interesting talk show.",
+          "solution": "「看节目」用 see：see an interesting talk show，过去式 saw；「一档」用不定冠词 an。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P72·看图完形短文（I saw an interesting talk show.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把打乱的四个句子排成一段通顺的小短文：①I had a happy weekend. ②It was so much fun. ③On Saturday morning, I visited my grandma. ④In the afternoon, I flew a kite with my friends.",
+          "options": [
+            "①③②④",
+            "①③④②",
+            "③①④②",
+            "①④③②"
+          ],
+          "answer": "B",
+          "solution": "总起句 ① 开头，按时间线 ③（Saturday morning）→④（in the afternoon），感受句 ② 收尾。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P72·叙事短文变式（总起+时间线+感受排序成文）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "同桌的短文里有一句 She go to the library yesterday.。指出错误并改正，再说出你写完周末短文后要检查的两件事。",
+          "answer": "She went to the library yesterday.；检查动词过去式（规则加 ed、不规则对卡核对）和词数（60-70）。",
+          "solution": "yesterday 提示过去时，go 要改成 went；写后先逐句圈动词查过去式，再数词数。这个检查习惯以后写日记、写游记都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_13",
+      "summary": "问路一条线：问在哪—沿着走—转弯—致谢；电话找人不在，就按四句式把口信留下。",
+      "explanation": [
+        "问路对话书上这样说：—Hi, excuse me. —Yes. How can I help you? —Well, I'm new in town. Is there a bank around here? —Yes, there is. It's on Center Street. It's across from the park. —Oh, that's great! Thanks so much. —No problem.。路线句用三个动词短语搭起来：Just go along Bridge Street and turn left when you see the library. / Turn right at the first crossing and the restaurant is on your left, next to the pay phone. / Thank you very much. —You're welcome.。电话对话：—Hello, Rick speaking. —Hi, Rick. It's Steve. —Is your brother at home? —Oh, he's not here. Can I take a message for him? —Yes. Could you just tell him to call me back? —Sure, no problem.；另一组：—Hello? Jenny speaking. —Hi, Jenny. It's Steve here. May I speak to Laura, please? —Sorry, she's not at home. Can I take a message? —Yes. Could you ask her to call me at 8765-4321? —Sure, no problem.",
+        "问路像一场接力：招呼（Excuse me）→提问（Is there…near here?）→指路→致谢，一棒接一棒，少一棒对话就断。电话里有个特别约定：说「我是谁」不用 I'm…，要说 This is… 或 … speaking；要找的人不在，就把话留下——这就是留言（take a message）。",
+        "指路三件套按顺序记：go along（沿着走）→turn left/right（转弯）→on your left/right（在路哪一侧），再配方位词 across from（隔街相对）、next to（紧挨着）、between…and…（在两者之间）。电话三件套：自报家门（Hello, Jenny speaking. / This is Jenny.）→找人（May I speak to…, please?）→留言（Can I take a message? / Could you tell him to call me back?），留言要记全三样：找谁、谁留、回电号码（call me at 8765-4321）。",
+        "易混点有三：一是 turn left 是「向左转」的动作，on your left 是「在你左手边」的位置，先转弯再看目标在哪侧；二是电话自报用 This is Steve，不说 I'm Steve——这是电话专用礼貌用法；三是 across from 指隔街正对，不是 next to 的紧挨着，指路时一字之差就把人带偏了。",
+        "这两套本领在生活中马上能用：出门旅行问路、帮家人接电话转口信，都是真实场景。它们也是听力考试的常客——听对话抓路线词（along、turn、next to）和电话关键词（message、call back、号码），练熟了开口和听力一起进步。"
+      ],
+      "methods": [
+        {
+          "name": "连贯指路四步法",
+          "steps": [
+            "第一步招呼：Excuse me.",
+            "第二步提问：Is there a bank near here? / How can I get to…?",
+            "第三步听或说路线：抓 go along、turn left/right、on your left/right 和方位词 across from、next to",
+            "第四步致谢：Thanks so much. —You're welcome."
+          ],
+          "tip": "一问二沿三转四谢，左右方向别颠倒。"
+        },
+        {
+          "name": "电话留言四句式",
+          "steps": [
+            "接电话自报：Hello, Jenny speaking. / This is Jenny.",
+            "找人：May I speak to Laura, please?",
+            "人不在就留言：Can I take a message? / Could you tell him to call me back?",
+            "记全三样再确认：找谁、谁留、回电号码（call me at 8765-4321），最后 Sure, no problem."
+          ],
+          "tip": "This is 报家门，留言抓三样：找谁、谁留、回电号码。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "电话接通了，接电话的是 Jenny，但你要找 Laura。你的第一句英语该怎么说？",
+          "solution": "May I speak to Laura, please? 电话里找人用 May I speak to…, please?，客气又清楚。",
+          "difficulty": 1,
+          "pitfall": "张口就喊 Laura 的名字，或说成 I am Laura——那是自报家门，不是找人。"
+        },
+        {
+          "question": "同伴先说 Turn left at the library.，又说 The restaurant is on your left.。两个 left 的意思一样吗？",
+          "solution": "不完全一样。turn left 是「向左转」的动作，on your left 是「在你左手边」的位置：先在图书馆左转，再看餐厅在你行进方向的左侧。",
+          "difficulty": 2,
+          "pitfall": "把两个 left 都理解成左转，转完还原地再转一次——位置和动作要分开想。"
+        },
+        {
+          "question": "你替妈妈留言：Could you ask her to call me ___ 8765-4321? 空里填哪个介词？",
+          "solution": "填 at。call sb. at＋电话号码是固定搭配，表示「打这个号码找某人」。",
+          "difficulty": 2,
+          "pitfall": "顺手填 to 或 with——号码前面固定用 at。"
+        }
+      ],
+      "mistakes": [
+        "电话自报说成 I'm Steve——电话里要说 This is Steve（或 Steve speaking），这是专用礼貌用法。",
+        "把 across from 和 next to 混用：across from 是隔街正对，next to 是紧挨着，指路弄反会把人带错。",
+        "留言漏记回电号码：完整留言要有找谁、谁留、号码三样，Could you ask her to call me at＋号码。",
+        "问路忘了开头招呼，直接冲出 Where's the bank?——先说 Excuse me. 再提问，才有礼貌也更容易得到帮助。"
+      ],
+      "source": {
+        "unit": "综合听说训练",
+        "pages": [
+          1,
+          72
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "你打电话找 Laura，接电话的是 Jenny。你最该说：",
+          "options": [
+            "Hello, Laura speaking.",
+            "May I speak to Laura, please?",
+            "This is Laura.",
+            "Sorry, she's not at home."
+          ],
+          "answer": "B",
+          "solution": "找人的固定句式是 May I speak to…, please?；A 是接电话者的自报，C 是自报找自己，D 是对方忙音时才说的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P42·电话用语匹配（May I speak to Laura, please?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全指路对话：—Excuse me. Is there a bank around here? —Yes, there is. It's on Center Street. It's ___ the park.（隔街正对公园）",
+          "options": [
+            "across from",
+            "between",
+            "behind",
+            "on"
+          ],
+          "answer": "A",
+          "solution": "「隔街正对」用 across from；between 要和 and 连用，behind 是在后面，on 直接接街道名。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P44·问路对话（Is there a bank around here? It's across from the park.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把打乱的四个句子排成完整的指路对话：①Excuse me. Is there a post office near here? ②Go along Bridge Street and turn left at the library. ③Thank you very much. ④Yes, there is. It's next to the bank, on your right.",
+          "options": [
+            "①④②③",
+            "①②④③",
+            "④①②③",
+            "①④③②"
+          ],
+          "answer": "A",
+          "solution": "先招呼并提问 ①，对方先答有没有 ④，再给具体路线 ②，最后致谢 ③。按「问—答—路线—谢」的接力顺序就排对了。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标七下 P46·指路路线变式（go along、turn left、next to 连贯排序）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "妈妈让你给同学小林传话：周六上午九点在公园集合。用四句英语写一段电话留言对话（自报、人不在留言、记下内容、确认）。",
+          "answer": "示例：—Hello? This is Mary. Is Lin at home? —Sorry, he's out. Can I take a message? —Yes. Could you ask him to meet at the park at nine on Saturday morning? —Sure, no problem.",
+          "solution": "按电话留言四句式来写：This is 自报、take a message 留言、说清时间地点、no problem 确认。写完自己演一遍，检查时间地点信息有没有说全。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_14",
+      "summary": "读人物与地点短文：读前猜话题，读中抓 who、what、where 细节，读后合书复述。",
+      "explanation": [
+        "人物自述短文这样写：Hi, I'm Ma Huan. I can play ping-pong and chess. I like to talk and play games with people. ／ Hello, I'm Peter. I can speak English and I can also play soccer. ／ My name's Alan. I'm in the school music club. I can play the guitar and the piano. I can sing and dance, too.。地点介绍短文这样写：There is a zoo in my neighborhood. I like to spend time there on weekends. To get there, I usually walk out and turn right on Bridge Road.；I live in a noisy neighborhood. There is a post office between my house and a clothes store.。读前指令本身就是方法：先 Guess what the story is about.，再带着问题读。",
+        "人物介绍是一张会说话的名片：名字＋会什么（can）＋喜欢什么（like）；地点介绍是一张会说话的小地图：住在哪＋有什么（there is/are）＋怎么走（turn、walk along）。知道这两张「卡」长什么样，读之前就能猜出文章会写什么。",
+        "三步阅读法：第一步读前——看标题、读首句、看插图，猜话题和会出现的词；第二步读中——带着 who、what、where、how 的问题读，圈出人名、地名和动词短语，细节题回到原文找原句；第三步读后——合上书复述，先用三个问题搭架子（人物：谁、会什么、喜欢什么；地点：在哪、有什么、怎么走），再补一个原文细节。",
+        "易错点有三：一是句型抓错——人物文要盯 can 和 like 句，地点文要盯 there is/are 和方位词，抓错句型细节就找不准；二是细节题凭印象答，最容易掉坑，答案一定要回原句核对；三是把「作者喜欢」读成「大家都喜欢」——短文里 John 说 The best things in life are free!，那只是他的看法。",
+        "读完最好的输出是仿写：照着人物自述写三句介绍自己，照着社区短文写一段自己家周围的小地图。这套「猜—找—说」的流程，之后读更长的记叙文、说明文照样用，读得越熟，开口复述就越顺。"
+      ],
+      "methods": [
+        {
+          "name": "读前三猜法",
+          "steps": [
+            "看标题猜话题：是介绍人，还是介绍地方？",
+            "读首句猜主旨：第一句往往点出全文要说的事",
+            "猜文中会出现的词，读的时候对照验证"
+          ],
+          "tip": "先猜后读，读得又快又准。"
+        },
+        {
+          "name": "细节定位三查",
+          "steps": [
+            "把问题里的关键词圈出来：人名、地名、动词短语",
+            "回原文找含关键词的原句",
+            "答案与原句逐词核对后再落笔"
+          ],
+          "tip": "答案藏在原句里，找到再下笔。"
+        },
+        {
+          "name": "复述三问支架",
+          "steps": [
+            "人物文自问三句：他是谁？会什么？喜欢什么？",
+            "地点文自问三句：在哪？有什么？怎么走？",
+            "先答三问搭架子，再补一个原文细节"
+          ],
+          "tip": "三问答全，短文就装进你脑子里了。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Alan 在哪个社团？用原文回答。",
+          "solution": "I'm in the school music club. 转述给别人听时换成 He's in the school music club.",
+          "difficulty": 1,
+          "pitfall": "记成 chess club——会下棋的是 Ma Huan，人物和特长要对上号。"
+        },
+        {
+          "question": "Anna 周末喜欢去哪儿？为什么喜欢？",
+          "solution": "她喜欢去小区里的动物园：There is a zoo in my neighborhood. I like to spend time there on weekends. 她爱看猴子爬来爬去，觉得它们像自己和朋友们。",
+          "difficulty": 2,
+          "pitfall": "把 John 的公园当成 Anna 喜欢的地方——三段短文人物要分清，答案回各自的原段找。"
+        },
+        {
+          "question": "用三句话复述 Peter 的情况。",
+          "solution": "He's Peter. He can speak English and he can also play soccer. He likes playing basketball. 复述时把 I'm 换成 He's、I like 换成 He likes。",
+          "difficulty": 2,
+          "pitfall": "复述忘了变三单：I like 要改成 He likes——人称一换，动词形式跟着换。"
+        }
+      ],
+      "mistakes": [
+        "人物文细节去地点文里找：问「谁在音乐社团」却盯着 there is 句型看——先判断文章类型，再抓对句型。",
+        "细节题凭印象作答：觉得「好像是 Alan」就选，正确做法是回原文找到 I'm in the school music club. 这句再确认。",
+        "复述时人称和动词不换：把 I can play the guitar. 原样背出来当 Alan 的情况——要说 He can play the guitar.",
+        "把作者的个人感受当成事实：短文里写 The best things in life are free!，那是 John 的看法，不是每段短文的共同结论。"
+      ],
+      "source": {
+        "unit": "各单元阅读板块",
+        "pages": [
+          1,
+          72
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "三位同学都做了自我介绍。谁在学校音乐社团？",
+          "options": [
+            "Ma Huan",
+            "Peter",
+            "Alan",
+            "Tony"
+          ],
+          "answer": "C",
+          "solution": "Alan 的原句是 My name's Alan. I'm in the school music club.；Ma Huan 会下棋，Peter 会踢足球说英语。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P5·人物自述短文（My name's Alan. I'm in the school music club.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "短文里 Anna 写了去动物园的路线。用英语把这个路线写出来（两句以内）。",
+          "answer": "She walks out and turns right on Bridge Road, then walks along Bridge Road. The zoo is on the right.",
+          "solution": "原文是 To get there, I usually walk out and turn right on Bridge Road. Then I walk along Bridge Road. The zoo is on the right. 转述时 I 变 she，动词加 s。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P47·社区介绍短文（To get there, I usually walk out and turn right on Bridge Road.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "滑铁索上学的亮亮每天过河上学，他为什么不怕？",
+          "options": [
+            "因为河水很浅",
+            "因为他爱他的同学和老师",
+            "因为他家有小船",
+            "因为老师每天背他过河"
+          ],
+          "answer": "B",
+          "solution": "原文说 he is not afraid because he loves school，还引用他的话：I love to play with my classmates. And I love my teacher. He's like a father to me.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P17·山村上学短文变式（I love to play with my classmates. He's like a father to me.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "仿照人物自述，用三句英语介绍自己：一句说名字、一句说 can 会什么、一句说 like 喜欢什么。写完读给同桌听，互相找一找你们的共同点。",
+          "answer": "示例：Hi, I'm Li Ming. I can swim. I like to play games with my friends.",
+          "solution": "照「名字＋can＋like」的名片框架写，每句一个信息。说给同桌听后再互相提问 Who can…? Who likes…?，把阅读学到的框架变成自己的表达。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g7b_15",
+      "summary": "全册约 570 词大盘点：逐课默写清红色词，动词四态卡把现在、进行、过去连成线。",
+      "explanation": [
+        "书后的词汇表按字母顺序排，每个词条标了词性、音标、中文意思和出处位置，全册累计约 570 词；另有不规则动词表两栏对照：am/is—was、are—were、do—did、go—went、see—saw、feed—fed、take—took、have—had、come—came、fly—flew、swim—swam、ride—rode、buy—bought、teach—taught、tell—told、write—wrote 等，名词还标注复数变化（tooth，复数 teeth）。",
+        "词汇表就像全册的地图：哪个词在哪个话题学过，翻表就能定位。自查相当于定期盘点库存——四会词要做到会读、会写、会说、会用，光「看着眼熟」不算数，合上表能默出来才算过。",
+        "三查法把整册词盘清：第一查逐课默写——四会词全对才过关，错的抄进错词本并回原文句子读三遍；第二查时态三态转换——给动词写四态：原形—三单—ing—过去式，如 watch—watches—watching—watched、study—studies—studying—studied、go—goes—going—went；第三查三单专项——主语是 he/she/it 时动词要加 s：does、has、watches、studies，用词表当清单逐项打勾。",
+        "易混点集中在动词变形上：三单的 s 和过去式的 ed 别打架——She watches TV every day. 说习惯，She watched TV yesterday. 说过去，时间标志和动词形式要一起换；study 的三单要变 y 为 i 加 es（studies），过去式是 studied；不规则动词绝不能硬加 ed，goed、feeded 都是错的，要说 went、fed。",
+        "这套盘点法别只用在期末：每月自查一次，红色词（还没过关的）越来越少，就是进步。错词本和动词四态卡会一直陪你到下学期——以后学新时态、新词汇，照旧「默写、转换、打勾」三步走，词汇量就滚起来了。"
+      ],
+      "methods": [
+        {
+          "name": "逐课默写三色法",
+          "steps": [
+            "按课默写四会词：会的打勾、模糊的画圈、错的标红",
+            "红色词抄进错词本，回原文句子读三遍",
+            "三天后只重测红色词，过关就划掉"
+          ],
+          "tip": "红色词是宝贝，每周和它见一面。"
+        },
+        {
+          "name": "动词四态卡",
+          "steps": [
+            "每个动词写四格：原形—三单—ing—过去式",
+            "先填规则词：watch—watches—watching—watched",
+            "再填不规则词：go—goes—going—went、study—studies—studying—studied",
+            "错格标红，按配对背，隔三天重测"
+          ],
+          "tip": "一卡四态连成线，时态转换不打架。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写出 study 的三单形式和过去式。",
+          "solution": "三单 studies、过去式 studied。study 以辅音字母加 y 结尾：三单变 y 为 i 加 es，过去式变 y 为 i 加 ed。",
+          "difficulty": 1,
+          "pitfall": "写成 studys、studyed——y 前是辅音字母时必须变 y 为 i。"
+        },
+        {
+          "question": "把 My sister watches TV every day. 改成说昨天的事。",
+          "solution": "My sister watched TV yesterday. watches 变 watched，every day 换成 yesterday——动词形式和时间标志一起换。",
+          "difficulty": 2,
+          "pitfall": "只把动词变过去式，时间词还留着 every day——时态和时间要配套改。"
+        },
+        {
+          "question": "下面哪种安排最能查出还没掌握的词？为什么？",
+          "solution": "逐课默写，并把错的词回原文句子、三天后重测。只抄词表或只看中文，手没动笔、脑子没提取，查不出真正没过关的词。",
+          "difficulty": 2,
+          "pitfall": "把「看着眼熟」当成「已经会了」——合上表默不出来就是没过。"
+        }
+      ],
+      "mistakes": [
+        "三单和过去式打架：She watched TV every day. 想说习惯要用 watches，every day 配一般现在时。",
+        "不规则动词硬加 ed：goed、feeded、taked 都是错的，要说 went、fed、took。",
+        "study 类动词忘了变 y：三单写 studys、过去式写 studyed 都不对，应是 studies、studied。",
+        "自查只动眼不动手：翻词表觉得都会，一默写就漏——四会词必须默写过关才算数。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          1,
+          142
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "feed 的过去式是：",
+          "options": [
+            "feeded",
+            "fed",
+            "feded",
+            "feeds"
+          ],
+          "answer": "B",
+          "solution": "feed 是不规则动词，过去式 fed，和 see—saw、take—took 一样按配对背。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标七下 P141·不规则动词表（feed—fed、see—saw、take—took）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "用一般过去时把这句话变成上周的事：I go to the library every weekend.",
+          "answer": "I went to the library last weekend.",
+          "solution": "go 的过去式是 went；every weekend（每次周末，习惯）换成 last weekend（上周末，过去的时间点）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P69·动词形式转换（What did you do last weekend? I did my homework.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "My sister ___ for the English test last night.（study 的正确形式）",
+          "options": [
+            "study",
+            "studies",
+            "studying",
+            "studied"
+          ],
+          "answer": "D",
+          "solution": "last night 是过去的标志词，用过去式 studied：变 y 为 i 加 ed。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标七下 P68·听力句变式（I studied for the English test.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "复习整册词汇时，下面哪种做法最有效？",
+          "options": [
+            "把词表从头到尾抄一遍",
+            "只背不规则动词表，其余的词略过",
+            "按课默写，把错的词回原文句子并三天后重测",
+            "只看中文意思回想英文，不动笔写"
+          ],
+          "answer": "C",
+          "solution": "按课默写能定位到具体哪课的词没过关，错词回原文能连句子一起记住，隔三天重测才真正巩固；抄一遍、只看不说、只背一小块都会留死角。",
           "difficulty": 3
         }
       ]

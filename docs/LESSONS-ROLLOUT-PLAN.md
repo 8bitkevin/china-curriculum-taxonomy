@@ -210,5 +210,6 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-E7 | 英语 G6上 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；问路指路/by 交通+must/be going to/like+V-ing/三单 What does he do?/情绪与 should 建议/左行右行文化/书信读与回；装配期修「全册」单元页界覆盖整本） | 见 CHANGELOG Unreleased B-E7 条目 |
 | B-E8 | 英语 G6下 | 10 | ✅ 完成（2026-10-28：10 点讲解+练习 40 题；**小学英语 12 册 99 点全学段双覆盖收官**；比较级/一般过去时规则与不规则/did 疑问否定/was-were 今昔/小初衔接时态总图；不规则动词表跨附录放宽页界） | 见 CHANGELOG Unreleased B-E8 条目 |
 | B-E9 | 初中英语 G7上 | 15 | ✅ 完成（2026-10-29：15 点讲解+练习 60 题；初中开篇（人教新目标 Go for it）；PDF 前言页致自动页码偏移失效，人工映射 Starter S1-S12+正文偏移-15；图谱层 04/05 单元异名按真实内容页对齐；语法术语升级（be 动词/三单/可数不可数/物主代词两套）；装配期修 4 处） | 见 CHANGELOG Unreleased B-E9 条目 |
+| B-E10 | 初中英语 G7下 | 15 | ✅ 完成（2026-10-29：15 点讲解+练习 60 题；扫描版首册——RapidOCR 全册转录上线（偏移-10）；can 社团/频度五级/出行三连问/have to/进行时系统/天气/there be 指路/外貌系统/would like 点餐/was-were/实义动词过去时；校验器再升级 exercise 白名单+空 options） | 见 CHANGELOG Unreleased B-E10 条目 |
 
 > 执行入口：新会话直接说「按 LESSONS-ROLLOUT-PLAN 执行 B{n}」即可。
