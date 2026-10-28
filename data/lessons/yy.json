@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 209,
+  "lessonCount": 219,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -25960,6 +25960,1251 @@
           ],
           "answer": "A",
           "solution": "harvest 处在农耕庆祝的场景里，crops / gathered in / supply of food 都是场景证据——主题场景线索最有效；猜出『收获；收割』后代回原句通顺。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_01",
+      "summary": "that 把整句话打包成名词用：可作主语、宾语、表语从句；头重脚轻时请 it 替班当形式主语。",
+      "explanation": [
+        "语法板块从袁隆平语篇里挑出三个句子来观察：That Yuan Longping had realised his dream of seawater rice surprised the whole world.（that 从句作主语）；改写版 It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice.（it 占住主语位，that 从句整体后移）；语篇里还有 Today, it is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan's hybrid strains.（据估计，中国国内约六成水稻消费来自袁氏杂交株系）。配套句式框架有 It is important that ... / That ... is his/her most important quality.。阅读语篇同步给出 that 宾语从句（Yuan Longping realised that larger fields were not the solution.）与表语从句（One characteristic of hybrids is that they usually attain a higher yield than conventional crops.）。",
+        "名词性从句的本质是「把一句话打包成一个名词来用」，that 就是那根打包带：被它打包的句子自身主谓宾齐全，that 在里面不担任任何成分、也没有词义。打包好的「句子名词」可以坐三个工位——句首当主语、实义动词后当宾语、be 动词后当表语。主语从句往往很长，全句头重脚轻，英语习惯让 it 先站岗（形式主语），真正的主语退到句尾：就像宣布消息时先说「有件事震惊了全世界」，再补一句「是哪件事」。",
+        "三步定位法：第一步看工位——句首或 it 后面是主语从句，实义动词后面是宾语从句，系动词后面是表语从句；第二步查完整性——从句内部主谓宾齐全才配用 that，缺了成分要换词（下一讲展开）；第三步，主语从句太长就启用 it 形式主语：It is estimated that... / It is obvious that... / It surprised the whole world that...。注意：句首引导主语从句的 that 不能省；宾语从句里的 that 在口语中常可省略。",
+        "三组易混要分清：一是 that 与 what——从句缺主语或宾语用 what（它要顶班干活），从句完整用 that；二是 It is ... that ... 有两种身份：强调句去掉 It is...that 后句子依然完整（如强调人的 It was Yuan who...），而 it 形式主语句去掉 It is...that 就不成句；三是名词性从句的 that 与定语从句的 that——定语从句的 that 在从句里当主语或宾语、前面有先行词，名词性从句的 that 不充当成分、前面没有先行词。另外名词性从句按位置共四类：主语从句、宾语从句、表语从句、同位语从句，本册先攻前三类。",
+        "掌握 that 引导的三类从句后，下一讲交给 wh- 词与 whether 去处理「缺件」和「是否」两种情况；写作里 It is estimated that... / It is important that... 是提升书面感的常用句式，介绍人物与成就时先摆评价再摆事实，很有说服力；读长难句时先认出 that 打包的从句再找主句主干，拆句速度会明显加快——这也为后面把定语从句与名词性从句放进同一语篇综合拆解做好了准备。"
+      ],
+      "methods": [
+        {
+          "name": "三步定位 that 从句",
+          "steps": [
+            "看位置定类型：句首或 it 后＝主语从句，实义动词后＝宾语从句，be 动词后＝表语从句；",
+            "看从句内部是否缺成分：主谓宾齐全才用 that，缺件换 what；",
+            "主语从句太长就启用 it 形式主语，把 that 从句整体移到句尾。"
+          ],
+          "tip": "句子完整用 that，头重脚轻 it 替班。"
+        },
+        {
+          "name": "it 形式主语改写三步",
+          "steps": [
+            "先写好 that 引导的主语从句；",
+            "句首放 It，谓语照搬（surprised the whole world / is estimated）；",
+            "把 that 从句原封不动移到句尾收束。"
+          ],
+          "tip": "It 站岗前台，that 真身殿后。"
+        },
+        {
+          "name": "that 与 what 快判",
+          "steps": [
+            "遮住从句，先确认它在主句里占哪个工位；",
+            "检查从句内部缺不缺主语或宾语；",
+            "缺件填 what，齐活填 that。"
+          ],
+          "tip": "缺件找 what，齐活用 that。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：Yuan was convinced _____ the answer could be found in the creation of hybrid rice.（that / what / whether）",
+          "solution": "填 that。从句 the answer could be found in the creation of hybrid rice 主谓齐全、不缺成分，that 引导它作 was convinced（确信）后面的宾语从句。",
+          "difficulty": 1,
+          "pitfall": "从句不缺任何成分时不要顺手填 what——what 必须在从句里担任成分。"
+        },
+        {
+          "question": "指出下面句子中真正的主语：It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice.",
+          "solution": "真正的主语是 that Yuan Longping had realised his dream of developing seawater rice 整个从句，it 只是形式主语，替它在句首占位。",
+          "difficulty": 2,
+          "pitfall": "这里的 it 不指代前面某个名词，是形式主语——真正的主语被甩到了句尾。"
+        },
+        {
+          "question": "选词填空：One characteristic of hybrids is _____ they usually attain a higher yield than conventional crops.（that / what / how）",
+          "solution": "填 that。is 后面是表语从句，从句内部主谓宾完整，用 that 引导。整句意为：杂交品种的一个特性是产量通常比常规作物高。",
+          "difficulty": 2,
+          "pitfall": "表语从句句首的 that 不可省略，从句内也不能用疑问语序。"
+        }
+      ],
+      "mistakes": [
+        "主语从句放句首时把 that 丢掉：That he succeeded surprised us 误写成 He succeeded surprised us，句子结构立刻就塌——句首 that 不能省。",
+        "从句内部不缺成分却误用 what：Yuan was convinced that... 不说 Yuan was convinced what...——缺了主语或宾语才轮到 what。",
+        "it 形式主语句漏写 that：It is estimated that... 若写成 It is estimated, ...，形式主语和真正的主语就被切断了。",
+        "把名词性从句的 that 和定语从句的 that 混为一谈：定语从句的 that 在从句中作主语或宾语，名词性从句的 that 不充当任何成分。"
+      ],
+      "source": {
+        "unit": "选择性必修一语法板块",
+        "pages": [
+          50,
+          53
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选择正确的引导词补全句子：_____ Yuan Longping had realised his dream of seawater rice surprised the whole world.",
+          "options": [
+            "That",
+            "What",
+            "Whether",
+            "Which"
+          ],
+          "answer": "A",
+          "solution": "从句 Yuan Longping had realised his dream of seawater rice 结构完整，作全句主语，用 that 引导主语从句。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P53·语法板块（That Yuan Longping had realised his dream of seawater rice surprised the whole world）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把下面两个简单句合并成含宾语从句的一句话，选出正确的一项：Yuan Longping realised something. Larger fields were not the solution.",
+          "options": [
+            "Yuan Longping realised that larger fields were not the solution.",
+            "Yuan Longping realised that were larger fields not the solution.",
+            "Yuan Longping realised that larger fields is not the solution."
+          ],
+          "answer": "A",
+          "solution": "宾语从句由 that 引导并保持陈述语序：larger fields were not the solution。B 是疑问语序，C 主谓不一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P50·阅读语篇（A Pioneer for All People：Yuan Longping realised that larger fields were not the solution）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "按要求改写句子（用 it 作形式主语）：That Yuan Longping had realised his dream of developing seawater rice surprised the whole world.",
+          "answer": "It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice.",
+          "solution": "把 that 主语从句整体移到句尾，句首补形式主语 It，谓语 surprised the whole world 原位保留——这正是书上例句的一对原句与改写句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P53·语法板块变式（It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "写一句介绍袁隆平（或其他杰出人物）的英文句子，要求用 It is estimated that... 或 It is important that... 开头，并说明句中 it 的作用。",
+          "answer": "示例：It is important that we learn from Yuan Longping's spirit of dedication.（it 作形式主语，真正的主语是 that 从句）",
+          "solution": "先把想表达的完整意思写成 that 从句，再套用 It is + 形容词/过去分词 + that... 结构，让句子重心落在评价上；这种句式在介绍人物与成就的书面表达里非常常用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_02",
+      "summary": "wh- 词按缺什么补什么来打包从句：what 顶缺、whether 管是否；铁律一条——从句一律陈述语序。",
+      "explanation": [
+        "语法板块把 wh- 例句摆在最前面：What Yuan Longping really cared about was not money or celebrity.（what 从句作主语）。配套语篇接着出现一组：To her, that they look beautiful on the outside is obvious. However, what she is unhappy about is the lower nutritional value and reduced flavour. 以及 how they are going to spend their retirement is an important decision for them. 和 Whether they can live a healthy life is the first thing they are considering.（爷爷奶奶退休后的打算与健康）。句头匹配题再补一批：What worries many people / How we can find a suitable solution to produce sufficient food while keeping the environment safe / When these wheat farmers will join this pilot experiment / It amazed all of us that ...；产出框架句有 What impresses me most is that ... / Whether ... depends on ...。",
+        "wh- 词是「顶班打包员」：从句里缺谁，谁来顶班——缺「事物」用 what（相当于 the thing(s) that），缺「人」用 who，缺时间、地点、原因、方式分别用 when、where、why、how；从句不缺成分但含有「是否」之意时，就交给 whether。打包完成的从句照样可以坐主语、宾语、表语的工位，比如 What impresses me most is that ...（what 从句当主语）。",
+        "语序铁律：从句一律陈述语序。写从句三步走：第一步先用疑问句打草稿（How could this be done?）；第二步去掉问号，把 be 动词或助动词挪回主语后面，得到 how this could be done；第三步按工位安放进主句——How this could be done was a challenging question at the time.。whether 与 if 分工明确：句首主语从句只能用 whether（Whether they can live a healthy life is the first thing they are considering.）；介词后、动词-ing 形式后（telling whether it is morning or night is impossible）、与 or not 直连时也只用 whether；只有宾语从句里 if 和 whether 多数情况可互换——口诀是「whether 通用，if 只能从（宾语从句）」。",
+        "四组易混辨析：一是 what 与 that——缺件用 what，完整用 that；二是 what 与 which——which 在有限范围内挑选，what 没有范围限制；三是直接问句与从句——How did he do it? 是独立问句用疑问语序，How he did it surprised us 里的从句必须改陈述语序；四是 whether 从句作主语时谓语用单数：Whether they can live a healthy life is the first thing they are considering.（用 is 不用 are），what 从句作主语时谓语通常也按单数处理。",
+        "wh- 从句让表达多了一种「把问题变成话题」的能力：What matters is ... 开头亮观点，Whether ... depends on ... 表权衡，写作结尾或开头各有一席之地；下一讲要把定语从句与名词性从句放进同一语篇里综合拆解，wh- 从句的边界感是拆句的地基；阅读长难句里先认出 wh- 从句到哪里结束，也是应对高考阅读与七选五的基本功。"
+      ],
+      "methods": [
+        {
+          "name": "顶班检查法",
+          "steps": [
+            "看从句内部缺什么：缺事物用 what，缺人用 who，缺时间、地点、原因、方式用 when / where / why / how；",
+            "从句完整但含「是否」之意，用 whether（宾语从句里也可用 if）；",
+            "再看从句坐在哪个工位，定出主语、宾语或表语从句。"
+          ],
+          "tip": "缺啥顶啥，问什么用什么。"
+        },
+        {
+          "name": "陈述序还原法",
+          "steps": [
+            "把从句内容先写成疑问句打草稿；",
+            "去掉问号，把 be 动词或助动词挪回主语后面；",
+            "套进主句，通读一遍检查是否仍是疑问腔。"
+          ],
+          "tip": "从句一律陈述序，疑问腔进门就打回。"
+        },
+        {
+          "name": "whether 三守门",
+          "steps": [
+            "句首主语从句只收 whether；",
+            "介词后、动词-ing 形式后只收 whether；",
+            "与 or not 直连时只收 whether；其余宾语从句里 if、whether 可互换。"
+          ],
+          "tip": "whether 通用，if 只从宾语从句。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：However, _____ she is unhappy about is the lower nutritional value and reduced flavour.（what / that / whether）",
+          "solution": "填 What。从句 she is unhappy about 中 about 后面缺宾语，what 顶班并引导主语从句；全句意为：她不满意的是较低的营养价值和变差的口感。",
+          "difficulty": 1,
+          "pitfall": "介词 about 后面缺宾语，这是 what 的活——不缺成分才用 that。"
+        },
+        {
+          "question": "选出从句语序正确的一项：① How this could be done was a challenging question at the time. ② How could this be done was a challenging question at the time. ③ How this could do was a challenging question at the time.",
+          "solution": "选 ①。从句 how this could be done 用陈述语序（could 在主语 this 后），作全句主语；② 把疑问语序直接搬进了从句，③ 语序与语态都不对。",
+          "difficulty": 2,
+          "pitfall": "从句不是问句——助动词不得提到主语前面。"
+        },
+        {
+          "question": "Whether they can live a healthy life is the first thing they are considering. 句首为什么必须用 whether，不能用 if？",
+          "solution": "这个从句位于句首作主语，引导句首主语从句只能用 whether；if 没有这个用法。另外主语从句作主语，谓语用单数 is。",
+          "difficulty": 2,
+          "pitfall": "if 只能在宾语从句里与 whether 换用，一放到句首就出错。"
+        }
+      ],
+      "mistakes": [
+        "从句写成疑问语序：What does Yuan Longping really care about was not money or celebrity（误）——应删去 does 并把 care 还原为 cared，保持 What Yuan Longping really cared about... 的陈述语序。",
+        "句首主语从句误用 if：If they can live a healthy life is the first thing...（误）——句首只能用 Whether。",
+        "what 与 that 混用：That she is unhappy about is the lower nutritional value（误）——about 后缺宾语，应用 What 引导。",
+        "whether 从句作主语时谓语误用复数：Whether they can come are unknown（误）——主语从句作主语，谓语用单数 is。"
+      ],
+      "source": {
+        "unit": "选择性必修一语法板块",
+        "pages": [
+          50,
+          53
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选择正确的引导词补全句子：_____ Yuan Longping really cared about was not money or celebrity.",
+          "options": [
+            "What",
+            "That",
+            "Whether",
+            "Which"
+          ],
+          "answer": "A",
+          "solution": "cared about 后面缺宾语，what 顶班并引导主语从句；全句意为：袁隆平真正在乎的不是金钱与名利。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P53·语法板块（What Yuan Longping really cared about was not money or celebrity）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面两句都出自「爷爷奶奶退休后搬去乡下」那段语篇，选出从句语序与谓语都正确的一项：",
+          "options": [
+            "How they are going to spend their retirement is an important decision for them.",
+            "How are they going to spend their retirement is an important decision for them.",
+            "How they are going to spend their retirement are an important decision for them."
+          ],
+          "answer": "A",
+          "solution": "从句 how they are going to spend their retirement 用陈述语序，作主语时谓语用单数 is；B 是疑问语序，C 谓语误用复数。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P53·语法板块语篇（grandparents 段：how they are going to spend their retirement is an important decision for them）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "在横线处填入 that / whether / what 中正确的一个，并说明理由：_____ the research centre is to be set up has not been decided.",
+          "answer": "Whether；从句位于句首作主语且含「是否」之意，只能用 whether 引导。",
+          "solution": "whether 引导主语从句并可置于句首，if 无此用法；主语从句作主语，谓语 has not been decided 用单数。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P58·whether/wh- 填空变式（the research centre is to be set up has not been decided）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全对话（谈未来的智能家居）：A: The future home will use integrated sensors to tell _____. B: Amazing! Then everything will be ready for you when you get home.",
+          "options": [
+            "when you leave home each morning",
+            "when do you leave home each morning",
+            "what you leave home each morning"
+          ],
+          "answer": "A",
+          "solution": "tell 后接 when 引导的宾语从句，从句用陈述语序 when you leave home each morning（你每天早上出门）；B 是疑问语序，C 缺少谓语且语义不通。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_03",
+      "summary": "一篇语篇两种从句同台：定语从句贴着先行词，名词性从句占主宾表；剥洋葱式拆开嵌套长句。",
+      "explanation": [
+        "屠呦呦语篇开篇第一句就两种从句同台：This year's Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin, a crucial new treatment for malaria.（whose 引导非限制性定语从句）；随后是 She concluded that boiling the sweet wormwood apparently destroyed its medical properties.（that 宾语从句）与 the medicine was tested on malaria patients, most of whom recovered.（most of whom 非限制性定语从句）。袁隆平语篇同款混用：However, what concerned him most was that farmers often had poor harvests and sometimes even had a serious shortage of food to eat.（what 主语从句 + that 表语从句）。萨勒克国家公园语篇再来一组：telling whether it is morning or night is impossible 与 I'm above the Arctic Circle, where in summer the sun never sets.（where 非限制性定语从句）。",
+        "两类从句分工不同：定语从句像贴在名词身上的「详情贴纸」，永远贴在先行词后面，给这个名词补充说明；名词性从句像直接坐进主句工位的「零件」，占领主语、宾语、表语的位置。读语篇时，先把贴纸一张张揭下来（找到各自的先行词），再认领零件（看从句站在哪个工位），长句立刻变短，主干一目了然。",
+        "拆句四步：第一步数谓语动词——一个谓语对应一个分句，两个谓语必有从句；第二步抓引导词切边界（that / which / who / whose / whom / where / when / what / whether）；第三步判身份——紧跟名词且引导词在从句内作成分的是定语从句，站在主语位、动词后、be 后且引导词不作成分的是名词性从句；第四步遇到嵌套就剥洋葱，由外层到内层逐个认领。例如：As an educator, people often ask me how I know what is going on in the minds of my students.——how I know what is going on in the minds of my students 作 ask 的宾语，里面又套一个 what is going on... 作 know 的宾语。",
+        "四组易混点：一是 that 同形不同类——引导定语从句时在从句中作主语或宾语、前面有先行词，引导名词性从句时不作成分、前面没有先行词；二是 where / when 既可引导定语从句（有先行词：I'm above the Arctic Circle, where...），也可引导宾语从句（I know when students are really interested，前面没有表地点或时间的先行词）；三是非限制性定语从句不能用 that 引导，要用 which / who / whom，如 most of whom recovered；四是嵌套句里别把内层 what 从句误认成定语从句——它前面没有先行词，是 know 的宾语。",
+        "从句综合能力直接服务后续学习：高考阅读里拆长句、七选五里找逻辑衔接、完形里看复现，都要先认清从句边界；写作中「名词性从句开头 + 定语从句补充」的句式组合能把表达升档。训练建议拿一篇语篇做「从句寻宝」：圈出每处从句、标注类型、给嵌套句画层级图，坚持练完一篇就能看到明显进步。"
+      ],
+      "methods": [
+        {
+          "name": "谓语定位拆句法",
+          "steps": [
+            "数出句中谓语动词，确定分句数量；",
+            "抓住引导词，把各从句边界切出来；",
+            "先拆外层主干，再拆内层嵌套。"
+          ],
+          "tip": "一句一谓语，多谓必多从句。"
+        },
+        {
+          "name": "身份两问法",
+          "steps": [
+            "问一：从句前面有没有名词先行词？",
+            "问二：引导词在从句里作不作成分？",
+            "有先行词且作成分——定语从句；无先行词且不作成分——名词性从句。"
+          ],
+          "tip": "贴名词是定从，占主宾表是名从。"
+        },
+        {
+          "name": "从句寻宝训练",
+          "steps": [
+            "读语篇时圈出全部引导词；",
+            "给每个从句标注类型（定语从句或主语、宾语、表语从句）；",
+            "给含嵌套的句子画出层级图。"
+          ],
+          "tip": "先揭贴纸，再认零件。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "判断从句类型：She concluded that boiling the sweet wormwood apparently destroyed its medical properties. 中 that 引导的从句是什么从句？",
+          "solution": "宾语从句。从句作 concluded 的宾语，从句内部结构完整，that 不充当成分——前面没有先行词，所以不是定语从句。",
+          "difficulty": 1,
+          "pitfall": "别见到 that 就当定语从句——先看它前面有没有先行词。"
+        },
+        {
+          "question": "判断划线部分类型：Tu Youyou went to Hainan, where malaria was more common, to study malaria patients. 中 where malaria was more common 是什么从句？",
+          "solution": "非限制性定语从句。先行词是 Hainan，where 在从句中作地点状语，前后都有逗号。",
+          "difficulty": 2,
+          "pitfall": "where 从句不一定是地点状语从句——看它前面有没有表地点的先行词。"
+        },
+        {
+          "question": "这个句子里有几层从句？分别是什么：As an educator, people often ask me how I know what is going on in the minds of my students.",
+          "solution": "两层，都是宾语从句：外层 how I know what is going on in the minds of my students 作 ask 的宾语；内层 what is going on in the minds of my students 作 know 的宾语。",
+          "difficulty": 3,
+          "pitfall": "拆到内层容易漏——what 从句前面没有先行词，是嵌套的宾语从句而不是定语从句。"
+        }
+      ],
+      "mistakes": [
+        "见 that 就判定语从句：先找先行词——名词性从句的 that 前面没有先行词，也不在从句中作成分。",
+        "非限制性定语从句误用 that：逗号之后要用 which / who / whom，如 most of whom recovered 不说 most of that recovered。",
+        "把宾语从句里的 where / when 当成定语从句：I know when students are really interested 里的 when 从句作 know 的宾语，前面没有时间先行词。",
+        "拆嵌套句拆到内层就丢引导词：how...what... 两层从句要分别认领，漏掉一层句子就读断了。"
+      ],
+      "source": {
+        "unit": "各单元语法复习",
+        "pages": [
+          2,
+          53
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "读句子并判断从句类型：This year's Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin, a crucial new treatment for malaria. 中 whose research led to the discovery of artemisinin 是什么从句？",
+          "options": [
+            "非限制性定语从句",
+            "宾语从句",
+            "表语从句",
+            "主语从句"
+          ],
+          "answer": "A",
+          "solution": "whose 引导定语从句，修饰先行词 Tu Youyou，whose 在从句中作定语；「逗号 + whose」是非限制性定语从句的典型标志。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P2·阅读语篇（TU YOUYOU AWARDED NOBEL PRIZE：...whose research led to the discovery of artemisinin）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "判断下面句子中 what 从句的类型：However, what concerned him most was that farmers often had poor harvests and sometimes even had a serious shortage of food to eat.",
+          "options": [
+            "主语从句",
+            "宾语从句",
+            "表语从句",
+            "定语从句"
+          ],
+          "answer": "A",
+          "solution": "what concerned him most 站在全句主语的位置，是 what 引导的主语从句；后面的 that farmers often had poor harvests... 则是表语从句——一个句子里两个名词性从句分工明确。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P50·阅读语篇（A Pioneer for All People：what concerned him most was that farmers often had poor harvests）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "（变式）萨勒克语篇里有两个从句同现，选出判断完全正确的一项：telling whether it is morning or night is impossible. / I'm above the Arctic Circle, where in summer the sun never sets.",
+          "options": [
+            "whether 从句是 telling 的宾语从句，where 从句是先行词 the Arctic Circle 的非限制性定语从句",
+            "whether 从句是主语从句，where 从句是地点状语从句",
+            "whether 从句是表语从句，where 从句的先行词是 summer"
+          ],
+          "answer": "A",
+          "solution": "telling 是动词-ing 形式，后接 whether 引导的宾语从句；where 引导非限制性定语从句，修饰 the Arctic Circle，在从句中作地点状语。B、C 两项都看错了从句的工位与先行词。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必一 P26·阅读语篇变式（SAREK NATIONAL PARK：telling whether it is morning or night is impossible / where in summer the sun never sets）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "从句层级小练：参考句子 As an educator, people often ask me how I know what is going on in the minds of my students.，画出它的从句层级图并标注每层类型；再用同款结构（ask sb + wh- 从句，内层再嵌一个从句）写一句你自己的英文。",
+          "answer": "层级：外层 how I know what is going on in the minds of my students（宾语从句，作 ask 的宾语）内嵌 what is going on in the minds of my students（宾语从句，作 know 的宾语）。示例造句：My teacher often asks us how we understand what the poem really means.",
+          "solution": "先仿层级：外层 wh- 从句作宾语，内层再嵌一个宾语从句；写完自查两处引导词是否顶班、从句是否都是陈述语序。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_04",
+      "summary": "用 committed、patient 等品质词与 make great contributions 等成就表达，像语篇介绍屠呦呦那样，把一位杰出人物讲得有血有肉。",
+      "explanation": [
+        "人物报道有个固定开场：先用新闻导语亮出最大成就。阅读语篇劈头一句就是 “This year's Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin, a crucial new treatment for malaria.”（本年度诺贝尔生理学或医学奖授予屠呦呦，她的研究发现了青蒿素——一款治疗疟疾的关键新药）。接着按时间线铺开：先给身份定调 “Tu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930, and graduated from Peking University Medical School in 1955.”，再讲 1967 年加入抗疟科研团队、查阅两千多册古医书、评估 28 万种植物，190 多次失败后于 1971 年成功，最后以获奖感言 “The honour is not just mine. There is a team behind me, and all the people of my country.”（荣誉不只属于我，我身后有团队、有祖国的所有人）收束全文。",
+        "为什么先报成就再讲经历？导语像‘一句话名片’，读者三秒钟就知道这个人做成了什么大事；时间线像履历表，让人看清成就‘是怎么一步步做出来的’。报纸上科学家、运动员的报道几乎都是这个套路。读这类语篇时，心里备好三张卡片：成就卡（获了什么奖、发现了什么）、过程卡（时间线）、品质卡（是什么样的人），人物形象自动立起来。",
+        "介绍杰出人物三步走：第一步定身份——用‘冠词＋品质形容词＋身份名词’，如 a committed and patient scientist、a courageous and kind figure；第二步排时间——born in Ningbo in 1930、graduated from Peking University Medical School in 1955、in 1967 she was among the first researchers chosen，把年份串成一条线；第三步说成就与影响——be awarded the Nobel Prize for、make great contributions to society、save hundreds of thousands of lives。讨论‘什么样的人伟大’时，书上列的现成表达直接可用：has made great discoveries、makes great contributions to society、serves as a good role model、brings happiness to other people。",
+        "三个易混点。其一，contribution 是可数名词，‘对……做贡献’要说 make contributions to，介词 to 不能丢——书上写爱因斯坦 “He made numerous contributions to the world.”。其二，award 多用被动：she was awarded the Nobel Prize（她被授予诺奖），丢掉 be 动词意思就反了。其三，品质词要配证据：committed（尽心尽力的）对应 would not acknowledge defeat（不肯认输）与坚持先在自己身上试药；kind（和善的）对应帮敲门的小女孩讲作业的故事——只堆形容词不给事例，人物就站不住。",
+        "这套‘身份—时间线—成就影响’的写法马上会在写作里派上用场：介绍一位你敬佩的人（可以是父母、亲友这样的普通人），先定他的品质词，再找一两件事作证据，最后用贡献或影响收尾。同时留意语篇里 whose 引导的定语从句（whose research led to...），它与名词性从句一样，是把两个短句合并成一个高级长句的工具——人物写作里用上一句，档次立刻不同。"
+      ],
+      "methods": [
+        {
+          "name": "品质—证据配对法",
+          "steps": [
+            "圈出语篇里的品质词：committed、patient、courageous、kind；",
+            "回文找证据句：committed 对应 would not acknowledge defeat，kind 对应帮小女孩讲作业的故事；",
+            "合成一句话：She is committed, because she never gave up although the team failed more than 190 times."
+          ],
+          "tip": "品质不贴标签，证据才是硬通货。"
+        },
+        {
+          "name": "成就表达三件套",
+          "steps": [
+            "记牢三个搭配：make great contributions to...、make great discoveries、be awarded...for...；",
+            "换主语造句：Tu Youyou made great contributions to the fight against malaria. / Zhong Nanshan made great contributions to society by managing the SARS outbreak；",
+            "补一笔影响面：save hundreds of thousands of lives、improve health for millions of people。"
+          ],
+          "tip": "contributions 后接 to，成就影响两相宜。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇用哪两个形容词概括屠呦呦的品质？请写出原短语并说出中文意思。",
+          "solution": "a committed and patient scientist——committed 尽心尽力的、全身心投入的；patient 有耐心的。",
+          "difficulty": 1,
+          "pitfall": "committed 是双写 m 又双写 t，别漏写成 commited；patient 是形容词，别与名词 patience 混用。"
+        },
+        {
+          "question": "把“袁隆平一生为国家做出了巨大贡献。”译成英语，用上‘贡献’的固定搭配。",
+          "solution": "Yuan Longping made great contributions to his country (all his life). 注意 contribution 用复数、后接介词 to。",
+          "difficulty": 2,
+          "pitfall": "别写成 made great contribution（漏复数）或 made great contributions for（介词错）；‘对某方面’用 to。"
+        },
+        {
+          "question": "屠呦呦获奖后说：“The honour is not just mine. There is a team behind me, and all the people of my country.” 这句话反映出她怎样的品质？",
+          "solution": "谦逊（modest）与团队精神——她把荣誉归功于身后的团队和祖国，说明科学成就是集体协作的成果。",
+          "difficulty": 2,
+          "pitfall": "别只答‘她很谦虚’三个字就完事，要扣住引语里‘归功于团队与祖国’这层意思展开。"
+        }
+      ],
+      "mistakes": [
+        "committed 拼写成 commited——双写 t 丢了，拼写分就这么没了。",
+        "make contributions 后忘接 to：‘make contributions society’ 是病句，必须是 make contributions to society。",
+        "把 she was awarded the Nobel Prize 写成主动的 she awarded the Nobel Prize——人是‘被授予’，被动语态的 be 不能丢。",
+        "介绍人物只罗列形容词（great、famous、kind），不配任何事例证据；每贴一个品质标签，就补一句 evidence。"
+      ],
+      "source": {
+        "unit": "选择性必修一人物单元",
+        "pages": [
+          2,
+          9
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "细读人物段：语篇称屠呦呦是一位怎样的科学家？",
+          "options": [
+            "A committed and patient scientist",
+            "A strict and humorless scientist",
+            "A lucky and easy-going scientist",
+            "A young and impatient scientist"
+          ],
+          "answer": "A",
+          "solution": "原句 “Tu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930”——committed（尽心尽力的）、patient（有耐心的）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P2·Tu Youyou 人物段（a committed and patient scientist…born in Ningbo）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "讨论‘什么样的人伟大’时，下面哪一项能与 “To be great, a person should ___” 正确搭配？",
+          "options": [
+            "makes great contributions to society",
+            "make great contributions to society",
+            "making great contributions to society",
+            "made great contributions to society"
+          ],
+          "answer": "B",
+          "solution": "情态动词 should 后接动词原形；词表原形是 makes great contributions to society（对社会做出巨大贡献），进入 should 句要还原为 make。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P7·讨论 greatness 的表达（makes great contributions to society）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·品质配证据：语篇写爱因斯坦 “Einstein was not only a genius; he was a courageous and kind figure loved by many people.”，下列哪件事最能支撑其中的 kind？",
+          "options": [
+            "他提出了著名的公式 E=mc²",
+            "他帮敲门求助的小女孩讲解作业",
+            "他 16 岁时数学物理入学成绩极高",
+            "他 1922 年获得诺贝尔物理学奖"
+          ],
+          "answer": "B",
+          "solution": "语篇讲了一个故事：一个小女孩敲门请他帮忙辅导作业，他耐心相助——这是 kind（和善）的证据；其余三项是成就与经历，支撑的是 genius 与聪明。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P8·Einstein 语篇（a courageous and kind figure…helped a little girl）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "情境微写作：用上‘冠词＋品质形容词＋身份名词’的结构（如 a committed gardener）、make great contributions to 和 because 各一次，两三句话介绍一位你敬佩的人。",
+          "answer": "示例：My grandfather is a committed gardener, because he has grown flowers in our neighborhood for twenty years. He has made great contributions to the beauty of our community.",
+          "solution": "按‘品质＋证据＋影响’组织：先给身份与品质词，再用 because 补事例，最后用 make great contributions to 说影响；三个语言点各出现一次即达标。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_05",
+      "summary": "七选五拼的是‘接缝’：盯住代词复现、however/therefore 这类路标词和总分因果的逻辑链，五个空格自然各归其位。",
+      "explanation": [
+        "未来生活那篇阅读语篇是学衔接的现成范本。开篇连问两个问题——“Have you ever forgotten to lock the door of your house?”，接着一个 However 转折亮出主题：“However, in the not-too-distant future, we will be living in smart homes that will lock the door for us when we are away and remember to switch off the TV when we forget.”。主体用三个小标题分段展开：智能控制、健康检查、防灾防事故，段内用 In addition 递进（“In addition, your smart home will be monitoring your health for you every day.”）、用 for example 举例；结尾先肯定 “This smart technology is not a fantasy.”，再用 Nevertheless 转折收束：“Nevertheless, it will take some years before most new homes begin to use this new technology.”——从设问、转折、递进到收尾，每个‘接缝’都有明确路标。",
+        "七选五就像拼拼图：文章被抽掉五块，每块的‘凹槽形状’由空前空后决定。选项里藏着的 this/these/such、however/therefore/in addition，就是凸起的‘榫头’——代词必须能指回前文出现过的名词，路标词必须和前后句的逻辑方向一致。凸凹对上了，句子严丝合缝；对不上，再‘通顺’的选项也是错的。",
+        "拿到七选五按三步走：第一步，通读首段与各段首句，先抓主旨，知道每段‘管什么’；第二步，盯空前空后——空前出现 smart homes，空格句又以 These smart homes 开头，就是代词复现的信号；第三步，代入通读，检查逻辑链是总分、因果还是转折，读不顺的立刻换。五道题通常有两三道是‘送分’的复现题，先把它们拿下，再攻坚逻辑题。",
+        "三组易混。①however 与 therefore——however 表转折（前后意思相反或相对），therefore 表因果（前因后果），方向不能反。②this/it 与 these/those——单复数必须与指代对象一致，These 后面接的动作主语在空前应是复数事物。③总分与分总——先总说再分块展开是总分（语篇的三个小标题就是典型），各段并列铺陈后收一句总结是分总。选项里出现‘放哪儿都通顺’的万能句时反而要警惕：它常常缺特定的复现词，多半是干扰项。",
+        "衔接意识不只服务七选五：完形填空靠上下文复现选词，应用文写作靠衔接词把句子焊牢，语法里 which、where 引导的从句也是同一套‘指代＋逻辑’的功夫。平时读语篇养成习惯——遇到 However、In addition 就画个路标符号，坚持一个月，你会发现自己能顺着作者的思路走，七选五正确率自然上来。"
+      ],
+      "methods": [
+        {
+          "name": "接缝三查法",
+          "steps": [
+            "一查主旨：先读段首句，判断空格句该讲什么；",
+            "二查指代：在空前空后找 this/these/such 复现的名词，单复数要能对上；",
+            "三查逻辑：判断空前空后是转折、因果还是递进，路标词方向不能反。"
+          ],
+          "tip": "一查主旨二查代，三查逻辑选不坏。"
+        },
+        {
+          "name": "路标词方向法",
+          "steps": [
+            "背熟四个方向：however 转弯（转折）、therefore 收网（因果）、in addition 加码（递进）、for example 举样（例证）；",
+            "读空前空后两句话，判断它们的逻辑方向；",
+            "排除方向相反的选项，再把余项代入通读验证。"
+          ],
+          "tip": "however 转弯，therefore 收网。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "代词复现：“...we will be living in smart homes that will lock the door for us when we are away and remember to switch off the TV when we forget. ___ will keep us secure, save us energy, and provide a more comfortable environment to live in.” 空处应填哪句？",
+          "solution": "These smart homes——These 复现前句的 smart homes（复数），后句谓语 will keep us secure 主语衔接自然；原句正是 “These smart homes will keep us secure, save us energy, and provide a more comfortable environment to live in.”",
+          "difficulty": 1,
+          "pitfall": "别选 This idea 之类的单数主语——These 要求复数指代对象，单复数对不上必错。"
+        },
+        {
+          "question": "逻辑方向：“Their project got stuck. ___ , Tu Youyou would not acknowledge defeat. She analysed the medical texts again...” 空处该填 However 还是 Therefore？为什么？",
+          "solution": "However。前句‘项目卡住了’与后句‘屠呦呦不肯认输、重新分析医书’是转折关系；Therefore 表因果，方向不符。",
+          "difficulty": 2,
+          "pitfall": "‘卡住了’引出的不是‘所以放弃’，而是‘偏不认输’——方向一反就掉进 Therefore 的陷阱。"
+        },
+        {
+          "question": "结构判断：未来生活语篇用智能控制、健康检查、防灾三个小标题各领一段，这属于哪种逻辑链？这样做的好处是什么？",
+          "solution": "总分结构——开篇总说 smart homes 带来安全、节能、舒适，再分三块展开；小标题让读者一眼看到段落要点，也提示每段只管自己的分论点。",
+          "difficulty": 2,
+          "pitfall": "三个小标题之间是并列的分论点，别误判成时间顺序或因果链。"
+        }
+      ],
+      "mistakes": [
+        "只认关键词不查指代：选项里出现 smart homes 就选，却不看代词方向——These smart homes 能复现，This home 不能。",
+        "However 与 Therefore 混用：转折是‘唱反调’，因果是‘顺水推舟’，方向反了一整题就错。",
+        "先看选项后读文章，被‘放哪儿都通顺’的万能句吸引；正确做法是先定空前空后的凹槽形状，再去选项里找榫头。",
+        "忽略段首句主旨，选了语法通顺但跑题的选项——七选五最终要代入通读验证，读不顺就换。"
+      ],
+      "source": {
+        "unit": "各单元 Reading and Thinking",
+        "pages": [
+          14,
+          26
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇结尾：“Many of these new innovations are already available and being used in some homes. ___ , it will take some years before most new homes begin to use this new technology.” 空处应填？",
+          "options": [
+            "Nevertheless",
+            "Therefore",
+            "For example",
+            "In addition"
+          ],
+          "answer": "A",
+          "solution": "前句‘不少创新已经可用’与后句‘大多数新住宅普及尚需数年’意思相对，用 Nevertheless（然而）转折；Therefore 表因果、For example 表例证、In addition 表递进，均不符。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P15·SMART HOMES 结尾段（This smart technology is not a fantasy…Nevertheless…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "健康检查一段以 “In addition, your smart home will be monitoring your health for you every day.” 开头，这个 In addition 提示本段与前文是什么关系？",
+          "options": [
+            "递进补充：在前文基础上再添一项功能",
+            "转折对比：本段与前文意思相反",
+            "因果承接：本段是前文的结果",
+            "举例说明：本段解释前文的概念"
+          ],
+          "answer": "A",
+          "solution": "In addition 是递进路标，提示‘健康监测’是在智能控制之后新增的一项功能；这句正是该段首句。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P14·Regular Health Checks 段首（In addition…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·让步衔接：北方国家公园语篇开头：“___ , telling whether it is morning or night is impossible. I'm above the Arctic Circle, where in summer the sun never sets.” 空处应填？",
+          "options": [
+            "Even though the sun is brightly shining",
+            "Because the sun is brightly shining",
+            "Unless the sun is brightly shining",
+            "As soon as the sun is brightly shining"
+          ],
+          "answer": "A",
+          "solution": "‘阳光明亮’与‘分不清早晚’之间是让步转折，用 Even though；下一句 the sun never sets（极昼）点明原因。Because 方向相反（若因阳光明亮而分不清早晚，逻辑不通），Unless 与 As soon as 语义不搭。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P26·Sarek 语篇开头（Even though the sun is brightly shining…）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：写三句话介绍你的房间将如何变‘智能’，要求用上 in addition 和 however 各一次，句间逻辑要自洽。",
+          "answer": "示例：In the future, my room will turn off the lights all by itself. In addition, it will remind me to do eye exercises every hour. However, I don't want it to do my homework for me.",
+          "solution": "in addition 引出新增功能，however 引出相反态度；写完通读一遍，检查路标词与句意的方向一致。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_06",
+      "summary": "邀请函记住四要素 purpose-time-place-RSVP，咨询信走三步 自我介绍—问题—期待回复，配上礼貌语块，应用文立刻升格。",
+      "explanation": [
+        "书信类写作的基本盘是格式：称呼顶格（Dear ...，）、正文分段、结尾谦辞加署名。给未来自己写信的示例就是这样收尾的——正文写完后另起一行 “Best regards,”，再下一行署名 Future Bingbing；任务清单里也点明一封信要有 a greeting and closing（称呼与结尾）。礼貌请求与澄清的语块表里列着 “Could you explain ...?”、“Could you give me an example?”、“What I meant was ...”——这些正是咨询信‘提问’环节的原材料。在此基础上升级两种体裁：邀请函抓四要素，咨询信走三步。",
+        "邀请函像一张‘礼貌的小海报’：为什么办（purpose）、什么时候（time）、在哪里（place）、来不来要回话（RSVP，即‘请回复是否出席’），四样缺一不可——收信人拿着信就知道要不要来、怎么回话。咨询信则像‘带着问题的自我介绍’：先说我是谁（不然对方不知道该不该认真答），再具体提问，最后客气地表示等回音。把两副‘骨架’背熟，考场上就是往骨架上填肉。",
+        "邀请函四步：①purpose——开门见山 “We would be honored if you could attend...”（若您能出席，我们将不胜荣幸）；②time 与 place——具体到日期、钟点、地点，如 at 3:00 p.m. on Friday, 12 June, in the school hall；③RSVP——“Please reply by 8 June.”（请在 6 月 8 日前回复）；④通读检查称呼、结尾与署名。咨询信三步：①自我介绍——I am Li Hua, chairman of the Student Union；②具体提问——I wonder if you could tell me more about...（不知您能否多讲讲……）；③期待回复——I am looking forward to your reply.",
+        "得体度分级：I wonder if you could... ＞ Could you... ＞ Can you... ＞ 祈使句。‘Tell me about the course.’ 对外教是失礼的，换成 “I wonder if you could tell me more about the course.” 立刻得体。正式邀请用虚拟语气 “We would be honored if you could come”，不能写成 will——would 让语气委婉，是这个语块的固定格式。另外 RSVP 后要给明确期限，只写 Please reply 不写日期，客人不知道什么时候前要回。",
+        "这两种书信是应用文写作的‘两块基石’：格式与语块保住底分，内容具体、衔接自然才能上档次——正文里恰当用上 in addition、however，还能借用阅读语篇练出的衔接功夫。接下来学建议信与申请信，骨架相通：亮身份、摆情况、提请求或建议、盼回复，一通百通。"
+      ],
+      "methods": [
+        {
+          "name": "邀请函四要素点检法",
+          "steps": [
+            "purpose：一句事由加礼貌邀请句 We would be honored if you could...；",
+            "time 与 place：日期、钟点、地点写具体；",
+            "RSVP：Please reply by ＋ 日期；",
+            "通读检查：称呼、结尾（Best regards,）、署名三样齐全。"
+          ],
+          "tip": "事、时、地、回，一样不能少。"
+        },
+        {
+          "name": "咨询信三步走",
+          "steps": [
+            "亮身份：I am Li Hua, ... 一句自我介绍；",
+            "提问题：I wonder if you could ＋ 动词原形，问题要具体；",
+            "盼回复：I am looking forward to your reply. 收尾。"
+          ],
+          "tip": "一亮身份二提问，三盼回信有礼貌。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "得体度判断：想请外教多介绍一些戏剧节的情况，下面哪句最得体？",
+          "solution": "“I wonder if you could tell me more about the drama festival.”——I wonder if you could ＋ 动词原形，语气委婉；祈使句 Tell me... 对师长失礼。",
+          "difficulty": 1,
+          "pitfall": "得体不等于啰嗦，语块要完整：could 后接动词原形，别写成 could telling。"
+        },
+        {
+          "question": "语块填空：邀请函开头——“We ___ be honored if you could attend our English drama festival.” 该填 would 还是 will？为什么？",
+          "solution": "would。We would be honored if... 是礼貌的固定格式，用虚拟语气显得客气；will 语气生硬，不符合邀请函的正式文体。",
+          "difficulty": 2,
+          "pitfall": "固定格式别拆散：would be honored if 中 would 不能换成 will，honored 也不能丢。"
+        },
+        {
+          "question": "格式排序：邀请函正文的 purpose、time 与 place、RSVP 三个要素，合理顺序是什么？RSVP 为什么压轴并要给出期限？",
+          "solution": "先 purpose（为什么邀请）→ time 与 place（何时何地）→ RSVP（请回复，附期限）。收信人先被说动、再获知安排、最后才需要行动，所以 RSVP 放最后；写明期限（如 Please reply by 8 June）才好统计人数、安排场地。",
+          "difficulty": 2,
+          "pitfall": "RSVP 放最前会让邀请显得突兀；只写 Please reply 不给日期，等于没写。"
+        }
+      ],
+      "mistakes": [
+        "漏要素：只有时间没有地点，或只写 Please reply 不给期限——四要素缺一，邀请函就不完整。",
+        "I wonder if you could 后接错形式：要接动词原形（tell、tell me），别写成 could telling。",
+        "咨询信上来就提问，不自我介绍——对方不知道你是哪位学生、你与所问之事有何关系，回答就无从下手。",
+        "把 “We would be honored if you could come.” 写成 “We will be honored if you can come.”——would...could 是这个语块的固定搭档。"
+      ],
+      "source": {
+        "unit": "选择性必修一 Reading for Writing",
+        "pages": [
+          23,
+          43
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "课上没听清老师对某个手势的解释，想请老师再讲一遍，哪句最得体？",
+          "options": [
+            "Could you explain that gesture again?",
+            "Explain that gesture again.",
+            "You should explain it again now.",
+            "The gesture, say it again."
+          ],
+          "answer": "A",
+          "solution": "Could you explain ...? 是礼貌请求语块（与 Could you give me an example? 同族）；对老师用祈使句或命令口吻不得体。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P43·Asking for clarification 礼貌语块（Could you explain…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书信的规范结尾是下面哪一组？",
+          "options": [
+            "Best regards, 换行再署名",
+            "直接写名字，不加任何谦辞",
+            "写 That's all. 再写名字",
+            "写 The end. 再写日期"
+          ],
+          "answer": "A",
+          "solution": "书信要有 greeting 与 closing：正文结束后写谦辞（如 Best regards,）再另起一行署名，示例信正是这样收尾的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P23·书信示例（Dear Past Bingbing…Best regards, Future Bingbing）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·要素齐全：邀请外教担任英语戏剧节评委的邀请函，正文四要素齐全的一组是？",
+          "options": [
+            "purpose、time、place、RSVP",
+            "purpose、price、place、RSVP",
+            "name、time、place、RSVP",
+            "purpose、time、place、photo"
+          ],
+          "answer": "A",
+          "solution": "四要素是事由（purpose）、时间（time）、地点（place）、请回复（RSVP）；价格、姓名、照片都不是邀请函的必备要素。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P23·给未来自己写信的要素清单与书信格式变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "微写作：给外教 Ms Green 写一封咨询信的正文（三句即可）：自我介绍一句，用 I wonder if you could... 提一个关于英语角的问题，最后一句表达期待回复。",
+          "answer": "示例：I am Li Hua, a member of the school English club. I wonder if you could tell me when and where the English Corner will be held next week. I am looking forward to your reply.",
+          "solution": "三句对应三步：亮身份、提具体问题、盼回复；I wonder if you could 后接动词原形，问题里带上 when and where 更具体。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_07",
+      "summary": "熟词也会换面孔：先判词性、再找搭配、最后回句验证——rest、witness、favour 在语境里的新义一抓一个准。",
+      "explanation": [
+        "词汇板块专门练一词多义：同一个词在同一条句子里出现两次，让你辨出两个意思——\"I rest my head on the desk to get some rest.\"（前一个 rest 是动词『把……搁、靠』，后一个是名词『休息』）；\"The child displayed great interest in the huge fireworks display.\"（display 先作动词『表现出』，再作名词『展演』）；\"Most students favour the plan, while their teachers are not in favour of it.\"（favour 作动词『赞成』，in favour of 是名词短语『支持』）；\"Jeremy witnessed the whole incident and was expected to be the key witness at the trial.\"（witness 作动词『目击』，作名词『证人』）；\"His lack of eye contact when talking with people shows that he lacks confidence.\"（lack 先名词后动词）；\"When he noticed a slight frown on his twin sister's face, he frowned as well.\"（frown 名词『皱眉』与动词『皱眉』同形）。另一组搭配练习把 buffet、edge、ban、remote 的动名两义摆在一起：buffet v.（连续猛击）/ buffet n.（自助餐）；edge v.（缓缓挪动）/ edge n.（边缘）；ban v. / ban n.（禁止／禁令）；remote adj.（遥远的）/ remote n.（遥控器）。",
+        "熟词为什么会生义？英语里名词、动词互相转化极其普遍，就像中文说『百度了一下』『微信我』——名词直接当动词用。一个人在教室里是学生、在球场上是队长，人没变，身份随场合变；单词也一样，词性一换，意思常常跟着换。只抱着一本『熟义』硬套，就会在 fireworks display（焰火表演）这种地方卡住。生活里到处是这类例子：book 熟义是『书』，但 I'd like to book a table 里的 book 是『预订』。",
+        "语境三步走：第一步判词性——看位置：冠词、形容词、物主代词后面多是名词（his lack of ...），主语后面缺谓语就是动词（he lacks ...）；第二步找搭配——in favour of、key witness、lack of 这类固定搭配直接锁定词义；第三步回句验证——把选定的意思放回整句翻译，通顺才定，不通就换下一条释义。",
+        "易混点有三处。一是同形不同义：buffet 的『自助餐』与『连续猛击』毫不相干，要按词性分开记，不能想当然互相解释。二是熟义遮眼：interest 最常见是『兴趣』（displayed great interest），但 in the interests of safety 里是『利益』，语境不同意思就变。三是 lack 的名动之分：his lack of eye contact 里 lack 前有 his，是名词；he lacks confidence 里 lacks 带第三人称单数 -s 作谓语，是动词。",
+        "熟词生义是阅读理解和完形填空的高频设考点：练好它，长文章里的熟词不再骗你；写作里主动做词性活用（如 We should favour greener ways of living）能让表达更地道。习惯上，查词典别只看第一义项——把新义连同原句一起抄进词汇本，一词配一句，下次在语境里一眼认出它。"
+      ],
+      "methods": [
+        {
+          "name": "语境三步定词义",
+          "steps": [
+            "第一步判词性：看词在句中的位置——冠词或物主代词后是名词，主语后缺谓语是动词",
+            "第二步找搭配：in favour of / key witness / lack of 等固定搭配直接锁定意思",
+            "第三步回句验证：把词义代入整句翻译，通顺才定，不通就换下一条释义"
+          ],
+          "tip": "先问词性，再找搭档，最后回句翻译。"
+        },
+        {
+          "name": "一词两记法",
+          "steps": [
+            "遇到熟词生义，把两个意思各配一个原句记，如 witness：witnessed the incident（目击）/ the key witness（证人）",
+            "专项收集名动同形词：frown、display、favour、lack、rest 这类一词两用",
+            "每周回看词汇本，遮住中文回忆两个语境句"
+          ],
+          "tip": "一词两义配两句，见一次记一对。"
+        },
+        {
+          "name": "精准选词替换法",
+          "steps": [
+            "写作先想意思再挑搭配：tackle the crisis（应对危机）、overcome difficulties（克服困难）、boost output（提高产量）按搭配选词",
+            "用同义替换自查：把句中的笼统动词换成一个更精确的搭配词",
+            "拿不准就翻词典看搭配例句，不凭感觉硬造"
+          ],
+          "tip": "选词精准靠搭配，不靠直译。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同一句里两个 rest：I rest my head on the desk to get some rest. 它们各自的词性与词义是什么？",
+          "solution": "第一个 rest 是动词，意为『把……搁、靠』（把头靠在课桌上）；第二个 rest 是名词，意为『休息』。词性不同，意思就不同——位置决定身份。",
+          "difficulty": 1,
+          "pitfall": "别把两处都译成『休息』：rest my head 里 rest 后面直接接宾语 my head，必是动词。"
+        },
+        {
+          "question": "选词填空：Jeremy saw the whole incident happen, so he was expected to be the key ______ at the trial.（witness / frown / lack / display）",
+          "solution": "选 witness。前半句『目击了整个事件』是动词义的提示，后文 key ______ at the trial 需要名词『证人』——witness 动名同形，语境决定取哪个义。",
+          "difficulty": 2,
+          "pitfall": "trial（庭审）是关键词：法庭上的关键人物是『证人』这个身份，不是『目击』这个动作。"
+        },
+        {
+          "question": "在横线处填入 favour 或 in favour of：Most students ______ the plan, while their teachers are not ______ it.",
+          "solution": "第一空填 favour（动词『赞成』，作谓语）；第二空填 in favour of（名词短语『支持』，跟在 be 动词后）。一动一名，位置与搭配决定形式。",
+          "difficulty": 3,
+          "pitfall": "be 动词后不能直接接动词原形 favour，要用 in favour of 这个短语。"
+        }
+      ],
+      "mistakes": [
+        "只抱熟义硬套：把 fireworks display 里的 display 仍译成『展示』，句子读不通——这里是名词『展演、表演』。",
+        "不判词性就定词义：his lack of eye contact 里 lack 前有 his，是名词，误当动词会选错形式。",
+        "同形词义乱串：buffet 的『自助餐』与『连续猛击』是两条独立词义，不能互相解释。",
+        "查词典只看第一义项：interest 只记『兴趣』，遇到 in the interests of safety（为了安全起见）就卡住。"
+      ],
+      "source": {
+        "unit": "各单元词汇板块",
+        "pages": [
+          28,
+          40
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "His lack of eye contact when talking with people shows that he lacks confidence. 两个 lack 的词性分别是——",
+          "options": [
+            "前者是名词，后者是动词",
+            "前者是动词，后者是名词",
+            "两处都是名词",
+            "两处都是动词"
+          ],
+          "answer": "A",
+          "solution": "第一处 his lack of ...：his 是物主代词，后面接名词，lack 意为『缺乏』；第二处 he lacks confidence：主语 he 后作谓语，lacks 带第三人称单数 -s，是动词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P40·一词多义辨析（his lack of eye contact / he lacks confidence）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "remote 作形容词和作名词时的意思分别是——",
+          "options": [
+            "遥远的；遥控器",
+            "遥控器；遥远的",
+            "偏远的；远程的",
+            "疏远的；边境的"
+          ],
+          "answer": "A",
+          "solution": "remote adj. 意为『遥远的、偏远的』；remote n. 是口语里的『遥控器』（a device for controlling something else from a distance）。词性一变，词义全变。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P28·词义搭配配对（buffet / edge / ban / remote 动名两义）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "完成句子：So body language provides external ______ that are influenced by internal thoughts and feelings.",
+          "options": [
+            "clues",
+            "frowns",
+            "bows",
+            "rests"
+          ],
+          "answer": "A",
+          "solution": "选 clues。clue 意为『线索』：身体语言提供的是受内心思想情感影响的『外在线索』，与 internal（内在的）相对；备选词是 clue，空格前没有冠词，用复数 clues。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P40·肢体语言语篇填空变式（external clues 与 internal thoughts 相对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "book 是你最早学会的词之一：它在 \"I'd like to book a table for four.\" 里是什么意思？请分别用它的名词熟义和动词生义各写一个句子。",
+          "answer": "句中 book 作动词，意为『预订』。示例——名词熟义：This book about body language is worth reading.；动词生义：You'd better book the train tickets early during the holidays.（意思对、词性用对即可）",
+          "solution": "先定词性再定词义：book a table 里 book 前是 would like to（后接动词原形），后面接宾语 a table，必是动词，取生义『预订』；一词多义靠语境句积累。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_08",
+      "summary": "手势是身体的方言：眼神、OK 手势、点头摇头在不同文化里意思可能不同——入乡问俗，先懂规矩再交流。",
+      "explanation": [
+        "Body Language 主题的阅读语篇开篇点题：\"We use both words and body language to express our thoughts and opinions in our interactions with other people.\"，并给出核心结论——\"Just like spoken language, body language varies from culture to culture. The crucial thing is using body language in a way that is appropriate to the culture you are in.\"（正如口语，肢体语言因文化而异；关键是以符合所在文化的方式使用它）。语篇逐一对照：眼神接触在一些国家是 display interest（表示兴趣），但 \"in many Middle Eastern countries, men and women are not socially permitted to make eye contact\"，而在日本，对年长者说话时 look down 反而是尊重；OK 手势在日本可能被理解为 money，在法国是 zero，在巴西和德国则应避免使用；\"In many countries, shaking one's head means 'no', and nodding means 'yes'. By comparison, in Bulgaria and southern Albania, the gestures have the opposite meaning.\"；见面时，法国、俄罗斯人可能 kiss their friends on the cheek，别处人们更常用握手、bowing from the waist（弯腰鞠躬）或点头。",
+        "把肢体语言想成『身体的方言』：同一个词，各地的意思可能不一样。跨文化交往就像出行前查当地的规矩——不是紧张，而是心里有底。语篇里也有全球通用的部分：双手合拢放在头侧、闭上眼睛表示 sleep；饭后用手在肚子上画圈表示 I'm full。而微笑是最好的通行证——\"A smile can break down barriers.\"（微笑能打破隔阂）。",
+        "整理差异用文化对照表法：按 Body language / Meaning / Country or Region 三栏建表，一个手势一行多格——OK 手势一行就填三地三义（Japan: money；France: zero；Brazil and Germany: not polite）。交流中用『先察后言』：先观察对方的表情与动作反应，拿不准就用语言求证；真出现小误会，一个真诚的微笑往往是最好的缓冲。",
+        "最容易想当然的三处：一是点头摇头并非全球统一——在保加利亚和阿尔巴尼亚南部正好相反；二是眼神接触不等于礼貌——中东一些场合男女之间不允许对视，日本对年长者垂目才是尊重；三是 OK 手势的三种含义要按国家记，别用一个意思走天下。身体接触与距离也有讲究：书上的跨文化资料提到，在越南文化里头是身体最重要的部位，只有父母或重要的人才能碰；黎巴嫩等地的个人空间（personal space）相对更小，站得近不代表冒犯。",
+        "这个主题会一路延伸：语篇阅读练『根据线索推断』，听说里读身体语言猜含义，写作中描写人物的神态动作都有素材可取。养成观察身体语言的习惯，不只为了跨文化交际，也为了更懂身边人的情绪——朋友抱着手臂、皱着眉，可能正是需要你上前问一句的时候。"
+      ],
+      "methods": [
+        {
+          "name": "文化对照表法",
+          "steps": [
+            "画三栏表：Body language / Meaning / Country or Region",
+            "一个手势一行多格：如 OK 手势——Japan: money；France: zero；Brazil and Germany: not polite",
+            "每学一条新差异就补一行，复习时只看表格"
+          ],
+          "tip": "一个手势一行，一个地区一格。"
+        },
+        {
+          "name": "先察后言法",
+          "steps": [
+            "交流中先观察对方的表情与动作反应，再决定下一步",
+            "拿不准对方肢体语言的意思，就用语言求证（Could you explain ...?）",
+            "发现误会时用微笑与道歉化解，不硬性解释"
+          ],
+          "tip": "手势存疑，开口求证。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "在日本，看到别人做出 OK 手势，当地人可能以为这个手势表示什么？",
+          "solution": "money（钱）。语篇原句：\"someone who witnesses another person employing the gesture might think it means money\"。",
+          "difficulty": 1,
+          "pitfall": "别按自己熟悉的用法把 OK 手势一律当『好、可以』——同一手势，文化不同含义不同。"
+        },
+        {
+          "question": "OK 手势在三地的含义配对，正确的是哪一组？①日本—钱；法国—零；巴西与德国—应避免使用　②日本—零；法国—钱；巴西与德国—礼貌　③日本—钱；法国—礼貌；巴西与德国—零",
+          "solution": "选①。语篇原句：日本理解为 money，法国理解为 zero，\"However, you should avoid making this gesture in Brazil and Germany, as it is not considered polite.\"——应避免使用，即不礼貌。",
+          "difficulty": 2,
+          "pitfall": "三地三义要成对记，最易混的是『钱／零』互换和漏掉『应避免使用』。"
+        },
+        {
+          "question": "情境推断：你的黎巴嫩朋友交谈时站得离你很近，你有些不自在。根据跨文化资料，怎样理解更合适？",
+          "solution": "不必觉得被冒犯：黎巴嫩等许多地方的 personal space（个人空间）相对更小，站得近是他们的交流常态，不代表闯入你的私人领域。",
+          "difficulty": 3,
+          "pitfall": "用自己的文化标准解读对方的动作，是跨文化误会最常见的来源。"
+        }
+      ],
+      "mistakes": [
+        "以为肢体语言全球通用——语篇原话是 varies from culture to culture，先了解再使用。",
+        "用眼神接触表达友好不看对象：中东一些场合男女之间不允许对视；在日本对年长者，垂目才是尊重。",
+        "把点头摇头的含义记死：在保加利亚和阿尔巴尼亚南部，这两组手势与多数国家正好相反。",
+        "把身体距离近一律当成冒犯：黎巴嫩等地的个人空间本来就更小，先了解再下判断。"
+      ],
+      "source": {
+        "unit": "选择性必修一 Body Language 单元",
+        "pages": [
+          37,
+          47
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "In France, a person encountering the \"OK\" gesture may interpret it as meaning ______.",
+          "options": [
+            "zero",
+            "money",
+            "good luck",
+            "politeness"
+          ],
+          "answer": "A",
+          "solution": "语篇原句：\"a person encountering an identical gesture may interpret it as meaning zero\"——在法国，OK 手势被理解为『零』。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P38·肢体语言阅读语篇（OK 手势：Japan money / France zero）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "In countries like France and Russia, people may ______ when they meet.",
+          "options": [
+            "kiss their friends on the cheek",
+            "bow from the waist",
+            "shake their heads",
+            "wave goodbye"
+          ],
+          "answer": "A",
+          "solution": "语篇原句：\"people may kiss their friends on the cheek when they meet\"；bowing from the waist 是其他地方（elsewhere）更常用的礼节之一。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P38·见面礼节对照（kiss on the cheek / shaking hands / bowing from the waist / nodding the head）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "课堂上，一个学生 has his head lowered to look at his watch（低头看表），这给老师的暗示是——",
+          "options": [
+            "bored and counting the minutes for the class to end",
+            "very interested in the lesson",
+            "writing notes to a friend",
+            "confused about something difficult"
+          ],
+          "answer": "A",
+          "solution": "语篇原句：\"if a student has his head lowered to look at his watch, it implies he is bored and just counting the minutes for the class to end.\"——低头看表是无聊、盼着下课的信号。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P44·课堂肢体语言语篇变式（head lowered to look at his watch implies bored）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "一位外国朋友第一次来中国，请你用一句英文给他一条肢体语言方面的建议（可参考语篇句式 The crucial thing is ...）。",
+          "answer": "示例：The crucial thing is using body language in a way that is appropriate to the culture you are in, so just smile—it can break down barriers.（句式正确、建议合理即可）",
+          "solution": "建议句两步走：先给总原则（appropriate to the culture），再给一条具体可行的做法（如微笑）；能套用语篇句式更佳。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_09",
+      "summary": "讨论有分歧先让半步：That's true, but ... 先认可再转折，礼貌不减、立场不丢，理由跟上才算完整。",
+      "explanation": [
+        "讨论活动给出了先认可再转折的现成句式：\"That's true, but ...\"（你说得对，不过……），并配有一组争取思考时间的填充语——\"(Er/Oh/Um,) let me see/think ...\"、\"Hang on a second.\"、\"What I want to say is ...\"。表达看法的句式在另一处成组出现：\"In my opinion ...\"、\"From my point of view, ...\"、\"My view/opinion/belief is that ...\"。语篇里让步转折的逻辑词也是成套的：科技议论文先用 \"On the one hand, ...\"、\"On the other hand, ...\" 摆出两面，再亮出立场 \"Nevertheless, I will always look on the positive side of change and accept it rather than resist it.\"；语法改写练习把 \"He insisted that everything in the smart home would be all right. However, I could not help but feel anxious.\" 改用 nevertheless 表达同一个转折。口语里更完整的版本是 I agree with you to some extent, but ...（在一定程度上同意你，不过……）。",
+        "讨论不是辩论赛，要先把对方的球接住再回球：『你说的有道理，不过……』中文这么说，英文同理。先认可，对方才觉得被听见；再转折，你的观点才有位置。注意让步是『部分』的——to some extent（在一定程度上）就是给认可画一条线，不是全盘接受。",
+        "让步三步走：第一步部分认可——That's true. / I see your point. / I agree with you to some extent.；第二步转折——口语用 but，稍正式用 However / Nevertheless（前面用句号或分号断开，后面加逗号）；第三步给理由——because / due to（听力策略告诉我们，观点后面常跟理由，抓住理由才能判断说话人的立场）。一时组织不好语言，先用填充语争取时间：Hang on a second. / What I want to say is ...",
+        "易混点在 but 与 However / nevertheless 的接法：but 是连词，直接连两个分句（..., but ...）；However / nevertheless 是副词，要用标点断开（.... However, ...）。最常见的两个毛病：一是只认可不转折——说完 That's true 就停，等于同意了对方；二是转折后不给理由——观点光秃秃站不住。还有一组反直觉表达：I couldn't agree more（我再同意不过了）是『完全赞同』，别把 more 误解成『更不同意』。",
+        "让步转折句式是听、说、写三线通用的黄金句式：听力里它是立场转变的信号词（转折词后面的内容往往是说话人真正的观点）；写作里它是议论文让步段的开路句。练熟一组句式，讨论、发言、应用文一起受益。"
+      ],
+      "methods": [
+        {
+          "name": "让步三步法",
+          "steps": [
+            "第一步部分认可：That's true. / I see your point. / I agree with you to some extent.",
+            "第二步转折：but（口语）或 However / Nevertheless（稍正式，用标点断开）",
+            "第三步给理由：because / due to，让自己的观点站住脚"
+          ],
+          "tip": "先接一句 true，再转一个 but。"
+        },
+        {
+          "name": "转折信号词法",
+          "steps": [
+            "听对话时圈出 However / But / Nevertheless——转折词后常是说话人真正的立场",
+            "记笔记时把重点画在转折词之后，别把让步部分当成对方结论",
+            "自己发言时也用转折词，让立场更清晰"
+          ],
+          "tip": "转折词后藏真意。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同学说：\"Driverless cars are dangerous.\" 你部分同意，但认为应该拥抱而非拒绝新技术。哪个回应最合适？① You're completely wrong.　② That's true, but I will always look on the positive side of change and accept new technology.　③ I don't care about it at all.",
+          "solution": "选②。先部分认可（That's true, but ...）再亮出自己的观点，与语篇立场 \"accept it rather than resist it\" 一致；①生硬伤人，③回避讨论。",
+          "difficulty": 1,
+          "pitfall": "只认可不转折等于同意对方——but 后面必须有你自己的观点。"
+        },
+        {
+          "question": "用 nevertheless 改写 \"He insisted that everything in the smart home would be all right. However, I could not help but feel anxious.\"，哪个改法正确？① He insisted that everything in the smart home would be all right; nevertheless, I could not help but feel anxious.　② He insisted that everything in the smart home would be all right nevertheless I could not help but feel anxious.　③ Nevertheless he insisted that everything in the smart home would be all right, so I could not help but feel anxious.",
+          "solution": "选①。nevertheless 是副词，要用分号（或句号）在前断开、后加逗号，才能顶替 However 的位置；②缺标点，③把转折改成了因果，逻辑不对。",
+          "difficulty": 2,
+          "pitfall": "However / nevertheless 不能像 but 那样只用一个逗号连接两个分句。"
+        },
+        {
+          "question": "补全对话（填一个词）：A: Smart homes will make our life easier and safer. B: I agree with you to some extent, ______ I'm worried that our health data may not be safe.",
+          "solution": "填 but（若用 however，需在前句后加句号或分号并隔开）。前半句让步认可，后半句转折提出担忧，符合『部分同意＋自己观点』的讨论策略。",
+          "difficulty": 3,
+          "pitfall": "让步要有限度（to some extent），转折要有具体理由，两头都不能省。"
+        }
+      ],
+      "mistakes": [
+        "只认可不转折：说完 That's true 就收尾，对方会以为你全盘同意。",
+        "However 当连词用：写成 ..., however I ... —— 前面缺句号或分号，后面缺逗号。",
+        "把 I couldn't agree more 理解成『不完全同意』——它恰恰是『再同意不过了』，完全赞同。",
+        "转折后不给理由：观点没有 because / due to 支撑，说服力大打折扣。"
+      ],
+      "source": {
+        "unit": "各单元 Listening and Talking",
+        "pages": [
+          7,
+          55
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "小组讨论中你需要一点时间组织语言，最合适的一句话是——",
+          "options": [
+            "Hang on a second.",
+            "You must be joking.",
+            "It's none of my business."
+          ],
+          "answer": "A",
+          "solution": "Hang on a second.（稍等一下）是书上给出的争取思考时间的填充语；同类还有 (Er/Oh/Um,) let me see/think ... / What I want to say is ...",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P7·讨论填充语（Hang on a second. / What I want to say is ...）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "在讨论有机农业的发言中表达『在我看来』，最合适的开头是——",
+          "options": [
+            "In my opinion, organic farming is better for the environment.",
+            "It's a pity that organic farming costs more.",
+            "I'd rather not talk about farming."
+          ],
+          "answer": "A",
+          "solution": "\"In my opinion ...\" 是书上列出的表达观点句式，同类还有 From my point of view, ... / My view is that ...；B 表惋惜，C 是回避，都不是亮观点。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P55·观点表达句式组（In my opinion / From my point of view / My view is that ...）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词填空：Of course, when new technology changes the way we live, it can be a scary prospect. ______, I will always look on the positive side of change and accept it rather than resist it.",
+          "options": [
+            "Therefore",
+            "Nevertheless",
+            "Otherwise",
+            "Besides"
+          ],
+          "answer": "B",
+          "solution": "选 Nevertheless。前句承认变化『令人害怕』，后句转折到『积极看待并接受』，是让步转折；Therefore 表因果、Otherwise 表『否则』、Besides 表递进，逻辑都不合。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必一 P20·科技议论文变式（Nevertheless, I will always look on the positive side ...）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "情景表达：朋友认为『中学生不该使用智能手表』，你部分同意，但觉得它对管理时间有帮助。写两句英文：第一句让步认可，第二句转折亮出你的观点并给出理由。",
+          "answer": "示例：I agree with you to some extent, because some students do get distracted by smart watches. But if we use them only to manage time, they can really help us stay focused.（让步与转折齐备、理由合理即可）",
+          "solution": "套用让步三步：I agree with you to some extent 认可→But 转折→because / if 给条件与理由；写完检查转折词后是否紧跟你自己的观点。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g11b_10",
+      "summary": "完形不是逐空猜词：先通读抓情感主线，再用词汇复现锁答案，最后回读验逻辑——三遍下来稳操胜券。",
+      "explanation": [
+        "书上的语篇就是现成的完形范本。屠呦呦报道里：\"Tu's team tested a collection of dried wormwood leaves but found no effect.\"（found no effect 是固定搭配）；情感线一路铺开——\"Their project got stuck. However, Tu Youyou would not acknowledge defeat.\" \"After failing more than 190 times, the team finally succeeded in 1971.\"（受挫→不认输→终于成功）；save 一词两现：\"Artemisinin has saved hundreds of thousands of lives\" 与 \"is thought to save 100,000 lives a year in Africa alone\"。Sarek 语篇同样如此：\"However, I cannot complain. Being in such a beautiful and wild place makes me feel blessed to be alive.\"——However 转折之后情感上扬，blessed 与全文赞美荒野的基调完全一致。",
+        "完形像拼图：每一块的颜色都要对得上整幅画。只盯着空格前后一句话选词，容易选出『本地正确、全局错误』的选项；先看清整幅图的主线（谁、做了什么、情感是升还是降），手里的每一块才放得准。",
+        "三遍完形法：第一遍通读，跳过空格抓主线与基调；第二遍逐空作答，优先找复现——原词复现（saved ... lives → save lives）、同义复现（did not work ↔ no effect）、搭配复现（found no effect）；第三遍回读，把选好的词填回去通读，检查逻辑词方向与情感线是否一致。时间紧张时，第一遍和第三遍也不能省。",
+        "语境选词与语法选词不同：四个选项词性、语法都对时，只能靠语境与逻辑定夺。形近词要拆开辨——effect（效果）/ effort（努力），found no effort 搭配不通；逻辑词方向别读反——However / Nevertheless 之后意思要翻转，Therefore 之后是顺承因果；复现不等于重复，答案常以同义词的身份『换马甲』出现。",
+        "这套方法直接迁移到读后续写与语法填空：先通篇、再细节、后回读的顺序不变。养成『做完必回读』的习惯，等于把每篇语篇多读了一遍——词汇、搭配与语感一起收入囊中。"
+      ],
+      "methods": [
+        {
+          "name": "三遍完形法",
+          "steps": [
+            "第一遍通读：跳过空格，用一句话概括主角、事件与情感基调",
+            "第二遍逐空：优先考虑与上下文复现或固定搭配的选项",
+            "第三遍回读：代入选项通读全文，核对逻辑词方向与情感线"
+          ],
+          "tip": "先通读，再下手，后回读。"
+        },
+        {
+          "name": "复现定位法",
+          "steps": [
+            "圈出空格前后的名词与动词，回上文找原词或同义词",
+            "认出搭配复现：save ... lives / found no effect 这类『老搭档』",
+            "警惕同义替换：did not work 对应 no effect，答案常换马甲出现"
+          ],
+          "tip": "答案爱穿旧衣服。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：Tu's team tested a collection of dried wormwood leaves but found no ______.（effect / effort / offer / afford）",
+          "solution": "选 effect。found no effect（没有发现效果）是固定搭配；下文 \"this did not work either\" 与 no effect 同义复现，互相印证。",
+          "difficulty": 1,
+          "pitfall": "effect（效果）与 effort（努力）形近易混——found no effort 搭配不通。"
+        },
+        {
+          "question": "选词填空：Their project got stuck. However, Tu Youyou would not acknowledge ______.（defeat / doubt / delay / danger）",
+          "solution": "选 defeat。情感线是受挫但不认输：got stuck（卡住）→ would not acknowledge defeat（不肯认输）→ 下文 \"finally succeeded in 1971\"（终于成功）；would not acknowledge defeat 与 finally succeeded 前后呼应。",
+          "difficulty": 2,
+          "pitfall": "选词前先看情感线方向：However 之后基调要继续上扬，doubt / delay / danger 都让情绪往下走。"
+        },
+        {
+          "question": "选逻辑词：If today is anything like yesterday, it will be full of sweat and hard work as I hike over this difficult land. ______, I cannot complain.（Therefore / However / Instead / Besides）",
+          "solution": "选 However。前句写艰辛（sweat and hard work），后句转向积极（cannot complain，毫无怨言），意思反转需要转折词；Therefore 顺承、Besides 递进、Instead 表『而是』的替换关系，都不合。",
+          "difficulty": 3,
+          "pitfall": "看到艰苦描写就顺承选 Therefore 是掉坑——后半句 cannot complain 才是作者的真实情感。"
+        }
+      ],
+      "mistakes": [
+        "只看空格前后一句就选：局部通顺不等于全局正确，先通篇再逐空。",
+        "逻辑词方向读反：However / Nevertheless 后面是转折，别顺着前句的情感继续选词。",
+        "忽略词汇复现：save 100,000 lives 呼应前文 saved hundreds of thousands of lives，复现是最可靠的提示。",
+        "形近词不辨析：effect / effort 混用，把 found no effect 误写成 found no effort。"
+      ],
+      "source": {
+        "unit": "高考题型训练",
+        "pages": [
+          2,
+          27
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选词填空：Artemisinin has saved hundreds of thousands of lives, and is thought to ______ 100,000 lives a year in Africa alone.",
+          "options": [
+            "save",
+            "spend",
+            "waste",
+            "lose"
+          ],
+          "answer": "A",
+          "solution": "选 save。前半句 saved hundreds of thousands of lives 原词复现，save ... lives（挽救生命）是固定搭配；spend / waste / lose 与『每年挽救十万人的生命』的语义相悖。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必一 P2·屠呦呦报道语篇（saved hundreds of thousands of lives / save 100,000 lives a year）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词填空：However, I cannot complain. Being in such a beautiful and wild place makes me feel ______ to be alive.（blessed / bored / burdened / blocked）",
+          "options": [
+            "blessed",
+            "bored",
+            "burdened",
+            "blocked"
+          ],
+          "answer": "A",
+          "solution": "选 blessed。通篇基调积极：beautiful and wild place、fresh air、great adventure，加上前句 cannot complain 的转折提示，此处是『深感幸运』；bored / burdened / blocked 都让情感线掉头向下。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P27·Sarek 语篇填空（However, I cannot complain ... feel blessed to be alive）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式训练（反义复现）：After failing more than 190 times, the team finally ______ in 1971.",
+          "options": [
+            "succeeded",
+            "failed",
+            "paused",
+            "hesitated"
+          ],
+          "answer": "A",
+          "solution": "选 succeeded。前半句 failing（屡屡失败）与 finally（终于）暗示结局反转，fail ↔ succeed 是反义复现；情感线从受挫走向成功，B 与前文重复，C、D 与『终于』的语气不符。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必一 P3·屠呦呦报道语篇变式（After failing more than 190 times, the team finally succeeded in 1971）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "方法自测：拿到一篇新的完形填空，按三遍完形法说出你的操作顺序，并用一句话说明回读时要检查什么。",
+          "answer": "顺序：第一遍通读抓主线与情感基调→第二遍逐空找复现与搭配→第三遍回读验证。回读检查：代入选项后全文逻辑词方向是否正确、情感线是否前后一致。（表述完整即可）",
+          "solution": "三遍法的核心是『先整体后局部再回到整体』：回读是把每个局部选择放回全局检验的最后一关，省不得。",
           "difficulty": 3
         }
       ]
