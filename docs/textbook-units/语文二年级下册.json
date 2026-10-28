@@ -7,7 +7,296 @@
     "pages": 131,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
-  "units": []
+  "source": "manual",
+  "extractedAt": "2026-10-28",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一单元",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "古诗二首（村居、咏柳）",
+          "page": 1
+        },
+        {
+          "no": "2",
+          "title": "找春天",
+          "page": 4
+        },
+        {
+          "no": "3",
+          "title": "开满鲜花的小路",
+          "page": 6
+        },
+        {
+          "no": "4",
+          "title": "邓小平爷爷植树",
+          "page": 9
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：注意说话的语气",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "◎语文园地一",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：读读儿童故事",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元",
+      "page": 16,
+      "sections": [
+        {
+          "no": "5",
+          "title": "雷锋叔叔，你在哪里",
+          "page": 16
+        },
+        {
+          "no": "6",
+          "title": "千人糕",
+          "page": 19
+        },
+        {
+          "no": "7",
+          "title": "一匹出色的马",
+          "page": 22
+        },
+        {
+          "no": null,
+          "title": "◎语文园地二",
+          "page": 25
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（识字）",
+      "page": 29,
+      "sections": [
+        {
+          "no": "1",
+          "title": "神州谣",
+          "page": 29
+        },
+        {
+          "no": "2",
+          "title": "传统节日",
+          "page": 31
+        },
+        {
+          "no": "3",
+          "title": "「贝」的故事",
+          "page": 33
+        },
+        {
+          "no": "4",
+          "title": "中国美食",
+          "page": 35
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：长大以后做什么",
+          "page": 37
+        },
+        {
+          "no": null,
+          "title": "◎语文园地三",
+          "page": 38
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元",
+      "page": 42,
+      "sections": [
+        {
+          "no": "8",
+          "title": "彩色的梦",
+          "page": 42
+        },
+        {
+          "no": "9",
+          "title": "枫树上的喜鹊",
+          "page": 45
+        },
+        {
+          "no": "10",
+          "title": "沙滩上的童话",
+          "page": 48
+        },
+        {
+          "no": "11",
+          "title": "我是一只小虫子",
+          "page": 51
+        },
+        {
+          "no": null,
+          "title": "◎语文园地四",
+          "page": 53
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五单元",
+      "page": 57,
+      "sections": [
+        {
+          "no": "12",
+          "title": "寓言二则（亡羊补牢、揠苗助长）",
+          "page": 57
+        },
+        {
+          "no": "13",
+          "title": "画杨桃",
+          "page": 60
+        },
+        {
+          "no": "14",
+          "title": "小马过河",
+          "page": 63
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：图书借阅公约",
+          "page": 67
+        },
+        {
+          "no": null,
+          "title": "◎语文园地五",
+          "page": 68
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "第六单元",
+      "page": 71,
+      "sections": [
+        {
+          "no": "15",
+          "title": "古诗二首（晓出净慈寺送林子方、绝句）",
+          "page": 71
+        },
+        {
+          "no": "16",
+          "title": "雷雨",
+          "page": 74
+        },
+        {
+          "no": "17",
+          "title": "要是你在野外迷了路",
+          "page": 76
+        },
+        {
+          "no": "18",
+          "title": "太空生活趣事多",
+          "page": 79
+        },
+        {
+          "no": null,
+          "title": "◎语文园地六",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": 86,
+      "sections": [
+        {
+          "no": "19",
+          "title": "大象的耳朵",
+          "page": 86
+        },
+        {
+          "no": "20",
+          "title": "蜘蛛开店",
+          "page": 89
+        },
+        {
+          "no": "21",
+          "title": "青蛙卖泥塘",
+          "page": 92
+        },
+        {
+          "no": "22",
+          "title": "小毛虫",
+          "page": 96
+        },
+        {
+          "no": null,
+          "title": "◎语文园地七",
+          "page": 99
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元",
+      "page": 102,
+      "sections": [
+        {
+          "no": "23",
+          "title": "祖先的摇篮",
+          "page": 102
+        },
+        {
+          "no": "24",
+          "title": "当世界年纪还小的时候",
+          "page": 105
+        },
+        {
+          "no": "25",
+          "title": "羿射九日",
+          "page": 108
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：推荐一部动画片",
+          "page": 111
+        },
+        {
+          "no": null,
+          "title": "◎语文园地八",
+          "page": 112
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 115,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 115
+        },
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "词语表",
+          "page": 122
+        }
+      ]
+    }
+  ]
 }
