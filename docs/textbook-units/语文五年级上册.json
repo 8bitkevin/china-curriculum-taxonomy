@@ -7,187 +7,328 @@
     "pages": 133,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
       "index": 1,
-      "title": "110牛郎织女(一)​",
-      "page": 35,
+      "title": "第一单元（一花一鸟总关情）",
+      "page": 1,
       "sections": [
         {
           "no": "1",
-          "title": "白鹭 2 11 牛郎织女(二)​ 40 *",
-          "page": null
+          "title": "白鹭",
+          "page": 2
         },
         {
           "no": "2",
-          "title": "落花生 4 ◎ 口语交际​:讲民间故事",
-          "page": 43
+          "title": "落花生",
+          "page": 4
         },
         {
           "no": "3",
-          "title": "桂花雨 6 ◎ 习作​:缩写故事",
-          "page": 44
+          "title": "桂花雨",
+          "page": 6
         },
         {
           "no": "4",
-          "title": "* 珍珠鸟 9 ◎ 语文园地",
-          "page": 45
+          "title": "珍珠鸟",
+          "page": 9
         },
         {
           "no": null,
-          "title": "◎口语交际:制定班级公约11◎快乐读书吧:从前有座山​47",
-          "page": 47
+          "title": "◎口语交际：制定班级公约",
+          "page": 11
         },
         {
           "no": null,
-          "title": "◎习作:我的心爱之物12",
+          "title": "◎习作：我的心爱之物",
           "page": 12
         },
         {
           "no": null,
-          "title": "◎语文园地13第四单元49",
-          "page": 49
-        },
-        {
-          "no": "12",
-          "title": "古诗三首​",
-          "page": 50
+          "title": "◎语文园地",
+          "page": 13
         }
       ]
     },
     {
       "index": 2,
-      "title": "15示儿​",
-      "page": 50,
+      "title": "第二单元（策略：提高阅读速度）",
+      "page": 15,
       "sections": [
         {
           "no": "5",
-          "title": "搭石 16 题临安邸​",
-          "page": 50
+          "title": "搭石",
+          "page": 16
         },
         {
           "no": "6",
-          "title": "将相和 18 己亥杂诗​",
-          "page": 51
+          "title": "将相和",
+          "page": 18
         },
         {
           "no": "7",
-          "title": "什么比猎豹的速度更快 22 13 少年中国说(节选)​",
-          "page": 52
+          "title": "什么比猎豹的速度更快",
+          "page": 22
         },
         {
           "no": "8",
-          "title": "冀中的地道战 25 14 圆明园的毁灭​",
-          "page": 54
+          "title": "冀中的地道战",
+          "page": 25
         },
         {
           "no": null,
-          "title": "◎习作:“漫画”老师2815小岛​58*",
-          "page": null
+          "title": "◎习作：漫画老师",
+          "page": 28
         },
         {
           "no": null,
-          "title": "◎语文园地29◎习作​:二十年后的家乡62",
-          "page": 62
-        },
-        {
-          "no": null,
-          "title": "◎语文园地​63",
-          "page": 63
+          "title": "◎语文园地",
+          "page": 29
         }
       ]
     },
     {
       "index": 3,
-      "title": "第三单元",
+      "title": "第三单元（民间故事）",
       "page": 31,
       "sections": [
         {
           "no": "9",
-          "title": "猎人海力布​",
+          "title": "猎人海力布",
           "page": 32
+        },
+        {
+          "no": "10",
+          "title": "牛郎织女（一）",
+          "page": 35
+        },
+        {
+          "no": "11",
+          "title": "牛郎织女（二）",
+          "page": 40
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：讲民间故事",
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "◎习作：缩写故事",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 45
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：从前有座山",
+          "page": 47
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元（爱国情怀）",
+      "page": 49,
+      "sections": [
+        {
+          "no": "12",
+          "title": "古诗三首（示儿、题临安邸、己亥杂诗）",
+          "page": 50
+        },
+        {
+          "no": "13",
+          "title": "少年中国说（节选）",
+          "page": 52
+        },
+        {
+          "no": "14",
+          "title": "圆明园的毁灭",
+          "page": 54
+        },
+        {
+          "no": "15",
+          "title": "小岛",
+          "page": 58
+        },
+        {
+          "no": null,
+          "title": "◎习作：二十年后的家乡",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 63
         }
       ]
     },
     {
       "index": 5,
-      "title": "6522四季之美​",
-      "page": 94,
+      "title": "第五单元（习作单元：说明文）",
+      "page": 65,
       "sections": [
         {
           "no": "16",
-          "title": "太阳​ 66 23 鸟的天堂​",
-          "page": 96
+          "title": "太阳",
+          "page": 66
         },
         {
           "no": "17",
-          "title": "松鼠​ 68 24 月迹​ 99 *",
-          "page": null
+          "title": "松鼠",
+          "page": 68
         },
         {
           "no": null,
-          "title": "◎习作例文:◎习作​:即景102",
-          "page": 102
+          "title": "◎习作例文：鲸",
+          "page": 71
         },
         {
           "no": null,
-          "title": "◎习作​:介绍一种事物74第八单元105",
-          "page": 105
+          "title": "◎习作例文：风向袋的制作",
+          "page": 73
         },
         {
-          "no": "25",
-          "title": "古人谈读书​",
-          "page": 106
+          "no": null,
+          "title": "◎习作：介绍一种事物",
+          "page": 74
         }
       ]
     },
     {
       "index": 6,
-      "title": "7526忆读书",
-      "page": 108,
+      "title": "第六单元（舐犊之情）",
+      "page": 75,
       "sections": [
         {
           "no": "18",
-          "title": "慈母情深​ 76 27 我的“长生果” 111 *",
-          "page": null
+          "title": "慈母情深",
+          "page": 76
         },
         {
           "no": "19",
-          "title": "父爱之舟 80 ◎ 口语交际​:",
-          "page": null
+          "title": "父爱之舟",
+          "page": 80
         },
         {
           "no": "20",
-          "title": "“精彩极了”和“糟糕透了” 84 * 我最喜欢的人物形象",
-          "page": 114
+          "title": "精彩极了和糟糕透了",
+          "page": 84
         },
         {
           "no": null,
-          "title": "◎口语交际:父母之爱​87◎习作:推荐一本书​115",
-          "page": 115
+          "title": "◎口语交际：父母之爱",
+          "page": 87
         },
         {
           "no": null,
-          "title": "◎习作​:我想对您说88◎语文园地116",
-          "page": 116
+          "title": "◎习作：我想对您说",
+          "page": 88
         },
         {
           "no": null,
-          "title": "◎语文园地​89",
+          "title": "◎语文园地",
           "page": 89
         }
       ]
     },
     {
       "index": 7,
-      "title": "91写字表",
-      "page": 122,
+      "title": "第七单元（四时景物皆成趣）",
+      "page": 91,
       "sections": [
         {
           "no": "21",
-          "title": "古诗词三首​ 92 词语表",
+          "title": "古诗词三首（山居秋暝、枫桥夜泊、长相思）",
+          "page": 92
+        },
+        {
+          "no": "22",
+          "title": "四季之美",
+          "page": 94
+        },
+        {
+          "no": "23",
+          "title": "鸟的天堂",
+          "page": 96
+        },
+        {
+          "no": "24",
+          "title": "月迹",
+          "page": 99
+        },
+        {
+          "no": null,
+          "title": "◎习作：__即景",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 103
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（读书明智）",
+      "page": 105,
+      "sections": [
+        {
+          "no": "25",
+          "title": "古人谈读书",
+          "page": 106
+        },
+        {
+          "no": "26",
+          "title": "忆读书",
+          "page": 108
+        },
+        {
+          "no": "27",
+          "title": "我的长生果",
+          "page": 111
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：我最喜欢的人物形象",
+          "page": 114
+        },
+        {
+          "no": null,
+          "title": "◎习作：推荐一本书",
+          "page": 115
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 116
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 119,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 122
+        },
+        {
+          "no": null,
+          "title": "词语表",
           "page": 124
         }
       ]

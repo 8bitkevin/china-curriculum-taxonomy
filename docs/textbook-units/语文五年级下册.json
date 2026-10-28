@@ -7,55 +7,198 @@
     "pages": 131,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
+      "index": 1,
+      "title": "第一单元（童年往事）",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "古诗三首（四时田园杂兴其三十一、稚子弄冰、村晚）",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "祖父的园子",
+          "page": 4
+        },
+        {
+          "no": "3",
+          "title": "月是故乡明",
+          "page": 8
+        },
+        {
+          "no": "4",
+          "title": "梅花魂",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：走进他们的童年岁月",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "◎习作：那一刻，我长大了",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元（古典名著）",
+      "page": 17,
+      "sections": [
+        {
+          "no": "5",
+          "title": "草船借箭",
+          "page": 18
+        },
+        {
+          "no": "6",
+          "title": "景阳冈",
+          "page": 22
+        },
+        {
+          "no": "7",
+          "title": "猴王出世",
+          "page": 28
+        },
+        {
+          "no": "8",
+          "title": "红楼春趣",
+          "page": 31
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：怎么表演课本剧",
+          "page": 35
+        },
+        {
+          "no": null,
+          "title": "◎习作：写读后感",
+          "page": 36
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 37
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：读古典名著，品百味人生",
+          "page": 39
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（综合性学习：遨游汉字王国）",
+      "page": 41,
+      "sections": [
+        {
+          "no": null,
+          "title": "汉字真有趣",
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "我爱你，汉字",
+          "page": 47
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元（家国责任）",
+      "page": 53,
+      "sections": [
+        {
+          "no": "9",
+          "title": "古诗三首（从军行、秋夜将晓出篱门迎凉有感、闻官军收河南河北）",
+          "page": 54
+        },
+        {
+          "no": "10",
+          "title": "青山处处埋忠骨",
+          "page": 56
+        },
+        {
+          "no": "11",
+          "title": "军神",
+          "page": 59
+        },
+        {
+          "no": "12",
+          "title": "清贫",
+          "page": 63
+        },
+        {
+          "no": null,
+          "title": "◎习作：他__了",
+          "page": 65
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 66
+        }
+      ]
+    },
+    {
       "index": 5,
-      "title": "6920金字塔99*",
-      "page": null,
+      "title": "第五单元（习作单元：描写人物）",
+      "page": 69,
       "sections": [
         {
           "no": "13",
-          "title": "人物描写一组 70 金字塔夕照",
-          "page": 99
+          "title": "人物描写一组（摔跤、他像一棵挺脱的树、两茎灯草）",
+          "page": 70
         },
         {
           "no": "14",
-          "title": "刷子李 74 ◎ 语文园地",
-          "page": 105
+          "title": "刷子李",
+          "page": 74
         },
         {
           "no": null,
-          "title": "◎习作例文:",
-          "page": null
+          "title": "◎习作例文：我的朋友容容",
+          "page": 78
         },
         {
           "no": null,
-          "title": "◎习作:形形色色的人8222手指109",
-          "page": 109
+          "title": "◎习作例文：小守门员和他的观众们",
+          "page": 80
         },
         {
-          "no": "23",
-          "title": "童年的发现 112 *",
-          "page": null
+          "no": null,
+          "title": "◎习作：形形色色的人",
+          "page": 82
         }
       ]
     },
     {
       "index": 6,
-      "title": "83◎口语交际:我们都来讲笑话",
-      "page": 115,
+      "title": "第六单元（思维的火花）",
+      "page": 83,
       "sections": [
         {
           "no": "15",
-          "title": "自相矛盾 84 ◎ 习作:漫画的启示",
-          "page": 116
+          "title": "自相矛盾",
+          "page": 84
         },
         {
           "no": "16",
-          "title": "田忌赛马 85 ◎ 语文园地",
-          "page": 117
+          "title": "田忌赛马",
+          "page": 85
         },
         {
           "no": "17",
@@ -64,35 +207,109 @@
         },
         {
           "no": null,
-          "title": "◎习作:神奇的探险之旅89识字表119",
-          "page": 119
+          "title": "◎习作：神奇的探险之旅",
+          "page": 89
         },
         {
           "no": null,
-          "title": "◎语文园地90写字表121",
-          "page": 121
-        },
-        {
-          "no": null,
-          "title": "词语表123",
-          "page": 123
+          "title": "◎语文园地",
+          "page": 90
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元",
+      "title": "第七单元（异域风情）",
       "page": 93,
       "sections": [
         {
           "no": "18",
-          "title": "威尼斯的小艇 94 标*的是略读课文",
-          "page": null
+          "title": "威尼斯的小艇",
+          "page": 94
         },
         {
           "no": "19",
-          "title": "牧场之国 97 统编版",
-          "page": null
+          "title": "牧场之国",
+          "page": 97
+        },
+        {
+          "no": "20",
+          "title": "金字塔（金字塔夕照、不可思议的金字塔）",
+          "page": 99
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：我是小小讲解员",
+          "page": 103
+        },
+        {
+          "no": null,
+          "title": "◎习作：中国的世界文化遗产",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 105
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（风趣与幽默）",
+      "page": 107,
+      "sections": [
+        {
+          "no": "21",
+          "title": "杨氏之子",
+          "page": 108
+        },
+        {
+          "no": "22",
+          "title": "手指",
+          "page": 109
+        },
+        {
+          "no": "23",
+          "title": "童年的发现",
+          "page": 112
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：我们都来讲笑话",
+          "page": 115
+        },
+        {
+          "no": null,
+          "title": "◎习作：漫画的启示",
+          "page": 116
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 117
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 119,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 121
+        },
+        {
+          "no": null,
+          "title": "词语表",
+          "page": 123
         }
       ]
     }

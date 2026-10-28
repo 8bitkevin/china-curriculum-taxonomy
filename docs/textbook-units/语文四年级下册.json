@@ -7,70 +7,334 @@
     "pages": 151,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
+      "index": 1,
+      "title": "第一单元（乡村生活）",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "古诗词三首（四时田园杂兴其二十五、宿新市徐公店、清平乐·村居）",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "乡下人家",
+          "page": 4
+        },
+        {
+          "no": "3",
+          "title": "天窗",
+          "page": 7
+        },
+        {
+          "no": "4*",
+          "title": "三月桃花水",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：转述",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的乐园",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元（科普）",
+      "page": 15,
+      "sections": [
+        {
+          "no": "5",
+          "title": "琥珀",
+          "page": 16
+        },
+        {
+          "no": "6",
+          "title": "飞向蓝天的恐龙",
+          "page": 20
+        },
+        {
+          "no": "7",
+          "title": "纳米技术就在我们身边",
+          "page": 24
+        },
+        {
+          "no": "8*",
+          "title": "千年梦圆在今朝",
+          "page": 26
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：说新闻",
+          "page": 29
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的奇思妙想",
+          "page": 30
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 31
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：十万个为什么",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（现代诗）",
+      "page": 35,
+      "sections": [
+        {
+          "no": "9",
+          "title": "短诗三首（繁星）",
+          "page": 36
+        },
+        {
+          "no": "10",
+          "title": "绿",
+          "page": 38
+        },
+        {
+          "no": "11",
+          "title": "白桦",
+          "page": 40
+        },
+        {
+          "no": "12*",
+          "title": "在天晴了的时候",
+          "page": 42
+        },
+        {
+          "no": null,
+          "title": "◎综合性学习：轻叩诗歌大门",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 45
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元（动物朋友）",
+      "page": 47,
+      "sections": [
+        {
+          "no": "13",
+          "title": "猫",
+          "page": 48
+        },
+        {
+          "no": "14",
+          "title": "母鸡",
+          "page": 51
+        },
+        {
+          "no": "15",
+          "title": "白鹅",
+          "page": 54
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的动物朋友",
+          "page": 59
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 60
+        }
+      ]
+    },
+    {
       "index": 5,
-      "title": "6323“诺曼底号”遇难记",
-      "page": 104,
+      "title": "第五单元（习作单元：按游览顺序写）",
+      "page": 63,
       "sections": [
         {
           "no": "16",
-          "title": "海上日出 64 24* 黄继光",
-          "page": 109
+          "title": "海上日出",
+          "page": 64
         },
         {
           "no": "17",
-          "title": "记金华的双龙洞 66 25* 挑山工",
-          "page": 113
+          "title": "记金华的双龙洞",
+          "page": 66
         },
         {
           "no": null,
-          "title": "◎习作例文:◎口语交际:自我介绍117",
-          "page": 117
+          "title": "◎习作例文：颐和园",
+          "page": 70
         },
         {
           "no": null,
-          "title": "◎习作:游74",
+          "title": "◎习作例文：七月的天山",
+          "page": 72
+        },
+        {
+          "no": null,
+          "title": "◎习作：游__",
           "page": 74
         }
       ]
     },
     {
-      "index": 8,
-      "title": "第八单元",
-      "page": 121
-    },
-    {
       "index": 6,
-      "title": "7526宝葫芦的秘密(节选)",
-      "page": 122,
+      "title": "第六单元（成长故事）",
+      "page": 75,
       "sections": [
         {
           "no": "18",
-          "title": "文言文二则 76 27 巨人的花园",
-          "page": 125
+          "title": "文言文二则（囊萤夜读、铁杵成针）",
+          "page": 76
         },
         {
           "no": "19",
-          "title": "小英雄雨来(节选) 78 ◎ 语文园地",
-          "page": 135
+          "title": "小英雄雨来（节选）",
+          "page": 78
+        },
+        {
+          "no": "20*",
+          "title": "我们家的男子汉",
+          "page": 87
+        },
+        {
+          "no": "21*",
+          "title": "芦花鞋",
+          "page": 91
         },
         {
           "no": null,
-          "title": "◎口语交际:写字表140统编版",
-          "page": null
+          "title": "◎口语交际：朋友相处的秘诀",
+          "page": 97
         },
         {
           "no": null,
-          "title": "◎习作:我学会了98",
+          "title": "◎习作：我学会了__",
           "page": 98
         },
         {
           "no": null,
-          "title": "◎语文园地99标*的是略读课文",
-          "page": null
+          "title": "◎语文园地",
+          "page": 99
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元（人物品质）",
+      "page": 101,
+      "sections": [
+        {
+          "no": "22",
+          "title": "古诗三首（芙蓉楼送辛渐、塞下曲、墨梅）",
+          "page": 102
+        },
+        {
+          "no": "23",
+          "title": "诺曼底号遇难记",
+          "page": 104
+        },
+        {
+          "no": "24*",
+          "title": "黄继光",
+          "page": 109
+        },
+        {
+          "no": "25*",
+          "title": "挑山工",
+          "page": 113
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：自我介绍",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的自画像",
+          "page": 118
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 119
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（中外童话）",
+      "page": 121,
+      "sections": [
+        {
+          "no": "26",
+          "title": "宝葫芦的秘密（节选）",
+          "page": 122
+        },
+        {
+          "no": "27",
+          "title": "巨人的花园",
+          "page": 125
+        },
+        {
+          "no": "28*",
+          "title": "海的女儿",
+          "page": 129
+        },
+        {
+          "no": null,
+          "title": "◎习作：故事新编",
+          "page": 134
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 135
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 137,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 137
+        },
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 140
+        },
+        {
+          "no": null,
+          "title": "词语表",
+          "page": 142
         }
       ]
     }

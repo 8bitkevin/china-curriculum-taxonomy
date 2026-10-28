@@ -7,77 +7,329 @@
     "pages": 142,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
+      "index": 1,
+      "title": "第一单元（触摸自然）",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "草原",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "丁香结",
+          "page": 5
+        },
+        {
+          "no": "3",
+          "title": "古诗词三首（宿建德江、六月二十七日望湖楼醉书、西江月·夜行黄沙道中）",
+          "page": 8
+        },
+        {
+          "no": "4*",
+          "title": "花之歌",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "◎习作：变形记",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元（革命岁月）",
+      "page": 15,
+      "sections": [
+        {
+          "no": "5",
+          "title": "七律·长征",
+          "page": 16
+        },
+        {
+          "no": "6",
+          "title": "狼牙山五壮士",
+          "page": 18
+        },
+        {
+          "no": "7",
+          "title": "开国大典",
+          "page": 21
+        },
+        {
+          "no": "8*",
+          "title": "灯光",
+          "page": 26
+        },
+        {
+          "no": "9*",
+          "title": "我的战友邱少云",
+          "page": 28
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：演讲",
+          "page": 31
+        },
+        {
+          "no": null,
+          "title": "◎习作：多彩的活动",
+          "page": 32
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 33
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（策略：有目的地阅读）",
+      "page": 35,
+      "sections": [
+        {
+          "no": "10",
+          "title": "竹节人",
+          "page": 36
+        },
+        {
+          "no": "11",
+          "title": "宇宙生命之谜",
+          "page": 40
+        },
+        {
+          "no": "12*",
+          "title": "故宫博物院",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎习作：__让生活更美好",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 51
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元（小说）",
+      "page": 53,
+      "sections": [
+        {
+          "no": "13",
+          "title": "桥",
+          "page": 54
+        },
+        {
+          "no": "14",
+          "title": "穷人",
+          "page": 57
+        },
+        {
+          "no": "15*",
+          "title": "金色的鱼钩",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：请你支持我",
+          "page": 67
+        },
+        {
+          "no": null,
+          "title": "◎习作：笔尖流出的故事",
+          "page": 68
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 69
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：笑与泪，经历与成长",
+          "page": 71
+        }
+      ]
+    },
+    {
       "index": 5,
-      "title": "73伯牙鼓琴",
-      "page": 102,
+      "title": "第五单元（习作单元：围绕中心意思写）",
+      "page": 73,
       "sections": [
         {
           "no": "16",
-          "title": "夏天里的成长 74 书戴嵩画牛",
-          "page": 103
+          "title": "夏天里的成长",
+          "page": 74
         },
         {
           "no": "17",
-          "title": "盼 76 23 月光曲",
-          "page": 105
+          "title": "盼",
+          "page": 76
         },
         {
           "no": null,
-          "title": "◎习作例文:24*京剧趣谈107",
-          "page": 107
+          "title": "◎习作例文：爸爸的计划",
+          "page": 81
         },
         {
           "no": null,
-          "title": "◎习作:围绕中心意思写84◎语文园地111",
-          "page": 111
+          "title": "◎习作例文：小站",
+          "page": 82
+        },
+        {
+          "no": null,
+          "title": "◎习作：围绕中心意思写",
+          "page": 84
         }
       ]
     },
     {
       "index": 6,
-      "title": "85第八单元",
-      "page": 113,
+      "title": "第六单元（保护环境）",
+      "page": 85,
       "sections": [
         {
           "no": "18",
-          "title": "古诗三首 86 25 少年闰土",
-          "page": 114
+          "title": "古诗三首（浪淘沙其一、江南春、书湖阴先生壁）",
+          "page": 86
         },
         {
           "no": "19",
-          "title": "只有一个地球 88 ◎ 习作:有你,真好",
-          "page": 127
+          "title": "只有一个地球",
+          "page": 88
+        },
+        {
+          "no": "20*",
+          "title": "青山不老",
+          "page": 90
+        },
+        {
+          "no": "21*",
+          "title": "三黑和土地",
+          "page": 92
         },
         {
           "no": null,
-          "title": "◎口语交际:意见不同怎么办97写字表130",
-          "page": 130
+          "title": "◎口语交际：意见不同怎么办",
+          "page": 97
         },
         {
           "no": null,
-          "title": "◎习作:学写倡议书98词语表132",
-          "page": 132
+          "title": "◎习作：学写倡议书",
+          "page": 98
         },
         {
           "no": null,
-          "title": "◎语文园地99",
+          "title": "◎语文园地",
           "page": 99
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元",
+      "title": "第七单元（艺术之美）",
       "page": 101,
       "sections": [
         {
           "no": "22",
-          "title": "文言文二则",
+          "title": "文言文二则（伯牙鼓琴、书戴嵩画牛）",
           "page": 102
+        },
+        {
+          "no": "23",
+          "title": "月光曲",
+          "page": 105
+        },
+        {
+          "no": "24*",
+          "title": "京剧趣谈",
+          "page": 107
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：聊聊书法",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的拿手好戏",
+          "page": 110
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 111
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（走近鲁迅）",
+      "page": 113,
+      "sections": [
+        {
+          "no": "25",
+          "title": "少年闰土",
+          "page": 114
+        },
+        {
+          "no": "26",
+          "title": "好的故事",
+          "page": 118
+        },
+        {
+          "no": "27*",
+          "title": "我的伯父鲁迅先生",
+          "page": 121
+        },
+        {
+          "no": "28*",
+          "title": "有的人——纪念鲁迅有感",
+          "page": 125
+        },
+        {
+          "no": null,
+          "title": "◎习作：有你，真好",
+          "page": 127
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 128
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 130,
+      "sections": [
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 130
+        },
+        {
+          "no": null,
+          "title": "词语表",
+          "page": 132
         }
       ]
     }

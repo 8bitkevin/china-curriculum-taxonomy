@@ -7,13 +7,171 @@
     "pages": 138,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
+      "index": 1,
+      "title": "第一单元（自然之美）",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "观潮",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "走月亮",
+          "page": 5
+        },
+        {
+          "no": "3*",
+          "title": "现代诗二首（秋晚的江上、花牛歌）",
+          "page": 8
+        },
+        {
+          "no": "4*",
+          "title": "繁星",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：我们与环境",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "◎习作：推荐一个好地方",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元（策略：提问）",
+      "page": 15,
+      "sections": [
+        {
+          "no": "5",
+          "title": "一个豆荚里的五粒豆",
+          "page": 16
+        },
+        {
+          "no": "6",
+          "title": "夜间飞行的秘密",
+          "page": 21
+        },
+        {
+          "no": "7",
+          "title": "呼风唤雨的世纪",
+          "page": 25
+        },
+        {
+          "no": "8*",
+          "title": "蝴蝶的家",
+          "page": 28
+        },
+        {
+          "no": null,
+          "title": "◎习作：小小动物园",
+          "page": 30
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 31
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（观察）",
+      "page": 33,
+      "sections": [
+        {
+          "no": "9",
+          "title": "古诗三首（暮江吟、题西林壁、雪梅）",
+          "page": 34
+        },
+        {
+          "no": "10",
+          "title": "爬山虎的脚",
+          "page": 36
+        },
+        {
+          "no": "11",
+          "title": "蟋蟀的住宅",
+          "page": 39
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：爱护眼睛，保护视力",
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "◎习作：写观察日记",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 45
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四单元（神话）",
+      "page": 47,
+      "sections": [
+        {
+          "no": "12",
+          "title": "盘古开天地",
+          "page": 48
+        },
+        {
+          "no": "13",
+          "title": "精卫填海",
+          "page": 50
+        },
+        {
+          "no": "14",
+          "title": "普罗米修斯",
+          "page": 51
+        },
+        {
+          "no": "15*",
+          "title": "女娲补天",
+          "page": 54
+        },
+        {
+          "no": null,
+          "title": "◎习作：我和__过一天",
+          "page": 56
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 57
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：很久很久以前",
+          "page": 59
+        }
+      ]
+    },
+    {
       "index": 5,
-      "title": "61◎语文园地",
-      "page": 107,
+      "title": "第五单元（习作单元：把事情写清楚）",
+      "page": 61,
       "sections": [
         {
           "no": "16",
@@ -22,72 +180,156 @@
         },
         {
           "no": "17",
-          "title": "爬天都峰 65 第八单元",
-          "page": 109
+          "title": "爬天都峰",
+          "page": 65
         },
         {
           "no": null,
-          "title": "◎习作例文:25王戎不取道旁李110",
-          "page": 110
+          "title": "◎习作例文：我家的杏熟了",
+          "page": 68
         },
         {
           "no": null,
-          "title": "◎习作:生活万花筒72扁鹊治病115",
-          "page": 115
+          "title": "◎习作例文：小木船",
+          "page": 70
+        },
+        {
+          "no": null,
+          "title": "◎习作：生活万花筒",
+          "page": 72
         }
       ]
     },
     {
       "index": 6,
-      "title": "73◎口语交际:",
-      "page": null,
+      "title": "第六单元（童年生活）",
+      "page": 73,
       "sections": [
         {
           "no": "18",
-          "title": "牛和鹅 74 讲历史人物故事",
-          "page": 118
+          "title": "牛和鹅",
+          "page": 74
         },
         {
           "no": "19",
-          "title": "一只窝囊的大老虎 79 ◎ 习作:我的心儿怦怦跳",
-          "page": 119
+          "title": "一只窝囊的大老虎",
+          "page": 79
         },
         {
           "no": "20",
-          "title": "陀螺 84 ◎ 语文园地",
-          "page": 120
+          "title": "陀螺",
+          "page": 84
         },
         {
           "no": null,
-          "title": "◎口语交际:安慰89",
+          "title": "◎口语交际：安慰",
           "page": 89
         },
         {
           "no": null,
-          "title": "◎习作:记一次游戏90识字表123",
-          "page": 123
+          "title": "◎习作：记一次游戏",
+          "page": 90
         },
         {
           "no": null,
-          "title": "◎语文园地91写字表126",
-          "page": 126
-        },
-        {
-          "no": null,
-          "title": "词语表128",
-          "page": 128
+          "title": "◎语文园地",
+          "page": 91
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元",
+      "title": "第七单元（家国情怀）",
       "page": 93,
       "sections": [
         {
           "no": "21",
-          "title": "古诗三首 94 标*的是略读课文",
-          "page": null
+          "title": "古诗三首（出塞、凉州词、夏日绝句）",
+          "page": 94
+        },
+        {
+          "no": "22",
+          "title": "为中华之崛起而读书",
+          "page": 96
+        },
+        {
+          "no": "23*",
+          "title": "梅兰芳蓄须",
+          "page": 99
+        },
+        {
+          "no": "24*",
+          "title": "延安，我把你追寻",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "◎习作：写信",
+          "page": 106
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 107
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（历史人物故事）",
+      "page": 109,
+      "sections": [
+        {
+          "no": "25",
+          "title": "王戎不取道旁李",
+          "page": 110
+        },
+        {
+          "no": "26",
+          "title": "西门豹治邺",
+          "page": 111
+        },
+        {
+          "no": "27*",
+          "title": "故事二则（扁鹊治病、纪昌学射）",
+          "page": 115
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：讲历史人物故事",
+          "page": 118
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的心儿怦怦跳",
+          "page": 119
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 120
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 123,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 123
+        },
+        {
+          "no": null,
+          "title": "写字表",
+          "page": 126
+        },
+        {
+          "no": null,
+          "title": "词语表",
+          "page": 128
         }
       ]
     }

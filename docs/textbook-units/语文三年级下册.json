@@ -7,77 +7,203 @@
     "pages": 130,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "source": "manual",
+  "extractedAt": "2026-10-28",
   "units": [
     {
+      "index": 1,
+      "title": "第一单元",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "古诗三首（绝句、惠崇春江晚景、三衢道中）",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "燕子",
+          "page": 4
+        },
+        {
+          "no": "3",
+          "title": "荷花",
+          "page": 6
+        },
+        {
+          "no": "4*",
+          "title": "昆虫备忘录",
+          "page": 8
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：春游去哪儿玩",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "◎习作：我的植物朋友",
+          "page": 12
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 13
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二单元（寓言）",
+      "page": 15,
+      "sections": [
+        {
+          "no": "5",
+          "title": "守株待兔",
+          "page": 16
+        },
+        {
+          "no": "6",
+          "title": "陶罐和铁罐",
+          "page": 18
+        },
+        {
+          "no": "7",
+          "title": "鹿角和鹿腿",
+          "page": 21
+        },
+        {
+          "no": "8*",
+          "title": "池子与河流",
+          "page": 23
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：该不该实行班干部轮流制",
+          "page": 27
+        },
+        {
+          "no": null,
+          "title": "◎习作：看图画，写一写",
+          "page": 28
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 29
+        },
+        {
+          "no": null,
+          "title": "◎快乐读书吧：小故事大道理",
+          "page": 31
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三单元（传统文化）",
+      "page": 33,
+      "sections": [
+        {
+          "no": "9",
+          "title": "古诗三首（元日、清明、九月九日忆山东兄弟）",
+          "page": 34
+        },
+        {
+          "no": "10",
+          "title": "纸的发明",
+          "page": 37
+        },
+        {
+          "no": "11",
+          "title": "赵州桥",
+          "page": 40
+        },
+        {
+          "no": "12*",
+          "title": "一幅名扬中外的画",
+          "page": 42
+        },
+        {
+          "no": null,
+          "title": "◎综合性学习：中华传统节日",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 45
+        }
+      ]
+    },
+    {
       "index": 4,
-      "title": "47第七单元",
-      "page": 85,
+      "title": "第四单元",
+      "page": 47,
       "sections": [
         {
           "no": "13",
-          "title": "花钟 48 22 我们奇妙的世界",
-          "page": 86
+          "title": "花钟",
+          "page": 48
         },
         {
           "no": "14",
-          "title": "蜜蜂 51 23 海底世界",
-          "page": 89
+          "title": "蜜蜂",
+          "page": 51
+        },
+        {
+          "no": "15*",
+          "title": "小虾",
+          "page": 54
         },
         {
           "no": null,
-          "title": "◎习作:我做了一项小实验56◎口语交际:劝告93",
-          "page": 93
+          "title": "◎习作：我做了一项小实验",
+          "page": 56
         },
         {
           "no": null,
-          "title": "◎语文园地57◎习作:国宝大熊猫94",
-          "page": 94
-        },
-        {
-          "no": null,
-          "title": "◎语文园地95",
-          "page": 95
+          "title": "◎语文园地",
+          "page": 57
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元",
+      "title": "第五单元（习作单元：想象）",
       "page": 59,
       "sections": [
         {
           "no": "16",
-          "title": "宇宙的另一边 60 第八单元",
-          "page": 97
+          "title": "宇宙的另一边",
+          "page": 60
         },
         {
           "no": "17",
-          "title": "我变成了一棵树 63 25 慢性子裁缝和急性子顾客",
-          "page": 98
+          "title": "我变成了一棵树",
+          "page": 63
         },
         {
           "no": null,
-          "title": "◎习作例文:26*方帽子店102",
-          "page": 102
+          "title": "◎习作例文：一支铅笔的梦想",
+          "page": 67
         },
         {
           "no": null,
-          "title": "◎习作:奇妙的想象70◎口语交际:趣味故事会112",
-          "page": 112
+          "title": "◎习作例文：尾巴它有一只猫",
+          "page": 68
         },
         {
           "no": null,
-          "title": "◎习作:这样想象真有趣113",
-          "page": 113
+          "title": "◎习作：奇妙的想象",
+          "page": 70
         }
       ]
     },
     {
       "index": 6,
-      "title": "71◎语文园地",
-      "page": 114,
+      "title": "第六单元",
+      "page": 71,
       "sections": [
         {
           "no": "18",
@@ -86,23 +212,129 @@
         },
         {
           "no": "19",
-          "title": "剃头大师 74 识字表",
-          "page": 116
+          "title": "剃头大师",
+          "page": 74
         },
         {
           "no": "20",
-          "title": "肥皂泡 77 写字表",
+          "title": "肥皂泡",
+          "page": 77
+        },
+        {
+          "no": "21*",
+          "title": "我不能失信",
+          "page": 80
+        },
+        {
+          "no": null,
+          "title": "◎习作：身边那些有特点的人",
+          "page": 82
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七单元",
+      "page": 85,
+      "sections": [
+        {
+          "no": "22",
+          "title": "我们奇妙的世界",
+          "page": 86
+        },
+        {
+          "no": "23",
+          "title": "海底世界",
+          "page": 89
+        },
+        {
+          "no": "24",
+          "title": "火烧云",
+          "page": 91
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：劝告",
+          "page": 93
+        },
+        {
+          "no": null,
+          "title": "◎习作：国宝大熊猫",
+          "page": 94
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 95
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八单元（故事）",
+      "page": 97,
+      "sections": [
+        {
+          "no": "25",
+          "title": "慢性子裁缝和急性子顾客",
+          "page": 98
+        },
+        {
+          "no": "26*",
+          "title": "方帽子店",
+          "page": 102
+        },
+        {
+          "no": "27",
+          "title": "漏",
+          "page": 105
+        },
+        {
+          "no": "28*",
+          "title": "枣核",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "◎口语交际：趣味故事会",
+          "page": 112
+        },
+        {
+          "no": null,
+          "title": "◎习作：这样想象真有趣",
+          "page": 113
+        },
+        {
+          "no": null,
+          "title": "◎语文园地",
+          "page": 114
+        }
+      ]
+    },
+    {
+      "index": null,
+      "title": "附录",
+      "page": 116,
+      "sections": [
+        {
+          "no": null,
+          "title": "识字表",
+          "page": 116
+        },
+        {
+          "no": null,
+          "title": "写字表",
           "page": 119
         },
         {
           "no": null,
-          "title": "◎习作:统编版",
-          "page": null
-        },
-        {
-          "no": null,
-          "title": "◎语文园地83标*的是略读课文",
-          "page": null
+          "title": "词语表",
+          "page": 121
         }
       ]
     }
