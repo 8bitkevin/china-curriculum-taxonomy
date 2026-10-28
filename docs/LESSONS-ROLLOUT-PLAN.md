@@ -207,5 +207,6 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-E4 | 英语 G4下 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；时间/天气/these-those/Whose 物主/购物 How much/R 音节六大新语法点+小主播播报/小故事复述/My day 时间轴仿写；一次过装配红线） | 见 CHANGELOG Unreleased B-E4 条目 |
 | B-E5 | 英语 G5上 | 13 | ✅ 完成（2026-10-28：13 点讲解+练习 52 题；What's he like? 性格/星期课程/favourite/can 能力/there be 陈述疑问/字母组合发音/重音升降调/语篇阅读与小语篇写作五会词分级起；一次过装配红线） | 见 CHANGELOG Unreleased B-E5 条目 |
 | B-E6 | 英语 G5下 | 13 | ✅ 完成（2026-10-28：13 点讲解+练习 52 题；频度副词/because 说理由/月份与 in-on/序数词日期/现在进行时/名词性物主代词/祈使句规则/辅音组合发音；装配期修 1 处「单元」红线词） | 见 CHANGELOG Unreleased B-E6 条目 |
+| B-E7 | 英语 G6上 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；问路指路/by 交通+must/be going to/like+V-ing/三单 What does he do?/情绪与 should 建议/左行右行文化/书信读与回；装配期修「全册」单元页界覆盖整本） | 见 CHANGELOG Unreleased B-E7 条目 |
 
 > 执行入口：新会话直接说「按 LESSONS-ROLLOUT-PLAN 执行 B{n}」即可。

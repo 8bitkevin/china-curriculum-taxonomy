@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 77,
+  "lessonCount": 89,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -9791,6 +9791,1430 @@
           ],
           "answer": "B",
           "solution": "累了要回家休息——上下文线索指向『鸟巢、鸟的家』。以后读整本的英文小书，就带着这三招一路闯关。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_01",
+      "summary": "问路用 Where is…?，指路说 Turn left/right、go straight，再用 next to、near 说清位置，走到哪儿都不迷路。",
+      "explanation": [
+        "书上先带大家认场所词：science museum、post office、bookstore、hospital、pet hospital、park、cinema，再用问答练位置：—Where is the museum shop? —It's near the door. —Where is the post office? —It's next to the museum. —Where is the cinema? —It's next to the bookstore.；指路部分先给出 Turn right at the school. Then go straight. 和 —Where is the science museum? —It's near the library.，对话里还有 —How can we get there? —Turn left at the bookstore. Then turn right at the hospital.；地图部分示范三个动作 turn left、turn right、go straight，并给出 Go straight and you can see the Palace Museum.；方位词一共有 near、next to、beside 三个。",
+        "问路就像玩寻宝游戏：起点是你站的地方，线索是转弯的地点，宝藏就是目的地。说位置要找「参照物」——门、书店、医院、公园都是现成的路标：near 是「在附近」，next to 是「紧挨着」，beside 是「在旁边」。Turn left/right at… 就像导航播报，先说清在哪儿转弯，再说接下来直走，一步步就能走到。",
+        "问路三步：先用 Excuse me. 礼貌开头，再问 Where is the…? 或 How can I get to the…?，听回答时抓住 near / next to / behind 这些方位词。指路也分步走：先确认对方现在的位置（We're in front of the cinema.），再说在哪转弯（Turn left at the bookstore. Then turn right at the hospital.），最后补一句终点位置（It's next to the park on Dongfang Street.）。",
+        "near 和 next to 别混：near 表示「在附近」，中间可能还隔着一点距离；next to 是「紧挨着」，中间不隔别的东西；beside 也指「在旁边」。方向词 left 和 right 一定要分清——说 Turn left 前先在心里伸左手。还有 at 后面接转弯的地点：Turn left at the bookstore.，不能说 Turn left to the bookstore.",
+        "会问路指路，去陌生城市、给外国朋友当小导游都用得上；紧接着要学的 How do you come to school? 会把「去哪儿」和「怎么去」连成一套完整的出行方案。平时可以拿家里的地图练一练：选一个起点一个终点，用 turn left、go straight 把路线完整说一遍。"
+      ],
+      "methods": [
+        {
+          "name": "问路三步法",
+          "steps": [
+            "先用 Excuse me. 礼貌开头",
+            "再问 Where is the…? 或 How can I get to the…?",
+            "听回答时抓住 near / next to / behind 这些方位词，锁定位置"
+          ],
+          "tip": "先 Excuse me 再发问，方位词里找答案"
+        },
+        {
+          "name": "指路四步走",
+          "steps": [
+            "确认对方现在的位置：We're in front of the cinema.",
+            "说在哪转弯：Turn left / Turn right at＋地点",
+            "再说继续直走：Then go straight.",
+            "最后补终点位置：It's next to the… / It's near the…"
+          ],
+          "tip": "at 后接转弯点，then 接下一步，最后 near、next to 定终点"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把 Robin 的指路句子排成通顺的一段话：① We're in front of the cinema.　② Let's go straight and turn left at the bookstore.　③ Now we are behind the hospital. Let's turn right.",
+          "solution": "顺序是①②③：先说现在的位置，再直行并在书店左转，最后到医院后面右转。",
+          "difficulty": 2,
+          "pitfall": "Now、Then 这样的词是顺序提示：Now 说当前位置，Let's… 说下一步动作，别把它们放错句。"
+        },
+        {
+          "question": "判断：Robin 说「Turn left at the bookstore. Then turn right at the hospital.」的意思是「在书店右转，然后在医院左转」。",
+          "solution": "不对。left 是左、right 是右，原句意思是「在书店左转，然后在医院右转」。",
+          "difficulty": 1,
+          "pitfall": "left 和 right 别记反，说指路句子前先伸出左右手确认一下。"
+        },
+        {
+          "question": "选词填空：The post office is ______ the museum.（next to / Turn / straight）",
+          "solution": "填 next to：说「紧挨着」用 next to，整句是 The post office is next to the museum.",
+          "difficulty": 2,
+          "pitfall": "Turn 和 straight 是指路动作词，不能用来描述位置；说位置要用 near / next to / beside。"
+        }
+      ],
+      "mistakes": [
+        "left 是左、right 是右：听到 Turn left 却往右转，方向就全错了。指路前先在心里分清左右。",
+        "near 和 next to 不一样：near 是「在附近」，可能隔着一段路；next to 是「紧挨着」。说位置时选对词。",
+        "Turn left at the bookstore. 里 at 后面接转弯的地点，不能说 Turn left to the bookstore.",
+        "问路要说清场所名：Where is the post office? 只问 Where is it? 别人不知道你要去哪儿，没法帮你。"
+      ],
+      "source": {
+        "unit": "Unit 1 How can I get there?",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Wu Binbin 问：Where is the museum shop? Robin 答：It's near the door. 请选择：museum shop 在哪里？　A. 在门的附近　B. 在书店旁边　C. 在医院的后面",
+          "options": [
+            "在门的附近",
+            "在书店旁边",
+            "在医院的后面"
+          ],
+          "answer": "A",
+          "solution": "near the door 意思是「在门的附近」，所以选 A。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P4·Let's talk（Where is the museum shop? It's near the door. / Where is the post office? It's next to the museum.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把 Robin 的指路句子排成通顺的一段话：① Turn left at the bookstore.　② Go straight first.　③ Then turn right at the hospital. 正确顺序是：　A. ①②③　B. ②①③　C. ③①②",
+          "options": [
+            "①②③",
+            "②①③",
+            "③①②"
+          ],
+          "answer": "B",
+          "solution": "先直行，再在书店左转，然后在医院右转，顺序是②①③；Then 表示「接着」，要跟在第一个动作后面。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P6·Let's talk（How can we get there? Turn left at the bookstore. Then turn right at the hospital.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "判断这句话的意思对不对：「Turn right at the crossing.」意思是「在十字路口左转」。",
+          "answer": "错。right 是右，正确意思是「在十字路口右转」；左转才用 turn left。",
+          "solution": "turn right at the crossing 是「在十字路口右转」，方向词 right 别看成左。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P7·Let's learn（turn left / turn right / go straight，crossing；Go straight and you can see the Palace Museum.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你的外国朋友问：Excuse me. How can I get to the science museum? 科学博物馆在图书馆旁边，你让他在十字路口右转，再直走就到。请把指路句子补充完整（每空一词）：Turn ______ at the crossing. Then go ______. It's ______ the library.",
+          "answer": "right；straight；near（next to / beside 也可以）",
+          "solution": "右转用 turn right，直走用 go straight，在图书馆附近或旁边用 near the library（或 next to the library）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_02",
+      "summary": "用 How do you come to school? 问上学方式，用 by bus、on foot 回答；红灯停绿灯行，骑车记住 must wear a helmet。",
+      "explanation": [
+        "书上先问方式：—How do you come to school? —Usually, I come on foot. Sometimes I come by bus. —I often come by bike.，开篇还有 —How do you go to school? —I often go by subway.；方式词有 by bus、by taxi、by ship、on foot、by subway、by train、by plane，并示范 —How do you get to the USA from China? —By plane.；规则句有 In the USA people on bikes must wear one（a helmet）. 和 I must pay attention to the traffic lights!；交通灯三条是 Stop and wait at a red light. / Slow down and stop at a yellow light. / Go at a green light.",
+        "by＋交通工具就像「搭乘」：by bus 坐公交、by subway 坐地铁、by plane 坐飞机；走路不用任何工具，所以专门说 on foot。usually、often、sometimes 是频率三兄弟：usually 几乎天天、often 经常、sometimes 偶尔。must 是「必须」，像安全帽上的扣带，不扣不行；红灯前老师喊的 Wait! Don't go at the red light! 就是提醒你停一停。",
+        "问答三步：先问 How do you come to school?；回答先加频率词 usually / often / sometimes，再加方式 come on foot / come by bus / go by subway。写规则句两步：找到安全要求，套「主语＋must＋动词原形」，如 You must wear a helmet. / We must stop and wait.；提醒别人别违规就改用 Don't…：Don't go at the red light!",
+        "走路说 on foot，不说 by foot；by 后面只能接交通工具。come 和 go 方向不同：朝说话人这边来用 come to school，离开说话人去别处用 go to the park。must 和 can 不一样：must 是「必须做到」，can 是「可以做」。三盏灯的规则也别记混：红灯 stop and wait，黄灯 slow down and stop，绿灯 go。",
+        "这部分和问路连起来用：先 Where is the park? 指清地点，再 How do we get there? By bus. 定好方式，路上还要看红绿灯。各国的上学方式也很有趣：德国慕尼黑有孩子 on foot，中国江西有孩子 by ferry，美国阿拉斯加有孩子 by sled，雪橇又快又稳——读英语小短文时，留意这些不同的方式吧。"
+      ],
+      "methods": [
+        {
+          "name": "交通方式问答三步",
+          "steps": [
+            "问：How do you come to school?（或 go to school）",
+            "答：先加频率词 usually / often / sometimes",
+            "再加方式：come on foot / come by bus / go by subway，走路专说 on foot"
+          ],
+          "tip": "by 后接交通工具，走路专词 on foot 不带 by"
+        },
+        {
+          "name": "must 规则句两步",
+          "steps": [
+            "找到安全要求：戴头盔、看红绿灯、stop and wait",
+            "套句型：主语＋must＋动词原形，如 You must wear a helmet. / We must stop and wait.",
+            "提醒别违规改用 Don't…：Don't go at the red light!"
+          ],
+          "tip": "must 后动词穿原形，红灯停来绿灯行"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪一组交通方式搭配全部正确？　A. by bus、by subway、on foot　B. by foot、by bike、by plane　C. on bus、by subway、on foot",
+          "solution": "选 A：乘公交 by bus、乘地铁 by subway、步行 on foot；步行不说 by foot，坐公交不说 on bus。",
+          "difficulty": 1,
+          "pitfall": "走路专用 on foot，by 后面必须接交通工具。"
+        },
+        {
+          "question": "判断：「You must wear a helmet.」的意思是「你必须戴头盔」。",
+          "solution": "对。must 表示「必须」，后面接动词原形 wear，a helmet 是头盔。",
+          "difficulty": 2,
+          "pitfall": "must 后面的动词不加 s、不加 ing，也不能加 to。"
+        },
+        {
+          "question": "补全对话：—How do you come to school? —I ______ come by bus, but sometimes I walk.（usually / helmet / straight）",
+          "solution": "填 usually：回答上学方式，先说频率再说方式，整句是 I usually come by bus.",
+          "difficulty": 2,
+          "pitfall": "问方式用 How，回答先加频率词 usually / often / sometimes 更自然。"
+        }
+      ],
+      "mistakes": [
+        "走路说 on foot，不能说 by foot；by 后面只能接交通工具，如 by bus、by bike。",
+        "must 后面接动词原形：You must wear a helmet.，不能说 must wears、must wearing 或 must to wear。",
+        "三盏灯规则别记混：红灯 stop and wait，黄灯 slow down and stop，绿灯 go。",
+        "come 和 go 方向不同：来学校用 come to school，去公园用 go to the park，别混用。"
+      ],
+      "source": {
+        "unit": "Unit 2 Ways to go to school",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "老师问：How do you come to school? Amy 回答：Usually, I come on foot. Sometimes I come by bus. 这句话的意思是：　A. 我通常步行来，有时乘公交车来　B. 我通常乘公交车来，有时步行来　C. 我经常骑自行车来",
+          "options": [
+            "我通常步行来，有时乘公交车来",
+            "我通常乘公交车来，有时步行来",
+            "我经常骑自行车来"
+          ],
+          "answer": "A",
+          "solution": "usually 表示「通常」，on foot 是步行，by bus 是乘公交车，所以选 A。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P14·Let's talk（How do you come to school? Usually, I come on foot. Sometimes I come by bus. I often come by bike.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Mr Jones 指着照片说：A helmet. In the USA people on bikes must wear one. 句中 one 指的是：　A. a bike　B. a helmet　C. a bus",
+          "options": [
+            "a bike",
+            "a helmet",
+            "a bus"
+          ],
+          "answer": "B",
+          "solution": "one 代替前面提到的单数名词 a helmet：在美国骑自行车的人必须戴头盔。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P16·Let's talk（A helmet. In the USA people on bikes must wear one. / Hey, don't go at the red light!）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "路口黄灯亮了，骑车的同学应该：　A. 加速冲过去　B. 慢下来并停下来　C. 原地等到绿灯再起步",
+          "options": [
+            "加速冲过去",
+            "慢下来并停下来",
+            "原地等到绿灯再起步"
+          ],
+          "answer": "B",
+          "solution": "黄灯规则是 Slow down and stop at a yellow light.，即慢下来并停下来；「等到绿灯」是红灯时做的事。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P17·Let's learn（Stop and wait at a red light. / Slow down and stop at a yellow light. / Go at a green light.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "骑车出行有两条安全提醒，请补全（每空一词）：① You must wear a ______.（在美国骑车必戴）② Don't go at the ______ light!（红灯不能走）",
+          "answer": "helmet；red",
+          "solution": "must 后接动词原形：wear a helmet；红灯禁止通行说 Don't go at the red light!",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_03",
+      "summary": "谈周末计划用 be going to：I'm going to see a film. 配上 tonight、next week；提建议说 Why not go on Tuesday? It's half price then!",
+      "explanation": [
+        "书上用问答带出 be going to：—What are you going to do in the nature park? —I'm going to look for some beautiful leaves.；对话里有 —What are you going to do tomorrow? —I'm going to have an art lesson. —We're going to draw some pictures in Renmin Park. —I'm going to see a film tomorrow.；活动词是 visit my grandparents、go to the supermarket、see a film、take a trip；时间词是 this morning、this afternoon、this evening、tonight、tomorrow、next week；追问用 —Where are you going? —We're going to the cinema. —When are you going? —Next Wednesday.；还有建议 —Why not go on Tuesday? It's half price then!；归纳表给出 am / is / are＋going to＋动词。",
+        "be going to 就像计划表上已经写好的安排：主意定了，就等着去做。am、is、are 是三把钥匙，主语是谁就配哪把：我用 am，他、她、单个人用 is，你、我们、他们用 are。going to 后面接的动词永远保持原形，像排队买票不用换装，这点最省心。",
+        "造句三步：第一步定主语配 be（I'm… / She's… / They're…）；第二步加 going to＋动词原形（see a film、take a trip、visit my grandparents）；第三步把时间词放句尾（tonight、tomorrow、next week）。问计划三连：问做什么用 What are you going to do?，问去哪儿用 Where are you going?，问什么时候用 When are you going?",
+        "三处易错要盯住：be 动词配错，He am going to 不对，要说 He is going to；going to 后要用动词原形，going to seeing 不对，要说 going to see；问句别漏 be，要说 What are you going to do? 时间词也分清：tonight 是今晚，this evening 是今天傍晚和晚上，tomorrow 是明天，next week 是下周。",
+        "be going to 表将来的用法以后还会遇到它的近亲 will；把几个安排连起来，就是一篇我的周末计划小作文。订计划时还可以互相提建议：Why not go on Tuesday? It's half price then!——半价日出行，省钱又会安排。"
+      ],
+      "methods": [
+        {
+          "name": "be going to 造句三步",
+          "steps": [
+            "定主语配 be：I→am，he/she→is，you/we/they→are",
+            "加 going to＋动词原形：see a film、take a trip、visit my grandparents",
+            "句尾放时间词：tonight、tomorrow、next week"
+          ],
+          "tip": "I 配 am，他她是 is，你我他们 are；going to 后动词不变形"
+        },
+        {
+          "name": "计划问答三连",
+          "steps": [
+            "问做什么：What are you going to do?",
+            "问去哪儿：Where are you going?",
+            "问什么时候：When are you going?（答 Next Wednesday. / Tonight.）"
+          ],
+          "tip": "What 问事、Where 问地、When 问时"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：She ______ going to visit her grandparents next week.（am / is / are）",
+          "solution": "填 is：主语 she 配 is，整句是 She is going to visit her grandparents next week.",
+          "difficulty": 1,
+          "pitfall": "I 配 am，he/she 配 is，you/we/they 配 are，别凭语感乱选。"
+        },
+        {
+          "question": "补全对话：—When are you going to the cinema? —Next Wednesday. —Why not go on Tuesday? ______ then!（It's half price / Take a trip / Don't be sad）",
+          "solution": "填 It's half price：half price 意思是「半价」，建议周二去是因为那天半价。",
+          "difficulty": 2,
+          "pitfall": "Why not…? 是提建议的句型，后面接的句子要给出理由。"
+        },
+        {
+          "question": "把词语排成通顺的句子：going to / I'm / take a trip / next week",
+          "solution": "I'm going to take a trip next week.（下周我要去旅行。）",
+          "difficulty": 2,
+          "pitfall": "时间词 next week 放句尾，going to 后接动词原形 take。"
+        }
+      ],
+      "mistakes": [
+        "be 动词配错：He am going to… 不对，he/she 要配 is：He is going to…",
+        "going to 后面用动词原形：I'm going to see a film.，不能说 going to seeing。",
+        "问句别漏 be 动词：要说 What are you going to do?，不能说 What you going to do?",
+        "tonight（今晚）和 tomorrow（明天）别互相顶替：今晚的计划用 tonight，明天的用 tomorrow，一般放在句尾。"
+      ],
+      "source": {
+        "unit": "Unit 3 My weekend plan",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Mike 问：What are you going to do tomorrow? Sarah 回答：I'm going to have an art lesson. 这组问答在谈论：　A. 明天的计划　B. 昨天的作业　C. 现在的天气",
+          "options": [
+            "明天的计划",
+            "昨天的作业",
+            "现在的天气"
+          ],
+          "answer": "A",
+          "solution": "be going to 表示打算要做的事，tomorrow 说明是明天的计划，所以选 A。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P24·Let's talk（What are you going to do tomorrow? I'm going to have an art lesson. We're going to draw some pictures in Renmin Park.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "想表达「今晚我要去看电影」，最合适的一句是：　A. I'm going to see a film tonight.　B. I'm going to see a film next week.　C. I'm going to see a film this morning.",
+          "options": [
+            "I'm going to see a film tonight.",
+            "I'm going to see a film next week.",
+            "I'm going to see a film this morning."
+          ],
+          "answer": "A",
+          "solution": "tonight 意思是「今晚」，对应句子 I'm going to see a film tonight.；next week 是下周，this morning 是今天早上。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P25·Let's learn（this morning/afternoon/evening tonight tomorrow next week；visit my grandparents see a film take a trip）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词填空：They ______ going to take a trip next week.　A. am　B. is　C. are",
+          "options": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "C",
+          "solution": "主语 they 配 are：They are going to take a trip next week.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P30·Let's wrap it up（am is are + going to；What Where When 提问归纳）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "补全这段谈计划的对话（每空一词）：—What are you going to do ______ ______（下周）？ —I'm going to ______ my grandparents. —Why not go together?",
+          "answer": "next week；visit",
+          "solution": "下周说 next week，放在句尾；看望祖父母用 visit my grandparents。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_04",
+      "summary": "说爱好用 like 加动词-ing：I like reading stories. 问别人的爱好用 What are your hobbies?",
+      "explanation": [
+        "书上先认识笔友：Oliver, this is my pen pal Peter. He's from New Zealand. He likes doing kung fu and swimming. 再学爱好问答：What are Peter's hobbies? — He likes reading stories. He also likes singing. 说自己的爱好：What are your hobbies? — I like reading stories. I also like singing and doing kung fu. 常见爱好词有 dancing、singing、reading stories、playing football、doing kung fu、flying kites、drawing cartoons、doing word puzzles、going hiking。顺带学三单问答：Does he live in Sydney? — No, he doesn't. He lives in Canberra. / Does he live in China, too? — No, he doesn't. He lives in Australia, but he studies Chinese.",
+        "可以把 -ing 想成爱好的一件小外套：喜欢做的是一类事，不是某一次的动作，所以 read 要穿上 -ing 变成 reading。就像你说「我喜欢画画」，说的不是正在画这一次，而是平时就好这一口。和笔友通信、介绍好朋友时，最爱聊的就是爱好，学会这套句型就能交到远方的朋友。",
+        "三步说爱好：第一步看主语，I、you、we、they 用 like，he、she、一个人名用 likes；第二步把 like 后面的动词变成 -ing；第三步检查拼写。变形三规律：一般直接加（read→reading，sing→singing）；以不发音的 e 结尾去 e 加（dance→dancing，write→writing）；重读闭音节双写尾字母再加（swim→swimming，run→running）。回答可以列两三个爱好：I like singing and dancing.",
+        "易混三处：一、like 后动词忘变 -ing，把 I like dancing 说成 I like dance；二、三单漏 s，He like singing 要改成 He likes singing；三、Does 问句里动词又加了 s，Does 后面要用原形：Does he live in China? 回答 Yes, he does. 或 No, he doesn't.；doesn't 后面的动词也用原形：He doesn't like singing.",
+        "这套句型是后面学习的地基：写英文邮件介绍自己、给笔友回信、介绍好朋友都用得上；以后学职业话题时，三单还要接着用（She works...）。养成小习惯：给家人做个爱好小调查，用 My father likes... 说一说，三单越说越顺。"
+      ],
+      "methods": [
+        {
+          "name": "三步变 -ing",
+          "steps": [
+            "找主语：I、you、we、they 用 like，he、she、人名单数用 likes",
+            "like 后面的动词变 -ing",
+            "查拼写：直接加（reading）、去 e 加（dancing）、双写再加（swimming）"
+          ],
+          "tip": "like 后面穿 -ing 外套：直加、去 e 加、双写再加；三单主语，like 加 s"
+        },
+        {
+          "name": "Does 问答三句",
+          "steps": [
+            "问句 Does 开头，动词用原形：Does he live in China?",
+            "肯定回答 Yes, he does. 否定回答 No, he doesn't.",
+            "doesn't 后动词回家用原形：He doesn't like singing."
+          ],
+          "tip": "三单动词加 s，does 问 does 答，doesn't 后动词用原形"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把动词变成正确的形式填空：My pen pal Peter likes ______ (swim) in summer.",
+          "solution": "swimming。swim 是重读闭音节，先双写 m 再加 -ing。",
+          "difficulty": 1,
+          "pitfall": "别写成 swiming，m 要双写。"
+        },
+        {
+          "question": "选一选：He ______ reading stories and singing.（like / likes / liking）",
+          "solution": "likes。he 是第三人称单数，like 要加 s。",
+          "difficulty": 1,
+          "pitfall": "主语是 he、she 时别忘加 s；I、you、we、they 才用 like。"
+        },
+        {
+          "question": "补全对话：—Does he live in Sydney? —No, he ______. He lives in Canberra.",
+          "solution": "doesn't。Does 开头的一般疑问句，否定回答用 No, he doesn't.",
+          "difficulty": 2,
+          "pitfall": "he 是三单，要用 doesn't，不是 don't。"
+        }
+      ],
+      "mistakes": [
+        "like 后面的动词忘记变 -ing：把 I like dancing 说成 I like dance。跟在 like 后面表示爱好，动词要加 -ing。",
+        "三单漏 s：He like singing 是错的，要说 He likes singing.",
+        "Does 问句里的动词又加 s：Does he lives 是错的，Does 后动词用原形：Does he live in China?",
+        "swim、run 这类词变 -ing 忘记双写尾字母：swiming 是错的，要双写 m 写成 swimming."
+      ],
+      "source": {
+        "unit": "Unit 4 I have a pen pal",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What are your hobbies? —I like ______ and doing kung fu.",
+          "options": [
+            "read stories",
+            "reading stories",
+            "reads stories",
+            "to reading stories"
+          ],
+          "answer": "B",
+          "solution": "like 后面动词加 -ing，read 变成 reading stories.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P39·What are your hobbies? I like reading stories. I also like singing and doing kung fu."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Wu Binbin 在给澳大利亚的笔友写邮件。选择正确答语：—Does he live in Sydney? —______",
+          "options": [
+            "Yes, he does. He lives in Canberra.",
+            "No, he doesn't. He lives in Canberra.",
+            "No, he isn't. He lives in Canberra."
+          ],
+          "answer": "B",
+          "solution": "Does 开头的问句用 does 简短回答；住在 Canberra 说明是否定，用 No, he doesn't.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P40·Does he live in Sydney? No, he doesn't. He lives in Canberra."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式填空：写出动词的正确形式。My sister likes ______ (dance), and she ______ (have) a dancing class every Sunday.",
+          "answer": "dancing；has",
+          "solution": "dance 以不发音 e 结尾，去 e 加 -ing 变 dancing；she 是三单，have 变 has.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P39·dancing singing reading stories playing football doing kung fu（变式：like 后动词加 -ing、三单 have 变 has）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：仿照 I like reading stories. I also like singing. 用英文写两句自己的爱好，再用 Does he...? 给笔友提一个问题（如 Does he like doing word puzzles?）。",
+          "answer": "示例：I like swimming. I also like drawing cartoons. Does he like going hiking?",
+          "solution": "爱好句用 like 加 -ing；Does 问句动词用原形。写完读一读，检查三单有没有加 s。以后给笔友写邮件就能直接用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_05",
+      "summary": "问职业用 What does he do? 答 He's a businessman. 问工作地 Where does he work? 答 He works at sea.",
+      "explanation": [
+        "书上围绕家人的职业展开：What does your mother do, Oliver? — She is a head teacher. My father is a businessman. 小故事里还有：My father is a pilot. — What does he do? — Wow! Where does he work? — He works near the sea. — How does he go to work? By plane? — No. By car! 核心职业词：factory worker（工厂工人）、postman（邮递员）、businessman（商人）、police officer（警察）、fisherman（渔民）、scientist（科学家）、pilot（飞行员）、coach（教练），还有 head teacher、businesswoman、fisherwoman。理想职业这样说：I'm going to be a businessman. / I'm going to be a head teacher one day.",
+        "长辈做什么工作、在哪儿上班，是我们了解世界的一扇窗。中文问「你妈妈是做什么的？」，英文固定用 What does...do?——这里的 do 就是「做（工作）」。工作地点也很有画面：He works at sea（在海上打渔），at sea 是固定说法；scientist 在大学 a university，coach 在体育馆 a gym，doctor 在宠物医院 a pet hospital.",
+        "职业三问三答：一问职业 What does he/she do? 答 He's/She's a 加职业词；二问地点 Where does he/she work? 答 He/She works at 或 in 加地点（at sea、at a university、in a gym、in a pet hospital）；三问方式 How does he/she go to work? 答 He/She goes by 加交通工具。每句回答都是三单：works、goes、has 都带 s。",
+        "易混点：What does he do? 问的是职业，别答成 He's fine.（那是问身体状况）；work 要跟三单加 s，She works at a university.；职业词长相要分清：businessman 商人、businesswoman 女商人、fisherman 渔民、postman 邮递员、police officer 警察，-er 或 -man 结尾的多是「做某事的人」；说理想别丢冠词：I'm going to be a businessman.",
+        "这些问答都踩在三单的节拍上，和爱好话题一样越练越熟。把三问连起来就是一段小介绍：My uncle is a fisherman. He works at sea. He goes to work by bike. 以后写「我的家庭」「我的梦想」都能直接用；还可以给爸爸妈妈做一张英文职业小名片，边做边练。"
+      ],
+      "methods": [
+        {
+          "name": "职业三问三答",
+          "steps": [
+            "问职业：What does he/she do? 答 He's/She's a 加职业词",
+            "问地点：Where does he/she work? 答 He/She works at 或 in 加地点",
+            "问方式：How does he/she go to work? 答 He/She goes by 加交通工具"
+          ],
+          "tip": "what 问职业、where 问地点、how 问方式；does 问，动词加 s 答"
+        },
+        {
+          "name": "职业词配地点",
+          "steps": [
+            "先记八词：factory worker、postman、businessman、police officer、fisherman、scientist、pilot、coach",
+            "配工作地：fisherman—sea、scientist—university、pilot—plane、coach—gym、doctor—pet hospital",
+            "说理想：I'm going to be a 加职业词"
+          ],
+          "tip": "后缀 -er、-man 多表示「做某事的人」：work→worker，business→businessman，fish→fisherman"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选择正确答语：—What does your mother do? —______",
+          "solution": "She's a head teacher. What does...do? 问职业，用 She's a 加职业词回答。",
+          "difficulty": 1,
+          "pitfall": "She works at a university. 答的是工作地点，She goes to work by bike. 答的是上班方式，别答非所问。"
+        },
+        {
+          "question": "Mike 介绍叔叔：My uncle is a fisherman. 选一选：—Where does he work? —______",
+          "solution": "He works at sea. fisherman 在海上打渔，at sea 是固定搭配，中间不加 the。",
+          "difficulty": 2,
+          "pitfall": "主语 he 是三单，work 要加 s。"
+        },
+        {
+          "question": "补全理想句：Oliver 想当商人。I'm going to be a ______.",
+          "solution": "businessman。I'm going to be a 加职业词，说将来的理想职业。",
+          "difficulty": 2,
+          "pitfall": "别丢冠词 a：going to be a businessman."
+        }
+      ],
+      "mistakes": [
+        "把 What does he do? 理解成问身体，答成 He's fine. 它问的是职业，应答 He's a pilot. 这样的句子。",
+        "三单漏 s：She work at a university 是错的，要说 She works at a university.",
+        "at sea 里加 the：固定说法是 He works at sea.",
+        "职业词张冠李戴：postman 邮递员、police officer 警察、businessman 商人，记词时先想「谁在哪儿干活」。"
+      ],
+      "source": {
+        "unit": "Unit 5 What does he do?",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Sarah 和 Oliver 聊家人。选择正确答语：—What does he do? —______",
+          "options": [
+            "He's a businessman.",
+            "He's in Australia.",
+            "He goes to work by car."
+          ],
+          "answer": "A",
+          "solution": "问职业用 He's a 加职业词回答：He's a businessman.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P48·What does he do? He's a businessman. He often goes to other countries."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Mike 介绍叔叔：My uncle is a fisherman. 选一选：—Where does he work? —______",
+          "options": [
+            "He works at sea.",
+            "He works at a university.",
+            "He works in a gym."
+          ],
+          "answer": "A",
+          "solution": "fisherman 在海上工作：He works at sea.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P50·My uncle is a fisherman. Where does he work? He works at sea."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式配对：Oliver 的姑姑是科学家。选出正确的一句：",
+          "options": [
+            "My aunt is a scientist. She works at a university.",
+            "My aunt is a scientist. She works at sea.",
+            "My aunt is a pilot. She works at a university."
+          ],
+          "answer": "A",
+          "solution": "scientist 配 university；pilot 配飞机，fisherman 配大海。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P51·My aunt is a scientist. Where does she work? She works at a university.（变式：职业与工作地配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小介绍：用三句英文说说家人的职业和你的梦想——My mother or father is a ______. He or she works ______. I'm going to be a ______.（提示职业词：doctor、teacher、pilot、coach、scientist）",
+          "answer": "示例：My mother is a doctor. She works in a hospital. I'm going to be a scientist.",
+          "solution": "三句连成一段小介绍，注意三单 works；工作地可选 in a hospital、in a school、in a gym 等。以后写「我的家庭」「我的梦想」都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_06",
+      "summary": "问心情用 How do you feel? 关心别人先问 What's wrong? 再用 angry、afraid、sad、worried、happy 说出感受。",
+      "explanation": [
+        "书上从看电影的爆米花小插曲说起：Yum! I'm so happy. I love popcorn! 接着学五个情绪词：angry（生气的）、afraid（害怕的）、sad（难过的）、worried（担心的）、happy（高兴的），配成句子：Sarah is angry. The cat is afraid. Sarah is sad. Sarah and the cat are worried. They are happy. 问心情：How do you feel? — I'm angry. 关心别人：What's wrong? — Your father is ill. 还有两个固定搭配一起学：They're afraid of him.（老鼠怕猫）The cat is angry with them.（猫生它们的气）",
+        "心情就像天气，有晴有雨：爆米花被一口吃光会 angry；被猫追着跑的老鼠是 afraid；去不成动物园是 sad；爸爸生病没去成是 worried；一起玩得开心是 happy。能用英语把心情说出来，朋友和家人才能第一时间关心你：What's wrong?（怎么了？）",
+        "三步说心情：第一步选 be 动词（I am、He is、She is、They are）；第二步加情绪词：I am happy. He is sad. They are worried.；第三步需要时补上原因。两个黄金搭配：be angry with 加人——The cat is angry with them.；be afraid of 加物或人——They're afraid of him. 问句两兄弟：How do you feel? 问感觉，What's wrong? 问出了什么事。",
+        "易混点：be 动词要跟主语变，He are angry 要改成 He is angry.；angry with 对人、afraid of 对物，with 和 of 不能互换；worried（担心，怕坏事发生）和 sad（难过，坏事已发生）意思不同；What's wrong? 要回答事情和心情，不能答 I'm fine, thank you.——那是回答 How are you? 的。",
+        "说出情绪只是第一步，接下来还要学会给建议：You should take a deep breath. 或 Don't be sad. 把情绪词和建议连起来就能安慰朋友；写英文小日记、讲小故事都用得上——比如 Robin 掉进泥里 He is worried.，最后 Everyone is happy! 情绪词就是故事的调味料。"
+      ],
+      "methods": [
+        {
+          "name": "情绪三步说",
+          "steps": [
+            "选 be：I am、He is、She is、They are",
+            "加情绪词：angry、afraid、sad、worried、happy",
+            "补原因更完整：I'm worried. My father is ill."
+          ],
+          "tip": "主语变，be 跟着变：I am，he is，they are"
+        },
+        {
+          "name": "with 和 of 各管一摊",
+          "steps": [
+            "生某人的气：be angry with 加人 → The cat is angry with them.",
+            "害怕某物某人：be afraid of 加物或人 → They're afraid of him.",
+            "先关心再安慰：What's wrong? → Don't be sad."
+          ],
+          "tip": "with 后面跟惹你生气的人，of 后面跟让你害怕的东西"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选情绪词：The cat chases the mice. The mice run away quickly. They are ______ of him.",
+          "solution": "afraid。被猫追着跑是害怕：They're afraid of him.",
+          "difficulty": 1,
+          "pitfall": "afraid 后面接 of。"
+        },
+        {
+          "question": "选介词：The mice hurt people, so the cat is angry ______ them.",
+          "solution": "with。be angry with sb 表示生某人的气。",
+          "difficulty": 2,
+          "pitfall": "angry with 对人，afraid of 对物，两个介词别换位。"
+        },
+        {
+          "question": "补全对话：—______? —My father is ill. I'm worried.（用关心别人的常用问句）",
+          "solution": "What's wrong?",
+          "difficulty": 2,
+          "pitfall": "How are you? 是问身体好不好，这里要问出了什么事。"
+        }
+      ],
+      "mistakes": [
+        "be 动词跟错主语：He are angry 是错的，要说 He is angry. 主语变，be 变。",
+        "介词互换：应该是 be angry with sb、be afraid of sth，with 和 of 不能互换。",
+        "What's wrong? 答成 I'm fine, thank you. 要说出问题和心情，如 My father is ill.",
+        "worried 拼写丢 d：形容词是 worried，如 Sarah and the cat are worried."
+      ],
+      "source": {
+        "unit": "Unit 6 How do you feel?",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "动画里猫在追老鼠。选一选：He chases the mice. The mice are ______ of him.",
+          "options": [
+            "happy",
+            "afraid",
+            "sad"
+          ],
+          "answer": "B",
+          "solution": "老鼠怕猫：They're afraid of him. afraid of 表示害怕。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P58·He chases the mice. They're afraid of him."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "老鼠做了坏事，猫很生气。选介词：The cat is angry ______ them.",
+          "options": [
+            "with",
+            "of",
+            "at"
+          ],
+          "answer": "A",
+          "solution": "be angry with sb：The cat is angry with them.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P58·The cat is angry with them."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：下雨天 Robin 掉进泥里出不来（stuck in the mud）。读句子选情绪词：Robin is stuck in the mud. He is ______.",
+          "options": [
+            "worried",
+            "happy",
+            "afraid"
+          ],
+          "answer": "A",
+          "solution": "被困在泥里出不来，心里着急担心：He is worried.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P62·Robin is stuck in the mud. He is worried.（变式：读故事选情绪词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "朋友今天很难过。用三句英文安慰他：先问一句 What's wrong? 再安慰一句 Don't be... 最后给一个小建议 We can...",
+          "answer": "示例：What's wrong? Don't be sad. We can play together after school.",
+          "solution": "先问、再安慰、后建议，关心朋友三步走；也可以换成 Don't be angry. We can take a deep breath. 把情绪词和行动连起来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_07",
+      "summary": "关心别人用 should 给建议：You should see a doctor. You should count to ten. should 后面接动词原形。",
+      "explanation": [
+        "书上先示范问与答：—If I feel angry, what should I do? —Well, first, take a deep breath. Then you should count to ten. —I feel ill. Should I count to ten, too? —No, dear. You should see a doctor.；对话里还有 Your father is ill. He should see a doctor this morning. 和 Don't be angry. You should take a deep breath.；建议句有四条：You should see a doctor. / You should do more exercise. / You should wear warm clothes. / You should take a deep breath and count to ten.，求助时问 What should I do?",
+        "should 的意思是「应该」，像一位温柔的小医生：生气时先深呼吸、数到十，让心里的小火山灭一灭；生病了要去看医生；天冷了加衣服；担心或想变强壮就多锻炼。给建议前先问一句 What's wrong? 或 How do you feel?，弄清对方怎么了，关心才算送到了。",
+        "造句两步：第一步看对方的情况（angry、ill、cold、worried）；第二步套 You should＋动词原形。情绪和建议对号入座：angry → take a deep breath and count to ten；ill → see a doctor；cold → wear warm clothes；worried 或想变强壮 → do more exercise。别人向你求助就说 You should…，自己想求助就问 What should I do?",
+        "should 和 must 语气不同：should 是建议「这样更好」，must 是规定「必须这样」。should 后面接动词原形，中间不加 to：You should see a doctor.，不能说 You should to see…。建议还要和情况配对：对生气的人说 count to ten，对生病的人说 see a doctor，说反了就帮倒忙。",
+        "会提建议就是会关心人：先问感受（How do you feel?），再给建议（You should…），最后加一句 Don't be sad. / Don't worry. 安慰，关心三步就完整了。这些句子以后写作文安慰朋友、演情景对话都用得上，说话也更有温度。"
+      ],
+      "methods": [
+        {
+          "name": "should 造句两步",
+          "steps": [
+            "看情况：对方是 angry、ill、cold 还是 worried",
+            "套句型：You should＋动词原形（see a doctor、wear warm clothes、take a deep breath、count to ten、do more exercise）"
+          ],
+          "tip": "should 后面接动词原形，中间不加 to"
+        },
+        {
+          "name": "情绪-建议对号入座",
+          "steps": [
+            "先问感受：What's wrong? / How do you feel?",
+            "angry → take a deep breath and count to ten",
+            "ill → see a doctor；cold → wear warm clothes",
+            "worried 或想变强壮 → do more exercise"
+          ],
+          "tip": "生气数十深呼吸，生病快找医生，天冷加衣多锻炼"
+        }
+      ],
+      "examples": [
+        {
+          "question": "朋友说 I'm angry. 你最该说：　A. You should take a deep breath and count to ten.　B. You should see a doctor.　C. You should wear warm clothes.",
+          "solution": "选 A：生气时先深呼吸、数到十，让自己冷静下来。",
+          "difficulty": 1,
+          "pitfall": "建议要和情绪配对：生病的才 see a doctor。"
+        },
+        {
+          "question": "判断：想表达「你应该多锻炼」，这句对吗？You should to do more exercise.",
+          "solution": "不对。should 后面直接加动词原形，应为 You should do more exercise.",
+          "difficulty": 2,
+          "pitfall": "should 后面不加 to，也不加 s 或 ing。"
+        },
+        {
+          "question": "补全对话：—What's wrong? —I feel ill. —You should ______ ______ ______.（三个词，看医生）",
+          "solution": "see a doctor：You should see a doctor.",
+          "difficulty": 1,
+          "pitfall": "「看医生」英文说 see a doctor，别写成 look a doctor。"
+        }
+      ],
+      "mistakes": [
+        "should 后面接动词原形，中间不加 to：You should do more exercise.，不能说 You should to do…",
+        "建议和情况要配对：对生气的人说 count to ten，对生病的人说 see a doctor，说反了就帮倒忙。",
+        "should 和 must 不一样：should 是建议「应该」，must 是规定「必须」，语气轻重不同。",
+        "给建议别一开口就下结论：先问 What's wrong? / How do you feel?，再说 You should…，更让人接受。"
+      ],
+      "source": {
+        "unit": "Unit 6 How do you feel?",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "爸爸生病了（ill），你最该说的一句是：　A. You should see a doctor.　B. You should count to ten.　C. You should do more exercise.",
+          "options": [
+            "You should see a doctor.",
+            "You should count to ten.",
+            "You should do more exercise."
+          ],
+          "answer": "A",
+          "solution": "生病了应该去看医生：You should see a doctor.；数到十是给生气的人的建议。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P61·Let's learn（You should see a doctor. / do more exercise / wear warm clothes / take a deep breath and count to ten；What should I do?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Sam 听说不能去动物园了很难过，妈妈说：Don't be sad. We can go next time. 妈妈这句话是在：　A. 安慰 Sam，并约定下次再去　B. 批评 Sam 太贪玩　C. 让 Sam 自己去看医生",
+          "options": [
+            "安慰 Sam，并约定下次再去",
+            "批评 Sam 太贪玩",
+            "让 Sam 自己去看医生"
+          ],
+          "answer": "A",
+          "solution": "Don't be sad 是安慰，We can go next time 是约定下次再去，合起来是安慰并给他希望。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P60·Let's talk（Your father is ill. He should see a doctor this morning. / Don't be sad. We can go next time.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "—I feel ill. Should I count to ten, too? —____　A. No, you should see a doctor.　B. Yes, you should run.　C. No, you should be angry.",
+          "options": [
+            "No, you should see a doctor.",
+            "Yes, you should run.",
+            "No, you should be angry."
+          ],
+          "answer": "A",
+          "solution": "生病的正确建议是 You should see a doctor.；数到十是给生气的人用的。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P57·开篇对话（If I feel angry, what should I do? Take a deep breath. Then you should count to ten. / No, dear. You should see a doctor.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "朋友考试前很紧张，先问一句他的感受，再用 You should… 给他两条建议（用上 take a deep breath 和 count to ten）。",
+          "answer": "示例：How do you feel? You should take a deep breath. You should count to ten.（表达合理即可）",
+          "solution": "先用 How do you feel? 问清感受，再用 should＋动词原形给出建议，两条建议都围绕「放松冷静」。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_08",
+      "summary": "把问路、交通方式和出行计划串成一段连贯对话：去哪里、怎么去、何时去、做什么，四问聊全一场出行。",
+      "explanation": [
+        "书上的综合复习把前几个话题连成一次完整的出行：吴斌斌要去看爷爷奶奶——Wu Binbin is going to visit his grandparents. 语篇用两个问题把全程串起来：Are they going by bus or on foot?（他们坐公共汽车去还是步行去？）When are they going?（他们什么时候去？）指路部分用这样的句子：Turn right at the school. Then go straight.（在学校右转，然后直走）。怎么去、何时去、走哪条路，一场出行的三大件全在里头。",
+        "一次出行就像给全家安排出游的四连问：先定地点（去哪里），再定路线（怎么走），然后选方式（坐什么车），最后约时间（几点出发）。综合复习里的吴斌斌正是这样商量的：目的地是爷爷奶奶家，路上可能 by bus 也可能 on foot，出发时间要在对话里说定。把这几问问清楚，计划就不会变成「到时候再说」。",
+        "连贯商议有固定套路——出行四连问：第一问定地点 Where are you going?；第二问选方式 How can we get there? 或 Are they going by bus or on foot?；第三问约时间 When are you going?；第四问说活动 What are you going to do?。回答交通方式就两套：by bus / by subway / by taxi… 和 on foot；指路时用 First go straight. Then turn left at the crossing. 把动作按顺序排好，对方照着走就不会错。",
+        "三个易混点分清楚：一、Are they going by bus or on foot? 是选择疑问句，回答必须二选一——By bus. 或 On foot.，答 Yes / No 就错了；二、How can I get there? 问的是「这条路怎么走」，How do you come to school? 问的是「平时坐什么车」——书中原句 How do you come to school? Usually, I come on foot. 答的正是方式；三、When are you going? 问时间，要用 Next Wednesday / this afternoon 这样的时间词回答，答成地点就跑题了。",
+        "这套「目的地—方式—时间—活动」的对话骨架，是往后一切出行话题的底板：约同学看电影、计划家庭旅行、安排研学……先用四连问把计划聊明白，再用 First… Then… 把路线讲清楚。和外国朋友商量出行，用的还是同一副骨架。"
+      ],
+      "methods": [
+        {
+          "name": "出行四连问法",
+          "steps": [
+            "定目的地：Where are you going? — I'm going to…",
+            "选方式：Are you going by bus or on foot? — By bus. / On foot.",
+            "约时间：When are you going? — Next Wednesday. / This afternoon.",
+            "说活动：What are you going to do? — I'm going to see a film."
+          ],
+          "tip": "去哪里、怎么去、何时去、干什么，四问一出计划全。"
+        },
+        {
+          "name": "路线复述法",
+          "steps": [
+            "听指路先抓动词：go straight / turn left / turn right",
+            "按顺序记：First… Then… At the crossing…",
+            "把路线复述给同伴，对方点头才算记牢"
+          ],
+          "tip": "动词排好队，路线不迷路。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Are they going by bus or on foot? 他们决定坐公共汽车去。这句该怎么回答？",
+          "solution": "By bus.——选择疑问句要在两个选项里挑一个回答，不能答 Yes 或 No。",
+          "difficulty": 1,
+          "pitfall": "别答成 Yes, they are.；选择疑问句没有「是/否」答案，直接选一项。"
+        },
+        {
+          "question": "把四句排成通顺对话：① When are you going? ② I'm going to the science museum. ③ Where are you going tomorrow? ④ Next Saturday morning.",
+          "solution": "③②①④——先问去哪儿（③）、再答地点（②），接着问何时去（①）、最后答时间（④）。",
+          "difficulty": 2,
+          "pitfall": "对话都是「一问一答」结成对，别把答句排在问句前面。"
+        },
+        {
+          "question": "同学在十字路口问你：How can I get to the bookstore? 书店在前面，要先直走、到路口再右转。用学过的句子给他指路。",
+          "solution": "Go straight and turn right at the crossing.（直走，在十字路口右转）",
+          "difficulty": 2,
+          "pitfall": "转弯要说明在哪儿转——at the crossing / at the school，只说 Turn right 对方不知道在哪里拐弯。"
+        }
+      ],
+      "mistakes": [
+        "回答选择疑问句用 Yes / No；Are they going by bus or on foot? 要直接选一个：By bus. / On foot.",
+        "把 How can I get there?（问路线）和 How do you come to school?（问交通方式）混着用；一个问怎么走，一个问平时坐什么。",
+        "指路只说 Turn left 不说在哪儿转；要说 Turn left at the bookstore.（在书店左转）对方才找得到。",
+        "When are you going? 答成 I'm going to the cinema.——答非所问；时间问句要用 Next Wednesday / this afternoon 这类时间词回答。"
+      ],
+      "source": {
+        "unit": "Unit 1-3 综合任务",
+        "pages": [
+          2,
+          35
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "综合复习语篇里的问题：Are they going by bus or on foot? 如果他们最后决定步行去，回答该选哪句？",
+          "options": [
+            "On foot.",
+            "Yes, they are.",
+            "No, they aren't."
+          ],
+          "answer": "A",
+          "solution": "选择疑问句要二选一作答：步行就是 On foot.；另外两句是 Yes/No 问句的答法，用在这里不对。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P32·综合复习问题（Are they going by bus or on foot? When are they going?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "把打乱的对话排成通顺的一段：① How can we get there? ② Where are you going tomorrow? ③ By bus. First go straight, then turn right at the school. ④ I'm going to visit my grandparents.",
+          "options": [
+            "②④①③",
+            "②①④③",
+            "④②③①"
+          ],
+          "answer": "A",
+          "solution": "先问去哪儿（②），答地点（④），再问怎么去（①），最后答方式并给路线（③）——问路、交通、计划一线串起。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P2·问路对话（Turn right at the school. Then go straight.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "电话问路变式：小男孩的妈妈打电话问 Should I go by bus? 警察回答 No, you can come on foot. Turn left at the hospital. Then go straight. 警察建议她怎么去警察局？",
+          "options": [
+            "坐公共汽车去",
+            "步行去",
+            "骑自行车去"
+          ],
+          "answer": "B",
+          "solution": "No, you can come on foot. 说明不用坐车，走路就能到——on foot 就是步行。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P35·电话问路填空变式（Should I go by bus? No, you can come on foot.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "和一位家人商量一次周末出行，用「目的地—方式—时间—活动」四连问编一段六句左右的对话写下来，并用 First… Then… 写清路线。",
+          "answer": "示例——A: Where are we going this Saturday? B: We're going to the science museum. A: How can we get there? B: By bus. First go straight, then turn left at the bookstore. A: When are we going? B: At nine in the morning. A: What are we going to do there? B: We're going to see the robots!",
+          "solution": "四连问把计划聊全，路线用 First… Then… 排好顺序；这套商议功夫，全家出游、约同学看电影都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_09",
+      "summary": "读笔友短文抓三样：爱好、住哪儿、落款联系方式；写回信四件套——先回应，再答问，后介绍自己，署名收尾。",
+      "explanation": [
+        "书上的阅读部分是四则「找伙伴」小语篇，每则都是三段式：标题喊话、正文介绍、落款留联系方式。Mike 的语篇这样写：What is your hobby? Do you like reading? I have great books. We can share!（你爱好什么？喜欢读书吗？我有好多好书，我们可以分享！）Amy 的语篇：There is a dance class on Sunday at 1 p.m. I like dancing, and I need a partner.（周日下午一点有舞蹈课，我喜欢跳舞，需要一个舞伴。）落款 Call Amy: 134 留下电话。标题亮话题，正文讲自己，落款给联系方式，一个不缺。",
+        "笔友（pen pal）就是靠写信交上的朋友。读笔友的自我介绍抓三件事：爱好（like 后面的动词-ing）、住在哪里（live in / live on）、日常做什么。比如吴斌斌给澳大利亚笔友写邮件：I'm writing an email to my new pen pal in Australia. 别人问 Does he live in Sydney? 他答 No, he doesn't. He lives in Canberra.——住址一下就弄清楚了。",
+        "读语篇三步走：一看标题猜话题；二圈 like 后面的爱好词；三划出时间、地点和落款。写回信四件套：开头回应 Thanks for your message!；接着逐条回答对方的问题；再介绍自己 I live in… I also like…；最后落款署名 Your friend, Li Ming.。课上学的句子正好搬进信里：He likes doing kung fu and swimming. 说自己就把 He 换成 I——I like doing kung fu and swimming.",
+        "问答要对得上号：对方问 Do you like reading?，这是 Yes/No 问句，先答 Yes, I do. / No, I don't. 再补充；对方问 What are your hobbies?，直接用 I like… 回答。like 后面的动词一律变 -ing：reading stories、doing kung fu、dancing、going hiking；说别人的爱好记得用三单：He likes reading.（like 加 s）。",
+        "会读会回，笔友就算真正交上了。这套「回应—答问—介绍—落款」的骨架，以后写电子邮件、写自我介绍短文全部通用。养个小习惯：读完先数对方问了几个问题，回信时一个不落地答完——这是书信写作的基本礼貌，也是拿高分的关键。"
+      ],
+      "methods": [
+        {
+          "name": "读信三步法",
+          "steps": [
+            "看标题猜话题：Shall we dance? 讲跳舞，Goal! Goal! Goal! 讲踢球",
+            "圈出 like 后面的爱好词，看清对方是个什么样的人",
+            "划出时间、地点和落款联系方式，知道去哪儿找他"
+          ],
+          "tip": "标题喊话，正文亮爱好，落款留联系。"
+        },
+        {
+          "name": "回信四件套",
+          "steps": [
+            "开头回应：Thanks for your message!",
+            "逐条回答对方的问题：Yes, I do. / I live in…",
+            "介绍自己：I also like… I often…",
+            "落款署名：Your friend, + 名字"
+          ],
+          "tip": "先应后答再自荐，署名落款记心间。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "笔友问你 What is your hobby? 你喜欢踢足球，该怎么回答？",
+          "solution": "My hobby is playing football. 也可以说 I like playing football.",
+          "difficulty": 1,
+          "pitfall": "like 后面的动词要变 -ing：play → playing，不能写成 I like play football."
+        },
+        {
+          "question": "语篇里写道：Do you like reading? I have great books. We can share! 写这句话的人想做什么？",
+          "solution": "想找喜欢读书的伙伴一起分享好书——We can share!（我们可以分享）",
+          "difficulty": 2,
+          "pitfall": "别以为对方在考你；交友语篇里的 Do you like…? 是在「发出邀请」。"
+        },
+        {
+          "question": "回信时对方问了两件事：Where do you live? 和 What are your hobbies? 怎样安排回信内容才算都答到？",
+          "solution": "先答住址 I live in Beijing.，再答爱好 I like doing kung fu and swimming.——对方问几件就答几件。",
+          "difficulty": 2,
+          "pitfall": "只挑一个问题回答，说明没读完来信；把对方的问题一个个对着答。"
+        }
+      ],
+      "mistakes": [
+        "like 后面直接接动词原形，如 like dance；要变 -ing：like dancing、like reading stories.",
+        "回答 Do you like…? 只说 I like…；一般疑问句要先答 Yes, I do. / No, I don't. 再补充。",
+        "回信只顾介绍自己、不回答对方的问题；好回信先逐条答问，再介绍自己。",
+        "落款忘写名字或联系方式，对方就联系不上你了；信末记得署名。"
+      ],
+      "source": {
+        "unit": "Unit 4 Read and write",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇里 Amy 写道：I like dancing, and I need a partner. 她想找的是什么样的人？",
+          "options": [
+            "一起跳舞的舞伴",
+            "一起读书的书友",
+            "一起做机器人的伙伴"
+          ],
+          "answer": "A",
+          "solution": "I like dancing, and I need a partner. 说明她需要舞伴；书友和机器人伙伴分别是另外两则语篇的主人在找的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P42·交友语篇（Shall we dance? I like dancing, and I need a partner.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "科学俱乐部的语篇里写道：Meet Robin. He teaches students to make robots. 想跟他学做机器人，应该去哪儿？",
+          "options": [
+            "the science room",
+            "the playground",
+            "the dining hall"
+          ],
+          "answer": "A",
+          "solution": "Come to the science room! 前一句就是邀请——做机器人去科学教室；操场是足球俱乐部的活动地，餐厅是烹饪俱乐部见面的地方。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P42·科学俱乐部语篇（Come to the science room! Meet Robin. He teaches students to make robots.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "三单选词变式：把烹饪俱乐部的广告补完整——Cao Jia ___ salad.（用 make 的正确形式）",
+          "options": [
+            "make",
+            "makes",
+            "making"
+          ],
+          "answer": "B",
+          "solution": "Cao Jia 是第三人称单数，一般现在时动词要加 s：makes——和 Wang Tong cooks rice and noodles. 一个道理。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP六上 P43·烹饪俱乐部广告补全变式（Mandy talks…Wang Tong cooks…Cao Jia makes salad.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给笔友写一封四到五句的回信：开头回应对方来信，回答对方的问题 What are your hobbies?，介绍自己住的城市和一个爱好，最后落款署名。",
+          "answer": "示例——Thanks for your message! I live in Hangzhou. I like doing word puzzles and going hiking. My best friend likes dancing, too. Your friend, Li Ming.",
+          "solution": "按「回应—答问—介绍—落款」四件套写；写完检查 like 后面的动词有没有都变成 -ing。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_10",
+      "summary": "用 be going to 写周末计划：总起一句、两三个安排各配时间词、期待一句收尾，五句话一篇不散架。",
+      "explanation": [
+        "书上用一整组句子教「说计划」：开篇两个人在自然公园商量——What are you going to do in the nature park? I'm going to look for some beautiful leaves.（我打算找一些漂亮的叶子）；电话对话里 What are you going to do tomorrow? I'm going to have an art lesson. We're going to draw some pictures in Renmin Park.；时间词一排六格：this morning / this afternoon / this evening / tonight / tomorrow / next week；日记范文开头 Dear Diary, Tomorrow is Mid-Autumn Festival. My family are going to get together and have a big dinner. My aunt is going to make mooncakes.。这些句子拼起来，就是一篇周末计划的模子。",
+        "写计划像给周末「排电影场次」：先放一句总起（周末要来啦），再把两三个安排填进时间格子，最后放一句期待收尾。日记范文就是范例：姑姑做月饼、奶奶讲嫦娥的故事，一件一件按人写清楚。有了时间词当路标，读者一眼就看清每件事排在哪一格，短文既不跑题也不会没话写。",
+        "五句模板动笔走：第一句总起 The weekend is coming!；中间两到三句安排，每句 = 时间词 + be going to + 活动，如 On Saturday morning, I'm going to have an art lesson. / This evening, I'm going to see a film.；最后一句收尾 I will have a good time!。写完三查：查 be 动词（am / is / are 和主语配对了吗）、查时间词（每句安排都有吗）、查书写（句首大写、句末标点）。",
+        "易错点排一排：I 配 am、he / she 配 is、we / they 配 are，口诀「我用 am，你用 are，is 跟着他她它」；be 动词不能丢，I going to… 少了 am 句子就断了；时间词放句首时后面加逗号：This evening, I'm going to see a film.；this evening 和 tonight 都指今晚，next week 指下周——一句安排配一个时间词，别堆在句尾当摆设。",
+        "会写周末计划，节日计划、假期计划全是同一副骨架——书上的中秋日记就是「节日版计划」：总起 Tomorrow is Mid-Autumn Festival.，分项安排一件件来。往后要排一周计划、假期旅行表，先画时间轴再逐格成句的方法照用；写完出声读一遍，哪句卡壳就改哪句。"
+      ],
+      "methods": [
+        {
+          "name": "五句模板法",
+          "steps": [
+            "第一句总起：The weekend is coming!",
+            "中间句安排：每句一个时间词加 be going to 加活动",
+            "最后一句收尾：I will have a good time!",
+            "通读检查：am / is / are 和主语配对了吗"
+          ],
+          "tip": "总起、安排、收尾三段式，时间词当路标。"
+        },
+        {
+          "name": "时间轴排片法",
+          "steps": [
+            "画一条周末时间轴，标出 on Saturday morning、this evening 等格子",
+            "把想做的事填进格子，一格一件事",
+            "逐格写成 I'm going to… 的句子"
+          ],
+          "tip": "先排格再写句，安排不会挤成一团。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用 this evening / see a film / I 把计划补成完整的一句话。",
+          "solution": "I'm going to see a film this evening. 也可以把时间放句首：This evening, I'm going to see a film.",
+          "difficulty": 1,
+          "pitfall": "I 后面配 am，别写成 I is going to…；be 动词不能丢。"
+        },
+        {
+          "question": "找错：He are going to visit his grandparents next week.",
+          "solution": "are 要改成 is——he 是第三人称单数，要说 He is going to visit his grandparents next week.",
+          "difficulty": 2,
+          "pitfall": "口诀「我用 am，你用 are，is 跟着他她它」——先看主语再定 be 动词。"
+        },
+        {
+          "question": "短文已经写了总起和两个安排，最后补一句合适的结尾。",
+          "solution": "I will have a good time!（我会玩得开心！）也可以写 What a nice weekend!",
+          "difficulty": 2,
+          "pitfall": "结尾别再塞新安排，一句期待或感受就能收住整篇。"
+        }
+      ],
+      "mistakes": [
+        "be going to 里的 be 漏写：I going to see a film.——am 不能丢，少了它句子就不成立。",
+        "I / he / we 和 am / is / are 搭配错位；记住「我用 am，你用 are，is 跟着他她它」。",
+        "通篇没有时间词，读者不知道安排排在哪一格；每句安排配一个 this evening / on Saturday morning 这样的时间词。",
+        "把打算写成正在发生：I'm seeing a film now. 说的是此刻；将来计划要用 be going to。"
+      ],
+      "source": {
+        "unit": "Unit 3 写作任务",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What are you going to do tomorrow? 下面哪个回答是正确的？",
+          "options": [
+            "I'm going to have an art lesson.",
+            "I had an art lesson yesterday.",
+            "I am having an art lesson now."
+          ],
+          "answer": "A",
+          "solution": "问的是将来的打算，要用 be going to 回答；昨天上过课是过去的事，正在上课说的是此刻。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P24·周末计划对话（What are you going to do tomorrow? I'm going to have an art lesson.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "节日日记里写道：My aunt is going to make mooncakes. My grandma will tell us a story about Chang'e. 奶奶打算做什么？",
+          "options": [
+            "做月饼",
+            "讲嫦娥的故事",
+            "读一首诗"
+          ],
+          "answer": "B",
+          "solution": "My grandma will tell us a story about Chang'e.——讲故事的是奶奶；做月饼的是姑姑。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P28·节日日记语篇（My aunt is going to make mooncakes. My grandma will tell us a story about Chang'e.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "计划短文仿写排序：把五句排成一篇通顺的周末计划。① The weekend is coming! ② On Saturday morning, I'm going to have an art lesson. ③ Here is my plan. ④ This evening, I'm going to see a film. ⑤ I will have a good time!",
+          "options": [
+            "①③②④⑤",
+            "③①②④⑤",
+            "①②③④⑤"
+          ],
+          "answer": "A",
+          "solution": "按模板走：总起（①）→亮出计划（③）→第一个安排（②）→第二个安排（④）→期待收尾（⑤）。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP六上 P25·时间词与活动短语变式（this morning this afternoon this evening tonight tomorrow next week）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "写自己的周末计划，四到五句：一句总起，至少三个安排（每个安排配一个时间词），一句期待收尾。写完检查每句的 am / is / are 是否和主语配对。",
+          "answer": "示例——The weekend is coming! On Saturday morning, I'm going to visit my grandparents. In the afternoon, I'm going to the supermarket with Mum. This evening, I'm going to see a film. What a nice weekend!",
+          "solution": "先画时间轴排格子，再逐格成句；总起、安排、收尾三段式，是所有计划短文的通用骨架。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_11",
+      "summary": "英国、日本车靠左行驶，中国、美国靠右行驶，过马路先看的方向相反；各国上学方式 by sled、by ferry、on foot 也大不同。",
+      "explanation": [
+        "书上的上学方式藏着一张世界地图：In Alaska, USA, it snows a lot. Some kids go to school by sled. It's fast.（美国阿拉斯加乘雪橇）Some children in Jiangxi, China, go to school by ferry every day.（中国江西乘渡轮）Some children go to school on foot in Munich, Germany.（德国慕尼黑步行）骑车的安全也有说法：In the USA people on bikes must wear one.（a helmet）小故事里英国来的 Annie 说：We must look right before crossing the road. Amy 纠正她：No, first left and then right!",
+        "为什么两人过马路先看的方向不一样？因为车辆行驶方向不同：英国、日本等国家靠左行驶，行人过马路先看右边来的车；中国、美国等国家靠右行驶，要先看左边再看右边。英国常见的双层巴士 double-decker，Annie 在中国看见也喊 The same as in London! 世界各地的上学路五彩缤纷：雪多的地方乘雪橇，江边水乡乘渡轮，住得近的孩子干脆 on foot.",
+        "记交通文化三招：一分方向——左行国家（英国、日本等）车靠左，过街先看右；右行国家（中国、美国等）车靠右，first left and then right。二记装备——骑车 must wear a helmet（头盔），坐渡轮 must wear a life jacket（救生衣），乘雪橇 must drive slowly。三会提醒——用 must 或 Don't 给同学写安全建议：You must stop at a red light. Don't run on the ferry.",
+        "易混点：左右行别背反，可以想「司机坐哪边」——左行国家的驾驶座在右边；by sled（雪橇）在雪地走，by ferry（渡轮）在水上走，on foot 前面不加 by；helmet 头盔配骑车，life jacket 救生衣配坐船，装备和场合要配对；must 后面用动词原形：must wear、must drive.",
+        "把这些小知识连起来，可以做一张「世界上学地图」：用 How do you come to school? 采访同学，再汇报 Three students usually come to school by bike. 以后读到别国孩子的故事，先想想他们靠哪边行驶、怎么上学；走到哪儿都记住：红灯停、绿灯行，过马路左右看清再迈步。"
+      ],
+      "methods": [
+        {
+          "name": "左右行一分清",
+          "steps": [
+            "左行国家：英国、日本等，车靠左行驶，过马路先看右",
+            "右行国家：中国、美国等，车靠右行驶，first left and then right",
+            "出国旅行或读外国故事，先弄清当地靠哪边行驶"
+          ],
+          "tip": "英国、日本靠左，中国、美国靠右；英美两国方向正好相反"
+        },
+        {
+          "name": "安全装备配对",
+          "steps": [
+            "骑车 → must wear a helmet（头盔）",
+            "坐渡轮 → must wear a life jacket（救生衣）",
+            "乘雪橇 → must drive slowly；红灯 → stop and wait"
+          ],
+          "tip": "must 后面动词用原形：must wear / must drive"
+        }
+      ],
+      "examples": [
+        {
+          "question": "阿拉斯加的孩子怎么上学？选一选：In Alaska, USA, it snows a lot. Some kids go to school by ______. It's fast.",
+          "solution": "sled。雪地里的快速交通工具是雪橇：by sled.",
+          "difficulty": 1,
+          "pitfall": "ferry 是渡轮，在水上走；雪地上用 sled."
+        },
+        {
+          "question": "英国来的 Annie 过马路时说：We must look right before crossing the road. Amy 说：No, first left and then right! 两人说法不一样，主要是因为：",
+          "solution": "两国的车辆行驶方向不同：英国靠左行驶，中国靠右行驶，所以先看的方向相反。",
+          "difficulty": 2,
+          "pitfall": "这不是谁对谁错，是两国行驶方向不同，两边各自遵守安全规则。"
+        },
+        {
+          "question": "在美国骑自行车必须戴什么？In the USA, people on bikes must wear a ______.",
+          "solution": "helmet。头盔保护头部：must wear a helmet.",
+          "difficulty": 2,
+          "pitfall": "life jacket 救生衣是坐船穿的，别配错场合。"
+        }
+      ],
+      "mistakes": [
+        "左右行背反：英国、日本靠左行驶，中国、美国靠右行驶，别记混。",
+        "on foot 前加 by：步行就说 on foot；乘雪橇 by sled、乘渡轮 by ferry。",
+        "装备配错场合：helmet 头盔配骑车，life jacket 救生衣配渡轮。",
+        "must 后动词变形：must wear a helmet 中 wear 用原形，不加 s 也不变 -ing。"
+      ],
+      "source": {
+        "unit": "Unit 2 文化内容",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "阿拉斯加雪很多。选一选：In Alaska, USA, it snows a lot. Some kids go to school by ______. It's fast.",
+          "options": [
+            "sled",
+            "ferry",
+            "subway"
+          ],
+          "answer": "A",
+          "solution": "雪地里的交通工具是雪橇：go to school by sled.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P18·In Alaska, USA, it snows a lot. Some kids go to school by sled. It's fast."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "英国小朋友 Annie 说：We must look right before crossing the road. Amy 说：No, first left and then right! 两人说法不一样，主要是因为：",
+          "options": [
+            "两国的车辆行驶方向不同：英国靠左行驶，中国靠右行驶",
+            "Annie 记错了过马路的规则",
+            "中国的马路比英国的宽"
+          ],
+          "answer": "A",
+          "solution": "行驶方向不同：英国靠左行驶，行人先看右；中国靠右行驶，先看左再看右。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P21·We must look right before crossing the road. No, first left and then right!"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：中国江西的孩子每天怎么上学？Some children in Jiangxi, China, go to school by ______ every day.",
+          "options": [
+            "ferry",
+            "sled",
+            "plane"
+          ],
+          "answer": "A",
+          "solution": "江边水乡乘渡轮上学：by ferry.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P18·Some children in Jiangxi, China, go to school by ferry every day.（变式：各国上学方式选一选）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "做一张安全小海报：给乘渡轮上学和乘雪橇上学的同学各写一条英文建议，一条用 must，一条用 Don't。开头已给：By ferry—______ By sled—______",
+          "answer": "示例：By ferry—You must wear a life jacket. By sled—You must drive slowly.（Don't run on the ferry. 也可以）",
+          "solution": "must 和 Don't 后面都用动词原形；把海报贴出来，安全提醒人人看得懂。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6a_12",
+      "summary": "书末词汇表分四会与认读两档：六主题词网归类自查，三单变形过四关，语篇填空验真功，累计约 500 词。",
+      "explanation": [
+        "书末的词汇总表把词分两档：黑体词要求听、说、读、写四会，白体词只要求听、说、认读；全册累计约 500 词。自查先抓六大主题词网：地点 science museum / post office / bookstore / cinema / hospital / crossing；交通 on foot / by bus / plane / taxi / ship / subway / train；计划 visit / see a film / take a trip / supermarket / evening / tonight / tomorrow / next week / dictionary / comic book / word book / postcard；爱好 dancing / singing / reading stories / doing kung fu / going hiking；职业 factory worker / postman / businessman / police officer / fisherman / scientist / pilot / coach；情绪 angry / afraid / sad / worried / happy。",
+        "把词表想成一个六层书包：每层一个主题隔层，四会词是「必带核心」——要会读、会写、会默；认读词像「地图上的路标」——见面认识就行。自查就是自己当老师：先把散词归层，再逐层验收，最后用句子验货，三关都过才算真掌握。",
+        "三招自查法：第一招主题词网归类——把词投进六格，投不进的放进「杂物格」重点攻；第二招三单变形——live→lives、do→does、go→goes、study→studies、have→has，规则四条：一般加 s；以 s、x、ch、sh、o 结尾加 es；辅音字母加 y 变 i 加 es；have 特殊变 has；第三招语篇填空——My pen pal lives in Canberra. He likes doing word puzzles and going hiking. 填得对、读得顺，词才算会用。",
+        "易混重灾区盯紧：studys、haves 都是错拼——study 要变 studies，have 直接变 has；by（乘）和 buy（买）读音相同意思不同，by bus 别写成 buy bus；情绪词分档记：angry 生气、sad 难过、afraid 害怕、worried 担心、happy 开心——填空时按上下文的心情选词，别抓一个就用。",
+        "到六年级，词汇量已经是小学阶段的「大仓库」：旧词（颜色、动物、食物）加新主题（地点、职业、情绪），累计约 500 词。这套「词网归类＋变形＋填空」的自查法要练成习惯，后面词汇继续加码时直接迁移；仓库理得越清，读整段英文故事、写整篇小短文才不卡壳。"
+      ],
+      "methods": [
+        {
+          "name": "六主题词网法",
+          "steps": [
+            "画一张六格词网：地点、交通、计划、爱好、职业、情绪",
+            "把学过的词逐个投进对应格，投不进的放进「杂物格」重点攻",
+            "遮住英文看中文回忆，每个主题格至少报出三个词"
+          ],
+          "tip": "六网撒下去，散词全归队。"
+        },
+        {
+          "name": "三单变形四规则法",
+          "steps": [
+            "一般情况加 s：live→lives，work→works",
+            "以 s、x、ch、sh、o 结尾加 es：do→does，go→goes",
+            "辅音字母加 y 结尾，变 i 加 es：study→studies",
+            "特殊记：have→has"
+          ],
+          "tip": "一加 s，二加 es，三变 y，四特殊。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "postman 和 sled 两个词，哪个要求达到听、说、读、写四会？",
+          "solution": "postman（邮递员）——职业词是主题核心词；sled（雪橇）只需认识，了解各国上学方式时能认读即可。",
+          "difficulty": 1,
+          "pitfall": "分级看词表标注，不看词的长短或来头。"
+        },
+        {
+          "question": "写出三单形式：study → ___；have → ___。",
+          "solution": "studies；has——study 以辅音字母加 y 结尾，变 y 为 i 再加 es；have 特殊变 has。",
+          "difficulty": 2,
+          "pitfall": "别写成 studys、haves；do→does、go→goes 也要加 es 而不是 s。"
+        },
+        {
+          "question": "归类：dictionary、subway、angry 三个词，哪个和另外两个不同类？",
+          "solution": "angry——它是情绪词；dictionary 是学习用品词，subway 是交通词。",
+          "difficulty": 2,
+          "pitfall": "别凭单词长短猜类别，往六主题词网里一对号就清楚了。"
+        }
+      ],
+      "mistakes": [
+        "study 的三单写成 studys；辅音字母加 y 结尾要变 i 加 es：studies.",
+        "do、go 的三单漏掉 es，写成 dos、gos；应为 does、goes.",
+        "把认读词当四会词死抠拼写，时间花偏了；先过四会核心词，再拓展认读词。",
+        "by bus 写成 buy bus；by 表示交通方式，buy 是「买」，同音不同字。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          72,
+          80
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇总表里，下面哪个词要求达到「听、说、读、写」四会？",
+          "options": [
+            "postman",
+            "sled",
+            "Papa Westray"
+          ],
+          "answer": "A",
+          "solution": "职业词 postman（邮递员）是四会核心词；sled（雪橇）和 Papa Westray（岛名）只需听、说、认读。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六上 P74·词汇表职业词（postman businessman police officer fisherman scientist pilot coach）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语篇填空：My pen pal ___ in Canberra. He ___ doing word puzzles and going hiking.（用 live / like 的正确形式）",
+          "options": [
+            "lives; likes",
+            "live; like",
+            "lives; like"
+          ],
+          "answer": "A",
+          "solution": "主语 My pen pal 和 He 都是第三人称单数，一般现在时动词加 s：lives、likes。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P40·笔友对话（He lives in Canberra. Does he like doing word puzzles and going hiking? Yes, he does.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "主题词归类变式：下面哪个词属于「情绪」主题词网？",
+          "options": [
+            "worried",
+            "supermarket",
+            "ferry"
+          ],
+          "answer": "A",
+          "solution": "worried（担心的）和 angry、sad、afraid、happy 同属情绪主题；supermarket 是计划主题的地点词，ferry 是交通词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六上 P74·情绪主题词变式（angry afraid sad worried happy）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "全册词汇终极自查：合上书写出六个主题各三个词（共 18 个），再任选三个动词写出三单形式，最后用 My friend ___ (live)… 造两句语篇填空句并填好。",
+          "answer": "示例——词网：bookstore / cinema / hospital；by bus / by subway / on foot；see a film / take a trip / next week；dancing / reading stories / doing kung fu；postman / pilot / coach；happy / worried / angry。三单：lives、does、studies。填空：My friend lives in Beijing. He likes going hiking.",
+          "solution": "词网抓归类、三单抓规则、填空抓运用；这套自查法练熟了，词汇量再涨也能三步过关。",
           "difficulty": 3
         }
       ]
