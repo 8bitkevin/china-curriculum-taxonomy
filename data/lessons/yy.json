@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 89,
+  "lessonCount": 99,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -11215,6 +11215,1196 @@
           "question": "全册词汇终极自查：合上书写出六个主题各三个词（共 18 个），再任选三个动词写出三单形式，最后用 My friend ___ (live)… 造两句语篇填空句并填好。",
           "answer": "示例——词网：bookstore / cinema / hospital；by bus / by subway / on foot；see a film / take a trip / next week；dancing / reading stories / doing kung fu；postman / pilot / coach；happy / worried / angry。三单：lives、does、studies。填空：My friend lives in Beijing. He likes going hiking.",
           "solution": "词网抓归类、三单抓规则、填空抓运用；这套自查法练熟了，词汇量再涨也能三步过关。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_01",
+      "summary": "形容词加 er 变比较级：taller、heavier 比高低轻重，than 连比较对象，再问一句 How tall are you?",
+      "explanation": [
+        "书上从恐龙开场：Some dinosaurs are bigger than houses. Some are smaller than our schoolbags.（有的恐龙比房子还大，有的比书包还小），紧接着还有 I'm 21 metres tall. I'm the tallest!；对话里 Zhang Peng 指着大厅里的恐龙说 That's the tallest dinosaur in this hall.，Mike 问 How tall is it?，答 Maybe 4 metres.，Mike 又说 It's taller than both of us together.；词汇先学一般加 er 的一组：taller、shorter、older、younger、longer，配问答 How tall are you? —I'm 1.65 metres. 和 How old are you? —I'm 12 years old.，还有 You're older than me, too.；再学双写加 er 的 bigger、thinner 和变 y 为 i 加 er 的 heavier，配上 stronger、smaller，问答用 How heavy are you? —I'm 48 kilograms.；变形小结给出三组样子：tall—taller、thin—thinner、heavy—heavier。",
+        "比较级就是英语里的「更」字：taller 是「更高」，heavier 是「更重」。两个人、两样东西比一比，就在形容词后面加 er，再用 than 把比较对象连上——「我比你高」就是 I'm taller than you.。平时排队比身高、体检称体重，其实都在用比较级；量身高说 metre（米），称体重说 kilogram（千克），所以回答身高体重时数字后面要带单位。要是三个人以上比出「最」的那一个，就要请出 the tallest（最高的）这样的最高级了。",
+        "加 er 分三步看词尾：第一步，一般词直接加 er——tall→taller、old→older、long→longer、strong→stronger、young→younger、short→shorter；第二步，「辅音＋元音＋辅音」结尾的词双写末尾字母再加 er——big→bigger、thin→thinner；第三步，「辅音字母＋y」结尾变 y 为 i 再加 er——heavy→heavier。说比较句套「A＋比较级＋than＋B」：You're older than me.；问测量用 How tall are you?（身高）、How heavy are you?（体重），回答套 I'm＋数字＋单位：I'm 1.65 metres.、I'm 48 kilograms.。",
+        "几个最容易绊倒的地方：一是双写词漏写——biger、thiner 都错了，要 bigger、thinner；二是 heavier 不能写成 heavyer，y 要先变成 i；三是 than 别写成 then——than 是「比」，then 是「那时」，两个长得像但意思不相干；四是回答 How tall are you? 要说数字加单位，别答成 I'm tall.——那是描述长相，不是报身高。",
+        "比较级是小学阶段最后的语法重点之一，上了初中还会遇到最高级的完整规则（the＋est，如 the tallest）、多音节词的 more beautiful，以及 as…as 同级比较；把加 er 三规则记牢，后面学「三者以上比较」就轻松了。metre、kilogram、centimetre 这些测量词在科学课和看商品标签时也常出现，学了马上就能用。"
+      ],
+      "methods": [
+        {
+          "name": "加 er 三规则",
+          "steps": [
+            "一般词直接加 er：tall→taller，old→older，long→longer，strong→stronger，young→younger，short→shorter",
+            "「辅音＋元音＋辅音」结尾双写末尾字母再加 er：big→bigger，thin→thinner",
+            "「辅音字母＋y」结尾变 y 为 i 再加 er：heavy→heavier，happy→happier"
+          ],
+          "tip": "直接加、双写 thinner、变 y heavier；比较要用 than 连"
+        },
+        {
+          "name": "身高体重问答卡",
+          "steps": [
+            "问身高用 How tall are you?，问体重用 How heavy are you?",
+            "回答套 I'm＋数字＋单位：I'm 1.65 metres.（米），I'm 48 kilograms.（千克）",
+            "要比一比时，形容词加 er 再接 than：You're older than me."
+          ],
+          "tip": "tall 问身高 heavy 问体重，回答数字带单位才完整"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写出 big 和 thin 的比较级，并说说词尾发生了什么变化。",
+          "solution": "big→bigger，thin→thinner。两个词都是「辅音＋元音＋辅音」结尾，要先双写末尾的 g 和 n，再加 er。",
+          "difficulty": 1,
+          "pitfall": "漏掉双写，写成 biger、thiner。"
+        },
+        {
+          "question": "heavy 的比较级是 heavyer 吗？正确的写法是什么？",
+          "solution": "不是。heavy 以「辅音字母＋y」结尾，要变 y 为 i 再加 er，写作 heavier。",
+          "difficulty": 2,
+          "pitfall": "直接在 y 后面加 er，写成 heavyer。"
+        },
+        {
+          "question": "同学问你 How tall are you?，你身高 1.62 米，该怎么回答？",
+          "solution": "I'm 1.62 metres. 报身高要说数字加单位 metres。",
+          "difficulty": 1,
+          "pitfall": "只说 1.62 不带 metres，或答非所问说成 I'm tall."
+        }
+      ],
+      "mistakes": [
+        "双写词最容易漏：big→bigger、thin→thinner，写成 biger、thiner 就错了。",
+        "heavy 的比较级是 heavier，不是 heavyer——「辅音字母＋y」结尾要先变 y 为 i。",
+        "than 和 then 长得像但意思不同：than 是「比」，then 是「那时」；比较句里的 than 不能丢——I'm taller than you. 少了 than 就不成句。",
+        "How tall are you? 问的是身高数字，回答 I'm tall. 答非所问；要答 I'm 1.6 metres. 这样的数字加单位。"
+      ],
+      "source": {
+        "unit": "Unit 1 How tall are you?",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "同学问 John：How tall are you? John 身高 1.61 米，他应该回答：　A. I'm 1.61 metres.　B. I'm tall.　C. I'm 12 years old.",
+          "options": [
+            "I'm 1.61 metres.",
+            "I'm tall.",
+            "I'm 12 years old."
+          ],
+          "answer": "A",
+          "solution": "How tall are you? 问身高，回答用数字加单位：I'm 1.61 metres.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P5·身高年龄问答（How tall are you? I'm 1.61 metres. / You're older than me, too.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "照样子写比较级：tall—taller，thin—______，heavy—______，big—______",
+          "answer": "thinner；heavier；bigger",
+          "solution": "thin 双写 n 加 er 得 thinner；heavy 变 y 为 i 加 er 得 heavier；big 双写 g 加 er 得 bigger。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P10·加 er 变形读写（tall—taller，thin—thinner，heavy—heavier）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "课上的句子说 Some dinosaurs are bigger than houses.（有些恐龙比房子还大）。照这个句式，「大象比小狗大」应该说：　A. The elephant is bigger than the dog.　B. The elephant is big than the dog.　C. The elephant is the biggest dog.",
+          "options": [
+            "The elephant is bigger than the dog.",
+            "The elephant is big than the dog.",
+            "The elephant is the biggest dog."
+          ],
+          "answer": "A",
+          "solution": "两者比较用「比较级＋than」：bigger than the dog；big 不能直接接 than，the biggest 是三者以上选「最」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P2·恐龙比大小开场（bigger than houses / smaller than our schoolbags）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "量一量、问一问：用 How tall are you? 采访两位家人，然后用一句话把你们三人比一比（如 Dad is taller than me.），再试试说出最高的那一位（He is the tallest in my family.）。",
+          "answer": "开放作答，如：Mum is taller than me. Dad is the tallest in my family.",
+          "solution": "两人比用比较级＋than；三人以上选出「最」的那一个用 the＋最高级。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_02",
+      "summary": "上个周末做的事，动词要加 ed：cleaned my room、watched TV，还能问 How was your weekend? 说感受。",
+      "explanation": [
+        "开篇就说周末：What did you do last weekend? —I cleaned my room and washed my clothes on Saturday.，还有 —Did you play football with Zhang Peng? —Yes, I did. We played football on Sunday.；对话里 Mike 问爷爷 How was your weekend?，爷爷答 It was good, thank you.，Mike 再问 What did you do?，爷爷说 I stayed at home with your grandma. We drank tea in the afternoon and watched TV.，最后还问 Did you do anything else?；要学的四个短语是 cleaned my room、washed my clothes、watched TV、stayed at home；时间词有 last weekend、last night、last Monday、yesterday、the day before yesterday；变形小结给出 talk→talked、stay→stayed、live→lived、want→wanted、plan→planned、cry→cried。",
+        "过去时就是「说已经做完的事」。周末过完了，打电话跟爷爷聊聊干了什么，这些事都过去了，动词要「换上过去式的衣服」——大多数加 ed 就行：clean→cleaned、wash→washed。was 是 is/am 的过去式：周末还没过完，可以问 How is your weekend?；聊上个周末就变成 How was your weekend?，答句用 It was good.。",
+        "加 ed 分三步：第一步，一般动词直接加 ed——clean→cleaned、wash→washed、watch→watched、stay→stayed、play→played；第二步，以不发音的 e 结尾只加 d——live→lived、like→liked；第三步，「辅音字母＋y」结尾变 y 为 i 加 ed——study→studied、cry→cried；另外 plan→planned、stop→stopped 这类要双写末尾字母再加。开口讲周末前先找时间词：看到 last weekend、yesterday、last night，就把句子里所有动作动词换成过去式；问感受用 How was your weekend?，答 It was good. / It was fine.。",
+        "容易出错的地方：一是时间词都出现了动词还用原形——I clean my room last weekend. 不对，要说 cleaned；二是 studyed 漏了变 y，正确是 studied；三是 planed 漏了双写，正确是 planned；四是 How was your weekend? 问的是「上个周末过得怎么样」，要答 It was good.，答 I'm fine, thanks. 就串台了——那是回答 How are you? 的；对话里还出现了 drank tea（drink 的过去式）这样的不规则变化，先混个脸熟。",
+        "一般过去时是小学阶段最后登场的大时态，也是初中语法的重头戏：接下来要学 did 开头的疑问句和 didn't 否定，还会遇到一大串不规则动词（go→went、see→saw）；把「时间词＋动词过去式」练熟，再用几句话把周末写成小短文，就为初中记叙文写作打好了地基。"
+      ],
+      "methods": [
+        {
+          "name": "加 ed 三规则",
+          "steps": [
+            "一般动词直接加 ed：clean→cleaned，wash→washed，watch→watched，play→played",
+            "以不发音 e 结尾只加 d：live→lived，like→liked",
+            "「辅音字母＋y」结尾变 y 为 i 加 ed：study→studied；plan、stop 这类先双写末尾字母再加：plan→planned"
+          ],
+          "tip": "直接 ed，有 e 只加 d，y 变 i 加 ed，闭音节双写"
+        },
+        {
+          "name": "找时间词定过去式",
+          "steps": [
+            "先找 last weekend / yesterday / last night / last Monday 这些过去时间词",
+            "句中的动作动词全部换成过去式：clean→cleaned，wash→washed，watch→watched",
+            "聊周末过得怎样用 was：How was your weekend? —It was good."
+          ],
+          "tip": "last 一出现，动词加 ed；was 问 was 答"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写出 clean、wash、watch 的过去式，并各说一个带过去时间词的句子。",
+          "solution": "cleaned、washed、watched；如 I cleaned my room last weekend. I watched TV last night.",
+          "difficulty": 1,
+          "pitfall": "忘记加 ed，仍用原形 clean。"
+        },
+        {
+          "question": "study 的过去式是 studyed 吗？stop 变过去式要注意什么？",
+          "solution": "不是。study 要变 y 为 i 加 ed，写作 studied；stop 要双写 p 再加 ed，写作 stopped。",
+          "difficulty": 2,
+          "pitfall": "studyed 漏变 y、stoped 漏双写。"
+        },
+        {
+          "question": "—How was your weekend? 该怎么回答？",
+          "solution": "It was good. / It was fine, thanks. 问的是过去的周末，用 was 回答。",
+          "difficulty": 1,
+          "pitfall": "答成 I'm fine, thanks.——那是回答 How are you? 的。"
+        }
+      ],
+      "mistakes": [
+        "句子里有 last weekend、yesterday 这些时间词，动词就必须加 ed：I cleaned my room last weekend. 不能说 I clean…",
+        "study 的过去式是 studied，不是 studyed——「辅音字母＋y」结尾要先变 y 为 i。",
+        "plan、stop 这类词要双写末尾字母再加 ed：planned、stopped，写成 planed、stoped 就错了。",
+        "How was your weekend? 用 It was good. 回答；I'm fine, thanks. 是回答 How are you? 的，别串台。"
+      ],
+      "source": {
+        "unit": "Unit 2 Last weekend",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How was your weekend? —______　A. It was good.　B. I'm fine, thanks.　C. Yes, I did.",
+          "options": [
+            "It was good.",
+            "I'm fine, thanks.",
+            "Yes, I did."
+          ],
+          "answer": "A",
+          "solution": "How was your weekend? 问过去的周末过得怎样，用 It was good. 回答。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P14·周末电话对话（How was your weekend? It was good, thank you. / What did you do?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全句子：I ______ (play) football last weekend. I ______ (study) English last night.",
+          "answer": "played；studied",
+          "solution": "play 直接加 ed 得 played；study 变 y 为 i 加 ed 得 studied。两句都有过去时间词 last weekend、last night。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P20·用所给动词完成句子（I (play) football last weekend. I (study) English last night.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "「我上个周末打扫了房间、洗了衣服」用英语说是：　A. I cleaned my room and washed my clothes last weekend.　B. I clean my room and wash my clothes last weekend.　C. I am cleaning my room now.",
+          "options": [
+            "I cleaned my room and washed my clothes last weekend.",
+            "I clean my room and wash my clothes last weekend.",
+            "I am cleaning my room now."
+          ],
+          "answer": "A",
+          "solution": "有 last weekend 就要用过去式：cleaned、washed；C 说的是「现在正在打扫」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P13·开场对话（I cleaned my room and washed my clothes on Saturday.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：用三句过去时说说你上个周末做了什么（每句动词都加 ed，如 I washed my clothes.），最后用 It was … 说一句感受，连成一小段话，为写成完整的周末小短文做准备。",
+          "answer": "开放作答，如：I cleaned my room. I watched TV. I visited my grandparents. It was a busy weekend.",
+          "solution": "先想好做了哪三件事，动词一一变过去式，再用 It was＋形容词收尾。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_03",
+      "summary": "did 帮你问过去：Where did you go? I went to…，didn't 帮你说没做：No, I didn't. 动词要还原。",
+      "explanation": [
+        "开篇就是关心：You didn't come to school. What happened?（你没来上学，发生什么事了？），Oh dear! Are you all right?，回答是 I fell off my bike and hurt my foot.（我从自行车上摔下来，脚受伤了）；假日对话里一路用 did 提问：Where did you go? —Mt. Tianshan, Xinjiang. I rode a horse.，Did you go to Turpan? —Yes, we did. We saw lots of grapes there.，还有 Where did you go over your holiday?（你假期去了哪儿）；词汇里有 went camping、went fishing、rode a horse、rode a bike、hurt my foot；后面还练到 —Where did you go last Saturday? —I went to a forest park. I rode a bike. 和 —How did you go there? —We went there by plane.。",
+        "说过去的事，提问要请 did 出场，否定要请 didn't 出场。did 就像「过去的旗手」——它一站进句子里，整句的「过去」就归它扛，后面的动词要还原成原形；回答时也要让 did 接旗：Yes, I did. / No, I didn't.。didn't 是 did not 的缩写，放在动词前表示「没做」。同学没来上学、摔伤了脚，先问 What happened? 弄清情况，再加一句 Are you all right? 表达关心。",
+        "造过去时问句三步走：第一步选疑问词——Where（哪里）、What（什么）、Who（谁）、How（怎么）；第二步套「疑问词＋did＋主语＋动词原形」：Where did you go? What did you do? How did you go there?；第三步用过去式回答：I went to a forest park. We went there by plane.。一般疑问句 Did you…? 的简短回答固定是 Yes, I did. / No, I didn't.；否定句在动词前加 didn't，动词用原形：I didn't come to school yesterday.。",
+        "最容易错的是「旗手换了、动词没还原」：Did you went to Turpan? 不对，went 要还原成 go——Did you go…?；回答也不能串成 Yes, I do. 或 No, I don't.，要答 Yes, I did. / No, I didn't.；didn't 后面同样用原形，I didn't went 错，I didn't go 对；另外 What happened? 是问「发生了什么事」，要说明情况（I fell off my bike.），不能用 Yes 或 No 来回答。",
+        "did 问句和 didn't 否定是过去时的「完整拼图」：会陈述、会提问、会否定、会简答，过去的事就能问到底、说清楚。前面见过的 went、rode 这些不规则过去式配上来，整个假期的故事就能讲完整；上了初中还会在这套骨架上继续加新内容，但「did 提问、didn't 否定、动词还原」这条规则永远不变。"
+      ],
+      "methods": [
+        {
+          "name": "did 问句三步造",
+          "steps": [
+            "第一步选疑问词：Where（哪里）/ What（什么）/ Who（谁）/ How（怎么）",
+            "第二步套「疑问词＋did＋主语＋动词原形」：Where did you go? What did you do?",
+            "第三步用过去式回答：I went to a forest park. I rode a bike."
+          ],
+          "tip": "did 问 did 答，动词还原"
+        },
+        {
+          "name": "didn't 否定与关心用语",
+          "steps": [
+            "否定在动词前加 didn't，动词用原形：I didn't come to school yesterday.",
+            "一般疑问句简短回答固定搭配：Yes, I did. / No, I didn't.",
+            "同学缺席或受伤，先问 What happened? 弄清情况，再补一句 Are you all right? 表关心"
+          ],
+          "tip": "didn't 后用原形；What happened 问情况，Are you all right 传关心"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把陈述句 You went to Turpan. 改成问句：问对方去了哪里。",
+          "solution": "Where did you go? 过去交给 did 扛，went 要还原成 go。",
+          "difficulty": 2,
+          "pitfall": "写成 Where did you went?——did 后面必须用动词原形。"
+        },
+        {
+          "question": "—Did you see a film last night? 用否定回答，再补一句你做了什么。",
+          "solution": "No, I didn't. I stayed at home. 简短回答固定是 No, I didn't.，补充句动词用过去式。",
+          "difficulty": 1,
+          "pitfall": "答成 No, I don't.，或补充句写成 I stay at home.。"
+        },
+        {
+          "question": "同桌两天没来上学，今天他回来了，你会怎么关心他？用两三句英文说一说。",
+          "solution": "You didn't come to school. What happened? Are you all right?",
+          "difficulty": 2,
+          "pitfall": "上来就问 What did you do?——先要问清发生了什么，人没事才要紧。"
+        }
+      ],
+      "mistakes": [
+        "did 后面的动词必须还原：Did you go to Turpan? 不能说 Did you went…——过去已经由 did 表达了。",
+        "简短回答要 did 对 did：Yes, I did. / No, I didn't.，不能答成 Yes, I do. 或 No, I don't.",
+        "didn't 后面同样用动词原形：I didn't go to school. 不能说 I didn't went to school.",
+        "What happened? 问「发生了什么」，回答要说明情况（I fell off my bike.），不能用 Yes 或 No 来回答。"
+      ],
+      "source": {
+        "unit": "Unit 3 Where did you go?",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Did you go to Turpan? —______　A. Yes, we did. We saw lots of grapes.　B. Yes, we do.　C. Yes, we went.",
+          "options": [
+            "Yes, we did. We saw lots of grapes.",
+            "Yes, we do.",
+            "Yes, we went."
+          ],
+          "answer": "A",
+          "solution": "Did you…? 的肯定简答固定是 Yes, we did.，后面可以补一句用过去式说的详情。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P24·假日对话（Did you go to Turpan? Yes, we did. We saw lots of grapes there.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "同学生病两天没来学校，今天他回来了，你最应该先说：　A. You didn't come to school. What happened? Are you all right?　B. What did you do last weekend?　C. Where did you go over your holiday?",
+          "options": [
+            "You didn't come to school. What happened? Are you all right?",
+            "What did you do last weekend?",
+            "Where did you go over your holiday?"
+          ],
+          "answer": "A",
+          "solution": "同学没来，先问清发生了什么、人是否安好：What happened? Are you all right?",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P22·关心同学开场（You didn't come to school. What happened? Oh dear! Are you all right?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "想问朋友上个星期六去了哪里，应该问：　A. Where did you go last Saturday?　B. Where do you go last Saturday?　C. Where are you going last Saturday?",
+          "options": [
+            "Where did you go last Saturday?",
+            "Where do you go last Saturday?",
+            "Where are you going last Saturday?"
+          ],
+          "answer": "A",
+          "solution": "last Saturday 是过去时间，要用 did 提问：Where did you go last Saturday?",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P25·Where did you go 问答（I went to a forest park. I rode a bike.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "当一次小记者：用 Where did you go? How did you go there? Did you…? 采访一位家人的假期，再把他的回答连成两三句话讲给同学听（did 问 did 答，转述时动词用过去式）。",
+          "answer": "开放作答，如：Dad went to Hangzhou. He went there by train. He visited West Lake.",
+          "solution": "先用三个 did 问句采访，记下关键信息，转述时把动词换成过去式，连成小报告。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_04",
+      "summary": "动词过去时不都加 -ed：go 变 went、eat 变 ate，不规则动词过去式要一个一个配对记住。",
+      "explanation": [
+        "书上把不规则动词的过去式放在真实经历里教：I fell off my bike and hurt my foot. / I saw lots of grapes and ate lots of mutton kebabs. They were delicious. / Mt. Tianshan, Xinjiang. I rode a horse. Look, it's very small! 词块一起记：went camping、went fishing、rode a horse、rode a bike、hurt my foot。随后的学习里又出现 We went there by plane. I took lots of pictures, and I also went swimming. 和 ate fresh food、bought gifts、took pictures。总结页直接亮出变形表：am/is → was、are → were、eat → ate、drink → drank、run → ran。书末的不规则动词表把原形和过去式排成对，还特别标注 read 的过去式拼写不变、读音从 /riːd/ 变成 /red/；fixed 则是 fix 规规矩矩加 -ed。",
+        "为什么有的动词过去式不老实加 -ed？因为 go、eat、see 这些词是英语里最常用的词，千百年来人们把它们的过去式说顺了口，一代代传下来就固定成了现在的模样，就像汉字里的多音字要单独记。讲假期去了哪、吃了什么、看见了什么，张嘴就是 went、ate、saw——把这几对记牢，过去的事才能讲得顺。",
+        "配对记忆三步：第一步原形-过去式成对念，go—went、ride—rode、eat—ate、take—took、buy—bought、drink—drank、see—saw；第二步和短语打包，go camping 变 went camping、take pictures 变 took pictures、buy gifts 变 bought gifts，词块一起记不容易丢；第三步用句子检验：My family and I went to Sanya. I rode a horse. I took lots of pictures. 念熟了，说过去的事就能脱口而出。",
+        "易混三处：一是 did 和 didn't 后面的动词必须回原形，Did you go to Turpan? 不能说成 Did you went；二是 read 的过去式最容易上当，拼写一点没变，读音却从 /riːd/ 变成 /red/，hurt 也一样，过去式还是 hurt，I hurt my foot. 现在过去同形；三是 fixed 别误当不规则词，fix 是规则动词，直接加 -ed 变 fixed。",
+        "不规则动词是初中英语的头号基本功，中学的动词表就从这个名单继续加长，本学期见过的 have—had、sleep—slept 也在列。养成两个小习惯：把遇到过的不规则动词抄在小卡片上，正面写原形、背面写过去式，随时随地互相考；再用 went、ate、saw 讲一讲昨天做过的事，讲着讲着这些词就长在嘴里了。"
+      ],
+      "methods": [
+        {
+          "name": "原形过去式配对法",
+          "steps": [
+            "成对念：go—went、ride—rode、eat—ate、take—took、buy—bought",
+            "短语打包：went camping、went fishing、took pictures、bought gifts",
+            "句子检验：I went to Xinjiang and rode a horse."
+          ],
+          "tip": "不规则过去式没有公式，一个一个记：go—went、eat—ate、see—saw、take—took、buy—bought"
+        },
+        {
+          "name": "did 回家原则",
+          "steps": [
+            "Did 开头的问句，动词用原形：Did you go to Turpan?",
+            "didn't 后面也用原形：I didn't see a big round stone.",
+            "答句里才用过去式：Yes, we did. We saw lots of grapes."
+          ],
+          "tip": "did 问 did 答，did 和 didn't 后面的动词回原形"
+        },
+        {
+          "name": "同形变音特训",
+          "steps": [
+            "read：拼写不变，读音由 /riːd/ 变 /red/",
+            "hurt：原形和过去式同形，I hurt my foot.",
+            "fixed 是规则变化：fix 直接加 -ed"
+          ],
+          "tip": "read 变音不变字，hurt 以不变应万变，fixed 规矩加 -ed"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选一选：I ______ a horse at Mt. Tianshan.（rode / ride / riding）",
+          "solution": "rode。说的是过去骑了马，ride 的过去式是 rode。",
+          "difficulty": 1,
+          "pitfall": "句子里没有 did，也不是现在进行，讲过去的事动词要用过去式。"
+        },
+        {
+          "question": "用动词的正确形式填空：Last summer holiday, I ______ (go) to Sanya and ______ (take) lots of pictures.",
+          "solution": "went；took。go 和 take 都是不规则动词：go—went，take—took。",
+          "difficulty": 2,
+          "pitfall": "别写成 goed、taked——这两个词不老实加 -ed。"
+        },
+        {
+          "question": "Yesterday evening I ______ a storybook.（read，用过去式，并说说读音变化）",
+          "solution": "read，拼写不变，读音由 /riːd/ 变成 /red/。",
+          "difficulty": 3,
+          "pitfall": "read 的过去式最容易上当：字没变，音变了。"
+        }
+      ],
+      "mistakes": [
+        "不规则动词乱加 -ed：eat 写成 eated、buy 写成 buyed 是错的，要记 eat—ate、buy—bought。",
+        "Did 问句里用过去式：Did you went? 是错的，did 后面的动词用原形：Did you go?",
+        "read 的过去式读音没变：read 的过去式拼写不变，读音从 /riːd/ 变 /red/，只改字不改音就读错了。",
+        "hurt 画蛇添足：I hurted my foot 是错的，hurt 的过去式还是 hurt：I hurt my foot."
+      ],
+      "source": {
+        "unit": "Unit 3-4",
+        "pages": [
+          22,
+          41
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "John 在新疆天山骑了马。选一选：Mt. Tianshan, Xinjiang. I ______ a horse. Look, it's very small!",
+          "options": [
+            "rode",
+            "ride",
+            "rides"
+          ],
+          "answer": "A",
+          "solution": "讲过去的经历用过去式：ride 的过去式是 rode。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P24·Mt. Tianshan, Xinjiang. I rode a horse. Look, it's very small!"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词填空：Last summer holiday, Andy ______ fresh food and ______ gifts.",
+          "options": [
+            "ate; bought",
+            "eats; buys",
+            "eated; buyed"
+          ],
+          "answer": "A",
+          "solution": "Last summer holiday 提示过去，eat—ate、buy—bought 都是不规则变化。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P27·Last summer holiday, Andy ate ... He bought ...（ate fresh food / went swimming / bought gifts / took pictures）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式配对：下面哪一组原形和过去式都配对了？",
+          "options": [
+            "go—went、ride—rode",
+            "go—goed、ride—rided",
+            "go—gone、ride—rid"
+          ],
+          "answer": "A",
+          "solution": "go—went、ride—rode 都是不规则变化，要成对记牢。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P69·不规则动词表：go—went、ride—rode、eat—ate、take—took、buy—bought（变式：原形与过去式配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：用 went、ate、bought、saw 各写一句过去做的事，连成 3~4 句的假期小片段，结尾用一句 It was... 说感受。",
+          "answer": "示例：Last Labour Day, I went to Turpan with my family. We saw lots of grapes. I ate some mutton kebabs and bought a gift for my friend. It was wonderful!",
+          "solution": "每句都用过去式动词，时间词 last... 放在句首；写完读一遍，检查有没有漏掉的不规则变化。以后写假期日记、给朋友讲经历都用得上。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_05",
+      "summary": "说过去的事用 was/were、ago 和 then：There was no gym twenty years ago. Now there's a new one.",
+      "explanation": [
+        "书上从一张老照片聊起：Binbin, that's your father. You weren't very big then, Mr Wu! — No, so I didn't like PE class very much. I couldn't run fast or play basketball well. 再看学校的变化：Our school was small! There was no gym either! We didn't have a library, and there weren't any computer rooms at all. 爷爷回忆：There was no library in my old school. There was only one small building on a hill. Could you see stars at night? Ah! There were no computers or Internet in my time. 时间路标有 ...years ago、...months ago、last year、last month。对比句最有画面感：There was no gym in my school twenty years ago. Now there's a new one in our school. Before, I was quiet. Now, I'm very active in class.",
+        "was 和 were 就是 is、am、are 的「从前版本」，专门负责讲过去：then（那时）、ago（……以前）、before（以前）把句子拉回从前，now 把句子拉回现在。把过去一句和现在一句摆在一起，就像翻看新旧两张照片：There was no gym. Now there's a new one.——变化一下子就看见了。",
+        "今昔对比三步：第一步找路标，句子里有 then、ago、before、in my time 就用过去式，有 now 就用现在式；第二步选 be，I、he、she 和一个人名用 was，you、we、they 和复数主语用 were；第三步 There be 也跟着变，单数用 There was，复数用 There were：There was no gym. There were no computers. 表示「过去会」用 could，「过去不会」用 couldn't：I couldn't run fast or play basketball well.",
+        "易混三处：一是 wasn't 和 weren't 别串门，You weren't very big then. 主语是 you 要用 weren't；二是 There be 和后面的名词要配平，There was no gym（单数）对 There were no computers（复数）；三是 ago 乖乖跟在时间词后面，twenty years ago 不能说成 ago twenty years。then 和 now 各管一头，was 是过去的信号，Before, I was quiet. 别说成 Now, I was quiet.",
+        "今昔对比是最好的写作骨架：学校的变化、家里的变化、自己的变化都能套 There was... / Now there is... 这个模子。还可以唱一唱 Changes in me：Once I was a young boy, younger than I am today. Now I am a big boy, and I'm bigger every day.——then 与 now 说顺了，以后写「我的变化」「家乡的变化」就有了现成的架子。"
+      ],
+      "methods": [
+        {
+          "name": "今昔对比三步",
+          "steps": [
+            "找路标：then、ago、before、in my time 讲过去，now 讲现在",
+            "选 be：I、he、she 用 was，you、we、they 用 were",
+            "There be 跟着变：There was no gym. / There were no computers."
+          ],
+          "tip": "was 单 were 复，then 对 now，ago 跟在时间词后面"
+        },
+        {
+          "name": "过去否定两兄弟",
+          "steps": [
+            "wasn't = was not：Our school wasn't big.",
+            "weren't = were not：You weren't very big then.",
+            "couldn't = could not：I couldn't run fast.；否定「有」用 didn't have：We didn't have a library."
+          ],
+          "tip": "is 的否定过去是 wasn't，are 的是 weren't，can't 的过去是 couldn't"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选一选：______, I was quiet. ______, I'm very active in class.（Before / Now 怎么放）",
+          "solution": "Before；Now。before 引出过去，now 引出现在，一头一尾才成对比。",
+          "difficulty": 1,
+          "pitfall": "was 是过去式的信号，Before 放前、Now 放后，别放反。"
+        },
+        {
+          "question": "选一选：There ______ no computers or Internet in my time.（was / were）",
+          "solution": "were。computers 是复数，There be 要用复数形式 were。",
+          "difficulty": 2,
+          "pitfall": "别看见 no 就用 was——要看后面的名词是单数还是复数。"
+        },
+        {
+          "question": "选一选：At that time, people ______ go by bus.（couldn't / can't / don't）",
+          "solution": "couldn't。At that time 提示过去，can 的过去式是 could，否定是 couldn't。",
+          "difficulty": 2,
+          "pitfall": "can't 是现在时；讲过去不会要用 couldn't。"
+        }
+      ],
+      "mistakes": [
+        "was、were 跟错主语：They was young 是错的，you、we、they 用 were：They were happy.",
+        "There be 和名词的数不配平：There was no computers 是错的，computers 是复数，要说 There were no computers.",
+        "ago 位置放错：ago twenty years 是错的，ago 要跟在时间词后面：twenty years ago.",
+        "then 和 now 用反：Now, I was quiet. 是错的，was 提示过去，要说 Before, I was quiet."
+      ],
+      "source": {
+        "unit": "Unit 4 Then and now",
+        "pages": [
+          32,
+          41
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "看老照片聊学校的变化。选一选：Our school ______ small!",
+          "options": [
+            "was",
+            "were",
+            "is"
+          ],
+          "answer": "A",
+          "solution": "讲学校过去的样子，is 的过去式是 was：Our school was small!",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P33·Our school was small! There was no gym either!"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Wu Binbin 的爸爸在说学校的变化。选一选：There was no gym in my school twenty years ______. Now there's a new one in our school.",
+          "options": [
+            "ago",
+            "now",
+            "tomorrow"
+          ],
+          "answer": "A",
+          "solution": "twenty years ago 表示二十年前，ago 要跟在时间词后面。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P35·There was no gym in my school twenty years ago. Now there's a new one in our school."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选词：Mike 在说自己的变化。______, I was quiet. ______, I'm very active in class.",
+          "options": [
+            "Before; Now",
+            "Now; Before",
+            "Then; Then"
+          ],
+          "answer": "A",
+          "solution": "Before 引过去、Now 引现在，一前一后才成对比。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P36·Before, I was quiet. Now, I'm very active in class.（变式：今昔对比选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小采访：问一位长辈「以前的家或学校是什么样」，用三句英文记下来：两句说过去（There was... / There were no...），一句说现在（Now there is...）。",
+          "answer": "示例：There was a small shop near my home. There were no elevators in the building. Now there is a big supermarket.",
+          "solution": "过去句用 was/were，现在句用 is/are；对比写完读给长辈听。这个模子以后写「家乡的变化」直接能用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_06",
+      "summary": "采访同学的假期四连问：Where did you go? How did you go there? What did you do? How was it? 串起来就是完整假期故事。",
+      "explanation": [
+        "书上的假期采访都是这样一问一答：Where did you go last Saturday? — I went to a forest park. What did you do there? — I rode a bike. 冬假采访更完整：Where did you go over the winter holiday? — My family and I went to Sanya. Hainan is far from here. How did you go there? — We went there by plane. How was the beach? — It was beautiful. What did you do there? — I took lots of pictures, and I also went swimming. 夏假是：How was your summer holiday, Binbin? — It was good. 小故事里连着问：Where did you go? — I went to the moon. How did you go there? — By spaceship. What did you see? — I saw Chang'e, the rabbit and the tree. How was your holiday? — It was fun.",
+        "采访就像拿放大镜看别人的假期，一个问题管一个角度：where 问去了哪，how 问怎么去的，what 问做了什么，How was it? 问感受如何。四个答案串起来，假期故事自动成形——去了哪儿、坐什么去的、干了什么、好不好玩，一样不缺。",
+        "采访链四步走：第一问 Where did you go?（去了哪），答 I went to...；第二问 How did you go there?（怎么去的），答 We went there by plane/by train；第三问 What did you do?（做了什么），答 I rode a bike and took lots of pictures；第四问 How was it?（感觉如何），答 It was beautiful/fun。采访完把它串成 3~4 句小报告：Last winter holiday, I went to Sanya with my family. We went there by plane. I took lots of pictures and went swimming. It was wonderful!",
+        "易混三处：一是 did 后面的动词必须回原形，How did you go there? 不能说成 How did you went；二是交通方式用 by 加交通工具，by plane、by train，别把 by 丢了；三是 How was it? 问的是感受，要答 It was fun. 这样的句子，别答成 I went to Beijing——那是回答 Where 的。还有：采访用 you 问，讲给别人听时 I 要变成 he 或 she：She went to Sanya. She went there by plane.",
+        "这条采访链就是假期写作的提纲：先口头问、再笔头串，Last winter holiday, I went to... 的成篇套路练熟了，写周末、写春游都一样。养个小习惯：做一张采访记录单，采访三位同学的假期，比一比谁的假期最特别，再挑一个最有趣的讲给全家听。"
+      ],
+      "methods": [
+        {
+          "name": "采访链四连问",
+          "steps": [
+            "Where did you go? 问去了哪",
+            "How did you go there? 问怎么去的",
+            "What did you do? 问做了什么",
+            "How was it? 问感受如何"
+          ],
+          "tip": "where→how→what→how，四问串成假期故事"
+        },
+        {
+          "name": "答句三件套",
+          "steps": [
+            "地点答句：I went to a forest park.",
+            "方式答句：We went there by plane.（by 加交通工具）",
+            "感受收尾：It was fun. / It was beautiful."
+          ],
+          "tip": "答句带过去式，by 加交通工具，It was... 说感受"
+        },
+        {
+          "name": "采访转述变身",
+          "steps": [
+            "采访时问对方：Where did you go?",
+            "转述时 I 变 he/she：She went to Sanya.",
+            "三句连报：She went there by plane. She took lots of pictures."
+          ],
+          "tip": "问用 you，转述时 I 变 he/she，动词过去式不变"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全对话：—______? —We went there by plane.",
+          "solution": "How did you go there? 问去的方式，用 by plane 回答。",
+          "difficulty": 1,
+          "pitfall": "Where did you go? 问的是地点，不是怎么去。"
+        },
+        {
+          "question": "给采访问题排排队：① What did you do? ② Where did you go? ③ How was it? ④ How did you go there?",
+          "solution": "②→④→①→③。先问去了哪，再问怎么去、做了什么，最后问感受。",
+          "difficulty": 2,
+          "pitfall": "先有地点才有方式和活动，感受放在最后收尾。"
+        },
+        {
+          "question": "选一选：Zoom 讲完月球之旅：I went to the moon. I saw Chang'e and the rabbit. ______（It was fun. / It is fun. / It was sunny.）",
+          "solution": "It was fun. How was your holiday? 的答案就是 It was fun，用过去式说感受。",
+          "difficulty": 2,
+          "pitfall": "讲过去的感受用 It was...，别用 It is..."
+        }
+      ],
+      "mistakes": [
+        "did 后面用了过去式：How did you went there? 是错的，did 后面的动词用原形：How did you go there?",
+        "交通方式丢了 by：We went there plane 是错的，要说 We went there by plane.",
+        "答非所问：How was it? 要用感受句回答（It was fun.），不能答地点或活动。",
+        "转述没变人称：向别人转述时，I went to Sanya. 要变成 She went to Sanya."
+      ],
+      "source": {
+        "unit": "Unit 3 综合任务",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全采访对话：—Where did you go last Saturday? —I went to a forest park. —What did you do there? —I ______.",
+          "options": [
+            "rode a bike",
+            "ride a bike",
+            "am riding a bike"
+          ],
+          "answer": "A",
+          "solution": "回答过去做的事用过去式：rode 是 ride 的过去式。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P25·Where did you go last Saturday? I went to a forest park. I rode a bike."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Amy 在讲冬假。选择正确答语：—Hainan is far from here. How did you go there? —______",
+          "options": [
+            "We went there by plane.",
+            "We go there by plane.",
+            "We went to Sanya."
+          ],
+          "answer": "A",
+          "solution": "How 问方式，用 by plane 回答，动词用过去式 went。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P26·How did you go there? We went there by plane."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式：把 Amy 暑假采访的问句排成通顺的采访顺序：① How did you go there? ② Where did you go? ③ What did you do?",
+          "options": [
+            "②→①→③",
+            "①→②→③",
+            "③→②→①"
+          ],
+          "answer": "A",
+          "solution": "先问去了哪（②），再问怎么去（①）、做了什么（③）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P26·Where did you go over the winter holiday? How did you go there? What did you do there?（变式：采访问句排序）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "真采访：用四连问采访一位同学的假期，再把答案写成 3~4 句连贯的小叙事，开头交代时间（Last... holiday, ...），结尾用 It was... 说感受。",
+          "answer": "示例：Last summer holiday, my friend went to Beijing. She went there by train. She visited the Great Wall and ate Beijing duck. It was great fun!",
+          "solution": "先把四个答案记在纸上，再连成段：时间开头、活动两三件、感受收尾。这个套路以后写假期作文直接用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_07",
+      "summary": "毕业季读长文不用怕：先看标题猜内容，再分段抓大意，最后圈时间词理出时间线，长文一遍读懂。",
+      "explanation": [
+        "综合复习用「Mike's happy days」串起 Mike 毕业前的回忆长文，从 Day 1 到 Day 8 一天一个小标题：美丽农场、农夫市集、农场生活、Mike 的一天、新朋友、毕业派对邀请、告别派对。其中邀请信这样开头：It is time to leave our school. We are all going to middle school soon, so we will say goodbye to each other. 时间地点写得分明：Place: Our music room  Time: Friday 3 p.m.，活动列成一串：We will draw pictures and sing songs. 长文怎么读，书上的编排其实给了暗示——先看标题，再按 Day 一段一段读，最后抓时间词。",
+        "很多同学一见长文就慌：生词多、句子长，读着读着就忘了前面。其实长文像一串糖葫芦，Day 1～Day 8 就是八颗山楂，一颗一颗吃就不怕。标题 Mike's happy days 先告诉你「这是 Mike 的一串开心日子」，每段只装一件事；时间词就是串糖葫芦的竹签，顺着竹签走，读完一整串都记得。",
+        "三步读长文法：第一步「看标题猜内容」——读到 Mike's happy days 先猜：会写农场？朋友？还是告别？带着猜想往下读，越读越对得上；第二步「分段读抓大意」——每段只问自己一句「谁 + 做了什么」，比如写农场一天的那段，抓住 Saturday was a busy day for me. 一句就够；第三步「细读抓时间线」——把 In the morning… After that… In the afternoon… In the evening… Finally… 这些时间词圈出来，事情先后一目了然。",
+        "长文里三类词最容易「读丢」，要分清：一是时间词，管顺序——Finally, I went to bed at 10 p.m. 一定排在 In the morning, I got up early. 后面；二是人物词，管主角——he、she、they 换来换去，要看清到底谁在做；三是情绪对照词，管意思转弯——告别时的一句 That is good news for your father. It's sad news for me. 同一件事，一人听是好消息、一人听是坏消息，抓不住对照就误读成同一立场。",
+        "「标题→段落→时间线」这套读法不只用于毕业长文：上了中学，文章更长、生词更密，还是这三步打底。读完 Mike 的 happy days，也试着给自己的小学生活列一条时间线——一年级入学、第一次比赛、和朋友的约定……最后像 Mike 的信里那样收个尾：It will be great fun."
+      ],
+      "methods": [
+        {
+          "name": "三步读长文法",
+          "steps": [
+            "看标题猜内容：Mike's happy days 会写什么？先猜再读，边读边验证",
+            "分段抓大意：每段只记「谁 + 做了什么」一句话，比如那天一句 Saturday was a busy day for me.",
+            "细读抓时间线：圈出 Day 1～Day 8、In the morning、Finally、at 10 p.m. 等时间词，排出先后"
+          ],
+          "tip": "标题是门牌，段落是房间，时间词是走廊。"
+        },
+        {
+          "name": "时间线梳理法",
+          "steps": [
+            "圈齐时间词：段外的小标题 Day 1～Day 8，段内的 In the morning、In the evening、Finally",
+            "按先后抄成一条线，每格补一句「谁 + 做了什么」",
+            "对照原文检查：有没有漏掉哪一段、哪件事"
+          ],
+          "tip": "时间词排好队，事情不串门。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "长文里 Mike 先写：Saturday was a busy day for me. 接下来最先读到的应该是 In the morning, I got up early. 还是 It was a busy but happy weekend?",
+          "solution": "In the morning, I got up early.——总起句之后按时间线从早写到晚，感受句要留到最后。",
+          "difficulty": 1,
+          "pitfall": "别把感受句当成第一件事；看到 In the morning 这个时间词就知道它是当天开场。"
+        },
+        {
+          "question": "邀请信里写：Place: Our music room  Time: Friday 3 p.m. 派对在哪儿开、什么时候开？",
+          "solution": "在音乐教室（Our music room），星期五下午 3 点——p.m. 表示下午，a.m. 才是上午。",
+          "difficulty": 1,
+          "pitfall": "别把 3 p.m. 读成凌晨 3 点；看到 p.m. 就换算成下午时间。"
+        },
+        {
+          "question": "细读农场一天的时间线填空：In the morning, I got up early. Then I ______. After that, I ______. 空线处该填哪一类内容？",
+          "solution": "填 Mike 那天做的活动，而且要用过去式，比如 helped Grandma、went fishing——整段都在回忆周六这一天。",
+          "difficulty": 2,
+          "pitfall": "别填 will play 这类将来形式——回忆已经发生的事，动词一律用过去式。"
+        }
+      ],
+      "mistakes": [
+        "拿到长文从第一句逐词啃到结尾，读得慢还抓不住重点；先看标题猜内容、再分段抓大意，速度和正确率都更高。",
+        "把不同 Day 的事件互相串段，比如把赶集的事安到农场生活那段；每段只记「谁 + 做什么」，用 Day 编号把段落隔开。",
+        "时间线只圈了 Day 1～Day 8，漏掉段内的小时间词 In the morning / In the evening / Finally；段外段内的时间词都要圈。",
+        "复述回忆类长文时动词用了原形，比如说成 go to the farm；已发生的事要用过去式 went to the farm。"
+      ],
+      "source": {
+        "unit": "Recycle Mike's happy days",
+        "pages": [
+          42,
+          51
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "毕业邀请信开头写道：It is time to leave our school. We are all going to middle school soon, so we will say goodbye to each other. 写这封信是为了告诉大家什么？",
+          "options": [
+            "大家快毕业了，要互道再见，开一场告别派对",
+            "Mike 家要搬新家，请大家来暖房",
+            "学校下周要开运动会，请大家参加"
+          ],
+          "answer": "A",
+          "solution": "信里的关键词 leave our school（离开学校）、say goodbye（道别）都在说毕业告别这件事，后面正是邀请大家参加 farewell party（告别派对）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P48·Mike's surprise 告别派对邀请信（It is time to leave our school…）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "农场这一天按时间线展开，把四句排成通顺的一段：① In the evening, I watched TV with Bill. ② In the morning, I got up early. ③ Finally, I went to bed at 10 p.m. ④ In the afternoon, I went fishing.",
+          "options": [
+            "②④①③",
+            "②①④③",
+            "④②①③"
+          ],
+          "answer": "A",
+          "solution": "从早到晚排：morning→afternoon→evening→Finally，时间词就是排序的钥匙。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P45·Mike's day on the farm 时间线成篇（In the morning, I got up early.…Finally…at 10 p.m.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·全篇时间线：Mike's happy days 从 Day 1 到 Day 8，下面哪条顺序符合长文时间线？",
+          "options": [
+            "Day 1 美丽农场→Day 2 农夫市集→Day 3 农场生活→Day 7 毕业派对邀请→Day 8 告别派对",
+            "Day 7 毕业派对邀请→Day 1 美丽农场→Day 2 农夫市集→Day 3 农场生活→Day 8 告别派对",
+            "Day 2 农夫市集→Day 8 告别派对→Day 3 农场生活→Day 1 美丽农场→Day 7 毕业派对邀请"
+          ],
+          "answer": "A",
+          "solution": "小标题自带 Day 1～Day 8 编号，按数字顺序连起来就是全篇时间线；注意派对邀请（Day 7）一定排在告别派对（Day 8）之前。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP六下 P43·Day 1～Day 8 小标题（A beautiful farm→Farmers' market→…→A farewell party）变式（全篇时间线）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "毕业前给自己的小学生活写一条三步时间线：用 First… Then… Finally… 各写一句难忘的事，动词记得用过去式。",
+          "answer": "示例 First, I met my best friend. Then, we won the relay race together. Finally, we took photos on the last day.",
+          "solution": "时间词开场、动词过去式、每句一件事——写完朗读一遍，时间顺序顺不顺自己能听出来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_08",
+      "summary": "用一般过去时写 My last weekend：Last weekend 总起，两三个活动排队写，再用 It was 感受收尾。",
+      "explanation": [
+        "写 My last weekend 的语料仓库就在「上个周末」那组内容里：活动词有 cleaned my room、washed my clothes、stayed at home、watched TV、saw a film、read a book；时间词有 last weekend、last night、yesterday；问答骨架是 How was your weekend? — It was good. 和 What did you do? — I cleaned my room and washed my clothes on Saturday. 成篇的样子也见过：一封投诉信这样展开——Our weekend at your hotel was bad. … Robin cleaned our room and fixed a broken chair. … I didn't sleep all night. 总起、事件、收尾，一篇小作文的骨架全在里面。",
+        "写过去的事，就像把周末的录像倒出来重放：先在脑子里放一遍，挑出两三件印象最清楚的事，按先后排好队；感受是片尾字幕，放在最后。四五句把两三件事说清楚，比十句流水账更出彩——写作文不是比谁写得多，是比谁写得清。",
+        "三段式成篇法：第一句总起——Last weekend, I was very busy. 点明时间和心情；中间两三句展开——On Saturday morning, I cleaned my room. Then I washed my clothes. On Sunday, I visited my grandparents and watched TV with them. 动词全部用过去式；最后一句收尾——It was a busy but happy weekend. 用 It was… 说出感受。写完做三查：查动词过去式、查句首大写、查句末标点。",
+        "动词过去式是这篇作文的主考场：不规则动词不能加 ed——go 的过去式是 went 不是 goed，do 是 did、see 是 saw、have 是 had；规则动词分三种加法——直接加 ed（cleaned、washed）、去 e 加 ed（lived）、双写再加 ed（plan→planned）。问句里动词要还原：问 Did you go boating? 答 Yes, I did.——did 已经扛起「过去」，后面的动词退回原形。",
+        "这篇 4～5 句的小作文是小学阶段成篇写作的收官：总起+活动+感受的骨架，到中学写英语日记、记叙文还是它，只是活动更丰富、感受更细腻。从今天养成习惯：每个周日晚上用三句话写下周末最有意思的一件事，一学期下来，你就拥有一本自己的英文周记本。"
+      ],
+      "methods": [
+        {
+          "name": "三段式成篇法",
+          "steps": [
+            "总起：Last weekend, I was…（点明时间 + 心情）",
+            "展开：On Saturday morning, I… Then I… On Sunday, I…（2～3 个活动，动词全用过去式）",
+            "收尾：It was a … weekend.（一句感受）"
+          ],
+          "tip": "一句总起、两三件事、一句感受，四五句成篇。"
+        },
+        {
+          "name": "写后三查法",
+          "steps": [
+            "查动词：go→went、do→did、see→saw、have→had 单独记；规则动词分清直接加、去 e 加、双写加",
+            "查大写：每句第一个字母和 I 要大写",
+            "查标点：陈述句用句号，问句用问号"
+          ],
+          "tip": "动词、大写、标点，三处过关再交卷。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪一句写对了：I goed to the park last weekend. 还是 I went to the park last weekend?",
+          "solution": "I went to the park last weekend.——go 是不规则动词，过去式是 went，不能加 ed。",
+          "difficulty": 1,
+          "pitfall": "别见动词就加 ed；不规则动词过去式要单独背：go→went、do→did、see→saw、have→had。"
+        },
+        {
+          "question": "把三句排成通顺的小短文：① It was a busy but happy weekend. ② On Saturday, I cleaned my room and washed my clothes. ③ Last weekend, I was very busy.",
+          "solution": "③②①——先总起（③），再展开活动（②），最后感受收尾（①）。",
+          "difficulty": 2,
+          "pitfall": "It was… 的感受句是片尾，别放开头当总起；总起句要带时间词 Last weekend。"
+        },
+        {
+          "question": "补全活动句：On Sunday, I ______ my grandparents and ______ TV with them.（用 visit / watch 的过去式）",
+          "solution": "visited；watched——两个都是规则动词，直接加 ed：visit→visited，watch→watched。",
+          "difficulty": 2,
+          "pitfall": "别写成原形 visit / watch——Sunday 已经过去了；也注意 visit 不需要双写，直接加 ed 就行。"
+        }
+      ],
+      "mistakes": [
+        "动词一律加 ed：go 写成 goed、do 写成 doed；不规则动词过去式要单独记牢——went、did、saw、had、read。",
+        "问句答句里动词不还原：Did you went…? 错；did 后面跟原形——Did you go…? Yes, I did.",
+        "全篇没有时间词，读起来不知道说的是哪天；用 Last weekend / On Saturday morning / On Sunday 把时间交代清楚。",
+        "只写活动不写感受，作文像流水账；结尾加一句 It was a busy but happy weekend. 文章就有了温度。"
+      ],
+      "source": {
+        "unit": "Unit 2 写作任务",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "同学问你：What did you do last weekend? 你上周末洗了衣服，选哪句回答？",
+          "options": [
+            "I washed my clothes.",
+            "I wash my clothes.",
+            "I am washing my clothes."
+          ],
+          "answer": "A",
+          "solution": "上周末是过去的时间，动词用过去式 washed；后两句一个是一般现在时、一个是现在进行时，都不合语境。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P15·Do a survey and report（What did you do? — I washed my clothes.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "范文投诉信里有一句：I wanted to watch TV but the TV didn't work. 这句话告诉读者什么？",
+          "options": [
+            "电视坏了，没能看成电视",
+            "他们看了一整晚电视",
+            "房间里的电视是新的"
+          ],
+          "answer": "A",
+          "solution": "didn't work 就是「（机器）坏了、不运转」，再由 but 一转折——想看却看不成。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P18·投诉信范文（I wanted to watch TV but the TV didn't work.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·类推变形：规则动词有直接加、去 e 加、双写加三种：talk→talked，plan→planned，cry→cried。照规则补全：stop→______，like→______。",
+          "answer": "stopped；liked",
+          "solution": "stop 以「辅音+元音+辅音」结尾，双写 p 再加 ed→stopped；like 以 e 结尾，去 e 加 ed→liked。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP六下 P20·动词过去式变形（talk→talked，plan→planned，cry→cried）变式（类推补全）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三段式写你自己的 My last weekend：一句 Last weekend 总起、两三个活动、一句 It was… 感受，写完用三查法自查一遍。",
+          "answer": "示例 Last weekend, I was happy. On Saturday, I went boating with my father. On Sunday, I read a book and watched TV. It was a wonderful weekend.",
+          "solution": "动词全用过去式（went、read、watched），时间词交代清楚，感受放最后收尾。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_09",
+      "summary": "四大时态一张总图收齐：认时间标志词站队，再对上动词结构，习惯、正在、将做、已过分得清。",
+      "explanation": [
+        "综合复习的长文里，四大时态各有一句代表句：一般现在时讲每天常做的事——He goes fishing. She does the cleaning.；现在进行时讲此刻正在做——Bill is playing ping-pong.；一般将来时讲打算将做——We are all going to middle school soon. We will draw pictures and sing songs.；一般过去时讲已经做过——I cleaned my room and washed my clothes on Saturday. 把这四句摆进一张总图，结构和标志词一目了然。",
+        "时态像给动作拍四种照片：一般现在时是「循环照」——每天都做、常常做的事；现在进行时是「实况照」——镜头正对着，动作正在进行；一般过去时是「旧照片」——事已做完，只剩回忆；一般将来时是「计划单」——还没发生，先写下来。读句子先问一句：这个动作是习惯、正在、已过，还是将做？",
+        "两步定时态法：第一步找时间标志词——usually、often、every day 归一般现在时；now、Look! 归现在进行时；tomorrow、next weekend、soon 归一般将来时；yesterday、last weekend、ago 归一般过去时。第二步对动词结构——一般现在时三单加 s/es（goes、does）；现在进行时 be+V-ing（is playing）；一般将来时 be going to+原形 或 will+原形；一般过去时用过去式（cleaned；不规则动词查不规则动词表，如 go→went、see→saw、have→had）。",
+        "四个易混点逐个排雷：一、三单别丢 s——He go fishing 错，He goes fishing 对；二、进行时别丢 be——Bill playing ping-pong 错，Bill is playing ping-pong 对；三、be going to 后接原形——is going to went 错，is going to go 对；四、did 问句动词还原——Did you went 错，Did you go 对：过去式这份「功劳」全记在 did 头上，动词本人退回原形。",
+        "这张四时态总图是小学英语交给初中最重的行李：初中会在这张图上加新成员（比如表示「过去正在做」的过去进行时），但判断套路不变——先找时间标志词，再对动词结构。把它抄在书桌前，每天挑三个见过的句子归归类，两个月后你会发现自己一眼就能读出句子的「时间坐标」。"
+      ],
+      "methods": [
+        {
+          "name": "两步定时态法",
+          "steps": [
+            "第一步圈时间标志词：usually / now / tomorrow / yesterday 各归各队",
+            "第二步对动词结构：加 s/es、be+V-ing、be going to / will+原形、过去式",
+            "拿不准的过去式回头查不规则动词表"
+          ],
+          "tip": "时间词先站队，动词再变形。"
+        },
+        {
+          "name": "四时态总图法",
+          "steps": [
+            "一般现在 do/does——习惯常事，代表句 He goes fishing.",
+            "现在进行 be+V-ing——此刻正在，代表句 Bill is playing ping-pong.",
+            "一般将来 be going to / will——打算将做，代表句 We are going to have cake, candy and juice, too.",
+            "一般过去 did——已经做完，代表句 I cleaned my room and washed my clothes on Saturday."
+          ],
+          "tip": "习惯、正在、将做、已过，四张照片分得清。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Bill is playing ping-pong. 这句属于哪个时态：一般现在时、现在进行时，还是一般过去时？",
+          "solution": "现在进行时——be（is）+V-ing（playing）是它的标志结构，说的是此刻正在做。",
+          "difficulty": 1,
+          "pitfall": "别一看到 is 就选一般现在时；看动词形态：playing 带着 ing，就是进行时。"
+        },
+        {
+          "question": "时间标志词配对：yesterday、tomorrow、every day、now 各配哪个时态？",
+          "solution": "yesterday→一般过去时；tomorrow→一般将来时；every day→一般现在时；now→现在进行时。",
+          "difficulty": 2,
+          "pitfall": "记住两队近亲：last weekend、last night、ago 都和 yesterday 一队（过去）；next weekend、soon 都和 tomorrow 一队（将来）。"
+        },
+        {
+          "question": "毕业派对的回信要写打算：I am going to ______ songs at the party.（sing）括号里的词用什么形式？",
+          "solution": "用原形 sing——be going to 后面接动词原形：I am going to sing songs at the party.",
+          "difficulty": 2,
+          "pitfall": "to 后面不变形——别写 sang；be going to 里的动词永远是原形。"
+        }
+      ],
+      "mistakes": [
+        "一般现在时三单漏 s：He go fishing 错——主语是三单要加 s/es：He goes fishing.",
+        "现在进行时丢了 be：Bill playing ping-pong 错——be+V-ing 缺一不可：Bill is playing ping-pong.",
+        "be going to 后面接了过去式：is going to went 错——to 后面用原形：is going to go.",
+        "did 问句里动词还背着过去式：Did you went 错——did 已经表示过去，动词要还原：Did you go?"
+      ],
+      "source": {
+        "unit": "Recycle 总复习",
+        "pages": [
+          42,
+          71
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "长文里写农场上每天的事：He goes fishing. She does the cleaning. 这两句用的是哪个时态？",
+          "options": [
+            "一般现在时",
+            "现在进行时",
+            "一般过去时"
+          ],
+          "answer": "A",
+          "solution": "goes、does 是三单形式（加 es），讲的是每天常做的事，属于一般现在时。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P44·Day 3 Life on the farm（He goes fishing. She does the cleaning.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "毕业邀请信的活动清单里写道：We will draw pictures and sing songs. … We are going to have cake, candy and juice, too. 这两句在说什么？",
+          "options": [
+            "派对上打算做的事",
+            "上周做过的事",
+            "每天的习惯"
+          ],
+          "answer": "A",
+          "solution": "will 和 be going to 都是一般将来时的标志，说的是派对那天将要做的事。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P48·Mike's surprise 邀请信活动清单（We will draw pictures and sing songs.…）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·时态归类：给三个句子各贴上时态标签：① Mike often answers very difficult maths questions. ② Bill is playing ping-pong. ③ In the morning, I got up early.",
+          "answer": "①一般现在时；②现在进行时；③一般过去时",
+          "solution": "①有 often、动词 answers 是三单——习惯；②is+playing——此刻正在；③got 是 get 的过去式——已经发生的事。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP六下 P46·Mike 的学校生活语段（Mike often answers very difficult maths questions.）变式（时态归类）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "升入初中前的预习小练：用四种时态各写一句关于「我」的句子——一个习惯、一件正在做的、一个打算、一件上周的事，写完互相检查时间标志词。",
+          "answer": "示例 I read English every day. / I am reading a storybook now. / I am going to visit my grandpa tomorrow. / I went to the farm last weekend.",
+          "solution": "每句都有时间标志词+对应的动词结构，四张「照片」各拍一张。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g6b_10",
+      "summary": "小学约 550 词收官：主题词网分串清点，黑体词练四会，白体词会认读，再用语篇填空查漏补缺。",
+      "explanation": [
+        "小学六册的单词在书后分级总盘：黑体词是四会词——听、说、读、写样样过关，如 went、saw、bigger、yesterday 这些天天要用的词；白体词做到听得懂、见得识即可。词汇总表后面还配了两张好帮手：不规则动词表——go→went、see→saw、have→had 一对一对排好；发音总表——辅音、元音字母和字母组合的读音规律全在里面。三张表合起来，就是小学词汇的全部家底。",
+        "约 550 个词不用一个个死背，把词当成葡萄，按主题串成一串串：学校一串、家一串、朋友一串、爱好一串、假期一串、自然界一串。串着记有两个好处：忘了一个能顺着主题想起一串；盘点时按串清点，哪串短了补哪串，不会东一榔头西一棒子。",
+        "三招自查法：第一招主题词网总盘——画六张词网（学校、家、朋友、爱好、假期、自然），每张默写 15～20 词，写不出的圈出来翻词汇表补齐；第二招不规则动词表默写——遮住过去式一栏，看原形写过去式：go→went、see→saw、eat→ate、buy→bought，错的重默；第三招语篇填空——找一段过去时的短文把动词挖空自己填，如 Last weekend, I ______ (go) to the farm. 填对了，说明词和时态都过关。",
+        "四会词和认读词要求不同，别平均用力：四会词（如 weekend、yesterday、washed、smaller）要能默写、能造句；认读词见了能读、听了能懂就算达标。还有，别把「认识」当成「会用」——认得 see 不算完，写成篇时要变形成 saw；认得 go 不算完，句子里要能写出 went。认识是第一道关，会用是第二道关。",
+        "这约 550 个词是初中英语的地基：初中的英语书一打开，你会发现一大半句子还是用这批词搭的，新增的主要是拼读更长的新词。毕业假期里把六张主题词网再过一遍、不规则动词表再默一轮，升入初中你会赢得「生词都眼熟」的轻松开局。"
+      ],
+      "methods": [
+        {
+          "name": "主题词网总盘法",
+          "steps": [
+            "定主题：学校、家、朋友、爱好、假期、自然各画一张网",
+            "每张网默写 15～20 个词，中英对照",
+            "写不出的圈出来，翻词汇表补齐并大声读三遍"
+          ],
+          "tip": "词成串，记得牢；哪串短，补哪串。"
+        },
+        {
+          "name": "不规则动词默写法",
+          "steps": [
+            "遮住过去式一栏，看原形默写：go→went、see→saw、have→had、eat→ate、buy→bought、take→took",
+            "错词抄三遍，第二天重默一次",
+            "全对后做成对听写：同桌报原形，你写过去式"
+          ],
+          "tip": "遮右默左，错一补三。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "「农场一天」的主题词网里，下面哪个词能进网：whale、horse，还是 jacket?",
+          "solution": "horse——它是农场动物；whale 是海洋动物，jacket 是服装，都进不了农场网。",
+          "difficulty": 1,
+          "pitfall": "拿不准时先想中文意思：horse 是马，跟农场一天直接相关。"
+        },
+        {
+          "question": "默写不规则动词表：go→went，see→saw，那么 have→______，eat→______?",
+          "solution": "had；ate——have 的过去式是 had（不是 haved），eat 的过去式是 ate（不是 eated）。",
+          "difficulty": 1,
+          "pitfall": "不规则动词绝不加 ed；eat→ate 别受 see→saw 影响，两对长得不一样。"
+        },
+        {
+          "question": "语篇填空：Last weekend, I ______ (go) to the farm and ______ (see) many animals.",
+          "solution": "went；saw——Last weekend 是过去时间标志词，go、see 都要变成过去式。",
+          "difficulty": 2,
+          "pitfall": "先找时间标志词再填空；see 的过去式拼写不变只改读音，原样写 see 就错了。"
+        }
+      ],
+      "mistakes": [
+        "约 550 词按字母顺序从头硬背，背了后面忘前面；按主题词网分串记，一串一串过关。",
+        "四会词只练到「会认」就跳过；四会词要听、说、读、写全过关，能默写、能造句才算达标。",
+        "不规则动词默写时给 go 加 ed 写成 goed；不规则变化要单独记牢——went、did、saw、had、ate、bought。",
+        "语篇填空只看空格前后两个词就填，不看全文时间；先找 Last weekend / yesterday 这类时间标志词再定词形。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          2,
+          71
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇分组活动把单词按主题归类：apple、orange、egg、cake、jacket、shoes、horse、tomato。下面哪一组全是食物？",
+          "options": [
+            "apple, egg, cake",
+            "jacket, shoes",
+            "horse, tomato"
+          ],
+          "answer": "A",
+          "solution": "apple 苹果、egg 鸡蛋、cake 蛋糕都是吃的；jacket、shoes 是穿戴，horse 是动物。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP六下 P42·A beautiful farm 词汇分组（apple orange egg cake jacket shoes horse tomato）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "不规则动词表里，下面哪一组过去式全对？",
+          "options": [
+            "go→went, see→saw, have→had",
+            "go→goed, see→sawed, have→haded",
+            "go→went, see→seed, have→haved"
+          ],
+          "answer": "A",
+          "solution": "三个都是不规则变化，一律不加 ed：went、saw、had 才是正确的过去式。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P69·不规则动词表（go→went，see→saw，have→had）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式·主题词网归类：「农场一天」的词网要收词，下面哪个词不该进这张网？",
+          "options": [
+            "horse",
+            "farmers' market",
+            "ping-pong"
+          ],
+          "answer": "C",
+          "solution": "horse 是农场动物、farmers' market 是农场集市，都该进网；ping-pong 是运动项目，该进「爱好·运动」网。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP六下 P44·农场一天词汇（goes fishing，plays music，playing ping-pong）变式（主题词网归类）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己出一份「毕业词汇卷」：一张 8 词的主题词网 + 5 对不规则动词默写 + 1 段动词挖空的过去时小短文，考考同桌再互批。",
+          "answer": "示例 词网：school, teacher, friend, hobby, holiday, farm, family, nature；动词：do→did, take→took, make→made, come→came, get→got；短文挖空：Last summer, I ______ (go) to Beijing and ______ (visit) the Great Wall.",
+          "solution": "三道题正好对应三招自查——词网、默写、语篇填空，全部过关就是词汇收官。",
           "difficulty": 3
         }
       ]
