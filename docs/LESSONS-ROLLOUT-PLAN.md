@@ -204,5 +204,6 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-E1 | 英语 G3上（英语流·独立编号，与语文 B{n} 流并行） | 15 | ✅ 完成（2026-10-28：15 点讲解+练习 60 题；英语开篇，新建 data/lessons/yy.json；单元页界按 dump 实文锁定（U4 起于 p36、Recycle 1 p32-35）；字母/TPR/听力策略等 6 处跨单元点放宽页界；共享校验器 check-frag.mjs 上线；一次过装配红线） | 见 CHANGELOG Unreleased B-E1 条目 |
 | B-E2 | 英语 G3下 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；四大新语法点（I'm from…/Who's that…? He's She's/It's so tall! 形容词/in-on-under 方位+Is it…? Do you like…? 助动词 do）；CVC 短元音拼读；装配期修 1 处弯引号撇号失配（Let's） | 见 CHANGELOG Unreleased B-E2 条目 |
 | B-E3 | 英语 G4上 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；名词复数/has 描述/would like 点单/职业问答/Magic e 长音；Where is/are 单复数选择；中西餐具文化；装配期修 1 处 examples 非法键；校验器升级 example 白名单） | 见 CHANGELOG Unreleased B-E3 条目 |
+| B-E4 | 英语 G4下 | 12 | ✅ 完成（2026-10-28：12 点讲解+练习 48 题；时间/天气/these-those/Whose 物主/购物 How much/R 音节六大新语法点+小主播播报/小故事复述/My day 时间轴仿写；一次过装配红线） | 见 CHANGELOG Unreleased B-E4 条目 |
 
 > 执行入口：新会话直接说「按 LESSONS-ROLLOUT-PLAN 执行 B{n}」即可。

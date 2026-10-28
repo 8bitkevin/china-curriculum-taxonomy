@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 39,
+  "lessonCount": 51,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -5025,6 +5025,1543 @@
           "question": "期末词网大挑战：合上书，五张主题词网各说出 3 个词（教室、朋友、家、餐桌上、家庭），再翻开词汇表核对，数一数一共说对了几个。",
           "answer": "示例：教室 window、blackboard、door；朋友 tall、quiet、glasses；家 bedroom、sofa、fridge；餐桌 beef、soup、chopsticks；家庭 uncle、aunt、cousin。",
           "solution": "说完数缺口，把没把握的词做记号，隔天再查一遍。这个盘点习惯会一直帮你管住越来越多的词汇。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_01",
+      "summary": "校园里找房间：Where's the library? It's on the first floor.，问清一楼二楼有礼貌，This way, please. 带路走。",
+      "explanation": [
+        "书上从参观学校讲起：Where's the library? It's on the first floor.（图书馆在一楼）；Excuse me. Where's the teachers' office? It's on the second floor.（教师办公室在二楼）；It's next to the art room.（它挨着美术室）。想确认眼前是不是某个房间，就问 Is this the teachers' office? 回答 Yes, it is. 或 No, it isn't. It's the computer room.。这一部分的场所词有：library（图书馆）、teachers' office（教师办公室）、playground（操场）、garden（花园）、computer room（计算机房）、art room（美术室）、music room（音乐室）、gym（体育馆）。欢迎客人、带路时说：Welcome to our school! This way, please.",
+        "first 是'第一'，second 是'第二'，floor 是'楼层'，on the first floor 就是'在一楼'，像排队报数：第一名 first，第二名 second，楼层跟着往上数。到别人的学校做客，先说 Excuse me.（打扰一下）再提问，听到回答要说 Thank you.，做个有礼貌的小客人。每个房间都有自己的用处：图书馆里读书，操场上踢球，音乐室里唱歌，认出房间就知道能做什么。",
+        "问路三步走：第一步礼貌开口 Excuse me.；第二步提问 Where's + 房间名，比如 Where's the library?；第三步听清回答——说楼层的用 It's on the ... floor.，说位置的用 It's next to ...（在……旁边）。想确认是不是某个房间，用 Is this the ...? 问，答 Yes, it is. 或 No, it isn't. It's the ...。领客人走的时候说 This way, please.（这边请）。",
+        "三处容易缠在一起：一是楼层别数反——first floor 是一楼，second floor 是二楼，'第几层'要用 first、second 这样的序数词，不能说 on the one floor；二是 this 和 that——Is this...? 问近处的房间，Is that...? 问远处的；三是 an art room 别漏 an——art 以元音字母开头，要说 Do you have an art room?。还有 teachers' office 的撇号跟在 s 后面，表示'老师们的'办公室，拼写别弄丢。",
+        "会用 Where's...? 和 on the ... floor，以后到新学校、图书馆、商场都能自己问路；next to、Is this...? 这些说法在描述教室、家里房间时还会反复出现。记得开口先加 Excuse me.、得到帮助说 Thank you.，礼貌用语走到哪儿都加分。"
+      ],
+      "methods": [
+        {
+          "name": "问路三步法",
+          "steps": [
+            "礼貌开口：Excuse me.",
+            "提问：Where's + 房间名，如 Where's the library?",
+            "听答：楼层用 It's on the ... floor.，位置用 It's next to ...",
+            "道谢：Thank you."
+          ],
+          "tip": "Excuse me 开口问，Where's 加房间；on the floor 说楼层，This way, please 跟我走。"
+        },
+        {
+          "name": "楼层报数法",
+          "steps": [
+            "记住顺序：first 第一（一楼），second 第二（二楼）",
+            "套句式：It's on the + first/second + floor.",
+            "自己练：The library is on the first floor.",
+            "换个房间再问一遍，问完自己答"
+          ],
+          "tip": "first 一楼 second 二楼，on the 加序数再加 floor；问哪层答哪层，像报数一样往上数。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同学问你 Where's the library? 图书馆在一楼，你怎么回答？",
+          "solution": "It's on the first floor. first floor 是一楼。",
+          "difficulty": 1,
+          "pitfall": "答成 It's on the one floor——'第几层'要用 first、second 这样的序数词。"
+        },
+        {
+          "question": "你指着近处的一个房间，想确认它是不是美术室，该怎么问？",
+          "solution": "Is this the art room? 回答是 Yes, it is. 或 No, it isn't.",
+          "difficulty": 2,
+          "pitfall": "用 Where's 来指认——Where's 是问地点，确认眼前的东西要用 Is this...?"
+        },
+        {
+          "question": "客人第一次来你们学校，你带他去图书馆，开口该说哪句？",
+          "solution": "This way, please. 也可以先说一句 Welcome to our school!",
+          "difficulty": 1,
+          "pitfall": "只报楼层忘了带路——领人走要先说 This way, please."
+        }
+      ],
+      "mistakes": [
+        "楼层用错数词：It's on the one floor 不对，要说 It's on the first floor.，'第几'用 first、second。",
+        "an art room 漏掉 an：art 以元音开头，Do you have an art room? 里的 an 不能少。",
+        "teachers' office 丢撇号：它是'老师们的办公室'，撇号写在 s 后面，别写成 teacher office。",
+        "答非所问：Is this the library? 要先答 Yes, it is. / No, it isn't.，再补一句是什么房间，不能只报楼层。"
+      ],
+      "source": {
+        "unit": "Unit 1 My school",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "图书馆在一楼，别人问 Where's the library? 选出正确的回答。",
+          "options": [
+            "Yes, it is.",
+            "It's on the first floor.",
+            "It's on the second floor.",
+            "No, it isn't."
+          ],
+          "answer": "B",
+          "solution": "问 Where's...? 要答地点：It's on the first floor. 意思是'它在一楼'。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P5·Where's the library?（It's on the first floor.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "同学指着近处的房间问 Is this the teachers' office? 其实那是计算机房，选出正确的回答。",
+          "options": [
+            "Yes, it is.",
+            "No, it isn't. It's the computer room.",
+            "This way, please.",
+            "Yes, we do."
+          ],
+          "answer": "B",
+          "solution": "不是教师办公室，要先否定再说明：No, it isn't. It's the computer room.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P3·Is this the teachers' office?（No, it isn't. It's the computer room.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：客人第一次来参观学校，你带大家去图书馆，开口该说——",
+          "options": [
+            "Welcome to our school. This way, please.",
+            "Is this the library?",
+            "It's on the first floor.",
+            "Where's the library?"
+          ],
+          "answer": "A",
+          "solution": "欢迎客人说 Welcome to our school!，带路说 This way, please.，两句话连起来最自然。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P7·欢迎与带路变式（Welcome to our school! This way, please.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小导游上岗：用 This is the ... 和 It's on the ... floor 介绍你们学校的两个地方，说两三句话。",
+          "answer": "示例：This is the library. It's on the first floor. This is the music room. It's on the second floor.",
+          "solution": "先指认房间再说楼层，说完把句子连起来读一遍，听听顺不顺。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_02",
+      "summary": "几点啦？What time is it? It's 5 o'clock.；到了时间就说 It's time for 加名词、It's time to 加动作。",
+      "explanation": [
+        "书上一开口就在问时间：What time is it? — It's 2 o'clock.；It's 12 o'clock. It's time for lunch.（十二点了，该吃午饭了）；It's 7 o'clock. It's time to get up.（该起床了）；It's 10 o'clock. It's time to go to bed.（该睡觉了）；Hurry up! It's time for school!（快点，该上学了）。放学时说 School is over.，请人等一等回一句 Just a minute.（稍等一下）。时间名词有 breakfast（早餐）、lunch（午餐）、dinner（晚餐）、English class（英语课）、music class（音乐课）、PE class（体育课）；动作短语有 get up（起床）、go to school（去上学）、go home（回家）、go to bed（上床睡觉）。",
+        "看钟表报时间就像报数：整点就说 It's + 数字 + o'clock，o'clock 的意思是'……点钟'。到了时间要做的事分两类：一类有名字，像 breakfast、dinner、English class，它们是名词；一类是动作，像 get up、go to bed，它们是动词短语。英文给这两类准备了两个不同的接头：名词接 for，动作接 to。",
+        "报时三步走：第一步看钟读数——It's 5 o'clock.；第二步想想这时候该做什么；第三步选接头——后面是名词就用 for：It's time for dinner.，后面是动作用就用 to：It's time to go home.。要催别人快一点，前面加 Hurry up!。不是整点的时间直接读数字，比如 It's 7:20. It's time to go to school.",
+        "for 和 to 最容易接反：It's time to lunch、It's time for get up 都不对。分不清时看后面的词——breakfast、lunch、dinner、class 是名词，跟 for；get up、go to school、go to bed、go home 是动作，跟 to。还有两个小陷阱：回答 What time is it? 要用 It's... 开头，别答成 I'm...；Hurry up! 是'快点'，Just a minute. 是'稍等一下'，意思正好相反。",
+        "会报时间、会安排作息，你就有了写'我的一天'的骨架：It's 6:30. It's time to get up. 一句接一句，一天就排好了。以后学到更多课程名和活动短语，还能给周末做计划；和同学玩报时抢答游戏，看到整点就抢着说，反应会越来越快。"
+      ],
+      "methods": [
+        {
+          "name": "for/to 接头法",
+          "steps": [
+            "看 time 后面接的词：是名词还是动作",
+            "名词接 for：It's time for breakfast / lunch / dinner / English class.",
+            "动作接 to：It's time to get up / go to school / go home / go to bed.",
+            "读完检查：接头装对了吗"
+          ],
+          "tip": "for 加名词 to 加动作：吃饭上课用 for，起床回家用 to。"
+        },
+        {
+          "name": "整点报时法",
+          "steps": [
+            "看钟表读整点：It's + 数字 + o'clock.",
+            "补一句该做的事：It's time for / to ...",
+            "不是整点直接读数字：It's 7:20.",
+            "催人加 Hurry up!，请人等一等说 Just a minute."
+          ],
+          "tip": "整点后面挂 o'clock，It's 开头报时忙；for 接饭点 to 接动作，一天安排响当当。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "现在是 6 点，别人问 What time is it? 怎么回答？",
+          "solution": "It's 6 o'clock. 报时间用 It's 开头。",
+          "difficulty": 1,
+          "pitfall": "答成 I'm 6 o'clock——时间是'它'，要用 It's。"
+        },
+        {
+          "question": "It's time ___ lunch. 空里填 for 还是 to？",
+          "solution": "填 for。lunch 是名词，名词跟 for。",
+          "difficulty": 1,
+          "pitfall": "看见 time 就顺手填 to——先看后面的词是名词还是动作。"
+        },
+        {
+          "question": "早上 7 点该起床了，用 to 说出这句话。",
+          "solution": "It's 7 o'clock. It's time to get up.",
+          "difficulty": 2,
+          "pitfall": "说成 It's time to breakfast——breakfast 是名词，要用 for：It's time for breakfast."
+        }
+      ],
+      "mistakes": [
+        "for/to 接反：It's time to lunch、It's time for get up 都不对，名词接 for，动作接 to。",
+        "回答用错开头：What time is it? 的回答是 It's ... o'clock.，不能说 I'm ... o'clock.",
+        "o'clock 乱挂：它只跟在整点数字后面；7:20 这样的时间直接读数字，像 It's 7:20.",
+        "Hurry up! 和 Just a minute. 记混：前者是催人'快点'，后者是请人'稍等一下'。"
+      ],
+      "source": {
+        "unit": "Unit 2 What time is it?",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "放学了，同学问 What time is it now? 时钟正好指向 5 点，选出正确的回答。",
+          "options": [
+            "It's 5 o'clock.",
+            "It's 5 clock.",
+            "I'm 5 o'clock.",
+            "It's time 5 o'clock."
+          ],
+          "answer": "A",
+          "solution": "整点报时说 It's 5 o'clock.，书上的原句正是 It's 5 o'clock. School is over.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P14·放学时间问答（What time is it now? It's 5 o'clock. School is over.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "中午 12 点该吃午饭了：It's 12 o'clock. It's time ___ lunch. 选词填空。",
+          "options": [
+            "for",
+            "to",
+            "at",
+            "on"
+          ],
+          "answer": "A",
+          "solution": "lunch 是名词，名词跟 for：It's time for lunch.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P12·It's time for lunch（It's 12 o'clock. It's time for lunch.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选一选：晚上 10 点该睡觉了，下面哪句完全正确？",
+          "options": [
+            "It's 10 o'clock. It's time to go to bed.",
+            "It's 10 o'clock. It's time for go to bed.",
+            "It's 10 o'clock. It's time to bed.",
+            "It's 10 clock. It's time to go to bed."
+          ],
+          "answer": "A",
+          "solution": "go to bed 是动作短语，跟 to；整点数字后面挂 o'clock。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P13·睡觉时间变式（It's 10 o'clock. It's time to go to bed.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小闹钟排班：写出你一天里两个整点在做的事，各用一句 It's ... o'clock. It's time for/to ...",
+          "answer": "示例：It's 7 o'clock. It's time to get up. It's 12 o'clock. It's time for lunch.",
+          "solution": "先定时间再想事情，名词接 for、动作接 to，两句连读检查接头。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_03",
+      "summary": "出门先问天：What's the weather like? It's rainy / sunny / windy...，冷暖热凉四个词排好队，Can I go outside? 问过再出门。",
+      "explanation": [
+        "书上从世界各地的天气说起：What's the weather like in London? — It's rainy.（伦敦下雨）；It's cloudy in Singapore.（新加坡多云）；It's windy now.（现在刮风）；It's hot and sunny in Sydney.（悉尼又热又晴）；Is it cold in Moscow? — Yes, it is. It's snowy here.（莫斯科在下雪）。想出门先问 Can I go outside now? 回答 Yes, you can. 或 No, you can't. It's cold outside.。天气词五个：rainy（下雨的）、cloudy（多云的）、sunny（晴朗的）、windy（刮风的）、snowy（下雪的）；温度词四个：cold（寒冷的）、cool（凉爽的）、warm（温暖的）、hot（炎热的）。",
+        "天气词都拖着同一条小尾巴 -y：rain（雨）加 y 变 rainy（下雨的），cloud 变 cloudy，wind 变 windy，snow 变 snowy；sun 加 y 还要双写 n，变成 sunny。温度词是四个兄弟：hot 最烫，warm 暖和舒服，cool 凉爽，cold 最冷，从冷到热正好排成一队。天冷天热穿什么、能不能出去玩，都由它们说了算。",
+        "谈天气三步走：第一步问 What's the weather like in + 城市名?；第二步看天选词回答 It's ...，两个特点用 and 连起来：It's hot and sunny.；第三步想出门就问 Can I go outside (now)?，对方答 Yes, you can. 或 No, you can't.。报温度用 It's 26 degrees.（26 度）。天气播报的开场句是 Here's the world weather.（这里是世界天气）。",
+        "几处易混要盯住：一是 sun 变 sunny 要双写 n，只写一个 n 就拼错了；二是 cool 和 cold——cool 是舒服的凉爽，cold 是冻人的寒冷，26 度算 warm 不算 cold，书上的对话正是这样：Is it cold? — No, it isn't. It's 26 degrees.；三是 Can I go outside? 的回答用 you：Yes, you can. / No, you can't.，不能答成 Yes, I can't 这样的混搭。",
+        "会谈天气，看天气预报就不发怵，和外地、外国朋友聊天也有话题。以后还会学到季节和穿衣搭配：天冷就 Put on a hat（戴上帽子），暖和了就轻装出门。把 rainy、snowy 这些词按'名词加 y'的家族记熟，新天气词一来就能接上。"
+      ],
+      "methods": [
+        {
+          "name": "天气问答三步法",
+          "steps": [
+            "问：What's the weather like in + 城市名?",
+            "答：看天选词 It's rainy / cloudy / sunny / windy / snowy.",
+            "两个特点用 and 连：It's hot and sunny.",
+            "想出门加问一句 Can I go outside (now)?"
+          ],
+          "tip": "weather 问天气，like 别忘带；It's 加天气词，出门先问 Can I?"
+        },
+        {
+          "name": "温度四兄弟排队法",
+          "steps": [
+            "从冷到热排一队：cold → cool → warm → hot",
+            "记住代表温度：cold 5 度、cool 15 度、warm 20 度、hot 30 度",
+            "报温度：It's 26 degrees.",
+            "选词造句：It's cool and rainy today."
+          ],
+          "tip": "cold 冷 cool 凉，warm 暖来 hot 烫；从冷到热排好队，报温度用 degrees。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "窗外正下着雨，选哪个词描述今天的天气？",
+          "solution": "rainy。rain 是'雨'，加 y 变成形容词 rainy（下雨的）。",
+          "difficulty": 1,
+          "pitfall": "只说 rain——描述天气要用形容词 rainy。"
+        },
+        {
+          "question": "What's the weather like in Beijing? 今天北京又晴又热，怎么回答？",
+          "solution": "It's hot and sunny. 两个特点用 and 连起来。",
+          "difficulty": 2,
+          "pitfall": "漏掉 and，说成 It's hot sunny——两个词中间要架一座 and 小桥。"
+        },
+        {
+          "question": "外面很冷，你想出去玩，问 Can I go outside now? 妈妈会怎么回答？",
+          "solution": "No, you can't. It's cold outside. 天冷不能出去。",
+          "difficulty": 2,
+          "pitfall": "答成 Yes, you can——先想清楚天气，再决定怎么答。"
+        }
+      ],
+      "mistakes": [
+        "sunny 少写一个 n：sun 加 y 要双写 n 变 sunny；cloudy、windy、snowy、rainy 直接加 y。",
+        "cool 和 cold 混用：cool 是凉爽，cold 是寒冷；26 度算 warm，可别喊 cold。",
+        "Can I go outside? 回答混乱：要用 Yes, you can. / No, you can't.，不能 Yes 和 can't 混搭。",
+        "问句漏 like：What's the weather like...? 里的 like 不能丢，它是'像……的样子'。"
+      ],
+      "source": {
+        "unit": "Unit 3 Weather",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "外面正下着雨，选出描述天气的词。",
+          "options": [
+            "rainy",
+            "snowy",
+            "sunny",
+            "windy"
+          ],
+          "answer": "A",
+          "solution": "下雨的天气用 rainy：It's rainy. 书上伦敦那天正是 It's rainy.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P22·问伦敦天气（What's the weather like in London? It's rainy.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书上的对话里北京是 26 度，同学问 Is it cold in Beijing? 该怎么回答？",
+          "options": [
+            "No, it isn't. It's 26 degrees.",
+            "Yes, it is. It's very cold.",
+            "It's snowy in Beijing.",
+            "It's cold outside."
+          ],
+          "answer": "A",
+          "solution": "26 度不算冷，按书上的对话回答：No, it isn't. It's 26 degrees.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P27·26 degrees 对话（No, it isn't. It's 26 degrees.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式补全对话：—Can I go outside now? —___ It's cold outside. 选句填空。",
+          "options": [
+            "No, you can't.",
+            "Yes, you can.",
+            "Yes, it is.",
+            "It's 26 degrees."
+          ],
+          "answer": "A",
+          "solution": "外面冷不能出去，先否定再说明原因：No, you can't. It's cold outside.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P24·Can I go outside? 变式（No, you can't. It's cold outside.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小小天气预报员：选一个城市播报今天的天气，用两句——一句 It's ... in ...，一句报温度或冷暖。",
+          "answer": "示例：It's sunny in Beijing today. It's warm.",
+          "solution": "先想天气词再想温度词，像播报员一样大声读出来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_04",
+      "summary": "农场里东西多：近处问 What are these?，远处问 What are those?，回答都用 They're…，再学会 How many 数一数。",
+      "explanation": [
+        "这部分把课堂搬进农场：先逛菜园看蔬菜——Look at these! Are these carrots?（看看这些！这些是胡萝卜吗？）—Yes, they are.（是的。）—Wow! They're so big!（哇，好大呀！）—Try some! They're good.（尝尝，很好吃。）—Thanks. Yum. 再看果子：What are these? —They're tomatoes. But they're yellow!（它们是西红柿，可它们是黄色的！）开篇场景里还数了马：How many horses do you have?（你有多少匹马？）—Seventeen.（十七匹。）远处的东西换 those 来问：What are those? —They're sheep.（它们是绵羊。）—Let me count...（让我数数……）羊群里再细认：What about those? Are they hens? —No, they aren't. They're ducks.（不，它们是鸭子。）蔬菜词一次学齐：tomatoes（西红柿）、potatoes（土豆）、carrots（胡萝卜）、green beans（豆角），配上一句 Look at the green beans. They're so long! —Yes, and the potatoes are big.（豆角好长！土豆好大！）歌谣也唱蔬菜：I like tomatoes. I like potatoes. Carrots I will try. I love to eat green beans, but onions make me cry.（我爱吃豆角，可洋葱让我流泪。）动物词接着认：horses（马）、sheep（绵羊）、cows（奶牛）、hens（母鸡），介绍农场就说 This is my farm. These are sheep.（这是我的农场，这些是绵羊。）读写短文里远近对照最清楚：This is the vegetable garden. These are carrots and potatoes. Those are tomatoes and green beans over there. Are those sheep? —No, they are goats. They love to eat carrots!（那些不是绵羊，是山羊，它们爱吃胡萝卜！）",
+        "these 和 those 是 this 和 that 的“多胞胎兄弟”：this 管身边的一件，these 管身边的几件；that 管远处的一件，those 管远处的几件。东西一多，be 动词也从 is 换成 are，回答也从 It 换成 They。手边一筐胡萝卜喊 these，远处一群绵羊喊 those——先分远近，再看单复，问句就不会错。数农场的动物还有固定句式：How many 加复数名词去问，How many horses do you have?，回答直接报数字：Seventeen.",
+        "复数问答三步走：第一步分远近，够得着、指得到的东西用 these，远处的用 those，看到 over there 就基本锁定 those；第二步配动词，these/those 后面都跟 are：What are these?／What are those?；第三步统一回答，答句一律用 They're…。猜“是不是”也同款：Are these carrots? —Yes, they are.／No, they aren't. 记单词抓特殊：多数名词加 -s 变复数，carrot→carrots、horse→horses；tomato 和 potato 这两个“好伙伴”要加 -es：tomatoes、potatoes；sheep 单复数同形，一只 sheep，一群还是 sheep。问数量就套公式：How many + 复数名词 + do you have? 动物叫声还能帮记忆：cow 哞哞 moo，hen 咯咯 cluck，duck 嘎嘎 quack，horse 打响鼻 neigh。",
+        "最容易错的是 these 和 those 用反：these 指近处，those 指远处，别一看到很多东西就全用 these。第二是回答漏了 they：问 Are these carrots? 要答 Yes, they are.，不能答 Yes, these are.；否定是 No, they aren't.，aren't 里的撇号不能丢。第三是 tomatoes、potatoes 忘了加 e：不是 tomatos、potatos，tomato 和 potato 的复数都以 -es 结尾。第四是 How many 后面要用复数名词：How many horses do you have?，horse 不能少 s；sheep 单复数同形，千万别画蛇添足写成 sheeps。",
+        "把这套问答带回生活：逛超市近处的苹果说 These are apples.，动物园远处的熊猫说 Those are pandas.，this/that 那套单数问答就升级成了完整的复数问答。以后还会学到更多名词的复数变化规则，数人数、点货物、报数量都离不开 How many…?。回家把玩具摆成“小小农场”，近处放蔬菜、远处放动物，用今天的问问答答玩一遍，these/those 就再也难不倒你。"
+      ],
+      "methods": [
+        {
+          "name": "近远分 these/those",
+          "steps": [
+            "先看东西离你近还是远：近处用 these，远处用 those，over there 基本锁定 those",
+            "these/those 后面都配 are：What are these?／What are those?",
+            "回答统一用 They're…，远近的区分到问句为止"
+          ],
+          "tip": "these 近 those 远，are 配复数，答句 They're 一路通。"
+        },
+        {
+          "name": "农场单词结对记",
+          "steps": [
+            "tomato→tomatoes、potato→potatoes：两个“好伙伴”加 -es",
+            "carrot→carrots、green bean→green beans、horse→horses、cow→cows、hen→hens：普通名词加 -s",
+            "sheep 单复数同形：一只 sheep，一群还是 sheep",
+            "配叫声记动物：cow 哞 moo，hen 咯 cluck，duck 嘎 quack，horse 打响鼻 neigh"
+          ],
+          "tip": "土豆西红柿爱特殊，-es 结尾要记住；绵羊单复一个样，sheep 后面别加 s。"
+        },
+        {
+          "name": "How many 数数问答法",
+          "steps": [
+            "套公式提问：How many + 复数名词 + do you have?",
+            "回答直接报数字：Seventeen.",
+            "想核对可以说 Let me count...（让我数数……）"
+          ],
+          "tip": "How many 后面名词带 s，回答报数最干脆。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What are these? —____（它们是土豆）横线上怎么回答？",
+          "solution": "They're potatoes. these 是复数，回答用 They're；potato 的复数要加 -es：potatoes.",
+          "difficulty": 1,
+          "pitfall": "答成 It's potatoes——these 问的是复数，要用 They're 回答。"
+        },
+        {
+          "question": "—Are those horses? —No, they aren't. They're ____.（它们是鸭子）空格里填什么？",
+          "solution": "ducks。问 those 答 they，否定之后补上真实答案：They're ducks.",
+          "difficulty": 2,
+          "pitfall": "只说一个 No 就完了——书上的回答是 No, they aren't. They're ducks.，否定加补充才完整。"
+        },
+        {
+          "question": "农场主人有 17 匹马，用英语问数量该怎么说？",
+          "solution": "How many horses do you have? How many 后面接复数名词 horses，回答报数字：Seventeen.",
+          "difficulty": 2,
+          "pitfall": "How many 后面用了单数 horse——数量问答里名词要复数。"
+        }
+      ],
+      "mistakes": [
+        "these 和 those 用反：these 指近处的东西，those 指远处的东西，看到 over there 就要用 those。",
+        "问 Are these carrots? 答成 Yes, these are.。固定回答是 Yes, they are.／No, they aren't.，问 these/those 都用 they 回答。",
+        "tomato、potato 的复数写成 tomatos、potatos。这两个词要加 -es：tomatoes、potatoes。",
+        "How many 后面用单数：要说 How many horses do you have?，horses 不能少 s；sheep 单复数同形，别写成 sheeps。"
+      ],
+      "source": {
+        "unit": "Unit 4 At the farm",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Look at these! Are these carrots? —____（是的，它们是）",
+          "options": [
+            "Yes, they are.",
+            "Yes, it is.",
+            "Yes, these are.",
+            "Yes, they aren't."
+          ],
+          "answer": "A",
+          "solution": "Are these…? 的肯定回答是 Yes, they are.，问复数就用 they 答。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P38·Look at these! Are these carrots? Yes, they are. Wow! They're so big!"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—How many horses do you have? —____",
+          "options": [
+            "They're horses.",
+            "Seventeen.",
+            "Yes, they are.",
+            "It's seventeen."
+          ],
+          "answer": "B",
+          "solution": "How many…? 问数量，直接报数字回答：Seventeen.（十七匹。）",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P36·How many horses do you have? Seventeen.（What are these? They're carrots.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "these/those 选词变式：—____ are goats over there. They love to eat carrots!（指远处的动物）空格里填哪一项？",
+          "options": [
+            "This",
+            "That",
+            "These",
+            "Those"
+          ],
+          "answer": "D",
+          "solution": "over there 提示远处，goats 又是复数，要说 Those are goats over there.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P43·These are carrots and potatoes. Those are tomatoes and green beans over there. Are those sheep? No, they are goats. 变式（these/those 远近选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字场景：你站在农场菜园边，手边的筐里装着土豆（potatoes），远处田里种着西红柿（tomatoes）。选出两句都说对的选项。",
+          "options": [
+            "These are potatoes. Those are tomatoes.",
+            "These are tomatoes. Those are potatoes.",
+            "This is potatoes. That is tomatoes.",
+            "Those are potatoes. These are tomatoes."
+          ],
+          "answer": "A",
+          "solution": "手边的土豆用 These are potatoes.，远处的西红柿用 Those are tomatoes.。把家里的水果蔬菜摆成“小小菜园”，用这套问答演一遍，these/those 就再也不用想了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_05",
+      "summary": "衣服找主人：一件问 Whose…is this? 答 It's mine.，多件问 Whose…are these? 答 They're John's.，'s 一加主人现。",
+      "explanation": [
+        "这部分从“认领衣服”开始：Amy, are these yours?（艾米，这些是你的吗？）—No, they aren't. My shoes are green. They're Chen Jie's.（不是，我的鞋是绿色的，它们是陈杰的。）帽子也来认主人：What about this hat? Is this John's?（这顶帽子呢？是约翰的吗？）—No, it isn't. It's Mike's.／It's Wu Binbin's.。换个问法直接找主人：Whose cap is this?（这顶帽子是谁的？）—It's my brother's. Thanks.／Whose are these? —They're John's.。帮妈妈收衣服时又问：Whose coat is this? —It's mine.（是我的。）—And those? Whose pants are those? —They're your father's.（它们是你爸爸的。）——原来是衣服穿到了小猫身上，大家笑说 You're funny!（你真逗！）衣服词分两批认：先学 pants（裤子）、dress（连衣裙）、clothes（衣服）、skirt（短裙）、hat（帽子），再学 shorts（短裤）、jacket（夹克）、shirt（衬衫）、sweater（毛衣）、socks（袜子）、coat（外套）。收拾行李的短文最实用：Oh, it's time to pack my clothes. This is my red T-shirt. These are my blue pants. And those are my shoes. Wait! Is this my hat? —No, this is Amy's. Amy! Is this yours?（等等，这是我的帽子吗？——不，这是艾米的。）",
+        "Whose 就是“谁的”，找衣服主人全靠它。回答有两把钥匙：一是 mine（我的）这样的“独立代词”，一个词就代表“我的某样东西”，后面不用再带名词；二是在人名后加 's，Chen Jie's 就是“陈杰的”，your father's 就是“你爸爸的”。单复数也要对上：一件的衣服（帽子、外套）用 Whose…is this? 问、It's 回答；成双成对或成套的（鞋、裤子、袜子）用 Whose…are these/those? 问、They're 回答。yours 是“你的（东西）”，别人问 Are these yours?，是就答 Yes, they are.，不是就说 No, they aren't.，再说清是谁的。",
+        "找主人三步走：第一步看一件还是多件，一件用 Whose…is this?，多件用 Whose…are these/those?；第二步对上主人，自己的东西答 It's mine.／They're mine.，别人的在人名后加 's：It's John's.／They're Mike's.；第三步核对特征防认错，学书上的话：My shoes are green.（我的鞋是绿色的。）记衣服词配动作最牢：Put on your shirt.（穿上衬衫）Take off your hat.（摘下帽子）Hang up your dress.（挂起连衣裙）Wash your skirt.（洗短裙）Put away your pants.（收好裤子）。要出门挑衣服就说 I want to wear my blue pants.（我想穿我的蓝裤子。）天晴出去玩穿什么，歌谣里也唱了：It's time to wear your shorts to play.（该穿短裤去玩啦。）",
+        "最容易错的是 mine 和 my 混用：mine 自己就能当“我的东西”，It's mine. 对；It's my. 错，要说 It's my hat.。第二是单复数答串：问 Whose pants are these? 要答 They're John's.，不能答 It's John's.。第三是人名所有格丢撇号：Chen Jie's、your father's 里的 's 表示“某人的”，丢了撇号意思就变了。第四是 Whose 和 Who's 长得像：Whose 问“谁的”，Who's 是 who is（谁是），找衣服主人要用 Whose。",
+        "这套“找主人”的本领天天用得上：捡到一把伞、一双手套，问一句 Whose umbrella is this? 就能物归原主；出门旅行照着收拾行李的样子边收边说：This is my red T-shirt. These are my blue pants.，行李收拾完，英语也练了一遍。以后还会学到更多“归属”的表达，借东西、还东西、整理书包都用得到；回家给衣柜里的衣服逐件“点名”，再帮每件衣服找到主人，就是一次最好的复习。"
+      ],
+      "methods": [
+        {
+          "name": "单复数配 Whose",
+          "steps": [
+            "一件的衣服用 Whose…is this?，回答 It's…",
+            "多件的用 Whose…are these/those?，回答 They're…",
+            "裤子、鞋、袜子常成双成对，按多件处理"
+          ],
+          "tip": "一件 is this 答 It's，多件 are these 答 They're。"
+        },
+        {
+          "name": "所有格两把钥匙",
+          "steps": [
+            "自己的东西用 mine：It's mine.",
+            "别人的在人名后加 's：It's John's.／They're Chen Jie's.",
+            "核对特征防认错：My shoes are green."
+          ],
+          "tip": "mine 独立站，'s 跟人名，物归原主不出错。"
+        },
+        {
+          "name": "衣服动作记忆法",
+          "steps": [
+            "Put on your shirt. 穿上衬衫",
+            "Take off your hat. 摘下帽子",
+            "Hang up your dress. 挂起连衣裙",
+            "Wash your skirt. 洗短裙",
+            "Put away your pants. 收好裤子"
+          ],
+          "tip": "穿脱挂洗收，五个动作记五词。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Whose coat is this? —____（是我的）横线上怎么回答？",
+          "solution": "It's mine. mine 就是“我的（外套）”，后面不用再加名词。",
+          "difficulty": 1,
+          "pitfall": "答成 It's my.——my 后面必须跟名词，单独说要用 mine。"
+        },
+        {
+          "question": "—Whose pants are those? —____（它们是迈克的）",
+          "solution": "They're Mike's. pants 是复数，回答用 They're，主人 Mike 后加 's。",
+          "difficulty": 2,
+          "pitfall": "答成 It's Mike's.——pants、shoes 这类复数问句要用 They're 回答。"
+        },
+        {
+          "question": "捡到一顶帽子，想知道是谁的，英语该怎么问？",
+          "solution": "Whose hat is this? 一件东西用 is this 问，回答可以是 It's + 人名's，比如 It's Sarah's.",
+          "difficulty": 2,
+          "pitfall": "把 Whose 写成 Who's——Who's 是 who is（谁是），Whose 才是“谁的”。"
+        }
+      ],
+      "mistakes": [
+        "It's my. 单独站不住：mine 自己就能当“我的东西”，It's mine. 对；my 后面必须跟名词，要说 It's my hat.",
+        "问 Whose pants are these? 答成 It's Mike's.。复数问句用 They're 回答：They're Mike's.",
+        "人名所有格丢撇号：Chen Jie's、your father's 里的 's 表示“某人的”，丢了撇号意思就变了。",
+        "Whose 和 Who's 记混：Whose 问“谁的”，Who's 是“谁是”，找衣服主人用 Whose。"
+      ],
+      "source": {
+        "unit": "Unit 5 My clothes",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Whose coat is this? —____（这是我的外套）",
+          "options": [
+            "They're mine.",
+            "It's mine.",
+            "It's my.",
+            "Yes, it is."
+          ],
+          "answer": "B",
+          "solution": "一件东西用 It's mine. 回答，mine 独自代表“我的（外套）”，后面不跟名词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P51·Whose coat is this? It's mine. Whose pants are those? They're your father's."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Amy, are these yours? —No, they aren't. My shoes are green. ____（它们是陈杰的）",
+          "options": [
+            "It's Chen Jie's.",
+            "They're Chen Jie.",
+            "They're Chen Jie's.",
+            "It's Chen Jie."
+          ],
+          "answer": "C",
+          "solution": "shoes 是复数，回答用 They're，人名后加 's：They're Chen Jie's.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P48·Are these yours, Mike? No, they aren't. My shoes are green. They're Chen Jie's."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Whose 问答变式：爸爸的外套挂在门口，别人问 Whose coat is that? 该怎么回答？",
+          "options": [
+            "They're my father.",
+            "It's my father's.",
+            "It's my father.",
+            "They're my father's."
+          ],
+          "answer": "B",
+          "solution": "coat 是一件，用 It's my father's.，father 后加 's 表示“爸爸的”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P51·Whose coat is this? It's mine.（Whose pants are those? They're your father's.）变式（换物主套用问答）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字场景：收拾行李时，桌上有一顶帽子和一双鞋，帽子是你的，鞋是妹妹的。选出两句都说对的选项。",
+          "options": [
+            "The hat is mine. The shoes are my sister's.",
+            "The hat is my. The shoes are my sister.",
+            "The hat is mine. The shoes is my sister's.",
+            "The hat is me. The shoes are my sister's."
+          ],
+          "answer": "A",
+          "solution": "帽子一件说 The hat is mine.，鞋一双是妹妹的说 The shoes are my sister's.。照书上的样子整理自己的行李：This is my red T-shirt. These are my blue pants.，边收拾边说英语。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_06",
+      "summary": "购物四步走全程：Can I help you? 开场，Can I try it on? 试穿，How much is it? 问价，I'll take it. 买下。",
+      "explanation": [
+        "这部分把商店搬进课堂，购物四步一次学齐。进店店员先招呼：Can I help you?（需要帮忙吗？）顾客看中了就说：Yes. This dress is pretty.（这条连衣裙很漂亮。）接着问价：How much is it?（多少钱？）—It's eighty-five yuan.（八十五元。）想试穿就说：Can I try it on?（我能试穿一下吗？）—Sure.（当然。）买鞋还要报尺码：These shoes are nice. Can I try them on? Size 6, please.（我能试试吗？请给我 6 码。）—Of course. Here you are.（当然，给您。）试了不合适就说 They're too small.（太小了）／Oh, they're too big!（太大了），换码再试 Let's try size 7.，合脚了就是 They're just right!（正合适！）问问别人的看法：How do you like this skirt?（你觉得这条短裙怎么样？）—It's very pretty.（非常漂亮。）嫌贵就说 It's too expensive!（太贵了！）便宜合适就买下：I'll take it!（我买了！）杂货铺里还能问：How much are those big shoes? —Sorry, they're not for sale.（抱歉，那是非卖品。）评价商品的四个词一起记：pretty（漂亮的）、nice（好看的）、cheap（便宜的）、expensive（昂贵的）。",
+        "购物对话像打乒乓球，一来一回各有分工：店员负责招呼 Can I help you?，顾客负责提要求——试穿 Can I try it on?、问价 How much is it?、决定 I'll take it.。it 和 them 分工明确：试一件用 it，试一双鞋、一副手套用 them。价格用 How much 问，回答套 It's + 数字 + yuan；美元就说 dollars，书里的裙子标价 $89，妈妈连连摆手 It's too expensive.。尺码说 Size 加数字：Size 6、size 7，大小不合适就换码，just right 就成交。",
+        "购物四步走：第一步应答，店员问 Can I help you?，顾客先说 Yes. 再提要求；第二步试穿，单数 Can I try it on?，复数 Can I try them on?，还可以报尺码 Size 6, please.，试完用 too small／too big／just right 评合身；第三步问价，How much is it?，回答记牢 It's … yuan.；第四步表态，满意就 I'll take it.，太贵就 It's too expensive.，买之前还能先夸一句 It's very pretty.。评价词配对记：pretty、nice 是好评，cheap 是实惠，expensive 是“钱包报警”。",
+        "最容易错的是 it 和 them 用反：试一顶帽子说 Can I try it on?，试鞋、手套、袜子这些成双成对的要说 Can I try them on?。第二是 How much is 和 are 弄混：一件问 How much is it?，多件问 How much are they?，书里问大鞋子用的就是 How much are those big shoes?。第三是 yuan 误加 s：It's eighty-five yuan. 里 yuan 不变（它和中文的“元”一样单复数同形），美元 dollar 才有复数 dollars。第四是试穿丢了 on：try it on 里的 on 不能少，丢了 on，“试穿”的意思就断了。",
+        "这套购物英语走出课堂就能用：逛文具店、书店，先听店员说 Can I help you?，再用 How much is it? 问价，货比三家时想想 cheap 和 expensive。书里的商店广告还会吆喝：Today all sunglasses and gloves are five yuan! They are very cheap.（今天所有太阳镜和手套只卖五元！）以后还会学到更完整的购物对话；在家开个“小小商店”，给文具标上价格演一遍，四步购物法就练熟了。"
+      ],
+      "methods": [
+        {
+          "name": "购物四步法",
+          "steps": [
+            "应答：店员 Can I help you?，顾客 Yes. 开头提要求",
+            "试穿：Can I try it on?／Can I try them on?，报尺码 Size 6, please.",
+            "问价：How much is it? —It's … yuan.",
+            "表态：I'll take it. 或 It's too expensive."
+          ],
+          "tip": "招呼试穿再问价，最后 I'll take it. 成交啦。"
+        },
+        {
+          "name": "it/them 分工法",
+          "steps": [
+            "一件的东西试穿用 it：Can I try it on?",
+            "成双成对的用 them：Can I try them on?",
+            "评价合身：too small／too big／just right"
+          ],
+          "tip": "单数 it 复数 them，大小合适 just right。"
+        },
+        {
+          "name": "评价词好感表",
+          "steps": [
+            "pretty／nice：好看，好评",
+            "cheap：便宜，实惠",
+            "expensive：昂贵，嫌贵时说 It's too expensive.",
+            "先夸再买：It's very pretty. I'll take it."
+          ],
+          "tip": "pretty nice 是夸奖，cheap 划算，expensive 钱包响。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—____ —It's eighty-five yuan.（问连衣裙的价格）横线上该问什么？",
+          "solution": "How much is it? 问价格用 How much is…?，回答套 It's + 数字 + yuan.",
+          "difficulty": 1,
+          "pitfall": "把 How many 当问价——How many 问数量，问多少钱要用 How much."
+        },
+        {
+          "question": "在商店里想试穿一双鞋，最合适的英语是？",
+          "solution": "Can I try them on? 鞋是成双的，用 them；试一件衣服才用 Can I try it on?",
+          "difficulty": 2,
+          "pitfall": "顺手说成 Can I try it on?——shoes、gloves、socks 成双成对，要用 them。"
+        },
+        {
+          "question": "短裙标价 89 美元，妈妈觉得太贵，用英语怎么评价？",
+          "solution": "It's too expensive. 嫌贵就说 too expensive；便宜划算才说 cheap。",
+          "difficulty": 2,
+          "pitfall": "把 expensive 和 cheap 记反——expensive 是贵，cheap 是便宜。"
+        }
+      ],
+      "mistakes": [
+        "it 和 them 用反：试一件用 Can I try it on?，试成双的鞋、手套、袜子用 Can I try them on?.",
+        "How much is/are 弄混：一件问 How much is it?，多件问 How much are they?，书里的大鞋子就是 How much are those big shoes?",
+        "yuan 误加 s：It's eighty-five yuan. 里 yuan 不变；美元 dollar 才有复数 dollars。",
+        "试穿丢了 on：try it on 里的 on 不能少，丢了 on 就不是“试穿”了。"
+      ],
+      "source": {
+        "unit": "Unit 6 Shopping",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Can I help you? —Yes. This dress is pretty. ____（问价格）",
+          "options": [
+            "How much is it?",
+            "How many is it?",
+            "How do you like it?",
+            "How old is it?"
+          ],
+          "answer": "A",
+          "solution": "问价格用 How much is it?，书里的回答是 It's eighty-five yuan.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P56·Can I help you? Yes. This dress is pretty. How much is it? It's eighty-five yuan."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Can I help you? —Yes. These shoes are nice. Can I try them on? ____ —Of course. Here you are.",
+          "options": [
+            "Size 6, please.",
+            "They're too small.",
+            "It's 89 yuan.",
+            "I'll take it."
+          ],
+          "answer": "A",
+          "solution": "报尺码说 Size + 数字：Size 6, please.，店员回答 Of course. Here you are.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P58·These shoes are nice. Can I try them on? Size 6, please. Of course. Here you are."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "评价表态变式：你试穿一条短裙，妈妈问 How do you like this skirt? 你觉得非常漂亮，该怎么回答？",
+          "options": [
+            "It's very pretty.",
+            "It's too small.",
+            "They're just right.",
+            "Size 7, please."
+          ],
+          "answer": "A",
+          "solution": "问看法就答评价：It's very pretty.（非常漂亮。）",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P61·Sarah, how do you like this skirt? It's very pretty.（It's too expensive. I'll take it!）变式（评价与表态）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把下面四句排成一段通顺的购物对话：① Can I help you? ② Yes. How much is this hat? ③ It's 15 yuan. ④ I'll take it. 顺序正确的是？",
+          "options": [
+            "①②③④",
+            "①③②④",
+            "②①③④",
+            "①②④③"
+          ],
+          "answer": "A",
+          "solution": "店员先招呼 Can I help you?，顾客问价 How much is this hat?，店员报价 It's 15 yuan.，顾客决定 I'll take it.。在家开个“小小商店”，把文具标上价格，用这四句演一遍完整购物。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_07",
+      "summary": "r 会牵着元音变新音：ar car、or fork、ir girl、ur nurse、er water，认出五大家族，见词就能读。",
+      "explanation": [
+        "拼读例词分四批登场：先认识 er 家族——sister, ruler, under, number；computer, eraser, dinner, winter；under, after, water, river，重点词 water, tiger, sister, dinner, computer；再学 ir 和 ur——bird, dirt；birth, nurse；girl, hurt；hamburger, number，重点词 girl, bird, nurse, hamburger；接着是 ar——arm, far, farm, car, card，和 ball, tall, wall 对照着读；最后是 or——fork, for, born；world, horse, work，还有 homework。",
+        "这些词里都藏着一个 r：r 站在元音后面，像牵着元音手的小指挥，两个字母合起来发一个新音，这叫'r 控制元音'。ar 张大嘴发长音'啊'（car），or 圆起嘴发'奥'（fork），ir 和 ur 发同一个卷舌长音（girl、nurse），er 在词尾读得又轻又短（water、sister）。认出家族，生词就好读了。",
+        "拼读三步走：第一步找 r，看它前面挨着哪个元音；第二步定家族——ar、or、ir、ur、er，认出是哪一家；第三步整词连读：c-ar 拼出 car，f-or 拼出 fork，g-ir-l 拼出 girl，n-ur-se 拼出 nurse，wat-er 拼出 water。新单词先找家族再开口，越读越顺。",
+        "两处要分清：一是 ir 和 ur 字母不同、读音相同，girl 和 nurse 中间是同一个音，拼写时别让它们串门；二是 ar 别缩成短音 a——farm、card 要张大嘴读长'啊'。还有一个小发现：or 在 w 后面会变音，world、work 里的 or 读起来接近 ir，先照书上的例词整体记熟，别硬套 fork 的读法。",
+        "五大家族是'见词能读、听音能写'的基本功：以后碰到长单词，先按家族拆一拆再拼，就不怕了。把例词做成词卡分家摆放，天天读一读，你的拼读耳朵会越来越灵。"
+      ],
+      "methods": [
+        {
+          "name": "找 r 定家族法",
+          "steps": [
+            "先在单词里找 r",
+            "看 r 前面的元音：a 归 ar 家，o 归 or 家，i 归 ir 家，u 归 ur 家，e 归 er 家",
+            "按家族发音整词连读：car、fork、girl、nurse、water",
+            "新词先定家族再朗读"
+          ],
+          "tip": "ar 长啊 or 圆奥，ir ur 一个调，er 在尾轻轻掠；先找 r 再定家，见词能读顶呱呱。"
+        },
+        {
+          "name": "家族词卡分家法",
+          "steps": [
+            "做五张家族卡：ar、or、ir、ur、er",
+            "把例词送回家：car card arm farm far 归 ar；fork for born horse 归 or；girl bird dirt 归 ir；nurse hurt hamburger 归 ur；water tiger sister dinner computer 归 er",
+            "每家齐读一遍，听清各自的音",
+            "以后学到新词先想：它该住谁家"
+          ],
+          "tip": "car 开进 ar 家，fork 放进 or 家，girl 领进 ir 家，nurse 住进 ur 家，water 流进 er 家。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "car 里的 ar 怎么读？",
+          "solution": "读长音'啊'，ar 两个字母合起来发一个音；对照 cat 里短促的 a，就能听出差别。",
+          "difficulty": 1,
+          "pitfall": "把 ar 拆成 a 和 r 分开读——r 控制元音要连在一起发。"
+        },
+        {
+          "question": "girl 中间的 ir 和 nurse 中的 ur，读音一样吗？",
+          "solution": "一样。ir 和 ur 字母不同，但发同一个卷舌长音。",
+          "difficulty": 2,
+          "pitfall": "以为字母不同读音就不同——ir 和 ur 是同一读音的两套写法。"
+        },
+        {
+          "question": "water、tiger、dinner 都属于哪个家族？",
+          "solution": "都属于 er 家族，词尾的 er 读得又轻又短。",
+          "difficulty": 1,
+          "pitfall": "把词尾 er 读得很重——er 在词尾要轻轻带过。"
+        }
+      ],
+      "mistakes": [
+        "把 r 和元音拆开读：car 读成两截就变味了，ar、or、ir、ur、er 都要连读。",
+        "ir、ur 串门：girl 和 nurse 中间读音相同，但拼写各用各的字母，别写混。",
+        "ar 读成短音 a：farm、card 要张大嘴读长'啊'，别缩回去。",
+        "world、work 硬套 or：这两个词里 or 在 w 后面读音变了，先照书上例词整体记。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一组词全都属于 ar 家族？",
+          "options": [
+            "arm, car, card, farm",
+            "ball, tall, wall",
+            "girl, bird, dirt",
+            "fork, horse, work"
+          ],
+          "answer": "A",
+          "solution": "arm、car、card、farm 都是 ar 家族；ball、tall、wall 是对照组，girl、bird、dirt 是 ir 家，fork、horse、work 是 or 家。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P26·ar 拼读（arm, far, farm, car, card；对照 ball, tall, wall）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪个词里藏着 ur？",
+          "options": [
+            "nurse",
+            "bird",
+            "girl",
+            "dirt"
+          ],
+          "answer": "A",
+          "solution": "nurse 里写的是 ur，读音和 ir 相同；bird、girl、dirt 里写的是 ir。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P16·ir 与 ur 拼读（bird, dirt, birth, nurse, girl, hurt, hamburger）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式辨音：fork 和下面哪个词的 or 读音相同？",
+          "options": [
+            "horse",
+            "work",
+            "world",
+            "homework"
+          ],
+          "answer": "A",
+          "solution": "horse 的 or 和 fork 一样读圆嘴长音；work、world、homework 里 or 在 w 后面变了音。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP四下 P40·or 拼读变式（fork, for, born；world, horse, work, homework）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "er 家族小侦探：把 water, tiger, sister, dinner, computer 读给家长听，再从学过的词里找出另一个带 er 的词。",
+          "answer": "示例：ruler（还可以找 under、number、eraser、winter、river）。",
+          "solution": "读完想想它们共同的词尾，再在学过的词里找一找 er 家族的新成员。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_08",
+      "summary": "像天气预报员一样播报：先问好报时间，再说各地天气，最后送上一条贴心建议。",
+      "explanation": [
+        "书上的播报句和作息句给小主播备好了全部台词：报时间用 What time is it? It's 6 o'clock. It's time for dinner.，也可以说 It's 7 o'clock. It's time to get up.；安排事情用 It's time for + 事情（breakfast、lunch、dinner、English class、PE class、music class），It's time to + 动作（get up、go to school、go home、go to bed）；报天气用 Good morning. This is the weather report. It's warm in Beijing today.，也可以问 What's the weather like in New York? It's rainy.；说冷热用 cold、cool、warm、hot，书上的温度阶梯是 cold(5°C)、cool(15°C)、warm(20°C)、hot(30°C)；说明天还能说 Tomorrow will be warm in Dali.。一次完整的播报按四步走：问候→时间→天气→建议。",
+        "小主播就是大家的贴心管家：早晨叫人起床、提醒别迟到，出门前还要告诉大家穿什么。天气和作息本来就是一体的——听到 It's cold outside.（外面冷），自然就该提醒 Put on a hat.（戴上帽子）；听到 It's 7 o'clock.，自然就该说 It's time to get up.。把时间和天气连起来播，播报才有用。",
+        "照播报四步法练：第一步问候，Good morning! 先向大家问好；第二步报时间，It's 7 o'clock. It's time to get up.；第三步报天气，What's the weather like in Beijing? It's warm today.；第四步给建议，It's cold outside. Put on a hat.。四句连起来就是一段完整播报，对着家里的钟和窗外的天气就能天天练。",
+        "三个易混点：一是 It's time for 和 It's time to——for 后面接事情名词，to 后面接动作动词，所以说 It's time for lunch. 却说 It's time to go to school.；二是天气词都由名词变来，rain→rainy、snow→snowy、wind→windy、cloud→cloudy，sun→sunny 要先双写 n，别写成 suny；三是温度词要对着温度计选，cold 最冷、hot 最热，cool 只是凉爽，别把它说成冷。",
+        "把播报练熟，你就掌握了英语里最常用的开场句 It's…。以后学更多天气词、更多城市名，甚至说明天的天气，都还是在这四步里加句子；坚持每天播一次，时间和天气的表达会越说越顺口，开口的胆子也会越来越大。"
+      ],
+      "methods": [
+        {
+          "name": "播报四步法",
+          "steps": [
+            "第一步问候：Good morning! 先向大家问好",
+            "第二步报时间：It's 7 o'clock. It's time to get up.",
+            "第三步报天气：What's the weather like in Beijing? It's warm today.",
+            "第四步给建议：It's cold outside. Put on a hat."
+          ],
+          "tip": "一问好、二报时、三说天气、四支招。"
+        },
+        {
+          "name": "天气词变装法",
+          "steps": [
+            "名词加 y 变形容词：rain→rainy、wind→windy、cloud→cloudy、snow→snowy",
+            "sun 结尾要先双写 n 再加 y：sun→sunny",
+            "把天气词装进 It's ___ 句型播报：It's sunny today."
+          ],
+          "tip": "名词穿上 y 变天气词，sun 最特殊，双写 n 再加 y。"
+        },
+        {
+          "name": "温度阶梯法",
+          "steps": [
+            "把四个温度词排成楼梯：cold(5°C)→cool(15°C)→warm(20°C)→hot(30°C)",
+            "播报前先想温度：几度就说哪个词",
+            "建议跟温度配套：冷了提醒穿暖，热了提醒防晒"
+          ],
+          "tip": "由冷到热爬楼梯：cold、cool、warm、hot。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "播报开头：Good morning. This is the weather report. 要说北京今天暖和，接着该说哪一句？",
+          "solution": "It's warm in Beijing today. 书上的播报员就是这样说的：It's + 温度词或天气词，直接陈述。",
+          "difficulty": 1,
+          "pitfall": "播报是陈述句，不是回答问题，别答成 Yes, it is."
+        },
+        {
+          "question": "播报里问：What's the weather like in Sydney? 书上说悉尼今天的天气怎么样？",
+          "solution": "It's hot and sunny.（又热又晴）。原句是 Today it's hot and sunny in Sydney.，天气词可以两个连着说。",
+          "difficulty": 2,
+          "pitfall": "别看到城市名就猜天气，要听 It's 后面的词；hot 和 sunny 连用才说完整。"
+        },
+        {
+          "question": "播报结尾听到 It's cold outside.，该给大家哪条建议？",
+          "solution": "Put on a hat.（戴上帽子）。外面冷就提醒穿暖，书上的儿歌里冷天正是这句。",
+          "difficulty": 2,
+          "pitfall": "建议要和天气配套：Take off your shoes. 是进屋暖和之后做的事，别配反了。"
+        }
+      ],
+      "mistakes": [
+        "It's time for go to school. —— for 后面要接名词，go to school 是动作，要说 It's time to go to school.",
+        "一上来就报天气，忘了问候和报时间，听众不知道你播的是几点；按问候→时间→天气→建议的顺序来。",
+        "sun 加 y 直接写成 suny；要先双写 n 再加 y，sunny。",
+        "把 cool 说成很冷——cool 只是凉爽，cold 才是冷，四个温度词别串位。"
+      ],
+      "source": {
+        "unit": "Unit 2-3 综合任务",
+        "pages": [
+          12,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "接播报员的话：Good morning. This is the weather report. It's ____ in Beijing today.（北京今天很暖和）横线上该填哪个词？",
+          "options": [
+            "warm",
+            "windy",
+            "snowy"
+          ],
+          "answer": "A",
+          "solution": "书上的原句正是 It's warm in Beijing today.：It's 后面接温度词或天气词，warm（温暖的）符合句意。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P25·天气播报（Good morning. This is the weather report. It's warm in Beijing today.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "轮到你播悉尼的天气。What's the weather like in Sydney? 该怎么回答？",
+          "options": [
+            "It's hot and sunny.",
+            "It's cold and snowy.",
+            "It's cool and rainy."
+          ],
+          "answer": "A",
+          "solution": "书上说 Today it's hot and sunny in Sydney.（悉尼今天又热又晴）；冷雪、凉雨都说反了悉尼的天气。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P28·世界城市天气（What's the weather like in Sydney? Today it's hot and sunny in Sydney.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把四句播报词排成一次通顺的播报：① Good morning, everyone! ② It's cold outside. Put on a hat! ③ What's the weather like in Beijing? It's warm today. ④ It's 7 o'clock. It's time to get up.",
+          "options": [
+            "①④③②",
+            "③④①②",
+            "①③④②"
+          ],
+          "answer": "A",
+          "solution": "播报有固定顺序：先问候①，再报时间④，然后说天气③，最后给建议②；听众跟着顺序才不乱。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P25·天气播报变式（Good morning. This is the weather report.…问候—报时—报天气—给建议）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小主播任务：对着家里的钟和窗外的天气播一次——写四句话：一句问候、一句报时间、一句说天气、一句给建议。",
+          "answer": "示例：Good morning! It's 6:30. It's time to get up. It's cold outside. Put on a coat.",
+          "solution": "按四步把句子连起来，读一遍检查 It's 和标点。以后学了更多天气词和城市名，你的播报可以覆盖全世界。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_09",
+      "summary": "小故事四步读：先看图猜情节，再一幅一幅读，抓住关键句，最后用自己的话讲出来。",
+      "explanation": [
+        "每个话题后面都藏着一个连环小故事，情节靠图和对话推进：参观学校的故事里，Zoom 听到 Welcome to our school. This way, please.，逛饿了就说 Oh! I'm hungry. It's time for lunch.；起床的故事里，Wake up, Zoom. It's time to get up.，Zoom 却说 Mmm. I want to sleep.，看到 It's eight o'clock. Oh dear! I'm late for school.，直到结尾一句 April Fool! 才知道是恶作剧；感冒的故事里 Ah-choo! I have a cold.，朋友安慰说 It's sunny and warm. I'll go to Dalian to see you.，还说 it'll be warm tomorrow in Dalian；化装会的故事里 Zoom 向爸爸要旧 T 恤，Dad, can I have your old T-shirt?，最后一句 How do I look? You look like Zip!；卖裙子的故事里 Zoom 把 sixteen dollars 说成了 It's ninety-one.，结果 Zoom, you're fired!。读懂它们的办法是四步：读图猜情节→逐幅读→抓关键句→用自己的话复述。",
+        "小故事就像四格漫画：每幅图是一个镜头，句子是人物的台词。先看图猜——谁、在哪儿、要干什么，猜得对不对，读对话来验证，和看动画片猜剧情一样好玩。复述就是把故事讲给同学听，像转述动画剧情：讲清谁、为什么、结果怎样就行，不用背原句。",
+        "四步读故事法：第一步读图猜情节——先只看图，猜猜发生了什么；第二步逐幅读——一幅一幅往下读，验证或推翻自己的猜测；第三步抓关键句——画出问句、转折句和结尾一句，像 April Fool!、you're fired! 这种爆点句；第四步合上书复述——用自己的话按顺序讲一遍，讲不顺的地方翻回去再看。",
+        "读小故事不是逐词翻译：一句话里抓住谁、干什么，意思就通了，生词先跳过去。复述也不等于背诵——背句子一卡壳就断片，用自己的话讲才连贯。最容易被忽略的是结尾句：April Fool! 让整个故事反转，you're fired! 点出结局，结尾一句常常是故事的点睛之笔。",
+        "读图猜情节、抓关键句、复述，这套本事以后越来越重要：读长的故事、看剧本、看图写话，都要先读懂再讲出来。把小故事讲给家人听，口语和胆子会一起变大。"
+      ],
+      "methods": [
+        {
+          "name": "四步读故事法",
+          "steps": [
+            "读图猜情节：先只看图，猜猜谁在做什么",
+            "逐幅读：一幅一幅读对话，验证自己的猜测",
+            "抓关键句：圈出问句、转折句和结尾爆点句",
+            "合上书复述：用自己的话按顺序讲一遍"
+          ],
+          "tip": "先猜后读，读完合书讲一遍，讲顺了才算读懂。"
+        },
+        {
+          "name": "关键句抓手法",
+          "steps": [
+            "问句常推动情节：What are those? 答案往往就在下一格",
+            "转折词前后有惊喜：But… 后面多半藏着反转",
+            "结尾句最点睛：April Fool!、you're fired! 这类句子决定故事的意义"
+          ],
+          "tip": "看不懂就抓三句：开头谁说话、中间有转折、结尾有爆点。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "起床小故事里，Zoom 看到钟以为迟到，大喊 Oh dear! I'm late for school.，最后大家笑着说了哪一句？",
+          "solution": "April Fool!（上当了）——原来时间被人拨快了，是个恶作剧。",
+          "difficulty": 1,
+          "pitfall": "别把 Wake up, Zoom. 当成故事结尾，笑点总在最后一句。"
+        },
+        {
+          "question": "卖裙子小故事里，裙子标价 sixteen dollars（16 美元），Zoom 却报成了多少钱？",
+          "solution": "It's ninety-one.（91 美元）。价格说错，顾客大吃一惊，Zoom 就被 Zoom, you're fired! 解雇了。",
+          "difficulty": 2,
+          "pitfall": "sixteen（16）和 ninety-one（91）要听清，这正是故事里出错的笑点。"
+        },
+        {
+          "question": "用自己的话复述感冒小故事，至少要讲清哪三件事？",
+          "solution": "Zoom 感冒打喷嚏（Ah-choo! I have a cold.）；那边天气冷（It's cold here.）；朋友说明天大连会转暖，要去看他（it'll be warm tomorrow in Dalian）。",
+          "difficulty": 2,
+          "pitfall": "复述讲清谁、怎么了、结果怎样就行，不必一句一句背原文。"
+        }
+      ],
+      "mistakes": [
+        "只看图不读对话，猜出的情节和故事对不上；图文对照才能验证猜测。",
+        "逐词翻译着读，速度慢还笑不出来；先抓关键句，生词跳过去。",
+        "复述时一句一句背原文，一卡壳就断片；用自己的话讲谁、为什么、结果。",
+        "读完忽略结尾句，漏掉 April Fool! 这样的反转，把故事讲成了流水账。"
+      ],
+      "source": {
+        "unit": "各单元 Story time",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "起床恶作剧小故事，把四句台词按故事顺序排一排：① Mmm. I want to sleep. ② Wake up, Zoom. It's time to get up. ③ It's eight o'clock. Oh dear! I'm late for school. ④ April Fool!",
+          "options": [
+            "②①③④",
+            "①②③④",
+            "②①④③"
+          ],
+          "answer": "A",
+          "solution": "先被叫醒②，Zoom 还想睡①，看到钟以为迟到③，最后真相是恶作剧④——按情节先后排。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P21·Story time（Wake up, Zoom. It's time to get up.…April Fool!）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "化装会小故事里，Zoom 向爸爸要什么来打扮自己去参加派对？",
+          "options": [
+            "爸爸的旧 T 恤",
+            "一条新连衣裙",
+            "爸爸的鞋"
+          ],
+          "answer": "A",
+          "solution": "他对爸爸说 Dad, can I have your old T-shirt?：旧 T 恤剪两个小洞当眼睛、两个大洞当手臂，就变成了化装服。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P55·Story time（Dad, can I have your old T-shirt? We're having a party at school.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "复述卖裙子小故事，下面哪一组要点最完整？",
+          "options": [
+            "Zoom 卖裙子→报错价格 ninety-one→被解雇 you're fired",
+            "Zoom 买裙子→付了 sixteen dollars→很开心",
+            "Zoom 做裙子→画花纹→变成明星"
+          ],
+          "answer": "A",
+          "solution": "复述要抓住起因、错误和结局：报错价格被解雇才是这个故事的骨架；做裙子变明星是另一个小故事的情节。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P65·Story time 变式（It's ninety-one. Sixteen dollars! Zoom, you're fired!）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把起床恶作剧小故事讲给家人听：讲清三件事——Zoom 一开始想做什么、他为什么吓得大喊迟到、最后大家为什么笑；再说说这样的玩笑好不好玩。",
+          "answer": "示例：Zoom 被叫起床还想睡。钟显示八点，他以为上学迟到了，吓了一跳。原来是愚人节玩笑——钟被拨快了。",
+          "solution": "复述时用上 Wake up、late for school、April Fool 这几个关键表达会更生动；讲完再想想：玩笑要让大家都笑得出来才好玩。往后读更长的故事，用的还是这套讲法。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_10",
+      "summary": "用 It's … o'clock. 和 It's time to… 把一天写成三四句话：从起床排到睡觉，首词大写、句末有标点。",
+      "explanation": [
+        "书上的作息句就是仿写的样板：It's 6:30. It's time to get up.、Hurry up! It's time to go to school.、It's 6 o'clock. It's time for dinner.、It's 10 o'clock. It's time to go to bed.；书上还有一张一天的时刻表：6:30 get up、7:00 breakfast、7:20 go to school、12:00 lunch、4:50 go home、9:00 go to bed；配对句里还有 It's time for breakfast. 和 It's time to go to bed.。仿写就照这个样子：先写 It's … o'clock.，再写 It's time to… 或 I … at …，一天按起床→上学→放学（回家）→睡觉的顺序排。",
+        "把一天画成一条小火车轨道，时间是站牌：起床是始发站，上学、放学一路开过去，睡觉是终点站。句子按钟点从小到大排，读的人就像坐上这趟车，你的一天一目了然。",
+        "三步仿写：第一步画时间轴，从早到晚列出起床→上学→放学→睡觉几个站；第二步套句型，每站写一句 It's 6:30. I get up. 或 It's 7 o'clock. It's time to go to school.，整点才用 o'clock；第三步检查——句子第一个词首字母大写、句末加标点、时间从小到大不倒车。写 3~4 句就是一篇作息小作文。",
+        "两个容易错的地方：一是 It's time for 后接名词（It's time for breakfast.），It's time to 后接动词（It's time to get up.）；二是 o'clock 只跟整点——It's 9 o'clock. 可以，It's 6:30 o'clock. 不行，非整点直接说 It's 6:30.；用 I … at … 句型时，时间前面用 at：I go to bed at 9:00.",
+        "作息小作文是英语写话的起点：以后写周末、写假期计划，还是这套时间轴加句型，只是把事情换一换。养成先列时间轴再动笔的习惯，作文就不会乱。"
+      ],
+      "methods": [
+        {
+          "name": "时间轴仿写法",
+          "steps": [
+            "第一步画时间轴：起床→上学→放学→睡觉，从早到晚",
+            "第二步套句型：每站写 It's … o'clock. 加 It's time to…，或 I … at …",
+            "第三步查三样：首词大写、句末标点、时间从小到大"
+          ],
+          "tip": "先画轴再填句，时间小站往前开，不倒车。"
+        },
+        {
+          "name": "for 与 to 分工法",
+          "steps": [
+            "动作跟着 to：It's time to get up / go to school / go to bed",
+            "名词跟着 for：It's time for breakfast / lunch / dinner / English class",
+            "拿不准就试词性：后面是动词用 to，是事情名词用 for"
+          ],
+          "tip": "to 后动词跑，for 后名词站。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "比一比：It's time to go to bed. / it's time to go to bed. / It's time for go to bed.——哪一句完全正确？",
+          "solution": "It's time to go to bed. 句首 It 大写、to 后接动词原形、句末有句号，三样都对。",
+          "difficulty": 1,
+          "pitfall": "句子中间的 go to bed 不用大写，只有句首的 It 才大写；for 后面不能跟动词。"
+        },
+        {
+          "question": "把三句排成你的一天：① It's 9 o'clock. I go to bed. ② It's 6:30. I get up. ③ It's 4:50. I go home.",
+          "solution": "②③①。按时间轴从小到大：6:30 起床、4:50 回家、9 点睡觉。",
+          "difficulty": 2,
+          "pitfall": "别按句子长短排，要按钟点从小到大排。"
+        },
+        {
+          "question": "中午 12 点该吃午饭了，用两种句型各写一句。",
+          "solution": "It's 12 o'clock. It's time to have lunch. 和 It's time for lunch.：have lunch 是动作跟 to，lunch 是名词跟 for。",
+          "difficulty": 2,
+          "pitfall": "It's time for have lunch. 是错的——for 后面不能接动词。"
+        }
+      ],
+      "mistakes": [
+        "It's time for get up. —— for 后面接名词，起床是动作，要说 It's time to get up.",
+        "非整点也加 o'clock，写成 It's 6:30 o'clock.；o'clock 只用于整点，非整点直接说 It's 6:30.",
+        "句子开头小写 it's、句末忘了标点；写完检查首词大写和句末符号。",
+        "先写睡觉再写起床，时间轴倒着走；从早到晚排，读者才看得懂。"
+      ],
+      "source": {
+        "unit": "Unit 2 写作任务",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句作息句完全正确？",
+          "options": [
+            "It's time to go to bed.",
+            "It's time for go to bed.",
+            "it's time to go to bed."
+          ],
+          "answer": "A",
+          "solution": "It's time to go to bed. 对：to 后接动词原形，句首 It 大写，句末句号不能少；另外两句一个 for 后跟了动词，一个句首没大写。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P20·作息句配对（It's time for breakfast.…It's time to go to bed.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书上的时刻表里，7:20 这一站是什么事？照句式说一说。",
+          "options": [
+            "It's 7:20. It's time to go to school.",
+            "It's 7:20. It's time to get up.",
+            "It's 7:20. It's time to go to bed."
+          ],
+          "answer": "A",
+          "solution": "时刻表上 7:20 对着 go to school；get up 在 6:30，go to bed 在 9:00，别把站名坐错车。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P18·一天时刻表（7:20 go to school；It's 7:20. It's time to go to school.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把问句写规范：what time is it now——下面哪种写法对？",
+          "options": [
+            "What time is it now?",
+            "what time is it now?",
+            "What time is it now."
+          ],
+          "answer": "A",
+          "solution": "疑问句第一个词 What 要大写，句末用问号；书上对话里正是 What time is it now?",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P19·标点写句变式（What time is it now?——句首大写、句末问号）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "写一写你的一天：按起床→上学（或放学）→睡觉写三句话，一句一个时间点，注意首词大写和句末标点。",
+          "answer": "示例：It's 6:30. I get up. It's 7:20. I go to school. It's 9:00. I go to bed.",
+          "solution": "先画时间轴再套句型，写完按三样检查：首词大写、句末标点、时间从小到大。下次再加一句 It's time to…，小作文就更丰富了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_11",
+      "summary": "同一时刻各地天气大不同：London 下雨、Sydney 晴热；北京中午时伦敦还是早上，时差是地球转出来的。",
+      "explanation": [
+        "这部分带着我们环游世界看天气。开篇一城一句：What's the weather like in London?（伦敦天气怎么样？）—It's rainy.（下雨。）It's cloudy in Singapore.（新加坡多云。）It's windy now.（现在刮风。）紧接着是对比强烈的两座城：It's hot and sunny in Sydney.（悉尼又热又晴。）Is it cold in Moscow?（莫斯科冷吗？）—Yes, it is. It's snowy here.（冷，这里下着雪。）打电话也能聊天气：Hi, Mark! What's the weather like in New York? —It's cool and rainy.（又凉又下雨。）那边反过来问北京：Is it cold? —No, it isn't. It's 26 degrees.（不冷，26 度。）—26 degrees! That's cold!（26 度！那很冷啊！）—Huh? No, it's not. It's warm!（咦？不冷呀，很暖和！）——同一个 26 degrees，为什么有人喊冷有人说暖？因为美国常用华氏度，中国用摄氏度，数字一样、冷暖不同，这是本部分最有意思的文化笑点。世界天气播报的开场白也要会：Here's the world weather.（这里是世界天气。）Today it's hot and sunny in Sydney.（今天悉尼又热又晴。）城市名认一认：London（伦敦）、New York（纽约）、Moscow（莫斯科）、Sydney（悉尼）、Beijing（北京）、Toronto（多伦多）。",
+        "为什么同一时刻各地天气不同？因为地球很大，太阳同一时间只能晒热半个地球：被直射的地方炎热晴朗，被云盖住的地方下雨，靠北的城市飘雪。同一时刻，悉尼 hot and sunny 的时候，莫斯科正 snowy；气温图上，有的城市 30 度，有的只有 5 度。再往深想一层：地球还在不停自转，太阳依次照亮不同的地方，所以各地的时间也不一样——北京比伦敦早约 8 个小时，北京的小朋友吃中午饭时，伦敦的天刚亮不久，还在上午。而悉尼在南半球，季节和北京正好相反：我们过冬天时，那里正过夏天。",
+        "看世界天气三步走：第一步认城市，London、New York、Moscow、Sydney、Beijing 各念几遍，在地图上找到位置；第二步套句型，What's the weather like in + 城市名?，回答 It's + 天气词；第三步当主播，用书上的开场白 Here's the world weather. 起头，接着逐城报 Today it's … in …。记时差有个小窍门：地球自西向东转，东边的地方先看到太阳——北京在伦敦的东边，所以北京的钟表走得“快”，北京中午时，伦敦还是早上。",
+        "最容易混的是问法里丢 like：What's the weather like in London? 里的 like 是“像……样子”，问天气的固定搭配，丢了句子就不完整。第二是城市和天气乱配对：先想城市的位置再回答——London 常常 rainy，Moscow 会 snowy，Sydney 常 hot and sunny。第三是以为“同一时刻全球天气一样”：恰恰相反，各地此刻的天气和钟点都不一样，这正是“世界天气”要告诉我们的。",
+        "这个知识点是英语和地理的交汇口：以后学地理会正式认识时区和地球的运动，今天的天气问答就是最好的预习。看国际新闻里的天气预报、假期出国探亲，都可以用 What's the weather like in…? 练口。养成每天看天气预报的习惯，再用英语把北京和另一个城市各报一句，你就是家里的双语气象员。"
+      ],
+      "methods": [
+        {
+          "name": "世界天气主播法",
+          "steps": [
+            "开场：Here's the world weather.（这里是世界天气。）",
+            "逐城播报：Today it's hot and sunny in Sydney.",
+            "城市随换：London／New York／Moscow／Beijing…，一句一城连着报"
+          ],
+          "tip": "Here's the world weather 一开口，环球小主播就是你。"
+        },
+        {
+          "name": "城市天气结对记",
+          "steps": [
+            "London 伦敦——rainy 多雨",
+            "Sydney 悉尼——hot and sunny 又热又晴",
+            "Moscow 莫斯科——snowy 下雪",
+            "Beijing、New York——天气多变，先问 What's the weather like…? 再答"
+          ],
+          "tip": "伦敦常带伞，悉尼晒得欢，莫斯科雪连连。"
+        },
+        {
+          "name": "时差方向法",
+          "steps": [
+            "地球自西向东转，东边的地方先看到太阳",
+            "北京在伦敦东边，所以北京时间更早",
+            "感受换算：北京中午 12 点，伦敦约是早上 4 点"
+          ],
+          "tip": "东边先见太阳，北京中午伦敦早上。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What's the weather like in London? —____（伦敦常下雨）",
+          "solution": "It's rainy. 伦敦多雨，rainy 就是“下雨的、多雨的”。",
+          "difficulty": 1,
+          "pitfall": "把 London 和 snowy 配对——爱下雪的是 Moscow，伦敦常常 rainy。"
+        },
+        {
+          "question": "世界上同一时刻，为什么有的城市下雨、有的城市下雪？",
+          "solution": "因为地球很大，太阳同一时间只能照到一半：被晒到的地方晴热，被云盖住的地方下雨，靠北的城市飘雪。书里悉尼 hot and sunny 的同时，莫斯科正 snowy。",
+          "difficulty": 2,
+          "pitfall": "以为全世界天气都一样——同一时刻各地天气不同才是常态。"
+        },
+        {
+          "question": "北京时间中午 12 点，伦敦的小朋友更可能在做什么？",
+          "solution": "还在过上午，天刚亮不久。北京比伦敦早约 8 个小时，北京中午时，伦敦还是早上。",
+          "difficulty": 2,
+          "pitfall": "以为全球钟点都一样——地球自转造出了时差，东边的时间更早。"
+        }
+      ],
+      "mistakes": [
+        "What's the weather like in…? 丢掉 like：like 是问天气固定搭配的一部分，不能少。",
+        "城市和天气乱配对：先想位置再回答——London 常 rainy，Moscow 会 snowy，Sydney 常 hot and sunny。",
+        "以为各地时间一样：地球自西向东自转，东边先见太阳，北京比伦敦早约 8 个小时。",
+        "把 26 degrees 一律当暖和：摄氏 26 度很舒适，华氏 26 度却在冰点以下——书里纽约的 Mark 喊冷就是这个原因。"
+      ],
+      "source": {
+        "unit": "Unit 3 文化内容",
+        "pages": [
+          22,
+          28
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What's the weather like in London? —____",
+          "options": [
+            "It's snowy.",
+            "It's rainy.",
+            "It's hot and sunny.",
+            "It's windy."
+          ],
+          "answer": "B",
+          "solution": "书里伦敦的天气是 It's rainy.（下雨。）",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P22·What's the weather like in London? It's rainy.（It's cloudy in Singapore. It's windy now.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "开篇图里，一边是悉尼又热又晴（hot and sunny），另一座城市却在下雪（snowy）。这座城市是？",
+          "options": [
+            "Singapore",
+            "London",
+            "Moscow",
+            "Beijing"
+          ],
+          "answer": "C",
+          "solution": "书里问 Is it cold in Moscow? 回答 Yes, it is. It's snowy here.——下雪的城市是莫斯科。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P23·It's hot and sunny in Sydney. Is it cold in Moscow? Yes, it is. It's snowy here."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "城市天气配对变式：电话那头 Mark 从纽约打来，先说说他那边——What's the weather like in New York? —____",
+          "options": [
+            "It's cool and rainy.",
+            "It's hot and sunny.",
+            "It's snowy here.",
+            "It's windy now."
+          ],
+          "answer": "A",
+          "solution": "书里电话那头纽约的天气是 It's cool and rainy.（又凉又下雨。）",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P27·What's the weather like in New York? It's cool and rainy.（New York Sydney London Toronto Beijing 五城气温图）变式（城市天气配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "时差常识：现在是北京时间中午 12 点，伦敦的钟点更接近下面哪种情况？",
+          "options": [
+            "也是中午 12 点",
+            "还是早上，天亮不久",
+            "已经是晚上",
+            "正是半夜"
+          ],
+          "answer": "B",
+          "solution": "北京比伦敦早约 8 个小时，北京中午时，伦敦约是早上 4 点，天刚亮不久。东边先见太阳，以后学地理时你会认识完整的时区表。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4b_12",
+      "summary": "把全册单词按六个主题做成词卡自查：黑体词要听、说、认读，白体词听、说就行，错词进补漏盒。",
+      "explanation": [
+        "书最后的词汇表把全册单词分成了两级：黑体词要求能够听、说、认读，白体词只作听、说要求。词汇先按话题分组：学校有 library、playground、computer room、art room、music room、teachers' office；时间作息有 breakfast、lunch、dinner、get up、go to school、go home、go to bed；天气有 rainy、cloudy、sunny、windy、snowy、cold、cool、warm、hot；农场有 horse、cow、sheep、hen、tomato、potato、carrot、green beans；衣服有 hat、coat、sweater、shirt、skirt、dress、pants、socks、shorts、shoes；购物有 glove、scarf、umbrella、sunglasses、pretty、expensive、cheap、how much、size。全册累计约 280 词，后面还有按字母序排的总表和常用表达法表。",
+        "词卡像六副扑克牌，一副牌一个主题：单词牢不牢，就看抽卡顺不顺。主题词一起记，脑子里的词会自动抱团——说到 weather，rainy、snowy 全跳出来；从 A 背到 Z，词与词互不认识，忘了就是真忘了。",
+        "话题词卡自查三步：第一步做卡——六个主题各做一副，学校、时间、天气、农场、衣服、购物，一面写英文一面写中文；第二步分级过卡——黑体词过四关（听得懂、说得出、读得出、认得出），白体词过两关（听得懂、说得出）；第三步补漏——不会的词放进补漏盒，明天再过一遍，全对的卡隔周复查。",
+        "认读和听说是两回事：会听会说，不一定看到单词就读得出、认得出，所以黑体词要多加认读这一关。还有几对词最爱串门：shirt 是衬衫、skirt 是女裙，就差一个字母；sunny 晴、snowy 雪，一个 n 一个 w；these 这些、those 那些，近处用 these、远处用 those。",
+        "五年级的词汇量还要往上涨，这六个主题会继续加深——天气添新词、衣服讲搭配、购物算价钱。期末用词卡自查一遍，以后复习直接抽卡就行；养成自查加补漏的习惯，词汇才会越滚越大。"
+      ],
+      "methods": [
+        {
+          "name": "话题词卡法",
+          "steps": [
+            "六个主题各做一副卡：学校、时间、天气、农场、衣服、购物",
+            "一面写英文一面写中文，一副牌一副牌过",
+            "打乱抽卡：抽出英文说中文，抽出中文说英文"
+          ],
+          "tip": "一主题一副牌，词在牌里抱团记。"
+        },
+        {
+          "name": "分级自查法",
+          "steps": [
+            "先分清两级：黑体词要听、说、认读，白体词只作听、说",
+            "黑体词过四关，白体词过两关，过关的卡翻过去",
+            "错词进补漏盒，隔天再过，直到清空"
+          ],
+          "tip": "黑体四会、白体两会，补漏盒清空才算完。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把词送回家：snowy 属于哪个主题的词卡？",
+          "solution": "天气卡。snowy（下雪的）和 rainy、cloudy、windy、sunny 是一家人。",
+          "difficulty": 1,
+          "pitfall": "别看 snowy 里有个 s 就塞进学校卡，要看词义，不看首字母。"
+        },
+        {
+          "question": "词汇表说明写着：黑体词要求能够听、说、认读，白体词只作听、说。看到单词就能读出来并知道意思，是哪一级的要求？",
+          "solution": "黑体词的要求。白体词会听会说就达标，认读是黑体词多出来的那一关。",
+          "difficulty": 2,
+          "pitfall": "别把两级要求混成一档，白体词不必逼自己默写拼写。"
+        },
+        {
+          "question": "shirt 和 skirt 都是穿戴词，哪个是女裙？",
+          "solution": "skirt。shirt 是衬衫，skirt 是女裙，中间多个 k。",
+          "difficulty": 2,
+          "pitfall": "两个词只差一个字母，做卡时放在同一张卡上对比记最牢。"
+        }
+      ],
+      "mistakes": [
+        "从 A 背到 Z 式自查，词与词互不认识；按六个主题抱团记更牢。",
+        "黑体白体一刀切，白体词也逼自己默写；先保证听、说达标。",
+        "shirt、skirt 和 sunny、snowy 这类近形词互相串门；对比着放在一张卡上记。",
+        "自查只过一遍就收工，错词不回头；错词进补漏盒，清空才算自查完成。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          70,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一组词都属于时间与作息主题？",
+          "options": [
+            "breakfast、lunch、go to bed",
+            "rainy、windy、cloudy",
+            "horse、cow、sheep"
+          ],
+          "answer": "A",
+          "solution": "早餐、午餐、上床睡觉都是一天里的事；第二组是天气词，第三组是农场动物。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四下 P70·分话题词汇表（breakfast lunch dinner；get up go to school go home go to bed）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "词汇表注明：黑体词要求能够听、说、认读，白体词只作听、说要求。期末自查时，白体词达标的最低要求是什么？",
+          "options": [
+            "听、说",
+            "听、说、认读",
+            "听、说、读、写"
+          ],
+          "answer": "A",
+          "solution": "白体词只作听、说要求；认读是黑体词才要过的关，两级要求里都没有写。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P70·词汇表分级说明（黑体词听、说、认读；白体词只作听、说）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把三个词各归各的主题：tomato、sweater、how much——正确的一组是？",
+          "options": [
+            "农场 / 衣服 / 购物",
+            "衣服 / 农场 / 购物",
+            "农场 / 购物 / 衣服"
+          ],
+          "answer": "A",
+          "solution": "tomato（西红柿）是农场蔬菜，sweater（毛衣）是衣服，how much（多少钱）问价格，属于购物。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四下 P71·分话题词汇表变式（tomato；sweater；how much）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己出一份听写小卷：六个主题各挑 2 个黑体词，共 12 个，先写中文再默英文，最后对照词汇表批改，错的进补漏盒。",
+          "answer": "示例：学校 library、playground；时间 breakfast、go to bed；天气 sunny、windy；农场 horse、tomato；衣服 sweater、pants；购物 how much、cheap。",
+          "solution": "挑词先挑黑体词，默写时注意首字母大写和易错字母；批改后补漏盒里的词隔天重默。以后每个学期都可以用这份小卷自查词汇。",
           "difficulty": 3
         }
       ]
