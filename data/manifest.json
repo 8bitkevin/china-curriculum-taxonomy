@@ -1,14 +1,14 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
   "version": "2.4.0",
-  "generatedAt": "2026-10-27",
+  "generatedAt": "2026-10-28",
   "counts": {
     "topics": 1641,
     "dependencies": 2272,
     "standards": 532,
     "deprecated": 0,
-    "lessons": 437,
-    "lessonExercises": 1748,
+    "lessons": 462,
+    "lessonExercises": 1848,
     "byGrade": {
       "1年级上": 52,
       "1年级下": 46,
@@ -79,9 +79,9 @@
       "统编版·2020 年版"
     ],
     "lessonCoverage": {
-      "topics": 437,
+      "topics": 462,
       "of": 1641,
-      "aligned": 437
+      "aligned": 462
     },
     "note": "覆盖 数学、语文、英语、物理、化学、生物学、历史、地理、道德与法治、思想政治（人教系/统编教材）；进度详见 CHANGELOG。"
   },
@@ -103,8 +103,8 @@
       "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     },
     "lessons/math.json": {
-      "bytes": 3963344,
-      "sha256": "d647142f72c0e5157ae695cc5fc49eb27a7c851fe3b6d31faaf2eff600b11cdc"
+      "bytes": 4264590,
+      "sha256": "ece36869135dd79482dc85d130741ed99e7c8941abe2680e2f6f58c328fbf69a"
     }
   }
 }
