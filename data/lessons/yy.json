@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 27,
+  "lessonCount": 39,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -3499,6 +3499,1532 @@
           "question": "做一张'约 140 颗星星'进度表：上学期约 70 个词和这学期约 70 个新词各占一列，每天自查 10 个（看图说句或听写），说对或写对一个就涂亮一颗星，争取两周左右点满整张表。",
           "answer": "两周内点亮约 140 颗星",
           "solution": "点满之后，把还没亮的那几颗挑出来重点补，词汇星座就完整了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_01",
+      "summary": "走进新教室数一数：one blackboard，many desks and chairs，两个以上的东西词尾加 s，many 后面接复数。",
+      "explanation": [
+        "书上从一间新教室讲起：Hey, Zhang Peng. We have a new classroom. Really? What's in the classroom? Let's go and see! 进去就数一数：One blackboard, one TV, many desks and chairs ...——一块黑板、一台电视、许多桌椅。接着认识教室词：classroom（教室）、window（窗户）、door（门）、picture（图画）、light（灯）、blackboard（黑板）、computer（电脑）、fan（风扇）、wall（墙）、floor（地板）。找东西用 Where's my schoolbag? It's near the computer.；打扫教室分工说 Let me clean the teacher's desk. / Let me clean the windows. / Let me help you.",
+        "为什么 desks 和 chairs 的尾巴上都拖着一个小 s？因为教室里的桌椅不止一张、不止一把。英文里数得清的东西超过一个，名词就要换上'复数'的衣服——词尾加 s，像给每个词添一条小尾巴。只有一个的时候不加，说 a blackboard、one TV 就行。many 的意思是'许多'，它后面必须站着一群复数朋友，不能落单。",
+        "用'数一数再选词'三步走：第一步数数量，只有一个就用 a 或 one，比如 a door、one TV；第二步两个以上就在词尾加 s，desk 变 desks、chair 变 chairs、window 变 windows；第三步回答 What's in the classroom? 时按'单个的在前 + 复数的在后'来列举：One blackboard, one TV, many desks and chairs. 说位置也一样简单：Where is...? 问，It's near / in / on / under... 答，near 是'在……旁边'，under 是'在……下面'。",
+        "最容易错在三处：一是 many 后面误用单数，many desk 不对，要说 many desks；二是复数忘加 s，many chairs 别写成 many chair；三是问答要配套，Where's...? 是单数问句，要用 It's...（单数）回答，别答成 They are。另外 classroom 是 class 和 room 手拉手拼成的合成词，中间不空格，拼写时别丢字母。",
+        "复数 -s 只是起点：以后你会遇到 Where are...? Are they...? 这样专门问复数的句型，还会碰到一些复数有特别变法的词。现在先把'一个不加 s、两个以上加 s、many 接复数'练熟，再天天用 Let me... 争当打扫教室的小主人，你的英语会越说越顺口。"
+      ],
+      "methods": [
+        {
+          "name": "数一数选词法",
+          "steps": [
+            "先数数量：一个用 a 或 one，比如 a door、one blackboard",
+            "两个以上词尾加 s：desk 变 desks，chair 变 chairs，window 变 windows",
+            "回答 What's in the classroom? 时先说单个的，再说许多的：One blackboard, many desks and chairs.",
+            "说完回头检查：many 后面的名词带上 s 了吗"
+          ],
+          "tip": "复数尾巴加 s，many 后面用复数；一个用 a 两个加 s，数完再说不迷路。"
+        },
+        {
+          "name": "找东西问答法",
+          "steps": [
+            "问：Where's + 东西的名字，如 Where's my schoolbag?",
+            "找：想想它常待的地方",
+            "答：It's near / in / on / under + 地点，near 表示'在……旁边'",
+            "找到后用手指一指，边指边再说一遍"
+          ],
+          "tip": "Where's 问在哪，It's 来回答；in 里面 on 上面，under 下面 near 旁边。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "教室里有 3 张桌子和 2 把椅子，英文该怎么说？",
+          "solution": "three desks and two chairs。桌子椅子都超过一个，词尾都要加 s。",
+          "difficulty": 1,
+          "pitfall": "只记得把 desk 加 s，chair 忘了加，说成 three desks and two chair。"
+        },
+        {
+          "question": "选一选：教室里有许多窗户，英文说 Many window 还是 Many windows？",
+          "solution": "Many windows。many 后面要用复数，window 词尾加 s。",
+          "difficulty": 1,
+          "pitfall": "看见 many 只想着'许多'，忘了把后面的名词变成复数。"
+        },
+        {
+          "question": "Where is the kite? 它正挨着窗户，怎么回答？",
+          "solution": "It's near the window. near 表示'在……旁边'。",
+          "difficulty": 2,
+          "pitfall": "答成 It's under the window，位置词用错；under 是'在……下面'。"
+        }
+      ],
+      "mistakes": [
+        "many 后面接了单数：说成 many desk。记住 many 是'许多'，后面的名词必须加 s。",
+        "复数漏加 s：chairs 写成 chair、windows 写成 window。写完数一数，超过一个就要有 s。",
+        "问答不配套：Where's...? 是单数问句，要用 It's... 回答，不能答 They are。",
+        "classroom 拼写走样：拆成 class room 或者丢了 oo。它是 class + room 的合成词，中间连着写。"
+      ],
+      "source": {
+        "unit": "Unit 1 My classroom",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "新教室里有什么？书上数过：一块黑板、一台电视、许多桌椅。选出说得对的一句。",
+          "options": [
+            "One blackboard, one TV, many desks and chairs.",
+            "One blackboards, one TV, many desk and chair.",
+            "One blackboard, one TVs, many desk and chairs.",
+            "A blackboard, a TV, many desks and chair."
+          ],
+          "answer": "A",
+          "solution": "只有一个的 blackboard、TV 不加 s；desks、chairs 超过一个要加 s。这句正是书上的原句。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P5·What's in the classroom?（One blackboard, one TV, many desks and chairs ...）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "找一找：那幅画在哪儿？书上说过它紧挨着风筝。选出正确回答。",
+          "options": [
+            "It's near the kite.",
+            "It's under the kite.",
+            "It's on the floor.",
+            "It's in the desk."
+          ],
+          "answer": "A",
+          "solution": "near 表示'在……旁边'，It's near the kite. 意思是'它在风筝旁边'。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P9·Where is the picture?（It is near the kite）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式数一数：教室里有一扇门、三张桌子、两把椅子和一台电脑，下面哪句列举得对？",
+          "options": [
+            "A door, three desks, two chairs and a computer.",
+            "A doors, three desk, two chair and a computer.",
+            "A door, three desks, two chairs and a computers.",
+            "One door, three desks, two chairs and an computer."
+          ],
+          "answer": "A",
+          "solution": "一个用 a 或 one，超过一个加 s：three desks、two chairs；computer 是单个的，前面用 a。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P10·数量列举变式（A door, three desks, two chairs, a computer, a teacher's desk ...）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "当小导游：用 One ... and many ... 的句式介绍你自己的教室，至少说出两样东西。",
+          "answer": "示例：One blackboard, one TV and many desks and chairs.",
+          "solution": "先想清楚哪些东西只有一个、哪些有许多，再按'单个的 + 许多'的顺序说出来，说得越多越好。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_02",
+      "summary": "介绍朋友有两个'有'：I have 说'我有'，He has / She has 说'他有她有'，头发、眼睛、眼镜都能这样夸。",
+      "explanation": [
+        "书上说朋友，先报'我有一个朋友'：Mum, I have a new friend. / I have a good friend. 再问名字：What's his name? His name is Zhang Peng. / Her name is Lucy. 描述长相用 has：He's strong and he has two big eyes. / She has long hair. / He has short hair. / He has glasses. 连书包鞋子也能说：He has a green bag and brown shoes. 猜人时问 What is his name? What is her name?",
+        "have 和 has 都是'有'。可英文讲究'看人说词'：主语是 I、you、we、they（我、你、我们、他们）用 have；主语是 he、she、it（他、她、它），或者某一个具体的人（Mike、my friend），要用 has。一个人的时候人称是'第三人称单数'，has 就是为它准备的。就像中文里'我有笔''他有笔'，'有'字不变，英文却要换个词。",
+        "描述朋友分三步：第一步点名——His name is...（他的名字是……）或 Her name is...（她的名字是……），先分清男生女生；第二步用 has 说外貌——He has short hair.（他有一头短发）/ She has big eyes.（她有大眼睛）；第三步加细节——glasses 眼镜、shoes 鞋子、bag 书包：He has glasses and his shoes are blue. 说完检查一遍：一个人的主语后面，是不是用的 has。",
+        "三对词最容易缠在一起：have 和 has——I have 对，I has 错，He have 也错；His 和 Her——His 给男生，Her 给女生，先看性别再开口；hair 和 eyes——头发只长一头，short hair 不加 s，眼睛成双成对，two big eyes 要加 s。另外 glasses 本身就带 s，'一副眼镜'也说 glasses。",
+        "把 have、has 用顺了，你就拿到了描述人物的钥匙：以后写作文介绍朋友、介绍家人都靠它开头。再往后还会学到 has 的问句形式，现在把陈述句 He has... / She has... 练扎实，问句一来就水到渠成。"
+      ],
+      "methods": [
+        {
+          "name": "have/has 主语看人法",
+          "steps": [
+            "看主语：I、you、we、they 用 have",
+            "主语是 he、she、it 或某一个人名、my friend，用 has",
+            "造句：I have a friend. He has short hair.",
+            "读一遍，听着不顺就回头查主语"
+          ],
+          "tip": "I 和 you 用 have，he、she、it 用 has；一个人用 has，一群人用 have。"
+        },
+        {
+          "name": "His/Her 先分男女法",
+          "steps": [
+            "先想朋友是男生还是女生",
+            "男生用 His：His name is Zhang Peng.",
+            "女生用 Her：Her name is Lucy.",
+            "接着说外貌 He/She has ...，前后再对一遍性别"
+          ],
+          "tip": "His 是他的，Her 是她的；先分男女再选词，张冠李戴闹笑话。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "He ___ short hair. 空格里填 have 还是 has？",
+          "solution": "填 has。主语是 he（他），第三人称单数要用 has。",
+          "difficulty": 1,
+          "pitfall": "看见'有'就顺手填 have，忘了先看主语是 he。"
+        },
+        {
+          "question": "介绍女生 Lucy：___ name is Lucy. 填 His 还是 Her？",
+          "solution": "填 Her。Lucy 是女生，要说 Her name is Lucy.",
+          "difficulty": 1,
+          "pitfall": "His、Her 长得像，没先分清男女就乱填。"
+        },
+        {
+          "question": "你的朋友 Mike 戴着一副蓝眼镜，英文怎么说？",
+          "solution": "He has blue glasses. glasses 本身就带 s，'一副眼镜'也说 glasses。",
+          "difficulty": 2,
+          "pitfall": "把 glasses 的 s 丢掉，说成 He has blue glass——glass 是玻璃，可就不是眼镜了。"
+        }
+      ],
+      "mistakes": [
+        "He have / She have：第三人称单数必须用 has，填完回头检查主语。",
+        "His 和 Her 用反：先分清男生女生，His 配他、Her 配她。",
+        "two big eyes 丢了 s：眼睛有两只，eye 要加 s；short hair 只有一头头发，不加 s。",
+        "I has：主语是 I 永远用 have，I have a good friend. 才对。"
+      ],
+      "source": {
+        "unit": "Unit 3 My friends",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "猜猜他是谁？书上说：He's strong and he ___ two big eyes. 空里选 have 还是 has？",
+          "options": [
+            "have",
+            "has",
+            "is",
+            "are"
+          ],
+          "answer": "B",
+          "solution": "he 是第三人称单数，'有'要说 has：He has two big eyes.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P22·猜朋友（He's strong and he has two big eyes. He's very friendly.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书上的新朋友是男生 Zhang Peng。问名字：What's his name? — ___ name is Zhang Peng. 选词填空。",
+          "options": [
+            "His",
+            "Her",
+            "He",
+            "She"
+          ],
+          "answer": "A",
+          "solution": "Zhang Peng 是男生，His name is... 意思是'他的名字叫……'；换成女生就用 Her name is...，书上的例子是 Her name is Lucy.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P24·问朋友名字（What's his name? His name is Zhang Peng. Her name is Lucy.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式改一改：想说'她有一头长发'，下面哪句是对的？",
+          "options": [
+            "She has long hair.",
+            "She have long hair.",
+            "He has long hair.",
+            "She has short hair."
+          ],
+          "answer": "A",
+          "solution": "主语 she 用 has；'长发'是 long hair。书上的原句就是 She has long hair.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P28·描述头发变式（long hair / short hair，I have a friend. He has short hair.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小记者写介绍：用两句话介绍你的朋友——第一句用 His/Her name is...，第二句用 He/She has...。",
+          "answer": "示例：His name is Mike. He has short hair and big eyes.",
+          "solution": "先分男女定 His/Her 和 He/She，再用 has 说出外貌，两句话就勾勒出朋友的样子。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_03",
+      "summary": "给朋友画像用形容词：tall 高、strong 壮、short 矮、thin 瘦、friendly 友好、quiet 安静，三句话拼出好朋友让大家猜。",
+      "explanation": [
+        "书上先教两组成对的词组：tall and strong（又高又壮）、short and thin（又矮又瘦），再加上 friendly（友好的）和 quiet（安静的）。描述句是 He's tall and strong. / She's tall and thin.；夸性格用 He's very friendly. / She's quiet and friendly. 歌谣里唱：Tim is my friend. He's a good, good boy. He's tall and thin. 猜人游戏的开场白是：Guess! He's strong and he has two big eyes. He's very friendly.——大家一听就猜中：It's Zhang Peng.",
+        "形容词就像画像的画笔：tall、short 画身高，strong、thin 画身材，friendly、quiet 画性格。两支画笔一起用，中间架一座小桥 and：tall and strong、short and thin。He's 是 He is 的缩写，意思是'他是……'。把朋友的样子和脾气说出来，闭着眼睛都能猜出是谁。",
+        "玩猜人游戏按三步走：第一步定范围——A boy or girl?（男孩还是女孩？）；第二步画像——He's tall and thin.（他又高又瘦），想多给线索就再接一句 He has glasses.（他戴眼镜）；第三步报性格——He's very friendly.，最后让大家猜：Who is he? 猜对了就回答 Yes. You're right.（对了，你猜对啦）。",
+        "四组要分清：tall 对 short，是一对反义词，说高矮别配错；strong 是'强壮'，不等于胖；quiet 是'安静的'，别和 quite 混，拼写是 q-u-i-e-t；friendly 是 friend（朋友）加 ly 变来的形容词。还有 He's、She's 里的撇号不能丢，它们是 He is、She is 的缩写，句子要靠 is 才完整。",
+        "把'名字 + 形容词 + has 细节'三句话练熟，你就有了写人物小作文的骨架：以后写我的朋友、介绍新同学都用得上。夸人也是一种友好：多夸夸朋友 friendly、clever 的地方，友谊会更甜。"
+      ],
+      "methods": [
+        {
+          "name": "朋友画像三句法",
+          "steps": [
+            "第一句报名字或身份：He's my friend. / His name is ...",
+            "第二句画外貌：He's tall and strong. / She's short and thin.",
+            "第三句加细节或性格：He has glasses. / She's quiet and friendly.",
+            "连起来说给同学听，让大家猜是谁"
+          ],
+          "tip": "一句名字二句像，三句性格细节添；He's 画样子，has 添细节。"
+        },
+        {
+          "name": "反义词拉手法",
+          "steps": [
+            "tall—short 拉手：一个高来一个矮",
+            "strong—thin 拉手：一个壮来一个瘦",
+            "friendly、quiet 想场景：爱打招呼是友好，轻声细语是安静",
+            "用 He's/She's + 形容词各说一句"
+          ],
+          "tip": "tall 高 short 矮，strong 壮 thin 瘦；friendly 爱微笑，quiet 静悄悄。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "夸书上的朋友 Zhang Peng 又高又壮：He's ___ and strong. 空里填哪个词？",
+          "solution": "填 tall。tall and strong 就是'又高又壮'。",
+          "difficulty": 1,
+          "pitfall": "把 short 填进去，高矮正好说反了。"
+        },
+        {
+          "question": "She's quiet and friendly. 是在夸朋友什么？",
+          "solution": "夸她安静又友好：quiet 是'安静的'，friendly 是'友好的'。",
+          "difficulty": 2,
+          "pitfall": "把 quiet 看成 quick（快的），两个词长得有点像，意思差得远。"
+        },
+        {
+          "question": "猜人游戏中你这样描述：He's tall and thin. He has glasses. 按书上的说法，这位朋友是谁？",
+          "solution": "是 Wu Binbin。书上写道：Wu Binbin! He's tall and thin. He has glasses.",
+          "difficulty": 2,
+          "pitfall": "只描述高瘦忘了 glasses 这个特征，猜人线索就少了一条。"
+        }
+      ],
+      "mistakes": [
+        "tall、short 配对弄反：高个朋友用 tall，矮个朋友用 short，开口前先想清楚。",
+        "漏掉 is：He tall and strong 不成句，要说 He's tall and strong，He's 就是 He is。",
+        "quiet 拼错成 quite：'安静的'是 quiet，q-u-i-e-t，拼完小声读一遍检查。",
+        "friendly 丢尾巴：它是 friend + ly，'友好的'要说 friendly，只写 friend 意思就变了。"
+      ],
+      "source": {
+        "unit": "Unit 3 My friends",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "书上的新朋友个子高高的还很壮：Look! He's ___ and strong. 选词填空。",
+          "options": [
+            "tall",
+            "short",
+            "thin",
+            "small"
+          ],
+          "answer": "A",
+          "solution": "又高又壮是 tall and strong，书上的原句就是 He's tall and strong.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P24·介绍新朋友（Look! He's tall and strong.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书上用来夸朋友的两组性格词，意思配对正确的是哪一组？",
+          "options": [
+            "friendly—友好的，quiet—安静的",
+            "friendly—安静的，quiet—友好的",
+            "friendly—高的，quiet—瘦的",
+            "friendly—壮的，quiet—矮的"
+          ],
+          "answer": "A",
+          "solution": "friendly 是'友好的'，quiet 是'安静的'，书上的歌谣用 She's quiet and friendly. 夸 Lily。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P25·性格词组（tall and strong / short and thin / friendly / quiet）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式猜人：He's tall and thin. He has glasses. 按书上的描述，他是谁？",
+          "options": [
+            "Zhang Peng",
+            "Wu Binbin",
+            "Lucy",
+            "Lily"
+          ],
+          "answer": "B",
+          "solution": "书上写道：Wu Binbin! He's tall and thin. He has glasses. 高瘦又戴眼镜的就是他。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P23·Who's he? 猜人变式（Wu Binbin! He's tall and thin. He has glasses.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小作家练笔：用三句话介绍你的好朋友——第一句说他/她是谁，第二句用形容词画像，第三句用 has 说一个细节。",
+          "answer": "示例：She's my friend. She's short and thin. She has two big eyes.",
+          "solution": "三句连读一遍，检查 He's/She's 有没有漏 is，has 前面的主语是不是只有一个人。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_04",
+      "summary": "找东西先看清一件还是多件：单数问 Where's the cat?，复数问 Where are my crayons?，猜位置就说 Are they in the study?",
+      "explanation": [
+        "这部分从家里找东西的对话学起：Mum, where are my crayons?（妈妈，我的蜡笔在哪儿？）—Are they in the study?（在你的书房里吗？）；Where's the cat, Dad?（爸爸，小猫在哪儿？）—Is she in the kitchen?（在厨房里吗？）。接着跟着主人公找小猫：I have a cat. She's cute. Where is she?（我有一只猫，她很可爱。她在哪儿呢？）—Is she in the study? —No, she isn't. —Mmm. Is she in the living room? —No, she isn't. —Look! She's in the kitchen. —Yes, she is.! 猜钢笔的小游戏里也是一样的问法：Where's my pen? —Is it in your desk? —No, it isn't. —Is it in your hand? —Yes, it is! 房间词一次学齐：bedroom（卧室）、bathroom（浴室）、study（书房）、kitchen（厨房）、living room（客厅），配上边说边做的指令：Go to the study. Read a book.／Go to the kitchen. Have a snack.／Go to the bedroom. Have a nap.／Go to the bathroom. Take a shower.／Go to the living room. Watch TV.。后半段升级到复数：Where are the keys?（钥匙在哪儿？）—Are they on the table? —No, they aren't. —Are they under the desk? —No, they aren't. —Open the door, please. —Look! They're in the door. —Yes, they are.! 家具词也一起认：phone（电话）、fridge（冰箱）、sofa（沙发）、bed（床）、table（桌子）。",
+        "is 和 are 的分工，就像先数数：东西只有一件，用 is 问，回答用 It（它）；东西有两件以上，就用 are 问，回答用 They（它们）。一把钥匙说 Where is the key?，一串钥匙就说 Where are the keys?。小猫对话里用 she，是因为把小猫当成家里的成员来疼爱。找东西的顺序也有讲究：先问在哪儿，再一个地方一个地方猜——in（在…里）、on（在…上）、under（在…下面）、near（在…旁边）。",
+        "找东西三步走：第一步数一数，一件用 is，多件用 are；第二步选好房间问 Is it…? / Are they…?，一个房间一个房间排查；第三步按事实回答，在就说 Yes, it is.／Yes, they are.，不在就说 No, it isn't.／No, they aren't.，找到时喊一句 Look!。记房间词可以配合动作：说到 study 就做看书的动作，说到 kitchen 就做吃点心的动作，说到 bedroom 就做睡觉的动作，身体记得比脑子快。",
+        "最容易错的是 is 和 are 混用：my crayons、the keys、my glasses 都是复数，要用 Where are…? 和 Are they…?；the cat、my pen 是单数，用 Where's…? 和 Is it…?。回答也要对号：问 Is she…? 答 she is / she isn't，问 Are they…? 答 they are / they aren't，别答成 it。Where's 是 Where is 的缩写，aren't 是 are not 的缩写，中间的撇号不能丢。还有 study 是书房，student 是学生，两个词长得有点像，别记混。",
+        "把这套问答带回自己家：把蜡笔藏进书房，让家人用 Are they in the study? 来猜，每天玩五分钟，单复数自然分清。以后还会学到更多房间里的物品，还会用更长的句子介绍自己的家；向外国朋友介绍 My home 时，今天学的房间词和问句马上就能派上用场。"
+      ],
+      "methods": [
+        {
+          "name": "数一数选 is/are",
+          "steps": [
+            "先数东西的件数：一件用 is，两件以上用 are",
+            "单数问 Where's the…?，回答用 It；复数问 Where are the…?，回答用 They",
+            "猜位置用 Is it…? / Are they…?，把房间词和方位词往里套"
+          ],
+          "tip": "单数用 is 复数用 are，问 they 答 they，问 it 答 it。"
+        },
+        {
+          "name": "房间动作法",
+          "steps": [
+            "bedroom 卧室——做睡觉的样子",
+            "bathroom 浴室——做冲凉洗澡的样子",
+            "study 书房——做看书的动作",
+            "kitchen 厨房——做吃点心的动作",
+            "living room 客厅——做看电视的动作"
+          ],
+          "tip": "五个房间五个动作，说到哪儿演到哪儿。"
+        },
+        {
+          "name": "藏物猜房法",
+          "steps": [
+            "把一件文具藏进家里某个房间",
+            "家人用 Is it in the study? 这样的话来猜",
+            "你只回答 Yes, it is. 或 No, it isn't.，猜中再换人藏"
+          ],
+          "tip": "一天藏一件，房间单词全记牢。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "Where ___ my crayons? 空格里填 is 还是 are？",
+          "solution": "填 are。crayons 是复数，要说 Where are my crayons?",
+          "difficulty": 1,
+          "pitfall": "只顾着找东西，忘了看 crayons 结尾的 -s。"
+        },
+        {
+          "question": "—Are they on the table?（钥匙其实插在门上）—____ 该怎么回答才完整？",
+          "solution": "No, they aren't. They're in the door. 先否定，再补充真实位置。",
+          "difficulty": 2,
+          "pitfall": "只说一个 No 就完了，they aren't 要带上，句子才完整。"
+        },
+        {
+          "question": "文字场景：小猫在厨房里。选出正确的英语句子。",
+          "solution": "She's in the kitchen. 找小猫的对话用的就是这句，小猫被当成家里的一员，用 she。",
+          "difficulty": 2,
+          "pitfall": "随手写成 It's in the kitchen. 也不算大错，但跟读原文时记住书里对这只猫用的是 she。"
+        }
+      ],
+      "mistakes": [
+        "复数忘用 are：my crayons、the keys 要说 Where are…?，不能说 Where is…?",
+        "问 Are they…? 答成 Yes, it is.。问 they 就要答 they：Yes, they are. / No, they aren't.",
+        "No, they aren't. 写成 No, they arent.。aren't 是 are not 的缩写，撇号不能丢。",
+        "study（书房）和 student（学生）记混：看书去书房，Go to the study. Read a book."
+      ],
+      "source": {
+        "unit": "Unit 4 My home",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选词填空：—Mum, where ___ my crayons? —Are they in the study?",
+          "options": [
+            "am",
+            "is",
+            "are",
+            "be"
+          ],
+          "answer": "C",
+          "solution": "crayons 是复数，问句用 are：Where are my crayons?",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P36·Mum, where are my crayons? Where's the cat, Dad?（Are they in the study? Is she in the kitchen?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Where are the keys? —____（钥匙在门上）",
+          "options": [
+            "They're in the door.",
+            "It's in the door.",
+            "Yes, they are.",
+            "No, it isn't."
+          ],
+          "answer": "A",
+          "solution": "keys 是复数，回答用 They're in the door.；It's in the door. 是单数的说法。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P41·Where are the keys? Are they on the table? No, they aren't. Look! They're in the door."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "房间对号变式：想看电视该去哪个房间？选出正确的句子。",
+          "options": [
+            "We watch TV in the living room.",
+            "We watch TV in the study.",
+            "We watch TV in the bathroom.",
+            "We watch TV in the bedroom."
+          ],
+          "answer": "A",
+          "solution": "看电视去客厅：Go to the living room. Watch TV.；看书才去书房 study。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P39·Go to the living room. Watch TV.（bedroom bathroom study kitchen living room）变式（房间与活动配对）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字描述：小丽的客厅里，书在沙发上（on the sofa），钢笔在冰箱上（on the fridge），眼镜在电话旁边（near the phone）。她的眼镜在哪儿？",
+          "options": [
+            "They're near the phone.",
+            "They're on the sofa.",
+            "They're on the fridge.",
+            "They're in the door."
+          ],
+          "answer": "A",
+          "solution": "文字里说 my glasses are near the phone，眼镜在电话旁边。学着用 This is my living room. 开头介绍自己的房间，把每样东西的位置说清楚，你也能写出一篇漂亮的小短文。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_05",
+      "summary": "晚饭想吃什么，礼貌地问 What would you like?，答 I'd like some…；主人招呼说 Help yourself.，问你要不要就答 Yes, please. 或 No, thanks.",
+      "explanation": [
+        "这部分从晚饭前的对话学起：Mum, I'm hungry.（妈妈，我饿了。）—What's for dinner?（晚饭吃什么？）—What would you like for dinner?（你晚饭想吃什么？）—I'd like some soup and bread, please.（我想要一些汤和面包。）饭好了妈妈会喊 Dinner's ready!（晚饭好啦！）主人招呼客人坐下吃：Help yourself.（请自便、多吃点。）—Thanks.（谢谢。）问对方要不要：Would you like some soup?（你想喝点汤吗？）—Yes, please.（好的，来一点。）不想就说 No, thanks.（不了，谢谢。）开篇图里还有：What would you like? —I'd like some beef.／I'd like some vegetables.。小老师扮演里递东西：What would you like? —I'd like some vegetables, please. —OK. Here you are.，菜单上有 beef、rice、noodles、juice、soup、milk、chicken、fish、vegetables、bread。后面又学：Would you like some noodles, too? —Yes, thank you.（还想来点面条吗？——好的，谢谢。）",
+        "would like 是 like 穿上了礼貌的外衣：I like beef 是平时就喜欢牛肉，I'd like some beef 是此刻想要一些牛肉，点菜说后者最客气。I'd 是 I would 的缩写。some 是“一些”，说食物时常带上；please 挂在句尾，像递东西时双手奉上。回答要不要也有两种语气：想要就开心地说 Yes, please.，不要也别冷冰冰，说一句 No, thanks.，谢意先送到。",
+        "点单三步走：第一步问 What would you like (for dinner)?；第二步答 I'd like some…, please.，想吃什么往里填；第三步对方递来东西说 Here you are.，你回 Thanks.／Thank you.。被招待时记住两句礼仪：主人喊 Dinner's ready!，客人回 Thanks!；主人说 Help yourself.，意思是请自便、多吃点，你答 Thanks.。想要与婉拒一起记口诀：想要 Yes, please.，不要 No, thanks.，please 和 thanks 各守各的岗。",
+        "最容易答串的是 Would you like some soup?：它不是问你会不会、是不是，回答不说 Yes, I do.，要说 Yes, please.；拒绝也不说 No, I don't.，要说 No, thanks.。还有 I'd like 别写成 I like，少了撇号和 d，礼貌就飞走了；Dinner's ready 里的撇号同理。noodles（面条）和 vegetables（蔬菜）常用复数，说 I'd like some noodles.。What's for dinner? 问的是“晚饭吃什么”，What would you like? 问的是“你想吃什么”，一个问菜单、一个问心愿。",
+        "这套句型回家就能用：晚饭前问家人 What would you like for dinner?，把全家人的“心愿菜单”收集一遍，英语和家务一起做。以后去餐厅点餐、招待外国小朋友，还会用到更多礼貌用语；Help yourself 这样的待客之道，走到哪张餐桌都受欢迎。"
+      ],
+      "methods": [
+        {
+          "name": "礼貌点单三步法",
+          "steps": [
+            "问：What would you like (for dinner)?",
+            "答：I'd like some…, please.",
+            "收尾：Here you are. —Thanks.／Thank you."
+          ],
+          "tip": "问 would like 答 I'd like，please 挂尾不忘掉。"
+        },
+        {
+          "name": "要或不要回答法",
+          "steps": [
+            "听清问句开头是不是 Would you like…?",
+            "想要就说 Yes, please.，还可以补一句自己的想法",
+            "不要就说 No, thanks.，谢字当先不冷场"
+          ],
+          "tip": "想要 Yes, please.，不要 No, thanks.，礼貌不打折。"
+        },
+        {
+          "name": "餐桌传菜法",
+          "steps": [
+            "想请人递碗，说 Pass me the bowl.",
+            "想请人递刀，说 Pass me the knife.",
+            "切菜 Cut the vegetables.，用勺 Use the spoon.，用叉 Use the fork.",
+            "边做动作边说，餐桌变成英语角"
+          ],
+          "tip": "Pass me 一开口，餐具单词全都有。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What would you like for dinner? —____（你想要一些汤和面包）横线上该怎么回答？",
+          "solution": "I'd like some soup and bread, please. 想要什么，就用 I'd like some…, please. 来说。",
+          "difficulty": 1,
+          "pitfall": "写成 I like some soup…——like 是平时喜欢，此刻想要要用 I'd like。"
+        },
+        {
+          "question": "—Would you like some soup? 你不想喝，该怎么有礼貌地拒绝？",
+          "solution": "No, thanks. 谢字当先，婉拒不冷场。",
+          "difficulty": 2,
+          "pitfall": "答成 No, I don't.——那是回答 Do you like…? 的，Would you like…? 要用 No, thanks."
+        },
+        {
+          "question": "客人来家吃饭，饭菜都上桌了，主人请客人别客气、随便吃，最合适的一句是？",
+          "solution": "Help yourself. 意思是请自便、别客气，客人会回一句 Thanks.",
+          "difficulty": 2,
+          "pitfall": "把 Help yourself. 和 Dinner's ready! 弄混——后者是宣布开饭，前者才是请客人动手。"
+        }
+      ],
+      "mistakes": [
+        "把 I'd like 写成 I like。I'd 是 I would 的缩写，点菜表“想要”必须带上 'd 和句尾的 please。",
+        "Would you like some soup? 答成 Yes, I do.。正确回答是 Yes, please. 或 No, thanks.，别和 Do you like…? 的回答弄混。",
+        "Dinner's ready! 写成 Dinners ready.。Dinner's 是 Dinner is 的缩写，撇号不能丢。",
+        "拒绝时只说 No! 太生硬。英语餐桌上的婉拒自带谢意：No, thanks."
+      ],
+      "source": {
+        "unit": "Unit 5 Dinner's ready",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What would you like for dinner? —____（你想要一些汤和面包）",
+          "options": [
+            "I'd like some soup and bread, please.",
+            "I like soup and bread.",
+            "Yes, please.",
+            "Here you are."
+          ],
+          "answer": "A",
+          "solution": "点单句型 I'd like some…, please.：想要汤和面包就这么说。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P48·Mum, I'm hungry. What's for dinner? What would you like for dinner? I'd like some soup and bread, please."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Would you like some soup? —____（你想要）",
+          "options": [
+            "No, thanks.",
+            "Yes, please.",
+            "Yes, I do.",
+            "Here you are."
+          ],
+          "answer": "B",
+          "solution": "Would you like…? 的肯定回答是 Yes, please.，想要就大方说出来。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P51·Dinner's ready! Help yourself. Would you like some soup? Yes, please."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型套用变式：别人问 Would you like a knife and fork? 你会用筷子、不用刀叉，该怎么回答？",
+          "options": [
+            "No, thanks. I can use chopsticks.",
+            "Yes, I do.",
+            "Help yourself.",
+            "I'd like some soup."
+          ],
+          "answer": "A",
+          "solution": "不用刀叉就先谢后说明：No, thanks. I can use chopsticks.（不用了，谢谢，我会用筷子。）",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P47·Would you like a knife and fork? No, thanks. I can use chopsticks. 变式（婉拒与自选餐具）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你在家当小主人招待客人吃晚饭，下面哪一串招待用语最得体？",
+          "options": [
+            "Dinner's ready! Help yourself. Would you like some soup?",
+            "I'm hungry. What's for dinner?",
+            "Pass me the knife.",
+            "No, thanks. I can use chopsticks."
+          ],
+          "answer": "A",
+          "solution": "主人先宣布 Dinner's ready!，再请客人 Help yourself.，还可以关心一句 Would you like some soup?。把这套礼貌用语用在餐桌上，以后招待外国小朋友也一点不慌。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_06",
+      "summary": "问职业说 What's your father's job?，回答 He's a doctor.；数一数家里有几口人，就问 How many people are there in your family?",
+      "explanation": [
+        "这部分从家庭照片聊起：How many people are there in your family?（你家有几口人？）—Nine.（九口。）—Is that your uncle?（那是你叔叔吗？）—Yes, it is. He's a football player.（是的。他是足球运动员。）—What's your aunt's job?（你姑姑的工作是什么？）—She's a nurse.（她是护士。）数家人的对话里，陈杰回答 Three. My parents and me.（三口，爸爸妈妈和我。）；有同学说 My family has six people.，数来数去 But that's only five.，谜底是 And my little puppy!（还有我的小狗！）。介绍家人时说：Hi. Meet my family! This is my uncle. He's tall and strong.。家人词一次学齐：parents（父母）、uncle（叔叔／舅舅）、aunt（姑姑／姨）、cousin（堂／表兄弟姐妹）、baby brother（小弟弟）。认照片的对话也很有趣：Is this your uncle, Sarah? —Yes, it is. He's a football player.／Is this your mother? —What's her job? —She's a nurse. —No, it's me!（不，那是我！）职业词分两批：doctor（医生）、farmer（农民）、nurse（护士）、cook（厨师）、driver（司机），加上 football player（足球运动员）和 teacher（教师）一共七个。问职业的标准问答：What's your father's job? —My father is a doctor.／What's his job? —He's a driver!",
+        "job 就是“工作、职业”，问职业就像猜每个人在家里、在社会上扮演的角色。问男性用 What's his job?，回答 He's a…；问女性用 What's her job?，回答 She's a…。数人数用 How many people are there in your family?，回答先报数字再介绍成员：Three. My parents and me.。照片里指人认人用 Is this your…?，回答 Yes, it is. 或 No, it isn't.——指认照片里的人用 it，这是英语的小习惯。",
+        "职业问答三步：第一步问 What's your father's job?（或 What's his/her job?）；第二步看人答话：男性 He's a…，女性 She's a…；第三步职业词前别忘了 a：He's a doctor.。七个职业词配对记：doctor 医生看病、nurse 护士照顾病人、cook 厨师炒菜、driver 司机开车、farmer 农民种地、football player 踢足球、teacher 教书。数家人分两步：先问 How many people are there in your family?，再按 My family has… people. 报总数、点名成员。",
+        "最容易混的是 his 和 her：his 是“他的”，her 是“她的”，问爸爸用 What's his job?，问妈妈用 What's her job?，答句 He's／She's 要跟着换。第二是职业前丢 a：说 He's a driver.，不能只说 He's driver.。第三是 Is this your uncle? 的回答用 it：Yes, it is.／No, it isn't.，别答成 Yes, he is.——书里就有 No, it's me! 的趣例。还有 parents 指父母两个人，本身就是复数。",
+        "学完这组词句，家里的相册就成了英语卡片：指着照片介绍 This is my uncle. He's a driver.，一幅全家福能练一整套问答；再拿 How many people are there in your family? 去采访同学，比一比谁家人口多。以后还会学到更多职业，长大后想做什么，就从认识这些职业词开始。"
+      ],
+      "methods": [
+        {
+          "name": "职业问答配对法",
+          "steps": [
+            "问：What's your father's job? 或 What's his/her job?",
+            "答：男性 He's a…，女性 She's a…",
+            "职业词前带 a：He's a doctor. She's a nurse."
+          ],
+          "tip": "问 job 答职业，he/she 对上号，a 别忘掉。"
+        },
+        {
+          "name": "家人数量两步法",
+          "steps": [
+            "先问 How many people are there in your family?",
+            "报总数：Three. 或 My family has six people.",
+            "点名成员：My parents and me."
+          ],
+          "tip": "How many 开路，先报数再点人。"
+        },
+        {
+          "name": "照片认人法",
+          "steps": [
+            "指着照片问 Is this your uncle?",
+            "是就答 Yes, it is.，还能补一句 He's a football player.",
+            "不是就答 No, it isn't.，学书中趣例 No, it's me!"
+          ],
+          "tip": "照片里的人用 it 指认，Yes, it is. 常挂嘴边。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What's your aunt's job? —____（她是护士）横线上怎么回答？",
+          "solution": "She's a nurse. 姑姑是女性，用 She's，职业前带 a。",
+          "difficulty": 1,
+          "pitfall": "答成 He's a nurse.——her 问的是女性，回答要用 She's。"
+        },
+        {
+          "question": "—How many people are there in your family? —____（三口人，爸爸妈妈和我）",
+          "solution": "Three. My parents and me. 先报数字，再点名成员。",
+          "difficulty": 2,
+          "pitfall": "只说 Three 也对，学书中那样补一句 My parents and me. 更完整。"
+        },
+        {
+          "question": "指着照片问 Is this your uncle? 照片上正是叔叔，他还是足球运动员，怎么回答最完整？",
+          "solution": "Yes, it is. He's a football player. 先用 it 认人，再补上他的职业。",
+          "difficulty": 2,
+          "pitfall": "答成 Yes, he is.——指认照片里的人用 it：Yes, it is."
+        }
+      ],
+      "mistakes": [
+        "his 和 her 用反：his 他的、her 她的，What's his job? 问男性，What's her job? 问女性。",
+        "职业词前丢 a：要说 He's a driver.，不能只说 He's driver.",
+        "Is this your mother? 答成 Yes, she is.。指认照片里的人用 it：Yes, it is.／No, it isn't.",
+        "把 parents 当成一个人：parents 指父母两个人，本身就是复数，一个人要说 father 或 mother。"
+      ],
+      "source": {
+        "unit": "Unit 6 Meet my family",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "职业配对：下面哪个词表示“护士”？",
+          "options": [
+            "nurse",
+            "doctor",
+            "farmer",
+            "cook"
+          ],
+          "answer": "A",
+          "solution": "nurse 是护士；doctor 是医生，farmer 是农民，cook 是厨师。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P62·doctor farmer nurse cook driver（What's your father's job? My father is a doctor.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—How many people are there in your family, Chen Jie? —____",
+          "options": [
+            "She's a nurse.",
+            "Three. My parents and me.",
+            "Yes, it is.",
+            "He's a driver!"
+          ],
+          "answer": "B",
+          "solution": "How many…? 问数量，先报数字 Three.，再介绍成员 My parents and me.；其他选项是职业和认人的回答。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P58·How many people are there in your family, Chen Jie? Three. My parents and me."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型套用变式：你姑姑是厨师，别人问 What's your aunt's job? 该怎么回答？",
+          "options": [
+            "She's a cook.",
+            "He's a cook.",
+            "Yes, it is.",
+            "I'd like some beef."
+          ],
+          "answer": "A",
+          "solution": "姑姑是女性：She's a cook.。句型不变，换职业词就行，书中原句是 She's a nurse.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P56·What's your aunt's job? She's a nurse.（Is that your uncle? Yes, it is. He's a football player.）变式（换职业套用问答）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字场景：向全班介绍你的家庭——妈妈是老师，爸爸是司机。下面哪一组句子说得都对？",
+          "options": [
+            "My mother is a teacher. My father is a driver.",
+            "My mother is a doctor. My father is a nurse.",
+            "My mother is a driver. My father is a teacher.",
+            "My mother is a cook. My father is a farmer."
+          ],
+          "answer": "A",
+          "solution": "teacher 是教师，driver 是司机：My mother is a teacher. My father is a driver.。照这个样子把全家介绍一遍，再用 How many people are there in your family? 去采访同学的家庭，比一比谁家人口多。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_07",
+      "summary": "词尾藏着不发音的魔法 e：它一挥手，前面的元音就喊出字母本名，cat 变 cake、cap 变 cape，短音一下变长音。",
+      "explanation": [
+        "拼读内容一步一步学：先学 a_e——cake、face、name、make，和短音对比 cat/cake、dad/date、hat/hate；再学 i_e——like、kite、nine、five、rice，对照 big、six、pig；接着 o_e——note、hope、home、nose、rose、Coke，对照 not、hot、box、dog、lost；然后 u_e——use、cute、excuse；最后是 e 读长音的 be、he、she、me、we，对照 bed、red、let、get。规律就一条：词尾的 e 不发音，它让前面的元音读字母本名（长音）。",
+        "把 magic e 想成一位隐身小魔法师：它站在词尾，自己一声不吭，却挥着魔法棒对前面的元音说：'别害羞，大声喊出自己的名字！'于是 a 喊出'诶'（cake），i 喊出'爱'（kite），o 喊出'欧'（nose），u 喊出'优'（cute）。魔法师一走，元音又缩回去读短音。所以 cap 和 cape 只差一个 e，读音却差了十万八千里。",
+        "拿到生词先做'魔法 e 三步判'：第一步看词尾，找一找有没有不发音的 e；第二步定音——有 e 就是长音，读字母本名；没有 e 就是短音；第三步成对对比读巩固：cat—cake、big—like、hot—hope、us—use。朗读时把长音读饱满，嘴巴张到位，词尾的 e 始终保持沉默。",
+        "三个易错点要盯住：一是把词尾 e 读出声，cake 读成'keik-e'就不像话；二是长短音读反，把 cake 读成短音、把 cat 读成长音；三是拼写丢 e，note 写成 not 意思就变成'不'了。特别提醒 u_e 这一族：use、cute 的 u 要读字母名'优'，别缩回'乌'的短音。",
+        "魔法 e 是拼读的第一把金钥匙：以后见到生词先找 e、再定读音；背单词按 a_e、i_e、o_e、u_e 一家一家记，又快又牢。往后还会学到更多元音组合的读音，今天把长音短音分清楚，新规则一来就能稳稳接住。"
+      ],
+      "methods": [
+        {
+          "name": "魔法 e 三步判读法",
+          "steps": [
+            "第一步看词尾：找不发音的 e",
+            "第二步定音：有 e 读长音（字母本名），没 e 读短音",
+            "第三步对比读：cat—cake、hat—hate、not—note、us—use 成对念",
+            "遇到新单词先判长短，再大声读三遍"
+          ],
+          "tip": "魔法 e 不发音，元音读长音；cap 加 e 变 cape，a 喊出自己名。"
+        },
+        {
+          "name": "长音家族归类法",
+          "steps": [
+            "把单词分家：cake、face、name、make 是 a_e 家，like、kite、nine、rice 是 i_e 家，note、hope、home、nose、rose 是 o_e 家，use、cute 是 u_e 家",
+            "每家齐声读一遍，听清长音",
+            "把短音兄弟请出来对照：cat、big、hot、us、bed",
+            "以后遇到新词，先认家门再读音"
+          ],
+          "tip": "cake 一家 a_e，kite 一家 i_e，note 一家 o_e，cute 一家 u_e；he she me we 也读长音。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "cake 里的 a 读长音还是短音？为什么？",
+          "solution": "读长音。词尾有不发音的 e，a 就读字母本名；要是没有魔法 e，cat 里的 a 就是短音。",
+          "difficulty": 1,
+          "pitfall": "把词尾的 e 也读出来，读成'keik-e'；e 只施魔法不出声。"
+        },
+        {
+          "question": "big、six、kite 三个词，哪个里的 i 读长音？",
+          "solution": "kite。它有魔法 e，i 读字母名'爱'；big、six 没有魔法 e，i 读短音。",
+          "difficulty": 1,
+          "pitfall": "三个词都按长音读，没先看词尾有没有 e。"
+        },
+        {
+          "question": "hat 加上魔法 e 变成 hate，读音发生了什么变化？",
+          "solution": "a 从短音变成长音，读字母本名；词尾 e 不发音：hat 读短音，hate 读长音。",
+          "difficulty": 2,
+          "pitfall": "以为加 e 就是多读一个音——e 不发声，变的是前面元音的读音。"
+        }
+      ],
+      "mistakes": [
+        "把词尾 e 读出声：cake、note 结尾的 e 只施魔法不发音，别读成两个音。",
+        "长短音读反：把 cake 读成短音、把 cat 读成长音。先找 e 再开口。",
+        "拼写丢 e：note 写成 not、like 写成 lik，读音和意思全变了，默写完检查词尾。",
+        "u_e 读回短音：use、cute 的 u 要读字母名'优'，别缩回'乌'的短音。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "cat 戴上魔法 e 变成 cake，a 的读音怎么变？",
+          "options": [
+            "从短音变长音，读字母本名",
+            "还是读短音，没有变化",
+            "这个 a 不用再读了",
+            "变成 e 的读音"
+          ],
+          "answer": "A",
+          "solution": "魔法 e 让 a 读长音：cat 的 a 读短音，cake 的 a 读字母本名。书上的对比词就是 cat/cake。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P6·a_e 拼读（cat/cake、dad/date、hat/hate；cake face name make）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一组词全都带着魔法 e、元音读长音？",
+          "options": [
+            "note, hope, nose",
+            "not, hot, box",
+            "dog, lot, lost",
+            "rose, not, home"
+          ],
+          "answer": "A",
+          "solution": "note、hope、nose 都是 o_e 家的成员；not、hot、box、dog、lot、lost 是没有魔法 e 的短音词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P26·o_e 拼读（not/note、hot/hope、box dog nose、nose rose lost；Coke）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式辨音：下面哪个词里的 i 读短音？",
+          "options": [
+            "kite",
+            "like",
+            "six",
+            "nine"
+          ],
+          "answer": "C",
+          "solution": "six 没有魔法 e，i 读短音；kite、like、nine 都有词尾 e，i 读长音'爱'。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P16·i_e 短长音对比变式（big six pig 对照 like kite nine five rice）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小魔法师上岗：us 加上魔法 e 变成 use，u 的读音怎么变？再写出一个 u_e 家的词。",
+          "answer": "u 从短音变长音，读字母本名'优'（use）；示例：cute。",
+          "solution": "词尾加 e 后 u 读字母名，e 保持沉默；u_e 家还有 cute、excuse，把家族成员读给家长听。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_08",
+      "summary": "听前先猜要抓数字、颜色还是位置词，边听边做记号，听完再核对；听不懂的词大胆跳过。",
+      "explanation": [
+        "书上每个话题的对话和听力活动都在练同一件事：抓关键词。数字类——What's in your schoolbag? 的答案是 An English book, a maths book, three storybooks and …，How many people are there in your family? 的答案是 Three.；颜色类——What colour is it? It's blue and white.；位置类——Where are the keys? Are they on the table? No, they aren't. They're in the door. 综合复习里还有听音给房间排顺序的活动：听前先看清房间图，听时把序号对号入座。",
+        "听力像寻宝，关键词就是藏宝图上的红叉：数字词回答“有几个”，颜色词回答“什么样”，位置词回答“在哪里”。动耳之前先猜宝藏在哪一类，耳朵就有了靶子，整段话才不会像一阵风刮过去，什么也没留下。",
+        "三步走：第一步听前预判——看到题目问 How many 就准备抓数字，问 What colour 就准备抓颜色，问 Where 或 Is it in/on/under 就准备抓位置词；第二步边听边做记号——数字直接记 1、3 这样的数，颜色记“蓝白”两个字，位置记介词的首字母；第三步听完核对——把记号连成答案，检查有没有自相矛盾，没把握的地方再回忆一遍。",
+        "三个易错处：一是没听完就抢答，位置题常常先报一个错位置再说对位置，on the table 被否定之后才有 They're in the door.，要听到最后一句；二是边听边想拼写，手一停耳朵就漏了下一句，听的时候只记记号不拼单词；三是生词卡壳就发慌，其实跳过它，后面的关键词照样能把大意接起来。",
+        "抓关键词是听力继续升级的基本功：以后对话更长、语速更快、还要听短文做题，靠的都是“预判—记录—核对”这一套。把这个习惯练熟，听英文故事、看英文动画的时候，你也会越听越明白。"
+      ],
+      "methods": [
+        {
+          "name": "问什么抓什么法",
+          "steps": [
+            "拿到题目先读问句：有 How many 抓数字，有 What colour 抓颜色，有 Where 或 Is it in… 抓位置词",
+            "把要抓的词类记在心里，比如先默念一遍“颜色”",
+            "听的时候只对这一类词竖起耳朵，其他词放过"
+          ],
+          "tip": "问什么，抓什么；耳朵有了靶子，不乱开枪。"
+        },
+        {
+          "name": "记号核对法",
+          "steps": [
+            "边听边做小记号：数字写阿拉伯数字，颜色写一两个字，位置写介词首字母",
+            "听完先别急着下笔，把记号连成完整的答案",
+            "核对一遍：数字加一加，位置和问句对一对"
+          ],
+          "tip": "手上有记号，脑子不空转；核对一遍再下笔。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "听力题的问句是 What colour is the schoolbag?（书包是什么颜色）。录音还没放，你先要做什么准备？",
+          "solution": "预判关键词类型：这是颜色题，待会儿重点抓 blue、white 这类颜色词，听到就记下来。",
+          "difficulty": 1,
+          "pitfall": "以为准备就是通读全卷，其实只要定下要抓的词类，耳朵立刻就有了目标。"
+        },
+        {
+          "question": "听到 An English book, a maths book, three storybooks and …，书包里一共有几本书？",
+          "solution": "5 本。一本英语书、一本数学书、三本故事书，1+1+3=5。数字要边听边记成 1、1、3，听完再加起来。",
+          "difficulty": 2,
+          "pitfall": "只记住 three，把前面的一本一本漏掉，答案就成了 3。"
+        },
+        {
+          "question": "听到 Where are the keys? Are they on the table? No, they aren't. Look! They're in the door. 钥匙最后在哪里？",
+          "solution": "in the door（在门上）。位置题要听到最后一处：on the table 已经被 No 否定，最后一句才是答案。",
+          "difficulty": 2,
+          "pitfall": "听到第一个位置 on the table 就落笔，后面整个反转都没听见。"
+        }
+      ],
+      "mistakes": [
+        "听前不做预判，耳朵漫无目的，关键词从耳边溜走还不知道。",
+        "一边听一边默拼单词，手脑打架，漏掉下一句。听时只记记号，拼写留给课后。",
+        "没听完就抢答。位置题和数字题常在最后一句反转，要听到句号再定答案。",
+        "生词卡壳就慌了神，整段放弃。跳过生词，记号继续做，大意不受影响。"
+      ],
+      "source": {
+        "unit": "各单元 Let's talk / 听力活动",
+        "pages": [
+          14,
+          68
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "同学说：Excuse me. I lost my schoolbag.（对不起，我丢了书包。）要帮他找回书包，接下来听他说的时候，最需要边听边记住的是？",
+          "options": [
+            "书包的颜色和书包里的书",
+            "他的年龄和生日",
+            "他家有几口人"
+          ],
+          "answer": "A",
+          "solution": "lost（丢了）是信号词，接下来讲的颜色和里面的书才是找书包的线索；年龄、家庭人数和找书包没关系。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P17·失物对话（Excuse me. I lost my schoolbag. What colour is it?）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "听到 How many people are there in your family, Chen Jie? Three. My parents and me. 陈杰家一共有几口人？",
+          "options": [
+            "Two",
+            "Three",
+            "Six"
+          ],
+          "answer": "B",
+          "solution": "How many 提示抓数字：Three. 就是答案。parents（父母）两个人加上我，正好三口，数字对得上。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P58·对话（How many people are there in your family, Chen Jie? Three.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "小听力复原：你听到四句话，把它们排成通顺的对话。① It's blue and white. ② Excuse me. I lost my schoolbag. ③ Here it is! ④ What colour is it?",
+          "options": [
+            "②④①③",
+            "④②③①",
+            "②①④③"
+          ],
+          "answer": "A",
+          "solution": "先说丢了书包，再被问什么颜色，答出颜色，最后 Here it is!（找到了）。抓住“问在答前、找到在最后”的顺序。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P17·失物对话变式（What colour is it? It's blue and white. Here it is!）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战题：同学慢慢念一段话当小听力——Where are my glasses? Are they on the bed? No. Are they on the fridge? No. Look! They're near the phone. 眼镜最后在哪里？",
+          "answer": "near the phone（在电话旁边）",
+          "solution": "位置题听到最后一句才作数：on the bed 和 on the fridge 都被 No 否定，They're near the phone. 才是答案。五年级听更长的对话，用的还是“听到最后、核对反转”这一招。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_09",
+      "summary": "用问职业、问人数、确认身份的句式采访同学，再把答案连成三句话，大大方方介绍朋友和家庭。",
+      "explanation": [
+        "综合复习把全册学过的问句串成了一场采访。猜朋友用的是：Who's your friend? Can you guess? She's friendly and she speaks English well. She's tall. She has short hair and big eyes. What's her name?；到家里做客用的是：Welcome! Come and meet my family. This is my mother. She's a nurse. Is that your father?；还有一张现成的采访问句清单：How many people are there in the family? What's his/her job? 问句就是采访提纲，答案就是介绍的素材。",
+        "采访像小记者跑新闻：问句是提纲，记录是笔记，介绍是播报。先一问一答收集情报——家里几口人、爸妈做什么工作、照片上这位是谁；再把情报打包成三句话，站上讲台大大方方播报。问和说连起来，英语才真正成了交流的工具。",
+        "采访三问：一问人数——How many people are there in your family?（回答 Three. 或 My family has six people.）；二问职业——What's your father's job? / What's his job? / What's her job?（回答 He's a driver. She's a nurse.）；三确认身份——Is this your uncle? / Is that your aunt?（回答 Yes, it is. / No, it isn't.）。介绍三句：第一句报身份 This is my…；第二句说职业 He's/She's a…；第三句加一句外貌或性格 He's/She's tall and friendly.",
+        "易混点有三处：his 和 her 别用反——问男生用 What's his job?，问女生用 What's her job?；职业词前别丢 a——He's a doctor. 不能说成 He's doctor.；Is this your uncle? 的回答用 it——Yes, it is.（书上的原对话就是这么答的），然后可以再补一句 He's a football player. 介绍这位叔叔。",
+        "先采访后介绍，是以后“调查—统计—汇报”类任务的雏形：五六年级要写介绍家庭的小短文、做班级小调查，都是先把问句用熟，再把答案组织成段落。现在把这三类问句背得滚瓜烂熟，以后开口就有框架，动笔就有骨架。"
+      ],
+      "methods": [
+        {
+          "name": "小记者采访法",
+          "steps": [
+            "列提纲：人数、职业、身份确认三类问句各挑一句",
+            "逐句采访，边问边记：数字用阿拉伯数字，职业写中文一两个字",
+            "采访完把笔记连成三句话介绍"
+          ],
+          "tip": "一问二记三连句，采访介绍一条龙。"
+        },
+        {
+          "name": "三句话介绍法",
+          "steps": [
+            "第一句报身份：This is my mother.",
+            "第二句说职业：She's a nurse.",
+            "第三句加外貌或性格：She's very friendly."
+          ],
+          "tip": "身份、职业、再夸夸，三句介绍顶呱呱。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "你想知道同学的姑姑做什么工作，该问哪一句？",
+          "solution": "What's your aunt's job? 姑姑是女性，回答会是 She's a nurse. 这样的句子。",
+          "difficulty": 1,
+          "pitfall": "顺手问成 What's his job?——his 是“他的”，问姑姑要用 her。"
+        },
+        {
+          "question": "采访到三条信息：妈妈、护士、很 friendly。把它们连成三句话介绍给大家。",
+          "solution": "This is my mother. She's a nurse. She's very friendly. 身份、职业、性格，一句一个信息。",
+          "difficulty": 2,
+          "pitfall": "第二句丢了 a，说成 She's nurse.——职业词前面的 a 不能省。"
+        },
+        {
+          "question": "同学指着照片问：Is this your uncle? 该怎么回答？",
+          "solution": "是就答 Yes, it is.，还可以补一句 He's a football player.（他是足球运动员）；不是就答 No, it isn't.",
+          "difficulty": 2,
+          "pitfall": "顺口答成 Yes, he is.——问“这是……？”时要用 it 来回应。"
+        }
+      ],
+      "mistakes": [
+        "只顾提问不做记录，介绍时大脑一片空白。边问边用中文关键词记两笔。",
+        "his/her 用反。先想清楚说的是男生还是女生，再选 his 或 her。",
+        "职业句丢 a：He's a driver. 写成 He's driver.，句子就“瘸”了。",
+        "介绍只报一个名字就收场。身份、职业、外貌或性格，凑满三句才算完整介绍。"
+      ],
+      "source": {
+        "unit": "Recycle & 单元任务",
+        "pages": [
+          32,
+          69
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "想问对方的爸爸做什么工作，用哪句话？",
+          "options": [
+            "What's your father's job?",
+            "How many people are there in your family?",
+            "Is that your father?"
+          ],
+          "answer": "A",
+          "solution": "问职业用 What's … job?；问人数用 How many…?；确认身份用 Is that…? 三类问句各管一件事。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P62·词句活动（What's your father's job? My father is a doctor.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "采访同学时他回答：My family has six people.（我家有六口人。）你是用哪句话问出这个答案的？",
+          "options": [
+            "What's your mother's job?",
+            "How many people are there in your family?",
+            "Where's John?"
+          ],
+          "answer": "B",
+          "solution": "六口人正是 How many people are there in your family? 的回答；问职业、找人名的问句都问不出人数。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P58·对话（My family has six people.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "采访结束要上台介绍，把三句话排成通顺的顺序：① She's a nurse. ② This is my mother. ③ She's very friendly.",
+          "options": [
+            "②①③",
+            "①②③",
+            "②③①"
+          ],
+          "answer": "A",
+          "solution": "先报身份 This is my mother.，再说职业 She's a nurse.，最后夸性格。和到别人家做客时 This is my mother. She's a nurse. 的说法一致。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P68·采访问句变式（What's his/her job?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小记者任务：回家采访一位家人，写出三句话介绍他/她——一句身份、一句职业、一句外貌或性格，注意 his/her、a 和标点。",
+          "answer": "示例：This is my father. He's a driver. He's tall and strong.",
+          "solution": "先用采访问句拿到信息，再按“身份—职业—性格”的模板连成三句，写完检查 has 和标点。以后写介绍家庭的小短文，就是在这个基础上再加一两句。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_10",
+      "summary": "仿写像搭积木：My friend is… He/She has… He/She likes…，先看例句找结构，再换零件写自己的三句话。",
+      "explanation": [
+        "书上的写作是一级一级台阶搭上来的：先照着示范句抄写，再对着例句仿写。朋友话题的示范句有 I have a new friend. Look! He's tall and strong.，还有 He has short hair. He has a big green bag. / She has long hair. She has orange shoes.；书上请大家照着样子写一写自己的同学，家庭话题也是同样玩法：This is my family. My mother is a teacher. 接着写自己的家。把三句话模板记住：My friend is…（姓名或性格）、He/She has…（外貌）、He/She likes…（爱好）。",
+        "抄写是描红：一笔一画照着写，练的是手。仿写是换零件：句子结构是积木底座，姓名、外貌、爱好是能换的零件。底座不动，零件照换，写出来的新句子既是自己的，又和例句一样规范——这比凭空造句容易得多，也不容易错。",
+        "仿写四步：第一步读例句找结构——谁加 is/has/likes 加什么，把例句切成一张零件表；第二步定零件——给朋友定好姓名、一个外貌、一个爱好；第三步按模板组装——My friend is Lily. She has long hair. She likes reading.；第四步自检三关——句首字母大写了没（My、She），has 和 likes 的 s 在没，句末标点点了没。",
+        "易混点有三个：have/has——I 和 you 用 have（I have a good friend.），he/she 用 has（He has short hair.）；his/her——男生用 his（His shoes are blue.），女生用 her（Her bag is red.）；likes 的 s——主语是 he/she 时动词要加 s，而且 likes 后面的动作要加 -ing：likes reading、likes playing。",
+        "仿写是写作的起跑线：五年级要把三句话扩成五句话的小短文，六年级要学会自己谋篇布局，靠的都是“先拆例句、再换零件”的方法。每次仿写完用三关自检法过一遍，大小写、has、标点的毛病就会越来越少，写出的句子越来越像样。"
+      ],
+      "methods": [
+        {
+          "name": "例句解剖法",
+          "steps": [
+            "把例句切成零件：谁（My friend / He / She）、动词（is / has / likes）、内容（姓名、外貌、爱好）",
+            "顺手标出大小写和标点的位置",
+            "照着零件表换上新零件，组装成自己的三句话"
+          ],
+          "tip": "先拆后装，句子结构看得清清楚楚。"
+        },
+        {
+          "name": "三关自检法",
+          "steps": [
+            "第一关：每句开头的字母大写了没有",
+            "第二关：he/she 后面的 has、likes 的 s 在不在",
+            "第三关：每句末尾的标点点了没有"
+          ],
+          "tip": "大写、has、点号，三关都过才算写完。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "例句是 He has short hair. 这里的 has 能换成 have 吗？",
+          "solution": "不能。主语是 He，要用 has；I 和 you 才用 have，比如 I have a good friend.",
+          "difficulty": 1,
+          "pitfall": "读着顺口就以为 have/has 可以随便换，其实由主语说了算。"
+        },
+        {
+          "question": "把 my friend is tall 改成一句完全规范的句子。",
+          "solution": "My friend is tall. 句首字母大写，句末加上点号，两处都补齐。",
+          "difficulty": 2,
+          "pitfall": "只改大写忘了标点，或只补标点忘了大写，规范就差一口气。"
+        },
+        {
+          "question": "用模板仿写：朋友叫 Lily，留长头发，喜欢读书。",
+          "solution": "My friend is Lily. She has long hair. She likes reading. 女生用 She，has 和 likes 的 s 都不丢。",
+          "difficulty": 2,
+          "pitfall": "写成 She like reading——主语 She 后面的动词要加 s。"
+        }
+      ],
+      "mistakes": [
+        "he/she 后面用 have。除了 I 和 you，一律用 has。",
+        "句子开头小写、句末没标点。英语句子头要抬起来（大写），尾要收住（标点）。",
+        "likes 丢掉 s。He/She likes… 的 s 是主语带来的记号，不能省。",
+        "三句都只写名字，没有外貌和爱好。模板三句各管一件事：是谁、长什么样、喜欢什么。"
+      ],
+      "source": {
+        "unit": "各单元书写与仿写任务",
+        "pages": [
+          24,
+          63
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪一句写得完全正确？",
+          "options": [
+            "He have short hair.",
+            "He has short hair.",
+            "He has short hair"
+          ],
+          "answer": "B",
+          "solution": "B 句 has 用对、句末点号齐；A 句该用 has，C 句少了句末标点。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P29·仿写例句（He has short hair. He has a big green bag.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "介绍朋友的第一句：我有一个好朋友。下面填哪个词才对？I ___ a good friend.",
+          "options": [
+            "have",
+            "has",
+            "am"
+          ],
+          "answer": "A",
+          "solution": "主语是 I，用 have；如果主语换成 He 或 She，才用 has。先看主语再选动词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P24·对话（I have a new friend. Look! He's tall and strong.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "仿写三句话要按模板顺序组装，把打乱的句子排对：① He likes reading. ② My friend is Ben. ③ He has short hair.",
+          "options": [
+            "②③①",
+            "①②③",
+            "③②①"
+          ],
+          "answer": "A",
+          "solution": "模板顺序是先姓名（is）、再外貌（has）、后爱好（likes），和书上例句的排法一致。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP四上 P33·综合复习仿写变式（Kate likes to make rice cakes.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "仿写挑战：按模板写出你朋友的三句话——姓名或性格一句、外貌一句（用 has）、爱好一句（用 likes），写完用三关自检法查一遍。",
+          "answer": "示例：My friend is Kate. She has long hair. She likes reading.",
+          "solution": "先拆模板再填自己的零件，写完自查大写、has/likes 的 s 和标点。五年级写小短文时，这三句话就是文章的开头。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_11",
+      "summary": "中餐桌上用筷子 chopsticks，西餐桌上用刀叉 knife and fork；请客人随便吃就说 Help yourself.，两种餐具都值得尊重。",
+      "explanation": [
+        "这部分把餐桌搬进了英语课：Would you like a knife and fork?（你要刀叉吗？）—No, thanks. I can use chopsticks.（不用了，谢谢，我会用筷子。）主人招呼客人：Help yourself.（请自便、多吃点。）—Thanks.（谢谢。）举杯时说 Cheers!（干杯！）餐具词五个一起认：chopsticks（筷子）、knife（刀）、fork（叉）、spoon（勺子）、bowl（碗）。餐桌指令边做边说：Pass me the bowl.（把碗递给我。）Pass me the knife.（把刀递给我。）Cut the vegetables.（切蔬菜。）Use the spoon.（用勺子。）Use the fork.（用叉子。）读写部分还有一段有趣的话：吃面条时，Can I have a knife and fork, please? —Yes, John, but try chopsticks for noodles.（可以，不过吃面条还是试试筷子吧。）",
+        "中餐一双筷子夹天下，西餐左手叉右手刀切着吃，这是不同的饮食习惯，没有谁好谁坏。chopsticks 为什么总带 -s？因为筷子从来都是两根一起用，成双成对，英语就干脆用复数；knife（刀）和 fork（叉）一把就是一件，所以一副刀叉说 a knife and fork。bowl 是碗，spoon 是勺，喝汤用 spoon，盛饭用 bowl。",
+        "学餐具三步走：第一步认词，chopsticks、knife、fork、spoon、bowl 各认一遍；第二步学指令，Pass me…（递给我）、Cut…（切）、Use…（用），边做动作边说；第三步懂礼仪，请客人多吃说 Help yourself.，客人回 Thanks.，举杯同庆说 Cheers!。记 chopsticks 的小窍门：sticks 是小棍，两根小棍快快夹菜，就是筷子。",
+        "最容易错的是把 chopsticks 当单数用：它常用复数形式，两根一双，说 I can use chopsticks.。knife 是刀、fork 是叉，别认反——切东西的是 knife，带尖叉食物的是 fork。Help yourself. 是主人请客人自便的话，客人回应谢意说 Thanks.，别把它当成道谢的话用反了。还有刀、叉、勺、碗各是一件，前面可以带 a：a knife、a fork、a spoon、a bowl。",
+        "把中西餐桌各自的本领都学会，你就是餐桌上的小小文化使者：在家里用筷子练 Pass me the bowl.，西餐厅里认一认 knife and fork。以后还会遇到更多饮食文化——不同的节日吃什么、不同的国家怎么待客；见了不同的习惯，先送上 Help yourself. 的热情，再怀一颗互相尊重的心。"
+      ],
+      "methods": [
+        {
+          "name": "餐具认词法",
+          "steps": [
+            "bowl 碗——盛饭用它",
+            "spoon 勺——喝汤用它",
+            "knife 刀、fork 叉——切和叉",
+            "chopsticks 筷子——成双成对"
+          ],
+          "tip": "碗勺刀叉加筷子，五件餐具一桌聚。"
+        },
+        {
+          "name": "中西对比法",
+          "steps": [
+            "中餐：用 chopsticks 吃米饭、面条",
+            "西餐：用 a knife and fork 切牛排",
+            "发现不同：chopsticks 常用复数，knife/fork 一把一件",
+            "互相尊重：习惯不同，都很棒"
+          ],
+          "tip": "中餐 chopsticks，西餐 knife and fork，习惯不同都尊重。"
+        },
+        {
+          "name": "餐桌礼仪法",
+          "steps": [
+            "主人请客人多吃点：Help yourself.",
+            "客人回应：Thanks.",
+            "举杯同庆说：Cheers!",
+            "边演边说，把礼仪演出来"
+          ],
+          "tip": "Help yourself 请自便，Thanks 回应甜又甜。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "吃面条的时候，书里的话建议 John 试试哪样餐具？",
+          "solution": "chopsticks（筷子）。原句是 try chopsticks for noodles——吃面条用筷子更顺手。",
+          "difficulty": 1,
+          "pitfall": "以为吃什么都用刀叉——吃面条还是筷子方便。"
+        },
+        {
+          "question": "chopsticks 这个词为什么常用复数形式？",
+          "solution": "因为筷子总是两根一起用、成双成对，英语里就用复数 chopsticks 来表示这一双。",
+          "difficulty": 2,
+          "pitfall": "以为去掉 -s 才对——少了 -s 反而不合习惯。"
+        },
+        {
+          "question": "客人来家里吃饭，主人请客人别客气、随便吃，最合适的一句英语是？",
+          "solution": "Help yourself. 客人可以回一句 Thanks.",
+          "difficulty": 2,
+          "pitfall": "把 Help yourself. 当成道谢的话——它是招待客人时说的，不是道谢。"
+        }
+      ],
+      "mistakes": [
+        "把 chopsticks 当单数：它常用复数形式，因为筷子两根成双，I can use chopsticks. 才地道。",
+        "knife 和 fork 认反：knife 是刀（切），fork 是叉（叉起食物），一副刀叉说 a knife and fork。",
+        "Help yourself. 用反场合：它是主人请客人自便的话，客人回应说 Thanks.。",
+        "看到别人用餐习惯和自己不同就笑话人家：中餐西餐各有所爱，餐具不同、尊重相同。"
+      ],
+      "source": {
+        "unit": "Unit 5 文化内容",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "文化常识：在中餐桌上吃面条，用下面哪种餐具最顺手？",
+          "options": [
+            "a knife",
+            "a fork",
+            "chopsticks",
+            "a plate"
+          ],
+          "answer": "C",
+          "solution": "吃面条用筷子：try chopsticks for noodles.；chopsticks 是两根一双的筷子。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P51·Would you like a knife and fork? No, thanks. I can use chopsticks.（Help yourself.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "餐桌指令：吃饭时想请家人把刀递给你，最合适的一句是：",
+          "options": [
+            "Cut the vegetables.",
+            "Use the spoon.",
+            "Pass me the knife.",
+            "Help yourself."
+          ],
+          "answer": "C",
+          "solution": "请人递东西说 Pass me…：Pass me the knife. 把刀递给我。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P52·Pass me the bowl. Pass me the knife. Cut the vegetables.（fork knife spoon bowl chopsticks）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "礼仪变式：小客人第一次来你家吃饭，妈妈让你招呼他别客气、随便吃，最合适的一句是：",
+          "options": [
+            "No, thanks.",
+            "Pass me the bowl.",
+            "Here's your bill.",
+            "Help yourself."
+          ],
+          "answer": "D",
+          "solution": "请客人自便用 Help yourself.；No, thanks. 是婉拒，Here's your bill. 是餐厅结账时的话。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P47·Help yourself. Cheers! Dinner's ready 变式（餐桌待客礼仪）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字场景：西餐厅里朋友用刀叉吃牛排，中餐厅里你用筷子吃面条。下面哪种想法最合适？",
+          "options": [
+            "餐具不同是饮食习惯不同，互相尊重、各自享受美食",
+            "劝朋友改用筷子才算礼貌",
+            "觉得自己用筷子更高明，笑话他用刀叉",
+            "再也不和朋友一起吃饭了"
+          ],
+          "answer": "A",
+          "solution": "习惯不同不代表谁对谁错，学会 Help yourself. 的热情，也学会尊重别人的习惯。以后还会了解更多国家的饮食文化，见得多、懂得多，你就是餐桌上的小小文化使者。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g4a_12",
+      "summary": "期末用五张主题词网自查：教室、朋友、家、餐桌上、家庭，分清两种掌握要求，累计约 210 个词。",
+      "explanation": [
+        "书后的词汇表按话题把词列成一张张清单：教室有 classroom、window、blackboard、light、picture、door、computer、fan、wall、floor；朋友有 tall、strong、friendly、quiet、hair、glasses、shoe；家有 bedroom、living room、study、kitchen、bathroom、bed、sofa、table、phone、fridge；餐桌上有 beef、chicken、noodles、soup、vegetable、chopsticks、bowl、fork、knife、spoon；家庭有 parents、uncle、aunt、cousin、baby brother，职业有 doctor、driver、farmer、nurse、cook、football player、teacher。表前写着分级要求：有的词要能听、说、认读，有的词只作听、说。三年级学过约 140 个词，加上这学期的约 70 个，累计约 210 个词。",
+        "210 个词听着吓人，摊成五张词网就不怕了。每张网是一个房间：教室的网、朋友的网、家的网、餐桌的网、家庭的网。词住进自己的房间，想不起来哪个词，就走进那张网里找，就像在房间里找东西一样有条理。",
+        "自查三步：第一步按五张网轮流“过电影”——说教室就一口气数 window、blackboard、door……，能数几个数几个；第二步数一数每张网说出了几个，把卡壳的地方记下来；第三步翻开词汇表核对补漏——先查要听、说、认读的那批主力词，再过只要求听、说的那批，把没把握的词做上记号。",
+        "两种要求别混：要“听、说、认读”的主力词标准高——看到要认识、听到要反应、还要能说出来；只要求“听、说”的词是脸熟词——能听懂、能说出就达标，不必勉强会认会拼。还有容易串网的“双胞胎”：classroom 和 bedroom 开头像，kitchen（厨房）和 chicken（鸡肉）只差两个字母，归类时认准意思再放进对的网。",
+        "词汇会越攒越多，“主题词网加分级自查”是管住词汇的法宝。五年级、六年级词汇量还要涨，每学期结束都摊开词网盘点一次：哪些词稳了、哪些词晃了，一目了然。养成自查的习惯，词汇就再也不会越学越乱。"
+      ],
+      "methods": [
+        {
+          "name": "主题词网法",
+          "steps": [
+            "画出五张词网：教室、朋友、家、餐桌上、家庭",
+            "每张网限时一分钟，能说出几个词说几个",
+            "把卡壳的网记下来，翻开词汇表核对补漏"
+          ],
+          "tip": "词不住在散沙里，词住在主题的房间里。"
+        },
+        {
+          "name": "分级自查法",
+          "steps": [
+            "先自查要听、说、认读的主力词：看英文说中文、看中文说英文都过关",
+            "再过只要求听、说的脸熟词：能听懂、能说出就算达标",
+            "给没把握的词做记号，隔天再查一遍"
+          ],
+          "tip": "主力词要认得真，脸熟词要听得清。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下面哪个词不该住进“餐桌”那张词网？",
+          "solution": "blackboard 是教室词网里的；beef、chicken、noodles、soup、chopsticks、spoon 才是餐桌上的词。",
+          "difficulty": 1,
+          "pitfall": "看 blackboard 黑黑的就想到锅底——归类按词义，不按颜色联想。"
+        },
+        {
+          "question": "kitchen 和 chicken 只差两个字母，它们分别是什么意思、住在哪张词网里？",
+          "solution": "kitchen 是厨房，住在“家”的词网里；chicken 是鸡肉，住在“餐桌上”的词网里。",
+          "difficulty": 2,
+          "pitfall": "背单词只记开头，两个词一串网就背串了，认准结尾才分得清。"
+        },
+        {
+          "question": "词汇自查时，怎么判断一个词算不算过关？",
+          "solution": "先看它属于哪一档要求：要听、说、认读的词，“看到认识、听到反应、能说出来”三样都要行；只要求听、说的词，能听懂、能说出就达标。",
+          "difficulty": 2,
+          "pitfall": "用“会默写”这条最严的标准去卡所有词，把自己吓退——要求本来就没这么高。"
+        }
+      ],
+      "mistakes": [
+        "两百多个词从头背到尾，背一半就烦。摊成五张主题词网，一次只收拾一张网。",
+        "分不清两种要求，用会默写卡死所有词。先过认读的主力词，再过听说的脸熟词。",
+        "只查拼写不查反应。听到 nurse 半天想不起来，说明听力这头还有洞。",
+        "查完不复盘。没把握的词记在本子上，隔两天再查一遍，才算真闭环。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          70,
+          76
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下面哪个词和 window、blackboard 住在同一张“教室”词网里？",
+          "options": [
+            "floor",
+            "fridge",
+            "fork"
+          ],
+          "answer": "A",
+          "solution": "floor（地板）就在教室里；fridge（冰箱）、fork（餐叉）是厨房和餐桌上的词。fork 和 floor 开头像，别看错。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP四上 P70·词汇表 Unit 1（classroom window blackboard light picture door）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一组词全是“餐桌上”主题的？",
+          "options": [
+            "beef、soup、chopsticks",
+            "doctor、driver、nurse",
+            "bedroom、kitchen、sofa"
+          ],
+          "answer": "A",
+          "solution": "牛肉、汤、筷子是餐桌词；B 组是职业词，住在“家庭”的网里；C 组是房间词，住在“家”的网里。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P71·词汇表 Unit 5（beef chicken noodles soup vegetable chopsticks bowl fork knife spoon）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "词汇表前面的说明写着：有的词要能听、说、认读，有的词只作听、说。下面哪种说法符合这个要求？",
+          "options": [
+            "两类词要求不同：认读词要看到能认出，听说词能听懂会说就达标",
+            "所有词都必须会默写才算学会",
+            "只要求听说的词可以完全不用管"
+          ],
+          "answer": "A",
+          "solution": "书上的原话就是分级要求：主力词标准高，脸熟词标准低。自查时按档达标，不做无用功。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP四上 P70·词汇表分级说明变式（黑体词听、说、认读；白体词只作听、说）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "期末词网大挑战：合上书，五张主题词网各说出 3 个词（教室、朋友、家、餐桌上、家庭），再翻开词汇表核对，数一数一共说对了几个。",
+          "answer": "示例：教室 window、blackboard、door；朋友 tall、quiet、glasses；家 bedroom、sofa、fridge；餐桌 beef、soup、chopsticks；家庭 uncle、aunt、cousin。",
+          "solution": "说完数缺口，把没把握的词做记号，隔天再查一遍。这个盘点习惯会一直帮你管住越来越多的词汇。",
           "difficulty": 3
         }
       ]
