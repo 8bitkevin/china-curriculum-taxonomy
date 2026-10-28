@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 51,
+  "lessonCount": 64,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -6563,6 +6563,1626 @@
           "answer": "示例：学校 library、playground；时间 breakfast、go to bed；天气 sunny、windy；农场 horse、tomato；衣服 sweater、pants；购物 how much、cheap。",
           "solution": "挑词先挑黑体词，默写时注意首字母大写和易错字母；批改后补漏盒里的词隔天重默。以后每个学期都可以用这份小卷自查词汇。",
           "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_01",
+      "summary": "学会用 What's he like? 问性格，用 He's clever/polite 这样回答，还能分清 like 的两个意思。",
+      "explanation": [
+        "书上围绕「认识新老师」展开问答：Do you know Mr Young? — No, I don't. Who is he? — He's our music teacher. — Is he young? — No, he isn't. He's old. — Is he funny? — Yes, he is.；总结性格时用 What's she like? — She's kind.，还有 What's Wu Binbin like? — He's hard-working. He is polite.；开头也给出示范：That is Wu Binbin. He's very clever. He's polite, too. This is Amy. She's quiet. She's very hard-working.。要认的性格词有：old、young、funny、kind、strict、polite、clever、hard-working、helpful、shy。",
+        "What's he like? 就像在问「他是个什么样的人」，回答时要请形容词上场：kind（和善）、funny（滑稽有趣）、strict（严格）、helpful（乐于助人）……be 动词 am/is/are 像一座小桥，把人和性格词连起来：I am helpful. He is clever. They are hard-working. 想一想身边的同学，谁能对上哪个词？",
+        "描述一个人分三步：第一步用 Who's your … teacher? 锁定人物；第二步用 Is he/she young/funny/strict? 猜一猜；第三步用 What's he/she like? He's/She's + 性格词 下结论。回答 Is…? 开头的问句要答完整：肯定说 Yes, he is.，否定说 No, he isn't.，最好再补一句 He's old. 说明情况。",
+        "最容易混的是 like 的两个意思。在 What's he like? 里，like 跟在 be 动词后面，意思是「像」，整句问的是性格；在 I like funny teachers. 里，like 前面直接是主语 I，它是动词「喜欢」。判断口诀：like 前有 is/are/'s 就是「像」，like 前面是「人」就是「喜欢」。",
+        "会描述性格，就能向新同学介绍自己的老师和好朋友；后面写「我的老师」小语篇、做采访活动时，都要反复用 He's … She's … 这组句子。现在把句子说顺、把性格词记牢，写作和口语就能一起进步。"
+      ],
+      "methods": [
+        {
+          "name": "三步介绍法",
+          "steps": [
+            "用 Who's your English teacher? 说出人物名字",
+            "用 Is he/she young/funny/strict? 猜一猜性格",
+            "用 What's he/she like? He's/She's + 性格词 总结一句"
+          ],
+          "tip": "先找人再猜一猜，like 问性格，形容词来答话"
+        },
+        {
+          "name": "like 两义辨别法",
+          "steps": [
+            "看 like 前面的词：是 is/'s/are，意思是「像」",
+            "like 前面直接是 I/you/we/they 这样的人，意思是「喜欢」",
+            "把整句读一遍检验：在问「什么样」还是在说「爱不爱」"
+          ],
+          "tip": "有 be 是像，没 be 是喜欢"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What's Ms Wang like? —____　A. She's kind.　B. Yes, she is.　C. I like Chinese.",
+          "solution": "What's she like? 问的是她的性格，要用 She's + 性格词回答，所以选 She's kind.。",
+          "difficulty": 1,
+          "pitfall": "不能选 Yes, she is.，那是回答 Is she…? 这类问句的。"
+        },
+        {
+          "question": "like 在句子 What's she like? 里的意思是什么？　A. 喜欢　B. 像　C. 讨厌",
+          "solution": "What's she like? 里 like 跟在 be 动词后面，意思是「像」，整句在问她的性格。",
+          "difficulty": 2,
+          "pitfall": "看到 like 就只想到「喜欢」是最常见的错误，要先看它前面有没有 be 动词。"
+        },
+        {
+          "question": "选词填空：They ____ helpful.　A. is　B. am　C. are",
+          "solution": "主语 they 是复数，be 动词用 are：They are helpful.。",
+          "difficulty": 1,
+          "pitfall": "he/she/it 配 is，I 配 am，you/we/they 配 are，别凭语感乱选。"
+        }
+      ],
+      "mistakes": [
+        "把 What's he like? 理解成「他喜欢什么」，答成 He likes football.——这句问的是性格，应该答 He's funny. 这样的句子。",
+        "回答 Is he young? 只说一个 No. 不完整，要答完整：No, he isn't.，还可以补上 He's old. 说明情况。",
+        "he 和 she 用混：Mr Young 是男老师要用 He's，Ms Wang 是女老师要用 She's。",
+        "性格词前漏掉 be 动词，说出 He hard-working. 这样的句子——性格词前面必须有 is/are：He is hard-working."
+      ],
+      "source": {
+        "unit": "Unit 1 What's he like?",
+        "pages": [
+          2,
+          11
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Is Mr Young young? —____　A. No, he isn't. He's old.　B. Yes, she is.　C. No, it isn't.",
+          "options": [
+            "No, he isn't. He's old.",
+            "Yes, she is.",
+            "No, it isn't."
+          ],
+          "answer": "A",
+          "solution": "对话里问 Is he young? 回答是 No, he isn't. He's old.，人称用 he，否定后还补一句说明。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P4·师生对话（Do you know Mr Young? Is he young? No, he isn't. He's old.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪个句子里的 like 是「像」的意思？　A. I like funny teachers.　B. What's he like?　C. We like our school.",
+          "options": [
+            "I like funny teachers.",
+            "What's he like?",
+            "We like our school."
+          ],
+          "answer": "B",
+          "solution": "What's he like? 里 like 跟在 be 动词后面表示「像」；另外两句里 like 前面是主语，是动词「喜欢」。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P4·师生对话（Is he funny? Great! I like funny teachers.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型变换：They are helpful.（把主语换成 she）→____　A. She is helpful.　B. She are helpful.　C. She am helpful.",
+          "options": [
+            "She is helpful.",
+            "She are helpful.",
+            "She am helpful."
+          ],
+          "answer": "A",
+          "solution": "she 是第三人称单数，be 动词要用 is：She is helpful.。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P8·性格描述（He's hard-working. He is polite. She is shy. They are helpful.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "小练笔：用 He's/She's + 性格词 介绍你的两位好朋友，每人至少一句，试着用上 very 或 too。",
+          "answer": "示例：She's very clever. He's hard-working, too.",
+          "solution": "先用性格词概括朋友的特点，再用 very 加强语气、用 too 补充一个优点，两句话就是一小段介绍。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_02",
+      "summary": "记住一周七天的英文名，学会用 What do you have on…? 谈课程，用 on Mondays 说每周都有的安排。",
+      "explanation": [
+        "书上的主问句是 What do you have on Fridays? — I have a PE class.；还有 What do you have on Mondays? — I have Chinese, English, maths and music.；What do you have on Thursdays? — I have maths, English and music.；周末活动问答：Do you often read books on the weekend? — No, but I often sleep! / Do you often wash your clothes on the weekend? — Yes, I do. What about you?；拼词规律也写在书上：Mon + day = Monday，bed + room = bedroom。一周七天是 Monday、Tuesday、Wednesday、Thursday、Friday、Saturday、Sunday，其中 Saturday 和 Sunday 两天合称 weekend。",
+        "一个星期就像一列七节的小火车：Monday 是第一节，Sunday 压轴；周六周日两节车厢是 weekend（周末），可以睡懒觉、读故事书。教室墙上贴的课程表，每天那一格写的就是 I have … 的内容，把课表读出来，英语课代表就是你。",
+        "回答课程问题分三步：第一步找到问句里 on 后面的星期词；第二步想想那天课表上有什么；第三步用 I have + 课程名 + on + 星期复数 回答。常见课程词有 Chinese、English、maths、music、science、art、computer class、PE。遇到 Do you often…? 问句，要用 do 来帮忙回答：肯定 Yes, I do.，否定 No, I don't.",
+        "注意 on Mondays 带复数 s，表示「每周一都……」，是习惯安排；on Monday 不加 s 时常指具体的某一个周一。星期名是专有名词，首字母永远大写：写成小写的 monday 就错了。often 意思是「经常」，sometimes 是「有时」，它们说明做事的频繁程度。",
+        "把课程表和周末安排用英语说清楚，就能和同学互相采访、比较一周的生活；后面写「我的一周」小语篇时，用 We have … on … 和 I often … 就能把一句句话连成一段话。"
+      ],
+      "methods": [
+        {
+          "name": "星期顺序记忆法",
+          "steps": [
+            "按 Monday 到 Sunday 的顺序，每天指读一遍",
+            "记住 Saturday 和 Sunday 两天就是 weekend",
+            "默写时逐个检查首字母是否大写"
+          ],
+          "tip": "周一开始周日收尾，六日两天叫 weekend；星期开头要大写，on 后加 s 是每周"
+        },
+        {
+          "name": "课程问答三步法",
+          "steps": [
+            "抓问句：What do you have on…?",
+            "对课表：想一想那天有什么课",
+            "答句子：I have + 课程名 + on + 星期复数"
+          ],
+          "tip": "问 have 答 have，星期复数带 s"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What do you have on Mondays? —____　A. I have Chinese, English, maths and music.　B. Yes, I do.　C. It's Monday today.",
+          "solution": "问句问周一有什么课，回答要用 I have 列出课程名，选项 A 正好是周一的四门课。",
+          "difficulty": 1,
+          "pitfall": "B 是回答 Do you…? 问句的，别张冠李戴。"
+        },
+        {
+          "question": "下列哪一组星期词是按一周先后顺序排列的？　A. Monday, Tuesday, Wednesday　B. Friday, Thursday, Wednesday　C. Monday, Wednesday, Tuesday",
+          "solution": "一周的顺序是 Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday，只有 A 是从前往后排的。",
+          "difficulty": 2,
+          "pitfall": "先把七天顺序背熟再判断，别看到 Monday 开头就急着选。"
+        },
+        {
+          "question": "I have a football class on Mondays. 这句话的意思是：　A. 我只在某一个周一上足球课　B. 我每周一都上足球课　C. 我周一不上足球课",
+          "solution": "on Mondays 用复数，表示每周一都是这样，是习惯安排，所以选 B。",
+          "difficulty": 2,
+          "pitfall": "星期后的复数 s 不是随便加的，加上就表示「每周都……」。"
+        }
+      ],
+      "mistakes": [
+        "星期词首字母写成小写：monday 是错的，星期名是专名，首字母必须大写，如 Monday。",
+        "回答 Do you often read books? 时说 Yes, I am.——要用 do 回答：Yes, I do. / No, I don't.",
+        "把 on Mondays 的复数 s 丢掉，或者不明白它的意思是「每周」。",
+        "把 weekend 当成一天——它指 Saturday 和 Sunday 两天，on the weekend 是「在周末」。"
+      ],
+      "source": {
+        "unit": "Unit 2 My week",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What do you have on Mondays? —____　A. I have Chinese, English, maths and music.　B. I often read books.　C. Yes, I do.",
+          "options": [
+            "I have Chinese, English, maths and music.",
+            "I often read books.",
+            "Yes, I do."
+          ],
+          "answer": "A",
+          "solution": "问句问周一有什么课，答句用 I have 列出课程名。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P15·课程问答（What do you have on Mondays? I have Chinese, English, maths and music.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "—Do you often wash your clothes on the weekend? —____　A. Yes, I do.　B. Yes, I am.　C. No, I can't.",
+          "options": [
+            "Yes, I do.",
+            "Yes, I am.",
+            "No, I can't."
+          ],
+          "answer": "A",
+          "solution": "Do you often…? 开头的问句要用 do 回答，肯定回答是 Yes, I do.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P18·周末活动（Do you often wash your clothes on the weekend? Yes, I do.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "Zip 说：We have maths on Tuesdays. On Thursdays, we have art. 他们的美术课在____　A. Tuesdays　B. Thursdays　C. Fridays",
+          "options": [
+            "Tuesdays",
+            "Thursdays",
+            "Fridays"
+          ],
+          "answer": "B",
+          "solution": "对话里说 On Thursdays, we have art.，美术课在每周四。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P21·Zoom 备货对话（We have maths on Tuesdays. On Thursdays, we have art.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 We have … on …（星期复数）写出你每周固定的两节课，注意星期首字母大写。",
+          "answer": "示例：We have PE on Mondays. We have art on Fridays.",
+          "solution": "先想一想自己的课表，再用句型套：课程名 + on + 星期复数，两句话就写好了。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_03",
+      "summary": "用 What's your favourite food? 谈最爱吃的食物，认识 sweet、hot 等味道词，还会用 but 说出不喜欢的东西。",
+      "explanation": [
+        "书上的最爱食物问答：What's your favourite food? — Salad.；还有一段对话：What's your favourite food? — Noodles. I love beef noodles. They're delicious.；味道描述有：The sandwich is delicious. / Salad. It's healthy. / Ice cream. It's sweet! / They are hot.；语篇短文里写：My favourite food is ice cream. It is sweet. I don't like beef but chicken is OK. / My favourite food is chicken. It is delicious. I like vegetables but not carrots.。味道词是：fresh、healthy、delicious、hot、sweet。",
+        "favourite 就是心里排第一名的那个：有人最爱 ice cream 的甜，有人觉得 hot 的食物才过瘾。味道词像给食物贴的小标签：sweet 甜、hot 辣、fresh 新鲜、healthy 健康、delicious 美味。把最爱和味道说清楚，别人马上就知道你的口味。",
+        "问最爱用 What's your favourite food?（把 food 换成 drink、colour 还能继续问）；回答有两种：直接答食物词 Noodles.，或说完整句 My favourite food is noodles.。favourite 和 like best 是一对好朋友，可以互相替换：I like fish best. = My favourite food is fish.。说喜好对比用 I like … but I don't like …",
+        "like、love、favourite 的程度不同：like 是喜欢，love 是很喜欢，favourite 是最爱、排第一。hot 有两个意思：说天气是「热」，说食物常常是「辣」。but 是转折词，前半句说喜欢的，后半句要说不喜欢的，前后不能重复一个意思。",
+        "学会这套句型，就能写「我的最爱食物」小语篇：先写 My favourite food is …，再用 It is + 味道词 描述，最后用 I like … but I don't like … 补充对比；后面学点餐表达时，这些食物词还会反复出现。"
+      ],
+      "methods": [
+        {
+          "name": "favourite 替换法",
+          "steps": [
+            "用 What's your favourite food? 问一问家人朋友",
+            "回答先直接说食物词，再说完整句 My favourite food is …",
+            "把意思换成 like best 再说一遍，体会两句的关系"
+          ],
+          "tip": "favourite 是最爱，等于 like best 排第一"
+        },
+        {
+          "name": "味道词贴标签法",
+          "steps": [
+            "把食物和味道配对：ice cream—sweet，beef noodles—delicious，salad—fresh",
+            "再加一层健康标签：vegetables—healthy",
+            "说话先报食物再贴标签：It is sweet. / They are delicious."
+          ],
+          "tip": "甜 sweet 辣 hot，新鲜 fresh 健康 healthy，好吃 delicious 美滋滋"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What's your favourite food? —____　A. Fish.　B. Yes, I do.　C. I'd like some water.",
+          "solution": "问句问最喜欢的食物，直接答食物名 Fish. 即可。",
+          "difficulty": 1,
+          "pitfall": "C 回答的是想喝什么，答非所问。"
+        },
+        {
+          "question": "My favourite food is fish. 的另一种说法是：　A. I like fish best.　B. I don't like fish.　C. I would like some fish.",
+          "solution": "favourite = like best，所以「最喜欢的食物是鱼」就是「我最喜欢鱼」，选 A。",
+          "difficulty": 2,
+          "pitfall": "would like 是「想要」，不是「最喜欢」。"
+        },
+        {
+          "question": "下面食物和味道搭配正确的一组是：　A. salad—fresh　B. ice cream—hot　C. water—delicious",
+          "solution": "蔬菜沙拉的特点是新鲜，fresh 合适；ice cream 是甜的 sweet，不是 hot；水本身没有味道，谈不上 delicious。",
+          "difficulty": 2,
+          "pitfall": "hot 说食物时是「辣」，甜甜的冰激凌可不算 hot。"
+        }
+      ],
+      "mistakes": [
+        "回答 What's your favourite food? 时说 Yes, it is.——应直接说出食物名，或用 My favourite food is … 这个句型。",
+        "favourite 拼写丢三落四——按 f-a-v-o-u-r-i-t-e 记住它，中间是 ou，结尾是 rite。",
+        "只知道 hot 是「热」，不知道说食物时 hot 常指「辣」。",
+        "but 前后都说喜欢——像 I like beef but I like chicken. 这样前后意思顺不转就错了，应像 I don't like beef but chicken is OK. 那样说出转折。"
+      ],
+      "source": {
+        "unit": "Unit 3 What would you like?",
+        "pages": [
+          22,
+          31
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What's your favourite food? —____　A. Noodles. I love beef noodles.　B. Yes, I do.　C. It's sweet.",
+          "options": [
+            "Noodles. I love beef noodles.",
+            "Yes, I do.",
+            "It's sweet."
+          ],
+          "answer": "A",
+          "solution": "问最爱食物，回答是 Noodles，还补充了一句 They're delicious. 说明理由。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P27·最爱食物对话（What's your favourite food? Noodles. I love beef noodles. They're delicious.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "信里写道：My favourite food is ice cream. It is sweet. I don't like beef but chicken is OK. 信的作者不喜欢的是____　A. beef　B. chicken　C. ice cream",
+          "options": [
+            "beef",
+            "chicken",
+            "ice cream"
+          ],
+          "answer": "A",
+          "solution": "信中写 I don't like beef but chicken is OK.，不喜欢的是牛肉，鸡肉还可以。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P29·写给 Robin 的信（My favourite food is ice cream. It is sweet. I don't like beef but chicken is OK.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "句型转换：He likes noodles best.（改为同义句）→____　A. His favourite food is noodles.　B. He doesn't like noodles.　C. His favourite drink is noodles.",
+          "options": [
+            "His favourite food is noodles.",
+            "He doesn't like noodles.",
+            "His favourite drink is noodles."
+          ],
+          "answer": "A",
+          "solution": "like … best 就是 favourite，主语换成 he 后说 His favourite food is noodles.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P28·味道描述（Ice cream. It's sweet! They are hot.）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用三句话介绍你的饮食喜好：第 1 句用 My favourite food is …；第 2 句用 It is + 味道词；第 3 句用 I like … but I don't like …",
+          "answer": "示例：My favourite food is salad. It is fresh and healthy. I like beef but I don't like onions.",
+          "solution": "按三步框架各写一句：最爱是什么、什么味道、喜欢什么不喜欢什么，注意 but 后面说不喜欢的。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_04",
+      "summary": "I can dance! I can sing English songs! 说出自己的才艺用 can；想知道别人会什么，就问 What can you do?",
+      "explanation": [
+        "这部分从一场英语派对聊起：We'll have an English party next Tuesday.（下周二我们有一场英语派对。）老师问：What can you do for the party, children?（孩子们，你们能为派对做什么？）张鹏答：I can sing English songs.（我会唱英文歌。）老师夸一声 Wonderful! 又问 How about you, John?，约翰答：I can do some kung fu!（我会功夫！）开页的角色图里还有：I can dance! I can sing! I can play the pipa.（我会弹琵琶。）才艺词一批批来：sing English songs、dance、draw pictures、draw cartoons、clean the classroom、do some kung fu；后来又添上 swim、speak English、cook、play basketball、play ping-pong。问别人会不会，就说：Can you do any kung fu, John? — Yes, I can.（会的。）换成奥利弗：Can you do any kung fu, Oliver? — No, I can't.（不会。）老师接着说：No problem. I can help you.（没关系，我可以帮你。）自我介绍页里还有一串：I can speak English and Chinese. I can't do any kung fu. I can't play the pipa.",
+        "can 是一张“才艺通行证”：把会做的事填在后面，I can… 就是大声报名。它特别好说话——不管主语是我、你、他还是他们，can 后面的动词都穿原形，不加 s 也不加 to。说不会也不难：在 can 后面加 not，缩写成 can't。派对报名、交新朋友、参加球队都用得上这张通行证；机器人罗宾征友时一口气报出 I can speak English and Chinese. I can do some kung fu.，大家自然愿意和“多才多艺”的人做朋友。",
+        "才艺报名三步走：第一步想清楚自己会什么、不会什么；第二步会的事用 I can… 说出来，不会的说 I can't…；第三步拿 Can you…? 去采访同学，把大家的回答记成一张才艺表。回答要对号：会就 Yes, I can.，不会就 No, I can't.，问 can 答 can，别答成 Yes, I do.。听到同学说不会，学书中老师安慰一句 No problem. I can help you.，这句话能让同学心里暖暖的。",
+        "最容易混的是乐器和球类：乐器前要加 the——play the pipa、play the piano、play the erhu；球类前不加——play basketball、play ping-pong。can't 里的撇号是缩写的记号，丢了撇号 cant 就不成词。some 和 any 也是一对搭档：肯定句里用 some（I can do some kung fu.），疑问句和否定句里换成 any（Can you do any kung fu? I can't do any kung fu.）。",
+        "把才艺表带回家：每天用 I can… 向家人播报一件会做的事，一周下来就是一份英语才艺清单。以后写作文介绍自己或朋友，开头就离不开 can：He can swim. She can draw very well.；再往后还要学着用 can 礼貌地提出请求，把“能力”越说越丰富。"
+      ],
+      "methods": [
+        {
+          "name": "才艺报名三步法",
+          "steps": [
+            "想清楚自己会什么、不会什么",
+            "会的事用 I can… 说，不会的用 I can't… 说",
+            "拿 Can you…? 采访同学，把回答 Yes, I can.／No, I can't. 记下来"
+          ],
+          "tip": "问 can 答 can，Yes, I can. No, I can't. 一问一答不掉线。"
+        },
+        {
+          "name": "乐器球类分家法",
+          "steps": [
+            "乐器戴帽：play the pipa、play the piano、play the erhu，the 就是乐器的“小帽子”",
+            "球类光头：play basketball、play ping-pong，前面什么都不加",
+            "每学一个 play 短语，先判断它是乐器还是球"
+          ],
+          "tip": "乐器戴 the 球光头，pipa 戴帽篮球不戴。"
+        },
+        {
+          "name": "温暖安慰句法",
+          "steps": [
+            "同学说 No, I can't. 的时候别急着走开",
+            "接一句 No problem.（没关系）",
+            "再补 I can help you.（我可以帮你），两人一组练起来"
+          ],
+          "tip": "No problem 一出口，安慰朋友不用愁。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—What can you do for the party? —____（我会唱英文歌曲）横线上该怎么回答？",
+          "solution": "I can sing English songs. 派对报名就用 I can… 的句式。",
+          "difficulty": 1,
+          "pitfall": "答成 I can sing English.——歌要说 English songs，别丢了 songs。"
+        },
+        {
+          "question": "“我会弹琵琶”，下面哪一句说对了？",
+          "solution": "I can play the pipa. 乐器前要加 the。",
+          "difficulty": 2,
+          "pitfall": "顺手写成 I can play pipa.——pipa 是乐器，前面的 the 不能丢。"
+        },
+        {
+          "question": "—Can you do any kung fu, Oliver?（奥利弗一点儿也不会功夫）—____ 该怎么回答？老师又会怎么安慰他？",
+          "solution": "回答 No, I can't. 老师安慰：No problem. I can help you.",
+          "difficulty": 2,
+          "pitfall": "答成 No, I don't.——问 can 就答 can't，别串到 do 那边去。"
+        }
+      ],
+      "mistakes": [
+        "乐器忘加 the：play the pipa、play the piano 都要戴 the；反过来球类别乱戴，不说 play the basketball。",
+        "Can you…? 答成 Yes, I do.。用 can 问，就用 can 答：Yes, I can.／No, I can't.",
+        "can't 丢撇号写成 cant。can't 是 cannot 的缩写，那一撇就是它的记号。",
+        "some 和 any 用反：I can do some kung fu. 是肯定句用 some；Can you do any kung fu? 疑问句里要换成 any。"
+      ],
+      "source": {
+        "unit": "Unit 4 What can you do?",
+        "pages": [
+          36,
+          45
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—What can you do for the party, children? —____（我会唱英文歌曲）",
+          "options": [
+            "I can sing English songs.",
+            "I can do some kung fu.",
+            "Yes, I can.",
+            "No, I can't."
+          ],
+          "answer": "A",
+          "solution": "报名才艺用 I can…：I can sing English songs. 我会唱英文歌。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P38·We'll have an English party next Tuesday! What can you do for the party, children? I can sing English songs. I can do some kung fu!"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Can you do any kung fu, Oliver? —____（奥利弗不会功夫，老师接着说可以帮他）",
+          "options": [
+            "Yes, I can.",
+            "No, I can't.",
+            "Yes, I do.",
+            "No, I don't."
+          ],
+          "answer": "B",
+          "solution": "奥利弗不会，回答 No, I can't.，老师接着说 No problem. I can help you.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P41·Can you do any kung fu, Oliver? No, I can't. Mr Ma: No problem. I can help you."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "冠词判断变式：下面哪一组把“打乒乓球”和“弹钢琴”都说对了？",
+          "options": [
+            "I can play ping-pong. I can play the piano.",
+            "I can play the ping-pong. I can play piano.",
+            "I can play ping-pong the. I can play the piano the.",
+            "I can play a ping-pong. I can play a piano."
+          ],
+          "answer": "A",
+          "solution": "球类不加 the：play ping-pong；乐器要加 the：play the piano.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P44·Can you play the _____? Can you play _____?（erhu ping-pong play the piano play basketball）变式（乐器加 the、球类不加）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "派对节目单：英语派对下周二举行，你要报名两个节目。下面哪一组报名句子说得都对？",
+          "options": [
+            "I can sing English songs. I can do some kung fu.",
+            "I can't sing English songs. I can't do some kung fu.",
+            "I can play the basketball. I can play ping-pong the.",
+            "Yes, I can. No, I can't."
+          ],
+          "answer": "A",
+          "solution": "报名就说会什么：I can sing English songs. I can do some kung fu.。照这样给全家开一场“英语派对”，每人报两个节目；以后写作文介绍朋友，也用 He can… 把他的本领写进去。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_05",
+      "summary": "介绍房间从 There is a big bed. 开始：一件用 There is，多件用 There are，位置交给方位介词来说。",
+      "explanation": [
+        "这部分从参观张鹏的房间开始：Sarah: Your room is really nice!（你的房间真漂亮！）Mike: There is a big bed.（有一张大床。）Zhang Peng: Yes. I like my bed. Mike: There is a nice photo, too.（还有一张好看的照片。）描述图片时一句一句搭上去：There is a desk in the picture. There is a plate on the desk. There is a banana on the plate. 房间物品词有 clock、plant、water bottle、photo、bike，串起来就是 There is a clock, a plant and a photo in my room.（我房间里有一个钟、一盆植物和一张照片。）客厅页换成了复数：Mike: Wow! There are so many pictures here.（这里有好多画！）Zhang Peng: Yes. My father can draw very well. Sarah: There are so many plants here, too. My grandparents have a garden in front of their house. There are lots of flowers in it. 方位介词一次学一批：in front of（在前面）、beside（在旁边）、between（在中间）、behind（在后面）、above（在上方），问位置就说：Where is the ball? It's in front of the dog.（球在小狗前面。）还有 There is a tree in front of the house. 邮件语篇里也全用得上：There are pencils and crayons on the floor. Oh, no! I see a mouse behind my computer!（我看见电脑后面有只老鼠！）",
+        "there be 句型就像一盏探照灯：灯一亮，There is 照出一件东西，There are 照出一群东西。方位介词是给东西“安排座位”的小助手：in front of 站在前面，behind 躲在后面，beside 挨在旁边，between 夹在两个中间，above 悬在上方。还有一位 over：小罐子飞过兔子和小猴的头顶，The can flies over Rabbit and Monkey.，over 就是“越过、从上方掠过”。找东西先问 Where is…?，再用介词报位置，房间再乱也能说清楚。",
+        "介绍房间三步走：第一步数一数，一件东西用 There is，两件以上用 There are；第二步套位置，把 in front of、beside、between、behind、above 往句子里放；第三步连句成段，先说大的再说小的：There is a big bed. There is a desk beside the bed. There are two photos above the desk.。记介词可以拿自己当道具：同桌站你前面是 in front of，站你后面是 behind，站旁边是 beside，站你们俩中间是 between，把铅笔举到头顶上方不碰到，就是 above。",
+        "单复数是第一道坎：a big bed 是一件，用 There is；so many pictures、lots of flowers 是一群，用 There are。几样东西排成一串时，跟最近的那件走：There is a clock, a plant and a photo in my room.，最近的 clock 是单数，所以用 is。above 和 on 别混：on 是贴在面上（on the desk），above 是悬在上方不接触。behind 和 in front of 是一对反义词，别互串。between 后面要跟上两个东西（between two fish），只夹一样可不行。",
+        "今晚就练：站在自己房间门口，用 There is… There are… 报出五样东西的位置，说给家人听。以后写作文介绍自己的房间，开头一句 There is a big bed.，中间补三句位置细节，就是一篇像样的小语篇；再往后学 there be 的疑问式，去问别人 Is there…?，就建立在这些陈述句上。"
+      ],
+      "methods": [
+        {
+          "name": "数一数选 is/are",
+          "steps": [
+            "先数东西：一件用 There is，多件用 There are",
+            "一串东西跟最近的那件走：There is a clock, a plant and a photo…",
+            "读完句子回头检查：is 后面是不是一件，are 后面是不是一群"
+          ],
+          "tip": "单数 is 复数 are，介绍房间顶呱呱。"
+        },
+        {
+          "name": "身体方位演示法",
+          "steps": [
+            "同学站你前面——in front of",
+            "同学站你后面——behind",
+            "同学站你旁边——beside；站你们俩中间——between",
+            "铅笔举到头顶不碰到——above；手掌从头顶掠过——over"
+          ],
+          "tip": "前 front 后 behind，旁边 beside 中间 between，上方 above 掠过 over。"
+        },
+        {
+          "name": "由大到小说房间法",
+          "steps": [
+            "先说最大的：There is a big bed.",
+            "再说旁边的：There is a desk beside the bed.",
+            "最后说上方和墙上的：There are two photos above the desk."
+          ],
+          "tip": "先大后小、先近后远，房间介绍不乱套。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "There ___ a big bed. 空格里填 is 还是 are？",
+          "solution": "填 is。a big bed 是一件东西，要说 There is a big bed.",
+          "difficulty": 1,
+          "pitfall": "只顾着说床多大，忘了看 a big bed 是单数。"
+        },
+        {
+          "question": "—Where is the ball?（球在小狗的前面）—____ 下面哪句说对了？",
+          "solution": "It's in front of the dog. in front of 是在前面。",
+          "difficulty": 2,
+          "pitfall": "把 in front of 和 behind 记反——在前面的是 in front of，在后面的是 behind。"
+        },
+        {
+          "question": "There ___ a clock, a plant and a photo in my room. 一串东西，填 is 还是 are？",
+          "solution": "填 is。一串东西跟最近的那件走，最近的 clock 是单数。",
+          "difficulty": 3,
+          "pitfall": "数出三样东西就填 are——排成一串时看离得最近的一个。"
+        }
+      ],
+      "mistakes": [
+        "复数忘用 are：要说 There are so many pictures here.，不能说 There is so many pictures.",
+        "behind 和 in front of 用反：在后面是 behind，在前面是 in front of。",
+        "above 和 on 分不清：on 贴在面上（on the desk），above 悬在上方不接触。",
+        "between 只连一样东西：between 要在两个中间，像 between two fish。"
+      ],
+      "source": {
+        "unit": "Unit 5 There is a big bed",
+        "pages": [
+          46,
+          55
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "选词填空：____ a big bed.（房间里有一张大床）",
+          "options": [
+            "There is",
+            "There are",
+            "There am",
+            "There be"
+          ],
+          "answer": "A",
+          "solution": "一件东西用 There is：There is a big bed.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P48·Sarah: Your room is really nice! Mike: There is a big bed. Zhang Peng: Yes. I like my bed. There is a nice photo, too."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—This is the living room. —Wow! ____（这里有好多画）",
+          "options": [
+            "There are so many pictures here.",
+            "There is so many pictures here.",
+            "There are so many plants here.",
+            "There is lots of flowers in it."
+          ],
+          "answer": "A",
+          "solution": "pictures 是复数，用 There are so many pictures here.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P51·Zhang Peng: This is the living room. Mike: Wow! There are so many pictures here. There are so many plants here, too."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "方位介词变式：两张照片悬在桌子上方，没有碰到桌面。下面哪句说对了？",
+          "options": [
+            "There are two photos above the desk.",
+            "There are two photos on the desk.",
+            "There are two photos under the desk.",
+            "There is two photos above the desk."
+          ],
+          "answer": "A",
+          "solution": "悬在上方不接触用 above，two photos 是复数用 There are。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P54·There is a _____ on the desk. There are two _____ above the desk.（in front of beside behind above There is There are）变式（above 与 on 辨析）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字描述小安的房间：床旁边（beside the bed）有一张桌子，桌子上方有两张照片。哪一组句子说得又对又全？",
+          "options": [
+            "There is a desk beside the bed. There are two photos above the desk.",
+            "There is a desk beside the bed. There is two photos above the desk.",
+            "There are a desk beside the bed. There are two photos above the desk.",
+            "There is a desk in front of the bed. There are two photos on the desk."
+          ],
+          "answer": "A",
+          "solution": "桌子一件用 There is，two photos 复数用 There are，上方悬着用 above。照这样把自己房间的东西说给家人听，连上三四句就是一篇小小的房间介绍，以后写作文介绍自己的房间就靠它开头。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_06",
+      "summary": "问公园里有没有河：单数问 Is there a river?，复数问 Are there any lakes?，回答像回声一样跟着 be 走。",
+      "explanation": [
+        "这部分走进自然公园：老师说 Children, let's go to the forest!（孩子们，我们去森林吧！）张鹏问：Is there a river in the forest, Miss White?（森林里有河吗？）老师答：No, there isn't.（没有。）再问 Is there a lake, Miss White? — Yes, there is and there are some small boats.（有，还有一些小船。）张鹏欢呼：Cool! Let's go boating.（太棒了！我们去划船吧。）饿了找饭馆也用它：I'm hungry. Is there a restaurant beside the lake? — No, there isn't. 自然词一批批认：forest（森林）、river（河）、lake（湖）、hill（小山）、mountain（高山），还有 bridge、tree、house、village（村庄）、building。问句配上介词更好玩：Is there a river in front of the mountain? — Yes, there is. 复数问法在悄悄话游戏里：Are there any lakes in the park? — Yes, there are. How many? Two.（有几座？两座。）张鹏感叹公园真安静：There aren't many people. 又问 Are there any tall buildings in the nature park? — No, there aren't. Are there any animals? — Yes, there are. There are ducks and rabbits.（有，有鸭子和兔子。）罗宾画画页还有一段美景：In the park there is a high mountain. In front of the mountain there is a small village. There is a lake near the village. There are many ducks on the lake.",
+        "陈述句说“有什么”，疑问句问“有没有”：把 is 或 are 搬到句子最前面，There is a river. 就变成 Is there a river?。问一件东西用 Is there…?，问一群东西用 Are there any…?，这里的 any 是“一些”的疑问面孔。回答像回声：问 is 就答 there is／there isn't，问 are 就答 there are／there aren't，一句 Yes, there is. 或 No, there aren't. 干净利落。",
+        "公园问答三步走：第一步选问法，一件用 Is there a…?，一群用 Are there any…?；第二步按事实回答，有就 Yes, there is.／Yes, there are.，没有就 No, there isn't.／No, there aren't.，想更热心一点，再补一句具体情况：Yes, there are. There are ducks and rabbits.；第三步追问数量用 How many?，回答先报数：Two.。问不完就换词：把 river 换成 lake、mountain、village，一座公园能问出一长串对话。",
+        "最容易串门的是回答：Are there any animals? 答成 Yes, there is. 就错了，问 are 答 are。any 和 some 要分家：肯定句里用 some（There are some small boats.），疑问句和否定句里用 any（Are there any lakes?）。isn't 和 aren't 各有各的主：单数用 isn't，复数用 aren't，撇号都不能丢。还有 mountain 和 hill：mountain 是高山，hill 是小山丘，开口问之前先想清楚问的是哪一种。",
+        "周末去公园、郊外出游，用 Is there…? Are there any…? 一路问过去，把景点问个遍。以后还会学 How many… are there…? 的数量问答，就建立在这套回声回答上；写小语篇介绍公园时，先陈述 There is…，再用一两个疑问句邀请读者想一想，文章一下子就活了。"
+      ],
+      "methods": [
+        {
+          "name": "be 动词提前问句法",
+          "steps": [
+            "陈述句 There is a lake. 把 is 搬到句首，变成 Is there a lake?",
+            "复数别忘 any：There are lakes. 变成 Are there any lakes?",
+            "句末写问号，读的时候尾音上扬"
+          ],
+          "tip": "单数 is 复数 are，疑问 any 来帮忙。"
+        },
+        {
+          "name": "回声回答法",
+          "steps": [
+            "听见 Is there…? 回 Yes, there is. 或 No, there isn't.",
+            "听见 Are there…? 回 Yes, there are. 或 No, there aren't.",
+            "想更热情，答完补一句实情：There are ducks and rabbits."
+          ],
+          "tip": "问 is 答 is，问 are 答 are，回答像回声。"
+        },
+        {
+          "name": "换词连问法",
+          "steps": [
+            "选定一个句型 Is there a…?",
+            "把 river、lake、mountain、village 轮流填进去",
+            "和同伴一问一答，把整座公园问一遍"
+          ],
+          "tip": "一个句型换词问，公园景点全问遍。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Is there a lake in the park? —____（公园里有湖）横线上怎么回答？",
+          "solution": "Yes, there is. 问 is 答 is，简短又完整。",
+          "difficulty": 1,
+          "pitfall": "答成 Yes, it is.——there be 句型的回答要用 there。"
+        },
+        {
+          "question": "—Are there any tall buildings in the nature park?（自然公园里没有高楼）—____",
+          "solution": "No, there aren't. 复数问句用 aren't 否定。",
+          "difficulty": 2,
+          "pitfall": "答成 No, there isn't.——isn't 是单数的否定，复数要用 aren't。"
+        },
+        {
+          "question": "填 any 还是 some：Are there ___ rivers in the forest?",
+          "solution": "填 any。疑问句里“一些”用 any：Are there any rivers in the forest?",
+          "difficulty": 2,
+          "pitfall": "把陈述句里的 some 直接搬进疑问句——疑问句要换成 any。"
+        }
+      ],
+      "mistakes": [
+        "Are there any…? 答成 Yes, there is.。问 are 答 are：Yes, there are.／No, there aren't.",
+        "疑问句丢 any：要说 Are there any lakes in the park?，any 不能少。",
+        "there isn't 写成 there isnt、there aren't 写成 there arent——两个缩写词的撇号都不能丢。",
+        "mountain 和 hill 混着用：mountain 是高山，hill 是小山，问 Is there a mountain? 之前先想清楚。"
+      ],
+      "source": {
+        "unit": "Unit 6 In a nature park",
+        "pages": [
+          56,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Is there a river in the forest, Miss White? —____（森林里没有河）",
+          "options": [
+            "No, there isn't.",
+            "Yes, there is.",
+            "No, there aren't.",
+            "Yes, it is."
+          ],
+          "answer": "A",
+          "solution": "a river 是单数，否定回答 No, there isn't.",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P58·Zhang Peng: Is there a river in the forest, Miss White? Miss White: No, there isn't. Is there a lake, Miss White? Yes, there is."
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Are there any animals? —____（有，有鸭子和兔子）",
+          "options": [
+            "Yes, there are. There are ducks and rabbits.",
+            "Yes, there is. There are ducks and rabbits.",
+            "No, there aren't.",
+            "Yes, there are some small boats."
+          ],
+          "answer": "A",
+          "solution": "问 are 答 are：Yes, there are. 再补一句 There are ducks and rabbits.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P61·Zhang Peng: Are there any animals? Miss White: Yes, there are. There are ducks and rabbits."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "选词变式：—Are there ___ tall buildings in the nature park? —No, there aren't.（横线上填哪个词？）",
+          "options": [
+            "any",
+            "some",
+            "much",
+            "a"
+          ],
+          "answer": "A",
+          "solution": "疑问句里用 any：Are there any tall buildings…?",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P61·Are there any tall buildings in the nature park? No, there aren't. 变式（any/some 选词）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "文字语篇：罗宾画的公园——In the park there is a high mountain. In front of the mountain there is a small village. There is a lake near the village. There are many ducks on the lake. 村庄在哪儿？",
+          "options": [
+            "In front of the mountain.",
+            "On the mountain.",
+            "Near the river.",
+            "In the sky."
+          ],
+          "answer": "A",
+          "solution": "In front of the mountain there is a small village. 村庄在高山前面。照这段话的样子画一张自己的公园图，再用 Is there…? Are there any…? 考考同伴。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_07",
+      "summary": "发现字母组合的发音秘密：ee/ea 读长音 /iː/，oo 分长音短音，ai/ay 读长音 /eɪ/，见词能读。",
+      "explanation": [
+        "书上把组合词分组呈现：ee/ea 发长音 /iː/：meet、feet、read、see、tea、eat、feed、repeat、beef，句子框架里还出现 sea；oo 分两种读音：发长音 /uː/ 的有 room、balloon、cool、zoo、too、goodbye、afternoon、food、noodles，发短音 /ʊ/ 的有 book、look、good、foot、cook、football；ai/ay 发长音 /eɪ/：rainy、say、way、birthday、Monday、rainbow、paint、wait，还有 today、day、may、always。",
+        "字母组合就像手拉手的好朋友，见面只发一个音：ee 和 ea 是双胞胎，都发长音 /iː/，读的时候嘴角向两边咧开；ai 和 ay 也是一对，都发 /eɪ/，ai 爱站在单词中间（rain、paint），ay 爱站在单词末尾（day、say）；oo 最调皮，有时拖长音 /uː/，有时变短音 /ʊ/。",
+        "见到新词三步读音：第一步圈出元音字母组合；第二步按规律试读——ee/ea 读 /iː/，ai/ay 读 /eɪ/，oo 先想长音 /uː/；第三步把前后的辅音连起来读整词，检查顺不顺口。拼写时反过来用：听到 /eɪ/ 就想是不是 ai 或 ay，听到 /iː/ 再分辨是 ea 还是 ee，按词记熟。",
+        "oo 的两个音最容易混：book、look、good、foot、cook、football 里 oo 发短音 /ʊ/，有个小窍门——k 前面的 oo 多为短音；room、zoo、cool、food、noodles、afternoon 里发长音 /uː/。另外 ea 并不是永远长读，像 bread 里的 ea 就发别的音，遇到没学过的词，先听一听再确认。",
+        "掌握组合音以后，单词就能见词能读、听音能写，背单词从死记字母变成按发音记忆；后面还要学单词重音和句子语调，先把组合音读准，就是语音进阶的第一步。"
+      ],
+      "methods": [
+        {
+          "name": "圈组合读音法",
+          "steps": [
+            "把单词里的元音字母组合圈出来",
+            "按规律读组合音：ee/ea 读 /iː/，ai/ay 读 /eɪ/，oo 先试 /uː/",
+            "加上前后的辅音连读整词，检查是否顺口"
+          ],
+          "tip": "先圈组合再发音，ee/ea 长音 i，ai/ay 长音 e"
+        },
+        {
+          "name": "oo 分队记忆法",
+          "steps": [
+            "长音队：room、zoo、cool、food、noodles、afternoon",
+            "短音队：book、look、good、foot、cook、football",
+            "读新词时 oo 在 k 前先想短音，再整体确认"
+          ],
+          "tip": "oo 见 k 多短音，book 一家记心中"
+        }
+      ],
+      "examples": [
+        {
+          "question": "下列哪个单词画线部分发长音 /iː/？　A. tea　B. book　C. day",
+          "solution": "tea 里的 ea 发长音 /iː/；book 的 oo 是短音 /ʊ/，day 的 ay 是 /eɪ/。",
+          "difficulty": 1,
+          "pitfall": "先把三组组合音各读一遍再选，别只看字母长得像不像。"
+        },
+        {
+          "question": "下面 oo 发短音 /ʊ/ 的词是：　A. afternoon　B. look　C. cool",
+          "solution": "look 里的 oo 在 k 前，发短音 /ʊ/；afternoon 和 cool 的 oo 都发长音 /uː/。",
+          "difficulty": 2,
+          "pitfall": "别一看到 oo 都读长音，k 前多为短音。"
+        },
+        {
+          "question": "wait 里的 ai 发长音 /eɪ/，下面哪个词画线部分和它发音相同？　A. say　B. feet　C. book",
+          "solution": "say 的 ay 发 /eɪ/，与 wait 的 ai 同音；feet 是 /iː/，book 是短音 /ʊ/。",
+          "difficulty": 2,
+          "pitfall": "ai 和 ay 写法不同但同音，别以为长得一样才同音。"
+        }
+      ],
+      "mistakes": [
+        "把 book 的 oo 读成长音——k 前面的 oo 多为短音 /ʊ/，多读几遍 book、look、good 找感觉。",
+        "把 Monday 的 ay 读成字母 a 的名字——ay 组合读长音 /eɪ/，Monday 是星期一。",
+        "听到 /iː/ 默写单词时 ea、ee 乱用——要按词记：tea、sea 用 ea，feet、see、beef 用 ee。",
+        "把字母组合拆成单个字母拼读——组合要作为一个整体发一个音。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell",
+        "pages": [
+          16,
+          50
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下列哪个单词画线部分发长音 /iː/？　A. read　B. book　C. way",
+          "options": [
+            "read",
+            "book",
+            "way"
+          ],
+          "answer": "A",
+          "solution": "read 里的 ea 发长音 /iː/；book 的 oo 是短音 /ʊ/，way 的 ay 发 /eɪ/。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P16·ee/ea 组合词（meet feet read see tea eat feed repeat beef）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "oo 发短音 /ʊ/ 的单词是____　A. cook　B. zoo　C. afternoon",
+          "options": [
+            "cook",
+            "zoo",
+            "afternoon"
+          ],
+          "answer": "A",
+          "solution": "cook 的 oo 在 k 前，发短音 /ʊ/；zoo、afternoon 的 oo 发长音 /uː/。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P40·oo 组合词（book room foot balloon look cool good zoo cook too goodbye afternoon）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "下列全部画线部分都发长音 /eɪ/ 的一组是____　A. say, way, birthday　B. say, book, wait　C. rain, zoo, day",
+          "options": [
+            "say, way, birthday",
+            "say, book, wait",
+            "rain, zoo, day"
+          ],
+          "answer": "A",
+          "solution": "say、way、birthday 里 ai/ay 都发 /eɪ/；B 组混进了 book（短音 /ʊ/），C 组混进了 zoo（长音 /uː/）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P50·ai/ay 组合词（rainy say way birthday Monday rainbow paint wait）变式"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用组合规律试读三个新词：pain, moon, play，分别说出画线部分的发音。",
+          "answer": "pain 的 ai 发 /eɪ/；moon 的 oo 发长音 /uː/；play 的 ay 发 /eɪ/。",
+          "solution": "先圈组合再套规律：ai/ay 读 /eɪ/，oo 不在 k 前先想长音 /uː/，最后连读整词检验。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_08",
+      "summary": "学会用 What's your … teacher like? 和 Do you often…? 采访同学，再把答案串成三四句口头介绍。",
+      "explanation": [
+        "书上把“了解老师和同学”的问句分成三类练：问老师是谁、什么样——Who's your English teacher? Miss White. Is he young? No, he isn't. He's old. Is he funny? Yes, he is.；问性格——What's she like? She's kind. What's Wu Binbin like? He's hard-working. He is polite.；问课程和周末——What do you have on Thursdays? I have maths, English and music. Do you often read books in this park? No, I don't. Do you often play football here? Yes, I do. 这些问句合起来，就是一套现成的采访工具箱。",
+        "来当一次小记者吧！采访就是带着问题去聊天：你准备好问句，就像带上话筒；同学一回答，你就把性格词、课程名、周末活动记进小本子。问完素材也就齐了，把答案串一串，“我的老师／同学印象”的口头介绍就出炉了——比干背课文有意思多了，因为说的都是你身边真实的人和事。",
+        "操作分三步：第一步备好问题清单——What's your … teacher like?（问老师性格）、What do you have on Mondays?（问那天有什么课）、Do you often … on the weekend?（问周末常做什么）；第二步边问边记关键词，性格词直接写英文，课程名和活动用中文记也行；第三步汇总成 3-4 句——先说老师是谁、什么样，再说哪天有什么课，最后说周末常做什么。",
+        "三个易混点要分清：What's he like? 里的 like 是“像”，问的是性格，不是“他喜欢什么”，所以答句是 old、funny 这类形容词；Do you often…? 是由助动词 do 开头的问句，回答要用 Yes, I do. / No, I don't.，不能顺口答成 Yes, I am.；问课程用 What do you have on…?，别和 Do you like…?（你喜欢……吗）混在一起。",
+        "“备问句—记关键词—串句汇总”就是最简单的调查报告流程：以后做班级小调查、写人物小作文，用的还是这一套。介绍完可以和同学换角色再问一轮，一人当记者、一人当受访者，问和答就都练到了。"
+      ],
+      "methods": [
+        {
+          "name": "小记者三问法",
+          "steps": [
+            "把三个问句写在小本子上：What's your … teacher like? / What do you have on Mondays? / Do you often … on the weekend?",
+            "问一句记一句关键词：性格词写英文，课程名和活动记中文即可",
+            "全部问完再开口，把关键词串成 3-4 句口头介绍"
+          ],
+          "tip": "性格问 like，课程问 have，周末问 often。"
+        },
+        {
+          "name": "关键词串句法",
+          "steps": [
+            "把记下的关键词排好队：老师是谁→他什么样→哪天有什么课→周末做什么",
+            "用固定句型当“绳子”把词串起来：He's… / We have… / He often…",
+            "开口前心里默过一遍，说顺了再补一句感受，如 I like him."
+          ],
+          "tip": "关键词排队，句子自己跟上来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "想知道同桌的音乐老师是什么样的人，你该问哪一句？",
+          "solution": "问 What's your music teacher like?（你的音乐老师什么样？）——这里的 like 问的是性格。",
+          "difficulty": 1,
+          "pitfall": "别问成 What's your music teacher? 那样问的是“他是谁”，得不到性格信息。"
+        },
+        {
+          "question": "采访中你问 Is your Chinese teacher strict? 同学回答 Yes, sometimes.（有时是）。这说明老师怎么样？",
+          "solution": "说明老师有时候严格，不是一直都严格——sometimes 表示“有时”。",
+          "difficulty": 2,
+          "pitfall": "把 sometimes 听成“总是”，对老师性格的理解就走偏了。"
+        },
+        {
+          "question": "你采访到三条信息：Mr Young／music teacher／funny。把它们连成一句完整的介绍。",
+          "solution": "Mr Young is my music teacher. He's funny.（杨老师是我的音乐老师，他很滑稽。）",
+          "difficulty": 2,
+          "pitfall": "漏掉 is，或者只报名字不说身份，介绍就不完整了。"
+        }
+      ],
+      "mistakes": [
+        "采访前不准备问题，见了同学不知道问什么；先把问句清单写在小本子上再出发。",
+        "把 What's he like? 理解成“他喜欢什么”；这里的 like 是“像”，要往性格词上想。",
+        "Do you often…? 听完顺口答 Yes, I am.；do 开头的问句要用 Yes, I do. / No, I don't. 回答。",
+        "汇总时把答案一条条干巴巴背出来，不像介绍；要用句型串成三五句连贯的话。"
+      ],
+      "source": {
+        "unit": "Unit 1-2 综合任务",
+        "pages": [
+          2,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "你想采访同学、了解他的英语老师，第一句问什么最合适？",
+          "options": [
+            "What's your English teacher like?",
+            "What do you have for lunch?",
+            "Is this your English book?"
+          ],
+          "answer": "A",
+          "solution": "What's … teacher like? 直接问老师什么样，一开口就切入性格话题；另外两句和采访目的无关。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P4·对话（Who's your English teacher? Miss White. Is he young? No, he isn't.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "听到问句 What do you have on Thursdays?（星期四你有什么课？）下面哪个回答是对的？",
+          "options": [
+            "Yes, I do.",
+            "I have maths, English and music.",
+            "He's funny."
+          ],
+          "answer": "B",
+          "solution": "问课程要用“I have ＋ 课程名”回答；Yes, I do. 是回答 Do you often…? 的，He's funny. 是回答 What's he like? 的。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P14·对话（What do you have on Thursdays? I have maths, English and music.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "汇总介绍排序：你采访完同桌，把打乱的四句排成通顺的一段介绍。① We have maths and PE on Mondays. ② My maths teacher is Mr Li. ③ He often plays football on the weekend. ④ He's tall and funny.",
+          "options": [
+            "②④①③",
+            "④②③①",
+            "②①④③"
+          ],
+          "answer": "A",
+          "solution": "顺序是“先说老师是谁（②）→再说他什么样（④）→然后说哪天有什么课（①）→最后说周末常做什么（③）”，和采访问句的顺序一一对应。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五上 P8·词句活动变式（What's Wu Binbin like? He's hard-working. He is polite.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战任务：采访两位同学，问 Do you often play sports? 和 Do you often read books on the weekend? 把答 Yes, I do. 的活动记下来，最后用 I often… 说一句汇总。",
+          "answer": "示例——I often play sports and read books on the weekend.",
+          "solution": "问完先按“运动／阅读”分分类，再用 I often… 串成一句。这个小调查练熟了，以后就能做全班的爱好统计表。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_09",
+      "summary": "读 60-80 词的小语篇有妙招：先通读知大意，再读抓细节，最后答题回原文找证据。",
+      "explanation": [
+        "五年级起要读 60-80 词的小语篇并答题。比如 Robin 的自我介绍：Do you want a new friend? Try me! I am Robin the Robot! I am friendly and funny. I can speak English and Chinese. I can do some kung fu. I can play ping-pong, but I can't swim.；又如有封邮件写道：The rooms are dirty. There are pencils and crayons on the floor. There are pictures and photos everywhere.；还有一篇写景短文：In the park there is a high mountain. In front of the mountain there is a small village. There is a lake near the village. 每篇后面都跟着答题任务，答案都要能指回原文。",
+        "语篇像一条小河：通读就是先坐船顺流漂一遍，看看两岸的风景，知道这一路讲的是谁、什么事；再读就是二次下水摸石头，把关键句一块一块摸出来；答题像对照地图，每个答案都要在河上找到那个位置。三步走完，整篇短文就在你脑子里安家了。",
+        "三步阅读法：第一步通读——不查词典、不管生词，一口气读完，合上短文用一句话说出大意（谁、在讲什么事）；第二步再读——带着题目回去找，把性格词、can/can't、there is/are、but 转折这些关键处划出来；第三步答题——每个答案都要能在原文里指到那句话，指不到就再读一遍相关句子。",
+        "细节题最爱设“换词陷阱”：原文说 I can play ping-pong, but I can't swim.，题目若问 can't，答案只能是 swim——but 后半句才是“不会的”；主旨题要选“整篇都在讲的”，别被只出现一次的词（比如结尾突然出现的 mouse）带跑；题目还常把原文换个说法，比如 play sports 对应 play football，认得出“换了装”的词才算真读懂。",
+        "这三步是往后读长故事、做阅读理解的通用钥匙：文章越长，越要先抓大意再抠细节。读到的妙句（如 East or west, home is best. 这类表达）还可以抄进积累本，写作的时候直接拿来用。"
+      ],
+      "methods": [
+        {
+          "name": "三步阅读法",
+          "steps": [
+            "通读一遍：不查生词，读完合上短文，用一句话说大意",
+            "带着题目再读：找到和每道题有关的那一句，划出来",
+            "答题核对：答案要能指回原句，指不到就重读那一段"
+          ],
+          "tip": "一读知大意，二读抓细节，答题回原文。"
+        },
+        {
+          "name": "划词定位法",
+          "steps": [
+            "第二遍读时动笔：性格词画圈，can/can't 打勾，there is/are 画线，but 前后各标一个箭头",
+            "题目问什么，就回到同类的划线处去找",
+            "把原句和选项并排对一对，再落笔"
+          ],
+          "tip": "笔比眼睛牢，划过的词跑不掉。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "语篇里写：I can play ping-pong, but I can't swim. Robin 不会做的是哪件事？",
+          "solution": "swim（游泳）。but 后面才是“不会的”，ping-pong 是前半句里“会的”。",
+          "difficulty": 1,
+          "pitfall": "只看到 can play ping-pong 就选它，忽略了 but 后面的转折。"
+        },
+        {
+          "question": "一封邮件里写：There are pencils and crayons on the floor. There are pictures and photos everywhere. 写信的人主要想说什么？",
+          "solution": "主要说房间很乱（东西到处都是），想请人帮忙收拾——后面那句 I see a mouse behind my computer. 只是添趣味的细节。",
+          "difficulty": 2,
+          "pitfall": "主旨题别被 mouse 那句吸引，它只是结尾的小插曲。"
+        },
+        {
+          "question": "通读完一篇小语篇之后，第一步该做什么？",
+          "solution": "合上短文，用一句中文说出大意（谁、在讲什么事），生词先跳过不管。",
+          "difficulty": 1,
+          "pitfall": "一上来就逐词翻译、查词典，读得又慢又碎，大意反而抓不住。"
+        }
+      ],
+      "mistakes": [
+        "生词一卡壳就停下来查，把通读变成逐词翻译；生词先放过，大意不受影响。",
+        "细节题不看 but 前后的转折，答案正好选反；but 前后意思相反，要分清“会的”和“不会的”。",
+        "答完题不回原文核对，全凭印象选；每个答案都要能指回原句。",
+        "只读一遍就急着做题，题目里换了说法（如 play sports 对应 play football）就找不到对应处。"
+      ],
+      "source": {
+        "unit": "各单元 Read and write",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "语篇说：Do you want a new friend? Try me! I am Robin the Robot! … I can play ping-pong, but I can't swim. 下面哪个说法与语篇相符？",
+          "options": [
+            "Robin can play ping-pong.",
+            "Robin can swim.",
+            "Robin can't play ping-pong."
+          ],
+          "answer": "A",
+          "solution": "can play ping-pong 是“会”，can't swim 是“不会”；A 与原句一致，B、C 都和原文相反。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P43·Read and write 语篇（Who can be my friend? I can play ping-pong, but I can't swim.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "一篇短文写：There is a high mountain. In front of the mountain there is a small village. There is a lake near the village. There are many ducks on the lake. 这篇短文主要在介绍什么？",
+          "options": [
+            "怎样画鸭子",
+            "一处自然公园的风景",
+            "Robin 的房间"
+          ],
+          "answer": "B",
+          "solution": "山、村庄、湖、鸭子都在写自然公园的景色，整篇围绕风景展开——主旨要选“整篇都在讲的”。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P63·Read and write 语篇（There is a nature park near the house.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语篇填空选词：短文说 In the park there is a high mountain. In front of the mountain there is a small ______. 请从 village / mouse / sandwich 中选词填空。",
+          "options": [
+            "village",
+            "mouse",
+            "sandwich"
+          ],
+          "answer": "A",
+          "solution": "山脚下“前面”的应是村庄 village，原句就是 In front of the mountain there is a small village.；mouse 和 sandwich 与写景语境不符。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五上 P63·语篇填空变式（In front of the mountain there is a small village.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战阅读：自读小语篇——Robin is short but strong. He is really clever. He can speak Chinese and English. He is strict, too. 然后回答：What is Robin like?",
+          "answer": "short but strong, clever, strict（矮而壮、聪明、严格）",
+          "solution": "第二遍读时把性格词一个个划出来，答案就都在划线处；以后读更长的文章，也这样先找“人物描写句”。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_10",
+      "summary": "四到五句写出 My teacher 或 My room：一句开头点题，两三句细节，一句结尾收住，再查大小写和标点。",
+      "explanation": [
+        "本册的写话任务都是“写几句连贯的话”：介绍自己——Write three sentences about yourself.（可以用 I am…I can…I can't…）；写房间——What is in your room? Write three sentences.（用 There is…There are…）；写最爱食物——Dear Robin, My favourite food is ice cream. It is sweet. I don't like beef but chicken is OK.；还有 Draw and write about him/her. 介绍自己设计的机器人。这些写话都朝着“主题句＋细节句＋结尾句”的小语篇迈进。",
+        "小语篇像搭积木：主题句是底座，让读者一眼知道你写谁、写什么；细节句是砖块，一块一块把形象垒高；结尾句是屋顶，把话稳稳收住。缺了底座，句子七零八落；缺了屋顶，读完总觉得话没说完。",
+        "四步成文：定主题（My teacher 或 My room）→ 写第 1 句主题句（This is my English teacher. / Look at my room.）→ 第 2-4 句写细节，用上本册句型 He's… He can… There is… There are… → 第 5 句结尾（I like my room very much.）。写完过三关：句首大写、句末标点、单词之间空一格。",
+        "语法关看三处：There is 接单数（a big bed），There are 接复数（two photos），动笔前先数一数；描写人用 He's/She's ＋ 形容词，别写成 He like…；like 前面的主语要站对位置（I like… / She likes…）。大小写关看两处：句首字母和 I 永远大写，人名（Mr Li）、星期名（Monday）的首字母也要大写。",
+        "四到五句的小语篇是以后写八到十句短文的骨架：把细节句从两三句扩到五六句，就是一篇完整的短文。写完大声读给家人听，哪里读着卡，哪里就要改——读得顺，才算写通了。"
+      ],
+      "methods": [
+        {
+          "name": "三段积木法",
+          "steps": [
+            "开头一句点题：This is… / Look at my…",
+            "中间两三句细节：用上 He's… He can… There is/are…，每句说一个方面",
+            "结尾一句收住并带上感情：I like it very much."
+          ],
+          "tip": "开头点题，中间装细节，结尾表心情。"
+        },
+        {
+          "name": "三关自检法",
+          "steps": [
+            "第一关：每句第一个字母大写了吗？单独的 I 写成大写了吗？",
+            "第二关：句末句号、问句问号都在吗？",
+            "第三关：人名、星期名的首字母大写了吗？单词之间空格了吗？"
+          ],
+          "tip": "大写、标点、专有名词，三关一过才交卷。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写 My room，下面哪句适合放开头？",
+          "solution": "Look at my room.（看我的房间。）——主题句先点题，后面再写 There is/are 的细节。",
+          "difficulty": 1,
+          "pitfall": "把细节句 There are two photos. 放开头，读者还不知道你在写谁的房间。"
+        },
+        {
+          "question": "描写房间：有一张大床，桌子上有两张照片。怎么连成两句？",
+          "solution": "There is a big bed. There are two photos above the desk.（单数用 is，复数用 are。）",
+          "difficulty": 2,
+          "pitfall": "两张照片还说 There is，主谓就不一致了；先数一数再选。"
+        },
+        {
+          "question": "给 My teacher 结尾，下面哪句最合适？",
+          "solution": "I like my teacher very much.（结尾句表达感情，收束全文。）",
+          "difficulty": 2,
+          "pitfall": "用 There is a big bed. 结尾——那是写房间的细节句，和写老师不搭。"
+        }
+      ],
+      "mistakes": [
+        "一开头就写细节，没有主题句，读的人不知道你在写什么。",
+        "单数复数不分：两张照片写成 There is two photos；动笔前先数一数再选 is/are。",
+        "句首忘大写、句末忘句号、单独的 i 忘写成 I；写完默读一遍就能抓出来。",
+        "五句全是 He's funny. He's kind. 这样的同款句，读起来单调；换着用 He can… / We have… 才有变化。"
+      ],
+      "source": {
+        "unit": "各单元写作任务",
+        "pages": [
+          2,
+          65
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "写话任务：想成为 Robin 的朋友，要写三句自我介绍。下面哪句最适合放进去？",
+          "options": [
+            "I can do some kung fu, but I can't swim.",
+            "Robin can speak Chinese and English.",
+            "There is a big bed in my room."
+          ],
+          "answer": "A",
+          "solution": "介绍自己要用 I can…I can't…；B 说的是 Robin 不是“我”，C 是写房间的句子，都不符合“自我介绍”的任务。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P43·写话任务（Write three sentences about yourself.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "仿写房间小语篇：房间里有一个时钟和两株植物。There ___ a clock and there ___ two plants. 依次该填哪两个词？",
+          "options": [
+            "is；are",
+            "are；is",
+            "is；is"
+          ],
+          "answer": "A",
+          "solution": "a clock 是单数用 is，two plants 是复数用 are——先数一数数量再选词。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P53·写话任务（What is in your room? Write three sentences.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "小语篇排序：把打乱的四句排成一篇 My room 小语篇，并想想哪句放开头。① There is a big bed. ② Look at my room. ③ I love my room. ④ There are two photos above the desk.",
+          "options": [
+            "②①④③",
+            "①②④③",
+            "②④①③"
+          ],
+          "answer": "A",
+          "solution": "② Look at my room. 点题放开头；①④是 there be 细节句跟在后面；③表达感情收尾——正好是“主题句＋细节＋结尾”的积木顺序。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五上 P53·写话变式（There are pictures and photos everywhere.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战写作：以 My teacher 为题写 4-5 句——第 1 句点题，中间用上 He's… 和 He can…，结尾说一句感受；写完做“三关自检”。",
+          "answer": "示例——This is my English teacher. She's kind and funny. She can sing English songs. We have English on Mondays. I like her very much.",
+          "solution": "对照“主题句＋细节＋结尾”的积木顺序检查，再过大写、标点、专有名词三关；最后大声读一遍，读得顺才算写通。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_11",
+      "summary": "英语国家的小学下午常排兴趣课，周末多去公园运动、全家活动；中外课表对比着看，各取所长。",
+      "explanation": [
+        "书里藏着不少“别人的一天”：课程方面——What do you have on Mondays? I have Chinese, English, maths and music.，一周里还排着 science、art、computer class、PE；连长辈也在上课：I have a cooking class with your grandma!；周末方面——Do you often read books in this park? / I often do homework, watch TV and draw pictures on the weekend. / We can play with it on the weekend. 这些画面和英语国家孩子的日常很像：课程丰富多样，周末多在户外和家庭活动里度过。",
+        "在许多英语国家，小学上午安排语文、数学这类基础课，下午常排美术、音乐、体育、手工或俱乐部活动，“玩”也是课表的一部分；周末很少有补习班，孩子多去公园踢球、去图书馆看书、和家人出游。就像书里那样：读故事书、踢足球、看电视，也照常做作业。",
+        "用“两栏对比法”看文化：把课程表抄成两栏——我们（上午主课为主、科目安排固定）和英语国家（下午兴趣课多、活动可选）；把周末也抄成两栏——我们（作业、兴趣班、户外活动）和英语国家（公园运动、阅读、家庭活动）。对比完用英语各说一句：We have art on Tuesdays. They often play sports on Saturdays.",
+        "两个“别”要记住：别把差异当成“谁好谁坏”——课程怎么排、周末怎么过，背后是各国的教育传统和生活节奏，先了解再比较；别把人家想得太绝对——英语国家的学生同样有 homework，书里就写着 I often do homework on the weekend.，只是周末补课的现象比我们少得多。",
+        "以后读英语故事里的 school week、family day，就能立刻对上号；用英语介绍自己的课表和周末，也是和外国朋友聊天最自然的话题——先讲共同点（都做作业、都爱运动），再讲不同点，话就自然聊起来了。"
+      ],
+      "methods": [
+        {
+          "name": "课表两栏对比法",
+          "steps": [
+            "抄下自己一周的课表，标出每天的科目",
+            "查一查英语国家小学课表的样子：下午常见美术、音乐、体育、俱乐部",
+            "找出两处最大的不同，用英语说出来：We have… They often have…"
+          ],
+          "tip": "一科一科对，差异自己冒出来。"
+        },
+        {
+          "name": "周末观察法",
+          "steps": [
+            "用一个周末记录自己做的事，试着配上英语词：do homework, play football, read books…",
+            "对照书里同学的周末：read books in the park, play football, watch TV",
+            "各说一句：一处相同、一处不同"
+          ],
+          "tip": "相同点连心，不同点开眼。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "在许多英语国家的小学，下午的课表里更常见到哪类内容？",
+          "solution": "美术、音乐、体育、俱乐部等兴趣类活动；语文、数学这类基础课多排在上午。",
+          "difficulty": 1,
+          "pitfall": "以为国外下午全在考试做题——兴趣课和运动才是下午的主角。"
+        },
+        {
+          "question": "书里的同学周末常做什么？",
+          "solution": "去公园踢足球（Do you often play football here? Yes, I do.）、在公园读书、看电视、画画，也照常 do homework。",
+          "difficulty": 2,
+          "pitfall": "以为国外学生周末“什么正事都不干”，其实做作业也是他们周末的项目之一。"
+        },
+        {
+          "question": "想向英国笔友介绍自己的周末，下面哪句的说法最地道？",
+          "solution": "I often read books and play football on the weekend.（频度词 often 开头，时间 on the weekend 放句尾。）",
+          "difficulty": 2,
+          "pitfall": "照中文语序直译成 I on the weekend often read books…，英语里时间状语通常放句尾。"
+        }
+      ],
+      "mistakes": [
+        "把文化差异理解成“谁更好”；不同国家安排不同，要先了解再比较。",
+        "以为英语国家的学生周末只玩不学习；他们也 do homework、read books，别贴标签。",
+        "介绍课表时把星期名写成小写：on Mondays 里的 Monday 首字母要大写。",
+        "一说国外就是“没有作业”，说得太绝对；观察要基于事实，留有余地。"
+      ],
+      "source": {
+        "unit": "Unit 2 文化内容",
+        "pages": [
+          12,
+          21
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "文化常识：在许多英语国家的小学，下午的课程常常是？",
+          "options": [
+            "美术、音乐、体育等兴趣课",
+            "整天都在考试做题",
+            "没有课，全部放假"
+          ],
+          "answer": "A",
+          "solution": "基础课多排在上午，下午常安排兴趣课和俱乐部活动；课表里科目丰富，就像书里一周有 music、science、art、computer class、PE 一样。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P15·课程表（What do you have on Mondays? I have Chinese, English, maths and music.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "书里 Zhang Peng 周末在公园常做的事是什么？",
+          "options": [
+            "have a maths class",
+            "watch a film",
+            "play football"
+          ],
+          "answer": "C",
+          "solution": "对话里 Sarah 问 Do you often play football here? Zhang Peng 答 Yes, I do. I like this park very much.——他常在公园踢足球。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P17·对话（Do you often read books in this park? Do you often play football here? Yes, I do.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式选择：下面哪句最适合用来介绍英语国家学生的周末？",
+          "options": [
+            "They often play sports and read books on the weekend.",
+            "They never do homework.",
+            "They have classes every day, even on Sundays."
+          ],
+          "answer": "A",
+          "solution": "他们的周末多是运动、阅读这类活动，但也照常做作业；B 说得太绝对，C 与事实相反——周末不上课。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P18·周末活动变式（I often do homework, watch TV and draw pictures on the weekend.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战任务：用英语向家人做一次小小的“文化介绍”——说一句我们的课表（We have… on…），再说一句英国同学下午常见的活动，最后说说自己的周末打算（I often…）。",
+          "answer": "示例——We have art and PE on Wednesdays. English children often have music and clubs in the afternoon. I often play football on the weekend.",
+          "solution": "一句课表＋一句周末，就是最小的文化介绍；说完可以问问家人：他们小时候的周末是怎么过的？",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_12",
+      "summary": "五年级起黑体词要会听、说、读、写四样：用默写、语篇填空和谚语积累三招自查，向累计 350 词进发。",
+      "explanation": [
+        "词汇表开头写明：黑体词要求学生能够听、说、读、写；白体词只作听、说、认读。五年级起四会要求升级了，本册四会词有：old, young, funny, kind, strict, polite, hard-working, helpful, clever, shy；Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, weekend；sandwich, salad, hamburger, ice cream, tea, fresh, healthy, delicious, hot, sweet；sing, dance, draw, cartoon, cook, swim, kung fu；clock, plant, bottle, bike, photo；forest, river, lake, mountain, hill, tree, village, house。书末还有六句谚语可积累，如 Practice makes perfect.、East or west, home is best.。整册学下来，累计词汇约 350 个。",
+        "四会词是“全科必修”：耳朵听到能反应，嘴巴能说，眼睛看到能读，提起笔能一个字母不错地写出来；白体词是“选修”，见面点头认识就行。词汇自查就像给单词做体检——默写查“会不会写”，语篇填空查“会不会用”，谚语积累查“读没读熟、懂没懂意思”。",
+        "三招自查：第一招四会词默写——请家人报中文，你写英文（“星期三”→Wednesday），对照订正，错词抄三遍、隔天重默；第二招语篇填空——挑 5 个四会词编成 3-4 句小语篇并挖空，第二天合上词表自己填，填不出就说明还没真会；第三招谚语积累——一天一句读熟，想想意思，抄进积累本。",
+        "拼写陷阱排行：hard-working 中间有连字符，别写成一个词；Wednesday 的 d 不发音却不能丢；favourite 中间是 ou，别照另一种拼法少写字母；ice cream 是分开的两个词；Sunday（周日）和 Saturday（周六）都挺长，先记 Sun- 像太阳、Satur- 开头。词义也有陷阱：hot 既指“热”又指“辣”，healthy（健康的）和 sweet（甜的）不是近义词，别混用。",
+        "四会词是下一阶段写作的砖块：“砖”越齐，小语篇写得越快越顺手。建议每周固定做一次词汇体检，把“红队”（错词）越养越少；谚语抄进积累本，作文的开头结尾都能派上用场。"
+      ],
+      "methods": [
+        {
+          "name": "三色默写法",
+          "steps": [
+            "请家人报中文，默写一批四会词，如 Monday、Wednesday、delicious",
+            "三色订正：全对的标绿色、写错的标红色、拿不准的标黄色",
+            "红黄词隔天重默，一周后再整体默一遍收官"
+          ],
+          "tip": "错词进红队，天天减员，红队清空就过关。"
+        },
+        {
+          "name": "语篇填空法",
+          "steps": [
+            "挑 5 个四会词，编成 3-4 句小语篇并挖空",
+            "第二天合上词表自己填，填不出的词画上星号",
+            "填完朗读一遍——单词放进句子里才算真的会用"
+          ],
+          "tip": "孤词易忘，句中长生。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "听写“星期三”，英文怎么写？注意那个不发音的字母。",
+          "solution": "Wednesday。中间的 d 不发音，但拼写一个字母都不能少。",
+          "difficulty": 2,
+          "pitfall": "照发音拼成 Wensday，把不发音的 d 丢了。"
+        },
+        {
+          "question": "听写“工作努力的”，怎么写？",
+          "solution": "hard-working——注意中间的连字符，别写成一个连着的词。",
+          "difficulty": 2,
+          "pitfall": "漏掉连字符；写完对照词表原样核对一遍。"
+        },
+        {
+          "question": "谚语 An apple a day keeps the doctor away. 讲的是什么道理？",
+          "solution": "多吃水果身体好——每天一个苹果，医生远离我；说的是健康饮食的好处。",
+          "difficulty": 1,
+          "pitfall": "只按字面译成“苹果把医生赶走”，要理解成健康的生活习惯。"
+        }
+      ],
+      "mistakes": [
+        "只会认不会写：看到 polite 认识，默写却漏字母；四会词必须默写过关才算会。",
+        "星期名首字母写成小写：monday 要写成 Monday，一周七天的首字母都大写。",
+        "hard-working 的连字符、ice cream 的空格写错；按词汇表原样抄写。",
+        "默写完不订正，错词下次照错；错词要抄记并隔天重默。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          72,
+          79
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇自查前先弄清要求：五年级起，黑体词的要求是？",
+          "options": [
+            "听、说、读、写四样都要会",
+            "只要看见能认读",
+            "只要听得懂就行"
+          ],
+          "answer": "A",
+          "solution": "黑体词＝听、说、读、写四会，白体词只作听、说、认读；自查时先默四会的黑体词。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P72·词汇表说明（黑体词要求学生能够听、说、读、写）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "谚语积累：Practice makes perfect. 的意思最接近下面哪句中文？",
+          "options": [
+            "熟能生巧",
+            "东好西好，不如家好",
+            "眼见为实"
+          ],
+          "answer": "A",
+          "solution": "Practice makes perfect.（熟能生巧）说的是多练才能做好；“东好西好，不如家好”是 East or west, home is best.，“眼见为实”是 Seeing is believing.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P79·谚语（Practice makes perfect. 熟能生巧）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "四会词填空变式：My favourite food is fish. It is ___ and healthy. 请从 delicious / Monday / river 中选词填空。",
+          "options": [
+            "Monday",
+            "delicious",
+            "river"
+          ],
+          "answer": "B",
+          "solution": "说食物的味道要用 delicious（美味的）：It is delicious and healthy.；Monday 是星期，river 是景物，都和“食物”对不上。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五上 P73·词汇变式（四会词填空：delicious, healthy）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "挑战规划：给自己定一个词汇自查计划——本周默写哪些性格四会词和星期词？错词隔天怎么办？再挑一句谚语抄进积累本。",
+          "answer": "示例——周一默写 polite, helpful, hard-working, Wednesday；写错的词周四重默；积累本抄 Practice makes perfect.",
+          "solution": "计划要具体到“哪天默哪些词、错了怎么办”；坚持每周一轮，四会词就一个个进了保险箱。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g5a_13",
+      "summary": "单词有重音：teacher 重音在前，about 重音在后；一般疑问句尾上扬，陈述句尾下降，选择疑问先升后降。",
+      "explanation": [
+        "这部分把散在各处的朗读本领合起来练。拼读页把词按发音排好队：book room foot balloon look cool good zoo cook too goodbye afternoon（oo 的两种读音）；rainbow always rainy Monday today wait day may paint say way rain（ai/ay 发长音）；house sound flower wow count cow down about around（ou 的发音）。这些双音节词正好用来练重音：teacher、English、Monday、birthday、party、forest、mountain、river、village、football 重音都在前；about、around、balloon、goodbye、afternoon、today、cartoon、above、behind、between、polite 重音在后。对话里更是语调课堂：Is there a river in the forest, Miss White?（一般疑问句尾音上扬）— No, there isn't.（回答降下）；What can you do for the party, children?（What 开头的特殊疑问句读降调）；There is a big bed.（陈述句读降调）。分角色读对话，问的扬、答的稳，句子立刻有了英语味。",
+        "重音像打节拍：双音节词有两拍，重音那一拍要拍得响。teacher 拍在 tea 上，cher 轻轻带过；about 正相反，重音落在 bout 上。重音放错了，词就走了味，听的人可能一下子反应不过来。语调像声音的滑梯：一般疑问句（Can you…? Is there…? Are there…?）末尾往上扬，像把球抛给对方；陈述句和 What/How 开头的特殊疑问句末尾往下落，稳稳落地；用 or 连起来的选择疑问，前面升、最后一项降，先抛球再收球。",
+        "重音两步定：第一步切音节，把词切成两截（teach-er、a-bout）；第二步拍重音，双音节名词大多重音在前（teacher、Monday、party、forest），不少常用词重音在后（about、today、balloon、goodbye、cartoon、above、behind），拿不准就跟着录音多读几遍，让耳朵记住。朗读三步练：第一步看标点判句型，问号先分清是一般疑问还是特殊疑问；第二步定语调，一般疑问扬、陈述和特殊疑问降、选择疑问先升后降；第三步分角色演，问的人夸张地扬上去，答的人平稳地落下来。",
+        "重音别一刀切：不是所有双音节词都前重，about、above、behind、between 都是后重，读成前重就变味。语调也别乱套：What can you do? 是特殊疑问句，句尾要降，别跟着一般疑问句扬上去；选择疑问句别一路升到底，or 后面的最后一项要降下来。还有：一般疑问句尾上扬不是喊叫，是尾音轻轻翘起；陈述句降调不是有气无力，是自然落地。",
+        "以后碰到更长的单词，先切音节再找重音的办法一直管用；分角色朗读、给故事配音、上台展示，全靠语调传情。每天挑两句对话大声读：问句扬上去、答句落下来，坚持一段时间，耳朵和嘴巴都会自动记住英语的节奏。"
+      ],
+      "methods": [
+        {
+          "name": "拍手找重音法",
+          "steps": [
+            "把双音节词切成两截：teach-er、a-bout",
+            "拍手读：重音那一拍拍响，另一拍拍轻",
+            "teacher 前拍重、about 后拍重，边拍边念"
+          ],
+          "tip": "teacher 拍前 about 拍后，重音一错味道全跑。"
+        },
+        {
+          "name": "语调滑梯法",
+          "steps": [
+            "一般疑问句（Can you…? Is there…?）尾音像上坡，扬上去",
+            "陈述句（There is a big bed.）和 What/How 开头的特殊疑问句尾音像下坡，落下来",
+            "用 or 连起来的选择疑问：or 前升、最后一项降"
+          ],
+          "tip": "一般疑问扬上去，陈述特疑落下来，选择疑问先升后降。"
+        },
+        {
+          "name": "分角色朗读法",
+          "steps": [
+            "两人一组，一人问一人答",
+            "问的人把尾音夸张地扬上去，答的人平稳地落下来",
+            "录音回放，听听自己的“滑梯”画得像不像"
+          ],
+          "tip": "问的像抛球，答的像接球。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "teacher 和 about 各有几个音节？重音分别在哪里？",
+          "solution": "各有两个音节。teacher 重音在前（TEA-cher），about 重音在后（a-BOUT）。",
+          "difficulty": 1,
+          "pitfall": "以为双音节词都前重——about、behind 这些词重音在后。"
+        },
+        {
+          "question": "—Is there a lake in the park? 这句话读的时候，句尾音调怎么处理？",
+          "solution": "读升调，尾音上扬。这是一般疑问句，像把球抛给对方回答。",
+          "difficulty": 2,
+          "pitfall": "句尾读成降调——问句听起来就像在下命令了。"
+        },
+        {
+          "question": "What can you do for the party? 句尾读升调还是降调？为什么？",
+          "solution": "读降调。What 开头的特殊疑问句问的是具体信息，句尾自然落下。",
+          "difficulty": 3,
+          "pitfall": "见问号就上扬——先分清是一般疑问句还是特殊疑问句。"
+        }
+      ],
+      "mistakes": [
+        "把 about 读成前重。它重音在后：a-BOUT，和 above、behind、between 一家人。",
+        "What can you do? 读成升调。What 开头的特殊疑问句尾音要降。",
+        "一般疑问句尾不上扬，读得平平的。Is there a river? 尾音要翘起来。",
+        "选择疑问句一路升到底。先升后降，or 后面的最后一项要落下来。"
+      ],
+      "source": {
+        "unit": "各单元 Let's spell 与 Let's talk 综合",
+        "pages": [
+          2,
+          69
+        ],
+        "alignedAt": "2026-10-28"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "重音标注选择：下面哪个词的重音在第一个音节？",
+          "options": [
+            "balloon",
+            "goodbye",
+            "afternoon",
+            "football"
+          ],
+          "answer": "D",
+          "solution": "football 重音在前（FOOT-ball）；balloon、goodbye、afternoon 重音都在后。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教PEP五上 P40·book room foot balloon look cool good zoo cook too goodbye afternoon football（拼读例词）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语调判断：—Is there a river in the forest? 读这句话的时候，句尾应该？",
+          "options": [
+            "尾音上扬（升调）",
+            "尾音下降（降调）",
+            "先升后降",
+            "一字一顿，不升不降"
+          ],
+          "answer": "A",
+          "solution": "一般疑问句尾音上扬：Is there a river in the forest?（尾音翘起）",
+          "difficulty": 2,
+          "source": {
+            "label": "人教PEP五上 P58·Is there a river in the forest, Miss White? No, there isn't. Is there a lake, Miss White? Yes, there is."
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "语调变式：—What can you do for the party? —I can sing English songs. 问句和答句的句尾语调依次是？",
+          "options": [
+            "问句降调，答句降调",
+            "问句升调，答句升调",
+            "问句降调，答句升调",
+            "问句升调，答句降调"
+          ],
+          "answer": "A",
+          "solution": "What 开头的特殊疑问句读降调，陈述句回答也读降调。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教PEP五上 P38·What can you do for the party, children? I can sing English songs. 变式（特殊疑问句读降调）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "朗读练习：和同伴分角色读 —Can you do any kung fu? —Yes, I can. 下面哪种读法最地道？",
+          "options": [
+            "问句尾音上扬，答句平稳读降",
+            "问句尾音下降，答句尾音上扬",
+            "问句答句都上扬",
+            "问句答句都读成降调，平平的"
+          ],
+          "answer": "A",
+          "solution": "一般疑问句问的扬、答的稳。每天分角色读两句对话，耳朵和嘴巴都会记住英语的节奏，以后朗读长句子、上台展示都用得上。",
+          "difficulty": 2
         }
       ]
     }
