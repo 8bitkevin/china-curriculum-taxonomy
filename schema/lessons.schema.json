@@ -60,7 +60,7 @@
             "description": "教材对齐标记（D-031）：本条讲解对齐的教材单元/小节/页码，人工可翻书核对",
             "required": ["unit", "alignedAt"],
             "properties": {
-              "unit": { "type": "integer", "minimum": 1, "description": "教材单元号（与 topic.textbook.unit 对应）" },
+              "unit": { "type": ["integer", "string"], "description": "教材单元号或单元名（数学等数字单元用整数；语文等学科 textbook.unit 为字符串，原样对应）" },
               "sections": { "type": "array", "items": { "type": "string", "minLength": 1 }, "description": "对齐小节（来自 docs/textbook-units；小学低段无小节号可省略）" },
               "pages": { "type": "array", "items": { "type": "integer", "minimum": 1 }, "minItems": 2, "maxItems": 2, "description": "对齐页码范围 [起, 止]（含端点）" },
               "alignedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$", "description": "对齐日期（ISO）" }
