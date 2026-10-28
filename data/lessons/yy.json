@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 129,
+  "lessonCount": 144,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -16143,6 +16143,1852 @@
           ],
           "answer": "C",
           "solution": "按课默写能定位到具体哪课的词没过关，错词回原文能连句子一起记住，隔三天重测才真正巩固；抄一遍、只看不说、只背一小块都会留死角。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_01",
+      "summary": "用 Did you go anywhere interesting? 聊假期：something special 这类不定代词要把形容词放在身后，过去时问答一起练。",
+      "explanation": [
+        "开学先聊假期。配对活动给出七个假期活动：stayed at home、went to New York City、visited my uncle、went to summer camp、went to the mountains、went to the beach、visited museums，核心问答链是：Where did you go on vacation? —I went to the mountains.／Grace, where did you go on vacation? —I went to New York City. —Oh, really? Did you go with anyone? —Yes, I went with my mother. 老朋友重逢的对话里，Rick 问 Helen：Oh, did you go anywhere interesting? Helen 答 Yes, I went to Guizhou with my family.，又反问 Did you do anything special last month? Rick 说 Not really. I just stayed at home most of the time to read and relax. 语法聚焦把不定代词问答归成一串：Did you go out with anyone? —No. No one was here. Everyone was on vacation.／Did you buy anything special? —Yes, I bought something for my father.／No, I bought nothing.／How was the food? Everything tasted really good!／Did everyone have a good time? —Oh, yes. Everything was excellent. 选词练习把 anyone、something、anything、everything、nothing、everyone、no one 放进同一组对话反复操练；旅行日记里还有一句活例：For lunch, we had something very special — Malaysian yellow noodles. They were delicious!",
+        "something、anything、nothing、everyone 这些词叫不定代词——专门指「说不清具体是哪个」的人、物、地方。它们分三家人：some- 家（something、someone、somewhere）常住在肯定句里；any- 家（anything、anyone、anywhere）常住在疑问句和否定句里；no- 家（nothing、no one）自己就带着「没有」的意思。它们还有一条特别的规矩：形容词要贴在身后——不能说 special something，要说 something special，就像中文说「特别的东西」，英语的顺序是「东西在前、形容在后」。Did you go anywhere interesting? 问的就是「去了什么有意思的地方吗」，interesting 站在 anywhere 后面。",
+        "选词三步走：第一步看句型——肯定句先找 some- 家，疑问句、否定句先找 any- 家，句子里已经有 no 的否定再用 no- 家；第二步看指代——-thing 结尾指物，-one 或 -body 结尾指人，-where 结尾指地点；第三步排语序——有形容词就放到不定代词后面：anything special、something important。回答也配好对：Did you buy anything special? 有两种回答——Yes, I bought something for my father. 或 No, I bought nothing.。谓语动词还有一条铁律：no one、everyone、everything 都当单数用——No one was here. Everyone was on vacation.，was 别写成 were。",
+        "容易绊倒的地方有四：一是形容词位置——something special 不能写成 special something，复合不定代词的形容词一律后置；二是疑问句里的 some 与 any——一般疑问句用 anything（Did you do anything special?），只有真心盼着对方说 Yes 的客套问句才用 something；三是 no one 和 nothing 分工不同——no one 指人（No one was here.），nothing 指物（I bought nothing.），别拿 nothing 去说人；四是 no one 的写法——两个词分开写，不能挤成 noone，而 everyone、everything 反而是一整个词。",
+        "假期话题把七年级学的一般过去时又拉出来练了一圈：went to the mountains、visited my uncle、stayed at home、took photos，问句一律用 Did you…? 开头。把不定代词用顺了，往后写假期日记、写旅行见闻就有词可用——像 We had something very special 这样的句子往文里一放，文章立刻活起来。再提一个学习习惯：每次长假结束，试着用三五个 Did you…? 问句和同学互相采访一次，练的正是「过去时+不定代词」这对老搭档，越用越熟。"
+      ],
+      "methods": [
+        {
+          "name": "不定代词三步选词法",
+          "steps": [
+            "第一步看句型：肯定句用 some- 家（something、someone），疑问句、否定句用 any- 家（anything、anyone、anywhere），句中已有 no 再用 no- 家（nothing、no one）",
+            "第二步看指代：-thing 指物、-one 或 -body 指人、-where 指地点",
+            "第三步排语序：形容词放在不定代词后面——anything special、something important"
+          ],
+          "tip": "肯 some 疑 any 否 no；物 thing 人 one 地方 where；形容词站队尾"
+        },
+        {
+          "name": "问答配对训练法",
+          "steps": [
+            "问句用 any- 开路：Did you go with anyone?／Did you buy anything special?",
+            "肯定答用 some-：Yes, I went with my mother.／Yes, I bought something for my father.",
+            "否定答用 no- 或 not：No, I bought nothing.／Not really. I just stayed at home."
+          ],
+          "tip": "any 问出题，some 接好消息，no 直说没有"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词填空：—Did you go out with anyone?　—No. ______ was here.（从 No one、Nothing、Anyone 里选）",
+          "solution": "No one was here. 空格说的是「没有人」，指人用 no one，谓语用单数 was；nothing 指物，anyone 一般不用于肯定句。",
+          "difficulty": 1,
+          "pitfall": "误选 Nothing——nothing 指物不指人，这句说的是「这里没有人」。"
+        },
+        {
+          "question": "下面两句只有一句语序正确，把它找出来：A. I bought special something for my mother.　B. I bought something special for my mother.",
+          "solution": "B。something special 是「特别的东西」——形容词要放在不定代词后面；A 把形容词放在了前面，不成话。",
+          "difficulty": 1,
+          "pitfall": "照中文「特别的东西」的顺序去排英文，把形容词放在了前面。"
+        },
+        {
+          "question": "补全句子：For lunch, we had ______ — Malaysian yellow noodles.（用 something 和 very special 补全）",
+          "solution": "something very special。日记原句：we had something very special — Malaysian yellow noodles. 形容词 very special 整体跟在 something 后面。",
+          "difficulty": 2,
+          "pitfall": "丢了 very，或把语序排成 very special something。"
+        }
+      ],
+      "mistakes": [
+        "形容词放错位：要说 something special、anything interesting，形容词永远跟在不定代词后面，special something 不成话。",
+        "疑问句乱用 some：Did you do anything special? 是疑问句，用 anything；something 一般只在肯定句或期待对方答 Yes 的客套问句里出现。",
+        "no one 和 nothing 张冠李戴：no one 指人（No one was here.），nothing 指物（I bought nothing.）；no one 还要分开写，不能写成 noone。",
+        "everyone 当复数：everyone、everything、no one 后面的谓语动词用单数——Everyone was on vacation. 不说 Everyone were。"
+      ],
+      "source": {
+        "unit": "Unit 1 Where did you go on vacation?",
+        "pages": [
+          1,
+          6
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Did you go out with anyone?　—No. ______ was here. Everyone was on vacation.　A. No one　B. Anyone　C. Nothing",
+          "options": [
+            "No one",
+            "Anyone",
+            "Nothing"
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：Did you go out with anyone? No. No one was here. Everyone was on vacation. 指人用 no one，谓语用单数 was。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P3·语法聚焦不定代词问答（Did you go out with anyone? No. No one was here. Everyone was on vacation.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—Did you buy ______ special?　—Yes, I bought ______ for my father.（依次填入合适的不定代词）",
+          "answer": "anything; something",
+          "solution": "问句是疑问句，用 anything（Did you buy anything special?）；肯定回答用 something（Yes, I bought something for my father.）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P3·语法聚焦问答（Did you buy anything special? Yes, I bought something for my father.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "把下面的词排成一句通顺的话：we / had / something / very special / for lunch（提示：注意 something 的形容词后置）",
+          "answer": "We had something very special for lunch.",
+          "solution": "旅行日记原句：For lunch, we had something very special — Malaysian yellow noodles. something 和形容词不能断开，very special 整体跟在后面。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P5·旅行日记（we had something very special — Malaysian yellow noodles.）变式（不定代词+形容词后置排序）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "假期结束回到学校，用 Did you go anywhere interesting?、Did you do anything special? 这样的问句采访两位同学，把一问一答记下来，再检查每个不定代词后面的形容词有没有站对位置。",
+          "answer": "开放作答，如：—Did you do anything special? —Yes, I learned something new at the science museum.",
+          "solution": "问句用 any- 家，肯定回答用 some- 家；形容词后置（anything interesting、something new）是检查重点。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_02",
+      "summary": "How often 问频率：六档频度词从 always 排到 never，twice a week 报次数，hardly ever 是几乎不做。",
+      "explanation": [
+        "这一部分先摆出频度阶梯：always (100%)、usually、often、sometimes、hardly ever、never (0%)，配的问答是：What do you do on weekends? —I usually watch TV.／Do you go shopping? —No, I never go shopping. 接着出现精确次数档：How often do you watch TV? —Twice a week.；表格里给出活动 go to the movies、watch TV、shop、exercise、read 和频度 every day、once a week、twice a week、three times a week、once a month、twice a month。角色对话里 Claire 说自己报了 dance and piano lessons：swing dance 的课 I have class once a week, every Monday.；Jack 问 How often do you have piano lessons? Claire 答 Twice a week, on Wednesday and Friday. 语法聚焦归纳六组问答：What do you usually do on weekends? —I always exercise.／What does she do on weekends? —She sometimes goes shopping.／How often do you go to the movies? —I go to the movies maybe once a month.／How often does he watch TV? —He hardly ever watches TV.／Do you go shopping? —No, I never go shopping. 健康调查把问句对到生活上：How often do you exercise?／How often do you eat junk food?／How often do you drink milk?——I drink milk every day.",
+        "how often 问的是「多久做一次」，就像问打卡频率。回答有两种报法：一种是报档位——天天做就说 always 或 every day，几乎不做用 hardly ever，从来不干用 never；另一种是报精确次数——次数加一段时间：once a week 一周一次、twice a week 一周两次、three times a week 一周三次，时间段可以换成 a month、a year。频度词在句子里站的位置也有讲究：放在实义动词前面（He hardly ever watches TV.）、be 动词后面，有了位置感，句子才地道。",
+        "频率问答三步走：第一步听清问的是什么——What do you usually do 问的是做什么活动，答句报活动（I always exercise.）；How often 问的是做几次，答句报频率（Twice a week.）；第二步看主语——主语是三单（he、she）时问句用 does、答句动词加 s：How often does he watch TV? —He hardly ever watches TV.；第三步选档报数——一次 once、两次 twice、三次及以上用数字加 times，后面接 a week / a month / a year。次数说不准就加 maybe：I go to the movies maybe once a month.",
+        "四个坑要绕开：一是 twice 别写成 two time——两次用 twice，三次以上才说 three times；二是 hardly ever 不是「经常」，它的意思是 almost never「几乎不」，和 often 方向相反；三是 every day 要分开写——表示「每天」的状语是两个词，挤成 everyday 就成了形容词「日常的」；四是 sometimes 位置最自由，句首句中都能放（Sometimes I read.／I sometimes read.），但 hardly ever 通常紧跟在实义动词前面。",
+        "有了这套频度表达，就能做两件更大的事：一是读懂用百分比写的调查报告——把 ninety percent of them use the Internet every day 这类句子里的百分数和 always、usually、sometimes 对上号，就知道「九成学生天天上网」该怎么用英语说；二是写一份自己的好习惯坏习惯报告，每条都带上频度词：She always exercises. She hardly ever stays up late.。往后学了别的时态，How often 的问答骨架不变，换的只是动词——先把这套骨架搭牢。"
+      ],
+      "methods": [
+        {
+          "name": "频度阶梯定位法",
+          "steps": [
+            "把六档从高到低排好：always (100%) → usually → often → sometimes → hardly ever → never (0%)",
+            "给自己定位：天天做站 always，一周几次站 often，几乎不做站 hardly ever",
+            "说话时频度词放在实义动词前、be 动词后：I usually watch TV.／He is never late."
+          ],
+          "tip": "always 满勤 never 零，hardly ever 偶尔蹦；usually often 常见面，sometimes 站中间"
+        },
+        {
+          "name": "次数加时间段报数法",
+          "steps": [
+            "记牢三个数词说法：一次 once、两次 twice、三次及以上用数字加 times",
+            "后面接时间段：once a week、twice a week、three times a month、every day",
+            "回答 How often 直接报短语，说不准加 maybe：I go to the movies maybe once a month."
+          ],
+          "tip": "一 once 二 twice，三往上 times 排；a week a month 跟在后，报完次数任务完"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把频度副词 never、always、hardly ever、usually 从高频到低频排序。",
+          "solution": "always > usually > hardly ever > never。always 是 100% 满勤，usually 惯常做，hardly ever 几乎不做，never 是 0%。",
+          "difficulty": 1,
+          "pitfall": "把 hardly ever 排在 usually 旁边——它其实是「几乎不」，紧挨着 never。"
+        },
+        {
+          "question": "补全对话：—How often does he watch TV?　—He ______ watches TV.（用「几乎不」对应的频度短语）",
+          "solution": "hardly ever。原句：He hardly ever watches TV. hardly ever 意思是 almost never，频度短语放在实义动词 watches 前，三单动词别忘了 s。",
+          "difficulty": 2,
+          "pitfall": "理解反了填 often，或者三单漏了 s 写成 watch。"
+        },
+        {
+          "question": "用英语报出频率：我每周上两次钢琴课。",
+          "solution": "I have piano lessons twice a week. 两次用 twice，后面接时间段 a week。",
+          "difficulty": 2,
+          "pitfall": "写成 two times a week，或把 twice 拼错。"
+        }
+      ],
+      "mistakes": [
+        "twice 拼成 two time：两次用 twice，三次及以上才用 three times 这样的「数字+times」。",
+        "hardly ever 当「经常」：hardly ever 意思是 almost never 几乎不做，和 often 方向相反。",
+        "every day 连写：表示「每天」要分开写两个词；连写的 everyday 是形容词「日常的」。",
+        "三单漏勾 s：He hardly ever watches TV. 里 watches 的 s 不能丢，问句也要用 does 提问。"
+      ],
+      "source": {
+        "unit": "Unit 2 How often do you exercise?",
+        "pages": [
+          9,
+          16
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—How often do you go to the movies?　—______.　A. Maybe once a month　B. Last Sunday　C. It was wonderful",
+          "options": [
+            "Maybe once a month",
+            "Last Sunday",
+            "It was wonderful"
+          ],
+          "answer": "A",
+          "solution": "How often 问频率，用次数短语回答：I go to the movies maybe once a month.；B 回答的是时间点，C 回答的是评价，都答非所问。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P11·语法聚焦频度问答（How often do you go to the movies? I go to the movies maybe once a month.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全对话：—How often do you have piano lessons?　—______.　A. Twice a week, on Wednesday and Friday　B. On Wednesday and Friday　C. My piano teacher is strict",
+          "options": [
+            "Twice a week, on Wednesday and Friday",
+            "On Wednesday and Friday",
+            "My piano teacher is strict"
+          ],
+          "answer": "A",
+          "solution": "对话原句：How often do you have piano lessons? —Twice a week, on Wednesday and Friday. 问 How often 就要报次数；B 只说了哪两天，没报频率。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P10·角色对话（How often do you have piano lessons? Twice a week, on Wednesday and Friday.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "健康小调查里问 How often do you drink milk? 你每天喝。把回答补完整：I drink milk ______.",
+          "answer": "every day",
+          "solution": "调查原对话：How often do you drink milk, Liu Fang? —I drink milk every day. every day 表示「每天」，分开写。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P12·健康习惯问答（How often do you drink milk, Liu Fang? I drink milk every day.）变式（补全频度回答）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己的一周做频率记录：挑锻炼、读书、帮做家务三件事，各写一句 How often 问句和带频度词或次数短语的回答，最后用六档频度词给自己的生活习惯定个位。",
+          "answer": "开放作答，如：—How often do you exercise? —I exercise three times a week.",
+          "solution": "问句用 How often do you…?，答句用频度词或 once / twice / three times a week 报数；主语换成三单时记得 does 和动词加 s。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_03",
+      "summary": "比较级双轨制：短词加 -er、长词请 more，变 y 双写有规矩，good 变 better，as…as 不分高低。",
+      "explanation": [
+        "开场认双胞胎：Is that Sam? —No, that's Tom. Sam has longer hair than Tom. Both Sam and Tom can play the drums, but Sam plays them better than Tom. 反义词配对给出四组：tall—short、thin—heavy、long hair—short hair、loudly—quietly；对话练到另一对双胞胎：Tina is taller than Tara. And she also sings more loudly than Tara. 听力归类任务把形容词副词分成两轨——加 -(i)er 的和加 more 的，词表里有 funny、friendly、outgoing、hard-working、smart、lazy。唱歌比赛的角色对话是重头戏：I think Lisa sang better than Nelly. … The one with shorter hair. I think she sang more clearly than Nelly. … Nelly danced better than Lisa.。双人对比还有两句：Sam is smarter than Tom.／Tara works as hard as Tina.——后者就是同级比较 as…as：不分高低，中间夹原形。",
+        "比较级就是「把两个人或两样东西放上天平」。英语分两条轨道：短词自己加 -er 就行（taller、smarter），长词懒得变形，前面请个 more 来帮忙（more outgoing、more hard-working）；一部分双音节词（funny、friendly、heavy）走 -er 轨，但要先变词尾。句型骨架是「A + 比较级 + than + B」：I'm more outgoing than my sister.。如果两者不分高低，就用 as…as 把原形夹在中间：works as hard as Tina，意思是「和她一样努力」。",
+        "变形三步法：第一步数音节定轨道——单音节和部分双音节词加 -er（taller、shorter、smarter、quieter），多数双音节和多音节词加 more（more outgoing、more serious）；第二步查词尾用规则——辅音字母加 y 结尾的，变 y 为 i 再加 er（heavy→heavier、funny→funnier、friendly→friendlier），重读闭音节「辅元辅」结构的双写末尾字母再加 er（big→bigger、thin→thinner、hot→hotter）；第三步不规则成对硬记——good / well→better（Sam plays them better than Tom.、Lisa sang better than Nelly.）、bad→worse、many / much→more。造句时 than 后面的比较对象别丢：She sings more loudly than Tara.",
+        "四个雷区：一是双轨混搭——more taller、more smarter 都是错的，一条轨道走到底：要么 taller，要么 more beautiful；二是双写漏网——thin→thinner、big→bigger 末尾字母要双写，写成 thiner、biger 就错了；三是 as…as 中间必须用原形——as tall as、work as hard as，塞进比较级就成了 as taller as 的病句；四是形容词副词分家——形容「人」用 louder、quieter，修饰「唱、跑」这些动作用 more loudly、more clearly：she sings more loudly than Tara。",
+        "比较级是本学期写作的主力句型：写「我和我最好的朋友」这类作文，全靠 than 句和 as…as 句撑骨架——相同点用 both 和 as…as，不同点用比较级加 than。把三规则练熟，下一步的最高级就是在它们基础上再加一档（taller→the tallest），变形功夫一点不浪费。平时还可以玩「猜猜他是谁」：My hair is longer than his. He runs faster than me. 让同学猜你说的是谁，比较级立刻就活了。"
+      ],
+      "methods": [
+        {
+          "name": "双轨变形三步法",
+          "steps": [
+            "数音节定轨道：短词加 -er（taller、smarter、quieter），长词加 more（more outgoing、more serious）",
+            "查词尾用规则：辅音字母加 y 结尾变 y 为 i 加 er（heavy→heavier、funny→funnier、friendly→friendlier）；重读闭音节「辅元辅」双写末字母再加 er（big→bigger、thin→thinner、hot→hotter）",
+            "不规则成对硬记：good / well→better、bad→worse、many / much→more"
+          ],
+          "tip": "短词加 er 长词 more；y 变 i、双写要记牢；better worse 单独背"
+        },
+        {
+          "name": "than 句与 as…as 装配法",
+          "steps": [
+            "比出高低：A + be/动词 + 比较级 + than + B——I'm more outgoing than my sister.／Sam is smarter than Tom.",
+            "不分高低：as + 原形 + as——Tara works as hard as Tina.；要说「不如」就在前面加 not：not as tall as",
+            "副词比较级修饰动作：sing more loudly、dance better、run faster"
+          ],
+          "tip": "有高低找 than，不分高低 as…as 夹原形；修饰动作用副词级"
+        }
+      ],
+      "examples": [
+        {
+          "question": "写出 thin 的比较级，并说出它用了三条变形规则里的哪一条。",
+          "solution": "thin → thinner，用「重读闭音节双写末尾字母」规则：辅元辅结构双写 n 再加 er；同类还有 big→bigger、hot→hotter。",
+          "difficulty": 1,
+          "pitfall": "漏了双写写成 thiner——末尾的 n 要写两个。"
+        },
+        {
+          "question": "选一选：My cousin is ______ than me.　A. more outgoing　B. outgoinger　C. more outgoinger",
+          "solution": "A。outgoing 是多音节词，走 more 轨：more outgoing；-er 轨和 more 轨不能混搭，B、C 都是把两条轨道搅在一起。",
+          "difficulty": 1,
+          "pitfall": "画蛇添足写出 more outgoinger 这类双重变形。"
+        },
+        {
+          "question": "改错：He runs as faster as his brother.",
+          "solution": "as…as 中间用原形：He runs as fast as his brother. 对话里的同款结构是 Tara works as hard as Tina.。",
+          "difficulty": 2,
+          "pitfall": "看见「跑得一样快」就顺手把 fast 变成 faster，忘了 as…as 夹的是原形。"
+        }
+      ],
+      "mistakes": [
+        "双轨混搭：more taller、more smarter 都是错的——要么 taller，要么 more beautiful，两条轨道不同时走。",
+        "变 y 忘变形：heavy 的比较级是 heavier 不是 heavyer，辅音字母加 y 结尾要变 y 为 i 再加 er。",
+        "双写漏字：thin→thinner、big→bigger 末尾字母要双写，thiner、biger 都是拼错。",
+        "as…as 夹比较级：as…as 中间用形容词或副词原形——as tall as、as hard as，as taller as 不成立。"
+      ],
+      "source": {
+        "unit": "Unit 3 I'm more outgoing than my sister.",
+        "pages": [
+          17,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Is that Sam?　—No, that's Tom. Sam has ______ hair than Tom.　A. longer　B. long　C. longest",
+          "options": [
+            "longer",
+            "long",
+            "longest"
+          ],
+          "answer": "A",
+          "solution": "原句：Sam has longer hair than Tom. 两者相比用比较级加 than；long 是单音节词，直接加 er。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P17·双胞胎辨认对话（Is that Sam? No, that's Tom. Sam has longer hair than Tom.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "归类任务：funny、outgoing、smart 三个词里，比较级要在前面加 more 的是：　A. funny　B. outgoing　C. smart",
+          "options": [
+            "funny",
+            "outgoing",
+            "smart"
+          ],
+          "answer": "B",
+          "solution": "outgoing 是多音节词，加 more：more outgoing；funny→funnier（变 y）、smart→smarter（直接加 er）走 -er 轨。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P18·比较级归类（-(i)er / more：funny、friendly、outgoing、hard-working、smart、lazy）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "对话里说 Tara works as hard as Tina.（Tara 和 Tina 一样努力）。仿写一句：我妹妹和我跑得一样快。",
+          "answer": "My sister runs as fast as me.",
+          "solution": "同级比较用 as+原形+as；修饰「跑」这个动作用副词原形 fast，不能用 faster。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P18·双人对比（Tara works as hard as Tina.）变式（as…as 同级仿写）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "以「我和我的好朋友」为题打三句草稿：两句用比较级加 than 写不同点，一句用 as…as 写相同点；双写、变 y 和不规则变形最好各用上一次。",
+          "answer": "开放作答，如：I'm taller than him, and he is funnier than me. We run as fast as each other.",
+          "solution": "不同点用比较级加 than，相同点用 as…as；写完对照三条变形规则逐句检查。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_04",
+      "summary": "最高级选出冠军：the biggest screens、the most comfortable seats，the 的帽子不能丢，in 和 of 圈出比武范围。",
+      "explanation": [
+        "话题从「你挑哪家影院」开始，列出的考量有：comfortable seats、big screens、best sound、cheap、new movies、close to home、buy tickets quickly、popular。听力配对给出六条「之最」：It has the biggest screens.／It's the most popular near here.／It's the closest to home.／It has the shortest waiting time.／It has the best sound.／It has the most comfortable seats. 核心对话一问一答：What's the best movie theater? —Sun Cinema. It's the cheapest. —But I think Moon Theater has the most comfortable seats. 语法聚焦三组问答：What's the best movie theater to go to? —Town Cinema. It's the closest to home. And you can buy tickets the most quickly there.／Which is the worst clothes store in town? —Dream Clothes. It's worse than Blue Moon. It has the worst service.／What do you think of 970 AM? —I think 970 AM is pretty bad. It has the worst music. 新邻居对话补上一组：the best supermarket is on Center Street. You can buy the freshest food there. Sun Cinema is the newest one. You can sit the most comfortably. 才艺句：My cousin Li Jing is the funniest person I know. 写作例句：In my class, Tom is the best singer because he can sing fast songs very well.",
+        "比较级是两个人比，最高级是三个人以上选冠军。冠军榜上的词都要戴上 the 这顶帽子：the cheapest、the closest to home、the most comfortable seats。变形和比较级共用三规则：短词加 -est（shortest、newest、closest），y 变 i 加 est（funniest、heaviest），双写加 est（biggest、hottest）；长词用 the most（the most popular、the most expensive）。不规则的两个老朋友也跟着升顶：good / well→best、bad→worst。最后还要圈出比赛范围——in 加地点（in town、in my class、near here），of 加一组人或物（of the three），不说清楚范围，「冠军」就不知道是哪场比赛的冠军。",
+        "登顶三步：第一步变形——按三规则把词变成最高级：短词 cheap→cheapest、close→closest、new→newest，变 y 的 funny→funniest、heavy→heaviest，双写的 big→biggest，长音节的 popular→the most popular、comfortable→the most comfortable；第二步记不规则——good / well→best、bad→worse→worst，书上语法聚焦的 It's worse than Blue Moon. It has the worst service. 正好把比较、最高两级都演示了一遍；第三步配范围——in 加地点：the worst clothes store in town、the best supermarket on Center Street；of 加群体：the tallest of the three。副词也照此办理：buy tickets the most quickly there、sit the most comfortably。",
+        "四个易错点：一是 the 帽子忘戴——It's the cheapest. 里的 the 不能丢，最高级前面通常都要带 the；二是比较级最高级用串场合——两家店比用 worse than，三家以上才说 the worst store，书上正是先用 It's worse than Blue Moon. 再补 It has the worst service.；三是双写漏网——big→biggest、hot→hottest，写成 bigest 就错了；四是范围介词混用——in 后面接地点（in town、in my class），of 后面接一群同类（of the three），「我认识的最有趣的人」这类句子靠 I know 圈范围：the funniest person I know。",
+        "学会最高级，就能做两件实用的事：一是给家乡写「最佳榜单」——the best park、the most beautiful school，每条配一个 because 理由；二是在班里搞「之最」调查——the best chess player、the fastest runner，把调查结果写成句子。最高级还常和观点连用：I think…is the best…，先亮观点再给理由，正是后面议论表达的基本功。比较级和最高级是同一套变形规则的两级台阶，练熟 -er 就等于预定了 -est。"
+      ],
+      "methods": [
+        {
+          "name": "登顶三步法",
+          "steps": [
+            "按三规则变形：短词加 -est（cheapest、closest、newest），y 变 i 加 est（funniest、heaviest），重读闭音节双写（biggest、hottest）；长词加 the most（the most popular、the most comfortable）",
+            "不规则升级记牢：good / well→best、bad→worst",
+            "圈定范围：in 加地点（in town、in my class、near here）、of 加群体（of the three）"
+          ],
+          "tip": "短词 est 长词 most，good 变 best bad 变 worst；the 帽子戴头上，in 地点 of 群体圈赛场"
+        },
+        {
+          "name": "冠军榜问答法",
+          "steps": [
+            "问冠军：What's the best movie theater?／Which is the worst clothes store in town?",
+            "报冠军再给证据：Sun Cinema. It's the cheapest.／It has the most comfortable seats.",
+            "两家先比、三家登顶：It's worse than Blue Moon. It has the worst service."
+          ],
+          "tip": "What's the best 开口问，the 加最高级报冠军，证据就用「最」字句"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全对话：—What's the best movie theater?　—Sun Cinema. It's ______.（从 the cheapest、cheapest、cheaper 里选）",
+          "solution": "the cheapest。最高级要戴 the：It's the cheapest.；cheaper 是比较级，用在两者比较的场合，接不上「最佳」的话头。",
+          "difficulty": 1,
+          "pitfall": "丢掉 the 直接说 cheapest——冠军榜上的词要戴 the 的帽子。"
+        },
+        {
+          "question": "写出 big 的最高级，并用它补全：It has the ______ screens.",
+          "solution": "big → biggest；It has the biggest screens. 重读闭音节「辅元辅」双写 g 再加 est。",
+          "difficulty": 2,
+          "pitfall": "双写漏网写成 bigest。"
+        },
+        {
+          "question": "选介词圈范围：Miller's is the best clothes store ______ town.／The tallest boy ______ the three is Peter.",
+          "solution": "in；of。in 圈地点范围（in town），of 圈一组同类（of the three）。",
+          "difficulty": 2,
+          "pitfall": "两个介词随便换用——in town 说成 of town 就错了。"
+        }
+      ],
+      "mistakes": [
+        "the 帽子忘戴：最高级前面通常带 the——It's the cheapest. It has the best sound.，光秃秃的 cheapest 站不住。",
+        "场合用串：两者比较用比较级加 than（worse than Blue Moon），三者以上才用最高级（the worst store）。",
+        "双写漏网：big→biggest、hot→hottest、thin→thinnest，末尾字母要双写。",
+        "good/bad 硬变：good 的最高级是 best，bad 是 worst，goodest、badder 都不存在。"
+      ],
+      "source": {
+        "unit": "Unit 4 What's the best movie theater?",
+        "pages": [
+          25,
+          30
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What's the best movie theater?　—Sun Cinema. ______　A. It's the cheapest.　B. It's cheaper.　C. It's cheap.",
+          "options": [
+            "It's the cheapest.",
+            "It's cheaper.",
+            "It's cheap."
+          ],
+          "answer": "A",
+          "solution": "问句用最高级选冠军，回答也要用最高级：It's the cheapest.；B、C 只是描述便宜，接不上「最佳」的话题。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P25·选影院对话（What's the best movie theater? Sun Cinema. It's the cheapest.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全句子：Dream Clothes. It's worse than Blue Moon. It has ______ service.　A. the worst　B. worse　C. worst",
+          "options": [
+            "the worst",
+            "worse",
+            "worst"
+          ],
+          "answer": "A",
+          "solution": "语法聚焦原句：It has the worst service. 几家店一起评比用最高级 the worst；bad→worse→worst 不规则升级。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P27·语法聚焦（Which is the worst clothes store in town? Dream Clothes. It's worse than Blue Moon. It has the worst service.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "仿写作文例句补全：我们班里，李雷是跑得最快的。In our class, Li Lei is ______ runner.",
+          "answer": "the fastest",
+          "solution": "例句：In my class, Tom is the best singer because he can sing fast songs very well. 仿写用 the 加最高级（the fastest），in our class 圈出范围。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P30·班级之最例句（In my class, Tom is the best singer because he can sing fast songs very well.）变式（in 范围最高级填空）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给你生活的城镇写三条「最佳推荐」：用 the best…、the most…、the funniest… 各造一句，每句带一个 in 或 of 的范围短语和一个 because 理由，向同学做口头推荐。",
+          "answer": "开放作答，如：The best park in town is People's Park because it has the most beautiful flowers.",
+          "solution": "最高级加 in/of 范围，再补 because 理由，三件套齐全就是一条合格的推荐语。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_05",
+      "summary": "问看法用 What do you think of…?，五档态度从 love 排到 can't stand，plan to、hope to 后面接 to do。",
+      "explanation": [
+        "话题是电视节目，七个节目词先认全：talk show、soap opera、sports show、sitcom、game show、talent show、news。核心问答：What do you want to watch? —What do you think of talk shows? —They're OK. I don't mind them. —Then let's watch a talk show. 态度五档表明确标出：love、like、don't mind、don't like、can't stand。讨论节目的角色对话最热闹：We had a discussion about TV shows. My classmates like game shows and sports shows. —Oh, I can't stand them. I love soap operas. I like to follow the story and see what happens next. —Well, I don't mind soap operas. But my favorite TV shows are the news and talk shows. —They're boring! —Well, they may not be very exciting, but you can expect to learn a lot from them. I hope to be a TV reporter one day. 语法聚焦把句型归成几组：What do you plan to watch tonight? —I plan to watch Days of Our Past.／What can you expect to learn from sitcoms? —You can learn some great jokes.／Why do you like watching the news? —Because I hope to find out what's going on around the world.／What do you think of talk shows? —I don't mind them. / I can't stand them! / I love watching them! 还有问答：Do you plan to watch the news tonight? —Yes. I like watching the news. I watch it every night.",
+        "What do you think of…? 是问别人「觉得……怎么样」的万能句。回答像一支温度计，五档从热到冷：love 热爱、like 喜欢、don't mind 无所谓（mind 是「介意」，不介意就是不讨厌也不偏爱）、don't like 不喜欢、can't stand 受不了。同一档还能换说法：They're OK. I don't mind them. 比起只报档位，再加一句理由（because…）或一句补充（I like to follow the story.），观点就立体了。",
+        "三步表态法：第一步听问题选句型——问看法用 What do you think of…?，问打算用 Do you plan to…?／What do you plan to watch?，问收获用 What can you expect to learn from…?；第二步五档选词直接开头作答——I love them.／I don't mind them.／I can't stand them!，档位词后面带上宾语 them、soap operas；第三步补理由——because 后面接 plan to do（打算做）、hope to do（希望做）、expect to do（期待做）：I hope to find out what's going on around the world.。plan、hope、expect 三兄弟后面统一接 to do 原形，这条要记死。",
+        "四个坑：一是 can't stand 后面接名词或动名词——can't stand them、can't stand soap operas，不能拆成 can't standing；二是 love、like 后面两种接法都行——love soap operas 或 love watching them，语法聚焦里正是 I love watching them!；三是 don't mind 别当「不喜欢」——它是不介意、无所谓，排在 like 和 don't like 中间；四是 find out 是「查明、弄清楚」，hope to find out what's going on around the world 指弄清世界各地正在发生的事，别和 look for「寻找」混为一谈。",
+        "这套表达马上能用两件事：一是给看过的电影写几句影评——The movie is fantastic. I love it.，把态度档位词换成评价词（wonderful、enjoyable、meaningless、boring）；二是谈未来的打算——I hope to be a TV reporter one day. 这类句子和后面要学的职业理想表达是一家人。跟同学做「节目访谈」：一人当记者问 What do you think of…? Do you plan to watch…?，一人按温度计作答，五档用全了才算通关。"
+      ],
+      "methods": [
+        {
+          "name": "五档态度温度计",
+          "steps": [
+            "从热到冷排五档：love → like → don't mind → don't like → can't stand",
+            "回答直接用档位词开头，带上宾语：I love them.／I don't mind them.／I can't stand them!",
+            "can't stand 和 love 后面都可接名词或动名词：can't stand soap operas／love watching them"
+          ],
+          "tip": "love 烫 like 暖，mind 不冷也不暖；don't like 凉，can't stand 冻成冰"
+        },
+        {
+          "name": "plan、hope、expect 三兄弟",
+          "steps": [
+            "三个词后面都接 to do：plan to watch（打算看）、hope to find out（希望弄清）、expect to learn（期待学到）",
+            "问打算：What do you plan to watch tonight? —I plan to watch Days of Our Past.",
+            "补理由：Why do you like watching the news? —Because I hope to find out what's going on around the world."
+          ],
+          "tip": "打算希望加期待，后面一律 to do；find out 查明白，going on 是正在发生"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把三个态度词 don't like、love、can't stand 按从最爱到最不爱排序。",
+          "solution": "love > don't like > can't stand。温度计从热到冷：love 最热，can't stand 冷到冰点。",
+          "difficulty": 1,
+          "pitfall": "若把 don't mind 也排进来，要放中间——它介于 like 和 don't like 之间，是「无所谓」。"
+        },
+        {
+          "question": "补全对话：—What do you think of soap operas?　—I ______ them!（表示「完全受不了」，用两个词的短语）",
+          "solution": "can't stand。can't stand 表示「受不了」，后面直接接宾语 them；比它暖一档的否定是 don't like。",
+          "difficulty": 2,
+          "pitfall": "把 can't stand 写成 can't standing 或 don't stand——固定短语不能拆也不能换。"
+        },
+        {
+          "question": "用 plan to 或 hope to 补全：—What do you ______ watch tonight?　—I ______ watch Days of Our Past.（两空用不同的词）",
+          "solution": "plan to；hope to。原句：What do you plan to watch tonight? I plan to watch Days of Our Past.；第二空换成 hope to 也成立，两个词后面都接 to do。",
+          "difficulty": 2,
+          "pitfall": "动词后面丢了 to，写成 plan watch 或 hope watch。"
+        }
+      ],
+      "mistakes": [
+        "don't mind 当「不喜欢」：don't mind 是不介意、无所谓，排在 like 和 don't like 中间，别把它当成否定到底。",
+        "can't stand 拆散：它是一个固定短语，后面直接接宾语或动名词——can't stand them，不写 can't standing。",
+        "三兄弟后丢 to：plan、hope、expect 后面统一接 to do——I hope to find out…，hope find out 不成立。",
+        "答非所问：What do you think of…? 问看法，要用态度档位词回答，答成 Yes, I do. 就错了。"
+      ],
+      "source": {
+        "unit": "Unit 5 Do you want to watch a game show?",
+        "pages": [
+          33,
+          35
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What do you think of talk shows?　—______.　A. I don't mind them.　B. Yes, I do.　C. I watched them last night.",
+          "options": [
+            "I don't mind them.",
+            "Yes, I do.",
+            "I watched them last night."
+          ],
+          "answer": "A",
+          "solution": "问看法要用态度回答：They're OK. I don't mind them.；B 是回答 Do you…? 的，C 只说了看过没表态。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P33·节目观点对话（What do you think of talk shows? They're OK. I don't mind them.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全问答：—What do you plan to watch tonight?　—I plan ______ Days of Our Past.　A. to watch　B. watching　C. watch",
+          "options": [
+            "to watch",
+            "watching",
+            "watch"
+          ],
+          "answer": "A",
+          "solution": "plan 后面接 to do：I plan to watch Days of Our Past.；plan、hope、expect 三兄弟后面统一是 to do。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P35·语法聚焦（What do you plan to watch tonight? I plan to watch Days of Our Past.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "讨论对话里，同学们 like game shows and sports shows，Grace 却说 I can't stand them.。按五档温度计回答两问：Grace 的态度在第几档？如果 Grace 改成对 soap operas「无所谓」，这句话该怎么说？",
+          "answer": "第五档（最冷档）；I don't mind soap operas.",
+          "solution": "can't stand 是温度计从热到冷的最冷一档；「无所谓」对应 don't mind——对话里另一人正是这么说的：Well, I don't mind soap operas.",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P34·讨论对话（Oh, I can't stand them. I love soap operas. … Well, I don't mind soap operas.）变式（五档态度判断与换挡）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "当一次小记者：问三位同学对两类节目的看法（What do you think of…?）和今晚的打算（What do you plan to watch tonight?），把回答整理成表格，检查每个人的态度词有没有落在五档里、plan 后面有没有 to。",
+          "answer": "开放作答，如：—What do you think of the news? —I don't mind it, but my sister can't stand it.",
+          "solution": "看法问句配五档态度词，打算问句配 plan to do；整理表格时顺便复习 them、it 这些宾格。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_06",
+      "summary": "学会谈职业理想：What do you want to be when you grow up? 问理想，How are you going to do that? 追问路径，be going to 说打算。",
+      "explanation": [
+        "这部分先认识十二个职业词：computer programmer（电脑程序员）、cook（厨师）、doctor（医生）、engineer（工程师）、teacher、violinist（小提琴手）、bus driver、pilot（飞行员）、pianist（钢琴家）、basketball player、scientist、actor（演员）。核心问答接着就来了：What do you want to be when you grow up? I want to be a computer programmer. How are you going to do that? I'm going to study computer science. 语法聚焦把问答链补成四问四答：What do you want to be when you grow up? —I want to be an engineer. How are you going to do that? —I'm going to study math really hard. Where are you going to work? —I'm going to move to Shanghai. When are you going to start? —I'm going to start when I finish high school and college. 课上的职业与行动配对很整齐：演员配 take acting lessons（上表演课），篮球运动员配 practice basketball every day。",
+        "want to be 说的是心里那个理想，be going to 说的是为理想排好的行动表：I'm going to study…、I'm going to practice…，都是已经拿定主意、打算去做的事。How are you going to do that? 就是追问这张行动表：光说想当工程师不够，还得说得出打算怎么学。课后的对话里，Ken 想当 writer（作家），他的路径朴素得很——keep on writing stories（坚持写故事）；他还有一句话特别提气：Just make sure you try your best. Then you can be anything you want! 意思是只要尽力，想成为什么都有可能。",
+        "问答链可以拆成三步走：第一步答理想，用 want to be＋职业（别忘了冠词：a computer programmer、an engineer）；第二步问路径，固定句式 How are you going to do that?；第三步给行动，be going to＋动词原形，常见搭配直接背：study computer science、study math really hard、practice basketball every day、take acting lessons。主语换成他她时两处要联动：want 变 wants，be going to 变 He's/She's going to——My brother wants to be an actor. He's going to take acting lessons.",
+        "最容易绊倒人的有三处。一是 to 后面的动词必须穿原形：说 I'm going to study…，不能说 going to studying；二是 be 动词跟着主语变：I'm going to…、He's going to…、They're going to…，丢了 's 或 're 句子就散架；三是冠词：元音音素开头的职业前用 an（an engineer、an actor），辅音音素前用 a（a pilot、a scientist）。另外分清两问的分工：What…want to be? 问理想，答职业；How…going to do that? 问路径，答做法，答句里再报一遍职业就跑偏了。",
+        "这套问答链是谈计划的通用模板：把职业换成任何目标都成立，课上的新年决心清单就是现成例子——I'm going to learn to play the piano. I'm going to get lots of exercise. 往后还会遇到 will：will 说的是对未来的预测，be going to 说的是已经定下的打算，两者分工不同，先把手头这条问答链练到脱口而出，后面学预测就不会绕晕。"
+      ],
+      "methods": [
+        {
+          "name": "理想问答链三步走",
+          "steps": [
+            "第一步答理想：What do you want to be when you grow up? —I want to be＋职业（带冠词 a/an）",
+            "第二步问路径：How are you going to do that?",
+            "第三步给行动：I'm going to＋动词原形＋具体做法",
+            "换主语检查：he/she 时 want 变 wants、be going to 变 He's/She's going to"
+          ],
+          "tip": "口诀：理想 want to be，路径 how 来问，行动 going to。"
+        },
+        {
+          "name": "职业-行动配对记忆法",
+          "steps": [
+            "computer programmer 配 study computer science",
+            "engineer 配 study math really hard",
+            "basketball player 配 practice basketball every day",
+            "actor 配 take acting lessons"
+          ],
+          "tip": "口诀：程序员学电脑，演员上表演课，工程师死磕数学。"
+        },
+        {
+          "name": "going to 原形检查法",
+          "steps": [
+            "句中找到 going to",
+            "看 to 后面的动词",
+            "必须是原形：study/practice/take，不能是 studying/practices",
+            "再看 be 动词：I'm/He's/She's/They're 对号入座"
+          ],
+          "tip": "口诀：to 后动词穿原形，be 动词跟着主语行。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "补全问答链：—What do you want to be when you grow up? —I want to be an engineer. —____ are you going to do that? —I'm going to study math really hard. 横线上填 What 还是 How？",
+          "solution": "填 How。前一句已答出理想（an engineer），这里追问的是实现路径，用固定句式 How are you going to do that?；课上的问答示范正是这一组。",
+          "difficulty": 1,
+          "pitfall": "顺手填 What——What 问理想，How 问路径，这句问的是做法。"
+        },
+        {
+          "question": "My brother wants to be an actor. 用 be going to 补出他的打算，从 take acting lessons / study computer science / practice basketball every day 里选一个最贴切的。",
+          "solution": "选 take acting lessons。演员的路径是上表演课，课上的配对表正是 actor—take acting lessons；程序员才学 computer science，篮球运动员才 practice basketball every day。",
+          "difficulty": 2,
+          "pitfall": "配对张冠李戴——行动要跟职业配套，不能随手抓一个。"
+        },
+        {
+          "question": "把 I'm going to take guitar lessons. 改成 Lucy 来说（用 she）。",
+          "solution": "She's going to take guitar lessons. 主语换成 Lucy（三单），be 动词由 am 变 is：She's going to…；课上的决心表里就有 She's going to take piano lessons. 这样的句子。",
+          "difficulty": 2,
+          "pitfall": "只换主语不换 be 动词，漏掉 She's 里的 's。"
+        }
+      ],
+      "mistakes": [
+        "误：I'm going to studying computer science.——going to 后面的动词必须用原形 study，to 后不加 -ing。",
+        "误：He going to take acting lessons.——主语三单时 be 动词不能丢：He's going to take acting lessons.。",
+        "误：I want to be engineer.——职业单数前要有冠词，元音音素开头用 an：an engineer；辅音音素开头用 a：a pilot。",
+        "误：How are you going to do that? 答 I want to be a doctor.——这句问的是实现路径，要用 be going to 说做法，不能把理想再报一遍。"
+      ],
+      "source": {
+        "unit": "Unit 6 I'm going to study computer science.",
+        "pages": [
+          41,
+          44
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—What do you want to be when you grow up? —I want to be a computer programmer. —How are you going to do that? —____",
+          "options": [
+            "I'm going to study computer science.",
+            "I'm going to take acting lessons.",
+            "I'm going to practice basketball every day.",
+            "I'm going to study math really hard."
+          ],
+          "answer": "A",
+          "solution": "computer programmer（电脑程序员）配套的学习路径是 study computer science，课上的问答示范原句就是这一组。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P41·职业理想问答（What do you want to be when you grow up? I want to be a computer programmer. How are you going to do that? I'm going to study computer science.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "My brother wants to be an actor. He's going to ____",
+          "options": [
+            "take acting lessons",
+            "take singing lessons",
+            "study computer science",
+            "go to a cooking school"
+          ],
+          "answer": "A",
+          "solution": "actor（演员）配 take acting lessons（上表演课）；go to a cooking school 是厨师的路径，study computer science 是电脑程序员的路径。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P43·理想与打算配对（My brother wants to be an actor. He's going to take acting lessons.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "课上的决心表里有一句 I'm going to take guitar lessons.。现在让 Lucy 来说这件事：Lucy ____ guitar lessons.",
+          "options": [
+            "is going to take",
+            "are going to take",
+            "is going to taking",
+            "will taking"
+          ],
+          "answer": "A",
+          "solution": "主语换成 Lucy（三单），be 动词用 is：Lucy is going to take guitar lessons.，to 后面保持动词原形 take；决心表里 She's going to take piano lessons. 就是这个形式。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P44·新年决心对话（What are you going to do next year? I'm going to take guitar lessons.）变式（主语换 Lucy 选 be going to 形式）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 want to be 和 be going to 写一组你自己的理想问答：一句问理想、一句问路径、一句答路径。",
+          "answer": "示例：What do you want to be when you grow up? I want to be a pilot. How are you going to do that? I'm going to study really hard.",
+          "solution": "套用三步问答链：What do you want to be…? 问理想，How are you going to do that? 问路径，答句用 I'm going to＋动词原形给出具体做法，职业前记得加冠词。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_07",
+      "summary": "will 开口谈未来：Will people have robots? 答 Yes, they will.／No, they won't.；There will be… 说将有，fewer 配可数、less 配不可数。",
+      "explanation": [
+        "这部分教人当预言家：对未来做预测（predictions）。课上的预测清单一共六条：People will have robots in their homes. / People won't use money. Everything will be free. / Books will only be on computers, not on paper. / Kids won't go to school. They'll study at home on computers. / There will be only one country. / People will live to be 200 years old. 问答操练用它配对：Will people use money in 100 years? —No, they won't. Everything will be free. / Will people live to be 200 years old? —Yes, they will. 语法聚焦再给出两条缩写：'ll = will，won't = will not。",
+        "will 是英语里的预言家：不管主语是谁，它后面都跟动词原形，句式一点不变。Kids won't go to school. They'll study at home on computers.——won't 是 will not 的缩写，'ll 是 will 的缩写，口语里几乎都用缩写。in 100 years（一百年后）是预测句的老搭档：谈百年后的事，就用 will。要说某地将有某物，用 There will be…：There will be only one country.；它的问句和回答是 Will there be…? —Yes, there will.／No, there won't.。",
+        "写预测句三步走：第一步定主语（people、kids、cities 都行）；第二步加 will 或 won't（否定预测用 won't）；第三步跟动词原形（have、use、live…）。想问别人的看法，把 will 提到主语前：Will people have robots? 回答两个词就够：Yes, they will.／No, they won't.，助动词要跟问句配套。量化预测用 There will be＋名词：There will be more people.／There will be fewer trees.。",
+        "名词前用 fewer 还是 less，是这部分的核心考点：先问能不能一个一个数。能数、用复数的可数名词配 fewer——fewer trees、fewer people、fewer cars；数不清的不可数名词配 less——less free time、less pollution、less water。课上的语法表把它分成两栏背：There will be more people. There will be fewer trees.（可数栏）／There will be more pollution. There will be less free time.（不可数栏）。最常见的错误是交换着用：less trees、fewer free time 都不对。",
+        "预测不只能聊机器人：课上的对话把它接到了环保上——cities will be more crowded and polluted. There will be fewer trees… 那怎么办？We can use less water and plant more trees. Everyone should play a part in saving the earth.。学会 will 之后，还可以问得更细：What will the future be like? 下一部分要学的 if 条件句，正好给这些预测配上条件——满足什么前提，就会出现什么结果。"
+      ],
+      "methods": [
+        {
+          "name": "will 预测三步法",
+          "steps": [
+            "定主语：people / kids / cities…",
+            "加 will 或 won't（否定预测用 won't）",
+            "跟动词原形：have / use / live…",
+            "问答配套：Will…? —Yes, 主语+will. ／ No, 主语+won't."
+          ],
+          "tip": "口诀：will 后面动词光着走（原形），won't 一票否决。"
+        },
+        {
+          "name": "There will be 存在预测法",
+          "steps": [
+            "说将有某物用 There will be＋名词",
+            "疑问把 will 提前：Will there be…?",
+            "回答用 there 配对：Yes, there will.／No, there won't.",
+            "量化变化用 more／fewer／less 修饰名词"
+          ],
+          "tip": "口诀：There will be 一出，某地有啥全都有。"
+        },
+        {
+          "name": "fewer-less 分拣法",
+          "steps": [
+            "先问这个名词能不能一个一个数",
+            "能数（复数名词）→ fewer：fewer trees / fewer cars",
+            "数不清（不可数）→ less：less free time / less water",
+            "吃不准时想复数形式：能加 -s 的走 fewer"
+          ],
+          "tip": "口诀：fewer 加复数，less 加不可数。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "—Will people live to be 200 years old? —Yes, they ____. 横线上填 will 还是 do？",
+          "solution": "填 will。问句用 Will 开头，回答就用 will 收尾：Yes, they will.；否定回答则是 No, they won't.。",
+          "difficulty": 1,
+          "pitfall": "答句换成 do——问句和答句的助动词必须配套。"
+        },
+        {
+          "question": "选词填空：In 100 years, there will be ____ (fewer/less) cars, and people will have ____ (fewer/less) free time.",
+          "solution": "fewer; less。cars 是可数名词复数，配 fewer；free time 是不可数名词，配 less。",
+          "difficulty": 2,
+          "pitfall": "凭语感乱选——先数一数名词：能加 -s 的用 fewer。"
+        },
+        {
+          "question": "补全预测：Kids ____ go to school. They'll study at home on computers.（填 won't 或 will）",
+          "solution": "填 won't。后半句 They'll study at home on computers（在家用电脑学习）说明不去学校，否定预测用 won't（will not）。",
+          "difficulty": 2,
+          "pitfall": "只看前半句猜 will——前后两句是呼应关系，要连起来读。"
+        }
+      ],
+      "mistakes": [
+        "误：People will uses money.——will 后面的动词用原形 use，不加 -s、不加 -ing。",
+        "误：Will people have robots? 答 Yes, they won't.——回答与问句配套：肯定回答 Yes, 主语+will.，否定回答 No, 主语+won't.，不能混搭。",
+        "误：There will has more robots.——将有某物用 There will be，will 后的动词是 be，不是 has。",
+        "误：less trees／fewer free time——可数复数配 fewer（fewer trees），不可数配 less（less free time），交换着用就错了。"
+      ],
+      "source": {
+        "unit": "Unit 7 Will people have robots?",
+        "pages": [
+          49,
+          51
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Will people use money in 100 years? —____ Everything will be free.",
+          "options": [
+            "No, they won't.",
+            "Yes, they will.",
+            "No, they don't.",
+            "Yes, they are."
+          ],
+          "answer": "A",
+          "solution": "后半句 Everything will be free（一切免费）说明不再用钱，否定回答 No, they won't.；课上的问答原句就是这一组。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P49·百年后预测问答（Will people use money in 100 years? No, they won't. Everything will be free.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "In the future, there will be ____ trees and ____ free time.",
+          "options": [
+            "fewer; less",
+            "less; fewer",
+            "fewer; fewer",
+            "less; less"
+          ],
+          "answer": "A",
+          "solution": "trees 可数复数用 fewer，free time 不可数用 less；语法聚焦的两栏示范正是 There will be fewer trees. 与 There will be less free time.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P51·语法聚焦可数不可数分栏（There will be fewer trees. There will be less free time.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "课上的插图问答是：—Do you think there will be robots in people's homes? —Yes, there will.。换成问 world peace（世界和平）：—Will there be world peace? —____",
+          "options": [
+            "Yes, I hope so.",
+            "Yes, there is.",
+            "Yes, they will.",
+            "Yes, it is."
+          ],
+          "answer": "A",
+          "solution": "There will be 的问句用 there 配对回答；课上的原句正是 Will there be world peace? —Yes, I hope so.（希望如此）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P51·Will there be world peace 问答（Will there be world peace? Yes, I hope so.）变式（There will be 答语选择）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 will 写三句你对 20 年后生活的预测，其中一句以 There will be 开头。",
+          "answer": "示例：In 20 years, I'll be a doctor. There will be more robots in hospitals. People will live to be 100 years old.",
+          "solution": "预测句公式：主语＋will＋动词原形；某地将有某物用 There will be＋名词；时间状语常用 in 20 years。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_08",
+      "summary": "用 First/Next/Then/Finally 讲清制作步骤：How do you make a banana milk shake?；how many 配可数、how much 配不可数。",
+      "explanation": [
+        "这部分从一杯香蕉奶昔学流程说明。先认识六个动作词：turn on（打开）、cut up（切碎）、drink（喝）、peel（剥皮）、pour（倒）、put（放）。课上的制作顺序是六步：Peel three bananas. / Cut up the bananas. / Put the bananas and ice-cream in the blender. / Pour the milk into the blender. / Turn on the blender. / Drink the milk shake. 语法聚焦再教四个路标词把步骤串起来：How do you make a banana milk shake? First, peel the bananas. Next, put the bananas in the blender. Then, pour the milk into the blender. Finally, turn on the blender. 用量问答也在同一张表里：How many bananas do we need? We need three bananas. / How much yogurt do we need? We need one cup of yogurt.",
+        "First、Next、Then、Finally 就像工地上的路标：First 立在起点，Finally 收在终点，Next、Then 把中间的路串起来，听的人顺着走就不会迷路。步骤句都是祈使句，动词原形打头阵：Peel…、Cut up…、Pour…，因为说的是照着做，不用管谁来做。这跟平时家里教你做菜一个道理：先剥皮，再切块，然后倒牛奶，最后开机——顺序一乱，奶昔就做不成了。",
+        "讲流程三步走：第一步开头交代做什么（How do you make…?）；第二步用四个路标词排步骤，每个路标词后跟一个祈使句；第三步收尾（Finally…）。排顺序有个诀窍：先找 First 和 Finally 定住首尾，剩下的步骤按逻辑插进 Next、Then 的位置。问用量用固定句式：可数的东西问 How many＋复数名词（How many bananas do we need?），不可数的问 How much（How much yogurt do we need?），不可数还能借容器计量：one cup of yogurt、two spoons of honey。",
+        "最常混的是 how many 和 how much：能不能一个一个数是分界线——bananas、apples、tomatoes 能数，用 how many；yogurt、sugar、bread、cheese 数不清，用 how much。动词短语也别混：turn on 开的是电器（turn on the blender），pour…into 是把…倒进…（pour the milk into the blender），cut up 是切碎。还要留心 the 不能丢：说 turn on the blender、pour the milk into the blender，光杆名词听起来就像话没说完。",
+        "这套四步框架是说明文的骨架：课上的俄罗斯汤对话把步骤说得更细（First, buy some beef… Next, put them into a pot… After that, cook them… Finally, don't forget to add some salt.），食谱短文也用它来写——火鸡大餐、云南米线都是 First/Next/Then/Finally 串出来的。学会它，以后写怎么泡茶、怎么种一棵树就有现成的模板，理科实验报告的步骤说明也靠它。"
+      ],
+      "methods": [
+        {
+          "name": "流程四词排序法",
+          "steps": [
+            "先找 First 定开头、Finally 定收尾",
+            "把剩下的事件按先后排进 Next、Then",
+            "每个路标词后写一个祈使句（动词原形开头）",
+            "通读一遍检查：顺序对不对、the 丢了没有"
+          ],
+          "tip": "口诀：First 开头，Finally 收官，Next、Then 串中间。"
+        },
+        {
+          "name": "how many-how much 分拣法",
+          "steps": [
+            "看名词能不能一个一个数",
+            "能数→ How many＋复数：How many bananas do we need?",
+            "数不清→ How much：How much yogurt do we need?",
+            "不可数要给量时借容器：one cup of yogurt、two spoons of honey"
+          ],
+          "tip": "口诀：数得清用 many，数不清用 much。"
+        },
+        {
+          "name": "祈使句步骤法",
+          "steps": [
+            "步骤句动词原形打头：Peel… Cut up… Pour…",
+            "工具或对象前加 the：turn on the blender",
+            "倒进某容器用 into：pour the milk into the blender",
+            "收尾别忘了 Finally"
+          ],
+          "tip": "口诀：步骤句动词带头干，the 别丢。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "给制作香蕉奶昔的步骤排序：①Peel three bananas. ②Cut up the bananas. ③Put the bananas and ice-cream in the blender. ④Pour the milk into the blender. ⑤Turn on the blender.",
+          "solution": "①②③④⑤。先剥皮，再切碎，然后把香蕉和冰淇淋放进搅拌机，接着把牛奶倒进去，最后打开搅拌机；课上的听力排序正是这个顺序，喝（Drink the milk shake.）才是收尾一步。",
+          "difficulty": 2,
+          "pitfall": "先开机器再放料——步骤要按生活逻辑排，不能随手乱排。"
+        },
+        {
+          "question": "选词填空：____ bananas do we need? We need three. / ____ yogurt do we need? One cup.",
+          "solution": "How many; How much。bananas 可数复数用 How many，yogurt 不可数用 How much；不可数的量借 cup 说：one cup of yogurt。",
+          "difficulty": 1,
+          "pitfall": "看错对象——问的是名词可不可数，不是量的多少。"
+        },
+        {
+          "question": "补全对话：—Let's make fruit salad. —OK, good idea. How much yogurt do we need? —____ —And how many apples do we need? —We need two apples.",
+          "solution": "答 One cup.（一杯）。How much yogurt 问不可数的量，用量具回答：One cup.；How many apples 问可数的个数，答 We need two apples.。",
+          "difficulty": 2,
+          "pitfall": "答句丢量词——one cup of yogurt 里的 cup 就是量具。"
+        }
+      ],
+      "mistakes": [
+        "误：How many yogurt do we need?——yogurt 不可数，要用 How much；能数出个数的（bananas、apples）才用 How many。",
+        "误：Turn on blender.——电器前别丢 the：Turn on the blender.。",
+        "误：Peels three bananas first.——步骤句是祈使句，动词用原形打头，不加 -s 也不加 to。",
+        "误：pour the milk in the blender——倒进某容器用 pour…into…，into 才能表示进到里面。"
+      ],
+      "source": {
+        "unit": "Unit 8 How do you make a banana milk shake?",
+        "pages": [
+          57,
+          59
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "制作香蕉奶昔，下列步骤的正确顺序是（　）①Peel three bananas. ②Cut up the bananas. ③Put the bananas and ice-cream in the blender. ④Pour the milk into the blender. ⑤Turn on the blender.",
+          "options": [
+            "①②③④⑤",
+            "①③②④⑤",
+            "②①③④⑤",
+            "①②④③⑤"
+          ],
+          "answer": "A",
+          "solution": "先剥皮（①），再切碎（②），把香蕉和冰淇淋放进搅拌机（③），倒入牛奶（④），最后打开搅拌机（⑤）；课上听力排序的答案正是这个顺序。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P57·奶昔制作六步排序（Peel three bananas. Cut up the bananas. Put the bananas and ice-cream in the blender. Pour the milk into the blender. Turn on the blender.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "补全用量问答：____ bananas do we need? We need three. ／ ____ yogurt do we need? We need one cup.",
+          "options": [
+            "How many; How much",
+            "How much; How many",
+            "How many; How many",
+            "How much; How much"
+          ],
+          "answer": "A",
+          "solution": "bananas 可数复数用 How many，yogurt 不可数用 How much；语法聚焦的两栏示范正是这两组问答。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P59·how many/how much 用量问答（How many bananas do we need? How much yogurt do we need?）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "书上自测要给番茄蛋汤的步骤排顺序：切番茄下锅→加水、糖和盐→煮五分钟并打入两个鸡蛋→拌匀上桌。煮五分钟并打入两个鸡蛋这一步应该用哪个词开头？（　）",
+          "options": [
+            "Then",
+            "First",
+            "Next",
+            "Finally"
+          ],
+          "answer": "A",
+          "solution": "它是四步里的第三步：First 切番茄下锅，Next 加水、糖和盐，Then 煮五分钟打入两个鸡蛋，Finally 拌匀上桌；Then 表示然后，排在 Next 之后。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P64·番茄蛋汤步骤排序（First, cut up three tomatoes and put them into a pot.…Finally, mix everything together and serve it.）变式（流程四词定位）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "选一种你熟悉的食物，用 First、Next、Then、Finally 写三到四句做法说明。",
+          "answer": "示例：First, boil the noodles. Next, cut up two tomatoes. Then, put the tomatoes into the noodles. Finally, add an egg and enjoy it.",
+          "solution": "开头交代做什么，再用四个路标词各带一个祈使句（动词原形开头），最后用 Finally 收尾；写完通读检查顺序是否合理。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_09",
+      "summary": "邀请说 Can you come to my party?，接受答 Sure, I'd love to.，婉拒用 Sorry/I'm afraid not＋理由，学会得体应答。",
+      "explanation": [
+        "这部分先认识五个有事在身的理由短语：prepare for an exam（备考）、help my parents、go to the doctor、meet my friend、have the flu（得了流感）。核心对话三句一个回合：Can you come to my party on Saturday afternoon? —Sure, I'd love to.（接受）／Sorry, I can't. I have to prepare for an exam.（婉拒）／I'm sorry, too. I must go to the doctor. 语法聚焦把应答铺成一张表：Sure, I'd love to. ／ Sorry, I must study for a math test. ／ Sure. That sounds great. ／ I'm afraid not. I have the flu. ／ No, he can't. He has to help his parents. ／ No, she's not available. ／ No, they might have to meet their friends. 婉拒之后还有一套客套：—That's too bad. Maybe another time. —Sure. Thanks for asking.",
+        "邀请是给人面子的事：别人请你，接受就要答得热情——Sure, I'd love to.（当然，我很乐意），比干巴巴一句 OK 有礼多了。去不了也不能只甩一个 No：先说 Sorry 或 I'm afraid not（恐怕不行），再补上理由，I have to prepare for an exam.——先抱歉、再理由，对方才不会觉得被怠慢。对方婉拒时也要会接话：That's too bad. Maybe another time.（真遗憾，下次吧），对方还会说 Thanks for asking（谢谢你的邀请），一来一回都是分寸。",
+        "应答可以分成三分支来记：分支一接受——Sure, I'd love to.／Sure. That sounds great.；分支二婉拒——Sorry, I can't.／I'm afraid not.＋理由，理由库就五个短语：prepare for an exam、help my parents、go to the doctor、meet my friend、have the flu，再加 I'm not available（我没空）、too much homework；分支三另约时间——Maybe another time.／Can you hang out with us on Monday night? 邀请句式除 Can you come to…? 外还有 Would you like to…? 和 Can you go to the movies…?，会一样就能迁移。",
+        "几组近义表达要分清：have to 和 must 都表不得不，后接动词原形，主语三单时 have to 变 has to（He has to help his parents.）；I'm afraid not 本身已含否定，后面不能再接 I can't；not…until 是直到…才——课上的句子 Sam isn't leaving until next Wednesday. 意思是 Sam 要到下周三才走，所以才能约周一晚上一起。until 前有没有 not，句意正好相反，这是最容易被忽略的一个词。",
+        "口头邀请练熟之后，这部分还把邀请搬到了纸上：图书馆开馆的邀请函写道 I would like to invite you to the opening of our new library.…Please reply in writing to this invitation by Friday, December 20th.——正式邀请函要写清活动、时间、地点，还要请对方回复（reply）。学会这套表达，生日会、班级活动的邀请函和婉拒回复就都有章法了，这是应用文写作的第一批脚手架。"
+      ],
+      "methods": [
+        {
+          "name": "邀请应答三分支法",
+          "steps": [
+            "听清是邀请：Can you come to…?／Would you like to…?",
+            "能去→热情接受：Sure, I'd love to.",
+            "不能去→先抱歉再理由：Sorry, I'm afraid I can't. I have to prepare for an exam.",
+            "对方婉拒→接住场面：That's too bad. Maybe another time."
+          ],
+          "tip": "口诀：接受要热情 Sure, I'd love to；婉拒先抱歉，理由跟后面。"
+        },
+        {
+          "name": "婉拒理由库法",
+          "steps": [
+            "学业类：prepare for an exam／study for a math test／too much homework",
+            "家庭类：help my parents／look after my little cousin",
+            "健康类：go to the doctor／have the flu",
+            "答句组装：Sorry/I'm afraid not＋理由＋Thanks for asking"
+          ],
+          "tip": "口诀：婉拒不是没理由，理由库里随手取。"
+        },
+        {
+          "name": "not…until 判断法",
+          "steps": [
+            "找到 until 后面的时间点",
+            "看动词前有没有 not",
+            "有 not→直到…才：isn't leaving until next Wednesday＝下周三才走",
+            "没有 not→一直到：肯定句与否定句意思相反"
+          ],
+          "tip": "口诀：until 前有 not，等到那刻才算数。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同学邀请你周六参加生日会，你正好要备考，去不了。写出最得体的回答（先抱歉、再理由）。",
+          "solution": "Sorry, I can't. I have to prepare for an exam.（或 I'm afraid I can't. I have to study for a test.）先说抱歉再给理由，必要时补一句 Maybe another time.。",
+          "difficulty": 1,
+          "pitfall": "只答 No, I can't 就结束——缺了抱歉和理由，显得生硬。"
+        },
+        {
+          "question": "补全对话：—Can you come to my party? —I'd love to come, but I'm afraid I ____. I have an exam on Monday so I must prepare for it.（填 can 或 can't）",
+          "solution": "填 can't。I'm afraid I can't 是婉拒的固定说法，后一句的考试正是理由；课上的 Nick 说的就是这句。",
+          "difficulty": 2,
+          "pitfall": "误填 can——I'd love to 只是客套，真正的态度在 but 之后。"
+        },
+        {
+          "question": "改错：He have to help his parents. 这句话哪里错了？",
+          "solution": "主语 he 是第三人称单数，have to 要变 has to：He has to help his parents.；语法聚焦表里正是这句。",
+          "difficulty": 2,
+          "pitfall": "以为 have to 不随人称变——三单主语必须用 has to，后面的动词仍是原形。"
+        }
+      ],
+      "mistakes": [
+        "误：接受邀请只说 OK——用 Sure, I'd love to.，热情又完整。",
+        "误：Sorry, I can't. 之后什么都不说——婉拒要补理由（I have to prepare for an exam.／I have the flu.），再加 Thanks for asking 更礼貌。",
+        "误：I'm afraid not. I can't come.——I'm afraid not 已经包含否定，再说 I can't 就重复了。",
+        "误：He must goes to the doctor.——must/have to 后接动词原形 go，三单只变 have to→has to，不变后面的动词。"
+      ],
+      "source": {
+        "unit": "Unit 9 Can you come to my party?",
+        "pages": [
+          65,
+          67
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—Can you come to my party on Saturday? —____",
+          "options": [
+            "Sure, I'd love to.",
+            "Yes, I do.",
+            "I'm afraid so.",
+            "No, thanks."
+          ],
+          "answer": "A",
+          "solution": "接受邀请用 Sure, I'd love to.；课上的应答示范原句就是它。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P65·派对邀请与应答（Can you come to my party on Saturday afternoon? Sure, I'd love to.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "你得了流感要在家休息，朋友问你：—Can you go to the movies tomorrow night? 你应该回答：____",
+          "options": [
+            "I'm afraid not. I have the flu.",
+            "Sure, I'd love to.",
+            "Yes, I can. I'm free.",
+            "Not at all."
+          ],
+          "answer": "A",
+          "solution": "去不了要先婉拒再给理由：I'm afraid not. I have the flu.；这正是语法聚焦应答表里的原句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P67·婉拒与理由（I'm afraid not. I have the flu.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "课上的对话里 Jeff 说：Sam isn't leaving until next Wednesday. 这句话的意思是（　）",
+          "options": [
+            "Sam 要到下周三才离开",
+            "Sam 下周三就要离开了",
+            "Sam 已经离开了",
+            "Sam 永远不会离开"
+          ],
+          "answer": "A",
+          "solution": "not…until 是直到…才：isn't leaving until next Wednesday＝下周三才走，所以 Jeff 才提议周一晚上一起 hang out；去掉 not，句子才表示周三就走。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标八上 P66·Jeff 与 Nick 对话（Sam isn't leaving until next Wednesday. Can you hang out with us on Monday night?）变式（not…until 句意判断）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 would like to 给同学写一封三句话的邀请短函：邀请做什么活动、什么时间什么地点、请对方回复。",
+          "answer": "示例：I would like to invite you to my birthday party. It will be at 6:00 on Saturday evening at my home. Please reply by Friday.",
+          "solution": "正式邀请函三要素：would like to invite you to…说活动，时间和地点写清楚，最后请对方 reply（回复）；课上读过的那封图书馆开馆邀请函就是这个套路。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_10",
+      "summary": "if 条件句主将从现：If you go to the party, you'll have a great time!——if 后用一般现在时，主句用 will。",
+      "explanation": [
+        "这一部分的标题句就是最好的例子：If you go to the party, you'll have a great time!（如果你去参加聚会，你会玩得很开心。）课上把它铺成四组对句：I think I'll wear jeans to the party. —If you do, the teachers won't let you in. / I think I'll stay at home. —If you do, you'll be sorry. / I think I'll take the bus to the party. —If you do, you'll be late. / I think I'll go to the party with Karen and Anna. —If you do, you'll have a great time. 语法聚焦再给两组：What will happen if they have the party today? —If they have it today, half the class won't come. / Should we ask people to bring food? —If we ask people to bring food, they'll just bring potato chips and chocolate.",
+        "if 句像一排多米诺骨牌：前半句是推力（条件），后半句是倒下的那块（结果）。If you take the bus, you'll be late.——坐公交是条件，迟到是结果。派对的筹备对话全靠它运转：今天办聚会会怎样？If we have it today, half the class won't come.；请大家带吃的会怎样？They'll just bring potato chips and chocolate.——一个 if 就把前提和后果讲得明明白白，谈计划、做决定都离不开它。",
+        "写 if 句记四字口诀主将从现：主句用 will（you'll be late），if 从句用一般现在时（If you go…）。判断三步：第一步找 if；第二步看 if 后的小句，动词用一般现在时（go、have、ask），主语三单别忘了加 -s（If he comes…）；第三步看主句，用 will＋动词原形（won't come、will want）。想问后果，用 What will happen if…?；从句也可以放在主句后面：You'll be late if you take the bus.。",
+        "最高频的错误是把 will 塞进 if 从句：说 If you go to the party，不说 If you will go。其次，从现不等于原形：从句该有的三单变化一样要有——If he comes、If she takes the bus。还有标点：if 从句放在句首时，后面要加逗号（If you do, you'll be sorry.）；放在句末时不加逗号。这三处互相独立，检查时要分别过一遍。",
+        "主将从现是初中英语的重点语法，往后会反复见面：课上的信件里 Tina 一连用了四个 if 句——If I go to the party, they'll be upset. If I wear jeans, I'll look the worst. If I walk, it'll take me too long. If I take a taxi, it'll be too expensive.；阅读里还有它的近亲 unless（除非）：Unless we talk to someone, we'll certainly feel worse.＝If we don't talk to someone…。把条件到结果的表达练熟，提建议、写计划、分析问题都有了骨架。"
+      ],
+      "methods": [
+        {
+          "name": "主将从现判断法",
+          "steps": [
+            "第一步找到 if，圈出 if 后面的从句",
+            "第二步从句动词用一般现在时（go/have/ask；三单加 -s：comes）",
+            "第三步主句用 will＋动词原形（you'll be late／won't come）",
+            "反向检查：if 从句里不许出现 will"
+          ],
+          "tip": "口诀：主将从现——if 后用一般现在时，主句交给 will。"
+        },
+        {
+          "name": "从句位置与标点法",
+          "steps": [
+            "if 从句在前：If you do, you'll be sorry.（逗号隔开）",
+            "if 从句在后：You'll be sorry if you do.（不加逗号）",
+            "朗读时从句前微微停顿",
+            "写完检查逗号位置是否与从句位置匹配"
+          ],
+          "tip": "口诀：if 在前，逗号补；if 在后，逗号无。"
+        },
+        {
+          "name": "问后果句式法",
+          "steps": [
+            "问会怎样用 What will happen if＋从句（一般现在时）",
+            "回答直接给主句：If they have it today, half the class won't come.",
+            "多个 if 句连用可以编多米诺小故事",
+            "写作里用 if 句给建议：If you study hard, you'll get good grades."
+          ],
+          "tip": "口诀：问后果，What will happen if 开路。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "选词：If you ____ (go / will go) to the party, you'll have a great time.",
+          "solution": "填 go。主将从现：if 从句用一般现在时 If you go…，will 只出现在主句 you'll have a great time 里。",
+          "difficulty": 1,
+          "pitfall": "把 will 塞进 if 从句——这是 if 条件句的第一大错。"
+        },
+        {
+          "question": "填空：If he ____ (come) to the party, we'll be happy. 填 come 还是 comes？",
+          "solution": "填 comes。从句用一般现在时，但主语 he 是三单，动词要加 -s；从现不等于原形，三单变化照常进行。",
+          "difficulty": 2,
+          "pitfall": "以为从现就是动词原形，漏掉三单的 -s。"
+        },
+        {
+          "question": "把 you'll be sorry 与 if you stay at home 连成一句话，逗号应该放在哪里？写出两种连法。",
+          "solution": "If you stay at home, you'll be sorry.（从句在前，加逗号）／You'll be sorry if you stay at home.（从句在后，不加逗号）；课上的对句组就是这两种连法轮换着用。",
+          "difficulty": 2,
+          "pitfall": "从句在前忘了逗号，或从句在后多画了一条。"
+        }
+      ],
+      "mistakes": [
+        "误：If you will go to the party, you'll have a great time.——if 从句用一般现在时：If you go…，will 只留给主句。",
+        "误：If it rains tomorrow, we stay at home.——主句要交出结果：we will stay at home.；只有从句用现在时，主句不能省 will。",
+        "误：If he come to the party,…——从句主语三单时动词要加 -s：If he comes…。",
+        "误：If you do you'll be sorry.——if 从句在句首时，其后要加逗号：If you do, you'll be sorry.。"
+      ],
+      "source": {
+        "unit": "Unit 10 If you go to the party, you'll have a great time!",
+        "pages": [
+          73,
+          75
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "—I think I'll take the bus to the party. —If you do, ____",
+          "options": [
+            "you'll be late",
+            "you'll be sorry",
+            "the teachers won't let you in",
+            "you'll have a great time"
+          ],
+          "answer": "A",
+          "solution": "坐公交赶聚会，对应的结果是迟到：If you do, you'll be late.；课上的对句组里，stay at home 配 you'll be sorry，wear jeans 配 the teachers won't let you in。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P73·If you do 对句组（I think I'll take the bus to the party. If you do, you'll be late.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "What will happen if they ____ the party today?",
+          "options": [
+            "have",
+            "will have",
+            "has",
+            "had"
+          ],
+          "answer": "A",
+          "solution": "主将从现：if 从句用一般现在时，主语 they 配动词原形 have；语法聚焦的原句是 If they have it today, half the class won't come.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P75·What will happen if 问答（What will happen if they have the party today? If they have it today, half the class won't come.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "补全对话（课上自测原句）：—But if you don't go to the party, you ____ miss all the fun!",
+          "options": [
+            "will",
+            "do",
+            "did",
+            "are"
+          ],
+          "answer": "A",
+          "solution": "主将从现：从句 if you don't go 用一般现在时，主句交出结果用 will＋动词原形：you will miss all the fun.。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P80·if 补全对话（If you don't go to the party, you will miss all the fun.）变式（主句 will 选填）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用 If I…, I will… 写两组属于你自己的条件句，注意从句用一般现在时。",
+          "answer": "示例：If I finish my homework early, I will play basketball. If it rains tomorrow, I will stay at home and read.",
+          "solution": "公式：If＋一般现在时从句，will＋动词原形主句；条件要具体（写完作业、下雨），结果要合理（打球、在家读书）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_11",
+      "summary": "should、Why not、What about 三套句式给建议，could 是礼貌版，advice 不可数要记牢。",
+      "explanation": [
+        "书上的建议句在最后两个部分反复出现：Tina 担心下周的英语考试，写信问朋友 \"Can you give me some advice please?\"，信里说 \"My parents think I should study for my English exam next week.\"；Michael 想成为职业足球运动员，朋友劝他 \"I think you should go to college.\"；语法聚焦表格里还有聚会筹备的一问一答 \"Should we ask people to bring food?\"；自测对话里同学劝和：\"then you should just say sorry to your parents.\"。听力原文里 Mark 提议 \"Why not have it on the weekend?\"；对话中到处是 \"What about you?\" \"How about tomorrow?\" 这样的商量句。书后词汇笔记特别提醒：advice 是不可数名词，一条建议要说 a piece of advice。",
+        "建议就是帮别人出主意。should 语气最直接，意思是「应该」，像医生开药方——这事你必须做；Why not…? 和 What about…? 更像商量，把主意抛给对方挑；could 是 can 的礼貌版，「你可以试试……」，听上去不强迫。三种说法可以表达同一个主意，差别只在语气的软硬。",
+        "给问题配建议三步走：第一步找问题关键词（exam 考试、fight 吵架、busy 忙碌）；第二步选句式——直接劝用 should 加动词原形，提议用 Why not 加动词原形? 或 What about 加 doing?；第三步补一句理由，常用 because 或 if 句收尾：You should talk to your teacher, because she can help you.",
+        "三个易混点：一是 Why don't you…? 与 Why not…? 意思完全一样，Why don't you 后面接动词原形，Why not 后面直接跟动词原形；二是 What about / How about 后面接名词或动词-ing，不说 What about go；三是 should 与 could 的分工——should 是「该做」，更必要，could 是「可以做」，只提一种可能；另外 advice 永远不加 s。",
+        "会提建议就打开了写建议文的大门：书上的写作练习正是用 \"I think he/she should…\" 给朋友的三件烦恼各配办法，再用 if 句补上后果。这套句式和 if 条件句配合，是以后写「问题—建议」类作文的固定套路；口语里劝同学、给家人出主意也都靠它。"
+      ],
+      "methods": [
+        {
+          "name": "三步配建议法",
+          "steps": [
+            "第一步：圈出问题关键词（exam、fight、busy）",
+            "第二步：选句式——直接劝 should+动词原形；提议 Why not+动词原形? / What about+doing?",
+            "第三步：补理由，用 because 或 if 句收尾"
+          ],
+          "tip": "should 给药方，Why not 商量，What about 换花样。"
+        },
+        {
+          "name": "一句三变说建议",
+          "steps": [
+            "同一个主意先说 You should have the party on the weekend.",
+            "再换成 Why not have the party on the weekend?",
+            "最后换成 What about having the party on the weekend?"
+          ],
+          "tip": "should、Why not 后面动词用原形，What about 后面要加 -ing。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "同学说：—I got into a fight with my parents. What should I do? 你应该建议：",
+          "solution": "选 You should just say sorry to your parents.——书上自测对话的原话就是先道歉缓和关系，再沟通；B、D 会激化矛盾，C 于事无补。",
+          "difficulty": 1,
+          "pitfall": "别选激化矛盾的建议。给建议前先想一句：这样说能让事情变好吗？"
+        },
+        {
+          "question": "把提议 \"Why not have the party on the weekend?\" 改成用 should 说的一句话。",
+          "solution": "We should have the party on the weekend.（用 You should… 也可以。）句意不变，should 后面动词用原形 have。",
+          "difficulty": 2,
+          "pitfall": "写成 We should to have——should 后面直接跟动词原形，不加 to。"
+        },
+        {
+          "question": "—I'm worried about my English exam next week. 横线处最合适的建议是哪句？____",
+          "solution": "选 Why don't you review your notes tonight?——Why don't you 加动词原形，是 Why not 加动词原形的完整说法；A 缺 -ing，C 多了 -ing，D 多了 to。",
+          "difficulty": 2,
+          "pitfall": "看到 Why not 就想加 to 或 -ing。记住：Why not 后面动词「裸跟」。"
+        }
+      ],
+      "mistakes": [
+        "Why not 后误加 to：Why not to ask the teacher? 是错的，要说 Why not ask the teacher?",
+        "What about 后误用动词原形：What about go swimming? 错，要说 What about going swimming?",
+        "把 advice 当可数名词：一条建议不说 an advice，要说 a piece of advice，词尾永远不加 s。",
+        "should 后动词变形：should talks、should went 都是错的，should 后面永远跟动词原形。"
+      ],
+      "source": {
+        "unit": "Unit 10 综合与建议表达",
+        "pages": [
+          73,
+          80
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "Tina 下周要参加英语考试，她写信问朋友：Can you give me some advice please? 按照她信里的烦恼，最合理的建议是：",
+          "options": [
+            "You should study for your English exam and talk to your parents.",
+            "You should go to the party every day.",
+            "You shouldn't study at all.",
+            "Why not to worry about it?"
+          ],
+          "answer": "A",
+          "solution": "信里的线索是 My parents think I should study for my English exam next week.——认真备考加和父母沟通才是对症的建议；D 项 Why not 后不能加 to，B、C 不合理。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P75·书信求建议（Tina: Can you give me some advice please? / My parents think I should study for my English exam next week.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "Michael 的梦想是加入职业足球队，家人却说：You shouldn't join the Lions right now. 结对练习里朋友给 Michael 的建议是：",
+          "options": [
+            "I think you should go to college.",
+            "I think you should give up school.",
+            "You should never play soccer.",
+            "You should to make a lot of money."
+          ],
+          "answer": "A",
+          "solution": "书上原话 I think you should go to college.——先把学业打好基础；B、C 太绝对，D 多了 to。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P76·结对建议对话（A: What do you think I should do? — B: I think you should go to college.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "筹备聚会时 Jeff 问：Should we ask people to bring food? 请把这句改写成 Why not 开头的同义提议句。",
+          "answer": "Why not ask people to bring food?",
+          "solution": "Should we…?（我们……好吗？）与 Why not…?（何不……？）都是提建议；Why not 后面直接跟动词原形 ask。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P74·聚会筹备对话变式（Should we ask people to bring food? 改写成 Why not ask…?）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "你的朋友小林总熬夜打游戏，第二天上课打瞌睡。请用两种不同句式（should 和 Why not 或 What about）给他各写一条英文建议，并各补一句理由。写完读一遍：should 和 Why not 后面的动词是不是原形？",
+          "answer": "示例：You should go to bed before 11:00, because your body needs rest. / Why not finish the game on the weekend?",
+          "solution": "两种句式可以表达同一个主意，动词都用原形；What about 则要接 doing。理由句用 because 或 if 收尾，建议才更有说服力。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_12",
+      "summary": "读长文先抓主旨：首句末句加高频词；再看结构标志词，时间、对比、因果一眼辨。",
+      "explanation": [
+        "书上的阅读题已经开始考「抓全局」：关于烦恼怎么办的篇章，读前先给三句话让你选 \"Which statement expresses the main idea of the passage?\"；机器人篇章要求 \"Read the article and match each paragraph with the question it discusses.\"——把每段和它回答的问题配对；米老鼠篇章配时间线练习，原文按年份推进：\"When this cartoon came out in New York on November 18, 1928, it was the first cartoon with sound and music.\"，往后是 1930 年代拍了 87 部卡通、1978 年 \"Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame.\"；学生课余活动调查报告则按锻炼、上网、看电视三方面摆数据，末段亮出观点 \"we think the best way to relax is through exercise\"。",
+        "主旨就是「这篇文章最想告诉你的一件事」，像给文章起名字；结构是作者摆放材料的顺序。主旨藏在哪？多数文章开头一句引路、末尾一句点题，反复出现的词（高频词）就是主旨留下的脚印——调查报告里 exercise、the Internet、watch TV 加 percent 反复出现，说的就是课余活动调查。",
+        "主旨三查：一查首句，话题多半在这里亮出；二查末句，结论和观点常在这里收口；三查高频词，哪个话题词出现最多，主旨就绕着谁转。三查结果对上了，再去看选项，选「覆盖全文、不大不小」的那一句。",
+        "主旨不等于细节：只讲某一段某件事的选项太窄——Laura 丢钱包只是文中的一个例子，不是全文要说的道理；比文章还大的选项又太宽。结构标志词也要分清：年份和 First、Next、Then、Finally 是时间顺序的路标；but、however、both、than 附近常有对比；because、so、unless 连着因果。",
+        "会抓主旨和结构，概括段落大意、给作文列提纲就不难了：写作时同样用「开头点题—中间分段—结尾扣题」的骨架。下一篇更长的文章，先花三十秒扫首末句再精读，这个习惯会一直用到高中。"
+      ],
+      "methods": [
+        {
+          "name": "主旨三查法",
+          "steps": [
+            "扫首句：话题多半在这里亮出",
+            "扫末句：结论和观点常在这里收口",
+            "数高频词：出现最多的话题词指向主旨，再去选项里找覆盖全文的那句"
+          ],
+          "tip": "首句引路，末句点题，高频词是主旨的脚印。"
+        },
+        {
+          "name": "结构侦察法",
+          "steps": [
+            "看到年份或 First、Next、Then、Finally，判为时间顺序",
+            "看到 but、however、both、than，找对比结构",
+            "看到 because、so、unless，抓因果关系",
+            "用标志词把文章切块，每块用一句话概括"
+          ],
+          "tip": "年份排时间，but 找对比，because 抓因果。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "一篇短文讲 Laura 丢了钱包不敢告诉父母，甚至每天走三英里上学；最后她说了出来，父母很理解；Robert 老师也说烦恼要找人分担。这篇文章的主旨是：",
+          "solution": "选 If people have problems, they should talk to other people.——「有烦恼要说给别人听」贯穿全文；丢钱包只是例子（细节）， Robert 的身份也不是主旨。",
+          "difficulty": 1,
+          "pitfall": "别把印象最深的例子当主旨，例子是为观点服务的。"
+        },
+        {
+          "question": "米老鼠篇章里依次出现：November 18, 1928（有声卡通问世）、1930 年代（拍了 87 部）、November 18, 1978（留名好莱坞星光大道）。这篇材料的结构是：",
+          "solution": "选 时间顺序。三个时间点按先后排列，是典型的时间顺序结构，书上还配了时间线练习。",
+          "difficulty": 2,
+          "pitfall": "看到人物和成就别急着选「因果」，先找时间词。"
+        },
+        {
+          "question": "调查报告里 exercise、use the Internet、watch TV 和 percent 反复出现，短文先报数据、末段说 \"the best way to relax is through exercise\"。用一句话写出这篇报告的主旨（中文即可）。",
+          "solution": "示例：调查了学生课余时间做什么（锻炼、上网、看电视），发现锻炼才是最好的放松方式。高频词 exercise、Internet、TV 指向「课余活动调查」。",
+          "difficulty": 2,
+          "pitfall": "主旨写成「锻炼有益健康」就漏了「调查」这一层——文章是先摆数据再下结论的。"
+        }
+      ],
+      "mistakes": [
+        "把细节当主旨：某一段讲的具体事例（比如丢钱包）只是证据，不是全文要说的道理。",
+        "以为首句一定是主旨：有的文章主旨在末段（调查报告就是末段亮观点），三查要查全。",
+        "把时间顺序看成因果：先发生不等于因为；先找年份排顺序，再看有没有 because、so。",
+        "只把 but 当「转折词」用，忘了它还是对比结构的信号灯。"
+      ],
+      "source": {
+        "unit": "各单元阅读板块",
+        "pages": [
+          1,
+          80
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "读前先看三个选项，再快速读关于「学生有了烦恼该怎么办」的篇章，选出正确主旨句：",
+          "options": [
+            "If people have problems, they should get advice from an expert.",
+            "If people have problems, they should talk to other people.",
+            "If people have problems, they should keep them to themselves."
+          ],
+          "answer": "B",
+          "solution": "全文用 Laura 的例子和 Robert 的建议说明「说给别人听」才是办法；A 只抓住 Robert 的专家身份，太窄；C 与文章观点相反。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P77·主旨选择（Which statement expresses the main idea of the passage? 三选一）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "按米老鼠篇章的时间线，\"Mickey became the first cartoon character to have a star on the Hollywood Walk of Fame.\" 发生在哪一个时间点之后不久？它排在时间线的：",
+          "options": [
+            "November 18, 1928 之后——时间线的最后一个节点",
+            "1930 年代之前——时间线的第一个节点",
+            "1920 年代——比有声卡通还早",
+            "时间线里没有这个事件"
+          ],
+          "answer": "A",
+          "solution": "时间线依次是 1928 年有声卡通在纽约上映、1930 年代 87 部卡通、1978 年 11 月 18 日留名星光大道——它正是最后一个节点；书上就配了这条时间线练习。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P37·时间线（Steamboat Willie came out in New York on November 18, 1928… 1978 Hollywood Walk of Fame）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "机器人篇章分四个部分回答四个问题。讲「今天工厂里已经有机器人在工作，它们反复做简单活儿也不会烦」的那一部分，对应的问题是：",
+          "options": [
+            "What are robots like in movies?",
+            "What can robots do today?",
+            "Will robots think like humans in the future?",
+            "What will robots be like in the future?"
+          ],
+          "answer": "B",
+          "solution": "「今天能做什么」对应工厂里的机器人；电影里的形象、未来的形状、会不会像人一样思考是其余三部分——书上就要求把段落和问题一一配对。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P53·段落配问题变式（Read the article and match each paragraph with the question it discusses.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "找一篇你课余读的英文小短文：先花三十秒扫首句和末句，再数一数哪个英文词出现最多，然后用一句中文写出它的主旨，并标出它的结构（时间顺序/对比/因果/分方面）。写完想一想：作者为什么把最重要的观点放在这个位置？",
+          "answer": "示例：主旨一句覆盖全文话题即可；结构按标志词判断，位置不固定——有的开头点题，有的末尾点题，说出自己的发现和理由就好。",
+          "solution": "三查加侦察是通用流程：首末句定范围，高频词定话题，标志词定结构。坚持练三五篇，概括段落大意和给作文列提纲都会顺手起来。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_13",
+      "summary": "用比较级写「我和好朋友」：不同处用 than，相同处用 both 或 as…as，结尾一句真情收尾。",
+      "explanation": [
+        "先读三位同学谈朋友：Jeff 说 \"I'm quieter and more serious than most kids.\"，好朋友 Yuan Li 也安静，所以 \"we enjoy studying together\"；Huang Lei 说 Larry \"is taller and more outgoing than me\"，但 \"We both like sports\"，而且 \"Larry often helps to bring out the best in me.\"；Mary 说 Carol \"she's funnier than anyone I know\"。成篇练习给出示范开头 \"Wang Lingling's best friend is Liu Lili. They are both tall, but ...\"，表格里两人都高、都受欢迎、都外向，发型、爱好、性格则不同；接着要求写两段：A friend who is similar to me 与 A friend who is different from me；自测再要求写下与好友相似的两点、不同的两点，并注明 Use comparatives。",
+        "写「我和好朋友」就像填一张对比卡：左栏不同处、右栏相同处。不同处用比较级加 than，相同处用 both 或 as…as；最后补一句这个朋友带给你的改变，文章立刻有了温度。",
+        "四步成篇（约 60 词）：第一步开头点人 My best friend is…；第二步写不同，用 He is taller and more outgoing than me. 这类比较级句一两句；第三步写相同，用 We both like sports. 或 We are as hard-working as each other.；第四步结尾收一句感想 Larry often helps to bring out the best in me.——照这个顺序四句一组，两段就立起来了。",
+        "写前自查三个坑：变形——big→bigger 双写、heavy→heavier 变 y、outgoing→more outgoing 多音节加 more；than 前后比较的必须是两个人或两件事，初中阶段代词用宾格（taller than me/him）；both 说两者，all 才是三者以上；as…as 中间用原形，不说 as taller as。",
+        "这一篇是比较级的总练兵：写完用「变形—than—both 与 as…as—词数」四项检查清单自己改一遍。以后写人物介绍、给朋友的建议信，开头结尾还是这套骨架；比较级写熟了，最高级成篇也只差一步。"
+      ],
+      "methods": [
+        {
+          "name": "对比卡四步成篇法",
+          "steps": [
+            "开头点人：My best friend is Larry.",
+            "不同处：比较级+than，写一两句",
+            "相同处：both… 或 as…as，写一两句",
+            "结尾收感想：他/她带给我什么（bring out the best in me）"
+          ],
+          "tip": "不同用 than，相同 both 牵，as…as 中间原形站。"
+        },
+        {
+          "name": "写后四查清单",
+          "steps": [
+            "查变形：-er / more / 双写 / 变 y 有没有错",
+            "查 than：前后必须是两个人在做比较",
+            "查相同：both 配两者、as…as 中间原形",
+            "查词数：两段合计约 60 词"
+          ],
+          "tip": "写完别急着交，四查走一遍，比多写十句管用。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "接续示范句 \"Wang Lingling's best friend is Liu Lili. They are both tall, but ____\"，下面哪句续写最合理？",
+          "solution": "选 Liu Lili has shorter hair and she is funnier.——but 提示转折，相同之后写不同；A 用 shorter 和 funnier 两组对比，句子通顺。",
+          "difficulty": 1,
+          "pitfall": "看到 both 就继续写相同处，忘了 but 已经把话锋转向「不同」。"
+        },
+        {
+          "question": "用 outgoing 的比较级补全句子：I'm outgoing, but my best friend is a lot ____ than me.",
+          "solution": "填 more outgoing。outgoing 是多音节词，比较级在前面加 more，不加 -er。",
+          "difficulty": 2,
+          "pitfall": "写成 outgoinger——多音节词不走 -er 这条路。"
+        },
+        {
+          "question": "把下面四句排成一段通顺的迷你成篇：① Larry often helps to bring out the best in me. ② My best friend is Larry. ③ We both like sports, but he plays tennis better. ④ He is taller and more outgoing than me.",
+          "solution": "顺序是②④③①：开头点人②，写不同④，写相同③，结尾感想①——正是四步成篇的顺序。",
+          "difficulty": 3,
+          "pitfall": "感想句放中间会打断「不同—相同」的对比节奏。"
+        }
+      ],
+      "mistakes": [
+        "more tall、more funnier 这类叠床架屋：单音节词加 -er 就够，more 后面必须跟原形。",
+        "双写漏掉：big→biger、thin→thiner 都是错的，要写 bigger、thinner。",
+        "as…as 中间塞比较级：as taller as 是错的，原形 as tall as 才对。",
+        "both 与 all 混用：We both like sports. 说的是两个人，三个人以上才用 all。"
+      ],
+      "source": {
+        "unit": "Unit 3 写作板块",
+        "pages": [
+          21,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "自测里的变形填空：My brother is ____ than me. He makes people laugh a lot.（用 funny 的适当形式）",
+          "options": [
+            "funny",
+            "more funny",
+            "funnier",
+            "funniest"
+          ],
+          "answer": "C",
+          "solution": "funny 是「辅音字母+y」结尾，先变 y 为 i 再加 -er：funnier；句中的 than 提示这里要比较级。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P24·变形填空（My brother is funnier than me. He makes people laugh a lot.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "成篇要求写两段：A friend who is similar to me 与 A friend who is different from me。写「similar（相似）」那一段，应该主要用什么句式？",
+          "options": [
+            "both… 或 as…as 的相同句",
+            "比较级+than",
+            "最高级 the most…",
+            "一般过去时"
+          ],
+          "answer": "A",
+          "solution": "相似段落写相同点：We both… / We are as…as…；不同段落才主攻比较级加 than——两段各有分工，文章才不重复。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P23·两段成篇要求（A friend who is similar to me / A friend who is different from me）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "照书上 Huang Lei 的句子 \"He is taller and more outgoing than me. We both like sports.\" 仿写：把 Larry 换成你的同桌，写一句「不同」（比较级+than）和一句「相同」（both 或 as…as）。",
+          "answer": "示例：My deskmate is quieter and more hard-working than me. We both love basketball.",
+          "solution": "「不同」句用比较级加 than；「相同」句 both 后接动词，或 as…as 中间放原形。两句各说各的，都成立即可。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P21·同段仿写变式（He is taller and more outgoing than me. / We both like sports.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "用四步成篇法写一篇约 60 词的 My best friend and I：开头点人、两处不同（比较级+than）、一处相同（both 或 as…as）、结尾一句感想。写完跑一遍四查清单，数一数比较级有没有变形错误。",
+          "answer": "参考骨架：My best friend is… / He/She is …er / more … than me. / We both… 或 We are as … as each other. / He/She often helps to bring out the best in me.",
+          "solution": "词数控制在 55 到 65 之间；不同点挑最直观的两处（身高、性格），相同点挑一句就能说清的。写熟这个骨架，人物类作文就有了固定起手式。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_14",
+      "summary": "听前先读 will 预测圈关键词，听后用 There will be 谈未来，fewer 配可数、less 配不可数。",
+      "explanation": [
+        "听前先读题：六条预测让你先勾选同意还是不同意——\"People will have robots in their homes.\" / \"People won't use money. Everything will be free.\" / \"Kids won't go to school. They'll study at home on computers.\" / \"People will live to be 200 years old.\"，然后听录音圈出听到的预测；下一组听力圈 more/less/fewer：\"There will be (more / less / fewer) people / free time / cars / pollution / trees.\"；讨论环节用 \"What's your prediction about the future?\" 开场，Jill 回答 \"I think there will be more pollution.\"；再听 Joe 谈现在与十年后：\"I live in an apartment.\" 一句变十年后的 \"I'll be an astronaut.\"，还要 \"I'll fly rockets to the moon\"、\"I'll live on a space station.\"",
+        "听前预测就像看天气预报猜明天：先把 will 句里的关键词（robots、money、school、200 years old）圈出来，耳朵专等这些词上线。猜中了，听就是验证；猜错了，印象反而更深。",
+        "预测三步：第一步读题圈关键词，名词优先（robot、money、tree）；第二步猜答案的样子——是物品、动作还是数字年份；第三步听音抓信号词 will / won't / There will be，听到圈中词立刻打勾，没听到就准备修正。",
+        "听辨双胞胎：fewer 配可数复数（fewer trees、fewer cars），less 配不可数（less free time、less pollution）；There will be 后面接名词，不说 There will have；won't 是 will not 的缩写，听的时候别把它当成 want。",
+        "预测的习惯会跟着你走完整个英语学习：先读题再听音，考试听力都吃这一套。书上的成篇写作正是让 Jill 写「20 年后的自己」——\"In 20 years, I think I'll be a newspaper reporter.\"，讨论里攒下的句子都是现成的写作素材。"
+      ],
+      "methods": [
+        {
+          "name": "听前预测三步法",
+          "steps": [
+            "读题圈名词关键词",
+            "预判答案类型：物品/动作/数字",
+            "听音抓 will、won't、There will be，边听边验证"
+          ],
+          "tip": "先读题圈词再听音，will 一响就对号。"
+        },
+        {
+          "name": "fewer/less 听辨法",
+          "steps": [
+            "听到名词先问：可数吗？",
+            "可数复数，用 fewer（fewer trees）",
+            "不可数，用 less（less free time）",
+            "拿不准就把名词变复数试试，变不了的多半不可数"
+          ],
+          "tip": "可数 fewer 加复数，不可数 less 单独站。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "听前读题：\"Kids won't go to school.\"。预测录音里最可能紧接着出现的句子是：",
+          "solution": "选 They'll study at home on computers.——原预测句自带后续 Kids won't go to school. They'll study at home on computers.；圈出 school 和 study，听时专门等它们。",
+          "difficulty": 1,
+          "pitfall": "只圈动词不圈名词，关键词会漏；名词才是听的锚。"
+        },
+        {
+          "question": "录音说 \"Cities will be very big and crowded. There will be ____ free time.\"，横线处听到的是 less。为什么是 less 而不是 fewer？",
+          "solution": "选 free time 是不可数名词。time 在这里指「空闲时间」，不可数，配 less；fewer 只配可数复数。",
+          "difficulty": 2,
+          "pitfall": "看到 free 就把 free time 当成可数名词了——判断可数与否要看中心词 time。"
+        },
+        {
+          "question": "和同伴玩「未来问答」：你用 In 10 years, I'll… 说一条对未来的预测（关于学校、家或机器人），同伴用 Will you…? 追问一句，你再回答。写出你们的一组问答。",
+          "solution": "示例：—In 10 years, I'll have a robot at home. —Will it help with the housework? —Yes, it will. 问句把 will 提到主语前，回答用 will 或 won't。",
+          "difficulty": 3,
+          "pitfall": "追问时说成 Will you it will…——will 疑问句后面跟动词原形。"
+        }
+      ],
+      "mistakes": [
+        "不读题就听：没有关键词打底，录音一快就抓瞎；先圈名词再听。",
+        "fewer/less 用反：less books 是错的，books 可数要用 fewer。",
+        "There will have… 是错的：「将有」要说 There will be，be 后面才接名词。",
+        "把 won't 听成 want：won't 是 will not 的缩写，注意它的否定读音。"
+      ],
+      "source": {
+        "unit": "Unit 7 听说板块",
+        "pages": [
+          49,
+          56
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "问答练习：—Will people use money in 100 years? —____",
+          "options": [
+            "No, they won't. Everything will be free.",
+            "Yes, they will use more and more.",
+            "No, there will have no money.",
+            "Yes, they won't."
+          ],
+          "answer": "A",
+          "solution": "书上原对话就是 No, they won't. Everything will be free.——will 问 will 答，否定用 won't；C 项 There will have 结构不成立，D 前后矛盾。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P49·听前预测与问答（Will people use money in 100 years? — No, they won't. Everything will be free.）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "选词补全预测（书上原句）：In the future, there will be ____ fresh water because there will be ____ pollution in the sea.",
+          "options": [
+            "less; more",
+            "fewer; more",
+            "less; fewer",
+            "more; less"
+          ],
+          "answer": "A",
+          "solution": "fresh water 和 pollution 都不可数，用 less/more；句意是水更少、污染更多——less fresh water, more pollution。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P51·more/less/fewer 选词（there will be less fresh water because there will be more pollution in the sea）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "听力里 Joe 谈现在与十年后。下面哪句说的是他「十年后」的生活？",
+          "options": [
+            "I live in an apartment across the street from here.",
+            "I took the train to school.",
+            "I'll fly rockets to the moon.",
+            "I lived in a house in the country."
+          ],
+          "answer": "C",
+          "solution": "十年后用 will：I'll fly rockets to the moon.——同组的还有 I'll be an astronaut. / I'll live on a space station.；A 是一般现在时，B、D 是过去式。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P52·Joe 的现在与十年后变式（I live in an apartment… → I'll fly rockets to the moon.）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "三人一组，主题「20 年后的城市」：每人先做听前预测——把同伴可能说的两个关键词写在纸上（比如 robots、trees）；轮流用 There will be… / Cities will… 各说两条预测；对照纸条看猜中了几个，最后合写一句小组预言。",
+          "answer": "示例预言：In 20 years, there will be more robots in our city, and there will be fewer dirty factories.",
+          "solution": "先预测、后验证、再总结，正是听力训练的完整闭环；说的时候留意 fewer 配可数复数、less 配不可数。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g8a_15",
+      "summary": "全册约 650 词分两级自查：黑体词四会默写，白体词听说过关，再用变形和语篇填空查漏。",
+      "explanation": [
+        "书后的词汇表把全册的词按各部分收齐，并注明「重点词汇用黑体标出」——黑体词是必须听、说、读、写四会全过的词（如 something、everyone、decide、wonder、umbrella、enough、outgoing…），白体词先做到听得懂、说得出。语法附录配了两张自查底表：比较级最高级构成表（加 -er/-est、双写、变 y、加 more/most 四条规则）和不规则变化表——good/well→better→best、bad/badly→worse→worst、many/much→more→most、little→less→least；还有 as…as 同级比较的示范句 \"Tom runs as fast as Jack.\" 和 \"I think science is as important as math.\"。全书累计约 650 词。",
+        "自查像给学过的词做体检：词是零件，句型是发动机，只认零件不会装不行。每学完一块内容，就给自己安排一次小体检——默写查零件，变形查安装，语篇填空查上路。",
+        "自查三件套：第一，分级默写——黑体词遮住英文写英文，白体词看英文说中文意思；第二，变形抽测——合上书默写比较级最高级（good→better→best 这组最容易错）和动词过去式；第三，语篇填空——把本周的词填回一段 60 词左右的小短文，填不出来，说明这个词还没长在句子里。",
+        "高频易混点：advice 不可数，一条建议说 a piece of advice；hardly ever 是「几乎不」，别看到 hard 就当成「努力」；bored 形容人感到无聊，boring 形容事物无聊；fewer 配可数、less 配不可数；more better 这类双重比较永远错。",
+        "这本册子的词汇是下一册的地基：现在把 650 词分块过成长期记忆，下学期的新词只是往旧词上叠加。错词别擦掉——收进错词本，三天后再默一次，连对三次才算毕业；读课外书遇到生词，先猜后查，猜词也是自查功力的一部分。"
+      ],
+      "methods": [
+        {
+          "name": "分级默写法",
+          "steps": [
+            "黑体词：遮英文默英文，再对词表订正",
+            "白体词：看词说意思，听得懂就算过关",
+            "红笔标出错词，收进错词本",
+            "三天后只默错词，连对三次划掉"
+          ],
+          "tip": "黑体词写得出，白体词听得懂，两层过关才安心。"
+        },
+        {
+          "name": "变形三连测",
+          "steps": [
+            "形容词变比较级、最高级（bigger、more outgoing、the best）",
+            "不规则表默写：good、bad、many/much、little 四组",
+            "动词过去式抽测：不规则变化挑十个"
+          ],
+          "tip": "good 变 better 再变 best，bad 变 worse 别写错。"
+        },
+        {
+          "name": "语篇填空自测",
+          "steps": [
+            "把本周的黑体词挑出六个",
+            "自己写或请同学出一段 60 词小短文埋入空格",
+            "限时五分钟填空，填完通读一遍检查"
+          ],
+          "tip": "单词放回句子里才算真的会。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "哪个词是不可数名词——说「一条……」必须用 a piece of …？",
+          "solution": "选 advice。书后词汇笔记明确 advice 不可数：一条建议 a piece of advice，多条 two pieces of advice；robot、picnic、meeting 都是可数名词。",
+          "difficulty": 1,
+          "pitfall": "别看 advice 以 -ce 结尾就好心给它加 s。"
+        },
+        {
+          "question": "默写不规则变化表第一行：good / well 的比较级和最高级。",
+          "solution": "better / best。这组出自书后的不规则变化表：good/well→better→best，考试高频，必须默写过关。",
+          "difficulty": 2,
+          "pitfall": "写成 gooder、goodest——good 不走规则变化这条路。"
+        },
+        {
+          "question": "短文填空（每空一词）：Tom is ____ (outgoing) than me, and he runs ____ (fast) than me, but I am as ____ (hard-working) as him.",
+          "solution": "依次填 more outgoing / faster / hard-working。前两空是比较级（多音节加 more，单音节加 -er），第三空 as…as 中间用原形。",
+          "difficulty": 3,
+          "pitfall": "第三空顺手写成 more hard-working——as…as 中间必须是原形。"
+        }
+      ],
+      "mistakes": [
+        "advice、information 这类不可数名词加 s，或用 an 直接修饰。",
+        "hardly ever 望文生义当成「很努力」——它是「几乎不」，表示频率。",
+        "bored / boring 用反：I'm bored 是我觉得无聊，The game is boring 是游戏无聊——人用 -ed，物用 -ing。",
+        "more better、much best 这类双重比较或最高级叠用。"
+      ],
+      "source": {
+        "unit": "全册",
+        "pages": [
+          1,
+          125
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "词汇笔记：「一条建议」的正确英文是：",
+          "options": [
+            "an advice",
+            "a piece of advice",
+            "two advices",
+            "some advices"
+          ],
+          "answer": "B",
+          "solution": "advice 不可数：一条建议 a piece of advice，多条 two pieces of advice，永远不加 s。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教新目标八上 P92·词汇笔记（advice 是不可数名词，一条建议 a piece of advice）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "同级比较示范句填空：Tom runs as ____ as Jack.",
+          "options": [
+            "fast",
+            "faster",
+            "fastest",
+            "more fast"
+          ],
+          "answer": "A",
+          "solution": "as…as 中间用原形：Tom runs as fast as Jack.（书后语法附录原句）；B、C、D 都破坏了同级比较的结构。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教新目标八上 P115·as…as 同级比较（Tom runs as fast as Jack. / I think science is as important as math.）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "对照不规则变化表变式默写：bad / badly 的比较级和最高级依次是：",
+          "options": [
+            "worse; worst",
+            "badder; baddest",
+            "worse; baddest",
+            "more bad; most bad"
+          ],
+          "answer": "A",
+          "solution": "bad/badly→worse→worst，与 good→better→best 一同是不规则表的前两行，必须默写过关。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教新目标八上 P114·不规则变化表变式（good/well→better→best / bad/badly→worse→worst / many/much→more→most / little→less→least）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "给自己排一张一周自查表：周一默写一个部分的黑体词，周三做变形三连测，周五做语篇填空；错词全收进错词本，下周一只默错词。坚持两轮后数一数：错词本是变厚了还是变薄了？",
+          "answer": "变薄，说明词汇真正长在了你身上；不变薄，就把语篇填空加到每周两次。",
+          "solution": "执行要点：默写遮英文、订正用红笔、错词三天后复测。错词本由厚变薄，就是自查生效的信号。",
           "difficulty": 3
         }
       ]
