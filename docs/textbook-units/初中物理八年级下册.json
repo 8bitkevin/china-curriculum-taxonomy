@@ -7,6 +7,151 @@
     "pages": 96,
     "hasTextLayer": false
   },
-  "source": "pending",
-  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+  "source": "manual",
+  "extractedAt": "2026-10-29",
+  "note": "扫描版无文字层；RapidOCR 全册转录后按节首实测人工基线，印刷页 = PDF 页 - 4",
+  "units": [
+    {
+      "index": 7,
+      "title": "第七章 力",
+      "page": 1,
+      "sections": [
+        {
+          "no": "1",
+          "title": "力",
+          "page": 2
+        },
+        {
+          "no": "2",
+          "title": "弹力",
+          "page": 6
+        },
+        {
+          "no": "3",
+          "title": "重力",
+          "page": 9
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八章 运动和力",
+      "page": 15,
+      "sections": [
+        {
+          "no": "1",
+          "title": "牛顿第一定律",
+          "page": 16
+        },
+        {
+          "no": "2",
+          "title": "二力平衡",
+          "page": 20
+        },
+        {
+          "no": "3",
+          "title": "摩擦力",
+          "page": 23
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "第九章 压强",
+      "page": 28,
+      "sections": [
+        {
+          "no": "1",
+          "title": "压强",
+          "page": 29
+        },
+        {
+          "no": "2",
+          "title": "液体的压强",
+          "page": 33
+        },
+        {
+          "no": "3",
+          "title": "大气压强",
+          "page": 39
+        },
+        {
+          "no": "4",
+          "title": "流体压强与流速的关系",
+          "page": 44
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "第十章 浮力",
+      "page": 48,
+      "sections": [
+        {
+          "no": "1",
+          "title": "浮力",
+          "page": 49
+        },
+        {
+          "no": "2",
+          "title": "阿基米德原理",
+          "page": 53
+        },
+        {
+          "no": "3",
+          "title": "物体的浮沉条件及应用",
+          "page": 57
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "第十一章 功和机械能",
+      "page": 61,
+      "sections": [
+        {
+          "no": "1",
+          "title": "功",
+          "page": 62
+        },
+        {
+          "no": "2",
+          "title": "功率",
+          "page": 65
+        },
+        {
+          "no": "3",
+          "title": "动能和势能",
+          "page": 67
+        },
+        {
+          "no": "4",
+          "title": "机械能及其转化",
+          "page": 71
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "title": "第十二章 简单机械",
+      "page": 75,
+      "sections": [
+        {
+          "no": "1",
+          "title": "杠杆",
+          "page": 76
+        },
+        {
+          "no": "2",
+          "title": "滑轮",
+          "page": 81
+        },
+        {
+          "no": "3",
+          "title": "机械效率",
+          "page": 85
+        }
+      ]
+    }
+  ]
 }
