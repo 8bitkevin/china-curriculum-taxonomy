@@ -7,6 +7,119 @@
     "pages": 121,
     "hasTextLayer": false
   },
-  "source": "pending",
-  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+  "source": "manual",
+  "extractedAt": "2026-10-29",
+  "note": "扫描版无文字层；RapidOCR 全册转录后按课题首实测人工基线，印刷页 = PDF 页 - 4",
+  "units": [
+    {
+      "index": 8,
+      "title": "金属和金属材料",
+      "page": 1,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "金属材料",
+          "page": 2
+        },
+        {
+          "no": "课题2",
+          "title": "金属的化学性质",
+          "page": 9
+        },
+        {
+          "no": "课题3",
+          "title": "金属资源的利用和保护",
+          "page": 14
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "溶液",
+      "page": 25,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "溶液的形成",
+          "page": 26
+        },
+        {
+          "no": "课题2",
+          "title": "溶解度",
+          "page": 33
+        },
+        {
+          "no": "课题3",
+          "title": "溶质的质量分数",
+          "page": 42
+        },
+        {
+          "no": "实验活动5",
+          "title": "一定溶质质量分数的氯化钠溶液的配制",
+          "page": 47
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "酸和碱",
+      "page": 49,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "常见的酸和碱",
+          "page": 50
+        },
+        {
+          "no": "课题2",
+          "title": "酸和碱的中和反应",
+          "page": 60
+        },
+        {
+          "no": "实验活动7",
+          "title": "溶液酸碱性的检验",
+          "page": 70
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "盐 化肥",
+      "page": 71,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "生活中常见的盐",
+          "page": 72
+        },
+        {
+          "no": "课题2",
+          "title": "化学肥料",
+          "page": 83
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "title": "化学与生活",
+      "page": 89,
+      "sections": [
+        {
+          "no": "课题1",
+          "title": "人类重要的营养物质",
+          "page": 90
+        },
+        {
+          "no": "课题2",
+          "title": "化学元素与人体健康",
+          "page": 97
+        },
+        {
+          "no": "课题3",
+          "title": "有机合成材料",
+          "page": 102
+        }
+      ]
+    }
+  ]
 }
