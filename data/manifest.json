@@ -7,8 +7,8 @@
     "dependencies": 2272,
     "standards": 532,
     "deprecated": 0,
-    "lessons": 1111,
-    "lessonExercises": 4444,
+    "lessons": 1132,
+    "lessonExercises": 4528,
     "byGrade": {
       "1年级上": 52,
       "1年级下": 46,
@@ -79,9 +79,9 @@
       "统编版·2020 年版"
     ],
     "lessonCoverage": {
-      "topics": 1111,
+      "topics": 1132,
       "of": 1641,
-      "aligned": 1111
+      "aligned": 1132
     },
     "note": "覆盖 数学、语文、英语、物理、化学、生物学、历史、地理、道德与法治、思想政治（人教系/统编教材）；进度详见 CHANGELOG。"
   },
@@ -107,8 +107,8 @@
       "sha256": "a3dc961da2cdc8a9338b61499780199458002925e8a133db70bade93f7ea8584"
     },
     "lessons/yw.json": {
-      "bytes": 2869043,
-      "sha256": "3c568a1bb880c2e07b2594dc5aafacb7c88b3d122292e186bb67afa4e21f3a44"
+      "bytes": 3142335,
+      "sha256": "c8a32752056c591ec4fe09d21bc3e3520d5ce96c8b83c4e4b9a7fbf2a69f5e16"
     },
     "lessons/yy.json": {
       "bytes": 2177500,
