@@ -61,6 +61,7 @@ export class PathMap {
     this.reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
     this.preDepth = null;               // null = 自适应（hard 闭包 ≤40 站全显）
     this.view = { x: 0, y: 0, k: 1 };   // 平移 + 缩放（屏幕 = 数据 * k + t）
+    this.userView = false;              // 用户手动平移/缩放后，画布尺寸变化不再自动适配
     this.hoverId = null;
     this.selId = null;
     this.lineage = null;                // hover/选中节点的世系（高亮集）
@@ -76,7 +77,7 @@ export class PathMap {
     this.raf = requestAnimationFrame(this.frame.bind(this));
   }
 
-  // ---------- DOM 骨架（工具条 / 画布 / 图例 / 时间轴热条 / 提示 / 节点卡） ----------
+  // ---------- DOM 骨架（工具条 / 画布区 + 常驻详情侧栏 / 图例 / 时间轴热条） ----------
   buildDom(mount) {
     mount.innerHTML = `
       <div class="pm-top">
@@ -93,27 +94,37 @@ export class PathMap {
         </div>
       </div>
       <div class="pm-stage">
-        <canvas class="pm-cv" aria-label="学习路径图：上方为学期泳道，左侧先修主线、右侧直接解锁；滚轮缩放、拖拽平移"></canvas>
-        <div class="pm-legend" aria-hidden="true">
-          <span class="lg-item"><i class="lg-line hard"></i>必需</span>
-          <span class="lg-item"><i class="lg-line soft"></i>有益</span>
-          <span class="lg-item"><i class="lg-line main"></i>主线</span>
-          <span class="lg-dir">← 先学 · 后学 →</span>
+        <div class="pm-canvas-wrap" id="pm-wrap">
+          <canvas class="pm-cv" aria-label="学习路径图：薄荷画布上，左侧先修主线（玫红）带起点锚与学段门、右侧直接解锁，底部学期热条＝学完通向；滚轮缩放、拖拽平移"></canvas>
+          <div class="pm-legend" aria-hidden="true">
+            <span class="lg-item"><i class="lg-line hard"></i>必需</span>
+            <span class="lg-item"><i class="lg-line soft"></i>有益</span>
+            <span class="lg-item"><i class="lg-line main"></i>主线</span>
+            <span class="lg-dir">← 先学 · 后学 →</span>
+          </div>
+          <div class="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部时间轴＝学完通向</div>
+          <div class="pm-tip" id="pm-tip" hidden></div>
+          <div class="pm-strip" id="pm-strip" hidden>
+            <div class="pm-strip-cap" id="pm-strip-cap"></div>
+            <div class="pm-strip-cells" id="pm-strip-cells"></div>
+          </div>
+          <div class="pm-pop" id="pm-pop" hidden></div>
         </div>
-        <div class="pm-hint" aria-hidden="true">单击看理由 · 双击跳转 · 底部时间轴＝学完通向</div>
-        <div class="pm-tip" id="pm-tip" hidden></div>
-        <aside class="pm-card" id="pm-card" hidden></aside>
-        <div class="pm-strip" id="pm-strip" hidden>
-          <div class="pm-strip-cap" id="pm-strip-cap"></div>
-          <div class="pm-strip-cells" id="pm-strip-cells"></div>
-        </div>
-        <div class="pm-pop" id="pm-pop" hidden></div>
+        <aside class="pm-side" id="pm-side">
+          <div class="pm-side-head">
+            <span class="pm-side-k">学习详情</span>
+            <button class="pm-side-close" type="button" title="关闭 (Esc)">×</button>
+          </div>
+          <div class="pm-side-body" id="pm-side-body"></div>
+        </aside>
       </div>`;
     const $ = (s) => mount.querySelector(s);
     this.ui = {
       stat: $('#pm-stat'), hidden: $('#pm-hidden'), more: $('#pm-more'),
       strip: $('#pm-strip'), stripCap: $('#pm-strip-cap'), stripCells: $('#pm-strip-cells'),
-      pop: $('#pm-pop'), tip: $('#pm-tip'), card: $('#pm-card'), cv: $('.pm-cv'),
+      pop: $('#pm-pop'), tip: $('#pm-tip'), wrap: $('#pm-wrap'),
+      side: $('#pm-side'), sideBody: $('#pm-side-body'), sideClose: $('.pm-side-close'),
+      cv: $('.pm-cv'),
     };
     $('#pm-fit').addEventListener('click', () => this.fit(true));
     $('#pm-more').addEventListener('click', () => this.setDepth());
@@ -121,21 +132,29 @@ export class PathMap {
       this.selId = null; this.hideCard();
       this.setRoot(this.rootId);
     });
+    this.ui.sideClose.addEventListener('click', () => {
+      this.selId = null; this.lineage = null; this.hideCard(); this.dirty = true;
+    });
     return mount;
   }
 
   initCanvas() {
-    const stage = this.dom.querySelector('.pm-stage');
+    const wrap = this.ui.wrap;
     this.ctx = this.ui.cv.getContext('2d');
     this.DPR = 1; this.W = 0; this.H = 0;
     this.resize();
-    this.ro = new ResizeObserver(() => { this.resize(); this.dirty = true; });
-    this.ro.observe(stage);
+    this.ro = new ResizeObserver(() => {
+      this.resize();
+      // 画布尺寸变化（首帧样式就位 / 窗口缩放）：非用户视图时重新适配
+      if (!this.userView && this.rootId) this.fit(false);
+      this.dirty = true;
+    });
+    this.ro.observe(wrap);
   }
 
   resize() {
-    const stage = this.dom.querySelector('.pm-stage');
-    const w = stage.clientWidth, h = stage.clientHeight;
+    const wrap = this.ui.wrap;
+    const w = wrap.clientWidth, h = wrap.clientHeight;
     if (!w || !h) return;
     this.DPR = Math.min(window.devicePixelRatio || 1, 2);
     this.W = w; this.H = h;
@@ -230,6 +249,37 @@ export class PathMap {
 
     // 文本截断缓存（需要在 ctx 上量宽）
     this.labels = new Map();
+    // 旅程坐标：主线起点锚 + 跨学段门（纯渲染层，不进图数据）
+    this.journey = this.buildJourney();
+  }
+
+  /** 旅程坐标：chain.ids 自最早可见先修排到 root。主线起点仅在必修闭包完整
+      （hidden=0）时标注，否则最早可见站只是折叠点、不是真起点；学段门画在
+      主线跨学段（小学→初中→高中）的相邻两站之间。 */
+  buildJourney() {
+    const ids = this.g.chain.ids;
+    const stageOf = (g) => (g <= 6 ? 0 : g <= 9 ? 1 : 2);
+    const gates = [];
+    for (let i = 1; i < ids.length; i++) {
+      const a = this.index.byId.get(ids[i - 1]), b = this.index.byId.get(ids[i]);
+      if (stageOf(a.grade) !== stageOf(b.grade))
+        gates.push({ fromId: ids[i - 1], toId: ids[i], label: stageOf(b.grade) === 1 ? '入初中' : '入高中' });
+    }
+    const startTag = (this.g.counts.hidden === 0 && ids.length > 1) ? ids[0] : null;
+    return { gates, startTag };
+  }
+
+  /** 屏幕空间固定尺寸的旅程芯片（学段门/起点锚），压在主线上、不参与拾取。 */
+  drawChip(cx, cy, text, fill, stroke, color) {
+    const { ctx } = this;
+    ctx.font = `600 12px ${FONT}`;
+    const w = Math.ceil(ctx.measureText(text).width) + 16;
+    const h = 20;
+    roundRect(ctx, cx - w / 2, cy - h / 2, w, h, 6);
+    ctx.fillStyle = fill; ctx.fill();
+    ctx.strokeStyle = stroke; ctx.lineWidth = 1; ctx.stroke();
+    ctx.fillStyle = color; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(text, cx, cy + 0.5);
   }
 
   /** 按「屏幕像素字号」截断节点名：缩小时文字不低于 9.5px（最小可读补偿），
@@ -260,6 +310,7 @@ export class PathMap {
     } else {
       this.view = { x: tx, y: ty, k };
     }
+    this.userView = false;
     this.dirty = true;
   }
 
@@ -268,6 +319,7 @@ export class PathMap {
     this.view.x = mx - (mx - this.view.x) * (k / this.view.k);
     this.view.y = my - (my - this.view.y) * (k / this.view.k);
     this.view.k = k;
+    this.userView = true;
     this.dirty = true;
   }
 
@@ -292,6 +344,7 @@ export class PathMap {
         if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
         this.view.x += dx; this.view.y += dy;
         drag.x = e.clientX; drag.y = e.clientY;
+        this.userView = true;
         this.dirty = true;
         return;
       }
@@ -363,9 +416,6 @@ export class PathMap {
         }
       }
     });
-    // 卡片内交互不冒泡到画布手势
-    ['pointerdown', 'pointerup', 'click', 'wheel'].forEach((ev) =>
-      this.ui.card.addEventListener(ev, (e) => e.stopPropagation()));
   }
 
   destroy() {
@@ -438,7 +488,22 @@ export class PathMap {
   }
   hideTip() { this.ui.tip.hidden = true; }
 
-  showCard(id) {
+  /** 常驻详情侧栏：无选中时显示引导占位（窄屏下侧栏仅在选中时滑出）。 */
+  showCard(id) { this.renderSide(id); }
+  hideCard() { this.renderSide(null); }
+
+  renderSide(id) {
+    const body = this.ui.sideBody;
+    if (!id) {
+      this.ui.side.classList.remove('open');
+      body.innerHTML = `<div class="pm-side-empty">
+        <b>先选一个知识点</b>
+        <p>单击图上的知识点卡：这里会展示「为什么先学它」「学会后解锁什么」，以及讲解与练习入口。</p>
+        <p class="pm-side-tip">主线上的<span class="pm-chip-demo gate">入初中</span>是学段门，<span class="pm-chip-demo start">起点</span>是必修链第一站。</p>
+      </div>`;
+      return;
+    }
+    this.ui.side.classList.add('open');
     const t = this.index.byId.get(id);
     const isRoot = id === this.rootId;
     const onChain = this.g.chain.idSet.has(id);
@@ -455,8 +520,7 @@ export class PathMap {
       const n = this.index.byId.get(e.topicId);
       return `<button class="pm-next-item" data-id="${esc(n.id)}" type="button">${esc(n.name)}</button>`;
     }).join('');
-    this.ui.card.innerHTML = `
-      <button class="pm-card-close" type="button" title="关闭 (Esc)">×</button>
+    body.innerHTML = `
       <div class="pm-tip-meta"><i style="background:${subjectDeep(t.subject)}"></i>${esc(t.subject)} · ${esc(t.domain)} · ${t.grade}年级${t.semester}${isRoot ? ' · <b>当前知识点</b>' : ''}${onChain ? ' · <b class="pm-chain-mark">主线</b>' : ''}</div>
       <h4>${esc(t.name)}</h4>
       ${preEdges.length ? `
@@ -469,20 +533,15 @@ export class PathMap {
         '<div class="pm-card-sec"><span class="pm-sh">解锁</span><p class="pm-none">暂无后续知识点依赖它。</p></div>'}
       <button class="pm-lesson" type="button">📖 讲解与例题</button>
       <button class="pm-open" type="button">打开这个知识点 →</button>`;
-    this.ui.card.hidden = false;
-    const $ = (s) => this.ui.card.querySelector(s);
-    $('.pm-card-close').addEventListener('click', () => {
-      this.selId = null; this.lineage = null; this.hideCard(); this.dirty = true;
-    });
+    const $ = (s) => body.querySelector(s);
     $('.pm-lesson').addEventListener('click', () => this.onLesson?.(id));
     $('.pm-open').addEventListener('click', () => this.onOpen?.(id));
-    this.ui.card.querySelectorAll('b[data-id]').forEach((el) =>
+    body.querySelectorAll('b[data-id]').forEach((el) =>
       el.addEventListener('click', () => this.select(el.dataset.id)));
-    this.ui.card.querySelectorAll('.pm-next-item').forEach((el) =>
+    body.querySelectorAll('.pm-next-item').forEach((el) =>
       el.addEventListener('click', () => this.select(el.dataset.id)));
-    this.ui.card.scrollTop = 0;
+    body.scrollTop = 0;
   }
-  hideCard() { this.ui.card.hidden = true; }
 
   syncToolbar() {
     const { counts } = this.g;
@@ -591,8 +650,8 @@ export class PathMap {
       const isRootLane = lane.key === this.rootLaneKey;
       const p0 = this.toScreen({ x: x0 - 12, y: lane.y });
       const p1 = this.toScreen({ x: x1 + 12, y: lane.y + lane.h });
-      const band = isRootLane ? `rgba(${C.brandA},.055)`       // 当前学期：品牌绿淡带
-        : (i % 2 === 1 ? 'rgba(27,43,51,.026)' : null);        // 其余：隔行纸面灰
+      const band = isRootLane ? `rgba(${C.brandA},.08)`              // 当前学期：品牌绿淡带
+        : (i % 2 === 1 ? 'rgba(255,255,255,.55)' : null);            // 其余：隔行白带（薄荷画布上）
       if (band) {
         ctx.fillStyle = band;
         ctx.fillRect(p0.x, p0.y, p1.x - p0.x, p1.y - p0.y);
@@ -638,13 +697,10 @@ export class PathMap {
       const alpha = on ? 1 : 0.16;
 
       ctx.globalAlpha = alpha;
-      // 卡片底
-      if (isRoot) { ctx.shadowColor = `rgba(${C.brandA},.32)`; ctx.shadowBlur = 16 * k; }
-      else { ctx.shadowColor = 'rgba(27,43,51,.07)'; ctx.shadowBlur = 5 * k; }
+      // 卡片底（v2：去阴影，层次交给 1px 描边与薄荷画布的图底关系）
       roundRect(ctx, s.x, s.y, w, h, r);
       ctx.fillStyle = isRoot ? C.brand : C.card;
       ctx.fill();
-      ctx.shadowBlur = 0;
       // 边框
       roundRect(ctx, s.x, s.y, w, h, r);
       ctx.strokeStyle = isHover || isSel ? C.brand : (isRoot ? C.brandPress : C.cardLine);
@@ -688,6 +744,23 @@ export class PathMap {
         ctx.fillStyle = '#5a6b77';
         ctx.textAlign = 'center';
         ctx.fillText(label, bx - tw / 2, by + 0.5);
+      }
+    }
+
+    // ---- 旅程坐标：学段门压在主线跨学段处，起点锚挂在主线首站左上 ----
+    for (const g of this.journey.gates) {
+      const pa = this.nodePos(g.fromId), pb = this.nodePos(g.toId);
+      if (!pa || !pb) continue;
+      const sa = this.toScreen({ x: pa.x + NW / 2, y: pa.y + NH / 2 });
+      const sb = this.toScreen({ x: pb.x + NW / 2, y: pb.y + NH / 2 });
+      this.drawChip((sa.x + sb.x) / 2, (sa.y + sb.y) / 2, g.label,
+        '#fff6e5', 'rgba(192,124,0,0.45)', '#8a6100');
+    }
+    if (this.journey.startTag) {
+      const p0 = this.nodePos(this.journey.startTag);
+      if (p0) {
+        const sp = this.toScreen(p0);
+        this.drawChip(sp.x + 26, Math.max(sp.y - 12, 12), '起点', '#e6f7ef', '#bce5cf', '#0b7a4c');
       }
     }
   }

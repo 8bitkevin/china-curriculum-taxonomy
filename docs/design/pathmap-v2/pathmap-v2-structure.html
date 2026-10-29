@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习路径图 v2 · 结构蓝图 — K12aixue</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&family=Noto+Serif:ital@0;1&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ── Tokens · K12aixue skin（viewer/style.css v5 + graph3d.js SUBJECT_COLORS）── */
+    :root {
+      --color-paper:       #f6f8fa;
+      --color-paper-2:     #edf0f3;
+      --color-ink:         #1b2b33;
+      --color-muted:       #5a6b77;
+      --color-soft:        #4d5e69;
+      --color-rule:        rgba(27,43,51,0.12);
+      --color-rule-solid:  #dce1e7;
+      --color-accent:      #0b7a4c;   /* 品牌绿文字安全档（--accent-ink） */
+      --color-accent-tint: rgba(11,122,76,0.08);
+      --color-brand:       #0fa968;   /* 品牌绿实档：实心焦点填充 */
+      --color-hard:        #d81e6a;   /* 数据语义：必需先修（玫红） */
+      --color-soft-data:   #c07c00;   /* 数据语义：有益先修（琥珀） */
+      --color-link:        #2e5aa8;
+      --font-sans:   'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      --font-serif:  'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif;
+      --font-mono:   'Geist Mono', ui-monospace, Menlo, monospace;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      min-height: 100vh;
+      padding: 3rem 2rem;
+      color: var(--color-ink);
+    }
+
+    .container { max-width: 1320px; margin: 0 auto; }
+
+    /* ── Header ─────────────────────────────────────────────────── */
+    .header { margin-bottom: 2.5rem; }
+
+    .header-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.75rem, 3vw + 1rem, 2.5rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      color: var(--color-ink);
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.55;
+      color: var(--color-muted);
+      max-width: 60ch;
+    }
+
+    /* ── Diagram container ────────────────────────────────────────── */
+    .diagram-container {
+      background: transparent;
+      border: none;
+      padding: 0;
+      overflow-x: auto;
+    }
+
+    svg { width: 100%; min-width: 1280px; display: block; }
+    @media print {
+      .diagram-container { overflow-x: visible; }
+      svg { min-width: 0; }
+    }
+
+    /* ── Info cards ───────────────────────────────────────────────── */
+    .cards {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr 0.9fr;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    @media (max-width: 900px) { .cards { grid-template-columns: 1fr; } }
+
+    .card {
+      background: #ffffff;
+      border-radius: 6px;
+      border: 1px solid var(--color-rule);
+      padding: 1.25rem;
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.875rem;
+      padding-bottom: 0.875rem;
+      border-bottom: 1px solid rgba(27,43,51,0.08);
+    }
+
+    .card-dot {
+      width: 7px; height: 7px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .card-dot.ink    { background: var(--color-ink); }
+    .card-dot.muted  { background: var(--color-muted); }
+    .card-dot.hard   { background: var(--color-hard); }
+
+    .card h3 {
+      font-family: var(--font-sans);
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: var(--color-ink);
+      letter-spacing: -0.005em;
+    }
+
+    .card ul {
+      list-style: none;
+      color: var(--color-muted);
+      font-size: 0.8125rem;
+      line-height: 1.55;
+    }
+
+    .card li {
+      margin-bottom: 0.3rem;
+      padding-left: 0.875rem;
+      position: relative;
+    }
+
+    .card li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: rgba(27,43,51,0.25);
+      font-size: 0.75rem;
+    }
+
+    .card li b { color: var(--color-ink); font-weight: 600; }
+
+    /* ── Footer ─────────────────────────────────────────────────── */
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(27,43,51,0.10);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--color-soft);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <p class="header-eyebrow">K12aixue · Pathmap v2 · View Structure · 2026-10-29</p>
+      <h1>学习路径图 v2 · 结构蓝图</h1>
+      <p class="subtitle">以学生三问组织路径视图：我在哪、先学什么、学完通向哪里。保留 2026-10 非对称模型（来路＝必需路由、去路＝一跳解锁＋通向计数），新增旅程坐标：起点锚、当前站、学段里程碑门与学期游标，视觉语言对齐出版级规范（1px 细线、零阴影、品牌绿只标焦点）。</p>
+    </div>
+
+    <!-- Main Diagram -->
+    <div class="diagram-container">
+      <svg viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pathmap-v2-structure-title pathmap-v2-structure-desc">
+        <title id="pathmap-v2-structure-title">学习路径图 v2 结构蓝图</title>
+        <desc id="pathmap-v2-structure-desc">路径视图由顶部的学习旅程控制条、中部的关键路径画布（起点锚经必需先修站到当前知识点再到一跳解锁与学段里程碑门，另挂琥珀虚线的有益先修支线）、右侧学习详情侧卡与底部的学期时间轴热条组成，用非对称布局回答学生在哪、先学什么、通向哪里三个问题。</desc>
+        <defs>
+
+          <!-- Hero pastel gradient（产品 --grad-hero 同源） -->
+          <linearGradient id="pathmap-v2-structure-hero" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#efcaff"/>
+            <stop offset="0.45" stop-color="#dceaff"/>
+            <stop offset="1" stop-color="#dcfff0"/>
+          </linearGradient>
+
+          <!-- Arrow: muted (default — generic / internal connections) -->
+          <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#5a6b77"/>
+          </marker>
+
+          <!-- Arrow: hard (data semantic — 必需主线) -->
+          <marker id="arrow-hard" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#d81e6a"/>
+          </marker>
+
+          <!-- Arrow: soft (data semantic — 有益先修) -->
+          <marker id="arrow-soft" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#c07c00"/>
+          </marker>
+
+        </defs>
+
+        <!-- Background: clean paper -->
+        <rect width="100%" height="100%" fill="#f6f8fa"/>
+
+        <!-- =================================================================
+             ZONES FIRST (bg → zones → arrows → labels → nodes)
+             ================================================================= -->
+
+        <!-- Zone: 路径画布（薄荷画布 = 学习之旅草地） -->
+        <rect x="40" y="136" width="880" height="408" rx="8" fill="#edf7f2" stroke="#bce5cf" stroke-width="0.8"/>
+        <rect x="52" y="140" width="96" height="12" rx="2" fill="#edf7f2"/>
+        <text x="100" y="150" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.14em">PATH CANVAS</text>
+
+        <!-- Zone: 学期热条 -->
+        <rect x="40" y="576" width="880" height="72" rx="8" fill="#ffffff" stroke="#dce1e7" stroke-width="0.8"/>
+        <rect x="52" y="580" width="88" height="12" rx="2" fill="#ffffff"/>
+        <text x="96" y="590" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.14em">HEATSTRIP</text>
+
+        <!-- =================================================================
+             ARROWS (painted before nodes)
+             ================================================================= -->
+
+        <!-- 主线（必需，玫红实线）：起点 → 必需先修 -->
+        <line x1="184" y1="340" x2="224" y2="340" stroke="#d81e6a" stroke-width="1.5" marker-end="url(#arrow-hard)"/>
+        <!-- 主线：必需先修 → 当前知识点 -->
+        <line x1="360" y1="340" x2="400" y2="340" stroke="#d81e6a" stroke-width="1.5" marker-end="url(#arrow-hard)"/>
+        <!-- 主线：当前知识点 → 一跳解锁 -->
+        <line x1="544" y1="340" x2="584" y2="340" stroke="#d81e6a" stroke-width="1.5" marker-end="url(#arrow-hard)"/>
+        <!-- 主线：一跳解锁 → 学段里程碑门 -->
+        <line x1="712" y1="340" x2="752" y2="340" stroke="#d81e6a" stroke-width="1.5" marker-end="url(#arrow-hard)"/>
+
+        <!-- 有益支线（琥珀虚线）：有益先修 → 当前知识点 -->
+        <line x1="452" y1="232" x2="452" y2="296" stroke="#c07c00" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#arrow-soft)"/>
+
+        <!-- 详情链接（muted）：当前知识点顶部绕行 → 详情侧卡；在支线交叉处做 hop -->
+        <path d="M 424 304 V 256 Q 424 248 432 248 H 444 a 8 8 0 0 1 16 0 H 952"
+              fill="none" stroke="#5a6b77" stroke-width="1.2" marker-end="url(#arrow)"/>
+        <rect x="664" y="224" width="72" height="16" rx="2" fill="#f6f8fa"/>
+        <text x="700" y="236" fill="#4d5e69" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">选中看详情</text>
+
+        <!-- 游标联动（muted 虚线）：当前知识点底部 ↔ 学期热条 -->
+        <line x1="480" y1="376" x2="480" y2="584" stroke="#5a6b77" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#arrow)"/>
+        <rect x="492" y="476" width="56" height="16" rx="2" fill="#f6f8fa"/>
+        <text x="520" y="488" fill="#4d5e69" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">游标联动</text>
+
+        <!-- =================================================================
+             ANNOTATION CALLOUTS (1 / 2)
+             ================================================================= -->
+        <text x="476" y="420" fill="#4d5e69" font-size="14" font-family="'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif" text-anchor="middle">我在哪 —— 品牌绿只标当前位置</text>
+
+        <!-- 2 / 2 -->
+        <text x="160" y="564" fill="#4d5e69" font-size="14" font-family="'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif" text-anchor="start">通向哪里 —— 热条每格＝该册通向的知识点数</text>
+
+        <!-- =================================================================
+             NODES
+             ================================================================= -->
+
+        <!-- ── 旅程控制条（顶栏，产品 hero 粉彩渐变） ─────────────────── -->
+        <rect x="40" y="48" width="1200" height="64" rx="6" fill="url(#pathmap-v2-structure-hero)"/>
+        <rect x="40" y="48" width="1200" height="64" rx="6" fill="url(#pathmap-v2-structure-hero)" stroke="#dce1e7" stroke-width="1"/>
+        <rect x="56" y="62" width="32" height="12" rx="2" fill="transparent" stroke="rgba(77,94,105,0.4)" stroke-width="0.8"/>
+        <text x="72" y="71" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">CTRL</text>
+        <text x="104" y="82" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学习旅程控制条</text>
+        <text x="104" y="100" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学科切换 · 学段分段 · 目标锚点（中考 / 高考）</text>
+        <!-- 九科学科色 chips（数据编码，配文字图例） -->
+        <rect x="1044" y="86" width="12" height="12" rx="2" fill="#0fa968"/>
+        <rect x="1064" y="86" width="12" height="12" rx="2" fill="#f0533d"/>
+        <rect x="1084" y="86" width="12" height="12" rx="2" fill="#4a8cff"/>
+        <rect x="1104" y="86" width="12" height="12" rx="2" fill="#7b61ff"/>
+        <rect x="1124" y="86" width="12" height="12" rx="2" fill="#00a8b5"/>
+        <rect x="1144" y="86" width="12" height="12" rx="2" fill="#5bae2e"/>
+        <rect x="1164" y="86" width="12" height="12" rx="2" fill="#b9770e"/>
+        <rect x="1184" y="86" width="12" height="12" rx="2" fill="#0e7490"/>
+        <rect x="1204" y="86" width="12" height="12" rx="2" fill="#c2255c"/>
+
+        <!-- ── 有益先修站（optional，白卡 + 琥珀虚线框） ───────────────── -->
+        <rect x="396" y="184" width="112" height="48" rx="6" fill="#edf7f2"/>
+        <rect x="396" y="184" width="112" height="48" rx="6" fill="#ffffff" stroke="rgba(192,124,0,0.55)" stroke-width="1" stroke-dasharray="4,3"/>
+        <rect x="404" y="190" width="30" height="12" rx="2" fill="transparent" stroke="rgba(77,94,105,0.4)" stroke-width="0.8"/>
+        <text x="419" y="199" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">SOFT</text>
+        <text x="452" y="216" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">有益先修</text>
+        <text x="452" y="228" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">琥珀虚线</text>
+
+        <!-- ── 起点锚（input：薄荷浅底 = 出发/交互面） ────────────────── -->
+        <rect x="72" y="312" width="112" height="56" rx="6" fill="#edf7f2"/>
+        <rect x="72" y="312" width="112" height="56" rx="6" fill="#e6f7ef" stroke="#bce5cf" stroke-width="1"/>
+        <rect x="80" y="318" width="44" height="12" rx="2" fill="transparent" stroke="rgba(77,94,105,0.4)" stroke-width="0.8"/>
+        <text x="102" y="327" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">ORIGIN</text>
+        <text x="128" y="341" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">起点锚</text>
+        <text x="128" y="357" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">入学基线</text>
+
+        <!-- ── 必需先修站（玫瑰浅底 = 必需语义，配玫红主线） ──────────── -->
+        <rect x="232" y="312" width="128" height="56" rx="6" fill="#edf7f2"/>
+        <rect x="232" y="312" width="128" height="56" rx="6" fill="#fceef5" stroke="rgba(216,30,106,0.35)" stroke-width="1"/>
+        <rect x="240" y="318" width="34" height="12" rx="2" fill="transparent" stroke="rgba(216,30,106,0.40)" stroke-width="0.8"/>
+        <text x="257" y="327" fill="#a81354" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">HARD</text>
+        <text x="296" y="341" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">必需先修站</text>
+        <text x="296" y="357" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">玫红主线</text>
+
+        <!-- ── 当前知识点（FOCAL：品牌绿实心卡 + 白字，产品当前卡同款） ── -->
+        <rect x="408" y="304" width="136" height="72" rx="6" fill="#edf7f2"/>
+        <rect x="408" y="304" width="136" height="72" rx="6" fill="#0b7a4c" stroke="#0fa968" stroke-width="1.2"/>
+        <rect x="416" y="310" width="30" height="12" rx="2" fill="transparent" stroke="rgba(255,255,255,0.55)" stroke-width="0.8"/>
+        <text x="431" y="319" fill="#ffffff" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">NOW</text>
+        <text x="476" y="338" fill="#ffffff" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">当前知识点</text>
+        <text x="476" y="354" fill="rgba(255,255,255,0.85)" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">位置游标</text>
+        <text x="476" y="368" fill="#dcfff0" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">唯一焦点</text>
+
+        <!-- ── 一跳解锁站（白卡 + 墨框） ─────────────────────────────── -->
+        <rect x="592" y="312" width="120" height="56" rx="6" fill="#edf7f2"/>
+        <rect x="592" y="312" width="120" height="56" rx="6" fill="#ffffff" stroke="#1b2b33" stroke-width="1"/>
+        <rect x="600" y="318" width="34" height="12" rx="2" fill="transparent" stroke="rgba(27,43,51,0.40)" stroke-width="0.8"/>
+        <text x="617" y="327" fill="#1b2b33" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">NEXT</text>
+        <text x="652" y="341" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一跳解锁</text>
+        <text x="652" y="357" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">直接后继</text>
+
+        <!-- ── 学段里程碑门（奶油金 = 结业闸门） ─────────────────────── -->
+        <rect x="760" y="312" width="112" height="56" rx="6" fill="#edf7f2"/>
+        <rect x="760" y="312" width="112" height="56" rx="6" fill="#fff6e5" stroke="rgba(192,124,0,0.45)" stroke-width="1"/>
+        <rect x="768" y="318" width="34" height="12" rx="2" fill="transparent" stroke="rgba(192,124,0,0.50)" stroke-width="0.8"/>
+        <text x="785" y="327" fill="#8a6100" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">GATE</text>
+        <text x="816" y="341" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">学段里程碑</text>
+        <text x="816" y="357" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">结业闸门</text>
+
+        <!-- ── 学习详情侧卡（白卡 + 薄荷描边 + 薄荷 CTA） ────────────── -->
+        <rect x="960" y="136" width="280" height="408" rx="6" fill="#f6f8fa"/>
+        <rect x="960" y="136" width="280" height="408" rx="6" fill="#ffffff" stroke="#bce5cf" stroke-width="1"/>
+        <rect x="976" y="150" width="32" height="12" rx="2" fill="transparent" stroke="rgba(77,94,105,0.5)" stroke-width="0.8"/>
+        <text x="992" y="159" fill="#4d5e69" font-size="7" font-family="'Geist Mono', monospace" text-anchor="middle" letter-spacing="0.08em">CARD</text>
+        <text x="1024" y="160" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学习详情侧卡</text>
+
+        <line x1="976" y1="184" x2="1224" y2="184" stroke="rgba(27,43,51,0.08)" stroke-width="0.8"/>
+        <text x="976" y="212" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"><tspan fill="#8a97a5" font-family="'Geist Mono', monospace" font-size="9">01</tspan>  为什么先学这些</text>
+        <text x="976" y="230" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">先修理由 · 必需 / 有益</text>
+
+        <line x1="976" y1="248" x2="1224" y2="248" stroke="rgba(27,43,51,0.08)" stroke-width="0.8"/>
+        <text x="976" y="276" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"><tspan fill="#8a97a5" font-family="'Geist Mono', monospace" font-size="9">02</tspan>  学会后解锁</text>
+        <text x="976" y="294" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">后继知识点 · 直达</text>
+
+        <line x1="976" y1="312" x2="1224" y2="312" stroke="rgba(27,43,51,0.08)" stroke-width="0.8"/>
+        <text x="976" y="340" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"><tspan fill="#8a97a5" font-family="'Geist Mono', monospace" font-size="9">03</tspan>  讲解与练习</text>
+        <text x="976" y="358" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学习内容抽屉（lessons）</text>
+
+        <line x1="976" y1="376" x2="1224" y2="376" stroke="rgba(27,43,51,0.08)" stroke-width="0.8"/>
+        <text x="976" y="404" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif"><tspan fill="#8a97a5" font-family="'Geist Mono', monospace" font-size="9">04</tspan>  薄弱回链</text>
+        <text x="976" y="422" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">薄弱时回补前置（规划）</text>
+
+        <line x1="976" y1="440" x2="1224" y2="440" stroke="rgba(27,43,51,0.08)" stroke-width="0.8"/>
+        <rect x="976" y="464" width="152" height="32" rx="6" fill="#e6f7ef" stroke="#bce5cf" stroke-width="1"/>
+        <text x="1052" y="484" fill="#0b7a4c" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">打开讲解与练习 →</text>
+
+        <!-- ── 学期时间轴热条（白卡，绿热格） ────────────────────────── -->
+        <rect x="64" y="592" width="832" height="48" rx="6" fill="#f6f8fa"/>
+        <rect x="64" y="592" width="832" height="48" rx="6" fill="#ffffff" stroke="#dce1e7" stroke-width="1"/>
+        <text x="88" y="614" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学完通向 · 学期热条</text>
+        <text x="88" y="632" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">每格＝该册通向计数</text>
+        <!-- 热格样本（品牌绿透明度＝计数强度，sqrt 感知映射；八下＝当前学期，accent 描边） -->
+        <rect x="280" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.34)"/>
+        <text x="312" y="620" fill="#1b2b33" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一上</text>
+        <rect x="352" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.49)"/>
+        <text x="384" y="620" fill="#1b2b33" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">六下</text>
+        <rect x="424" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.64)"/>
+        <text x="456" y="620" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七上</text>
+        <rect x="496" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.78)"/>
+        <text x="528" y="620" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七下</text>
+        <rect x="568" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.84)" stroke="#0b7a4c" stroke-width="1.2"/>
+        <text x="600" y="620" fill="#ffffff" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">八下</text>
+        <rect x="640" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.94)"/>
+        <text x="672" y="620" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九上</text>
+        <rect x="712" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.67)"/>
+        <text x="744" y="620" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九下</text>
+        <rect x="784" y="600" width="64" height="32" rx="4" fill="rgba(15,169,104,0.53)"/>
+        <text x="816" y="620" fill="#1b2b33" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">高一</text>
+
+        <!-- =================================================================
+             LEGEND — horizontal strip at the bottom
+             ================================================================= -->
+        <line x1="40" y1="664" x2="1240" y2="664" stroke="rgba(27,43,51,0.10)" stroke-width="0.8"/>
+        <text x="40" y="686" fill="#5a6b77" font-size="7" font-family="'Geist Mono', monospace" letter-spacing="0.14em">LEGEND</text>
+
+        <line x1="108" y1="680" x2="128" y2="680" stroke="#d81e6a" stroke-width="1.5"/>
+        <text x="136" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">必需主线</text>
+
+        <line x1="216" y1="680" x2="236" y2="680" stroke="#c07c00" stroke-width="1" stroke-dasharray="5,4"/>
+        <text x="244" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">有益先修</text>
+
+        <circle cx="330" cy="680" r="5" fill="none" stroke="#0b7a4c" stroke-width="1.2"/>
+        <text x="344" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当前焦点（品牌绿唯一）</text>
+
+        <rect x="512" y="674" width="12" height="12" rx="2" fill="rgba(15,169,104,0.6)"/>
+        <text x="532" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">通向计数</text>
+
+        <rect x="616" y="674" width="12" height="12" rx="2" fill="none" stroke="#5a6b77" stroke-width="1"/>
+        <text x="636" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学段里程碑门</text>
+
+        <rect x="752" y="674" width="12" height="12" rx="2" fill="#ffffff" stroke="rgba(192,124,0,0.55)" stroke-width="1" stroke-dasharray="4,3"/>
+        <text x="772" y="684" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">有益支线站点</text>
+
+      </svg>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="cards">
+      <div class="card">
+        <div class="card-header">
+          <span class="card-dot hard"></span>
+          <h3>用户三问 → 设计映射</h3>
+        </div>
+        <ul>
+          <li><b>我在哪</b> —— 当前知识点是全图唯一品牌绿焦点，学期热条上的游标格与之联动，位置始终一望可知</li>
+          <li><b>先学什么</b> —— 来路只保留必需先修主线（玫红），站序即学习顺序；有益先修挂一跳叶子不递归</li>
+          <li><b>通向哪里</b> —— 去路一跳直达，远期影响压缩为热条计数；学段里程碑与目标锚给出终点方向</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-dot ink"></span>
+          <h3>行业对标</h3>
+        </div>
+        <ul>
+          <li>Duolingo —— 路径主线隐喻与唯一「下一步」焦点，降低选择成本</li>
+          <li>Khan Academy —— 节点状态语言（未学 / 在学 / 掌握 / 薄弱）为进度层预留</li>
+          <li>roadmap.sh —— 阶段分组与前置可见，学习顺序不靠图例硬读</li>
+          <li>保留本仓 2026-10 非对称模型：来路路由、去路计数，不做全闭包蜘蛛网</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <span class="card-dot muted"></span>
+          <h3>落地要点</h3>
+        </div>
+        <ul>
+          <li>视觉：去阴影改 1px 细线描边，色彩只编码数据，品牌绿只作焦点</li>
+          <li>结构：新增起点锚 / 学段门 / 学期游标三类旅程坐标（数据已有，纯渲染层）</li>
+          <li>布局：保留自研学期泳道 × 依赖列，主线沿对角线贯穿</li>
+          <li>详情侧卡从浮层升级为常驻栏，讲解与练习（lessons）入口前置</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <span>china-curriculum-taxonomy · 学习路径图 v2 设计稿</span>
+      <span>2026-10-29 · pathmap-v2</span>
+    </div>
+
+  </div>
+</body>
+</html>

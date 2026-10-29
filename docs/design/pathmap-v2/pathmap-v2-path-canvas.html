@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学习路径图 v2 · 路径画布（初中数学样本）</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500;600&family=Noto+Serif:ital@0;1&family=Noto+Sans+SC:wght@400;500;600&family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    /* ── Tokens · K12aixue skin ── */
+    :root {
+      --color-paper:       #f6f8fa;
+      --color-ink:         #1b2b33;
+      --color-muted:       #5a6b77;
+      --color-soft:        #4d5e69;
+      --color-accent:      #0b7a4c;
+      --color-brand:       #0fa968;
+      --color-hard:        #d81e6a;
+      --color-soft-data:   #c07c00;
+      --font-sans:   'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+      --font-serif:  'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif;
+      --font-mono:   'Geist Mono', ui-monospace, Menlo, monospace;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background: var(--color-paper);
+      min-height: 100vh;
+      padding: 3rem 2rem;
+      color: var(--color-ink);
+    }
+
+    .container { max-width: 1000px; margin: 0 auto; }
+
+    .header { margin-bottom: 2rem; }
+
+    .header-eyebrow {
+      font-family: var(--font-mono);
+      font-size: 0.66rem;
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--color-muted);
+      margin-bottom: 0.75rem;
+    }
+
+    h1 {
+      font-family: var(--font-serif);
+      font-size: clamp(1.75rem, 3vw + 1rem, 2.5rem);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+      line-height: 1.1;
+      color: var(--color-ink);
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      line-height: 1.55;
+      color: var(--color-muted);
+      max-width: 60ch;
+    }
+
+    .diagram-container {
+      background: transparent;
+      border: none;
+      padding: 0;
+      overflow-x: auto;
+    }
+
+    svg { width: 100%; min-width: 960px; display: block; }
+    @media print {
+      .diagram-container { overflow-x: visible; }
+      svg { min-width: 0; }
+    }
+
+    .footer {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(27,43,51,0.10);
+      font-family: var(--font-mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.06em;
+      color: var(--color-soft);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      <p class="header-eyebrow">K12aixue · Pathmap v2 · Path Canvas · Sample</p>
+      <h1>路径画布 · 初中数学函数主线</h1>
+      <p class="subtitle">横轴＝学期时间（等距即等长，诚实时间尺度）。玫红实线＝必需来路（路由），浅玫红＝前路（结构上去往何处）；琥珀虚线＝有益支线；品牌绿唯一焦点＝当前位置；底部热条＝每册通向计数，与当前学期描边联动。</p>
+    </div>
+
+    <!-- Main Diagram -->
+    <div class="diagram-container">
+      <svg viewBox="0 0 960 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="pathmap-v2-path-canvas-title pathmap-v2-path-canvas-desc">
+        <title id="pathmap-v2-path-canvas-title">学习路径画布详图 · 初中数学样本</title>
+        <desc id="pathmap-v2-path-canvas-desc">以初中数学函数主线为样本的路径画布：学期横轴上有理数为起点，经二元一次方程组、一次函数到二次函数与中考终点；一次函数为当前焦点点位，因式分解以琥珀虚线作为有益支线汇入二次函数，底部学期热条按各册通向计数着色并以八下为当前学期。</desc>
+        <defs>
+
+          <!-- Arrow: soft (data semantic — 有益支线) -->
+          <marker id="arrow-soft" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+            <polygon points="0 0, 8 3, 0 6" fill="#c07c00"/>
+          </marker>
+
+        </defs>
+
+        <!-- Background: clean paper -->
+        <rect width="100%" height="100%" fill="#f6f8fa"/>
+
+        <!-- =================================================================
+             主线基线（来路深 / 前路浅）—— 画在站点之前
+             ================================================================= -->
+        <line x1="124" y1="224" x2="545" y2="224" stroke="#d81e6a" stroke-width="2"/>
+        <line x1="559" y1="224" x2="830" y2="224" stroke="#d81e6a" stroke-width="2" opacity="0.4"/>
+
+        <!-- 有益支线：因式分解(八上) → 二次函数(九上)，琥珀虚线 -->
+        <path d="M 408 156 V 184 Q 408 192 416 192 H 688 Q 696 192 696 200 V 218"
+              fill="none" stroke="#c07c00" stroke-width="1" stroke-dasharray="5,4" marker-end="url(#arrow-soft)"/>
+
+        <!-- =================================================================
+             学期刻度（时间轴诚实等距）
+             ================================================================= -->
+        <text x="120" y="244" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七上</text>
+        <text x="264" y="244" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七下</text>
+        <text x="408" y="244" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">八上</text>
+        <text x="552" y="244" fill="#0b7a4c" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">八下</text>
+        <text x="696" y="244" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九上</text>
+        <text x="840" y="244" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九下</text>
+
+        <!-- =================================================================
+             站点（timeline events on the baseline）
+             ================================================================= -->
+
+        <!-- 有理数 · 起点（七上，学科绿起点双环） -->
+        <circle cx="120" cy="224" r="4" fill="#f6f8fa" stroke="#0fa968" stroke-width="1.2"/>
+        <circle cx="120" cy="224" r="8" fill="none" stroke="#0fa968" stroke-width="1"/>
+        <text x="120" y="182" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">起点</text>
+        <text x="120" y="200" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">有理数</text>
+
+        <!-- 二元一次方程组（七下，学科绿站点） -->
+        <circle cx="264" cy="224" r="4" fill="#0fa968"/>
+        <text x="264" y="266" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">二元一次方程组</text>
+
+        <!-- 因式分解（八上，有益支线源，抬离基线） -->
+        <circle cx="408" cy="152" r="4" fill="#f6f8fa" stroke="#c07c00" stroke-width="1.2"/>
+        <text x="408" y="136" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">因式分解</text>
+
+        <!-- 一次函数（八下，当前：唯一品牌绿焦点） -->
+        <circle cx="552" cy="224" r="5" fill="#0b7a4c"/>
+        <circle cx="552" cy="224" r="10" fill="none" stroke="#0b7a4c" stroke-width="1.2"/>
+        <text x="552" y="266" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">一次函数</text>
+        <text x="552" y="284" fill="#0b7a4c" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">当前位置</text>
+
+        <!-- 二次函数（九上，学科绿站点） -->
+        <circle cx="696" cy="224" r="4" fill="#0fa968"/>
+        <text x="696" y="266" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">二次函数</text>
+
+        <!-- 中考门（九下，学段终点：里程碑金双环） -->
+        <circle cx="840" cy="224" r="3" fill="#c07c00"/>
+        <circle cx="840" cy="224" r="6.5" fill="none" stroke="#c07c00" stroke-width="1.2"/>
+        <text x="840" y="188" fill="#1b2b33" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">中考门</text>
+        <text x="840" y="206" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">学段终点 · 中考</text>
+
+        <!-- =================================================================
+             ANNOTATION CALLOUTS (2 / 2)
+             ================================================================= -->
+        <text x="768" y="148" fill="#4d5e69" font-size="14" font-family="'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif" text-anchor="end">当前位置由必需先修唯一决定</text>
+        <text x="196" y="412" fill="#4d5e69" font-size="14" font-family="'Instrument Serif', 'Noto Serif SC', 'Noto Serif', serif" text-anchor="start">去路不画网 —— 远期影响折叠为热条计数，点开即清单</text>
+
+        <!-- =================================================================
+             学期热条（通向计数，sqrt 感知映射；八下＝当前学期）
+             ================================================================= -->
+        <rect x="196" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.64)"/>
+        <text x="240" y="340" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七上</text>
+        <rect x="292" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.78)"/>
+        <text x="336" y="340" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">七下</text>
+        <rect x="388" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.42)"/>
+        <text x="432" y="340" fill="#1b2b33" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">八上</text>
+        <rect x="484" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.84)" stroke="#0b7a4c" stroke-width="1.2"/>
+        <text x="528" y="340" fill="#ffffff" font-size="12" font-weight="600" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">八下</text>
+        <rect x="580" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.94)"/>
+        <text x="624" y="340" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九上</text>
+        <rect x="676" y="320" width="88" height="32" rx="4" fill="rgba(15,169,104,0.67)"/>
+        <text x="720" y="340" fill="#ffffff" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif" text-anchor="middle">九下</text>
+
+        <text x="196" y="376" fill="#5a6b77" font-size="12" font-weight="400" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学完通向 · 每格＝该册通向的知识点数</text>
+
+        <!-- =================================================================
+             LEGEND — horizontal strip at the bottom
+             ================================================================= -->
+        <line x1="40" y1="536" x2="920" y2="536" stroke="rgba(27,43,51,0.10)" stroke-width="0.8"/>
+        <text x="40" y="556" fill="#5a6b77" font-size="7" font-family="'Geist Mono', monospace" letter-spacing="0.14em">LEGEND</text>
+
+        <line x1="104" y1="574" x2="118" y2="574" stroke="#d81e6a" stroke-width="2"/>
+        <line x1="118" y1="574" x2="132" y2="574" stroke="#d81e6a" stroke-width="2" opacity="0.4"/>
+        <text x="140" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">必需主线（来路/前路）</text>
+
+        <circle cx="290" cy="574" r="4" fill="#0fa968"/>
+        <text x="302" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">主线站点 · 学科色</text>
+
+        <line x1="434" y1="574" x2="454" y2="574" stroke="#c07c00" stroke-width="1" stroke-dasharray="5,4"/>
+        <text x="462" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">有益支线</text>
+
+        <circle cx="556" cy="574" r="5" fill="#0b7a4c"/>
+        <circle cx="556" cy="574" r="9" fill="none" stroke="#0b7a4c" stroke-width="1.2"/>
+        <text x="574" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">当前位置</text>
+
+        <circle cx="664" cy="574" r="3" fill="#c07c00"/>
+        <circle cx="664" cy="574" r="6.5" fill="none" stroke="#c07c00" stroke-width="1.2"/>
+        <text x="680" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">学段终点</text>
+
+        <rect x="764" y="568" width="12" height="12" rx="2" fill="rgba(15,169,104,0.6)"/>
+        <text x="784" y="578" fill="#5a6b77" font-size="12" font-weight="500" font-family="'Geist', 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', sans-serif">通向计数</text>
+
+      </svg>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <span>china-curriculum-taxonomy · 学习路径图 v2 设计稿</span>
+      <span>2026-10-29 · pathmap-v2</span>
+    </div>
+
+  </div>
+</body>
+</html>

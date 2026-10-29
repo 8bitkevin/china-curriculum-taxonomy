@@ -87,14 +87,14 @@ code {
 .mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
 
 /* 细滚动条（深浅两套，侧栏与浮层内使用） */
-.side .list, .detail, .lesson-body, .g3-card, .pm-card { scrollbar-width: thin; scrollbar-color: #ccd4da transparent; }
-.g3-card, .pm-card { scrollbar-color: #2f3f38 transparent; }
+.side .list, .detail, .lesson-body, .g3-card, .pm-side-body { scrollbar-width: thin; scrollbar-color: #ccd4da transparent; }
+.g3-card, .pm-side-body { scrollbar-color: #2f3f38 transparent; }
 .side .list::-webkit-scrollbar, .detail::-webkit-scrollbar { width: 10px; }
 .side .list::-webkit-scrollbar-thumb, .detail::-webkit-scrollbar-thumb {
   background: #d5dce1; border-radius: 6px; border: 3px solid var(--panel);
 }
-.g3-card::-webkit-scrollbar, .pm-card::-webkit-scrollbar { width: 8px; }
-.g3-card::-webkit-scrollbar-thumb, .pm-card::-webkit-scrollbar-thumb {
+.g3-card::-webkit-scrollbar, .pm-side-body::-webkit-scrollbar { width: 8px; }
+.g3-card::-webkit-scrollbar-thumb, .pm-side-body::-webkit-scrollbar-thumb {
   background: #2f3f38; border-radius: 5px;
 }
 
@@ -519,9 +519,52 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
   transition: border-color 0.15s, color 0.15s;
 }
 .pm-btn:hover { border-color: var(--accent); color: var(--accent-ink); }
-.pm-stage { position: relative; height: clamp(400px, 56vh, 600px); }
+/* v2：stage = 画布区 + 常驻详情侧栏；画布区薄荷底（K12aixue 粉彩表面语言） */
+.pm-stage { position: relative; display: flex; height: clamp(420px, 58vh, 620px); }
+.pm-canvas-wrap {
+  position: relative; flex: 1; min-width: 0;
+  margin: 10px 0 10px 10px; border-radius: 12px;
+  background: #edf7f2; border: 1px solid #bce5cf; overflow: hidden;
+}
 .pm-cv { position: absolute; inset: 0; cursor: grab; touch-action: none; display: block; }
 .pm-cv:active { cursor: grabbing; }
+
+/* 常驻详情侧栏：宽屏常驻（无选中显示引导占位），≤760px 变浮层按需滑出 */
+.pm-side {
+  flex: none; width: 268px; display: flex; flex-direction: column; min-height: 0;
+  border-left: 1px solid var(--line); background: var(--panel);
+}
+.pm-side-head {
+  display: flex; align-items: center; justify-content: space-between; gap: 8px;
+  padding: 11px 14px 9px; border-bottom: 1px dashed var(--line);
+}
+.pm-side-k { font-size: 11px; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+.pm-side-close {
+  border: 0; background: none; font-size: 18px; color: var(--muted);
+  cursor: pointer; padding: 2px 7px; border-radius: 6px; display: none;
+}
+.pm-side-close:hover { color: var(--ink); background: var(--bg); }
+.pm-side-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 12px 14px; }
+.pm-side-empty { text-align: center; padding-top: 26px; color: var(--muted); }
+.pm-side-empty b { display: block; font-size: 13.5px; color: var(--ink-2); margin-bottom: 8px; }
+.pm-side-empty p { font-size: 12.5px; line-height: 1.65; margin: 0 0 10px; text-align: left; }
+.pm-side-tip { text-align: left; }
+.pm-chip-demo {
+  display: inline-block; font-size: 10.5px; font-weight: 600; line-height: 1;
+  padding: 2px 6px; border-radius: 5px; margin: 0 1px;
+}
+.pm-chip-demo.gate { color: var(--soft-ink); background: var(--soft-weak); border: 1px solid rgba(192, 124, 0, 0.35); }
+.pm-chip-demo.start { color: var(--accent-ink); background: var(--accent-weak); border: 1px solid var(--accent-line); }
+@media (max-width: 760px) {
+  .pm-canvas-wrap { margin: 10px; }
+  .pm-side {
+    position: absolute; z-index: 7; top: 10px; right: 10px; bottom: 10px; width: min(300px, 86%);
+    border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow-2);
+    display: none;
+  }
+  .pm-side.open { display: flex; }
+  .pm-side-close { display: block; }
+}
 
 .pm-legend {
   position: absolute; left: 12px; bottom: 10px; z-index: 3;
@@ -551,22 +594,10 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .pm-tip-name { font-size: 13.5px; font-weight: 600; margin-top: 3px; line-height: 1.4; }
 .pm-tip-hint { font-size: 10.5px; color: var(--faint); margin-top: 3px; }
 
-.pm-card {
-  position: absolute; z-index: 6; top: 12px; right: 12px; width: 300px; max-width: calc(100% - 24px);
-  max-height: calc(100% - 24px); overflow-y: auto; overscroll-behavior: contain;
-  background: rgba(255, 255, 255, 0.98); border: 1px solid var(--line);
-  border-radius: 12px; padding: 14px 14px 12px;
-  box-shadow: 0 8px 32px rgba(27, 43, 51, 0.12);
-}
-.pm-card-close {
-  position: absolute; top: 6px; right: 8px; border: 0; background: none;
-  font-size: 18px; color: var(--muted); cursor: pointer; padding: 2px 7px; border-radius: 6px;
-}
-.pm-card-close:hover { color: var(--ink); background: var(--bg); }
-.pm-card h4 { margin: 6px 0 10px; font-size: 15.5px; line-height: 1.4; padding-right: 18px; }
+.pm-side-body h4 { margin: 6px 0 10px; font-size: 15.5px; line-height: 1.4; }
 .pm-card-sec { border-top: 1px dashed var(--line); padding-top: 9px; margin-bottom: 11px; }
-.pm-card .pm-sh { font-size: 11px; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
-.pm-card .pm-none { font-size: 12.5px; color: var(--muted); margin: 6px 0 0; }
+.pm-side-body .pm-sh { font-size: 11px; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+.pm-side-body .pm-none { font-size: 12.5px; color: var(--muted); margin: 6px 0 0; }
 .pm-edge { display: flex; gap: 8px; padding: 6px 0; font-size: 12.5px; align-items: flex-start; }
 .pm-edge-k {
   flex: none; font-size: 10.5px; font-weight: 700; padding: 1.5px 7px; border-radius: 6px; margin-top: 1px;
@@ -624,8 +655,9 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .pm-cell b { font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; line-height: 1.1; }
 .pm-cell i { font-style: normal; font-size: 10px; color: var(--faint); line-height: 1.1; }
 .pm-cell:hover { border-color: var(--accent-line); }
-.pm-cell.here { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
-.pm-cell.here i { color: var(--accent-ink); }
+.pm-cell.here { border-color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent); }
+.pm-cell.here b { color: var(--accent-ink); }
+.pm-cell.here i { color: var(--accent-ink); font-weight: 600; }
 .pm-pop {
   position: absolute; z-index: 4; bottom: 76px; width: 268px; max-height: 260px; overflow-y: auto;
   background: #fff; border: 1px solid var(--line); border-radius: 12px;
