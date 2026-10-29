@@ -8,9 +8,10 @@
 //   满行换行继续——偶数行向右、奇数行向左，长链竖向扩展而不是压缩卡片；
 //   薄荷卡=起点（学科绿框）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
 //   卡=当前知识点（全图唯一焦点）、白卡=一跳解锁、奶油卡=学段终点门
-//   （中考/高考）；root 的有益先修为琥珀虚线支线卡汇入当前卡顶边（首行
-//   上方肘线，深行悬卡带短折线）；跨学段处奶油金「入初中/入高中」门芯片；
-//   当前站之后的主线用浅玫红（去路不画网）；
+//   （中考/高考）；连线带行进方向箭头（来路深/前路浅）；root 的有益先修
+//   为琥珀虚线支线卡汇入当前卡顶边（首行上方肘线，深行悬卡带短折线）；
+//   跨学段处奶油金「入初中/入高中」门芯片；悬停=投影抬升、选中=描边转
+//   品牌绿+投影（不画外扩环）；
 //   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
 //   04 薄弱回链（规划），薄荷 CTA 前置讲解入口；
 //   底部学期热条——学完通向计数，当前学期描边联动（游标）。
@@ -685,21 +686,24 @@ export class PathMap {
     const half = o.h / 2;
     ctx.beginPath();
     roundRect(ctx, -o.w / 2, -half, o.w, o.h, 6);
+    // 悬停/选中：卡片自身描边转品牌绿 + 轻投影抬升（行业惯例 elevation +
+    // accent border），不画外扩环——双描边观感差
+    if (o.sel || o.hover) {
+      ctx.shadowColor = o.sel ? 'rgba(27,43,51,0.18)' : 'rgba(27,43,51,0.10)';
+      ctx.shadowBlur = o.sel ? 12 : 8;
+      ctx.shadowOffsetY = o.sel ? 3 : 2;
+    }
     ctx.fillStyle = o.fill;
     ctx.fill();
+    ctx.shadowColor = 'transparent';
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetY = 0;
     if (o.stroke) {
-      ctx.strokeStyle = o.stroke;
-      ctx.lineWidth = (o.active ? 1.5 : 1) * px;
+      ctx.strokeStyle = o.sel ? C.brand : o.stroke;
+      ctx.lineWidth = (o.sel ? 1.5 : 1) * px;
       if (o.dash) ctx.setLineDash(o.dash);
       ctx.stroke();
       if (o.dash) ctx.setLineDash([]);
-    }
-    if (o.active) {                          // hover/选中：品牌绿外环（交互语义）
-      ctx.beginPath();
-      roundRect(ctx, -o.w / 2 - 3, -half - 3, o.w + 6, o.h + 6, 8);
-      ctx.strokeStyle = C.brandInk;
-      ctx.lineWidth = 1.2 * px;
-      ctx.stroke();
     }
     if (o.tag) {                             // 左上角标签芯片，压卡片上边缘
       ctx.font = `600 7px ${MONO}`;
@@ -741,7 +745,22 @@ export class PathMap {
     const P = this.stations.map((s) => this.toScreen(s));
     const rootP = P[this.rootI];
 
-    // ---- 主线：蛇形折线，来路（玫红实线）+ 前路（浅玫红），圆角转角 ----
+    // ---- 主线：蛇形折线（结构蓝图带方向箭头），来路玫红实、前路浅玫红 ----
+    const arrow = (a, b, alpha) => {
+      // 行进方向箭头画在连线中点（卡片遮住线端，中点最清晰）
+      const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
+      const dx = b.x - a.x, dy = b.y - a.y;
+      const len = Math.hypot(dx, dy) || 1;
+      const ux = dx / len, uy = dy / len;
+      const vx = -uy, vy = ux;
+      ctx.beginPath();
+      ctx.moveTo(mx + ux * 5, my + uy * 5);
+      ctx.lineTo(mx - ux * 4 + vx * 3.5, my - uy * 4 + vy * 3.5);
+      ctx.lineTo(mx - ux * 4 - vx * 3.5, my - uy * 4 - vy * 3.5);
+      ctx.closePath();
+      ctx.fillStyle = `rgba(${C.hardA},${alpha})`;
+      ctx.fill();
+    };
     const seg = (from, to, alpha) => {
       ctx.beginPath();
       ctx.moveTo(P[from].x, P[from].y);
@@ -753,6 +772,7 @@ export class PathMap {
       ctx.lineWidth = 2;
       ctx.lineJoin = 'round';
       ctx.stroke();
+      for (let i = from + 1; i <= to; i++) arrow(P[i - 1], P[i], alpha);
     };
     if (this.rootI > 0) seg(0, this.rootI, 0.92);
     if (this.rootI < P.length - 1) seg(this.rootI, P.length - 1, 0.4);
@@ -837,7 +857,8 @@ export class PathMap {
       }
       const t = this.index.byId.get(s.id);
       const isRoot = i === this.rootI;
-      const active = !isRoot && (this.hoverId === s.id || this.selId === s.id);
+      const sel = !isRoot && this.selId === s.id;
+      const hov = !isRoot && !sel && this.hoverId === s.id;
       if (isRoot) {
         // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）；芯片用透明白描边
         //（浅底白字在深绿卡上看不清，结构蓝图 NOW 芯片即透明底+白描边）
@@ -853,21 +874,21 @@ export class PathMap {
         this.drawCard(p, k, {
           ...CARD.start, fill: '#e6f7ef', stroke: '#bce5cf',
           tag: 'ORIGIN', tagColor: C.brandInk,
-          name: this.nameAt(t, 94), sub: '起点',
+          name: this.nameAt(t, 94), sub: '起点', sel, hover: hov,
         });
       } else if (s.kind === 'next') {
         // 一跳解锁：白卡 + 墨框
         this.drawCard(p, k, {
           ...CARD.next, fill: '#ffffff', stroke: 'rgba(27,43,51,0.55)',
           tag: 'NEXT', tagColor: C.ink,
-          name: this.nameAt(t, 90), sub: termLabel(t), active,
+          name: this.nameAt(t, 90), sub: termLabel(t), sel, hover: hov,
         });
       } else {
         // 必需先修：玫瑰浅卡 + 玫红框
         this.drawCard(p, k, {
           ...CARD.chain, fill: '#fceef5', stroke: 'rgba(216,30,106,0.35)',
           tag: 'HARD', tagColor: '#a81354',
-          name: this.nameAt(t, 94), sub: termLabel(t), active,
+          name: this.nameAt(t, 94), sub: termLabel(t), sel, hover: hov,
         });
       }
     });
