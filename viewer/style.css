@@ -502,7 +502,8 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
   display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
   padding: 10px 14px;
   border-bottom: 1px solid var(--line);
-  background: linear-gradient(#ffffff, #fafbfd);
+  /* v2 旅程控制条：K12aixue hero 粉彩渐变（--grad-hero 同源） */
+  background: linear-gradient(135deg, #efcaff 0%, #dceaff 45%, #dcfff0 100%);
 }
 .pm-title { display: flex; align-items: baseline; gap: 8px; min-width: 0; }
 .pm-title b { font-size: 14px; }
@@ -575,7 +576,11 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 }
 .pm-legend .lg-item { display: inline-flex; align-items: center; gap: 5px; }
 .pm-legend .lg-line { width: 18px; height: 0; border-top: 2.5px solid var(--hard); border-radius: 2px; }
-.pm-legend .lg-line.soft { border-top-style: dashed; border-top-color: var(--soft); }
+.pm-legend .lg-line.fwd { opacity: 0.4; }
+.pm-legend .lg-line.soft { border-top-style: dashed; border-top-color: var(--soft); border-top-width: 1.5px; }
+.pm-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
+.pm-legend .lg-dot.now { background: var(--accent-ink); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--accent-ink); }
+.pm-legend .lg-dot.gate { background: var(--soft); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--soft); }
 .pm-legend .lg-dir { color: var(--faint); }
 .pm-hint {
   position: absolute; right: 12px; bottom: 10px; z-index: 3;
