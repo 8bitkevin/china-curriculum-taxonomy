@@ -9,8 +9,9 @@
 //   薄荷卡=起点（学科绿框）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
 //   卡=当前知识点（全图唯一焦点）、白卡=一跳解锁、奶油卡=学段终点门
 //   （中考/高考）；连线为卡片边到边直线段、末端箭头贴目标卡边缘
-//   （结构蓝图 marker-end 同款，来路深/前路浅）；root 的有益先修
-//   为琥珀虚线支线卡汇入当前卡顶边（首行上方肘线，深行悬卡带短折线）；
+//   （结构蓝图 marker-end 同款，来路深/前路浅）；root 的有益先修为
+//   琥珀虚线支线卡，线以两端竖直的 S 弯汇入当前卡顶边、箭头垂直向下
+//   贴卡缘；
 //   跨学段处奶油金「入初中/入高中」门芯片；悬停=投影抬升、选中=描边转
 //   品牌绿+投影（不画外扩环）；
 //   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
@@ -257,9 +258,9 @@ export class PathMap {
         gates.push({ i, label: stageOf(b.grade) === 1 ? '入初中' : '入高中' });
     }
 
-    // 有益支线：root 的 1 跳 soft 先修。root 在首行 → 抬到左上方（肘线汇入）；
-    // root 在更深处 → 支线卡带悬在 root 正上方与上一行的间隙里（短折线汇入），
-    // 避免压到网格卡片。
+    // 有益支线：root 的 1 跳 soft 先修，卡带水平散布在 root 正上方
+    //（首行抬更高——上方空旷；深行卡在行间隙里），线从支线卡底边以两端
+    // 竖直的 S 弯汇入当前卡顶边，箭头尖贴卡缘垂直向下（marker-end 同款）。
     const inChain = new Set(this.g.chain.ids);
     const softTopics = (this.index.prereqsOf.get(this.rootId) ?? [])
       .filter((e) => e.strength === 'soft' && !inChain.has(e.prerequisiteId))
@@ -267,17 +268,12 @@ export class PathMap {
       .filter(Boolean)
       .slice(0, 3);
     const rootP0 = stations[rootI];
-    const branches = softTopics.map((t, i, arr) => {
-      if (rootRow === 0) {
-        return { id: t.id, topic: t, x: rootP0.x - GAP * 0.95 - i * GAP * 0.82, y: BASE_Y - 86 };
-      }
-      return {
-        id: t.id, topic: t,
-        x: rootP0.x + (i - (arr.length - 1) / 2) * (CARD.soft.w + 16),
-        y: rootP0.y - 60,
-      };
-    });
-    this.branchMode = rootRow === 0 ? 'top' : 'band';
+    const liftY = rootRow === 0 ? -86 : -70;
+    const branches = softTopics.map((t, i, arr) => ({
+      id: t.id, topic: t,
+      x: rootP0.x + (i - (arr.length - 1) / 2) * (CARD.soft.w + 16),
+      y: rootP0.y + liftY,
+    }));
 
     // 拾取表（数据坐标 + 卡片矩形）：折叠卡/链上卡/解锁卡/支线卡
     const pickables = [];
@@ -294,11 +290,14 @@ export class PathMap {
     this.branches = branches;
     this.pickables = pickables;
     let minX = -PAD;
-    for (const b of branches) minX = Math.min(minX, b.x - CARD.soft.w);
+    let maxX = (cols - 1) * GAP + PAD;
+    for (const b of branches) {
+      minX = Math.min(minX, b.x - CARD.soft.w);
+      maxX = Math.max(maxX, b.x + CARD.soft.w);
+    }
     const rows = Math.ceil(stations.length / cols);
     this.bounds = {
-      minX,
-      maxX: (cols - 1) * GAP + PAD,
+      minX, maxX,
       minY: -150,
       maxY: (rows - 1) * ROW_H + 70,
     };
@@ -787,48 +786,29 @@ export class PathMap {
       seg(i, i <= this.rootI ? 0.92 : 0.4);
     }
 
-    // ---- 有益支线（琥珀虚线卡；首行上方肘线汇入 / 深行卡带短折线汇入当前卡顶边） ----
+    // ---- 有益支线（琥珀虚线卡）：S 弯汇入当前卡顶边，箭头尖贴卡缘垂直向下 ----
     this.branches.forEach((b, bi) => {
       const s = this.toScreen(b);
+      const rootTop = rootP.y - (CARD.root.h / 2) * k;   // 当前卡顶边（屏幕 y）
+      const rx = rootP.x + (bi - (this.branches.length - 1) / 2) * 30 * k;  // 入点横向散开
+      const startY = s.y + (CARD.soft.h / 2) * k;        // 支线卡底边
+      const ymid = (startY + rootTop) / 2;
       ctx.setLineDash([5, 4]);
       ctx.strokeStyle = `rgba(${C.softA},0.85)`;
       ctx.lineWidth = 1;
-      ctx.lineJoin = 'round';
-      if (this.branchMode === 'top') {
-        ctx.beginPath();
-        ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
-        ctx.lineTo(s.x, rootP.y - 42 * k);
-        ctx.quadraticCurveTo(s.x, rootP.y - 32 * k, s.x + 10 * k, rootP.y - 32 * k);
-        ctx.lineTo(rootP.x - 14 * k, rootP.y - 32 * k);
-        ctx.stroke();
-        ctx.setLineDash([]);
-        // 箭头（横向指向当前卡顶边）
-        ctx.beginPath();
-        ctx.moveTo(rootP.x - 10 * k, rootP.y - 32 * k);
-        ctx.lineTo(rootP.x - 16 * k, rootP.y - 35.5 * k);
-        ctx.lineTo(rootP.x - 16 * k, rootP.y - 28.5 * k);
-        ctx.closePath();
-        ctx.fillStyle = `rgba(${C.softA},0.85)`;
-        ctx.fill();
-      } else {
-        // 卡带模式：支线卡悬在当前卡上方间隙，短折线垂直落入卡顶边，
-        // 箭头落点按支线序横向散开避免重叠
-        const tx = rootP.x + (bi - (this.branches.length - 1) / 2) * 18 * k;
-        ctx.beginPath();
-        ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
-        ctx.lineTo(s.x, rootP.y - 36 * k);
-        ctx.lineTo(tx, rootP.y - 36 * k);
-        ctx.lineTo(tx, rootP.y - 32 * k);
-        ctx.stroke();
-        ctx.setLineDash([]);
-        ctx.beginPath();
-        ctx.moveTo(tx, rootP.y - 30 * k);
-        ctx.lineTo(tx - 3.5 * k, rootP.y - 36 * k);
-        ctx.lineTo(tx + 3.5 * k, rootP.y - 36 * k);
-        ctx.closePath();
-        ctx.fillStyle = `rgba(${C.softA},0.85)`;
-        ctx.fill();
-      }
+      ctx.beginPath();
+      ctx.moveTo(s.x, startY);
+      ctx.bezierCurveTo(s.x, ymid, rx, ymid, rx, rootTop);   // 两端竖直的 S 弯
+      ctx.stroke();
+      ctx.setLineDash([]);
+      // 实心箭头（marker 不随虚线），尖贴卡顶缘
+      ctx.beginPath();
+      ctx.moveTo(rx, rootTop);
+      ctx.lineTo(rx - 3.5 * k, rootTop - 6 * k);
+      ctx.lineTo(rx + 3.5 * k, rootTop - 6 * k);
+      ctx.closePath();
+      ctx.fillStyle = `rgba(${C.softA},0.85)`;
+      ctx.fill();
       this.drawCard(s, k, {
         ...CARD.soft, fill: '#ffffff', stroke: 'rgba(192,124,0,0.55)', dash: [4, 3],
         tag: 'SOFT', tagColor: '#8a6100',
