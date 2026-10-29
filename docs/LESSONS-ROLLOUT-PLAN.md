@@ -289,7 +289,7 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-H1 | 初中化学 9上 | 20 | ✅ 完成（2026-10-29：20 点讲解+练习 80 题；**化学流开篇，新建 data/lessons/hx.json**；dump 文字层轨印=PDF−5 六处页脚实测；化学版母版 SPEC/cfg/check-frag-hx/assemble-hx 上线（红线补化学栏目名与「课题N」禁令、化学式 Unicode 下标恢复规则）；5 组子 Agent 两波并行（B/E 遇并发限流重跑）+装配一次过；抽查 3 点 6 处 label 回翻零失真（P41/P42/P98/P94/P135×2）） | 见 CHANGELOG Unreleased B-H1 条目 |
 | B-H2 | 初中化学 9下 | 13 | ✅ 完成（2026-10-29：13 点讲解+练习 52 题；**初中化学收官**；扫描册 RapidOCR 全册转录轨（印=PDF−4，课题首实测勘正五单元页界）；人工基线独立 commit（6519a39）；5 组子 Agent 串行+装配（装配期修 6 处 examples 非法键 options/answer 并入题干①②③④、check-frag-hx 增补该红线）；抽查 4 点 13 处 label 回翻零失真（P8/P5/P40/P35/P66/P65/P96/P111/P101/P59/P78）） | 见 CHANGELOG Unreleased B-H2 条目 |
 | B-H3 | 高中化学必修第一+二册 | 15 | ✅ 完成（2026-10-29：15 点讲解+练习 60 题；**图谱 unit 串系旧课标章名，全按 2019 版真实页对齐**——g10b_01 化学键真在必修一 p113-118、g10b_04 铁在必修一 p68-90（perTopicLabelPrefix 跨册 label 先例扩展进装配器/校验器）；g10a_01 实验安全真实锚=附录Ⅰ/Ⅱ p123-125（新教材无分离提纯专节按缺文先例如实处理）；两段装配（A 段 g10a 9 点+必修一 cfg、B 段 g10b 6 点+必修二 cfg）一次过；5 组子 Agent 串行+装配；抽查 3 点 6 处 label 回翻零失真（P13 丁达尔/P7 交叉分类/P10 SO₂正误/P18 试剂区分/P105/P122）） | 见 CHANGELOG Unreleased B-H3 条目 |
-| B-H4 | 高中化学选必1+2 | 9 | ⬜ | — |
+| B-H4 | 高中化学选必1+2 | 9 | ✅ 完成（2026-10-29：9 点讲解+练习 36 题；选必一印=PDF−5、**选必二印=PDF−3 本册偏移异于他册**；两段装配（g11a 6 点 keys A/B + g11b 3 点 keys C）一次过；3 组子 Agent 串行+装配；抽查 3 点 5 处 label 回翻零失真（印13 键能946/印87 AgCl/印77 钙钛矿）） | 见 CHANGELOG Unreleased B-H4 条目 |
 | B-H5 | 高中化学选必3 | 4 | ⬜ | — |
 | B-S1 | 初中生物 7上 | 13 | ⬜ | — |
 | B-S2 | 初中生物 7下 | 11 | ⬜ | — |
