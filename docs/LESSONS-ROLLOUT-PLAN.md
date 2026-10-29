@@ -286,7 +286,7 @@ topic.textbook(册/单元) → docs/textbook-units/{册名}.json(小节→页码
 | B-W6 | 高中物理必修第三册 | 10 | ✅ 完成（2026-10-29：10 点讲解+练习 40 题；图谱「第十章」单元串与真实书第九/十章错位——01-04 点按真实页对齐（p2-17+p26-51），source.unit 照图谱串+cfg perTopicPages 特例；3 组子 Agent+装配一次过；抽查出处回翻零失真（P43/P49）） | 见 CHANGELOG Unreleased B-W6 条目 |
 | B-W7 | 高中物理选必一 | 6 | ✅ 完成（2026-10-29：6 点 24 题 + **补装 B-W5 延后的 g10b_09 动量与冲量**（真实素材在选必一 p2-11，以人教版选必一 label 对齐）；A/I/B/C 四组子 Agent；装配期修 1 处 cfg keys 漏 C；抽查出处回翻零失真（P14/P18）） | 见 CHANGELOG Unreleased B-W7 条目 |
 | B-W8 | 高中物理选必二+三 | 9 | ✅ 完成（2026-10-29：选必二 4 点+选必三 5 点共 36 题；**物理收官——113 点全学段双覆盖**；A/B/C 三组子 Agent+两段装配；B 组遇选必二传感器段素材缺失自行按需从 PDF 提取；全库 D-033 独立终扫 0 命中、与 topics 无重无漏） | 见 CHANGELOG Unreleased B-W8 条目 |
-| B-H1 | 初中化学 9上 | 20 | ⬜ | — |
+| B-H1 | 初中化学 9上 | 20 | ✅ 完成（2026-10-29：20 点讲解+练习 80 题；**化学流开篇，新建 data/lessons/hx.json**；dump 文字层轨印=PDF−5 六处页脚实测；化学版母版 SPEC/cfg/check-frag-hx/assemble-hx 上线（红线补化学栏目名与「课题N」禁令、化学式 Unicode 下标恢复规则）；5 组子 Agent 两波并行（B/E 遇并发限流重跑）+装配一次过；抽查 3 点 6 处 label 回翻零失真（P41/P42/P98/P94/P135×2）） | 见 CHANGELOG Unreleased B-H1 条目 |
 | B-H2 | 初中化学 9下 | 13 | ⬜ | — |
 | B-H3 | 高中化学必修第一+二册 | 15 | ⬜ | — |
 | B-H4 | 高中化学选必1+2 | 9 | ⬜ | — |
