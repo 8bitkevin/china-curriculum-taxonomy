@@ -3,11 +3,12 @@
 // 回答学生三问「我在哪 / 先学什么 / 通向哪里」：
 //   学习旅程控制条——学科 chip（可切换）· 小学/初中/高中学段分段 ·
 //   目标锚点（→初中/中考/高考），hero 粉彩渐变底；
-//   关键路径画布——一条水平主线贯穿：左端起点（学科绿双环）/「+N」折叠
-//   环，右端学段终点门（中考/高考，金双环）；站点等距排布、标签上下交替；
-//   当前知识点 = 唯一品牌绿焦点环；root 的有益先修以琥珀虚线支线从上方
-//   汇入当前站；跨学段处压奶油金「入初中/入高中」门芯片；当前站之后的
-//   前路用浅玫红（结构上去往何处，远期影响不画网）；
+//   关键路径画布——卡片站点（结构蓝图 PATH CANVAS：圆角卡+左上角标签芯片，
+//   不用圆点）串成一条水平主线：薄荷卡=起点（学科绿框）/「+N」折叠卡、
+//   玫瑰浅卡=必需先修站、品牌绿实心卡=当前知识点（全图唯一焦点）、白卡=
+//   一跳解锁、奶油卡=学段终点门（中考/高考）；root 的有益先修为琥珀虚线
+//   支线卡从上方汇入当前卡顶边；跨学段处奶油金「入初中/入高中」门芯片
+//   压在连线中点下方；当前站之后的主线用浅玫红（去路不画网）；
 //   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
 //   04 薄弱回链（规划），薄荷 CTA 前置讲解入口；
 //   底部学期热条——学完通向计数，当前学期描边联动（游标）。
@@ -21,6 +22,17 @@ const BASE_Y = 0;          // 主线基线（数据坐标 y=0）
 const PAD = 56;            // fit 视图内边距
 const STRIP_H = 58;        // 底部时间轴热条预留高（fit 时扣除）
 const FONT = '"Segoe UI", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif';
+const MONO = 'ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace';
+// 卡片站点尺寸（数据坐标，结构蓝图比例：卡宽≈间距 0.8，随缩放整体缩放）
+const CARD = {
+  chain: { w: 108, h: 52 },   // 必需先修（玫瑰浅卡）
+  next: { w: 104, h: 52 },    // 一跳解锁（白卡）
+  start: { w: 108, h: 52 },   // 起点（薄荷卡）
+  root: { w: 132, h: 64 },    // 当前知识点（品牌绿实卡，蓝图 NOW 大卡）
+  gate: { w: 100, h: 48 },    // 学段终点门（奶油卡）
+  soft: { w: 96, h: 44 },     // 有益支线（琥珀虚线卡）
+  fold: { w: 72, h: 44 },     // 折叠卡
+};
 // 画布配色（与 style.css 的 --hard/--soft/--accent 变量同源，改一处核两处）
 const C = {
   hardA: '216,30,106',     // 必需（玫红 #d81e6a）——来路主线
@@ -95,15 +107,15 @@ export class PathMap {
       </div>
       <div class="pm-stage">
         <div class="pm-canvas-wrap" id="pm-wrap">
-          <canvas class="pm-cv" aria-label="学习旅程图：一条水平主线，左端起点、右端学段终点门，当前知识点为品牌绿焦点环，有益先修以琥珀虚线汇入；滚轮缩放、拖拽平移"></canvas>
+          <canvas class="pm-cv" aria-label="学习旅程图：卡片站点串成一条水平主线，左端起点卡、右端学段终点门卡，当前知识点为品牌绿实心卡，必需先修为玫瑰浅卡，一跳解锁为白卡，有益先修为琥珀虚线卡从上方汇入；滚轮缩放、拖拽平移"></canvas>
           <div class="pm-legend" aria-hidden="true">
-            <span class="lg-item"><i class="lg-line hard"></i>必需来路</span>
+            <span class="lg-item"><i class="lg-line hard"></i>必需主线</span>
             <span class="lg-item"><i class="lg-line fwd"></i>前路</span>
             <span class="lg-item"><i class="lg-line soft"></i>有益支线</span>
-            <span class="lg-item"><i class="lg-dot now"></i>当前位置</span>
-            <span class="lg-item"><i class="lg-dot gate"></i>学段终点</span>
+            <span class="lg-item"><i class="lg-card now"></i>当前</span>
+            <span class="lg-item"><i class="lg-card gate"></i>学段终点</span>
           </div>
-          <div class="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部热条＝学完通向</div>
+          <div class="pm-hint" id="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部热条＝学完通向</div>
           <div class="pm-tip" id="pm-tip" hidden></div>
           <div class="pm-strip" id="pm-strip" hidden>
             <div class="pm-strip-cap" id="pm-strip-cap"></div>
@@ -125,7 +137,7 @@ export class PathMap {
       subject: $('#pm-subject'), subjectDot: $('#pm-subject-dot'), subjectName: $('#pm-subject-name'),
       stages: $('#pm-stages'), anchor: $('#pm-anchor'),
       strip: $('#pm-strip'), stripCap: $('#pm-strip-cap'), stripCells: $('#pm-strip-cells'),
-      pop: $('#pm-pop'), tip: $('#pm-tip'), wrap: $('#pm-wrap'),
+      pop: $('#pm-pop'), tip: $('#pm-tip'), wrap: $('#pm-wrap'), hint: $('#pm-hint'),
       side: $('#pm-side'), sideBody: $('#pm-side-body'), sideClose: $('.pm-side-close'),
       cv: $('.pm-cv'),
     };
@@ -228,7 +240,8 @@ export class PathMap {
         gates.push({ i, label: stageOf(b.grade) === 1 ? '入初中' : '入高中' });
     }
 
-    // 有益支线：root 的 1 跳 soft 先修，抬到当前站左上方（琥珀虚线汇入）
+    // 有益支线：root 的 1 跳 soft 先修，抬到当前站左上方（卡片间距 ≥ 卡宽，
+    // 防相邻支线卡重叠；琥珀虚线汇入当前卡顶边）
     const inChain = new Set(this.g.chain.ids);
     const branches = (this.index.prereqsOf.get(this.rootId) ?? [])
       .filter((e) => e.strength === 'soft' && !inChain.has(e.prerequisiteId))
@@ -237,26 +250,28 @@ export class PathMap {
       .slice(0, 3)
       .map((t, i) => ({
         id: t.id, topic: t,
-        x: stations[rootI].x - GAP * 0.85 - i * GAP * 0.62,
+        x: stations[rootI].x - GAP * 0.95 - i * GAP * 0.82,
         y: BASE_Y - 86,
       }));
 
-    // 拾取表（数据坐标 + 屏幕半径）：折叠环/链上站/解锁站/支线站
+    // 拾取表（数据坐标 + 卡片矩形）：折叠卡/链上卡/解锁卡/支线卡
     const pickables = [];
     for (const s of stations) {
-      if (s.kind === 'fold') pickables.push({ x: s.x, y: s.y, r: 18, action: 'depth' });
+      if (s.kind === 'fold') pickables.push({ x: s.x, y: s.y, ...CARD.fold, action: 'depth' });
       else if (s.kind === 'end') continue;                 // 终点门为装饰，不拾取
-      else pickables.push({ x: s.x, y: s.y, r: 16, id: s.id, action: 'select' });
+      else pickables.push({ x: s.x, y: s.y, w: CARD.chain.w, h: CARD.chain.h, id: s.id, action: 'select' });
     }
-    for (const b of branches) pickables.push({ x: b.x, y: b.y, r: 16, id: b.id, action: 'select' });
+    for (const b of branches) pickables.push({ x: b.x, y: b.y, ...CARD.soft, id: b.id, action: 'select' });
 
     this.stations = stations;
     this.rootI = rootI;
     this.gates = gates;
     this.branches = branches;
     this.pickables = pickables;
+    let minX = -PAD;
+    for (const b of branches) minX = Math.min(minX, b.x - CARD.soft.w);
     this.bounds = {
-      minX: -PAD, maxX: (stations.length - 1) * GAP + PAD,
+      minX, maxX: (stations.length - 1) * GAP + PAD,
       minY: -150, maxY: 110,
     };
   }
@@ -289,10 +304,13 @@ export class PathMap {
     const b = this.bounds;
     const w = b.maxX - b.minX, h = b.maxY - b.minY;
     const reserveB = this.g.counts.closureNext > 0 ? STRIP_H : 0;
-    const k = clamp(Math.min((this.W - PAD * 2) / w, (this.H - PAD * 2 - reserveB) / h), 0.45, 1.3);
+    // 下限 0.8：保卡片内文字可读（结构蓝图的大卡片观感）；长链缩到此仍放不下
+    // → 以当前知识点为画面中心，拖拽漫游全程（Duolingo 式路径体验）
+    const k = clamp(Math.min((this.W - PAD * 2) / w, (this.H - PAD * 2 - reserveB) / h), 0.8, 1.3);
     let tx = this.W / 2 - (b.minX + w / 2) * k;
     // 内容超宽（长链缩到下限仍放不下）：以当前知识点为画面中心——来路在左、前路在右
-    if (w * k > this.W - PAD * 2 && this.stations) {
+    this.overflow = w * k > this.W - PAD * 2;
+    if (this.overflow && this.stations) {
       tx = this.W / 2 - this.stations[this.rootI].x * k;
     }
     const ty = (this.H - reserveB) / 2 - (b.minY + h / 2) * k;
@@ -301,6 +319,11 @@ export class PathMap {
       this.vAnim = { t0: performance.now(), dur: 300, from, to: { x: tx, y: ty, k } };
     } else {
       this.view = { x: tx, y: ty, k };
+    }
+    if (this.ui.hint) {
+      this.ui.hint.textContent = this.overflow
+        ? '单击看详情 · 双击跳转 · 拖拽漫游全程'
+        : '单击看详情 · 双击跳转 · 底部热条＝学完通向';
     }
     this.userView = false;
     this.dirty = true;
@@ -407,11 +430,13 @@ export class PathMap {
     window.removeEventListener('keydown', this.onKey);
   }
 
-  /** 屏幕空间拾取：投影站点中心，命中半径内返回站点/折叠环。 */
+  /** 屏幕空间拾取：投影卡片中心，命中卡片矩形（含 4px 余量）。 */
   pick(mx, my) {
     for (const p of this.pickables) {
       const s = this.toScreen(p);
-      if (Math.abs(mx - s.x) <= p.r && Math.abs(my - s.y) <= p.r) return p;
+      const rw = p.w / 2 * this.view.k + 4;
+      const rh = p.h / 2 * this.view.k + 4;
+      if (Math.abs(mx - s.x) <= rw && Math.abs(my - s.y) <= rh) return p;
     }
     return null;
   }
@@ -620,18 +645,64 @@ export class PathMap {
     ctx.fillText(text, cx, cy + 0.5);
   }
 
-  /** 站点标签块（名称 + 副标），dir=-1 在线上方、+1 在线下方。 */
-  drawLabel(cx, cy, dir, name, sub, nameColor, subColor) {
+  /**
+   * 结构蓝图 PATH CANVAS 的卡片站点：圆角卡 + 左上角小标签芯片 + 名称/副标。
+   * 在站点屏幕位置 translate+scale 后按数据尺寸绘制，卡片与文字随缩放同步；
+   * lineWidth 取 1/k 的倍数，保持屏幕空间 1px 细线（出版级规范）。
+   */
+  drawCard(p, k, o) {
     const { ctx } = this;
-    ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
-    ctx.font = `600 12px ${FONT}`;
-    ctx.fillStyle = nameColor ?? C.ink;
-    ctx.fillText(name, cx, cy + (dir > 0 ? 27 : -16));
-    if (sub) {
-      ctx.font = `400 12px ${FONT}`;
-      ctx.fillStyle = subColor ?? C.sub;
-      ctx.fillText(sub, cx, cy + (dir > 0 ? 43 : -32));
+    ctx.save();
+    ctx.translate(p.x, p.y);
+    ctx.scale(k, k);
+    const px = 1 / k;
+    const half = o.h / 2;
+    ctx.beginPath();
+    roundRect(ctx, -o.w / 2, -half, o.w, o.h, 6);
+    ctx.fillStyle = o.fill;
+    ctx.fill();
+    if (o.stroke) {
+      ctx.strokeStyle = o.stroke;
+      ctx.lineWidth = (o.active ? 1.5 : 1) * px;
+      if (o.dash) ctx.setLineDash(o.dash);
+      ctx.stroke();
+      if (o.dash) ctx.setLineDash([]);
     }
+    if (o.active) {                          // hover/选中：品牌绿外环（交互语义）
+      ctx.beginPath();
+      roundRect(ctx, -o.w / 2 - 3, -half - 3, o.w + 6, o.h + 6, 8);
+      ctx.strokeStyle = C.brandInk;
+      ctx.lineWidth = 1.2 * px;
+      ctx.stroke();
+    }
+    if (o.tag) {                             // 左上角标签芯片，压卡片上边缘
+      ctx.font = `600 7px ${MONO}`;
+      const cw = ctx.measureText(o.tag).width + 10;
+      const cx0 = -o.w / 2 + 7, cy0 = -half - 4;
+      ctx.beginPath();
+      roundRect(ctx, cx0, cy0, cw, 11, 3);
+      ctx.fillStyle = '#f6f8fa';
+      ctx.fill();
+      ctx.strokeStyle = o.tagColor;
+      ctx.lineWidth = 0.8 * px;
+      ctx.stroke();
+      ctx.fillStyle = o.tagColor;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillText(o.tag, cx0 + cw / 2, cy0 + 6);
+    }
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'alphabetic';
+    const lift = o.tag ? 2 : 6;              // 有标签时内容略上让位
+    ctx.font = `600 12px ${FONT}`;
+    ctx.fillStyle = o.nameColor ?? C.ink;
+    ctx.fillText(o.name, 0, o.sub ? lift : lift + 4);
+    if (o.sub) {
+      ctx.font = `400 10.5px ${FONT}`;
+      ctx.fillStyle = o.subColor ?? C.sub;
+      ctx.fillText(o.sub, 0, lift + 15);
+    }
+    ctx.restore();
   }
 
   draw() {
@@ -640,6 +711,7 @@ export class PathMap {
     ctx.clearRect(0, 0, W, H);      // 透明画布，露出薄荷底（.pm-canvas-wrap）
 
     if (!this.stations?.length) return;
+    const k = this.view.k;
     const P = this.stations.map((s) => this.toScreen(s));
     const rootP = P[this.rootI];
 
@@ -657,94 +729,93 @@ export class PathMap {
       seg(i - 1, i, C.hardA, 2, fwd ? 0.4 : 0.92);
     }
 
-    // ---- 有益支线（琥珀虚线，从上方汇入当前站） ----
-    ctx.setLineDash([6, 5]);
+    // ---- 有益支线（琥珀虚线卡 + 汇入线，从上方进当前卡顶边） ----
     for (const b of this.branches) {
       const s = this.toScreen(b);
-      ctx.beginPath();
-      ctx.moveTo(s.x, s.y + 6);
-      ctx.lineTo(s.x, rootP.y - 30);
-      ctx.quadraticCurveTo(s.x, rootP.y - 22, s.x + 8, rootP.y - 22);
-      ctx.lineTo(rootP.x - 12, rootP.y - 22);
-      ctx.quadraticCurveTo(rootP.x - 4, rootP.y - 22, rootP.x - 4, rootP.y - 14);
-      ctx.lineTo(rootP.x - 4, rootP.y - 11);
+      ctx.setLineDash([5, 4]);
       ctx.strokeStyle = `rgba(${C.softA},0.85)`;
       ctx.lineWidth = 1;
-      ctx.stroke();
-      // 支线站点（琥珀空心圆）+ 名称
       ctx.beginPath();
-      ctx.arc(s.x, s.y, 4, 0, Math.PI * 2);
-      ctx.fillStyle = '#f6f8fa'; ctx.fill();
-      ctx.strokeStyle = `rgba(${C.softA},0.9)`; ctx.lineWidth = 1.2; ctx.stroke();
-      ctx.font = `600 12px ${FONT}`;
-      ctx.fillStyle = C.ink; ctx.textAlign = 'center'; ctx.textBaseline = 'alphabetic';
-      ctx.fillText(this.nameAt(this.index.byId.get(b.id), 96), s.x, s.y - 10);
+      ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
+      ctx.lineTo(s.x, rootP.y - 42 * k);
+      ctx.quadraticCurveTo(s.x, rootP.y - 32 * k, s.x + 10 * k, rootP.y - 32 * k);
+      ctx.lineTo(rootP.x - 14 * k, rootP.y - 32 * k);
+      ctx.stroke();
+      ctx.setLineDash([]);
+      // 箭头（指向当前卡顶边）
+      ctx.beginPath();
+      ctx.moveTo(rootP.x - 10 * k, rootP.y - 32 * k);
+      ctx.lineTo(rootP.x - 16 * k, rootP.y - 35.5 * k);
+      ctx.lineTo(rootP.x - 16 * k, rootP.y - 28.5 * k);
+      ctx.closePath();
+      ctx.fillStyle = `rgba(${C.softA},0.85)`;
+      ctx.fill();
+      this.drawCard(s, k, {
+        ...CARD.soft, fill: '#ffffff', stroke: 'rgba(192,124,0,0.55)', dash: [4, 3],
+        tag: 'SOFT', tagColor: '#8a6100',
+        name: this.nameAt(this.index.byId.get(b.id), 82), sub: '有益先修',
+      });
     }
-    ctx.setLineDash([]);
 
-    // ---- 学段门芯片（压在跨学段连线中点） ----
+    // ---- 学段门芯片（压在跨学段连线中点下方，避让卡片） ----
     for (const g of this.gates) {
-      const mx = (P[g.i - 1].x + P[g.i].x) / 2, my = (P[g.i - 1].y + P[g.i].y) / 2;
+      const mx = (P[g.i - 1].x + P[g.i].x) / 2;
+      const my = P[g.i].y + (CARD.chain.h / 2) * k + 14;
       this.drawChip(mx, my, g.label, '#fff6e5', 'rgba(192,124,0,0.45)', '#8a6100');
     }
 
-    // ---- 站点 ----
+    // ---- 站点卡片（结构蓝图 PATH CANVAS：卡片而非圆点） ----
     this.stations.forEach((s, i) => {
       const p = P[i];
-      const isRoot = i === this.rootI;
-      const isHover = this.hoverId === s.id;
-      const above = i % 2 === 0;
       if (s.kind === 'fold') {
-        // 折叠环：更早的必修站折叠数（单击加深一层）
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 8, 0, Math.PI * 2);
-        ctx.fillStyle = '#f6f8fa'; ctx.fill();
-        ctx.strokeStyle = '#bfc7ce'; ctx.lineWidth = 1.2; ctx.stroke();
-        this.drawChip(p.x, p.y - 22, `+${s.n > 99 ? '99' : s.n}`, '#edf0f3', '#dce1e7', '#5a6b77');
+        // 折叠卡：更早的必修站折叠数（单击加深一层）
+        this.drawCard(p, k, {
+          ...CARD.fold, fill: '#edf0f3', stroke: '#dce1e7', dash: [4, 3],
+          tag: 'FOLD', tagColor: '#5a6b77',
+          name: `+${s.n > 99 ? 99 : s.n}`, sub: '未展开必修',
+        });
         return;
       }
       if (s.kind === 'end') {
-        // 学段终点门：金双环
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 3, 0, Math.PI * 2);
-        ctx.fillStyle = C.gate; ctx.fill();
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 6.5, 0, Math.PI * 2);
-        ctx.strokeStyle = C.gate; ctx.lineWidth = 1.2; ctx.stroke();
-        this.drawLabel(p.x, p.y, above, s.label, '学段终点', C.ink, C.sub);
+        // 学段终点门：奶油卡（入初中/中考门/高考门）
+        this.drawCard(p, k, {
+          ...CARD.gate, fill: '#fff6e5', stroke: 'rgba(192,124,0,0.45)',
+          tag: 'GATE', tagColor: '#8a6100', name: s.label, sub: '学段终点',
+        });
         return;
       }
       const t = this.index.byId.get(s.id);
+      const isRoot = i === this.rootI;
+      const active = !isRoot && (this.hoverId === s.id || this.selId === s.id);
       if (isRoot) {
-        // 当前知识点：唯一品牌绿焦点（实心 + 外环）
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 5, 0, Math.PI * 2);
-        ctx.fillStyle = C.brandInk; ctx.fill();
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 10, 0, Math.PI * 2);
-        ctx.strokeStyle = C.brandInk; ctx.lineWidth = 1.2; ctx.stroke();
-        this.drawLabel(p.x, p.y, above, this.nameAt(t, 120), '当前位置', C.brandInk, C.brandInk);
+        // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）
+        this.drawCard(p, k, {
+          ...CARD.root, fill: C.brandInk, stroke: C.brand,
+          tag: 'NOW', tagColor: 'rgba(255,255,255,0.92)',
+          name: this.nameAt(t, 116), nameColor: '#ffffff',
+          sub: '当前位置', subColor: 'rgba(255,255,255,0.85)',
+        });
       } else if (i === 0 && this.g.counts.hidden === 0) {
-        // 起点：学科绿双环（仅必修闭包完整时，首站才是真起点）
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 4, 0, Math.PI * 2);
-        ctx.fillStyle = '#f6f8fa'; ctx.fill();
-        ctx.strokeStyle = C.brand; ctx.lineWidth = 1.2; ctx.stroke();
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 8, 0, Math.PI * 2);
-        ctx.strokeStyle = C.brand; ctx.lineWidth = 1; ctx.stroke();
-        this.drawLabel(p.x, p.y, above, this.nameAt(t, 110), '起点', C.ink, C.brandInk);
+        // 起点：薄荷卡（仅必修闭包完整时，首站才是真起点）
+        this.drawCard(p, k, {
+          ...CARD.start, fill: '#e6f7ef', stroke: '#bce5cf',
+          tag: 'ORIGIN', tagColor: C.brandInk,
+          name: this.nameAt(t, 94), sub: '起点',
+        });
+      } else if (s.kind === 'next') {
+        // 一跳解锁：白卡 + 墨框
+        this.drawCard(p, k, {
+          ...CARD.next, fill: '#ffffff', stroke: 'rgba(27,43,51,0.55)',
+          tag: 'NEXT', tagColor: C.ink,
+          name: this.nameAt(t, 90), sub: termLabel(t), active,
+        });
       } else {
-        // 常规站：学科色实心圆
-        ctx.beginPath();
-        ctx.arc(p.x, p.y, 4.5, 0, Math.PI * 2);
-        ctx.fillStyle = subjectDeep(t.subject); ctx.fill();
-        if (isHover || this.selId === s.id) {
-          ctx.beginPath();
-          ctx.arc(p.x, p.y, 8.5, 0, Math.PI * 2);
-          ctx.strokeStyle = C.brandPress; ctx.lineWidth = 1.2; ctx.stroke();
-        }
-        this.drawLabel(p.x, p.y, above, this.nameAt(t, 110), termLabel(t), C.ink, C.sub);
+        // 必需先修：玫瑰浅卡 + 玫红框
+        this.drawCard(p, k, {
+          ...CARD.chain, fill: '#fceef5', stroke: 'rgba(216,30,106,0.35)',
+          tag: 'HARD', tagColor: '#a81354',
+          name: this.nameAt(t, 94), sub: termLabel(t), active,
+        });
       }
     });
   }

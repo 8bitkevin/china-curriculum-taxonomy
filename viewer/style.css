@@ -609,6 +609,10 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .pm-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
 .pm-legend .lg-dot.now { background: var(--accent-ink); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--accent-ink); }
 .pm-legend .lg-dot.gate { background: var(--soft); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--soft); }
+/* v2 卡片站点图例（PATH CANVAS 卡片化后替代圆点样本） */
+.pm-legend .lg-card { width: 14px; height: 10px; border-radius: 3px; flex: none; }
+.pm-legend .lg-card.now { background: var(--accent-ink); }
+.pm-legend .lg-card.gate { background: var(--soft-weak); border: 1px solid rgba(192, 124, 0, 0.45); }
 .pm-legend .lg-dir { color: var(--faint); }
 .pm-hint {
   position: absolute; right: 12px; bottom: 10px; z-index: 3;
