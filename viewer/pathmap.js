@@ -4,11 +4,13 @@
 //   学习旅程控制条——学科 chip（可切换）· 小学/初中/高中学段分段 ·
 //   目标锚点（→初中/中考/高考），hero 粉彩渐变底；
 //   关键路径画布——卡片站点（结构蓝图 PATH CANVAS：圆角卡+左上角标签芯片，
-//   不用圆点）串成一条水平主线：薄荷卡=起点（学科绿框）/「+N」折叠卡、
-//   玫瑰浅卡=必需先修站、品牌绿实心卡=当前知识点（全图唯一焦点）、白卡=
-//   一跳解锁、奶油卡=学段终点门（中考/高考）；root 的有益先修为琥珀虚线
-//   支线卡从上方汇入当前卡顶边；跨学段处奶油金「入初中/入高中」门芯片
-//   压在连线中点下方；当前站之后的主线用浅玫红（去路不画网）；
+//   不用圆点）串成蛇形多行主线：一行列数按画布宽自适应（大卡优先，k≥0.8），
+//   满行换行继续——偶数行向右、奇数行向左，长链竖向扩展而不是压缩卡片；
+//   薄荷卡=起点（学科绿框）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
+//   卡=当前知识点（全图唯一焦点）、白卡=一跳解锁、奶油卡=学段终点门
+//   （中考/高考）；root 的有益先修为琥珀虚线支线卡汇入当前卡顶边（首行
+//   上方肘线，深行悬卡带短折线）；跨学段处奶油金「入初中/入高中」门芯片；
+//   当前站之后的主线用浅玫红（去路不画网）；
 //   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
 //   04 薄弱回链（规划），薄荷 CTA 前置讲解入口；
 //   底部学期热条——学完通向计数，当前学期描边联动（游标）。
@@ -18,7 +20,9 @@ import { pathGraph } from './logic.js';
 import { subjectDeep } from './graph3d.js';
 
 const GAP = 132;           // 站点基础间距（数据坐标）
-const BASE_Y = 0;          // 主线基线（数据坐标 y=0）
+const ROW_H = 120;         // 蛇形换行行距（卡高 + 支线卡带与上一行的间隙）
+const COLS_K = 0.9;        // 一行列数估算：可用宽 /（GAP × COLS_K）≈ k 0.9 的大卡观感
+const BASE_Y = 0;          // 首行基线（数据坐标 y=0）
 const PAD = 56;            // fit 视图内边距
 const STRIP_H = 58;        // 底部时间轴热条预留高（fit 时扣除）
 const FONT = '"Segoe UI", "PingFang SC", "HarmonyOS Sans SC", "MiSans", "Noto Sans SC", "Microsoft YaHei", system-ui, sans-serif';
@@ -229,10 +233,21 @@ export class PathMap {
     const endLabel = stageOf(rootT.grade) === 0 ? '入初中' : stageOf(rootT.grade) === 1 ? '中考门' : '高考门';
     slots.push({ kind: 'end', label: endLabel });
 
-    const stations = slots.map((s, i) => ({ ...s, i, x: i * GAP, y: BASE_Y }));
+    // 蛇形网格：一行 COLS 张卡（按画布宽估算，k≈0.9 时卡内文字可读），
+    // 满行换行继续——偶数行向右、奇数行向左（蛇形阅读序），行距 ROW_H。
+    // 长链不再压卡片尺寸，而是竖向扩展行数。
+    const cols = clamp(Math.floor((this.W - PAD * 2) / (GAP * COLS_K)), 3, 8);
+    const posOf = (i) => {
+      const row = Math.floor(i / cols);
+      const col = i % cols;
+      return { x: (row % 2 === 0 ? col : cols - 1 - col) * GAP, y: row * ROW_H };
+    };
+    const stations = slots.map((s, i) => ({ ...s, i, ...posOf(i) }));
     const rootI = rootSlot;
+    const rootRow = Math.floor(rootI / cols);
 
-    // 跨学段门：可见主线相邻两站学段不同 → 奶油金芯片压在连线中点
+    // 跨学段门：可见主线相邻两站学段不同 → 奶油金芯片（横向段画在中点下方，
+    // 换行竖直段画在段右侧）
     const gates = [];
     for (let i = 1; i <= rootSlot; i++) {
       const a = byId.get(slots[i - 1].id), b = byId.get(slots[i].id);
@@ -240,19 +255,27 @@ export class PathMap {
         gates.push({ i, label: stageOf(b.grade) === 1 ? '入初中' : '入高中' });
     }
 
-    // 有益支线：root 的 1 跳 soft 先修，抬到当前站左上方（卡片间距 ≥ 卡宽，
-    // 防相邻支线卡重叠；琥珀虚线汇入当前卡顶边）
+    // 有益支线：root 的 1 跳 soft 先修。root 在首行 → 抬到左上方（肘线汇入）；
+    // root 在更深处 → 支线卡带悬在 root 正上方与上一行的间隙里（短折线汇入），
+    // 避免压到网格卡片。
     const inChain = new Set(this.g.chain.ids);
-    const branches = (this.index.prereqsOf.get(this.rootId) ?? [])
+    const softTopics = (this.index.prereqsOf.get(this.rootId) ?? [])
       .filter((e) => e.strength === 'soft' && !inChain.has(e.prerequisiteId))
       .map((e) => byId.get(e.prerequisiteId))
       .filter(Boolean)
-      .slice(0, 3)
-      .map((t, i) => ({
+      .slice(0, 3);
+    const rootP0 = stations[rootI];
+    const branches = softTopics.map((t, i, arr) => {
+      if (rootRow === 0) {
+        return { id: t.id, topic: t, x: rootP0.x - GAP * 0.95 - i * GAP * 0.82, y: BASE_Y - 86 };
+      }
+      return {
         id: t.id, topic: t,
-        x: stations[rootI].x - GAP * 0.95 - i * GAP * 0.82,
-        y: BASE_Y - 86,
-      }));
+        x: rootP0.x + (i - (arr.length - 1) / 2) * (CARD.soft.w + 16),
+        y: rootP0.y - 60,
+      };
+    });
+    this.branchMode = rootRow === 0 ? 'top' : 'band';
 
     // 拾取表（数据坐标 + 卡片矩形）：折叠卡/链上卡/解锁卡/支线卡
     const pickables = [];
@@ -270,9 +293,12 @@ export class PathMap {
     this.pickables = pickables;
     let minX = -PAD;
     for (const b of branches) minX = Math.min(minX, b.x - CARD.soft.w);
+    const rows = Math.ceil(stations.length / cols);
     this.bounds = {
-      minX, maxX: (stations.length - 1) * GAP + PAD,
-      minY: -150, maxY: 110,
+      minX,
+      maxX: (cols - 1) * GAP + PAD,
+      minY: -150,
+      maxY: (rows - 1) * ROW_H + 70,
     };
   }
 
@@ -304,16 +330,16 @@ export class PathMap {
     const b = this.bounds;
     const w = b.maxX - b.minX, h = b.maxY - b.minY;
     const reserveB = this.g.counts.closureNext > 0 ? STRIP_H : 0;
-    // 下限 0.8：保卡片内文字可读（结构蓝图的大卡片观感）；长链缩到此仍放不下
-    // → 以当前知识点为画面中心，拖拽漫游全程（Duolingo 式路径体验）
+    // 下限 0.8：保卡片内文字可读（结构蓝图的大卡片观感）；任一轴溢出时
+    // 以当前知识点为画面中心，拖拽漫游全程（Duolingo 式路径体验）
     const k = clamp(Math.min((this.W - PAD * 2) / w, (this.H - PAD * 2 - reserveB) / h), 0.8, 1.3);
-    let tx = this.W / 2 - (b.minX + w / 2) * k;
-    // 内容超宽（长链缩到下限仍放不下）：以当前知识点为画面中心——来路在左、前路在右
-    this.overflow = w * k > this.W - PAD * 2;
-    if (this.overflow && this.stations) {
-      tx = this.W / 2 - this.stations[this.rootI].x * k;
-    }
-    const ty = (this.H - reserveB) / 2 - (b.minY + h / 2) * k;
+    const ovX = w * k > this.W - PAD * 2;
+    const ovY = h * k > this.H - PAD * 2 - reserveB;
+    this.overflow = ovX || ovY;
+    const cx = ovX && this.stations ? this.stations[this.rootI].x : b.minX + w / 2;
+    const cy = ovY && this.stations ? this.stations[this.rootI].y : b.minY + h / 2;
+    const tx = this.W / 2 - cx * k;
+    const ty = (this.H - reserveB) / 2 - cy * k;
     if (animate && !this.reduce) {
       const from = { ...this.view };
       this.vAnim = { t0: performance.now(), dur: 300, from, to: { x: tx, y: ty, k } };
@@ -681,9 +707,9 @@ export class PathMap {
       const cx0 = -o.w / 2 + 7, cy0 = -half - 4;
       ctx.beginPath();
       roundRect(ctx, cx0, cy0, cw, 11, 3);
-      ctx.fillStyle = '#f6f8fa';
-      ctx.fill();
-      ctx.strokeStyle = o.tagColor;
+      const chipFill = o.chipFill ?? '#f6f8fa';
+      if (chipFill !== 'none') { ctx.fillStyle = chipFill; ctx.fill(); }
+      ctx.strokeStyle = o.tagStroke ?? o.tagColor;
       ctx.lineWidth = 0.8 * px;
       ctx.stroke();
       ctx.fillStyle = o.tagColor;
@@ -715,52 +741,77 @@ export class PathMap {
     const P = this.stations.map((s) => this.toScreen(s));
     const rootP = P[this.rootI];
 
-    // ---- 主线：来路（玫红实线） + 前路（浅玫红） ----
-    const seg = (a, b, rgb, width, alpha) => {
+    // ---- 主线：蛇形折线，来路（玫红实线）+ 前路（浅玫红），圆角转角 ----
+    const seg = (from, to, alpha) => {
       ctx.beginPath();
-      ctx.moveTo(P[a].x, P[a].y);
-      ctx.lineTo(P[b].x, P[b].y);
-      ctx.strokeStyle = `rgba(${rgb},${alpha})`;
-      ctx.lineWidth = width;
+      ctx.moveTo(P[from].x, P[from].y);
+      for (let i = from + 1; i < to; i++) {
+        ctx.arcTo(P[i].x, P[i].y, P[i + 1].x, P[i + 1].y, 10 * k);
+      }
+      ctx.lineTo(P[to].x, P[to].y);
+      ctx.strokeStyle = `rgba(${C.hardA},${alpha})`;
+      ctx.lineWidth = 2;
+      ctx.lineJoin = 'round';
       ctx.stroke();
     };
-    for (let i = 1; i < P.length; i++) {
-      const fwd = i > this.rootI;
-      seg(i - 1, i, C.hardA, 2, fwd ? 0.4 : 0.92);
-    }
+    if (this.rootI > 0) seg(0, this.rootI, 0.92);
+    if (this.rootI < P.length - 1) seg(this.rootI, P.length - 1, 0.4);
 
-    // ---- 有益支线（琥珀虚线卡 + 汇入线，从上方进当前卡顶边） ----
-    for (const b of this.branches) {
+    // ---- 有益支线（琥珀虚线卡；首行上方肘线汇入 / 深行卡带短折线汇入当前卡顶边） ----
+    this.branches.forEach((b, bi) => {
       const s = this.toScreen(b);
       ctx.setLineDash([5, 4]);
       ctx.strokeStyle = `rgba(${C.softA},0.85)`;
       ctx.lineWidth = 1;
-      ctx.beginPath();
-      ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
-      ctx.lineTo(s.x, rootP.y - 42 * k);
-      ctx.quadraticCurveTo(s.x, rootP.y - 32 * k, s.x + 10 * k, rootP.y - 32 * k);
-      ctx.lineTo(rootP.x - 14 * k, rootP.y - 32 * k);
-      ctx.stroke();
-      ctx.setLineDash([]);
-      // 箭头（指向当前卡顶边）
-      ctx.beginPath();
-      ctx.moveTo(rootP.x - 10 * k, rootP.y - 32 * k);
-      ctx.lineTo(rootP.x - 16 * k, rootP.y - 35.5 * k);
-      ctx.lineTo(rootP.x - 16 * k, rootP.y - 28.5 * k);
-      ctx.closePath();
-      ctx.fillStyle = `rgba(${C.softA},0.85)`;
-      ctx.fill();
+      ctx.lineJoin = 'round';
+      if (this.branchMode === 'top') {
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
+        ctx.lineTo(s.x, rootP.y - 42 * k);
+        ctx.quadraticCurveTo(s.x, rootP.y - 32 * k, s.x + 10 * k, rootP.y - 32 * k);
+        ctx.lineTo(rootP.x - 14 * k, rootP.y - 32 * k);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        // 箭头（横向指向当前卡顶边）
+        ctx.beginPath();
+        ctx.moveTo(rootP.x - 10 * k, rootP.y - 32 * k);
+        ctx.lineTo(rootP.x - 16 * k, rootP.y - 35.5 * k);
+        ctx.lineTo(rootP.x - 16 * k, rootP.y - 28.5 * k);
+        ctx.closePath();
+        ctx.fillStyle = `rgba(${C.softA},0.85)`;
+        ctx.fill();
+      } else {
+        // 卡带模式：支线卡悬在当前卡上方间隙，短折线垂直落入卡顶边，
+        // 箭头落点按支线序横向散开避免重叠
+        const tx = rootP.x + (bi - (this.branches.length - 1) / 2) * 18 * k;
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y + (CARD.soft.h / 2) * k);
+        ctx.lineTo(s.x, rootP.y - 36 * k);
+        ctx.lineTo(tx, rootP.y - 36 * k);
+        ctx.lineTo(tx, rootP.y - 32 * k);
+        ctx.stroke();
+        ctx.setLineDash([]);
+        ctx.beginPath();
+        ctx.moveTo(tx, rootP.y - 30 * k);
+        ctx.lineTo(tx - 3.5 * k, rootP.y - 36 * k);
+        ctx.lineTo(tx + 3.5 * k, rootP.y - 36 * k);
+        ctx.closePath();
+        ctx.fillStyle = `rgba(${C.softA},0.85)`;
+        ctx.fill();
+      }
       this.drawCard(s, k, {
         ...CARD.soft, fill: '#ffffff', stroke: 'rgba(192,124,0,0.55)', dash: [4, 3],
         tag: 'SOFT', tagColor: '#8a6100',
         name: this.nameAt(this.index.byId.get(b.id), 82), sub: '有益先修',
       });
-    }
+    });
 
-    // ---- 学段门芯片（压在跨学段连线中点下方，避让卡片） ----
+    // ---- 学段门芯片（横向段画在中点下方，换行竖直段画在段右侧） ----
     for (const g of this.gates) {
-      const mx = (P[g.i - 1].x + P[g.i].x) / 2;
-      const my = P[g.i].y + (CARD.chain.h / 2) * k + 14;
+      const a = P[g.i - 1], b2 = P[g.i];
+      const vertical = Math.abs(a.x - b2.x) < 1;
+      const mx = vertical ? a.x + 46 : (a.x + b2.x) / 2;
+      const my = vertical ? (a.y + b2.y) / 2 : b2.y + (CARD.chain.h / 2) * k + 14;
       this.drawChip(mx, my, g.label, '#fff6e5', 'rgba(192,124,0,0.45)', '#8a6100');
     }
 
@@ -788,10 +839,12 @@ export class PathMap {
       const isRoot = i === this.rootI;
       const active = !isRoot && (this.hoverId === s.id || this.selId === s.id);
       if (isRoot) {
-        // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）
+        // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）；芯片用透明白描边
+        //（浅底白字在深绿卡上看不清，结构蓝图 NOW 芯片即透明底+白描边）
         this.drawCard(p, k, {
           ...CARD.root, fill: C.brandInk, stroke: C.brand,
-          tag: 'NOW', tagColor: 'rgba(255,255,255,0.92)',
+          tag: 'NOW', tagColor: '#ffffff',
+          tagStroke: 'rgba(255,255,255,0.6)', chipFill: 'rgba(255,255,255,0.14)',
           name: this.nameAt(t, 116), nameColor: '#ffffff',
           sub: '当前位置', subColor: 'rgba(255,255,255,0.85)',
         });
