@@ -8,7 +8,8 @@
 //   满行换行继续——偶数行向右、奇数行向左，长链竖向扩展而不是压缩卡片；
 //   薄荷卡=起点（学科绿框）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
 //   卡=当前知识点（全图唯一焦点）、白卡=一跳解锁、奶油卡=学段终点门
-//   （中考/高考）；连线带行进方向箭头（来路深/前路浅）；root 的有益先修
+//   （中考/高考）；连线为卡片边到边直线段、末端箭头贴目标卡边缘
+//   （结构蓝图 marker-end 同款，来路深/前路浅）；root 的有益先修
 //   为琥珀虚线支线卡汇入当前卡顶边（首行上方肘线，深行悬卡带短折线）；
 //   跨学段处奶油金「入初中/入高中」门芯片；悬停=投影抬升、选中=描边转
 //   品牌绿+投影（不画外扩环）；
@@ -745,37 +746,46 @@ export class PathMap {
     const P = this.stations.map((s) => this.toScreen(s));
     const rootP = P[this.rootI];
 
-    // ---- 主线：蛇形折线（结构蓝图带方向箭头），来路玫红实、前路浅玫红 ----
-    const arrow = (a, b, alpha) => {
-      // 行进方向箭头画在连线中点（卡片遮住线端，中点最清晰）
-      const mx = (a.x + b.x) / 2, my = (a.y + b.y) / 2;
-      const dx = b.x - a.x, dy = b.y - a.y;
-      const len = Math.hypot(dx, dy) || 1;
-      const ux = dx / len, uy = dy / len;
-      const vx = -uy, vy = ux;
+    // ---- 主线：卡片边到边直线段，箭头贴目标卡边缘（结构蓝图 marker-end 同款：
+    //      线从卡 A 边缘连到卡 B 边缘，箭头在段末端指向 B） ----
+    const sizeOf = (s) => (s.kind === 'fold' ? CARD.fold : s.kind === 'end' ? CARD.gate
+      : s.kind === 'root' ? CARD.root : s.kind === 'next' ? CARD.next : CARD.chain);
+    const arrowHead = (tip, ux, uy, alpha) => {
       ctx.beginPath();
-      ctx.moveTo(mx + ux * 5, my + uy * 5);
-      ctx.lineTo(mx - ux * 4 + vx * 3.5, my - uy * 4 + vy * 3.5);
-      ctx.lineTo(mx - ux * 4 - vx * 3.5, my - uy * 4 - vy * 3.5);
+      ctx.moveTo(tip.x, tip.y);
+      ctx.lineTo(tip.x - ux * 9 + uy * 3.5, tip.y - uy * 9 - ux * 3.5);
+      ctx.lineTo(tip.x - ux * 9 - uy * 3.5, tip.y - uy * 9 + ux * 3.5);
       ctx.closePath();
       ctx.fillStyle = `rgba(${C.hardA},${alpha})`;
       ctx.fill();
     };
-    const seg = (from, to, alpha) => {
-      ctx.beginPath();
-      ctx.moveTo(P[from].x, P[from].y);
-      for (let i = from + 1; i < to; i++) {
-        ctx.arcTo(P[i].x, P[i].y, P[i + 1].x, P[i + 1].y, 10 * k);
+    const seg = (i, alpha) => {
+      const a = this.stations[i - 1], b = this.stations[i];
+      const wa = sizeOf(a).w / 2, wb = sizeOf(b).w / 2;
+      const ha = sizeOf(a).h / 2, hb = sizeOf(b).h / 2;
+      let p1, p2, ux, uy;
+      if (a.y === b.y) {                    // 行内横向：a 行进侧边 → b 迎向侧边
+        const sgn = b.x > a.x ? 1 : -1;
+        p1 = { x: a.x + sgn * wa, y: a.y };
+        p2 = { x: b.x - sgn * wb, y: b.y };
+        ux = sgn; uy = 0;
+      } else {                              // 换行竖直：a 底边 → b 顶边
+        p1 = { x: a.x, y: a.y + ha };
+        p2 = { x: b.x, y: b.y - hb };
+        ux = 0; uy = 1;
       }
-      ctx.lineTo(P[to].x, P[to].y);
+      const s1 = this.toScreen(p1), s2 = this.toScreen(p2);
+      ctx.beginPath();
+      ctx.moveTo(s1.x, s1.y);
+      ctx.lineTo(s2.x, s2.y);
       ctx.strokeStyle = `rgba(${C.hardA},${alpha})`;
       ctx.lineWidth = 2;
-      ctx.lineJoin = 'round';
       ctx.stroke();
-      for (let i = from + 1; i <= to; i++) arrow(P[i - 1], P[i], alpha);
+      arrowHead(s2, ux, uy, alpha);         // 箭头尖贴目标卡边缘
     };
-    if (this.rootI > 0) seg(0, this.rootI, 0.92);
-    if (this.rootI < P.length - 1) seg(this.rootI, P.length - 1, 0.4);
+    for (let i = 1; i < this.stations.length; i++) {
+      seg(i, i <= this.rootI ? 0.92 : 0.4);
+    }
 
     // ---- 有益支线（琥珀虚线卡；首行上方肘线汇入 / 深行卡带短折线汇入当前卡顶边） ----
     this.branches.forEach((b, bi) => {
