@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "subject": "英语",
   "version": "2.4.0",
-  "lessonCount": 239,
+  "lessonCount": 249,
   "lessons": [
     {
       "topicId": "ct_yy_g3a_01",
@@ -29671,6 +29671,1190 @@
           "question": "任选一篇你做过的英语阅读文章，仿照四大题型各出一道题（细节、主旨、推理、词义各一），写出答案与解析；与同学交换互做，再互相点评「这道题真正考的是什么」。",
           "answer": "示例：细节——How many men were left on Elephant Island?（22 人）；主旨——选 best title；推理——从日记言行推断人物品质；词义——结合上下文解释一个生词。",
           "solution": "出题视角是最高效的题型训练：要出一道词义题，你就必须先找到上下文线索；要出一道主旨题，你就必须先摸清文章骨架。四个题型从「四道关」练成「四张牌」。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_11",
+      "summary": "读后续写的灵魂是两条线：动作链推情节，情绪词表心情，再加一句无灵主语，续写立刻有了画面感。",
+      "explanation": [
+        "读后续写是新高考写作题型：给一篇不完整的故事和两个段首句，要求你把故事写完整。高水平的续写靠两条线推进：一条是情节线（人物做了什么），一条是情感线（人物心情如何变化）。两条线交织，故事才立得起来。",
+        "情节线的骨架是动作链——用一连串具体动词把动作写实。写\"他跑向车站\"不如写 He rushed to the station, only to find the bus pulling away.（rushed 比 ran 更急切，pulling away 补出失望的原因）。动作动词升级例子：walk→stagger（踉跄）/stride（大步走）；look→stare（盯着）/glance（瞥一眼）；say→whisper（低声说）/yell（喊）。",
+        "情感线靠情绪词库支撑：高兴分层是 glad→delighted→thrilled（越往后越强烈）；紧张害怕是 nervous→anxious→terrified；如释重负用 relieved。写情绪更妙的手法是无灵主语：不写 She felt happy，而写 A smile appeared on her face. 或 Tears of joy welled up in her eyes.——让\"表情和眼泪\"当主语，情绪自己浮出来。",
+        "两线要交替使用，不能一条道走到黑。常见失误是全文只堆动作没有心情，或通篇\"He felt very…\"的直白报告。交替示例：He pushed the door open. (动作) To his surprise, the room was empty. (感受) His heart sank. (无灵主语写情绪)——三句一小组，读起来就有节奏。",
+        "动笔前先做三件事：读懂原文人物和冲突；从两个段首句倒推情节走向；列出本段要用的 3-5 个动作词和 2-3 个情绪词。写完检查两线是否都有推进、时态是否与原文一致（故事通常用一般过去时）。这些能力靠平时按\"动作链—情绪词库\"分类积累。"
+      ],
+      "methods": [
+        {
+          "name": "双线推进法",
+          "steps": [
+            "先画两条线：情节线（动作链）与情感线（心情变化）",
+            "每写 1-2 个动作，就补一笔情绪反应",
+            "情绪优先用无灵主语句（A smile appeared…/His heart sank…）",
+            "结尾回扣段首句与文章主题，完成闭环"
+          ],
+          "tip": "口诀：动作推情节，情绪见人心；无灵作主语，画面自然新。"
+        },
+        {
+          "name": "词库升级替换法",
+          "steps": [
+            "把初稿里的通用动词圈出来（walk/run/look/say/feel）",
+            "按场景各换一个更精确的词（walk→stagger；look→stare）",
+            "把 felt+形容词 改成无灵主语句",
+            "朗读检查动作顺序是否合理"
+          ],
+          "tip": "口诀：通用词圈出来，精确词换进来；feel 少用，画面自来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "原文情境：Jane 在森林里迷路了，天快黑了。续写第一段段首句：Just as she was about to give up, she saw a light in the distance. 请写出体现\"先绝望后燃起希望\"的两三句。",
+          "solution": "示例： Exhausted and frightened, Jane slid down against a tree, tears welling up in her eyes. (绝望) Just then, a light glittered in the distance. Her heart leapt with joy—someone must live there! (希望) Gathering her last strength, she staggered towards it. (动作链推进)",
+          "difficulty": 2,
+          "pitfall": "只写 She was sad. Then she was happy. 这样的直白情绪报告，没有动作链与无灵主语，画面感全无。"
+        },
+        {
+          "question": "把下面的\"情绪直述句\"改写成无灵主语句：She felt very happy when she saw the gift.",
+          "solution": "示例：The moment she saw the gift, a broad smile spread across her face. 或：Seeing the gift, joy welled up in her heart. ——让 smile/joy 作主语，情绪用动作\"浮现、涌起\"来呈现。",
+          "difficulty": 1,
+          "pitfall": "改写时丢了\"看到礼物\"这个触发点，只保留情绪，信息不完整。"
+        },
+        {
+          "question": "动作链排序：把 stumble, stagger, stride, stroll 按\"走路姿态\"从\"悠闲\"到\"不稳\"重新排序，并说明理由。",
+          "solution": "悠闲→不稳：stroll（漫步）→ stride（大步走）→ stagger（蹒跚、踉跄）→ stumble（绊倒、跌撞）。理由：stroll 与 stride 步态平稳，只是步幅不同；stagger 已经重心不稳；stumble 强调被绊、将要跌倒，是最失稳的状态。",
+          "difficulty": 3,
+          "pitfall": "把 stagger 与 stumble 混为一谈：stagger 强调摇晃着走（如醉酒、受伤），stumble 强调被绊而失步。"
+        }
+      ],
+      "mistakes": [
+        "全文只推进情节不写情绪，或者只写情绪没有动作支撑，两条线缺一条",
+        "情绪全用\"felt + 形容词\"直白报告，不会用无灵主语和表情动作侧写",
+        "动作词过于通用（walk/run/look 全程用到底），没有按场景升级成精确动词",
+        "续写时态跳回一般现在时，与原文的一般过去时叙事不一致"
+      ],
+      "source": {
+        "unit": "选择性必修四 Reading for Writing",
+        "pages": [
+          8,
+          11
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "从下面两组词中各选一个最合适的填空：第一组 stagger / stroll；第二组 thrilled / relieved。句子：After the long journey, the old man ___ into the station. Hearing that his lost dog had been found, he was ___.",
+          "options": [
+            "stagger; thrilled",
+            "stroll; relieved",
+            "stagger; relieved",
+            "stroll; thrilled"
+          ],
+          "answer": "C",
+          "solution": "长途旅行后老人体力不支，走进车站应是摇摇晃晃 stagger；丢失的狗被找到了，如释重负用 relieved（thrilled 是\"兴奋激动\"，与\"失而复得后松一口气\"的语境不符）。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P8·写科幻短篇任务前置的动作与情绪语料（stagger 类走路动词与情绪词在读写语块中的运用）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "判断下面这句续写句子用的是哪种\"情绪呈现\"手法：Hearing the news, tears of joy welled up in her eyes.",
+          "options": [
+            "直述情绪（felt + 形容词）",
+            "无灵主语侧写（让眼泪当主语）",
+            "对话呈现",
+            "环境烘托"
+          ],
+          "answer": "B",
+          "solution": "句子让 tears（眼泪）作主语，用 well up（涌上）呈现喜悦，是无灵主语侧写手法，比 She was happy 更有画面感。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P10·词形填空练习所在读写板块的情绪呈现语料（无灵主语句式）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式改写：把直述句 He felt very nervous before the interview. 改写成带无灵主语的句子（写出一句即可）。",
+          "answer": "His heart was pounding (wildly) before the interview. / Before the interview, his palms grew sweaty and his heart raced.",
+          "solution": "思路是把\"紧张\"换成一个具体的身体反应当主语：heart pounding（心跳加剧）、palms sweaty（手心出汗）、butterflies in one's stomach（胃里像有蝴蝶）。任选其一组织成句并保留面试场景即可。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P8·科幻短篇写作任务变式（无灵主语改写训练）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "微续写：根据段首句 Just as the exam papers were handed out, Tom realized he had left his pen at home. 续写三句左右，要求：一条动作链 + 至少一处无灵主语句呈现情绪。",
+          "answer": "示例：His mind went blank for a second, and panic seized him. Then a gentle tap on his shoulder broke the silence—his deskmate was holding out a spare pen. Relief washed over him as he whispered his thanks and set to work.",
+          "solution": "要点：①动作链 panic seized→a tap broke the silence→whispered his thanks→set to work 推进情节；②无灵主语 panic seized him / Relief washed over him 呈现情绪起伏；③结尾 set to work 暗示冲突解决，为第二段留出空间。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_12",
+      "summary": "概要写作进阶两把刀：一把压缩（去例证留论点），一把衔接（therefore、in addition 把逻辑缝起来）。",
+      "explanation": [
+        "概要写作要求把一篇较长的文章压缩成约 60 词的短文，且要点齐全、连贯成篇。进入高年级，概要的难点不再是\"写不出来\"，而是\"删不干净、连不起来\"——这时候需要两把刀：逻辑压缩刀与衔接缝合影。",
+        "压缩的第一原则是分层：先给原文划分结构（通常按段落或论点切 3-4 层），每层提炼一个要点句。第二原则是去例证留论点：原文常为一个大观点配两三个例子和数据，例子细节一律删掉，只保留观点本身。比如原文用三段讲\"网络学习的三个好处\"并各配案例，概要里一句 Online learning offers convenience, variety and flexibility. 就够了。",
+        "paraphrase（同义改写）是压缩后的必经工序：概要不能照抄原文句子，要用同义词替换（important→vital）、句型转换（主动↔被动、词↔短语）。改写既避免抄袭嫌疑，也检验你是否真的读懂了。",
+        "压缩完的要点是几根散落的珠子，衔接词是把它们串成链的线：表并列递进用 in addition / moreover；表因果用 therefore / as a result；表转折用 however / nevertheless。衔接词不是越多越好，而是要与原文逻辑一一对应——原文是因果就用 therefore，硬塞 in addition 反而失分。",
+        "自查三步：①数词数（60 词左右，上下浮动不超过 10%）；②查要点（原文每层结构的要点是否都覆盖，有没有把例子当要点写进来）；③读连贯（衔接词是否与原文逻辑一致，句间是否需要代词 this/that 回指）。三步都过，概要才算完成。"
+      ],
+      "methods": [
+        {
+          "name": "结构分层压缩法",
+          "steps": [
+            "通读原文，按段落或论点划分 3-4 层结构",
+            "每层用一句话提炼要点，删掉所有例子、数据、引语",
+            "把要点句做 paraphrase 改写（同义词替换+句型转换）",
+            "加衔接词串联成篇，控制在 60 词左右"
+          ],
+          "tip": "口诀：先分层，再提炼；例子删光论点留；同义改写不加抄，衔接一词逻辑牢。"
+        },
+        {
+          "name": "衔接逻辑对应法",
+          "steps": [
+            "判断相邻两个要点之间的逻辑关系（并列/递进/因果/转折）",
+            "按关系选衔接词：并列 in addition、因果 therefore、转折 however",
+            "用 this/that 回指上文名词，避免重复",
+            "通读一遍，衔接词删减到逻辑必需的最少量"
+          ],
+          "tip": "口诀：并列 addition，因果 therefore；转折 however 站两头，逻辑对上才下手。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "原文要点：①Many students rely too much on phones. ②For example, Tom checks his phone every five minutes and can't finish his homework. ③Moreover, a survey shows 70% of teenagers spend over three hours a day on phones. ④Therefore, we should learn to use phones wisely. 请压缩为两句概要。",
+          "solution": "示例：Many students are overly dependent on phones, checking them constantly and spending hours a day on them. Therefore, it is essential that they learn to use phones wisely. ——第②③句是例子和数据，压缩进①的佐证短语；④是结论，用 therefore 衔接。",
+          "difficulty": 2,
+          "pitfall": "把 Tom 的例子当作独立要点写进概要（如\"Tom can't finish his homework\"），例子细节混入导致要点失衡、词数超标。"
+        },
+        {
+          "question": "把句子改写为 paraphrase：Online learning has become increasingly popular.（要求不重复原词 popular）",
+          "solution": "示例：Learning online is gaining greater popularity. / Online courses are attracting more and more learners. ——用 gaining popularity 替换 become popular，或转换主语与动词，做到同义不同形。",
+          "difficulty": 1,
+          "pitfall": "改写后改变原意：如写成 Online learning is unpopular（意思相反）或丢掉 increasingly 的\"越来越\"程度义。"
+        },
+        {
+          "question": "两个概要要点之间应该用什么衔接词？要点 1：Reading paper books helps people focus. 要点 2：E-books are more convenient to carry. 请选择并说明理由。",
+          "solution": "用 However 或 On the other hand——两个要点是\"纸质书与电子书各自优点\"的对比关系，不是因果或递进。若误用 Therefore（因果）或 In addition（递进），逻辑与原文不符。",
+          "difficulty": 2,
+          "pitfall": "衔接词凭语感乱放：对比关系用了递进 in addition，属于逻辑误判，是概要写作的常见扣分点。"
+        }
+      ],
+      "mistakes": [
+        "把原文的例子、数据当成要点写进概要，喧宾夺主导致超词数",
+        "照抄原文句子不做 paraphrase，既显得机械也容易被判抄写",
+        "衔接词与原文逻辑不符（对比关系用因果词），或衔接词堆砌",
+        "遗漏原文某层要点，或把最不重要的细节当成要点"
+      ],
+      "source": {
+        "unit": "选择性必修四写作板块",
+        "pages": [
+          46,
+          61
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "概要写作第一步是给原文分层。一篇四段文章的结构是：第一段提出\"青少年应该学做饭\"；第二、三段分别举了两个同学学做饭的例子；第四段总结呼吁。正确的分层是什么？",
+          "options": [
+            "四段各为一层，四个要点",
+            "两层：第一段论点一层，第二至四段例子与结论合为一层",
+            "三层：论点一层、例子一层、结论一层",
+            "只保留第二、三段的例子"
+          ],
+          "answer": "C",
+          "solution": "分层按\"论点—例证—结论\"的论证功能走：第二、三段的例子服务于同一名论点，合并为例证层。概要时论点与结论必留，例子层压缩为一句概括甚至删去。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P46·用所给词的正确形式补全新闻报道练习对应的论证结构训练"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪一项属于合格的 paraphrase？原句：Regular exercise is good for both body and mind.",
+          "options": [
+            "Regular exercise is good for both body and mind.",
+            "Working out on a regular basis benefits people physically and mentally.",
+            "Exercise is good.",
+            "People should never exercise."
+          ],
+          "answer": "B",
+          "solution": "B 项用 work out 替换 exercise、benefits 替换 is good for、physically and mentally 替换 both body and mind，同义不同形；A 是照抄；C 丢信息；D 歪曲原意。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P46·新闻报道补全练习中的同义替换语料（regular exercise 与身心益处表达）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式衔接：概要中前一句写\"Technology makes communication faster\"，后一句写\"Face-to-face conversations are becoming rare\"。两句之间应填什么衔接词？为什么？",
+          "answer": "However（或 Yet/Nevertheless）。因为前句说科技让沟通更快，后句说面对面交流变少，两句之间是转折（让步对比）关系，不是因果或递进。",
+          "solution": "衔接词必须与要点间的真实逻辑对应：前句讲\"快\"，后句讲\"面谈减少\"，语义出现逆转，所以用转折词 however/yet；若写成 in addition 就把对比错当并列了。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P14·互联网单元语料变式（科技改变沟通的双面性讨论）迁移至衔接训练"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "把三句话压缩成一句不超过 20 词的概要：①Exercise can reduce stress. ②For instance, jogging three times a week helped a group of students feel calmer before exams. ③Doctors often recommend sports to patients with anxiety.",
+          "answer": "示例：Exercise, such as jogging, reduces stress and is often recommended by doctors for anxious patients.（16 词）",
+          "solution": "压缩思路：①是论点保留主干；②是举例删去具体数字细节，仅以 such as jogging 保留例证类型；③合并进论点用 and is often recommended by doctors，主语合并避免重复。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_13",
+      "summary": "语法总装课：拿到长句先问三件事——有没有从句、有没有非谓语、是不是虚拟；三大体系识别准了，长难句就拆开了。",
+      "explanation": [
+        "进入总复习，零散的语法点要\"总装\"成体系。高中语法三大件：从句（宾语从句、定语从句、状语从句、名词性从句）、非谓语（doing/done/to do）、虚拟语气。长难句之所以难，是因为这三大件常常在同一句话里叠加出现。",
+        "拆句第一步永远是找谓语动词。一个句子的\"骨架\"是主语+谓语，从句与非谓语都是挂在骨架上的\"修饰件\"。比如 What surprised me most was that the shy girl volunteered to give a speech prepared overnight.——was 是主句谓语；What surprised me most 是主语从句（谓语 surprised 在从句里）；that 引导表语从句；prepared overnight 是过去分词作后置定语，修饰 a speech。三大件全齐，但找准 was，全句就拆开了。",
+        "从句的识别口诀：看见引导词（that/which/who/what/whether/when…）就找它带的\"小谓语\"——从句=引导词+完整小句子。定语从句跟在名词后面修饰名词；宾语从句跟在动词/介词后面当宾语；名词性从句整体当一个名词用。",
+        "非谓语的识别口诀：一个简单句里不允许出现两个\"平级\"谓语。多出来的动词若是主动、进行，用 doing；被动、完成，用 done；表目的或将来，用 to do。例如 Seen from the hill, the park looks like a garden.——主语 the park 与 see 是被动关系（公园\"被看\"），所以用 done。",
+        "虚拟语气的识别口诀：与事实相反的假设。If I were you…（现在相反）；If you had told me, I would have helped.（过去相反）；wish 后的从句一律往回退一个时态。识别标志是\"不可能\"或\"与已知事实矛盾\"的语义。三大体系在总装时要能互换视角：同一句 I want to improve my English, which is important. 里有非谓语（to improve）和定语从句（which is important）——语法不是孤立的点，而是表达意义的不同工具。"
+      ],
+      "methods": [
+        {
+          "name": "找谓语拆句三步法",
+          "steps": [
+            "第一步：圈出所有动词原形/变形，标出主句谓语（撑起骨架的那个）",
+            "第二步：引导词+小谓语=从句，判断从句类型（定/宾/主/表/状）",
+            "第三步：剩余的非谓语动词按 doing（主动进行）/done（被动完成）/to do（目的）归类",
+            "第四步：按\"主语+谓语+修饰\"重新读句，翻译验证"
+          ],
+          "tip": "口诀：先找谓语定骨架；引导词带小句子；非谓语三形看主被；修饰件挂骨架上。"
+        },
+        {
+          "name": "语法现象三问识别法",
+          "steps": [
+            "一问：这个动词前有引导词、后面带完整小句吗？——是从句",
+            "二问：这个动词没有当谓语吗？——是非谓语，再看与逻辑主语的主被动关系定 doing/done",
+            "三问：这个假设与事实相反吗？或是 wish/insist 等词后的从句吗？——是虚拟语气"
+          ],
+          "tip": "口诀：一问引导二问谓，三问事实反不反。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "拆解并翻译：What the teacher said at the meeting, which was beyond everyone's expectation, made all of us determined to study harder.",
+          "solution": "主句谓语是 made（主语 What the teacher said at the meeting，宾语 all of us，determined to study harder 作宾补）。What the teacher said…是主语从句；which was beyond everyone's expectation 是非限制性定语从句，修饰整个主语从句的内容。翻译：老师在会上说的话出乎所有人的意料，它使我们下决心更加努力学习。",
+          "difficulty": 3,
+          "pitfall": "把 was beyond 当成主句谓语——它其实在 which 从句里。判断标准：was made 连读不通，主句谓语只能有一个，made 才是与主语从句搭配的那一个。"
+        },
+        {
+          "question": "识别下句中的语法现象并分类：If I had followed my teacher's advice, I would not be struggling with so many problems now.",
+          "solution": "这是错综时间虚拟条件句：条件从句用 had followed（与过去事实相反——当时没听建议）；主句用 would not be struggling（与现在事实相反——现在正在 struggling）。判断依据是时间状语 now 与\"与事实相反\"的语义。难点在于从句管过去、主句管现在，两个时间各自匹配。",
+          "difficulty": 3,
+          "pitfall": "见到 would not be 就当成普通将来时；错综虚拟要看从句与主句各自的时间状语，分别匹配形态。"
+        },
+        {
+          "question": "同一意思的三种表达分别用了什么语法手段？①The problem that we should solve first is how to get enough funds. ②Facing the problem, we decided to solve it first. ③If we solved the problem first, everything would go smoothly.",
+          "solution": "①是定语从句（that we should solve first 修饰 the problem）+表语从句（how to get enough funds 实为 how 引导的表语从句）；②是非谓语（Facing the problem 现在分词作状语，逻辑主语 we 与 face 是主动关系）；③是虚拟语气（If we solved…, everything would go…与将来事实相反的假设）。同一个\"先解决问题\"的意思，可以用从句、非谓语、虚拟三种手段表达——这正是\"语法为意义服务\"的含义。",
+          "difficulty": 2,
+          "pitfall": "只认出①的从句而漏掉 how to get enough funds 是 how 引导的表语从句；②的 Facing 容易误判为谓语。"
+        }
+      ],
+      "mistakes": [
+        "拿到长句不找谓语就从左往右硬翻，被从句和非谓语绕晕",
+        "把从句里的谓语误认成主句谓语，导致主语找错、句意全错",
+        "非谓语不看与逻辑主语的主被动关系，doing/done 随手乱用",
+        "虚拟语气只背 if 句型，遇到错综时间（从句过去、主句现在）就不会匹配"
+      ],
+      "source": {
+        "unit": "总复习语法整合",
+        "pages": [
+          5,
+          41
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "下列句子的主句谓语动词是哪一个？What impressed the visitors most was that the ancient bridge, built in the Song Dynasty, is still in use today.",
+          "options": [
+            "impressed",
+            "was",
+            "built",
+            "is"
+          ],
+          "answer": "B",
+          "solution": "What impressed the visitors most 是主语从句（impressed 是从句谓语）；built in the Song Dynasty 是过去分词作后置定语（非谓语）；that 引导表语从句（is 是从句谓语）。主句谓语只有 was。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P5·复习被动语态的动词扫描练习（built in the Song Dynasty 类分词后置定语句式）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪个句子含有虚拟语气？",
+          "options": [
+            "If it rains tomorrow, we will stay at home.",
+            "If I had known your address, I would have written to you.",
+            "I don't know if he will come.",
+            "The problem is that we lack time."
+          ],
+          "answer": "B",
+          "solution": "B 是与过去事实相反的虚拟（had known + would have written）。A 是真实条件句（从句一般现在时+主句 will，明天可能下雨）；C 的 if 引导宾语从句表\"是否\"；D 是表语从句，均非虚拟。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P41·Identify the phrases and state their functions 练习对应的句式辨析语料（真实条件与虚拟条件对比）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式识别：指出下句中非谓语动词及其类型，并说明理由。Deeply moved by the film, the audience sat in silence for a while.",
+          "answer": "Deeply moved by the film 是过去分词短语作状语（原因/时间状语）。理由：moved 在句中不作谓语（谓语是 sat），且 audience 与 move 是被动关系（观众\"被感动\"），所以用 done 形式。",
+          "solution": "判断三步：①moved 不是谓语（谓语是 sat）；②与逻辑主语 the audience 是被动关系；③用过去分词 done 形式作状语，表原因。同类句型还有 Seen from the hill,… 等。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P17·过去分词练习语料变式（Deeply moved 类分词状语句式）迁移至语法总装识别"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "综合改写：把两个简单句合并为一个含定语从句和非谓语的复合句。The scientists worked day and night. They finally developed a vaccine praised by the whole world.",
+          "answer": "示例：The scientists, working day and night, finally developed a vaccine (that was) praised by the whole world. 或 Working day and night, the scientists finally developed a vaccine praised by the whole world.",
+          "solution": "要点：①worked day and night 可转为现在分词短语作状语（Working day and night），把两个平级谓语压缩成一个；②praised by the whole world 保留为过去分词作后置定语修饰 vaccine；③也可把 praised…写成人+who 引导的定语从句。改写后句子更紧凑，是非谓语与定语从句的总装应用。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_14",
+      "summary": "生涯规划第一步是认识自己：把兴趣、能力、价值观三圈交集找出来，未来职业就不是猜，而是选。",
+      "explanation": [
+        "这个主题的起点不是\"哪些职业赚钱\"，而是 Know yourself better（更好地认识自己）。书中部分的思路是三圈定位：第一圈是兴趣（你喜欢做什么），第二圈是能力（你擅长做什么），第三圈是价值观（你看重什么——收入、稳定还是帮助他人）。三圈的交集，就是值得认真考虑的职业方向。",
+        "表达职业理想有一套常用语块：pursue a career in medicine（从事医学职业）/ be committed to environmental protection（致力于环保）/ land a job as…（获得一份……的工作）/ set realistic goals（设定切实可行的目标）。注意搭配：career 常与 pursue/build/plan 搭配，说 pursue a career，一般不说 chase a career。",
+        "讨论职业理想时的核心句型是\"意愿+路径\"：I want to be…, so I am going to… / My dream is to become…, which requires… 高水平表达会在中间加一条\"能力桥\"：To achieve this goal, I need to develop both academic skills and communication skills.——先说目标，再说实现路径，最后落到当下行动。",
+        "职业话题的阅读理解常考\"人物选择的理由\"。注意原文里的信号词：What inspired me most was…（引出动因）、The biggest challenge was…（引出困难）、Looking back, I realize…（引出感悟）。抓住这三个位置，人物的职业脉络就清楚了。",
+        "职业规划不是一次定型，而是持续调整的过程。这些内容提醒我们：career guidance（职业指导）在高中阶段的意义，是帮你学会\"做选择的方法\"，而不是替你定死一个职业。随着见识增长，你的三圈交集会变化，调整方向是成熟的表现，不是失败。"
+      ],
+      "methods": [
+        {
+          "name": "三圈交集定位法",
+          "steps": [
+            "圈一列兴趣：哪些活动让你忘记时间",
+            "圈二列能力：哪些事你做得比多数人好",
+            "圈三列价值观：收入/稳定/助人/创造，你最看重哪两条",
+            "找三圈交集，列出 2-3 个候选职业，各写一条实现路径"
+          ],
+          "tip": "口诀：兴趣、能力、价值观，三圈交集定方向。"
+        },
+        {
+          "name": "意愿路径表达法",
+          "steps": [
+            "意愿句：My dream is to become… / I am determined to pursue…",
+            "路径句：To achieve this, I will… / This requires…",
+            "行动句：From now on, I will…",
+            "连成一段：目标→路径→当下行动，三句成段"
+          ],
+          "tip": "口诀：先说梦，再铺路，落到今天迈一步。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用本课词块改写这句话：I want to find a job about medicine after I finish school.",
+          "solution": "示例：I am determined to pursue a career in medicine after graduation. ——用 pursue a career in 替换 find a job about，用 after graduation 替换 after I finish school，更书面更准确。",
+          "difficulty": 1,
+          "pitfall": "把 pursue a career in 写成 pursue a career of——搭配介词是 in。"
+        },
+        {
+          "question": "阅读理解：原文说 What inspired me most was not the salary, but the chance to make a difference in patients' lives. 问这位医护人员选择职业的主要动因是什么？",
+          "solution": "主要动因是\"改变病人生活的机会\"（职业价值感），而不是薪水。解题信号：not…but…结构中 but 后才是重点；inspire 提示动因所在。",
+          "difficulty": 2,
+          "pitfall": "看到 salary 出现就选\"为了收入\"——not…but… 结构里 not 后的内容是被否定的干扰项。"
+        },
+        {
+          "question": "口头完成\"意愿+路径+行动\"三句连贯表达：你的职业理想是成为工程师。",
+          "solution": "示例：My dream is to become an engineer. To achieve this goal, I need to build a solid foundation in math and physics. So from now on, I will spend an extra hour every day on problem-solving practice. 三句依次是目标、路径、当下行动，逻辑闭环。",
+          "difficulty": 2,
+          "pitfall": "三句都停留在\"我要当工程师\"的同义重复，缺少路径与当下行动，段落空洞。"
+        }
+      ],
+      "mistakes": [
+        "只谈职业收入不谈自身兴趣与能力，规划没有依据",
+        "pursue a career 搭配错误（如说 chase a career 或 pursue a work）",
+        "说理想时只有意愿句，没有实现路径和当下行动，表达空泛",
+        "把 career guidance 理解为\"职业指导老师\"（应为职业指导这一服务/活动）"
+      ],
+      "source": {
+        "unit": "选择性必修四职业单元",
+        "pages": [
+          49,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "这份阅读语篇的核心建议是：在做职业选择前，你应该先做什么？",
+          "options": [
+            "直接选择收入最高的职业",
+            "先更好地认识自己（know yourself better）",
+            "等父母替你决定",
+            "把所有职业都试一遍"
+          ],
+          "answer": "B",
+          "solution": "开篇导语明确说 you will read about how to know yourself better than before，认识自己是职业选择的前提；收入高低与让父母决定都不符合原文主张。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P49·LAUNCHING YOUR CAREER 单元导语（know yourself better 表述）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪个词块与\"获得职业起步优势\"意思最接近？",
+          "options": [
+            "get a head start on your future career",
+            "put off your career plan",
+            "give up your dream job",
+            "change your career frequently"
+          ],
+          "answer": "A",
+          "solution": "get a head start on…意思是\"在……方面取得领先起步\"，与\"获得职业起步优势\"同义；B 是推迟规划，C 是放弃理想工作，D 是频繁跳槽，均与原意相反或无关。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P50·get a head start on your future career 单元页语料"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式表达：用 \"be committed to\" 把下面的句子升级改写：She works hard to protect the environment.",
+          "answer": "She is committed to protecting the environment.",
+          "solution": "be committed to 中的 to 是介词，后接动名词 protecting。改写要点：①替换谓语 work hard to→be committed to；②注意 to 的词性变化。同类词块还有 devote oneself to doing。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P53·Career guidance ought to be included at high school 语段变式（be committed to 类献身表达）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "微写作：用\"目标—路径—行动\"三句式写一段 40 词左右的职业理想表达，主题自选（如教师、医生、工程师）。",
+          "answer": "示例：My dream is to become a teacher. To achieve this goal, I need to master both knowledge and communication skills. Therefore, from now on, I will practice explaining what I learn to others every week.",
+          "solution": "评分要点：①三句结构完整（My dream is to…/To achieve this goal…/from now on, I will…）；②路径句要具体到能力而非空话；③行动句落到当下可执行的事；④词数约 40，无时态与搭配错误。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_15",
+      "summary": "自然是最好的疗愈师：一段山川湖海的描写，治愈的不只是眼睛——学会用 describe 的眼光读自然，也用 nature 的智慧读自己。",
+      "explanation": [
+        "这份阅读语篇把我们带到自然与心灵的交界处：当你压力大、情绪低落时，走进自然——看一次日出、听一场雨、在森林里散步——常常能让内心安静下来。这不仅是生活经验，也是心理学研究支持的结论：接触自然能降低压力水平、恢复注意力。",
+        "写自然、读自然都离不开描述性词汇库：视觉上 towering cliffs（高耸的悬崖）、breathtaking views（令人惊叹的景色）；听觉上 the gentle rustle of leaves（树叶的轻响）、crashing waves（拍岸的浪）；整体氛围 peaceful/refreshing/soothing（抚慰的）。这些词块让描写从\"很美\"升级为\"怎么个美法\"。",
+        "高级的自然描写常用\"拟人与通感\"：The mountain stood in silence, watching over the valley.（山沉默伫立，守望山谷）；The smell of rain washed away my worries.（雨的气味冲走了烦恼）——把自然写成有生命的存在，把抽象情绪写成可被洗去的东西。",
+        "阅读这类语篇时，注意作者的\"双重目的\"：表面写景，深层写情。信号词是情感出现的时刻——景色描写之后往往紧跟人物的内心变化（At that moment, all my stress melted away.）。考试中的主旨题也常考这一层：文章写自然，真正的主题可能是\"人与自然的和解\"或\"现代生活的反思\"。",
+        "把阅读变成滋养：下次心情烦躁时，试着用学过的句式描述你看到的一片天、一棵树。写作与疗愈在这里是同一件事——用语言安放情绪。这也是终身学习者应有的姿态：语言能力最终服务于生活本身。"
+      ],
+      "methods": [
+        {
+          "name": "五感描述法",
+          "steps": [
+            "选定一个自然场景（山/海/雨/林）",
+            "按视觉→听觉→嗅觉→触觉各写一个细节",
+            "加入一个拟人句让景\"活\"起来",
+            "结尾一句写这份景色带给你的内心变化"
+          ],
+          "tip": "口诀：眼看耳听鼻再闻，拟人一点景有魂；落笔最后写自己，景中含情才动人。"
+        },
+        {
+          "name": "景情转换阅读法",
+          "steps": [
+            "读描写段时圈出情绪信号词（calm/stress melt away/at peace）",
+            "问自己：作者写这个景，心情发生了什么变化",
+            "把\"景\"与\"情\"配对，画出转换点",
+            "主旨题从转换点找答案，而不是从最华丽的句子找"
+          ],
+          "tip": "口诀：景是表，情是里；转换点处藏主旨。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "阅读理解：语篇写道 After a week of hiking through the mountains, something inside me quietly changed. My worries seemed as small as the stones at my feet. 问作者想借这段表达什么？",
+          "solution": "表达自然对心灵压力的疗愈作用：一周的山间徒步让作者内心的焦虑变得渺小（as small as the stones）。信号是 something inside me quietly changed 与明喻 as small as…——景写了，情也转换了，主旨应答\"自然让人放下焦虑\"。",
+          "difficulty": 2,
+          "pitfall": "只答\"作者去爬山了\"——停留在字面事件，没读到景后之情。"
+        },
+        {
+          "question": "把平淡句升级为有画面感的描写：The sea was beautiful.",
+          "solution": "示例：The sea stretched endlessly, its waves whispering against the shore under the setting sun. ——stretched endlessly 给出空间感，waves whispering 用拟人+听觉，under the setting sun 补光线。三个细节替换一个 beautiful。",
+          "difficulty": 2,
+          "pitfall": "只堆形容词（very very beautiful）而不加具体细节；或拟人逻辑不当（如 the sea shouted）。"
+        },
+        {
+          "question": "口头描述一次\"自然让你平静下来\"的经历，用上至少两个本课描述性词块。",
+          "solution": "示例：Last month, feeling stressed about exams, I took a walk by the lake. The gentle rustle of leaves and the soft light on the water were soothing. Gradually, all my worries melted away, and I felt completely at peace. ——用到 the gentle rustle of leaves、soothing、worries melted away、at peace 四个语言点。",
+          "difficulty": 2,
+          "pitfall": "描述与情绪脱节——只罗列景色，没有\"心情随之变化\"的收束句。"
+        }
+      ],
+      "mistakes": [
+        "描写自然只用 beautiful/nice 等笼统形容词，没有视觉听觉等具体细节",
+        "读语篇时只关注景物的字面信息，漏掉景后之情与文章主旨",
+        "拟人或通感使用不合逻辑（如 the sea shouted angrily 描写平静海面）",
+        "把作者写自然的目的理解为单纯介绍景点，忽略心灵疗愈的深层主题"
+      ],
+      "source": {
+        "unit": "选择性必修四自然单元",
+        "pages": [
+          21,
+          36
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "海洋主题语篇中提到世界海洋日的主题，下列哪一项与语篇内容一致？",
+          "options": [
+            "海洋日主题与\"健康的海洋，健康的地球\"相关",
+            "海洋日是为了纪念第一艘科考船下水",
+            "海洋日只在沿海城市庆祝",
+            "海洋日的主题每年完全相同"
+          ],
+          "answer": "A",
+          "solution": "语篇提到 2016 与 2017 年的主题分别是 Healthy oceans, healthy planet 与 Our oceans, our future，与 A 一致；B、C、D 均与语篇信息不符。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P35·海洋日主题（Healthy oceans, healthy planet / Our oceans, our future）语料"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪一项的描写用了拟人手法？",
+          "options": [
+            "The mountain is 3,000 meters high.",
+            "The mountain stood in silence, watching over the valley.",
+            "The mountain is located in the west.",
+            "We climbed the mountain last week."
+          ],
+          "answer": "B",
+          "solution": "B 把山写成 stood（伫立）、watching over（守望），赋予山人的动作与情感，是拟人；A、C 是客观说明，D 是叙事，均无拟人。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P21·野生动物与自然描写语料（kangaroo、wild tiger 等自然段落的拟人笔法）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式描写：用\"视觉+听觉+内心变化\"三个层次，把 The forest was quiet. 升级为三句话的描写。",
+          "answer": "示例：Sunlight filtered through the dense leaves, painting golden spots on the ground. The only sound was the gentle rustle of leaves in the breeze. Walking there, I felt all my stress slowly melt away.",
+          "solution": "要点：①视觉层 sunlight filtered…painting golden spots（光斑细节+拟人 painting）；②听觉层 the gentle rustle of leaves；③内心层 stress melt away 完成景到情的转换。三层层层递进即为合格。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P23·foods/buildings/celebrities/festivals/scenic views 分类描写语料变式（ scenic views 层次描写）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "微写作：以 \"Nature has a way of healing our hearts.\" 为主题句，写一段 50 词左右的短文，要求：至少两个具体自然场景细节 + 一处景情转换。",
+          "answer": "示例：Nature has a way of healing our hearts. When exam pressure weighed me down, I would walk along the stream near my school. The water sang softly over the pebbles, and willows brushed my shoulders like old friends. Slowly, my worries dissolved into the evening light.（约 55 词）",
+          "solution": "评分要点：①主题句引领；②两个具体场景细节（stream/pebbles 溪水卵石、willows 柳枝，且有拟人 like old friends）；③景情转换句 my worries dissolved into…；④时态一致（一般过去时叙事）。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_16",
+      "summary": "看图说话三步走：先总览定场景，再抓细节讲过程，最后推断下结论——即席描述考验的是结构，不是词汇量。",
+      "explanation": [
+        "看图说话与即席描述是听说考试与真实场合的共同技能。很多人拿到图就慌，或者东一句西一句。其实描述任何一幅图（或任何场景）都有固定结构：先总览、再细节、后推断——三步走完，一段有条理的话就出来了。",
+        "第一步总览（Overall）：用一两句话交代图的基本信息——什么场景、什么人、在做什么。句型：In the picture/photo, I can see… / The photo was probably taken… 常用时态：一般现在时（描述图面）+ 现在进行时（描述正在发生的动作）。",
+        "第二步细节（Details）：按空间顺序（从左到右、由近及远）或主次顺序（先主角后配角）展开。每人/物用一句话：What/Where/Doing。这一步的诀窍是\"抓主要矛盾\"——图上最重要的人物动作详写，背景人物略写甚至不写。",
+        "第三步推断（Inference）：基于画面信息做合理推测：The man might be a doctor, because… / Perhaps they are celebrating… 注意推断必须给出依据（because…），不能凭空想象。推断完可以补一句个人评论收尾：It reminds me of… 这会让表达立刻高一个层次。",
+        "即席描述的临场技巧：利用开头争取思考时间（Well, let me see. This picture shows…）；说错不回头改，顺着说下去；收尾用固定句（That's all I can see from the picture.）。流利度与结构感，比个别单词的准确更重要。"
+      ],
+      "methods": [
+        {
+          "name": "总览-细节-推断三步法",
+          "steps": [
+            "总览：In the picture, I can see…（场景+人物+正在做什么）",
+            "细节：按空间或主次顺序，每人每物一句话，主详次略",
+            "推断：The man might be… because…（推测必须有依据）",
+            "收尾：It reminds me of… / That's all I can see from the picture."
+          ],
+          "tip": "口诀：总览开路细节跟，推断有据才服人。"
+        },
+        {
+          "name": "临场流利度三招",
+          "steps": [
+            "争取时间：Well, let me see… / That's an interesting question.",
+            "说错不回头：继续说下去，不打断自己重改",
+            "固定收尾：背熟一两个结束语，从容收束"
+          ],
+          "tip": "口诀：开口先缓冲，错了不回头，收尾有定式。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "按\"总览-细节-推断\"三步，口头描述一个场景：一个男孩在公交站把座位让给一位老奶奶。",
+          "solution": "示例：总览——In the picture, I can see a boy and an old lady on a bus. 细节——The boy is standing up and offering his seat to the old lady, who is smiling at him warmly. Other passengers are looking at them with approval. 推断——The boy might be a middle school student, because he is wearing a school uniform. It reminds us that small acts of kindness happen every day.",
+          "difficulty": 2,
+          "pitfall": "三步混在一起说，先推断了身份再讲画面内容，条理混乱导致听者抓不住重点。"
+        },
+        {
+          "question": "即席应答：老师问你 What can we learn from the boy in the picture? 请用两三句话回答。",
+          "solution": "示例：Well, I think we can learn that kindness doesn't cost much but means a lot. If everyone offers a seat to those in need, our society will be warmer. So I will start with small acts in my daily life. ——观点+假设推演+联系自身，三句成答。",
+          "difficulty": 2,
+          "pitfall": "只回答 We should help old people 一句就停，缺少展开与联系自身，得分点不完整。"
+        },
+        {
+          "question": "推断改错：下面这句推断为什么不合格？In the picture, the boy might be a famous movie star, because he is very handsome.",
+          "solution": "不合格，原因有二：①推断没有画面依据（\" handsome\"与\"电影明星\"之间没有必然联系，帅不等于明星）；②程度失当（famous movie star 是超出画面信息的过度想象）。合格推断=画面可见依据+合理程度，如 The boy might be a student because he is wearing a school uniform.",
+          "difficulty": 2,
+          "pitfall": "把\"推断\"当成\"编故事\"——没有 because 依据链的想象在考试中不得分。"
+        }
+      ],
+      "mistakes": [
+        "描述无结构：想到哪说到哪，先推断后总览，条理混乱",
+        "细节面面俱到没有主次，背景小人物写太多而主角动作没讲透",
+        "推断凭空想象不给依据，或推断程度失当（过度脑补）",
+        "时态错乱：描述图面该用一般现在时/现在进行时，却说成过去时"
+      ],
+      "source": {
+        "unit": "选择性必修四听说板块",
+        "pages": [
+          35,
+          59
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "看图说话的第一步\"总览\"应该说什么？",
+          "options": [
+            "图中最不重要的背景细节",
+            "场景+人物+正在做什么的基本信息",
+            "你对这张图的个人评价",
+            "猜测拍照者的心情"
+          ],
+          "answer": "B",
+          "solution": "总览是用一两句话交代图的基本信息（场景、人物、正在进行的动作），常用 In the picture, I can see… 开头；细节与推断都是后续步骤，个人评价是收尾环节才出现的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P35·Pick a theme…give a short presentation to the class 综合活动对应的展示表达框架"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "描述图片中正在发生的动作，最合适的时态是什么？",
+          "options": [
+            "一般过去时",
+            "一般现在时",
+            "现在进行时",
+            "过去进行时"
+          ],
+          "answer": "C",
+          "solution": "描述图面\"此刻定格\"的动作用现在进行时（is doing/are doing），如 The boy is offering his seat；一般现在时用于说明事实或习惯，过去时用于叙事已经发生的事。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P59·六种职业重要性排序并口头汇报活动对应的即席表达语料"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式推断：画面信息是\"一位女士手里拿着地图，正站在路口东张西望\"。下面哪个推断最合理？",
+          "options": [
+            "She might be lost and looking for directions.",
+            "She must be a famous travel blogger.",
+            "She is definitely waiting for her boyfriend.",
+            "She never visits this city."
+          ],
+          "answer": "A",
+          "solution": "A 有画面依据（拿地图+站在路口张望）且程度恰当（might be）。B、C 是无依据的过度想象（must/definitely 程度过强），D 与画面信息无关（\"从不来这座城市\"无法从图判断）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P47·研究海报并讨论志愿活动变式（场景观察与合理推断语料）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "综合演练：用\"总览-细节-推断-感悟\"四步，描述一个你熟悉的日常场景（如早高峰的校门口、周末的图书馆），写成 60 词左右的口头稿。",
+          "answer": "示例：Every morning at the school gate, I can see a busy but warm scene. Students are hurrying in with heavy bags, while parents stand outside watching them walk in. Some volunteers are helping to keep the traffic in order. I think this picture shows not just a routine, but the love behind our daily life. It reminds me to appreciate the people around me.（约 65 词）",
+          "solution": "评分要点：①总览句 In the picture/Every morning, I can see…；②细节用现在进行时并分主次（学生详写、家长志愿者略写）；③推断 I think this picture shows… 有概括；④有个人感悟收尾。时态、条理、流畅度三项达标即为合格。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_17",
+      "summary": "3500 词收官不靠从头背：用词根词缀拆生词、用语境复现固熟词、用高频词块打包常用搭配，三管齐下。",
+      "explanation": [
+        "高中课标要求掌握约 3500 个单词。收官阶段的最大误区是\"从 A 背到 Z\"——效率低、遗忘快。科学的收官策略有三条主线：词根词缀拆解、语境复现巩固、高频词块打包。",
+        "词根词缀是生词的\"密码本\"：词根 core（核心词义）+ 前缀（改方向）+ 后缀（改词性）。例如 re（回、再）+ view（看）= review（复习、回顾）；im（不）+ possible（可能）= impossible；-tion 把动词变成名词（educate→education）；-less 表\"无\"（end→endless）。掌握 100 个常用词根词缀，就能推断 hundreds of 生词的大意。",
+        "语境复现是熟词的\"巩固剂\"：单词背了忘，是因为只在词汇表里见过它。把单词放回句子、放回话题、放回自己的生活（用今天学的五个词写一段日记），记忆留存率会成倍提高。一词多义词还要在语境里辨义：run 在 run a company（经营）和 run fast（跑）中词义完全不同。",
+        "高频词块是表达的\"预制板\"：与其记 3500 个孤立单词，不如把常用的搭配打包成块——make a decision（而不是 make a decide）、take measures、play an important role in、to my surprise。写作时词块是\"整件取用\"的，又快又地道。收官阶段应把三年积累的词块按话题（科技/环保/教育/文化）整理成网络。",
+        "收官自测的三层过滤：第一层用词表快速过（会打的跳过）；第二层做英汉互译抽查；第三层放进语篇填空实战检验。三轮之后仍然不会的\"顽固词\"，单独抄在小卡片上随身带——顽固词通常不超过 100 个，集中攻克它们比重复背会的词有价值得多。"
+      ],
+      "methods": [
+        {
+          "name": "词根词缀拆解法",
+          "steps": [
+            "看到生词先找前缀（re-/im-/un-/dis- 改方向）",
+            "再找词根（core 词义，如 spect=看：respect/reinspect/spectator）",
+            "后缀定词性（-tion 名词 / -ful 形容词 / -ize 动词）",
+            "拼合三部分推断词义，最后查词典验证"
+          ],
+          "tip": "口诀：前缀改向，词根定义，后缀定性；三件拼图词自明。"
+        },
+        {
+          "name": "顽固词三层过滤法",
+          "steps": [
+            "第一层：过词表，秒答的划掉",
+            "第二层：英汉互译抽查，答对的划掉",
+            "第三层：语篇填空实战检验",
+            "三轮筛出的顽固词抄卡片，每天早读集中攻 10 个"
+          ],
+          "tip": "口诀：三遍过滤淘沙金，剩下的硬骨头最值钱。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用词根词缀法推断 unpredictable 的大意。",
+          "solution": "拆解：un-（不，否定前缀）+ pre-（预先）+ dict（说，词根如 dictionary）+ -able（可……的）。拼合：\"无法预先说出的\"→不可预测的。验证：The weather here is unpredictable.（这里的天气变幻莫测）语义吻合。",
+          "difficulty": 1,
+          "pitfall": "只认识 dict 词根而忽略 pre-（预先），把词义猜成\"不可口述的\"——前缀同样是词义的一部分。"
+        },
+        {
+          "question": "辨析 run 在下面两句中的词义：①He runs a small bookshop near the school. ②She runs three kilometers every morning.",
+          "solution": "①run a bookshop=经营一家书店（run=manage 经营、管理）；②runs three kilometers=跑三公里（run=跑，本义）。同一单词在搭配与语境中词义不同，孤立的\"单词表词义\"不等于语境词义——这正是语境复现法的价值。",
+          "difficulty": 2,
+          "pitfall": "两句都理解成\"跑\"：run a bookshop 译成\"跑书店\"是典型的忽视搭配错误。"
+        },
+        {
+          "question": "把下面四个单词打包成写作可用的词块或句式：important / protect / environment / we should。",
+          "solution": "示例：It is important (for us) to protect the environment. / We should make joint efforts to protect the environment. ——词块化后不只是单词的堆砌，而是可直接整件取用的表达框架。同类打包：play a vital role in protecting… / raise people's awareness of environmental protection.",
+          "difficulty": 2,
+          "pitfall": "只背 important 一个孤立单词，写作时仍然写出 It is very very important 式的平淡表达。"
+        }
+      ],
+      "mistakes": [
+        "收官阶段仍从 A 到 Z 通刷词表，把大量已会词重复背、顽固词反复漏",
+        "背单词只记中文释义，不记搭配与语境，写作时不会用、乱用",
+        "忽视一词多义，用首义词义硬套所有语境（如把 run a company 理解成跑公司）",
+        "从不把生词放回句子和话题中复现，遗忘率居高不下"
+      ],
+      "source": {
+        "unit": "全册词汇总复习",
+        "pages": [
+          23,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "用前缀推断词义：The weather here is so changeable that the forecast is almost unreliable. 中 unreliable 的大意是什么？",
+          "options": [
+            "难以置信的",
+            "不可靠的",
+            "不现实的",
+            "不规则的"
+          ],
+          "answer": "B",
+          "solution": "un-（否定前缀）+ reliable（可靠的）=不可靠的。天气预报\"几乎不可靠\"与天气 changeable（多变）前后语义呼应。A 项 unbelievable 才是\"难以置信\"。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P23·foods/buildings/celebrities/festivals/scenic views 词汇分类语料所在单元的词缀派生练习"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下列哪个搭配是\"采取措施\"的正确英语表达？",
+          "options": [
+            "do measures",
+            "take measures",
+            "make measures",
+            "give measures"
+          ],
+          "answer": "B",
+          "solution": "take measures（采取措施）是固定词块搭配。词块要整体记忆：同类还有 take action / take steps。这正是\"词块打包\"记忆法比孤立记单词高效的原因。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P46·新闻报道补全练习（take measures 类高频词块语料）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式猜词：结合语境推断划线词义。Although he was the newest member of the team, he outperformed everyone else in the competition.（outperform）",
+          "answer": "outperform 意思是\"表现优于、胜过\"（out- 表\"超过\"+ perform 表现）。句意：虽然他是队里最新的成员，但他在比赛中胜过了所有其他人。",
+          "solution": "拆解：out-（超过、在外）+ perform（表现）。同类构词：outlive（活得比…久）、outgrow（长得超过）。语境线索 Although he was the newest 也提示\"新成员却胜过老队员\"的反差义。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P58·Assessing Your Progress 单元自测变式（out- 前缀派生词猜读）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "词块网络整理：以 environment 为中心，整理一个含 6 个词块的语义网络（如 protect the environment），并为其中 2 个词块各写一个完整例句。",
+          "answer": "示例网络：protect the environment / environmental protection / raise people's awareness of / environmental pollution / do harm to the environment / live a green life。例句：We should raise people's awareness of environmental protection from an early age. / Plastic bags do great harm to the environment, so living a green life is everyone's duty.",
+          "solution": "评分要点：①6 个词块均与主题强相关且搭配正确（如 awareness of 后接名词）；②两个例句语法完整、词块使用自然；③网络呈放射状组织（中心词+分类词块），体现语义场记忆法。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_18",
+      "summary": "全球化不是本土文化的终点：用 On the one hand…on the other hand… 把两面都想清楚，思辨能力就是你的表达高度。",
+      "explanation": [
+        "全球化（globalization）让世界连成一体：我们看同样的电影、用同样的手机、穿相似的品牌。有人担心本土文化（local culture）会被冲淡，也有人认为文化交流让本土文化焕发新生。这个问题没有标准答案——思辨（critical thinking）的价值不在于站队，而在于把两面都想清楚、说透彻。",
+        "思辨表达的基本框架是\"两面论证\"：On the one hand, globalization brings us…（一方面……）；On the other hand, we should not ignore…（另一方面……）。进阶句式：While globalization connects the world, it is local culture that makes each nation unique.（while 让步+it is…that 强调，一个句子两个高级结构）。",
+        "论据要用具体事实支撑抽象观点：说\"本土文化有生命力\"，可以举汉字书写系统绵延数千年仍在使用（The Chinese writing system has been in use for thousands of years.）；说\"全球化促进交流\"，可以举英语作为世界语言连接了不同国家的人。事实胜于空洞的形容词。",
+        "跨文化交际的态度比语言更难：面对文化差异，成熟的做法是尊重（respect differences）、理解（seek to understand before judging）、融合（take in what is good）。既不盲目崇拜外来文化，也不固步自封——文化自信与开放包容从不矛盾。",
+        "这类思辨题在高考中的应用文与读后续写中都有体现：写作时先亮明两面，再给出自己的倾向与理由，结构上\"两面+倾向\"三层最稳妥。记住：能同时理解两个立场的人，论证才有说服力。"
+      ],
+      "methods": [
+        {
+          "name": "两面论证三段法",
+          "steps": [
+            "亮出 A 面：On the one hand, …（列 1-2 个理由或事实）",
+            "亮出 B 面：On the other hand, …（列 1-2 个理由或事实）",
+            "给出倾向：In my opinion, …（选择立场并补一条最强理由）",
+            "检查两面篇幅均衡，倾向段必须有新的论据而非重复"
+          ],
+          "tip": "口诀：一手一面都摆平，我的立场最后明；新论据才压秤。"
+        },
+        {
+          "name": "事实支撑升级法",
+          "steps": [
+            "把抽象观点写成具体事实（汉字用了几千年、某国的节日变迁）",
+            "用数据或公认事实替代空洞形容词",
+            "引用式的表达：It is widely acknowledged that… / As is known to all,…",
+            "每条理由至少带一个具体支撑"
+          ],
+          "tip": "口诀：事实一顶十，空话不如实。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "用两面论证框架，就\"全球化对本土文化的影响\"写出三句话的思辨表达。",
+          "solution": "示例：On the one hand, globalization brings different cultures closer and enriches our life. On the other hand, some local traditions risk being forgotten as young people follow global trends. In my opinion, the best way forward is to embrace the world while keeping our own cultural roots alive. ——两面铺开+明确倾向，结构完整。",
+          "difficulty": 2,
+          "pitfall": "两面写完就结束，没有 In my opinion 的倾向段——思辨题缺了立场层，结构不完整。"
+        },
+        {
+          "question": "把空洞论证升级为事实支撑：Local culture is very important and we should protect it.（要求：加一个具体事实作论据）",
+          "solution": "示例：Local culture is deeply rooted in our daily life — the Chinese writing system, for example, has been in use for thousands of years and still connects every Chinese person today. Such living traditions deserve our protection. ——用汉字书写系统这一具体事实支撑\"本土文化重要且有生命力\"的论点。",
+          "difficulty": 2,
+          "pitfall": "加了例子但例子与论点无关（如列举\"中国有很多人口\"）；事实必须直接支撑\"文化有生命力/值得保护\"这一层。"
+        },
+        {
+          "question": "跨文化情景判断：外国朋友第一次到中国家庭做客，主人不断给他夹菜，他感到不适应。以下哪种应对最符合跨文化交际策略？",
+          "solution": "跨文化冲突的成熟策略是\"理解+沟通\"：先理解夹菜是主人的好客之举（文化语境），再礼貌说明自己的习惯（seek to understand before judging）。A、D 是指责与对抗，C 是回避，都会升级误解。",
+          "difficulty": 2,
+          "pitfall": "只站在单一文化立场评判对错——跨文化交际的第一条原则是\"差异不等于错误\"。"
+        }
+      ],
+      "mistakes": [
+        "思辨表达只有单面观点，缺少 on the one hand / on the other hand 的两面铺开",
+        "两面写完后不给自己的倾向与理由，结构缺少收束层",
+        "论据空洞（只有 important / good 等抽象评价），没有具体事实支撑",
+        "跨文化场景中用本文化标准直接评判他者，缺乏 respect differences 的意识"
+      ],
+      "source": {
+        "unit": "选择性必修四文化思辨单元",
+        "pages": [
+          23,
+          24
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "视频材料提到的澳大利亚原住民文化（Aborigines in Alice Springs）给我们最大的启示是什么？",
+          "options": [
+            "古老文化都已经被现代生活淘汰",
+            "本土文化值得被了解、记录与尊重",
+            "只有走出国门才能理解文化",
+            "文化差异是交流的障碍"
+          ],
+          "answer": "B",
+          "solution": "视频通过原住民群体与爱丽斯泉的介绍，呈现了本土文化的独特价值——了解它、记录它、尊重它。A 与事实相反，C 与\"了解本土\"无关，D 与跨文化交际的尊重原则相悖。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P23·文化分类语料（foods buildings celebrities festivals scenic views 与 Aborigines 视频）"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "下面哪一句最适合放在两面论证的\"倾向段\"开头？",
+          "options": [
+            "On the one hand, globalization brings us convenience.",
+            "On the other hand, local traditions may fade away.",
+            "In my opinion, we should embrace the world while keeping our cultural roots alive.",
+            "Some people think globalization is bad."
+          ],
+          "answer": "C",
+          "solution": "倾向段用 In my opinion 引出个人立场，且给出了\"拥抱世界+守住根\"的融合式主张；A、B 是两面论证的前两层；D 是转述他人观点且表述空洞，不能作为自己的倾向句。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P24·BEFORE YOU WATCH 文化思辨匹配练习变式（两面论证与立场表达）"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式思辨：有人认为\"学外语会冲击母语文化\"，也有人认为\"学外语是传播本土文化的桥梁\"。请用 On the one hand / On the other hand / In my opinion 三步写出你的看法（三句话）。",
+          "answer": "示例：On the one hand, spending too much time on foreign languages may reduce the chances of reading classics in our mother tongue. On the other hand, a foreign language is a bridge through which we can tell Chinese stories to the world. In my opinion, the two are not enemies — a good command of both makes us better messengers of our own culture.",
+          "solution": "评分要点：①On the one hand 一面（冲击风险）成立；②On the other hand 另一面（桥梁作用）成立；③In my opinion 给出融合式立场且非重复前文。语序、衔接词位置正确即可。",
+          "difficulty": 3,
+          "source": {
+            "label": "人教选必四 P24·文化思辨匹配练习变式（两面论证与立场表达）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "延伸写作：以 \"Globalization: threat or gift to local culture?\" 为题写一段 80 词左右的议论文段落，要求：两面论证+事实支撑+明确倾向。",
+          "answer": "示例：Globalization is both a challenge and a gift to local culture. On the one hand, global brands and media are changing the way young people live, and some local traditions risk being forgotten. On the other hand, globalization offers local culture a global stage — the Chinese writing system, for example, is now learned by more and more people around the world. In my opinion, culture grows stronger when it opens itself to the world while keeping its roots.（约 85 词）",
+          "solution": "评分要点：①两面论证结构完整（challenge 与 gift）；②有具体事实支撑（汉字书写系统的世界传播）；③倾向明确且有新论据（开放使文化更强）；④衔接词使用得当，词数约 80。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_19",
+      "summary": "高考全题型一张沙盘：听力抓预判、阅读四题型各有秒杀路径、七选五看衔接、完形走语境、语法填空拆骨架、写作留检查——先识题型，再上策略。",
+      "explanation": [
+        "高考英语的题型是固定的，每种题型都有它的\"出题逻辑\"和\"最优路径\"。沙盘演练的意义是：考前把每类题的策略在脑子里走一遍，考场上见到题就知道\"这是哪类题、该用哪套打法\"，而不是每题都从零开始读。",
+        "听力：预判优先。播放前快速读题，划出关键词并预测答案类型（数字/地点/人物关系）；播放时抓第一句和转折词（but/however 后常是答案）；听不懂的果断放下，绝不纠缠下一题。",
+        "阅读四题型各有路径：细节题——题干关键词回原文定位，逐项比对；主旨题——重点读首段与各段首句，警惕以偏概全的选项；推理题——答案必须是\"原文线索+一步推理\"，原文直接说出的不是推理，原文没有的过度想象也不是；词义猜测题——看前后句的逻辑关系与同义复现，而不是背过的词义。",
+        "七选五与完形：七选五看衔接——代词复现（空格前的名词在选项中变代词）、词汇同现、逻辑词走向；完形走语境——先通读首句定基调，边读边预判，选项代入后检查全文情感线与逻辑线是否一致。",
+        "语法填空与写作：语法填空先给动词（谓语还是非谓语？时态语态对不对？），再给冠词介词代词；写作两篇都要留 3 分钟检查——时态一致、主谓一致、大小写与标点。整场考试的时间沙盘：听力+阅读约 2/3 时间，写作留足 40 分钟，检查 5 分钟。题型识别在先，策略在后，这是沙盘演练的全部意义。"
+      ],
+      "methods": [
+        {
+          "name": "题型识别-策略匹配法",
+          "steps": [
+            "读题干判定题型：What can we learn=inference / The best title=main idea / The underlined word=word guessing",
+            "调用对应策略：细节回原文、主旨看首尾、推理走一步、词义看语境",
+            "排除法兜底：与原文矛盾、程度过度、无中生有的选项先划掉",
+            "每篇读完用 5 秒回扫题目，确认答案一致"
+          ],
+          "tip": "口诀：先识题型再动手；细节回文找，主旨首尾瞧，推理走一步，词义看前后。"
+        },
+        {
+          "name": "整卷时间沙盘法",
+          "steps": [
+            "听力结束立即进入阅读，每篇控制在 7 分钟内",
+            "七选五与完形各留 10 分钟，先易后难",
+            "写作两篇留足 40 分钟，含 5 分钟检查",
+            "检查只看三件事：时态一致、主谓一致、大小写标点"
+          ],
+          "tip": "口诀：听力阅读抢前排，写作留足四十块；检查三处别乱来。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "题型识别与策略：题干 What can we infer from Paragraph 2? 属于哪类阅读题？正确选项通常具有什么特征？",
+          "solution": "属于推理判断题（infer 是标志词）。正确选项的特征是\"原文线索+一步推理\"：不是原文原句（那是细节题），也不是脱离原文的想象。排除技巧：与原文完全相同的选项通常是陷阱（照抄非推理）。",
+          "difficulty": 2,
+          "pitfall": "把原文原句原封不动的选项当成正确答案——推理题的干扰项常用\"原文照抄\"设置陷阱。"
+        },
+        {
+          "question": "七选五实操：空格前一句是 However, technology also brings problems. 下列哪个选项最适合填入空格？A. First of all, technology makes life easier. B. For example, many students are addicted to online games. C. Technology will disappear soon.",
+          "solution": "选 B。空格前的 However 表转折，说明前文在讲技术的好处、空格处要转讲问题；B 的 For example 与 many students are addicted to online games（沉迷网游）正好给出\"问题\"的例证。A 是好处（与转折矛盾），C 程度失当且无据。",
+          "difficulty": 2,
+          "pitfall": "忽略空格前 However 的转折信号，选了继续讲优点的 A——七选五的衔接词就是路标。"
+        },
+        {
+          "question": "语法填空秒判：句子 The bridge ___ (build) in 1937 is still in use today. 括号里应填什么形态？判断依据是什么？",
+          "solution": "填 built。判断路径：①句中谓语是 is，build 不作谓语，是非谓语；②bridge 与 build 是被动关系（桥\"被建\"）；③发生在过去且有 in 1937。三者合起来：过去分词 built 作后置定语。语法填空的动词题三问：谓语还是非谓语？主动还是被动？时间是什么？",
+          "difficulty": 2,
+          "pitfall": "填 was built 变成第二个谓语——句中已有 is，双谓语是语法硬伤。识别\"句中已有谓语\"是填非谓语的关键一步。"
+        }
+      ],
+      "mistakes": [
+        "不识别题型就按同一种方式（从头读到尾）对付所有阅读题，耗时且正确率低",
+        "听力一题没听懂就反复回想，导致后面连续漏听",
+        "七选五忽略空格前后的衔接词与代词复现信号，凭语义感觉乱选",
+        "写作不留检查时间，时态不一致、主谓不一致、大小写错误白丢分"
+      ],
+      "source": {
+        "unit": "高考全题型综合",
+        "pages": [
+          46,
+          47
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "阅读理解题干 \"What can we infer from the last paragraph?\" 的最优解题路径是什么？",
+          "options": [
+            "在最后一段找原句照抄",
+            "基于末段线索做一步合理推理，排除照抄原文与无中生有的选项",
+            "只看四个选项哪个最长",
+            "凭常识直接选择"
+          ],
+          "answer": "B",
+          "solution": "infer（推断）题的正确答案是\"原文线索+一步推理\"：照抄原文的选项是细节题陷阱，无中生有的选项脱离文本，两者都排除。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P46·用所给词正确形式补全新闻报道并拟标题练习对应的推断题训练"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "语法填空中，若括号给出的动词在句中不作谓语，接下来应判断什么？",
+          "options": [
+            "直接填动词原形",
+            "判断与逻辑主语的主被动关系和发生时间，决定 doing/done/to do",
+            "全部填过去分词",
+            "跳过不填"
+          ],
+          "answer": "B",
+          "solution": "非谓语三形的选择取决于两点：与逻辑主语的主被动关系（主动 doing/被动 done）与功能（目的用 to do）。例：the audience sat in silence, moved by the film（被动→moved）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P41·Identify the phrases and state their functions 练习对应的非谓语识别训练"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式沙盘：阅读中出现题干 The underlined word \" setback \" most probably means ___. 你会按什么步骤处理？",
+          "answer": "步骤：①定位 setback 所在句及其前后句；②找逻辑信号（but/however 表反义提示，and/so 表同义提示）与同义复现；③代入选项通读验证语义与逻辑是否连贯；④不选背过的常见义，选语境义。示例：若前文说 the plan failed，setback 此处义为\"挫折\"。",
+          "solution": "词义猜测题三步：定位→找逻辑与复现线索→代入验证。核心原则：选语境义，不选词典义（熟词生义正是此类题的考点）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P47·研究海报并讨论志愿活动变式（语篇生词 setback 的语境猜词训练）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "沙盘演练：为下一场模拟考写一份\"个人时间沙盘\"（120 分钟如何分配到各题型），并写明每种题型你要执行的一条核心策略。",
+          "answer": "示例：听力 25 分钟：读题预判答案类型，抓首句与转折词；阅读四篇 32 分钟：每篇先读题干再回文定位，细节回原文、推理走一步、主旨看首尾；七选五 8 分钟：盯代词复现与逻辑词；完形 12 分钟：首句定基调，选项代入查情感线；语法填空 8 分钟：动词先判谓语非谓语；写作 40 分钟含检查：时态一致、主谓一致、大小写标点三查。（时间分配合理+每题型一条策略即可）",
+          "solution": "评分要点：①总时长 120 分钟且分配不超时；②每种题型至少一条具体可执行的策略（不写\"认真做题\"这类空话）；③检查环节单独列出三查内容。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "topicId": "ct_yy_g12b_20",
+      "summary": "高中英语的终点是起点：听说读写四项策略装进行囊，终身学习（lifelong learning）让语言能力陪你走完一生。",
+      "explanation": [
+        "收官不是结束。高中三年，你从背单词、学语法走到了读语篇、写观点——但这些只是\"半程\"：语言学习的真正目标，是让它成为你认识世界、表达自己的终身工具（lifelong learning）。毕业之后没有人再替你安排学习，策略比努力更重要。",
+        "四项技能各有一条核心策略值得带走：听——预判与抓关键词（先读题预测答案类型，抓转折词后的信息）；说——不怕犯错，流利与结构优先于个别单词的准确（总览-细节-推断的三步框架在任何场合都适用）；读——先识题型再选策略（skimming 找主旨、scanning 找细节、推理走一步）；写——先列提纲再动笔，写完必查时态一致、主谓一致、大小写标点。",
+        "词汇与语法的学习也在\"终身化\"：词根词缀拆解法让你面对生词不再恐慌；语境复现让新词扎根；词块打包让表达地道。这些方法不依赖某一本固定的书——一部电影、一首歌、一篇新闻，都是明天的学习材料。",
+        "语言背后是文化。三年里你读过人物传记、自然疗愈、文化遗产，也讨论过全球化与本土文化。带着跨文化的眼睛看世界：尊重差异、理解不同、讲好自己的故事——这是英语给你最珍贵的礼物，也是中国故事走向世界的桥梁。",
+        "收官寄语：语言学习没有\"学完\"，只有\"在路上\"。保持每天接触英语的习惯（哪怕十分钟）、保持用英语表达一个想法的冲动、保持对另一种文化的好奇——终身学习者，永远在路上。"
+      ],
+      "methods": [
+        {
+          "name": "四项策略行囊法",
+          "steps": [
+            "听：随身可做——听一集播客，练预判与关键词",
+            "说：每天一个话题自言自语一分钟（总览-细节-推断）",
+            "读：每周一篇英文文章，先 skimming 后 scanning",
+            "写：每周一段 80 词，写完执行\"三查\"（时态/主谓/标点）"
+          ],
+          "tip": "口诀：天天听一点，日日说一段；周周读一篇，周周写一练。"
+        },
+        {
+          "name": "终身学习循环法",
+          "steps": [
+            "输入：看电影/新闻/歌曲中的真实语言",
+            "加工：摘新词块、记新句式，放进自己的语料本",
+            "输出：用新学的表达写一段话或讲给别人听",
+            "复盘：每月回看语料本，淘汰已会的、补上新盲点"
+          ],
+          "tip": "口诀：输入加工再输出，月月复盘不掉队。"
+        }
+      ],
+      "examples": [
+        {
+          "question": "把高中三年学的四项核心策略各写一条，并说明它在\"毕业后的自主学习\"中如何继续使用。",
+          "solution": "示例：①听——预判+抓关键词（听英文播客前先看标题预测内容）；②说——总览-细节-推断框架（面试自我介绍同样适用）；③读——skimming/scanning（快速处理英文资讯）；④写——列提纲+三查（写邮件前先列要点）。共同点：这些策略都不依赖课堂，任何真实语言环境都能用。",
+          "difficulty": 2,
+          "pitfall": "策略写成\"多背单词多做题\"——那是努力不是策略；策略必须是可执行的方法步骤。"
+        },
+        {
+          "question": "即席表达：What does lifelong learning mean to you? 请用观点-论据-分析结构作答。",
+          "solution": "示例：To me, lifelong learning means keeping curious and keeping practicing. (观点) For example, after graduation, I plan to keep listening to English podcasts and reading English news every week, because language fades if we stop using it. (论据) That's why I believe learning doesn't end with school — it is a lifelong journey. (分析收束)",
+          "difficulty": 2,
+          "pitfall": "只有观点没有论据与分析，三句话就结束——结构感是表达得分的核心。"
+        },
+        {
+          "question": "制定你毕业后的\"英语十分钟\"每日计划：用四项技能各设计一个 2-3 分钟的微任务。",
+          "solution": "示例：听——早餐时听一段 2 分钟英文新闻（预判+关键词）；说——用英语复述刚才的新闻一分钟（总览-细节-推断）；读——通勤时读一篇短文，先 skimming 后挑 3 个新词块；写——睡前用英语写两句今日总结并完成三查。每天 10 分钟，四个技能各触一次。",
+          "difficulty": 1,
+          "pitfall": "计划写成\"每天背 100 个单词\"——不可持续；微任务的要义是单次量小、天天不断。"
+        }
+      ],
+      "mistakes": [
+        "把高考当成语言学习的终点，毕业后完全放弃接触英语",
+        "只有\"多学多背\"的口号式计划，没有可执行的每日微任务",
+        "四项技能发展失衡（只会做题，不敢开口、不动笔写）",
+        "忽视语言背后的文化维度，学成\"哑巴英语+文化盲\""
+      ],
+      "source": {
+        "unit": "全册收官项目",
+        "pages": [
+          49,
+          60
+        ],
+        "alignedAt": "2026-10-29"
+      },
+      "exercises": [
+        {
+          "kind": "textbook",
+          "question": "职业话题结束时，课程安排的收官活动之一是\"把六个职业按重要性排序并向小组汇报\"。这个活动最核心的训练价值是什么？",
+          "options": [
+            "背诵职业单词的拼写",
+            "结合自身价值观整理观点并口头表达",
+            "练习书法",
+            "记忆外国地名"
+          ],
+          "answer": "B",
+          "solution": "排序要求你先明确自己的价值观（什么重要），再组织语言口头汇报（Think about six careers and write them in the order of their importance. Then in groups, report to the others.）——价值观思考+结构化表达是核心训练点，背拼写与记地名都不是活动目的。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P59·Think about six careers and write them in the order of their importance 收官活动语料"
+          }
+        },
+        {
+          "kind": "textbook",
+          "question": "\"终身学习（lifelong learning）\"理念的核心是什么？",
+          "options": [
+            "学校毕业后就不用再学习",
+            "学习不随毕业结束，语言能力需要在持续使用中保持与成长",
+            "只有上大学才需要学习",
+            "学习就是反复做题"
+          ],
+          "answer": "B",
+          "solution": "lifelong learning 强调学习是终身旅程：语言不用会退化，因此毕业后的持续接触与使用才是能力保持的关键。A、C 与理念相反，D 把学习窄化为做题。",
+          "difficulty": 1,
+          "source": {
+            "label": "人教选必四 P50·how to know yourself better 与职业起步语篇对应的终身学习理念"
+          }
+        },
+        {
+          "kind": "variant",
+          "question": "变式设计：请为\"保持英语语感\"设计一个可持续的每日微任务计划（四项技能各一个不超过 3 分钟的任务），并说明为什么微任务比大计划更可持续。",
+          "answer": "示例计划：听——早餐听 2 分钟英文播客；说——复述播客内容 1 分钟；读——读一篇英文短讯并挑 3 个词块；写——睡前写两句英文日记并三查。理由：微任务单次量小、启动成本低、天天可完成，习惯靠频率而非强度；大计划（如每天背 100 词）启动难、易中断、失败后有挫败感，反而不可持续。",
+          "solution": "评分要点：①四项技能各对应一个具体微任务；②单任务时长不超过 3 分钟；③能从\"习惯形成的频率原理\"说明微任务优势（对比大计划的高启动成本与挫败感）。",
+          "difficulty": 2,
+          "source": {
+            "label": "人教选必四 P59·收官活动与 fame 词汇页变式（学习策略总盘设计）"
+          }
+        },
+        {
+          "kind": "extension",
+          "question": "收官反思写作：以 \"My English Journey: Looking Back and Moving Forward\" 为题，写一篇 80 词左右的短文。要求：回顾高中三年英语学习的两个转变（如从怕开口到敢说）+ 一个终身学习计划。",
+          "answer": "示例：Looking back on my three years of English learning, two changes mean the most to me. First, I used to be afraid of speaking, but role-plays in class helped me open my mouth. Second, I stopped memorizing word lists and started collecting word blocks in context. Moving forward, I will keep my \"English ten minutes\" every day, because I believe English is not a subject to finish, but a bridge to a wider world.（约 85 词）",
+          "solution": "评分要点：①两个具体转变（有 before/after 对比，不空泛）；②终身学习计划具体可执行（每天十分钟微任务而非口号）；③时态处理得当（回顾用一般过去时/现在完成时，展望用 will）；④词数约 80，衔接自然。",
           "difficulty": 3
         }
       ]
