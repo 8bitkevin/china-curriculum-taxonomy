@@ -398,6 +398,14 @@ function renderDetail() {
     index,
     onOpen: (id) => selectTopic(id, { scroll: true }),
     onLesson: (id) => lessonDrawer?.open(id),
+    onSubject: (s) => {
+      state.subject = s;
+      state.query = '';                    // 清搜索，否则搜索视图压住学科切换，点了看不见
+      const search = $('#search');
+      if (search) search.value = '';
+      fillGradeAndDomainOptions();
+      renderList();
+    },
   });
   pathmapIns.setRoot(t.id);
   window.__pm = pathmapIns;   // 调试钩子:控制台可检查布局/视图状态

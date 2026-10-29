@@ -520,6 +520,34 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
   transition: border-color 0.15s, color 0.15s;
 }
 .pm-btn:hover { border-color: var(--accent); color: var(--accent-ink); }
+/* v2 旅程坐标集群（结构蓝图 CTRL 区）：学科 chip · 学段分段 · 目标锚点 */
+.pm-journey { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.pm-subject {
+  font: inherit; font-size: 12px; font-weight: 600; color: var(--ink);
+  display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  padding: 3px 11px 3px 9px; border-radius: 999px;
+  border: 1px solid rgba(27, 43, 51, 0.14); background: rgba(255, 255, 255, 0.78);
+  transition: border-color 0.15s, color 0.15s;
+}
+.pm-subject i { width: 8px; height: 8px; border-radius: 3px; flex: none; }
+.pm-subject:hover { border-color: var(--accent); color: var(--accent-ink); }
+.pm-stages {
+  display: flex; padding: 2px; border-radius: 999px;
+  border: 1px solid rgba(27, 43, 51, 0.10); background: rgba(255, 255, 255, 0.55);
+}
+.pm-stages span {
+  font-size: 11px; font-weight: 500; color: var(--muted);
+  padding: 2px 11px; border-radius: 999px; transition: color 0.15s, background 0.15s;
+}
+.pm-stages span.on {
+  background: #fff; color: var(--accent-ink); font-weight: 700;
+  box-shadow: 0 1px 4px rgba(27, 43, 51, 0.10);
+}
+.pm-anchor {
+  font-size: 11px; font-weight: 700; color: var(--soft-ink);
+  padding: 3px 11px; border-radius: 999px;
+  border: 1px solid rgba(192, 124, 0, 0.35); background: rgba(255, 255, 255, 0.78);
+}
 /* v2：stage = 画布区 + 常驻详情侧栏；画布区薄荷底（K12aixue 粉彩表面语言） */
 .pm-stage { position: relative; display: flex; height: clamp(420px, 58vh, 620px); }
 .pm-canvas-wrap {
@@ -602,7 +630,14 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .pm-side-body h4 { margin: 6px 0 10px; font-size: 15.5px; line-height: 1.4; }
 .pm-card-sec { border-top: 1px dashed var(--line); padding-top: 9px; margin-bottom: 11px; }
 .pm-side-body .pm-sh { font-size: 11px; letter-spacing: 0.08em; color: var(--muted); font-weight: 700; }
+.pm-sh .pm-no {
+  font-family: var(--mono); font-size: 10px; font-weight: 600; color: var(--faint);
+  margin-right: 6px; letter-spacing: 0.04em;
+}
 .pm-side-body .pm-none { font-size: 12.5px; color: var(--muted); margin: 6px 0 0; }
+/* 04 薄弱回链：规划占位（数据层尚未有掌握度语义，弱化呈现） */
+.pm-plan .pm-sh, .pm-plan .pm-none { color: var(--faint); }
+.pm-plan .pm-none { font-size: 12px; }
 .pm-edge { display: flex; gap: 8px; padding: 6px 0; font-size: 12.5px; align-items: flex-start; }
 .pm-edge-k {
   flex: none; font-size: 10.5px; font-weight: 700; padding: 1.5px 7px; border-radius: 6px; margin-top: 1px;
@@ -620,12 +655,14 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 }
 .pm-next-item:hover { border-color: var(--accent); color: var(--accent-ink); }
 .pm-next-more { font-size: 11.5px; color: var(--muted); align-self: center; }
+/* 主 CTA（结构蓝图 CARD 区）：薄荷浅底 + 薄荷描边 + 品牌绿字 */
 .pm-lesson {
   font: inherit; font-size: 13px; font-weight: 600; width: 100%; padding: 8px; cursor: pointer;
-  border-radius: 9px; border: 0; background: var(--accent); color: #fff; margin-top: 2px;
-  box-shadow: var(--shadow-accent);
+  border-radius: 9px; border: 1px solid var(--accent-line); background: var(--accent-weak);
+  color: var(--accent-ink); margin-top: 2px;
+  transition: background 0.15s, border-color 0.15s;
 }
-.pm-lesson:hover { background: var(--accent-press); }
+.pm-lesson:hover { background: #d9f2e6; border-color: var(--accent); }
 .pm-open {
   font: inherit; font-size: 12.5px; font-weight: 600; width: 100%; padding: 7px; cursor: pointer;
   border-radius: 9px; border: 1px solid var(--line-strong); background: var(--panel); color: var(--ink-2);

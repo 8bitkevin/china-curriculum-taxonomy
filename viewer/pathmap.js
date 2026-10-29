@@ -1,13 +1,17 @@
 // viewer/pathmap.js — 学习路径图 v2：「学习旅程」横向主线图（地铁隐喻）。
-// 按设计稿 docs/design/pathmap-v2/（diagram-design 规范）实现，不再沿用
-// 旧「学期泳道 × 依赖列」DAG 布局（历史实现见 git）：
-//   一条水平主线贯穿画布——左端起点（学科绿双环）/「+N」折叠环，右端学段
-//   终点门（中考/高考，金双环）；站点按主线顺序等距排布、标签上下交替；
+// 按结构蓝图 docs/design/pathmap-v2/pathmap-v2-structure.html 落地四区结构，
+// 回答学生三问「我在哪 / 先学什么 / 通向哪里」：
+//   学习旅程控制条——学科 chip（可切换）· 小学/初中/高中学段分段 ·
+//   目标锚点（→初中/中考/高考），hero 粉彩渐变底；
+//   关键路径画布——一条水平主线贯穿：左端起点（学科绿双环）/「+N」折叠
+//   环，右端学段终点门（中考/高考，金双环）；站点等距排布、标签上下交替；
 //   当前知识点 = 唯一品牌绿焦点环；root 的有益先修以琥珀虚线支线从上方
 //   汇入当前站；跨学段处压奶油金「入初中/入高中」门芯片；当前站之后的
-//   前路用浅玫红（结构上去往何处，远期影响不画网）；底部学期热条 =
-//   学完通向计数（不变）。
-// 数据口径不变（logic.js pathGraph：chain/counts），纯渲染层重构。
+//   前路用浅玫红（结构上去往何处，远期影响不画网）；
+//   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
+//   04 薄弱回链（规划），薄荷 CTA 前置讲解入口；
+//   底部学期热条——学完通向计数，当前学期描边联动（游标）。
+// 数据口径不变（logic.js pathGraph：chain/counts），纯渲染层。
 
 import { pathGraph } from './logic.js';
 import { subjectDeep } from './graph3d.js';
@@ -42,12 +46,13 @@ const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
 export class PathMap {
   /**
    * @param mount   挂载元素（.pm-stage 外层）
-   * @param {{ index, onOpen(id), onLesson(id) }} opts
+   * @param {{ index, onOpen(id), onLesson(id), onSubject(subject) }} opts
    */
   constructor(mount, opts = {}) {
     this.index = opts.index;
     this.onOpen = opts.onOpen;
     this.onLesson = opts.onLesson;
+    this.onSubject = opts.onSubject;
     this.reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
     this.preDepth = null;               // null = 自适应（hard 闭包 ≤40 站全显）
     this.view = { x: 0, y: 0, k: 1 };   // 平移 + 缩放（屏幕 = 数据 * k + t）
@@ -69,8 +74,17 @@ export class PathMap {
       <div class="pm-top">
         <div class="pm-title">
           <span class="pm-ic" aria-hidden="true"></span>
-          <b>学习路径</b>
+          <b>学习旅程</b>
           <span class="pm-stat" id="pm-stat"></span>
+        </div>
+        <div class="pm-journey" role="group" aria-label="旅程坐标：学科、学段与目标锚点">
+          <button class="pm-subject" id="pm-subject" type="button" title="切换到该学科的知识点列表">
+            <i id="pm-subject-dot" aria-hidden="true"></i><span id="pm-subject-name"></span>
+          </button>
+          <div class="pm-stages" id="pm-stages">
+            <span data-s="0">小学</span><span data-s="1">初中</span><span data-s="2">高中</span>
+          </div>
+          <span class="pm-anchor" id="pm-anchor"></span>
         </div>
         <div class="pm-acts">
           <span class="pm-hidden" id="pm-hidden" hidden></span>
@@ -89,7 +103,7 @@ export class PathMap {
             <span class="lg-item"><i class="lg-dot now"></i>当前位置</span>
             <span class="lg-item"><i class="lg-dot gate"></i>学段终点</span>
           </div>
-          <div class="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部时间轴＝学完通向</div>
+          <div class="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部热条＝学完通向</div>
           <div class="pm-tip" id="pm-tip" hidden></div>
           <div class="pm-strip" id="pm-strip" hidden>
             <div class="pm-strip-cap" id="pm-strip-cap"></div>
@@ -108,6 +122,8 @@ export class PathMap {
     const $ = (s) => mount.querySelector(s);
     this.ui = {
       stat: $('#pm-stat'), hidden: $('#pm-hidden'), more: $('#pm-more'),
+      subject: $('#pm-subject'), subjectDot: $('#pm-subject-dot'), subjectName: $('#pm-subject-name'),
+      stages: $('#pm-stages'), anchor: $('#pm-anchor'),
       strip: $('#pm-strip'), stripCap: $('#pm-strip-cap'), stripCells: $('#pm-strip-cells'),
       pop: $('#pm-pop'), tip: $('#pm-tip'), wrap: $('#pm-wrap'),
       side: $('#pm-side'), sideBody: $('#pm-side-body'), sideClose: $('.pm-side-close'),
@@ -115,6 +131,10 @@ export class PathMap {
     };
     $('#pm-fit').addEventListener('click', () => this.fit(true));
     $('#pm-more').addEventListener('click', () => this.setDepth());
+    this.ui.subject.addEventListener('click', () => {
+      const t = this.index.byId.get(this.rootId);
+      if (t) this.onSubject?.(t.subject);
+    });
     $('#pm-reset').addEventListener('click', () => {
       this.selId = null; this.hideCard();
       this.setRoot(this.rootId);
@@ -454,19 +474,22 @@ export class PathMap {
       const n = this.index.byId.get(e.topicId);
       return `<button class="pm-next-item" data-id="${esc(n.id)}" type="button">${esc(n.name)}</button>`;
     }).join('');
+    const secNo = (n, title) => `<span class="pm-sh"><span class="pm-no">${n}</span>${title}</span>`;
     body.innerHTML = `
       <div class="pm-tip-meta"><i style="background:${subjectDeep(t.subject)}"></i>${esc(t.subject)} · ${esc(t.domain)} · ${t.grade}年级${t.semester}${isRoot ? ' · <b>当前知识点</b>' : ''}${onChain ? ' · <b class="pm-chain-mark">主线</b>' : ''}</div>
       <h4>${esc(t.name)}</h4>
       ${preEdges.length ? `
-        <div class="pm-card-sec"><span class="pm-sh">为什么先学这些（${preEdges.length}）</span>
+        <div class="pm-card-sec">${secNo('01', `为什么先学这些（${preEdges.length}）`)}
           ${preEdges.map(edgeRow).join('')}</div>` :
-        '<div class="pm-card-sec"><span class="pm-sh">先修</span><p class="pm-none">起点知识点，无前置要求。</p></div>'}
+        `<div class="pm-card-sec">${secNo('01', '为什么先学这些')}<p class="pm-none">起点知识点，无前置要求。</p></div>`}
       ${nextEdges.length ? `
-        <div class="pm-card-sec"><span class="pm-sh">学会后解锁（${nextEdges.length}）</span>
+        <div class="pm-card-sec">${secNo('02', `学会后解锁（${nextEdges.length}）`)}
           <div class="pm-next-list">${nextList}${nextEdges.length > 8 ? `<span class="pm-next-more">等 ${nextEdges.length} 个</span>` : ''}</div></div>` :
-        '<div class="pm-card-sec"><span class="pm-sh">解锁</span><p class="pm-none">暂无后续知识点依赖它。</p></div>'}
-      <button class="pm-lesson" type="button">📖 讲解与例题</button>
-      <button class="pm-open" type="button">打开这个知识点 →</button>`;
+        `<div class="pm-card-sec">${secNo('02', '学会后解锁')}<p class="pm-none">暂无后续知识点依赖它。</p></div>`}
+      <div class="pm-card-sec">${secNo('03', '讲解与练习')}<p class="pm-none">讲解 · 方法 · 例题，几分钟掌握。</p></div>
+      <div class="pm-card-sec pm-plan">${secNo('04', '薄弱回链')}<p class="pm-none">掌握薄弱时回补对应先修（规划中）。</p></div>
+      <button class="pm-lesson" type="button">打开讲解与练习 →</button>
+      <button class="pm-open" type="button">打开知识点 →</button>`;
     const $ = (s) => body.querySelector(s);
     $('.pm-lesson').addEventListener('click', () => this.onLesson?.(id));
     $('.pm-open').addEventListener('click', () => this.onOpen?.(id));
@@ -488,6 +511,16 @@ export class PathMap {
     this.ui.hidden.hidden = !hasHidden;
     this.ui.more.hidden = !hasHidden;
     if (hasHidden) this.ui.hidden.textContent = `还有 ${counts.hidden} 站必修未展开`;
+    // 旅程坐标：学科 chip / 学段分段高亮 / 目标锚点（与画布终点门同语义）
+    const rootT = this.index.byId.get(this.rootId);
+    if (rootT) {
+      const st = stageOf(rootT.grade);
+      this.ui.subjectDot.style.background = subjectDeep(rootT.subject);
+      this.ui.subjectName.textContent = rootT.subject;
+      this.ui.stages.querySelectorAll('span').forEach((el) =>
+        el.classList.toggle('on', +el.dataset.s === st));
+      this.ui.anchor.textContent = `→ ${['初中', '中考', '高考'][st]}`;
+    }
   }
 
   // ---------- 学完通向：学期时间轴热条 ----------
