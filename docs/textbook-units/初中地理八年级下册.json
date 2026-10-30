@@ -7,6 +7,109 @@
     "pages": 111,
     "hasTextLayer": false
   },
-  "source": "pending",
-  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+  "source": "manual",
+  "extractedAt": "2026-10-30",
+  "note": "扫描版无文字层；目录由 RapidOCR 转录目录页人工基线（第五章章首 PDF5=印1 实测）。第六章章首与 6.1/6.3/6.4、7.3 页码 OCR 缺失留空。",
+  "units": [
+    {
+      "index": 5,
+      "title": "第五章 中国的地理差异",
+      "page": 1,
+      "sections": []
+    },
+    {
+      "index": 6,
+      "title": "第六章 北方地区",
+      "page": null,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然特征与农业",
+          "page": null
+        },
+        {
+          "no": "第二节",
+          "title": "“白山黑水”——东北三省",
+          "page": 13
+        },
+        {
+          "no": "第三节",
+          "title": "世界最大的黄土堆积区——黄土高原",
+          "page": null
+        },
+        {
+          "no": "第四节",
+          "title": "祖国的首都——北京",
+          "page": null
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七章 南方地区",
+      "page": 43,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然特征与农业",
+          "page": 44
+        },
+        {
+          "no": "第二节",
+          "title": "“鱼米之乡”——长江三角洲地区",
+          "page": 49
+        },
+        {
+          "no": "第三节",
+          "title": "“东方明珠”——香港和澳门",
+          "page": null
+        },
+        {
+          "no": "第四节",
+          "title": "台湾省——祖国的神圣领土",
+          "page": 65
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八章 西北地区",
+      "page": 71,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然特征与农业",
+          "page": 72
+        },
+        {
+          "no": "第二节",
+          "title": "干旱的宝地——塔里木盆地",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "第九章 青藏地区",
+      "page": 83,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然特征与农业",
+          "page": 84
+        },
+        {
+          "no": "第二节",
+          "title": "高原湿地——三江源地区",
+          "page": 91
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "第十章 中国在世界中",
+      "page": 97,
+      "sections": []
+    }
+  ]
 }

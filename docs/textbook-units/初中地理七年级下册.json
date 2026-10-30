@@ -7,6 +7,103 @@
     "pages": 107,
     "hasTextLayer": false
   },
-  "source": "pending",
-  "note": "扫描版 PDF 无文本层，待人工基线（source=manual）"
+  "source": "manual",
+  "extractedAt": "2026-10-30",
+  "note": "扫描版无文字层；目录由 RapidOCR 转录目录页人工基线（印=PDF−4，PDF6=印2 实测）。第六章章首/第一节页码由 PDF 页脚实测；第十章页码 OCR 缺失留空。",
+  "units": [
+    {
+      "index": 6,
+      "title": "第六章 我们生活的大洲——亚洲",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "位置和范围",
+          "page": 2
+        },
+        {
+          "no": "第二节",
+          "title": "自然环境",
+          "page": 7
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "第七章 我们邻近的地区和国家",
+      "page": 13,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "日本",
+          "page": 14
+        },
+        {
+          "no": "第二节",
+          "title": "东南亚",
+          "page": 22
+        },
+        {
+          "no": "第三节",
+          "title": "印度",
+          "page": 30
+        },
+        {
+          "no": "第四节",
+          "title": "俄罗斯",
+          "page": 37
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "title": "第八章 东半球其他的地区和国家",
+      "page": 43,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "中东",
+          "page": 44
+        },
+        {
+          "no": "第二节",
+          "title": "欧洲西部",
+          "page": 52
+        },
+        {
+          "no": "第三节",
+          "title": "撒哈拉以南非洲",
+          "page": 60
+        },
+        {
+          "no": "第四节",
+          "title": "澳大利亚",
+          "page": 67
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "title": "第九章 西半球的国家",
+      "page": 73,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "美国",
+          "page": 74
+        },
+        {
+          "no": "第二节",
+          "title": "巴西",
+          "page": 82
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "title": "第十章 极地地区",
+      "page": null,
+      "sections": []
+    }
+  ]
 }

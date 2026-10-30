@@ -8,6 +8,106 @@
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
-  "units": []
+  "extractedAt": "2026-10-30",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一章 地球和地图",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "地球和地球仪",
+          "page": 2
+        },
+        {
+          "no": "第二节",
+          "title": "地球的运动",
+          "page": 11
+        },
+        {
+          "no": "第三节",
+          "title": "地图的阅读",
+          "page": 16
+        },
+        {
+          "no": "第四节",
+          "title": "地形图的判读",
+          "page": 24
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二章 陆地和海洋",
+      "page": 29,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "大洲和大洋",
+          "page": 30
+        },
+        {
+          "no": "第二节",
+          "title": "海陆的变迁",
+          "page": 37
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三章 天气与气候",
+      "page": 45,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "多变的天气",
+          "page": 46
+        },
+        {
+          "no": "第二节",
+          "title": "气温的变化与分布",
+          "page": 53
+        },
+        {
+          "no": "第三节",
+          "title": "降水的变化与分布",
+          "page": 58
+        },
+        {
+          "no": "第四节",
+          "title": "世界的气候",
+          "page": 62
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四章 居民与聚落",
+      "page": 69,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "人口与人种",
+          "page": 70
+        },
+        {
+          "no": "第二节",
+          "title": "世界的语言和宗教",
+          "page": 77
+        },
+        {
+          "no": "第三节",
+          "title": "人类的聚居地——聚落",
+          "page": 81
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "第五章 发展与合作",
+      "page": 87,
+      "sections": []
+    }
+  ]
 }

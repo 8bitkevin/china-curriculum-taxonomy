@@ -8,6 +8,100 @@
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
-  "units": []
+  "extractedAt": "2026-10-30",
+  "units": [
+    {
+      "index": 1,
+      "title": "第一章 从世界看中国",
+      "page": 1,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "疆域",
+          "page": 2
+        },
+        {
+          "no": "第二节",
+          "title": "人口",
+          "page": 11
+        },
+        {
+          "no": "第三节",
+          "title": "民族",
+          "page": 15
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "第二章 中国的自然环境",
+      "page": 21,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "地形和地势",
+          "page": 22
+        },
+        {
+          "no": "第二节",
+          "title": "气候",
+          "page": 30
+        },
+        {
+          "no": "第三节",
+          "title": "河流",
+          "page": 42
+        },
+        {
+          "no": "第四节",
+          "title": "自然灾害",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "第三章 中国的自然资源",
+      "page": 61,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然资源的基本特征",
+          "page": 62
+        },
+        {
+          "no": "第二节",
+          "title": "土地资源",
+          "page": 67
+        },
+        {
+          "no": "第三节",
+          "title": "水资源",
+          "page": 75
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "title": "第四章 中国的经济发展",
+      "page": 83,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "交通运输",
+          "page": 84
+        },
+        {
+          "no": "第二节",
+          "title": "农业",
+          "page": 90
+        },
+        {
+          "no": "第三节",
+          "title": "工业",
+          "page": 100
+        }
+      ]
+    }
+  ]
 }
