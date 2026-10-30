@@ -6,14 +6,17 @@
 //   关键路径画布——卡片站点（结构蓝图 PATH CANVAS：圆角卡+左上角标签芯片，
 //   不用圆点）串成蛇形多行主线：一行列数按画布宽自适应（大卡优先，k≥0.8），
 //   满行换行继续——偶数行向右、奇数行向左，长链竖向扩展而不是压缩卡片；
-//   薄荷卡=起点（学科绿框）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
+//   白卡=起点（ORIGIN）/「+N」折叠卡、玫瑰浅卡=必需先修站、品牌绿实心
 //   卡=当前知识点（全图唯一焦点）、白卡=一跳解锁、奶油卡=学段终点门
-//   （中考/高考）；连线为卡片边到边直线段、末端箭头贴目标卡边缘
+//   （中考/高考）——投影分层：实卡静态不描边、靠常驻柔影分层（薄荷粉彩
+//   底配硬描边显生硬，而白卡与底明度对比仅 ~1.1:1，须以影代框）；
+//   连线为卡片边到边直线段、末端箭头贴目标卡边缘
 //   （结构蓝图 marker-end 同款，来路深/前路浅）；root 的有益先修为
-//   琥珀虚线支线卡，线以两端竖直的 S 弯汇入当前卡顶边、箭头垂直向下
+//   琥珀虚线支线卡（虚线=非必需语义，唯一保留描边的卡种，无影），
+//   线以两端竖直的 S 弯汇入当前卡顶边、箭头垂直向下
 //   贴卡缘；
-//   跨学段处奶油金「入初中/入高中」门芯片；悬停=投影抬升、选中=描边转
-//   品牌绿+投影（不画外扩环）；
+//   跨学段处奶油金「入初中/入高中」门芯片；悬停/选中=品牌绿描边+
+//   投影抬升（描边只留给交互态，不画外扩环）；
 //   常驻详情侧卡——01 为什么先学这些 / 02 学会后解锁 / 03 讲解与练习 /
 //   04 薄弱回链（规划），薄荷 CTA 前置讲解入口；
 //   底部学期热条——学完通向计数，当前学期描边联动（游标）。
@@ -23,7 +26,9 @@ import { pathGraph } from './logic.js';
 import { subjectDeep } from './graph3d.js';
 
 const GAP = 132;           // 站点基础间距（数据坐标）
-const ROW_H = 120;         // 蛇形换行行距（卡高 + 支线卡带与上一行的间隙）
+const ROW_H = 150;         // 蛇形换行行距：行间隙 = ROW_H−26(上行卡半高)−32(root 半高) = 92，
+                           // 须容下支线卡带 59（SOFT 芯片上伸 15 + 卡 44）+ 上下呼吸隙各 16；
+                           // 120 时支线卡距上一行卡只剩 2px 且标签芯片压进上一行卡底
 const COLS_K = 0.9;        // 一行列数估算：可用宽 /（GAP × COLS_K）≈ k 0.9 的大卡观感
 const BASE_Y = 0;          // 首行基线（数据坐标 y=0）
 const PAD = 56;            // fit 视图内边距
@@ -43,15 +48,22 @@ const CARD = {
 // 画布配色（与 style.css 的 --hard/--soft/--accent 变量同源，改一处核两处）
 const C = {
   hardA: '216,30,106',     // 必需（玫红 #d81e6a）——来路主线
-  softA: '192,124,0',      // 有益（琥珀 #c07c00）——支线虚线
+  softLine: '#a86a00',     // 有益支线（--soft-line 同源：#c07c00 1px 虚线在薄荷底仅 3.1:1 贴线，深一档）
   cardLine: '#dce1e7',
   ink: '#1b2b33',
-  sub: '#8a97a5',
+  sub: '#5a6b77',          // 卡片副标（--muted 档：白卡 5.5:1 达 AA；faint 档 #8a97a5 仅 3.0:1）
   brand: '#0fa968',        // K12 品牌绿 = 起点/交互强调（--accent）
   brandInk: '#0b7a4c',     // 品牌绿文字安全档（--accent-ink）＝当前焦点
   brandPress: '#0b8f57',
-  brandA: '15,169,104',
+  brandA: '11,122,76',     // 热条色阶端点（brandInk 的 RGB：最深档纯底白字 5.4:1 达 AA）
   gate: '#c07c00',         // 学段终点门（里程碑金）
+};
+// 静态分层投影档位（投影分层方案）：[接触影色, blur, offsetY, 扩散影色, blur, offsetY]，
+// 双层≈CSS 0 1px 2px / 0 4px 10px；canvas 阴影偏移不受 CTM 影响（规范行为），
+// 数值即屏幕像素，不随 k 缩放
+const SHADOW = {
+  soft: ['rgba(27,43,51,0.08)', 3, 1, 'rgba(27,43,51,0.07)', 10, 3],  // 白卡/玫瑰卡/奶油卡
+  deep: ['rgba(4,20,12,0.20)', 4, 2, 'rgba(4,20,12,0.14)', 16, 6],    // NOW 实心深绿卡
 };
 const CN_NUM = ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'];
 const termIdx = (t) => t.grade * 2 + (t.semester === '下' ? 1 : 0);       // 学期排序键
@@ -120,6 +132,8 @@ export class PathMap {
             <span class="lg-item"><i class="lg-line fwd"></i>前路</span>
             <span class="lg-item"><i class="lg-line soft"></i>有益支线</span>
             <span class="lg-item"><i class="lg-card now"></i>当前</span>
+            <span class="lg-item"><i class="lg-card chain"></i>必需先修</span>
+            <span class="lg-item"><i class="lg-card next"></i>解锁</span>
             <span class="lg-item"><i class="lg-card gate"></i>学段终点</span>
           </div>
           <div class="pm-hint" id="pm-hint" aria-hidden="true">单击看详情 · 双击跳转 · 底部热条＝学完通向</div>
@@ -259,8 +273,9 @@ export class PathMap {
     }
 
     // 有益支线：root 的 1 跳 soft 先修，卡带水平散布在 root 正上方
-    //（首行抬更高——上方空旷；深行卡在行间隙里），线从支线卡底边以两端
-    // 竖直的 S 弯汇入当前卡顶边，箭头尖贴卡缘垂直向下（marker-end 同款）。
+    //（深行卡带落在行间隙内：liftY=-71 使 SOFT 芯片顶距上一行卡底 16、
+    // 卡底距当前卡顶 17；首行上方空旷，抬更高留足汇入线空间），
+    // 线从支线卡底边以两端竖直的 S 弯汇入当前卡顶边，箭头尖贴卡缘垂直向下（marker-end 同款）。
     const inChain = new Set(this.g.chain.ids);
     const softTopics = (this.index.prereqsOf.get(this.rootId) ?? [])
       .filter((e) => e.strength === 'soft' && !inChain.has(e.prerequisiteId))
@@ -268,7 +283,7 @@ export class PathMap {
       .filter(Boolean)
       .slice(0, 3);
     const rootP0 = stations[rootI];
-    const liftY = rootRow === 0 ? -86 : -70;
+    const liftY = rootRow === 0 ? -86 : -71;
     const branches = softTopics.map((t, i, arr) => ({
       id: t.id, topic: t,
       x: rootP0.x + (i - (arr.length - 1) / 2) * (CARD.soft.w + 16),
@@ -580,8 +595,9 @@ export class PathMap {
       当前学期高亮描边，点格弹出该册清单（可直达知识点）。 */
   syncStrip() {
     const { counts } = this.g;
-    if (!counts.closureNext) { this.ui.strip.hidden = true; return; }
+    if (!counts.closureNext) { this.ui.strip.hidden = true; this.ui.wrap.classList.remove('has-strip'); return; }
     this.ui.strip.hidden = false;
+    this.ui.wrap.classList.add('has-strip');   // 热条占底部横条：图例/提示上移避让
     const rootT = this.index.byId.get(this.rootId);
     this.ui.stripCap.innerHTML = `学完通向<b>${counts.closureNext}</b>个知识点`;
 
@@ -593,12 +609,12 @@ export class PathMap {
     for (const cell of cells) {
       const a = 0.14 + 0.8 * Math.sqrt(cell.count / max);          // 感知线性：平方根映射
       const here = `${cell.grade}|${cell.semester}` === rootKey;
-      const light = cell.count / max > 0.55;                       // 深底换白字
+      const light = a >= 0.92;                     // 仅最深档白字（brandInk 端混白后 ≥4.6:1；#0fa968 端白字上限仅 3.05:1）
       frag.push(`<button class="pm-cell${here ? ' here' : ''}" type="button"
         data-key="${esc(`${cell.grade}|${cell.semester}`)}"
         style="background:rgba(${C.brandA},${a.toFixed(3)});${light ? 'color:#fff' : ''}"
         title="${cell.grade}年级${cell.semester}册 · 通向 ${cell.count} 个知识点">
-        <b>${cell.count}</b><i${light ? ' style="color:rgba(255,255,255,.85)"' : ''}>${termLabel(cell)}</i></button>`);
+        <b>${cell.count}</b><i${light ? ' style="color:#fff"' : ''}>${termLabel(cell)}</i></button>`);
     }
     this.ui.stripCells.innerHTML = frag.join('');
     this.ui.stripCells.querySelectorAll('.pm-cell').forEach((el) =>
@@ -659,6 +675,35 @@ export class PathMap {
     this.raf = requestAnimationFrame(this.frame.bind(this));
   }
 
+  /**
+   * 学段门芯片落点（屏幕坐标，供 drawChip 渲染）：横向段画在中点下方，
+   * 换行竖直段画在段右侧；落进有益支线带包围盒的芯片就近平移到带侧外——
+   * 换行入 root 行的竖直段芯片正好在支线卡带高度上，会压在支线卡上。
+   */
+  placeGateChips(P, k) {
+    let bandBox = null;
+    if (this.branches.length) {
+      const bs = this.branches.map((b) => this.toScreen(b));
+      bandBox = {
+        x0: Math.min(...bs.map((s) => s.x)) - (CARD.soft.w / 2) * k,
+        x1: Math.max(...bs.map((s) => s.x)) + (CARD.soft.w / 2) * k,
+        y0: Math.min(...bs.map((s) => s.y)) - (CARD.soft.h / 2 + 15) * k,   // 顶部标签芯片外伸 15
+        y1: Math.max(...bs.map((s) => s.y)) + (CARD.soft.h / 2) * k,
+      };
+    }
+    return this.gates.map((g) => {
+      const a = P[g.i - 1], b2 = P[g.i];
+      const vertical = Math.abs(a.x - b2.x) < 1;
+      let mx = vertical ? a.x + 46 : (a.x + b2.x) / 2;
+      const my = vertical ? (a.y + b2.y) / 2 : b2.y + (CARD.chain.h / 2) * k + 14;
+      // 芯片矩形（半宽 28/半高 10）与支线带相交 → 就近平移出带外（留 8px 隙）
+      if (bandBox && mx + 28 > bandBox.x0 && mx - 28 < bandBox.x1 &&
+        my + 10 > bandBox.y0 && my - 10 < bandBox.y1)
+        mx = mx < (bandBox.x0 + bandBox.x1) / 2 ? bandBox.x0 - 36 : bandBox.x1 + 36;
+      return { mx, my, label: g.label };
+    });
+  }
+
   /** 屏幕空间固定尺寸的芯片（学段门/起点/折叠环），不参与拾取。 */
   drawChip(cx, cy, text, fill, stroke, color) {
     const { ctx } = this;
@@ -676,6 +721,8 @@ export class PathMap {
    * 结构蓝图 PATH CANVAS 的卡片站点：圆角卡 + 左上角小标签芯片 + 名称/副标。
    * 在站点屏幕位置 translate+scale 后按数据尺寸绘制，卡片与文字随缩放同步；
    * lineWidth 取 1/k 的倍数，保持屏幕空间 1px 细线（出版级规范）。
+   * 投影分层：静态实卡不描边、常驻双层柔影（SHADOW）；虚线卡（SOFT/FOLD）
+   * 无影、描边即语义；悬停/选中换品牌绿描边 + 抬升影。
    */
   drawCard(p, k, o) {
     const { ctx } = this;
@@ -686,21 +733,37 @@ export class PathMap {
     const half = o.h / 2;
     ctx.beginPath();
     roundRect(ctx, -o.w / 2, -half, o.w, o.h, 6);
-    // 悬停/选中：卡片自身描边转品牌绿 + 轻投影抬升（行业惯例 elevation +
-    // accent border），不画外扩环——双描边观感差
+    // 投影分层：静态实卡去框，常驻双层柔影（接触+扩散，各 fill 一次取并集）；
+    // 悬停/选中换抬升影（行业惯例 elevation），描边转品牌绿——描边只留给交互态
     if (o.sel || o.hover) {
       ctx.shadowColor = o.sel ? 'rgba(27,43,51,0.18)' : 'rgba(27,43,51,0.10)';
       ctx.shadowBlur = o.sel ? 12 : 8;
       ctx.shadowOffsetY = o.sel ? 3 : 2;
+    } else if (o.shadow) {
+      ctx.shadowColor = o.shadow[0];
+      ctx.shadowBlur = o.shadow[1];
+      ctx.shadowOffsetY = o.shadow[2];
+      ctx.fillStyle = o.fill;
+      ctx.fill();
+      ctx.shadowColor = o.shadow[3];
+      ctx.shadowBlur = o.shadow[4];
+      ctx.shadowOffsetY = o.shadow[5];
     }
     ctx.fillStyle = o.fill;
     ctx.fill();
     ctx.shadowColor = 'transparent';
     ctx.shadowBlur = 0;
     ctx.shadowOffsetY = 0;
-    if (o.stroke) {
-      ctx.strokeStyle = o.sel ? C.brand : o.stroke;
+    if (o.sel || o.hover) {
+      // 交互描边：品牌绿（虚线卡保留自身 dash 节奏），不画外扩环——双描边观感差
+      ctx.strokeStyle = C.brand;
       ctx.lineWidth = (o.sel ? 1.5 : 1) * px;
+      if (o.dash) ctx.setLineDash(o.dash);
+      ctx.stroke();
+      if (o.dash) ctx.setLineDash([]);
+    } else if (o.stroke) {
+      ctx.strokeStyle = o.stroke;
+      ctx.lineWidth = 1 * px;
       if (o.dash) ctx.setLineDash(o.dash);
       ctx.stroke();
       if (o.dash) ctx.setLineDash([]);
@@ -783,7 +846,7 @@ export class PathMap {
       arrowHead(s2, ux, uy, alpha);         // 箭头尖贴目标卡边缘
     };
     for (let i = 1; i < this.stations.length; i++) {
-      seg(i, i <= this.rootI ? 0.92 : 0.4);
+      seg(i, i <= this.rootI ? 0.92 : 0.72);  // 前路 0.72：薄荷底上 3.2:1（0.4 仅 2.6:1，低于图形对比 3:1 线）
     }
 
     // ---- 有益支线（琥珀虚线卡）：S 弯汇入当前卡顶边，箭头尖贴卡缘垂直向下 ----
@@ -794,7 +857,7 @@ export class PathMap {
       const startY = s.y + (CARD.soft.h / 2) * k;        // 支线卡底边
       const ymid = (startY + rootTop) / 2;
       ctx.setLineDash([5, 4]);
-      ctx.strokeStyle = `rgba(${C.softA},0.85)`;
+      ctx.strokeStyle = C.softLine;
       ctx.lineWidth = 1;
       ctx.beginPath();
       ctx.moveTo(s.x, startY);
@@ -807,23 +870,18 @@ export class PathMap {
       ctx.lineTo(rx - 3.5 * k, rootTop - 6 * k);
       ctx.lineTo(rx + 3.5 * k, rootTop - 6 * k);
       ctx.closePath();
-      ctx.fillStyle = `rgba(${C.softA},0.85)`;
+      ctx.fillStyle = C.softLine;
       ctx.fill();
       this.drawCard(s, k, {
-        ...CARD.soft, fill: '#ffffff', stroke: 'rgba(192,124,0,0.55)', dash: [4, 3],
+        ...CARD.soft, fill: '#ffffff', stroke: 'rgba(192,124,0,0.45)', dash: [4, 3],
         tag: 'SOFT', tagColor: '#8a6100',
         name: this.nameAt(this.index.byId.get(b.id), 82), sub: '有益先修',
       });
     });
 
-    // ---- 学段门芯片（横向段画在中点下方，换行竖直段画在段右侧） ----
-    for (const g of this.gates) {
-      const a = P[g.i - 1], b2 = P[g.i];
-      const vertical = Math.abs(a.x - b2.x) < 1;
-      const mx = vertical ? a.x + 46 : (a.x + b2.x) / 2;
-      const my = vertical ? (a.y + b2.y) / 2 : b2.y + (CARD.chain.h / 2) * k + 14;
-      this.drawChip(mx, my, g.label, '#fff6e5', 'rgba(192,124,0,0.45)', '#8a6100');
-    }
+    // ---- 学段门芯片 ----
+    for (const g of this.placeGateChips(P, k))
+      this.drawChip(g.mx, g.my, g.label, '#fff6e5', 'rgba(192,124,0,0.45)', '#8a6100');
 
     // ---- 站点卡片（结构蓝图 PATH CANVAS：卡片而非圆点） ----
     this.stations.forEach((s, i) => {
@@ -840,7 +898,7 @@ export class PathMap {
       if (s.kind === 'end') {
         // 学段终点门：奶油卡（入初中/中考门/高考门）
         this.drawCard(p, k, {
-          ...CARD.gate, fill: '#fff6e5', stroke: 'rgba(192,124,0,0.45)',
+          ...CARD.gate, fill: '#fff6e5', shadow: SHADOW.soft,
           tag: 'GATE', tagColor: '#8a6100', name: s.label, sub: '学段终点',
         });
         return;
@@ -850,33 +908,36 @@ export class PathMap {
       const sel = !isRoot && this.selId === s.id;
       const hov = !isRoot && !sel && this.hoverId === s.id;
       if (isRoot) {
-        // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）；芯片用透明白描边
-        //（浅底白字在深绿卡上看不清，结构蓝图 NOW 芯片即透明底+白描边）
+        // 当前知识点：唯一品牌绿实卡（蓝图 NOW 大卡）。芯片压过卡缘、上半截
+        // 浮在薄荷浅底上，透明白底+白字/白描边会被浅底吞掉（只余深绿卡上一圈
+        // 白影，观感发虚）——改实白底+深绿字+绿描边，压缘两半都清晰可读，
+        // 也与其他卡「浅底芯片+彩色字」的语言一致
         this.drawCard(p, k, {
-          ...CARD.root, fill: C.brandInk, stroke: C.brand,
-          tag: 'NOW', tagColor: '#ffffff',
-          tagStroke: 'rgba(255,255,255,0.6)', chipFill: 'rgba(255,255,255,0.14)',
+          ...CARD.root, fill: C.brandInk, shadow: SHADOW.deep,
+          tag: 'NOW', tagColor: C.brandInk,
+          tagStroke: 'rgba(11,122,76,0.55)', chipFill: '#ffffff',
           name: this.nameAt(t, 116), nameColor: '#ffffff',
           sub: '当前位置', subColor: 'rgba(255,255,255,0.85)',
         });
       } else if (i === 0 && this.g.counts.hidden === 0) {
-        // 起点：薄荷卡（仅必修闭包完整时，首站才是真起点）
+        // 起点：白卡（仅必修闭包完整时，首站才是真起点；原薄荷底 #e6f7ef
+        // 与画布 #edf7f2 明度对比 1.0:1 无存在感，绿语义由 ORIGIN 芯片承担）
         this.drawCard(p, k, {
-          ...CARD.start, fill: '#e6f7ef', stroke: '#bce5cf',
+          ...CARD.start, fill: '#ffffff', shadow: SHADOW.soft,
           tag: 'ORIGIN', tagColor: C.brandInk,
           name: this.nameAt(t, 94), sub: '起点', sel, hover: hov,
         });
       } else if (s.kind === 'next') {
-        // 一跳解锁：白卡 + 墨框
+        // 一跳解锁：白卡
         this.drawCard(p, k, {
-          ...CARD.next, fill: '#ffffff', stroke: 'rgba(27,43,51,0.55)',
+          ...CARD.next, fill: '#ffffff', shadow: SHADOW.soft,
           tag: 'NEXT', tagColor: C.ink,
           name: this.nameAt(t, 90), sub: termLabel(t), sel, hover: hov,
         });
       } else {
-        // 必需先修：玫瑰浅卡 + 玫红框
+        // 必需先修：玫瑰浅卡（浅底即类型语义，无需描边）
         this.drawCard(p, k, {
-          ...CARD.chain, fill: '#fceef5', stroke: 'rgba(216,30,106,0.35)',
+          ...CARD.chain, fill: '#fceef5', shadow: SHADOW.soft,
           tag: 'HARD', tagColor: '#a81354',
           name: this.nameAt(t, 94), sub: termLabel(t), sel, hover: hov,
         });

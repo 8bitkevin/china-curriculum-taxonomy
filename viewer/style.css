@@ -26,6 +26,7 @@
   /* ---- 语义色：先修强度 + 质量红绿 ---- */
   --hard: #d81e6a;  --hard-ink: #a81354; --hard-weak: #fceef5;   /* 必需（玫红，与学科色零撞车） */
   --soft: #c07c00;  --soft-ink: #8a6100; --soft-weak: #fff6e5;   /* 有益（琥珀，浅底/深字对齐 K12 黄系） */
+  --soft-line: #a86a00;  /* 有益支线连线档：1px 虚线在浅底需 ≥3:1（--soft 3.1:1 贴线，pathmap C.softLine 同源） */
   --ok: #0b8f57;    --ok-weak: #e6f7ef;
   --bad: #f0533d;   --bad-weak: #fdeeee;
 
@@ -605,15 +606,21 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
 .pm-legend .lg-item { display: inline-flex; align-items: center; gap: 5px; }
 .pm-legend .lg-line { width: 18px; height: 0; border-top: 2.5px solid var(--hard); border-radius: 2px; }
 .pm-legend .lg-line.fwd { opacity: 0.4; }
-.pm-legend .lg-line.soft { border-top-style: dashed; border-top-color: var(--soft); border-top-width: 1.5px; }
+.pm-legend .lg-line.soft { border-top-style: dashed; border-top-color: var(--soft-line); border-top-width: 1.5px; }
 .pm-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; flex: none; }
 .pm-legend .lg-dot.now { background: var(--accent-ink); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--accent-ink); }
 .pm-legend .lg-dot.gate { background: var(--soft); box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--soft); }
-/* v2 卡片站点图例（PATH CANVAS 卡片化后替代圆点样本） */
-.pm-legend .lg-card { width: 14px; height: 10px; border-radius: 3px; flex: none; }
+/* v2 卡片站点图例（PATH CANVAS 卡片化后替代圆点样本）；
+   与画布投影分层同步：去描边、轻影勾边（白样本在白胶囊底上靠影成立） */
+.pm-legend .lg-card { width: 14px; height: 10px; border-radius: 3px; flex: none; box-shadow: 0 1px 2px rgba(27, 43, 51, 0.16); }
 .pm-legend .lg-card.now { background: var(--accent-ink); }
-.pm-legend .lg-card.gate { background: var(--soft-weak); border: 1px solid rgba(192, 124, 0, 0.45); }
+.pm-legend .lg-card.chain { background: var(--hard-weak); }
+.pm-legend .lg-card.next { background: #fff; }
+.pm-legend .lg-card.gate { background: var(--soft-weak); }
 .pm-legend .lg-dir { color: var(--faint); }
+/* 热条出现时占满底部横条：图例与操作提示上移避让（否则被 .pm-strip 遮挡） */
+.pm-canvas-wrap.has-strip .pm-legend { bottom: 78px; }
+.pm-canvas-wrap.has-strip .pm-hint { bottom: 78px; }
 .pm-hint {
   position: absolute; right: 12px; bottom: 10px; z-index: 3;
   font-size: 11.5px; color: var(--faint); pointer-events: none;

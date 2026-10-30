@@ -33,11 +33,13 @@ const PALETTE = Object.values(SUBJECT_COLORS);
 export const subjectColor = (name, i = 0) => (SUBJECT_COLORS[name] ?? PALETTE[i % PALETTE.length]).bright;
 export const subjectDeep = (name, i = 0) => (SUBJECT_COLORS[name] ?? PALETTE[i % PALETTE.length]).deep;
 
-// 锥形星系半径律（加胖版）：底部 190，随高度 0.46 线性张开；径向散布
-// σ=120。coneR 在布局 / 星云团 / 轴心辉光三处共用——想调胖瘦只动这
-// 三个常量。半径律在 Marble 实测（r≈110+0.26y、σ≈95）基础上整体加胖：
-// 锥面周长变大、星点更稀疏，缓解「太密集太紧凑」。
-const CONE_R0 = 190, CONE_SLOPE = 0.46, CONE_SIGMA = 120;
+// 锥形星系半径律（钝底加胖版）：底部半径 380、坡度放缓 0.36、径向散布
+// σ=150、轴心清空半径 180。coneR 在布局 / 星云团 / 轴心辉光三处共用
+// ——想调胖瘦只动这四个常量。半径律在 Marble 实测（r≈110+0.26y、σ≈95）
+// 基础上整体加胖并钝化底部：低年级点数不少而底部半径小，会挤成发光的
+// 「锥尖」（1 年级 98 点最近邻仅 77）；抬高底部半径并清空轴心后底部
+// 最近邻 +33%、呈圆钝星盘，全图最大半径基本不变（自动取景不受影响）。
+const CONE_R0 = 380, CONE_SLOPE = 0.36, CONE_SIGMA = 150, CONE_RMIN = 180;
 const coneR = (y) => CONE_R0 + Math.max(0, y) * CONE_SLOPE;
 
 // ---------- 布局：锥形星系（角向完全随机混布） ----------
@@ -65,7 +67,7 @@ export function buildLayout(index) {
       + (hash01(t.id + 'y') - 0.5) * LVL * 0.7;
     const g = groups.indexOf(t.subject);
     const theta = hash01(t.id) * Math.PI * 2;   // 角向完全随机：九科彩色混布
-    const rr = Math.max(30, coneR(y) + gauss(hash01(t.id + 'r'), hash01(t.id + 'r2')) * CONE_SIGMA);
+    const rr = Math.max(CONE_RMIN, coneR(y) + gauss(hash01(t.id + 'r'), hash01(t.id + 'r2')) * CONE_SIGMA);
     // 中心性 c：幂律感——多数节点 0，枢纽趋近 1
     const c = deg.get(t.id) <= 1 ? 0 : Math.min(1, (deg.get(t.id) - 1) / maxDeg * 1.6);
     return {
