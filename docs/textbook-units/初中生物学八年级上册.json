@@ -7,7 +7,146 @@
     "pages": 122,
     "hasTextLayer": true
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-22",
-  "units": []
+  "source": "manual",
+  "extractedAt": "2026-10-30",
+  "note": "文字层章/节标题实测人工基线（原提取结果 units=[]），印刷页 = PDF 页 - 5（页脚实测：PDF10→5、PDF30→25、PDF60→55）；第五/第六单元章级基线",
+  "units": [
+    {
+      "index": 1,
+      "title": "动物的主要类群",
+      "page": 2,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "腔肠动物和扁形动物",
+          "page": 3
+        },
+        {
+          "no": "第二节",
+          "title": "线形动物和环节动物",
+          "page": 8
+        },
+        {
+          "no": "第三节",
+          "title": "软体动物和节肢动物",
+          "page": 12
+        },
+        {
+          "no": "第四节",
+          "title": "鱼",
+          "page": 19
+        },
+        {
+          "no": "第五节",
+          "title": "两栖动物和爬行动物",
+          "page": 25
+        },
+        {
+          "no": "第六节",
+          "title": "鸟",
+          "page": 30
+        },
+        {
+          "no": "第七节",
+          "title": "哺乳动物",
+          "page": 36
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "title": "动物的运动和行为",
+      "page": 41,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "动物的运动",
+          "page": 42
+        },
+        {
+          "no": "第二节",
+          "title": "先天性行为和学习行为",
+          "page": 47
+        },
+        {
+          "no": "第三节",
+          "title": "社会行为",
+          "page": 54
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "title": "动物在生物圈中的作用",
+      "page": 61,
+      "sections": []
+    },
+    {
+      "index": 4,
+      "title": "细菌和真菌",
+      "page": 66,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "细菌和真菌的分布",
+          "page": 66
+        },
+        {
+          "no": "第二节",
+          "title": "细菌",
+          "page": 71
+        },
+        {
+          "no": "第三节",
+          "title": "真菌",
+          "page": 75
+        },
+        {
+          "no": "第四节",
+          "title": "细菌和真菌在自然界中的作用",
+          "page": 79
+        },
+        {
+          "no": "第五节",
+          "title": "人类对细菌和真菌的利用",
+          "page": 84
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "病毒",
+      "page": 89,
+      "sections": []
+    },
+    {
+      "index": 6,
+      "title": "根据生物的特征进行分类",
+      "page": 96,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "尝试对生物进行分类",
+          "page": 96
+        },
+        {
+          "no": "第二节",
+          "title": "从种到界",
+          "page": 101
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "title": "认识生物的多样性",
+      "page": 107,
+      "sections": []
+    },
+    {
+      "index": 8,
+      "title": "保护生物的多样性",
+      "page": 113,
+      "sections": []
+    }
+  ]
 }
