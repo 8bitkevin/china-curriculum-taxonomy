@@ -63,7 +63,7 @@ _reg(["高中语文必修上册", "高中语文必修下册",
        "高中语文选择性必修上册", "高中语文选择性必修中册", "高中语文选择性必修下册"], "unit")
 _reg(_volumes("英语", range(3, 7)), "unit")                                    # 小学 PEP（三起）
 _reg(_volumes("初中英语", range(7, 9)), "unit")
-_reg(["初中英语九年级全一册"], "unit")
+_reg(["初中英语九年级上册", "初中英语九年级下册"], "unit")  # 新版九年级拆上/下册（D-034；原全一册）
 _reg([f"高中英语必修第{n}册" for n in "一二三"] +
      [f"高中英语选择性必修第{n}册" for n in "一二三四"], "unit")
 _reg(_volumes("初中物理", range(8, 9)), "math")                                # 人教初中物理：章+节
@@ -100,9 +100,11 @@ CN_NUM = "一二三四五六七八九十百"
 CN_DIGIT_TABLE = {c: i for i, c in enumerate("一二三四五六七八九", 1)}
 RE_CHAPTER = re.compile(r"^第([0-9０-９一二三四五六七八九十百]+)章\s*(\S.*)?$")   # 第X章（中/阿数字）
 RE_SECTION = re.compile(r"^(\d{1,2})[.．](\d{1,2})\s*(\S.*)?$")
-RE_UNIT_HEAD = re.compile(r"^(\d{1,2})[\s　]+(.+)$")   # 号在标题前：「1 准备课」
+RE_UNIT_HEAD = re.compile(r"^([0-9０-９]{1,2}|[一二三四五六七八九十]{1,3})[\s　]+(.+)$")  # 号在标题前：「1 准备课」「一 数学游戏」
 RE_PAGE_TAIL = re.compile(r"(?<![0-9.~%％])(\d{1,3})$")   # 行尾页码（允许紧贴标题）
 RE_UNIT_TAIL = re.compile(r"[\s　](\d{1,2})$")          # 行尾单元号（页码剥离后）
+RE_LONE_NUM = re.compile(r"^[一二三四五六七八九十]{1,3}$")  # 独行中文单元号（新版权号列与标题行 y 错位）
+RE_NOISE = re.compile(r"仅供个人学习|扫码|APP|下载")      # 平台电子书水印/推广行
 
 # 多学科目录形态（D-015/D-016）
 RE_UNIT_CN = re.compile(r"^第([一二三四五六七八九十\d]{1,3})单元\s*(\S.*)?$")   # 第X单元 标题
@@ -111,8 +113,8 @@ RE_LESSON_CN = re.compile(r"^第\s*([一二三四五六七八九十\d]{1,3})\s*�
 RE_TOPIC_CN = re.compile(r"^课题\s*(\d{1,2})[.．:：]?\s*(\S.*)?$")             # 课题N 标题（初中化学）
 RE_SECTION_CN = re.compile(r"^第\s*([一二三四五六七八九十\d]{1,3})\s*节\s*(\S.*)?$")  # 第N节 标题（物理/地理）
 RE_SECTION_DOT = re.compile(r"^(\d{1,2})[.．]\s*(\S.*)?$")                     # 「1. 质点」（人教高中）
-# 小学语文块标题（无「第X单元」编号的单元结构）
-RE_BLOCK_UNIT = re.compile(r"^(识字|汉语拼音|课文)([（(][一二三四五六][）)])?$")
+# 小学语文块标题（无「第X单元」编号的单元结构；新版「我上学了」导入单元同收）
+RE_BLOCK_UNIT = re.compile(r"^(识字|汉语拼音|课文|我上学了)([（(][一二三四五六][）)])?$")
 # 单元模式下作为「节」收录的栏目行（语文/英语教材结构锚点）
 RE_SPECIAL_SECTION = re.compile(
     r"^(◎|口语交际|写作|语文园地|快乐读书吧|和大人一起读|名著导读|"
@@ -122,7 +124,7 @@ RE_SPECIAL_SECTION = re.compile(
 )
 
 # 无单元号但收录的条目（综合整理/实践篇）
-SPECIAL_UNITS = {"总复习", "数学乐园", "整理和复习"}
+SPECIAL_UNITS = {"总复习", "数学乐园", "整理和复习", "数学游戏", "复习与关联"}
 # 章内栏目行：不构成单元，跳过
 MISC_PREFIXES = ("实验与探究", "阅读与思考", "观察与猜想", "信息技术应用",
                  "数学活动", "小结", "复习题", "探究与发现", "课题学习",
@@ -176,6 +178,36 @@ def rebuild_rows(page: "fitz.Page", y_tol: float = 12.0) -> list[list[str]]:
     return [[t for _, t in sorted(seg)] for _, seg in rows]
 
 
+def rows_two_columns(page: "fitz.Page", split: float = 0.5) -> list[list[str]]:
+    """双栏目录页：按 split×页宽 竖线拆分左右栏各自重建行（先左栏后右栏顺读）。
+
+    rebuild_rows 会把左右栏同一 y 的文本并成一行（「第五单元·阅读 19 雾在哪里…84」），
+    双栏目录必须先拆栏；版心不均分的页面由调用方多试几个 split 取最优。"""
+    mid = page.rect.width * split
+    left: list[tuple[float, float, str]] = []
+    right: list[tuple[float, float, str]] = []
+    for blk in page.get_text("dict")["blocks"]:
+        if blk.get("type") != 0:
+            continue
+        for ln in blk.get("lines", []):
+            text = "".join(s["text"] for s in ln["spans"]).strip()
+            if text:
+                (left if ln["bbox"][0] < mid else right).append(
+                    (ln["bbox"][1], ln["bbox"][0], text))
+
+    def rows_of(frags: list[tuple[float, float, str]]) -> list[list[str]]:
+        frags.sort(key=lambda t: (t[0], t[1]))
+        rows: list[tuple[float, list[tuple[float, str]]]] = []
+        for y, x, text in frags:
+            if rows and abs(y - rows[-1][0]) <= 12:
+                rows[-1][1].append((x, text))
+            else:
+                rows.append((y, [(x, text)]))
+        return [[t for _, t in sorted(seg)] for _, seg in rows]
+
+    return rows_of(left) + rows_of(right)
+
+
 def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
     """前 limit 页中定位目录页。
 
@@ -190,18 +222,30 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         if not rows:
             continue
         lines = [norm(" ".join(r)) for r in rows]
+        compacts = [re.sub(r"[\s　]+", "", l) for l in lines]
+        # 低年级目录逐字空格排版（「第 一 单 元 …」）与双栏页：紧凑行才能匹配单元头
+        prose = sum(1 for l in lines
+                    if (l.count("。") + l.count("，") + l.count(",")) >= 2 and len(l) >= 10)
+        if prose >= 3:  # 正文页（散文行密集）不作为目录
+            continue
         head = lines[0][:6]
         numbered = sum(1 for l in lines if RE_PAGE_TAIL.search(l))
         dots = " ".join(lines).count("…") + " ".join(lines).count("....")
-        chapters = sum(1 for l in lines if RE_CHAPTER.match(l))
+        chapters = sum(1 for l in compacts if RE_CHAPTER.match(l))
         # 续页：紧邻已命中页 + 页码行多 + 行短而少（目录排版特征，
         # 排除正文中数字密集的页面）
         lens = [len(l) for l in lines if l]
         avg_len = sum(lens) / len(lens) if lens else 0
         cont = (hits and i == hits[-1] + 1 and (numbered >= 2 or chapters >= 1)
                 and avg_len <= 40)
-        # 英语教材目录页标题为 CONTENTS，页码常成列独立成行：靠 Unit N 行数识别
-        unit_rows = sum(1 for l in lines if RE_UNIT_EN.match(l) or RE_UNIT_CN.match(l))
+        # 英语教材目录页标题为 CONTENTS，页码常成列独立成行：靠 Unit N 行数识别；
+        # 双栏合并行一行含两个「第X单元」：按出现次数计数而非锚定匹配；
+        # 历史/道法等「第N课」目录同样计数
+        unit_rows = sum(len(re.findall(r"第[一二三四五六七八九十\d]{1,3}单元", l))
+                        for l in compacts)
+        unit_rows += sum(len(re.findall(r"第[一二三四五六七八九十\d]{1,3}课", l))
+                         for l in compacts)
+        unit_rows += sum(1 for l in compacts if RE_UNIT_EN.match(l))
         is_toc = ("目" in head and "录" in head and numbered >= 3) or (
             numbered >= 5 and (dots >= 2 or chapters >= 2)) or (
             unit_rows >= 3) or (
@@ -209,6 +253,22 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         if is_toc:
             hits.append(i)
     return hits
+
+
+def merge_lone_numerals(merged: list[str]) -> list[str]:
+    """新版权号列与标题行 y 基线错位，序号独占一行（「数学游戏 1」「一」「5以内… 12」）。
+
+    独行序号属于其后最近的一个标题行：并入下一行形成「N 标题 页码」。"""
+    out: list[str] = []
+    i = 0
+    while i < len(merged):
+        if RE_LONE_NUM.fullmatch(merged[i]) and i + 1 < len(merged):
+            out.append(f"{merged[i]} {merged[i + 1]}")
+            i += 2
+            continue
+        out.append(merged[i])
+        i += 1
+    return out
 
 
 def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
@@ -231,7 +291,7 @@ def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
     for seg in rows:
         line = norm(" ".join(seg))
         line = re.sub(r"[…\.]{3,}", " ", line).strip()  # 剥省略引导线
-        if line:
+        if line and not RE_NOISE.search(line):
             texts.append(line)
 
     # 孤号折行重组：「标题上段」「号 页码」「标题下段」→「标题 页码 号」
@@ -249,6 +309,7 @@ def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
             continue
         merged.append(texts[i])
         i += 1
+    merged = merge_lone_numerals(merged)  # 新版权号列独行序号并入下一标题行
 
     if mode in ("unit", "lesson"):
         return parse_unit_lesson_mode(merged, mode)
@@ -304,7 +365,7 @@ def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
         title, page = strip_page(line)
         m = RE_UNIT_HEAD.match(title)
         if m:
-            title, index = m.group(2), int(m.group(1))
+            title, index = m.group(2), _unit_index(m.group(1))
         else:
             m2 = RE_UNIT_TAIL.search(title)
             index = int(m2.group(1)) if m2 else None
@@ -358,18 +419,25 @@ def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
             continue
         # 低年级目录字间留空（「第 一 单 元 我 是 小 学 生 啦」）：去空格后匹配
         compact = re.sub(r"[\s　]+", "", line)
+        # 「第一单元」行后独立成行的主题词（新版统编三上起）：并入单元标题
+        if (compact in ("阅读", "识字", "汉语拼音", "快乐读书吧") and units
+                and units[-1]["title"].startswith("第") and "·" not in units[-1]["title"]):
+            units[-1]["title"] = f"{units[-1]['title']}·{compact}"
+            continue
         m = RE_UNIT_CN.match(compact)
         if m and mode == "unit":
             idx = _unit_index(m.group(1))
             rest = m.group(2) or ""
             # 初中语文「第一单元 阅读 1 春/朱自清」：单元行混入块名与首课，拆出
+            # （仅当块名后还有首课时；新版「第五单元·阅读」的纯主题词保留）
             title, page = strip_page(rest)
-            bm = re.match(r"^(阅读|写作|活动|探究)\s*(.*)$", title)
+            title = title.lstrip("·．.、：:；;，,")  # 新版「第一单元·识字」分隔符
+            bm = re.match(r"^(阅读|写作|活动|探究)\s+(.+)$", title)
             first_lesson = None
             if bm:
                 first_lesson = bm.group(2)
-                title = ""
-            units.append({"index": idx, "title": title or f"第{m.group(1)}单元",
+                title = bm.group(1)
+            units.append({"index": idx, "title": (title or f"第{m.group(1)}单元").rstrip("/ ·."),
                           "page": page, "sections": []})
             if first_lesson:
                 lt, lp = strip_page(first_lesson)
@@ -393,6 +461,7 @@ def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
         if m:
             idx = _unit_index(m.group(1))
             title, page = strip_page(m.group(2) or "")
+            title = title.rstrip("/ ·.")  # 「开开心心上学去/2」的页码分隔符残留
             if mode == "lesson":
                 units.append({"index": idx,
                               "title": title or f"第{m.group(1)}课", "page": page, "sections": []})
@@ -424,7 +493,12 @@ def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
             units[-1]["sections"].append({"no": m.group(1), "title": m.group(2), "page": page})
             continue
         if RE_SPECIAL_SECTION.match(compact):
-            units[-1]["sections"].append({"no": None, "title": compact, "page": page})
+            t2, p2 = strip_page(compact)  # 压缩空格后页码粘连：剥回页码
+            units[-1]["sections"].append({"no": None, "title": t2.lstrip("◎"), "page": p2})
+            continue
+        # 无编号课文行（新版「我上学了」导入课文等）：带页码即收录为节
+        if page is not None and 0 < len(title) <= 30 and not title.isdigit():
+            units[-1]["sections"].append({"no": None, "title": title, "page": page})
     for u in units:
         if not u["sections"]:
             del u["sections"]
@@ -452,12 +526,30 @@ def extract_volume(stem: str) -> dict | None:
     rows: list[list[str]] = []
     for i in toc_idx[:3]:  # 目录最多跨 3 页；合并后一次解析避免章/节断链
         rows.extend(rebuild_rows(doc[i]))
-    units = parse_toc_rows(rows, mode=VOLUME_MODE.get(stem, "math"))
+    mode = VOLUME_MODE.get(stem, "math")
+    units = parse_toc_rows(rows, mode=mode)
+    if mode in ("unit", "lesson") and units:
+        # 双栏目录自校验：正文行里的「第X单元」标记数多于解析出的单元数 → 拆栏重试
+        # （版心不均分：多个分割点试拆，取单元数最多的结果）
+        blob = re.sub(r"[\s　]+", "",
+                      "".join(doc[i].get_text() for i in toc_idx[:3]))
+        expected = len(set(re.findall(r"第[一二三四五六七八九十\d]{1,3}单元", blob)))
+        if 0 < len([u for u in units if u.get("index") is not None]) < expected:
+            best = units
+            for split in (0.5, 0.42, 0.58):
+                rows2: list[list[str]] = []
+                for i in toc_idx[:3]:
+                    rows2.extend(rows_two_columns(doc[i], split))
+                units2 = parse_toc_rows(rows2, mode=mode)
+                if len(units2) > len(best):
+                    best = units2
+            units = best
     doc.close()
-    # 目录页后可能混入封面折页噪声：去掉过短/重复条目
+    # 目录页后可能混入封面折页噪声：去掉过短/重复条目（同号同名才算重复，
+    # 新版「第二/三/四单元·汉语拼音」同题不同号不可去重）
     seen, cleaned = set(), []
     for u in units:
-        key = u["title"]
+        key = f"i{u['index']}|{u['title']}" if u.get("index") is not None else u["title"]
         if key in seen:
             continue
         seen.add(key)
