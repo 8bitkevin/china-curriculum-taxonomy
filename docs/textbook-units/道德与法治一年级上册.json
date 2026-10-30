@@ -3,123 +3,118 @@
   "volume": "道德与法治一年级上册",
   "pdf": {
     "file": "道德与法治一年级上册.pdf",
-    "sha256": "4fddd03380615ea3822889c71e1a7e77924bb0be6db5f0776bd2df93dabe8f94",
-    "pages": 78,
+    "sha256": "016eb15d6b0d8dd303524c958bdf93a6c95c58d9d25766c052ddebc44c426a59",
+    "pages": 70,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "我是小学生啦",
-      "page": null,
+      "page": 1,
       "sections": [
         {
-          "no": "1",
+          "no": "第1课",
           "title": "开开心心上学去",
           "page": 2
         },
         {
-          "no": "2",
-          "title": "拉拉手 ,交朋友",
+          "no": "第2课",
+          "title": "我向国旗敬个礼",
           "page": 6
         },
         {
-          "no": "3",
-          "title": "我认识您了",
+          "no": "第3课",
+          "title": "这是我们的校园",
           "page": 10
         },
         {
-          "no": "4",
-          "title": "上学路上",
+          "no": "第4课",
+          "title": "平平安安回家来",
           "page": 14
         }
       ]
     },
     {
       "index": 2,
-      "title": "校园生活真快乐",
-      "page": null,
+      "title": "过好校园生活",
+      "page": 17,
       "sections": [
         {
-          "no": "5",
-          "title": "我们的校园",
-          "page": 20
+          "no": "第5课",
+          "title": "老师,您好!",
+          "page": 18
         },
         {
-          "no": "6",
-          "title": "校园里的号令",
-          "page": 24
+          "no": "第6课",
+          "title": "拉拉手,交朋友",
+          "page": 22
         },
         {
-          "no": "7",
-          "title": "课间十分钟",
-          "page": 28
+          "no": "第7课",
+          "title": "上课了,好好学",
+          "page": 25
         },
         {
-          "no": "8",
-          "title": "上课了",
-          "page": 32
+          "no": "第8课",
+          "title": "课余生活真丰富",
+          "page": 29
         }
       ]
     },
     {
       "index": 3,
-      "title": "家中的安全与健康",
-      "page": null,
+      "title": "养成良好习惯",
+      "page": 33,
       "sections": [
         {
-          "no": "9",
-          "title": "玩得真开心",
-          "page": 36
+          "no": "第9课",
+          "title": "作息有规律",
+          "page": 34
         },
         {
-          "no": "10",
+          "no": "第10课",
           "title": "吃饭有讲究",
-          "page": 40
+          "page": 37
         },
         {
-          "no": "11",
-          "title": "别伤着自己",
+          "no": "第11课",
+          "title": "对人有礼貌",
+          "page": 41
+        },
+        {
+          "no": "第12课",
+          "title": "玩也有学问",
           "page": 44
-        },
-        {
-          "no": "12",
-          "title": "早睡早起",
-          "page": 48
         }
       ]
     },
     {
       "index": 4,
-      "title": "天气虽冷有温暖",
-      "page": null,
+      "title": "我们讲文明",
+      "page": 47,
       "sections": [
         {
-          "no": "13",
-          "title": "美丽的冬天",
+          "no": "第13课",
+          "title": "我们小点儿声",
+          "page": 48
+        },
+        {
+          "no": "第14课",
+          "title": "人人爱护公物",
           "page": 52
         },
         {
-          "no": "14",
-          "title": "健康过冬天",
-          "page": 56
+          "no": "第15课",
+          "title": "我们不乱扔",
+          "page": 55
         },
         {
-          "no": "15",
-          "title": "快乐过新年",
-          "page": 60
-        },
-        {
-          "no": "16",
-          "title": "新年的礼物",
-          "page": 66
-        },
-        {
-          "no": "1",
-          "title": "开开心心上学去",
-          "page": null
+          "no": "第16课",
+          "title": "大家排好队",
+          "page": 58
         }
       ]
     }

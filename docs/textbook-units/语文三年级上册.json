@@ -3,16 +3,16 @@
   "volume": "语文三年级上册",
   "pdf": {
     "file": "语文三年级上册.pdf",
-    "sha256": "02915a7db6517258434d370430bbf464a1dac6e17df97b90d707dc4ecf5cfedf",
-    "pages": 130,
+    "sha256": "35169d6d9646a87be2ea84ea5b01de38a92774e26338d43810e8d8f22a558ac3",
+    "pages": 123,
     "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-28",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "第一单元",
+      "title": "第一单元·阅读",
       "page": 1,
       "sections": [
         {
@@ -26,36 +26,51 @@
           "page": 5
         },
         {
-          "no": "3*",
-          "title": "不懂就要问",
+          "no": null,
+          "title": "3* 不懂就要问",
           "page": 7
         },
         {
           "no": null,
-          "title": "◎口语交际：我的暑假生活",
+          "title": "口语交际我的暑假生活",
           "page": 9
         },
         {
           "no": null,
-          "title": "◎习作：猜猜他是谁",
+          "title": "习作 猜猜他是谁",
           "page": 10
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 11
         }
       ]
     },
     {
       "index": 2,
-      "title": "第二单元",
+      "title": "第二单元·阅读",
       "page": 13,
       "sections": [
         {
           "no": "4",
-          "title": "古诗三首（山行、赠刘景文、夜书所见）",
+          "title": "古诗三首",
           "page": 14
+        },
+        {
+          "no": null,
+          "title": "望洞庭",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "山行",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "夜书所见",
+          "page": 15
         },
         {
           "no": "5",
@@ -68,268 +83,276 @@
           "page": 19
         },
         {
-          "no": "7*",
-          "title": "听听，秋的声音",
+          "no": null,
+          "title": "7* 听听,秋的声音",
           "page": 22
         },
         {
           "no": null,
-          "title": "◎习作：写日记",
+          "title": "习作 写日记",
           "page": 24
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 25
         }
       ]
     },
     {
       "index": 3,
-      "title": "第三单元",
+      "title": "第三单元·阅读",
       "page": 27,
       "sections": [
         {
           "no": "8",
-          "title": "卖火柴的小女孩",
+          "title": "总也倒不了的老屋",
           "page": 28
         },
         {
-          "no": "9*",
-          "title": "那一定会很好",
-          "page": 33
-        },
-        {
-          "no": "10",
-          "title": "在牛肚子里旅行",
-          "page": 35
-        },
-        {
-          "no": "11*",
-          "title": "一块奶酪",
-          "page": 38
+          "no": null,
+          "title": "9* 犟龟",
+          "page": 32
         },
         {
           "no": null,
-          "title": "◎习作：我来编童话",
-          "page": 40
+          "title": "10* 小狗学叫",
+          "page": 36
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "口语交际名字里的故事",
           "page": 41
         },
         {
           "no": null,
-          "title": "◎快乐读书吧：在那奇妙的王国里",
+          "title": "习作 续写故事",
+          "page": 42
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 43
         }
       ]
     },
     {
       "index": 4,
-      "title": "第四单元（策略：预测）",
+      "title": "第四单元·阅读",
       "page": 45,
       "sections": [
         {
-          "no": "12",
-          "title": "总也倒不了的老屋",
+          "no": "11",
+          "title": "宝葫芦的秘密(节选)",
           "page": 46
         },
         {
-          "no": "13*",
-          "title": "胡萝卜先生的长胡子",
-          "page": 50
-        },
-        {
-          "no": "14*",
-          "title": "小狗学叫",
-          "page": 53
+          "no": "12",
+          "title": "在牛肚子里旅行",
+          "page": 49
         },
         {
           "no": null,
-          "title": "◎口语交际：名字里的故事",
-          "page": 59
+          "title": "13* 一块奶酪",
+          "page": 52
         },
         {
           "no": null,
-          "title": "◎习作：续写故事",
-          "page": 60
+          "title": "习作 我来编童话",
+          "page": 54
         },
         {
           "no": null,
-          "title": "◎语文园地",
-          "page": 61
+          "title": "语文园地",
+          "page": 55
+        },
+        {
+          "no": null,
+          "title": "快乐读书吧",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "在那奇妙的王国里",
+          "page": 57
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元（习作单元：观察）",
-      "page": 63,
+      "title": "第五单元·阅读",
+      "page": 59,
       "sections": [
         {
-          "no": "15",
+          "no": "14",
           "title": "搭船的鸟",
-          "page": 64
+          "page": 60
         },
         {
-          "no": "16",
+          "no": "15",
           "title": "金色的草地",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "习作 我们眼中的缤纷世界",
+          "page": 65
+        },
+        {
+          "no": null,
+          "title": "我家的小狗",
           "page": 66
         },
         {
           "no": null,
-          "title": "◎习作例文：我家的小狗",
-          "page": 69
-        },
-        {
-          "no": null,
-          "title": "◎习作例文：我爱故乡的杨梅",
-          "page": 70
-        },
-        {
-          "no": null,
-          "title": "◎习作：我们眼中的缤纷世界",
-          "page": 72
+          "title": "我爱故乡的杨梅",
+          "page": 67
         }
       ]
     },
     {
       "index": 6,
-      "title": "第六单元",
-      "page": 73,
+      "title": "第六单元·阅读",
+      "page": 69,
       "sections": [
         {
+          "no": "16",
+          "title": "富饶的西沙群岛",
+          "page": 70
+        },
+        {
           "no": "17",
-          "title": "古诗三首（望天门山、饮湖上初晴后雨、望洞庭）",
-          "page": 74
+          "title": "海滨小城",
+          "page": 73
         },
         {
           "no": "18",
-          "title": "富饶的西沙群岛",
-          "page": 76
-        },
-        {
-          "no": "19",
-          "title": "海滨小城",
-          "page": 79
-        },
-        {
-          "no": "20",
           "title": "美丽的小兴安岭",
+          "page": 75
+        },
+        {
+          "no": null,
+          "title": "19* 香港,璀璨的明珠",
+          "page": 78
+        },
+        {
+          "no": null,
+          "title": "习作 这儿真美",
+          "page": 80
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 81
-        },
-        {
-          "no": null,
-          "title": "◎习作：这儿真美",
-          "page": 84
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 85
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元",
-      "page": 87,
+      "title": "第七单元·阅读",
+      "page": 83,
       "sections": [
+        {
+          "no": "20",
+          "title": "古诗三首",
+          "page": 84
+        },
+        {
+          "no": null,
+          "title": "鹿柴",
+          "page": 84
+        },
+        {
+          "no": null,
+          "title": "望天门山",
+          "page": 84
+        },
+        {
+          "no": null,
+          "title": "饮湖上初晴后雨",
+          "page": 85
+        },
         {
           "no": "21",
           "title": "大自然的声音",
-          "page": 88
+          "page": 86
         },
         {
           "no": "22",
           "title": "读不完的大书",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "口语交际身边的“小事”",
           "page": 91
         },
         {
-          "no": "23",
-          "title": "父亲、树林和鸟",
-          "page": 94
+          "no": null,
+          "title": "习作 我有一个想法",
+          "page": 92
         },
         {
           "no": null,
-          "title": "◎口语交际：身边的小事",
-          "page": 97
-        },
-        {
-          "no": null,
-          "title": "◎习作：我有一个想法",
-          "page": 98
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 99
+          "title": "语文园地",
+          "page": 93
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八单元",
-      "page": 101,
+      "title": "第八单元·阅读",
+      "page": 95,
       "sections": [
         {
-          "no": "24",
+          "no": "23",
           "title": "司马光",
-          "page": 102
+          "page": 96
+        },
+        {
+          "no": "24",
+          "title": "一定要争气",
+          "page": 97
         },
         {
           "no": "25",
-          "title": "灰雀",
+          "title": "手术台就是阵地",
+          "page": 100
+        },
+        {
+          "no": null,
+          "title": "26* 一个粗瓷大碗",
           "page": 103
         },
         {
-          "no": "26",
-          "title": "手术台就是阵地",
+          "no": null,
+          "title": "口语交际请教",
           "page": 105
         },
         {
-          "no": "27*",
-          "title": "一个粗瓷大碗",
-          "page": 108
+          "no": null,
+          "title": "习作 那次经历真难忘",
+          "page": 106
         },
         {
           "no": null,
-          "title": "◎口语交际：请教",
-          "page": 110
+          "title": "语文园地",
+          "page": 107
         },
-        {
-          "no": null,
-          "title": "◎习作：那次玩得真高兴",
-          "page": 111
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 112
-        }
-      ]
-    },
-    {
-      "index": null,
-      "title": "附录",
-      "page": 114,
-      "sections": [
         {
           "no": null,
           "title": "识字表",
-          "page": 114
+          "page": 109
         },
         {
           "no": null,
           "title": "写字表",
-          "page": 117
+          "page": 112
         },
         {
           "no": null,
           "title": "词语表",
-          "page": 119
+          "page": 114
         }
       ]
     }

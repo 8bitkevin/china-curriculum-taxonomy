@@ -62,8 +62,9 @@ scripts/
   apply-batch.mjs            # 数据批次合并工具（合并→manifest→validate 一键落库）
   report.mjs                 # 质量报告（孤岛/覆盖率/倒挂边，TOOL-2）
   dev.mjs                    # 本地开发服务器（静态托管 + 只读 API）
-  fetch-textbooks.py         # 从 ChinaTextbook 仓库下载教材 PDF（本地校验用）
-textbooks/                   # 教材 PDF（.gitignore，不入库）
+  fetch-textbooks-smartedu.py # 从国家中小学智慧教育平台下载电子教材（D-034 权威源）
+  fetch-textbooks.py          # [已退役] 旧 ChinaTextbook fork 源下载脚本
+textbooks/                   # 教材 PDF（.gitignore，不入库；textbooks-old/ 存换版前旧册）
 ```
 
 ## 使用
@@ -134,7 +135,7 @@ python -m http.server 8931
 
 ## 教材版本基线
 
-`scripts/fetch-textbooks.py` 从 [ChinaTextbook](https://github.com/8bitkevin/ChinaTextbook)（[TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) 的 fork）按需下载教材 PDF 到 `textbooks/`（gitignore，不入库）。脚本一次仓库树接口调用完成全部匹配（可用 `GITHUB_TOKEN` 环境变量提升 API 限额），并自动按序拼接上游对超过 50MB 文件的 35MB 分片（`foo.pdf.1/.2…`，上游 README 约定）。本地命名带学段前缀：小学无前缀、初中 `初中{学科}…`、高中 `高中{学科}…`。每个学段学科选定一个主流版本：
+教材电子版取自**国家中小学智慧教育平台**（basic.smartedu.cn，教育部官方，书目即全国当前在用教材）：`python scripts/fetch-textbooks-smartedu.py` 按本地册名自动匹配平台资源并下载 PDF 到 `textbooks/`（gitignore，不入库；换版前的旧册留存于 `textbooks-old/`），同时产出版权页版次校验与映射报告（`.scratch/smartedu-report.json`）。**版本基线（D-034，2026-10-31）**：义务教育段采用依据 2022 年版课程标准修订的新教材（2024 秋一/七年级起，2026 秋全年级覆盖；`editionYear` = 官方启用批次年 2024/2025/2026）；高中为 2019 版（现行最新，不动）。2027 春季才启用的下册（小学四五六下、九下等）新版上线前沿用旧版（D-006「最新可得印次」）。本地命名带学段前缀：小学无前缀、初中 `初中{学科}…`、高中 `高中{学科}…`。每个学段学科选定一个主流版本：
 
 **小学**
 
@@ -173,11 +174,11 @@ python -m http.server 8931
 | 物理 | 人教版 | 6（必修一二三 + 选必一二三） |
 | 化学 / 生物学 / 地理 | 人教版 | 各 5（必修二册 + 选必三册） |
 
-远端仓库还有其他地区版本（北师大版、苏教版、外研社版等）以及「艺术」「书法练习指导」等，全量约 43 GB，本仓库不下载；后续做多版本对齐（见路线图）时再按需补充。
+远端平台还有其他地区版本（北师大版、苏教版、外研社版等）以及「艺术」「书法练习指导」等，本仓库不下载；后续做多版本对齐（见路线图）时再按需补充。换版过渡期（D-034）各册的已切换/待切换状态见 `docs/DECISIONS.md` D-034 与 CHANGELOG。
 
 ## 数据来源与版权（重要）
 
-- **教材**：单元结构以人教版/统编版教材（2022 课标版等）为骨架整理。教材 PDF 文件（整册电子书）不收录、不分发，版权属于人民教育出版社等出版社；`textbooks/` 目录已被 gitignore，仅供本地目录核对。教材**内容**（题目、课文/语篇原文等）的收录原则见下条与 D-031/D-032。
+- **教材**：单元结构以人教版/统编版教材（义务教育 2022 课标修订版、高中 2019 版）为骨架整理，电子教材取自国家中小学智慧教育平台（官方渠道）。教材 PDF 文件（整册电子书）不收录、不分发，版权属于人民教育出版社等出版社；`textbooks/` 目录已被 gitignore，仅供本地目录核对。教材**内容**（题目、课文/语篇原文等）的收录原则见下条与 D-031/D-032。
 - **课标**：课程标准条目采用 **codes-only** 策略——只存自建代码与自拟极简标题，不收录课标原文。义务教育学段（1–9 年级）以《义务教育课程标准（2022 年版）》为准（[教育部官方发布](http://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html)）；高中学段（10–12 年级）以《普通高中课程标准（2017 年版 2020 修订）》为准。
 - **本图谱原创内容**（知识点名称/描述/证据/测评问法、依赖理由、讲解与练习的撰写部分）：以 CC BY-SA 4.0 发布，转载需署名并相同方式共享。**收录的教材内容**（D-031/D-032）：讲解与练习对齐人教版/统编版教材，覆盖教材单元核心知识，教材题优先采用，课文/语篇原文（语文/英语）可直接收录或引用，逐条标注册·页·题号可翻书核对；这些教材内容的权利归人民教育出版社等版权方及原作者，本仓库基于原版教材整理收录，不改变其版权归属。
 
@@ -201,4 +202,4 @@ python -m http.server 8931
 ## 致谢
 
 - 数据模型与验证脚本设计参考 [Marble Skill Taxonomy](https://github.com/withmarbleapp/os-taxonomy)（ODbL 1.0）。
-- 教材资源来自开源社区项目 [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)。
+- 电子教材来自教育部**国家中小学智慧教育平台**（basic.smartedu.cn）；早期建仓阶段的教材资源也曾借助开源社区项目 [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)。
