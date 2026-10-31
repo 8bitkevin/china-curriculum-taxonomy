@@ -3,57 +3,57 @@
   "volume": "数学四年级上册",
   "pdf": {
     "file": "数学四年级上册.pdf",
-    "sha256": "ff30d348d60e2c11f456ec9dd70d5cc7f7da20f4f73192cde729b3b4bb94670d",
-    "pages": 126,
+    "sha256": "b8c56400784534fc89ab2b7c6835d7ade229d158d88f13302c28b2c6c5b3b7e2",
+    "pages": 127,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "大数的认识",
-      "page": 2
+      "title": "万以上数的认识",
+      "page": 1
+    },
+    {
+      "index": null,
+      "title": "1亿有多大",
+      "page": 24
     },
     {
       "index": 2,
-      "title": "公顷和平方千米",
-      "page": 34
+      "title": "角的度量",
+      "page": 28
     },
     {
       "index": 3,
-      "title": "角的度量",
-      "page": 38
+      "title": "多位数乘两位数",
+      "page": 39
     },
     {
       "index": 4,
-      "title": "三位数乘两位数",
-      "page": 47
+      "title": "加法模型和乘法模型",
+      "page": 58
     },
     {
       "index": 5,
       "title": "平行四边形和梯形",
-      "page": 56
+      "page": 70
     },
     {
       "index": 6,
-      "title": "除数是两位数的除法",
-      "page": 71
+      "title": "条形统计图",
+      "page": 88
+    },
+    {
+      "index": null,
+      "title": "寻找宝藏",
+      "page": 102
     },
     {
       "index": 7,
-      "title": "条形统计图",
-      "page": 94
-    },
-    {
-      "index": 8,
-      "title": "数学广角—优化",
-      "page": 104
-    },
-    {
-      "index": 9,
-      "title": "总复习",
-      "page": 109
+      "title": "复习与关联",
+      "page": 108
     }
   ]
 }

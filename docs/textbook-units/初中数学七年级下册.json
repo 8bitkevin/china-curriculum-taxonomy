@@ -3,123 +3,137 @@
   "volume": "初中数学七年级下册",
   "pdf": {
     "file": "初中数学七年级下册.pdf",
-    "sha256": "50a1be6298d151aa3939db4f034a786f315d8c556b468d242eddb1597aa812f9",
-    "pages": 172,
-    "hasTextLayer": false
+    "sha256": "4a0c09828b1e37c2a915b0b5282efb80cd98bdc1aa87f19be68cd14b022881fb",
+    "pages": 202,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-20",
-  "note": "扫描版 PDF 无文本层，单元结构人工整理自公开教材目录；章级结构可靠，节级划分以纸书为准待复核。获得带文本层的 PDF 后可重跑 extract-toc.py 覆盖（source=pdf-text）。",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 5,
-      "title": "相交线与平行线",
-      "sections": [
-        {
-          "no": "5.1",
-          "title": "相交线"
-        },
-        {
-          "no": "5.2",
-          "title": "平行线及其判定"
-        },
-        {
-          "no": "5.3",
-          "title": "平行线的性质"
-        },
-        {
-          "no": "5.4",
-          "title": "平移"
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "title": "实数",
-      "sections": [
-        {
-          "no": "6.1",
-          "title": "平方根"
-        },
-        {
-          "no": "6.2",
-          "title": "立方根"
-        },
-        {
-          "no": "6.3",
-          "title": "实数"
-        }
-      ]
-    },
-    {
       "index": 7,
-      "title": "平面直角坐标系",
+      "title": "相交线与平行线",
+      "page": 1,
       "sections": [
         {
           "no": "7.1",
-          "title": "平面直角坐标系"
+          "title": "相交线",
+          "page": 2
         },
         {
           "no": "7.2",
-          "title": "坐标方法的简单应用"
+          "title": "平行线",
+          "page": 11
+        },
+        {
+          "no": "7.3",
+          "title": "定义、命题、定理",
+          "page": 22
+        },
+        {
+          "no": "7.4",
+          "title": "平移",
+          "page": 26
         }
       ]
     },
     {
       "index": 8,
-      "title": "二元一次方程组",
+      "title": "实数",
+      "page": 39,
       "sections": [
         {
           "no": "8.1",
-          "title": "二元一次方程组"
+          "title": "平方根",
+          "page": 40
         },
         {
           "no": "8.2",
-          "title": "消元——解二元一次方程组"
+          "title": "立方根",
+          "page": 48
         },
         {
           "no": "8.3",
-          "title": "实际问题与二元一次方程组"
-        },
-        {
-          "no": "8.4",
-          "title": "三元一次方程组的解法"
+          "title": "实数及其简单运算",
+          "page": 52
         }
       ]
     },
     {
       "index": 9,
-      "title": "不等式与不等式组",
+      "title": "平面直角坐标系",
+      "page": 63,
       "sections": [
         {
           "no": "9.1",
-          "title": "不等式"
+          "title": "用坐标描述平面内点的位置",
+          "page": 64
         },
         {
           "no": "9.2",
-          "title": "一元一次不等式"
-        },
-        {
-          "no": "9.3",
-          "title": "一元一次不等式组"
+          "title": "坐标方法的简单应用",
+          "page": 72
         }
       ]
     },
     {
       "index": 10,
-      "title": "数据的收集、整理与描述",
+      "title": "二元一次方程组",
+      "page": 87,
       "sections": [
         {
           "no": "10.1",
-          "title": "统计调查"
+          "title": "二元一次方程组的概念",
+          "page": 88
         },
         {
           "no": "10.2",
-          "title": "直方图"
+          "title": "消元———解二元一次方程组",
+          "page": 91
         },
         {
           "no": "10.3",
-          "title": "课题学习 从数据谈节水"
+          "title": "实际问题与二元一次方程组",
+          "page": 101
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "不等式与不等式组",
+      "page": 120,
+      "sections": [
+        {
+          "no": "11.1",
+          "title": "不等式",
+          "page": 121
+        },
+        {
+          "no": "11.2",
+          "title": "一元一次不等式",
+          "page": 131
+        },
+        {
+          "no": "11.3",
+          "title": "一元一次不等式组",
+          "page": 138
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "title": "数据的收集、整理与描述",
+      "page": 150,
+      "sections": [
+        {
+          "no": "12.1",
+          "title": "统计调查",
+          "page": 151
+        },
+        {
+          "no": "12.2",
+          "title": "用统计图描述数据",
+          "page": 160
         }
       ]
     }

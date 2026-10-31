@@ -27,8 +27,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": "数学游戏",
+        "editionYear": 2024
       }
     },
     {
@@ -54,8 +54,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": "数学游戏",
+        "editionYear": 2024
       }
     },
     {
@@ -81,8 +81,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": "数学游戏",
+        "editionYear": 2024
       }
     },
     {
@@ -108,8 +108,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": "数学游戏",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_03"
@@ -138,8 +138,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_01"
@@ -168,8 +168,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -199,8 +199,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -229,8 +229,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -261,8 +261,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_05",
@@ -294,8 +294,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_08",
@@ -327,8 +327,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_05"
@@ -357,8 +357,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       }
     },
     {
@@ -385,8 +385,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_05",
@@ -416,8 +416,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_09",
@@ -448,8 +448,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_14"
@@ -478,8 +478,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_15"
@@ -508,8 +508,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_13"
@@ -538,8 +538,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_17"
@@ -568,8 +568,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_14",
@@ -583,10 +583,10 @@
       "domain": "数与代数",
       "name": "认识钟表：整时",
       "description": "认识钟面上的时针和分针，会认整时：分针指向 12，时针指向几就是几时。能结合生活说出「7 时起床、8 时上课」这样的时间安排。",
-      "grade": 1,
-      "semester": "上",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能区分时针（短粗）和分针（细长）并说出名字",
         "能正确认读钟面上的整时，并会写「7 时」或「7:00」"
@@ -597,10 +597,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 1,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_13"
@@ -613,10 +613,10 @@
       "domain": "数与代数",
       "name": "认识钟表：半时",
       "description": "会认半时：分针指向 6，时针走过几就是几时半。理解「半时」是把 1 时分成两半过了一半，能认读「7 时半」这样的时刻。",
-      "grade": 1,
-      "semester": "上",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能认读半时，并说出「时针走过 2，分针指 6，是 2 时半」",
         "能在钟面上拨出指定的整时和半时"
@@ -627,10 +627,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 1,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_20"
@@ -659,8 +659,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_13",
@@ -690,8 +690,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_22"
@@ -721,8 +721,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_19",
@@ -753,7 +753,7 @@
         "grade": 1,
         "volume": "下",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -783,7 +783,7 @@
         "grade": 1,
         "volume": "下",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -813,7 +813,7 @@
         "grade": 1,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_24"
@@ -843,7 +843,7 @@
         "grade": 1,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_03"
@@ -873,7 +873,7 @@
         "grade": 1,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_04"
@@ -886,10 +886,10 @@
       "domain": "统计与概率",
       "name": "分类与整理（按标准分类）",
       "description": "把一堆物品按给定标准分类（如按颜色、按形状），再自定标准分类，并把分类结果整理成图或表。分类是统计的起点：先会「分」，才会「数」和「比」。",
-      "grade": 1,
-      "semester": "下",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能按指定标准把物品分堆，做到不重不漏",
         "能换一个标准重新分一次，并说出两次分法的不同"
@@ -900,10 +900,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 1,
-        "volume": "下",
-        "unit": 3,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -916,10 +916,10 @@
       "domain": "统计与概率",
       "name": "象形统计图与简单统计表",
       "description": "把分类结果「一个对一个」摆成一列列的图（象形统计图），或填成带数字的表格（简单统计表），直观比较「谁多谁少、多几个」。第一次经历「收集—整理—表达—分析」的完整统计过程。",
-      "grade": 1,
-      "semester": "下",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能把分类结果整理成象形图，并回答「哪种最多、多几辆」",
         "能按表格要求把数填对，并根据表提出一个数学问题"
@@ -931,10 +931,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 1,
-        "volume": "下",
-        "unit": 3,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -964,8 +964,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_17"
@@ -995,8 +995,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_18",
@@ -1026,8 +1026,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_06",
@@ -1058,8 +1058,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_08"
@@ -1089,8 +1089,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": "欢乐购物街",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_10"
@@ -1119,8 +1119,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": "欢乐购物街",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_11",
@@ -1150,8 +1150,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_11"
@@ -1180,8 +1180,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_14",
@@ -1211,8 +1211,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_15"
@@ -1241,8 +1241,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_22",
@@ -1273,8 +1273,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_16"
@@ -1333,8 +1333,8 @@
         "publisher": "人教版",
         "grade": 1,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_09"
@@ -1363,8 +1363,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_02"
@@ -1394,8 +1394,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_01"
@@ -1425,8 +1425,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_02"
@@ -1439,10 +1439,10 @@
       "domain": "数与代数",
       "name": "100 以内不进位加法竖式",
       "description": "学习竖式笔算两位数加两位数（不进位）：相同数位对齐，从个位加起，如 34+23。竖式是笔算的基本形式，对齐和顺序两条规则要一开始就规范。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能用竖式正确计算不进位加法，数位对得齐、格式规范",
         "能说出「为什么 3 要和 2 对齐、4 要和 3 对齐」"
@@ -1453,10 +1453,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_15"
@@ -1469,10 +1469,10 @@
       "domain": "数与代数",
       "name": "100 以内进位加法竖式",
       "description": "竖式计算两位数加两位数的进位加法：个位相加满十，向十位进 1（如 36+35=71）。重点养成「进位标记」和「算十位时加进位 1」的习惯，计算后能验算。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能规范书写进位小 1，正确计算进位加法",
         "能用交换加数再算一遍的方法验算结果",
@@ -1485,10 +1485,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_17",
@@ -1502,10 +1502,10 @@
       "domain": "数与代数",
       "name": "100 以内不退位减法竖式",
       "description": "竖式计算两位数减两位数（不退位）：相同数位对齐，从个位减起，如 67-24。规范竖式格式，能结合情境解决「比多少、还剩」的问题。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能用竖式正确计算不退位减法",
         "能列式解决「大船比小船多坐几人」的问题"
@@ -1516,10 +1516,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_16",
@@ -1533,10 +1533,10 @@
       "domain": "数与代数",
       "name": "100 以内退位减法竖式",
       "description": "竖式计算退位减法：个位不够减，从十位退 1 当 10 再减（如 51-36=15）。重点养成「退位点」标记和「十位要先减去退走的 1」的习惯。这是低年级笔算的最大难点之一。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能规范标记退位点，正确计算退位减法",
         "能用「差加减数等于被减数」验算",
@@ -1548,10 +1548,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1b_17",
@@ -1565,10 +1565,10 @@
       "domain": "数与代数",
       "name": "连加、连减和加减混合笔算",
       "description": "用竖式或简便写法计算三个两位数的连加、连减和加减混合（如 28+34+22、82-40-16），学会能口算的步骤用口算简化。能解决「两站上客下客后剩几人」的两步问题。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能正确计算 100 以内连加连减加减混合，会分步列竖式",
         "能解决乘车问题：「车上原有 67 人，下 25 人上 28 人，现在几人」"
@@ -1580,10 +1580,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g2a_05",
@@ -1597,10 +1597,10 @@
       "domain": "数与代数",
       "name": "求比一个数多（少）几的数",
       "description": "分析「比一个数多几/少几」的数量关系：知道「红花比黄花多 7 朵」，求红花就是用加法（大数=小数+相差数）。与一年级「求相差数」相反方向，是低年级应用题的重点题型。",
-      "grade": 2,
-      "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
       "evidence": [
         "能画示意图（一一对应摆条形）表示「谁多谁少、相差几」",
         "能正确判断用加法还是减法，并说清理由",
@@ -1612,10 +1612,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 1,
+        "volume": "下",
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g1a_02",
@@ -1629,10 +1629,10 @@
       "domain": "图形与几何",
       "name": "角的初步认识",
       "description": "认识角：一个顶点、两条边；会从实物和图形中辨认角，知道角的大小与边画得长短无关，与两边张开程度有关；会画角、数角。",
-      "grade": 2,
+      "grade": 3,
       "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "能指出角的顶点和边，正确数出图中角的个数",
         "能用活动角演示「张口越大角越大」，并说明边变长角不变"
@@ -1643,10 +1643,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -1659,10 +1659,10 @@
       "domain": "图形与几何",
       "name": "直角、锐角、钝角",
       "description": "认识直角，会用三角尺上的直角判断一个角是不是直角；直观辨认比直角小的锐角和比直角大的钝角。会在方格纸上画直角。",
-      "grade": 2,
+      "grade": 3,
       "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "会用三角尺的直角比一比，判断直角、锐角、钝角",
         "能在生活中找到直角（书角、门角）并验证"
@@ -1673,10 +1673,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_10"
@@ -1706,8 +1706,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_15"
@@ -1736,8 +1736,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_12"
@@ -1767,8 +1767,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_13"
@@ -1798,8 +1798,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_14"
@@ -1812,10 +1812,10 @@
       "domain": "图形与几何",
       "name": "观察物体（一）：从不同方向看",
       "description": "观察实物和立体图形，发现从前后左右不同方向看到的形状不同；能辨认从某个方向看到的图是什么样子。初步发展空间观念和「换位观察」意识。",
-      "grade": 2,
+      "grade": 3,
       "semester": "上",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "能判断一张照片是从物体的哪一面拍的",
         "四个方向观察同一个玩具，能画出/选出每个方向看到的样子"
@@ -1826,10 +1826,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_12"
@@ -1859,8 +1859,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_15"
@@ -1889,8 +1889,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_17"
@@ -1920,8 +1920,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_18"
@@ -1935,7 +1935,7 @@
       "name": "认识时间：时与分",
       "description": "认识时间单位时和分：钟面上一大格是 5 分，一圈 60 分；知道 1 时=60 分。会读写几时几分（分针走过几个大格就是几个 5 分）。",
       "grade": 2,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -1950,9 +1950,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_21",
@@ -1967,7 +1967,7 @@
       "name": "时间的计算与合理安排",
       "description": "计算简单经过时间（如 8:20 到 9:00 经过了 40 分），并能结合作息表合理安排时间。把钟表知识与加减法结合，是「量」的第一次综合计算应用。",
       "grade": 2,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -1981,9 +1981,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_20"
@@ -2012,8 +2012,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_03"
@@ -2026,10 +2026,10 @@
       "domain": "统计与概率",
       "name": "数据的调查与记录",
       "description": "经历简单的数据收集过程：用举手、投票等方式调查全班同学最喜欢的水果，并用画「正」字、画√、画圈等方法动态记录数据，最后整理成统计表并回答问题。",
-      "grade": 2,
+      "grade": 3,
       "semester": "下",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "会用画「正」字的方法记录现场收集的数据",
         "能根据记录填写统计表，并回答「最多的比最少的多几人」"
@@ -2040,10 +2040,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "下",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_07"
@@ -2057,7 +2057,7 @@
       "name": "平均分",
       "description": "理解平均分：每份分得同样多。能把 12 个苹果平均分成 3 份（每份 4 个），也能按每 2 个一份去分（分成 6 份）。平均分是除法概念的基础，动手分的过程比结论更重要。",
       "grade": 2,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -2071,9 +2071,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "下",
-        "unit": 2,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1a_02"
@@ -2087,7 +2087,7 @@
       "name": "除法的初步认识",
       "description": "认识除法：把平均分的过程用除法算式表示（12÷3=4），认识除号，知道算式各部分名称（被除数、除数、商），能说出算式表示「把 12 平均分成 3 份，每份是 4」。",
       "grade": 2,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -2101,9 +2101,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "下",
-        "unit": 2,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_02"
@@ -2117,7 +2117,7 @@
       "name": "用 2~6 的乘法口诀求商",
       "description": "用「想乘算除」求商：算 12÷3，想「三（四）十二」，商是 4。体会乘除法互逆关系，熟练计算表内除法（2~6 部分），并解决「平均分后每份几、能分几份」的问题。",
       "grade": 2,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -2133,9 +2133,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "下",
-        "unit": 2,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_14",
@@ -2149,10 +2149,10 @@
       "domain": "图形与几何",
       "name": "轴对称图形初步",
       "description": "通过折纸、剪窗花认识轴对称图形：对折后完全重合的图形是轴对称图形，折痕是对称轴。能辨认轴对称图形，能找出或画出简单图形的对称轴。",
-      "grade": 2,
+      "grade": 3,
       "semester": "下",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "能用对折的方法检验并挑出轴对称图形",
         "能剪出一个轴对称图形（先对折再剪）并指出对称轴",
@@ -2164,10 +2164,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "下",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_02"
@@ -2180,10 +2180,10 @@
       "domain": "图形与几何",
       "name": "平移与旋转初步",
       "description": "直观认识平移（物体沿直线移动，如推拉窗、电梯）和旋转（绕一点转动，如风车、摩天轮），能区分并举例，能在方格纸上判断图形平移几格后的位置。",
-      "grade": 2,
+      "grade": 3,
       "semester": "下",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "能判断常见物体的运动是平移还是旋转并说明理由",
         "能在方格纸上把简单图形平移几格并画出"
@@ -2194,10 +2194,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
+        "grade": 3,
         "volume": "下",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -2211,7 +2211,7 @@
       "name": "用 7~9 的乘法口诀求商",
       "description": "用 7~9 的口诀求商（如 56÷8 想「七八五十六」），至此表内除法全部学完。要求达到「乘法口诀及其逆用」整体熟练：给一句口诀能写两乘两除四个算式。",
       "grade": 2,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 7,
       "ageRangeEnd": 8,
       "evidence": [
@@ -2225,9 +2225,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 2,
-        "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_19",
@@ -2257,8 +2257,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_12",
@@ -2272,10 +2272,10 @@
       "domain": "数与代数",
       "name": "混合运算的顺序",
       "description": "掌握两级运算的运算顺序：只有加减或只有乘除，从左到右；有乘除又有加减，先算乘除后算加减；有括号先算括号里的。会写脱式计算的过程（等号对齐，一步步算）。",
-      "grade": 2,
-      "semester": "下",
-      "ageRangeStart": 7,
-      "ageRangeEnd": 8,
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
       "evidence": [
         "能正确判断先算什么，并规范写出脱式过程",
         "对比题如 24-8+4 和 24-(8+4)、5×8-6 和 5×(8-6) 都能算对",
@@ -2287,10 +2287,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 2,
-        "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "grade": 3,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_18",
@@ -2320,8 +2320,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_19",
@@ -2351,8 +2351,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_10"
@@ -2382,8 +2382,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_04",
@@ -2414,8 +2414,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_10"
@@ -2445,8 +2445,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_13"
@@ -2475,8 +2475,8 @@
         "publisher": "人教版",
         "grade": 2,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_14",
@@ -2551,10 +2551,10 @@
       "domain": "数与代数",
       "name": "秒的认识",
       "description": "认识比分更小的时间单位「秒」：秒针走 1 小格是 1 秒，1 分 = 60 秒。孩子开始体会「很短的时间」有多长，为后面计算经过时间打地基。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能指出钟面上走的最快的针是秒针，说出 1 分 = 60 秒",
         "能做 1 秒的动作估计（眨眼、拍手）并选择合适的时间单位"
@@ -2565,10 +2565,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_20"
@@ -2581,10 +2581,10 @@
       "domain": "数与代数",
       "name": "经过时间的简单计算",
       "description": "会算「从 8:20 到 9:05 经过了多少分」这类问题：看钟面数格，或用结束时刻减开始时刻。这是安排作息、看时刻表的基本功。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能结合钟面或线段图算出经过时间",
         "能进行时、分、秒之间的简单换算（如 2 分 = 120 秒）"
@@ -2595,10 +2595,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": "时间在哪里",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_21",
@@ -2612,10 +2612,10 @@
       "domain": "数与代数",
       "name": "两位数加、减两位数口算",
       "description": "不用竖式，直接口算 35+24、62-38 这类题：先拆成整十数和个位分别算。口算熟了，后面估算和生活中算账才快。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能说清 35+24 先算 30+20、再算 5+4 的过程",
         "两位数加减两位数口算 10 题对 9 题以上"
@@ -2626,10 +2626,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_17",
@@ -2643,10 +2643,10 @@
       "domain": "数与代数",
       "name": "几百几十加、减几百几十",
       "description": "笔算 380+540、710-380 这样的数：把百以内竖式的进位退位经验搬到千以内。它是万以内加减法大军的先头部队。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能正确笔算几百几十加减几百几十（含进位、退位）",
         "能用自己的话讲清「十位满十向百位进一」的道理"
@@ -2657,10 +2657,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_05",
@@ -2675,10 +2675,10 @@
       "domain": "数与代数",
       "name": "加减法估算与「够不够」问题",
       "description": "把数看成整十、整百来估：293+418 大约是 700。解决「带 600 元够不够」这类问题时，估算比精算更快。这是第一次把「大约」变成正式本领。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能把三位数看成接近的整百整十数再估算",
         "能判断实际问题该精算还是估算，并说清理由"
@@ -2689,10 +2689,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_14",
@@ -2723,7 +2723,7 @@
         "grade": 3,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_02"
@@ -2753,7 +2753,7 @@
         "grade": 3,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_06"
@@ -2783,7 +2783,7 @@
         "grade": 3,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_02",
@@ -2814,7 +2814,7 @@
         "grade": 3,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_16"
@@ -2844,7 +2844,7 @@
         "grade": 3,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_08",
@@ -2858,10 +2858,10 @@
       "domain": "数与代数",
       "name": "三位数加三位数（连续进位）与验算",
       "description": "笔算 458+767 这样多次进位的加法，并学会用交换加数再加一遍来验算。万以内加法在这里到达最难处，靠的是「满十进一」不遗漏。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "连续进位加法 10 题对 9 题以上，进位点规范",
         "会自觉验算并能说出验算的依据"
@@ -2872,10 +2872,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
+        "grade": 2,
+        "volume": "下",
         "unit": 4,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_05",
@@ -2889,10 +2889,10 @@
       "domain": "数与代数",
       "name": "三位数减三位数（连续退位、中间有 0）与验算",
       "description": "笔算 503-348 这种要连续退位、被减数中间有 0 的减法：个位不够减要向十位借，十位是 0 还得先向百位借。这是小学整数笔算的最后难关。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "连续退位和中间有 0 的减法 10 题对 9 题以上",
         "能用差加减数（或被减数减差）验算"
@@ -2903,10 +2903,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
+        "grade": 2,
+        "volume": "下",
         "unit": 4,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_07",
@@ -2921,10 +2921,10 @@
       "domain": "数与代数",
       "name": "解决问题：精算与估算的选择",
       "description": "面对实际问题先判断「要准确答案还是大约就行」，再选精算或估算，并检查结果合不合理。会选方法比会算更进阶。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能说清某问题为什么用估算（如只问够不够）",
         "估算方向会「往大估」检验够用、往小估检验不够"
@@ -2935,10 +2935,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
+        "grade": 2,
+        "volume": "下",
         "unit": 4,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_05",
@@ -2953,10 +2953,10 @@
       "domain": "数与代数",
       "name": "倍的认识",
       "description": "「4 的 3 倍」就是 3 个 4。倍是比较两个数量关系的新语言：不再问「多多少」，而是问「是谁的几倍」。它是后续份总问题、比例的种子。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能用圈一圈、摆一摆表示「A 是 B 的几倍」",
         "能说出倍数关系中谁是 1 份（标准量）"
@@ -2967,10 +2967,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_08"
@@ -2983,10 +2983,10 @@
       "domain": "数与代数",
       "name": "求一个数是另一个数的几倍",
       "description": "「18 是 6 的几倍」用除法算：18 ÷ 6 = 3。求倍数就是求「有几个这么多」，除法从「平均分」又多了一个新身份。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能正确列除法算式求倍数并带单位作答",
         "能先找标准量再列式，而不是拿到数就乱除"
@@ -2997,10 +2997,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_03",
@@ -3014,10 +3014,10 @@
       "domain": "数与代数",
       "name": "求一个数的几倍是多少",
       "description": "「6 的 5 倍是多少」用乘法算：6 × 5 = 30。已知 1 份求几份，乘法接手——倍的三种问题（认倍、求倍数、求几倍）就此闭环。",
-      "grade": 3,
-      "semester": "上",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能区分「求几倍」用除法、「求几倍是多少」用乘法",
         "能借助线段图分析倍数问题"
@@ -3028,10 +3028,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "grade": 2,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_12",
@@ -3062,8 +3062,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_12",
@@ -3093,8 +3093,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_04",
@@ -3125,8 +3125,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_11",
@@ -3156,8 +3156,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_19"
@@ -3186,8 +3186,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_17",
@@ -3217,8 +3217,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_08",
@@ -3249,8 +3249,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_22"
@@ -3264,7 +3264,7 @@
       "name": "四边形与长方形、正方形的特征",
       "description": "四边形有 4 条直边、4 个角；长方形对边相等、4 个角都是直角，正方形 4 条边都相等。从「认得出」升级到「说得清特征」。",
       "grade": 3,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -3278,9 +3278,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_01"
@@ -3294,7 +3294,7 @@
       "name": "周长的认识",
       "description": "绕图形一周的长度叫周长：可以用尺量、用线围再拉直。周长是一维的「一周长多少」，别跟 later 的面积（面有多大）混为一谈。",
       "grade": 3,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -3308,9 +3308,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_02",
@@ -3325,7 +3325,7 @@
       "name": "长方形和正方形的周长",
       "description": "长方形周长 =（长 + 宽）× 2，正方形周长 = 边长 × 4。公式是「把 4 条边加起来」的快捷方式，理解了就不怕忘。",
       "grade": 3,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -3339,9 +3339,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_25"
@@ -3355,7 +3355,7 @@
       "name": "周长问题的灵活应用",
       "description": "用同样的小正方形拼大图形，怎样拼周长最短？不规则图形怎样转化成规则图形求周长？拼拼剪剪中练空间推理。",
       "grade": 3,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -3369,9 +3369,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_26"
@@ -3400,8 +3400,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_02",
@@ -3431,8 +3431,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_28"
@@ -3461,8 +3461,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_29"
@@ -3491,8 +3491,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": 8,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_28",
@@ -3537,10 +3537,10 @@
       "domain": "图形与几何",
       "name": "认识东、南、西、北",
       "description": "太阳从东边升起：面向北时，背后是南、左是西、右是东。地图通常按「上北下南、左西右东」画。方位从自身前后左右升级到地球方向。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "能指定一个方向后说出其余三个方向",
         "能把地图方向（上北下南）与现实方向对应起来"
@@ -3551,10 +3551,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 1,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": "寻找宝藏",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g1a_04",
@@ -3568,10 +3568,10 @@
       "domain": "图形与几何",
       "name": "东北、东南、西北、西南与路线描述",
       "description": "在东和北之间的方向叫东北……八方齐全后，就能说清「从家向东南走 200 米到学校」这样的路线。方向 + 距离 = 一张活的地图。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "能说出八个方向并指出两方向之间的斜向方位",
         "能看简单的方向板/平面图描述行走路线"
@@ -3582,10 +3582,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 1,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": "寻找宝藏",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_01"
@@ -3615,7 +3615,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_04",
@@ -3646,7 +3646,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_12",
@@ -3677,7 +3677,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_14",
@@ -3708,7 +3708,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_11",
@@ -3740,7 +3740,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_21",
@@ -3771,7 +3771,7 @@
         "grade": 3,
         "volume": "下",
         "unit": 2,
-        "editionYear": 2022
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2b_09",
@@ -3801,8 +3801,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_07",
@@ -3816,10 +3816,10 @@
       "domain": "数与代数",
       "name": "口算乘法：两位数、整百数乘整十数",
       "description": "口算 15×3、300×30：拆开算或先算 3×3 再添两个 0。乘数从一位扩大到整十，口算的「先算数、再添 0」策略继续管用。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "整十数乘整十数等口算 10 题对 9 题以上",
         "能讲清 300×30 先算 3×3=9、末尾添 3 个 0 的道理"
@@ -3830,10 +3830,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_17"
@@ -3846,10 +3846,10 @@
       "domain": "数与代数",
       "name": "两位数乘两位数（不进位）",
       "description": "竖式算 23×12：先用 2 乘 23，再用 10 乘 23（错位写），最后相加。理解「为什么第二层积要错一位」就看懂了竖式的灵魂——它其实是把 12 拆成了 10 和 2。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "能正确笔算不进位的两位数乘两位数",
         "能结合点子图解释两层积分别表示什么、为何错位相加"
@@ -3860,10 +3860,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_19",
@@ -3877,10 +3877,10 @@
       "domain": "数与代数",
       "name": "两位数乘两位数（进位）与验算",
       "description": "笔算 37×48 这样层层进位的乘法：两位乘两位的完全体。可以交换两个乘数再乘一遍验算。整数乘法到此进入高原期，熟练度决定后面一切。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "进位的两位数乘两位数 10 题对 9 题以上",
         "会用交换乘数的方法验算"
@@ -3891,10 +3891,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_11"
@@ -3907,10 +3907,10 @@
       "domain": "数与代数",
       "name": "连乘问题与乘法估算",
       "description": "「每箱 24 瓶，25 箱一共多少瓶？」用 24×25 或先算 5 箱再乘 5。连乘问题里藏着「先算谁都是总量」的规律；估算则随时为结果把关。",
-      "grade": 3,
-      "semester": "下",
-      "ageRangeStart": 8,
-      "ageRangeEnd": 9,
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
       "evidence": [
         "能用两种思路解答连乘问题并说明每步含义",
         "能先估算判断结果的大致范围再精算"
@@ -3921,10 +3921,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 3,
-        "volume": "下",
-        "unit": 4,
-        "editionYear": 2022
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_21",
@@ -3955,8 +3955,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_25"
@@ -3985,8 +3985,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_07",
@@ -4016,8 +4016,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_24",
@@ -4047,8 +4047,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3b_15",
@@ -4078,8 +4078,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_26",
@@ -4110,8 +4110,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": "年、月、日的秘密",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_20",
@@ -4141,8 +4141,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": "年、月、日的秘密",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_20",
@@ -4172,8 +4172,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": "年、月、日的秘密",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3a_02",
@@ -4203,8 +4203,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_12",
@@ -4234,8 +4234,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_10",
@@ -4265,8 +4265,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g2a_08",
@@ -4296,8 +4296,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3b_22",
@@ -4419,7 +4419,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g2b_14"
@@ -4449,7 +4449,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_01"
@@ -4479,7 +4479,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g1b_10",
@@ -4510,7 +4510,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_05",
@@ -4541,7 +4541,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_04"
@@ -4571,7 +4571,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_05"
@@ -4584,10 +4584,10 @@
       "domain": "图形与几何",
       "name": "公顷和平方千米",
       "description": "测量土地面积：边长 100 米的正方形是 1 公顷（hm²），1 平方千米 = 100 公顷。天安门广场约 44 公顷——从此大面积有了名字。",
-      "grade": 4,
+      "grade": 5,
       "semester": "上",
-      "ageRangeStart": 9,
-      "ageRangeEnd": 10,
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
       "evidence": [
         "知道 1 公顷 = 10000 平方米、1 平方千米 = 100 公顷",
         "能体会 1 公顷的实际大小（如 400 米跑道围起来的场地）"
@@ -4598,10 +4598,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 4,
+        "grade": 5,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_08",
@@ -4631,8 +4631,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g2a_03"
@@ -4661,8 +4661,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g2a_10",
@@ -4692,8 +4692,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_09"
@@ -4722,8 +4722,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g2a_11",
@@ -4753,8 +4753,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_11"
@@ -4783,8 +4783,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_19",
@@ -4814,8 +4814,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_20",
@@ -4845,8 +4845,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_13"
@@ -4875,8 +4875,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_22",
@@ -4906,8 +4906,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 3,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_22",
@@ -4938,7 +4938,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_08"
@@ -4968,7 +4968,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_12",
@@ -4999,7 +4999,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_24",
@@ -5031,7 +5031,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_20"
@@ -5061,7 +5061,7 @@
         "grade": 4,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_32",
@@ -5245,8 +5245,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g1b_07",
@@ -5276,8 +5276,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": 6,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_28"
@@ -6290,8 +6290,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_12",
@@ -6322,8 +6322,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_01"
@@ -6352,8 +6352,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_17",
@@ -6383,8 +6383,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_10",
@@ -6414,8 +6414,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_04"
@@ -6428,10 +6428,10 @@
       "domain": "图形与几何",
       "name": "用数对确定位置",
       "description": "第 4 列第 3 行记作 (4,3)：先列后行，竖列横行。一个数对锁定一个座位——平面上的点从此有了「门牌号」，这是坐标系的学前班。",
-      "grade": 5,
+      "grade": 6,
       "semester": "上",
-      "ageRangeStart": 10,
-      "ageRangeEnd": 11,
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
       "evidence": [
         "能用数对表示自己或同学的位置",
         "能根据数对在方格纸上找到对应点，并发现同行同列的规律"
@@ -6442,10 +6442,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 5,
+        "grade": 6,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_02"
@@ -6475,7 +6475,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_05",
@@ -6506,7 +6506,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_15",
@@ -6537,7 +6537,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_17",
@@ -6568,7 +6568,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_06",
@@ -6599,7 +6599,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_27",
@@ -6629,8 +6629,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 7,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g2b_17"
@@ -6659,8 +6659,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2022
+        "unit": 7,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_12"
@@ -6690,7 +6690,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_06"
@@ -6720,7 +6720,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_01",
@@ -6751,7 +6751,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_15"
@@ -6781,7 +6781,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_16"
@@ -6811,7 +6811,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 5,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_22",
@@ -6842,7 +6842,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 6,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_16",
@@ -6873,7 +6873,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 6,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4b_19",
@@ -6904,7 +6904,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 6,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_20"
@@ -6934,7 +6934,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 6,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g4a_07",
@@ -6965,7 +6965,7 @@
         "grade": 5,
         "volume": "上",
         "unit": 6,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_14",
@@ -7886,8 +7886,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_01",
@@ -7917,8 +7917,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_01"
@@ -7947,8 +7947,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_04",
@@ -7978,8 +7978,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5b_03",
@@ -8009,8 +8009,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2022
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_16",
@@ -8040,8 +8040,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3b_02",
@@ -8071,8 +8071,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2022
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_06"
@@ -8102,7 +8102,7 @@
         "grade": 6,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_01"
@@ -8132,7 +8132,7 @@
         "grade": 6,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_04",
@@ -8163,7 +8163,7 @@
         "grade": 6,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_03",
@@ -8194,7 +8194,7 @@
         "grade": 6,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_18",
@@ -8226,7 +8226,7 @@
         "grade": 6,
         "volume": "上",
         "unit": 3,
-        "editionYear": 2022
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_11"
@@ -8348,8 +8348,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g1b_01",
@@ -8379,8 +8379,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_25",
@@ -8410,8 +8410,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_19",
@@ -8441,8 +8441,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 5,
-        "editionYear": 2022
+        "unit": 4,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_22",
@@ -8472,8 +8472,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5b_11",
@@ -8503,8 +8503,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5b_16",
@@ -8534,8 +8534,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_15",
@@ -8565,8 +8565,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_05",
@@ -8596,8 +8596,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": 6,
-        "editionYear": 2022
+        "unit": 5,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_23"
@@ -9564,7 +9564,7 @@
         "grade": 7,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2012
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6b_01"
@@ -9594,7 +9594,7 @@
         "grade": 7,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2012
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6b_17",
@@ -9625,7 +9625,7 @@
         "grade": 7,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2012
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6b_02",
@@ -9656,7 +9656,7 @@
         "grade": 7,
         "volume": "上",
         "unit": 1,
-        "editionYear": 2012
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_03"
@@ -9685,8 +9685,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2012
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_06",
@@ -9716,8 +9716,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2012
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_05"
@@ -9746,8 +9746,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2012
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6a_04",
@@ -9777,8 +9777,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2012
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_07"
@@ -9807,8 +9807,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 1,
-        "editionYear": 2012
+        "unit": 2,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_04",
@@ -9838,8 +9838,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2012
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g5a_14"
@@ -9868,8 +9868,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2012
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_10"
@@ -9898,8 +9898,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2012
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_09",
@@ -9929,8 +9929,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 2,
-        "editionYear": 2012
+        "unit": 4,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6a_26",
@@ -9960,8 +9960,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2012
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g5a_15",
@@ -9991,8 +9991,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2012
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_12",
@@ -10022,8 +10022,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2012
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_15"
@@ -10052,8 +10052,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2012
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_17",
@@ -10084,8 +10084,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 3,
-        "editionYear": 2012
+        "unit": 5,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6b_04",
@@ -10115,8 +10115,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g5b_06"
@@ -10145,8 +10145,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_05",
@@ -10176,8 +10176,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_08"
@@ -10206,8 +10206,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g2a_02",
@@ -10237,8 +10237,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_10",
@@ -10268,8 +10268,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_11",
@@ -10299,8 +10299,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": 4,
-        "editionYear": 2012
+        "unit": 6,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_19",
@@ -10330,8 +10330,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_24"
@@ -10360,8 +10360,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_19",
@@ -10391,8 +10391,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_01"
@@ -10421,8 +10421,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_18",
@@ -10452,8 +10452,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_04"
@@ -10482,8 +10482,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_05"
@@ -10512,8 +10512,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 5,
-        "editionYear": 2012
+        "unit": 7,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_28",
@@ -10543,8 +10543,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2012
+        "unit": 8,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_08"
@@ -10573,8 +10573,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2012
+        "unit": 8,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_08"
@@ -10603,8 +10603,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2012
+        "unit": 8,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_04",
@@ -10634,8 +10634,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 6,
-        "editionYear": 2012
+        "unit": 8,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_10"
@@ -10664,8 +10664,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2012
+        "unit": 9,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g5a_06",
@@ -10695,8 +10695,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2012
+        "unit": 9,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6a_06",
@@ -10726,8 +10726,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 7,
-        "editionYear": 2012
+        "unit": 9,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_07",
@@ -10757,8 +10757,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 8,
-        "editionYear": 2012
+        "unit": 10,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_15"
@@ -10787,8 +10787,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 8,
-        "editionYear": 2012
+        "unit": 10,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_15"
@@ -10817,8 +10817,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 8,
-        "editionYear": 2012
+        "unit": 10,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_16"
@@ -10847,8 +10847,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 8,
-        "editionYear": 2012
+        "unit": 10,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_31",
@@ -10879,8 +10879,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 8,
-        "editionYear": 2012
+        "unit": 10,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_18"
@@ -10909,8 +10909,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 9,
-        "editionYear": 2012
+        "unit": 11,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g6b_02",
@@ -10940,8 +10940,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 9,
-        "editionYear": 2012
+        "unit": 11,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_16",
@@ -10971,8 +10971,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 9,
-        "editionYear": 2012
+        "unit": 11,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_21"
@@ -11001,8 +11001,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 9,
-        "editionYear": 2012
+        "unit": 11,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7a_18",
@@ -11032,8 +11032,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 10,
-        "editionYear": 2012
+        "unit": 12,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4a_28"
@@ -11062,8 +11062,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 10,
-        "editionYear": 2012
+        "unit": 12,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g4b_30",
@@ -11093,8 +11093,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": 10,
-        "editionYear": 2012
+        "unit": 12,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_g7b_25"
@@ -11891,8 +11891,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 16,
-        "editionYear": 2012
+        "unit": 19,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_08"
@@ -11921,8 +11921,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 16,
-        "editionYear": 2012
+        "unit": 19,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_01"
@@ -11951,8 +11951,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 16,
-        "editionYear": 2012
+        "unit": 19,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_02"
@@ -11981,8 +11981,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 16,
-        "editionYear": 2012
+        "unit": 19,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7a_12",
@@ -12012,8 +12012,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 17,
-        "editionYear": 2012
+        "unit": 20,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g6a_26",
@@ -12044,8 +12044,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 17,
-        "editionYear": 2012
+        "unit": 20,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_05"
@@ -12074,8 +12074,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 17,
-        "editionYear": 2012
+        "unit": 20,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g5b_06",
@@ -12105,8 +12105,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g4a_20",
@@ -12136,8 +12136,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_08"
@@ -12166,8 +12166,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8a_02",
@@ -12197,8 +12197,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_09"
@@ -12227,8 +12227,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_11"
@@ -12257,8 +12257,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 18,
-        "editionYear": 2012
+        "unit": 21,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8a_09",
@@ -12288,8 +12288,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g5a_14",
@@ -12319,8 +12319,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g6b_12",
@@ -12350,8 +12350,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_12",
@@ -12381,8 +12381,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_16"
@@ -12411,8 +12411,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_17",
@@ -12442,8 +12442,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_22",
@@ -12473,8 +12473,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 19,
-        "editionYear": 2012
+        "unit": 23,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_23",
@@ -12504,8 +12504,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 20,
-        "editionYear": 2012
+        "unit": 24,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g4b_29"
@@ -12534,8 +12534,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 20,
-        "editionYear": 2012
+        "unit": 24,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_21"
@@ -12564,8 +12564,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 20,
-        "editionYear": 2012
+        "unit": 24,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g8b_22"
@@ -12594,8 +12594,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 20,
-        "editionYear": 2012
+        "unit": 24,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_24",
@@ -12625,8 +12625,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 20,
-        "editionYear": 2012
+        "unit": 24,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g7b_26",
@@ -12656,8 +12656,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g7a_15",
@@ -12687,8 +12687,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8b_02",
@@ -12718,8 +12718,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8b_05",
@@ -12749,8 +12749,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8a_18",
@@ -12780,8 +12780,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_03"
@@ -12810,8 +12810,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 21,
-        "editionYear": 2012
+        "unit": 25,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g7a_17",
@@ -12841,8 +12841,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8a_11",
@@ -12872,8 +12872,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8b_16",
@@ -12903,8 +12903,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_02",
@@ -12934,8 +12934,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_09"
@@ -12964,8 +12964,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_03",
@@ -12995,8 +12995,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 22,
-        "editionYear": 2012
+        "unit": 26,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_11"
@@ -13025,8 +13025,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 23,
-        "editionYear": 2012
+        "unit": 28,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5b_18",
@@ -13056,8 +13056,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 23,
-        "editionYear": 2012
+        "unit": 28,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8b_08",
@@ -13087,8 +13087,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 23,
-        "editionYear": 2012
+        "unit": 28,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5b_19",
@@ -13118,8 +13118,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_16"
@@ -13148,8 +13148,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8a_12",
@@ -13180,8 +13180,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_17"
@@ -13210,8 +13210,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 30,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_18"
@@ -13240,8 +13240,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 30,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8a_07",
@@ -13271,8 +13271,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8a_04",
@@ -13302,8 +13302,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6a_17",
@@ -13333,8 +13333,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": 24,
-        "editionYear": 2012
+        "unit": 29,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_20",
@@ -17432,8 +17432,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "汉语拼音",
-        "editionYear": 2016
+        "unit": "第二单元·汉语拼音",
+        "editionYear": 2024
       }
     },
     {
@@ -17459,8 +17459,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "汉语拼音",
-        "editionYear": 2016
+        "unit": "第二单元·汉语拼音",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_01"
@@ -17489,8 +17489,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "汉语拼音",
-        "editionYear": 2016
+        "unit": "第四单元·汉语拼音",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_02"
@@ -17519,8 +17519,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "汉语拼音",
-        "editionYear": 2016
+        "unit": "第四单元·汉语拼音",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_03"
@@ -17549,8 +17549,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "汉语拼音",
-        "editionYear": 2016
+        "unit": "第三单元·汉语拼音",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_02",
@@ -17580,8 +17580,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       }
     },
     {
@@ -17607,8 +17607,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_06"
@@ -17637,8 +17637,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_01"
@@ -17667,8 +17667,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（二）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_08"
@@ -17697,8 +17697,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（二）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_09"
@@ -17727,8 +17727,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_08"
@@ -17758,8 +17758,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_03",
@@ -17790,8 +17790,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_12"
@@ -17821,8 +17821,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_11"
@@ -17851,8 +17851,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_12",
@@ -17882,8 +17882,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（二）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_11",
@@ -17914,8 +17914,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（二）",
-        "editionYear": 2016
+        "unit": "第七单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_13"
@@ -17944,8 +17944,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_11"
@@ -17974,8 +17974,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_18"
@@ -18004,8 +18004,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（一）",
-        "editionYear": 2016
+        "unit": "第五单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_18"
@@ -18034,8 +18034,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "课文（二）",
-        "editionYear": 2016
+        "unit": "第七单元·阅读",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_14",
@@ -18065,8 +18065,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（二）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_10",
@@ -18096,8 +18096,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第一单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_13"
@@ -18126,8 +18126,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（一）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_13"
@@ -18156,8 +18156,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "识字（二）",
-        "editionYear": 2016
+        "unit": "第六单元·识字",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_yw_g1a_07",
@@ -47949,8 +47949,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "第一单元 我是小学生啦",
-        "editionYear": 2016
+        "unit": 1,
+        "editionYear": 2024
       }
     },
     {
@@ -47976,8 +47976,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "上",
-        "unit": "安全与生活单元",
-        "editionYear": 2016
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_zz_g1a_01"
@@ -47990,10 +47990,10 @@
       "domain": "中华优秀传统文化与革命传统",
       "name": "欢欢喜喜迎新年",
       "description": "了解春节元宵等传统新年的习俗（贴春联、拜年、团圆饭）与家庭亲情。文化启蒙第一课——在过年里认识「家」与「传统」。",
-      "grade": 1,
+      "grade": 2,
       "semester": "上",
-      "ageRangeStart": 6,
-      "ageRangeEnd": 7,
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
       "evidence": [
         "能说出三种新年习俗",
         "能向长辈正确拜年问好"
@@ -48005,10 +48005,10 @@
       ],
       "textbook": {
         "publisher": "统编版",
-        "grade": 1,
+        "grade": 2,
         "volume": "上",
-        "unit": "第四单元 我们在一起/新年主题",
-        "editionYear": 2016
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g1a_01"
@@ -48097,8 +48097,8 @@
         "publisher": "统编版",
         "grade": 2,
         "volume": "上",
-        "unit": "我们的班级/集体生活单元",
-        "editionYear": 2017
+        "unit": 2,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g1a_01"
@@ -48127,8 +48127,8 @@
         "publisher": "统编版",
         "grade": 2,
         "volume": "上",
-        "unit": "安全生活单元",
-        "editionYear": 2017
+        "unit": 1,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g1a_02"

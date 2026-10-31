@@ -3,93 +3,142 @@
   "volume": "初中数学八年级下册",
   "pdf": {
     "file": "初中数学八年级下册.pdf",
-    "sha256": "0c9ce86ae90f59091f5c9a2204d3a56cb11fc31da46865c28fa65a18e3ecaedc",
-    "pages": 145,
-    "hasTextLayer": false
+    "sha256": "0a82b2e6e1f0b3dbccdfb3d6afb8b943d9dc5ad04eaa59fc6e787c26d5946adf",
+    "pages": 206,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-20",
-  "note": "扫描版 PDF 无文本层，单元结构人工整理自公开教材目录；章级结构可靠，节级划分以纸书为准待复核。获得带文本层的 PDF 后可重跑 extract-toc.py 覆盖（source=pdf-text）。",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 16,
-      "title": "二次根式",
-      "sections": [
-        {
-          "no": "16.1",
-          "title": "二次根式"
-        },
-        {
-          "no": "16.2",
-          "title": "二次根式的乘除"
-        },
-        {
-          "no": "16.3",
-          "title": "二次根式的加减"
-        }
-      ]
-    },
-    {
-      "index": 17,
-      "title": "勾股定理",
-      "sections": [
-        {
-          "no": "17.1",
-          "title": "勾股定理"
-        },
-        {
-          "no": "17.2",
-          "title": "勾股定理的逆定理"
-        }
-      ]
-    },
-    {
-      "index": 18,
-      "title": "平行四边形",
-      "sections": [
-        {
-          "no": "18.1",
-          "title": "平行四边形"
-        },
-        {
-          "no": "18.2",
-          "title": "特殊的平行四边形"
-        }
-      ]
-    },
-    {
       "index": 19,
-      "title": "一次函数",
+      "title": "二次根式",
+      "page": 1,
       "sections": [
         {
           "no": "19.1",
-          "title": "函数"
+          "title": "二次根式及其性质",
+          "page": 2
         },
         {
           "no": "19.2",
-          "title": "一次函数"
+          "title": "二次根式的乘法与除法",
+          "page": 6
         },
         {
           "no": "19.3",
-          "title": "课题学习 选择方案"
+          "title": "二次根式的加法与减法",
+          "page": 13
         }
       ]
     },
     {
       "index": 20,
-      "title": "数据的分析",
+      "title": "勾股定理",
+      "page": 22,
       "sections": [
         {
           "no": "20.1",
-          "title": "数据的集中趋势"
+          "title": "勾股定理及其应用",
+          "page": 23
         },
         {
           "no": "20.2",
-          "title": "数据的波动程度"
+          "title": "勾股定理的逆定理及其应用",
+          "page": 34
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "title": "四边形",
+      "page": 45,
+      "sections": [
+        {
+          "no": "21.1",
+          "title": "四边形及多边形",
+          "page": 46
         },
         {
-          "no": "20.3",
-          "title": "课题学习 体质健康测试中的数据分析"
+          "no": "21.2",
+          "title": "平行四边形",
+          "page": 55
+        },
+        {
+          "no": "21.3",
+          "title": "特殊的平行四边形",
+          "page": 68
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "title": "函数",
+      "page": 89,
+      "sections": [
+        {
+          "no": "22.1",
+          "title": "函数的概念",
+          "page": 90
+        },
+        {
+          "no": "22.2",
+          "title": "函数的表示",
+          "page": 100
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "title": "一次函数",
+      "page": 113,
+      "sections": [
+        {
+          "no": "23.1",
+          "title": "一次函数的概念",
+          "page": 114
+        },
+        {
+          "no": "23.2",
+          "title": "一次函数的图象和性质",
+          "page": 117
+        },
+        {
+          "no": "23.3",
+          "title": "一次函数与方程(组)、不等式",
+          "page": 127
+        },
+        {
+          "no": "23.4",
+          "title": "实际问题与一次函数",
+          "page": 131
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "title": "数据的分析",
+      "page": 148,
+      "sections": [
+        {
+          "no": "24.1",
+          "title": "数据的集中趋势",
+          "page": 149
+        },
+        {
+          "no": "24.2",
+          "title": "数据的离散程度",
+          "page": 168
+        },
+        {
+          "no": "24.3",
+          "title": "数据的四分位数",
+          "page": 176
+        },
+        {
+          "no": "24.4",
+          "title": "数据的分组",
+          "page": 182
         }
       ]
     }

@@ -83,18 +83,29 @@ def page_texts(pdf: Path) -> list[str]:
 
 
 def front_offset(pdf: Path, units: list[dict]) -> int:
-    """打印页 = pdf 序号 + 1 - off；用各单元标题在正文中的位置校准 off（取中位数）。"""
+    """打印页 = pdf 序号 + 1 - off；用各单元标题在正文中的位置校准 off（取中位数）。
+
+    目录页本身包含全部单元标题，必须跳过：先探测目录页范围，从其后开始找正文首现。"""
     pages = page_texts(pdf)
+    import importlib.util
+    spec = importlib.util.spec_from_file_location(
+        "etoc", str(ROOT / "scripts" / "extract-toc.py"))
+    etoc = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(etoc)
+    doc = fitz.open(pdf)
+    try:
+        toc_last = max(etoc.find_toc_pages(doc), default=-1)
+    finally:
+        doc.close()
     offs: list[int] = []
     for u in units[:8]:
         title = norm_text(u["title"])
-        if len(title) < 4:
+        if len(title) < 4 or not u.get("page"):
             continue
         probe = title[:6]
-        for idx in range(2, len(pages)):
+        for idx in range(max(2, toc_last + 1), len(pages)):
             if probe in pages[idx]:
-                if u.get("page"):
-                    offs.append(idx + 1 - u["page"])
+                offs.append(idx + 1 - u["page"])
                 break
     return int(statistics.median(offs)) if offs else 4
 
@@ -131,6 +142,9 @@ def main() -> int:
             end = (nxt - 1) if nxt else start + 40
             key = str(u["index"]) if u.get("index") is not None else u["title"]
             unit_range[key] = (start, end)
+            # 兼容「第N单元·主题」形式的可读单元值
+            if u.get("index") is not None:
+                unit_range[f"第{u['index']}单元"] = (start, end)
 
         n_ok = n_bad = 0
         for lf in sorted(LESSONS_DIR.glob("*.json")):

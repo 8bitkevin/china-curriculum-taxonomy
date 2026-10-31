@@ -3,17 +3,17 @@
   "volume": "初中数学七年级上册",
   "pdf": {
     "file": "初中数学七年级上册.pdf",
-    "sha256": "cb14b1c61bc4f85e42f714073f67eedd9cfeaacc28bc663b3d68b19b4e8df58a",
-    "pages": 162,
+    "sha256": "6f2a471b07f44a4985756affed9c3c58da7232d205317b1f643b1a865e4e7249",
+    "pages": 202,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "有理数",
-      "page": null,
+      "page": 1,
       "sections": [
         {
           "no": "1.1",
@@ -22,94 +22,108 @@
         },
         {
           "no": "1.2",
-          "title": "有理数",
-          "page": 6
-        },
-        {
-          "no": "1.3",
-          "title": "有理数的加减法",
-          "page": 16
-        },
-        {
-          "no": "1.4",
-          "title": "有理数的乘除法",
-          "page": 28
-        },
-        {
-          "no": "1.5",
-          "title": "有理数的乘方",
-          "page": 41
+          "title": "有理数及其大小比较",
+          "page": 7
         }
       ]
     },
     {
       "index": 2,
-      "title": "整式的加减",
-      "page": null,
+      "title": "有理数的运算",
+      "page": 24,
       "sections": [
         {
           "no": "2.1",
-          "title": "整式",
-          "page": 54
+          "title": "有理数的加法与减法",
+          "page": 25
         },
         {
           "no": "2.2",
-          "title": "整式的加减",
-          "page": 62
+          "title": "有理数的乘法与除法",
+          "page": 38
+        },
+        {
+          "no": "2.3",
+          "title": "有理数的乘方",
+          "page": 51
         }
       ]
     },
     {
       "index": 3,
-      "title": "一元一次方程",
-      "page": null,
+      "title": "代数式",
+      "page": 68,
       "sections": [
         {
           "no": "3.1",
-          "title": "从算式到方程",
-          "page": 78
+          "title": "列代数式表示数量关系",
+          "page": 69
         },
         {
           "no": "3.2",
-          "title": "解一元一次方程(一)",
-          "page": null
-        },
-        {
-          "no": "3.3",
-          "title": "解一元一次方程(二)",
-          "page": null
-        },
-        {
-          "no": "3.4",
-          "title": "实际问题与一元一次方程",
-          "page": 100
+          "title": "代数式的值",
+          "page": 79
         }
       ]
     },
     {
       "index": 4,
-      "title": "几何图形初步",
-      "page": null,
+      "title": "整式的加减",
+      "page": 88,
       "sections": [
         {
           "no": "4.1",
-          "title": "几何图形",
-          "page": 114
+          "title": "整式",
+          "page": 89
         },
         {
           "no": "4.2",
+          "title": "整式的加法与减法",
+          "page": 95
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "一元一次方程",
+      "page": 110,
+      "sections": [
+        {
+          "no": "5.1",
+          "title": "方程",
+          "page": 111
+        },
+        {
+          "no": "5.2",
+          "title": "解一元一次方程",
+          "page": 120
+        },
+        {
+          "no": "5.3",
+          "title": "实际问题与一元一次方程",
+          "page": 133
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "title": "几何图形初步",
+      "page": 149,
+      "sections": [
+        {
+          "no": "6.1",
+          "title": "几何图形",
+          "page": 150
+        },
+        {
+          "no": "6.2",
           "title": "直线、射线、线段",
-          "page": 125
+          "page": 162
         },
         {
-          "no": "4.3",
+          "no": "6.3",
           "title": "角",
-          "page": 132
-        },
-        {
-          "no": "4.4",
-          "title": "课题学习 设计制作长方体形状的包装纸盒",
-          "page": 142
+          "page": 170
         }
       ]
     }

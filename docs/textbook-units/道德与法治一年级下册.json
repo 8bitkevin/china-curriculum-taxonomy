@@ -3,123 +3,118 @@
   "volume": "道德与法治一年级下册",
   "pdf": {
     "file": "道德与法治一年级下册.pdf",
-    "sha256": "6c4a4530c51f4303ed0afffb00b5007077f6b25e8a81442f7a56a608799c09ad",
-    "pages": 78,
+    "sha256": "583f8a6005caed27cba0a1daf5bae351eee01b472ea714739be3981e075bd926",
+    "pages": 70,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "我的好习惯",
-      "page": null,
+      "title": "我有新面貌",
+      "page": 1,
       "sections": [
         {
-          "no": "1",
-          "title": "我们爱整洁",
+          "no": "第1课",
+          "title": "有个新目标",
           "page": 2
         },
         {
-          "no": "2",
-          "title": "我们有精神",
+          "no": "第2课",
+          "title": "做事要仔细",
           "page": 6
         },
         {
-          "no": "3",
-          "title": "我不拖拉",
+          "no": "第3课",
+          "title": "错了就要改",
           "page": 10
         },
         {
-          "no": "4",
-          "title": "不做 “ 小马虎 ”",
+          "no": "第4课",
+          "title": "我们有精神",
           "page": 14
         }
       ]
     },
     {
       "index": 2,
-      "title": "我和大自然",
-      "page": null,
+      "title": "我们一起长大",
+      "page": 17,
       "sections": [
         {
-          "no": "5",
-          "title": "风儿轻轻吹",
+          "no": "第5课",
+          "title": "和大家在一起",
           "page": 18
         },
         {
-          "no": "6",
-          "title": "花儿草儿真美丽",
+          "no": "第6课",
+          "title": "请帮我一下",
           "page": 22
         },
         {
-          "no": "7",
-          "title": "可爱的动物",
+          "no": "第7课",
+          "title": "我们爱分享",
           "page": 26
         },
         {
-          "no": "8",
-          "title": "大自然 ,谢谢您",
+          "no": "第8课",
+          "title": "大家来合作",
           "page": 30
         }
       ]
     },
     {
       "index": 3,
-      "title": "我爱我家",
-      "page": null,
+      "title": "幸福一家人",
+      "page": 33,
       "sections": [
         {
-          "no": "9",
-          "title": "我和我的家",
+          "no": "第9课",
+          "title": "这是我的家",
           "page": 34
         },
         {
-          "no": "10",
-          "title": "家人的爱",
+          "no": "第10课",
+          "title": "相亲相爱一家人",
           "page": 38
         },
         {
-          "no": "11",
+          "no": "第11课",
           "title": "让我自己来整理",
-          "page": 42
+          "page": 41
         },
         {
-          "no": "12",
-          "title": "干点家务活",
-          "page": 46
+          "no": "第12课",
+          "title": "学做家务活",
+          "page": 45
         }
       ]
     },
     {
       "index": 4,
-      "title": "我们在一起",
-      "page": null,
+      "title": "争做中国好儿童",
+      "page": 49,
       "sections": [
         {
-          "no": "13",
-          "title": "我想和你们一起玩",
+          "no": "第13课",
+          "title": "快乐儿童节",
           "page": 50
         },
         {
-          "no": "14",
-          "title": "请帮我一下吧",
+          "no": "第14课",
+          "title": "光荣的少先队",
           "page": 54
         },
         {
-          "no": "15",
-          "title": "分享真快乐",
-          "page": 58
+          "no": "第15课",
+          "title": "戴上红领巾",
+          "page": 57
         },
         {
-          "no": "16",
-          "title": "大家一起来合作",
-          "page": 62
-        },
-        {
-          "no": "17",
-          "title": "我们都是少先队员",
-          "page": 66
+          "no": "第16课",
+          "title": "学先锋做先锋",
+          "page": 60
         }
       ]
     }
