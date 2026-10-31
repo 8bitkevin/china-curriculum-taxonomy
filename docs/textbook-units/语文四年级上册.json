@@ -3,16 +3,16 @@
   "volume": "语文四年级上册",
   "pdf": {
     "file": "语文四年级上册.pdf",
-    "sha256": "0836b8e6449b2467ef13e1a54e61c2f163667de6f5d143107277213a4795dc33",
+    "sha256": "a79c9ef08600c799c5fe455c27cf5c79437cbc668a86aec2cce6b15fdf9f7981",
     "pages": 138,
     "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-28",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "第一单元（自然之美）",
+      "title": "第一单元·阅读",
       "page": 1,
       "sections": [
         {
@@ -22,314 +22,357 @@
         },
         {
           "no": "2",
-          "title": "走月亮",
+          "title": "繁星",
           "page": 5
         },
         {
-          "no": "3*",
-          "title": "现代诗二首（秋晚的江上、花牛歌）",
+          "no": null,
+          "title": "3* 现代诗二首",
+          "page": 7
+        },
+        {
+          "no": null,
+          "title": "秋晚的江上",
+          "page": 7
+        },
+        {
+          "no": null,
+          "title": "花牛歌",
           "page": 8
         },
         {
-          "no": "4*",
-          "title": "繁星",
+          "no": null,
+          "title": "口语交际我们与环境",
+          "page": 9
+        },
+        {
+          "no": null,
+          "title": "习作 推荐一个好地方",
           "page": 10
         },
         {
           "no": null,
-          "title": "◎口语交际：我们与环境",
+          "title": "语文园地",
           "page": 11
-        },
-        {
-          "no": null,
-          "title": "◎习作：推荐一个好地方",
-          "page": 12
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 13
         }
       ]
     },
     {
       "index": 2,
-      "title": "第二单元（策略：提问）",
-      "page": 15,
+      "title": "第二单元·阅读",
+      "page": 13,
       "sections": [
         {
-          "no": "5",
+          "no": "4",
           "title": "一个豆荚里的五粒豆",
-          "page": 16
+          "page": 14
+        },
+        {
+          "no": "5",
+          "title": "夜间飞行的秘密",
+          "page": 19
         },
         {
           "no": "6",
-          "title": "夜间飞行的秘密",
-          "page": 21
+          "title": "方帽子店",
+          "page": 23
         },
         {
-          "no": "7",
-          "title": "呼风唤雨的世纪",
-          "page": 25
-        },
-        {
-          "no": "8*",
-          "title": "蝴蝶的家",
+          "no": null,
+          "title": "7* 田忌赛马",
           "page": 28
         },
         {
           "no": null,
-          "title": "◎习作：小小动物园",
+          "title": "习作 我的家人",
           "page": 30
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 31
         }
       ]
     },
     {
       "index": 3,
-      "title": "第三单元（观察）",
+      "title": "第三单元·阅读",
       "page": 33,
       "sections": [
         {
-          "no": "9",
-          "title": "古诗三首（暮江吟、题西林壁、雪梅）",
+          "no": "8",
+          "title": "古诗三首",
           "page": 34
         },
         {
-          "no": "10",
+          "no": null,
+          "title": "暮江吟",
+          "page": 34
+        },
+        {
+          "no": null,
+          "title": "题西林壁",
+          "page": 34
+        },
+        {
+          "no": null,
+          "title": "雪梅",
+          "page": 35
+        },
+        {
+          "no": "9",
           "title": "爬山虎的脚",
           "page": 36
         },
         {
-          "no": "11",
+          "no": "10",
           "title": "蟋蟀的住宅",
           "page": 39
         },
         {
           "no": null,
-          "title": "◎口语交际：爱护眼睛，保护视力",
+          "title": "口语交际",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "爱护眼睛,保护视力",
           "page": 43
         },
         {
           "no": null,
-          "title": "◎习作：写观察日记",
+          "title": "习作 写观察日记",
           "page": 44
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 45
         }
       ]
     },
     {
       "index": 4,
-      "title": "第四单元（神话）",
+      "title": "第四单元·阅读",
       "page": 47,
       "sections": [
         {
-          "no": "12",
+          "no": "11",
           "title": "盘古开天地",
           "page": 48
         },
         {
-          "no": "13",
+          "no": "12",
           "title": "精卫填海",
           "page": 50
         },
         {
-          "no": "14",
+          "no": "13",
           "title": "普罗米修斯",
           "page": 51
         },
         {
-          "no": "15*",
-          "title": "女娲补天",
+          "no": null,
+          "title": "14* 女娲补天",
           "page": 54
         },
         {
           "no": null,
-          "title": "◎习作：我和__过一天",
+          "title": "习作 我和 过一天",
           "page": 56
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 57
         },
         {
           "no": null,
-          "title": "◎快乐读书吧：很久很久以前",
+          "title": "快乐读书吧",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "很久很久以前",
           "page": 59
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元（习作单元：把事情写清楚）",
+      "title": "第五单元·阅读",
       "page": 61,
       "sections": [
         {
-          "no": "16",
+          "no": "15",
           "title": "麻雀",
           "page": 62
         },
         {
-          "no": "17",
+          "no": "16",
           "title": "爬天都峰",
           "page": 65
         },
         {
           "no": null,
-          "title": "◎习作例文：我家的杏熟了",
+          "title": "习作 生活万花筒",
           "page": 68
         },
         {
           "no": null,
-          "title": "◎习作例文：小木船",
-          "page": 70
+          "title": "我家的杏熟了",
+          "page": 69
         },
         {
           "no": null,
-          "title": "◎习作：生活万花筒",
-          "page": 72
+          "title": "小木船",
+          "page": 71
         }
       ]
     },
     {
       "index": 6,
-      "title": "第六单元（童年生活）",
+      "title": "第六单元·阅读",
       "page": 73,
       "sections": [
         {
-          "no": "18",
-          "title": "牛和鹅",
+          "no": "17",
+          "title": "长城",
           "page": 74
         },
         {
-          "no": "19",
-          "title": "一只窝囊的大老虎",
-          "page": 79
+          "no": "18",
+          "title": "颐和园",
+          "page": 77
         },
         {
-          "no": "20",
-          "title": "陀螺",
+          "no": null,
+          "title": "19* 秦兵马俑",
+          "page": 80
+        },
+        {
+          "no": null,
+          "title": "口语交际我是小小讲解员",
+          "page": 82
+        },
+        {
+          "no": null,
+          "title": "习作 中国的世界文化遗产",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 84
-        },
-        {
-          "no": null,
-          "title": "◎口语交际：安慰",
-          "page": 89
-        },
-        {
-          "no": null,
-          "title": "◎习作：记一次游戏",
-          "page": 90
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 91
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元（家国情怀）",
-      "page": 93,
+      "title": "第七单元·阅读",
+      "page": 87,
       "sections": [
         {
+          "no": "20",
+          "title": "牛和鹅",
+          "page": 88
+        },
+        {
           "no": "21",
-          "title": "古诗三首（出塞、凉州词、夏日绝句）",
-          "page": 94
+          "title": "一只窝囊的大老虎",
+          "page": 93
         },
         {
-          "no": "22",
-          "title": "为中华之崛起而读书",
-          "page": 96
+          "no": null,
+          "title": "22* 陀螺",
+          "page": 98
         },
         {
-          "no": "23*",
-          "title": "梅兰芳蓄须",
-          "page": 99
+          "no": "23",
+          "title": "王戎不取道旁李",
+          "page": 102
         },
         {
-          "no": "24*",
-          "title": "延安，我把你追寻",
+          "no": null,
+          "title": "口语交际安慰",
+          "page": 103
+        },
+        {
+          "no": null,
+          "title": "习作 我的心儿怦怦跳",
           "page": 104
         },
         {
           "no": null,
-          "title": "◎习作：写信",
-          "page": 106
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 107
+          "title": "语文园地",
+          "page": 105
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八单元（历史人物故事）",
-      "page": 109,
+      "title": "第八单元·阅读",
+      "page": 107,
       "sections": [
         {
+          "no": "24",
+          "title": "我将无我,不负人民",
+          "page": 108
+        },
+        {
           "no": "25",
-          "title": "王戎不取道旁李",
+          "title": "为中华之崛起而读书",
           "page": 110
         },
         {
-          "no": "26",
-          "title": "西门豹治邺",
-          "page": 111
-        },
-        {
-          "no": "27*",
-          "title": "故事二则（扁鹊治病、纪昌学射）",
+          "no": null,
+          "title": "26* 延安,我把你追寻",
           "page": 115
         },
         {
+          "no": "27",
+          "title": "古诗三首",
+          "page": 117
+        },
+        {
           "no": null,
-          "title": "◎口语交际：讲历史人物故事",
+          "title": "凉州词",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "出塞",
+          "page": 117
+        },
+        {
+          "no": null,
+          "title": "夏日绝句",
           "page": 118
         },
         {
           "no": null,
-          "title": "◎习作：我的心儿怦怦跳",
+          "title": "习作 写信",
           "page": 119
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 120
-        }
-      ]
-    },
-    {
-      "index": null,
-      "title": "附录",
-      "page": 123,
-      "sections": [
+        },
         {
           "no": null,
           "title": "识字表",
-          "page": 123
+          "page": 122
         },
         {
           "no": null,
           "title": "写字表",
-          "page": 126
+          "page": 125
         },
         {
           "no": null,
           "title": "词语表",
-          "page": 128
+          "page": 127
         }
       ]
     }

@@ -3,333 +3,346 @@
   "volume": "语文五年级上册",
   "pdf": {
     "file": "语文五年级上册.pdf",
-    "sha256": "a63e3a6636e0b4cd77a1e6434d85229ee40f13230fc841cd5f0f056853db7a3d",
-    "pages": 133,
+    "sha256": "86303735a78bed9df039cfb2183c354642d93a5bd6faa2366d94e4196a95b438",
+    "pages": 130,
     "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-28",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "第一单元（一花一鸟总关情）",
+      "title": "第一单元·阅读",
       "page": 1,
       "sections": [
         {
           "no": "1",
-          "title": "白鹭",
+          "title": "桂花雨​",
           "page": 2
         },
         {
           "no": "2",
           "title": "落花生",
-          "page": 4
+          "page": 5
         },
         {
-          "no": "3",
-          "title": "桂花雨",
-          "page": 6
+          "no": null,
+          "title": "3* 珍珠鸟",
+          "page": 7
         },
         {
-          "no": "4",
-          "title": "珍珠鸟",
+          "no": null,
+          "title": "口语交际制定班级公约",
           "page": 9
         },
         {
           "no": null,
-          "title": "◎口语交际：制定班级公约",
+          "title": "习作 我的心爱之物",
+          "page": 10
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 11
-        },
-        {
-          "no": null,
-          "title": "◎习作：我的心爱之物",
-          "page": 12
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 13
         }
       ]
     },
     {
       "index": 2,
-      "title": "第二单元（策略：提高阅读速度）",
-      "page": 15,
+      "title": "第二单元·阅读",
+      "page": 13,
       "sections": [
         {
+          "no": "4",
+          "title": "冀中的地道战",
+          "page": 14
+        },
+        {
           "no": "5",
-          "title": "搭石",
-          "page": 16
+          "title": "将相和",
+          "page": 17
         },
         {
           "no": "6",
-          "title": "将相和",
-          "page": 18
-        },
-        {
-          "no": "7",
           "title": "什么比猎豹的速度更快",
           "page": 22
         },
         {
-          "no": "8",
-          "title": "冀中的地道战",
+          "no": "7",
+          "title": "“诺曼底号”遇难记",
           "page": 25
         },
         {
           "no": null,
-          "title": "◎习作：漫画老师",
-          "page": 28
+          "title": "习作 “漫画”老师",
+          "page": 30
         },
         {
           "no": null,
-          "title": "◎语文园地",
-          "page": 29
+          "title": "语文园地",
+          "page": 31
         }
       ]
     },
     {
       "index": 3,
-      "title": "第三单元（民间故事）",
-      "page": 31,
+      "title": "第三单元·阅读",
+      "page": 33,
       "sections": [
         {
+          "no": "8",
+          "title": "猎人海力布​",
+          "page": 34
+        },
+        {
           "no": "9",
-          "title": "猎人海力布",
-          "page": 32
-        },
-        {
-          "no": "10",
-          "title": "牛郎织女（一）",
-          "page": 35
-        },
-        {
-          "no": "11",
-          "title": "牛郎织女（二）",
-          "page": 40
+          "title": "牛郎织女(一)​",
+          "page": 37
         },
         {
           "no": null,
-          "title": "◎口语交际：讲民间故事",
-          "page": 43
+          "title": "10* 牛郎织女(二)​",
+          "page": 42
         },
         {
           "no": null,
-          "title": "◎习作：缩写故事",
-          "page": 44
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
+          "title": "口语交际讲民间故事",
           "page": 45
         },
         {
           "no": null,
-          "title": "◎快乐读书吧：从前有座山",
+          "title": "习作 故事新编",
+          "page": 46
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 47
+        },
+        {
+          "no": null,
+          "title": "快乐读书吧",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "从前有座山​",
+          "page": 49
         }
       ]
     },
     {
       "index": 4,
-      "title": "第四单元（爱国情怀）",
-      "page": 49,
+      "title": "第四单元·阅读",
+      "page": 51,
       "sections": [
         {
-          "no": "12",
-          "title": "古诗三首（示儿、题临安邸、己亥杂诗）",
-          "page": 50
-        },
-        {
-          "no": "13",
-          "title": "少年中国说（节选）",
+          "no": "11",
+          "title": "古诗三首​",
           "page": 52
         },
         {
-          "no": "14",
-          "title": "圆明园的毁灭",
-          "page": 54
-        },
-        {
-          "no": "15",
-          "title": "小岛",
-          "page": 58
+          "no": null,
+          "title": "示儿​",
+          "page": 52
         },
         {
           "no": null,
-          "title": "◎习作：二十年后的家乡",
+          "title": "题临安邸​",
+          "page": 52
+        },
+        {
+          "no": null,
+          "title": "己亥杂诗​",
+          "page": 53
+        },
+        {
+          "no": "12",
+          "title": "少年中国说(节选)​",
+          "page": 54
+        },
+        {
+          "no": "13",
+          "title": "圆明园的毁灭​",
+          "page": 56
+        },
+        {
+          "no": null,
+          "title": "14* 梅兰芳蓄须明志​",
+          "page": 59
+        },
+        {
+          "no": null,
+          "title": "习作 二十年后的家乡",
           "page": 62
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 63
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元（习作单元：说明文）",
+      "title": "第五单元·阅读",
       "page": 65,
       "sections": [
         {
-          "no": "16",
-          "title": "太阳",
+          "no": "15",
+          "title": "太阳​",
           "page": 66
         },
         {
-          "no": "17",
-          "title": "松鼠",
+          "no": "16",
+          "title": "金字塔​",
           "page": 68
         },
         {
           "no": null,
-          "title": "◎习作例文：鲸",
+          "title": "习作 介绍一种事物",
           "page": 71
         },
         {
           "no": null,
-          "title": "◎习作例文：风向袋的制作",
-          "page": 73
+          "title": "鲸",
+          "page": 72
         },
         {
           "no": null,
-          "title": "◎习作：介绍一种事物",
+          "title": "风向袋的制作",
           "page": 74
         }
       ]
     },
     {
       "index": 6,
-      "title": "第六单元（舐犊之情）",
+      "title": "第六单元·阅读",
       "page": 75,
       "sections": [
         {
-          "no": "18",
-          "title": "慈母情深",
+          "no": "17",
+          "title": "慈母情深​",
           "page": 76
         },
         {
-          "no": "19",
+          "no": "18",
           "title": "父爱之舟",
           "page": 80
         },
         {
-          "no": "20",
-          "title": "精彩极了和糟糕透了",
+          "no": null,
+          "title": "19* 航天员写给孩子的信",
           "page": 84
         },
         {
           "no": null,
-          "title": "◎口语交际：父母之爱",
+          "title": "口语交际父母之爱​",
           "page": 87
         },
         {
           "no": null,
-          "title": "◎习作：我想对您说",
+          "title": "习作 我想对您说",
           "page": 88
         },
         {
           "no": null,
-          "title": "◎语文园地",
+          "title": "语文园地",
           "page": 89
         }
       ]
     },
     {
       "index": 7,
-      "title": "第七单元（四时景物皆成趣）",
+      "title": "第七单元·阅读",
       "page": 91,
       "sections": [
         {
-          "no": "21",
-          "title": "古诗词三首（山居秋暝、枫桥夜泊、长相思）",
+          "no": "20",
+          "title": "古诗三首​",
           "page": 92
         },
         {
-          "no": "22",
-          "title": "四季之美",
+          "no": null,
+          "title": "山居秋暝​",
+          "page": 92
+        },
+        {
+          "no": null,
+          "title": "枫桥夜泊​",
+          "page": 92
+        },
+        {
+          "no": null,
+          "title": "早春呈水部张十八员外​",
+          "page": 93
+        },
+        {
+          "no": "21",
+          "title": "第一场雪​",
           "page": 94
         },
         {
-          "no": "23",
-          "title": "鸟的天堂",
+          "no": "22",
+          "title": "白鹭​",
           "page": 96
         },
         {
-          "no": "24",
-          "title": "月迹",
+          "no": null,
+          "title": "习作 我最喜爱的季节",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "语文园地",
           "page": 99
-        },
-        {
-          "no": null,
-          "title": "◎习作：__即景",
-          "page": 102
-        },
-        {
-          "no": null,
-          "title": "◎语文园地",
-          "page": 103
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八单元（读书明智）",
-      "page": 105,
+      "title": "第八单元·阅读",
+      "page": 101,
       "sections": [
         {
-          "no": "25",
-          "title": "古人谈读书",
-          "page": 106
+          "no": "23",
+          "title": "古人谈读书​",
+          "page": 102
         },
         {
-          "no": "26",
+          "no": "24",
           "title": "忆读书",
-          "page": 108
+          "page": 104
         },
         {
-          "no": "27",
-          "title": "我的长生果",
+          "no": null,
+          "title": "25* 走遍天下书为侣",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "习作 推荐一本书​",
           "page": 111
         },
         {
           "no": null,
-          "title": "◎口语交际：我最喜欢的人物形象",
-          "page": 114
+          "title": "语文园地",
+          "page": 112
         },
         {
           "no": null,
-          "title": "◎习作：推荐一本书",
+          "title": "识字表",
           "page": 115
         },
         {
           "no": null,
-          "title": "◎语文园地",
-          "page": 116
-        }
-      ]
-    },
-    {
-      "index": null,
-      "title": "附录",
-      "page": 119,
-      "sections": [
-        {
-          "no": null,
-          "title": "识字表",
-          "page": 119
-        },
-        {
-          "no": null,
           "title": "写字表",
-          "page": 122
+          "page": 118
         },
         {
           "no": null,
           "title": "词语表",
-          "page": 124
+          "page": 120
         }
       ]
     }

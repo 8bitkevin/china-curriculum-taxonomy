@@ -3,69 +3,77 @@
   "volume": "英语三年级上册",
   "pdf": {
     "file": "英语三年级上册.pdf",
-    "sha256": "349949e1df2ad88b9f6a8cbb6d96951f1113770d59ee1d9db4cfaaab1d9b685d",
-    "pages": 82,
+    "sha256": "1ff52c56c22d1f5bb612d4f6e426b2edb49d3bb2282113805fa0357556df683b",
+    "pages": 98,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "Hello!",
-      "page": null
+      "title": "Making friends",
+      "page": 2
     },
     {
       "index": 2,
-      "title": "Colours",
-      "page": null
+      "title": "Different families",
+      "page": 14
     },
     {
       "index": 3,
-      "title": "Look at me!",
-      "page": null,
-      "sections": [
-        {
-          "no": "32",
-          "title": "Recycle",
-          "page": 1
-        }
-      ]
+      "title": "Our animal friends",
+      "page": 26
     },
     {
       "index": 4,
-      "title": "We love animals",
-      "page": null
+      "title": "Plants around us",
+      "page": 38
     },
     {
       "index": 5,
-      "title": "Let’s eat!",
-      "page": null
+      "title": "The colourful world",
+      "page": 50
     },
     {
       "index": 6,
-      "title": "Happy birthday!",
-      "page": null,
+      "title": "Useful numbers",
+      "page": 62,
       "sections": [
         {
-          "no": "66",
-          "title": "Recycle",
-          "page": 2
+          "no": null,
+          "title": "Revision Being a good guest",
+          "page": 74
         },
         {
-          "no": "70",
-          "title": "Appendix 1: Words in each unit",
-          "page": null
+          "no": null,
+          "title": "Appendix1Songs",
+          "page": 78
         },
         {
-          "no": "72",
-          "title": "Appendix 2: Vocabulary",
-          "page": null
+          "no": null,
+          "title": "Appendix2Chantsin\"Lettersandsounds\"",
+          "page": 80
         },
         {
-          "no": "74",
-          "title": "Appendix 3: Useful expressions",
-          "page": null
+          "no": null,
+          "title": "Appendix3Wordsineachunit",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "Appendix4Vocabulary",
+          "page": 86
+        },
+        {
+          "no": null,
+          "title": "Appendix5Usefulexpressions",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "Appendix6Thealphabet",
+          "page": 91
         }
       ]
     }
