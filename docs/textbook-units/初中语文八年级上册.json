@@ -3,22 +3,22 @@
   "volume": "初中语文八年级上册",
   "pdf": {
     "file": "初中语文八年级上册.pdf",
-    "sha256": "1daa46b091ca69ba4f1da85a8623b797a8743df457f0594f03c3d1ca5c44aa6c",
-    "pages": 170,
+    "sha256": "818068db3c20fa339232fef21d2f6db3fc999f52aa5a09424d106e730e6c1e5d",
+    "pages": 174,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "第一单元",
-      "page": null,
+      "title": "活动·探究",
+      "page": 1,
       "sections": [
         {
           "no": null,
-          "title": "·探究",
-          "page": null
+          "title": "任务一 新闻阅读",
+          "page": 2
         },
         {
           "no": "1",
@@ -27,178 +27,226 @@
         },
         {
           "no": "2",
-          "title": "首届诺贝尔奖颁发",
+          "title": "中国人首次进入自己的空间站/ 余建斌",
+          "page": null
+        },
+        {
+          "no": null,
+          "title": "吴月辉 刘诗瑶",
           "page": 6
         },
         {
           "no": "3",
+          "title": "首届诺贝尔奖颁发",
+          "page": 8
+        },
+        {
+          "no": "4",
           "title": "“飞天”凌空",
           "page": null
         },
         {
-          "no": "4",
+          "no": null,
+          "title": "——跳水姑娘吕伟夺魁记/ 夏浩然 樊云芳",
+          "page": 10
+        },
+        {
+          "no": "5",
           "title": "一着惊海天",
           "page": null
         },
         {
-          "no": "5",
+          "no": null,
+          "title": "成功着舰/ 蔡年迟 蒲海洋",
+          "page": 12
+        },
+        {
+          "no": "6",
           "title": "国行公祭,为佑世界和平/ 钟声",
-          "page": 13
+          "page": 15
         },
         {
           "no": null,
-          "title": "口语交际",
-          "page": null
+          "title": "任务二 新闻采访",
+          "page": 17
+        },
+        {
+          "no": null,
+          "title": "任务三 新闻写作",
+          "page": 19
         }
       ]
     },
     {
       "index": 2,
       "title": "第二单元",
-      "page": 22,
+      "page": 23,
       "sections": [
         {
           "no": null,
-          "title": "6藤野先生/鲁迅",
-          "page": null
+          "title": "阅读 7 藤野先生/ 鲁迅",
+          "page": 24
         },
         {
-          "no": "7",
-          "title": "回忆我的母亲/ 朱德",
-          "page": 30
-        },
-        {
-          "no": null,
-          "title": "写作学写传记47",
-          "page": 47
+          "no": "8",
+          "title": "回忆鲁迅先生(节选)/ 萧红",
+          "page": 32
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "9* 天上有颗“南仁东星”/ 王宏甲",
+          "page": 40
+        },
+        {
+          "no": null,
+          "title": "10* 美丽的颜色/ 艾芙·居里",
+          "page": 48
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践",
+          "page": 53
+        },
+        {
+          "no": null,
+          "title": "写作学写传记",
+          "page": 54
+        },
+        {
+          "no": null,
+          "title": "《红星照耀中国》 怎样读红色经典作品",
+          "page": 57
         }
       ]
     },
     {
       "index": 3,
       "title": "第三单元",
-      "page": 54,
+      "page": 61,
       "sections": [
         {
           "no": null,
-          "title": "10三峡/郦道元",
-          "page": null
+          "title": "阅读 11 三峡/ 郦道元",
+          "page": 62
         },
         {
-          "no": "11",
+          "no": "12",
           "title": "短文二篇",
-          "page": 56
-        },
-        {
-          "no": "13",
-          "title": "唐诗五首",
-          "page": 60
-        },
-        {
-          "no": null,
-          "title": "写作学习描写景物64",
           "page": 64
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
+          "title": "13* 与朱元思书/ 吴均",
+          "page": 67
+        },
+        {
+          "no": "14",
+          "title": "唐诗五首",
+          "page": 69
         },
         {
           "no": null,
-          "title": "课外古诗词诵读71",
-          "page": 71
+          "title": "阅读综合实践",
+          "page": 73
+        },
+        {
+          "no": null,
+          "title": "写作学习描写景物",
+          "page": 74
+        },
+        {
+          "no": null,
+          "title": "人无信不立",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读",
+          "page": 81
         }
       ]
     },
     {
       "index": 4,
       "title": "第四单元",
-      "page": 74,
+      "page": 83,
       "sections": [
         {
           "no": null,
-          "title": "14背影/朱自清",
-          "page": null
+          "title": "阅读 15 背影/ 朱自清",
+          "page": 84
         },
         {
-          "no": "15",
+          "no": "16",
           "title": "白杨礼赞/ 茅盾",
-          "page": 78
+          "page": 88
         },
         {
           "no": null,
-          "title": "写作语言要连贯91",
-          "page": 91
+          "title": "17* 散文二篇",
+          "page": 92
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "18* 昆明的雨/ 汪曾祺",
+          "page": 96
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践",
+          "page": 101
+        },
+        {
+          "no": null,
+          "title": "写作语言要连贯",
+          "page": 103
+        },
+        {
+          "no": null,
+          "title": "《红岩》",
+          "page": 106
         }
       ]
     },
     {
       "index": 5,
       "title": "第五单元",
-      "page": 98,
+      "page": 107,
       "sections": [
         {
           "no": null,
-          "title": "18中国石拱桥/茅以昇",
-          "page": null
+          "title": "阅读 19 中国石拱桥/ 茅以昇",
+          "page": 108
         },
         {
-          "no": "19",
+          "no": "20",
           "title": "苏州园林/ 叶圣陶",
-          "page": 104
+          "page": 113
         },
         {
           "no": null,
-          "title": "写作说明事物要抓住特征126",
-          "page": 126
+          "title": "——瞻仰首都人民英雄纪念碑/ 周定舫",
+          "page": 117
         },
         {
           "no": null,
-          "title": "口语交际",
-          "page": null
+          "title": "22* 梦回繁华/ 毛宁",
+          "page": 125
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
-        }
-      ]
-    },
-    {
-      "index": 6,
-      "title": "第六单元",
-      "page": 136,
-      "sections": [
-        {
-          "no": null,
-          "title": "23《孟子》三章",
-          "page": null
-        },
-        {
-          "no": "24",
-          "title": "愚公移山/《列子》",
-          "page": 140
-        },
-        {
-          "no": "26",
-          "title": "诗词五首",
-          "page": 146
+          "title": "阅读综合实践",
+          "page": 129
         },
         {
           "no": null,
-          "title": "写作表达要得体150",
-          "page": 150
+          "title": "写作说明事物要抓住特征",
+          "page": 131
+        },
+        {
+          "no": null,
+          "title": "身边的文化遗产",
+          "page": 135
         }
       ]
     }

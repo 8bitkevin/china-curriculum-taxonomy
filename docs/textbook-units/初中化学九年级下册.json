@@ -3,13 +3,12 @@
   "volume": "初中化学九年级下册",
   "pdf": {
     "file": "初中化学九年级下册.pdf",
-    "sha256": "62e5616df6507ffe48e47794321c59e281eccadc10f6c4afd92bf26a32a7a70e",
-    "pages": 121,
-    "hasTextLayer": false
+    "sha256": "d6d86ca7b3578d337ec9d1a893c8bf395cbbdb1817d7253a246ae2c2e77f7df5",
+    "pages": 127,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-29",
-  "note": "扫描版无文字层；RapidOCR 全册转录后按课题首实测人工基线，印刷页 = PDF 页 - 4",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 8,
@@ -24,100 +23,163 @@
         {
           "no": "课题2",
           "title": "金属的化学性质",
-          "page": 9
+          "page": 10
         },
         {
           "no": "课题3",
           "title": "金属资源的利用和保护",
-          "page": 14
+          "page": 16
+        },
+        {
+          "no": null,
+          "title": "整理与提升",
+          "page": 24
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 25
+        },
+        {
+          "no": null,
+          "title": "实验活动5 常见金属的物理性质和化学性质",
+          "page": 27
+        },
+        {
+          "no": null,
+          "title": "跨学科实践活动7 垃圾的分类与回收利用",
+          "page": 28
         }
       ]
     },
     {
       "index": 9,
       "title": "溶液",
-      "page": 25,
+      "page": 29,
       "sections": [
         {
           "no": "课题1",
-          "title": "溶液的形成",
-          "page": 26
+          "title": "溶液及其应用",
+          "page": 30
         },
         {
           "no": "课题2",
           "title": "溶解度",
-          "page": 33
+          "page": 37
         },
         {
           "no": "课题3",
           "title": "溶质的质量分数",
-          "page": 42
+          "page": 46
         },
         {
-          "no": "实验活动5",
-          "title": "一定溶质质量分数的氯化钠溶液的配制",
-          "page": 47
+          "no": null,
+          "title": "整理与提升",
+          "page": 51
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 52
+        },
+        {
+          "no": null,
+          "title": "配制",
+          "page": 55
+        },
+        {
+          "no": null,
+          "title": "实验活动7 粗盐中难溶性杂质的去除",
+          "page": 56
+        },
+        {
+          "no": null,
+          "title": "跨学科实践活动8 海洋资源的综合利用与制盐",
+          "page": 58
         }
       ]
     },
     {
       "index": 10,
-      "title": "酸和碱",
-      "page": 49,
+      "title": "常见的酸、碱、盐",
+      "page": 59,
       "sections": [
         {
           "no": "课题1",
-          "title": "常见的酸和碱",
-          "page": 50
-        },
-        {
-          "no": "课题2",
-          "title": "酸和碱的中和反应",
+          "title": "溶液的酸碱性",
           "page": 60
         },
         {
-          "no": "实验活动7",
-          "title": "溶液酸碱性的检验",
-          "page": 70
+          "no": "课题2",
+          "title": "常见的酸和碱",
+          "page": 66
+        },
+        {
+          "no": "课题3",
+          "title": "常见的盐",
+          "page": 78
+        },
+        {
+          "no": null,
+          "title": "整理与提升",
+          "page": 86
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 88
+        },
+        {
+          "no": null,
+          "title": "实验活动8 常见酸、碱的化学性质",
+          "page": 90
+        },
+        {
+          "no": null,
+          "title": "生长的影响",
+          "page": 92
         }
       ]
     },
     {
       "index": 11,
-      "title": "盐 化肥",
-      "page": 71,
+      "title": "化学与社会",
+      "page": 93,
       "sections": [
         {
           "no": "课题1",
-          "title": "生活中常见的盐",
-          "page": 72
+          "title": "化学与人体健康",
+          "page": 94
         },
         {
           "no": "课题2",
-          "title": "化学肥料",
-          "page": 83
-        }
-      ]
-    },
-    {
-      "index": 12,
-      "title": "化学与生活",
-      "page": 89,
-      "sections": [
-        {
-          "no": "课题1",
-          "title": "人类重要的营养物质",
-          "page": 90
+          "title": "化学与可持续发展",
+          "page": 103
         },
         {
-          "no": "课题2",
-          "title": "化学元素与人体健康",
-          "page": 97
+          "no": null,
+          "title": "整理与提升",
+          "page": 112
         },
         {
-          "no": "课题3",
-          "title": "有机合成材料",
-          "page": 102
+          "no": null,
+          "title": "复习与提高",
+          "page": 113
+        },
+        {
+          "no": null,
+          "title": "新型材料、新型能源的应用",
+          "page": 115
+        },
+        {
+          "no": null,
+          "title": "附录I部分酸、碱和盐的溶解性表(室温)",
+          "page": 116
+        },
+        {
+          "no": null,
+          "title": "附录II名词索引",
+          "page": 117
         }
       ]
     }

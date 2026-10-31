@@ -3,154 +3,159 @@
   "volume": "初中生物学七年级下册",
   "pdf": {
     "file": "初中生物学七年级下册.pdf",
-    "sha256": "3ff44d179abaff626474b0d2ba89ebf28ddccd7413276ea1497df8e73b449a2b",
-    "pages": 120,
-    "hasTextLayer": false
+    "sha256": "95b1f99ce80148dd502382d53a00d226f1ae7642ddfadfb9bb10b0ac744421fe",
+    "pages": 143,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-30",
-  "note": "扫描版无文字层；RapidOCR 全册转录后按章首/节首实测人工基线，印刷页 = PDF 页 - 4（页脚实测：PDF20→16、PDF60→56、PDF100→96）；第四单元 生物圈中的人（第一章~第七章，章级基线）",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 1,
-      "title": "人的由来",
-      "page": 2,
+      "index": 3,
+      "title": "植物的生活",
+      "page": 1,
       "sections": [
         {
+          "no": null,
+          "title": "第一章 被子植物的一生",
+          "page": 2
+        },
+        {
           "no": "第一节",
-          "title": "人类的起源和发展",
+          "title": "种子的萌发2",
           "page": 2
         },
         {
           "no": "第二节",
-          "title": "人的生殖",
+          "title": "植株的生长8",
           "page": 8
         },
         {
           "no": "第三节",
-          "title": "青春期",
-          "page": 14
-        }
-      ]
-    },
-    {
-      "index": 2,
-      "title": "人体的营养",
-      "page": 18,
-      "sections": [
+          "title": "开花和结果16",
+          "page": 16
+        },
+        {
+          "no": null,
+          "title": "第二章 植物体内的物质与能量变化",
+          "page": 22
+        },
         {
           "no": "第一节",
-          "title": "食物中的营养物质",
-          "page": 18
+          "title": "水的利用与散失22",
+          "page": 22
         },
         {
           "no": "第二节",
-          "title": "消化和吸收",
-          "page": 26
+          "title": "光合作用29",
+          "page": 29
         },
         {
           "no": "第三节",
-          "title": "合理营养与食品安全",
-          "page": 32
-        }
-      ]
-    },
-    {
-      "index": 3,
-      "title": "人体的呼吸",
-      "page": 40,
-      "sections": [
-        {
-          "no": "第一节",
-          "title": "呼吸道对空气的处理",
-          "page": 40
+          "title": "呼吸作用38",
+          "page": 38
         },
         {
-          "no": "第二节",
-          "title": "发生在肺内的气体交换",
-          "page": 45
+          "no": "第四节",
+          "title": "植物在自然界中的作用44",
+          "page": 44
+        },
+        {
+          "no": null,
+          "title": "综合实践项目 栽培一种植物,探究所需的环境条件",
+          "page": 51
         }
       ]
     },
     {
       "index": 4,
-      "title": "人体内物质的运输",
-      "page": 50,
+      "title": "人体生理与健康(一)",
+      "page": 56,
       "sections": [
         {
+          "no": null,
+          "title": "第一章 人的生殖和发育",
+          "page": 58
+        },
+        {
           "no": "第一节",
-          "title": "流动的组织——血液",
-          "page": 50
+          "title": "人的生殖58",
+          "page": 58
         },
         {
           "no": "第二节",
-          "title": "血流的管道——血管",
-          "page": 56
+          "title": "青春期64",
+          "page": 64
         },
         {
-          "no": "第三节",
-          "title": "输送血液的泵——心脏",
-          "page": 60
+          "no": null,
+          "title": "第二章 人体的营养",
+          "page": 70
         },
-        {
-          "no": "第四节",
-          "title": "输血与血型",
-          "page": 69
-        }
-      ]
-    },
-    {
-      "index": 5,
-      "title": "人体内废物的排出",
-      "page": 72,
-      "sections": []
-    },
-    {
-      "index": 6,
-      "title": "人体生命活动的调节",
-      "page": 78,
-      "sections": [
         {
           "no": "第一节",
-          "title": "人体对外界环境的感知",
+          "title": "食物中的营养物质70",
+          "page": 70
+        },
+        {
+          "no": "第二节",
+          "title": "消化和吸收78",
           "page": 78
         },
         {
-          "no": "第二节",
-          "title": "神经系统的组成",
-          "page": 87
-        },
-        {
           "no": "第三节",
-          "title": "神经调节的基本方式",
-          "page": 91
+          "title": "合理营养与食品安全85",
+          "page": 85
         },
         {
-          "no": "第四节",
-          "title": "激素调节",
-          "page": 96
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "title": "人类活动对生物圈的影响",
-      "page": 102,
-      "sections": [
+          "no": null,
+          "title": "第三章 人体的呼吸",
+          "page": 92
+        },
         {
           "no": "第一节",
-          "title": "分析人类活动对生态环境的影响",
-          "page": 102
+          "title": "呼吸道对空气的处理92",
+          "page": 92
         },
         {
           "no": "第二节",
-          "title": "探究环境污染对生物的影响",
-          "page": 108
+          "title": "发生在肺内的气体交换98",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "第四章 人体内物质的运输",
+          "page": 103
+        },
+        {
+          "no": "第一节",
+          "title": "流动的组织—血液103",
+          "page": 103
+        },
+        {
+          "no": "第二节",
+          "title": "血流的管道—血管111",
+          "page": 111
         },
         {
           "no": "第三节",
-          "title": "拟定保护生态环境的计划",
-          "page": 112
+          "title": "输送血液的泵—心脏116",
+          "page": 116
+        },
+        {
+          "no": null,
+          "title": "第五章 人体内废物的排出",
+          "page": 124
+        },
+        {
+          "no": null,
+          "title": "综合实践项目 设计并制作人体结构模型",
+          "page": 130
+        },
+        {
+          "no": null,
+          "title": "附录常见食物成分表",
+          "page": 135
         }
       ]
     }

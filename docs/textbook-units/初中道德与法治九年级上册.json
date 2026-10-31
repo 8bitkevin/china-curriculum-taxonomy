@@ -3,78 +3,228 @@
   "volume": "初中道德与法治九年级上册",
   "pdf": {
     "file": "初中道德与法治九年级上册.pdf",
-    "sha256": "a759e80bd8ef87c29c1504e062c81d0c123dde8b8ccf026bbf58b4bf7daa6ae9",
-    "pages": 126,
+    "sha256": "c7fc5351e9e13b2385b92624e7a12703f93b35e50fac85535a599a1840fe3801",
+    "pages": 118,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "富强与创新",
+      "title": "坚持党的全面领导",
       "page": 1,
       "sections": [
         {
           "no": "第一课",
-          "title": "踏上强国之路",
+          "title": "百年大党风华正茂",
           "page": 2
         },
         {
+          "no": null,
+          "title": "书写恢宏史诗",
+          "page": 2
+        },
+        {
+          "no": null,
+          "title": "弘扬伟大建党精神",
+          "page": 7
+        },
+        {
           "no": "第二课",
-          "title": "创新驱动发展",
-          "page": 14
+          "title": "坚持以人民为中心",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "牢记初心使命",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "站稳人民立场",
+          "page": 17
+        },
+        {
+          "no": "第三课",
+          "title": "党是领导一切的",
+          "page": 21
+        },
+        {
+          "no": null,
+          "title": "坚强的领导核心",
+          "page": 21
+        },
+        {
+          "no": null,
+          "title": "坚持和加强党的全面领导",
+          "page": 24
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 27
         }
       ]
     },
     {
       "index": 2,
-      "title": "民主与法治",
+      "title": "进入新时代",
       "page": 29,
       "sections": [
         {
-          "no": "第三课",
-          "title": "追求民主价值",
+          "no": "第四课",
+          "title": "新的历史方位",
           "page": 30
         },
         {
-          "no": "第四课",
-          "title": "建设法治中国",
-          "page": 44
+          "no": null,
+          "title": "社会主要矛盾的变化",
+          "page": 30
+        },
+        {
+          "no": null,
+          "title": "进入新时代的意义",
+          "page": 34
+        },
+        {
+          "no": "第五课",
+          "title": "新时代的思想旗帜",
+          "page": 38
+        },
+        {
+          "no": null,
+          "title": "系统科学的理论体系",
+          "page": 38
+        },
+        {
+          "no": null,
+          "title": "必须长期坚持的指导思想",
+          "page": 43
+        },
+        {
+          "no": "第六课",
+          "title": "中国腾飞谱新篇",
+          "page": 46
+        },
+        {
+          "no": null,
+          "title": "经济实力大幅跃升",
+          "page": 46
+        },
+        {
+          "no": null,
+          "title": "民主政治不断发展",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "文化自信日益增强",
+          "page": 53
+        },
+        {
+          "no": null,
+          "title": "民生福祉持续增进",
+          "page": 57
+        },
+        {
+          "no": null,
+          "title": "美丽中国加快建设",
+          "page": 60
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 65
         }
       ]
     },
     {
       "index": 3,
-      "title": "文明与家园",
-      "page": 57,
+      "title": "奋进新征程",
+      "page": 67,
       "sections": [
         {
-          "no": "第五课",
-          "title": "守望精神家园",
-          "page": 58
+          "no": "第七课",
+          "title": "擘画宏伟蓝图",
+          "page": 68
         },
         {
-          "no": "第六课",
-          "title": "建设美丽中国",
-          "page": 74
+          "no": null,
+          "title": "“两步走”战略",
+          "page": 68
+        },
+        {
+          "no": null,
+          "title": "中国式现代化",
+          "page": 72
+        },
+        {
+          "no": "第八课",
+          "title": "实现高质量发展",
+          "page": 76
+        },
+        {
+          "no": null,
+          "title": "贯彻新发展理念",
+          "page": 76
+        },
+        {
+          "no": null,
+          "title": "构建新发展格局",
+          "page": 78
+        },
+        {
+          "no": null,
+          "title": "推动高质量发展",
+          "page": 80
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 83
         }
       ]
     },
     {
       "index": 4,
-      "title": "和谐与梦想",
-      "page": 89,
+      "title": "共圆中国梦",
+      "page": 85,
       "sections": [
         {
-          "no": "第七课",
-          "title": "中华一家亲",
+          "no": "第九课",
+          "title": "凝聚团结伟力",
+          "page": 86
+        },
+        {
+          "no": null,
+          "title": "铸牢中华民族共同体意识",
+          "page": 86
+        },
+        {
+          "no": null,
+          "title": "实现祖国完全统一",
           "page": 90
         },
         {
-          "no": "第八课",
-          "title": "中国人中国梦",
-          "page": 104
+          "no": "第十课",
+          "title": "实现伟大梦想",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "民族复兴梦",
+          "page": 98
+        },
+        {
+          "no": null,
+          "title": "我们都是追梦人",
+          "page": 101
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 106
         }
       ]
     }

@@ -3,88 +3,243 @@
   "volume": "初中道德与法治七年级下册",
   "pdf": {
     "file": "初中道德与法治七年级下册.pdf",
-    "sha256": "43a0520f1480587d1890fabcdaa416031e4e777f494dd3574050eafc6c1bbd6a",
-    "pages": 111,
+    "sha256": "811a1b6d1ec07f53aa6513612937708a7d31c70677bf49f976a6b5e48152fd0e",
+    "pages": 114,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "青春时光",
+      "title": "珍惜青春时光",
       "page": 1,
       "sections": [
         {
           "no": "第一课",
+          "title": "青春正当时",
+          "page": 2
+        },
+        {
+          "no": null,
           "title": "青春的邀约",
           "page": 2
         },
         {
-          "no": "第二课",
-          "title": "青春的心弦",
-          "page": 14
+          "no": null,
+          "title": "男生女生",
+          "page": 6
         },
         {
-          "no": "第三课",
-          "title": "青春的证明",
+          "no": null,
+          "title": "学会自我保护",
+          "page": 9
+        },
+        {
+          "no": "第二课",
+          "title": "做情绪情感的主人",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "揭开情绪的面纱",
+          "page": 13
+        },
+        {
+          "no": null,
+          "title": "学会管理情绪",
+          "page": 15
+        },
+        {
+          "no": null,
+          "title": "品味美好情感",
+          "page": 19
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
           "page": 23
         }
       ]
     },
     {
       "index": 2,
-      "title": "做情绪情感的主人",
-      "page": 33,
+      "title": "焕发青春活力",
+      "page": 25,
       "sections": [
         {
+          "no": "第三课",
+          "title": "人贵自尊",
+          "page": 26
+        },
+        {
+          "no": null,
+          "title": "人须有自尊",
+          "page": 26
+        },
+        {
+          "no": null,
+          "title": "做自尊的人",
+          "page": 29
+        },
+        {
           "no": "第四课",
-          "title": "揭开情绪的面纱统编版",
-          "page": 34
+          "title": "自信给人力量",
+          "page": 33
+        },
+        {
+          "no": null,
+          "title": "人要有自信",
+          "page": 33
+        },
+        {
+          "no": null,
+          "title": "做自信的人",
+          "page": 37
         },
         {
           "no": "第五课",
-          "title": "品出情感的韵味",
-          "page": 42
+          "title": "人生当自强",
+          "page": 41
+        },
+        {
+          "no": null,
+          "title": "人要自强",
+          "page": 41
+        },
+        {
+          "no": null,
+          "title": "做自强不息的中国人",
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 47
         }
       ]
     },
     {
       "index": 3,
-      "title": "在集体中成长",
-      "page": 51,
+      "title": "传承中华优秀传统文化",
+      "page": 49,
       "sections": [
         {
           "no": "第六课",
-          "title": "“我”和“我们”",
-          "page": 52
+          "title": "传承核心思想理念",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "历久弥新的思想理念",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "做核心思想理念的传承者",
+          "page": 53
         },
         {
           "no": "第七课",
-          "title": "共奏和谐乐章",
+          "title": "弘扬中华人文精神",
+          "page": 58
+        },
+        {
+          "no": null,
+          "title": "影响深远的人文精神",
+          "page": 58
+        },
+        {
+          "no": null,
+          "title": "做中华人文精神的弘扬者",
           "page": 62
         },
         {
           "no": "第八课",
-          "title": "美好集体有我在",
-          "page": 72
+          "title": "践行中华传统美德",
+          "page": 65
+        },
+        {
+          "no": null,
+          "title": "薪火相传的传统美德",
+          "page": 65
+        },
+        {
+          "no": null,
+          "title": "做中华传统美德的践行者",
+          "page": 68
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 73
         }
       ]
     },
     {
       "index": 4,
-      "title": "走进法治天地",
-      "page": 83,
+      "title": "生活在法治社会",
+      "page": 75,
       "sections": [
         {
           "no": "第九课",
-          "title": "法律在我们身边",
-          "page": 84
+          "title": "法律为我们护航",
+          "page": 76
+        },
+        {
+          "no": null,
+          "title": "日益完善的法律体系",
+          "page": 76
+        },
+        {
+          "no": null,
+          "title": "法律保障生活",
+          "page": 79
         },
         {
           "no": "第十课",
-          "title": "法律伴我们成长",
-          "page": 95
+          "title": "走近民法典",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "认识民法典",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "保护人身权",
+          "page": 86
+        },
+        {
+          "no": null,
+          "title": "保障财产权",
+          "page": 89
+        },
+        {
+          "no": "第十一课",
+          "title": "远离违法犯罪",
+          "page": 93
+        },
+        {
+          "no": null,
+          "title": "法不可违",
+          "page": 93
+        },
+        {
+          "no": null,
+          "title": "犯罪与刑罚",
+          "page": 96
+        },
+        {
+          "no": null,
+          "title": "严于律己",
+          "page": 99
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 103
         }
       ]
     }

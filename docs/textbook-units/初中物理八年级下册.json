@@ -3,153 +3,172 @@
   "volume": "初中物理八年级下册",
   "pdf": {
     "file": "初中物理八年级下册.pdf",
-    "sha256": "fb06fd5dbca00f3ce4d1556bd09b995ffd22876000120afbdd154ed5cf833f76",
-    "pages": 96,
-    "hasTextLayer": false
+    "sha256": "293ff1f0ccb29e5033a0968c8fc3dcd3115017d426e79350787a4eed424143af",
+    "pages": 131,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-29",
-  "note": "扫描版无文字层；RapidOCR 全册转录后按节首实测人工基线，印刷页 = PDF 页 - 4",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 7,
-      "title": "第七章 力",
+      "title": "力",
       "page": 1,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "力",
           "page": 2
         },
         {
-          "no": "2",
+          "no": "第2节",
           "title": "弹力",
-          "page": 6
+          "page": 7
         },
         {
-          "no": "3",
+          "no": "第3节",
           "title": "重力",
-          "page": 9
+          "page": 11
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八章 运动和力",
-      "page": 15,
+      "title": "运动和力",
+      "page": 18,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "牛顿第一定律",
-          "page": 16
+          "page": 19
         },
         {
-          "no": "2",
+          "no": "第2节",
           "title": "二力平衡",
-          "page": 20
+          "page": 23
         },
         {
-          "no": "3",
+          "no": "第3节",
           "title": "摩擦力",
-          "page": 23
+          "page": 27
+        },
+        {
+          "no": "第4节",
+          "title": "同一直线上二力的合成",
+          "page": 33
         }
       ]
     },
     {
       "index": 9,
-      "title": "第九章 压强",
-      "page": 28,
+      "title": "压强",
+      "page": 39,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "压强",
-          "page": 29
+          "page": 40
         },
         {
-          "no": "2",
+          "no": "第2节",
           "title": "液体的压强",
-          "page": 33
+          "page": 45
         },
         {
-          "no": "3",
+          "no": "第3节",
           "title": "大气压强",
-          "page": 39
+          "page": 52
         },
         {
-          "no": "4",
+          "no": "第4节",
+          "title": "跨学科实践:制作简易",
+          "page": null
+        },
+        {
+          "no": "第5节",
           "title": "流体压强与流速的关系",
-          "page": 44
+          "page": 59
         }
       ]
     },
     {
       "index": 10,
-      "title": "第十章 浮力",
-      "page": 48,
+      "title": "浮力",
+      "page": 63,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "浮力",
-          "page": 49
+          "page": 64
         },
         {
-          "no": "2",
+          "no": "第2节",
           "title": "阿基米德原理",
-          "page": 53
+          "page": 68
         },
         {
-          "no": "3",
+          "no": "第3节",
           "title": "物体的浮沉条件及应用",
-          "page": 57
+          "page": 73
+        },
+        {
+          "no": "第4节",
+          "title": "跨学科实践:制作微型密度计",
+          "page": 77
         }
       ]
     },
     {
       "index": 11,
-      "title": "第十一章 功和机械能",
-      "page": 61,
+      "title": "功和机械能",
+      "page": 83,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "功",
-          "page": 62
+          "page": 84
         },
         {
-          "no": "2",
+          "no": "第2节",
           "title": "功率",
-          "page": 65
+          "page": 88
         },
         {
-          "no": "3",
+          "no": "第3节",
           "title": "动能和势能",
-          "page": 67
+          "page": 91
         },
         {
-          "no": "4",
+          "no": "第4节",
           "title": "机械能及其转化",
-          "page": 71
+          "page": 96
         }
       ]
     },
     {
       "index": 12,
-      "title": "第十二章 简单机械",
-      "page": 75,
+      "title": "简单机械",
+      "page": 103,
       "sections": [
         {
-          "no": "1",
+          "no": "第1节",
           "title": "杠杆",
-          "page": 76
+          "page": 104
         },
         {
-          "no": "2",
+          "no": "第2节",
+          "title": "跨学科实践:制作简易杆秤",
+          "page": 111
+        },
+        {
+          "no": "第3节",
           "title": "滑轮",
-          "page": 81
+          "page": 113
         },
         {
-          "no": "3",
+          "no": "第4节",
           "title": "机械效率",
-          "page": 85
+          "page": 117
         }
       ]
     }

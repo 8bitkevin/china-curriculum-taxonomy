@@ -252,7 +252,7 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         is_toc = ("目" in head and "录" in head and numbered >= 3) or (
             numbered >= 5 and (dots >= 2 or chapters >= 2)) or (
             unit_rows >= 3) or (
-            "CONTENTS" in " ".join(lines).upper() and unit_rows >= 2) or cont
+            "CONTENTS" in " ".join(lines).upper() and len(lines) >= 6) or cont
         if is_toc:
             hits.append(i)
     return hits
@@ -460,6 +460,14 @@ def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
             title = base if n == 1 else f"{base}（{'二三四五六'[n - 2]}）"
             units.append({"index": None, "title": title, "page": None, "sections": []})
             continue
+        if mode == "unit":
+            # 2024 新版初中英语：单元行「N Title」（无 Unit 前缀，页码在 p.N 独立行）；
+            # ASCII 标题判定避免误吞语文/道法的中文编号行
+            em = re.match(r"^(\d{1,2})\s+([A-Za-z][A-Za-z0-9 .,'!?&\-:;()]{2,})$", line)
+            if em and (not units or units[-1].get("index") != int(em.group(1))):
+                units.append({"index": int(em.group(1)), "title": em.group(2).strip(),
+                              "page": None, "sections": []})
+                continue
         m = RE_LESSON_CN.match(compact)
         if m:
             idx = _unit_index(m.group(1))
@@ -502,6 +510,14 @@ def parse_unit_lesson_mode(merged: list[str], mode: str) -> list[dict]:
         # 无编号课文行（新版「我上学了」导入课文等）：带页码即收录为节
         if page is not None and 0 < len(title) <= 30 and not title.isdigit():
             units[-1]["sections"].append({"no": None, "title": title, "page": page})
+            continue
+        if mode == "unit":
+            # 2024 新版初中英语版块行「Listening and Speaking: …」→ 节
+            sm = re.match(r"^([A-Z][A-Za-z /&:,'\-]{3,60}: [A-Za-z0-9 .,'!?&\-:;()]+)$", line)
+            if sm and units:
+                units[-1].setdefault("sections", []).append(
+                    {"no": None, "title": sm.group(1).strip(), "page": None})
+                continue
     for u in units:
         if not u["sections"]:
             del u["sections"]
@@ -537,6 +553,10 @@ def extract_volume(stem: str) -> dict | None:
         blob = re.sub(r"[\s　]+", "",
                       "".join(doc[i].get_text() for i in toc_idx[:3]))
         expected = len(set(re.findall(r"第[一二三四五六七八九十\d]{1,3}单元", blob)))
+        # 新版初中英语：单元行「N Title」同样计入预期（双栏时触发拆栏重试）
+        en_expected = sum(1 for r in rows
+                          if re.match(r"^\d{1,2}\s+[A-Za-z]", norm(" ".join(r))))
+        expected = max(expected, en_expected)
         if 0 < len([u for u in units if u.get("index") is not None]) < expected:
             best = units
             for split in (0.5, 0.42, 0.58):

@@ -3,41 +3,41 @@
   "volume": "初中语文九年级上册",
   "pdf": {
     "file": "初中语文九年级上册.pdf",
-    "sha256": "bd5afd9c2d710f7ee936daf4ec55003bce6dc84cf8e6a32bf8def859242149ac",
-    "pages": 158,
+    "sha256": "2771da91d6373811a7f7307fa122b258f18e4a759b937e68e1e295da9cbde09f",
+    "pages": 170,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
-      "title": "第一单元",
-      "page": null,
+      "title": "\b活动·探究",
+      "page": 1,
       "sections": [
         {
           "no": null,
-          "title": "·探究",
-          "page": null
+          "title": "任务一 学习鉴赏\b",
+          "page": 2
         },
         {
           "no": "1",
-          "title": "沁园春·雪/ 毛泽东",
+          "title": "沁园春·雪/ 毛泽东\b",
           "page": 3
         },
         {
           "no": "2",
-          "title": "周总理,你在哪里/ 柯岩",
+          "title": "周总理,你在哪里/ 柯岩\b",
           "page": 5
         },
         {
           "no": "3",
-          "title": "我爱这土地/ 艾青",
+          "title": "我爱这土地/ 艾青\b",
           "page": 8
         },
         {
           "no": "4",
-          "title": "乡愁/ 余光中",
+          "title": "乡愁/ 余光中\b",
           "page": 9
         },
         {
@@ -46,164 +46,234 @@
           "page": null
         },
         {
+          "no": null,
+          "title": "—— 一句爱的赞颂/ 林徽因\b",
+          "page": 10
+        },
+        {
           "no": "6",
-          "title": "我看/ 穆旦",
+          "title": "我看/ 穆旦\b",
           "page": 12
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
+          "title": "任务二 诗歌朗诵\b",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "任务三 尝试创作\b",
+          "page": 18
         }
       ]
     },
     {
       "index": 2,
-      "title": "第二单元",
-      "page": 26,
+      "title": "\b",
+      "page": 21,
       "sections": [
         {
           "no": null,
-          "title": "7敬业与乐业/梁启超",
-          "page": null
+          "title": "建设者和接班人/ 习近平\b",
+          "page": 22
         },
         {
           "no": "8",
-          "title": "就英法联军远征中国致巴特勒上尉的信",
-          "page": null
+          "title": "中国人失掉自信力了吗/ 鲁迅\b",
+          "page": 30
         },
         {
           "no": null,
-          "title": "写作观点要明确44",
-          "page": 44
+          "title": "9* 谈骨气/ 吴晗\b",
+          "page": 33
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "10* 创造宣言/ 陶行知\b",
+          "page": 36
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践 \b",
+          "page": 41
+        },
+        {
+          "no": null,
+          "title": "写作观点要明确\b",
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "君子自强不息\b",
+          "page": 46
         }
       ]
     },
     {
       "index": 3,
-      "title": "第三单元",
-      "page": 50,
+      "title": "\b",
+      "page": 49,
       "sections": [
         {
           "no": null,
-          "title": "11岳阳楼记/范仲淹",
-          "page": null
+          "title": "阅读 11 岳阳楼记/ 范仲淹\b",
+          "page": 50
         },
         {
           "no": "12",
-          "title": "醉翁亭记/ 欧阳修",
-          "page": 54
+          "title": "醉翁亭记/ 欧阳修\b",
+          "page": 53
+        },
+        {
+          "no": null,
+          "title": "13* 湖心亭看雪/ 张岱\b",
+          "page": 56
         },
         {
           "no": "14",
-          "title": "诗词三首",
-          "page": 59
+          "title": "诗词三首\b",
+          "page": 58
         },
         {
           "no": null,
-          "title": "写作议论要言之有据63",
-          "page": 63
+          "title": "阅读综合实践 \b",
+          "page": 61
         },
         {
           "no": null,
-          "title": "课外古诗词诵读65",
+          "title": "写作议论要言之有据\b",
+          "page": 62
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读\b",
           "page": 65
         }
       ]
     },
     {
       "index": 4,
-      "title": "第四单元",
-      "page": 68,
+      "title": "\b",
+      "page": 67,
       "sections": [
         {
           "no": null,
-          "title": "15故乡/鲁迅",
-          "page": null
+          "title": "阅读 15 故乡/ 鲁迅\b",
+          "page": 68
         },
         {
           "no": "16",
-          "title": "我的叔叔于勒/ 莫泊桑",
-          "page": 77
+          "title": "我的叔叔于勒/ 莫泊桑\b",
+          "page": 78
         },
         {
           "no": null,
-          "title": "写作学习缩写91",
-          "page": 91
+          "title": "17* 孤独之旅/ 曹文轩\b",
+          "page": 85
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "18* 蒲柳人家(节选)/ 刘绍棠\b",
+          "page": 93
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践 \b",
+          "page": 103
+        },
+        {
+          "no": null,
+          "title": "写作学写小小说\b",
+          "page": 105
+        },
+        {
+          "no": null,
+          "title": "《简·爱》 怎样读外国小说\b",
+          "page": 108
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元",
-      "page": 97,
+      "title": "\b",
+      "page": 111,
       "sections": [
         {
           "no": null,
-          "title": "18中国人失掉自信力了吗/鲁迅",
-          "page": null
+          "title": "阅读 19 想和做/ 胡绳\b",
+          "page": 112
         },
         {
-          "no": "19",
-          "title": "怀疑与学问/ 顾颉刚",
-          "page": 100
-        },
-        {
-          "no": null,
-          "title": "写作论证要合理111",
-          "page": 111
+          "no": "20",
+          "title": "怀疑与学问/ 顾颉刚\b",
+          "page": 115
         },
         {
           "no": null,
-          "title": "口语交际讨论113",
-          "page": 113
+          "title": "的信/ 雨果\b",
+          "page": 118
+        },
+        {
+          "no": null,
+          "title": "22* 精神的三间小屋/ 毕淑敏\b",
+          "page": 122
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践 \b",
+          "page": 126
+        },
+        {
+          "no": null,
+          "title": "写作论证要合理\b",
+          "page": 127
+        },
+        {
+          "no": null,
+          "title": "我们的数字时代\b",
+          "page": 130
         }
       ]
     },
     {
       "index": 6,
-      "title": "第六单元",
-      "page": 116,
+      "title": "\b",
+      "page": 135,
       "sections": [
         {
           "no": null,
-          "title": "22智取生辰纲/施耐庵",
-          "page": null
-        },
-        {
-          "no": "23",
-          "title": "范进中举/ 吴敬梓",
-          "page": 125
+          "title": "阅读 23 曹刿论战/《左传》\b",
+          "page": 136
         },
         {
           "no": null,
-          "title": "写作学习改写142",
+          "title": "24* 邹忌讽齐王纳谏/《战国策》\b",
+          "page": 139
+        },
+        {
+          "no": null,
+          "title": "25* 陈涉世家/ 司马迁\b",
           "page": 142
         },
         {
-          "no": null,
-          "title": "名著导读",
-          "page": null
+          "no": "26",
+          "title": "出师表/ 诸葛亮\b",
+          "page": 146
+        },
+        {
+          "no": "27",
+          "title": "诗词曲五首\b",
+          "page": 150
         },
         {
           "no": null,
-          "title": "课外古诗词诵读148",
-          "page": 148
+          "title": "阅读综合实践 \b",
+          "page": 154
         },
         {
           "no": null,
-          "title": "注:阅读单元的课文分“教读”和“自读”两类,篇名前标有*的为“自读”课文。“活动·探究”单元",
-          "page": null
+          "title": "写作学会深入思考\b",
+          "page": 155
         }
       ]
     }

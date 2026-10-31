@@ -3,12 +3,12 @@
   "volume": "初中道德与法治八年级下册",
   "pdf": {
     "file": "初中道德与法治八年级下册.pdf",
-    "sha256": "b13527b411dd82748b462e9b867e1854eaa6efccebf4173979aa181905530c28",
-    "pages": 130,
+    "sha256": "a5119d0def19b26a642c76637a7f896c52313461983feb3d0e491c9062ae0efa",
+    "pages": 127,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
@@ -17,64 +17,286 @@
       "sections": [
         {
           "no": "第一课",
-          "title": "维护宪法权威",
+          "title": "治国安邦的总章程",
           "page": 2
         },
         {
+          "no": null,
+          "title": "党领导人民制定宪法",
+          "page": 2
+        },
+        {
+          "no": null,
+          "title": "宪法的内容和作用",
+          "page": 5
+        },
+        {
           "no": "第二课",
-          "title": "保障宪法实施",
-          "page": 20
+          "title": "维护宪法权威",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "依宪治国",
+          "page": 11
+        },
+        {
+          "no": null,
+          "title": "尊崇宪法",
+          "page": 14
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 19
         }
       ]
     },
     {
       "index": 2,
       "title": "理解权利义务",
-      "page": 33,
+      "page": 21,
       "sections": [
         {
           "no": "第三课",
-          "title": "公民权利",
-          "page": 34
+          "title": "公民的基本权利和义务",
+          "page": 22
+        },
+        {
+          "no": null,
+          "title": "公民基本权利",
+          "page": 22
+        },
+        {
+          "no": null,
+          "title": "公民基本义务",
+          "page": 29
         },
         {
           "no": "第四课",
-          "title": "公民义务统编版",
-          "page": 47
+          "title": "依法行使权利和履行义务",
+          "page": 33
+        },
+        {
+          "no": null,
+          "title": "权利与义务相统一",
+          "page": 33
+        },
+        {
+          "no": null,
+          "title": "依法行使权利",
+          "page": 36
+        },
+        {
+          "no": null,
+          "title": "依法履行义务",
+          "page": 39
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 43
         }
       ]
     },
     {
       "index": 3,
-      "title": "人民当家作主",
-      "page": 61,
+      "title": "认识国家制度",
+      "page": 45,
       "sections": [
         {
           "no": "第五课",
-          "title": "我国的政治和经济制度",
-          "page": 62
+          "title": "我国的政治制度",
+          "page": 46
+        },
+        {
+          "no": null,
+          "title": "人民代表大会制度",
+          "page": 46
+        },
+        {
+          "no": null,
+          "title": "和政治协商制度",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "民族区域自治制度",
+          "page": 53
+        },
+        {
+          "no": null,
+          "title": "基层群众自治制度",
+          "page": 55
         },
         {
           "no": "第六课",
-          "title": "我国国家机构",
-          "page": 78
+          "title": "我国的基本经济制度",
+          "page": 59
+        },
+        {
+          "no": null,
+          "title": "经济共同发展",
+          "page": 59
+        },
+        {
+          "no": null,
+          "title": "方式并存",
+          "page": 61
+        },
+        {
+          "no": null,
+          "title": "社会主义市场经济体制",
+          "page": 63
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 65
         }
       ]
     },
     {
       "index": 4,
-      "title": "崇尚法治精神",
-      "page": 97,
+      "title": "走近国家机构",
+      "page": 67,
       "sections": [
         {
           "no": "第七课",
-          "title": "尊重自由平等",
-          "page": 98
+          "title": "国家权力机关",
+          "page": 68
+        },
+        {
+          "no": null,
+          "title": "国家权力机关的组成和地位",
+          "page": 68
+        },
+        {
+          "no": null,
+          "title": "人民代表大会的职权",
+          "page": 70
         },
         {
           "no": "第八课",
-          "title": "维护公平正义",
-          "page": 108
+          "title": "中华人民共和国主席",
+          "page": 73
+        },
+        {
+          "no": null,
+          "title": "国家主席的产生和地位",
+          "page": 73
+        },
+        {
+          "no": null,
+          "title": "国家主席的职权",
+          "page": 75
+        },
+        {
+          "no": "第九课",
+          "title": "国家行政机关",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "国家行政机关的性质和职权",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "依法行政,建设法治政府",
+          "page": 80
+        },
+        {
+          "no": "第十课",
+          "title": "中央军事委员会",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "中央军事委员会的性质和产生",
+          "page": 83
+        },
+        {
+          "no": null,
+          "title": "中央军事委员会的领导体制和职权",
+          "page": 86
+        },
+        {
+          "no": "第十一课",
+          "title": "国家监察机关",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "国家监察机关的产生和性质",
+          "page": 89
+        },
+        {
+          "no": null,
+          "title": "国家监察机关的职责",
+          "page": 91
+        },
+        {
+          "no": "第十二课",
+          "title": "国家司法机关",
+          "page": 94
+        },
+        {
+          "no": null,
+          "title": "人民法院",
+          "page": 94
+        },
+        {
+          "no": null,
+          "title": "人民检察院",
+          "page": 96
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 99
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "title": "建设法治中国",
+      "page": 101,
+      "sections": [
+        {
+          "no": "第十三课",
+          "title": "坚持全面依法治国",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "全面依法治国的指导思想",
+          "page": 102
+        },
+        {
+          "no": null,
+          "title": "全面依法治国的基本要求",
+          "page": 105
+        },
+        {
+          "no": "第十四课",
+          "title": "以法治推进国家治理现代化",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "法治与改革相互促进",
+          "page": 109
+        },
+        {
+          "no": null,
+          "title": "法治与德治相得益彰",
+          "page": 112
+        },
+        {
+          "no": null,
+          "title": "单元思考与行动",
+          "page": 116
         }
       ]
     }

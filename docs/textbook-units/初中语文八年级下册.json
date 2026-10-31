@@ -3,22 +3,22 @@
   "volume": "初中语文八年级下册",
   "pdf": {
     "file": "初中语文八年级下册.pdf",
-    "sha256": "957119da0b31b26f070aa201b414ee68b18a4066aa9d56025272f803f909dd4b",
-    "pages": 150,
+    "sha256": "b03a898b410bd3a2b54489b12d746186ce06a2657b3da2167f03cbfb1018c2ca",
+    "pages": 167,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "第一单元",
-      "page": 2,
+      "page": 1,
       "sections": [
         {
           "no": null,
-          "title": "1社戏/鲁迅",
-          "page": null
+          "title": "阅读 1 社戏/ 鲁迅",
+          "page": 2
         },
         {
           "no": "2",
@@ -27,183 +27,233 @@
         },
         {
           "no": null,
-          "title": "写作学习仿写23",
-          "page": 23
+          "title": "3* 安塞腰鼓/ 刘成章",
+          "page": 17
         },
         {
           "no": null,
-          "title": "口语交际应对25",
+          "title": "4* 灯笼/ 吴伯箫",
+          "page": 21
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践",
           "page": 25
+        },
+        {
+          "no": null,
+          "title": "写作考虑目的和对象",
+          "page": 26
         }
       ]
     },
     {
       "index": 2,
       "title": "第二单元",
-      "page": 28,
+      "page": 29,
       "sections": [
         {
           "no": null,
-          "title": "5大自然的语言/竺可桢",
-          "page": null
+          "title": "阅读 5 大自然的语言/ 竺可桢 宛敏渭",
+          "page": 30
         },
         {
           "no": "6",
           "title": "阿西莫夫短文两篇",
-          "page": 33
+          "page": 34
         },
         {
           "no": null,
-          "title": "写作说明的顺序47",
-          "page": 47
+          "title": "7* 月亮是从哪里来的/ 卞毓麟",
+          "page": 40
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "8* 时间的脚印/ 陶世龙",
+          "page": 45
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "写作说明的顺序",
+          "page": 52
+        },
+        {
+          "no": null,
+          "title": "绿水青山,低碳生活",
+          "page": 55
         }
       ]
     },
     {
       "index": 3,
       "title": "第三单元",
-      "page": 54,
+      "page": 61,
       "sections": [
         {
           "no": null,
-          "title": "9桃花源记/陶渊明",
-          "page": null
+          "title": "阅读 9 桃花源记/ 陶渊明",
+          "page": 62
         },
         {
           "no": "10",
           "title": "小石潭记/ 柳宗元",
-          "page": 58
-        },
-        {
-          "no": "12",
-          "title": "《诗经》二首",
-          "page": 63
-        },
-        {
-          "no": null,
-          "title": "写作学写读后感66",
           "page": 66
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "11* 核舟记/ 魏学洢",
+          "page": 68
+        },
+        {
+          "no": "12",
+          "title": "《诗经》二首",
+          "page": 71
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
+          "title": "阅读综合实践",
+          "page": 74
         },
         {
           "no": null,
-          "title": "课外古诗词诵读75",
+          "title": "写作学写读后感",
           "page": 75
+        },
+        {
+          "no": null,
+          "title": "《经典常谈》 怎样读知识性作品",
+          "page": 77
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读",
+          "page": 81
         }
       ]
     },
     {
       "index": 4,
-      "title": "第四单元",
-      "page": null,
+      "title": "活动·探究",
+      "page": 83,
       "sections": [
         {
           "no": null,
-          "title": "·探究",
-          "page": null
+          "title": "任务一 学习演讲词",
+          "page": 84
         },
         {
           "no": "13",
           "title": "最后一次讲演/ 闻一多",
-          "page": 79
-        },
-        {
-          "no": "14",
-          "title": "应有格物致知精神/ 丁肇中",
-          "page": 82
-        },
-        {
-          "no": "15",
-          "title": "我一生中的重要抉择/ 王选",
           "page": 85
         },
         {
-          "no": "16",
-          "title": "庆祝奥林匹克运动复兴25 周年/ 顾拜旦",
+          "no": "14",
+          "title": "敬业与乐业/ 梁启超",
           "page": 89
+        },
+        {
+          "no": "15",
+          "title": "应有格物致知精神/ 丁肇中",
+          "page": 95
+        },
+        {
+          "no": "16",
+          "title": "我一生中的重要抉择/ 王选",
+          "page": 99
+        },
+        {
+          "no": null,
+          "title": "任务二 撰写演讲稿",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "任务三 举办演讲比赛",
+          "page": 106
         }
       ]
     },
     {
       "index": 5,
       "title": "第五单元",
-      "page": 96,
+      "page": 109,
       "sections": [
         {
           "no": null,
-          "title": "17壶口瀑布/梁衡统编版",
-          "page": null
+          "title": "阅读 17 壶口瀑布/ 梁衡",
+          "page": 110
         },
         {
           "no": "18",
           "title": "在长江源头各拉丹冬/ 马丽华",
-          "page": 100
+          "page": 114
         },
         {
           "no": null,
-          "title": "写作学写游记111",
-          "page": 111
+          "title": "19* 登勃朗峰/ 马克·吐温",
+          "page": 119
         },
         {
           "no": null,
-          "title": "口语交际即席讲话113",
-          "page": 113
+          "title": "20* 一滴水经过丽江/ 阿来",
+          "page": 123
+        },
+        {
+          "no": null,
+          "title": "阅读综合实践",
+          "page": 127
+        },
+        {
+          "no": null,
+          "title": "写作学写游记",
+          "page": 129
+        },
+        {
+          "no": null,
+          "title": "《昆虫记》",
+          "page": 132
         }
       ]
     },
     {
       "index": 6,
       "title": "第六单元",
-      "page": null,
+      "page": 133,
       "sections": [
+        {
+          "no": null,
+          "title": "阅读 21 《庄子》二则",
+          "page": 134
+        },
         {
           "no": "22",
           "title": "《礼记》二则",
-          "page": 119
+          "page": 137
+        },
+        {
+          "no": null,
+          "title": "23* 马说/ 韩愈",
+          "page": 140
         },
         {
           "no": "24",
           "title": "唐诗三首",
-          "page": 124
+          "page": 142
         },
         {
           "no": null,
-          "title": "写作学写故事128",
-          "page": 128
+          "title": "阅读综合实践",
+          "page": 146
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
-        },
-        {
-          "no": null,
-          "title": "名著导读",
-          "page": null
-        },
-        {
-          "no": null,
-          "title": "课外古诗词诵读139",
-          "page": 139
-        },
-        {
-          "no": null,
-          "title": "注:阅读单元的课文分“教读”和“自读”两类,篇名前标有*的为“自读”课文。“活动·探究”",
-          "page": null
+          "title": "写作负责任地表达",
+          "page": 148
         }
       ]
     }

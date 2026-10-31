@@ -3,125 +3,147 @@
   "volume": "初中数学八年级上册",
   "pdf": {
     "file": "初中数学八年级上册.pdf",
-    "sha256": "925db6f76d1881b46f51dace670226e2d1edede9b51d161e1828284d444ec8aa",
-    "pages": 170,
+    "sha256": "4712c71af5fd36987ce57d7cde99c744e12763a9afd839dacbaa8d3f58f08672",
+    "pages": 182,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 11,
-      "title": "三角形",
-      "page": null,
-      "sections": [
-        {
-          "no": "11.1",
-          "title": "与三角形有关的线段",
-          "page": 2
-        },
-        {
-          "no": "11.2",
-          "title": "与三角形有关的角",
-          "page": 11
-        },
-        {
-          "no": "11.3",
-          "title": "多边形及其内角和",
-          "page": 19
-        }
-      ]
-    },
-    {
-      "index": 12,
-      "title": "全等三角形",
-      "page": null,
-      "sections": [
-        {
-          "no": "12.1",
-          "title": "全等三角形",
-          "page": 31
-        },
-        {
-          "no": "12.2",
-          "title": "三角形全等的判定",
-          "page": 35
-        },
-        {
-          "no": "12.3",
-          "title": "角的平分线的性质",
-          "page": 48
-        }
-      ]
-    },
-    {
       "index": 13,
-      "title": "轴对称",
-      "page": null,
+      "title": "三角形",
+      "page": 1,
       "sections": [
         {
           "no": "13.1",
-          "title": "轴对称",
-          "page": 58
+          "title": "三角形的概念",
+          "page": 2
         },
         {
           "no": "13.2",
-          "title": "画轴对称图形",
-          "page": 67
+          "title": "与三角形有关的线段",
+          "page": 5
         },
         {
           "no": "13.3",
-          "title": "等腰三角形",
-          "page": 75
-        },
-        {
-          "no": "13.4",
-          "title": "课题学习 最短路径问题",
-          "page": 85
+          "title": "三角形的内角与外角",
+          "page": 11
         }
       ]
     },
     {
       "index": 14,
-      "title": "整式的乘法与因式分解",
-      "page": null,
+      "title": "全等三角形",
+      "page": 28,
       "sections": [
         {
           "no": "14.1",
-          "title": "整式的乘法",
-          "page": 95
+          "title": "全等三角形及其性质",
+          "page": 29
         },
         {
           "no": "14.2",
-          "title": "乘法公式",
-          "page": 107
+          "title": "三角形全等的判定",
+          "page": 32
         },
         {
           "no": "14.3",
-          "title": "因式分解",
-          "page": 114
+          "title": "角的平分线",
+          "page": 48
         }
       ]
     },
     {
       "index": 15,
-      "title": "分式",
-      "page": null,
+      "title": "轴对称",
+      "page": 61,
       "sections": [
         {
           "no": "15.1",
-          "title": "分式",
-          "page": 127
+          "title": "图形的轴对称",
+          "page": 62
         },
         {
           "no": "15.2",
-          "title": "分式的运算",
-          "page": 135
+          "title": "画轴对称的图形",
+          "page": 72
         },
         {
           "no": "15.3",
+          "title": "等腰三角形",
+          "page": 78
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "title": "整式的乘法",
+      "page": 97,
+      "sections": [
+        {
+          "no": "16.1",
+          "title": "幂的运算",
+          "page": 98
+        },
+        {
+          "no": "16.2",
+          "title": "整式的乘法",
+          "page": 103
+        },
+        {
+          "no": "16.3",
+          "title": "乘法公式",
+          "page": 112
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "title": "因式分解",
+      "page": 123,
+      "sections": [
+        {
+          "no": "17.1",
+          "title": "用提公因式法分解因式",
+          "page": 124
+        },
+        {
+          "no": "17.2",
+          "title": "用公式法分解因式",
+          "page": 128
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "title": "分式",
+      "page": 137,
+      "sections": [
+        {
+          "no": "18.1",
+          "title": "分式及其基本性质",
+          "page": 138
+        },
+        {
+          "no": "18.2",
+          "title": "分式的乘法与除法",
+          "page": 146
+        },
+        {
+          "no": "18.3",
+          "title": "分式的加法与减法",
+          "page": 152
+        },
+        {
+          "no": "18.4",
+          "title": "整数指数幂",
+          "page": 158
+        },
+        {
+          "no": "18.5",
           "title": "分式方程",
-          "page": 149
+          "page": 164
         }
       ]
     }

@@ -3,12 +3,12 @@
   "volume": "初中物理九年级全一册",
   "pdf": {
     "file": "初中物理九年级全一册.pdf",
-    "sha256": "ba9c9f0f1a33771cdd3db5d7e253a0bf36cf3d2856f19beb036b40f08184d1bd",
-    "pages": 191,
+    "sha256": "2ac4673d7a58f7c41876581413bcd95cff9e95d72bb62f1b75d8dfee48d488a6",
+    "pages": 218,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 13,
@@ -17,261 +17,244 @@
       "sections": [
         {
           "no": "第1节",
-          "title": "分子热运动",
+          "title": "热量比热容",
           "page": 2
         },
         {
           "no": "第2节",
-          "title": "内能",
-          "page": 7
+          "title": "分子动理论的初步知识",
+          "page": 8
         },
         {
           "no": "第3节",
-          "title": "比热容",
-          "page": 11
+          "title": "内能",
+          "page": 13
         }
       ]
     },
     {
       "index": 14,
       "title": "内能的利用",
-      "page": 16,
+      "page": 19,
       "sections": [
         {
           "no": "第1节",
-          "title": "热机",
-          "page": 17
+          "title": "能量的转化与守恒",
+          "page": 20
         },
         {
           "no": "第2节",
-          "title": "热机的效率",
-          "page": 22
+          "title": "热机",
+          "page": 25
         },
         {
           "no": "第3节",
-          "title": "能量的转化和守恒",
-          "page": 27
+          "title": "热机的效率",
+          "page": 30
+        },
+        {
+          "no": "第4节",
+          "title": "跨学科实践:制作简易",
+          "page": null
         }
       ]
     },
     {
       "index": 15,
       "title": "电流和电路",
-      "page": 31,
+      "page": 39,
       "sections": [
         {
           "no": "第1节",
           "title": "两种电荷",
-          "page": 32
+          "page": 40
         },
         {
           "no": "第2节",
           "title": "电流和电路",
-          "page": 36
+          "page": 44
         },
         {
           "no": "第3节",
-          "title": "串联和并联",
-          "page": 41
+          "title": "串联电路和并联电路",
+          "page": 50
         },
         {
           "no": "第4节",
           "title": "电流的测量",
-          "page": 45
+          "page": 55
         },
         {
           "no": "第5节",
           "title": "串、并联电路中电流的规律",
-          "page": 49
+          "page": 60
         }
       ]
     },
     {
       "index": 16,
       "title": "电压 电阻",
-      "page": 54,
+      "page": 66,
       "sections": [
         {
           "no": "第1节",
           "title": "电压",
-          "page": 55
+          "page": 67
         },
         {
           "no": "第2节",
           "title": "串、并联电路中电压的规律",
-          "page": 60
+          "page": 72
         },
         {
           "no": "第3节",
           "title": "电阻",
-          "page": 63
+          "page": 77
         },
         {
           "no": "第4节",
           "title": "变阻器",
-          "page": 68
+          "page": 82
+        },
+        {
+          "no": "第5节",
+          "title": "跨学科实践:制作简易",
+          "page": null
         }
       ]
     },
     {
       "index": 17,
       "title": "欧姆定律",
-      "page": 73,
+      "page": 92,
       "sections": [
         {
           "no": "第1节",
-          "title": "电流与电压和电阻的关系",
-          "page": 74
+          "title": "电流与电压、电阻的关系",
+          "page": 93
         },
         {
           "no": "第2节",
           "title": "欧姆定律",
-          "page": 78
+          "page": 98
         },
         {
           "no": "第3节",
           "title": "电阻的测量",
-          "page": 80
+          "page": 101
+        },
+        {
+          "no": "第4节",
+          "title": "欧姆定律在串、并联电路",
+          "page": null
         }
       ]
     },
     {
       "index": 18,
       "title": "电功率",
-      "page": 86,
+      "page": 110,
       "sections": [
         {
           "no": "第1节",
           "title": "电能电功",
-          "page": 87
+          "page": 111
         },
         {
           "no": "第2节",
           "title": "电功率",
-          "page": 91
+          "page": 114
         },
         {
           "no": "第3节",
-          "title": "测量小灯泡的电功率",
-          "page": 96
+          "title": "跨学科实践:为家庭",
+          "page": null
         },
         {
           "no": "第4节",
           "title": "焦耳定律",
-          "page": 99
+          "page": 120
         }
       ]
     },
     {
       "index": 19,
       "title": "生活用电",
-      "page": 104,
+      "page": 127,
       "sections": [
         {
           "no": "第1节",
-          "title": "家庭电路",
-          "page": 105
+          "title": "安全用电",
+          "page": 128
         },
         {
           "no": "第2节",
-          "title": "家庭电路中电流过大的原因",
-          "page": 109
+          "title": "家庭电路的基本组成",
+          "page": 134
         },
         {
           "no": "第3节",
-          "title": "安全用电",
-          "page": 113
+          "title": "跨学科实践:为家庭电路",
+          "page": null
         }
       ]
     },
     {
-      "index": 2,
-      "title": "目录",
-      "page": null
-    },
-    {
       "index": 20,
       "title": "电与磁",
-      "page": 118,
+      "page": 146,
       "sections": [
         {
           "no": "第1节",
           "title": "磁现象磁场",
-          "page": 119
+          "page": 147
         },
         {
           "no": "第2节",
           "title": "电生磁",
-          "page": 124
+          "page": 152
         },
         {
           "no": "第3节",
           "title": "电磁铁电磁继电器",
-          "page": 129
+          "page": 157
         },
         {
           "no": "第4节",
           "title": "电动机",
-          "page": 133
+          "page": 161
         },
         {
           "no": "第5节",
+          "title": "跨学科实践:制作简易",
+          "page": null
+        },
+        {
+          "no": "第6节",
           "title": "磁生电",
-          "page": 138
+          "page": 167
         }
       ]
     },
     {
       "index": 21,
-      "title": "信息的传递",
-      "page": 144,
+      "title": "电磁波及其应用",
+      "page": 174,
       "sections": [
         {
           "no": "第1节",
-          "title": "现代顺风耳——电话",
-          "page": 145
-        },
-        {
-          "no": "第2节",
           "title": "电磁波的海洋",
-          "page": 150
-        },
-        {
-          "no": "第3节",
-          "title": "广播、电视和移动通信",
-          "page": 154
-        },
-        {
-          "no": "第4节",
-          "title": "越来越宽的信息之路",
-          "page": 158
-        }
-      ]
-    },
-    {
-      "index": 22,
-      "title": "能源与可持续发展",
-      "page": 165,
-      "sections": [
-        {
-          "no": "第1节",
-          "title": "能源",
-          "page": 166
+          "page": 175
         },
         {
           "no": "第2节",
-          "title": "核能",
-          "page": 170
+          "title": "广播、电视和移动通信",
+          "page": 179
         },
         {
           "no": "第3节",
-          "title": "太阳能",
-          "page": 174
-        },
-        {
-          "no": "第4节",
-          "title": "能源与可持续发展",
-          "page": 178
+          "title": "卫星通信和光纤通信",
+          "page": 183
         }
       ]
     }

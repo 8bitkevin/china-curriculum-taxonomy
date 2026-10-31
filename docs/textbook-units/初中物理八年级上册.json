@@ -3,189 +3,194 @@
   "volume": "初中物理八年级上册",
   "pdf": {
     "file": "初中物理八年级上册.pdf",
-    "sha256": "0279bc50d53ee1f41f93ebfdcf82dbcc10a96bb5775c0ce54342652520cb15b7",
-    "pages": 131,
+    "sha256": "1f6f8405e480209a157479615436ce6ff14d68d0cf2c7fc6f74ff754ed123819",
+    "pages": 170,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "机械运动",
-      "page": 9,
+      "page": 10,
       "sections": [
         {
           "no": "第1节",
           "title": "长度和时间的测量",
-          "page": 10
+          "page": 11
         },
         {
           "no": "第2节",
           "title": "运动的描述",
-          "page": 16
+          "page": 17
         },
         {
           "no": "第3节",
           "title": "运动的快慢",
-          "page": 19
+          "page": 20
         },
         {
           "no": "第4节",
-          "title": "测量平均速度",
-          "page": 23
+          "title": "速度的测量",
+          "page": 25
         }
       ]
     },
     {
       "index": 2,
       "title": "声现象",
-      "page": 26,
+      "page": 31,
       "sections": [
         {
           "no": "第1节",
           "title": "声音的产生与传播",
-          "page": 27
+          "page": 32
         },
         {
           "no": "第2节",
           "title": "声音的特性",
-          "page": 32
+          "page": 37
         },
         {
           "no": "第3节",
           "title": "声的利用",
-          "page": 38
+          "page": 44
         },
         {
           "no": "第4节",
           "title": "噪声的危害和控制",
-          "page": 42
+          "page": 49
+        },
+        {
+          "no": "第5节",
+          "title": "跨学科实践:制作隔音",
+          "page": null
         }
       ]
     },
     {
       "index": 3,
       "title": "物态变化",
-      "page": 46,
+      "page": 57,
       "sections": [
         {
           "no": "第1节",
           "title": "温度",
-          "page": 47
+          "page": 58
         },
         {
           "no": "第2节",
           "title": "熔化和凝固",
-          "page": 53
+          "page": 64
         },
         {
           "no": "第3节",
           "title": "汽化和液化",
-          "page": 58
+          "page": 70
         },
         {
           "no": "第4节",
           "title": "升华和凝华",
-          "page": 64
+          "page": 77
+        },
+        {
+          "no": "第5节",
+          "title": "跨学科实践:探索厨房中的",
+          "page": null
         }
       ]
     },
     {
       "index": 4,
       "title": "光现象",
-      "page": 68,
+      "page": 87,
       "sections": [
         {
           "no": "第1节",
           "title": "光的直线传播",
-          "page": 69
+          "page": 88
         },
         {
           "no": "第2节",
           "title": "光的反射",
-          "page": 73
+          "page": 93
         },
         {
           "no": "第3节",
           "title": "平面镜成像",
-          "page": 77
+          "page": 98
         },
         {
           "no": "第4节",
           "title": "光的折射",
-          "page": 81
+          "page": 103
         },
         {
           "no": "第5节",
           "title": "光的色散",
-          "page": 85
+          "page": 107
         }
       ]
     },
     {
       "index": 5,
       "title": "透镜及其应用",
-      "page": 89,
+      "page": 113,
       "sections": [
         {
           "no": "第1节",
           "title": "透镜",
-          "page": 90
+          "page": 114
         },
         {
           "no": "第2节",
           "title": "生活中的透镜",
-          "page": 94
+          "page": 118
         },
         {
           "no": "第3节",
           "title": "凸透镜成像的规律",
-          "page": 97
+          "page": 122
         },
         {
           "no": "第4节",
           "title": "眼睛和眼镜",
-          "page": 100
+          "page": 126
         },
         {
           "no": "第5节",
-          "title": "显微镜和望远镜",
-          "page": 103
+          "title": "跨学科实践:制作望远镜",
+          "page": 130
         }
       ]
     },
     {
       "index": 6,
       "title": "质量与密度",
-      "page": 107,
+      "page": 138,
       "sections": [
         {
           "no": "第1节",
           "title": "质量",
-          "page": 108
+          "page": 139
         },
         {
           "no": "第2节",
           "title": "密度",
-          "page": 113
+          "page": 144
         },
         {
           "no": "第3节",
-          "title": "测量物质的密度",
-          "page": 117
+          "title": "测量液体和固体的密度",
+          "page": 149
         },
         {
           "no": "第4节",
-          "title": "密度与社会生活",
-          "page": 120
+          "title": "密度的应用",
+          "page": 152
         }
       ]
-    },
-    {
-      "index": 2,
-      "title": "目录",
-      "page": null
     }
   ]
 }

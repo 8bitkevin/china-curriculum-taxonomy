@@ -3,107 +3,105 @@
   "volume": "初中地理七年级下册",
   "pdf": {
     "file": "初中地理七年级下册.pdf",
-    "sha256": "48bb1df339ece5e5c6b28035d5829f1de21742c1a6693dd665a0f8a582287eda",
-    "pages": 107,
-    "hasTextLayer": false
+    "sha256": "9ba9dae8ff96f8fe78f57415c8b04ca5aed5395dd7b80c7f18b171ee98570102",
+    "pages": 126,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-30",
-  "note": "扫描版无文字层；目录由 RapidOCR 转录目录页人工基线（印=PDF−4，PDF6=印2 实测）。第六章章首/第一节页码由 PDF 页脚实测；第十章页码 OCR 缺失留空。",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 6,
-      "title": "第六章 我们生活的大洲——亚洲",
+      "index": 7,
+      "title": "我们生活的大洲——亚洲",
       "page": 1,
       "sections": [
         {
           "no": "第一节",
-          "title": "位置和范围",
+          "title": "自然环境",
           "page": 2
         },
         {
           "no": "第二节",
-          "title": "自然环境",
-          "page": 7
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "title": "第七章 我们邻近的地区和国家",
-      "page": 13,
-      "sections": [
-        {
-          "no": "第一节",
-          "title": "日本",
-          "page": 14
-        },
-        {
-          "no": "第二节",
-          "title": "东南亚",
-          "page": 22
-        },
-        {
-          "no": "第三节",
-          "title": "印度",
-          "page": 30
-        },
-        {
-          "no": "第四节",
-          "title": "俄罗斯",
-          "page": 37
+          "title": "人文环境",
+          "page": 12
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八章 东半球其他的地区和国家",
-      "page": 43,
+      "title": "我们邻近的地区和国家",
+      "page": 19,
       "sections": [
         {
           "no": "第一节",
-          "title": "中东",
-          "page": 44
+          "title": "日本",
+          "page": 20
         },
         {
           "no": "第二节",
-          "title": "欧洲西部",
-          "page": 52
+          "title": "东南亚",
+          "page": 30
         },
         {
           "no": "第三节",
-          "title": "撒哈拉以南非洲",
-          "page": 60
+          "title": "印度",
+          "page": 38
         },
         {
           "no": "第四节",
-          "title": "澳大利亚",
-          "page": 67
+          "title": "俄罗斯",
+          "page": 46
         }
       ]
     },
     {
       "index": 9,
-      "title": "第九章 西半球的国家",
-      "page": 73,
+      "title": "东半球其他的地区和国家",
+      "page": 57,
       "sections": [
         {
           "no": "第一节",
-          "title": "美国",
-          "page": 74
+          "title": "西亚",
+          "page": 58
         },
         {
           "no": "第二节",
-          "title": "巴西",
+          "title": "欧洲西部",
+          "page": 66
+        },
+        {
+          "no": "第三节",
+          "title": "撒哈拉以南非洲",
+          "page": 74
+        },
+        {
+          "no": "第四节",
+          "title": "澳大利亚",
           "page": 82
         }
       ]
     },
     {
       "index": 10,
-      "title": "第十章 极地地区",
-      "page": null,
-      "sections": []
+      "title": "西半球的国家",
+      "page": 89,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "美国",
+          "page": 90
+        },
+        {
+          "no": "第二节",
+          "title": "巴西",
+          "page": 98
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "极地地区",
+      "page": 109
     }
   ]
 }

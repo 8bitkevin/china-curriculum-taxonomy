@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "volume": "初中英语九年级上册",
+  "pdf": {
+    "file": "初中英语九年级上册.pdf",
+    "sha256": "25538732ec8a26780cfad5984fea5bccd7c755aa3a78686e8b10c1f8e2863de0",
+    "pages": 142,
+    "hasTextLayer": true
+  },
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
+  "units": []
+}

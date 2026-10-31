@@ -3,113 +3,110 @@
   "volume": "初中地理八年级下册",
   "pdf": {
     "file": "初中地理八年级下册.pdf",
-    "sha256": "59a2ef8f4c3436fa24886bcda0e98229efb757664b13db8b84ba1fffcf153a2c",
-    "pages": 111,
-    "hasTextLayer": false
+    "sha256": "f3f361137dc004456bfeb27ae4c00e921957185039cdf3dd29e8ea2eced3720e",
+    "pages": 118,
+    "hasTextLayer": true
   },
-  "source": "manual",
-  "extractedAt": "2026-10-30",
-  "note": "扫描版无文字层；目录由 RapidOCR 转录目录页人工基线（第五章章首 PDF5=印1 实测）。第六章章首与 6.1/6.3/6.4、7.3 页码 OCR 缺失留空。",
+  "source": "pdf-text",
+  "extractedAt": "2026-10-31",
   "units": [
     {
-      "index": 5,
-      "title": "第五章 中国的地理差异",
-      "page": 1,
-      "sections": []
+      "index": 6,
+      "title": "中国的地理差异",
+      "page": 1
     },
     {
-      "index": 6,
-      "title": "第六章 北方地区",
-      "page": null,
+      "index": 7,
+      "title": "北方地区",
+      "page": 11,
       "sections": [
         {
           "no": "第一节",
           "title": "自然特征与农业",
-          "page": null
+          "page": 12
         },
         {
           "no": "第二节",
           "title": "“白山黑水”——东北三省",
-          "page": 13
+          "page": 18
         },
         {
           "no": "第三节",
           "title": "世界最大的黄土堆积区——黄土高原",
-          "page": null
+          "page": 27
         },
         {
           "no": "第四节",
           "title": "祖国的首都——北京",
-          "page": null
-        }
-      ]
-    },
-    {
-      "index": 7,
-      "title": "第七章 南方地区",
-      "page": 43,
-      "sections": [
-        {
-          "no": "第一节",
-          "title": "自然特征与农业",
-          "page": 44
-        },
-        {
-          "no": "第二节",
-          "title": "“鱼米之乡”——长江三角洲地区",
-          "page": 49
-        },
-        {
-          "no": "第三节",
-          "title": "“东方明珠”——香港和澳门",
-          "page": null
-        },
-        {
-          "no": "第四节",
-          "title": "台湾省——祖国的神圣领土",
-          "page": 65
+          "page": 37
         }
       ]
     },
     {
       "index": 8,
-      "title": "第八章 西北地区",
-      "page": 71,
+      "title": "南方地区",
+      "page": 47,
       "sections": [
         {
           "no": "第一节",
           "title": "自然特征与农业",
-          "page": 72
+          "page": 48
         },
         {
           "no": "第二节",
-          "title": "干旱的宝地——塔里木盆地",
-          "page": 78
+          "title": "“鱼米之乡”——长江三角洲地区",
+          "page": 54
+        },
+        {
+          "no": "第三节",
+          "title": "特别行政区——香港和澳门",
+          "page": 62
+        },
+        {
+          "no": "第四节",
+          "title": "祖国的神圣领土——台湾省",
+          "page": 69
         }
       ]
     },
     {
       "index": 9,
-      "title": "第九章 青藏地区",
-      "page": 83,
+      "title": "西北地区",
+      "page": 77,
       "sections": [
         {
           "no": "第一节",
           "title": "自然特征与农业",
-          "page": 84
+          "page": 78
         },
         {
           "no": "第二节",
-          "title": "高原湿地——三江源地区",
-          "page": 91
+          "title": "干旱的宝地——塔里木盆地",
+          "page": 84
         }
       ]
     },
     {
       "index": 10,
-      "title": "第十章 中国在世界中",
-      "page": 97,
-      "sections": []
+      "title": "青藏地区",
+      "page": 89,
+      "sections": [
+        {
+          "no": "第一节",
+          "title": "自然特征与农业",
+          "page": 90
+        },
+        {
+          "no": "第二节",
+          "title": "“中华水塔”——三江源地区",
+          "page": 97
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "title": "奋进中的中国",
+      "page": 103
     }
   ]
 }

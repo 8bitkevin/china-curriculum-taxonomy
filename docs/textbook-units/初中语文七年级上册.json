@@ -3,22 +3,22 @@
   "volume": "初中语文七年级上册",
   "pdf": {
     "file": "初中语文七年级上册.pdf",
-    "sha256": "8c4accde5f1181f3d27bec19473227b7d742415064a672fd17393b0b5730d1f8",
-    "pages": 150,
+    "sha256": "83735d49f4559baf7ff55a38ffbfb2e5d99d428adf0683a0e119524dae1deeea",
+    "pages": 166,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "第一单元",
-      "page": 2,
+      "page": 1,
       "sections": [
         {
           "no": null,
-          "title": "1春/朱自清",
-          "page": null
+          "title": "阅读 1 春/ 朱自清",
+          "page": 2
         },
         {
           "no": "2",
@@ -26,179 +26,239 @@
           "page": 6
         },
         {
+          "no": null,
+          "title": "3* 雨的四季/ 刘湛秋",
+          "page": 10
+        },
+        {
           "no": "4",
           "title": "古代诗歌四首",
-          "page": 14
+          "page": 15
         },
         {
           "no": null,
-          "title": "写作热爱生活,热爱写作17",
-          "page": 17
+          "title": "阅读综合实践",
+          "page": 18
+        },
+        {
+          "no": null,
+          "title": "写作热爱写作,学会观察",
+          "page": 20
         }
       ]
     },
     {
       "index": 2,
       "title": "第二单元",
-      "page": 20,
+      "page": 23,
       "sections": [
         {
           "no": null,
-          "title": "5秋天的怀念/史铁生",
-          "page": null
+          "title": "阅读 5 秋天的怀念/ 史铁生",
+          "page": 24
         },
         {
           "no": "6",
           "title": "散步/ 莫怀戚",
-          "page": 23
+          "page": 27
+        },
+        {
+          "no": null,
+          "title": "7* 散文诗二首",
+          "page": 30
         },
         {
           "no": "8",
           "title": "《世说新语》二则",
-          "page": 29
+          "page": 34
         },
         {
           "no": null,
-          "title": "写作学会记事32",
-          "page": 32
+          "title": "阅读综合实践",
+          "page": 37
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "写作学会记事",
+          "page": 39
+        },
+        {
+          "no": null,
+          "title": "有朋自远方来",
+          "page": 41
         }
       ]
     },
     {
       "index": 3,
       "title": "第三单元",
-      "page": 38,
+      "page": 45,
       "sections": [
         {
           "no": null,
-          "title": "9从百草园到三味书屋/鲁迅",
-          "page": null
+          "title": "阅读 9 从百草园到三味书屋/ 鲁迅",
+          "page": 46
         },
         {
-          "no": "11",
+          "no": "10",
+          "title": "往事依依/ 于漪",
+          "page": 53
+        },
+        {
+          "no": null,
+          "title": "11* 再塑生命的人/ 海伦·凯勒",
+          "page": 57
+        },
+        {
+          "no": "12",
           "title": "《论语》十二章",
-          "page": 50
+          "page": 62
         },
         {
           "no": null,
-          "title": "写作写人要抓住特点54",
-          "page": 54
+          "title": "阅读综合实践",
+          "page": 66
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
+          "title": "写作如何突出中心",
+          "page": 68
         },
         {
           "no": null,
-          "title": "课外古诗词诵读63",
-          "page": 63
+          "title": "《朝花夕拾》 精读、略读、浏览",
+          "page": 71
+        },
+        {
+          "no": null,
+          "title": "课外古诗词诵读",
+          "page": 75
         }
       ]
     },
     {
       "index": 4,
       "title": "第四单元",
-      "page": 66,
+      "page": 77,
       "sections": [
         {
           "no": null,
-          "title": "12纪念白求恩/毛泽东",
-          "page": null
+          "title": "阅读 13 纪念白求恩/ 毛泽东",
+          "page": 78
         },
         {
-          "no": "13",
-          "title": "植树的牧羊人/ 让·乔诺",
-          "page": 70
+          "no": "14",
+          "title": "回忆我的母亲/ 朱德",
+          "page": 82
         },
         {
-          "no": "15",
+          "no": null,
+          "title": "15* 梅岭三章/ 陈毅",
+          "page": 88
+        },
+        {
+          "no": "16",
           "title": "诫子书/ 诸葛亮",
-          "page": 81
+          "page": 91
         },
         {
           "no": null,
-          "title": "写作思路要清晰83",
-          "page": 83
+          "title": "阅读综合实践",
+          "page": 93
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "写作思路要清晰",
+          "page": 95
+        },
+        {
+          "no": null,
+          "title": "少年正是读书时",
+          "page": 98
         }
       ]
     },
     {
       "index": 5,
-      "title": "第五单元",
-      "page": 92,
+      "title": "活动·探究",
+      "page": 105,
       "sections": [
         {
           "no": null,
-          "title": "16猫/郑振铎",
-          "page": null
+          "title": "任务一 体会人与动物的关系",
+          "page": 106
+        },
+        {
+          "no": "17",
+          "title": "猫/ 郑振铎",
+          "page": 108
         },
         {
           "no": "18",
+          "title": "我的白鸽/ 陈忠实",
+          "page": 113
+        },
+        {
+          "no": "19",
+          "title": "大雁归来/ 利奥波德",
+          "page": 120
+        },
+        {
+          "no": "20",
           "title": "狼/ 蒲松龄",
-          "page": 105
+          "page": 125
         },
         {
           "no": null,
-          "title": "写作如何突出中心108",
-          "page": 108
+          "title": "任务二 亲近动物,丰富生命体验",
+          "page": 127
+        },
+        {
+          "no": null,
+          "title": "任务三 记叙与动物的相处",
+          "page": 129
         }
       ]
     },
     {
       "index": 6,
       "title": "第六单元",
-      "page": 112,
+      "page": 131,
       "sections": [
         {
           "no": null,
-          "title": "19皇帝的新装/安徒生",
-          "page": null
-        },
-        {
-          "no": "20",
-          "title": "天上的街市/ 郭沫若",
-          "page": 118
+          "title": "阅读 21 小圣施威降大圣/ 吴承恩",
+          "page": 132
         },
         {
           "no": "22",
+          "title": "皇帝的新装/ 安徒生",
+          "page": 136
+        },
+        {
+          "no": null,
+          "title": "23* 女娲造人/ 袁珂",
+          "page": 142
+        },
+        {
+          "no": "24",
           "title": "寓言四则",
-          "page": 124
+          "page": 146
         },
         {
           "no": null,
-          "title": "写作发挥联想和想象128",
-          "page": 128
+          "title": "阅读综合实践",
+          "page": 150
         },
         {
           "no": null,
-          "title": "综合性学习",
-          "page": null
+          "title": "写作发挥联想和想象",
+          "page": 151
         },
         {
           "no": null,
-          "title": "名著导读",
-          "page": null
-        },
-        {
-          "no": null,
-          "title": "课外古诗词诵读140",
-          "page": 140
-        },
-        {
-          "no": null,
-          "title": "注:阅读课文分“教读”和“自读”两类。篇名前标有*的为自读课文。",
-          "page": null
+          "title": "《西游记》",
+          "page": 154
         }
       ]
     }

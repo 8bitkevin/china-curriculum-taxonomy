@@ -3,184 +3,284 @@
   "volume": "初中化学九年级上册",
   "pdf": {
     "file": "初中化学九年级上册.pdf",
-    "sha256": "49a90f62a568bc1763838ddf3c0f25ef3c15958c0e1919fae6a3c2bbf9b35941",
-    "pages": 162,
+    "sha256": "59a9f4aeac5599f9e2db43e31028a450ee69c0be6436cf02102d34e572ab6209",
+    "pages": 199,
     "hasTextLayer": true
   },
   "source": "pdf-text",
-  "extractedAt": "2026-10-22",
+  "extractedAt": "2026-10-31",
   "units": [
     {
       "index": 1,
       "title": "走进化学世界",
-      "page": 5,
+      "page": 7,
       "sections": [
         {
           "no": "课题1",
           "title": "物质的变化和性质",
-          "page": 6
+          "page": 8
         },
         {
           "no": "课题2",
-          "title": "化学是一门以实验为基础 的科学",
-          "page": 11
+          "title": "化学实验与科学探究",
+          "page": 14
         },
         {
-          "no": "课题3",
-          "title": "走进化学实验室",
-          "page": 17
+          "no": null,
+          "title": "整理与提升",
+          "page": 26
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 27
         }
       ]
     },
     {
       "index": 2,
-      "title": "我们周围的空气",
-      "page": 25,
+      "title": "空气和氧气",
+      "page": 29,
       "sections": [
         {
           "no": "课题1",
-          "title": "空气",
-          "page": 26
+          "title": "我们周围的空气",
+          "page": 30
         },
         {
           "no": "课题2",
           "title": "氧气",
-          "page": 33
+          "page": 38
         },
         {
           "no": "课题3",
           "title": "制取氧气",
-          "page": 37
+          "page": 43
+        },
+        {
+          "no": null,
+          "title": "整理与提升",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 50
+        },
+        {
+          "no": null,
+          "title": "实验活动1 氧气的实验室制取与性质",
+          "page": 52
+        },
+        {
+          "no": null,
+          "title": "的组装与使用",
+          "page": 54
         }
       ]
     },
     {
       "index": 3,
       "title": "物质构成的奥秘",
-      "page": 47,
+      "page": 55,
       "sections": [
         {
           "no": "课题1",
           "title": "分子和原子",
-          "page": 48
+          "page": 56
         },
         {
           "no": "课题2",
-          "title": "原子的结构",
-          "page": 53
+          "title": "原子结构",
+          "page": 65
         },
         {
           "no": "课题3",
           "title": "元素",
-          "page": 59
+          "page": 72
+        },
+        {
+          "no": null,
+          "title": "整理与提升",
+          "page": 78
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 79
+        },
+        {
+          "no": null,
+          "title": "物质组成与结构的历程",
+          "page": 80
         }
       ]
     },
     {
       "index": 4,
       "title": "自然界的水",
-      "page": 67,
+      "page": 81,
       "sections": [
         {
           "no": "课题1",
-          "title": "爱护水资源",
-          "page": 68
+          "title": "水资源及其利用",
+          "page": 82
         },
         {
           "no": "课题2",
-          "title": "水的净化",
-          "page": 74
+          "title": "水的组成",
+          "page": 91
         },
         {
           "no": "课题3",
-          "title": "水的组成",
-          "page": 79
+          "title": "物质组成的表示",
+          "page": 96
         },
         {
-          "no": "课题4",
-          "title": "化学式与化合价",
-          "page": 83
+          "no": null,
+          "title": "整理与提升",
+          "page": 104
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 105
+        },
+        {
+          "no": null,
+          "title": "实验活动2 水的组成及变化的探究",
+          "page": 107
+        },
+        {
+          "no": null,
+          "title": "跨学科实践活动3 水质检测及自制净水器",
+          "page": 108
         }
       ]
     },
     {
       "index": 5,
-      "title": "化学方程式",
-      "page": 91,
+      "title": "化学反应的定量关系",
+      "page": 109,
       "sections": [
         {
           "no": "课题1",
           "title": "质量守恒定律",
-          "page": 92
+          "page": 110
         },
         {
           "no": "课题2",
-          "title": "如何正确书写化学方程式",
-          "page": 99
+          "title": "化学方程式",
+          "page": 117
         },
         {
-          "no": "课题3",
-          "title": "利用化学方程式的简单计算",
-          "page": 102
+          "no": null,
+          "title": "整理与提升",
+          "page": 123
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 124
+        },
+        {
+          "no": null,
+          "title": "制作简易供氧器",
+          "page": 126
         }
       ]
     },
     {
       "index": 6,
       "title": "碳和碳的氧化物",
-      "page": 105,
+      "page": 127,
       "sections": [
         {
           "no": "课题1",
-          "title": "金刚石、石墨和C60",
-          "page": 106
+          "title": "碳单质的多样性",
+          "page": 128
         },
         {
           "no": "课题2",
-          "title": "二氧化碳制取的研究",
-          "page": 113
+          "title": "碳的氧化物",
+          "page": 136
         },
         {
           "no": "课题3",
-          "title": "二氧化碳和一氧化碳",
-          "page": 117
+          "title": "二氧化碳的实验室制取",
+          "page": 145
+        },
+        {
+          "no": null,
+          "title": "整理与提升",
+          "page": 151
+        },
+        {
+          "no": null,
+          "title": "复习与提高",
+          "page": 152
+        },
+        {
+          "no": null,
+          "title": "实验活动3 二氧化碳的实验室制取与性质",
+          "page": 154
+        },
+        {
+          "no": null,
+          "title": "低碳行动方案",
+          "page": 156
         }
       ]
     },
     {
       "index": 7,
-      "title": "燃料及其利用",
-      "page": 127,
+      "title": "能源的合理利用与开发",
+      "page": 157,
       "sections": [
         {
           "no": "课题1",
-          "title": "燃烧和灭火",
-          "page": 128
+          "title": "燃料的燃烧",
+          "page": 158
         },
         {
           "no": "课题2",
-          "title": "燃料的合理利用与开发",
-          "page": 136
+          "title": "化石能源的合理利用",
+          "page": 169
         },
         {
           "no": null,
-          "title": "附录I初中化学实验室常用仪器151",
-          "page": 151
+          "title": "整理与提升",
+          "page": 178
         },
         {
           "no": null,
-          "title": "附录II相对原子质量表153",
-          "page": 153
+          "title": "复习与提高",
+          "page": 179
         },
         {
           "no": null,
-          "title": "附录III部分名词中英文对照表154",
-          "page": 154
+          "title": "实验活动4 燃烧条件的探究",
+          "page": 181
         },
         {
-          "no": "2",
-          "title": "2 目录",
-          "page": null
+          "no": null,
+          "title": "合理使用",
+          "page": 182
+        },
+        {
+          "no": null,
+          "title": "附录I初中化学实验室常用仪器",
+          "page": 183
+        },
+        {
+          "no": null,
+          "title": "附录II相对原子质量表",
+          "page": 185
+        },
+        {
+          "no": null,
+          "title": "附录III名词索引",
+          "page": 186
         }
       ]
     }
