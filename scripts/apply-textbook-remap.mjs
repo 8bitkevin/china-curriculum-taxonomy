@@ -22,6 +22,10 @@
  * 用法：
  *   node scripts/apply-textbook-remap.mjs --dry   # 只报告
  *   node scripts/apply-textbook-remap.mjs         # 落盘
+ *   node scripts/apply-textbook-remap.mjs --table <path> [--dry]
+ *     # 指定过滤表（默认 docs/textbook-units/remap-2026.json）。表条目被批次
+ *     # 应用后即消费完毕，累计表重放会对已切换册次报警（旧键已不存在）；
+ *     # 后续批次用 --table 传仅含本批册次的过滤表执行。
  */
 
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
@@ -30,6 +34,10 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DRY = process.argv.includes('--dry');
+const TI = process.argv.indexOf('--table');
+const TABLE = TI > -1 && process.argv[TI + 1]
+  ? process.argv[TI + 1]
+  : join(ROOT, 'docs/textbook-units/remap-2026.json');
 const TODAY = new Date().toISOString().slice(0, 10);
 
 const CN = ['零', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
@@ -101,7 +109,7 @@ function unitPagesOf(stem) {
 }
 
 function main() {
-  const remap = JSON.parse(readFileSync(join(ROOT, 'docs/textbook-units/remap-2026.json'), 'utf8'));
+  const remap = JSON.parse(readFileSync(TABLE, 'utf8'));
   const topics = JSON.parse(readFileSync(join(ROOT, 'data/topics.json'), 'utf8'));
 
   const stats = { topics: 0, moved: 0, lessons: 0, deferred: 0, outOfScope: 0, warn: [] };

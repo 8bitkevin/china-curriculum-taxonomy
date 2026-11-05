@@ -142,6 +142,41 @@ _HEADERS = {
     "Accept-Language": "zh-CN,zh;q=0.9",
 }
 
+# 登录凭证（可选）：环境变量 SMARTEDU_TOKEN 或 .scratch/smartedu-token.txt
+# （值为 basic.smartedu.cn 的 UC_TOKEN cookie，gitignored 不入库；走 X-ND-AUTH 认证通道）
+TOKEN_PATH = ROOT / ".scratch" / "smartedu-token.txt"
+
+
+def _normalize_token(raw: str) -> str:
+    """凭证归一：UC_TOKEN cookie 的 base64 JSON 或其内层 access_token 均可。
+
+    实测（D-034）：X-ND-AUTH 接受 JSON 内层的 access_token（112 位 hex），
+    完整 cookie 值本身会被 401 拒绝。粘贴截断时 access_token 段通常仍完整。"""
+    import base64
+    import re as _re
+    raw = raw.strip()
+    if raw.startswith("eyJ"):
+        pad = raw + "=" * ((4 - len(raw) % 4) % 4)
+        try:
+            txt = base64.b64decode(pad).decode("utf-8", errors="ignore")
+            mt = _re.search(r'"access_token":"([0-9A-Fa-f]+)"', txt)
+            if mt:
+                return mt.group(1)
+        except Exception:  # noqa: BLE001 — 解不开就按原样使用
+            pass
+    return raw
+
+
+def _build_headers() -> dict[str, str]:
+    import os
+    h = dict(_HEADERS)
+    tok = os.environ.get("SMARTEDU_TOKEN")
+    if not tok and TOKEN_PATH.exists():
+        tok = TOKEN_PATH.read_text(encoding="utf-8").strip()
+    if tok:
+        h["X-ND-AUTH"] = _normalize_token(tok)
+    return h
+
 
 def _sleep_backoff(attempt: int) -> None:
     time.sleep((2, 5, 10, 20)[min(attempt, 3)])
@@ -157,7 +192,7 @@ def http_get_json(url: str, timeout: int = 60):
     last: Exception | None = None
     for attempt in range(4):
         try:
-            req = urllib.request.Request(url, headers=_HEADERS)
+            req = urllib.request.Request(url, headers=_build_headers())
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8"))
         except urllib.error.HTTPError as e:
@@ -247,16 +282,15 @@ def resolve_stem(stem: str, catalog: list[dict]) -> dict:
 
 
 def pdf_urls_of(res_id: str) -> list[str]:
-    """返回 PDF 分片的全部镜像直链（r1/r2/r3），逐个尝试。
-
-    ti_storages 默认给 -private 主机（GET 需登录）；同路径的非 private
-    镜像可匿名下载（D-034 实测），统一改写主机。"""
+    """返回 PDF 分片直链：-private 链（走 X-ND-AUTH 认证）优先，非 private 匿名链兜底。"""
     detail = http_get_json(DETAIL_URL.format(id=res_id))
     urls: list[str] = []
     for ti in detail.get("ti_items") or []:
         if ti.get("ti_file_flag") == "source" and ti.get("ti_format") == "pdf":
             urls.extend(s for s in (ti.get("ti_storages") or []) if s)
-    return [u.replace("-ndr-private.", "-ndr.") for u in urls]
+    out = list(urls)
+    out.extend(u.replace("-ndr-private.", "-ndr.") for u in urls)
+    return out
 
 
 def sha256_of(path: Path) -> str:
@@ -274,7 +308,7 @@ def download(url: str, dest: Path) -> None:
     last: Exception | None = None
     for attempt in range(4):
         try:
-            req = urllib.request.Request(url, headers=_HEADERS)
+            req = urllib.request.Request(url, headers=_build_headers())
             with urllib.request.urlopen(req, timeout=300) as r, open(tmp, "wb") as f:
                 while True:
                     chunk = r.read(1 << 20)

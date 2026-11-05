@@ -40,6 +40,33 @@ CN = ["零", "一", "二", "三", "四", "五", "六", "七", "八", "九"]
 RE_PAGE = re.compile(r"P(\d+)")
 RE_NUM = re.compile(r"\d+(?:\.\d+)?(?:/[1-9]\d*)?")
 RE_CJK = re.compile(r"[\u4e00-\u9fff]{2,}")
+RE_CJK_SINGLE = re.compile(r"[\u4e00-\u9fff]")
+RE_FOOTER_NUM = re.compile(r"\d{1,3}")
+RE_STRIP = re.compile(r"[^\u4e00-\u9fff0-9]+")
+
+
+def _cn2int(s: str) -> int:
+    D = {"一": 1, "二": 2, "三": 3, "四": 4, "五": 5,
+         "六": 6, "七": 7, "八": 8, "九": 9}
+    if s == "十":
+        return 10
+    if "十" in s:
+        a, _, b = s.partition("十")
+        return (D.get(a, 1) if a else 1) * 10 + (D.get(b, 0) if b else 0)
+    return D.get(s, 0)
+
+
+def unit_key(u: str) -> str:
+    """锚值归一：「第三单元·阅读」→「3」（与 unit_range 的 str(index) 键对齐），
+    其余（无编号主题单元标题）原样。此前汉字序号无法命中阿拉伯数字键，
+    范围守卫退化为全书 (1,10^4)，±3 页约束失效。"""
+    s = str(u)
+    m = re.fullmatch(r"第([一二三四五六七八九十]+)单元(?:·.*)?", s)
+    if m:
+        n = _cn2int(m.group(1))
+        if n:
+            return str(n)
+    return s
 
 
 def stem_of(t: dict) -> str | None:
@@ -75,39 +102,75 @@ def tokens_of(question: str) -> list[str]:
 
 
 def page_texts(pdf: Path) -> list[str]:
+    """匹配用页面文本：NFKC 后剔除拼音字母等非 CJK/数字字符。
+
+    新版低年级每字注音，「小鸭子」在原文里是「小xiǎo鸭yā子zi」，保留字母会让
+    题干 CJK 双字 token 永远匹配不上（B-NE2 实证：低年级册命中率跌至三成）。"""
     doc = fitz.open(pdf)
     try:
-        return [norm_text(p.get_text()) for p in doc]
+        return [RE_STRIP.sub("", unicodedata.normalize("NFKC", p.get_text()))
+                for p in doc]
     finally:
         doc.close()
 
 
-def front_offset(pdf: Path, units: list[dict]) -> int:
-    """打印页 = pdf 序号 + 1 - off；用各单元标题在正文中的位置校准 off（取中位数）。
-
-    目录页本身包含全部单元标题，必须跳过：先探测目录页范围，从其后开始找正文首现。"""
-    pages = page_texts(pdf)
+def _load_etoc():
     import importlib.util
     spec = importlib.util.spec_from_file_location(
         "etoc", str(ROOT / "scripts" / "extract-toc.py"))
-    etoc = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(etoc)
+    mod = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(mod)
+    return mod
+
+
+def front_offset(pdf: Path, units: list[dict]) -> int:
+    """打印页 = pdf 序号 + 1 - off。
+
+    首选：直读书页脚印刷页码（页面底部 88% 高度以下的孤立数字），取中位数——
+    这是纸书页码的权威来源（D-034 B-NE2 实证：语文各册 off 一律 =5）。
+    兜底：单元/首节标题在正文首现位置反推。两侧均按 CJK 单字归一——新版低年级
+    每字注音会把 CJK 连串打断、语文单元标题含间隔号「·」，原样探测会全部落空。"""
     doc = fitz.open(pdf)
     try:
-        toc_last = max(etoc.find_toc_pages(doc), default=-1)
+        offs: list[int] = []
+        for i in range(4, len(doc)):
+            w = doc[i].get_text("words")
+            h = doc[i].rect.height
+            nums = [t for x0, y0, x1, y1, t, *_ in w
+                    if y0 > h * 0.88 and RE_FOOTER_NUM.fullmatch(t)]
+            if len(nums) == 1:
+                v = int(nums[0])
+                if 0 <= i + 1 - v <= 10:
+                    offs.append(i + 1 - v)
+            if len(offs) >= 12:
+                break
+        if len(offs) >= 3:
+            return int(statistics.median(offs))
+        toc_last = max(_load_etoc().find_toc_pages(doc), default=-1)
+        pages = ["".join(RE_CJK_SINGLE.findall(
+            unicodedata.normalize("NFKC", p.get_text()))) for p in doc]
     finally:
         doc.close()
-    offs: list[int] = []
+
+    probes: list[tuple[str, int]] = []
     for u in units[:8]:
-        title = norm_text(u["title"])
-        if len(title) < 4 or not u.get("page"):
+        if not u.get("page"):
             continue
-        probe = title[:6]
+        s0 = (u.get("sections") or [{}])[0]
+        st = "".join(RE_CJK_SINGLE.findall(norm_text(s0.get("title") or "")))
+        if s0.get("page") and len(st) >= 4:
+            probes.append((st[:6], s0["page"]))
+        else:
+            t = "".join(RE_CJK_SINGLE.findall(norm_text(u.get("title") or "")))
+            if len(t) >= 2:
+                probes.append((t[:6], u["page"]))
+    fallback: list[int] = []
+    for probe, page_no in probes:
         for idx in range(max(2, toc_last + 1), len(pages)):
             if probe in pages[idx]:
-                offs.append(idx + 1 - u["page"])
+                fallback.append(idx + 1 - page_no)
                 break
-    return int(statistics.median(offs)) if offs else 4
+    return int(statistics.median(fallback)) if fallback else 4
 
 
 def main() -> int:
@@ -122,7 +185,11 @@ def main() -> int:
 
     stats = {"relocated": 0, "miss": 0, "noPage": 0}
     misses: list[dict] = []
-    dirty: dict[Path, dict] = {}
+    # 跨册共享同一 lessons 文件：必须缓存解析结果、收尾统一写盘。
+    # 逐册重读并 dirty[lf]=j 会让后一册用磁盘旧状态覆盖前一册的改动，
+    # 单次多册调用只有最后一册真正落盘（B-NE2 抽验实证）。
+    lesson_cache: dict[Path, dict] = {}
+    touched: set[Path] = set()
 
     for stem in stems:
         new_pdf = NEW_DIR / f"{stem}.pdf"
@@ -137,9 +204,15 @@ def main() -> int:
 
         unit_range: dict[str, tuple[int, int]] = {}
         for i, u in enumerate(units):
-            start = u.get("page") or 1
-            nxt = units[i + 1].get("page") if i + 1 < len(units) else None
-            end = (nxt - 1) if nxt else start + 40
+            # 单元页缺 null 时用首节页兜底（低年级目录只有节级页码），
+            # 否则范围塌成 (1,1+40)，±3 守卫失效、目录假命中过检
+            secs = u.get("sections") or []
+            start = (u.get("page") or (secs[0].get("page") if secs else None) or 1)
+            nxt = units[i + 1] if i + 1 < len(units) else None
+            nxt_secs = (nxt.get("sections") or [{}]) if nxt else [{}]
+            nxt_start = (nxt.get("page") if nxt else None) \
+                or (nxt_secs[0].get("page") if nxt_secs else None)
+            end = (nxt_start - 1) if nxt_start else start + 40
             key = str(u["index"]) if u.get("index") is not None else u["title"]
             unit_range[key] = (start, end)
             # 兼容「第N单元·主题」形式的可读单元值
@@ -148,13 +221,14 @@ def main() -> int:
 
         n_ok = n_bad = 0
         for lf in sorted(LESSONS_DIR.glob("*.json")):
-            j = json.loads(lf.read_text(encoding="utf-8"))
+            j = lesson_cache.setdefault(
+                lf, json.loads(lf.read_text(encoding="utf-8")))
             changed = False
             for l in j.get("lessons") or []:
                 t = topic_by_id.get(l.get("topicId") or "")
                 if not t or t["grade"] > 9 or stem_of(t) != stem:
                     continue
-                lo, hi = unit_range.get(str(t["textbook"]["unit"]), (1, 10**4))
+                lo, hi = unit_range.get(unit_key(t["textbook"]["unit"]), (1, 10**4))
                 for e in l.get("exercises") or []:
                     src = e.get("source")
                     label = (src or {}).get("label") or ""
@@ -169,12 +243,15 @@ def main() -> int:
                     best_idx, best_cov = None, 0
                     if toks:
                         for idx, ptxt in enumerate(pages):
+                            if idx < off:
+                                continue  # 书前页/目录（打印页 <1），防止目录假命中
                             cov = sum(1 for tk in toks if tk in ptxt)
                             if cov > best_cov:
                                 best_cov, best_idx = cov, idx
                     printed = best_idx + 1 - off if best_idx is not None else None
                     if toks and printed is not None and best_cov >= need and lo - 3 <= printed <= hi + 3:
-                        src["label"] = label[:m.start()] + f"P{printed}" + label[m.end():]
+                        base = label.replace("·页码待复核", "")
+                        src["label"] = base[:m.start()] + f"P{printed}" + base[m.end():]
                         stats["relocated"] += 1
                         n_ok += 1
                     else:
@@ -186,11 +263,12 @@ def main() -> int:
                                        "why": f"覆盖{best_cov}/{len(toks)} 命中页{printed} 范围[{lo},{hi}]"})
                     changed = True
             if changed:
-                dirty[lf] = j
+                touched.add(lf)
         print(f"  {stem}: 重定位 {n_ok} / 待复核 {n_bad} (off={off})")
 
-    for lf, j in dirty.items():
-        lf.write_text(json.dumps(j, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    for lf in sorted(touched):
+        lf.write_text(json.dumps(lesson_cache[lf], ensure_ascii=False, indent=1)
+                      + "\n", encoding="utf-8")
     MISS_PATH.parent.mkdir(parents=True, exist_ok=True)
     MISS_PATH.write_text(json.dumps(misses, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"\n完成：重定位 {stats['relocated']} / 待复核 {stats['miss']} / 无页码标注 {stats['noPage']}")
