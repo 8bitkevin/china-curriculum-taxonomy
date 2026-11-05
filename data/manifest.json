@@ -1,7 +1,7 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
   "version": "2.4.0",
-  "generatedAt": "2026-10-31",
+  "generatedAt": "2026-11-05",
   "counts": {
     "topics": 1641,
     "dependencies": 2272,
@@ -81,7 +81,8 @@
       "统编版·2019 年版",
       "统编版·2020 年版",
       "统编版·2024 年版",
-      "统编版·2025 年版"
+      "统编版·2025 年版",
+      "统编版·2026 年版"
     ],
     "lessonCoverage": {
       "topics": 1641,
@@ -92,8 +93,8 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1888135,
-      "sha256": "51bd4aa455224d13b107f67903373d8a5c8cd32cd61e515f678a30077ffa3522"
+      "bytes": 1888515,
+      "sha256": "6d58e188fee1b383622b3bc008e0cb6956fce7b8bbc2f7f93c53f2267ad5e837"
     },
     "dependencies.json": {
       "bytes": 442255,
@@ -120,8 +121,8 @@
       "sha256": "a31f1eada98d72dcd9acda807c0bea81934daf65c645eb4c59a7c10102b0e807"
     },
     "lessons/math.json": {
-      "bytes": 5358139,
-      "sha256": "2fe9c42822caa342fbb5d94e21bc902f94a44290af256024081d1d93df1144e2"
+      "bytes": 5362466,
+      "sha256": "c9403c1c1b036b8cd6eb4922b8093d67b48df48982d8a7e6636fb8555d5da3ec"
     },
     "lessons/sw.json": {
       "bytes": 736219,
@@ -136,16 +137,16 @@
       "sha256": "2a7978b35d5ae746c7906b575fa8fb7722b68c72440f985f85ba3241a483672a"
     },
     "lessons/yw.json": {
-      "bytes": 5109489,
-      "sha256": "9647f8a3fa0b2ee77354b84109ef9d8a2993953b3e50a04ea7ecabdc7da3fc67"
+      "bytes": 5113334,
+      "sha256": "ea140217f0f060ea8d093d75a1167b7ecf85b5aa514437ff2120cc8b6a729080"
     },
     "lessons/yy.json": {
       "bytes": 2177500,
       "sha256": "1a5c1a8225dfeb322f314c1b828e1e385ea000ce4db45e6f00d1cfc584b2f936"
     },
     "lessons/zz.json": {
-      "bytes": 359290,
-      "sha256": "933e4f94c5fb65cd29cf818df33844825ec59541db915417717bd3254ced3c41"
+      "bytes": 359358,
+      "sha256": "840af87cf25fd7d466ec555945252597c8adf19117c2392859dd74b959f6e2df"
     }
   }
 }
