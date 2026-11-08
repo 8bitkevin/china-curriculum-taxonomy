@@ -94,8 +94,8 @@
       "sha256": "2647f0af7bcee4b718935a8a458c54cd16f633e1be37e4188204446a3e8c8c55"
     },
     "dependencies.json": {
-      "bytes": 439026,
-      "sha256": "eac2cd215d8e15e7026baaf5696c259b53c1f3b8d6e9e801631520a5c1fd365a"
+      "bytes": 424551,
+      "sha256": "dbb3cedb0601266b4fa88f1fecb47b90536a73a1bcc61d3f5080a6d25804b268"
     },
     "curriculum-standards.json": {
       "bytes": 126092,
@@ -106,12 +106,12 @@
       "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     },
     "lessons/dl.json": {
-      "bytes": 630816,
-      "sha256": "a89ecf4ae8849617cf65c4b9d77a2894907a24e603c4ebf5924f2238e76e90c5"
+      "bytes": 624511,
+      "sha256": "bf2e7762f99c3b83b1e56989a7c57b44f13c752e19305dfc7d7d829bec61eb0d"
     },
     "lessons/hx.json": {
-      "bytes": 695692,
-      "sha256": "f2be9aa4edab62cf0c427deead4d771a53789f870b0beb6e04b33ff80c72f9e0"
+      "bytes": 688460,
+      "sha256": "6e4446069d0a2b78c87895cb5e199ffa85685fd909fe15de782aa84a40f5d414"
     },
     "lessons/ls.json": {
       "bytes": 1079444,
@@ -122,8 +122,8 @@
       "sha256": "a2fed936508120ad1b43927962cd08c1ed3fc2640d59d7d690c6e91ff731c183"
     },
     "lessons/sw.json": {
-      "bytes": 712513,
-      "sha256": "0fcc67165f52203e6013c4de8b8ad219d0a183a4123f853dfb036406160b1a2a"
+      "bytes": 705991,
+      "sha256": "28f8a61a98cb5d295b0b966f163af6eff25cd176dad04a60914ebcbfaa95783f"
     },
     "lessons/sxzz.json": {
       "bytes": 479300,
@@ -138,12 +138,12 @@
       "sha256": "d5073efe7e4656f19b3f03836acfd0145440f891d66bf64486f6526d27e8d52e"
     },
     "lessons/yy.json": {
-      "bytes": 2245614,
-      "sha256": "d3716562e540371760e236c249e1a634eaf7130a66bfd05474650b4eb07c8ec9"
+      "bytes": 2212128,
+      "sha256": "b6a19a0710cd44ef7da40702c53cfb40688c1f1e6d4279d29b64fc92f38dbb15"
     },
     "lessons/zz.json": {
-      "bytes": 758141,
-      "sha256": "63b6815d06c59a8d806f09dd3c8005094728312c5c68c2a5dad1b8e55bceb1f9"
+      "bytes": 749426,
+      "sha256": "cd731168ca1d74f30798ce4bb681230f3f56d15befd9a2a2db8da1358206fb85"
     }
   }
 }

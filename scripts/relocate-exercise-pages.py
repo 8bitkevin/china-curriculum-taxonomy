@@ -296,10 +296,11 @@ def main() -> int:
         print(f"  {stem}: 重定位 {n_ok} / 待复核 {n_bad} (off={off})")
 
     for lf in sorted(touched):
-        lf.write_text(json.dumps(lesson_cache[lf], ensure_ascii=False, indent=1)
-                      + "\n", encoding="utf-8")
+        # 强制 LF 写盘：Windows 文本模式默认 CRLF 会令 manifest 校验和在 CI（LF 检出）失配
+        lf.write_bytes((json.dumps(lesson_cache[lf], ensure_ascii=False, indent=1)
+                        + "\n").encode("utf-8"))
     MISS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    MISS_PATH.write_text(json.dumps(misses, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    MISS_PATH.write_bytes((json.dumps(misses, ensure_ascii=False, indent=1) + "\n").encode("utf-8"))
     print(f"\n完成：重定位 {stats['relocated']} / 待复核 {stats['miss']} / 无页码标注 {stats['noPage']}")
     return 0
 
