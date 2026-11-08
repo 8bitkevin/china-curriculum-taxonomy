@@ -1,7 +1,7 @@
 {
   "taxonomy": "china-curriculum-taxonomy",
   "version": "2.4.0",
-  "generatedAt": "2026-11-05",
+  "generatedAt": "2026-11-08",
   "counts": {
     "topics": 1641,
     "dependencies": 2272,
@@ -14,11 +14,11 @@
       "2年级下": 50,
       "1年级下": 50,
       "2年级上": 44,
-      "3年级上": 62,
-      "3年级下": 67,
-      "4年级上": 73,
+      "3年级上": 64,
+      "3年级下": 65,
+      "4年级上": 74,
       "5年级上": 65,
-      "4年级下": 67,
+      "4年级下": 66,
       "6年级上": 64,
       "5年级下": 62,
       "6年级下": 57,
@@ -93,8 +93,8 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1888515,
-      "sha256": "6d58e188fee1b383622b3bc008e0cb6956fce7b8bbc2f7f93c53f2267ad5e837"
+      "bytes": 1888761,
+      "sha256": "278d705a4f1aa7ce83b3f5b22c428b19d1f965fd9634718588a665c2deb45a89"
     },
     "dependencies.json": {
       "bytes": 442255,
@@ -141,8 +141,8 @@
       "sha256": "ea140217f0f060ea8d093d75a1167b7ecf85b5aa514437ff2120cc8b6a729080"
     },
     "lessons/yy.json": {
-      "bytes": 2177500,
-      "sha256": "1a5c1a8225dfeb322f314c1b828e1e385ea000ce4db45e6f00d1cfc584b2f936"
+      "bytes": 2069048,
+      "sha256": "9a3396c123f20c8b702680152b03d7d3541242fd5257bef9e8519538ee7eb044"
     },
     "lessons/zz.json": {
       "bytes": 359358,

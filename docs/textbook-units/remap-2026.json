@@ -6,7 +6,9 @@
   "editionYearBasis": "官方启用批次年：一/七年级册=2024，二/三年级册=2025，四五六上/九年级册=2026（平台电子书版权页无版次行）",
   "batch1Scope": "数学 13 册（初中八上未到货暂缓）+ 道德与法治一二上 + 语文一上；其余学科后续批次",
   "batch2Scope": "语文一年级下册~六年级上册 8 册（四五六下未上线不在版，待 T-3；方案 §4 原记 9 册按在版勘误为 8 册）",
-  "batch2Date": "2026-11-02"
+  "batch2Date": "2026-11-02",
+  "batch3Scope": "英语三年级上册~六年级上册 6 册（五下六下未上线待 T-3；方案原记 7 册勘误为 6 册）",
+  "batch3Date": "2026-11-08"
  },
  "数学一年级上册": {
   "editionYear": 2024,
@@ -704,6 +706,236 @@
    "ct_yw_g6a_22": {
     "unit": "第八单元·阅读",
     "note": "字词自查按书末写字表/词语表锚定末单元"
+   }
+  }
+ },
+ "英语三年级上册": {
+  "editionYear": 2025,
+  "note": "2025版三上主题换血：Hello/Colours/Look at me/Animals/Let's eat/Birthday → Making friends/Different families/Our animal friends/Plants around us/The colourful world/Useful numbers；How are you 实证 U2；颜色实证 U5；字母与语音仍各单元分布",
+  "units": {
+   "Unit 1 Hello!": "Unit 1·Making friends",
+   "Unit 2 Colours": "Unit 5·The colourful world",
+   "Unit 3 Look at me!": "Unit 2·Different families",
+   "Unit 4 We love animals": "Unit 3·Our animal friends",
+   "Unit 5 Let's eat!": "Unit 4·Plants around us",
+   "Unit 6 Happy birthday!": "Unit 6·Useful numbers",
+   "各单元 Letters and sounds": "Unit 1·Making friends",
+   "各单元 Let's do": "Unit 1·Making friends",
+   "各单元 Let's talk": "Unit 1·Making friends",
+   "各单元 Let's check / 书写练习": "Unit 1·Making friends",
+   "各单元": "Unit 1·Making friends",
+   "全册": "Unit 6·Useful numbers"
+  },
+  "topics": {
+   "ct_yy_g3a_04": {
+    "unit": "Unit 5·The colourful world",
+    "note": "颜色主题实证新版 U5"
+   },
+   "ct_yy_g3a_05": {
+    "unit": "Unit 2·Different families",
+    "note": "How are you? 问候链实证新版 U2"
+   },
+   "ct_yy_g3a_07": {
+    "unit": "Unit 4·Plants around us",
+    "note": "I like 句型随植物/喜好主题移 U4"
+   },
+   "ct_yy_g3a_13": {
+    "unit": "Unit 1·Making friends",
+    "note": "礼貌用语随交友问候主题锚 U1（通用点就近锚定）"
+   }
+  }
+ },
+ "英语三年级下册": {
+  "editionYear": 2025,
+  "note": "2025版三下主题换血：Welcome/Family/Zoo/Car/Pears/How many → Meeting new people/My words and actions/Tools and senses for learning/Healthy food/Old things/Numbers in life；家庭/动物主题上移三上（跨册锚定），方位介词实证 U5 Old things（in/on/under），食物实证 U4",
+  "units": {
+   "Unit 1 Welcome back to school!": "Unit 1·Meeting new people",
+   "Unit 2 My family": {
+    "stem": "英语三年级上册",
+    "unit": "Unit 2·Different families"
+   },
+   "Unit 3 At the zoo": {
+    "stem": "英语三年级上册",
+    "unit": "Unit 3·Our animal friends"
+   },
+   "Unit 4 Where is my car?": "Unit 5·Old things",
+   "Unit 5 Do you like pears?": "Unit 4·Healthy food",
+   "Unit 6 How many?": "Unit 6·Numbers in life",
+   "各单元 Let's spell": "Unit 1·Meeting new people",
+   "各单元 Let's chant / Sing": "Unit 1·Meeting new people",
+   "Recycle 1 & 2": "Unit 6·Numbers in life",
+   "各单元书写练习": "Unit 1·Meeting new people",
+   "文化角与节日": "Unit 6·Numbers in life",
+   "全册": "Unit 6·Numbers in life"
+  },
+  "topics": {
+   "ct_yy_g3b_02": {
+    "stem": "英语三年级上册",
+    "unit": "Unit 2·Different families",
+    "note": "家庭成员主题新版移三上 Different families（跨册同年级）"
+   },
+   "ct_yy_g3b_03": {
+    "stem": "英语三年级上册",
+    "unit": "Unit 3·Our animal friends",
+    "note": "动物与外形描述新版移三上 Our animal friends（跨册同年级）"
+   },
+   "ct_yy_g3b_04": {
+    "unit": "Unit 5·Old things",
+    "note": "方位介词 in/on/under 实证新版 U5"
+   }
+  }
+ },
+ "英语四年级上册": {
+  "editionYear": 2026,
+  "note": "2026版四上主题换血：Classroom/Schoolbag/Friends/Home/Dinner's ready/Meet my family → Helping at home/My friends/Places we live in/Helping in the community/The weather and us/Changing for the seasons；My friends 主题保留（U3→U2）；职业实证 U4 社区帮手；教室情境移四下、点餐句型移五上（跨学段不迁，就近锚定）",
+  "units": {
+   "Unit 1 My classroom": {
+    "stem": "英语四年级下册",
+    "unit": "Unit 3·Time for school"
+   },
+   "Unit 3 My friends": "Unit 2·My friends",
+   "Unit 4 My home": "Unit 3·Places we live in",
+   "Unit 5 Dinner's ready": "Unit 1·Helping at home",
+   "Unit 6 Meet my family": "Unit 4·Helping in the community",
+   "各单元 Let's spell": "Unit 1·Helping at home",
+   "各单元 Let's talk / 听力活动": "Unit 1·Helping at home",
+   "Recycle & 单元任务": "Unit 6·Changing for the seasons",
+   "各单元书写与仿写任务": "Unit 2·My friends",
+   "Unit 5 文化内容": "Unit 1·Helping at home",
+   "全册": "Unit 6·Changing for the seasons"
+  },
+  "topics": {
+   "ct_yy_g4a_01": {
+    "stem": "英语四年级下册",
+    "unit": "Unit 3·Time for school",
+    "note": "教室与学校情境新版移四下 Time for school（跨册同年级，classroom 四上全文无命中）"
+   },
+   "ct_yy_g4a_05": {
+    "unit": "Unit 1·Helping at home",
+    "note": "What would you like? 新版后移五上 Food we eat（跨学段不可迁），就近锚定家务用餐情境"
+   },
+   "ct_yy_g4a_06": {
+    "unit": "Unit 4·Helping in the community",
+    "note": "职业词汇实证新版 U4（社区帮手）"
+   },
+   "ct_yy_g4a_10": {
+    "unit": "Unit 2·My friends",
+    "note": "My friend 仿写随朋友主题锚 U2"
+   }
+  }
+ },
+ "英语四年级下册": {
+  "editionYear": 2026,
+  "note": "2026版四下主题换血：My school/What time/Weather/At the farm/My clothes/Shopping → Class rules/Family rules/Time for school/Going shopping/Farms and us/From farm to table；天气上移四上 U5（跨册锚定，时差文化随迁）；衣物实证并入 U4 购物；农场 U5 保留；楼层表达已删",
+  "units": {
+   "Unit 1 My school": "Unit 3·Time for school",
+   "Unit 2 What time is it?": "Unit 3·Time for school",
+   "Unit 3 Weather": {
+    "stem": "英语四年级上册",
+    "unit": "Unit 5·The weather and us"
+   },
+   "Unit 4 At the farm": "Unit 5·Farms and us",
+   "Unit 5 My clothes": "Unit 4·Going shopping",
+   "Unit 6 Shopping": "Unit 4·Going shopping",
+   "各单元 Let's spell": "Unit 1·Class rules",
+   "Unit 2-3 综合任务": "Unit 3·Time for school",
+   "各单元 Story time": "Unit 1·Class rules",
+   "Unit 3 文化内容": {
+    "stem": "英语四年级上册",
+    "unit": "Unit 5·The weather and us"
+   },
+   "全册": "Unit 6·From farm to table",
+   "Unit 2 写作任务": "Unit 3·Time for school"
+  },
+  "topics": {
+   "ct_yy_g4b_01": {
+    "unit": "Unit 3·Time for school",
+    "note": "楼层表达新版已删，学校场所与作息就近锚定"
+   },
+   "ct_yy_g4b_05": {
+    "unit": "Unit 4·Going shopping",
+    "note": "衣物词汇实证新版并入 U4 购物"
+   },
+   "ct_yy_g4b_08": {
+    "unit": "Unit 3·Time for school",
+    "note": "天气与作息播报拆分：作息锚 U3，天气主题移四上 U5"
+   },
+   "ct_yy_g4b_11": {
+    "stem": "英语四年级上册",
+    "unit": "Unit 5·The weather and us",
+    "note": "时差与天气文化随天气主题移四上 U5（跨册同年级）"
+   }
+  }
+ },
+ "英语五年级上册": {
+  "editionYear": 2026,
+  "note": "2026版五上主题换血：What's he like/My week/What would you like/What can you do/There is a big bed/In a nature park → Different friends/My feelings/Work and play/Healthy habits/Food we eat/Nature and us；性格描述保留（U1→U1）；食物移 U5；there be 随自然主题留 U6；星期课程实证 U3（timetable）；can 实证散布、活动情境锚 U3",
+  "units": {
+   "Unit 1 What's he like?": "Unit 1·Different friends",
+   "Unit 2 My week": "Unit 3·Work and play",
+   "Unit 3 What would you like?": "Unit 5·Food we eat",
+   "Unit 4 What can you do?": "Unit 3·Work and play",
+   "Unit 5 There is a big bed": "Unit 6·Nature and us",
+   "Unit 6 In a nature park": "Unit 6·Nature and us",
+   "各单元 Let's spell": "Unit 1·Different friends",
+   "Unit 1-2 综合任务": "Unit 1·Different friends",
+   "各单元 Read and write": "Unit 1·Different friends",
+   "各单元写作任务": "Unit 1·Different friends",
+   "Unit 2 文化内容": "Unit 3·Work and play",
+   "全册": "Unit 6·Nature and us",
+   "各单元 Let's spell 与 Let's talk 综合": "Unit 1·Different friends"
+  },
+  "topics": {
+   "ct_yy_g5a_02": {
+    "unit": "Unit 3·Work and play",
+    "note": "星期课程表实证新版 U3（timetable）"
+   },
+   "ct_yy_g5a_04": {
+    "unit": "Unit 3·Work and play",
+    "note": "can 能力句型并入活动情境"
+   },
+   "ct_yy_g5a_05": {
+    "unit": "Unit 6·Nature and us",
+    "note": "there be 存在描述随自然主题锚 U6"
+   }
+  }
+ },
+ "英语六年级上册": {
+  "editionYear": 2026,
+  "note": "2026版六上主题换血：Get there/Ways to school/Weekend plan/Pen pal/What does he do/How do you feel → Amazing places/Getting together/Healthy life/Managing money well/Exploring space/Energy, nature and us；问路句型新版已删（地点就近锚 U1）；情绪与建议实证 U3 健康生活；职业实证 U3/U5（太空职业）；计划表达 going to 实证 U3/U4",
+  "units": {
+   "Unit 1 How can I get there?": "Unit 1·Amazing places",
+   "Unit 2 Ways to go to school": "Unit 1·Amazing places",
+   "Unit 3 My weekend plan": "Unit 3·Healthy life",
+   "Unit 4 I have a pen pal": "Unit 2·Getting together",
+   "Unit 5 What does he do?": "Unit 5·Exploring space",
+   "Unit 6 How do you feel?": "Unit 3·Healthy life",
+   "Unit 1-3 综合任务": "Unit 2·Getting together",
+   "Unit 4 Read and write": "Unit 2·Getting together",
+   "Unit 3 写作任务": "Unit 3·Healthy life",
+   "Unit 2 文化内容": "Unit 1·Amazing places",
+   "全册": "Unit 6·Energy, nature and us"
+  },
+  "topics": {
+   "ct_yy_g6a_01": {
+    "unit": "Unit 1·Amazing places",
+    "note": "问路指路句型新版已删（how can i get there 全文无命中），就近锚定地点单元"
+   },
+   "ct_yy_g6a_03": {
+    "unit": "Unit 3·Healthy life",
+    "note": "be going to 计划表达实证 U3/U4，随健康生活安排锚 U3"
+   },
+   "ct_yy_g6a_05": {
+    "unit": "Unit 5·Exploring space",
+    "note": "职业话题并入太空探索情境（job 实证 U3/U5）"
+   },
+   "ct_yy_g6a_06": {
+    "unit": "Unit 3·Healthy life",
+    "note": "情绪表达实证新版 U3 健康生活"
+   },
+   "ct_yy_g6a_07": {
+    "unit": "Unit 3·Healthy life",
+    "note": "should 建议实证新版 U3"
    }
   }
  }

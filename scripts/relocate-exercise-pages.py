@@ -58,14 +58,18 @@ def _cn2int(s: str) -> int:
 
 def unit_key(u: str) -> str:
     """锚值归一：「第三单元·阅读」→「3」（与 unit_range 的 str(index) 键对齐），
-    其余（无编号主题单元标题）原样。此前汉字序号无法命中阿拉伯数字键，
-    范围守卫退化为全书 (1,10^4)，±3 页约束失效。"""
+    英语「Unit 1·Making friends」→「1」；其余（无编号主题单元标题）原样。
+    此前汉字序号无法命中阿拉伯数字键，范围守卫退化为全书 (1,10^4)，
+    ±3 页约束失效。"""
     s = str(u)
     m = re.fullmatch(r"第([一二三四五六七八九十]+)单元(?:·.*)?", s)
     if m:
         n = _cn2int(m.group(1))
         if n:
             return str(n)
+    m = re.fullmatch(r"Unit\s*(\d+)(?:[·\s].*)?", s, re.IGNORECASE)
+    if m:
+        return m.group(1)
     return s
 
 

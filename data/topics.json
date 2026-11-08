@@ -31454,8 +31454,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Letters and sounds",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       }
     },
     {
@@ -31481,8 +31481,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Letters and sounds",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_01"
@@ -31512,8 +31512,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 1 Hello!",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_01"
@@ -31543,8 +31543,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 2 Colours",
-        "editionYear": 2012
+        "unit": "Unit 5·The colourful world",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_03"
@@ -31574,8 +31574,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 3 Look at me!",
-        "editionYear": 2012
+        "unit": "Unit 2·Different families",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_04"
@@ -31605,8 +31605,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 4 We love animals",
-        "editionYear": 2012
+        "unit": "Unit 3·Our animal friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_02",
@@ -31637,8 +31637,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 5 Let's eat!",
-        "editionYear": 2012
+        "unit": "Unit 4·Plants around us",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_06"
@@ -31668,8 +31668,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 6 Happy birthday!",
-        "editionYear": 2012
+        "unit": "Unit 6·Useful numbers",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_07"
@@ -31698,8 +31698,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Let's do",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_03"
@@ -31729,8 +31729,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Let's talk",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_09"
@@ -31759,8 +31759,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Let's talk",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_10"
@@ -31789,8 +31789,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元 Let's check / 书写练习",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_01"
@@ -31819,8 +31819,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "各单元",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_03"
@@ -31849,8 +31849,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "Unit 1 Hello!",
-        "editionYear": 2012
+        "unit": "Unit 1·Making friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_03"
@@ -31879,8 +31879,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "上",
-        "unit": "全册",
-        "editionYear": 2012
+        "unit": "Unit 6·Useful numbers",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_06",
@@ -31911,8 +31911,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "Unit 1 Welcome back to school!",
-        "editionYear": 2013
+        "unit": "Unit 1·Meeting new people",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_03"
@@ -31926,7 +31926,7 @@
       "name": "家庭成员与 Who's that...?",
       "description": "掌握家庭称谓词（father、mother、brother、sister、grandfather、grandmother）和指认句型 Who's that man? He's my father. She's my mother.——he/she 的男女区分第一次上手。",
       "grade": 3,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
       "evidence": [
@@ -31941,9 +31941,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "下",
-        "unit": "Unit 2 My family",
-        "editionYear": 2013
+        "volume": "上",
+        "unit": "Unit 2·Different families",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3b_01"
@@ -31957,7 +31957,7 @@
       "name": "形容词描述：It's so tall!",
       "description": "用形容词描述事物特征（tall、short、fat、thin、big、small、long）并学会 so 的强调（It's so tall!）。英语的「形容」结构：be + 形容词——描述世界的第一批颜料。",
       "grade": 3,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
       "evidence": [
@@ -31972,9 +31972,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "下",
-        "unit": "Unit 3 At the zoo",
-        "editionYear": 2013
+        "volume": "上",
+        "unit": "Unit 3·Our animal friends",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_06"
@@ -32004,8 +32004,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "Unit 4 Where is my car?",
-        "editionYear": 2013
+        "unit": "Unit 5·Old things",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_06",
@@ -32036,8 +32036,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "Unit 5 Do you like pears?",
-        "editionYear": 2013
+        "unit": "Unit 4·Healthy food",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_07"
@@ -32067,8 +32067,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "Unit 6 How many?",
-        "editionYear": 2013
+        "unit": "Unit 6·Numbers in life",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_08"
@@ -32098,8 +32098,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "各单元 Let's spell",
-        "editionYear": 2013
+        "unit": "Unit 1·Meeting new people",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_02"
@@ -32129,8 +32129,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "各单元 Let's chant / Sing",
-        "editionYear": 2013
+        "unit": "Unit 1·Meeting new people",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_11"
@@ -32160,8 +32160,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "Recycle 1 & 2",
-        "editionYear": 2013
+        "unit": "Unit 6·Numbers in life",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3b_04",
@@ -32192,8 +32192,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "各单元书写练习",
-        "editionYear": 2013
+        "unit": "Unit 1·Meeting new people",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_12"
@@ -32222,8 +32222,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "文化角与节日",
-        "editionYear": 2013
+        "unit": "Unit 6·Numbers in life",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_14"
@@ -32252,8 +32252,8 @@
         "publisher": "人教版",
         "grade": 3,
         "volume": "下",
-        "unit": "全册",
-        "editionYear": 2013
+        "unit": "Unit 6·Numbers in life",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_yy_g3a_15"
@@ -32267,7 +32267,7 @@
       "name": "名词单复数初步：What's in the classroom?",
       "description": "掌握教室物品词（window、board、picture、light）和单复数变化（one light → three lights），能问 What's in your classroom? 并用 There is/are… 或直接名词回答。数一数教室里的东西——名词的复数 -s 第一次系统登场。",
       "grade": 4,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 9,
       "ageRangeEnd": 10,
       "evidence": [
@@ -32282,9 +32282,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 4,
-        "volume": "上",
-        "unit": "Unit 1 My classroom",
-        "editionYear": 2013
+        "volume": "下",
+        "unit": "Unit 3·Time for school",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_06"
@@ -32314,8 +32314,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 3 My friends",
-        "editionYear": 2013
+        "unit": "Unit 2·My friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_02"
@@ -32345,8 +32345,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 3 My friends",
-        "editionYear": 2013
+        "unit": "Unit 2·My friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_02"
@@ -32376,8 +32376,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 4 My home",
-        "editionYear": 2013
+        "unit": "Unit 3·Places we live in",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_04",
@@ -32408,8 +32408,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 5 Dinner's ready",
-        "editionYear": 2013
+        "unit": "Unit 1·Helping at home",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_07"
@@ -32439,8 +32439,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 6 Meet my family",
-        "editionYear": 2013
+        "unit": "Unit 4·Helping in the community",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_02"
@@ -32470,8 +32470,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "各单元 Let's spell",
-        "editionYear": 2013
+        "unit": "Unit 1·Helping at home",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_07"
@@ -32501,8 +32501,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "各单元 Let's talk / 听力活动",
-        "editionYear": 2013
+        "unit": "Unit 1·Helping at home",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_10"
@@ -32532,8 +32532,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Recycle & 单元任务",
-        "editionYear": 2013
+        "unit": "Unit 6·Changing for the seasons",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_09"
@@ -32563,8 +32563,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "各单元书写与仿写任务",
-        "editionYear": 2013
+        "unit": "Unit 2·My friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_10",
@@ -32595,8 +32595,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "Unit 5 文化内容",
-        "editionYear": 2013
+        "unit": "Unit 1·Helping at home",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_11"
@@ -32625,8 +32625,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "上",
-        "unit": "全册",
-        "editionYear": 2013
+        "unit": "Unit 6·Changing for the seasons",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_12"
@@ -32656,8 +32656,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 1 My school",
-        "editionYear": 2014
+        "unit": "Unit 3·Time for school",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_04"
@@ -32687,8 +32687,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 2 What time is it?",
-        "editionYear": 2014
+        "unit": "Unit 3·Time for school",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_08"
@@ -32702,7 +32702,7 @@
       "name": "天气表达：What's the weather like?",
       "description": "掌握天气词（cold、cool、warm、hot、sunny、rainy、snowy、windy、cloudy）和天气问答 What's the weather like in Beijing? — It's rainy. 每天的天气播报是最好坚持的口语习惯。",
       "grade": 4,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
       "evidence": [
@@ -32717,9 +32717,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 4,
-        "volume": "下",
-        "unit": "Unit 3 Weather",
-        "editionYear": 2014
+        "volume": "上",
+        "unit": "Unit 5·The weather and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_04"
@@ -32749,8 +32749,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 4 At the farm",
-        "editionYear": 2014
+        "unit": "Unit 5·Farms and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_04",
@@ -32781,8 +32781,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 5 My clothes",
-        "editionYear": 2014
+        "unit": "Unit 4·Going shopping",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_04"
@@ -32812,8 +32812,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 6 Shopping",
-        "editionYear": 2014
+        "unit": "Unit 4·Going shopping",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_05"
@@ -32843,8 +32843,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "各单元 Let's spell",
-        "editionYear": 2014
+        "unit": "Unit 1·Class rules",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_07"
@@ -32874,8 +32874,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 2-3 综合任务",
-        "editionYear": 2014
+        "unit": "Unit 3·Time for school",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_02",
@@ -32906,8 +32906,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "各单元 Story time",
-        "editionYear": 2014
+        "unit": "Unit 1·Class rules",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_11"
@@ -32937,8 +32937,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "Unit 2 写作任务",
-        "editionYear": 2014
+        "unit": "Unit 3·Time for school",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_10",
@@ -32953,7 +32953,7 @@
       "name": "文化：地球两端的天气与时差",
       "description": "通过天气单元认识世界城市（Sydney、London、New York）的天气差异与时差（北京中午，纽约睡觉）。全球视野的启蒙：同一个时刻，世界不一样。",
       "grade": 4,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 10,
       "ageRangeEnd": 11,
       "evidence": [
@@ -32968,9 +32968,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 4,
-        "volume": "下",
-        "unit": "Unit 3 文化内容",
-        "editionYear": 2014
+        "volume": "上",
+        "unit": "Unit 5·The weather and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_01"
@@ -32999,8 +32999,8 @@
         "publisher": "人教版",
         "grade": 4,
         "volume": "下",
-        "unit": "全册",
-        "editionYear": 2014
+        "unit": "Unit 6·From farm to table",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_12"
@@ -33030,8 +33030,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 1 What's he like?",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_03"
@@ -33061,8 +33061,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 2 My week",
-        "editionYear": 2014
+        "unit": "Unit 3·Work and play",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_02"
@@ -33092,8 +33092,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 3 What would you like?",
-        "editionYear": 2014
+        "unit": "Unit 5·Food we eat",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_05"
@@ -33123,8 +33123,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 4 What can you do?",
-        "editionYear": 2014
+        "unit": "Unit 3·Work and play",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_09"
@@ -33154,8 +33154,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 5 There is a big bed",
-        "editionYear": 2014
+        "unit": "Unit 6·Nature and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_04"
@@ -33185,8 +33185,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 6 In a nature park",
-        "editionYear": 2014
+        "unit": "Unit 6·Nature and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3b_04",
@@ -33217,8 +33217,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "各单元 Let's spell",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_07"
@@ -33248,8 +33248,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 1-2 综合任务",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_09"
@@ -33279,8 +33279,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "各单元 Read and write",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_09"
@@ -33310,8 +33310,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "各单元写作任务",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_10",
@@ -33342,8 +33342,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "Unit 2 文化内容",
-        "editionYear": 2014
+        "unit": "Unit 3·Work and play",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_11"
@@ -33373,8 +33373,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "全册",
-        "editionYear": 2014
+        "unit": "Unit 6·Nature and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_12"
@@ -33777,8 +33777,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 1 How can I get there?",
-        "editionYear": 2014
+        "unit": "Unit 1·Amazing places",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4b_01"
@@ -33808,8 +33808,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 2 Ways to go to school",
-        "editionYear": 2014
+        "unit": "Unit 1·Amazing places",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5b_07"
@@ -33839,8 +33839,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 3 My weekend plan",
-        "editionYear": 2014
+        "unit": "Unit 3·Healthy life",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5b_01"
@@ -33870,8 +33870,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 4 I have a pen pal",
-        "editionYear": 2014
+        "unit": "Unit 2·Getting together",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g3a_07",
@@ -33902,8 +33902,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 5 What does he do?",
-        "editionYear": 2014
+        "unit": "Unit 5·Exploring space",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g4a_06"
@@ -33933,8 +33933,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 6 How do you feel?",
-        "editionYear": 2014
+        "unit": "Unit 3·Healthy life",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5a_01"
@@ -33964,8 +33964,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 6 How do you feel?",
-        "editionYear": 2014
+        "unit": "Unit 3·Healthy life",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5a_04"
@@ -33995,8 +33995,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 1-3 综合任务",
-        "editionYear": 2014
+        "unit": "Unit 2·Getting together",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g6a_01",
@@ -34027,8 +34027,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 4 Read and write",
-        "editionYear": 2014
+        "unit": "Unit 2·Getting together",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5b_10",
@@ -34059,8 +34059,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 3 写作任务",
-        "editionYear": 2014
+        "unit": "Unit 3·Healthy life",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5b_11"
@@ -34089,8 +34089,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "Unit 2 文化内容",
-        "editionYear": 2014
+        "unit": "Unit 1·Amazing places",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5a_11"
@@ -34119,8 +34119,8 @@
         "publisher": "人教版",
         "grade": 6,
         "volume": "上",
-        "unit": "全册",
-        "editionYear": 2014
+        "unit": "Unit 6·Energy, nature and us",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5b_12"
@@ -49355,8 +49355,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "各单元 Let's spell 与 Let's talk 综合",
-        "editionYear": 2014
+        "unit": "Unit 1·Different friends",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_yy_g5a_07"

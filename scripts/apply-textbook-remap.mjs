@@ -54,6 +54,8 @@ function normUnitKey(v) {
     return String(/^\d+$/.test(g) ? parseInt(g, 10)
       : g.split('').reduce((a, c) => a * 10 + (CN_DIGIT[c] ?? 0), 0));
   }
+  const e = s.match(/^Unit\s*(\d+)/i); // 英语锚值「Unit 1·Making friends」
+  if (e) return e[1];
   return s;
 }
 const baselineKey = (u) => String(u.index ?? u.title);
