@@ -73,7 +73,8 @@ function stemOf(subject, grade, volume) {
     return `${subject}${cnGrade(grade)}年级${v}`;
   }
   if (grade <= 9) {
-    if (subject === '英语' && grade === 9) return '初中英语九年级全一册';
+    if (subject === '英语' && grade === 9)
+      return volume === '全' ? '初中英语九年级全一册' : `初中英语九年级${v}`; // 新版拆上下册（B-NE6）
     if (subject === '物理' && grade === 9) return '初中物理九年级全一册';
     return `初中${subject}${cnGrade(grade)}年级${v}`;
   }

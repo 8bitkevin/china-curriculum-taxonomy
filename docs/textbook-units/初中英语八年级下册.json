@@ -1,0 +1,111 @@
+{
+ "schemaVersion": 1,
+ "volume": "初中英语八年级下册",
+ "pdf": {
+  "file": "初中英语八年级下册.pdf",
+  "sha256": "dcffa797953407f732c9b25416798e5608c3b163116566e6d70089a406b0d973",
+  "pages": 154,
+  "hasTextLayer": true
+ },
+ "source": "manual",
+ "extractedAt": "2026-11-08",
+ "note": "新版英语双栏乱序目录以 TOC p.N 锚点+开篇页大字标题+页脚偏移校准手工整编（T-1 版式专项）",
+ "units": [
+  {
+   "index": 1,
+   "title": "Time to Relax",
+   "page": 1,
+   "sections": [
+    {
+     "no": "1",
+     "title": "Time to Relax",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "title": "Stay Healthy",
+   "page": 11,
+   "sections": [
+    {
+     "no": "2",
+     "title": "Stay Healthy",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "title": "Growing Up",
+   "page": 21,
+   "sections": [
+    {
+     "no": "3",
+     "title": "Growing Up",
+     "page": 21
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "title": "The Wonders of Nature",
+   "page": 31,
+   "sections": [
+    {
+     "no": "4",
+     "title": "The Wonders of Nature",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "title": "Nature’s Temper",
+   "page": 41,
+   "sections": [
+    {
+     "no": "5",
+     "title": "Nature’s Temper",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "title": "Crossing Cultures",
+   "page": 51,
+   "sections": [
+    {
+     "no": "6",
+     "title": "Crossing Cultures",
+     "page": 51
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "title": "A Good Read",
+   "page": 61,
+   "sections": [
+    {
+     "no": "7",
+     "title": "A Good Read",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "title": "Making a Difference",
+   "page": 71,
+   "sections": [
+    {
+     "no": "8",
+     "title": "Making a Difference",
+     "page": 71
+    }
+   ]
+  }
+ ]
+}

@@ -84,7 +84,7 @@ def stem_of(t: dict) -> str | None:
         return f"{subject}{g}年级{v}"
     if grade <= 9:
         if subject == "英语" and grade == 9:
-            return "初中英语九年级全一册"
+            return "初中英语九年级全一册" if vol == "全" else f"初中英语九年级{v}"
         if subject == "物理" and grade == 9:
             return "初中物理九年级全一册"
         return f"初中{subject}{g}年级{v}"

@@ -12466,12 +12466,12 @@
     "c 只会读 /k/：city、pencil 里的 c 在 e、i、y 前读 /s/，cup、call 里才读 /k/。"
    ],
    "source": {
-    "unit": "Starter Units 1-3 与语音学习",
+    "unit": "Starter Unit 1 Hello!",
     "pages": [
      1,
-     12
+     6
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -12487,7 +12487,7 @@
      "solution": "A H J K 的名称里都有 /eɪ/；F L M N S X 的名称读 /e/，I Y 读 /aɪ/，Q U W 归在 U 组。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P12·字母读音分类朗读表（/eɪ/：A H J K；/aɪ/：I Y；/juː/：Q U W）"
+      "label": "人教新目标七上 P12·字母读音分类朗读表（/eɪ/：A H J K；/aɪ/：I Y；/juː/：Q U W）·页码待复核"
      }
     },
     {
@@ -12503,7 +12503,7 @@
      "solution": "c 在 e、i、y 前常读 /s/（city、pencil、price），其余情况多读 /k/（call、can、music）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P77·辅音字母读音表（c /k/ call can music；c /s/ city pencil price）"
+      "label": "人教新目标七上 P77·辅音字母读音表（c /k/ call can music；c /s/ city pencil price）·页码待复核"
      }
     },
     {
@@ -12519,7 +12519,7 @@
      "solution": "bed 里 e 被辅音 b、d 前后夹住，读短音 /e/；he 词尾开音，读 /iː/。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P8·字母音朗读表（E 组 B C D E G P—Helen pen，试读 he、leg）变式"
+      "label": "人教新目标七上 P8·字母音朗读表（E 组 B C D E G P—Helen pen，试读 he、leg）变式·页码待复核"
      }
     },
     {
@@ -12597,12 +12597,12 @@
     "称呼后接错词：Mr/Ms/Miss 后面接姓，如 Ms. Brown、Ms. Miller；写成 Ms. Cindy 就错了。"
    ],
    "source": {
-    "unit": "Starter Unit 1",
+    "unit": "Starter Unit 1 Hello!",
     "pages": [
      1,
-     4
+     6
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -12617,7 +12617,7 @@
      "solution": "时段问候要对称回答：对方说 Good afternoon，就答 Good afternoon, Frank!；I'm fine, thanks. 是回答 How are you? 的。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P3·时段问候对话（Good afternoon, Eric!／Good evening, Alice!）"
+      "label": "人教新目标七上 P3·时段问候对话（Good afternoon, Eric!／Good evening, Alice!）·页码待复核"
      }
     },
     {
@@ -12627,7 +12627,7 @@
      "solution": "中间一句先答 I'm fine, thanks.，再回问 How are you?，对方才能接 I'm OK.。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P3·问候问答链（Hi, Cindy! How are you? —I'm fine, thanks. How are you? —I'm OK.）"
+      "label": "人教新目标七上 P3·问候问答链（Hi, Cindy! How are you? —I'm fine, thanks. How are you? —I'm OK.）·页码待复核"
      }
     },
     {
@@ -12642,7 +12642,7 @@
      "solution": "天黑后的问候用 Good evening, Ms. Gao!；Good night. 是睡前道别不是问候；女老师用 Ms＋姓称呼。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P3·时段问候（Good evening, Alice!）变式（Ms 称呼）"
+      "label": "人教新目标七上 P3·时段问候（Good evening, Alice!）变式（Ms 称呼）·页码待复核"
      }
     },
     {
@@ -12720,12 +12720,12 @@
     "缩写漏撇号：what's、name's、I'm 的小撇号不能丢，My name Gina. 不成句。"
    ],
    "source": {
-    "unit": "Unit 1 My name's Gina.",
+    "unit": "Unit 1·You and Me",
     "pages": [
-     1,
-     6
+     19,
+     26
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -12740,7 +12740,7 @@
      "solution": "问 his（他的）用 He's Eric. 或 His name's Eric. 回答；B、C 把性别人称用反了。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P3·询问他人姓名（What's his name? He's Eric./His name's Eric.）"
+      "label": "人教新目标七上 P3·询问他人姓名（What's his name? He's Eric./His name's Eric.）·页码待复核"
      }
     },
     {
@@ -12750,7 +12750,7 @@
      "solution": "电话问答用 It's＋号码作答，号码逐位念：two eight one — nine one seven six。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P4·电话号码问答（What's your telephone number, Li Xin? It's 281-9176.）"
+      "label": "人教新目标七上 P4·电话号码问答（What's your telephone number, Li Xin? It's 281-9176.）·页码待复核"
      }
     },
     {
@@ -12765,7 +12765,7 @@
      "solution": "中文姓名姓在前：Wang 是姓，填 Last Name；Lei 是名，填 First Name。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P5·first name/last name 两分法（Zhang Mingming—Zhang 是 last name）变式"
+      "label": "人教新目标七上 P5·first name/last name 两分法（Zhang Mingming—Zhang 是 last name）变式·页码待复核"
      }
     },
     {
@@ -12843,12 +12843,12 @@
     "Bob's 看不懂：人名＋'s 表示「某人的」，they're Bob's＝它们是 Bob 的，不是 Bob is。"
    ],
    "source": {
-    "unit": "Unit 2 Is this your pencil?",
+    "unit": "Unit 2·We're Family!",
     "pages": [
-     13,
-     18
+     27,
+     34
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -12863,7 +12863,7 @@
      "solution": "that 问 it 答；句尾没有名词，用名词性 his 独立收尾——his 的形容词性和名词性同形。he/him 是「他」，不是「他的」。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P13·认领物品对话（Is that your schoolbag? No, it isn't. It's his.）"
+      "label": "人教新目标七上 P13·认领物品对话（Is that your schoolbag? No, it isn't. It's his.）·页码待复核"
      }
     },
     {
@@ -12873,7 +12873,7 @@
      "solution": "语法归纳原句：Are those her keys? No, they aren't. They're mine.；those 问 they 答，句尾没有名词，用名词性 mine。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P15·物主代词问答配对（Are those her keys? No, they aren't. They're mine.）"
+      "label": "人教新目标七上 P15·物主代词问答配对（Are those her keys? No, they aren't. They're mine.）·页码待复核"
      }
     },
     {
@@ -12888,7 +12888,7 @@
      "solution": "启事三要素：Lost/Found 标题、物品说明、联系方式。B 缺电话号码，C 连丢了什么都不知道，失主都没法联系。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标七上 P17·寻物启事与招领（Lost: I lost my school ID card... Call me at 685-6034.／Is this your watch? My phone number is 495-3539.）变式（应用文格式判断）"
+      "label": "人教新目标七上 P17·寻物启事与招领（Lost: I lost my school ID card... Call me at 685-6034.／Is this your watch? My phone number is 495-3539.）变式（应用文格式判断）·页码待复核"
      }
     },
     {
@@ -12966,12 +12966,12 @@
     "Who're they? 用 She's 答：多人问句要用 They're my grandparents. 回答，问句答句人数要一致。"
    ],
    "source": {
-    "unit": "Unit 3 This is my sister.",
+    "unit": "Unit 2·We're Family!",
     "pages": [
-     7,
-     12
+     27,
+     34
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -12986,7 +12986,7 @@
      "solution": "答句 They're 说的是两个人以上，问句要用 Who're they?；Who's 只问一个人。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P9·指示代词语法归纳（Who're they? They're my grandparents.）"
+      "label": "人教新目标七上 P9·指示代词语法归纳（Who're they? They're my grandparents.）·页码待复核"
      }
     },
     {
@@ -12996,7 +12996,7 @@
      "solution": "单数 this 配 is，复数 those 配 are：This is my brother.／Those are my parents. 造句方框里还有 this/that/these/those 与 father、mother、grandparents 等词，都可以两两组合。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P9·三框选词造句（this that these those／father mother…brother sister／my your）"
+      "label": "人教新目标七上 P9·三框选词造句（this that these those／father mother…brother sister／my your）·页码待复核"
      }
     },
     {
@@ -13011,7 +13011,7 @@
      "solution": "近处单数用 This is，远处复数用 Those are；B、C 的 be 动词搭配全错了。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P8·分角色对话（this is my sister Kate／Are those your parents? Yes, they are.）变式"
+      "label": "人教新目标七上 P8·分角色对话（this is my sister Kate／Are those your parents? Yes, they are.）变式·页码待复核"
      }
     },
     {
@@ -13092,12 +13092,12 @@
     "don't 和 doesn't 串用：I don't have 对，He doesn't have 才对。"
    ],
    "source": {
-    "unit": "Unit 5 Do you have a soccer ball?",
+    "unit": "Unit 3·My School",
     "pages": [
-     25,
-     30
+     35,
+     42
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13113,7 +13113,7 @@
      "solution": "your friends 是复数，问句用 Do，回答用 Yes, they do.。书上这组填空的后文还有 They have two basketballs.，正好印证。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P27·用 do 或 does 填空（Do your friends have a basketball? Yes, they do.）"
+      "label": "人教新目标七上 P27·用 do 或 does 填空（Do your friends have a basketball? Yes, they do.）·页码待复核"
      }
     },
     {
@@ -13129,7 +13129,7 @@
      "solution": "回答里有 has，说明主语 your mom 是三单：问句用 Does 开头，动词用原形 have。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P30·补全问句或答语（Yes, my mom has a baseball bat.）"
+      "label": "人教新目标七上 P30·补全问句或答语（Yes, my mom has a baseball bat.）·页码待复核"
      }
     },
     {
@@ -13145,7 +13145,7 @@
      "solution": "主语从 I 换成 Gina（三单），have 要变成 has：Gina has two soccer balls.。句子意思不变，变的只是动词形式。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P29·校刊调查 Who has a soccer ball?（I have two soccer balls…）变式（主语换三单选 have/has）"
+      "label": "人教新目标七上 P29·校刊调查 Who has a soccer ball?（I have two soccer balls…）变式（主语换三单选 have/has）·页码待复核"
      }
     },
     {
@@ -13216,12 +13216,12 @@
     "以为 some 后面只能接复数可数名词——some milk、some bread 同样正确。"
    ],
    "source": {
-    "unit": "Unit 6 Do you like bananas?",
+    "unit": "Unit 3·My School",
     "pages": [
-     31,
-     36
+     35,
+     42
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13237,7 +13237,7 @@
      "solution": "hamburger、photo、radio 都直接加 s：hamburgers、photos、radios；tomato 要加 es，strawberry 要变 y 为 i 加 es。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P36·复数归类（＋s / ＋es / y→i＋es 分栏）"
+      "label": "人教新目标七上 P36·复数归类（＋s / ＋es / y→i＋es 分栏）·页码待复核"
      }
     },
     {
@@ -13253,7 +13253,7 @@
      "solution": "语法分类里 milk、bread、rice 列在不可数一栏；carrot、pear、hamburger 都能一颗颗数，是可数名词。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P33·Grammar Focus 名词三栏分类（milk、bread、rice 不可数）"
+      "label": "人教新目标七上 P33·Grammar Focus 名词三栏分类（milk、bread、rice 不可数）·页码待复核"
      }
     },
     {
@@ -13269,7 +13269,7 @@
      "solution": "milk 不可数，some 后面用原形：some milk。原对话的 some fruit 同理，fruit 在这里也按不可数用；milks、breads、rices 都是画蛇添足。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P32·生日晚餐对话（…and some fruit）变式（some 接不可数名词）"
+      "label": "人教新目标七上 P32·生日晚餐对话（…and some fruit）变式（some 接不可数名词）·页码待复核"
      }
     },
     {
@@ -13340,12 +13340,12 @@
     "He don't like vegetables.——三单的否定要用 doesn't。"
    ],
    "source": {
-    "unit": "Unit 6 Do you like bananas?",
+    "unit": "Unit 5·Fun Clubs",
     "pages": [
-     31,
-     36
+     51,
+     58
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13361,7 +13361,7 @@
      "solution": "she 是三单：肯定用 likes，否定用 doesn't；but 转折句前后各看各的主语，互不干扰。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P33·括号内选词填空（She (like/likes) bread, but she (doesn't/don't) like salad.）"
+      "label": "人教新目标七上 P33·括号内选词填空（She (like/likes) bread, but she (doesn't/don't) like salad.）·页码待复核"
      }
     },
     {
@@ -13377,7 +13377,7 @@
      "solution": "Do 开头的问句用 do／don't 回答：喜欢说 Yes, I do.，不喜欢说 No, I don't.。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P31·食物喜好问答（Do you like salad? No, I don't.）"
+      "label": "人教新目标七上 P31·食物喜好问答（Do you like salad? No, I don't.）·页码待复核"
      }
     },
     {
@@ -13387,7 +13387,7 @@
      "solution": "John 是三单，否定用 doesn't，like 还原成原形：John doesn't like hamburgers.。同一段对话里还有 I don't like salad. 可以对照——主语一换，助动词也换。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P32·生日晚餐对话（John likes hamburgers）变式（肯定句改否定句）"
+      "label": "人教新目标七上 P32·生日晚餐对话（John likes hamburgers）变式（肯定句改否定句）·页码待复核"
      }
     },
     {
@@ -13458,12 +13458,12 @@
     "金额忘了加 s：seven dollars 不能写成 seven dollar。"
    ],
    "source": {
-    "unit": "Unit 7 How much are these socks?",
+    "unit": "Unit 7·Happy Birthday!",
     "pages": [
-     37,
-     42
+     67,
+     97
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13479,7 +13479,7 @@
      "solution": "socks 是复数，问句用 are，回答用 They're ＋ 数字 ＋ dollars.，金额别忘了加 s。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P37·价格问答（How much is this T-shirt? It's seven dollars. / How much are these socks? They're two dollars.）"
+      "label": "人教新目标七上 P37·价格问答（How much is this T-shirt? It's seven dollars. / How much are these socks? They're two dollars.）·页码待复核"
      }
     },
     {
@@ -13495,7 +13495,7 @@
      "solution": "that brown sweater 是单数，问句用 is，回答用 It's eight dollars.——单数配 It's，金额加 s。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P39·Grammar Focus 价格问答（How much is that brown sweater? It's eight dollars.）"
+      "label": "人教新目标七上 P39·Grammar Focus 价格问答（How much is that brown sweater? It's eight dollars.）·页码待复核"
      }
     },
     {
@@ -13511,7 +13511,7 @@
      "solution": "twenty-eight ＝ 28；-teen 结尾是十几（18 是 eighteen），-ty 结尾是整十，28 是 twenty-eight。听读数字时抓住这个尾巴就不会错。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P40·数字 ten–thirty-one 听读圈词变式（twenty-eight 与数字配对）"
+      "label": "人教新目标七上 P40·数字 ten–thirty-one 听读圈词变式（twenty-eight 与数字配对）·页码待复核"
      }
     },
     {
@@ -13592,12 +13592,12 @@
     "fifth、ninth 误拼成 fiveth、nineth。"
    ],
    "source": {
-    "unit": "Unit 8 When is your birthday?",
+    "unit": "Unit 7·Happy Birthday!",
     "pages": [
-     43,
-     48
+     67,
+     97
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13613,7 +13613,7 @@
      "solution": "January 是一年的第一个月；March 第 3、April 第 4、June 第 6。月份表要按 1 到 12 的顺序记牢。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P43·MONTHS 月份表（January–December 十二个月）"
+      "label": "人教新目标七上 P94·MONTHS 月份表（January–December 十二个月）"
      }
     },
     {
@@ -13629,7 +13629,7 @@
      "solution": "Alice 是女生，用 Her；月份＋日期前用 on，不用 in 或 at。语法表里的问答正是这一组。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P45·Grammar Focus 问答（When is Alice's birthday? Her birthday is on September 5th.）"
+      "label": "人教新目标七上 P45·Grammar Focus 问答（When is Alice's birthday? Her birthday is on September 5th.）·页码待复核"
      }
     },
     {
@@ -13645,7 +13645,7 @@
      "solution": "22 的序数词是 twenty-second，缩写 22nd；th、st、rd 的尾巴要跟个位数走——2 结尾用 nd。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P44·序数词 1st–31st 与生日配对（Frank August 22nd）变式（日期缩写辨析）"
+      "label": "人教新目标七上 P100·序数词 1st–31st 与生日配对（Frank August 22nd）变式（日期缩写辨析）"
      }
     },
     {
@@ -13716,12 +13716,12 @@
     "评价词意思记反：以为 relaxing 是「累」。relaxing 是「令人放松的」，difficult 才是「难的、费劲的」。"
    ],
    "source": {
-    "unit": "Unit 9 My favorite subject is science.",
+    "unit": "Unit 4·My Favourite Subject",
     "pages": [
-     49,
-     52
+     43,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13737,7 +13737,7 @@
      "solution": "问「你最喜欢的学科是什么」，答句给出学科名：My favorite subject is science.；Because 是回答 Why 的，放在这里答非所问。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P49·核心对话（What's your favorite subject? My favorite subject is science.）"
+      "label": "人教新目标七上 P49·核心对话（What's your favorite subject? My favorite subject is science.）·页码待复核"
      }
     },
     {
@@ -13753,7 +13753,7 @@
      "solution": "答句 Eric does. 回答的是「谁」喜欢数学，问句要用 Who（谁）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P51·疑问词选词填空（What / Who / Why 补全对话）"
+      "label": "人教新目标七上 P51·疑问词选词填空（What / Who / Why 补全对话）·页码待复核"
      }
     },
     {
@@ -13769,7 +13769,7 @@
      "solution": "difficult（难）和 easy（容易）意思相反；fun 和 interesting 都是夸「有趣」，relaxing 和 free 也都不表示相反。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P52·形容词反义词配对变式（boring、difficult、busy、easy、interesting、fun、free、cool 连线改选择）"
+      "label": "人教新目标七上 P52·形容词反义词配对变式（boring、difficult、busy、easy、interesting、fun、free、cool 连线改选择）·页码待复核"
      }
     },
     {
@@ -13846,12 +13846,12 @@
     "听到熟悉的词就急着选，没注意题目问的是「谁」还是「哪一件物品」。"
    ],
    "source": {
-    "unit": "各单元听力训练",
+    "unit": "Unit 1·You and Me",
     "pages": [
-     1,
-     52
+     19,
+     26
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13867,7 +13867,7 @@
      "solution": "趁读题时间读题划关键词，预测要听的内容类型，录音一响就能对上号。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P2·听录音圈人名（Eric、Tom、Alice、Bob、Mike、Jack、Mary、Ms. Miller）"
+      "label": "人教新目标七上 P2·听录音圈人名（Eric、Tom、Alice、Bob、Mike、Jack、Mary、Ms. Miller）·页码待复核"
      }
     },
     {
@@ -13883,7 +13883,7 @@
      "solution": "电话号码由数字组成，听时盯住数字，直接写阿拉伯数字最快。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P4·听对话写电话号码（What's your phone number? It's 281-9176.）"
+      "label": "人教新目标七上 P4·听对话写电话号码（What's your phone number? It's 281-9176.）·页码待复核"
      }
     },
     {
@@ -13899,7 +13899,7 @@
      "solution": "先读题划关键词，再预测答案类型，播放时边听边记，最后复查。这就像书上「听录音给句子编号组成对话」的任务一样，先理顺序再动手。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标七上 P50·听录音给句子编号变式（Listen and put the conversation in order. 听力步骤排序改选择）"
+      "label": "人教新目标七上 P50·听录音给句子编号变式（Listen and put the conversation in order. 听力步骤排序改选择）·页码待复核"
      }
     },
     {
@@ -13976,12 +13976,12 @@
     "把启事当故事逐句翻译，速度慢还漏关键信息。读应用文抓关键词就够。"
    ],
    "source": {
-    "unit": "各单元阅读板块",
+    "unit": "Unit 1·You and Me",
     "pages": [
-     1,
-     52
+     19,
+     26
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -13997,7 +13997,7 @@
      "solution": "Call me at ＋ 号码，意思是打这个号码找我。这是启事里最常见的联系方式写法。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P17·寻物启事（Lost: I lost my school ID card. I must find it. Call me at 685-6034.）"
+      "label": "人教新目标七上 P17·寻物启事（Lost: I lost my school ID card. I must find it. Call me at 685-6034.）·页码待复核"
      }
     },
     {
@@ -14013,7 +14013,7 @@
      "solution": "On September 21st, we have a school trip.（9 月 21 日下午学校旅行。）抓时间就盯 On ＋ 日期的句子。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P47·学校通知（Dear students… school trip September 21st、art festival November 3rd、book sale December 3rd）"
+      "label": "人教新目标七上 P47·学校通知（Dear students… school trip September 21st、art festival November 3rd、book sale December 3rd）·页码待复核"
      }
     },
     {
@@ -14029,7 +14029,7 @@
      "solution": "Are these yours?（这些是你们的吗？）yours 是名词性物主代词，单独使用，相当于 your keys。补全启事要先分清 Lost 还是 Found，再选对词。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P18·补全启事变式（Found: A set of keys. Are these yours? Call Jenny at 284-5486.）"
+      "label": "人教新目标七上 P18·补全启事变式（Found: A set of keys. Are these yours? Call Jenny at 284-5486.）·页码待复核"
      }
     },
     {
@@ -14106,12 +14106,12 @@
     "忘写署名，读的人不知道这张便条是谁的。署名放在末尾。"
    ],
    "source": {
-    "unit": "写作板块（Self-introduction）",
+    "unit": "Unit 1·You and Me",
     "pages": [
-     1,
-     52
+     19,
+     26
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14127,7 +14127,7 @@
      "solution": "My telephone number is ＋ 号码。number 是单数，be 动词用 is。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P5·自我介绍信息句（I'm Dale Miller… My telephone number is 358-6344.）"
+      "label": "人教新目标七上 P5·自我介绍信息句（I'm Dale Miller… My telephone number is 358-6344.）·页码待复核"
      }
     },
     {
@@ -14143,7 +14143,7 @@
      "solution": "先说名（first name），再说姓（last name），最后说电话号码，和信息卡上的顺序一致。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P6·学生卡信息（First Name: Alice, Last Name: Green, Phone Number: 951-3397）"
+      "label": "人教新目标七上 P6·学生卡信息（First Name: Alice, Last Name: Green, Phone Number: 951-3397）·页码待复核"
      }
     },
     {
@@ -14159,7 +14159,7 @@
      "solution": "I'm＝I am，twelve 也可以写成 12，years old 部分不变。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P45·年龄问答变式（—How old are you? —I'm twelve.）"
+      "label": "人教新目标七上 P45·年龄问答变式（—How old are you? —I'm twelve.）·页码待复核"
      }
     },
     {
@@ -14246,12 +14246,12 @@
     "月份不大写：march 错，月份词首字母一律大写 March。"
    ],
    "source": {
-    "unit": "全册",
+    "unit": "Unit 7·Happy Birthday!",
     "pages": [
-     1,
-     123
+     67,
+     97
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14267,7 +14267,7 @@
      "solution": "自查的关键是「遮盖＋核对」：遮住答案默写，再对照订正，错词进错词本。黑体重点词要全部过关。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七上 P94·词汇表 Words and Expressions（重点词汇用黑体标出，按话题分块收词）"
+      "label": "人教新目标七上 P94·词汇表 Words and Expressions（重点词汇用黑体标出，按话题分块收词）·页码待复核"
      }
     },
     {
@@ -14283,7 +14283,7 @@
      "solution": "Do 开头的一般疑问句，否定回答用 No, I don't.；Yes 后面要接肯定，Yes, I don't. 自相矛盾。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P27·Grammar Focus（Do you have a baseball? Yes, I do. / No, I don't.）"
+      "label": "人教新目标七上 P27·Grammar Focus（Do you have a baseball? Yes, I do. / No, I don't.）·页码待复核"
      }
     },
     {
@@ -14299,7 +14299,7 @@
      "solution": "he 是第三人称单数，用 does 提问，likes 还原成 like。这是三态转换里最容易错的一步。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七上 P27·Grammar Focus 变式（Does he have a soccer ball? Yes, he does.）"
+      "label": "人教新目标七上 P94·Grammar Focus 变式（Does he have a soccer ball? Yes, he does.）"
      }
     },
     {
@@ -14374,12 +14374,12 @@
     "把 can't 再叠否定：can't = cannot 本身就是否定，不说 can't not；否定回答短句就是 No, I can't."
    ],
    "source": {
-    "unit": "Unit 1 Can you play the guitar?",
+    "unit": "Unit 1·Animal Friends",
     "pages": [
      1,
-     6
+     8
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14395,7 +14395,7 @@
      "solution": "can 引导的能力问句，肯定回答 Yes, I can.，否定回答 No, I can't.；do 和 am 是别类问句的回答，D 选项自相矛盾。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P1·能力问答（Can you swim?—Yes, I can.／No, I can't.）"
+      "label": "人教新目标七下 P1·能力问答（Can you swim?—Yes, I can.／No, I can't.）·页码待复核"
      }
     },
     {
@@ -14411,7 +14411,7 @@
      "solution": "乐器前加 the：play the guitar 正确；棋类不加 the（play chess）；can 后接原形，to swim、plays 都错。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P4·乐器词配对与问答（drums、piano、guitar、violin—Can you play the violin?）"
+      "label": "人教新目标七下 P4·乐器词配对与问答（drums、piano、guitar、violin—Can you play the violin?）·页码待复核"
      }
     },
     {
@@ -14427,7 +14427,7 @@
      "solution": "问句问会玩什么运动，用具体项目回答：Soccer.；接着对方说 So you can join the soccer club.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P2·Jane 与 Bob 社团对话（What sports can you play?—Soccer.）变式"
+      "label": "人教新目标七下 P2·Jane 与 Bob 社团对话（What sports can you play?—Soccer.）变式·页码待复核"
      }
     },
     {
@@ -14496,12 +14496,12 @@
     "always 与 usually 混用：always 是天天如此不留例外，usually 允许偶尔破例；说「每天刷牙」用 always 更准。"
    ],
    "source": {
-    "unit": "Unit 2 What time do you go to school?",
+    "unit": "Unit 3·Keep Fit",
     "pages": [
-     7,
-     12
+     17,
+     24
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14511,7 +14511,7 @@
      "solution": "五个频度副词像仪表盘从满格到空格：always 天天做，usually 十有八九，often 一半以上，sometimes 偶尔，never 从不。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P9·频度副词运用练习（用 always、usually 或 never 写问答）"
+      "label": "人教新目标七下 P9·频度副词运用练习（用 always、usually 或 never 写问答）·页码待复核"
      }
     },
     {
@@ -14527,7 +14527,7 @@
      "solution": "主语 Rick 是第三人称单数，一般现在时疑问句用 does，后面的 eat 用原形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P9·语法聚焦（What time does Rick eat breakfast?—He eats breakfast at seven o'clock.）"
+      "label": "人教新目标七下 P9·语法聚焦（What time does Rick eat breakfast?—He eats breakfast at seven o'clock.）·页码待复核"
      }
     },
     {
@@ -14543,7 +14543,7 @@
      "solution": "主语 Tony 三单，sometimes 后动词用一般现在时三单形式 plays；原句是 I sometimes play basketball for half an hour.，换成 Tony 就要加 s。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P11·Tony 与 Mary 作息短文（I sometimes play basketball for half an hour.）变式"
+      "label": "人教新目标七下 P11·Tony 与 Mary 作息短文（I sometimes play basketball for half an hour.）变式·页码待复核"
      }
     },
     {
@@ -14612,12 +14612,12 @@
     "by the bus／ride bike：by 后不加 the（by bus、by bike），ride 后要接 a bike（ride a bike）；take the bus 保留 the。"
    ],
    "source": {
-    "unit": "Unit 3 How do you get to school?",
+    "unit": "Unit 7·A Day to Remember",
     "pages": [
-     13,
-     18
+     49,
+     56
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14633,7 +14633,7 @@
      "solution": "How far 问距离，答语给 kilometers：It's only about two kilometers.；B 是 How long 的答语，C 是 How 的答语。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P15·语法聚焦（How far is it from your home to school?—It's only about two kilometers.）"
+      "label": "人教新目标七下 P15·语法聚焦（How far is it from your home to school?—It's only about two kilometers.）·页码待复核"
      }
     },
     {
@@ -14649,7 +14649,7 @@
      "solution": "hundred 前有具体数字 two 时不加 s；hundreds of 才表示「数以百计」。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P14·数词听读练习（ninety-nine、one hundred and five、two hundred）"
+      "label": "人教新目标七下 P14·数词听读练习（ninety-nine、one hundred and five、two hundred）·页码待复核"
      }
     },
     {
@@ -14665,7 +14665,7 @@
      "solution": "答语给 minutes，问句是 How long does it take you to get to school?；原对话里 The bus ride takes about 20 minutes 之前也是问 How long。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P14·Lisa 与 Jane 上学对话（The bus ride takes about 20 minutes…About 15 minutes by bike）变式"
+      "label": "人教新目标七下 P14·Lisa 与 Jane 上学对话（The bus ride takes about 20 minutes…About 15 minutes by bike）变式·页码待复核"
      }
     },
     {
@@ -14735,12 +14735,12 @@
     "搭配写混：洗碗是 do the dishes，不是 make the dishes；迟到是 arrive late for class；练吉他说 practice the guitar."
    ],
    "source": {
-    "unit": "Unit 4 Don't eat in class.",
+    "unit": "Unit 2·No Rules, No Order",
     "pages": [
-     19,
-     24
+     9,
+     16
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14756,7 +14756,7 @@
      "solution": "规则问答先拒绝再给出口：No, we can't, but we can eat in the dining hall.，与语法聚焦原句一致。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P21·语法聚焦（Can we eat in the classroom?—No, we can't, but we can eat in the dining hall.）"
+      "label": "人教新目标七下 P21·语法聚焦（Can we eat in the classroom?—No, we can't, but we can eat in the dining hall.）·页码待复核"
      }
     },
     {
@@ -14772,7 +14772,7 @@
      "solution": "五条班规原文：Don't run in the hallways.；hallways 是走廊，fight 是打架，arrive late 是迟到，都与题意不符。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P19·班规五条（Don't run in the hallways.／Don't arrive late for class. 等）"
+      "label": "人教新目标七下 P19·班规五条（Don't run in the hallways.／Don't arrive late for class. 等）·页码待复核"
      }
     },
     {
@@ -14788,7 +14788,7 @@
      "solution": "has to 后面接动词原形 do，固定搭配 do the dishes（dishes 用复数）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P22·家规问答表（practice the guitar、do the dishes、watch TV 等家规短语）变式"
+      "label": "人教新目标七下 P22·家规问答表（practice the guitar、do the dishes、watch TV 等家规短语）变式·页码待复核"
      }
     },
     {
@@ -14857,12 +14857,12 @@
     "两问混答：What do you do? 是问职业习惯，回答 I'm watching TV 就答非所问；先判断问句时态再作答。"
    ],
    "source": {
-    "unit": "Unit 6 I'm watching TV.",
+    "unit": "Unit 5·Here and Now",
     "pages": [
-     31,
-     36
+     33,
+     40
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14878,7 +14878,7 @@
      "solution": "What's she doing? 问此刻动作，回答用 be＋V-ing：She's washing her clothes.；B 是一般现在时说习惯，C、D 结构残缺。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P33·语法聚焦（What's she doing?—She's washing her clothes.）"
+      "label": "人教新目标七下 P33·语法聚焦（What's she doing?—She's washing her clothes.）·页码待复核"
      }
     },
     {
@@ -14888,7 +14888,7 @@
      "solution": "三条规则各管一摊：make 以不发音 e 结尾先摘 e；run 是重读闭音节要双写；listen 是一般动词直接加。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P36·V-ing 变形（play—playing、make—making、run—running）"
+      "label": "人教新目标七下 P36·V-ing 变形（play—playing、make—making、run—running）·页码待复核"
      }
     },
     {
@@ -14904,7 +14904,7 @@
      "solution": "进行时＝be＋V-ing：She is exercising now.；对比句 She exercises (on Mondays). 说的是每周一都锻炼的习惯。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P33·两种时态对比句（She's exercising (now).／She exercises (on Mondays…).）变式"
+      "label": "人教新目标七下 P33·两种时态对比句（She's exercising (now).／She exercises (on Mondays…).）变式·页码待复核"
      }
     },
     {
@@ -14973,12 +14973,12 @@
     "sunny、windy、cloudy 是形容词直接跟在 It's 后面；raining、snowing 是动词 -ing 形式，两组都对，但别写成 It's sun。"
    ],
    "source": {
-    "unit": "Unit 7 It's raining!",
+    "unit": "Unit 6·Rain or Shine",
     "pages": [
-     37,
-     42
+     41,
+     48
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -14994,7 +14994,7 @@
      "solution": "描述里只有风最大，选 It's windy.（windy=有风的）。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P37·天气词与城市问答（How's the weather in Shanghai? It's cloudy.）"
+      "label": "人教新目标七下 P37·天气词与城市问答（How's the weather in Shanghai? It's cloudy.）·页码待复核"
      }
     },
     {
@@ -15010,7 +15010,7 @@
      "solution": "回答是 I'm playing…（进行时），对应的问句是 What are you doing?；What do you do? 问的是平时做什么，How's the weather? 问天气，How's it going? 问近况。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P38·电话对话（Steve: I'm playing basketball with some friends at the park.）"
+      "label": "人教新目标七下 P38·电话对话（Steve: I'm playing basketball with some friends at the park.）·页码待复核"
      }
     },
     {
@@ -15026,7 +15026,7 @@
      "solution": "How's it going? 问近况，心情糟回答 Terrible!；It's sunny. 是天气，答非所问。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P39·问候应答变式（How's it going? Great!/Not bad./Terrible!）"
+      "label": "人教新目标七下 P39·问候应答变式（How's it going? Great!/Not bad./Terrible!）·页码待复核"
      }
     },
     {
@@ -15095,12 +15095,12 @@
     "turn left at the first crossing 里 at 引出转弯的路口；on your left 表示\"在你左手边\"，两个介词别混。"
    ],
    "source": {
-    "unit": "Unit 8 Is there a post office near here?",
+    "unit": "Unit 1·Animal Friends",
     "pages": [
-     43,
-     48
+     1,
+     8
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15116,7 +15116,7 @@
      "solution": "隔一条街、脸对脸，用 across from（在……对面）；next to 是紧挨着，in front of 是正前方，behind 是在后面。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P44·方位介词句（The pay phone is across from the library.）"
+      "label": "人教新目标七下 P44·方位介词句（The pay phone is across from the library.）·页码待复核"
      }
     },
     {
@@ -15132,7 +15132,7 @@
      "solution": "正对着公园用 across from the park；between 后面要跟 and+另一个地点，这里不合适。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P44·问路对话（It's on Center Street. It's across from the park.）"
+      "label": "人教新目标七下 P44·问路对话（It's on Center Street. It's across from the park.）·页码待复核"
      }
     },
     {
@@ -15148,7 +15148,7 @@
      "solution": "go along+街道=沿着……走；turn right at+路口=在路口右转，是学过的指路标准说法。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标七下 P46·指路用语变式（go along Bridge Street; turn right at the first crossing）"
+      "label": "人教新目标七下 P46·指路用语变式（go along Bridge Street; turn right at the first crossing）·页码待复核"
      }
     },
     {
@@ -15217,12 +15217,12 @@
     "多个形容词修饰头发的顺序是长短、卷直、颜色：long curly black hair 对，black long curly hair 错。"
    ],
    "source": {
-    "unit": "Unit 9 What does he look like?",
+    "unit": "Unit 1·Animal Friends",
     "pages": [
-     49,
-     54
+     1,
+     8
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15238,7 +15238,7 @@
      "solution": "按长短、卷直、颜色排队：long straight brown hair，与目击者的原话一致。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P53·目击者描述嫌疑人（He has long straight brown hair and big eyes）"
+      "label": "人教新目标七下 P53·目击者描述嫌疑人（He has long straight brown hair and big eyes）·页码待复核"
      }
     },
     {
@@ -15254,7 +15254,7 @@
      "solution": "thin 是体型，用 is；black hair 是头发，用 has。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P51·is/has 选词（he is thin, and he has black hair）"
+      "label": "人教新目标七下 P51·is/has 选词（he is thin, and he has black hair）·页码待复核"
      }
     },
     {
@@ -15270,7 +15270,7 @@
      "solution": "身高一栏收 tall/short/of medium height；thin、heavy 属于体型，curly/straight hair 属于头发，glasses 属于其他特征。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P54·描述词分类变式（Build/Height/Hair/Other features）"
+      "label": "人教新目标七下 P54·描述词分类变式（Build/Height/Hair/Other features）·页码待复核"
      }
     },
     {
@@ -15340,12 +15340,12 @@
     "报数量用 a bowl of：one large bowl of beef soup，别说成 one large beef soup bowl of。"
    ],
    "source": {
-    "unit": "Unit 10 I'd like some noodles.",
+    "unit": "Unit 4·Eat Well",
     "pages": [
-     55,
-     60
+     25,
+     32
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15361,7 +15361,7 @@
      "solution": "问句问的是 kind（种类），应答 I'd like beef noodles, please.；C 是对 size 问句的回答，答非所问；I like 表喜好，点餐要说 I'd like。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P57·点餐问答链（What kind of noodles…? What size would you like?）"
+      "label": "人教新目标七下 P57·点餐问答链（What kind of noodles…? What size would you like?）·页码待复核"
      }
     },
     {
@@ -15377,7 +15377,7 @@
      "solution": "potato→potatoes 要加 -es；carrot、apple、bowl 是普通可数名词，直接加 -s。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P55·食材词表（mutton beef cabbage potatoes tomatoes carrots）"
+      "label": "人教新目标七下 P55·食材词表（mutton beef cabbage potatoes tomatoes carrots）·页码待复核"
      }
     },
     {
@@ -15393,7 +15393,7 @@
      "solution": "great specials=招牌特色菜；different kinds of=不同种类的，都是广告里的固定搭配。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标七下 P60·餐厅广告变式（some great specials; different kinds of fruit ice-cream）"
+      "label": "人教新目标七下 P60·餐厅广告变式（some great specials; different kinds of fruit ice-cream）·页码待复核"
      }
     },
     {
@@ -15462,12 +15462,12 @@
     "How was…? 问过去，How's…? 问现在——只差一个字母时态全变，回答也要用 It was…。"
    ],
    "source": {
-    "unit": "Unit 11 How was your school trip?",
+    "unit": "Unit 7·A Day to Remember",
     "pages": [
-     61,
-     66
+     49,
+     56
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15483,7 +15483,7 @@
      "solution": "your trip 和 It 都是单数，过去时都用 was；对话原句正是 It was excellent.",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P62·旅行对话（How was your trip last week? It was excellent.）"
+      "label": "人教新目标七下 P62·旅行对话（How was your trip last week? It was excellent.）·页码待复核"
      }
     },
     {
@@ -15499,7 +15499,7 @@
      "solution": "the strawberries 是复数，用 Were 提问、weren't 回答，前后要一致。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P63·Were the strawberries good?（Yes, they were./No, they weren't.）"
+      "label": "人教新目标七下 P63·Were the strawberries good?（Yes, they were./No, they weren't.）·页码待复核"
      }
     },
     {
@@ -15515,7 +15515,7 @@
      "solution": "ride-rode、feed-fed、take-took 都是不规则变化，直接背成对形式。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P61·农场活动短语变式（rode a horse / fed chickens / took some photos）"
+      "label": "人教新目标七下 P61·农场活动短语变式（rode a horse / fed chickens / took some photos）·页码待复核"
      }
     },
     {
@@ -15586,12 +15586,12 @@
     "studied 拼成 studyed——辅音字母加 y 结尾要变 y 为 i 再加 ed。"
    ],
    "source": {
-    "unit": "Unit 12 What did you do last weekend?",
+    "unit": "Unit 7·A Day to Remember",
     "pages": [
-     67,
-     72
+     49,
+     56
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15607,7 +15607,7 @@
      "solution": "last weekend 提示过去的事，动词用过去式：play→played。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P67·活动词组与核心问答（What did you do last weekend, Lucy? I played badminton.）"
+      "label": "人教新目标七下 P67·活动词组与核心问答（What did you do last weekend, Lucy? I played badminton.）·页码待复核"
      }
     },
     {
@@ -15623,7 +15623,7 @@
      "solution": "答句回答去了哪儿（a farm 是地点），问句用 Where 问地点。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P69·语法聚焦问答表（Where did she go last weekend? She went to a farm.）"
+      "label": "人教新目标七下 P69·语法聚焦问答表（Where did she go last weekend? She went to a farm.）·页码待复核"
      }
     },
     {
@@ -15639,7 +15639,7 @@
      "solution": "take→took、feed→fed 都是不规则变化；goed、feeded、taked、seed 都是硬加 ed 的错形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P68·听力句变式（I fed some sheep. I went to a farm. 不规则过去式配对改选择）"
+      "label": "人教新目标七下 P68·听力句变式（I fed some sheep. I went to a farm. 不规则过去式配对改选择）·页码待复核"
      }
     },
     {
@@ -15716,12 +15716,12 @@
     "可数与不可数弄混：homework 不可数，说 did my homeworks 就错了。"
    ],
    "source": {
-    "unit": "Unit 12 写作板块",
+    "unit": "Unit 7·A Day to Remember",
     "pages": [
-     67,
-     72
+     49,
+     56
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15737,7 +15737,7 @@
      "solution": "did 是 do 的过去式，went 是 go 的过去式，都对；studyed（应 studied）、goed、taked 都是错形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P72·看图完形与词组（I had a busy weekend. did my homework / went boating）"
+      "label": "人教新目标七下 P72·看图完形与词组（I had a busy weekend. did my homework / went boating）·页码待复核"
      }
     },
     {
@@ -15747,7 +15747,7 @@
      "solution": "「看节目」用 see：see an interesting talk show，过去式 saw；「一档」用不定冠词 an。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P72·看图完形短文（I saw an interesting talk show.）"
+      "label": "人教新目标七下 P72·看图完形短文（I saw an interesting talk show.）·页码待复核"
      }
     },
     {
@@ -15763,7 +15763,7 @@
      "solution": "总起句 ① 开头，按时间线 ③（Saturday morning）→④（in the afternoon），感受句 ② 收尾。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P72·叙事短文变式（总起+时间线+感受排序成文）"
+      "label": "人教新目标七下 P72·叙事短文变式（总起+时间线+感受排序成文）·页码待复核"
      }
     },
     {
@@ -15834,12 +15834,12 @@
     "问路忘了开头招呼，直接冲出 Where's the bank?——先说 Excuse me. 再提问，才有礼貌也更容易得到帮助。"
    ],
    "source": {
-    "unit": "综合听说训练",
+    "unit": "Unit 1·Animal Friends",
     "pages": [
      1,
-     72
+     8
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15855,7 +15855,7 @@
      "solution": "找人的固定句式是 May I speak to…, please?；A 是接电话者的自报，C 是自报找自己，D 是对方忙音时才说的。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P42·电话用语匹配（May I speak to Laura, please?）"
+      "label": "人教新目标七下 P42·电话用语匹配（May I speak to Laura, please?）·页码待复核"
      }
     },
     {
@@ -15871,7 +15871,7 @@
      "solution": "「隔街正对」用 across from；between 要和 and 连用，behind 是在后面，on 直接接街道名。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P44·问路对话（Is there a bank around here? It's across from the park.）"
+      "label": "人教新目标七下 P44·问路对话（Is there a bank around here? It's across from the park.）·页码待复核"
      }
     },
     {
@@ -15887,7 +15887,7 @@
      "solution": "先招呼并提问 ①，对方先答有没有 ④，再给具体路线 ②，最后致谢 ③。按「问—答—路线—谢」的接力顺序就排对了。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标七下 P46·指路路线变式（go along、turn left、next to 连贯排序）"
+      "label": "人教新目标七下 P46·指路路线变式（go along、turn left、next to 连贯排序）·页码待复核"
      }
     },
     {
@@ -15965,12 +15965,12 @@
     "把作者的个人感受当成事实：短文里写 The best things in life are free!，那是 John 的看法，不是每段短文的共同结论。"
    ],
    "source": {
-    "unit": "各单元阅读板块",
+    "unit": "Unit 1·Animal Friends",
     "pages": [
      1,
-     72
+     8
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -15986,7 +15986,7 @@
      "solution": "Alan 的原句是 My name's Alan. I'm in the school music club.；Ma Huan 会下棋，Peter 会踢足球说英语。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P5·人物自述短文（My name's Alan. I'm in the school music club.）"
+      "label": "人教新目标七下 P5·人物自述短文（My name's Alan. I'm in the school music club.）·页码待复核"
      }
     },
     {
@@ -15996,7 +15996,7 @@
      "solution": "原文是 To get there, I usually walk out and turn right on Bridge Road. Then I walk along Bridge Road. The zoo is on the right. 转述时 I 变 she，动词加 s。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P47·社区介绍短文（To get there, I usually walk out and turn right on Bridge Road.）"
+      "label": "人教新目标七下 P47·社区介绍短文（To get there, I usually walk out and turn right on Bridge Road.）·页码待复核"
      }
     },
     {
@@ -16012,7 +16012,7 @@
      "solution": "原文说 he is not afraid because he loves school，还引用他的话：I love to play with my classmates. And I love my teacher. He's like a father to me.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P17·山村上学短文变式（I love to play with my classmates. He's like a father to me.）"
+      "label": "人教新目标七下 P17·山村上学短文变式（I love to play with my classmates. He's like a father to me.）·页码待复核"
      }
     },
     {
@@ -16082,12 +16082,12 @@
     "自查只动眼不动手：翻词表觉得都会，一默写就漏——四会词必须默写过关才算数。"
    ],
    "source": {
-    "unit": "全册",
+    "unit": "Unit 8·Once upon a Time",
     "pages": [
-     1,
-     142
+     57,
+     87
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16103,7 +16103,7 @@
      "solution": "feed 是不规则动词，过去式 fed，和 see—saw、take—took 一样按配对背。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标七下 P141·不规则动词表（feed—fed、see—saw、take—took）"
+      "label": "人教新目标七下 P95·不规则动词表（feed—fed、see—saw、take—took）"
      }
     },
     {
@@ -16113,7 +16113,7 @@
      "solution": "go 的过去式是 went；every weekend（每次周末，习惯）换成 last weekend（上周末，过去的时间点）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P69·动词形式转换（What did you do last weekend? I did my homework.）"
+      "label": "人教新目标七下 P93·动词形式转换（What did you do last weekend? I did my homework.）"
      }
     },
     {
@@ -16129,7 +16129,7 @@
      "solution": "last night 是过去的标志词，用过去式 studied：变 y 为 i 加 ed。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标七下 P68·听力句变式（I studied for the English test.）"
+      "label": "人教新目标七下 P68·听力句变式（I studied for the English test.）·页码待复核"
      }
     },
     {
@@ -16204,12 +16204,12 @@
     "everyone 当复数：everyone、everything、no one 后面的谓语动词用单数——Everyone was on vacation. 不说 Everyone were。"
    ],
    "source": {
-    "unit": "Unit 1 Where did you go on vacation?",
+    "unit": "Unit 1·Happy Holiday",
     "pages": [
      1,
-     6
+     10
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16224,7 +16224,7 @@
      "solution": "语法聚焦原句：Did you go out with anyone? No. No one was here. Everyone was on vacation. 指人用 no one，谓语用单数 was。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P3·语法聚焦不定代词问答（Did you go out with anyone? No. No one was here. Everyone was on vacation.）"
+      "label": "人教新目标八上 P3·语法聚焦不定代词问答（Did you go out with anyone? No. No one was here. Everyone was on vacation.）·页码待复核"
      }
     },
     {
@@ -16234,7 +16234,7 @@
      "solution": "问句是疑问句，用 anything（Did you buy anything special?）；肯定回答用 something（Yes, I bought something for my father.）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P3·语法聚焦问答（Did you buy anything special? Yes, I bought something for my father.）"
+      "label": "人教新目标八上 P3·语法聚焦问答（Did you buy anything special? Yes, I bought something for my father.）·页码待复核"
      }
     },
     {
@@ -16244,7 +16244,7 @@
      "solution": "旅行日记原句：For lunch, we had something very special — Malaysian yellow noodles. something 和形容词不能断开，very special 整体跟在后面。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P5·旅行日记（we had something very special — Malaysian yellow noodles.）变式（不定代词+形容词后置排序）"
+      "label": "人教新目标八上 P5·旅行日记（we had something very special — Malaysian yellow noodles.）变式（不定代词+形容词后置排序）·页码待复核"
      }
     },
     {
@@ -16313,12 +16313,12 @@
     "三单漏勾 s：He hardly ever watches TV. 里 watches 的 s 不能丢，问句也要用 does 提问。"
    ],
    "source": {
-    "unit": "Unit 2 How often do you exercise?",
+    "unit": "Unit 2·Home Sweet Home",
     "pages": [
-     9,
-     16
+     11,
+     20
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16333,7 +16333,7 @@
      "solution": "How often 问频率，用次数短语回答：I go to the movies maybe once a month.；B 回答的是时间点，C 回答的是评价，都答非所问。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P11·语法聚焦频度问答（How often do you go to the movies? I go to the movies maybe once a month.）"
+      "label": "人教新目标八上 P11·语法聚焦频度问答（How often do you go to the movies? I go to the movies maybe once a month.）·页码待复核"
      }
     },
     {
@@ -16348,7 +16348,7 @@
      "solution": "对话原句：How often do you have piano lessons? —Twice a week, on Wednesday and Friday. 问 How often 就要报次数；B 只说了哪两天，没报频率。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P10·角色对话（How often do you have piano lessons? Twice a week, on Wednesday and Friday.）"
+      "label": "人教新目标八上 P10·角色对话（How often do you have piano lessons? Twice a week, on Wednesday and Friday.）·页码待复核"
      }
     },
     {
@@ -16358,7 +16358,7 @@
      "solution": "调查原对话：How often do you drink milk, Liu Fang? —I drink milk every day. every day 表示「每天」，分开写。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P12·健康习惯问答（How often do you drink milk, Liu Fang? I drink milk every day.）变式（补全频度回答）"
+      "label": "人教新目标八上 P12·健康习惯问答（How often do you drink milk, Liu Fang? I drink milk every day.）变式（补全频度回答）·页码待复核"
      }
     },
     {
@@ -16427,12 +16427,12 @@
     "as…as 夹比较级：as…as 中间用形容词或副词原形——as tall as、as hard as，as taller as 不成立。"
    ],
    "source": {
-    "unit": "Unit 3 I'm more outgoing than my sister.",
+    "unit": "Unit 3·Same or Different?",
     "pages": [
-     17,
-     24
+     21,
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16447,7 +16447,7 @@
      "solution": "原句：Sam has longer hair than Tom. 两者相比用比较级加 than；long 是单音节词，直接加 er。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P17·双胞胎辨认对话（Is that Sam? No, that's Tom. Sam has longer hair than Tom.）"
+      "label": "人教新目标八上 P17·双胞胎辨认对话（Is that Sam? No, that's Tom. Sam has longer hair than Tom.）·页码待复核"
      }
     },
     {
@@ -16462,7 +16462,7 @@
      "solution": "outgoing 是多音节词，加 more：more outgoing；funny→funnier（变 y）、smart→smarter（直接加 er）走 -er 轨。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P18·比较级归类（-(i)er / more：funny、friendly、outgoing、hard-working、smart、lazy）"
+      "label": "人教新目标八上 P18·比较级归类（-(i)er / more：funny、friendly、outgoing、hard-working、smart、lazy）·页码待复核"
      }
     },
     {
@@ -16472,7 +16472,7 @@
      "solution": "同级比较用 as+原形+as；修饰「跑」这个动作用副词原形 fast，不能用 faster。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P18·双人对比（Tara works as hard as Tina.）变式（as…as 同级仿写）"
+      "label": "人教新目标八上 P18·双人对比（Tara works as hard as Tina.）变式（as…as 同级仿写）·页码待复核"
      }
     },
     {
@@ -16541,12 +16541,12 @@
     "good/bad 硬变：good 的最高级是 best，bad 是 worst，goodest、badder 都不存在。"
    ],
    "source": {
-    "unit": "Unit 4 What's the best movie theater?",
+    "unit": "Unit 4·Amazing Plants and Animals",
     "pages": [
-     25,
-     30
+     31,
+     40
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16561,7 +16561,7 @@
      "solution": "问句用最高级选冠军，回答也要用最高级：It's the cheapest.；B、C 只是描述便宜，接不上「最佳」的话题。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P25·选影院对话（What's the best movie theater? Sun Cinema. It's the cheapest.）"
+      "label": "人教新目标八上 P25·选影院对话（What's the best movie theater? Sun Cinema. It's the cheapest.）·页码待复核"
      }
     },
     {
@@ -16576,7 +16576,7 @@
      "solution": "语法聚焦原句：It has the worst service. 几家店一起评比用最高级 the worst；bad→worse→worst 不规则升级。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P27·语法聚焦（Which is the worst clothes store in town? Dream Clothes. It's worse than Blue Moon. It has the worst service.）"
+      "label": "人教新目标八上 P27·语法聚焦（Which is the worst clothes store in town? Dream Clothes. It's worse than Blue Moon. It has the worst service.）·页码待复核"
      }
     },
     {
@@ -16586,7 +16586,7 @@
      "solution": "例句：In my class, Tom is the best singer because he can sing fast songs very well. 仿写用 the 加最高级（the fastest），in our class 圈出范围。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P30·班级之最例句（In my class, Tom is the best singer because he can sing fast songs very well.）变式（in 范围最高级填空）"
+      "label": "人教新目标八上 P30·班级之最例句（In my class, Tom is the best singer because he can sing fast songs very well.）变式（in 范围最高级填空）·页码待复核"
      }
     },
     {
@@ -16655,12 +16655,12 @@
     "答非所问：What do you think of…? 问看法，要用态度档位词回答，答成 Yes, I do. 就错了。"
    ],
    "source": {
-    "unit": "Unit 5 Do you want to watch a game show?",
+    "unit": "Unit 8·Let's Communicate!",
     "pages": [
-     33,
-     35
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16675,7 +16675,7 @@
      "solution": "问看法要用态度回答：They're OK. I don't mind them.；B 是回答 Do you…? 的，C 只说了看过没表态。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P33·节目观点对话（What do you think of talk shows? They're OK. I don't mind them.）"
+      "label": "人教新目标八上 P33·节目观点对话（What do you think of talk shows? They're OK. I don't mind them.）·页码待复核"
      }
     },
     {
@@ -16690,7 +16690,7 @@
      "solution": "plan 后面接 to do：I plan to watch Days of Our Past.；plan、hope、expect 三兄弟后面统一是 to do。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P35·语法聚焦（What do you plan to watch tonight? I plan to watch Days of Our Past.）"
+      "label": "人教新目标八上 P35·语法聚焦（What do you plan to watch tonight? I plan to watch Days of Our Past.）·页码待复核"
      }
     },
     {
@@ -16700,7 +16700,7 @@
      "solution": "can't stand 是温度计从热到冷的最冷一档；「无所谓」对应 don't mind——对话里另一人正是这么说的：Well, I don't mind soap operas.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P34·讨论对话（Oh, I can't stand them. I love soap operas. … Well, I don't mind soap operas.）变式（五档态度判断与换挡）"
+      "label": "人教新目标八上 P34·讨论对话（Oh, I can't stand them. I love soap operas. … Well, I don't mind soap operas.）变式（五档态度判断与换挡）·页码待复核"
      }
     },
     {
@@ -16781,12 +16781,12 @@
     "误：How are you going to do that? 答 I want to be a doctor.——这句问的是实现路径，要用 be going to 说做法，不能把理想再报一遍。"
    ],
    "source": {
-    "unit": "Unit 6 I'm going to study computer science.",
+    "unit": "Unit 6·Plan for Yourself",
     "pages": [
-     41,
-     44
+     51,
+     60
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16802,7 +16802,7 @@
      "solution": "computer programmer（电脑程序员）配套的学习路径是 study computer science，课上的问答示范原句就是这一组。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P41·职业理想问答（What do you want to be when you grow up? I want to be a computer programmer. How are you going to do that? I'm going to study computer science.）"
+      "label": "人教新目标八上 P41·职业理想问答（What do you want to be when you grow up? I want to be a computer programmer. How are you going to do that? I'm going to study computer science.）·页码待复核"
      }
     },
     {
@@ -16818,7 +16818,7 @@
      "solution": "actor（演员）配 take acting lessons（上表演课）；go to a cooking school 是厨师的路径，study computer science 是电脑程序员的路径。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P43·理想与打算配对（My brother wants to be an actor. He's going to take acting lessons.）"
+      "label": "人教新目标八上 P43·理想与打算配对（My brother wants to be an actor. He's going to take acting lessons.）·页码待复核"
      }
     },
     {
@@ -16834,7 +16834,7 @@
      "solution": "主语换成 Lucy（三单），be 动词用 is：Lucy is going to take guitar lessons.，to 后面保持动词原形 take；决心表里 She's going to take piano lessons. 就是这个形式。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P44·新年决心对话（What are you going to do next year? I'm going to take guitar lessons.）变式（主语换 Lucy 选 be going to 形式）"
+      "label": "人教新目标八上 P44·新年决心对话（What are you going to do next year? I'm going to take guitar lessons.）变式（主语换 Lucy 选 be going to 形式）·页码待复核"
      }
     },
     {
@@ -16915,12 +16915,12 @@
     "误：less trees／fewer free time——可数复数配 fewer（fewer trees），不可数配 less（less free time），交换着用就错了。"
    ],
    "source": {
-    "unit": "Unit 7 Will people have robots?",
+    "unit": "Unit 7·When Tomorrow Comes",
     "pages": [
-     49,
-     51
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -16936,7 +16936,7 @@
      "solution": "后半句 Everything will be free（一切免费）说明不再用钱，否定回答 No, they won't.；课上的问答原句就是这一组。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P49·百年后预测问答（Will people use money in 100 years? No, they won't. Everything will be free.）"
+      "label": "人教新目标八上 P49·百年后预测问答（Will people use money in 100 years? No, they won't. Everything will be free.）·页码待复核"
      }
     },
     {
@@ -16952,7 +16952,7 @@
      "solution": "trees 可数复数用 fewer，free time 不可数用 less；语法聚焦的两栏示范正是 There will be fewer trees. 与 There will be less free time.。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P51·语法聚焦可数不可数分栏（There will be fewer trees. There will be less free time.）"
+      "label": "人教新目标八上 P51·语法聚焦可数不可数分栏（There will be fewer trees. There will be less free time.）·页码待复核"
      }
     },
     {
@@ -16968,7 +16968,7 @@
      "solution": "There will be 的问句用 there 配对回答；课上的原句正是 Will there be world peace? —Yes, I hope so.（希望如此）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P51·Will there be world peace 问答（Will there be world peace? Yes, I hope so.）变式（There will be 答语选择）"
+      "label": "人教新目标八上 P51·Will there be world peace 问答（Will there be world peace? Yes, I hope so.）变式（There will be 答语选择）·页码待复核"
      }
     },
     {
@@ -17049,12 +17049,12 @@
     "误：pour the milk in the blender——倒进某容器用 pour…into…，into 才能表示进到里面。"
    ],
    "source": {
-    "unit": "Unit 8 How do you make a banana milk shake?",
+    "unit": "Unit 5·What a Delicious Meal!",
     "pages": [
-     57,
-     59
+     41,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17070,7 +17070,7 @@
      "solution": "先剥皮（①），再切碎（②），把香蕉和冰淇淋放进搅拌机（③），倒入牛奶（④），最后打开搅拌机（⑤）；课上听力排序的答案正是这个顺序。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P57·奶昔制作六步排序（Peel three bananas. Cut up the bananas. Put the bananas and ice-cream in the blender. Pour the milk into the blender. Turn on the blender.）"
+      "label": "人教新目标八上 P57·奶昔制作六步排序（Peel three bananas. Cut up the bananas. Put the bananas and ice-cream in the blender. Pour the milk into the blender. Turn on the blender.）·页码待复核"
      }
     },
     {
@@ -17086,7 +17086,7 @@
      "solution": "bananas 可数复数用 How many，yogurt 不可数用 How much；语法聚焦的两栏示范正是这两组问答。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P59·how many/how much 用量问答（How many bananas do we need? How much yogurt do we need?）"
+      "label": "人教新目标八上 P59·how many/how much 用量问答（How many bananas do we need? How much yogurt do we need?）·页码待复核"
      }
     },
     {
@@ -17102,7 +17102,7 @@
      "solution": "它是四步里的第三步：First 切番茄下锅，Next 加水、糖和盐，Then 煮五分钟打入两个鸡蛋，Finally 拌匀上桌；Then 表示然后，排在 Next 之后。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P64·番茄蛋汤步骤排序（First, cut up three tomatoes and put them into a pot.…Finally, mix everything together and serve it.）变式（流程四词定位）"
+      "label": "人教新目标八上 P64·番茄蛋汤步骤排序（First, cut up three tomatoes and put them into a pot.…Finally, mix everything together and serve it.）变式（流程四词定位）·页码待复核"
      }
     },
     {
@@ -17183,12 +17183,12 @@
     "误：He must goes to the doctor.——must/have to 后接动词原形 go，三单只变 have to→has to，不变后面的动词。"
    ],
    "source": {
-    "unit": "Unit 9 Can you come to my party?",
+    "unit": "Unit 8·Let's Communicate!",
     "pages": [
-     65,
-     67
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17204,7 +17204,7 @@
      "solution": "接受邀请用 Sure, I'd love to.；课上的应答示范原句就是它。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P65·派对邀请与应答（Can you come to my party on Saturday afternoon? Sure, I'd love to.）"
+      "label": "人教新目标八上 P65·派对邀请与应答（Can you come to my party on Saturday afternoon? Sure, I'd love to.）·页码待复核"
      }
     },
     {
@@ -17220,7 +17220,7 @@
      "solution": "去不了要先婉拒再给理由：I'm afraid not. I have the flu.；这正是语法聚焦应答表里的原句。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P67·婉拒与理由（I'm afraid not. I have the flu.）"
+      "label": "人教新目标八上 P67·婉拒与理由（I'm afraid not. I have the flu.）·页码待复核"
      }
     },
     {
@@ -17236,7 +17236,7 @@
      "solution": "not…until 是直到…才：isn't leaving until next Wednesday＝下周三才走，所以 Jeff 才提议周一晚上一起 hang out；去掉 not，句子才表示周三就走。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标八上 P66·Jeff 与 Nick 对话（Sam isn't leaving until next Wednesday. Can you hang out with us on Monday night?）变式（not…until 句意判断）"
+      "label": "人教新目标八上 P66·Jeff 与 Nick 对话（Sam isn't leaving until next Wednesday. Can you hang out with us on Monday night?）变式（not…until 句意判断）·页码待复核"
      }
     },
     {
@@ -17317,12 +17317,12 @@
     "误：If you do you'll be sorry.——if 从句在句首时，其后要加逗号：If you do, you'll be sorry.。"
    ],
    "source": {
-    "unit": "Unit 10 If you go to the party, you'll have a great time!",
+    "unit": "Unit 7·When Tomorrow Comes",
     "pages": [
-     73,
-     75
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17338,7 +17338,7 @@
      "solution": "坐公交赶聚会，对应的结果是迟到：If you do, you'll be late.；课上的对句组里，stay at home 配 you'll be sorry，wear jeans 配 the teachers won't let you in。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P73·If you do 对句组（I think I'll take the bus to the party. If you do, you'll be late.）"
+      "label": "人教新目标八上 P73·If you do 对句组（I think I'll take the bus to the party. If you do, you'll be late.）·页码待复核"
      }
     },
     {
@@ -17354,7 +17354,7 @@
      "solution": "主将从现：if 从句用一般现在时，主语 they 配动词原形 have；语法聚焦的原句是 If they have it today, half the class won't come.。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P75·What will happen if 问答（What will happen if they have the party today? If they have it today, half the class won't come.）"
+      "label": "人教新目标八上 P75·What will happen if 问答（What will happen if they have the party today? If they have it today, half the class won't come.）·页码待复核"
      }
     },
     {
@@ -17370,7 +17370,7 @@
      "solution": "主将从现：从句 if you don't go 用一般现在时，主句交出结果用 will＋动词原形：you will miss all the fun.。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P80·if 补全对话（If you don't go to the party, you will miss all the fun.）变式（主句 will 选填）"
+      "label": "人教新目标八上 P80·if 补全对话（If you don't go to the party, you will miss all the fun.）变式（主句 will 选填）·页码待复核"
      }
     },
     {
@@ -17439,12 +17439,12 @@
     "should 后动词变形：should talks、should went 都是错的，should 后面永远跟动词原形。"
    ],
    "source": {
-    "unit": "Unit 10 综合与建议表达",
+    "unit": "Unit 8·Let's Communicate!",
     "pages": [
-     73,
-     80
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17460,7 +17460,7 @@
      "solution": "信里的线索是 My parents think I should study for my English exam next week.——认真备考加和父母沟通才是对症的建议；D 项 Why not 后不能加 to，B、C 不合理。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P75·书信求建议（Tina: Can you give me some advice please? / My parents think I should study for my English exam next week.）"
+      "label": "人教新目标八上 P109·书信求建议（Tina: Can you give me some advice please? / My parents think I should study for my English exam next week.）"
      }
     },
     {
@@ -17476,7 +17476,7 @@
      "solution": "书上原话 I think you should go to college.——先把学业打好基础；B、C 太绝对，D 多了 to。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P76·结对建议对话（A: What do you think I should do? — B: I think you should go to college.）"
+      "label": "人教新目标八上 P76·结对建议对话（A: What do you think I should do? — B: I think you should go to college.）·页码待复核"
      }
     },
     {
@@ -17486,7 +17486,7 @@
      "solution": "Should we…?（我们……好吗？）与 Why not…?（何不……？）都是提建议；Why not 后面直接跟动词原形 ask。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P74·聚会筹备对话变式（Should we ask people to bring food? 改写成 Why not ask…?）"
+      "label": "人教新目标八上 P74·聚会筹备对话变式（Should we ask people to bring food? 改写成 Why not ask…?）·页码待复核"
      }
     },
     {
@@ -17556,12 +17556,12 @@
     "只把 but 当「转折词」用，忘了它还是对比结构的信号灯。"
    ],
    "source": {
-    "unit": "各单元阅读板块",
+    "unit": "Unit 1·Happy Holiday",
     "pages": [
      1,
-     80
+     10
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17576,7 +17576,7 @@
      "solution": "全文用 Laura 的例子和 Robert 的建议说明「说给别人听」才是办法；A 只抓住 Robert 的专家身份，太窄；C 与文章观点相反。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P77·主旨选择（Which statement expresses the main idea of the passage? 三选一）"
+      "label": "人教新目标八上 P77·主旨选择（Which statement expresses the main idea of the passage? 三选一）·页码待复核"
      }
     },
     {
@@ -17592,7 +17592,7 @@
      "solution": "时间线依次是 1928 年有声卡通在纽约上映、1930 年代 87 部卡通、1978 年 11 月 18 日留名星光大道——它正是最后一个节点；书上就配了这条时间线练习。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P37·时间线（Steamboat Willie came out in New York on November 18, 1928… 1978 Hollywood Walk of Fame）"
+      "label": "人教新目标八上 P37·时间线（Steamboat Willie came out in New York on November 18, 1928… 1978 Hollywood Walk of Fame）·页码待复核"
      }
     },
     {
@@ -17608,7 +17608,7 @@
      "solution": "「今天能做什么」对应工厂里的机器人；电影里的形象、未来的形状、会不会像人一样思考是其余三部分——书上就要求把段落和问题一一配对。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P53·段落配问题变式（Read the article and match each paragraph with the question it discusses.）"
+      "label": "人教新目标八上 P53·段落配问题变式（Read the article and match each paragraph with the question it discusses.）·页码待复核"
      }
     },
     {
@@ -17679,12 +17679,12 @@
     "both 与 all 混用：We both like sports. 说的是两个人，三个人以上才用 all。"
    ],
    "source": {
-    "unit": "Unit 3 写作板块",
+    "unit": "Unit 3·Same or Different?",
     "pages": [
      21,
-     24
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17700,7 +17700,7 @@
      "solution": "funny 是「辅音字母+y」结尾，先变 y 为 i 再加 -er：funnier；句中的 than 提示这里要比较级。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P24·变形填空（My brother is funnier than me. He makes people laugh a lot.）"
+      "label": "人教新目标八上 P24·变形填空（My brother is funnier than me. He makes people laugh a lot.）·页码待复核"
      }
     },
     {
@@ -17716,7 +17716,7 @@
      "solution": "相似段落写相同点：We both… / We are as…as…；不同段落才主攻比较级加 than——两段各有分工，文章才不重复。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P23·两段成篇要求（A friend who is similar to me / A friend who is different from me）"
+      "label": "人教新目标八上 P23·两段成篇要求（A friend who is similar to me / A friend who is different from me）·页码待复核"
      }
     },
     {
@@ -17726,7 +17726,7 @@
      "solution": "「不同」句用比较级加 than；「相同」句 both 后接动词，或 as…as 中间放原形。两句各说各的，都成立即可。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P21·同段仿写变式（He is taller and more outgoing than me. / We both like sports.）"
+      "label": "人教新目标八上 P21·同段仿写变式（He is taller and more outgoing than me. / We both like sports.）·页码待复核"
      }
     },
     {
@@ -17796,12 +17796,12 @@
     "把 won't 听成 want：won't 是 will not 的缩写，注意它的否定读音。"
    ],
    "source": {
-    "unit": "Unit 7 听说板块",
+    "unit": "Unit 7·When Tomorrow Comes",
     "pages": [
-     49,
-     56
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17817,7 +17817,7 @@
      "solution": "书上原对话就是 No, they won't. Everything will be free.——will 问 will 答，否定用 won't；C 项 There will have 结构不成立，D 前后矛盾。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P49·听前预测与问答（Will people use money in 100 years? — No, they won't. Everything will be free.）"
+      "label": "人教新目标八上 P49·听前预测与问答（Will people use money in 100 years? — No, they won't. Everything will be free.）·页码待复核"
      }
     },
     {
@@ -17833,7 +17833,7 @@
      "solution": "fresh water 和 pollution 都不可数，用 less/more；句意是水更少、污染更多——less fresh water, more pollution。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P51·more/less/fewer 选词（there will be less fresh water because there will be more pollution in the sea）"
+      "label": "人教新目标八上 P51·more/less/fewer 选词（there will be less fresh water because there will be more pollution in the sea）·页码待复核"
      }
     },
     {
@@ -17849,7 +17849,7 @@
      "solution": "十年后用 will：I'll fly rockets to the moon.——同组的还有 I'll be an astronaut. / I'll live on a space station.；A 是一般现在时，B、D 是过去式。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P52·Joe 的现在与十年后变式（I live in an apartment… → I'll fly rockets to the moon.）"
+      "label": "人教新目标八上 P52·Joe 的现在与十年后变式（I live in an apartment… → I'll fly rockets to the moon.）·页码待复核"
      }
     },
     {
@@ -17928,12 +17928,12 @@
     "more better、much best 这类双重比较或最高级叠用。"
    ],
    "source": {
-    "unit": "全册",
+    "unit": "Unit 8·Let's Communicate!",
     "pages": [
-     1,
-     125
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -17949,7 +17949,7 @@
      "solution": "advice 不可数：一条建议 a piece of advice，多条 two pieces of advice，永远不加 s。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八上 P92·词汇笔记（advice 是不可数名词，一条建议 a piece of advice）"
+      "label": "人教新目标八上 P92·词汇笔记（advice 是不可数名词，一条建议 a piece of advice）·页码待复核"
      }
     },
     {
@@ -17965,7 +17965,7 @@
      "solution": "as…as 中间用原形：Tom runs as fast as Jack.（书后语法附录原句）；B、C、D 都破坏了同级比较的结构。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八上 P115·as…as 同级比较（Tom runs as fast as Jack. / I think science is as important as math.）"
+      "label": "人教新目标八上 P115·as…as 同级比较（Tom runs as fast as Jack. / I think science is as important as math.）·页码待复核"
      }
     },
     {
@@ -17981,7 +17981,7 @@
      "solution": "bad/badly→worse→worst，与 good→better→best 一同是不规则表的前两行，必须默写过关。",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标八上 P114·不规则变化表变式（good/well→better→best / bad/badly→worse→worst / many/much→more→most / little→less→least）"
+      "label": "人教新目标八上 P106·不规则变化表变式（good/well→better→best / bad/badly→worse→worst / many/much→more→most / little→less→least）"
      }
     },
     {
@@ -18059,12 +18059,12 @@
     "What's the matter (with you)? 里 matter 前有 the；也别和 What's wrong? 混写——wrong 前面不加任何词，说成 What's the wrong? 就错了。"
    ],
    "source": {
-    "unit": "Unit 1 What's the matter?",
+    "unit": "Unit 2·Stay Healthy",
     "pages": [
-     1,
-     8
+     11,
+     20
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18079,7 +18079,7 @@
      "solution": "选最佳医嘱原题：Jenny cut herself. — She should put some medicine on the cut. 割伤先上药；拍片是牙医的事，量体温是发烧的事。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P4·病痛选最佳医嘱（Jenny cut herself — She should put some medicine on the cut.）"
+      "label": "人教新目标八下 P4·病痛选最佳医嘱（Jenny cut herself — She should put some medicine on the cut.）·页码待复核"
      }
     },
     {
@@ -18089,7 +18089,7 @@
      "solution": "选最佳医嘱原题：Bob has a sore back. — He should lie down and rest.；语法聚焦同款：He has a sore back. — He should lie down and rest.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P4·病痛选最佳医嘱与语法聚焦（Bob has a sore back — He should lie down and rest.）"
+      "label": "人教新目标八下 P4·病痛选最佳医嘱与语法聚焦（Bob has a sore back — He should lie down and rest.）·页码待复核"
      }
     },
     {
@@ -18099,7 +18099,7 @@
      "solution": "对话原句：I hurt myself playing soccer. I have a sore leg. 主语是 I，受伤的是自己，用反身代词 myself。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P8·自测对话排序（I hurt myself playing soccer. I have a sore leg.）变式（反身代词补全）"
+      "label": "人教新目标八下 P8·自测对话排序（I hurt myself playing soccer. I have a sore leg.）变式（反身代词补全）·页码待复核"
      }
     },
     {
@@ -18177,12 +18177,12 @@
     "could 在这里表示提建议，不是过去的能力——You could help sick kids. 说的是现在可以这样做，理解成「你过去能」就错了。"
    ],
    "source": {
-    "unit": "Unit 2 I'll help to clean up the city parks.",
+    "unit": "Unit 8·Making a Difference",
     "pages": [
-     10,
-     16
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18197,7 +18197,7 @@
      "solution": "原句：We need to come up with a plan to tell people about the city park clean-up.「想出计划」用 come up with。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P10·城市公园清洁日计划（We need to come up with a plan to tell people about the city park clean-up.）"
+      "label": "人教新目标八下 P10·城市公园清洁日计划（We need to come up with a plan to tell people about the city park clean-up.）·页码待复核"
      }
     },
     {
@@ -18207,7 +18207,7 @@
      "solution": "原句：Our class is trying to come up with some ideas to cheer up sick children. trying to 后接动词原形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P12·短语动词选词填空（come up with some ideas to cheer up sick children）"
+      "label": "人教新目标八下 P105·短语动词选词填空（come up with some ideas to cheer up sick children）"
      }
     },
     {
@@ -18222,7 +18222,7 @@
      "solution": "代词 them 必须放在短语动词 hand 和 out 中间：hand them out。原对话：Then I will hand them out after school.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P10·清洁日计划对话（Then I will hand them out after school.）变式（短语动词代词位置）"
+      "label": "人教新目标八下 P10·清洁日计划对话（Then I will hand them out after school.）变式（短语动词代词位置）·页码待复核"
      }
     },
     {
@@ -18300,12 +18300,12 @@
     "please 的位置在 Could you please＋动词处，别挪到句尾；许可句 Could I watch TV? 一般不加 please。"
    ],
    "source": {
-    "unit": "Unit 3 Could you please clean your room?",
+    "unit": "Unit 1·Time to Relax",
     "pages": [
-     17,
-     24
+     1,
+     10
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18320,7 +18320,7 @@
      "solution": "分类原题：Could I hang out with my friends after the movie? 归入 Permission——Could I…? 问的是「我能不能去」。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P20·请求与许可分类（Could I hang out with my friends after the movie?）"
+      "label": "人教新目标八下 P20·请求与许可分类（Could I hang out with my friends after the movie?）·页码待复核"
      }
     },
     {
@@ -18330,7 +18330,7 @@
      "solution": "自测分类原题把 Could you take out the rubbish first? 放进 Requests 一栏——Could you…? 是请对方做事；应答用 Yes, sure.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P24·自测请求与许可分类（Could you take out the rubbish first?）"
+      "label": "人教新目标八下 P24·自测请求与许可分类（Could you take out the rubbish first?）·页码待复核"
      }
     },
     {
@@ -18345,7 +18345,7 @@
      "solution": "原句：Yes, you can, but first you have to clean your room.——许可附条件；主语是 you，have to 后接动词原形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P18·Could I 问答（Could I watch TV? Yes, you can, but first you have to clean your room.）变式（许可附带条件）"
+      "label": "人教新目标八下 P18·Could I 问答（Could I watch TV? Yes, you can, but first you have to clean your room.）变式（许可附带条件）·页码待复核"
      }
     },
     {
@@ -18423,12 +18423,12 @@
     "not…until 是「直到……才」，和肯定句的 until「一直到」意思不同：I didn't go to bed until midnight.＝半夜十二点才睡。"
    ],
    "source": {
-    "unit": "Unit 4 Why don't you talk to your parents?",
+    "unit": "Unit 3·Growing Up",
     "pages": [
-     25,
-     32
+     21,
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18443,7 +18443,7 @@
      "solution": "原句：I studied until midnight last night.——midnight 是时间点，「学到半夜」用 until。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P25·烦恼对话（What's wrong? I studied until midnight last night.）"
+      "label": "人教新目标八下 P25·烦恼对话（What's wrong? I studied until midnight last night.）·页码待复核"
      }
     },
     {
@@ -18453,7 +18453,7 @@
      "solution": "原句：You should talk to him so that you can say you're sorry.——should 给建议，so that 带出目的「好让你能道歉」。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P26·建议填空（You should talk to him so that you can say you're sorry.）"
+      "label": "人教新目标八下 P26·建议填空（You should talk to him so that you can say you're sorry.）·页码待复核"
      }
     },
     {
@@ -18468,7 +18468,7 @@
      "solution": "原句：Kids shouldn't play computer games until late at night.——late at night 是时间，用 until「玩到深夜」；shouldn't…until 表示「不该……到」。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P32·自测 until/so that/although 选词（Kids shouldn't play computer games until late at night.）变式（时间连词辨析）"
+      "label": "人教新目标八下 P32·自测 until/so that/although 选词（Kids shouldn't play computer games until late at night.）变式（时间连词辨析）·页码待复核"
      }
     },
     {
@@ -18546,12 +18546,12 @@
     "while 与 when 别乱放：while 后接进行中的长动作，when 常引出突发的短动作——While the rainstorm came 这种说法就不对。"
    ],
    "source": {
-    "unit": "Unit 5 What were you doing when the rainstorm came?",
+    "unit": "Unit 5·Nature's Temper",
     "pages": [
-     33,
-     40
+     41,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18566,7 +18566,7 @@
      "solution": "语法聚焦原句：What was she doing at the time of the rainstorm? — She was doing her homework.——主语 she 是单数，两处都用 was。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P36·语法聚焦过去进行时问答（What was she doing at the time of the rainstorm? She was doing her homework.）"
+      "label": "人教新目标八下 P36·语法聚焦过去进行时问答（What was she doing at the time of the rainstorm? She was doing her homework.）·页码待复核"
      }
     },
     {
@@ -18576,7 +18576,7 @@
      "solution": "语篇原句：Ben's dad was putting pieces of wood over the windows while his mom was making sure the flashlights and radio were working.——while 两边都是进行中的长动作，dad 单数用 was putting。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P35·暴风雨之夜语篇（Ben's dad was putting pieces of wood over the windows while his mom was making sure…）"
+      "label": "人教新目标八下 P35·暴风雨之夜语篇（Ben's dad was putting pieces of wood over the windows while his mom was making sure…）·页码待复核"
      }
     },
     {
@@ -18591,7 +18591,7 @@
      "solution": "改写原句：John was taking photos when Mary bought a drink.——长动作（拍照）用进行时作背景，短动作（买饮料）用 when 引出；while 与 when 在这类句子里可以互换位置。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P36·while 与 when 同义改写（While John was taking photos, Mary bought a drink.）变式（when 与 while 互换）"
+      "label": "人教新目标八下 P36·while 与 when 同义改写（While John was taking photos, Mary bought a drink.）变式（when 与 while 互换）·页码待复核"
      }
     },
     {
@@ -18672,12 +18672,12 @@
     "continue to do 丢掉 to：Yu Gong said his family could continue to move the mountains，to 后面接动词原形，不能光写 continue move。"
    ],
    "source": {
-    "unit": "Unit 6 An old man tried to move the mountains.",
+    "unit": "Unit 6·Crossing Cultures",
     "pages": [
-     41,
-     49
+     51,
+     60
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18693,7 +18693,7 @@
      "solution": "原句是 As soon as the man finished talking, Yu Gong said…——那人一说完，愚公就说……，表示「一……就……」；instead of 后不接从句，unless 表条件，so that 表目的，意思都不通。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P42·愚公移山听力句（As soon as the man finished talking, Yu Gong said that his family could continue to move the mountains after he died.）"
+      "label": "人教新目标八下 P42·愚公移山听力句（As soon as the man finished talking, Yu Gong said that his family could continue to move the mountains after he died.）·页码待复核"
      }
     },
     {
@@ -18709,7 +18709,7 @@
      "solution": "语段原句：The Monkey King or Sun Wukong is the main character in the traditional Chinese book Journey to the West.——猴王孙悟空是主角；Yu Gong 是《愚公移山》的主人公，Hou Yi 射日，Nu Wa 补天。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P41·四则故事标题配对（Journey to the West / Yu Gong Moves a Mountain / Hou Yi Shoots the Suns / Nu Wa Repairs the Sky）"
+      "label": "人教新目标八下 P41·四则故事标题配对（Journey to the West / Yu Gong Moves a Mountain / Hou Yi Shoots the Suns / Nu Wa Repairs the Sky）·页码待复核"
      }
     },
     {
@@ -18725,7 +18725,7 @@
      "solution": "原句：He cannot turn himself into a man unless he can hide his tail.——除非他能藏住尾巴，否则没法把自己变成人；unless 引导条件，「除非……否则不……」。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P44·语法聚焦连词选词填空（unless / as soon as / so...that；He cannot turn himself into a man unless he can hide his tail.）变式（unless 条件句辨析）"
+      "label": "人教新目标八下 P44·语法聚焦连词选词填空（unless / as soon as / so...that；He cannot turn himself into a man unless he can hide his tail.）变式（unless 条件句辨析）·页码待复核"
      }
     },
     {
@@ -18805,12 +18805,12 @@
     "higher than any other mountain 里 any other 后用了复数：any other 后接单数 mountain，比较时先把自己排除。"
    ],
    "source": {
-    "unit": "Unit 7 What's the highest mountain in the world?",
+    "unit": "Unit 4·The Wonders of Nature",
     "pages": [
-     50,
-     56
+     31,
+     40
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18826,7 +18826,7 @@
      "solution": "语法聚焦原句：What's the highest mountain in the world? —Qomolangma.——世界最高的山是珠穆朗玛峰；the Nile 是最长的河，the Caspian Sea 是盐湖里最深的，the Sahara 是最大的沙漠。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P52·语法聚焦地理问答（What's the highest mountain in the world? Qomolangma. How high is Qomolangma? It's 8,844.43 meters high.）"
+      "label": "人教新目标八下 P52·语法聚焦地理问答（What's the highest mountain in the world? Qomolangma. How high is Qomolangma? It's 8,844.43 meters high.）·页码待复核"
      }
     },
     {
@@ -18842,7 +18842,7 @@
      "solution": "听力原句：The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long.——长江约 6,300 千米长；5,464 是黄河的长度，8,850 是长城明代部分的长度。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P50·长江黄河长度听力（The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long.）"
+      "label": "人教新目标八下 P50·长江黄河长度听力（The Yangtze River is about 6,300 kilometers long and the Yellow River is 5,464 kilometers long.）·页码待复核"
      }
     },
     {
@@ -18858,7 +18858,7 @@
      "solution": "自测原句：An adult panda can eat (much / a little) more than a cat.——成年熊猫的饭量远超猫，差距大用 much more；few 不能修饰比较级。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P56·自测程度词圈词（An adult panda can eat much more than a cat. A tiger is much stronger than a man.）变式（much/a little 差距判断）"
+      "label": "人教新目标八下 P56·自测程度词圈词（An adult panda can eat much more than a cat. A tiger is much stronger than a man.）变式（much/a little 差距判断）·页码待复核"
      }
     },
     {
@@ -18939,12 +18939,12 @@
     "简短回答错位：Have you read…? 答 Yes, I have. / No, I haven't.，不答 Yes, I did。"
    ],
    "source": {
-    "unit": "Unit 8 Have you read Treasure Island yet?",
+    "unit": "Unit 7·A Good Read",
     "pages": [
-     57,
-     64
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -18960,7 +18960,7 @@
      "solution": "肯定句报「已经读过」，用 I've already read it.——already 放在 have 与分词之间；yet 属于疑问句和否定句，ever、never 是经历问答里的词。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P57·读书对话（Have you read Little Women yet? No, I haven't. Have you? Yes, I've already read it. It's fantastic.）"
+      "label": "人教新目标八下 P57·读书对话（Have you read Little Women yet? No, I haven't. Have you? Yes, I've already read it. It's fantastic.）·页码待复核"
      }
     },
     {
@@ -18976,7 +18976,7 @@
      "solution": "完成时问句用 have/has 呼应作答：No, I haven't.——didn't、don't、'm not 分别属于过去时、一般现在时和 be 动词，都对不上号。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P60·语法聚焦完成时问答（Have you read Little Women yet? Yes, I have. / No, I haven't.）"
+      "label": "人教新目标八下 P60·语法聚焦完成时问答（Have you read Little Women yet? Yes, I have. / No, I haven't.）·页码待复核"
      }
     },
     {
@@ -18992,7 +18992,7 @@
      "solution": "否定句句尾用 yet：He hasn't listened to it yet.（他买了 CD 但还没听）——自测原题正是 already 与 yet 的对照：肯定句 have read five books already，否定句 hasn't listened to it yet。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P64·自测动词形式填空（I have read five books already. He has bought a CD but he hasn't listened to it yet.）变式（already/yet 选填）"
+      "label": "人教新目标八下 P64·自测动词形式填空（I have read five books already. He has bought a CD but he hasn't listened to it yet.）变式（already/yet 选填）·页码待复核"
      }
     },
     {
@@ -19073,12 +19073,12 @@
     "回应否定用错：对方说没去过，你也没去过要说 Me neither.，不是 Me, too.。"
    ],
    "source": {
-    "unit": "Unit 9 Have you ever been to a museum?",
+    "unit": "Unit 8·Making a Difference",
     "pages": [
-     65,
-     74
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19094,7 +19094,7 @@
      "solution": "经历答完补细节要用一般过去时：last year 是过去时间标志，用 went——原对话正是 I went to the National Science Museum last year.；have gone 表示「去了还没回」，与 last year 冲突。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P65·科学博物馆对话（Have you ever been to a science museum? Yes, I have. I went to the National Science Museum last year. / No, I haven't. Me neither.）"
+      "label": "人教新目标八下 P65·科学博物馆对话（Have you ever been to a science museum? Yes, I have. I went to the National Science Museum last year. / No, I haven't. Me neither.）·页码待复核"
      }
     },
     {
@@ -19110,7 +19110,7 @@
      "solution": "对方用 never 表否定，你也没去过就说 Me neither.（我也没去过）——语法聚焦原句正是 I've never been to a water park. —Me neither.；Me, too. 只接肯定句。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P68·语法聚焦经历表达（No, I've never been to a science museum. I've been to the art museum many times. I've never been to a water park. Me neither.）"
+      "label": "人教新目标八下 P68·语法聚焦经历表达（No, I've never been to a science museum. I've been to the art museum many times. I've never been to a water park. Me neither.）·页码待复核"
      }
     },
     {
@@ -19126,7 +19126,7 @@
      "solution": "两空都填 been：has never been to 表示「从没去过」，has been to 表示「去过」——听力原句正是 John has never been to the space museum. Linda has been to the amusement park.；这里是聊经历，不是问人此刻在哪，不用 gone。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P66·听力真假判断（Tina went to the space museum last year. John has never been to the space museum. Linda has been to the amusement park.）变式（been to/never been to 选填）"
+      "label": "人教新目标八下 P66·听力真假判断（Tina went to the space museum last year. John has never been to the space museum. Linda has been to the amusement park.）变式（been to/never been to 选填）·页码待复核"
      }
     },
     {
@@ -19198,12 +19198,12 @@
     "误：She has lived here since five years.——five years 是时间段，用 for five years；要用 since 就说 since five years ago。"
    ],
    "source": {
-    "unit": "Unit 10 I've had this bike for three years.",
+    "unit": "Unit 8·Making a Difference",
     "pages": [
-     75,
-     82
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19219,7 +19219,7 @@
      "solution": "语法聚焦原句：How long have you had that bike over there? —I've had it for three years. 问拥有时长，用完成时加 for+时间段作答。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P76·语法聚焦（How long have you had that bike over there? I've had it for three years.）"
+      "label": "人教新目标八下 P76·语法聚焦（How long have you had that bike over there? I've had it for three years.）·页码待复核"
      }
     },
     {
@@ -19235,7 +19235,7 @@
      "solution": "买发生在 2009 这个起点，拥有延续到现在：have had+since 2009。书上改写示例 Jim has been in Japan for three days. 同理：到达是过去点，待到现在用完成时。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P76·用 for 或 since 改写句子（I have a camera. I bought it in 2009.）"
+      "label": "人教新目标八下 P76·用 for 或 since 改写句子（I have a camera. I bought it in 2009.）·页码待复核"
      }
     },
     {
@@ -19251,7 +19251,7 @@
      "solution": "书上动词填空原句：We have had a piano since last November. We bought it from the Li family when they moved to the US last year. 拥有用 have had+since，买用过去式 bought。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P76·动词填空（We have had a piano since last November. We bought it from the Li family…）变式（瞬间动词 buy 的正误辨析）"
+      "label": "人教新目标八下 P76·动词填空（We have had a piano since last November. We bought it from the Li family…）变式（瞬间动词 buy 的正误辨析）·页码待复核"
      }
     },
     {
@@ -19320,12 +19320,12 @@
     "复述故事漏掉悬念问句——Who else is on my island? 这类问句是预测的抓手，也是最值得讲给别人听的地方。"
    ],
    "source": {
-    "unit": "Unit 8 阅读板块",
+    "unit": "Unit 7·A Good Read",
     "pages": [
-     57,
-     64
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19341,7 +19341,7 @@
      "solution": "语篇原句：I named him Friday because that was the day I met him. 读后问题原题就问这个名字的来历。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P59·鲁滨逊语篇与读后问答（I named him Friday because that was the day I met him.）"
+      "label": "人教新目标八下 P59·鲁滨逊语篇与读后问答（I named him Friday because that was the day I met him.）·页码待复核"
      }
     },
     {
@@ -19357,7 +19357,7 @@
      "solution": "选书对话里 Steve 读完 Little Women 后说：It's about four sisters growing up. It was really good, so I couldn't put it down.",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P58·选书对话（Yes, Little Women. I've already finished reading it! It's about four sisters growing up.）"
+      "label": "人教新目标八下 P58·选书对话（Yes, Little Women. I've already finished reading it! It's about four sisters growing up.）·页码待复核"
      }
     },
     {
@@ -19373,7 +19373,7 @@
      "solution": "出海寻宝岛是 Treasure Island 的情节（听力判断里把这句安在 Oliver Twist 头上是错的）；Tom 住在美国不在英国；鲁滨逊虽然在岛上失去一切，但 I have not lost my life。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P58·听力正误判断（Oliver Twist is about a boy who goes out to sea and finds an island full of treasures. / Tom Sawyer is about a boy who lives in the United Kingdom.）变式（情节与书名配对）"
+      "label": "人教新目标八下 P58·听力正误判断（Oliver Twist is about a boy who goes out to sea and finds an island full of treasures. / Tom Sawyer is about a boy who lives in the United Kingdom.）变式（情节与书名配对）·页码待复核"
      }
     },
     {
@@ -19443,12 +19443,12 @@
     "volunteer 词性混用——作动词直接接地点（volunteer at an animal hospital），别写成 volunteer to at。"
    ],
    "source": {
-    "unit": "Unit 2 写作板块",
+    "unit": "Unit 8·Making a Difference",
     "pages": [
-     10,
-     16
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19464,7 +19464,7 @@
      "solution": "清洁日计划的原话就是 We could make some signs. Let's make some notices, too.——用 could 提出能做的事。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P10·清洁日计划对话（We need to come up with a plan for the City Park Clean-Up Day. We could make some signs.）"
+      "label": "人教新目标八下 P10·清洁日计划对话（We need to come up with a plan for the City Park Clean-Up Day. We could make some signs.）·页码待复核"
      }
     },
     {
@@ -19480,7 +19480,7 @@
      "solution": "表态（①will）→摆能力（②could）→讲理由（③because）→补时间（④free to help on…），四步正好对应申请信框架的四个问题。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P16·志愿申请信框架（I'd like to volunteer as… I'm good at… because… I'm free to help in / on…）"
+      "label": "人教新目标八下 P16·志愿申请信框架（I'd like to volunteer as… I'm good at… because… I'm free to help in / on…）·页码待复核"
      }
     },
     {
@@ -19496,7 +19496,7 @@
      "solution": "语篇原话：I want to learn more about how to care for animals. 志愿理由通常往'喜欢+想学+帮到谁'上写。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P11·志愿者语篇（Mario volunteers at an animal hospital every Saturday morning… I want to learn more about how to care for animals.）变式（because 理由句补全）"
+      "label": "人教新目标八下 P11·志愿者语篇（Mario volunteers at an animal hospital every Saturday morning… I want to learn more about how to care for animals.）变式（because 理由句补全）·页码待复核"
      }
     },
     {
@@ -19567,12 +19567,12 @@
     "报道漏了结果——只说当时在做什么，不说后来怎样，听众听完还是不知道事情怎么了。"
    ],
    "source": {
-    "unit": "Unit 5 听说板块",
+    "unit": "Unit 5·Nature's Temper",
     "pages": [
-     33,
-     40
+     41,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19588,7 +19588,7 @@
      "solution": "语法聚焦原句：He was reading in the library when the rainstorm came. 问当时正在做什么，用过去进行时回答。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P36·语法聚焦（What was he doing when the rainstorm came? He was reading in the library when the rainstorm came.）"
+      "label": "人教新目标八下 P36·语法聚焦（What was he doing when the rainstorm came? He was reading in the library when the rainstorm came.）·页码待复核"
      }
     },
     {
@@ -19598,7 +19598,7 @@
      "solution": "问句已经给出 were doing 的框架，答句保持一致：I was waiting for the bus.——雨中在等公交车正是这一板块的场景之一。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P34·记者采访（TV reporter: So, when the rainstorm suddenly came, what were you doing?）"
+      "label": "人教新目标八下 P34·记者采访（TV reporter: So, when the rainstorm suddenly came, what were you doing?）·页码待复核"
      }
     },
     {
@@ -19614,7 +19614,7 @@
      "solution": "walking home 是持续背景动作，用 while 引出；下一句 But when I pointed it out to my friend, it went away. 里的一下子动作才用 when。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P40·自测 when/while 填空（While I was walking home from school, I saw a strange light in the sky.）变式（when/while 选词）"
+      "label": "人教新目标八下 P40·自测 when/while 填空（While I was walking home from school, I saw a strange light in the sky.）变式（when/while 选词）·页码待复核"
      }
     },
     {
@@ -19694,12 +19694,12 @@
     "黑体重点词只认不写——四会词必须会默写，只看得见拼不出的词，写的时候就卡壳。"
    ],
    "source": {
-    "unit": "全册",
+    "unit": "Unit 8·Making a Difference",
     "pages": [
-     1,
-     138
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19715,7 +19715,7 @@
      "solution": "册末不规则动词表里 cut、put、let、set、shut、hurt、cost、read 都是三态同形；go、write、see 都是三态各异。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P136·不规则动词表（cut cut cut / put put put / read /riːd/—/red/—/red/）"
+      "label": "人教新目标八下 P107·不规则动词表（cut cut cut / put put put / read /riːd/—/red/—/red/）"
      }
     },
     {
@@ -19731,7 +19731,7 @@
      "solution": "问答原句：Have you read Little Women yet? —Yes, I've already read it. read 的过去分词仍是 read，读音 /red/。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标八下 P57·名著问答（Have you read Little Women yet? Yes, I've already read it.）"
+      "label": "人教新目标八下 P57·名著问答（Have you read Little Women yet? Yes, I've already read it.）·页码待复核"
      }
     },
     {
@@ -19747,7 +19747,7 @@
      "solution": "去过两次（twice）说明人回来了，用 have been to；have gone to 表示人还在那边没回来，不能和 twice 连用。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标八下 P136·不规则动词表（go went gone / be was, were been）变式（gone 与 been 辨析填空）"
+      "label": "人教新目标八下 P136·不规则动词表（go went gone / be was, were been）变式（gone 与 been 辨析填空）·页码待复核"
      }
     },
     {
@@ -19825,12 +19825,12 @@
     "V-ing 拼写出错：write 要去 e 变 writing，begin 要双写 n 变 beginning，listen 直接加 ing 变 listening。"
    ],
    "source": {
-    "unit": "Unit 1 How can we become good learners?",
+    "unit": "Unit 3·Smart Learning",
     "pages": [
-     1,
-     8
+     21,
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19846,7 +19846,7 @@
      "solution": "How 提问方式，答句用 By + V-ing 短语；书上的对应回答正是 By having conversations with friends.（通过与朋友对话来练口语）。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P4·语法聚焦问答回（How do you practice speaking? By having conversations with friends.）"
+      "label": "人教新目标九全 P4·语法聚焦问答回（How do you practice speaking? By having conversations with friends.）·页码待复核"
      }
     },
     {
@@ -19856,7 +19856,7 @@
      "solution": "介词 by 后接动名词，write 需变为 writing（去 e 加 -ing）。书上有 By writing e-mails to my pen pals. 的说法。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P4·语法聚焦句式（By writing e-mails to my pen pals.）"
+      "label": "人教新目标九全 P4·语法聚焦句式（By writing e-mails to my pen pals.）·页码待复核"
      }
     },
     {
@@ -19872,7 +19872,7 @@
      "solution": "问方式用 How；表示“通过做某事”用 By + V-ing。完整对话：How do you memorize new words? — By making word cards.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P1·学习方式问答变式（How do you study for a test? I study by working with a group.）"
+      "label": "人教新目标九全 P1·学习方式问答变式（How do you study for a test? I study by working with a group.）·页码待复核"
      }
     },
     {
@@ -19941,12 +19941,12 @@
     "把 if / whether 随意省略：that 可以省，但 if / whether 担着“是否”的意思，一般不能省。"
    ],
    "source": {
-    "unit": "Unit 2 I think that mooncakes are delicious!",
+    "unit": "Unit 2·Inspiring People",
     "pages": [
-     9,
-     16
+     11,
+     20
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -19962,7 +19962,7 @@
      "solution": "书上的原句是 I believe that April is the hottest month in Thailand.（泰国四月是最热的月份），the 后接形容词最高级 hottest。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P12·语法聚焦（I believe that April is the hottest month in Thailand.）"
+      "label": "人教新目标九全 P12·语法聚焦（I believe that April is the hottest month in Thailand.）·页码待复核"
      }
     },
     {
@@ -19972,7 +19972,7 @@
      "solution": "主句主语 Bill 是第三人称单数，wonder 加 s；从句 whether they'll have... 保持陈述语序。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P9·节日听力判断句（Bill wonders whether they'll have zongzi again next year.）"
+      "label": "人教新目标九全 P9·节日听力判断句（Bill wonders whether they'll have zongzi again next year.）·页码待复核"
      }
     },
     {
@@ -19988,7 +19988,7 @@
      "solution": "问“是否”用 if，从句 the museum is open 保持陈述语序；A、C 把 is 提前造成倒装，D 把 if 放错了位置。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P12·语法聚焦变式（I wonder if / whether 从句陈述语序）"
+      "label": "人教新目标九全 P12·语法聚焦变式（I wonder if / whether 从句陈述语序）·页码待复核"
      }
     },
     {
@@ -20057,12 +20057,12 @@
     "对陌生人开口不加 Excuse me / Pardon me，句子再对也显得生硬不礼貌。"
    ],
    "source": {
-    "unit": "Unit 3 Could you please tell me where the restrooms are?",
+    "unit": "Unit 3·Smart Learning",
     "pages": [
-     17,
-     24
+     21,
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20078,7 +20078,7 @@
      "solution": "问句问“在哪里能买到杂志”，答句指明地点：There's a bookstore on the third floor.（三楼有一家书店）。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P24·自测问答（Could you please tell me where I can buy a magazine? — There's a bookstore on the third floor.）"
+      "label": "人教新目标九全 P24·自测问答（Could you please tell me where I can buy a magazine? — There's a bookstore on the third floor.）·页码待复核"
      }
     },
     {
@@ -20088,7 +20088,7 @@
      "solution": "套上外壳 Could you please tell me，从句 where I can buy... 保持陈述语序。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P20·语法聚焦礼貌改写（Where can I buy some grapes or other fruit?）"
+      "label": "人教新目标九全 P20·语法聚焦礼貌改写（Where can I buy some grapes or other fruit?）·页码待复核"
      }
     },
     {
@@ -20104,7 +20104,7 @@
      "solution": "从句 when the band starts playing 保持陈述语序，由疑问词 when 引导；A、C 倒装，D 疑问词用错。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P20·语法聚焦变式（Could you tell us when the band starts playing this evening?）"
+      "label": "人教新目标九全 P20·语法聚焦变式（Could you tell us when the band starts playing this evening?）·页码待复核"
      }
     },
     {
@@ -20173,12 +20173,12 @@
     "反意疑问后缀写错：You used to be short, didn't you? 前肯后否，别写成 did you。"
    ],
    "source": {
-    "unit": "Unit 4 I used to be afraid of the dark.",
+    "unit": "Unit 4·Our Memory",
     "pages": [
-     25,
-     32
+     31,
+     40
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20194,7 +20194,7 @@
      "solution": "used to 的反意疑问借助 did：前句肯定，后缀用 didn't you；回答 Yes, I did.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P28·语法聚焦（You used to be short, didn't you? — Yes, I did.）"
+      "label": "人教新目标九全 P28·语法聚焦（You used to be short, didn't you? — Yes, I did.）·页码待复核"
      }
     },
     {
@@ -20204,7 +20204,7 @@
      "solution": "第一空是肯定句用 used to；第二空是否定句，空后已有 use to，填 didn't。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P28·语法聚焦配套写句（Grace used to watch a lot of TV. She didn't use to watch a lot of movies.）"
+      "label": "人教新目标九全 P28·语法聚焦配套写句（Grace used to watch a lot of TV. She didn't use to watch a lot of movies.）·页码待复核"
      }
     },
     {
@@ -20220,7 +20220,7 @@
      "solution": "一般疑问句用 Did Mario use to be short?，did 后的 used 还原为 use；书上的原问答正是如此。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P25·开场对话变式（Did Mario use to be short? Yes, he did. He used to be really short.）"
+      "label": "人教新目标九全 P25·开场对话变式（Did Mario use to be short? Yes, he did. He used to be really short.）·页码待复核"
      }
     },
     {
@@ -20290,12 +20290,12 @@
     "过去分词写错：grow→grown、speak→spoken，不能按规则硬加 -ed 写成 growed、speaked。"
    ],
    "source": {
-    "unit": "Unit 5 What are the shirts made of?",
+    "unit": "Unit 5·Power of Ideas",
     "pages": [
-     33,
-     40
+     41,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20311,7 +20311,7 @@
      "solution": "配对表里 shirts 对应 cotton（棉花）：What are the shirts made of? — They're made of cotton.，是语法聚焦同款问答；silver 对应 chopsticks，steel 对应 ring。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P33·物品与原料产地配对（shirts—cotton—Korea；What are the shirts made of?）"
+      "label": "人教新目标九全 P33·物品与原料产地配对（shirts—cotton—Korea；What are the shirts made of?）·页码待复核"
      }
     },
     {
@@ -20321,7 +20321,7 @@
      "solution": "the tea 提前作主语，复数配 are，plant 变过去分词 planted；执行者 by farmers 保留。主动句变被动句，意思不变。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P36·主动句改被动句（Farmers plant the tea on the sides of mountains. → The tea is planted on the sides of mountains by farmers.）"
+      "label": "人教新目标九全 P36·主动句改被动句（Farmers plant the tea on the sides of mountains. → The tea is planted on the sides of mountains by farmers.）·页码待复核"
      }
     },
     {
@@ -20337,7 +20337,7 @@
      "solution": "奶酪里看不出牛奶原料，用 be made from；原句是自测里的 Cheese is made from milk.。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P40·动词正确形式填空（Cheese (make) from milk.）变式（be made of/from 选词）"
+      "label": "人教新目标九全 P40·动词正确形式填空（Cheese (make) from milk.）变式（be made of/from 选词）·页码待复核"
      }
     },
     {
@@ -20407,12 +20407,12 @@
     "不规则过去分词记错：drink→drunk、steal→stolen、bring→brought，别按 -ed 硬加。"
    ],
    "source": {
-    "unit": "Unit 6 When was it invented?",
+    "unit": "Unit 5·Power of Ideas",
     "pages": [
      41,
-     48
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20428,7 +20428,7 @@
      "solution": "对话原句：When was the telephone invented? — I think it was invented in 1876.；四个年份 1876、1885、1927、1971 分别对应电话、汽车、电视、个人电脑。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P41·发明与年份配对（1876/1885/1927/1971；When was the telephone invented? — I think it was invented in 1876.）"
+      "label": "人教新目标九全 P41·发明与年份配对（1876/1885/1927/1971；When was the telephone invented? — I think it was invented in 1876.）·页码待复核"
      }
     },
     {
@@ -20438,7 +20438,7 @@
      "solution": "my camera 提前作主语，单数配 was，steal 的过去分词是 stolen；执行者 somebody 泛指，省略。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P44·主动句改被动句（They sold the fridge at a low price. → The fridge was sold at a low price.；Somebody stole my camera from my hotel room.）"
+      "label": "人教新目标九全 P44·主动句改被动句（They sold the fridge at a low price. → The fridge was sold at a low price.；Somebody stole my camera from my hotel room.）·页码待复核"
      }
     },
     {
@@ -20454,7 +20454,7 @@
      "solution": "茶是被喝的，用过去被动 was first drunk；drink 的过去分词是 drunk。原句出自茶的语篇配套填空。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P43·动词正确形式填空（Tea was first (drink) by Shen Nong about 5,000 years ago.）变式（过去被动选词）"
+      "label": "人教新目标九全 P43·动词正确形式填空（Tea was first (drink) by Shen Nong about 5,000 years ago.）变式（过去被动选词）·页码待复核"
      }
     },
     {
@@ -20525,12 +20525,12 @@
     "表态没理由：I agree / I disagree 后面最好补一句原因（They aren't serious enough.），光摇头不说话说服不了人。"
    ],
    "source": {
-    "unit": "Unit 7 Teenagers should be allowed to choose their own clothes.",
+    "unit": "Unit 8·More than a Game",
     "pages": [
-     49,
-     56
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20546,7 +20546,7 @@
      "solution": "sixteen-year-olds 是「被允许」的对象，should 后接 be allowed to do；对话原句：I don't think sixteen-year-olds should be allowed to drive.",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P49·观点讨论句（Teenagers should be allowed to choose their own clothes.；I don't think sixteen-year-olds should be allowed to drive.）"
+      "label": "人教新目标九全 P49·观点讨论句（Teenagers should be allowed to choose their own clothes.；I don't think sixteen-year-olds should be allowed to drive.）·页码待复核"
      }
     },
     {
@@ -20556,7 +20556,7 @@
      "solution": "下句 They can learn a lot from working. 是反驳理由，所以填 I disagree.；原问答：Teenagers should not be allowed to have part-time jobs. — I disagree.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P52·语法聚焦表态问答（Teenagers should not be allowed to have part-time jobs. — I disagree. They can learn a lot from working.）"
+      "label": "人教新目标九全 P52·语法聚焦表态问答（Teenagers should not be allowed to have part-time jobs. — I disagree. They can learn a lot from working.）·页码待复核"
      }
     },
     {
@@ -20572,7 +20572,7 @@
      "solution": "must 后接 not be allowed to do——否定词紧跟情态动词：must not be allowed to smoke；原题为动词填空：Teenagers under eighteen must (not allow) to smoke or drink.",
      "difficulty": 3,
      "source": {
-      "label": "人教新目标九全 P56·动词正确形式填空（Teenagers under eighteen must (not allow) to smoke or drink.）变式（情态被动否定选词）"
+      "label": "人教新目标九全 P56·动词正确形式填空（Teenagers under eighteen must (not allow) to smoke or drink.）变式（情态被动否定选词）·页码待复核"
      }
     },
     {
@@ -20643,12 +20643,12 @@
     "不看线索就下结论：must 的底气来自爱好、习惯这类硬线索，线索不足就退回 might/could。"
    ],
    "source": {
-    "unit": "Unit 8 It must belong to Carla.",
+    "unit": "Unit 6·Beyond Earth",
     "pages": [
-     57,
-     64
+     51,
+     60
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20664,7 +20664,7 @@
      "solution": "「肯定是 Carla 的」用 must be+名词所有格 Carla's；线索句 She loves volleyball. 是把握的来源。原对话：Whose volleyball is this? — It must be Carla's.",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P57·野餐物主对话（Whose volleyball is this? — It must be Carla's. She loves volleyball.）"
+      "label": "人教新目标九全 P57·野餐物主对话（Whose volleyball is this? — It must be Carla's. She loves volleyball.）·页码待复核"
      }
     },
     {
@@ -20674,7 +20674,7 @@
      "solution": "第一空把握不大，用 could（可能是在跑步锻炼）；第二空根据穿西装的线索猜测，用 might（可能是赶车上班）。原对话：He could be running for exercise. / He might be running to catch a bus to work.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P61·猜测跑步原因对话（He could be running for exercise. He might be running to catch a bus to work.）"
+      "label": "人教新目标九全 P61·猜测跑步原因对话（He could be running for exercise. He might be running to catch a bus to work.）·页码待复核"
      }
     },
     {
@@ -20690,7 +20690,7 @@
      "solution": "后半句 there's no such thing（根本没有这种东西）线索明确排除，用 can't；原题为 can't 填空：That bright light can't be a UFO.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P64·must/might/can't 选词填空（That bright light (can't) be a UFO — there's no such thing!）变式（选择形式）"
+      "label": "人教新目标九全 P64·must/might/can't 选词填空（That bright light (can't) be a UFO — there's no such thing!）变式（选择形式）·页码待复核"
      }
     },
     {
@@ -20760,12 +20760,12 @@
     "从句甩错位置——关系词和从句要紧跟先行词，别把修饰 music 的从句丢到句子最末尾。"
    ],
    "source": {
-    "unit": "Unit 9 I like music that I can dance to.",
+    "unit": "Unit 7·Feel the Rhythm",
     "pages": [
-     65,
-     72
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20781,7 +20781,7 @@
      "solution": "课上一问一答原句：A: What kind of music do you like? B: I like music that I can sing along with. What about you? 先行词 music 是物，关系词用 that；who 只用于指人。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P65·喜好问答与示例句（What kind of music do you like? I like music that I can dance to. I prefer music that has great lyrics.）"
+      "label": "人教新目标九全 P65·喜好问答与示例句（What kind of music do you like? I like music that I can dance to. I prefer music that has great lyrics.）·页码待复核"
      }
     },
     {
@@ -20797,7 +20797,7 @@
      "solution": "先行词 actor 指人，用 who。自测原句正是 The actor who plays the hero used to be a schoolteacher! 同组还有 movies that try to describe the future——物用 that。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P72·自测 who/that/which 填空（The actor who plays the hero used to be a schoolteacher!）"
+      "label": "人教新目标九全 P72·自测 who/that/which 填空（The actor who plays the hero used to be a schoolteacher!）·页码待复核"
      }
     },
     {
@@ -20813,7 +20813,7 @@
      "solution": "原句：Carmen likes musicians who play different kinds of music. 先行词指人用 who；从句动词随先行词 musicians 用复数 play；主语 Carmen 是第三人称单数，主句用 likes。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P66·听力完成句（I like musicians who… / I prefer groups that play quiet and slow songs.）变式（人 who 物 that 与主谓一致正误判断）"
+      "label": "人教新目标九全 P66·听力完成句（I like musicians who… / I prefer groups that play quiet and slow songs.）变式（人 who 物 that 与主谓一致正误判断）·页码待复核"
      }
     },
     {
@@ -20884,12 +20884,12 @@
     "把 be supposed to 理解成\"可能、大概\"——它表示按礼仪或约定\"应该\"；各国习俗不同，看清场景再作答。"
    ],
    "source": {
-    "unit": "Unit 10 You're supposed to shake hands.",
+    "unit": "Unit 5·Power of Ideas",
     "pages": [
-     73,
-     80
+     41,
+     50
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -20905,7 +20905,7 @@
      "solution": "问答原句：B: They're supposed to bow. How about in the United States? A: In the United States, they're expected to shake hands. be supposed to 后接动词原形 bow。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P73·见面礼仪问答（What are people in Korea supposed to do when they meet for the first time? They're supposed to bow.）"
+      "label": "人教新目标九全 P73·见面礼仪问答（What are people in Korea supposed to do when they meet for the first time? They're supposed to bow.）·页码待复核"
      }
     },
     {
@@ -20921,7 +20921,7 @@
      "solution": "语法聚焦原句：Am I supposed to wear jeans? —No, you're expected to wear a suit and tie. be expected to 与 be supposed to 一样表\"应该\"，后接动词原形。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P76·语法聚焦（Am I supposed to wear jeans? No, you're expected to wear a suit and tie.）"
+      "label": "人教新目标九全 P76·语法聚焦（Am I supposed to wear jeans? No, you're expected to wear a suit and tie.）·页码待复核"
      }
     },
     {
@@ -20937,7 +20937,7 @@
      "solution": "书信原句：You're not supposed to put your bread on your plate. You're supposed to put it on the table!——面包放桌上不放盘里；手拿食物只限面包，手肘不上桌。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P78·法国餐桌礼仪书信（You're not supposed to put your bread on your plate. You're supposed to put it on the table!）变式（国家与礼仪配对）"
+      "label": "人教新目标九全 P78·法国餐桌礼仪书信（You're not supposed to put your bread on your plate. You're supposed to put it on the table!）变式（国家与礼仪配对）·页码待复核"
      }
     },
     {
@@ -21008,12 +21008,12 @@
     "误：I'd rather to stay at home.——would rather 后接动词原形：I'd rather stay at home.（书上原句 I'd rather go to Blue Ocean.）"
    ],
    "source": {
-    "unit": "Unit 11 Sad movies make me cry.",
+    "unit": "Unit 7·Feel the Rhythm",
     "pages": [
-     81,
-     88
+     61,
+     70
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21029,7 +21029,7 @@
      "solution": "主题句 Sad movies make me cry. 是标准结构：make+宾语+动词原形，中间不加 to；主语 movies 是复数，用 make 不用 makes。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P81·主题句与选餐馆对话（Sad movies make me cry. But that music makes me sleepy.）"
+      "label": "人教新目标九全 P81·主题句与选餐馆对话（Sad movies make me cry. But that music makes me sleepy.）·页码待复核"
      }
     },
     {
@@ -21045,7 +21045,7 @@
      "solution": "语法聚焦原句 Soft and quiet music makes me relax. 中 relax 是动词原形——make sb do 省 to；music 三单，用 makes。对照另一句 The loud music makes me nervous.（形容词说状态）。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P84·语法聚焦（The loud music makes me nervous. Soft and quiet music makes me relax.）"
+      "label": "人教新目标九全 P84·语法聚焦（The loud music makes me nervous. Soft and quiet music makes me relax.）·页码待复核"
      }
     },
     {
@@ -21061,7 +21061,7 @@
      "solution": "问答原句：When people throw rubbish on the streets, it makes me angry. / It makes me want to tell them to clean up the streets. 说状态用形容词 angry，说动作 want 用动词原形，want to do 再接 to。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P84·情绪调查问答（What makes you angry? When people throw rubbish on the streets, it makes me angry.）变式（make sb do 正误判断）"
+      "label": "人教新目标九全 P84·情绪调查问答（What makes you angry? When people throw rubbish on the streets, it makes me angry.）变式（make sb do 正误判断）·页码待复核"
      }
     },
     {
@@ -21132,12 +21132,12 @@
     "误：When I got home, I realized I left my keys in the backpack.——强调\"落钥匙\"发生在\"到家\"之前，用 had left 更准：I realized I had left my keys in the backpack."
    ],
    "source": {
-    "unit": "Unit 12 Life is full of the unexpected.",
+    "unit": "Unit 2·Inspiring People",
     "pages": [
-     89,
-     96
+     11,
+     20
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21153,7 +21153,7 @@
      "solution": "问答原句：I overslept. By the time I got up, my brother had already gotten in the shower. \"起床\"是过去，\"进浴室\"在起床之前——过去的过去用 had+过去分词。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P89·玛丽早晨问答（I overslept. By the time I got up, my brother had already gotten in the shower.）"
+      "label": "人教新目标九全 P89·玛丽早晨问答（I overslept. By the time I got up, my brother had already gotten in the shower.）·页码待复核"
      }
     },
     {
@@ -21169,7 +21169,7 @@
      "solution": "书上动词填空原句：When I got home, I realized I had left my keys in the backpack. \"落钥匙\"发生在\"到家\"之前：先发生的用 had done，后发生的用 got。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P90·动词填空（When I got home, I realized I had left my keys in the backpack.）"
+      "label": "人教新目标九全 P90·动词填空（When I got home, I realized I had left my keys in the backpack.）·页码待复核"
      }
     },
     {
@@ -21185,7 +21185,7 @@
      "solution": "书上连句公式：Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom. 同理：put cream 后发生用过去时，become cold 先发生用 had become；倒装时序就错在把 had done 放进了从句。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P92·用 by the time 连句（Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom.）变式（咖啡变凉时序连句）"
+      "label": "人教新目标九全 P92·用 by the time 连句（Tim went into the bathroom. Mary got up. → By the time Mary got up, Tim had already gone into the bathroom.）变式（咖啡变凉时序连句）·页码待复核"
      }
     },
     {
@@ -21255,12 +21255,12 @@
     "看到 are caught and traded 就去找'谁抓的'——被动句的动作执行者常被省略，先抓'谁被怎样'。"
    ],
    "source": {
-    "unit": "Unit 13 We're trying to save the manatees!",
+    "unit": "Unit 1·The Changing World",
     "pages": [
-     97,
-     104
+     1,
+     10
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21276,7 +21276,7 @@
      "solution": "书上污染分类：loud music（嘈杂的音乐）归入 noise pollution；cars、smoking 归入 air pollution；rubbish、littering 等归入水或土地污染一类。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P97·污染类型分类（noise pollution / air pollution / water pollution：loud music, cars, rubbish, factories…）"
+      "label": "人教新目标九全 P97·污染类型分类（noise pollution / air pollution / water pollution：loud music, cars, rubbish, factories…）·页码待复核"
      }
     },
     {
@@ -21292,7 +21292,7 @@
      "solution": "原句：to cut down air pollution, we should take the bus or subway instead of driving. instead of 是介词短语，后面接 V-ing 形式。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P98·对策对话（to cut down air pollution, we should take the bus or subway instead of driving）"
+      "label": "人教新目标九全 P98·对策对话（to cut down air pollution, we should take the bus or subway instead of driving）·页码待复核"
      }
     },
     {
@@ -21308,7 +21308,7 @@
      "solution": "河流是被污染的对象，用被动语态 is polluted；施害一方 factories 才用 are putting。对照书上自测原句 The river is polluted by factories.",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P104·语法结构匹配（The river is polluted by factories.）变式（施害句改被动语态）"
+      "label": "人教新目标九全 P104·语法结构匹配（The river is polluted by factories.）变式（施害句改被动语态）·页码待复核"
      }
     },
     {
@@ -21377,12 +21377,12 @@
     "通篇只喊 Thank you everyone——挑一件小事（winning a prize / a friend helping me with a problem）才有画面。"
    ],
    "source": {
-    "unit": "Unit 14 I remember meeting all of you in Grade 7.",
+    "unit": "Unit 4·Our Memory",
     "pages": [
-     105,
-     112
+     31,
+     40
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21398,7 +21398,7 @@
      "solution": "原诗开头四行：Looking back at these past three years / I remember many things / Trying to be on time for morning readings / Running when the lunch bell rings——先总起'回望三年'，再落到晨读和午饭铃两件小事。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P107·诗歌 I Remember（Looking back at these past three years…）"
+      "label": "人教新目标九全 P107·诗歌 I Remember（Looking back at these past three years…）·页码待复核"
      }
     },
     {
@@ -21414,7 +21414,7 @@
      "solution": "演讲先致谢来宾再祝贺学生：Ladies and gentlemen, thank you for coming today to attend the graduation ceremony... 接着 I'd like to congratulate all the students who are here today.",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P110·毕业典礼演讲（Ladies and gentlemen, thank you for coming today to attend the graduation ceremony…）"
+      "label": "人教新目标九全 P110·毕业典礼演讲（Ladies and gentlemen, thank you for coming today to attend the graduation ceremony…）·页码待复核"
      }
     },
     {
@@ -21430,7 +21430,7 @@
      "solution": "回忆已发生的事用 remember+V-ing。B 把回忆错用成 to meet；C 今晚还没打电话，该用 Remember to call；D 刚才出门的检查动作该用 Did you remember to lock。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P105·回忆清单（I remember meeting all of you in Grade 7；winning a prize, being a volunteer…）变式（remember doing 与 remember to do 正误辨析）"
+      "label": "人教新目标九全 P105·回忆清单（I remember meeting all of you in Grade 7；winning a prize, being a volunteer…）变式（remember doing 与 remember to do 正误辨析）·页码待复核"
      }
     },
     {
@@ -21499,12 +21499,12 @@
     "作者意图题选成段落大意——先问'作者写这段想让读者知道什么、做什么'。"
    ],
    "source": {
-    "unit": "各单元阅读与中考题型",
+    "unit": "Unit 3·Smart Learning",
     "pages": [
-     1,
-     112
+     21,
+     30
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21520,7 +21520,7 @@
      "solution": "原句：I discovered that listening to something interesting is the secret to language learning.——细节题，答案句可以直接定位。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P3·语篇 How I Learned to Learn English（I discovered that listening to something interesting is the secret to language learning.）"
+      "label": "人教新目标九全 P3·语篇 How I Learned to Learn English（I discovered that listening to something interesting is the secret to language learning.）·页码待复核"
      }
     },
     {
@@ -21536,7 +21536,7 @@
      "solution": "原句：Hanging out with friends is almost impossible for me now because there are always guards around me.——因为身边总有保镖跟着。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P27·语篇 From Shy Girl to Pop Star（Hanging out with friends is almost impossible…because there are always guards around me.）"
+      "label": "人教新目标九全 P27·语篇 From Shy Girl to Pop Star（Hanging out with friends is almost impossible…because there are always guards around me.）·页码待复核"
      }
     },
     {
@@ -21552,7 +21552,7 @@
      "solution": "infer（推断）是推理判断题的标志词——要依据段落线索往外推，而不是抄原句或猜单词。同类问法还有 What can we learn from the passage?",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P3·阅读设问变式（What can we learn/infer from the passage? 属推理判断类问法）"
+      "label": "人教新目标九全 P3·阅读设问变式（What can we learn/infer from the passage? 属推理判断类问法）·页码待复核"
      }
     },
     {
@@ -21623,12 +21623,12 @@
     "used to 后面又接 to do：used to be short 里 used to 直接加原形。"
    ],
    "source": {
-    "unit": "全册与总复习",
+    "unit": "Unit 8·More than a Game",
     "pages": [
-     1,
-     140
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21644,7 +21644,7 @@
      "solution": "should 是情态动词，句子归入 Modal verbs——书上自测把五个句子与五种语法结构配对，这句配情态动词。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P104·语法结构匹配自测（People should take public transportation more.）"
+      "label": "人教新目标九全 P104·语法结构匹配自测（People should take public transportation more.）·页码待复核"
      }
     },
     {
@@ -21660,7 +21660,7 @@
      "solution": "is polluted 是 be+过去分词，归被动语态；is getting 是 be+V-ing，归现在进行时——两句都是书上自测连线的原句。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P104·语法结构匹配自测（The river is polluted by factories. / The air pollution is getting worse and worse.）"
+      "label": "人教新目标九全 P104·语法结构匹配自测（The river is polluted by factories. / The air pollution is getting worse and worse.）·页码待复核"
      }
     },
     {
@@ -21676,7 +21676,7 @@
      "solution": "形容词加 ly 变副词：slow—slowly、wide—widely；B 组是动词变名词，C 组是名词变形容词，D 组是形容词变名词。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P104·词形变换自测（slow—slowly, wide—widely, sudden—suddenly, real—really…）变式（按词形归类）"
+      "label": "人教新目标九全 P104·词形变换自测（slow—slowly, wide—widely, sudden—suddenly, real—really…）变式（按词形归类）·页码待复核"
      }
     },
     {
@@ -21747,12 +21747,12 @@
     "全文连接词只有 and——besides / however / because 各就各位，作文立刻有层次。"
    ],
    "source": {
-    "unit": "中考总复习·写作自查（Self Check 升格）",
+    "unit": "Unit 8·More than a Game",
     "pages": [
-     1,
-     140
+     71,
+     101
     ],
-    "alignedAt": "2026-10-29"
+    "alignedAt": "2026-11-08"
    },
    "exercises": [
     {
@@ -21768,7 +21768,7 @@
      "solution": "主语是 I，'仍然记得'说现在的状态，用一般现在时 remember；like it was yesterday 是'仿佛昨天'的比喻，不是真昨天。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P112·动词填空自测（I still remember the first day of Grade 7 like it was yesterday.）"
+      "label": "人教新目标九全 P112·动词填空自测（I still remember the first day of Grade 7 like it was yesterday.）·页码待复核"
      }
     },
     {
@@ -21784,7 +21784,7 @@
      "solution": "建议信先摆问题再给办法：I think that... / We should/could... / I suggest... 正是书上给出的建议句型组合。",
      "difficulty": 1,
      "source": {
-      "label": "人教新目标九全 P104·给市长的建议信（I think that... We should/could... I suggest...）"
+      "label": "人教新目标九全 P104·给市长的建议信（I think that... We should/could... I suggest...）·页码待复核"
      }
     },
     {
@@ -21800,7 +21800,7 @@
      "solution": "B 主谓不一致（She have）且 friend 漏了复数；C 时态错——since 从句该用过去式 came；D 拼写错——make 的过去分词是 made。三查就是把这些硬伤拦在交卷前。",
      "difficulty": 2,
      "source": {
-      "label": "人教新目标九全 P112·动词填空自测（Since then, I have made so many good friends…）变式（时态/主谓/拼写三查）"
+      "label": "人教新目标九全 P112·动词填空自测（Since then, I have made so many good friends…）变式（时态/主谓/拼写三查）·页码待复核"
      }
     },
     {

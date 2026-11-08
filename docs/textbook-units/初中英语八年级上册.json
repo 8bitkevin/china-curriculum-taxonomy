@@ -1,0 +1,111 @@
+{
+ "schemaVersion": 1,
+ "volume": "初中英语八年级上册",
+ "pdf": {
+  "file": "初中英语八年级上册.pdf",
+  "sha256": "1641a9b604f33018f20568717a894504384b74558ac70f1121d883312c08e2d2",
+  "pages": 150,
+  "hasTextLayer": true
+ },
+ "source": "manual",
+ "extractedAt": "2026-11-08",
+ "note": "新版英语双栏乱序目录以 TOC p.N 锚点+开篇页大字标题+页脚偏移校准手工整编（T-1 版式专项）",
+ "units": [
+  {
+   "index": 1,
+   "title": "Happy Holiday",
+   "page": 1,
+   "sections": [
+    {
+     "no": "1",
+     "title": "Happy Holiday",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "title": "Home Sweet Home",
+   "page": 11,
+   "sections": [
+    {
+     "no": "2",
+     "title": "Home Sweet Home",
+     "page": 11
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "title": "Same or Different?",
+   "page": 21,
+   "sections": [
+    {
+     "no": "3",
+     "title": "Same or Different?",
+     "page": 21
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "title": "Amazing Plants and Animals",
+   "page": 31,
+   "sections": [
+    {
+     "no": "4",
+     "title": "Amazing Plants and Animals",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "title": "What a Delicious Meal!",
+   "page": 41,
+   "sections": [
+    {
+     "no": "5",
+     "title": "What a Delicious Meal!",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "title": "Plan for Yourself",
+   "page": 51,
+   "sections": [
+    {
+     "no": "6",
+     "title": "Plan for Yourself",
+     "page": 51
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "title": "When Tomorrow Comes",
+   "page": 61,
+   "sections": [
+    {
+     "no": "7",
+     "title": "When Tomorrow Comes",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "title": "Let’s Communicate!",
+   "page": 71,
+   "sections": [
+    {
+     "no": "8",
+     "title": "Let’s Communicate!",
+     "page": 71
+    }
+   ]
+  }
+ ]
+}

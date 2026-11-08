@@ -1,0 +1,111 @@
+{
+ "schemaVersion": 1,
+ "volume": "初中英语七年级下册",
+ "pdf": {
+  "file": "初中英语七年级下册.pdf",
+  "sha256": "bb87af5fe00ceb8ddd6d9b292701cad9327ebeffe96b49971731765b93d11f84",
+  "pages": 130,
+  "hasTextLayer": true
+ },
+ "source": "manual",
+ "extractedAt": "2026-11-08",
+ "note": "新版英语双栏乱序目录以 TOC p.N 锚点+开篇页大字标题+页脚偏移校准手工整编（T-1 版式专项）",
+ "units": [
+  {
+   "index": 1,
+   "title": "Animal Friends",
+   "page": 1,
+   "sections": [
+    {
+     "no": "1",
+     "title": "Animal Friends",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "title": "No Rules, No Order",
+   "page": 9,
+   "sections": [
+    {
+     "no": "2",
+     "title": "No Rules, No Order",
+     "page": 9
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "title": "Keep Fit",
+   "page": 17,
+   "sections": [
+    {
+     "no": "3",
+     "title": "Keep Fit",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "title": "Eat Well",
+   "page": 25,
+   "sections": [
+    {
+     "no": "4",
+     "title": "Eat Well",
+     "page": 25
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "title": "Here and Now",
+   "page": 33,
+   "sections": [
+    {
+     "no": "5",
+     "title": "Here and Now",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "title": "Rain or Shine",
+   "page": 41,
+   "sections": [
+    {
+     "no": "6",
+     "title": "Rain or Shine",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "title": "A Day to Remember",
+   "page": 49,
+   "sections": [
+    {
+     "no": "7",
+     "title": "A Day to Remember",
+     "page": 49
+    }
+   ]
+  },
+  {
+   "index": 8,
+   "title": "Once upon a Time",
+   "page": 57,
+   "sections": [
+    {
+     "no": "8",
+     "title": "Once upon a Time",
+     "page": 57
+    }
+   ]
+  }
+ ]
+}

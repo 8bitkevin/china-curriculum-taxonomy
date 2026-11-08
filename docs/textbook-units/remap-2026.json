@@ -12,7 +12,11 @@
   "batch4Scope": "初中理科 9 册 132 点（物理3+化学2+生物4；化学九下已在版）",
   "batch4Date": "2026-11-08",
   "batch5Scope": "初中文综 15 册 57 点（历史5+地理4+道法小学7；历史九下/道法四五六下待 T-3）",
-  "batch5Date": "2026-11-08"
+  "batch5Date": "2026-11-08",
+  "batch6Scope": "初中英语 5 册 76 点（含九上拆册 17 点；九下未上线，旧全一册语法点主题对位待 T-3 复核）",
+  "batch6Date": "2026-11-08",
+  "batch7Scope": "补缺批次：初中语文 5 册 101 点 + 初中道法 5 册 10 点 + 数学八上 25 点 = 11 册 136 点（批次表原漏排初中语文/道法；数学八上 B-NE1 时未到货）",
+  "batch7Date": "2026-11-08"
  },
  "数学一年级上册": {
   "editionYear": 2024,
@@ -1437,6 +1441,619 @@
   "units": {
    "宪法单元": 1,
    "公民单元": 2
+  }
+ },
+ "初中英语七年级上册": {
+  "editionYear": 2024,
+  "note": "2024版七上=3过渡单元(Hello!/Keep Tidy!/Welcome!)+7正式单元(You and Me/We're Family!/My School/My Favourite Subject/Fun Clubs/A Day in the Life/Happy Birthday!)；How much 实证 U7、可数计数实证 U3、have 实证 U3、like 散布 U3-U10",
+  "units": {
+   "Starter Units 1-3 与语音学习": "Starter Unit 1 Hello!",
+   "Starter Unit 1": "Starter Unit 1 Hello!",
+   "Unit 1 My name's Gina.": "Unit 1·You and Me",
+   "Unit 2 Is this your pencil?": "Unit 2·We're Family!",
+   "Unit 3 This is my sister.": "Unit 2·We're Family!",
+   "Unit 5 Do you have a soccer ball?": "Unit 3·My School",
+   "Unit 6 Do you like bananas?": "Unit 3·My School",
+   "Unit 7 How much are these socks?": "Unit 7·Happy Birthday!",
+   "Unit 8 When is your birthday?": "Unit 7·Happy Birthday!",
+   "Unit 9 My favorite subject is science.": "Unit 4·My Favourite Subject",
+   "各单元听力训练": "Unit 1·You and Me",
+   "各单元阅读板块": "Unit 1·You and Me",
+   "写作板块（Self-introduction）": "Unit 1·You and Me",
+   "全册": "Unit 7·Happy Birthday!"
+  },
+  "topics": {
+   "ct_yy_g7a_01": {
+    "unit": "Starter Unit 1 Hello!",
+    "note": "语音板块各单元分布，入门锚 Starter 1"
+   },
+   "ct_yy_g7a_04": {
+    "unit": "Unit 2·We're Family!",
+    "note": "物主代词随家庭语境（his 实证 U2 起）"
+   },
+   "ct_yy_g7a_05": {
+    "unit": "Unit 2·We're Family!",
+    "note": "指示代词与家人介绍实证 U2"
+   },
+   "ct_yy_g7a_07": {
+    "unit": "Unit 3·My School",
+    "note": "可数与复数概念随计数语境（How many 实证 U3）"
+   },
+   "ct_yy_g7a_08": {
+    "unit": "Unit 5·Fun Clubs",
+    "note": "like 三单随社团喜好语境（like 实证散布）"
+   },
+   "ct_yy_g7a_09": {
+    "unit": "Unit 7·Happy Birthday!",
+    "note": "How much 购物实证新版 U7"
+   },
+   "ct_yy_g7a_12": {
+    "unit": "Unit 1·You and Me",
+    "note": "听力策略通用点就近锚定"
+   },
+   "ct_yy_g7a_13": {
+    "unit": "Unit 1·You and Me",
+    "note": "应用文阅读通用点就近锚定"
+   }
+  }
+ },
+ "初中英语七年级下册": {
+  "editionYear": 2024,
+  "note": "2024版七下 8 单元：Animal Friends/No Rules No Order/Keep Fit/Eat Well/Here and Now/Rain or Shine/A Day to Remember/Once upon a Time；规则/进行时/天气/点餐/过去时主题对位，there be 实证 U1、频度实证 U3、How far 已删",
+  "units": {
+   "Unit 1 Can you play the guitar?": "Unit 1·Animal Friends",
+   "Unit 2 What time do you go to school?": "Unit 3·Keep Fit",
+   "Unit 3 How do you get to school?": "Unit 7·A Day to Remember",
+   "Unit 4 Don't eat in class.": "Unit 2·No Rules, No Order",
+   "Unit 6 I'm watching TV.": "Unit 5·Here and Now",
+   "Unit 7 It's raining!": "Unit 6·Rain or Shine",
+   "Unit 8 Is there a post office near here?": "Unit 1·Animal Friends",
+   "Unit 9 What does he look like?": "Unit 1·Animal Friends",
+   "Unit 10 I'd like some noodles.": "Unit 4·Eat Well",
+   "Unit 11 How was your school trip?": "Unit 7·A Day to Remember",
+   "Unit 12 What did you do last weekend?": "Unit 7·A Day to Remember",
+   "Unit 12 写作板块": "Unit 7·A Day to Remember",
+   "综合听说训练": "Unit 1·Animal Friends",
+   "各单元阅读板块": "Unit 1·Animal Friends",
+   "全册": "Unit 8·Once upon a Time"
+  },
+  "topics": {
+   "ct_yy_g7b_02": {
+    "unit": "Unit 3·Keep Fit",
+    "note": "频度副词随健康习惯语境（always 实证 U2/U3）"
+   },
+   "ct_yy_g7b_03": {
+    "unit": "Unit 7·A Day to Remember",
+    "note": "How far/How long 新版已删，随出行叙事就近锚定"
+   },
+   "ct_yy_g7b_07": {
+    "unit": "Unit 1·Animal Friends",
+    "note": "there be 实证 U1；街区指路新版弱化"
+   },
+   "ct_yy_g7b_08": {
+    "unit": "Unit 1·Animal Friends",
+    "note": "外貌描述随动物描述语境（look like 实证 U1）"
+   },
+   "ct_yy_g7b_13": {
+    "unit": "Unit 1·Animal Friends",
+    "note": "听说综合通用点就近锚定"
+   }
+  }
+ },
+ "初中英语八年级上册": {
+  "editionYear": 2025,
+  "note": "2025版八上 8 单元：Happy Holiday/Home Sweet Home/Same or Different?/Amazing Plants and Animals/What a Delicious Meal!/Plan for Yourself/When Tomorrow Comes/Let's Communicate!；比较级/未来/流程/观点主题对位，how often 实证 U2、最高级实证 U4",
+  "units": {
+   "Unit 1 Where did you go on vacation?": "Unit 1·Happy Holiday",
+   "Unit 2 How often do you exercise?": "Unit 2·Home Sweet Home",
+   "Unit 3 I'm more outgoing than my sister.": "Unit 3·Same or Different?",
+   "Unit 4 What's the best movie theater?": "Unit 4·Amazing Plants and Animals",
+   "Unit 5 Do you want to watch a game show?": "Unit 8·Let's Communicate!",
+   "Unit 6 I'm going to study computer science.": "Unit 6·Plan for Yourself",
+   "Unit 7 Will people have robots?": "Unit 7·When Tomorrow Comes",
+   "Unit 8 How do you make a banana milk shake?": "Unit 5·What a Delicious Meal!",
+   "Unit 9 Can you come to my party?": "Unit 8·Let's Communicate!",
+   "Unit 10 If you go to the party, you'll have a great time!": "Unit 7·When Tomorrow Comes",
+   "Unit 10 综合与建议表达": "Unit 8·Let's Communicate!",
+   "各单元阅读板块": "Unit 1·Happy Holiday",
+   "Unit 3 写作板块": "Unit 3·Same or Different?",
+   "Unit 7 听说板块": "Unit 7·When Tomorrow Comes",
+   "全册": "Unit 8·Let's Communicate!"
+  },
+  "topics": {
+   "ct_yy_g8a_02": {
+    "unit": "Unit 2·Home Sweet Home",
+    "note": "How often 实证新版 U2（家务频率）"
+   },
+   "ct_yy_g8a_04": {
+    "unit": "Unit 4·Amazing Plants and Animals",
+    "note": "最高级随自然之最语境（the best 实证 U4）"
+   },
+   "ct_yy_g8a_05": {
+    "unit": "Unit 8·Let's Communicate!",
+    "note": "观点表达随交际主题（think of 散布）"
+   },
+   "ct_yy_g8a_09": {
+    "unit": "Unit 8·Let's Communicate!",
+    "note": "邀请句型实证散布 U4/U7/U8，交际主题锚 U8"
+   },
+   "ct_yy_g8a_10": {
+    "unit": "Unit 7·When Tomorrow Comes",
+    "note": "if 条件随未来规划语境"
+   },
+   "ct_yy_g8a_11": {
+    "unit": "Unit 8·Let's Communicate!",
+    "note": "建议句式随交际主题"
+   }
+  }
+ },
+ "初中英语八年级下册": {
+  "editionYear": 2025,
+  "note": "2025版八下 8 单元：Time to Relax/Stay Healthy/Growing Up/The Wonders of Nature/Nature's Temper/Crossing Cultures/A Good Read/Making a Difference；健康/成长/自然之最/风暴/阅读/志愿主题对位，the highest 实证 U4、完成时实证 U7/U8、Yu Gong 语篇已删",
+  "units": {
+   "Unit 1 What's the matter?": "Unit 2·Stay Healthy",
+   "Unit 2 I'll help to clean up the city parks.": "Unit 8·Making a Difference",
+   "Unit 3 Could you please clean your room?": "Unit 1·Time to Relax",
+   "Unit 4 Why don't you talk to your parents?": "Unit 3·Growing Up",
+   "Unit 5 What were you doing when the rainstorm came?": "Unit 5·Nature's Temper",
+   "Unit 6 An old man tried to move the mountains.": "Unit 6·Crossing Cultures",
+   "Unit 7 What's the highest mountain in the world?": "Unit 4·The Wonders of Nature",
+   "Unit 8 Have you read Treasure Island yet?": "Unit 7·A Good Read",
+   "Unit 9 Have you ever been to a museum?": "Unit 8·Making a Difference",
+   "Unit 10 I've had this bike for three years.": "Unit 8·Making a Difference",
+   "Unit 8 阅读板块": "Unit 7·A Good Read",
+   "Unit 2 写作板块": "Unit 8·Making a Difference",
+   "Unit 5 听说板块": "Unit 5·Nature's Temper",
+   "全册": "Unit 8·Making a Difference"
+  },
+  "topics": {
+   "ct_yy_g8b_03": {
+    "unit": "Unit 1·Time to Relax",
+    "note": "家务与请求句型就近锚定（chore 实证散布异常）"
+   },
+   "ct_yy_g8b_06": {
+    "unit": "Unit 6·Crossing Cultures",
+    "note": "Yu Gong 具体语篇新版已删，讲中国故事随跨文化主题"
+   },
+   "ct_yy_g8b_07": {
+    "unit": "Unit 4·The Wonders of Nature",
+    "note": "地理之最随自然奇观（the highest 实证 U4）"
+   },
+   "ct_yy_g8b_09": {
+    "unit": "Unit 8·Making a Difference",
+    "note": "完成时经历实证 U7/U8，经历叙事锚 U8"
+   },
+   "ct_yy_g8b_10": {
+    "unit": "Unit 8·Making a Difference",
+    "note": "完成时延续同上"
+   }
+  }
+ },
+ "初中英语九年级上册": {
+  "editionYear": 2026,
+  "note": "2026版九上拆册（8 单元主题制：The Changing World/Inspiring People/Smart Learning/Our Memory/Power of Ideas/Beyond Earth/Feel the Rhythm/More than a Game）；旧全一册语法点按主题对位锚定，九下未上线待 T-3 复核",
+  "units": {
+   "Unit 1 How can we become good learners?": "Unit 3·Smart Learning",
+   "Unit 2 I think that mooncakes are delicious!": "Unit 2·Inspiring People",
+   "Unit 3 Could you please tell me where the restrooms are?": "Unit 3·Smart Learning",
+   "Unit 4 I used to be afraid of the dark.": "Unit 4·Our Memory",
+   "Unit 5 What are the shirts made of?": "Unit 5·Power of Ideas",
+   "Unit 6 When was it invented?": "Unit 5·Power of Ideas",
+   "Unit 7 Teenagers should be allowed to choose their own clothes.": "Unit 8·More than a Game",
+   "Unit 8 It must belong to Carla.": "Unit 6·Beyond Earth",
+   "Unit 9 I like music that I can dance to.": "Unit 7·Feel the Rhythm",
+   "Unit 10 You're supposed to shake hands.": "Unit 5·Power of Ideas",
+   "Unit 11 Sad movies make me cry.": "Unit 7·Feel the Rhythm",
+   "Unit 12 Life is full of the unexpected.": "Unit 2·Inspiring People",
+   "Unit 13 We're trying to save the manatees!": "Unit 1·The Changing World",
+   "Unit 14 I remember meeting all of you in Grade 7.": "Unit 4·Our Memory",
+   "各单元阅读与中考题型": "Unit 3·Smart Learning",
+   "全册与总复习": "Unit 8·More than a Game",
+   "中考总复习·写作自查（Self Check 升格）": "Unit 8·More than a Game"
+  },
+  "topics": {
+   "ct_yy_g9a_01": {
+    "unit": "Unit 3·Smart Learning",
+    "note": "by+V-ing 方法实证 U3"
+   },
+   "ct_yy_g9a_04": {
+    "unit": "Unit 4·Our Memory",
+    "note": "used to 今昔对比随回忆主题"
+   },
+   "ct_yy_g9a_05": {
+    "unit": "Unit 5·Power of Ideas",
+    "note": "被动语态实证 U5（is made）"
+   },
+   "ct_yy_g9a_06": {
+    "unit": "Unit 5·Power of Ideas",
+    "note": "被动语态过去时同锚发明创造单元"
+   },
+   "ct_yy_g9a_07": {
+    "unit": "Unit 8·More than a Game",
+    "note": "情态被动随规则语境（must be 实证 U6/U8）"
+   },
+   "ct_yy_g9a_08": {
+    "unit": "Unit 6·Beyond Earth",
+    "note": "情态推测随未知探索语境（must be 实证 U6）"
+   },
+   "ct_yy_g9a_09": {
+    "unit": "Unit 7·Feel the Rhythm",
+    "note": "定语从句随音乐喜好语境（主题对位旧 U9）"
+   },
+   "ct_yy_g9a_10": {
+    "unit": "Unit 5·Power of Ideas",
+    "note": "be supposed to 实证 U5"
+   },
+   "ct_yy_g9a_11": {
+    "unit": "Unit 7·Feel the Rhythm",
+    "note": "make 复合结构随情绪与音乐语境（实证弱，主题对位）"
+   },
+   "ct_yy_g9a_12": {
+    "unit": "Unit 2·Inspiring People",
+    "note": "过去完成实证 U2（had done）"
+   },
+   "ct_yy_g9a_13": {
+    "unit": "Unit 1·The Changing World",
+    "note": "环保主题随变化的世界（protect 实证 U2/U5，就近主题锚定）"
+   },
+   "ct_yy_g9a_14": {
+    "unit": "Unit 4·Our Memory",
+    "note": "毕业回顾随回忆主题锚定（原九下毕业单元待 T-3 复核）"
+   }
+  }
+ },
+ "初中语文七年级上册": {
+  "editionYear": 2024,
+  "note": "2024版七上：活动探究单元(五)替代原动物单元主体，《狼》并入；论语留三单元、诫子书留四单元；写作板块重排（突出中心移三单元）",
+  "units": {
+   "第一单元": "第一单元",
+   "第二单元": "第二单元",
+   "第三单元": "第三单元",
+   "第四单元": "第四单元",
+   "第二/第四单元": "第二单元",
+   "第五单元": "第五单元",
+   "第六单元": "第六单元",
+   "第二单元（写作）": "第二单元",
+   "第三单元（写作）": "第三单元",
+   "第四单元（写作）": "第四单元",
+   "第五单元（写作）": "第三单元",
+   "第六单元（写作）": "第六单元",
+   "名著导读": "第三单元",
+   "综合性学习（第二单元）": "第二单元",
+   "综合性学习（第四单元）": "第四单元",
+   "语文园地/课文": "第一单元",
+   "课外古诗词诵读": "第三单元",
+   "各单元": "第六单元"
+  },
+  "topics": {
+   "ct_yw_g7a_05": {
+    "unit": "第二单元",
+    "note": "《世说新语》实证新版二单元、《诫子书》四单元，文言起步主锚二单元"
+   },
+   "ct_yw_g7a_07": {
+    "unit": "第三单元",
+    "note": "《朝花夕拾》精读实证新版三单元"
+   },
+   "ct_yw_g7a_10": {
+    "unit": "第三单元",
+    "note": "写人训练并入新版三单元写作（如何突出中心）"
+   },
+   "ct_yw_g7a_12": {
+    "unit": "第三单元",
+    "note": "突出中心写作实证新版三单元"
+   },
+   "ct_yw_g7a_16": {
+    "unit": "第六单元",
+    "note": "《天上的街市》新版移出，想象文学就近锚定"
+   },
+   "ct_yw_g7a_19": {
+    "unit": "第一单元",
+    "note": "词语语境义通用点就近锚定"
+   },
+   "ct_yw_g7a_20": {
+    "unit": "第三单元",
+    "note": "课外古诗词诵读实证新版三单元起"
+   },
+   "ct_yw_g7a_21": {
+    "unit": "第六单元",
+    "note": "自查按末单元锚定"
+   }
+  }
+ },
+ "初中语文七年级下册": {
+  "editionYear": 2024,
+  "note": "2024版七下：写作板块更名（文从字顺→语言要简明移五单元、语言简明并入）；《河中石兽》《最后一课》《海底两万里》新版已删；探险阅读并入六单元活动探究",
+  "units": {
+   "第一单元（写作）": "第一单元",
+   "第二单元（写作）": "第二单元",
+   "第三单元（写作）": "第三单元",
+   "第四单元（写作）": "第四单元",
+   "第五单元（写作）": "第五单元",
+   "第六单元（写作）": "第五单元",
+   "第一单元": "第一单元",
+   "第三/第六单元": "第三单元",
+   "第四单元": "第四单元",
+   "第二单元": "第二单元",
+   "第三单元": "第三单元",
+   "第五单元": "第五单元",
+   "第六单元": "第六单元",
+   "名著导读": "第三单元",
+   "综合性学习": "第四单元",
+   "课外古诗词诵读": "第三单元",
+   "各单元": "第六单元"
+  },
+  "topics": {
+   "ct_yw_g7b_01": {
+    "unit": "第一单元",
+    "note": "写作写出人物的精神新版更名为写出人物特点"
+   },
+   "ct_yw_g7b_05": {
+    "unit": "第五单元",
+    "note": "文从字顺新版改为语言要简明（五单元）"
+   },
+   "ct_yw_g7b_06": {
+    "unit": "第五单元",
+    "note": "语言简明实证新版五单元（语言要简明）"
+   },
+   "ct_yw_g7b_08": {
+    "unit": "第三单元",
+    "note": "《卖油翁》实证三单元；《河中石兽》新版已删"
+   },
+   "ct_yw_g7b_11": {
+    "unit": "第三单元",
+    "note": "阿长实证三单元；老王新版已删、父亲对应台阶"
+   },
+   "ct_yw_g7b_12": {
+    "unit": "第五单元",
+    "note": "紫藤萝瀑布实证五单元；小桃树新版已删"
+   },
+   "ct_yw_g7b_15": {
+    "unit": "第二单元",
+    "note": "土地的誓言实证二单元；《最后一课》新版已删"
+   },
+   "ct_yw_g7b_16": {
+    "unit": "第六单元",
+    "note": "探险阅读并入新版六单元活动探究（太空一日/蛟龙探海）"
+   },
+   "ct_yw_g7b_18": {
+    "unit": "第六单元",
+    "note": "《海底两万里》新版已删，快速阅读方法就近锚定"
+   },
+   "ct_yw_g7b_19": {
+    "unit": "第四单元",
+    "note": "孝亲敬老综合性学习实证新版四单元"
+   },
+   "ct_yw_g7b_21": {
+    "unit": "第六单元",
+    "note": "自查按末单元锚定"
+   }
+  }
+ },
+ "初中语文八年级上册": {
+  "editionYear": 2025,
+  "note": "2025版八上：新闻活动探究提前至一单元，原六单元文言（孟子/愚公/周亚夫/诗词五首）保留为六单元（基线补录）；昆虫记移八下；表达要得体留六单元",
+  "units": {
+   "第一单元（活动·探究）": "第一单元",
+   "第二单元": "第二单元",
+   "第三单元": "第三单元",
+   "第四单元": "第四单元",
+   "第五单元": "第五单元",
+   "第六单元": "第六单元",
+   "第二单元（写作）": "第二单元",
+   "第三单元（写作）": "第三单元",
+   "第四单元（写作）": "第四单元",
+   "第五单元（写作）": "第五单元",
+   "第六单元（写作）": "第六单元",
+   "名著导读": "第二单元",
+   "综合性学习": "第三单元",
+   "课外古诗词诵读": "第三单元",
+   "各单元": "第五单元"
+  },
+  "topics": {
+   "ct_yw_g8a_17": {
+    "unit": "第二单元",
+    "note": "《红星照耀中国》实证新版二单元"
+   },
+   "ct_yw_g8a_18": {
+    "stem": "初中语文八年级下册",
+    "unit": "第五单元",
+    "note": "《昆虫记》实证新版八下第五单元（跨册同年级）"
+   },
+   "ct_yw_g8a_19": {
+    "unit": "第三单元",
+    "note": "诚信主题实证新版三单元（人无信不立）"
+   }
+  }
+ },
+ "初中语文八年级下册": {
+  "editionYear": 2025,
+  "note": "2025版八下：演讲活动探究移四单元；学写故事改为负责任地表达；《傅雷家书》删、《经典常谈》留三单元；钢铁是怎样炼成的移七下（跨册）；低碳综合实证二单元",
+  "units": {
+   "第一单元": "第一单元",
+   "第二单元": "第二单元",
+   "第三单元": "第三单元",
+   "第四单元（活动·探究）": "第四单元",
+   "第五单元": "第五单元",
+   "第六单元": "第六单元",
+   "第一单元（写作）": "第一单元",
+   "第二单元（写作）": "第二单元",
+   "第五单元（写作）": "第五单元",
+   "第六单元（写作）": "第六单元",
+   "名著导读": "第三单元",
+   "综合性学习": "第二单元",
+   "课外古诗词诵读": "第三单元",
+   "各单元": "第六单元"
+  },
+  "topics": {
+   "ct_yw_g8b_02": {
+    "unit": "第一单元",
+    "note": "仿写训练并入新版一单元写作（考虑目的和对象）"
+   },
+   "ct_yw_g8b_13": {
+    "unit": "第六单元",
+    "note": "学写故事新版改为负责任地表达，叙事训练就近锚定"
+   },
+   "ct_yw_g8b_14": {
+    "unit": "第三单元",
+    "note": "《经典常谈》实证三单元；《傅雷家书》新版已删，选择性阅读方法保留"
+   },
+   "ct_yw_g8b_15": {
+    "stem": "初中语文七年级下册",
+    "unit": "第五单元",
+    "note": "《钢铁是怎样炼成的》实证新版七下第五单元（跨册同年级）"
+   },
+   "ct_yw_g8b_16": {
+    "unit": "第二单元",
+    "note": "低碳生活综合性学习实证新版二单元"
+   },
+   "ct_yw_g8b_18": {
+    "unit": "第六单元",
+    "note": "自查按末单元锚定"
+   }
+  }
+ },
+ "初中语文九年级上册": {
+  "editionYear": 2026,
+  "note": "2026版九上：诗歌活动探究提前至一单元（艾青诗选随迁）；驳论篇目（中国人失掉自信力了吗）实证二单元；明清白话小说精读移出，水浒导读实证四单元",
+  "units": {
+   "第一单元（活动·探究）": "第一单元",
+   "第二单元": "第二单元",
+   "第五单元": "第五单元",
+   "第三单元": "第三单元",
+   "第四单元": "第四单元",
+   "第六单元": "第六单元",
+   "第二单元（写作）": "第二单元",
+   "第三单元（写作）": "第三单元",
+   "第五单元（写作）": "第五单元",
+   "第四单元（写作）": "第四单元",
+   "第六单元（写作）": "第六单元",
+   "综合性学习": "第二单元",
+   "名著导读": "第一单元",
+   "课外古诗词诵读": "第三单元",
+   "各单元": "第六单元"
+  },
+  "topics": {
+   "ct_yw_g9a_04": {
+    "unit": "第二单元",
+    "note": "《中国人失掉自信力了吗》实证新版二单元"
+   },
+   "ct_yw_g9a_10": {
+    "unit": "第六单元",
+    "note": "明清小说精读新版移出，古典小说阅读就近锚定史传单元"
+   },
+   "ct_yw_g9a_14": {
+    "unit": "第四单元",
+    "note": "缩写训练新版改为学写小小说，就近锚定"
+   },
+   "ct_yw_g9a_15": {
+    "unit": "第六单元",
+    "note": "修改润色新版改为学会深入思考，就近锚定"
+   },
+   "ct_yw_g9a_17": {
+    "unit": "第一单元",
+    "note": "《艾青诗选》随诗歌单元（我爱这土地实证 U1）"
+   },
+   "ct_yw_g9a_18": {
+    "unit": "第四单元",
+    "note": "《水浒传》导读实证新版四单元名著板块"
+   },
+   "ct_yw_g9a_20": {
+    "unit": "第六单元",
+    "note": "自查按末单元锚定"
+   }
+  }
+ },
+ "初中道德与法治七年级上册": {
+  "editionYear": 2024,
+  "note": "2024版七上主题换血：少年有梦/成长的时空（友谊师长合并）/珍爱生命/美好人生",
+  "units": {
+   "第一单元 成长的节拍": 1,
+   "第二、三单元 友谊的天空/师长情谊": 2
+  },
+  "topics": {
+   "ct_zz_g7a_02": {
+    "unit": 2,
+    "note": "友谊与师长内容实证新版合并为成长的时空（二单元）"
+   }
+  }
+ },
+ "初中道德与法治七年级下册": {
+  "editionYear": 2024,
+  "note": "2024版七下主题换血：珍惜青春时光/焕发活力/传统美德/法治社会，锚位 1/4 恒等",
+  "units": {
+   "第一单元 青春时光": 1,
+   "第四单元 走进法治天地": 4
+  }
+ },
+ "初中道德与法治八年级上册": {
+  "editionYear": 2025,
+  "note": "2025版八上四单元结构保留（二单元更名维护社会秩序）；原锚「第八单元」系旧全册序号，实义为国家利益单元",
+  "units": {
+   "第一、二、三单元 走进社会生活/遵守社会规则/勇担社会责任": 1,
+   "第八单元 国家利益与国家安全": 4
+  },
+  "topics": {
+   "ct_zz_g8a_01": {
+    "unit": 1,
+    "note": "社会生活与规则责任跨一至三单元，主锚走进社会生活"
+   },
+   "ct_zz_g8a_02": {
+    "unit": 4,
+    "note": "国家利益实证新版四单元（原第八单元为旧全册序号笔误）"
+   }
+  }
+ },
+ "初中道德与法治八年级下册": {
+  "editionYear": 2025,
+  "note": "2025版八下拆为五单元（新增认识国家制度/走近国家机构）；宪法留一单元、自由平等公平正义并入建设法治中国",
+  "units": {
+   "第一、二单元 坚持宪法至上": 1,
+   "第三、四单元 人民当家作主/崇尚法治精神": 5
+  },
+  "topics": {
+   "ct_zz_g8b_02": {
+    "unit": 5,
+    "note": "自由平等与公平正义实证新版并入建设法治中国"
+   }
+  }
+ },
+ "初中道德与法治九年级上册": {
+  "editionYear": 2026,
+  "note": "2026版九上改为党史制（坚持党的全面领导/进入新时代/奋进新征程/共圆中国梦）：创新民主法治实证锚三单元、文化自信美丽中国实证锚四单元",
+  "units": {
+   "第一、二、三单元 富强与创新/民主与法治": 3,
+   "第三、四单元 文明与家园/和谐与梦想": 4
+  },
+  "topics": {
+   "ct_zz_g9a_01": {
+    "unit": 3,
+    "note": "创新与民主法治随奋进新征程（创新/中国梦实证 U3/U4）"
+   },
+   "ct_zz_g9a_02": {
+    "unit": 4,
+    "note": "文化自信与美丽中国实证新版四单元"
+   }
+  }
+ },
+ "初中数学八年级上册": {
+  "editionYear": 2025,
+  "note": "2025版八上章号重排：11-15→13-18，原十四章「整式的乘法与因式分解」拆为十六/十七两章",
+  "units": {
+   "11": 13,
+   "12": 14,
+   "13": 15,
+   "14": 16,
+   "15": 18
+  },
+  "topics": {
+   "ct_g8a_18": {
+    "unit": 17,
+    "note": "因式分解实证新版独立成十七章"
+   },
+   "ct_g8a_25": {
+    "unit": 16,
+    "note": "数学活动跨乘法公式与因式分解，主锚十六章"
+   }
   }
  }
 }

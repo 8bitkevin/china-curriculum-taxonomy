@@ -1,0 +1,132 @@
+{
+ "schemaVersion": 1,
+ "volume": "初中英语七年级上册",
+ "pdf": {
+  "file": "初中英语七年级上册.pdf",
+  "sha256": "e416106aff7f95db4903ade2826a662d7dae871caac5df43425c0d408356b09a",
+  "pages": 138,
+  "hasTextLayer": true
+ },
+ "source": "manual",
+ "extractedAt": "2026-11-08",
+ "note": "新版英语双栏乱序目录以 TOC p.N 锚点+开篇页大字标题+页脚偏移校准手工整编（T-1 版式专项）",
+ "units": [
+  {
+   "title": "Starter Unit 1 Hello!",
+   "page": 1,
+   "sections": [
+    {
+     "no": null,
+     "title": "Starter Unit 1 Hello!",
+     "page": 1
+    }
+   ]
+  },
+  {
+   "title": "Starter Unit 2 Keep Tidy!",
+   "page": 7,
+   "sections": [
+    {
+     "no": null,
+     "title": "Starter Unit 2 Keep Tidy!",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "title": "Starter Unit 3 Welcome!",
+   "page": 13,
+   "sections": [
+    {
+     "no": null,
+     "title": "Starter Unit 3 Welcome!",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "index": 1,
+   "title": "You and Me",
+   "page": 19,
+   "sections": [
+    {
+     "no": "1",
+     "title": "You and Me",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "index": 2,
+   "title": "We’re Family!",
+   "page": 27,
+   "sections": [
+    {
+     "no": "2",
+     "title": "We’re Family!",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "index": 3,
+   "title": "My School",
+   "page": 35,
+   "sections": [
+    {
+     "no": "3",
+     "title": "My School",
+     "page": 35
+    }
+   ]
+  },
+  {
+   "index": 4,
+   "title": "My Favourite Subject",
+   "page": 43,
+   "sections": [
+    {
+     "no": "4",
+     "title": "My Favourite Subject",
+     "page": 43
+    }
+   ]
+  },
+  {
+   "index": 5,
+   "title": "Fun Clubs",
+   "page": 51,
+   "sections": [
+    {
+     "no": "5",
+     "title": "Fun Clubs",
+     "page": 51
+    }
+   ]
+  },
+  {
+   "index": 6,
+   "title": "A Day in the Life",
+   "page": 59,
+   "sections": [
+    {
+     "no": "6",
+     "title": "A Day in the Life",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "index": 7,
+   "title": "Happy Birthday!",
+   "page": 67,
+   "sections": [
+    {
+     "no": "7",
+     "title": "Happy Birthday!",
+     "page": 67
+    }
+   ]
+  }
+ ]
+}
