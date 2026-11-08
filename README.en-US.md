@@ -4,7 +4,7 @@
 
 An open-source, structured **knowledge graph of China's K12 curriculum** (primary, middle, and high school): the curriculum is decomposed into fine-grained **knowledge points**, woven into a prerequisite DAG, and aligned to the national curriculum standards (Compulsory Education Curriculum Standards, 2022 edition; General High School Curriculum Standards, 2017 edition, revised 2020). The data model follows [Marble Skill Taxonomy (os-taxonomy)](https://github.com/withmarbleapp/os-taxonomy), with content rebuilt specifically for the Chinese curriculum.
 
-> **Current version** `v2.4` · **Knowledge points** 1641 · **Prerequisite edges** 2272 · **Standards entries** 532 (18 curricula, codes-only) · **Lessons + exercises** 1641/1641 topics · 6564 exercises (all nine subjects fully covered; textbook-aligned per D-031) · **Subjects** all nine K12 subjects: Mathematics (23 volumes) / Chinese (23) / English (19) / Physics (9) / Chemistry (7) / Biology (9) / History (11) / Geography (8) / Morality & Rule of Law + Ideological & Political Education (24) — 133 semester-volumes in total, based on the state-unified and PEP textbook series. Granularity: lesson-element level for Math/Chinese; unit sentence-patterns & skills line for English; section-level core concepts for the sciences; Ideological & Political Education deepened to lesson level and elective History to unit level; Geography and Morality & Rule of Law remain unit-level knowledge points (deepening in progress).
+> **Current version** `v2.4` · **Knowledge points** 1693 · **Prerequisite edges** 2340 · **Standards entries** 532 (18 curricula, codes-only) · **Lessons + exercises** 1693/1693 topics · 6772 exercises (all nine subjects fully covered; textbook-aligned per D-031) · **Subjects** all nine K12 subjects: Mathematics (23 volumes) / Chinese (23) / English (19) / Physics (9) / Chemistry (7) / Biology (9) / History (11) / Geography (8) / Morality & Rule of Law + Ideological & Political Education (24) — 133 semester-volumes in total, based on the state-unified and PEP textbook series. Granularity: lesson-element level for Math/Chinese; unit sentence-patterns & skills line for English; section-level core concepts for the sciences; Ideological & Political Education deepened to lesson level and History to unit level; Geography and Morality & Rule of Law remain unit-level knowledge points (deepening in progress).
 
 ## What is this
 
@@ -16,7 +16,7 @@ Using the state-unified / PEP textbook structure as the skeleton, each unit is d
 - **Standards alignment** — corresponding curriculum-standard codes (Compulsory Education 2022 edition, S1–S4; High School 2017 edition〔2020 revision〕, H prefix; one set per subject, all codes-only);
 - **Textbook location** — grade (1–6 primary / 7–9 middle / 10–12 high school), semester, textbook edition, and unit;
 - **Prerequisites** — what must / should be learned first, each edge carrying a one-sentence rationale;
-- **Learning content (all nine subjects fully covered)** — lesson explanations, method steps, worked examples with analysis, common-mistake notes, and tiered exercises (textbook exercises first, each traceable to volume·page) (`data/lessons/`, one file per subject: 1641/1641 knowledge points with full lessons + 6564 exercises, textbook-aligned per D-031).
+- **Learning content (all nine subjects fully covered)** — lesson explanations, method steps, worked examples with analysis, common-mistake notes, and tiered exercises (textbook exercises first, each traceable to volume·page) (`data/lessons/`, one file per subject: 1693/1693 knowledge points with full lessons + 6772 exercises, textbook-aligned per D-031).
 
 ### Knowledge point example
 
@@ -196,7 +196,7 @@ The upstream repo also carries other regional editions (Beijing Normal, Jiangsu 
 
 - [x] Chinese, English (K12) ✅ 2026-10-21
 - [x] Physics, Chemistry (middle school up), Biology, History, Geography, Morality & Rule of Law / Ideological & Political Education ✅ 2026-10-21 (all nine K12 → **v2.0.0**)
-- [x] Learning-content layer (lessons + exercises, textbook-aligned per D-031): Math 563 topics ✅ 2026-10-28; English/Chinese/Physics/Chemistry/Biology/Geography/Morality/Ideological & Political ✅ 2026-10-30; History 54 topics ✅ 2026-10-30 (**full-repo 1641/1641 dual coverage achieved**)
+- [x] Learning-content layer (lessons + exercises, textbook-aligned per D-031): Math 563 topics ✅ 2026-10-28; English/Chinese/Physics/Chemistry/Biology/Geography/Morality/Ideological & Political ✅ 2026-10-30; History 54 topics ✅ 2026-10-30 (full-repo 1641/1641 dual coverage achieved); 2026-11-08 B-NE8 gap-fill + G-1a Outline unit-level deepening → **full repo 1693/1693, 6772 exercises**
 - [ ] Domain × grade cluster summaries (parent edition)
 - [ ] Evidence/research layer matching os-taxonomy (teaching research)
 
