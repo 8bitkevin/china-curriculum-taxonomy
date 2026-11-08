@@ -24,8 +24,8 @@
       "6年级下": 57,
       "7年级上": 84,
       "7年级下": 85,
-      "8年级上": 104,
-      "8年级下": 94,
+      "8年级上": 105,
+      "8年级下": 93,
       "9年级上": 109,
       "9年级下": 64,
       "10年级上": 87,
@@ -93,8 +93,8 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1888793,
-      "sha256": "926a1eea7ff65b6a1e84c989156e0efd77340240363c00a9f74a2ace120a6720"
+      "bytes": 1888441,
+      "sha256": "007bb28ddd31ce2a04106421cd14738639fc666a3887a8d796e2d46738d4b850"
     },
     "dependencies.json": {
       "bytes": 442255,
@@ -109,16 +109,16 @@
       "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     },
     "lessons/dl.json": {
-      "bytes": 264626,
-      "sha256": "123cd45437d67846768c7dcd5919f829ad714e5d83b7e01777f8e351ca0104fc"
+      "bytes": 255984,
+      "sha256": "661272639c14ed4e2ecc471b25f5b1c5416cea2556fc51c530aa8f804b96e2dd"
     },
     "lessons/hx.json": {
       "bytes": 695687,
       "sha256": "cbb9d6a7244c0a0382f444d220972aeac0ea3167f386e55e15da44492bb2dd22"
     },
     "lessons/ls.json": {
-      "bytes": 784391,
-      "sha256": "a31f1eada98d72dcd9acda807c0bea81934daf65c645eb4c59a7c10102b0e807"
+      "bytes": 761095,
+      "sha256": "dac295c5f37cd139d31abc1bed35f45e7b7bf4bacf05d020e15f757609fc570e"
     },
     "lessons/math.json": {
       "bytes": 5362466,
@@ -145,8 +145,8 @@
       "sha256": "9a3396c123f20c8b702680152b03d7d3541242fd5257bef9e8519538ee7eb044"
     },
     "lessons/zz.json": {
-      "bytes": 359358,
-      "sha256": "840af87cf25fd7d466ec555945252597c8adf19117c2392859dd74b959f6e2df"
+      "bytes": 359450,
+      "sha256": "68345b240fe494082bd05ac03353a321bc083341e6396bbabc82bad8f0ce8d34"
     }
   }
 }

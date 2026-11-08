@@ -46188,8 +46188,8 @@
         "publisher": "统编版",
         "grade": 7,
         "volume": "上",
-        "unit": "第一、二单元",
-        "editionYear": 2016
+        "unit": "第二单元",
+        "editionYear": 2024
       }
     },
     {
@@ -46216,7 +46216,7 @@
         "grade": 7,
         "volume": "上",
         "unit": "第二单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7a_01"
@@ -46246,7 +46246,7 @@
         "grade": 7,
         "volume": "上",
         "unit": "第三单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7a_02"
@@ -46276,7 +46276,7 @@
         "grade": 7,
         "volume": "上",
         "unit": "第三单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7a_03"
@@ -46306,7 +46306,7 @@
         "grade": 7,
         "volume": "上",
         "unit": "第四单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7a_04"
@@ -46336,7 +46336,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第一单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7a_05"
@@ -46366,7 +46366,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第一单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7b_01"
@@ -46396,7 +46396,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第二单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7b_02"
@@ -46426,7 +46426,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第二单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7b_03"
@@ -46456,7 +46456,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第一单元",
-        "editionYear": 2017
+        "editionYear": 2025
       }
     },
     {
@@ -46483,7 +46483,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_01"
@@ -46513,7 +46513,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_02"
@@ -46543,7 +46543,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_03"
@@ -46573,7 +46573,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_04"
@@ -46603,7 +46603,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第五单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_05"
@@ -46633,7 +46633,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第六单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_06"
@@ -46647,7 +46647,7 @@
       "name": "人民解放战争",
       "description": "重庆谈判（双十协定——假和平真内战的较量）；战略防御到反攻（刘邓大军千里跃进大别山）；三大战役与渡江战役、南京解放。民心向背的胜利——为什么小米加步枪能赢飞机大炮。",
       "grade": 8,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -46661,9 +46661,9 @@
       "textbook": {
         "publisher": "统编版",
         "grade": 8,
-        "volume": "下",
-        "unit": "第一单元",
-        "editionYear": 2017
+        "volume": "上",
+        "unit": "第七单元",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8a_07"
@@ -46693,7 +46693,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第一单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8b_01"
@@ -46722,8 +46722,8 @@
         "publisher": "统编版",
         "grade": 8,
         "volume": "下",
-        "unit": "第二、三单元",
-        "editionYear": 2017
+        "unit": "第二单元",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8b_02"
@@ -46753,7 +46753,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第三单元",
-        "editionYear": 2017
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8b_03"
@@ -46782,8 +46782,8 @@
         "publisher": "统编版",
         "grade": 8,
         "volume": "下",
-        "unit": "第五、六单元",
-        "editionYear": 2017
+        "unit": "第四单元",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_ls_g8b_04"
@@ -46812,8 +46812,8 @@
         "publisher": "统编版",
         "grade": 9,
         "volume": "上",
-        "unit": "第一、二单元",
-        "editionYear": 2018
+        "unit": "第二单元",
+        "editionYear": 2026
       }
     },
     {
@@ -46839,8 +46839,8 @@
         "publisher": "统编版",
         "grade": 9,
         "volume": "上",
-        "unit": "第三、四单元",
-        "editionYear": 2018
+        "unit": "第五单元",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_ls_g9a_01"
@@ -46869,8 +46869,8 @@
         "publisher": "统编版",
         "grade": 9,
         "volume": "上",
-        "unit": "第五单元",
-        "editionYear": 2018
+        "unit": "第六单元",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_ls_g9a_02"
@@ -46900,7 +46900,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第七单元",
-        "editionYear": 2018
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_ls_g8a_01",
@@ -47273,8 +47273,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第一章 地球与地图",
-        "editionYear": 2012
+        "unit": "第一章 地球",
+        "editionYear": 2024
       }
     },
     {
@@ -47300,8 +47300,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第一章 地球与地图",
-        "editionYear": 2012
+        "unit": "第一章 地球",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_01"
@@ -47330,8 +47330,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第一章 地球与地图",
-        "editionYear": 2012
+        "unit": "第二章 地图",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_01"
@@ -47361,8 +47361,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第二章 陆地和海洋",
-        "editionYear": 2012
+        "unit": "第三章 陆地和海洋",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_01",
@@ -47392,8 +47392,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第三章 天气与气候",
-        "editionYear": 2012
+        "unit": "第四章 天气与气候",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_02"
@@ -47422,8 +47422,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第三章 天气与气候",
-        "editionYear": 2012
+        "unit": "第四章 天气与气候",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_05"
@@ -47452,8 +47452,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第四章 居民与聚落",
-        "editionYear": 2012
+        "unit": "第五章 居民与文化",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_06"
@@ -47482,8 +47482,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第六、七章 我们生活的大洲——亚洲/我们邻近的地区和国家",
-        "editionYear": 2012
+        "unit": "第七章 我们生活的大洲——亚洲",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7a_04",
@@ -47514,8 +47514,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第七、八、九、十章",
-        "editionYear": 2012
+        "unit": "第八章 我们邻近的地区和国家",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_dl_g7b_01"
@@ -47545,7 +47545,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第一章 从世界看中国",
-        "editionYear": 2013
+        "editionYear": 2025
       }
     },
     {
@@ -47572,7 +47572,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二章 中国的自然环境",
-        "editionYear": 2013
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g7a_06",
@@ -47603,7 +47603,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二章 中国的自然环境",
-        "editionYear": 2013
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g8a_02"
@@ -47633,7 +47633,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三章 中国的自然资源",
-        "editionYear": 2013
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g8a_02"
@@ -47663,7 +47663,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四章 中国的经济发展",
-        "editionYear": 2013
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g8a_04"
@@ -47692,8 +47692,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第五章 中国的地理差异",
-        "editionYear": 2013
+        "unit": "第六章 中国的地理差异",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g8a_02"
@@ -47723,8 +47723,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第六至九章",
-        "editionYear": 2013
+        "unit": "第七章 北方地区",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_dl_g7b_02",
@@ -48037,8 +48037,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "下",
-        "unit": "健康生活单元",
-        "editionYear": 2016
+        "unit": 1,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_zz_g1a_02"
@@ -48067,8 +48067,8 @@
         "publisher": "统编版",
         "grade": 1,
         "volume": "下",
-        "unit": "我爱我家单元",
-        "editionYear": 2016
+        "unit": 3,
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_zz_g1a_03"
@@ -48158,8 +48158,8 @@
         "publisher": "统编版",
         "grade": 2,
         "volume": "下",
-        "unit": "我们生活的地方单元",
-        "editionYear": 2017
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g2a_01"
@@ -48188,8 +48188,8 @@
         "publisher": "统编版",
         "grade": 2,
         "volume": "下",
-        "unit": "诚实守信单元",
-        "editionYear": 2017
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g2a_01"
@@ -48218,8 +48218,8 @@
         "publisher": "统编版",
         "grade": 3,
         "volume": "上",
-        "unit": "安全护我成长单元",
-        "editionYear": 2018
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g2a_02"
@@ -48248,8 +48248,8 @@
         "publisher": "统编版",
         "grade": 3,
         "volume": "上",
-        "unit": "家国情怀单元",
-        "editionYear": 2018
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g1a_03"
@@ -48278,8 +48278,8 @@
         "publisher": "统编版",
         "grade": 3,
         "volume": "下",
-        "unit": "同伴交往单元",
-        "editionYear": 2018
+        "unit": 4,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g2a_01"
@@ -48308,8 +48308,8 @@
         "publisher": "统编版",
         "grade": 3,
         "volume": "下",
-        "unit": "家庭责任单元",
-        "editionYear": 2018
+        "unit": 3,
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_zz_g1b_02"
@@ -48338,8 +48338,8 @@
         "publisher": "统编版",
         "grade": 4,
         "volume": "上",
-        "unit": "规则与法律单元",
-        "editionYear": 2018
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g2a_01"
@@ -48369,8 +48369,8 @@
         "publisher": "统编版",
         "grade": 4,
         "volume": "上",
-        "unit": "家乡与国家单元",
-        "editionYear": 2018
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g2b_01"
@@ -48431,8 +48431,8 @@
         "publisher": "统编版",
         "grade": 5,
         "volume": "上",
-        "unit": "我们的国土单元",
-        "editionYear": 2019
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g4a_02"
@@ -48462,8 +48462,8 @@
         "publisher": "统编版",
         "grade": 5,
         "volume": "上",
-        "unit": "革命传统单元",
-        "editionYear": 2019
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g3a_02"
@@ -48522,8 +48522,8 @@
         "publisher": "统编版",
         "grade": 6,
         "volume": "上",
-        "unit": "宪法单元",
-        "editionYear": 2019
+        "unit": 1,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g4a_01"
@@ -48552,8 +48552,8 @@
         "publisher": "统编版",
         "grade": 6,
         "volume": "上",
-        "unit": "公民单元",
-        "editionYear": 2019
+        "unit": 2,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_zz_g6a_01"
@@ -49294,7 +49294,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第三单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7b_04"
@@ -49325,7 +49325,7 @@
         "grade": 7,
         "volume": "下",
         "unit": "第三单元",
-        "editionYear": 2016
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_ls_g7b_03",
