@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "version": "2.3.0",
  "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
- "edgeCount": 2340,
+ "edgeCount": 2429,
  "dependencies": [
   {
    "topicId": "ct_g1a_04",
@@ -13997,6 +13997,479 @@
    "topicId": "ct_ls_g10b_10",
    "prerequisiteId": "ct_ls_g10b_09",
    "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_04",
+   "prerequisiteId": "ct_dl_g10a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_05",
+   "prerequisiteId": "ct_dl_g10a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_06",
+   "prerequisiteId": "ct_dl_g10a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_07",
+   "prerequisiteId": "ct_dl_g10a_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_08",
+   "prerequisiteId": "ct_dl_g10a_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10a_01",
+   "prerequisiteId": "ct_dl_g10a_03",
+   "strength": "hard",
+   "reason": "第一二章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10a_01",
+   "prerequisiteId": "ct_dl_g10a_04",
+   "strength": "hard",
+   "reason": "第一二章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10a_02",
+   "prerequisiteId": "ct_dl_g10a_05",
+   "strength": "hard",
+   "reason": "第三四五章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10a_02",
+   "prerequisiteId": "ct_dl_g10a_06",
+   "strength": "hard",
+   "reason": "第三四五章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10a_02",
+   "prerequisiteId": "ct_dl_g10a_07",
+   "strength": "hard",
+   "reason": "第三四五章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10b_04",
+   "prerequisiteId": "ct_dl_g10b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10b_05",
+   "prerequisiteId": "ct_dl_g10b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10b_06",
+   "prerequisiteId": "ct_dl_g10b_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10b_07",
+   "prerequisiteId": "ct_dl_g10b_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g10b_01",
+   "prerequisiteId": "ct_dl_g10b_03",
+   "strength": "hard",
+   "reason": "第一至三章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10b_01",
+   "prerequisiteId": "ct_dl_g10b_04",
+   "strength": "hard",
+   "reason": "第一至三章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10b_01",
+   "prerequisiteId": "ct_dl_g10b_05",
+   "strength": "hard",
+   "reason": "第一至三章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10b_02",
+   "prerequisiteId": "ct_dl_g10b_06",
+   "strength": "hard",
+   "reason": "第四五章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g10b_02",
+   "prerequisiteId": "ct_dl_g10b_07",
+   "strength": "hard",
+   "reason": "第四五章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_03",
+   "prerequisiteId": "ct_dl_g11a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11a_04",
+   "prerequisiteId": "ct_dl_g11a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11a_05",
+   "prerequisiteId": "ct_dl_g11a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11a_06",
+   "prerequisiteId": "ct_dl_g11a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11b_02",
+   "prerequisiteId": "ct_dl_g11b_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11b_03",
+   "prerequisiteId": "ct_dl_g11b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11b_04",
+   "prerequisiteId": "ct_dl_g11b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11a_02",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11a_03",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11a_04",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11a_05",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11a_06",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11b_01",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11b_02",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11b_03",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g11a_01",
+   "prerequisiteId": "ct_dl_g11b_04",
+   "strength": "hard",
+   "reason": "选必1&2 各章聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g12a_03",
+   "prerequisiteId": "ct_dl_g12a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g12a_04",
+   "prerequisiteId": "ct_dl_g12a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g12a_05",
+   "prerequisiteId": "ct_dl_g12a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g12a_01",
+   "prerequisiteId": "ct_dl_g12a_02",
+   "strength": "hard",
+   "reason": "选必三全册聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g12a_01",
+   "prerequisiteId": "ct_dl_g12a_03",
+   "strength": "hard",
+   "reason": "选必三全册聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g12a_01",
+   "prerequisiteId": "ct_dl_g12a_04",
+   "strength": "hard",
+   "reason": "选必三全册聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g12a_01",
+   "prerequisiteId": "ct_dl_g12a_05",
+   "strength": "hard",
+   "reason": "选必三全册聚合点挂接单元点"
+  },
+  {
+   "topicId": "ct_yy_g11b_12",
+   "prerequisiteId": "ct_yy_g11b_11",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11b_13",
+   "prerequisiteId": "ct_yy_g11b_12",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11b_14",
+   "prerequisiteId": "ct_yy_g11b_13",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11b_15",
+   "prerequisiteId": "ct_yy_g11b_14",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11b_04",
+   "prerequisiteId": "ct_yy_g11b_11",
+   "strength": "hard",
+   "reason": "人物单元话题点挂接 People of Achievement 单元"
+  },
+  {
+   "topicId": "ct_yy_g11b_08",
+   "prerequisiteId": "ct_yy_g11b_14",
+   "strength": "hard",
+   "reason": "肢体语言话题点挂接 Body Language 单元"
+  },
+  {
+   "topicId": "ct_yy_g12a_12",
+   "prerequisiteId": "ct_yy_g12a_11",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g12a_13",
+   "prerequisiteId": "ct_yy_g12a_12",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g12a_14",
+   "prerequisiteId": "ct_yy_g12a_13",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g12a_15",
+   "prerequisiteId": "ct_yy_g12a_14",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g12a_04",
+   "prerequisiteId": "ct_yy_g12a_11",
+   "strength": "hard",
+   "reason": "科技单元话题点挂接 Science and Scientists 单元"
+  },
+  {
+   "topicId": "ct_zz_g1a_04",
+   "prerequisiteId": "ct_zz_g1a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g1a_05",
+   "prerequisiteId": "ct_zz_g1a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g1a_06",
+   "prerequisiteId": "ct_zz_g1a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g1b_03",
+   "prerequisiteId": "ct_zz_g1b_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g1b_04",
+   "prerequisiteId": "ct_zz_g1b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g2a_03",
+   "prerequisiteId": "ct_zz_g2a_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g2a_04",
+   "prerequisiteId": "ct_zz_g2a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g2b_04",
+   "prerequisiteId": "ct_zz_g2b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g3a_04",
+   "prerequisiteId": "ct_zz_g3a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g3b_04",
+   "prerequisiteId": "ct_zz_g3b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g4a_04",
+   "prerequisiteId": "ct_zz_g4a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g4a_03",
+   "prerequisiteId": "ct_zz_g4a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g4b_03",
+   "prerequisiteId": "ct_zz_g4b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g4b_04",
+   "prerequisiteId": "ct_zz_g4b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g4b_05",
+   "prerequisiteId": "ct_zz_g4b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g5a_03",
+   "prerequisiteId": "ct_zz_g5a_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g5a_04",
+   "prerequisiteId": "ct_zz_g5a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g5a_05",
+   "prerequisiteId": "ct_zz_g5a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g5b_03",
+   "prerequisiteId": "ct_zz_g5b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g5b_04",
+   "prerequisiteId": "ct_zz_g5b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g6a_04",
+   "prerequisiteId": "ct_zz_g6a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g6a_03",
+   "prerequisiteId": "ct_zz_g6a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g6b_04",
+   "prerequisiteId": "ct_zz_g6b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g6b_05",
+   "prerequisiteId": "ct_zz_g6b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g6b_01",
+   "prerequisiteId": "ct_zz_g6b_05",
+   "strength": "hard",
+   "reason": "让世界更美好单元承接多样文明单元"
+  },
+  {
+   "topicId": "ct_zz_g7a_04",
+   "prerequisiteId": "ct_zz_g7a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g7a_03",
+   "prerequisiteId": "ct_zz_g7a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g7b_04",
+   "prerequisiteId": "ct_zz_g7b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g7b_03",
+   "prerequisiteId": "ct_zz_g7b_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g8a_04",
+   "prerequisiteId": "ct_zz_g8a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g8a_03",
+   "prerequisiteId": "ct_zz_g8a_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g8b_04",
+   "prerequisiteId": "ct_zz_g8b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g8b_05",
+   "prerequisiteId": "ct_zz_g8b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g8b_03",
+   "prerequisiteId": "ct_zz_g8b_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g9a_04",
+   "prerequisiteId": "ct_zz_g9a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_zz_g9b_01",
+   "prerequisiteId": "ct_zz_g9b_03",
+   "strength": "hard",
+   "reason": "九下前三单元聚合点挂接走向未来的少年单元点"
   }
  ]
 }

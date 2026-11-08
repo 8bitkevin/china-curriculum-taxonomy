@@ -2,7 +2,7 @@
  "schemaVersion": 2,
  "subject": "英语",
  "version": "2.4.0",
- "lessonCount": 261,
+ "lessonCount": 271,
  "lessons": [
   {
    "topicId": "ct_yy_g3a_01",
@@ -27473,7 +27473,7 @@
      "solution": "从句 Yuan Longping had realised his dream of seawater rice 结构完整，作全句主语，用 that 引导主语从句。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P53·语法板块（That Yuan Longping had realised his dream of seawater rice surprised the whole world）"
+      "label": "人教选必一 P103·语法板块（That Yuan Longping had realised his dream of seawater rice surprised the whole world）"
      }
     },
     {
@@ -27488,7 +27488,7 @@
      "solution": "宾语从句由 that 引导并保持陈述语序：larger fields were not the solution。B 是疑问语序，C 主谓不一致。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P50·阅读语篇（A Pioneer for All People：Yuan Longping realised that larger fields were not the solution）"
+      "label": "人教选必一 P100·阅读语篇（A Pioneer for All People：Yuan Longping realised that larger fields were not the solution）"
      }
     },
     {
@@ -27498,7 +27498,7 @@
      "solution": "把 that 主语从句整体移到句尾，句首补形式主语 It，谓语 surprised the whole world 原位保留——这正是书上例句的一对原句与改写句。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P53·语法板块变式（It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice）"
+      "label": "人教选必一 P101·语法板块变式（It surprised the whole world that Yuan Longping had realised his dream of developing seawater rice）"
      }
     },
     {
@@ -27597,7 +27597,7 @@
      "solution": "cared about 后面缺宾语，what 顶班并引导主语从句；全句意为：袁隆平真正在乎的不是金钱与名利。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P53·语法板块（What Yuan Longping really cared about was not money or celebrity）"
+      "label": "人教选必一 P103·语法板块（What Yuan Longping really cared about was not money or celebrity）"
      }
     },
     {
@@ -27612,7 +27612,7 @@
      "solution": "从句 how they are going to spend their retirement 用陈述语序，作主语时谓语用单数 is；B 是疑问语序，C 谓语误用复数。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P53·语法板块语篇（grandparents 段：how they are going to spend their retirement is an important decision for them）"
+      "label": "人教选必一 P103·语法板块语篇（grandparents 段：how they are going to spend their retirement is an important decision for them）"
      }
     },
     {
@@ -27622,7 +27622,7 @@
      "solution": "whether 引导主语从句并可置于句首，if 无此用法；主语从句作主语，谓语 has not been decided 用单数。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P58·whether/wh- 填空变式（the research centre is to be set up has not been decided）"
+      "label": "人教选必一 P100·whether/wh- 填空变式（the research centre is to be set up has not been decided）"
      }
     },
     {
@@ -27726,7 +27726,7 @@
      "solution": "whose 引导定语从句，修饰先行词 Tu Youyou，whose 在从句中作定语；「逗号 + whose」是非限制性定语从句的典型标志。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P2·阅读语篇（TU YOUYOU AWARDED NOBEL PRIZE：...whose research led to the discovery of artemisinin）"
+      "label": "人教选必一 P101·阅读语篇（TU YOUYOU AWARDED NOBEL PRIZE：...whose research led to the discovery of artemisinin）"
      }
     },
     {
@@ -27742,7 +27742,7 @@
      "solution": "what concerned him most 站在全句主语的位置，是 what 引导的主语从句；后面的 that farmers often had poor harvests... 则是表语从句——一个句子里两个名词性从句分工明确。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P50·阅读语篇（A Pioneer for All People：what concerned him most was that farmers often had poor harvests）"
+      "label": "人教选必一 P100·阅读语篇（A Pioneer for All People：what concerned him most was that farmers often had poor harvests）"
      }
     },
     {
@@ -27757,7 +27757,7 @@
      "solution": "telling 是动词-ing 形式，后接 whether 引导的宾语从句；where 引导非限制性定语从句，修饰 the Arctic Circle，在从句中作地点状语。B、C 两项都看错了从句的工位与先行词。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必一 P26·阅读语篇变式（SAREK NATIONAL PARK：telling whether it is morning or night is impossible / where in summer the sun never sets）"
+      "label": "人教选必一 P26·阅读语篇变式（SAREK NATIONAL PARK：telling whether it is morning or night is impossible / where in summer the sun never sets）·页码待复核"
      }
     },
     {
@@ -27847,7 +27847,7 @@
      "solution": "原句 “Tu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930”——committed（尽心尽力的）、patient（有耐心的）。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P2·Tu Youyou 人物段（a committed and patient scientist…born in Ningbo）"
+      "label": "人教选必一 P96·Tu Youyou 人物段（a committed and patient scientist…born in Ningbo）"
      }
     },
     {
@@ -27863,7 +27863,7 @@
      "solution": "情态动词 should 后接动词原形；词表原形是 makes great contributions to society（对社会做出巨大贡献），进入 should 句要还原为 make。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P7·讨论 greatness 的表达（makes great contributions to society）"
+      "label": "人教选必一 P99·讨论 greatness 的表达（makes great contributions to society）"
      }
     },
     {
@@ -27879,7 +27879,7 @@
      "solution": "语篇讲了一个故事：一个小女孩敲门请他帮忙辅导作业，他耐心相助——这是 kind（和善）的证据；其余三项是成就与经历，支撑的是 genius 与聪明。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P8·Einstein 语篇（a courageous and kind figure…helped a little girl）变式"
+      "label": "人教选必一 P97·Einstein 语篇（a courageous and kind figure…helped a little girl）变式"
      }
     },
     {
@@ -27969,7 +27969,7 @@
      "solution": "前句‘不少创新已经可用’与后句‘大多数新住宅普及尚需数年’意思相对，用 Nevertheless（然而）转折；Therefore 表因果、For example 表例证、In addition 表递进，均不符。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P15·SMART HOMES 结尾段（This smart technology is not a fantasy…Nevertheless…）"
+      "label": "人教选必一 P15·SMART HOMES 结尾段（This smart technology is not a fantasy…Nevertheless…）·页码待复核"
      }
     },
     {
@@ -27985,7 +27985,7 @@
      "solution": "In addition 是递进路标，提示‘健康监测’是在智能控制之后新增的一项功能；这句正是该段首句。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P14·Regular Health Checks 段首（In addition…）"
+      "label": "人教选必一 P99·Regular Health Checks 段首（In addition…）"
      }
     },
     {
@@ -28001,7 +28001,7 @@
      "solution": "‘阳光明亮’与‘分不清早晚’之间是让步转折，用 Even though；下一句 the sun never sets（极昼）点明原因。Because 方向相反（若因阳光明亮而分不清早晚，逻辑不通），Unless 与 As soon as 语义不搭。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P26·Sarek 语篇开头（Even though the sun is brightly shining…）变式"
+      "label": "人教选必一 P98·Sarek 语篇开头（Even though the sun is brightly shining…）变式"
      }
     },
     {
@@ -28092,7 +28092,7 @@
      "solution": "Could you explain ...? 是礼貌请求语块（与 Could you give me an example? 同族）；对老师用祈使句或命令口吻不得体。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P43·Asking for clarification 礼貌语块（Could you explain…）"
+      "label": "人教选必一 P43·Asking for clarification 礼貌语块（Could you explain…）·页码待复核"
      }
     },
     {
@@ -28108,7 +28108,7 @@
      "solution": "书信要有 greeting 与 closing：正文结束后写谦辞（如 Best regards,）再另起一行署名，示例信正是这样收尾的。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P23·书信示例（Dear Past Bingbing…Best regards, Future Bingbing）"
+      "label": "人教选必一 P23·书信示例（Dear Past Bingbing…Best regards, Future Bingbing）·页码待复核"
      }
     },
     {
@@ -28124,7 +28124,7 @@
      "solution": "四要素是事由（purpose）、时间（time）、地点（place）、请回复（RSVP）；价格、姓名、照片都不是邀请函的必备要素。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P23·给未来自己写信的要素清单与书信格式变式"
+      "label": "人教选必一 P99·给未来自己写信的要素清单与书信格式变式"
      }
     },
     {
@@ -28223,7 +28223,7 @@
      "solution": "第一处 his lack of ...：his 是物主代词，后面接名词，lack 意为『缺乏』；第二处 he lacks confidence：主语 he 后作谓语，lacks 带第三人称单数 -s，是动词。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P40·一词多义辨析（his lack of eye contact / he lacks confidence）"
+      "label": "人教选必一 P40·一词多义辨析（his lack of eye contact / he lacks confidence）·页码待复核"
      }
     },
     {
@@ -28239,7 +28239,7 @@
      "solution": "remote adj. 意为『遥远的、偏远的』；remote n. 是口语里的『遥控器』（a device for controlling something else from a distance）。词性一变，词义全变。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P28·词义搭配配对（buffet / edge / ban / remote 动名两义）"
+      "label": "人教选必一 P102·词义搭配配对（buffet / edge / ban / remote 动名两义）"
      }
     },
     {
@@ -28255,7 +28255,7 @@
      "solution": "选 clues。clue 意为『线索』：身体语言提供的是受内心思想情感影响的『外在线索』，与 internal（内在的）相对；备选词是 clue，空格前没有冠词，用复数 clues。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P40·肢体语言语篇填空变式（external clues 与 internal thoughts 相对）"
+      "label": "人教选必一 P100·肢体语言语篇填空变式（external clues 与 internal thoughts 相对）"
      }
     },
     {
@@ -28345,7 +28345,7 @@
      "solution": "语篇原句：\"a person encountering an identical gesture may interpret it as meaning zero\"——在法国，OK 手势被理解为『零』。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P38·肢体语言阅读语篇（OK 手势：Japan money / France zero）"
+      "label": "人教选必一 P100·肢体语言阅读语篇（OK 手势：Japan money / France zero）"
      }
     },
     {
@@ -28361,7 +28361,7 @@
      "solution": "语篇原句：\"people may kiss their friends on the cheek when they meet\"；bowing from the waist 是其他地方（elsewhere）更常用的礼节之一。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P38·见面礼节对照（kiss on the cheek / shaking hands / bowing from the waist / nodding the head）"
+      "label": "人教选必一 P38·见面礼节对照（kiss on the cheek / shaking hands / bowing from the waist / nodding the head）·页码待复核"
      }
     },
     {
@@ -28377,7 +28377,7 @@
      "solution": "语篇原句：\"if a student has his head lowered to look at his watch, it implies he is bored and just counting the minutes for the class to end.\"——低头看表是无聊、盼着下课的信号。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P44·课堂肢体语言语篇变式（head lowered to look at his watch implies bored）"
+      "label": "人教选必一 P82·课堂肢体语言语篇变式（head lowered to look at his watch implies bored）"
      }
     },
     {
@@ -28466,7 +28466,7 @@
      "solution": "Hang on a second.（稍等一下）是书上给出的争取思考时间的填充语；同类还有 (Er/Oh/Um,) let me see/think ... / What I want to say is ...",
      "difficulty": 1,
      "source": {
-      "label": "人教选必一 P7·讨论填充语（Hang on a second. / What I want to say is ...）"
+      "label": "人教选必一 P102·讨论填充语（Hang on a second. / What I want to say is ...）"
      }
     },
     {
@@ -28481,7 +28481,7 @@
      "solution": "\"In my opinion ...\" 是书上列出的表达观点句式，同类还有 From my point of view, ... / My view is that ...；B 表惋惜，C 是回避，都不是亮观点。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P55·观点表达句式组（In my opinion / From my point of view / My view is that ...）"
+      "label": "人教选必一 P102·观点表达句式组（In my opinion / From my point of view / My view is that ...）"
      }
     },
     {
@@ -28497,7 +28497,7 @@
      "solution": "选 Nevertheless。前句承认变化『令人害怕』，后句转折到『积极看待并接受』，是让步转折；Therefore 表因果、Otherwise 表『否则』、Besides 表递进，逻辑都不合。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必一 P20·科技议论文变式（Nevertheless, I will always look on the positive side ...）"
+      "label": "人教选必一 P20·科技议论文变式（Nevertheless, I will always look on the positive side ...）·页码待复核"
      }
     },
     {
@@ -28603,7 +28603,7 @@
      "solution": "选 blessed。通篇基调积极：beautiful and wild place、fresh air、great adventure，加上前句 cannot complain 的转折提示，此处是『深感幸运』；bored / burdened / blocked 都让情感线掉头向下。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必一 P27·Sarek 语篇填空（However, I cannot complain ... feel blessed to be alive）"
+      "label": "人教选必一 P27·Sarek 语篇填空（However, I cannot complain ... feel blessed to be alive）·页码待复核"
      }
     },
     {
@@ -28627,6 +28627,606 @@
      "question": "方法自测：拿到一篇新的完形填空，按三遍完形法说出你的操作顺序，并用一句话说明回读时要检查什么。",
      "answer": "顺序：第一遍通读抓主线与情感基调→第二遍逐空找复现与搭配→第三遍回读验证。回读检查：代入选项后全文逻辑词方向是否正确、情感线是否前后一致。（表述完整即可）",
      "solution": "三遍法的核心是『先整体后局部再回到整体』：回读是把每个局部选择放回全局检验的最后一关，省不得。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11b_11",
+   "summary": "跟屠呦呦报道学 be awarded 与 make contributions to，把人物时间线读成一条奖杯之路。",
+   "explanation": [
+    "本册第一课就是一条头条新闻：诺贝尔生理学或医学奖授予中国药学家屠呦呦，获奖理由是她的研究发现了青蒿素——“a crucial new treatment for malaria”（治疗疟疾的关键新药）。报道劈头就是导语：“This year's Nobel Prize for Physiology or Medicine has been awarded to Tu Youyou (co-winner), whose research led to the discovery of artemisinin...”。一句话就把「谁、获了什么奖、为什么获奖」全部交代清楚——这就是新闻导语的力量。",
+    "接着按时间线铺开：a committed and patient scientist（一位尽心尽力、有耐心的科学家）、1930 年生于宁波、1955 年毕业于北京医学院；1967 年加入抗疟科研团队，查阅两千多册古医书、评估 28 万种植物，“After failing more than 190 times, the team finally succeeded in 1971”（失败 190 多次后，团队终于在 1971 年成功）。她甚至坚持先在自己身上试药——这些细节让「伟大」两个字有了具体的重量。",
+    "为什么先报成就再讲经历？报道像一座倒过来的金字塔：最重要的成就放在第一句，读者三秒钟就知道主角是谁、做成了什么大事；时间线像履历表，让人看清成就“是怎么一步步做出来的”；引语收尾（获奖感言 “The honour is not just mine. There is a team behind me, and all the people of my country.”）让人物开口说话，比作者夸一百句都管用。报纸上科学家、运动员的报道几乎都是这个套路。",
+    "语言上要收三件套：成就表达（be awarded the Nobel Prize for...、make great contributions to society、save hundreds of thousands of lives）、品质词（committed、patient、courageous、kind）、合并工具（whose 引导的非限制性定语从句——导语里 whose research led to... 一笔把「她的研究」并进主句，介绍人物时特别好用）。读的时候把三样东西分栏记，写作时按栏取用。",
+    "答题有两个高频扣分点：一是 make contributions 后的介词 to 不能丢——“make contributions to society” 才对；二是 award 用被动——人是“被授予”，she was awarded 的 be 动词不能少。另外，品质词要配证据：committed 对应 would not acknowledge defeat（不肯认输）与坚持试药，只贴标签不给事例，人物立不住。",
+    "这一课与必修阶段的人物语篇（如林巧稚）一脉相承，又为全册开了头：先立「人」（Unit 1），再望「未来」（Unit 2），再走「远方」（Unit 3）。之后遇到任何人物语篇——报道、传记、颁奖词——都可以先套「成就—时间线—品质—评价」四格再细读，阅读速度和写作档次都会上一个台阶。写作时也别忘了本课的三件套：导语给成就、时间线给过程、引语给精神——按这个骨架写一个 100 词的人物小传，比堆形容词高明得多。"
+   ],
+   "methods": [
+    {
+     "name": "人物报道三卡片法",
+     "steps": [
+      "先读导语填成就卡：谁＋获什么奖＋贡献是什么；",
+      "按年份连时间线：出生—毕业—关键抉择—成功；",
+      "配品质卡：每个品质词回文找一句证据；",
+      "把三卡合成 60 词口头介绍，再对照原文校对。"
+     ],
+     "tip": "成就开门，时间线走，品质收尾。"
+    },
+    {
+     "name": "whose 合并长句法",
+     "steps": [
+      "找出两个共享「谁的」的小句；",
+      "用 whose 替换第二个句子的所属词（her/his）；",
+      "whose 从句紧跟人名之后，前面加逗号；",
+      "读一遍，确认从句内主谓宾完整。"
+     ],
+     "tip": "whose 是「谁的」，一逗一从句，两句变一句。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "报道用哪两个形容词概括屠呦呦的品质？写出原短语并说出意思。",
+     "solution": "a committed and patient scientist——committed 尽心尽力的、全身心投入的；patient 有耐心的。",
+     "difficulty": 1,
+     "pitfall": "committed 双写 m 又双写 t，别漏写成 commited。"
+    },
+    {
+     "question": "用 whose 合并两句：The prize went to Tu Youyou. / Her research led to the discovery of artemisinin.",
+     "solution": "The prize went to Tu Youyou, whose research led to the discovery of artemisinin. whose 替换 her，从句紧跟人名，逗号隔开。",
+     "difficulty": 2,
+     "pitfall": "先行词是人、从句表所属时用 whose，不能换成 which；逗号不能少。"
+    },
+    {
+     "question": "“After failing more than 190 times, the team finally succeeded in 1971.” 里为什么用 failing 而不是 failed？",
+     "solution": "after 在这里是介词，介词后的动词要用 -ing 形式；190 多次失败与 1971 年的成功形成对比，正是不认输品格的证据。",
+     "difficulty": 2,
+     "pitfall": "别写成 After failed more than 190 times——介词后不能直接跟过去式。"
+    }
+   ],
+   "mistakes": [
+    "make contributions 后忘接 to：“make contributions society” 是病句，必须是 make contributions to society。",
+    "丢掉被动：she was awarded the Nobel Prize 误写成 she awarded the Nobel Prize——人是“被授予”，be 动词不能少。",
+    "whose 从句误用 which：介绍人物所属用 whose（谁的），which 不能表示所属关系。",
+    "只背品质词不给证据：每说一个 committed/patient，都要回文找一句事例支撑，否则人物立不住。"
+   ],
+   "source": {
+    "unit": "选择性必修一 Unit 1 People of Achievement",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "细读报道人物段：语篇称屠呦呦是一位怎样的科学家？",
+     "options": [
+      "A committed and patient scientist",
+      "A strict and impatient scientist",
+      "A lucky and humorous scientist",
+      "A proud and careless scientist"
+     ],
+     "answer": "A",
+     "solution": "原句 “Tu Youyou, a committed and patient scientist, was born in Ningbo, China, on 30 December 1930”——committed（尽心尽力的）、patient（有耐心的）。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·TU YOUYOU AWARDED NOBEL PRIZE 人物段（a committed and patient scientist…）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "获奖感言 “The honour is not just mine. There is a team behind me, and all the people of my country.” 最能反映屠呦呦怎样的品质？",
+     "options": [
+      "谦逊感恩，把荣誉归于团队与祖国",
+      "觉得奖金分配不公平",
+      "认为自己只是运气好",
+      "想独享这份荣誉"
+     ],
+     "answer": "A",
+     "solution": "她说荣誉不只属于自己，身后有团队、有祖国的所有人——科学成就是集体协作的成果，这正是谦逊与家国情怀的体现。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·屠呦呦获奖感言（The honour is not just mine. There is a team behind me…）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "报道导语里藏着一个定语从句：Tu Youyou (co-winner), ____ research led to the discovery of artemisinin, a crucial new treatment for malaria. 横线上应填哪个词？",
+     "options": [
+      "who",
+      "whose",
+      "which",
+      "whom"
+     ],
+     "answer": "B",
+     "solution": "先行词是人 Tu Youyou，从句缺定语「她的（research）」，表所属用 whose；who/whom 在从句里做主语或宾语，不表所属。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·屠呦呦报道导语（whose research led to the discovery of artemisinin）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "情境微写作：用 a committed ... scientist 结构、make great contributions to 和 whose 从句各一次，两三句话介绍一位你敬佩的科学家。",
+     "answer": "示例：Zhong Nanshan is a committed scientist, whose research has saved countless lives. He has made great contributions to the fight against respiratory diseases.",
+     "solution": "按「品质＋证据＋贡献」组织：先用 a committed...scientist 定身份，再用 whose 从句补一句证据，最后用 make great contributions to 说影响；三个语言点各出现一次即达标。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11b_12",
+   "summary": "未来之家刷脸开门、自动关灯；用 Nevertheless 冷静转折，用 will be doing 畅想明天。",
+   "explanation": [
+    "第二单元的课文是一篇科技感十足的杂志文章 “SMART HOMES TO MAKE LIFE EASIER”（智能家居，让生活更轻松）：未来的家会「照顾」你——智能传感器（sensors）知道你离家了，电器自动关闭、不再浪费能源；智能门认得你的脸，从此 “no more lost keys”（不再丢钥匙）；房子还会学习你的日常习惯与偏好（daily routine and preferences）。结尾一段亮出态度：“This smart technology is not a fantasy. ... Nevertheless, ...”——这不是幻想，然而普及仍需时间。写作板块则让你给未来的自己写一封信，课本示例的称呼是 “Dear Past Bingbing”、落款 “Best regards, Future Bingbing”——由「未来的我」回望「现在的我」。",
+    "说明文的条理藏在结构里：设问或痛点开场（丢钥匙、忘关灯）→一项项功能展开（门、灯、空调）→回到现实（技术上可行，普及要时间）。这种「设想—理由—现实锚点」的写法是未来主题说明文的通用模板。重点是结尾的 Nevertheless：先承认趋势是好的，再补一个冷静的尾巴——这种让步转折让文章显得客观可信，议论文里同样常用。",
+    "语言上有两个抓手。一是将来进行时 will be doing：表示「将来某个时间点正在做某事」，比 will do 多一层画面感——This time next year, I will be walking on a campus. 说的是「明年此时我正走在校园里」。二是逻辑词家族：even though 让步、however/nevertheless 转折、in this sense 就此而言，说明文的骨架就是这些信号词搭起来的。",
+    "方法上先列「功能清单」再读：每读一段就在心里填一行表——功能是什么？解决了什么麻烦？我的态度？读完一张表就是全文。写作则用三段式：现在的麻烦→未来的设想→一句冷静的展望（Nevertheless, ...）。检查作文时特别盯住 will be doing 的拼写——will 后 be 用原形，主动词加 -ing。",
+    "从单元链上看，这一课接住了 Unit 1 的「人」：屠呦呦改变的是过去与现在，智能家居改变的是未来；而「未来」的话题还会一路延伸到选必二的科技与职业讨论。把 Nevertheless 和 will be doing 收进语料本——前者让议论显得客观冷静，后者让预测充满画面感，议论文和发言稿都能立刻用上。读完本课还可以做一个一分钟口头练习：用三句话向家人介绍「你心中的未来之家」，一句功能、一句 Nevertheless、一句 will be doing，说完这篇课文就真正长在你身上了。"
+   ],
+   "methods": [
+    {
+     "name": "功能清单阅读法",
+     "steps": [
+      "每读一段填一行表：功能／解决的麻烦／我的态度；",
+      "读完全文把表横向串一遍，就是文章结构；",
+      "找结尾的态度句（This smart technology is not a fantasy.）；",
+      "用 Nevertheless 类转折补一句自己的冷静评价。"
+     ],
+     "tip": "一个功能一行账，读完成文心不慌。"
+    },
+    {
+     "name": "未来三句预测法",
+     "steps": [
+      "第一句画面：This time next year, I will be doing...；",
+      "第二句转折：Nevertheless, ...（承认现实困难）；",
+      "第三句锚点：In this sense, ...（回到当下）；",
+      "读一遍检查 will be doing 的结构是否完整。"
+     ],
+     "tip": "will be doing 有画面，Nevertheless 来泼冷水。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "“This smart technology is not a fantasy.” 里 fantasy 是什么意思？这句话在文中起什么作用？",
+     "solution": "fantasy 幻想；这句话把「未来之家」从科幻拉回现实——许多新发明已经可用、已在一些家庭使用，为下文「然而普及仍需时间」的转折铺垫。",
+     "difficulty": 1,
+     "pitfall": "别把 fantasy 与 fantastic（极好的）混为一谈。"
+    },
+    {
+     "question": "用 will be doing 完成句子：This time tomorrow, I ____ (lie) on the beach in Sanya.",
+     "solution": "will be lying——明天此时「正躺在」沙滩上，将来进行时表达届时的正在进行。",
+     "difficulty": 2,
+     "pitfall": "别写成 will lie，少了「届时正在进行」的画面感。"
+    },
+    {
+     "question": "课本给未来自己写信的示例中，称呼与落款分别是什么？说明什么？",
+     "solution": "称呼 Dear Past Bingbing，落款 Best regards, Future Bingbing——这是「未来的我」写给「现在的我」的信，称呼与落款的人设必须自洽。",
+     "difficulty": 2,
+     "pitfall": "别把称呼与落款的方向写反——先看清信是「现在的我→未来的我」还是「未来的我→现在的我」。"
+    }
+   ],
+   "mistakes": [
+    "把 Nevertheless 当成 never 的变形——它是「然而／尽管如此」，表让步转折，位置在句首或句中并用逗号隔开。",
+    "will be doing 写成 will being 或 will be do——will 后 be 用原形，主动词加 -ing。",
+    "说明文只罗列功能不点态度——结尾要用一句态度句（如 not a fantasy）表明作者的乐观与审慎。",
+    "复述智能功能凭想象不回文——先在课文里找到原句再转述，防止把「设想」说成「事实」。"
+   ],
+   "source": {
+    "unit": "选择性必修一 Unit 2 Looking into the Future",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "语篇结尾写道 “This smart technology is not a fantasy.”，作者想说明什么？",
+     "options": [
+      "智能家居只是科幻故事",
+      "其中不少设想已经成真",
+      "智能家居永远不可能实现",
+      "作者坚决反对智能家居"
+     ],
+     "answer": "B",
+     "solution": "not a fantasy 意为「不是幻想」——许多新发明已经可用、已在一些家庭中使用，作者借此把畅想拉回现实。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·SMART HOMES 结尾段（This smart technology is not a fantasy…）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "结尾段的 Nevertheless 转折之后，作者表达了怎样的冷静判断？",
+     "options": [
+      "智能家居毫无风险，可以放心使用",
+      "趋势虽好，但要过些年才会普及到大多数新住宅",
+      "作者对智能家居完全悲观",
+      "智能家居已经全面普及"
+     ],
+     "answer": "B",
+     "solution": "Nevertheless 之后作者指出普及尚需时间——先承认「不是幻想」，再留一个冷静的尾巴，这正是让步转折的分寸。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·SMART HOMES 结尾段（Nevertheless…）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·书信格式：课本「给未来的自己写信」示例的落款是谁？",
+     "options": [
+      "Past Bingbing",
+      "Future Bingbing",
+      "Your teacher",
+      "Anonymous"
+     ],
+     "answer": "B",
+     "solution": "示例是「未来的我」回望「现在的我」：称呼 Dear Past Bingbing，落款 Best regards, Future Bingbing——称呼与落款的人设自洽是书信题的隐含考点。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·给未来自己写信的书信示例（Dear Past Bingbing…Best regards, Future Bingbing）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "用 will be doing 和 Nevertheless 各一次，写三句「十年后的我」：一句画面、一句转折、一句收束。",
+     "answer": "示例：In ten years, I will be working as a doctor in my hometown. Nevertheless, I will keep learning new medical technology. In this sense, the future belongs to those who prepare for it.",
+     "solution": "第一句用 will be doing 画出届时的画面；第二句用 Nevertheless 承认现实、补一个冷静条件；第三句用 in this sense 收束回当下。三个信号词各就各位，一段小预言就写成了。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11b_13",
+   "summary": "太阳不落的荒原上，驯鹿与萨米人同行：跟 Sarek 学 remote 一词多义，练游记的空间顺序与感官描写。",
+   "explanation": [
+    "第三单元的课文是一篇第一人称荒野日记 “SAREK NATIONAL PARK—EUROPE'S HIDDEN NATURAL TREASURE”（萨勒克国家公园——欧洲隐藏的自然宝藏）。萨勒克在瑞典北部、北极圈以北，夏天太阳不落，所以开篇一句就点破奇妙：“Even though the sun is brightly shining, telling whether it is morning or night is impossible.”（尽管阳光灿烂，却分不清是早上还是深夜）。作者在无人区跋涉，与驯鹿群同行——鹿群背后是世代在此放牧的萨米人（the Sami）；一路风餐露宿，文中却有坦然的独白 “However, I cannot complain.”（不过我没什么可抱怨的），以及 feel blessed to be alive 的感慨。单元后半还走进北京奥林匹克森林公园，感受城市里的自然。",
+    "读游记要跟着两条线走：一条是空间线（出发—途经—到达），一条是感官线（看见什么、听见什么、想到什么）。理解全文的钥匙是极昼：太阳不落，时间感失效，白天黑夜被拉平，孤独与壮美同时放大——开篇那句「分不清昼夜」不是写天气，是在写一种失重般的体验。读的时候不妨给自己配音：每换一处风景，就用一句 I saw... / I heard... 把画面说出来，两遍下来，语篇的结构和词块就都长在嘴上了。",
+    "语言上有三个抓手。一是 remote（偏远的、遥远的）这类「熟词」，要结合语境定词义，单元词汇板块还让 buffet、edge、ban、remote 的动名两义配对——一词多义是本单元的词汇重点。二是 even though 引导让步状语从句，后面必须接完整的主谓结构。三是动名词短语作主语：telling whether it is morning or night is impossible 里，telling... 整体是主语，谓语用单数 is。",
+    "方法上，读完游记先画路线图，再标三个「最难忘瞬间」，最后用三句话转述。写游记则用空间顺序做骨架（first...then...after that...）、感官描写做血肉（I saw/I heard/I felt），收尾补一句感受（如 take my breath away）。转折词的位置也要盯紧：However 放句首要加逗号，与句子内部的 even though 分工不同。",
+    "从单元链上看，这是「远方三部曲」的第一站：Unit 1 立人、Unit 2 望未来，Unit 3 走进荒野。游记的读法与写法在这篇课文里练熟之后，选必二 Unit 4 的加拿大铁路之旅会把「远方」再放大一次——同样的空间顺序与感官描写，只是从一个人的徒步换成了两个人的火车。现在把「路线为骨、感官为肉」这八个字记牢，下学期读游记就是老朋友重逢。"
+   ],
+   "methods": [
+    {
+     "name": "游记双线阅读法",
+     "steps": [
+      "一条线画路线：出发—途经—到达；",
+      "一条线标感官：看到／听到／想到；",
+      "圈出转折处的情感变化（However, I cannot complain.）；",
+      "用三句话转述「最难忘的一幕」。"
+     ],
+     "tip": "路线为骨，感官为肉。"
+    },
+    {
+     "name": "让步转折三兄弟",
+     "steps": [
+      "even though 引导让步从句，放在句子内部，后接完整主谓；",
+      "However 表句间转折，句首加逗号；",
+      "Nevertheless 更书面，常在结尾转折；",
+      "改写句子时先判断「让步还是转折」再选词。"
+     ],
+     "tip": "句内让步 even though，句间转折 However。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "“Even though the sun is brightly shining, telling whether it is morning or night is impossible.” 说明了萨勒克的什么特点？",
+     "solution": "极昼——夏季太阳不落，昼夜难分；句子写的不是天气好，而是一种时间感失效的奇妙体验。",
+     "difficulty": 1,
+     "pitfall": "别答「天气晴朗」——重点在后半句「分不清昼夜」。"
+    },
+    {
+     "question": "语篇中 “a remote place” 的 remote 是什么意思？它还容易与哪个词拼混？",
+     "solution": "remote 偏远的、遥远的，形容萨勒克人迹罕至；拼写上别与 remove（移除）混淆。",
+     "difficulty": 1,
+     "pitfall": "remote 与 remove 只差一个字母，词义完全不同。"
+    },
+    {
+     "question": "把 “It is impossible to tell whether it is morning or night.” 改写成以 telling 开头的句子。",
+     "solution": "Telling whether it is morning or night is impossible. 动名词短语作主语，谓语仍用单数 is。",
+     "difficulty": 2,
+     "pitfall": "改写后主语是「一件事」，谓语仍是单数 is，别改成 are。"
+    }
+   ],
+   "mistakes": [
+    "把萨勒克当成挪威或芬兰的国家公园——它在瑞典北部、北极圈以北。",
+    "even though 后漏掉主谓——它是连词，后面必须接完整的主语和谓语。",
+    "把极昼说成「太阳从不升起」——极昼是太阳不落，极夜才是太阳不升。",
+    "However 连接两个独立句时漏逗号——应写作 …, however, … 或另起一句 However, …。"
+   ],
+   "source": {
+    "unit": "选择性必修一 Unit 3 Fascinating Parks",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "语篇开篇说 “telling whether it is morning or night is impossible”，这揭示了萨勒克的什么特点？",
+     "options": [
+      "萨勒克整天都在下雨",
+      "夏季太阳不落，难分昼夜",
+      "作者在公园里迷了路",
+      "公园只在白天开放"
+     ],
+     "answer": "B",
+     "solution": "阳光灿烂却分不清早晚，写的是极昼——夏季太阳不落，时间感失效。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·SAREK NATIONAL PARK 语篇开头（Even though the sun is brightly shining…）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "结合 “However, I cannot complain.” 与 feel blessed to be alive，作者在荒野中的心情更接近哪一项？",
+     "options": [
+      "抱怨天气恶劣，想立刻回家",
+      "历经艰辛却心怀感恩",
+      "觉得旅程无聊透顶",
+      "后悔来到萨勒克"
+     ],
+     "answer": "B",
+     "solution": "However 转折之后是「没什么可抱怨的」与「为活着而庆幸」——苦中有恩，历险而感恩。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·Sarek 语篇（However, I cannot complain…feel blessed to be alive）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·词义辨析：语篇里修饰萨勒克的 remote 与下列哪一项意思最接近？",
+     "options": [
+      "faraway and quiet",
+      "rich and modern",
+      "crowded and noisy",
+      "small and cold"
+     ],
+     "answer": "A",
+     "solution": "remote 取「偏远的、人迹罕至」之义，与 faraway and quiet 相合；其余三项与荒野无人区的语境相悖。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·Build up your vocabulary 词义配对（buffet/edge/ban/remote）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "写三句你最喜欢的一处公园游记：一句空间顺序（first...then...）、一句感官描写（I saw/I heard...）、一句感受（用 take my breath away 或 feel blessed）。",
+     "answer": "示例：First I walked along the lake, and then I climbed up to the wooden tower. I saw the whole forest turning gold in the evening light. The quiet view simply took my breath away.",
+     "solution": "按「空间—感官—感受」三步组织：路线用 first/then 串起来，中段给一个具体画面，末句用本单元的词块收尾；写完回读，检查 even though/However 若有使用位置是否正确。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11b_14",
+   "summary": "同一个手势，不同含义：读肢体语篇弄懂 OK 手势与眼神接触的文化差异，学会给外国朋友提建议。",
+   "explanation": [
+    "第四单元的课文标题就很有画面感：“LISTENING TO HOW BODIES TALK”（听身体怎么说话）。课文的主线是：身体是一部不用嘴的收音机，手势、眼神、距离都在广播；但「频道」因文化而异。同一手势在不同地方含义可能完全不同：OK 手势在日本可以表示钱（money），在法国却表示零（zero）；见面礼节也各有规矩——有的国家贴面礼（kiss on the cheek），有的握手（shaking hands），日本常见弯腰鞠躬（bowing from the waist），还有点头致意（nodding the head）。眼神接触（eye contact）同样分文化：有的地方是自信，有的地方却显冒犯。",
+    "课文还教了一对观察术语：external clues（外在线索）与 internal thoughts（内心活动）。低头看表（head lowered to look at his watch）是外在线索，它暗示的是 bored（不耐烦、觉得无聊）这样的内心状态。读人的关键，就是把看得见的动作和看不见的想法连起来——这与读语篇时「从细节推态度」是同一种能力。",
+    "语言上，语篇里大量动名词短语当名词用（nodding the head、shaking hands、keeping eye contact），说明「动作名词化」在英语里极其常见；交际策略上，单元还给了礼貌请对方说明的语块——Could you explain...?（你能解释一下吗？），拿不准对方意思时，一句礼貌的追问比自作聪明地猜更得体。",
+    "方法上推荐「同手势异含义对照卡」：三栏（手势／在甲国的含义／在乙国的含义），先填课文的 OK 手势与四种见面礼节，再自己查证补一个新手势。给外国朋友提建议则用委婉句式：It might be a good idea to... / You could...——建议提得客气，跨文化交际才算得体。",
+    "往前看，这一课把必修阶段学过的「见面问候」升级成系统的非言语交际：过去你只会说 How do you do?，现在你懂得握手之外还有贴面、鞠躬、点头一整套「身体词汇」。往后看，选必二 Unit 2 的谢蕾留学故事会告诉你：文化差异不止于手势，还在课堂规则与生活习惯里——导师为什么要求你「说自己的观点」？沉默为什么在有的课堂被当作不礼貌？那时你将带着本单元练出的「文化敏感」，去读一个真实的适应故事，把观察身体的能力升级为观察文化的能力。"
+   ],
+   "methods": [
+    {
+     "name": "同手势异含义对照卡",
+     "steps": [
+      "画三栏表：手势／在甲国的含义／在乙国的含义；",
+      "先填课文的 OK 手势（日本 money／法国 zero）；",
+      "再补见面礼节：贴面礼、握手、鞠躬、点头；",
+      "自己查证一个新手势填进卡里，并用卡片造三句。"
+     ],
+     "tip": "手势一张卡，出国不抓瞎。"
+    },
+    {
+     "name": "线索—心情连线法",
+     "steps": [
+      "看到动作先问：这是外在线索（external clue）吗？",
+      "再找内心状态（internal thought）：bored、nervous 还是 interested？",
+      "回文找一句佐证再下结论；",
+      "拿不准时礼貌追问：Could you explain what you mean?"
+     ],
+     "tip": "动作是线索，心情要连线。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "OK 手势在日本和法国分别可能表示什么？",
+     "solution": "在日本可以表示 money（钱），在法国表示 zero（零）；同一手势在不同文化含义不同，使用前先了解当地习惯。",
+     "difficulty": 1,
+     "pitfall": "别想当然认为全世界都用它表示「好的」。"
+    },
+    {
+     "question": "见面时 bowing from the waist 是哪个国家常见的礼节？表示什么？",
+     "solution": "日本——弯腰鞠躬，表示尊重；同组的还有 kiss on the cheek（贴面礼）与 shaking hands（握手）等不同文化的问候方式。",
+     "difficulty": 1,
+     "pitfall": "礼节匹配要看文化背景，别凭印象乱配。"
+    },
+    {
+     "question": "语篇中某人 head lowered to look at his watch，这暗示了什么内心状态？",
+     "solution": "低头看表暗示 bored（不耐烦、觉得无聊）——外在线索透露内心状态，要结合语境解读。",
+     "difficulty": 2,
+     "pitfall": "别只会说「他在看时间」，要点出动作背后的态度。"
+    }
+   ],
+   "mistakes": [
+    "以为身体语言全世界通用——同一手势在不同文化可能含义相反，先了解再使用。",
+    "把眼神接触一律当自信——有的文化里长时间对视反而不礼貌。",
+    "把 external clues 与 internal thoughts 混为一谈——一个是看得见的外在动作，一个是看不见的内心活动。",
+    "读不懂对方就闷头瞎猜——礼貌请对方说明：Could you explain...?"
+   ],
+   "source": {
+    "unit": "选择性必修一 Unit 4 Body Language",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "按语篇，OK 手势在日本和法国分别可能表示什么？",
+     "options": [
+      "日本表示零，法国表示钱",
+      "日本表示钱，法国表示零",
+      "两国都表示「好的」",
+      "两国都表示拒绝"
+     ],
+     "answer": "B",
+     "solution": "语篇用 OK 手势做「同手势异含义」的例证：日本 money，法国 zero——这正是跨文化误会的经典案例。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·肢体语言阅读语篇（OK 手势：Japan money / France zero）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "按语篇的见面礼节对照，下列哪一项是日本常见的问候方式？",
+     "options": [
+      "kiss on the cheek",
+      "shaking hands",
+      "bowing from the waist",
+      "hugging tightly"
+     ],
+     "answer": "C",
+     "solution": "bowing from the waist（弯腰鞠躬）是日本常见的见面礼节；贴面礼、握手则属于其他文化的习惯。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·见面礼节对照（kiss on the cheek / shaking hands / bowing from the waist / nodding the head）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "语篇说低头看表暗示 bored。下列哪个动作同样可能传递「不感兴趣」的信号？",
+     "options": [
+      "身体前倾、频频点头",
+      "双臂交叉、目光游离",
+      "微笑并保持眼神接触",
+      "认真记笔记"
+     ],
+     "answer": "B",
+     "solution": "双臂交叉、目光游离是「疏离」的外在线索，指向不感兴趣；其余三项都是投入与专注的信号。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·课堂肢体语言语篇（head lowered to look at his watch implies bored）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "给一位即将来中国交流的外国朋友写三条身体语言建议，每条一句，用上 might 或 could。",
+     "answer": "示例：You could shake hands or nod with a smile when you meet someone new. It might be a good idea to avoid standing too close while talking. If you are not sure about a gesture, you could simply ask, “Could you explain what you mean?”",
+     "solution": "建议用委婉句式（could / might）而不是命令句；每条建议针对一个具体场景（问候、距离、追问），得体比面面俱到更重要。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11b_15",
+   "summary": "一粒种子改变世界：读袁隆平语篇记杂交水稻的硬事实，练「从句作主语谓语用单数」的主谓一致。",
+   "explanation": [
+    "第五单元的课文是 “A PIONEER FOR ALL PEOPLE”（全民的先驱），写的是把一生交给稻田的袁隆平。语篇先亮他的牵挂：“what concerned him most was that farmers often had poor harvests”（他最担心的是农民常常歉收）；再写他的判断：“Yuan Longping realised that larger fields were not the solution”（扩大耕地不是出路），于是坚信答案在杂交水稻——“Yuan Longping was convinced that the answer could be found in the creation of hybrid rice.”（答案可以在杂交水稻的培育中找到）。",
+    "今天的成绩写在数据里：“Today, it is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan's hybrid strains.”（据估计，中国国内约六成水稻消费来自袁氏杂交株系）；还有一个震惊世界的事实：That Yuan Longping had realised his dream of seawater rice surprised the whole world.（海水稻梦圆，震惊世界）。从「担心歉收」到「约六成占比」，一条牵挂变成了一份答卷——这正是本篇最动人的叙事弧线。",
+    "读人物语篇要分「事实层」与「影响层」。事实层是硬信息：杂交水稻（hybrid rice）、海水稻（seawater rice）、约六成的占比数字；影响层是软信息：解决饥饿、造福全民。屠呦呦救的是病人的命，袁隆平填饱的是大众的碗——把两篇放在一起读，你会看到「伟大」的两种写法：一种向疾病开战，一种向饥饿宣战。",
+    "语言焦点是主谓一致（subject-verb agreement）里的一个硬规则：从句作主语时，谓语一律按单数处理。That Yuan Longping had realised his dream of seawater rice surprised the whole world. 里，主语是 that 引导的整个从句（「袁隆平实现海水稻梦」这件事），所以谓语用单数 surprised；What Yuan Longping really cared about was not money or celebrity. 同理用 was。再长的主语也是「一件事」，不是复数。",
+    "还有两个高频句式值得入本：一是 it is estimated that...（据估计……），转述数据时最正式的写法；二是 be convinced that...（确信……）与 be concerned about/that...（挂心……），人物语篇写内心最常用的两个搭配。数字细节要精读：190 多次、28 万种、60%——人物语篇的说服力就藏在这些数字里。",
+    "收个尾：Unit 1 与 Unit 5 合成本册人物双璧，一个从药箱救人，一个从田间救饥——同一种「先天下之忧」的科学家品格，两种不同的战场。写作上，本课的 it is estimated that、be convinced that 会直接服务你的概要与议论；语法上，主谓一致的敏感度还会在长难句分析与语法填空里反复出现——看到句首的 That/What/Whether 从句，先默念一句「谓语用单数」，再往下读，这个习惯能帮你稳稳拿住一分。选必二的人物语篇（约翰·斯诺、谢蕾）马上就要登场，人物报道的读法即将从「事迹型」走向「方法型」与「成长型」。"
+   ],
+   "methods": [
+    {
+     "name": "事实—影响双栏法",
+     "steps": [
+      "左栏记事实：杂交水稻／海水稻／约六成占比；",
+      "右栏记影响：解决饥饿／震惊世界／造福全民；",
+      "复述时一句事实配一句影响；",
+      "把数字单独抄一列，防止张冠李戴。"
+     ],
+     "tip": "事实说贡献，影响见情怀。"
+    },
+    {
+     "name": "从句主语单数检验法",
+     "steps": [
+      "圈出句首的 that/what/whether 从句；",
+      "把从句整体看成「一件事」（第三人称单数）；",
+      "核对谓语：surprised、was、is 一律单数；",
+      "再核对时态是否与句意一致。"
+     ],
+     "tip": "一句话当主语，谓语永远单数。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "语篇说袁隆平最挂心（concerned him most）的是什么？",
+     "solution": "farmers often had poor harvests——农民常常歉收；这正是他投身杂交水稻研究的起点。",
+     "difficulty": 1,
+     "pitfall": "别答「担心自己的名声」——挂心的是农民的收成。"
+    },
+    {
+     "question": "“That Yuan Longping had realised his dream of seawater rice surprised the whole world.” 为什么谓语用 surprised 而不是 surprise？",
+     "solution": "主语是 that 引导的从句（「袁隆平实现海水稻梦」这件事），从句作主语按单数处理；且事情发生在过去，故用过去式 surprised。",
+     "difficulty": 2,
+     "pitfall": "从句再长也是「一件事」，不是复数主语。"
+    },
+    {
+     "question": "把「据估计，中国国内约六成的水稻消费来自袁氏杂交株系」译成英语。",
+     "solution": "It is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan's hybrid strains. it 作形式主语，真正的主语是 that 从句。",
+     "difficulty": 3,
+     "pitfall": "is comprised of 是固定搭配，别写成 is comprised by。"
+    }
+   ],
+   "mistakes": [
+    "从句作主语误用复数谓语：That he came are...（误）——从句作主语谓语一律单数。",
+    "be convinced 后误接 to do——「确信某事」要说 be convinced that + 从句。",
+    "把 hybrid rice 说成「海水稻」——hybrid rice 是杂交水稻，seawater rice 才是海水稻，两个概念别混。",
+    "只说「袁隆平伟大」不给事实——用课文里的数据（约六成）与引句支撑观点才有说服力。"
+   ],
+   "source": {
+    "unit": "选择性必修一 Unit 5 Working the Land",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "语篇中 what concerned him most was that farmers often had poor harvests 说明袁隆平最初最担心什么？",
+     "options": [
+      "农民常常歉收",
+      "稻米价格太低",
+      "自己的实验经费",
+      "国际竞争太激烈"
+     ],
+     "answer": "A",
+     "solution": "他最挂心的是农民常常歉收——正是这份牵挂把他引向杂交水稻的研究之路。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必一·A Pioneer for All People（what concerned him most was that farmers often had poor harvests）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "“Today, it is estimated that about 60 percent of domestic rice consumption in China is comprised of crops generated from Yuan's hybrid strains.” 这个数据说明什么？",
+     "options": [
+      "中国约六成的水稻消费来自袁氏杂交株系",
+      "袁隆平拥有全国六成的水稻专利",
+      "全国六成农民都在种海水稻",
+      "袁隆平研究水稻用了六十年"
+     ],
+     "answer": "A",
+     "solution": "it is estimated that 意为「据估计」，数据说的是国内约六成水稻消费由他的杂交株系贡献——杂交水稻的现实分量。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·A Pioneer for All People 数据段（about 60 percent of domestic rice consumption…）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·主谓一致：What Yuan Longping really cared about ____ not money or celebrity. 横线上填 was 还是 were？",
+     "options": [
+      "was",
+      "were"
+     ],
+     "answer": "A",
+     "solution": "主语是 what 引导的从句（他真正在乎的东西），按单数处理，谓语用 was；从句再长也不改变单数属性。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必一·语法板块（What Yuan Longping really cared about was not money or celebrity）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "用两句话介绍袁隆平：第一句用 that/what 从句作主语（注意谓语单数），第二句用 make great contributions to。",
+     "answer": "示例：What Yuan Longping devoted his whole life to was hybrid rice research. He has made great contributions to solving the problem of hunger in China.",
+     "solution": "第一句用 What...was 的从句主语结构，谓语用单数 was；第二句用 make great contributions to 说影响。写完自查：从句主语的谓语是否单数、to 是否保留。",
      "difficulty": 3
     }
    ]
@@ -28718,7 +29318,7 @@
      "solution": "机会只是与现在/将来相反的假设，主句用 would do，构成 which country would you go to",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P24·视频讨论题（If you had a chance to go overseas as an international student…）"
+      "label": "人教选必二 P24·视频讨论题（If you had a chance to go overseas as an international student…）·页码待复核"
      }
     },
     {
@@ -28734,7 +29334,7 @@
      "solution": "与将来相反也可用 were 表纯属假设，主句 would do；条件句里不填 are 或 will be",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P49·视频讨论题（If you were taking a journey across Canada…）"
+      "label": "人教选必二 P49·视频讨论题（If you were taking a journey across Canada…）·页码待复核"
      }
     },
     {
@@ -28744,7 +29344,7 @@
      "solution": "last year 表与过去相反：从句 didn't have 改为 had had，主句 didn't visit 改为 would have visited",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P24·go overseas 假设变式（与过去相反合并成句）"
+      "label": "人教选必二 P24·go overseas 假设变式（与过去相反合并成句）·页码待复核"
      }
     },
     {
@@ -28837,7 +29437,7 @@
      "solution": "遗憾发生在过去（没早点告诉我），wish 从句用 had told；后半句 could have gone 是配套提示",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P34·补全对话（I wish you had told me earlier…You could have taken your parents there）"
+      "label": "人教选必二 P34·补全对话（I wish you had told me earlier…You could have taken your parents there）·页码待复核"
      }
     },
     {
@@ -28853,7 +29453,7 @@
      "solution": "suggest 表建议，从句用 (should) do，动词原形 pay——与语音对话 I suggest you pay more attention to the weak forms 同型",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P19·语音对话（I suggest you pay more attention to the weak forms）"
+      "label": "人教选必二 P19·语音对话（I suggest you pay more attention to the weak forms）·页码待复核"
      }
     },
     {
@@ -28869,7 +29469,7 @@
      "solution": "insist 表坚持认为、陈述事实时从句用陈述语气，饮食习惯是常态事实，用 is；只有 insist 表坚决要求才用 (should) do",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P32·健康饮食语篇变式（insisted that a big enemy of health is fatty food）"
+      "label": "人教选必二 P98·健康饮食语篇变式（insisted that a big enemy of health is fatty food）"
      }
     },
     {
@@ -28968,7 +29568,7 @@
      "solution": "never 开头部分倒装：助动词 have 提到主语 we 之前，其余成分位置不变",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P34·补全对话（We've never been to such an attractive restaurant before）"
+      "label": "人教选必二 P99·补全对话（We've never been to such an attractive restaurant before）"
      }
     },
     {
@@ -28978,7 +29578,7 @@
      "solution": "Only in this way 修饰状语放句首，句子部分倒装：情态动词 could 提到主语 the disease 前，被动结构 be stopped 保留",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P2·阅读语篇（约翰·斯诺拆水泵柄、止住霍乱）"
+      "label": "人教选必二 P96·阅读语篇（约翰·斯诺拆水泵柄、止住霍乱）"
      }
     },
     {
@@ -28987,7 +29587,7 @@
      "solution": "Not until John Snow found the cause of cholera did people know how to prevent it.（until 从句用陈述语序 found 不倒装，主句补 did 并把 knew 还原成 know）",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P2·阅读语篇变式（no one knew how to prevent or treat cholera）"
+      "label": "人教选必二 P96·阅读语篇变式（no one knew how to prevent or treat cholera）"
      },
      "answer": "Not until John Snow found the cause of cholera did people know how to prevent it."
     },
@@ -29079,7 +29679,7 @@
      "solution": "问句问支付方式，用书上付账句块作答：I'll pay in cash/through my mobile phone/by credit card. 其余三项分别是点单、祝福与递菜单。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P30·点餐付账句块（How will you pay? I'll pay in cash/through my mobile phone/by credit card）"
+      "label": "人教选必二 P30·点餐付账句块（How will you pay? I'll pay in cash/through my mobile phone/by credit card）·页码待复核"
      }
     },
     {
@@ -29095,7 +29695,7 @@
      "solution": "A 句意为“下雨前我已经在网上叫好了车”，网上叫车正是科技便利出行的写照；其余三句都是普通生活句，与科技无关。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P29·语法例句池（I had ordered a taxi online）"
+      "label": "人教选必二 P96·语法例句池（I had ordered a taxi online）"
      }
     },
     {
@@ -29110,7 +29710,7 @@
      "solution": "A 用 but 把利与弊连在一句里，两面俱到；B 只说了优点；C 是中性事实句，不含利弊评价。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P30·付账句块变式（移动支付利弊观点句仿写）"
+      "label": "人教选必二 P113·付账句块变式（移动支付利弊观点句仿写）"
      }
     },
     {
@@ -29201,7 +29801,7 @@
      "solution": "该段论点是“吃得慢”，对应标题 Slow Eating is Good；Reducing Sweets is Key 对应减糖段，Keep It Fresh and Balanced 对应新鲜均衡段，The Real Killer is Sugar 对应“糖才是真凶”的首段。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P33·健康饮食范文小标题配对（Slow Eating is Good）"
+      "label": "人教选必二 P99·健康饮食范文小标题配对（Slow Eating is Good）"
      }
     },
     {
@@ -29216,7 +29816,7 @@
      "solution": "原句说“真正损害健康的与其说是油腻食物，不如说是糖”，A 用 rather than 保留“是糖、不是油腻食物”的原义；B 把比较方向说反了，C 曲解原义。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P32·健康饮食范文论点句（The real driver of poor health is not so much fatty food, as it is sugar）"
+      "label": "人教选必二 P99·健康饮食范文论点句（The real driver of poor health is not so much fatty food, as it is sugar）"
      }
     },
     {
@@ -29231,7 +29831,7 @@
      "solution": "压缩要去掉数据细节、留住论点：甜饮料是多余糖分的主要来源；B 曲解了数据（1/3 指糖分的来源比例，不是喝饮料的人数），C 语气绝对化、偏离原义。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P32·甜饮料数据段变式（去数据留论点压缩）"
+      "label": "人教选必二 P97·甜饮料数据段变式（去数据留论点压缩）"
      }
     },
     {
@@ -29321,7 +29921,7 @@
      "solution": "嘉宾开场谢语是 Thanks for inviting me.；B 是访谈收尾句，C 是主持人请嘉宾展开的话，D 是表达惊讶的感叹，都不在开场谢语的位置上。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P19·访谈示范对话（Hi, Jane. Welcome to the show!—Thanks for inviting me）"
+      "label": "人教选必二 P103·访谈示范对话（Hi, Jane. Welcome to the show!—Thanks for inviting me）"
      }
     },
     {
@@ -29337,7 +29937,7 @@
      "solution": "问“成功秘诀”就答方法与坚持；B 答的是 challenge，C 是收尾客套句，D 答的是爱好，都与 key to success 错位。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P18·访谈句块（What is the key to your success? What do you feel is your biggest achievement?）"
+      "label": "人教选必二 P18·访谈句块（What is the key to your success? What do you feel is your biggest achievement?）·页码待复核"
      }
     },
     {
@@ -29353,7 +29953,7 @@
      "solution": "A 用“优势+经历证据”结构：I'm good at teamwork 亮优势，I have experience in organising class activities 证明确实做过；B 把 strengths 理解成了力气，C 自我否定是面试大忌，D 只谈爱好与岗位无关。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P18·访谈句块变式（自我推销应答：I'm good at… / I have experience in…）"
+      "label": "人教选必二 P18·访谈句块变式（自我推销应答：I'm good at… / I have experience in…）·页码待复核"
      }
     },
     {
@@ -29443,7 +30043,7 @@
      "solution": "书上原句用 exceptional beauty（绝美）呼应 took their breath away；ordinary（平凡）与“美得屏息”矛盾，freezing 只说冷，hidden 说被藏起，都不搭。",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P38·阅读语篇（Lake Louise：the blue water literally took their breath away with its exceptional beauty）"
+      "label": "人教选必二 P38·阅读语篇（Lake Louise：the blue water literally took their breath away with its exceptional beauty）·页码待复核"
      }
     },
     {
@@ -29459,7 +30059,7 @@
      "solution": "书上练习原句用 breathtaking landscape（壮美的风景）；freezing 只说冷，boring（无聊）与“著名景点”相悖，crowded（拥挤）也撑不起赞美语境。",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P40·词汇练习（the beautiful coastline and breathtaking landscape of St Andrews）"
+      "label": "人教选必二 P100·词汇练习（the beautiful coastline and breathtaking landscape of St Andrews）"
      }
     },
     {
@@ -29475,7 +30075,7 @@
      "solution": "A 三件套齐全：spectacular 写奇峰、in the south of Anhui 定方位、take one's breath away 抒感受，正是书上 Lake Louise 一句的迁移；其余三句要么只有地点事实，要么只写了个人经历。",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P38·阅读语篇变式（spectacular mountain peaks + take one's breath away 仿写）"
+      "label": "人教选必二 P97·阅读语篇变式（spectacular mountain peaks + take one's breath away 仿写）"
      }
     },
     {
@@ -29567,7 +30167,7 @@
      "solution": "释义配对的答案是 acknowledge（承认）；recall 是回忆，comfort 是安慰，qualify 是使合格",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P16·Build up your vocabulary 释义配对（to accept, admit, or recognise sth → acknowledge）"
+      "label": "人教选必二 P97·Build up your vocabulary 释义配对（to accept, admit, or recognise sth → acknowledge）"
      }
     },
     {
@@ -29577,7 +30177,7 @@
      "solution": "subscribe 与 the view 之间要用介词 to，subscribe to the view 意为「赞同这一观点」；主语 Many scientists 是复数，动词用原形",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P4·Build up your vocabulary 动词介词组词（Many scientists subscribe to the view that…）"
+      "label": "人教选必二 P97·Build up your vocabulary 动词介词组词（Many scientists subscribe to the view that…）"
      }
     },
     {
@@ -29593,7 +30193,7 @@
      "solution": "落基山里最难攀登的是「山峰」peaks；旅行最难忘的部分是「亮点」the highlight of the trip。注意 highlight 常用单数搭配 the highlight of...；peak 指山峰本身，sight 泛指景物，强调「最难攀登」须用 peak",
      "difficulty": 3,
      "source": {
-      "label": "人教选必二 P40·Build up your vocabulary 词块搭配变式（the most difficult peaks to climb / the highlight of the trip）"
+      "label": "人教选必二 P40·Build up your vocabulary 词块搭配变式（the most difficult peaks to climb / the highlight of the trip）·页码待复核"
      }
     },
     {
@@ -29685,7 +30285,7 @@
      "solution": "书上对议论文书信的结构归纳正是：以问题或事实开头、表明观点、给理由和论据、陈述结论",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P21·Analyse the argumentative letters（Start with a question or a fact→State an opinion→Give reasons and evidence→State a conclusion）"
+      "label": "人教选必二 P21·Analyse the argumentative letters（Start with a question or a fact→State an opinion→Give reasons and evidence→State a conclusion）·页码待复核"
      }
     },
     {
@@ -29701,7 +30301,7 @@
      "solution": "To begin with 是列举第一条理由的标志，引出的是支撑观点的第一条分论点（经济压力），不是观点本身也不是结论",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P20·Studying Abroad: Is It a Good or a Bad Idea? 两封书信（To begin with…economic pressure）"
+      "label": "人教选必二 P97·Studying Abroad: Is It a Good or a Bad Idea? 两封书信（To begin with…economic pressure）"
      }
     },
     {
@@ -29717,7 +30317,7 @@
      "solution": "百分数 25%、倍数 twice as likely 加期刊来源，是典型的数据型论据。注意出现期刊名不代表是引用名人名言型——判断关键是数字证据与研究来源",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P32·Workbook 健康饮食短文变式（25% of daily calories→数据论据）"
+      "label": "人教选必二 P99·Workbook 健康饮食短文变式（25% of daily calories→数据论据）"
      }
     },
     {
@@ -29809,7 +30409,7 @@
      "solution": "后句是对前句的同义复述，用 in other words（换句话说）衔接最贴切",
      "difficulty": 1,
      "source": {
-      "label": "人教选必二 P21·Use connectors 连接词库与句子改写（consider their parents' budget 一句·换说关系 in other words/that is to say）"
+      "label": "人教选必二 P100·Use connectors 连接词库与句子改写（consider their parents' budget 一句·换说关系 in other words/that is to say）"
      }
     },
     {
@@ -29825,7 +30425,7 @@
      "solution": "前句是因（中国与世界的联系增多），后句是果（需要国际化青年人才），因果推论用 Therefore，与原文一致。注意 In short 表总结而非因果；此处是从原因推出需求，不是全文收束",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P20·Studying Abroad: Is It a Good or a Bad Idea? 书信原句（Therefore, China needs more talented young people…）"
+      "label": "人教选必二 P20·Studying Abroad: Is It a Good or a Bad Idea? 书信原句（Therefore, China needs more talented young people…）·页码待复核"
      }
     },
     {
@@ -29841,7 +30441,7 @@
      "solution": "原文用 In other words 复述并强调前句建议——换一种说法让读者听得更明白。注意 As a result 表结果，但这里并非因果推出，而是同一建议的换说；认准「复述」关系",
      "difficulty": 2,
      "source": {
-      "label": "人教选必二 P32·Workbook 健康饮食短文连接词变式（In other words, …cut out sweet drinks altogether）"
+      "label": "人教选必二 P99·Workbook 健康饮食短文连接词变式（In other words, …cut out sweet drinks altogether）"
      }
     },
     {
@@ -29849,6 +30449,607 @@
      "question": "以 \"Doing regular exercise is important for high school students.\" 为观点句，用「观点—论据—分析」三步法写一个 80 词左右的英语段落，要求至少用上 Therefore 和 For example，写完用连接词清单自查一遍。",
      "answer": "80 词左右的三步段落一段，含 For example 与 Therefore",
      "solution": "参考提纲：观点句照抄所给句；论据一 For example, ...（如每天跑步二十分钟的同学上课更专注）；分析句 This shows that...；收尾 Therefore, ...（呼吁坚持锻炼）",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g12a_11",
+   "summary": "霍乱年代的破案故事：John Snow 用地图与水泵柄锁定真凶——学科学叙事的四步结构与观点表达句式。",
+   "explanation": [
+    "选必二开篇就是一桩「科学破案」：课文 “John Snow Defeats “King Cholera””（约翰·斯诺战胜「霍乱之王」）。十九世纪的伦敦霍乱横行，语篇开篇交代时代困境：no one knew how to prevent or treat cholera（当时没人知道如何预防或治疗霍乱）。医生约翰·斯诺不相信「瘴气致病」的流行说法，他怀疑病根在水里。他做了三件今天仍堪称教科书的事：把死亡病例逐户标注在地图上，发现死亡集中在宽街（Broad Street）水泵周围；说服当局拆掉水泵的柄，疫情随之止住；再逐户追查饮水来源，最终证实霍乱由受污染的水传播。",
+    "这就是科学方法的叙事版：问题（problem）→假说（hypothesis）→证据（evidence）→结论（conclusion）。地图标记提供的是「数据证据」——病例的空间分布指向水源；拆水泵是「干预验证」——拿掉嫌疑源，疫情就退；追查水源是「复核」——把结论钉死。考试最爱问「他凭什么推翻旧说」，答案永远指向证据，而不是权威或直觉。",
+    "语言上，科学语篇有自己的装备：观点句 Many scientists subscribe to the view that...（许多科学家认同……的观点）比 I agree 正式得多；因果与被动高频出现——cholera was caused by contaminated water（霍乱由受污染的水引起），被动语态让陈述显得客观；还有疑问词＋不定式的紧凑结构 no one knew how to prevent or treat cholera。本册词汇板块也把 acknowledge、subscribe to 这类学术动词列为重点。",
+    "方法上用「科学四步复述法」：每读一段就问自己处在哪一步（问题？假说？证据？结论？），读完用四句英语把研究复述一遍——一句一步。复述时先给假说，再给证据，最后给结论，顺序不能乱：科学叙事的说服力来自顺序。这个四步框架不只用于本课，也适用于任何「研究型」语篇——比如屠呦呦发现青蒿素的过程，同样能装进这四个格子里。",
+    "从整册看，这本「人与科学」之书由本课定调：U2 的谢蕾把方法用于适应新文化，U3 把目光转向餐桌上的文化，U4 坐上横穿加拿大的火车，U5 学会救人的急救。方法、文化、旅程、急救——科学精神是贯穿全册的暗线。语言上则请把 subscribe to the view that、be caused by 这两个表达收进积累本：一个用来转述观点，一个用来陈述因果，整个高中的科普类读写都会反复用到它们。"
+   ],
+   "methods": [
+    {
+     "name": "科学四步复述法",
+     "steps": [
+      "第一步 Problem：一句英语说清时代困境（no one knew how to prevent or treat cholera）；",
+      "第二步 Hypothesis：一句英语给出他的怀疑（病根在受污染的水）；",
+      "第三步 Evidence：两句英语给证据（地图标记＋拆泵止疫＋追查水源）；",
+      "第四步 Conclusion：一句英语收束（证实水传霍乱）。"
+     ],
+     "tip": "问题—假说—证据—结论，四步讲清一个科学家。"
+    },
+    {
+     "name": "观点表达升格法",
+     "steps": [
+      "口语层：I agree with...；",
+      "书面层：Many scientists subscribe to the view that...；",
+      "强调层：There is no doubt that...；",
+      "写科学类作文时至少用一次书面层句式。"
+     ],
+     "tip": "书面讲观点，subscribe to the view that。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "约翰·斯诺是如何用地图锁定「嫌疑人」的？",
+     "solution": "他把死亡病例逐户标注在地图上，发现死亡集中在宽街水泵周围——病例的空间分布把怀疑指向了这口水源。",
+     "difficulty": 1,
+     "pitfall": "别答「他发明了地图」——他是用标记病例的方法收集证据。"
+    },
+    {
+     "question": "拆掉宽街水泵的柄之后发生了什么？这一步在科学方法里扮演什么角色？",
+     "solution": "霍乱疫情随之止住——这是「干预验证」：拿掉假说中的病因，疾病退去，假说得到支持。",
+     "difficulty": 2,
+     "pitfall": "别把拆泵当成「巧合」——它是验证假说的关键一步。"
+    },
+    {
+     "question": "用 subscribe to the view that... 造句表达「许多科学家认同霍乱由饮水传播」。",
+     "solution": "Many scientists subscribe to the view that cholera was caused by drinking contaminated water. that 从句里用被动语态更贴科学语体。",
+     "difficulty": 2,
+     "pitfall": "subscribe to 后接 the view that 从句，不接不定式。"
+    }
+   ],
+   "mistakes": [
+    "把课文里的 John Snow 医生与同名小说角色混为一谈——课本里的他是研究霍乱的伦敦医生。",
+    "科学叙事只讲结论不给证据——假说要有数据与行动支撑，一步都不能空。",
+    "subscribe to 后误接 to do——固定搭配是 subscribe to the view that + 从句。",
+    "被动语态丢 be：cholera was caused by... 误写成 cholera caused by...——被动的 be 是科学语篇的标配。"
+   ],
+   "source": {
+    "unit": "选择性必修二 Unit 1 Science and Scientists",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "语篇开头如何交代十九世纪伦敦面临的霍乱困境？",
+     "options": [
+      "No one knew how to prevent or treat cholera.",
+      "Cholera could be easily cured at that time.",
+      "People refused to drink any water.",
+      "The government banned all research."
+     ],
+     "answer": "A",
+     "solution": "开篇的困境正是 no one knew how to prevent or treat cholera——无人知晓如何预防或治疗霍乱，这才衬托出 John Snow 研究的分量。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·John Snow Defeats “King Cholera” 语篇（no one knew how to prevent or treat cholera）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "约翰·斯诺建议拆掉宽街水泵的柄，其直接结果是什么？",
+     "options": [
+      "霍乱疫情随之止住",
+      "人们开始改喝牛奶",
+      "他因此被当局逮捕",
+      "雨水冲走了病毒"
+     ],
+     "answer": "A",
+     "solution": "拆掉水泵柄后疫情止住——嫌疑水源被切断，疾病退去，为「水传霍乱」的结论提供了关键证据。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·阅读语篇（约翰·斯诺拆水泵柄、止住霍乱）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·选词填空：Many scientists ____ the view that cholera was caused by contaminated water.",
+     "options": [
+      "subscribed to",
+      "subscribed for",
+      "subscribed",
+      "subscribing to"
+     ],
+     "answer": "A",
+     "solution": "固定搭配 subscribe to the view that...（认同……的观点），句中需用谓语过去式 subscribed to；for 与单独的 subscribed 均不构成此搭配。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·Build up your vocabulary（Many scientists subscribe to the view that…）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "用「问题—假说—证据—结论」四步，写四句英语介绍屠呦呦发现青蒿素的过程（呼应选必一 Unit 1）。",
+     "answer": "示例：At that time, malaria took countless lives and no effective treatment was available. Tu Youyou suspected that the answer might lie in traditional Chinese medicine. After studying over 2,000 old medical texts and failing more than 190 times, her team finally succeeded in 1971. In this way, artemisinin became a crucial new treatment for malaria.",
+     "solution": "一句一步：困境（问题）→怀疑（假说）→失败 190 多次与 1971 年成功（证据与过程）→青蒿素成为关键新药（结论）。写完检查每句是否有事实支撑，避免空喊结论。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g12a_12",
+   "summary": "19 岁的谢蕾在伦敦安家、改论文：读留学报道学三重适应，再借「留学利弊」书信练观点—论据—结论。",
+   "explanation": [
+    "第二单元的课文是一篇留学人物报道：““Welcome, Xie Lei!” Business Student Building Bridges”（欢迎你，谢蕾！——搭建文化之桥的商科学生）。19 岁的谢蕾半年前告别亲友登机前往伦敦，语篇点出她的「第一次」：It was the first time she had ever left her motherland.（这是她第一次离开祖国。）初到异国，功课一样不少：住进寄宿家庭（host family），在日常相处中学英语、学文化；写论文时被导师要求拿出自己的观点、反复修改——原来「换一种学术规则」比换一个国家更难。一路适应下来，她像标题说的那样，成了连接两种文化的桥（building bridges）。",
+    "报道的结构是「成长线」：人物导语→初到困境→适应与转变→意义升华。与选必一的人物报道不同，这里的重心不是「成就」，而是「变化」——屠呦呦的报道让你读「她做成了什么」，谢蕾的报道让你读「她变成了什么样的人」。读的时候抓三件事：难在哪（语言、学术、生活）、靠什么（寄宿家庭、导师、自己）、变了什么（更独立、更自信）。",
+    "语言上抓三个点。一是 It is/was the first time that + 完成时的固定结构：was 配 had done（过去完成时），is 配 have done——谢蕾的「第一次离开祖国」就是这条规则的现成例句。二是议论文书信的写作框架（Reading for Writing）：Start with a question or a fact → State an opinion → Give reasons and evidence → State a conclusion（以问题或事实开场→亮观点→给理由与证据→下结论）。",
+    "配套的连词库也要一起入账：To begin with、Moreover、Therefore、In other words——课文的两封「留学利弊」书信（Studying Abroad: Is It a Good or a Bad Idea?）就是现成范文，其中一句 Therefore, China needs more talented young people... 把个人选择接到了国家需要。三是单元的讨论与练习里反复出现虚拟语气（If you had a chance to go overseas...），为假设性表达打底——「假如我出国，我会……」这样的句子，正是虚拟语气最自然的使用场景。",
+    "方法上，阅读用「文化适应三问」（难在哪？靠什么？变了什么？），每问都能在课文里找到落点；写作用「四步支架」，每个理由后面必须跟一句 evidence——观点无论据，议论文就塌了。连词各用一次：To begin with 摆第一条理由，Moreover 补第二条，Therefore 下结论，In other words 换句话说。写完回读一遍，检查四步是否齐全、连词是否各就各位——这一段写扎实了，高考应用文的一半分数已经落袋。",
+    "往单元链上看，U1 讲「人与自然的科学方法」，本单元讲「人与人的文化之桥」；下一单元把镜头对准餐桌——你吃的东西，也在替你说出你是谁（Food and Culture）。跨文化这条线，从选必一 Unit 4 的手势、到本单元的留学生活，一路铺到了厨房。同时请留个心眼：本单元的四步议论框架（设问—观点—论据—结论）与连接词库（To begin with / Therefore / In other words）会陪伴你到高考作文——现在写熟一段，考场就能省五分钟。"
+   ],
+   "methods": [
+    {
+     "name": "议论文书信四步法",
+     "steps": [
+      "第一句开场：用问题或事实引入（Is studying abroad a good idea?）；",
+      "第二句亮观点：In my opinion, ...；",
+      "三、四句给理由与证据：To begin with... Moreover... 每条理由跟一句 evidence；",
+      "末句下结论：Therefore, ...。"
+     ],
+     "tip": "一问二观点三论据四结论。"
+    },
+    {
+     "name": "文化适应三问阅读法",
+     "steps": [
+      "一问难在哪：语言、学术规则还是日常生活？",
+      "二问靠什么：寄宿家庭、导师还是朋友？",
+      "三问变了什么：能力、心态还是身份认同？",
+      "用三句话把答案连成人物小结。"
+     ],
+     "tip": "难—助—变，三问读完一篇成长报道。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "“It was the first time that she had ever left her motherland.” 为什么从句用 had left 而不是 left？",
+     "solution": "It is/was the first time that 后接完成时：was 配过去完成时 had done，强调在此之前从未发生过。",
+     "difficulty": 2,
+     "pitfall": "别用一般过去时 left——这个结构里完成时是硬规则。"
+    },
+    {
+     "question": "把议论文四步框架排成正确顺序：State an opinion / Start with a question or a fact / State a conclusion / Give reasons and evidence。",
+     "solution": "Start with a question or a fact → State an opinion → Give reasons and evidence → State a conclusion——先设问，再亮观点，然后给理由与证据，最后下结论。",
+     "difficulty": 1,
+     "pitfall": "别把观点放在证据后面——先立论再论证。"
+    },
+    {
+     "question": "用 To begin with... However... 写两句「留学利弊」。",
+     "solution": "示例：To begin with, studying abroad broadens our horizons and improves our language skills. However, it costs a lot, and some students may feel lonely far from home.",
+     "difficulty": 2,
+     "pitfall": "只夸不弹不算完整论证——However 后要给出真实的弊。"
+    }
+   ],
+   "mistakes": [
+    "It is/was the first time that 后误用一般时——is 配 have done，was 配 had done。",
+    "议论文只有观点无论据——每个理由后都要跟一句 evidence（数据或事例）。",
+    "把导师要求的 revise（修改完善）说成 rewrite（推翻重写）——revise 是在原文基础上改进。",
+    "虚拟条件句误用真实时态：If I had a chance..., I will...（误）——主句要用 would do。"
+   ],
+   "source": {
+    "unit": "选择性必修二 Unit 2 Bridging Cultures",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "按语篇，谢蕾初到伦敦时哪件事是她人生中的「第一次」？",
+     "options": [
+      "第一次离开祖国",
+      "第一次坐飞机",
+      "第一次学英语",
+      "第一次住校"
+     ],
+     "answer": "A",
+     "solution": "It was the first time she had ever left her motherland——第一次离开祖国，这正是她全部不适应与成长的起点。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·“Welcome, Xie Lei!” 语篇（It was the first time she had ever left her motherland）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "课本给出的议论文分析框架（Analyse the argumentative letters）的正确顺序是？",
+     "options": [
+      "Start with a question or a fact → State an opinion → Give reasons and evidence → State a conclusion",
+      "State an opinion → Start with a question or a fact → State a conclusion → Give reasons and evidence",
+      "Give reasons and evidence → State an opinion → Start with a question or a fact → State a conclusion",
+      "State a conclusion → Give reasons and evidence → State an opinion → Start with a question or a fact"
+     ],
+     "answer": "A",
+     "solution": "课本框架依次是：以问题或事实开场→亮观点→给理由与证据→下结论——先引入、再立论、后论证、终收束。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·Analyse the argumentative letters（Start with a question or a fact→State an opinion→Give reasons and evidence→State a conclusion）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·连接词选择：Studying abroad benefits both the students and the country. ____, China needs more talented young people with a global vision.",
+     "options": [
+      "Therefore",
+      "However",
+      "In other words",
+      "For example"
+     ],
+     "answer": "A",
+     "solution": "前句说好处，后句顺势推出「国家需要人才」的结论，因果关系用 Therefore；However 表转折、In other words 表换说，均不合逻辑。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·书信原句（Therefore, China needs more talented young people…）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "你的朋友即将出国交换一学期。用 80 词左右给她写三条建议：用上 You could... 或 It might be a good idea to...，结尾加一句鼓励。",
+     "answer": "示例：You could live with a host family to learn about everyday life and customs. It might be a good idea to ask your tutor for feedback when you write essays. You could also join a club to make new friends. I am sure you will come back with a broader mind!",
+     "solution": "三条建议各对一个真实困难（生活、学术、社交），用委婉句式提出；结尾一句鼓励收束。写完自查：建议是否具体可执行，有没有只喊口号。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g12a_13",
+   "summary": "人如其食：布里亚-萨瓦兰一句话开篇，菜系对应地域性格——在饮食语篇里读文化与论证。",
+   "explanation": [
+    "第三单元的课文 “Culture and Cuisine” 开篇引用法国美食家布里亚-萨瓦兰（Brillat-Savarin）：“Tell me what you eat, and I will tell you what you are.”（告诉我你吃什么，我就能说出你是什么样的人。）用更简单的话说就是 “You are what you eat”（人如其食）。作者马上纠偏：今天人们常把它与「健康饮食」挂钩，但它原本讲的是人的性格、品格与文化（personality, character, and culture）。文化与美食携手同行（culture and cuisine go hand in hand）——不了解其一，就谈不上真正懂得另一个。",
+    "课文给出两层例证。第一层是跨国改造：在美国，中餐为了迎合美国口味被改造（Chinese food has been adapted to suit American tastes），已经与中国本土的味道大不相同；中餐讲究味道与摆盘（taste and presentation），法餐则讲究风味与食材新鲜（the flavour and the freshness of the ingredients）——这大概解释了法餐在高级餐饮界的声誉。第二层是地域性格：中国气候多样、民族众多，于是有了鲁菜、川菜、粤菜等「菜系」（cuisine styles）；课文对应着说——北方以小麦为主食，人们 direct and generous（直率慷慨）；南方人 careful and thoughtful（细心周到）；西部食辣，人们 bold and energetic（大胆有活力）。",
+    "语言上抓三处：一是 go hand in hand（密切相关、相伴而生），写文化与饮食、习惯与性格这类「成对概念」时的万能搭配；二是 adapt...to suit... 的被动结构 has been adapted to suit American tastes——食物是被改造的，别丢了 been；三是 while/whereas 引导的对比与 emphasis on（对……的强调）。听说板块则带你走进中式餐馆：点菜、付账（How will you pay? — I'll pay in cash / by credit card / through my mobile phone.）一句句练到脱口而出。",
+    "方法上，议论文读法用「名言—解释—例证—补充」四步：找到名言（论点）→用自己的话解释→找例证（美式中餐、法餐、中国菜系）→看作者如何收束，四步各标出对应段落。写作用「菜系文化卡」：菜名、主要食材、口味、背后地域性格四栏，先填课文的南北西三例，再给自己的家乡菜做一张——做完这张卡，你就同时拥有了一篇口头介绍和一段书面小作文的素材。",
+    "从单元链上看，U2 的谢蕾把文化「穿」在生活里，本单元把文化「吃」进胃里；下一单元登上横贯加拿大的火车——旅行的另一半乐趣是吃，到时候你可以用本单元的文化卡，边走边解释沿途的饮食。此外，本课的论证套路（名言开篇—层层例证）与点餐付账句块（How will you pay? / I'll pay in cash / by credit card / through my mobile phone）都是「马上能用」的存货：前者给议论文开头撑门面，后者在真实餐馆里救急。学英语到这一步，读的是文化，练的是生活。"
+   ],
+   "methods": [
+    {
+     "name": "名言—例证论证链法",
+     "steps": [
+      "第一步找名言：Tell me what you eat...（论点）；",
+      "第二步找解释：You are what you eat / 性格与文化；",
+      "第三步找例证：美式中餐、法餐、中国菜系与性格；",
+      "第四步看收束：作者如何回到「文化」上。"
+     ],
+     "tip": "一句名言立论，例证跟上才算数。"
+    },
+    {
+     "name": "菜系文化卡法",
+     "steps": [
+      "卡片四栏：菜名／主要食材／口味特点／地域性格；",
+      "先填课文的对应：北方小麦→direct and generous；",
+      "再给自己的家乡菜做一张卡；",
+      "用卡上的词块（emphasis on / go hand in hand）各造一句。"
+     ],
+     "tip": "一张卡读懂一个地方。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "“You are what you eat” 在课文语境里指什么？",
+     "solution": "饮食反映人的性格、品格与地域文化——不只是「吃得健康就健康」。",
+     "difficulty": 1,
+     "pitfall": "别只答健康层面——原文强调它原本讲 personality, character, and culture。"
+    },
+    {
+     "question": "课文如何描述美国的中餐？请用一个被动结构回答。",
+     "solution": "Chinese food has been adapted to suit American tastes.——中餐被改造以迎合美国口味，已与中国本土大不相同。",
+     "difficulty": 2,
+     "pitfall": "has been adapted 的 been 不能丢——中餐是「被改造」。"
+    },
+    {
+     "question": "按课文的对应，以小麦（wheat）为主食的北方人性格如何？",
+     "solution": "direct and generous（直率慷慨）；与之相对，南方人 careful and thoughtful，西部食辣者 bold and energetic。",
+     "difficulty": 1,
+     "pitfall": "三个地域对应别张冠李戴——先记主食再记性格。"
+    }
+   ],
+   "mistakes": [
+    "把 go hand in hand 理解成「手拉手走路」——它是固定搭配，指「密切相关、相伴而生」。",
+    "adapt to suit 漏掉被动：Chinese food has been adapted...——食物是被改造的一方。",
+    "地域性格对应张冠李戴——课文对应是北方小麦→direct and generous，南方→careful and thoughtful，西部食辣→bold and energetic。",
+    "把 cuisine styles 译成「烹饪风格」就丢了地域——课文里指鲁菜、川菜、粤菜等地域菜系。"
+   ],
+   "source": {
+    "unit": "选择性必修二 Unit 3 Food and Culture",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "课文引用布里亚-萨瓦兰 “Tell me what you eat, and I will tell you what you are.”，作者指出这句话原本指的是什么？",
+     "options": [
+      "只与健康饮食有关",
+      "人的性格、品格与文化",
+      "吃得越多越有钱",
+      "节食才能保持身材"
+     ],
+     "answer": "B",
+     "solution": "作者明确说，今天人们把它与健康饮食挂钩，但布里亚-萨瓦兰原本指的是我们的性格、品格与文化（personality, character, and culture）。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·Culture and Cuisine 开篇引语（Tell me what you eat, and I will tell you what you are）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "按课文的地域对应，西部食辣的人们被认为具有怎样的性格？",
+     "options": [
+      "careful and thoughtful",
+      "bold and energetic",
+      "shy and quiet",
+      "slow and lazy"
+     ],
+     "answer": "B",
+     "solution": "课文写 to the west, where the food is spicy, people are said to be bold and energetic——食辣之地的人被认为大胆而有活力。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·Culture and Cuisine 菜系与性格段（in the west, where the food is spicy…bold and energetic）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·语态选择：把「中餐在美国被改造以迎合当地口味」译成英语，下列哪一项正确？",
+     "options": [
+      "Chinese food has been adapted to suit American tastes.",
+      "Chinese food has adapted to suit American tastes.",
+      "Chinese food adapted to suit American tastes by people.",
+      "Chinese food is adapting American tastes."
+     ],
+     "answer": "A",
+     "solution": "中餐是「被改造」的，用现在完成时被动 has been adapted to suit...；B 缺 been 变主动，C 逻辑与语态混乱，D 主宾颠倒。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·Culture and Cuisine（adapted to suit American tastes）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "用英语介绍你的家乡菜：三句话——食材、口味特点、与家乡人性格的联想；要求用上 emphasis on 或 go hand in hand 其中一个。",
+     "answer": "示例：My hometown dish is mostly made of fresh river fish and bamboo shoots. Our cooking places a strong emphasis on the original flavour of the ingredients. Maybe it goes hand in hand with the way people here live — careful, patient, and close to nature.",
+     "solution": "第一句报食材，第二句用 emphasis on 说口味，第三句用 go hand in hand 把菜与性格相连；写完检查被动与搭配是否用对，切忌只写菜名不说文化。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g12a_14",
+   "summary": "一列火车横穿加拿大：从温哥华到多伦多，Lake Louise 蓝得令人屏息——学空间顺序叙事与景描词块。",
+   "explanation": [
+    "第四单元的课文是一篇火车游记：“SEEING THE TRUE NORTH VIA RAIL: VANCOUVER AND THE HEART OF CANADA”（乘火车览真正的北方：温哥华与加拿大之心）。李黛玉（Li Daiyu）和表妹刘倩要去大西洋沿岸的哈利法克斯看亲戚，Rather than travel by commercial airline all the way, they decided to fly to Vancouver and then take the train.（她们没有全程坐飞机，而是飞到温哥华再坐火车横穿全国。）温哥华两天：第一天如温哥华的「惯例」下着雨，她们仍乘渡轮去看城外的海岛；第二天放晴，北面海岸山脉的群峰像一堵墙立在城市背后。",
+    "第二天清晨，火车穿过加拿大落基山脉驶向路易斯湖（Lake Louise），沿途山脉、森林与远处结冰的湖面一览无余；到达后，the blue water literally took their breath away with its exceptional beauty（湖水蓝得令人屏息）。她们在湖边过夜，再乘长途汽车北上贾斯珀（Jasper），转火车到艾伯塔省首府埃德蒙顿（Edmonton），逛了北美最大的购物中心之一——西埃德蒙顿购物中心（West Edmonton Mall）。列车向东南驶过加拿大大草原（the Canadian Prairie），日出时麦田一望无际；夜里穿过草原，清晨抵达温尼伯（Winnipeg），再往东到加拿大最大的城市多伦多（Toronto）——游记的后半程（多伦多与蒙特利尔）在写作板块的续篇里继续。",
+    "读游记抓「骨架」与「血肉」：骨架是空间顺序（出发—途经—到达），血肉是意外与惊喜——温哥华的雨、蓝得惊人的湖、望不到边的麦田。没有细节的地名清单不是游记；没有顺序的风景堆也不是游记。时态以过去时为主，叙述中穿插感官描写；遇到「最惊艳」的一站，课文毫不吝啬地把最强的词块（take one's breath away）放在那里——学会这种「重点站浓墨、过渡站轻描」的分配，你的游记立刻有节奏。",
+    "语言上收三块词：rather than（而不是，后接动词原形）、take one's breath away（美得令人窒息）、spectacular（壮观的）；再加一个 as far as the eye could see（一望无际）。词汇练习里还有 the highlight of the trip（旅程最精彩之处）这样的主题词块——描述旅程时，它们轮换着用，比一个 beautiful 走天下高级得多。",
+    "往前接选必一 Unit 3：萨勒克是一个人走进荒野，这一课是两个人横穿大国，游记的读法一脉相承——路线为骨、感官为肉，火车只是把步行换成了铁轨。往后看，下一单元 First Aid 会提醒你：远方虽美，安全第一——旅行的英语，从看景到救命，都要会说。最后留个作业习惯：把本课的路线在地图上描一遍，再口头用 first/then/after that 复述一次——地理和英语一起赚。"
+   ],
+   "methods": [
+    {
+     "name": "路线叙事四步法",
+     "steps": [
+      "用 first...then...after that...finally 串起地点；",
+      "每个地点配一个「亮点细节」（雨、蓝湖、麦田）；",
+      "结尾加一句 overall feeling；",
+      "检查时态：叙事以过去时为主。"
+     ],
+     "tip": "地点连成线，细节串成珠。"
+    },
+    {
+     "name": "景描词块替换法",
+     "steps": [
+      "备三个词块：take one's breath away／spectacular／as far as the eye can see；",
+      "每写一处风景轮换使用，不许重复 beautiful；",
+      "one's 随主语变化：my/our/their breath；",
+      "写完回读，确认每个词块搭配完整。"
+     ],
+     "tip": "美别只会 beautiful，三块词轮着用。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "两个女孩为什么选择坐火车而不是全程飞行？",
+     "solution": "Rather than travel by commercial airline all the way, they decided to fly to Vancouver and then take the train.——她们想体验横穿加拿大的铁路之旅；rather than 后接动词原形 travel。",
+     "difficulty": 1,
+     "pitfall": "rather than 后别写成 to do。"
+    },
+    {
+     "question": "take one's breath away 是什么意思？用 Lake Louise 造一句。",
+     "solution": "美得令人屏息：The blue water of Lake Louise took their breath away with its exceptional beauty. one's 要随主语换成 their。",
+     "difficulty": 2,
+     "pitfall": "固定搭配里 breath 用单数，别写成 breaths。"
+    },
+    {
+     "question": "按课文排出正确路线：Toronto / Vancouver / Lake Louise / Jasper / Edmonton / Winnipeg。",
+     "solution": "Vancouver → Lake Louise → Jasper → Edmonton → Winnipeg → Toronto——先到温哥华，火车到路易斯湖，转汽车北上贾斯珀，再火车经埃德蒙顿、温尼伯到多伦多。",
+     "difficulty": 2,
+     "pitfall": "Jasper 与 Edmonton 的顺序别颠倒——先乘长途汽车到 Jasper，再转火车去 Edmonton。"
+    }
+   ],
+   "mistakes": [
+    "rather than 后误接 to do——固定用法是接动词原形（travel）。",
+    "把 West Edmonton Mall 说成在温哥华——它在艾伯塔省首府埃德蒙顿。",
+    "游记只堆地名没有细节——每个地点要配一个具体画面（雨、蓝湖、麦田）。",
+    "take their breath away 写成 take their breaths away——固定搭配中 breath 用单数。"
+   ],
+   "source": {
+    "unit": "选择性必修二 Unit 4 Journey Across a Vast Land",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "到达路易斯湖时，湖水让两个女孩产生了怎样的反应？",
+     "options": [
+      "The blue water literally took their breath away with its exceptional beauty.",
+      "The blue water made them feel bored and sleepy.",
+      "The blue water reminded them of their hometown.",
+      "The blue water made them want to swim right away."
+     ],
+     "answer": "A",
+     "solution": "原句 the blue water literally took their breath away with its exceptional beauty——湖水之美令人屏息，这正是 take one's breath away 的经典用例。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·阅读语篇（Lake Louise：the blue water literally took their breath away with its exceptional beauty）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "她们在温哥华的第一天天气如何？",
+     "options": [
+      "如温哥华的惯例，下着雨",
+      "大雪封城",
+      "晴空万里",
+      "浓雾弥漫"
+     ],
+     "answer": "A",
+     "solution": "语篇写 During their first day, as is typical of Vancouver, it rained.——第一天下雨恰是温哥华的「标配」，她们照样乘渡轮出游。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·SEEING THE TRUE NORTH VIA RAIL（During their first day, as is typical of Vancouver, it rained）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·合并升级：把两句合成一句——The mountain peaks were spectacular. / The view took my breath away.",
+     "options": [
+      "The spectacular mountain peaks took my breath away.",
+      "The spectacular mountain peaks take my breath away.",
+      "The mountain peaks spectacular took my breath away.",
+      "The spectacular mountain peaks took my breathe away."
+     ],
+     "answer": "A",
+     "solution": "spectacular 作定语修饰 peaks，主句用过去时 took；B 时态错，C 词序错，D 拼错——是 breath 不是 breathe（动词）。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·阅读语篇变式（spectacular mountain peaks + take one's breath away 仿写）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "写四句微型游记（真实的或想象的旅行都行）：用 first/then/after that/finally 串联地点，至少用一处景描词块（spectacular / take one's breath away / as far as the eye can see）。",
+     "answer": "示例：First we arrived in a small town by the sea. Then we took a boat to an island, where the sunset over the water took my breath away. After that, we walked along the beach, with fishing boats as far as the eye could see. Finally, we headed back, tired but happy.",
+     "solution": "按四步支架组织：连接词串地点，每站一个小画面，词块放在「最惊艳」的一站；写完自查时态是否统一、连接词是否齐全。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g12a_15",
+   "summary": "烫伤了怎么办？冷水冲十分钟、盖干净布、别涂黄油——三类烧伤与五步处理，救命知识用英语说。",
+   "explanation": [
+    "本册收尾单元的课文是 “First Aid for Burns”（烧伤急救）。开篇先立常识：皮肤是人体最大的器官，也是抵御病菌与外界伤害的第一道防线。烧伤按深度分三类：一度烧伤只伤及皮肤表层，发红、肿胀、干燥、疼痛；二度烧伤伤到更深层，起水泡（blister）、剧痛；三度烧伤伤及所有三层皮肤甚至下面的组织与神经，伤口表面干白或焦黑，反而可能不觉得疼——因为神经末梢（nerve endings）被毁。「越严重越不痛」是本课最反直觉、也最救命的一点。",
+    "处理步骤课文给了五步：第一，必要时用剪刀剪开并脱掉烧着或沾有热液的衣物；第二，把烧伤处放在流动的冷水下冲洗，尤其是在最初十分钟内；第三，用干净、宽松的布覆盖伤处；第四，给伤者保暖，保持伤处干燥；第五，尽快送医。跟在步骤后面的是一串「千万别」：别用冰水或冰块，别弄破水泡，别在伤口上涂黄油、药膏这类东西，别硬撕粘在伤口上的衣物。",
+    "这篇课文是「步骤类说明文」的范本：骨架是顺序词（first / then / next / finally）与祈使句（Place burns under cool running water...），肌肉是分类与对比（一度／二度／三度），还有否定祈使（Never use ice...）划出红线。读这类文章先抓「分类标准」，再背「步骤链」，最后单独记「禁止清单」——考试与生活里都按这三层走。",
+    "语言上收急救词汇包：bandage（绷带）、blister（水泡）、victim（伤者）、symptom（症状）、mild（轻微的）、electric shock（电击）。听说板块 “An emergency call”（一通急救电话）教你说清关键信息：出事地点、伤者情况、需要什么帮助——严重情况先拨急救电话，国内是 120，美国是 911、英国是 999，出国前要查清当地号码。",
+    "全册至此收束：从科学方法（U1）到跨文化（U2）、饮食文化（U3）、铁路旅程（U4），最后落在急救（U5）——「人与自我、人与社会、人与自然」的主题链在高中英语里合龙。急救也是把英语用回生活的最好示范：课文背熟一步，关键时刻就多一分从容。方法上请把「三度识别—五步处理—Never 清单」做成一张卡贴在书桌前，隔三天自测一次；顺序词（first/then/next/finally）与祈使句的写法还会在你写实验报告、游戏攻略、菜谱时反复用到——说明文的「步骤体」，从这里就学会了。"
+   ],
+   "methods": [
+    {
+     "name": "三度识别法",
+     "steps": [
+      "先问起没起水泡：起水泡多为二度；",
+      "再看疼不疼：剧痛多为二度，反而不痛要警惕三度；",
+      "看颜色与质感：干白或焦黑、发硬是三度信号；",
+      "判断不清一律按重伤处理，尽快就医。"
+     ],
+     "tip": "越严重越不痛，见到焦黑马上送医。"
+    },
+    {
+     "name": "五步处理口诀法",
+     "steps": [
+      "第一步剪：剪开并脱掉烧着的衣物；",
+      "第二步冲：流动冷水冲，尤其前十分钟；",
+      "第三步盖：干净宽松的布覆盖；",
+      "第四步暖、第五步送：保暖并尽快送医；Never 清单随身带——冰块、黄油、挤水泡都别碰。"
+     ],
+     "tip": "剪冲盖暖送，冰油泡别碰。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "三度烧伤的伤者为什么可能不觉得疼？",
+     "solution": "三度烧伤伤及所有三层皮肤及下面的组织与神经，神经末梢被毁，所以反而可能不痛——看似「不严重」的干白／焦黑伤口其实最重，必须尽快就医。",
+     "difficulty": 2,
+     "pitfall": "「不痛＝没事」是致命误区。"
+    },
+    {
+     "question": "把烧伤处理五步按正确顺序排列：Cover with a loose clean cloth / Get the victim to the doctor or hospital / Place burns under cool running water / Keep the victim warm and dry / Remove clothing if necessary。",
+     "solution": "Remove clothing if necessary → Place burns under cool running water → Cover with a loose clean cloth → Keep the victim warm and dry → Get the victim to the doctor or hospital。",
+     "difficulty": 1,
+     "pitfall": "别把「覆盖」放到「冲水」之前——先降温再覆盖。"
+    },
+    {
+     "question": "下列哪些做法是课文明确反对的？说出至少三个。",
+     "solution": "用冰块或冰水冷敷、弄破水泡、涂黄油或药膏、硬撕粘在伤口上的衣物——这些都会加重伤害或增加感染风险。",
+     "difficulty": 1,
+     "pitfall": "「土办法」大多在 Never 清单里，处理伤口别靠偏方。"
+    }
+   ],
+   "mistakes": [
+    "以为不痛就没事——三度烧伤神经末梢被毁反而无痛，必须尽快送医。",
+    "用冰块或冰水「降降温」——课文明确列入禁止，正确做法是流动的冷水（cool running water）。",
+    "往伤口涂牙膏、黄油、酱油——土方会妨碍清创并增加感染风险，全在 Never 清单里。",
+    "看到水泡就想挑破——弄破水泡会破坏保护层、增加感染机会。"
+   ],
+   "source": {
+    "unit": "选择性必修二 Unit 5 First Aid",
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "按课文，三度（third-degree）烧伤的典型特征是什么？",
+     "options": [
+      "皮肤干白或焦黑，因神经末梢被毁而可能不痛",
+      "皮肤发红肿胀，疼痛明显",
+      "起大量水泡并有剧痛",
+      "只在表皮发红，几天自愈"
+     ],
+     "answer": "A",
+     "solution": "三度烧伤伤及所有三层皮肤及下面的组织与神经，伤口干白或焦黑；神经末梢被毁，伤者反而可能感觉不到疼痛。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·First Aid for Burns 语篇（third-degree burns…nerve endings are destroyed）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "按课文的处理步骤，烧伤后最初十分钟内最关键的做法是什么？",
+     "options": [
+      "Place burns under cool running water",
+      "Cover the burn with ice cubes",
+      "Apply butter to the burn",
+      "Wrap the burn tightly with a bandage"
+     ],
+     "answer": "A",
+     "solution": "课文要求把伤处放在流动冷水下冲洗，尤其是在最初十分钟内；冰块、黄油均在禁止之列，绷带要包得宽松而非缠紧。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教选必二·First Aid for Burns 处理步骤（Place burns under cool running water…within the first ten minutes）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式·判断正误：下列哪种做法与课文一致？",
+     "options": [
+      "用冰块给伤口降温",
+      "挑破水泡让毒素排出",
+      "用干净宽松的布覆盖伤处",
+      "在伤口上涂药膏消炎"
+     ],
+     "answer": "C",
+     "solution": "课文第三步是用干净、宽松的布覆盖伤处；冰块冷敷、挑破水泡、涂黄油或药膏都被明确列为「千万别」。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教选必二·First Aid for Burns 禁止事项与处理（a loose clean cloth…never…）变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "情境写作：同学打翻热水，手背被烫伤。用 4-5 句英语写出处理流程（用 first/then/next/finally），最后一句说明什么情况下需要拨打 120。",
+     "answer": "示例：First, help her take off anything hot on her arm, using scissors if necessary. Then place her hand under cool running water, especially within the first ten minutes. Next, cover the burn with a loose clean cloth and keep her warm. Finally, take her to the hospital. If the burn looks dry, white or charred and she feels little pain, call 120 right away.",
+     "solution": "按「剪—冲—盖—暖—送」五步组织，顺序词齐全；末句用三度特征（干白／焦黑、不痛）作为拨打 120 的判断条件。写完自查：有没有混入 Never 清单里的动作。",
      "difficulty": 3
     }
    ]

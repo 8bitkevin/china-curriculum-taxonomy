@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "version": "2.4.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1693,
+  "topicCount": 1769,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -38406,7 +38406,8 @@
         "editionYear": 2020
       },
       "prerequisites": [
-        "ct_yy_g11a_05"
+        "ct_yy_g11a_05",
+        "ct_yy_g11b_11"
       ]
     },
     {
@@ -38532,6 +38533,7 @@
         "editionYear": 2020
       },
       "prerequisites": [
+        "ct_yy_g11b_14",
         "ct_yy_g9a_10"
       ]
     },
@@ -38598,6 +38600,168 @@
       "prerequisites": [
         "ct_yy_g11a_07",
         "ct_yy_g11b_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：屠呦呦获诺奖（People of Achievement）",
+      "description": "读屠呦呦获诺奖的人物报道：成就导语—时间线—品质—评价的报道结构，be awarded、make contributions to 等成就表达。整册第一课先立「人」——人物语篇从「事迹」读到「精神与影响」。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按「成就—时间线—品质」复述屠呦呦报道",
+        "能用 be awarded / make great contributions to 各造一句",
+        "能用 whose 从句把两句合并成一句"
+      ],
+      "assessmentPrompt": "问{{name}}：屠呦呦团队失败了多少次、哪一年成功？再让她用 a committed scientist 和 whose 从句介绍一位她敬佩的人。",
+      "standards": [
+        "hsenglish-2017:H1.RD.02",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Unit 1 People of Achievement",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      }
+    },
+    {
+      "id": "ct_yy_g11b_12",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：智能家居与未来生活（Looking into the Future）",
+      "description": "读智能家居说明文：设问—功能设想—现实意义的行文，Nevertheless 的让步转折，will be doing 的未来畅想。从「未来会怎样」的畅想里练说明文的条理与分寸。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出智能家居的两个功能设想并复述理由",
+        "能说清 Nevertheless 在结尾的作用",
+        "能用 will be doing 造两句未来畅想"
+      ],
+      "assessmentPrompt": "考{{name}}：语篇为什么说 This smart technology is not a fantasy？Nevertheless 在结尾起什么作用？再用 will be doing 说一句十年后的自己。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Unit 2 Looking into the Future",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：萨勒克国家公园（Fascinating Parks）",
+      "description": "读 Sarek 国家公园游记：第一人称荒野叙事，极昼、驯鹿与萨米人的北欧图景，However, I cannot complain 的坦然。在游记里练空间顺序、感官描写与 remote 等一词多义。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能复述萨勒克的三个独特之处（极昼、驯鹿与萨米人、荒野徒步）",
+        "能辨析 remote、edge 等词的语境义",
+        "能用空间顺序转述一段游记"
+      ],
+      "assessmentPrompt": "给{{name}}读 Sarek 语篇：为什么阳光灿烂却分不清早上还是晚上？驯鹿和萨米人是什么关系？再让她用 first/then 复述作者的行程。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H1.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Unit 3 Fascinating Parks",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_14",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：肢体语言与非言语交际（Body Language）",
+      "description": "读肢体语言说明文：同手势异文化的对照（OK 手势在日本是钱、在法国是零），external clues 与 internal thoughts 的对比。跨文化意识从常识升级为语篇知识。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能举出两个「同手势异含义」的例子",
+        "能区分 external clues 与 internal thoughts",
+        "能用 Could you explain... 礼貌请对方说明"
+      ],
+      "assessmentPrompt": "问{{name}}：OK 手势在日本和法国分别可能表示什么？见到日本朋友该鞠躬还是握手？再让她用英语给外国朋友提一条肢体语言建议。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Unit 4 Body Language",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_13"
+      ]
+    },
+    {
+      "id": "ct_yy_g11b_15",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：袁隆平与水稻（Working the Land）",
+      "description": "读袁隆平「全民先驱」人物语篇：杂交水稻的科学事实与数据（约六成水稻消费来自其株系），主谓一致里从句作主语谓语用单数的焦点。人物报道第二篇——从屠呦呦的药到袁隆平的粮。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能复述袁隆平的关键事实与数据（杂交水稻、约六成占比）",
+        "能解释从句作主语时谓语为何用单数",
+        "能用 it is estimated that... 转述一个数据"
+      ],
+      "assessmentPrompt": "考{{name}}：袁隆平最担心农民的什么问题？That Yuan Longping had realised his dream of seawater rice surprised the whole world. 的谓语为什么用单数？",
+      "standards": [
+        "hsenglish-2017:H1.RD.02",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "选择性必修一 Unit 5 Working the Land",
+        "book": "选择性必修第一册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g11b_14"
       ]
     },
     {
@@ -38722,7 +38886,8 @@
         "editionYear": 2020
       },
       "prerequisites": [
-        "ct_yy_g10b_07"
+        "ct_yy_g10b_07",
+        "ct_yy_g12a_11"
       ]
     },
     {
@@ -38914,6 +39079,168 @@
       "prerequisites": [
         "ct_yy_g11b_09",
         "ct_yy_g12a_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：约翰·斯诺战胜霍乱（Science and Scientists）",
+      "description": "读 John Snow 战胜「霍乱之王」的科学叙事：提出假说—地图标记—拆除水泵—验证结论的科学方法链。科普叙事与实验精神合体，subscribe to the view that 等观点表达同步入账。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能按「问题—假说—证据—结论」复述 John Snow 的研究",
+        "能解释地图标记与拆水泵分别提供了什么证据",
+        "能用 subscribe to the view that... 转述一个观点"
+      ],
+      "assessmentPrompt": "让{{name}}用英语讲 John Snow 的三步研究：他怎么锁定宽街水泵？拆掉水泵柄之后发生了什么？结论是什么？",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Unit 1 Science and Scientists",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      }
+    },
+    {
+      "id": "ct_yy_g12a_12",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：谢蕾留学与跨文化适应（Bridging Cultures）",
+      "description": "读 19 岁商科学生谢蕾的伦敦留学报道：寄宿家庭、论文修改、文化适应的成长线；配套「留学利弊」议论文书信的论证框架。跨文化交际从手势升级到生活。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能复述谢蕾在伦敦的三重适应（生活/学术/文化）",
+        "能按「设问—观点—论据—结论」框架写留学利弊议论文段",
+        "能正确使用 It was the first time that + 过去完成时"
+      ],
+      "assessmentPrompt": "问{{name}}：谢蕾在伦敦遇到的最大学习困难是什么？再让她用 To begin with... However... Therefore... 各说一句留学的利与弊。",
+      "standards": [
+        "hsenglish-2017:H5.LS.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Unit 2 Bridging Cultures",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：饮食文化与地域性格（Food and Culture）",
+      "description": "读 Culture and Cuisine：布里亚-萨瓦兰「人如其食」开篇，菜系与地域性格的对应论证，美式中餐的文化改造。饮食语篇第一次承担完整的议论文论证结构。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出 You are what you eat 的出处与本义",
+        "能按课文说出南北西三地的饮食与性格对应",
+        "能用 go hand in hand / adapt...to suit... 各造一句"
+      ],
+      "assessmentPrompt": "考{{name}}：Tell me what you eat, and I will tell you what you are 是谁说的、原本指什么？再让她用英语说一句北方面食与北方人性格的对应。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H2.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Unit 3 Food and Culture",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_14",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：横贯加拿大的铁路之旅（Journey Across a Vast Land）",
+      "description": "读横贯加拿大的铁路游记：温哥华到多伦多的路线叙事，Lake Louise 蓝得令人屏息的景描，大草原麦田的一望无际。游记空间顺序写作的范本。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能按顺序复述铁路路线与各站亮点",
+        "能用 take one's breath away / spectacular 描写一处风景",
+        "能用 rather than 造一句「舍此取彼」"
+      ],
+      "assessmentPrompt": "让{{name}}按顺序说出两个女孩的火车路线经过的地点，并用 take one's breath away 描述其中一处风景。",
+      "standards": [
+        "hsenglish-2017:H1.RD.02",
+        "hsenglish-2017:H4.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Unit 4 Journey Across a Vast Land",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_13"
+      ]
+    },
+    {
+      "id": "ct_yy_g12a_15",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：烧伤急救（First Aid）",
+      "description": "读 First Aid for Burns：三类烧伤的识别、五步处理法与「千万别」清单，急救电话的听说场景。步骤类说明文的阅读与救命知识合一。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出三度烧伤的识别要点",
+        "能按顺序复述五步处理并说出 Never 清单",
+        "能用英语说出一通急救电话的关键信息（地点/情况）"
+      ],
+      "assessmentPrompt": "给{{name}}一个烫伤情境：让她按顺序说出前五步处理，再说出两件绝对不能做的事。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H1.RD.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "选择性必修二 Unit 5 First Aid",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_yy_g12a_14"
       ]
     },
     {
@@ -49345,6 +49672,8 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_dl_g10a_03",
+        "ct_dl_g10a_04",
         "ct_dl_g7a_02",
         "ct_dl_g7a_05"
       ]
@@ -49379,8 +49708,194 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_dl_g10a_05",
+        "ct_dl_g10a_06",
+        "ct_dl_g10a_07",
         "ct_dl_g7a_06",
         "ct_dl_g8a_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·宇宙中的地球",
+      "description": "地球在太阳系中的位置与存在生命的条件；太阳辐射与太阳活动；地层化石与地质年代；地球的圈层结构。像给地球办一张「宇宙身份证」——位置、身世、构造一次看清。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能完整说出地球存在生命的外部条件与自身条件",
+        "能根据地层与化石推断地质年代，并用地震波说明内部圈层划分"
+      ],
+      "assessmentPrompt": "问{{name}}：地球为什么是已知唯一存在高级智慧生命的行星？黑子和耀斑有什么区别？横波为什么到不了外核？",
+      "standards": [
+        "hsgeography-2017:H1.NG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一章 宇宙中的地球",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      }
+    },
+    {
+      "id": "ct_dl_g10a_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·地球上的大气",
+      "description": "大气的组成与垂直分层（对流层、平流层、高层大气）；大气受热过程与保温效应；热力环流；大气的水平运动——风的形成。大气的「三层楼」里藏着天气的剧本。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能用大气受热过程解释昼夜温差与温室现象",
+        "能画出热力环流示意图并判断风向"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么云雨都发生在对流层、飞机在平流层飞？阴天为什么昼夜温差小？北半球近地面的风为什么会向右偏？",
+      "standards": [
+        "hsgeography-2017:H1.NG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二章 地球上的大气",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_dl_g10a_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·地球上的水",
+      "description": "水循环的类型、环节与人类影响；海水的温度、盐度与密度；波浪、潮汐与洋流的分布规律及对气候、渔场、航行的影响。跟着一滴水从海到云再回海，顺便读懂大海的脾气。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画出海陆间水循环示意图并指出人类干预的主要环节",
+        "能说明洋流对沿岸气候和渔场形成的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：修建水库和跨流域调水主要影响水循环哪个环节？红海盐度为什么最高？秘鲁渔场是怎么形成的？",
+      "standards": [
+        "hsgeography-2017:H1.NG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三章 地球上的水",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_dl_g10a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·地貌",
+      "description": "喀斯特、河流、风沙、海岸四类常见地貌的形态特征与成因——溶蚀、流水、风力、海浪四支「雕刻刀」的作品；地貌的观察方法与等高线地形图判读。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能判断典型地貌的类型并说明其形成的外力作用",
+        "能用等高线地形图判读坡度陡缓与山脊山谷"
+      ],
+      "assessmentPrompt": "问{{name}}：石钟乳和石笋是怎么「长」出来的？码头为什么建在河流凹岸？新月形沙丘的缓坡朝哪个方向？",
+      "standards": [
+        "hsgeography-2017:H1.NG.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四章 地貌",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_dl_g10a_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_07",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·植被与土壤",
+      "description": "植被类型及其与气候的对应关系、植物对环境的适应与指示作用；土壤的组成、性质与形成因素（生物是最活跃的因素）；土壤的养护与改良。自然环境整体性的最好标本——一方水土养一方草木。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能根据气候条件推断对应的植被类型",
+        "能说出土壤形成的主要因素并提出培肥改土的措施"
+      ],
+      "assessmentPrompt": "问{{name}}：骆驼刺为什么根扎得深、叶片小？东北黑土为什么肥沃、变薄了怎么办？土壤形成过程中最活跃的因素是什么？",
+      "standards": [
+        "hsgeography-2017:H1.NG.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第五章 植被与土壤",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_dl_g10a_06"
+      ]
+    },
+    {
+      "id": "ct_dl_g10a_08",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "必修一·自然灾害",
+      "description": "气象灾害（洪涝、干旱、台风、寒潮）与地质灾害（地震、滑坡、泥石流）的成因、分布与影响；防灾减灾的措施与自救互救；遥感、全球卫星导航系统、地理信息系统在防灾减灾中的应用。认识灾害的脾气，才能把防范做在前头。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能分析台风、寒潮、地震等灾害的成因与影响",
+        "能说出地震避险要点并区分遥感、卫星导航、地理信息系统的功能"
+      ],
+      "assessmentPrompt": "问{{name}}：震级和烈度有什么区别？遇到泥石流该往哪个方向跑？遥感、北斗、GIS在防灾中各管什么？",
+      "standards": [
+        "hsgeography-2017:H3.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第六章 自然灾害",
+        "editionYear": 2019,
+        "book": "必修第一册"
+      },
+      "prerequisites": [
+        "ct_dl_g10a_07"
       ]
     },
     {
@@ -49411,6 +49926,9 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_dl_g10b_03",
+        "ct_dl_g10b_04",
+        "ct_dl_g10b_05",
         "ct_dl_g7a_07",
         "ct_dl_g8a_05"
       ]
@@ -49444,7 +49962,161 @@
       },
       "prerequisites": [
         "ct_dl_g10b_01",
+        "ct_dl_g10b_06",
+        "ct_dl_g10b_07",
         "ct_dl_g8a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "必修二·人口",
+      "description": "世界人口分布的特点与影响因素；人口迁移的推拉理论与迁移影响；区域资源环境承载力与人口合理容量（木桶效应）。人文地理第一问——人从哪来、往哪去、土地养得活多少人。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用推拉理论分析一次现实的人口迁移",
+        "能说出影响区域资源环境承载力的主要因素"
+      ],
+      "assessmentPrompt": "问{{name}}：世界人口为什么集中在中低纬沿海平原？务工人员为什么像候鸟一样往返城乡？木桶效应怎么解释资源环境承载力？",
+      "standards": [
+        "hsgeography-2017:H2.HG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一章 人口",
+        "editionYear": 2019,
+        "book": "必修第二册"
+      }
+    },
+    {
+      "id": "ct_dl_g10b_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "必修二·乡村和城镇",
+      "description": "乡村与城镇的空间结构（功能分区与地租理论）；城镇化的标志、动力、问题与阶段；地域文化与城乡景观。城市像一块蛋糕——商业、住宅、工业按付租能力和规矩分块摆放。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判读城镇主要功能区并用地租理论解释其分布",
+        "能说出城镇化的三个标志、阶段与常见问题"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么商场在市中心、工厂在城郊？衡量城镇化水平最重要的指标是什么？福建土楼和北京四合院体现了什么地域文化？",
+      "standards": [
+        "hsgeography-2017:H2.HG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第二章 乡村和城镇",
+        "editionYear": 2019,
+        "book": "必修第二册"
+      },
+      "prerequisites": [
+        "ct_dl_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "必修二·产业区位因素",
+      "description": "农业、工业、服务业的区位因素及其变化；原料、市场、动力、劳动力、技术五种导向型工业；污染企业的选址原则。区位像天平——自然人文两头称，市场与科技的砝码越来越重。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析某农业或工业部门的主导区位因素及其变化",
+        "能说出大气污染、水污染企业的合理布局方位"
+      ],
+      "assessmentPrompt": "问{{name}}：制糖厂为什么建在甘蔗产地？集成电路企业最看重什么条件？排放废气的大厂该布局在城市的哪个方位？",
+      "standards": [
+        "hsgeography-2017:H2.HG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第三章 产业区位因素",
+        "editionYear": 2019,
+        "book": "必修第二册"
+      },
+      "prerequisites": [
+        "ct_dl_g10b_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "必修二·交通运输布局与区域发展",
+      "description": "铁路、公路、水运、航空、管道五种运输方式的特点与选择；交通运输布局的影响因素与原则；交通布局对区域经济发展、城镇兴衰与乡村振兴的影响。交通是区域的血管——路通到哪里，繁荣就跟到哪里。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能根据货物特点选择合适的运输方式并说明理由",
+        "能举例说明交通线变化与城镇兴衰的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：大宗原油跨洋运输用什么方式？石家庄为什么被称为「火车拉来的城市」？高铁开通后为什么会出现「同城效应」？",
+      "standards": [
+        "hsgeography-2017:H2.HG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第四章 交通运输布局与区域发展",
+        "editionYear": 2019,
+        "book": "必修第二册"
+      },
+      "prerequisites": [
+        "ct_dl_g10b_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g10b_07",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "必修二·环境与发展",
+      "description": "环境问题的类型、产生原因与地区差异；可持续发展的概念、内涵与公平性、持续性、共同性三原则；绿色经济与可持续消费；中国的主体功能区、区域协调发展与海洋强国战略。发展与地球承载力的终章答卷——人地协调。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用三大原则对可持续发展行为进行归类",
+        "能针对家乡提出符合可持续发展理念的具体建议"
+      ],
+      "assessmentPrompt": "问{{name}}：环境问题的实质是什么？长江十年禁渔体现了可持续发展的哪个原则？主体功能区的四类区域怎么划分？",
+      "standards": [
+        "hsgeography-2017:H2.HG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五章 环境与发展",
+        "editionYear": 2019,
+        "book": "必修第二册"
+      },
+      "prerequisites": [
+        "ct_dl_g10b_06"
       ]
     },
     {
@@ -49477,7 +50149,168 @@
       },
       "prerequisites": [
         "ct_dl_g10a_02",
+        "ct_dl_g11a_02",
+        "ct_dl_g11a_03",
+        "ct_dl_g11a_04",
+        "ct_dl_g11a_05",
+        "ct_dl_g11a_06",
+        "ct_dl_g11b_01",
+        "ct_dl_g11b_02",
+        "ct_dl_g11b_03",
+        "ct_dl_g11b_04",
         "ct_dl_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g11a_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "选必一·地球的运动",
+      "description": "地球自转与公转的特征（方向、周期、速度）；黄赤交角与太阳直射点的回归运动；昼夜长短的变化；正午太阳高度的变化；四季更替与五带划分。一把看不见的太阳光'尺子'——量出了四季与昼夜的节律。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出昼夜长短和正午太阳高度随纬度与季节的分布规律",
+        "能根据黄赤交角解释太阳直射点回归运动与四季五带的成因"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么夏至日北半球昼最长？正午太阳高度怎么随季节变化？如果黄赤交角变大，四季和五带会怎样？",
+      "standards": [
+        "hsgeography-2017:H1.NG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第一章 地球的运动",
+        "editionYear": 2019,
+        "book": "选择性必修1 自然地理基础"
+      }
+    },
+    {
+      "id": "ct_dl_g11a_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "选必一·地表形态的塑造",
+      "description": "内力作用（地壳运动、岩浆活动、变质作用）与外力作用（风化、侵蚀、搬运、堆积）；岩石圈的物质循环；板块运动与宏观地形；地质构造（褶皱、断层与地形倒置）；河流地貌的发育（V形谷、冲积扇、三角洲）。地球的脸是两股力量的拉锯战——内力造骨架，外力做修饰。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能区分内力作用与外力作用并各举真实地貌实例",
+        "能用背斜向斜、断层或河流地貌的发育过程解释实际地形"
+      ],
+      "assessmentPrompt": "问{{name}}：背斜一定成山吗？长江三角洲为什么在入海口？内力和外力谁在'造山'谁在'削平'？",
+      "standards": [
+        "hsgeography-2017:H1.NG.04"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第二章 地表形态的塑造",
+        "editionYear": 2019,
+        "book": "选择性必修1 自然地理基础"
+      },
+      "prerequisites": [
+        "ct_dl_g11a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g11a_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "选必一·大气的运动",
+      "description": "常见天气系统（冷锋、暖锋、气旋、反气旋与天气变化）；三圈环流与气压带、风带（七个气压带六个风带及其季节移动）；海陆分布对气压带的影响与季风环流；气压带风带对气候的影响（热带雨林、热带沙漠、地中海、温带海洋性等气候的成因）。天气预报背后的空气大合唱——锋面带来风雨，环流塑出气候。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能判断冷锋、暖锋和气旋、反气旋过境前后的天气变化",
+        "能用气压带风带及其移动解释地中海气候等气候类型的成因"
+      ],
+      "assessmentPrompt": "问{{name}}：冷锋过境时天气怎么变？为什么地中海气候夏季炎热干燥？台风是气旋还是反气旋？",
+      "standards": [
+        "hsgeography-2017:H1.NG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第三章 大气的运动",
+        "editionYear": 2019,
+        "book": "选择性必修1 自然地理基础"
+      },
+      "prerequisites": [
+        "ct_dl_g11a_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g11a_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "选必一·水的运动",
+      "description": "陆地水体（河流、湖泊、冰川、地下水）及其相互补给；河流的补给类型与径流变化；洋流（暖流寒流）的分布规律与影响（增温增湿、寒暖流交汇成渔场）；海—气相互作用与厄尔尼诺现象。海陆之间永不停歇的水运网——陆地水互济，洋流调节冷暖。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出河流的主要补给类型并解释径流的季节变化",
+        "能描述世界洋流的分布规律并解释大渔场的成因"
+      ],
+      "assessmentPrompt": "问{{name}}：塔里木河的水从哪来？北大西洋暖流给西欧带来什么？厄尔尼诺年秘鲁渔场为什么会减产？",
+      "standards": [
+        "hsgeography-2017:H1.NG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第四章 水的运动",
+        "editionYear": 2019,
+        "book": "选择性必修1 自然地理基础"
+      },
+      "prerequisites": [
+        "ct_dl_g11a_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g11a_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "自然地理",
+      "name": "选必一·自然环境的整体性与差异性",
+      "description": "自然环境要素（大气、水、土壤、生物、岩石、地形）间的物质迁移与能量交换；整体性（牵一发而动全身与生产、稳定功能）；地域分异规律（纬度地带性、经度地带性、垂直地带性）；自然带与非地带性、人类活动。自然环境的'放大镜'与'地图'——要素联动成一个整体，又按规律分区。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用整体性观点解释'牵一发而动全身'的实例",
+        "能识别三种地域分异规律并各举一条自然带更替实例"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说植被破坏会'牵动'整条河？自然带从赤道到两极怎么变？爬一座高山看到的带谱像什么？",
+      "standards": [
+        "hsgeography-2017:H1.NG.05"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "第五章 自然环境的整体性与差异性",
+        "editionYear": 2019,
+        "book": "选择性必修1 自然地理基础"
+      },
+      "prerequisites": [
+        "ct_dl_g11a_05"
       ]
     },
     {
@@ -49508,7 +50341,132 @@
         "editionYear": 2020
       },
       "prerequisites": [
-        "ct_dl_g10b_02"
+        "ct_dl_g10b_02",
+        "ct_dl_g12a_02",
+        "ct_dl_g12a_03",
+        "ct_dl_g12a_04",
+        "ct_dl_g12a_05"
+      ]
+    },
+    {
+      "id": "ct_dl_g12a_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "资源、环境与国家安全",
+      "name": "选必三·自然环境与人类社会",
+      "description": "自然环境的服务功能（供给、调节、支撑、文化——支撑是基础和前提）；自然资源的概念、分类与利用（可再生与非可再生、社会发展阶段的影响）；环境问题的产生（索取超过再生、排放超过自净）与危害。人与自然关系的'总开关'——自然环境撑起人类社会。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出自然环境四大服务功能并各举一例",
+        "能从索取与排放两方面解释环境问题的产生原因"
+      ],
+      "assessmentPrompt": "问{{name}}：森林给我们哪四种'服务'？环境问题是怎么产生的？工业社会和农业社会用资源的差别在哪？",
+      "standards": [
+        "hsgeography-2017:H4.RE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第一章 自然环境与人类社会",
+        "editionYear": 2019,
+        "book": "选择性必修3 资源、环境与国家安全"
+      }
+    },
+    {
+      "id": "ct_dl_g12a_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "资源、环境与国家安全",
+      "name": "选必三·资源安全与国家安全",
+      "description": "资源安全的内涵（供给稳定、及时、足量、价格可承受）与资源安全问题的成因；中国的能源安全（煤炭为主、石油进口依赖与战略储备）；中国的耕地资源与粮食安全（人均耕地少、18亿亩红线、藏粮于地藏粮于技）；海洋空间资源开发与国家安全。国家安全的'资源底线'课——能源、粮食、海洋都不能掉链子。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说明我国能源安全的挑战与保障对策",
+        "能解释耕地红线与粮食安全的关系并举出保障措施"
+      ],
+      "assessmentPrompt": "问{{name}}：我国为什么要建石油战略储备？18亿亩耕地红线怎么来的？填海造陆为什么关系到国家安全？",
+      "standards": [
+        "hsgeography-2017:H4.RE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第二章 资源安全与国家安全",
+        "editionYear": 2019,
+        "book": "选择性必修3 资源、环境与国家安全"
+      },
+      "prerequisites": [
+        "ct_dl_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g12a_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "资源、环境与国家安全",
+      "name": "选必三·环境安全与国家安全",
+      "description": "环境安全的概念与环境安全问题的成因（环境退化与突发环境事件）；环境污染与国家安全（污染物跨国转移、突发污染事件）；生态保护与国家安全（生态修复、自然保护区、生态保护红线）；全球气候变化对国家安全的影响与应对（减缓与适应）。看不见硝烟的'环境防线'——污染跨境、升温全球。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能说出环境安全问题威胁国家安全的途径并举例",
+        "能说明全球变暖的影响链条并区分减缓与适应措施"
+      ],
+      "assessmentPrompt": "问{{name}}：别国把垃圾运进国境算什么问题？生态保护红线是干什么的？全球变暖为什么小岛国最慌？",
+      "standards": [
+        "hsgeography-2017:H4.RE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第三章 环境安全与国家安全",
+        "editionYear": 2019,
+        "book": "选择性必修3 资源、环境与国家安全"
+      },
+      "prerequisites": [
+        "ct_dl_g12a_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g12a_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "资源、环境与国家安全",
+      "name": "选必三·保障国家安全的资源、环境战略与行动",
+      "description": "人地关系思想的演变（崇拜自然—改造自然—征服自然—谋求人地协调）与走向生态文明；国家战略与政策（资源储备、生态保护红线、主体功能区、循环经济）；全球环境问题的国际合作（《巴黎协定》、碳达峰碳中和）。从底线到出路的'行动篇'——节约优先、保护优先、合作共赢。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能梳理人地关系思想演变的四个阶段并说明转变原因",
+        "能列举保障资源、环境安全的国家战略并解释其作用"
+      ],
+      "assessmentPrompt": "问{{name}}：人类对自然的态度经历了哪几步？生态保护红线和主体功能区各管什么？碳达峰碳中和靠什么实现？",
+      "standards": [
+        "hsgeography-2017:H4.RE.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第四章 保障国家安全的资源、环境战略与行动",
+        "editionYear": 2019,
+        "book": "选择性必修3 资源、环境与国家安全"
+      },
+      "prerequisites": [
+        "ct_dl_g12a_04"
       ]
     },
     {
@@ -49600,6 +50558,96 @@
       ]
     },
     {
+      "id": "ct_zz_g1a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "过好校园生活：敬老师爱同学",
+      "description": "尊敬老师（主动问好、有困难请教老师）；和同学拉拉手交朋友；上课专心学（眼到耳到心到）；课余生活玩出名堂。校园生活第二课——把学校过成快乐又有收获的第二个家。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能主动向老师问好并演示一次向老师请教",
+        "能说出交朋友的两条好办法并实际做到"
+      ],
+      "assessmentPrompt": "问{{name}}：在学校遇到不明白的问题可以找谁帮忙？演一演怎样向新同学介绍自己、发出一起玩的邀请。",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g1a_05",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "养成良好习惯：从小事做起",
+      "description": "作息有规律（早睡早起、按时上学）；吃饭有讲究（不挑食、细嚼慢咽）；对人有礼貌（您好、谢谢、对不起常说出口）；玩也有学问（安全、适度、玩中学）。好习惯储蓄罐——每天存一点，长大都用得上。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能说出早睡早起的两条好处并坚持一周",
+        "能在撞到别人等场合说出合适的礼貌用语"
+      ],
+      "assessmentPrompt": "问{{name}}：晚上几点睡觉、早上几点起床？演一演不小心撞到了同学，该说什么、怎么做。",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g1a_04"
+      ]
+    },
+    {
+      "id": "ct_zz_g1a_06",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我们讲文明：轻声·惜物·排队",
+      "description": "公共场合小点儿声（不打扰别人）；人人爱护公物（桌椅、图书是大家的）；我们不乱扔（垃圾回到桶里）；大家排好队（先来后到不推挤）。文明是看得见的教养——公共生活的第一份约定。",
+      "grade": 1,
+      "semester": "上",
+      "ageRangeStart": 6,
+      "ageRangeEnd": 7,
+      "evidence": [
+        "能在图书馆、课堂等场合主动放低音量",
+        "能说出排队和不乱扔垃圾的理由"
+      ],
+      "assessmentPrompt": "和{{name}}演一演在图书角该怎样说话；问{{name}}：看到滑梯边排着长队，插队对不对？为什么？",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g1a_05"
+      ]
+    },
+    {
       "id": "ct_zz_g1b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -49655,6 +50703,66 @@
         "unit": 3,
         "editionYear": 2024
       }
+    },
+    {
+      "id": "ct_zz_g1b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我们一起长大：分享与合作",
+      "description": "和大家在一起（同伴带来的快乐与成长）；请帮我一下（大胆求助、也乐于助人）；我们爱分享（玩具图书轮流玩）；大家来合作（商量分工配合做事）。同伴交往第一课——一个人走得快，一群人走得远。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能讲述一次与同伴分享或合作的经历",
+        "遇到自己解决不了的困难能说出向谁求助、怎么说"
+      ],
+      "assessmentPrompt": "问{{name}}：上次和小朋友一起完成了什么事？遇到自己搞不定的困难，你会说什么、找谁帮忙？",
+      "standards": [
+        "csmorality-2022:S2.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g1b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g1b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "争做中国好儿童：光荣的少先队",
+      "description": "快乐儿童节（六一，我们自己的节日）；光荣的少先队（队旗、队礼、入队申请）；戴上红领巾（红旗的一角，要佩戴整齐）；学先锋做先锋（从小事做起）。入队第一课——红领巾是荣誉，更是每天的约定。",
+      "grade": 1,
+      "semester": "下",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出红领巾的含义并演示佩戴整理",
+        "能敬一个标准的队礼并说出队礼的含义"
+      ],
+      "assessmentPrompt": "问{{name}}：红领巾是什么的一角、为什么是红色的？请演示怎么敬队礼、平时怎么爱护红领巾。",
+      "standards": [
+        "csmorality-2022:S3.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 1,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g1b_02"
+      ]
     },
     {
       "id": "ct_zz_g2a_01",
@@ -49714,6 +50822,67 @@
       },
       "prerequisites": [
         "ct_zz_g1a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g2a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "我的家乡美：山水·物产·家乡人",
+      "description": "家乡的山和水（发现身边的风光之美）；家乡物产养育我（认识家乡的特产）；可亲可敬的家乡人（劳动让家乡更好）；家乡新变化（路宽了、楼高了）。爱家乡第一课——家乡是地图上的一个点，也是心里的一整个世界。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能介绍家乡的一处风景或一种特产",
+        "能说出两位家乡劳动者及其为家乡做的事"
+      ],
+      "assessmentPrompt": "请{{name}}当家乡小导游，介绍一处风景或一种特产；问{{name}}最想感谢哪种家乡人、为什么。",
+      "standards": [
+        "csmorality-2022:S3.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g2a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g2a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "我爱我们的祖国：美丽中国·中国人·中国年",
+      "description": "我们的祖国像一个大家庭：辽阔的土地和壮美的山河是「家」的样子，五十六个民族是一家，春节的年味里藏着中国人共同的文化记忆，从航天到高铁，祖国的一年比一年好让我们自豪。爱祖国，从认识祖国开始。",
+      "grade": 2,
+      "semester": "上",
+      "ageRangeStart": 7,
+      "ageRangeEnd": 8,
+      "evidence": [
+        "能说出祖国全称并介绍一两处祖国的大好河山",
+        "能讲一个让自己为祖国自豪的事情（如航天、高铁、奥运）"
+      ],
+      "assessmentPrompt": "问{{name}}：我们的祖国叫什么名字？最能让你觉得「我为祖国自豪」的是什么？春节时你家有哪些年俗？",
+      "standards": [
+        "csmorality-2022:S4.TR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g2a_03"
       ]
     },
     {
@@ -49778,6 +50947,63 @@
       ]
     },
     {
+      "id": "ct_zz_g2b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我乐观我向上：学做快乐鸟",
+      "description": "身心健康很重要（身体棒加心情好）；学做「快乐鸟」（赶走不开心的小办法）；做个「开心果」（把快乐带给别人）；坚持才会有收获（不轻易放弃）。情绪管理第一课——坏心情像乌云，总会飘走。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出两个赶走坏心情的办法并试用",
+        "能坚持完成一件需要每天做的小事一周以上"
+      ],
+      "assessmentPrompt": "问{{name}}：不开心的时候你会做什么？说说你坚持最久的一件小事，它是怎么练出来的。",
+      "standards": [
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2024
+      }
+    },
+    {
+      "id": "ct_zz_g2b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "大自然，谢谢您：亲近与珍惜",
+      "description": "亲近大自然（阳光、空气、四季是自然的礼物）；爱护动植物（花草树木和小动物是朋友）；小水滴的诉说（水的用途与节约用水）；我是一张纸（纸的来历与珍惜用纸）。自然教育第一课——大自然给的太多，我们能回报的也很多。",
+      "grade": 2,
+      "semester": "下",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出水的三种用途和两个节水办法",
+        "能说出纸的来历并做到草稿纸双面使用"
+      ],
+      "assessmentPrompt": "问{{name}}：大自然送给我们哪些礼物？洗手打肥皂的时候，水龙头要不要关？一张纸是怎么来的？",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 2,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g2b_03"
+      ]
+    },
+    {
       "id": "ct_zz_g3a_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -49838,6 +51064,63 @@
       ]
     },
     {
+      "id": "ct_zz_g3a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "做学习的主人：方法与快乐",
+      "description": "学习伴我成长（读书、观察、做事处处皆学习）；我学习我快乐（学习中也有要跨的「坎」）；学习有方法（安排时间、专心、不懂就问）。学习品质进阶课——从「要你学」变成「我要学」。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能说出两个适合自己的学习方法并举出实例",
+        "遇到学习困难能说出至少一条解决办法"
+      ],
+      "assessmentPrompt": "问{{name}}：晚上写作业怎么安排顺序？遇到不会的题你是怎么办的？说说学习里最快乐的一件事。",
+      "standards": [
+        "csmorality-2022:S1.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2025
+      }
+    },
+    {
+      "id": "ct_zz_g3a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "爱科学学科学：科技与科学家",
+      "description": "科技力量大（科技改变衣食住行）；走近科学家（科学家的故事与精神）；从小爱科学（观察、提问、动手做）。科学启蒙课——好奇心是打开科学大门的钥匙，爱科学的孩子看世界多一双眼睛。",
+      "grade": 3,
+      "semester": "上",
+      "ageRangeStart": 8,
+      "ageRangeEnd": 9,
+      "evidence": [
+        "能举出两个科技改变生活的例子",
+        "能讲一个科学家的小故事并说出一种科学家精神"
+      ],
+      "assessmentPrompt": "问{{name}}：生活中哪些东西是科技的功劳？如果让你研究身边的一个问题，你想研究什么、怎么观察？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g3a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g3b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -49895,6 +51178,63 @@
       },
       "prerequisites": [
         "ct_zz_g1b_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g3b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "共建美好生活：幸福是奋斗出来的",
+      "description": "我们的生活越来越幸福（衣食住行的今昔变化）；幸福生活是奋斗出来的（好日子是干出来的）；珍惜与参与（小学生也能出一份力）。家国情怀启蒙课——美好生活不会从天上掉下来。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能举例说明家里或身边生活的一处变化",
+        "能结合实例说出幸福生活靠奋斗创造"
+      ],
+      "assessmentPrompt": "问{{name}}：爷爷奶奶小时候的生活和现在有什么不一样？好日子是怎么来的？你能为身边出什么力？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2025
+      }
+    },
+    {
+      "id": "ct_zz_g3b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "劳动最光荣：从小爱劳动",
+      "description": "一切靠劳动（衣食住行样样来自劳动）；致敬劳动者（各行各业都值得尊重）；从小爱劳动（家务和值日做起来）。劳动教育第一课——劳动创造幸福，爱劳动的孩子最闪亮。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出三种职业的劳动与日常生活的关系",
+        "能坚持承担一项家务或班级劳动一周以上"
+      ],
+      "assessmentPrompt": "问{{name}}：书包、桌上的饭菜、住的房子是谁劳动换来的？本周你打算承担哪项家务、怎么做？",
+      "standards": [
+        "csmorality-2022:S3.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 3,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g3b_03"
       ]
     },
     {
@@ -49959,6 +51299,66 @@
       ]
     },
     {
+      "id": "ct_zz_g4a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "生命安全与健康",
+      "name": "生活在信息社会：安全用网",
+      "description": "信息时代的便利生活（通信、购物、学习因技术而变）；合理使用电子产品（别让它抢走睡眠、运动与交流）；安全文明上网（保护个人信息、防诈骗、文明发言）。数字时代的第一课——让信息为我所用，不被屏幕绑架。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出信息技术带来的三种生活便利",
+        "能复述安全上网的四不口诀并照做"
+      ],
+      "assessmentPrompt": "问{{name}}：信息技术让哪些事情变方便了？屏幕抢走最多的是什么？收到「点链接领奖品」的信息该怎么办？",
+      "standards": [
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g4a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g4a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "做文明的消费者",
+      "description": "购物有学问（看包装、辨三无、留发票）；学会合理消费（分清需要与想要、量入为出、不攀比）；反对浪费（粮食来之不易、光盘行动）。消费启蒙——会选、会算、不浪费，做文明的消费者。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出看食品包装的三个要点",
+        "能列出家里一周可减少的浪费清单"
+      ],
+      "assessmentPrompt": "问{{name}}：买东西先看包装上的什么？「想要」和「需要」怎么分？为什么吃不完的饭要打包？",
+      "standards": [
+        "csmorality-2022:S2.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g4a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g4b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -49987,6 +51387,125 @@
       },
       "prerequisites": [
         "ct_zz_g3a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g4b_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "同伴与交往：友谊与诚信",
+      "description": "友谊的价值与交友方法（真诚待人、乐于助人）；说话算数（慎重承诺、说到做到）；当冲突发生（控制情绪、好好沟通、协商解决）。中段交往课——好朋友是处出来的，信任是攒出来的。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出交朋友的两个好方法",
+        "能演示化解一次冲突的三步对话"
+      ],
+      "assessmentPrompt": "问{{name}}：答应同学的事做不到怎么办？和好朋友闹别扭了，第一句话说什么？什么样的朋友才值得交？",
+      "standards": [
+        "csmorality-2022:S3.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2018
+      }
+    },
+    {
+      "id": "ct_zz_g4b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "做聪明的消费者",
+      "description": "买东西的学问（看包装辨三无、索要发票、依法维权）；合理消费（需要与想要、量入为出、不攀比）；有多少浪费本可避免（珍惜粮食与物品、光盘行动）。理性消费课——聪明地买，节制地花，珍惜地用。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能辨认三无产品并说出两条依据",
+        "能制定一份零花钱使用计划"
+      ],
+      "assessmentPrompt": "问{{name}}：什么是三无产品？买到坏东西可以怎么办？家里哪些浪费本可避免？",
+      "standards": [
+        "csmorality-2022:S2.MR.01",
+        "csmorality-2022:S3.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g4b_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g4b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "美好生活哪里来",
+      "description": "我们的衣食之源（一粒米从育秧到餐桌的旅程、农林牧渔）；这些东西哪里来（工业把原料变成产品）；生活离不开他们（各行各业的劳动者）。劳动认知课——美好生活是劳动者创造出来的。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出一粒米从田里到餐桌的主要环节",
+        "能列举三位身边劳动者及其贡献"
+      ],
+      "assessmentPrompt": "问{{name}}：一碗米饭要经过哪些人的手？校服的布料从哪来？遇到环卫工人你想说什么？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g4b_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g4b_05",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "家乡文化与家乡发展",
+      "description": "我们当地的风俗（节日与人生礼仪中的家乡味）；多姿多彩的民间艺术（剪纸、皮影、地方戏曲的传承）；家乡的喜与忧（发展成就与现实问题、为家乡建言）。乡土文化课——知家乡、爱家乡、建家乡。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能介绍一项家乡风俗及其中寄托的情感",
+        "能为家乡发展提出一条建议"
+      ],
+      "assessmentPrompt": "问{{name}}：你家最热闹的传统风俗是什么？你知道哪种民间艺术？家乡让你高兴和担心的事各是什么？",
+      "standards": [
+        "csmorality-2022:S3.TR.01",
+        "csmorality-2022:S4.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2018
+      },
+      "prerequisites": [
+        "ct_zz_g4b_04"
       ]
     },
     {
@@ -50052,6 +51571,97 @@
       ]
     },
     {
+      "id": "ct_zz_g5a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "建设社会主义新中国",
+      "description": "中国人民站起来了（1949年开国大典、人民当家作主）；人民当家作主（一切权力属于人民、人大代表为人民发声）；社会主义好（两弹一星、大庆、红旗渠与建设者精神）。新中国史课——站起来、当家作主的奋斗岁月。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出开国大典的时间与意义",
+        "能讲一位社会主义建设时期楷模的故事"
+      ],
+      "assessmentPrompt": "问{{name}}：1949年10月1日发生了什么？人大代表是做什么的？「两弹一星」指什么？",
+      "standards": [
+        "csmorality-2022:S4.TR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g5a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "改革开放与祖国统一",
+      "description": "改革开放展宏图（1978年十一届三中全会、小岗村大包干与经济特区）；综合国力日益提升（经济、科技、国防与国际影响）；祖国统一大业（一国两制、港澳回归、两岸一家）。当代史课——从赶上时代到引领时代。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出改革开放开始的时间和标志",
+        "能说出港澳回归的时间与方针"
+      ],
+      "assessmentPrompt": "问{{name}}：1978年哪次会议开启了改革开放？香港澳门哪一年回归？「一国两制」是什么意思？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g5a_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g5a_05",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "开创新时代",
+      "description": "走进新时代（党的十八大以来、中国梦）；历史性成就（脱贫攻坚、全面小康、科技与生态新答卷）；开启新征程（2035年与本世纪中叶的目标、强国有我）。时代认知课——把个人成长放进国家的新征程。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出中国梦的基本内涵",
+        "能举例两项新时代科技成就"
+      ],
+      "assessmentPrompt": "问{{name}}：中国梦是什么梦？你听说过哪些新时代的大成就？2035年我们国家要实现什么目标？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g5a_04"
+      ]
+    },
+    {
       "id": "ct_zz_g5b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -50079,6 +51689,96 @@
       },
       "prerequisites": [
         "ct_zz_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g5b_02",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "我们一家人：沟通与家风",
+      "description": "读懂彼此的心（父母的爱有不同表达、换位思考与主动沟通）；让我们的家更美好（为家庭出力、大事共同商量）；弘扬优秀家风（好家风是传家宝）。家庭关系课——爱要理解，家要共建。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出家人爱自己的两种不同表达",
+        "能承担一项固定家务并坚持一周"
+      ],
+      "assessmentPrompt": "问{{name}}：妈妈唠叨背后是什么？家里买大件怎么决定？你最想传下去的家风是什么？",
+      "standards": [
+        "csmorality-2022:S3.MR.01",
+        "csmorality-2022:S4.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019
+      }
+    },
+    {
+      "id": "ct_zz_g5b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "公共生活靠大家",
+      "description": "我们的公共生活（公园、图书馆、影院里的共享空间）；建立良好的公共秩序（排队、安静、无人监督也自觉）；我参与我奉献（志愿服务与公益活动）。公共意识课——公共生活是大家的，秩序与温暖靠每个人。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出三种公共生活场所及该守的秩序",
+        "能参加一次志愿服务或公益活动"
+      ],
+      "assessmentPrompt": "问{{name}}：在图书馆和球场该守什么秩序？没人监督时要排队吗？你能为社区做什么？",
+      "standards": [
+        "csmorality-2022:S2.MR.01",
+        "csmorality-2022:S4.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g5b_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g5b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "中华优秀传统文化与革命传统",
+      "name": "百年追梦复兴中华",
+      "description": "从鸦片战争的不甘屈辱、辛亥革命推翻帝制、中国共产党诞生，到抗战胜利、新中国成立、富起来强起来——中华民族百年复兴之路。近代史与党史启蒙课——读懂今天的中国从哪里来。",
+      "grade": 5,
+      "semester": "下",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能按顺序说出复兴之路上的大事",
+        "能讲一个抗争或奋斗故事并说出精神"
+      ],
+      "assessmentPrompt": "问{{name}}：虎门销烟是谁领导的？中共一大最后一天在哪里召开？为什么说新中国让中国人民站起来？",
+      "standards": [
+        "csmorality-2022:S3.TR.01",
+        "csmorality-2022:S4.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 5,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g5b_03"
       ]
     },
     {
@@ -50142,6 +51842,66 @@
       ]
     },
     {
+      "id": "ct_zz_g6a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "我们受特殊保护",
+      "description": "未成年人需要特殊保护（身心不成熟、易受伤害）；专门法律来保护（未成年人保护法等专门法律、六大保护）；特殊关爱助我成长（珍惜关爱、学会自护求助）。未成年人权利课——国家的爱写在法律里。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出保护未成年人的两部法律名称",
+        "能对应六大保护举出身边的例子"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么未成年人要特殊保护？未保法有哪六大保护？遇到侵害第一步做什么？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g6a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g6a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "知法守法依法维权",
+      "description": "用好法律维护权利（权利清单与协商、调解、投诉、报警、起诉等维权途径）；做守法公民（法律是底线、防微杜渐远离违法）。法治行动课——会维权更要会守法，法律是盾也是尺。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出两种依法维权的途径",
+        "能说明不良行为发展为犯罪的道理"
+      ],
+      "assessmentPrompt": "问{{name}}：买东西被坑了找谁？被勒索了怎么办？为什么小偷小摸不能学？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g6a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g6b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -50168,7 +51928,8 @@
         "editionYear": 2019
       },
       "prerequisites": [
-        "ct_zz_g5b_01"
+        "ct_zz_g5b_01",
+        "ct_zz_g6b_05"
       ]
     },
     {
@@ -50200,6 +51961,94 @@
       },
       "prerequisites": [
         "ct_zz_g6b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g6b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "完善自我健康成长",
+      "description": "学会尊重（每个人都有尊严、尊重自己与他人）；学会宽容（容人之短、宽容有原则）；学会反思（回顾—分析—改进的自我对话）。毕业前的品格课——把自己修炼成更好的大人。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能举出尊重他人的两个具体做法",
+        "能演示一次反思三步"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说尊重是相互的？朋友犯错要不要原谅（什么情况不能原谅）？这周你反思出什么？",
+      "standards": [
+        "csmorality-2022:S4.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 1,
+        "editionYear": 2019
+      }
+    },
+    {
+      "id": "ct_zz_g6b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "爱护地球共同责任",
+      "description": "地球—我们的家园（唯一家园与生态环境问题）；应对自然灾害（我国灾害多发、防灾减灾与自救互救）；人与自然和谐（绿色生活、共同责任）。生态启蒙课——地球的事就是我们的事。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出两种自然灾害及对应避险方法",
+        "能列出家庭绿色生活的三条做法"
+      ],
+      "assessmentPrompt": "问{{name}}：地震来了躲哪里？洪水来了往哪跑？家里哪些做法是在爱护地球？",
+      "standards": [
+        "csmorality-2022:S4.NA.01",
+        "csmorality-2022:S2.LH.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g6b_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g6b_05",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "多样文明多彩生活",
+      "description": "探访古代文明（大河流域孕育的古老文明、珍贵的遗迹遗产）；多元文化多样魅力（衣食住行的文化差异、尊重与互鉴）。世界文化课——不同而美丽，交流才精彩。",
+      "grade": 6,
+      "semester": "下",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出大河流域孕育的古代文明及代表成果",
+        "能举例说明如何尊重不同文化"
+      ],
+      "assessmentPrompt": "问{{name}}：长江黄河孕育了哪个文明？看到别国的奇怪礼仪该笑话吗？你最想了解哪种文化？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 6,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_zz_g6b_04"
       ]
     },
     {
@@ -50263,6 +52112,68 @@
       ]
     },
     {
+      "id": "ct_zz_g7a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "生命可贵：敬畏、守护与滋养",
+      "description": "生命的可贵（来之不易、独特、不可逆、短暂——敬畏生命）；守护生命安全（增强安全意识、提高防护能力）；保持身心健康（爱护身体、滋养心灵）。成长课上的第一主题——珍爱生命，是对自己和他人最大的负责。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出生命来之不易、独特、不可逆、短暂的特点",
+        "能列举火灾、溺水等至少三种情境的自护自救方法",
+        "能说明爱护身体和滋养心灵的具体做法"
+      ],
+      "assessmentPrompt": "问{{name}}：生命有哪些特点？遇到火灾或溺水该怎样自救？怎样同时照顾好身体和心灵？",
+      "standards": [
+        "csmorality-2022:S4.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g7a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "美好人生：目标、态度与价值",
+      "description": "人生目标（探问与树立——立足实际，个人目标与国家民族前途相连）；人生态度（积极进取，正确对待顺境和逆境）；人生价值（在劳动中创造、在奉献中成就）。七上收官单元——回答「怎样的人生值得一过」。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出正确人生目标的两个要求（立足实际、与国家民族前途相联）",
+        "能用顺境不骄、逆境不馁解释一次挫折的应对",
+        "能举一个劳动创造价值或奉献成就精彩的实例"
+      ],
+      "assessmentPrompt": "问{{name}}：你给自己定过什么目标？遇到挫折时怎么想、怎么做？为什么说劳动和奉献让人生更有价值？",
+      "standards": [
+        "csmorality-2022:S4.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_zz_g7a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g7b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -50321,6 +52232,68 @@
       },
       "prerequisites": [
         "ct_zz_g6a_02"
+      ]
+    },
+    {
+      "id": "ct_zz_g7b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "焕发青春活力：自尊、自信与自强",
+      "description": "自尊（人须有自尊、做自尊的人）；自信（自信给人力量、告别自卑与自负）；自强（人生当自强、做自强不息的中国人）。七下第二单元——青春活力从「看得起自己、信得过自己、拼得出自己」开始。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出自尊、自信、自强的含义与区别",
+        "能辨析自信与自卑、自负的不同",
+        "能讲一个自强不息的故事并说明启示"
+      ],
+      "assessmentPrompt": "问{{name}}：自尊和爱面子有什么不同？自信和自负差别在哪？说一件你自强不息做成的事？",
+      "standards": [
+        "csmorality-2022:S4.MR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g7b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "文化根脉：传承中华优秀传统文化",
+      "description": "核心思想理念（讲仁爱、重民本、守诚信、崇正义、尚和合、求大同）；中华人文精神（和而不同、文以载道、俭约自守）；传统美德（爱国担当、孝亲敬长、崇德向善）。七下第三单元——知道自己从哪里来，文化自信才有根。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出核心思想理念中的至少三个（如讲仁爱、守诚信、尚和合）",
+        "能解释「和而不同」并举一个同学相处的例子",
+        "能列举三条传统美德并说明如何从小事践行"
+      ],
+      "assessmentPrompt": "问{{name}}：讲仁爱、守诚信这些理念你听过哪个？「和而不同」是什么意思？你能举一件践行传统美德的小事吗？",
+      "standards": [
+        "csmorality-2022:S4.TR.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g7b_03"
       ]
     },
     {
@@ -50386,6 +52359,70 @@
       ]
     },
     {
+      "id": "ct_zz_g8a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "社会秩序：规则、道德与法治",
+      "description": "社会规则（维护秩序靠规则，自由与规则不可分）；道德生活（文明有礼、诚实守信、友善待人）；法治素养（树立法治观念、学会依法办事）。八上第二单元——在社会里安身立命的「三件套」。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能举出道德、纪律、法律三类社会规则并说明规则保障自由",
+        "能说出诚信的重要性并处理一个诚信两难情境",
+        "能说出依法办事的基本要求"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么守规则反而更自由？诚信为什么重要？遇到纠纷怎么依法办事？",
+      "standards": [
+        "csmorality-2022:S4.MR.01",
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g8a_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g8a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "勇担责任：平等、公正与奉献",
+      "description": "追求自由平等（珍视自由、践行平等——法律面前人人平等）；维护公平正义（坚守公平、守护正义）；积极奉献社会（责任我担当、奉献我践行）。八上第三单元——从「过好自己」到「点亮他人」的进阶。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出法律面前人人平等的含义",
+        "能说明公平对个人和社会的意义",
+        "能举一个志愿服务的例子并说明其意义"
+      ],
+      "assessmentPrompt": "问{{name}}：法律面前人人平等指什么？为什么社会需要公平正义？你参加或想参加什么志愿活动？",
+      "standards": [
+        "csmorality-2022:S4.MR.01",
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "上",
+        "unit": 3,
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_zz_g8a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g8b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -50443,6 +52480,100 @@
       },
       "prerequisites": [
         "ct_zz_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g8b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "公民权利与义务：一体两面",
+      "description": "公民基本权利（政治权利和自由、人身自由、社会经济与文化教育权利）；公民基本义务（遵守宪法法律、维护国家利益、依法服兵役、依法纳税）；权利义务相统一（依法行使权利、依法履行义务）。八下宪法专册第二单元——权利是护身符，义务是责任书。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能列举政治权利、人身自由、社会经济与文化教育权利中的至少五项基本权利",
+        "能说明权利与义务相统一的关系",
+        "能按顺序说出协商、调解、仲裁、诉讼四种维权方式"
+      ],
+      "assessmentPrompt": "问{{name}}：你有哪些基本权利？行使权利为什么有界限？权利和义务是什么关系？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 2,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_zz_g8b_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "认识国家制度：政治与经济",
+      "description": "政治制度（人民代表大会制度是根本政治制度；多党合作和政治协商、民族区域自治、基层群众自治是基本政治制度）；基本经济制度（公有制为主体多种所有制共同发展、按劳分配为主体多种方式并存、社会主义市场经济体制）。八下第三单元——读懂中国运行的基本盘。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出我国的根本政治制度和三个基本政治制度",
+        "能说出基本经济制度的三个方面",
+        "能说出人民政协的三项职能"
+      ],
+      "assessmentPrompt": "问{{name}}：我国的根本政治制度是什么？政协是干什么的？基本经济制度包括哪三方面？",
+      "standards": [
+        "csmorality-2022:S4.LE.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_zz_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "法治教育",
+      "name": "走近国家机构：职权与运行",
+      "description": "国家权力机关（人大及立法、决定、任免、监督四项职权）；国家主席与行政机关（依法行政、建设法治政府）；监察机关、司法机关（法院审判、检察院检察）与中央军委。八下第四单元——看清国家权力的分工与制约。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出人民代表大会的四项职权",
+        "能准确说出国务院、监察委员会、法院、检察院的机关性质",
+        "能解释「法无授权不可为」针对的是行政机关"
+      ],
+      "assessmentPrompt": "问{{name}}：全国人大有哪些职权？国务院是什么机关？「法无授权不可为」说的是谁？",
+      "standards": [
+        "csmorality-2022:S4.LE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": 4,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g8b_04"
       ]
     },
     {
@@ -50508,6 +52639,65 @@
       ]
     },
     {
+      "id": "ct_zz_g9a_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "党的领导：百年大党与人民立场",
+      "description": "百年奋斗（书写恢宏史诗、弘扬伟大建党精神）；人民立场（牢记初心使命、坚持以人民为中心）；全面领导（党是领导一切的，党的领导是最本质的特征）。九上开篇——读懂「中国故事」背后的领导力量。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能准确说出党的初心和使命",
+        "能复述伟大建党精神的主要内容",
+        "能说明「党政军民学、东西南北中，党是领导一切的」的含义"
+      ],
+      "assessmentPrompt": "问{{name}}：党的初心使命是什么？伟大建党精神你记得哪一句？为什么说党是领导一切的？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2026
+      }
+    },
+    {
+      "id": "ct_zz_g9a_04",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "国情教育",
+      "name": "进入新时代：方位、思想与腾飞",
+      "description": "新的历史方位（社会主要矛盾的变化、进入新时代的意义）；思想旗帜（习近平新时代中国特色社会主义思想是行动指南）；中国腾飞（经济、民主、文化、民生、生态各领域成就）。九上第二单元——认识我们正身处的历史坐标。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能准确说出新时代我国社会主要矛盾",
+        "能说明「从站起来、富起来到强起来」的伟大飞跃",
+        "能列举新时代至少两个领域的发展成就"
+      ],
+      "assessmentPrompt": "问{{name}}：新时代社会主要矛盾是什么？「从站起来、富起来到强起来」指什么？举一个新时代成就的例子？",
+      "standards": [
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": 2,
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_zz_g9a_03"
+      ]
+    },
+    {
       "id": "ct_zz_g9b_01",
       "type": "CONCEPTUAL",
       "subject": "道德与法治",
@@ -50534,7 +52724,8 @@
         "editionYear": 2018
       },
       "prerequisites": [
-        "ct_zz_g6b_01"
+        "ct_zz_g6b_01",
+        "ct_zz_g9b_03"
       ]
     },
     {
@@ -50567,6 +52758,35 @@
       "prerequisites": [
         "ct_zz_g9a_01"
       ]
+    },
+    {
+      "id": "ct_zz_g9b_03",
+      "type": "CONCEPTUAL",
+      "subject": "道德与法治",
+      "domain": "道德修养",
+      "name": "走向未来的少年：担当与出发",
+      "description": "少年的担当（少年强则国强——青少年承载国家和民族的未来命运）；我的毕业季（学无止境、多彩的职业）；从这里出发（回望成长、怀揣梦想再出发）。初中道法收官单元——把三年所学变成走向未来的行囊。",
+      "grade": 9,
+      "semester": "下",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明「少年强则国强」与青少年担当的关系",
+        "能说出终身学习理念和选择职业的基本考虑",
+        "能写出一份毕业季的自我总结与规划"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说青少年承载着国家和民族的未来？毕业后你想怎么继续学习？你的行囊里装了什么出发？",
+      "standards": [
+        "csmorality-2022:S4.MR.01",
+        "csmorality-2022:S4.NA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "下",
+        "unit": 3,
+        "editionYear": 2018
+      }
     },
     {
       "id": "ct_zz_g10a_01",
@@ -52440,6 +54660,129 @@
       "prerequisites": [
         "ct_ls_g11b_04",
         "ct_ls_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g11b_01",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "选必二·区域与区域发展",
+      "description": "区域的含义与特征（整体性、差异性、开放性）；区域类型（自然、行政、经济、文化区域）；区域整体性（要素相互作用）；区域关联性（要素流动与区域比较——长江三角洲与松嫩平原）。认识区域的'入门课'——先看清一个区域，再谈发展。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出区域的主要特征并举出不同区域类型的实例",
+        "能比较长江三角洲与松嫩平原的区域差异并说明因地制宜的方向"
+      ],
+      "assessmentPrompt": "问{{name}}：行政区和自然区的边界有什么不同？长三角和松嫩平原的农业差在哪？区域之间靠什么'来往'？",
+      "standards": [
+        "hsgeography-2017:H3.RD.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第一章 区域与区域发展",
+        "editionYear": 2019,
+        "book": "选择性必修2 区域发展"
+      }
+    },
+    {
+      "id": "ct_dl_g11b_02",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "选必二·资源、环境与区域发展",
+      "description": "自然条件与区域发展的关系（重要条件而非决定条件——'荷兰病'与瑞士、日本）；生态脆弱区的综合治理（荒漠化——西北为什么脆弱、怎么治）；资源枯竭型城市的转型发展（焦作的多元化和旅游）。区域发展的'底牌'课——家底决定起点，出路在人。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析西北荒漠化的自然与人为成因并提出治理措施",
+        "能说出资源枯竭型城市的困境与转型途径"
+      ],
+      "assessmentPrompt": "问{{name}}：资源多就一定富吗？西北荒漠化'天灾'和'人祸'各指什么？焦作不挖煤了靠什么活？",
+      "standards": [
+        "hsgeography-2017:H3.RD.01",
+        "hsgeography-2017:H3.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第二章 资源、环境与区域发展",
+        "editionYear": 2019,
+        "book": "选择性必修2 区域发展"
+      },
+      "prerequisites": [
+        "ct_dl_g11b_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g11b_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "选必二·城市、产业与区域发展",
+      "description": "城市的辐射功能（上海带动长三角、功能疏解与雄安新区）；地区产业结构的演变规律（一、二、三到三、二、一）；产业升级的路径（上海从轻纺到重化再到高新）。区域的'发动机'课——城市是增长极，产业是升级梯。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明城市的辐射功能并举出中心城市带动周边的实例",
+        "能描述地区产业结构演变的一般规律并解释产业升级的动力"
+      ],
+      "assessmentPrompt": "问{{name}}：上海为什么能'辐射'整个长三角？产业结构从一二三到三二一说明什么？北京为什么疏解非首都功能？",
+      "standards": [
+        "hsgeography-2017:H3.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第三章 城市、产业与区域发展",
+        "editionYear": 2019,
+        "book": "选择性必修2 区域发展"
+      },
+      "prerequisites": [
+        "ct_dl_g11b_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g11b_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "区域发展",
+      "name": "选必二·区际联系与区域协调发展",
+      "description": "流域内协调发展（水量分配、黄河统一调度与莱茵河国际协作）；资源跨区域调配（西气东输、南水北调对调出区与调入区的意义）；产业转移（劳动力、市场、政策因素）；国际合作（一带一路与全球协作）。区域之间'手拉手'——你缺我有，调配共赢。",
+      "grade": 11,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能分析西气东输等资源调配对调出区和调入区的意义",
+        "能说出影响产业转移的主要因素及其对两区的影响"
+      ],
+      "assessmentPrompt": "问{{name}}：西气东输西部和东部各得什么好处？产业为什么会从东部转向中西部？黄河水怎么分才不吵架？",
+      "standards": [
+        "hsgeography-2017:H3.RD.01",
+        "hsgeography-2017:H3.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "下",
+        "unit": "第四章 区际联系与区域协调发展",
+        "editionYear": 2019,
+        "book": "选择性必修2 区域发展"
+      },
+      "prerequisites": [
+        "ct_dl_g11b_03"
       ]
     }
   ]
