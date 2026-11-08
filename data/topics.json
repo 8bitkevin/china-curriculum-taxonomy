@@ -44807,7 +44807,6 @@
         "editionYear": 2024
       },
       "prerequisites": [
-        "ct_sw_g7a_02",
         "ct_sw_g7a_04"
       ]
     },
@@ -44899,7 +44898,6 @@
         "editionYear": 2024
       },
       "prerequisites": [
-        "ct_sw_g7a_02",
         "ct_sw_g7a_10"
       ]
     },
@@ -48069,10 +48067,7 @@
         "volume": "下",
         "unit": 3,
         "editionYear": 2024
-      },
-      "prerequisites": [
-        "ct_zz_g1a_03"
-      ]
+      }
     },
     {
       "id": "ct_zz_g2a_01",
