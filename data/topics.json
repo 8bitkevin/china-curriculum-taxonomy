@@ -39142,7 +39142,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第一章 机械运动",
-        "editionYear": 2012
+        "editionYear": 2025
       }
     },
     {
@@ -39169,7 +39169,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第一章 机械运动",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_01"
@@ -39199,7 +39199,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第一章 机械运动",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_02"
@@ -39229,7 +39229,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二章 声现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_03"
@@ -39259,7 +39259,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二章 声现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_04"
@@ -39289,7 +39289,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第二章 声现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_05"
@@ -39320,7 +39320,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三章 物态变化",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_01"
@@ -39350,7 +39350,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三章 物态变化",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_07"
@@ -39380,7 +39380,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三章 物态变化",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_08"
@@ -39410,7 +39410,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第三章 物态变化",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_09"
@@ -39440,7 +39440,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四章 光现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_04"
@@ -39471,7 +39471,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四章 光现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_11"
@@ -39501,7 +39501,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第四章 光现象",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_12"
@@ -39532,7 +39532,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第五章 透镜及其应用",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_13"
@@ -39562,7 +39562,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第五章 透镜及其应用",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_14"
@@ -39593,7 +39593,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第六章 质量与密度",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_01"
@@ -39623,7 +39623,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第六章 质量与密度",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_03",
@@ -39655,7 +39655,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第六章 质量与密度",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_16",
@@ -39686,7 +39686,7 @@
         "grade": 8,
         "volume": "上",
         "unit": "第六章 质量与密度",
-        "editionYear": 2012
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_10",
@@ -39716,8 +39716,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "上",
-        "unit": "各章节实验",
-        "editionYear": 2012
+        "unit": "第一章 机械运动",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_wl_g8a_05",
@@ -39748,7 +39748,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第七章 力",
-        "editionYear": 2012
+        "editionYear": 2026
       }
     },
     {
@@ -39776,7 +39776,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第七章 力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_01"
@@ -39806,7 +39806,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第七章 力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_16",
@@ -39837,7 +39837,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第七章 力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_03"
@@ -39867,7 +39867,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第八章 运动和力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_02",
@@ -39898,7 +39898,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第八章 运动和力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_05"
@@ -39928,7 +39928,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第八章 运动和力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_06"
@@ -39959,7 +39959,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第八章 运动和力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_20",
@@ -39990,7 +39990,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第九章 压强",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_03",
@@ -40021,7 +40021,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第九章 压强",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_17",
@@ -40052,7 +40052,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第九章 压强",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_10"
@@ -40082,7 +40082,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第九章 压强",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_11"
@@ -40112,7 +40112,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第十章 浮力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_02",
@@ -40144,7 +40144,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第十章 浮力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_13"
@@ -40174,7 +40174,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第十章 浮力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_06",
@@ -40205,7 +40205,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第十章 浮力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_15"
@@ -40236,7 +40236,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第十章 浮力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_13"
@@ -40266,7 +40266,7 @@
         "grade": 8,
         "volume": "下",
         "unit": "第八章 运动和力",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_05",
@@ -40280,10 +40280,10 @@
       "domain": "能量与能源",
       "name": "功：W=Fs 与做功的判断",
       "description": "做功两要素：有力、沿力方向通过距离——提着水桶水平走不做功（力与距离垂直）。W=Fs 的计算与单位（1 J = 1 N·m）。功是能量转化的量度：物理学最核心概念之一从这里出发。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能判断五个情境是否做功并说明理由",
         "能完成 W=Fs 的计算"
@@ -40294,10 +40294,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十一章 功和机械能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_01"
@@ -40310,10 +40310,10 @@
       "domain": "能量与能源",
       "name": "功率：做功快慢 P=W/t",
       "description": "功率表示做功快慢（P=W/t，单位瓦特）；区别「做功多少」与「做功快慢」——老爷爷慢慢搬和年轻人快搬做的功可以一样多，功率不同。从功到功率：物理量「率」家族（速度、功率、 later 效率）的第一位成员。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能完成 P=W/t 计算（含 kW 与 W 换算）",
         "能比较两情境功率大小并解释"
@@ -40324,10 +40324,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十一章 功和机械能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_01"
@@ -40340,10 +40340,10 @@
       "domain": "能量与能源",
       "name": "动能、势能与机械能转化",
       "description": "动能与质量速度有关、重力势能与质量高度有关、弹性势能与形变程度有关；滚摆与单摆演示动能势能相互转化（机械能守恒的理想情况）。过山车、跳水、拉弓射箭——能量转化的世界之旅。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能分析过山车各点的能量形式",
         "能设计实验验证「动能与速度关系」（控制变量）"
@@ -40354,10 +40354,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十一章 功和机械能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_01"
@@ -40370,10 +40370,10 @@
       "domain": "力学",
       "name": "杠杆平衡条件：F₁L₁=F₂L₂",
       "description": "杠杆五要素（支点动力阻力力臂）与平衡条件 F₁L₁=F₂L₂；力臂的画法（支点到力的作用线的垂直距离）；省力杠杆（撬棒）、费力杠杆（筷子）、等臂杠杆（天平）。人类最早的「力放大器」。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能画力臂并完成杠杆平衡计算",
         "能对六个工具分类省力/费力并说明代价"
@@ -40384,10 +40384,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十二章 简单机械",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_03"
@@ -40400,10 +40400,10 @@
       "domain": "力学",
       "name": "滑轮与滑轮组",
       "description": "定滑轮改变方向不省力、动滑轮省一半力但费距离；滑轮组 F=G/n（n 为承担物重绳段数）、绳端移动 s=nh。升旗、吊车——滑轮的组合智慧。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能判断滑轮组省力情况（数绳段）",
         "能计算拉力与绳端移动距离"
@@ -40414,10 +40414,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十二章 简单机械",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_04"
@@ -40430,10 +40430,10 @@
       "domain": "力学",
       "name": "机械效率：η=W有/W总",
       "description": "机械效率 η=有用功/总功（永远小于 1，因为额外功不可避免）；测滑轮组机械效率的实验与影响因素。效率不是速度：做功快≠效率高——物理学「性价比」的第一课。",
-      "grade": 9,
-      "semester": "上",
-      "ageRangeStart": 14,
-      "ageRangeEnd": 15,
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能计算机械效率并解释为何总小于 1",
         "能说明提高滑轮组效率的两种方法"
@@ -40445,10 +40445,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 9,
-        "volume": "上",
+        "grade": 8,
+        "volume": "下",
         "unit": "第十二章 简单机械",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_01",
@@ -40479,7 +40479,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十三章 内能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8a_17"
@@ -40509,7 +40509,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十三章 内能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_07"
@@ -40539,7 +40539,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十三章 内能",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_08"
@@ -40570,7 +40570,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十四章 内能的利用",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_03",
@@ -40601,7 +40601,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十五章 电流和电路",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_01"
@@ -40631,7 +40631,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十五章 电流和电路",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_11"
@@ -40661,8 +40661,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第十五章-第十六章",
-        "editionYear": 2012
+        "unit": "第十六章 电压电阻",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_12"
@@ -40692,7 +40692,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十六章 电压电阻",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_11"
@@ -40723,7 +40723,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十七章 欧姆定律",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_13",
@@ -40754,7 +40754,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十七章 欧姆定律",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_15"
@@ -40785,7 +40785,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十七章 欧姆定律",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_16"
@@ -40815,7 +40815,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十八章 电功率",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_15"
@@ -40846,7 +40846,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十八章 电功率",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_18"
@@ -40876,7 +40876,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十八章 电功率",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_19"
@@ -40906,7 +40906,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第十九章 生活用电",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_12"
@@ -40936,7 +40936,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第二十章 电与磁",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g8b_11"
@@ -40966,7 +40966,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第二十章 电与磁",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_22"
@@ -40996,7 +40996,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第二十章 电与磁",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_23"
@@ -41026,8 +41026,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第二十一章 信息的传递",
-        "editionYear": 2012
+        "unit": "第二十一章 电磁波及其应用",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_24"
@@ -41056,8 +41056,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第二十二章 能源与可持续发展",
-        "editionYear": 2012
+        "unit": "第二十一章 电磁波及其应用",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_wl_g9a_10"
@@ -42638,7 +42638,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第一单元 走进化学世界",
-        "editionYear": 2012
+        "editionYear": 2026
       }
     },
     {
@@ -42665,7 +42665,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第一单元 走进化学世界",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_01"
@@ -42695,7 +42695,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第一单元 走进化学世界",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_02"
@@ -42724,8 +42724,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第二单元 我们周围的空气",
-        "editionYear": 2012
+        "unit": "第二单元 空气和氧气",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_01",
@@ -42756,8 +42756,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第二单元 我们周围的空气",
-        "editionYear": 2012
+        "unit": "第二单元 空气和氧气",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_03",
@@ -42788,7 +42788,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第三单元 物质构成的奥秘",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_01"
@@ -42819,7 +42819,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第三单元 物质构成的奥秘",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_06"
@@ -42849,7 +42849,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第三单元 物质构成的奥秘",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_07"
@@ -42879,7 +42879,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第四单元 自然界的水",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_05",
@@ -42911,7 +42911,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第四单元 自然界的水",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_03"
@@ -42941,7 +42941,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第四单元 自然界的水",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_07",
@@ -42971,8 +42971,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第五单元 化学方程式",
-        "editionYear": 2012
+        "unit": "第五单元 化学反应的定量关系",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_06"
@@ -43001,8 +43001,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第五单元 化学方程式",
-        "editionYear": 2012
+        "unit": "第五单元 化学反应的定量关系",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_11",
@@ -43032,8 +43032,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第五单元 化学方程式",
-        "editionYear": 2012
+        "unit": "第五单元 化学反应的定量关系",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_13"
@@ -43063,7 +43063,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第六单元 碳和碳的氧化物",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_08",
@@ -43095,7 +43095,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第六单元 碳和碳的氧化物",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_05",
@@ -43126,7 +43126,7 @@
         "grade": 9,
         "volume": "上",
         "unit": "第六单元 碳和碳的氧化物",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_16"
@@ -43155,8 +43155,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第七单元 燃料及其利用",
-        "editionYear": 2012
+        "unit": "第七单元 能源的合理利用与开发",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_04"
@@ -43185,8 +43185,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "第七单元 燃料及其利用",
-        "editionYear": 2012
+        "unit": "第七单元 能源的合理利用与开发",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_18"
@@ -43216,8 +43216,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "上",
-        "unit": "全册总览",
-        "editionYear": 2012
+        "unit": "第七单元 能源的合理利用与开发",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_09",
@@ -43248,7 +43248,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第八单元 金属和金属材料",
-        "editionYear": 2012
+        "editionYear": 2026
       }
     },
     {
@@ -43275,7 +43275,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第八单元 金属和金属材料",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_13",
@@ -43307,7 +43307,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第八单元 金属和金属材料",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_14",
@@ -43339,7 +43339,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第九单元 溶液",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_01"
@@ -43369,7 +43369,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第九单元 溶液",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9b_04"
@@ -43400,7 +43400,7 @@
         "grade": 9,
         "volume": "下",
         "unit": "第九单元 溶液",
-        "editionYear": 2012
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_03",
@@ -43430,8 +43430,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十单元 酸和碱",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_13",
@@ -43461,8 +43461,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十单元 酸和碱",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9b_07"
@@ -43491,8 +43491,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十单元 酸和碱",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9b_07"
@@ -43522,8 +43522,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十单元 酸和碱",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9b_08",
@@ -43554,8 +43554,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十一单元 盐 化肥",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9b_02",
@@ -43586,8 +43586,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十/十一单元综合",
-        "editionYear": 2012
+        "unit": "第十单元 常见的酸、碱、盐",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_16",
@@ -43617,8 +43617,8 @@
         "publisher": "人教版",
         "grade": 9,
         "volume": "下",
-        "unit": "第十二单元 化学与生活",
-        "editionYear": 2012
+        "unit": "第十一单元 化学与社会",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_hx_g9a_19"
@@ -44534,8 +44534,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第一单元 生物和生物圈",
-        "editionYear": 2012
+        "unit": "第一单元 生物和细胞",
+        "editionYear": 2024
       }
     },
     {
@@ -44545,10 +44545,10 @@
       "domain": "生物与环境",
       "name": "生态系统的组成与食物链",
       "description": "生态系统的组成（生物部分：生产者消费者分解者；非生物部分：阳光空气水等）；食物链的写法（从生产者开始到最高消费者、不含分解者与箭头方向指向捕食者）；生态系统的自动调节能力有限。生物学的核心组织观念——生命之网。",
-      "grade": 7,
+      "grade": 8,
       "semester": "上",
-      "ageRangeStart": 12,
-      "ageRangeEnd": 13,
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
       "evidence": [
         "能写出「草→兔→鹰」等食物链并数出营养级",
         "能说明有毒物质为什么会沿食物链积累"
@@ -44559,10 +44559,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 7,
+        "grade": 8,
         "volume": "上",
-        "unit": "第一单元 生物和生物圈",
-        "editionYear": 2012
+        "unit": "第五单元 生物与环境",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -44591,8 +44591,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第二单元 生物体的结构层次",
-        "editionYear": 2012
+        "unit": "第一单元 生物和细胞",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -44621,8 +44621,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第二单元 生物体的结构层次",
-        "editionYear": 2012
+        "unit": "第一单元 生物和细胞",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_03"
@@ -44651,8 +44651,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第二单元 生物体的结构层次",
-        "editionYear": 2012
+        "unit": "第一单元 生物和细胞",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_04"
@@ -44682,8 +44682,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "unit": "第二单元 多种多样的生物",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -44697,7 +44697,7 @@
       "name": "种子的结构与萌发",
       "description": "菜豆种子（子叶两片、无胚乳）与玉米种子（一片子叶、有胚乳）的结构对比——胚是新植物的幼体；萌发的自身条件（完整有活力胚）与环境条件（适宜温度、一定水分、充足空气）；对照实验设计。生命的起点实验课——三大探究实验之一。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44711,9 +44711,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_06"
@@ -44727,7 +44727,7 @@
       "name": "植株的生长：根尖与无机盐",
       "description": "根尖四区（根冠分生区伸长区成熟区——分生区分裂、伸长区伸长得最长）；枝条由芽发育；植株生长需要含氮磷钾的无机盐（缺氮黄叶、缺磷紫叶、缺钾倒伏）。庄稼为什么施肥——植物营养的三要素。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44741,9 +44741,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_07"
@@ -44757,7 +44757,7 @@
       "name": "开花与结果：传粉与受精",
       "description": "花的结构（花蕊是主要部分：雄蕊花药里有花粉、雌蕊子房里有胚珠）；传粉（自花/异花）与受精（花粉管两个精子——双受精伏笔）；子房发育成果实、胚珠发育成种子。春天为什么开花——被子植物繁殖的完整剧本。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44772,9 +44772,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_08"
@@ -44788,7 +44788,7 @@
       "name": "光合作用：实验、过程与意义",
       "description": "经典实验串（普利斯特利、萨克斯——遮光对照淀粉变蓝、恩吉尔曼）；光合作用场所（叶绿体）、条件（光）、原料（二氧化碳水）、产物（有机物氧气）与表达式；绿色植物是生态系统的基石。生物学最重要的生理过程——地球生命的能量入口。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44802,9 +44802,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_02",
@@ -44819,7 +44819,7 @@
       "name": "呼吸作用与光合作用的关系",
       "description": "呼吸作用（线粒体、有光无光都进行、吸氧放二氧化碳、分解有机物释放能量）；与光合作用的对比（场所条件原料产物相反、白天两者并存）。植物的「收支两条线」——白天既赚（光合）也花（呼吸）。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44833,9 +44833,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_10"
@@ -44849,7 +44849,7 @@
       "name": "蒸腾作用与水分运输",
       "description": "蒸腾作用（气孔是门户——保卫细胞控制开闭）拉动力促进根吸水；导管向上运水、筛管向下运有机物；蒸腾的意义（降温、促进吸水运输、提高湿度）。夏天树荫凉快的秘密——植物的「空调系统」。",
       "grade": 7,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 12,
       "ageRangeEnd": 13,
       "evidence": [
@@ -44863,9 +44863,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 7,
-        "volume": "上",
-        "unit": "第三单元 生物圈中的绿色植物",
-        "editionYear": 2012
+        "volume": "下",
+        "unit": "第三单元 植物的生活",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_05",
@@ -44895,8 +44895,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "上",
-        "unit": "第三单元 爱护植被，绿化祖国",
-        "editionYear": 2012
+        "unit": "第二单元 多种多样的生物",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_02",
@@ -44926,8 +44926,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四单元 第一章 人的由来",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_05"
@@ -44956,8 +44956,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四单元 人体的营养",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -44986,8 +44986,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四单元 人体的营养",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7b_02"
@@ -45016,8 +45016,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四单元 人体的呼吸",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_11"
@@ -45046,8 +45046,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四章 人体内物质的运输",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7b_02"
@@ -45076,8 +45076,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第四章 人体内物质的运输",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7b_04",
@@ -45107,8 +45107,8 @@
         "publisher": "人教版",
         "grade": 7,
         "volume": "下",
-        "unit": "第五章 人体内废物的排出",
-        "editionYear": 2012
+        "unit": "第四单元 人体生理与健康(一)",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7b_06"
@@ -45121,10 +45121,10 @@
       "domain": "人体生理与健康",
       "name": "神经调节：反射与反射弧",
       "description": "神经系统的组成（中枢与周围）；神经元是基本单位；反射（简单反射与复杂反射）；反射弧五环节（感受器→传入→神经中枢→传出→效应器）——缺一不可。生物电报系统——为什么摸到烫手立刻缩手。",
-      "grade": 7,
-      "semester": "下",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
       "evidence": [
         "能写出缩手反射的反射弧",
         "能判断哪种反射生来就有"
@@ -45135,10 +45135,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 7,
-        "volume": "下",
-        "unit": "第六章 人体生命活动的调节",
-        "editionYear": 2012
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -45151,10 +45151,10 @@
       "domain": "人体生理与健康",
       "name": "眼与视觉、耳与听觉",
       "description": "眼球的结构与成像（晶状体调节、视网膜成像倒立缩小的实像）；近视的成因（晶状体变凸/眼球前后径过长→物像落在视网膜前方）与矫正（凹透镜）；耳的听觉形成。感觉器官——世界如何被我们看见听见。",
-      "grade": 7,
-      "semester": "下",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
       "evidence": [
         "能说明近视成因并画出矫正光路",
         "能解释瞳孔在暗处变大的原因"
@@ -45165,10 +45165,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 7,
-        "volume": "下",
-        "unit": "第六章 感受器与感觉器官",
-        "editionYear": 2012
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7b_08"
@@ -45181,10 +45181,10 @@
       "domain": "人体生理与健康",
       "name": "激素调节",
       "description": "内分泌腺与外分泌腺的区别；生长激素（幼年过少侏儒、过多巨人症）、甲状腺激素（缺碘呆小症/地方性甲状腺肿）、胰岛素（降血糖——糖尿病）。体液调节的另一条慢通道——与神经调节协同作战。",
-      "grade": 7,
-      "semester": "下",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
       "evidence": [
         "能对三种激素的异常症状连线",
         "能说明胰岛素与尿糖的关系"
@@ -45195,10 +45195,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 7,
-        "volume": "下",
-        "unit": "第六章 激素调节",
-        "editionYear": 2012
+        "grade": 8,
+        "volume": "上",
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7b_08"
@@ -45211,10 +45211,10 @@
       "domain": "人体生理与健康",
       "name": "人类活动对生物圈的影响",
       "description": "人口增长与资源压力；酸雨、臭氧层破坏、水污染与重金属富集；生态环境的保护行动。生物学的公民课——人类是生物圈的一员还是主宰？",
-      "grade": 7,
-      "semester": "下",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
       "evidence": [
         "能举酸雨成因与危害",
         "能说明为什么水体污染最终回到人类餐桌"
@@ -45225,10 +45225,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 7,
-        "volume": "下",
-        "unit": "第七章 人类活动对生物圈的影响",
-        "editionYear": 2012
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五单元 生物与环境",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7a_02",
@@ -45242,10 +45242,10 @@
       "domain": "生物的多样性",
       "name": "无脊椎动物的主要类群",
       "description": "从腔肠（水螅）→扁形→线形（蛔虫）→环节（蚯蚓）→软体（河蚌）→节肢（昆虫——种类最多）的进化主线；昆虫外骨骼与气管。动物界的「平民阶层」——种类最繁多的一支。",
-      "grade": 8,
+      "grade": 7,
       "semester": "上",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
       "evidence": [
         "能按结构由简到繁排列主要类群",
         "能说明昆虫适于陆生的两个特点"
@@ -45256,10 +45256,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 8,
+        "grade": 7,
         "volume": "上",
-        "unit": "第五单元 生物圈中的其他生物",
-        "editionYear": 2013
+        "unit": "第二单元 多种多样的生物",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_01"
@@ -45272,10 +45272,10 @@
       "domain": "生物的多样性",
       "name": "脊椎动物五大类群",
       "description": "鱼类（鳃呼吸鳍游泳）、两栖类（幼体水中成体水陆——青蛙）、爬行类（真正陆生：鳞片羊膜卵）、鸟类（恒温气囊双重呼吸）、哺乳类（胎生哺乳恒温）。脊椎动物的进化阶梯——从水到天的适应策略。",
-      "grade": 8,
+      "grade": 7,
       "semester": "上",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
       "evidence": [
         "能比较五类动物的呼吸体温生殖方式",
         "能说明鸟类适于飞行的三个特点"
@@ -45286,10 +45286,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 8,
+        "grade": 7,
         "volume": "上",
-        "unit": "第五单元 生物圈中的其他生物",
-        "editionYear": 2013
+        "unit": "第二单元 多种多样的生物",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g8a_01"
@@ -45318,8 +45318,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "上",
-        "unit": "第五单元 动物的运动和行为",
-        "editionYear": 2013
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g8a_02"
@@ -45332,10 +45332,10 @@
       "domain": "生物的多样性",
       "name": "细菌、真菌与病毒",
       "description": "细菌（无成形细胞核、分裂繁殖）、真菌（酵母菌出芽、霉菌孢子、蘑菇）、病毒（无细胞结构、寄生）；微生物与人类（发酵食品、抗生素、致病）。看不见的大多数——微生物既是敌人也是朋友。",
-      "grade": 8,
+      "grade": 7,
       "semester": "上",
-      "ageRangeStart": 13,
-      "ageRangeEnd": 14,
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
       "evidence": [
         "能比较细菌真菌病毒的细胞结构",
         "能各举两例微生物的有益与有害利用"
@@ -45346,10 +45346,10 @@
       ],
       "textbook": {
         "publisher": "人教版",
-        "grade": 8,
+        "grade": 7,
         "volume": "上",
-        "unit": "第五单元 细菌和真菌",
-        "editionYear": 2013
+        "unit": "第二单元 多种多样的生物",
+        "editionYear": 2024
       },
       "prerequisites": [
         "ct_sw_g7a_04"
@@ -45378,8 +45378,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "上",
-        "unit": "第六单元 生物的多样性及其保护",
-        "editionYear": 2013
+        "unit": "第五单元 生物与环境",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g8a_02",
@@ -45409,8 +45409,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第七单元 生物圈中生命的延续和发展",
-        "editionYear": 2013
+        "unit": "第六单元 生命的延续和发展",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7a_09"
@@ -45439,8 +45439,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第七单元 生物圈中生命的延续和发展",
-        "editionYear": 2013
+        "unit": "第六单元 生命的延续和发展",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g8b_01"
@@ -45469,8 +45469,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第七单元 生物的遗传与变异",
-        "editionYear": 2013
+        "unit": "第六单元 生命的延续和发展",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7a_05",
@@ -45500,8 +45500,8 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": "第七单元 生物的遗传与变异/第三章 生命起源和生物进化",
-        "editionYear": 2013
+        "unit": "第六单元 生命的延续和发展",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g8b_03"
@@ -45515,7 +45515,7 @@
       "name": "传染病与免疫",
       "description": "传染病流行的三环节（传染源传播途径易感人群）与预防措施（控制传染源切断途径保护易感者）；三道防线与特异性免疫（抗体抗原）；计划免疫。健康的防线——疫苗为什么能「教会」免疫系统。",
       "grade": 8,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -45529,9 +45529,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 8,
-        "volume": "下",
-        "unit": "第八单元 健康地生活",
-        "editionYear": 2013
+        "volume": "上",
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g7b_08",
@@ -45546,7 +45546,7 @@
       "name": "安全用药与健康生活",
       "description": "处方药与非处方药（OTC）、安全用药常识与急救（心肺复苏、止血包扎）；健康的生活方式（不吸烟不酗酒、合理膳食、心理平衡）。初中生物的收官——把生物学还给生活。",
       "grade": 8,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -45560,9 +45560,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 8,
-        "volume": "下",
-        "unit": "第八单元 用药与急救/了解自己增进健康",
-        "editionYear": 2013
+        "volume": "上",
+        "unit": "第四单元 人体生理与健康(二)",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_sw_g8b_05"

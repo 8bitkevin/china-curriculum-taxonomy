@@ -46,14 +46,19 @@ const cnGrade = (g) => (g <= 9 ? CN[g] : String(g));
 /** 单元值归一：基线键用 index（有编号单元）或 title（无编号主题单元）。
  *  可读目标值「第一单元·识字」→「1」；「时间在哪里」→ 原样（title 键）。 */
 const CN_DIGIT = { 一: 1, 二: 2, 三: 3, 四: 4, 五: 5, 六: 6, 七: 7, 八: 8, 九: 9, 十: 10 };
+/** 中文数字→整数（含 十/二十/二十一 式，B-NE4 物理二十章暴露原 reduce 公式 二十→30 的错误） */
+function cn2num(g) {
+  if (/^\d+$/.test(g)) return parseInt(g, 10);
+  const i = g.indexOf('十');
+  if (i === -1) return g.split('').reduce((a, c) => a * 10 + (CN_DIGIT[c] ?? 0), 0);
+  const a = g.slice(0, i);
+  const b = g.slice(i + 1);
+  return (a ? (CN_DIGIT[a] ?? 1) : 1) * 10 + (b ? (CN_DIGIT[b] ?? 0) : 0);
+}
 function normUnitKey(v) {
   const s = String(v);
-  const m = s.match(/^第([一二三四五六七八九十\d]+)单元/);
-  if (m) {
-    const g = m[1];
-    return String(/^\d+$/.test(g) ? parseInt(g, 10)
-      : g.split('').reduce((a, c) => a * 10 + (CN_DIGIT[c] ?? 0), 0));
-  }
+  const m = s.match(/^第([一二三四五六七八九十\d]+)[单元章]/);
+  if (m) return String(cn2num(m[1]));
   const e = s.match(/^Unit\s*(\d+)/i); // 英语锚值「Unit 1·Making friends」
   if (e) return e[1];
   return s;
@@ -149,7 +154,9 @@ function main() {
     if (!meta) { stats.warn.push({ topicId: t.id, stem: targetStem, why: '未知目标册' }); continue; }
 
     t.textbook.unit = newUnit;
-    t.textbook.volume = meta.semester === '全' ? '全' : meta.semester;
+    // 全一册册次（物理/英语九年级）不写 volume='全'——schema 枚举仅 上/下，
+    // 且 stemOf 对九年级全一册有特例，卷字段保持学期口径（B-NE4 实证）
+    t.textbook.volume = meta.semester === '全' ? t.textbook.volume : meta.semester;
     t.textbook.editionYear = remap[targetStem]?.editionYear ?? t.textbook.editionYear;
     if (meta.grade !== fromGrade) {
       const d = meta.grade - fromGrade;

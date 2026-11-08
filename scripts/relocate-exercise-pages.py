@@ -62,7 +62,7 @@ def unit_key(u: str) -> str:
     此前汉字序号无法命中阿拉伯数字键，范围守卫退化为全书 (1,10^4)，
     ±3 页约束失效。"""
     s = str(u)
-    m = re.fullmatch(r"第([一二三四五六七八九十]+)单元(?:·.*)?", s)
+    m = re.fullmatch(r"第([一二三四五六七八九十]+)[单元章](?:[·\s].*)?", s)
     if m:
         n = _cn2int(m.group(1))
         if n:
