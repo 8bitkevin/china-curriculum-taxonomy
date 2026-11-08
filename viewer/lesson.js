@@ -2,8 +2,8 @@
 // 零构建组件：initLessonDrawer 挂到 index.html 的 #lesson-mount 上。
 // 数据懒加载：首次打开某学科的知识点时才 fetch data/lessons/<code>.json
 // （Map 缓存；404 = 该学科暂无内容，显示空态）。渲染全部走 esc() 纯文本，
-// 例题解答与练习答案均用 <details> 折叠（先想再看）。深链 #lesson=ct_xx 由
-// viewer.js 的 applyHash 驱动，open/close 用 replaceState 保持不产生历史记录。
+// 例题解答与练习答案均用 <details> 折叠（先想再看）。URL 由 viewer.js 的路由
+// 统一管理：open/close 只改 UI，通过 onClose 回调让 viewer 同步 hash（#lesson=）。
 
 import { lessonFileOf } from './logic.js';
 import { subjectDeep } from './graph3d.js';
@@ -17,10 +17,10 @@ const KIND_ZH = { textbook: '同步', variant: '变式', extension: '扩展' };
 const CONTRIB_URL = 'https://github.com/8bitkevin/china-curriculum-taxonomy/blob/main/CONTRIBUTING.md';
 
 /**
- * @param {{ index, dataBase?: string }} opts  index = logic.buildIndex 产物
+ * @param {{ index, dataBase?: string, onClose?: () => void }} opts  index = logic.buildIndex 产物
  * @returns {{ open(topicId: string): void, close(): void, isOpen(): boolean }}
  */
-export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
+export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {}) {
   const mount = document.querySelector('#lesson-mount');
   // 学科码 -> Promise<Map<topicId, lesson> | null>（null = 文件不存在）
   const subjectCache = new Map();
@@ -42,7 +42,6 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
   const veil = mount.querySelector('.lesson-veil');
   const drawer = mount.querySelector('.lesson-drawer');
   const body = mount.querySelector('.lesson-body');
-  let prevHash = null;      // open 时记录被替换的 hash，close 时还原
   let lastFocus = null;
 
   const loadSubject = (subject) => {
@@ -141,8 +140,6 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
       `${t.subject} · ${t.domain} · ${t.grade} 年级${t.semester}`;
     body.innerHTML = '<p class="lesson-loading">加载讲解中…</p>';
     mount.hidden = false;
-    prevHash = location.hash.startsWith('#lesson=') ? prevHash : location.hash;
-    history.replaceState(null, '', `#lesson=${topicId}`);
     drawer.scrollTop = 0;
     mount.querySelector('.lesson-close').focus();
 
@@ -156,12 +153,9 @@ export function initLessonDrawer({ index, dataBase = '../data/' } = {}) {
   const close = () => {
     if (mount.hidden) return;
     mount.hidden = true;
-    if (location.hash.startsWith('#lesson=') && prevHash !== undefined) {
-      history.replaceState(null, '', prevHash || location.pathname + location.search);
-    }
-    prevHash = null;
     lastFocus?.focus?.();
     lastFocus = null;
+    onClose?.();   // URL 同步交给 viewer 的统一路由（#lesson= → #id=…）
   };
 
   veil.addEventListener('click', close);

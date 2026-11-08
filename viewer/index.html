@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中国 K12 课程知识图谱</title>
 <meta name="description" content="知识点 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
-<link rel="stylesheet" href="style.css?v=ui8">
+<link rel="stylesheet" href="style.css?v=ui10">
 </head>
 <body>
 <header class="topbar">
-  <div class="brand">
+  <button class="brand" id="brand-home" type="button" title="回到首页">
     <span class="brand-mark" aria-hidden="true">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
         <path d="M12 8.4 5.6 16.7M12 8.4l6.4 8.3" stroke="#fff" stroke-width="1.7" stroke-linecap="round"/>
@@ -22,7 +22,7 @@
       <h1>中国 K12 课程知识图谱</h1>
       <p id="brand-sub">加载数据中…</p>
     </div>
-  </div>
+  </button>
 
   <div class="controls">
     <nav class="tabs" role="tablist">
@@ -53,9 +53,110 @@
   </aside>
 
   <section id="detail" class="detail">
-    <div class="placeholder" id="detail-placeholder">
-      <p>从左侧选择一个知识点，或直接搜索（试试「凑十法」「拼音」）。</p>
-      <p class="muted">点击任一知识点，用<b>学习旅程</b>一眼看清三件事：我在哪（唯一品牌绿焦点 + 学段分段）、先学什么（玫红必需主线，有益先修琥珀虚线支线）、通向哪里（右侧一跳解锁，底部学期热条＝通向计数）；顶部控制条可切换学科、查看学段与目标锚点，双击站点可跳转。另有掌握证据、测评问法与课标对齐。</p>
+    <!-- 落地页（未选中知识点的空态）：viewer.js initLanding 填充矩阵/统计/精选并绑定交互 -->
+    <div class="landing" id="landing">
+      <section class="hero">
+        <p class="hero-kick">开放 · 免费 · 课标对齐的课程知识图谱</p>
+        <h2>孩子学什么 · 先学什么 · 怎么判断学会了</h2>
+        <p class="hero-sub">每个知识点都写清「为什么现在学它」：玫红先修链讲清依赖顺序，掌握证据定义「学会的标志」，测评问法让家长在家就能验证。</p>
+        <form class="hero-search" id="landing-search-form">
+          <input id="landing-search" type="search" placeholder="搜索知识点，如：凑十法、拼音、欧姆定律" aria-label="搜索知识点">
+          <button type="submit">搜索</button>
+        </form>
+        <div class="hero-chips">试试：
+          <button class="chip" type="button" data-q="凑十法">凑十法</button>
+          <button class="chip" type="button" data-q="拼音">拼音</button>
+          <button class="chip" type="button" data-q="欧姆定律">欧姆定律</button>
+        </div>
+        <div class="recent" id="landing-recent" hidden>
+          <span class="recent-lbl">最近浏览</span>
+          <span class="recent-list" id="landing-recent-list"></span>
+        </div>
+      </section>
+
+      <section class="blk">
+        <div class="bhead">
+          <h3>从孩子的年级开始</h3>
+          <p>点任意格子，左侧自动下钻到该学科并按年级筛选出知识点列表。</p>
+        </div>
+        <div class="mx-wrap">
+          <div class="mx-scroll"><div class="mx" id="landing-matrix"></div></div>
+          <p class="mx-hint" id="landing-matrix-hint" aria-live="polite">格子里的数字 = 该年级该学科的知识点数，点击即可直达。</p>
+        </div>
+      </section>
+
+      <section class="blk">
+        <div class="bhead"><h3>三步看懂这份图谱</h3></div>
+        <div class="steps">
+          <div class="step">
+            <span class="step-num">1</span>
+            <h4>选知识点</h4>
+            <p>左侧「学科 → 册 → 知识点」三级下钻，或搜索直达；每条先修边都附选择理由。</p>
+          </div>
+          <div class="step">
+            <span class="step-num">2</span>
+            <h4>看「学习旅程」</h4>
+            <p>一张图看清：我在哪、先学什么、通向哪里——底部热条显示该点被多少后续知识点依赖。</p>
+            <svg viewBox="0 0 260 64" role="img" aria-label="先修链示意：必需先修指向当前知识点，再解锁后续">
+              <line x1="52" y1="20" x2="106" y2="20" style="stroke:var(--hard)" stroke-width="2"/>
+              <line x1="138" y1="20" x2="196" y2="20" style="stroke:var(--line-strong)" stroke-width="2"/>
+              <line x1="60" y1="46" x2="110" y2="25" style="stroke:var(--soft)" stroke-width="1.6" stroke-dasharray="4 3"/>
+              <circle cx="34" cy="20" r="11" style="fill:var(--hard-weak);stroke:#f3c6da"/>
+              <circle cx="122" cy="20" r="14" style="fill:var(--accent)"/>
+              <circle cx="212" cy="20" r="11" style="fill:var(--bg);stroke:var(--line-strong)"/>
+              <circle cx="46" cy="46" r="9" style="fill:var(--soft-weak);stroke:#e2b96b"/>
+              <text x="34" y="24" text-anchor="middle" font-size="9" style="fill:var(--hard-ink)" font-weight="600">先</text>
+              <text x="122" y="24" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">今</text>
+              <text x="212" y="24" text-anchor="middle" font-size="9" style="fill:var(--muted)">后</text>
+              <text x="8" y="14" font-size="9.5" style="fill:var(--hard-ink)">必需先修</text>
+              <text x="198" y="42" font-size="9.5" style="fill:var(--muted)">解锁</text>
+              <text x="20" y="63" font-size="9.5" style="fill:var(--soft-ink)">有益先修（虚线）</text>
+            </svg>
+          </div>
+          <div class="step">
+            <span class="step-num">3</span>
+            <h4>在家就能测</h4>
+            <p>每个知识点带一段替换称呼就能用的测评问法，配「📖 讲解与例题」抽屉，几分钟验证掌握。</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="blk">
+        <div class="bhead"><h3>试试看：点开即见完整学习旅程</h3></div>
+        <p class="feat-legend">链上标记：<i class="lg lg-hard"></i>必需先修 <i class="lg lg-soft"></i>有益先修（虚线） <i class="lg lg-cur"></i>当前知识点 <i class="lg lg-unl"></i>一跳解锁</p>
+        <div class="feat">
+          <button class="fcard" type="button" data-topic-name="凑十法：9 加几">
+            <span class="fmeta">数学 · 一年级上 · 数与代数</span>
+            <span class="fname">凑十法：9 加几</span>
+            <span class="chain">
+              <span class="pill pre">6~10 的认识与组成</span><span class="arr">→</span>
+              <span class="pill pre">10 以内的加减法</span><span class="arr">→</span>
+              <span class="pill cur">凑十法：9 加几</span><span class="arr">→</span>
+              <span class="pill unl">凑十法迁移：8、7、6 加几</span>
+            </span>
+            <span class="fstat" data-fstat></span>
+          </button>
+          <button class="fcard" type="button" data-topic-name="欧姆定律：I=U/R">
+            <span class="fmeta">物理 · 九年级上 · 电与磁</span>
+            <span class="fname">欧姆定律：I=U/R</span>
+            <span class="chain">
+              <span class="pill pre">电流表与电压表的使用</span><span class="arr">→</span>
+              <span class="pill pre">电阻与滑动变阻器</span><span class="arr">→</span>
+              <span class="pill cur">欧姆定律：I=U/R</span><span class="arr">→</span>
+              <span class="pill unl">串并联电路的规律</span>
+            </span>
+            <span class="fstat" data-fstat></span>
+          </button>
+        </div>
+      </section>
+
+      <section class="strip">
+        <span id="landing-stats"></span>
+        <span class="strip-sep">·</span>
+        <a href="#graph3d" id="landing-g3d-link">进入 3D 星系全景 →</a>
+        <span class="strip-sep">·</span>
+        <a href="https://github.com/8bitkevin/china-curriculum-taxonomy#许可" target="_blank" rel="noopener">开放数据（ODbL / CC BY-SA）集成 →</a>
+      </section>
     </div>
   </section>
 
@@ -70,6 +171,6 @@
 
 <div id="lesson-mount" class="lesson-mount" hidden></div>
 
-<script type="module" src="viewer.js?v=ui8"></script>
+<script type="module" src="viewer.js?v=ui10"></script>
 </body>
 </html>
