@@ -101,8 +101,29 @@ def tokens_of(question: str) -> list[str]:
     for run in RE_CJK.findall(q):
         step = 2
         for i in range(0, max(1, len(run) - 1), step):
-            toks.add(run[i:i + step])
+            toks.add(run[i:i + 2])
     return sorted(t for t in toks if len(t) >= 2)
+
+
+def label_hint_tokens(label: str) -> list[str]:
+    """label 引文挖掘（T-2 二轮救援）：题干之外，label 的「·题源描述」部分常含
+    课文原句/题目引文（如「P30·《小公鸡和小鸭子》对话（公鸡弟弟，我到河里捉鱼
+    给你吃）」），其 CJK 双字 token 在新版 PDF 中可命中引文页。只挖 CJK、排除
+    P 页码数字与「页码待复核」标记，避免数字 token 污染与旧页码假命中。"""
+    if not label:
+        return []
+    s = label.replace("·页码待复核", "")
+    if "·" in s:
+        s = s.split("·", 1)[1]  # 丢弃「统编版一下 P30」前缀
+    s = RE_PAGE.sub(" ", s)
+    return tokens_of("".join(RE_CJK.findall(norm_text(s))))
+
+
+def tokens_for(e: dict, label: str) -> list[str]:
+    """题干 token ∪ label 引文 token（题干为空的题也可参与匹配）。"""
+    merged = set(tokens_of(e.get("question") or ""))
+    merged.update(label_hint_tokens(label))
+    return sorted(merged)
 
 
 def page_texts(pdf: Path) -> list[str]:
@@ -240,7 +261,7 @@ def main() -> int:
                     if not src or not m:
                         stats["noPage"] += 1
                         continue
-                    toks = tokens_of(e.get("question") or "")
+                    toks = tokens_for(e, label)
                     long_cjk = max((len(x) for x in toks if re.fullmatch(r"[\u4e00-\u9fff]+", x)),
                                    default=0)
                     need = 1 if long_cjk >= 6 else 2

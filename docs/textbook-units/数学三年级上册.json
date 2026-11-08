@@ -1,49 +1,61 @@
 {
-  "schemaVersion": 1,
-  "volume": "数学三年级上册",
-  "pdf": {
-    "file": "数学三年级上册.pdf",
-    "sha256": "74cf6bb0cb4335ba8ab6da340c8db0a4525f03d1446311472eb4aa4da74428a4",
-    "pages": 114,
-    "hasTextLayer": true
+ "schemaVersion": 1,
+ "volume": "数学三年级上册",
+ "pdf": {
+  "file": "数学三年级上册.pdf",
+  "sha256": "74cf6bb0cb4335ba8ab6da340c8db0a4525f03d1446311472eb4aa4da74428a4",
+  "pages": 114,
+  "hasTextLayer": true
+ },
+ "source": "pdf-text",
+ "extractedAt": "2026-10-31",
+ "units": [
+  {
+   "index": 1,
+   "title": "观察物体",
+   "page": 1
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-31",
-  "units": [
+  {
+   "index": 2,
+   "title": "混合运算",
+   "page": 6
+  },
+  {
+   "index": 3,
+   "title": "毫米、分米和千米",
+   "page": 20
+  },
+  {
+   "index": 4,
+   "title": "多位数乘一位数",
+   "page": 39
+  },
+  {
+   "index": 5,
+   "title": "线和角",
+   "page": 61
+  },
+  {
+   "index": 6,
+   "title": "分数的初步认识",
+   "page": 73
+  },
+  {
+   "index": 7,
+   "title": "复习与关联",
+   "page": 92
+  },
+  {
+   "title": "数学广角：搭配问题",
+   "page": 101,
+   "sections": [
     {
-      "index": 1,
-      "title": "观察物体",
-      "page": 1
-    },
-    {
-      "index": 2,
-      "title": "混合运算",
-      "page": 6
-    },
-    {
-      "index": 3,
-      "title": "毫米、分米和千米",
-      "page": 20
-    },
-    {
-      "index": 4,
-      "title": "多位数乘一位数",
-      "page": 39
-    },
-    {
-      "index": 5,
-      "title": "线和角",
-      "page": 61
-    },
-    {
-      "index": 6,
-      "title": "分数的初步认识",
-      "page": 73
-    },
-    {
-      "index": 7,
-      "title": "复习与关联",
-      "page": 92
+     "no": null,
+     "title": "数学广角：搭配问题",
+     "page": 101
     }
-  ]
+   ]
+  }
+ ],
+ "note": "；数学广角单元（数学广角：搭配问题，印刷页 101）初提漏检，T-2 复核补录"
 }

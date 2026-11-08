@@ -3507,7 +3507,7 @@
       "name": "数学广角：集合与重叠问题",
       "description": "参加语文小组的 8 人、数学小组的 9 人，其中 3 人两组都参加，一共几人？画两个交叉的圈（维恩图）就一目了然。重叠部分最容易被算两次。",
       "grade": 3,
-      "semester": "上",
+      "semester": "下",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -3521,9 +3521,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "上",
-        "unit": 9,
-        "editionYear": 2022
+        "volume": "下",
+        "unit": "数学广角：重叠问题",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_06",
@@ -4312,7 +4312,7 @@
       "name": "数学广角：排列问题",
       "description": "用 1、2、3 能组成几个两位数？按顺序枚举（十位定、个位换）才能不重不漏。排列讲顺序——123 和 213 是两个不同的答案。",
       "grade": 3,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -4326,9 +4326,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "下",
-        "unit": 8,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": "数学广角：搭配问题",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g1b_19",
@@ -4343,7 +4343,7 @@
       "name": "数学广角：组合问题",
       "description": "三件上衣配两条裤子有几种穿法？连线或列表数一数。组合不讲顺序——上衣配裤子和裤子配上衣是同一种穿法，这点与排列不同。",
       "grade": 3,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -4357,9 +4357,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "下",
-        "unit": 8,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": "数学广角：搭配问题",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3b_26"
@@ -4373,7 +4373,7 @@
       "name": "数学广角：稍复杂的搭配问题",
       "description": "「数字、文字、图形三类密码各选一个，有多少种组合？」分步相乘（3×2×4）的雏形在这里萌发，它是将来计数原理的第一粒种子。",
       "grade": 3,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 8,
       "ageRangeEnd": 9,
       "evidence": [
@@ -4387,9 +4387,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 3,
-        "volume": "下",
-        "unit": 8,
-        "editionYear": 2022
+        "volume": "上",
+        "unit": "数学广角：搭配问题",
+        "editionYear": 2025
       },
       "prerequisites": [
         "ct_g3b_27"
@@ -6629,7 +6629,7 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 7,
+        "unit": "数学广角：植树问题",
         "editionYear": 2026
       },
       "prerequisites": [
@@ -6659,7 +6659,7 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 7,
+        "unit": "数学广角：植树问题",
         "editionYear": 2026
       },
       "prerequisites": [
@@ -6995,8 +6995,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": "数学广角：植树问题",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g3a_27",
@@ -7026,8 +7026,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": "数学广角：植树问题",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_24"
@@ -7056,8 +7056,8 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": 7,
-        "editionYear": 2022
+        "unit": "数学广角：植树问题",
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g5a_25"

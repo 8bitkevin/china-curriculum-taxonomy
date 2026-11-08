@@ -1,54 +1,66 @@
 {
-  "schemaVersion": 1,
-  "volume": "数学三年级下册",
-  "pdf": {
-    "file": "数学三年级下册.pdf",
-    "sha256": "bb7f86398b92e0278545715913a0494e843b74d980ebf1abc1924f1ae90e2571",
-    "pages": 114,
-    "hasTextLayer": true
+ "schemaVersion": 1,
+ "volume": "数学三年级下册",
+ "pdf": {
+  "file": "数学三年级下册.pdf",
+  "sha256": "bb7f86398b92e0278545715913a0494e843b74d980ebf1abc1924f1ae90e2571",
+  "pages": 114,
+  "hasTextLayer": true
+ },
+ "source": "pdf-text",
+ "extractedAt": "2026-10-31",
+ "units": [
+  {
+   "index": 1,
+   "title": "生活中的运动现象",
+   "page": 1
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-31",
-  "units": [
+  {
+   "index": 2,
+   "title": "除数是一位数的除法",
+   "page": 10
+  },
+  {
+   "index": 3,
+   "title": "长方形和正方形",
+   "page": 39
+  },
+  {
+   "index": 4,
+   "title": "图形的面积",
+   "page": 52
+  },
+  {
+   "index": 5,
+   "title": "数据的收集与整理",
+   "page": 65
+  },
+  {
+   "index": null,
+   "title": "年、月、日的秘密",
+   "page": 77
+  },
+  {
+   "index": 6,
+   "title": "小数的初步认识",
+   "page": 86
+  },
+  {
+   "index": 7,
+   "title": "复习与关联",
+   "page": 95
+  },
+  {
+   "title": "数学广角：重叠问题",
+   "page": 102,
+   "sections": [
     {
-      "index": 1,
-      "title": "生活中的运动现象",
-      "page": 1
-    },
-    {
-      "index": 2,
-      "title": "除数是一位数的除法",
-      "page": 10
-    },
-    {
-      "index": 3,
-      "title": "长方形和正方形",
-      "page": 39
-    },
-    {
-      "index": 4,
-      "title": "图形的面积",
-      "page": 52
-    },
-    {
-      "index": 5,
-      "title": "数据的收集与整理",
-      "page": 65
-    },
-    {
-      "index": null,
-      "title": "年、月、日的秘密",
-      "page": 77
-    },
-    {
-      "index": 6,
-      "title": "小数的初步认识",
-      "page": 86
-    },
-    {
-      "index": 7,
-      "title": "复习与关联",
-      "page": 95
+     "no": null,
+     "title": "数学广角：重叠问题",
+     "page": 102
     }
-  ]
+   ]
+  }
+ ],
+ "note": "；数学广角单元（数学广角：重叠问题，印刷页 102）初提漏检，T-2 复核补录"
 }

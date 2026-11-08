@@ -14,8 +14,8 @@
       "2年级下": 50,
       "1年级下": 50,
       "2年级上": 44,
-      "3年级上": 64,
-      "3年级下": 65,
+      "3年级上": 66,
+      "3年级下": 63,
       "4年级上": 74,
       "5年级上": 65,
       "4年级下": 66,
@@ -90,8 +90,8 @@
   },
   "files": {
     "topics.json": {
-      "bytes": 1886654,
-      "sha256": "043ae39a87ce3f9fb34ec71bd8ae8dbadf613e0369e1ae92632adf7903987caf"
+      "bytes": 1886906,
+      "sha256": "54c20f30217c089a468b2164b9a2b3b1f0a27d43288db583b7c5937ccb2699dd"
     },
     "dependencies.json": {
       "bytes": 405402,
@@ -106,44 +106,44 @@
       "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     },
     "lessons/dl.json": {
-      "bytes": 255984,
-      "sha256": "661272639c14ed4e2ecc471b25f5b1c5416cea2556fc51c530aa8f804b96e2dd"
+      "bytes": 255899,
+      "sha256": "585e5c486e18f6cea74a4f4adc7a414df152f05b3a4d02796d2c02a7dde6193f"
     },
     "lessons/hx.json": {
-      "bytes": 695687,
-      "sha256": "cbb9d6a7244c0a0382f444d220972aeac0ea3167f386e55e15da44492bb2dd22"
+      "bytes": 695692,
+      "sha256": "f2be9aa4edab62cf0c427deead4d771a53789f870b0beb6e04b33ff80c72f9e0"
     },
     "lessons/ls.json": {
-      "bytes": 761095,
-      "sha256": "dac295c5f37cd139d31abc1bed35f45e7b7bf4bacf05d020e15f757609fc570e"
+      "bytes": 761091,
+      "sha256": "9b7867d03752e104ea7d03013bcd8acecc5826b79108f1828267215b3bdb040a"
     },
     "lessons/math.json": {
-      "bytes": 5362854,
-      "sha256": "0b9191c2be4838de4adb7ffa42d7898d35de272a9563ec0c0a8a2f81f4b1009b"
+      "bytes": 5362576,
+      "sha256": "361f5d8b6c63e1fe50d921b97006f811c097396ae0fa98d64feb77fd21d110fd"
     },
     "lessons/sw.json": {
-      "bytes": 712510,
-      "sha256": "9927b1b90639aada7b6a8e0e50c94ec7cacd781ce4a0898a84417cfdc791c5f6"
+      "bytes": 712513,
+      "sha256": "0fcc67165f52203e6013c4de8b8ad219d0a183a4123f853dfb036406160b1a2a"
     },
     "lessons/sxzz.json": {
       "bytes": 479300,
       "sha256": "f123f0eda09510f5ccd30fd946db33063b3d2f96ab40e9d5dc5c274a739c4ae6"
     },
     "lessons/wl.json": {
-      "bytes": 1240084,
-      "sha256": "97d8b2ffc3b4411e4a2cdd636f8ff6ae44a917cb9879b35ac43b3544ef81852b"
+      "bytes": 1239952,
+      "sha256": "93fc1ffcc0f9de8b6a5a979b73e1d753863f8d739017256e53d4ed33e6adb54f"
     },
     "lessons/yw.json": {
-      "bytes": 5109389,
-      "sha256": "e14e65d61121878ff168f34426c82e6875c67d4ec4b72c6c21dbbcc6933dcc66"
+      "bytes": 5108695,
+      "sha256": "1561a78f6fcc1f28eed8cca90c5ee3723049cc2f344a8679650cee955b686070"
     },
     "lessons/yy.json": {
-      "bytes": 2072090,
-      "sha256": "84f591e101af8c75ecd3b8e041d9d4cb24c1fcda6518f257fc2ead90a4d97127"
+      "bytes": 2071927,
+      "sha256": "5ed45c581057ee85d05b71910e4504af7f9baf48a3687bb024fbd02460d7d413"
     },
     "lessons/zz.json": {
-      "bytes": 359217,
-      "sha256": "cb66c9d612ddf60c2bb5eea10cc3e13cb94889c35a1a3204c08dfb8acf165aa3"
+      "bytes": 359113,
+      "sha256": "01d732a16fc0ec697d5268a78a826dec59027d26bb8b45d06e06ed0c56fc01d3"
     }
   }
 }

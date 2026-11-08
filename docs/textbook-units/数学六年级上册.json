@@ -1,44 +1,56 @@
 {
-  "schemaVersion": 1,
-  "volume": "数学六年级上册",
-  "pdf": {
-    "file": "数学六年级上册.pdf",
-    "sha256": "02c91713adf5ed904f099f35aef813fc55ec2455a1e699581012db21da2b2b82",
-    "pages": 126,
-    "hasTextLayer": true
+ "schemaVersion": 1,
+ "volume": "数学六年级上册",
+ "pdf": {
+  "file": "数学六年级上册.pdf",
+  "sha256": "02c91713adf5ed904f099f35aef813fc55ec2455a1e699581012db21da2b2b82",
+  "pages": 126,
+  "hasTextLayer": true
+ },
+ "source": "pdf-text",
+ "extractedAt": "2026-10-31",
+ "units": [
+  {
+   "index": 1,
+   "title": "确定位置",
+   "page": 1
   },
-  "source": "pdf-text",
-  "extractedAt": "2026-10-31",
-  "units": [
+  {
+   "index": 2,
+   "title": "分数乘法",
+   "page": 16
+  },
+  {
+   "index": 3,
+   "title": "分数除法",
+   "page": 32
+  },
+  {
+   "index": 4,
+   "title": "圆",
+   "page": 48
+  },
+  {
+   "index": 5,
+   "title": "百分数",
+   "page": 79
+  },
+  {
+   "index": 6,
+   "title": "复习与关联",
+   "page": 106
+  },
+  {
+   "title": "数学广角：鸽巢问题",
+   "page": 116,
+   "sections": [
     {
-      "index": 1,
-      "title": "确定位置",
-      "page": 1
-    },
-    {
-      "index": 2,
-      "title": "分数乘法",
-      "page": 16
-    },
-    {
-      "index": 3,
-      "title": "分数除法",
-      "page": 32
-    },
-    {
-      "index": 4,
-      "title": "圆",
-      "page": 48
-    },
-    {
-      "index": 5,
-      "title": "百分数",
-      "page": 79
-    },
-    {
-      "index": 6,
-      "title": "复习与关联",
-      "page": 106
+     "no": null,
+     "title": "数学广角：鸽巢问题",
+     "page": 116
     }
-  ]
+   ]
+  }
+ ],
+ "note": "；数学广角单元（数学广角：鸽巢问题，印刷页 116）初提漏检，T-2 复核补录"
 }
