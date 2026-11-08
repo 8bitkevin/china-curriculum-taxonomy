@@ -2,7 +2,7 @@
  "schemaVersion": 2,
  "subject": "英语",
  "version": "2.4.0",
- "lessonCount": 249,
+ "lessonCount": 261,
  "lessons": [
   {
    "topicId": "ct_yy_g3a_01",
@@ -3504,6 +3504,242 @@
    ]
   },
   {
+   "topicId": "ct_yy_g3b_13",
+   "summary": "开口先说 Excuse me，请求带上 please，得到帮助说 Thank you.——礼貌词让英语一开口就加分。",
+   "explanation": [
+    "这个单元的主题是 My words and actions——我的话和我的行动：好话配好行为，才是一个有礼貌的孩子。英语里最重要的礼貌词有三组：请人做事加 please（请）；得到帮助说 Thank you.（谢谢）；要开口打扰别人先说 Excuse me.（打扰一下）。向同学借铅笔，先说 Excuse me 引起注意，再说带 please 的请求，拿到东西说 Thank you——三句话就完成了一次有礼貌的求助，这是三年级下学期最常用的『社交工具包』。",
+    "逐个学：please 是礼貌魔法词，放句首或句尾都行：Please pass me the ruler. / Pass me the ruler, please.，意思一样，放句尾时前面要加逗号。Thank you. 的回答是 You're welcome.（不客气）。Excuse me. 用在打扰之前：借东西、问问题、从别人前面经过，都先说一句 Excuse me.。做错事道歉则是 I'm sorry.（对不起），对方常回答 It's OK.（没关系）。",
+    "最容易用反的是 Excuse me 和 I'm sorry：Excuse me 是『事前打招呼』——麻烦还没发生，先打个招呼；I'm sorry 是『事后道歉』——错误已经发生。还有，请人做事时 please 不能省：丢了 please，句子就成了命令。words（话语）还要配 actions（行动）：说 Excuse me 时看着对方，说 Thank you 时点点头，接东西用双手——礼貌话配礼貌动作，别人一听一看就舒服。",
+    "礼貌三步开口法：第一步停一停，先说 Excuse me. 引起注意；第二步说清请求，句子带上 please；第三步无论成不成，都说 Thank you.。在家也可以练：让妈妈递东西、向爸爸借书，每次都走这三步，练到不用想就能脱口而出，礼貌就成了习惯。",
+    "上一个单元 Meeting new people 学了见面问好，这一单元把『见面之后的请求与致谢』补齐，见面—求助—道谢的完整链条就通了。下一个单元 Tools and senses for learning 要认文具和感官动词——向同学借 ruler、pencil 时，正好用上本课的 Excuse me 和 please。礼貌词还会出现在每一册的对话里，学会一次，用上三年。"
+   ],
+   "methods": [
+    {
+     "name": "礼貌三步开口法",
+     "steps": [
+      "第一步：先说 Excuse me. 引起对方注意",
+      "第二步：说清请求，句子里带上 please",
+      "第三步：得到帮助说 Thank you.，听到 You're welcome. 再继续",
+      "第四步：配上礼貌动作——看着对方、双手接递"
+     ],
+     "tip": "一打扰二请求三道谢，please 跟着请求走。"
+    },
+    {
+     "name": "场景配对法",
+     "steps": [
+      "打扰别人之前 → Excuse me.",
+      "得到帮助之后 → Thank you.（回答 You're welcome.）",
+      "做错事情之后 → I'm sorry.（回答 It's OK.）",
+      "请人帮忙时 → 句子加上 please"
+     ],
+     "tip": "事前 Excuse me，事后 I'm sorry，得助 Thank you。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "想请同学把尺子递给你，下面哪句最有礼貌？\nA. Pass me the ruler! B. Excuse me, please pass me the ruler. C. Give me the ruler. D. Ruler! Ruler!",
+     "solution": "答案：B。先说 Excuse me 引起注意，再加 please 的请求句最有礼貌；A、C 没有礼貌词，像命令。",
+     "difficulty": 1,
+     "pitfall": "句子说对了却丢了 please 和 Excuse me——礼貌词是关键，不能省。"
+    },
+    {
+     "question": "同学把铅笔递给你，你说 Thank you. 他该怎么回答？\nA. You're welcome. B. I'm sorry. C. Excuse me. D. It's OK.",
+     "solution": "答案：A。回答感谢用 You're welcome.（不客气）；It's OK. 是回答道歉的。",
+     "difficulty": 1,
+     "pitfall": "把回答感谢和回答道歉的句子用反了。"
+    },
+    {
+     "question": "你不小心碰掉了同学的文具盒，应该说哪句？\nA. Excuse me. B. I'm sorry. C. Thank you. D. You're welcome.",
+     "solution": "答案：B。事情已经发生要道歉，用 I'm sorry.，对方会说 It's OK.；Excuse me 是事情发生前的打招呼。",
+     "difficulty": 2,
+     "pitfall": "Excuse me 和 I'm sorry 用反——事前 Excuse me，事后 sorry。"
+    }
+   ],
+   "mistakes": [
+    "做错事后说 Excuse me——Excuse me 是打扰前的打招呼，道歉要用 I'm sorry.。",
+    "请求句丢了 please——Please pass me the ruler. 里的 please 是礼貌的关键。",
+    "Thank you. 回答成 I'm sorry.——回答感谢用 You're welcome.。",
+    "please 放句尾忘加逗号：Pass me the ruler, please. 逗号不能丢。"
+   ],
+   "source": {
+    "unit": "Unit 2·My words and actions",
+    "pages": [
+     14,
+     25
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "补全对话：—____, can I use your pen? —Here you are. —____",
+     "options": [
+      "Excuse me; Thank you",
+      "Sorry; You're welcome",
+      "Excuse me; You're welcome",
+      "Hello; Excuse me"
+     ],
+     "answer": "A",
+     "solution": "借东西先说 Excuse me 引起注意，拿到东西后说 Thank you.；Here you are. 是递东西时说的。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP三下 P16·借物礼貌对话（Excuse me... Thank you.）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "选出礼貌的请求句：____",
+     "options": [
+      "Open the door!",
+      "Please open the door.",
+      "Door, open!",
+      "You open door."
+     ],
+     "answer": "B",
+     "solution": "请求句带上 please 才有礼貌：Please open the door.；不带 please 就像下命令。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP三下 P18·please 请求句（Please...）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：把这句话改得更礼貌，把 please 挪到句尾：Please close the window. 改后：Close the window, ____",
+     "answer": "please",
+     "solution": "please 可以放句首也可以放句尾，放句尾时前面加逗号：Close the window, please.。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP三下 P20·please 位置变式（... , please.）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "情景表演并写下来：向同桌借一块橡皮，用三句话完成这次求助（先打招呼、再请求、后道谢）。",
+     "answer": "示例：Excuse me. Please pass me your eraser. — Here you are. — Thank you.",
+     "solution": "三步齐全：Excuse me 打招呼，请求句带 please，拿到后说 Thank you.；对方递东西时说 Here you are.，这也是课本里的礼貌句。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g3b_14",
+   "summary": "眼睛 see、耳朵 hear、小手 touch：用五官认识文具学习工具，边摸边说 I touch... 记得又快又牢。",
+   "explanation": [
+    "这个单元的主题是 Tools and senses for learning——学习的工具和感官：文具是学习的『工具箱』，五官是认识世界的『探测器』。课本里，同学们一边认文具一边用感官描述：用眼睛看，I see a ruler.（我看见一把尺子）；用耳朵听，I hear...（我听见……）；用手摸，Touch your book.（摸摸你的书）。把工具词和感官动词配成对，学起来又快又牢。",
+    "工具词先认全：ruler 尺子、pen 钢笔、pencil 铅笔、eraser 橡皮、book 书、bag 包——都是天天在手边的『老朋友』。感官动词三兄弟：see 是『看见』，用眼睛；hear 是『听见』，用耳朵；touch 是『触摸』，用手。眼睛看到的说 I see...，耳朵听到的说 I hear...，想请别人摸一摸就说 Touch...。三个动词各管一个器官，配对记住就不会张冠李戴。",
+    "用法规则：感官动词后面直接跟名词，中间不加小词——I see a ruler. / I hear a song.。指令句以动词开头：Touch your book. Close your eyes.（闭上眼睛）——老师发出指令，你照着做，这就是边听边动的 TPR 学法。see 和 look 也要分清：look 是『看』这个动作（Look at the blackboard. 看黑板），see 是『看到』这个结果——说自己看见了什么用 see。",
+    "五感工具配对法：第一步把文具摆上桌；第二步每样东西『三感过一遍』——眼睛看一遍说 I see a pen.，手摸一遍说 I touch my pen.，耳朵听一听笔尖写字的声音说 I hear...；第三步玩『闭眼猜物』：闭上眼睛摸一样文具，猜猜是什么，猜完用英语报名字。三个动词反复说，五官和单词就连成了网。",
+    "上一个单元学了礼貌用语，向同学借 ruler、eraser 时先说 Excuse me、带上 please，这一单元就能把借来的文具『看听说摸』一遍。感官动词以后还会反复出现：看图说话用 see，听录音答题用 hear，做手工说 touch。五感学习法也不只是英语课的——科学课观察、美术课写生，全都用得上。"
+   ],
+   "methods": [
+    {
+     "name": "五感工具配对法",
+     "steps": [
+      "第一步：把文具摆上桌面",
+      "第二步：眼睛看一遍说 I see...，手摸一遍说 I touch...",
+      "第三步：耳朵听一听再补一句 I hear...",
+      "第四步：闭眼猜物，猜完用英语报名字"
+     ],
+     "tip": "眼睛 see、耳朵 hear、小手 touch，五官齐上阵。"
+    },
+    {
+     "name": "指令跟做法",
+     "steps": [
+      "第一步：听指令：Touch your book. / Close your eyes.",
+      "第二步：边听边做动作，做对再跟读句子",
+      "第三步：轮到自己当小老师，发指令让别人做",
+      "第四步：说错的动作换成正确的词再练一遍"
+     ],
+     "tip": "动词开头的句子是指令，听到就做，做对就说。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "你在用眼睛看黑板上的单词，应该说：I ____ the words.\nA. see B. hear C. touch D. eat",
+     "solution": "答案：A。用眼睛看用 see：I see the words.；hear 用耳朵，touch 用手。",
+     "difficulty": 1,
+     "pitfall": "look 和 see 分不清——说『看到』的结果用 see。"
+    },
+    {
+     "question": "老师想让大家摸一摸自己的书包，该说：____\nA. Touch your bag. B. See your bag. C. Hear your bag. D. Open your bag!",
+     "solution": "答案：A。『摸一摸』用 Touch：Touch your bag.；see 是看、hear 是听。",
+     "difficulty": 1,
+     "pitfall": "指令句动词开头，句首要大写。"
+    },
+    {
+     "question": "连词成句并加上标点：I / a ruler / see",
+     "solution": "I see a ruler. 意思是『我看见一把尺子』：主语 I ＋ 感官动词 see ＋ 名词短语。",
+     "difficulty": 2,
+     "pitfall": "句首 I 要大写，句尾加句号。"
+    }
+   ],
+   "mistakes": [
+    "I hear a ruler.——hear 是用耳朵听，看见文具要用 see。",
+    "Touch you book——your（你的）不能写成 you：Touch your book.。",
+    "指令句忘大写：touch your book. 应写成 Touch your book.。",
+    "I see ruler. 漏了冠词——单个可数名词前面要有 a：I see a ruler.。"
+   ],
+   "source": {
+    "unit": "Unit 3·Tools and senses for learning",
+    "pages": [
+     26,
+     37
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "听指令选动作：老师说 Close your eyes. 你应该____",
+     "options": [
+      "闭上眼睛",
+      "打开书包",
+      "摸摸书",
+      "看黑板"
+     ],
+     "answer": "A",
+     "solution": "Close your eyes. 意思是『闭上你的眼睛』；指令句动词开头，听到就照做。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP三下 P30·课堂指令（Close your eyes. / Touch your book.）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "选词填空：用眼睛看文具盒里的铅笔，说：I ____ a pencil.",
+     "options": [
+      "see",
+      "hear",
+      "touch",
+      "jump"
+     ],
+     "answer": "A",
+     "solution": "看到用 see；hear 是听见，touch 是摸。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP三下 P28·文具与感官（I see a pencil.）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：闭眼摸出了橡皮，睁开眼确认后用英语说『我看见一块橡皮』，注意冠词：I see ____ eraser.",
+     "answer": "an",
+     "solution": "eraser 首音是元音 /ɪ/，前面用 an：I see an eraser.。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP三下 P32·an eraser 冠词变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "文具盒小侦探：闭眼从文具盒里摸出一样文具，用两句英语描述——第一句 I touch...（摸的时候猜），第二句 I see...（睁眼确认）。",
+     "answer": "示例：I touch my pen. I see my pen.",
+     "solution": "先摸后看，两个感官动词各用一次；说熟练了可以加第三句 I hear...——摇一摇铅笔盒听声音再猜。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
    "topicId": "ct_yy_g4a_01",
    "summary": "走进新教室数一数：one blackboard，many desks and chairs，两个以上的东西词尾加 s，many 后面接复数。",
    "explanation": [
@@ -6567,6 +6803,118 @@
    ]
   },
   {
+   "topicId": "ct_yy_g4b_13",
+   "summary": "家规三档：must 必须做、have to 不得不做、should 应该做；情态动词后面跟动词原形，规矩说得明明白白。",
+   "explanation": [
+    "每个家里都有一条条规矩：作业写完才能玩、九点半前睡觉、饭前洗手。这个单元的主题就是 Family rules——家规，用英语把规矩说清楚，要靠三个情态动词：must（必须）、have to（不得不、必须）、should（应该）。妈妈说 You must finish your homework first.（你必须先完成作业）；上学日爸爸说 You have to get up at 6:30.（你必须六点半起床）；奶奶温柔地说 You should drink more water.（你应该多喝水）。规矩的『硬度』不一样，选词也不一样。",
+    "三个词逐个比：must 语气最硬，是家里定下的『必须』——I must go to bed before 9:30.；have to 语气也硬，但强调『客观上不得不』——上学日 You have to get up early，不早起就迟到了；should 语气最温和，是建议——You should help with housework.（你应该帮忙做家务）。三个词后面都跟动词原形：must finish、have to get up、should help——情态动词自己不变，后面的动词也不变形。",
+    "最容易错的一处：have to 的三单是 has to！三个词里只有它会变形：I have to... / My father has to work late.；must 和 should 人人一样，永不变形。家里『不许做』的事常用 Don't... 开头：Don't watch TV too long.（别看太久电视）。must 和 have to 大部分时候可以互换，但 mustn't（禁止、千万别）和 don't have to（不必）意思完全不同，这个差别以后再细究，现在先盯紧 has to。",
+    "家规三档法：把家里的规矩按硬度分成三档——最要紧的安全规矩用 must（如不能玩火、必须先写作业）；客观要求用 have to（如上学日几点起床）；温和的习惯建议用 should（如多吃菜、常帮忙）。每档写两条，配上动词原形检查：must / have to / should 后面的动词有没有变形？没有，就对了。",
+    "学校也有规矩——本册第一单元 Class rules 讲的是学校规矩，本单元把规矩带回家；五年级还会用 You should... 谈健康习惯，六年级更会用 must 谈交通安全。规矩无处不在，情态动词就是规矩的度量衡：must 最硬、have to 看客观、should 最温和，选对了词，家规才能说到位。"
+   ],
+   "methods": [
+    {
+     "name": "家规三档法",
+     "steps": [
+      "第一档（最硬）：安全类规矩用 must——I must finish my homework first.",
+      "第二档（客观）：时间类规矩用 have to——I have to get up at 6:30.",
+      "第三档（温和）：习惯建议用 should——I should help with housework.",
+      "每档写两条，检查后面动词是不是原形"
+     ],
+     "tip": "must 最硬、have to 看客观、should 最温和。"
+    },
+    {
+     "name": "has to 盯梢法",
+     "steps": [
+      "第一步：看主语是不是三单（he / she / 爸爸 / 妈妈）",
+      "第二步：三单主语把 have to 换成 has to",
+      "第三步：must 和 should 不变形，人人一样",
+      "第四步：读一遍，听 has 的 s 有没有发出来"
+     ],
+     "tip": "have to 见三单，变身 has to。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：It's late. I ____ go to bed now.（must / musts）",
+     "solution": "填 must。情态动词不变形，后面跟动词原形 go。",
+     "difficulty": 1,
+     "pitfall": "must 没有三单形式，别写成 musts。"
+    },
+    {
+     "question": "补全句子：My father ____ work late tonight.\nA. has to B. have to C. haves to D. must to",
+     "solution": "答案：A。my father 是三单，have to 变 has to：My father has to work late tonight.。",
+     "difficulty": 2,
+     "pitfall": "只有 have to 在三单时变 has to，must、should 不变。"
+    },
+    {
+     "question": "把句子改成禁止：You watch TV too long. → ____ TV too long.",
+     "solution": "Don't watch TV too long. 禁止做某事用 Don't ＋ 动词原形开头。",
+     "difficulty": 2,
+     "pitfall": "Don't 后面的动词保持原形。"
+    }
+   ],
+   "mistakes": [
+    "He must to finish his homework.——must 后面直接跟动词原形，不加 to。",
+    "My mother have to get up early.——三单主语要把 have to 换成 has to。",
+    "You should goes to bed early.——should 后面用 go，动词原形，不加 s。",
+    "把 must 和 should 混用——安全规则用 must 才够硬，should 只是温和建议。"
+   ],
+   "source": {
+    "unit": "Unit 2·Family rules",
+    "pages": [
+     14,
+     25
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "选词填空：You ____ wash your hands before dinner.（must / musts / to must）",
+     "answer": "must",
+     "solution": "情态动词 must 不变形，后面跟动词原形 wash：You must wash your hands before dinner.。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP四下 P16·家规句（You must...）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全句子：School starts at 8:00. I ____ get up at 6:30.",
+     "options": [
+      "have to",
+      "has to",
+      "should to",
+      "am have to"
+     ],
+     "answer": "A",
+     "solution": "主语 I 配 have to；八点上学、不得不早起，是客观要求，用 have to。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP四下 P18·have to 客观要求（I have to get up early.）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：换成三单主语再说一遍：I have to go home early. → My sister ____ ____ go home early.",
+     "answer": "has to",
+     "solution": "主语换成 my sister（三单），have to 变 has to：My sister has to go home early.。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP四下 P20·has to 三单变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "制定两条自家家规并写出来：一条用 must 或 have to（必须做的），一条用 should（建议做的），动词都用原形。",
+     "answer": "示例：I must finish my homework before dinner. I should help clean the table after dinner.",
+     "solution": "家规公式：主语 ＋ must/have to/should ＋ 动词原形。写完贴在书桌前，用英语守家规。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
    "topicId": "ct_yy_g5a_01",
    "summary": "学会用 What's he like? 问性格，用 He's clever/polite 这样回答，还能分清 like 的两个意思。",
    "explanation": [
@@ -8183,6 +8531,242 @@
      "answer": "A",
      "solution": "一般疑问句问的扬、答的稳。每天分角色读两句对话，耳朵和嘴巴都会记住英语的节奏，以后朗读长句子、上台展示都用得上。",
      "difficulty": 2
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g5a_14",
+   "summary": "happy、sad、angry、worried 说心情，Why are you happy? Because... 说原因：情绪有名字，也有来由。",
+   "explanation": [
+    "心情有晴有雨，这个单元教的就是把心情说出来。主题 My feelings 里，同学们互相问 Why are you happy?（你为什么高兴），回答 Because I got a new book.（因为我得到了一本新书）。情绪词是本单元的核心词汇：happy 高兴、sad 难过、angry 生气、worried 担心——四个词管住心情的晴天雨天。会报心情、还会讲原因，情绪表达就从『我开心』升级到『我为什么开心』。",
+    "情绪词逐个认：happy 是最常见的『高兴』，考了满分、交到新朋友都可以说 I'm happy.；sad 是『难过』，心爱的东西丢了、朋友搬走了；angry 是『生气』，被误会、被弄坏了东西；worried 是『担心』，考试临近、家人生病时心里七上八下。它们都是形容词，前面配 be 动词：I am happy. / She is sad. / They are worried.——am 配 I，is 配三单，are 配 you 和复数。",
+    "问因句的规则：问原因用 Why are you ＋ 情绪词?——问句里固定用 are（问的是 you）；问第三个人换成 Why is she sad?。回答以 Because（因为）开头，后面接完整的一句话：Why are you worried? Because I can't find my pen.。Why 问原因、Because 答原因，是一对固定搭档。另外，情绪词别和性格词混：性格是长期的（clever 聪明），情绪是一时的（angry 是此刻生气）——Unit 1 学的 What's he like? 描述的是长期的样子。",
+    "心情晴雨表法：每天放学前给今天的心情挑一个词——happy、sad、angry 还是 worried；然后用 Why are you...? 自问自答一次，Because 后面说出今天的一件真事。坚持一周，四个情绪词和 Because 句就全用顺了；和同学互问互答，还能顺便练听力。",
+    "情绪词和 Unit 1 Different friends 的性格描述正好互补：性格用 What's he like? 问长期，情绪用 Why are you...? 问此刻。健康的心情也需要出口——遇到 worried 的朋友，一句 You should...（下一单元就学）就是安慰；到了六年级还会系统学 How do you feel? 和调节情绪的建议。现在把『情绪＋原因』说顺，以后安慰人、关心人都有话可说。"
+   ],
+   "methods": [
+    {
+     "name": "心情晴雨表法",
+     "steps": [
+      "第一步：给今天的心情挑一个情绪词（happy / sad / angry / worried）",
+      "第二步：用 Why are you...? 问自己一句",
+      "第三步：用 Because ＋ 一件真事回答",
+      "第四步：换一个情绪词再练一轮，四个词轮着来"
+     ],
+     "tip": "先报情绪，再讲 Because，一天一句记心情。"
+    },
+    {
+     "name": "be 动词配对法",
+     "steps": [
+      "第一步：主语 I 配 am：I am happy.",
+      "第二步：三单 he/she 配 is：She is angry.",
+      "第三步：you 和复数配 are：They are worried.",
+      "第四步：问 Why 时盯紧 be 动词：Why are you...? / Why is she...?"
+     ],
+     "tip": "I 用 am，三单 is，you 和复数 are。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：I got an A in English. I'm ____ .（happy / sad）",
+     "solution": "填 happy。考了好成绩是开心的事，用 happy。",
+     "difficulty": 1,
+     "pitfall": "没读句意就填——情绪词要跟着事情选。"
+    },
+    {
+     "question": "补全对话：—Why are you worried? —____ my cat is ill.\nA. Because B. So C. But D. And",
+     "solution": "答案：A。Why 问原因，Because 答原因：Because my cat is ill.。",
+     "difficulty": 1,
+     "pitfall": "Because 后面要接完整的句子，别只接一个词。"
+    },
+    {
+     "question": "把问句换成问 Mary（她）：Why are you happy? → ____",
+     "solution": "Why is Mary happy? you 换成 Mary 后，are 要跟着换成 is。",
+     "difficulty": 2,
+     "pitfall": "人称换了，be 动词忘了跟着换。"
+    }
+   ],
+   "mistakes": [
+    "Why are she happy?——she 是三单，要问 Why is she...?。",
+    "Because I happy.——Because 后面要接完整句子：Because I am happy.。",
+    "把 worried 拼成 worryed——正确拼写是 worried，r 双写再加 ed。",
+    "I am happy yesterday.——说过去的事要用 was：I was happy yesterday.；说现在的心情才用 am/is/are。"
+   ],
+   "source": {
+    "unit": "Unit 2·My feelings",
+    "pages": [
+     14,
+     25
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "选词填空：I can't find my new pen. I'm ____ .",
+     "options": [
+      "happy",
+      "worried",
+      "tired",
+      "hungry"
+     ],
+     "answer": "B",
+     "solution": "东西找不到了会担心，用 worried；happy 是高兴。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP五上 P16·情绪词选择（worried）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全对话：—Why are you angry? —____ Jim broke my cup.",
+     "options": [
+      "Because",
+      "So",
+      "But",
+      "Or"
+     ],
+     "answer": "A",
+     "solution": "回答 Why 的问句用 Because 开头，后面接完整句子。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP五上 P18·Why...? Because... 因果问答·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：把问句改成问她：Why are you sad? → Why ____ ____ sad?",
+     "answer": "is she",
+     "solution": "you 换成 she，are 换成 is：Why is she sad?。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP五上 P20·Why is she...? 人称变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "心情日记一句话：用『情绪词＋原因』写一句今天的真实心情，句式：I'm ____ today. Why? Because ____.",
+     "answer": "示例：I'm happy today. Why? Because I played basketball with my friends.",
+     "solution": "情绪词前面别忘 am/is；Because 后面写今天真实发生的一件事。每天写一句，一周就是一份心情晴雨表。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g5a_15",
+   "summary": "早睡、吃好、多运动都能用 You should... 说成建议：should 后面跟动词原形，关心人的话就成型了。",
+   "explanation": [
+    "这个单元的主题是 Healthy habits——健康的习惯：几点睡觉、早餐吃什么、运动做多少，都是健康话题。课本里，同学们互相提建议：你熬夜了，朋友劝 You should go to bed early.（你应该早点睡）；你早餐没吃，就有人说 You should eat breakfast every day.（你应该每天吃早餐）。should 是提建议的『金色动词』，把一句关心变成一条可以照着做的建议。",
+    "习惯短语先认全：go to bed early 早睡、get up early 早起、eat breakfast 吃早餐、eat more vegetables 多吃蔬菜、drink more water 多喝水、do more exercise 多运动。建议句型 You should ＋ 动词原形：You should drink more water.。反过来劝阻用 shouldn't：You shouldn't stay up late.（你不应该熬夜）——shouldn't 就是 should not 的缩写，劝阻和建议是一对正反面。",
+    "规则辨析：should 是情态动词，后面必须跟动词原形——You should eat breakfast.，不能说 You should to eat，也不能说 You should eats。主语换成第三人称也不变：He should do more exercise.——should 后面的动词永远是原形。回应建议也有讲究：接受说 OK, I will. / Good idea.，再补一句自己的打算就更完整。提建议还有别的说法（如 Let's...、You can...），should 的语气最像『认真地关心』。",
+    "健康三查法：对照三件事自查——睡得早不早、吃得对不对、动得多不多；每一项配一句 You should...：睡得晚就 You should go to bed early.，不吃蔬菜就 You should eat more vegetables.，坐了一整天就 You should do more exercise.。给别人提建议前先想想自己做到了没有——建议句先劝自己，最好用。",
+    "健康和心情是一对好搭档：Unit 2 My feelings 里 worried 的时候，一句 You should... 正是安慰。往后看，六年级还会用 should 谈生病看医生（You should see a doctor.），should 的用法一路加深。现在把这个句型练熟，劝人、自劝都用得上。"
+   ],
+   "methods": [
+    {
+     "name": "健康三查法",
+     "steps": [
+      "第一查睡眠：睡得晚 → You should go to bed early.",
+      "第二查饮食：挑食不吃菜 → You should eat more vegetables.",
+      "第三查运动：坐了一整天 → You should do more exercise.",
+      "每句说完自己先执行：建议先劝自己"
+     ],
+     "tip": "睡、吃、动三处查，should 建议随身带。"
+    },
+    {
+     "name": "should 后原形检查法",
+     "steps": [
+      "第一步：找到 should 后面的动词",
+      "第二步：检查是不是原形——有 to、有 s、有 ing 都算错",
+      "第三步：主语换了再查一遍：He should get up early.",
+      "第四步：劝阻句检查 shouldn't ＋ 原形"
+     ],
+     "tip": "should 是情态动词，后面永远跟动词原形。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：You should ____ more water.（drink / drinks / to drink）",
+     "solution": "填 drink。should 后面跟动词原形。",
+     "difficulty": 1,
+     "pitfall": "主语是 you 就以为动词要变形——should 后面的动词永远原形。"
+    },
+    {
+     "question": "同桌经常熬夜，用英语劝他一句。",
+     "solution": "You should go to bed early. 意思是『你应该早点睡』；可以再补一句 You shouldn't stay up late. 加强调。",
+     "difficulty": 2,
+     "pitfall": "shouldn't 后面同样用动词原形。"
+    },
+    {
+     "question": "把建议句换成劝阻句：You should watch TV all night. → ____",
+     "solution": "You shouldn't watch TV all night. should 加 not 变成 shouldn't，动词原形不变。",
+     "difficulty": 2,
+     "pitfall": "shouldn't 是一个词，撇号在 n 前面，不能写成 should'nt。"
+    }
+   ],
+   "mistakes": [
+    "You should to eat breakfast.——should 后面直接跟动词原形，不加 to。",
+    "He should gets up early.——should 后面用 get，动词原形，不加 s。",
+    "You should'nt stay up late.——缩写是 shouldn't，撇号位置在 n 前面。",
+    "把建议当命令：直接说 Eat breakfast! 太生硬——加上 should 语气更关心人。"
+   ],
+   "source": {
+    "unit": "Unit 4·Healthy habits",
+    "pages": [
+     38,
+     49
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "选词填空：You look tired. You should ____ to bed early.",
+     "options": [
+      "go",
+      "goes",
+      "to go",
+      "going"
+     ],
+     "answer": "A",
+     "solution": "should 后面跟动词原形 go。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP五上 P40·should 建议句（You should go to bed early.）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全对话：—I often eat junk food. —____ eat more vegetables.",
+     "options": [
+      "You should",
+      "You should to",
+      "Do you should",
+      "You are should"
+     ],
+     "answer": "A",
+     "solution": "提建议用 You should ＋ 动词原形；should 前面不加 be 动词、不加 to。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP五上 P42·健康饮食建议（eat more vegetables）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：把建议句改成劝阻句：You should play computer games all day. → You ____ ____ computer games all day.",
+     "answer": "shouldn't play",
+     "solution": "should ＋ not ＝ shouldn't，后面动词原形 play 不变：You shouldn't play computer games all day.。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP五上 P45·shouldn't 劝阻变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "给你的家人提两条健康建议：一条关于作息，一条关于运动，都用 You should... 开头，动词用原形。",
+     "answer": "示例：You should go to bed before 10:00. You should do more exercise.",
+     "solution": "建议句公式：You should ＋ 动词原形 ＋ 健康行为。写完读给家人听，看他们会不会说 Good idea!",
+     "difficulty": 3
     }
    ]
   },
@@ -11215,6 +11799,124 @@
      "question": "全册词汇终极自查：合上书写出六个主题各三个词（共 18 个），再任选三个动词写出三单形式，最后用 My friend ___ (live)… 造两句语篇填空句并填好。",
      "answer": "示例——词网：bookstore / cinema / hospital；by bus / by subway / on foot；see a film / take a trip / next week；dancing / reading stories / doing kung fu；postman / pilot / coach；happy / worried / angry。三单：lives、does、studies。填空：My friend lives in Beijing. He likes going hiking.",
      "solution": "词网抓归类、三单抓规则、填空抓运用；这套自查法练熟了，词汇量再涨也能三步过关。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g6a_13",
+   "summary": "save 存、spend 花、buy 买：零花钱的三种去向用三个动词说清楚，管好小金库从英语记账开始。",
+   "explanation": [
+    "这个单元的主题是 Managing money well——管好钱：零花钱怎么存、怎么花、怎么买，都是要学的本事。核心动词有三个：save（存、攒）、spend（花）、buy（买）。课本里的同学讨论自己的零花钱安排：有人 save money 把钱攒起来，有人 spend money on books 花钱买书，还有人 buy gifts 给家人买礼物。会用这三个动词说清零花钱的去向，理财的第一课就开始了。",
+    "逐个学：save money 是『存钱、攒钱』——save 还有『节约』的意思，save water 节约用水；spend money 是『花钱』，后面常接 on ＋ 东西：I spend ten yuan on books.（我花十元买书）；buy 是『买』，直接跟东西：I buy a pen.，也可以 buy...for...：buy a gift for my mother（给妈妈买礼物）。钱的总名是 money——不可数名词，说 much money、a lot of money，不说 moneys。",
+    "搭配各有固定格式：spend ＋ 钱 ＋ on ＋ 物品；buy ＋ 物品（＋ for ＋ 人）；save ＋ money / water / time——save 后面接你想留住的东西。说自己平常怎么管零花钱用一般现在时：I usually save half of my pocket money.（我通常把一半零花钱存起来）；spend 的三单是 spends：She spends her money on pens.。三个动词的搭配卡片贴在书桌前，配错一次纠正一次，很快就能信手拈来。",
+    "三个钱包法：把零花钱分进三个口袋——save 口袋（攒起来）、spend 口袋（日常花）、buy 口袋（攒着买大件）；每周用英语报一次账：This week I save five yuan. I spend two yuan on a pen. I want to buy a dictionary.。三个动词各说一句，账目清楚，英语也练了。",
+    "上一单元 Healthy life 学了 be going to 做计划——正好用来订零花钱计划：I'm going to save my pocket money this month.。往后看，七年级还会系统学购物价格问答（How much is it?），save/spend/buy 的搭配一路都在用。管钱的本事从小学开始，英语就是你的记账本。"
+   ],
+   "methods": [
+    {
+     "name": "三个钱包法",
+     "steps": [
+      "第一步：把零花钱分成 save、spend、buy 三个口袋",
+      "第二步：每周用英语报账，三个动词各说一句",
+      "第三步：spend 记清楚花在哪：...on ＋ 物品",
+      "第四步：月底看 save 口袋是不是变大了"
+     ],
+     "tip": "存 save、花 spend、买 buy，三个动词记一个月。"
+    },
+    {
+     "name": "搭配卡片法",
+     "steps": [
+      "第一张卡：spend ＋ 钱 ＋ on ＋ 物品",
+      "第二张卡：buy ＋ 物品 ＋ for ＋ 人",
+      "第三张卡：save ＋ money / water / time",
+      "第四步：打乱卡片自己配句，配错的重背"
+     ],
+     "tip": "spend 花钱 on 东西，buy 买东西 for 人。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：I want to ____ money for a new bike.（save / spend / buy）",
+     "solution": "填 save。为买新自行车而攒钱，用 save money；spend 是花钱，buy 直接跟物品。",
+     "difficulty": 1,
+     "pitfall": "看见 money 就随手填 spend——先想清楚动作是存还是花。"
+    },
+    {
+     "question": "补全句子：I spend five yuan ____ a ruler.\nA. on B. for C. to D. in",
+     "solution": "答案：A。spend ＋ 钱 ＋ on ＋ 物品：spend five yuan on a ruler.。",
+     "difficulty": 1,
+     "pitfall": "spend 后面接 on，不是 for。"
+    },
+    {
+     "question": "翻译成英语：我给妈妈买了一份礼物。",
+     "solution": "I buy a gift for my mother. buy ＋ 物品 ＋ for ＋ 人；也可以说 I buy my mother a gift.。",
+     "difficulty": 2,
+     "pitfall": "for 的位置——礼物在前、人在后：buy a gift for...。"
+    }
+   ],
+   "mistakes": [
+    "moneys——money 是不可数名词，说 much money，不加 s。",
+    "I spend five yuan for a ruler.——spend...on...，介词用 on。",
+    "I buy a gift to my mother.——buy...for...：buy a gift for my mother.。",
+    "save 和 spend 用反：想攒钱时说 I spend money.——save 是存，spend 是花。"
+   ],
+   "source": {
+    "unit": "Unit 4·Managing money well",
+    "pages": [
+     38,
+     49
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "选词填空：I ____ my pocket money every month.",
+     "options": [
+      "save",
+      "spend",
+      "buy",
+      "sell"
+     ],
+     "answer": "A",
+     "solution": "把零花钱攒起来用 save；spend 是花，buy 是买，sell 是卖。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP六上 P40·save 词块（save money）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全句子：She often spends her money ____ books and pens.",
+     "options": [
+      "on",
+      "for",
+      "at",
+      "with"
+     ],
+     "answer": "A",
+     "solution": "spend...on...：spend money on books and pens.。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教PEP六上 P42·spend...on... 搭配·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：用 buy 句型表达同样的意思：I spend ten yuan on a book. → I ____ a book with ten yuan.",
+     "answer": "buy",
+     "solution": "花十元买书，也可以说 I buy a book with ten yuan.——spend...on... 和 buy...with... 意思相通。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教PEP六上 P44·buy...with... 句型变式·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "零花钱小账本：用 save、spend、buy 各写一句本周（或假设）的零花钱安排，spend 那句要带 on ＋ 物品。",
+     "answer": "示例：I save ten yuan every week. I spend five yuan on a notebook. I want to buy a dictionary for my sister.",
+     "solution": "三个动词各司其职：save 存、spend...on 花、buy...for 买；写完算一算，你的 save 口袋还剩多少？",
      "difficulty": 3
     }
    ]
@@ -14313,6 +15015,354 @@
      ],
      "answer": "B",
      "solution": "具体日期用 on＋月份＋序数词：on May 2nd。月份大写，second 缩写 2nd。把月份、序数词、on 的搭配一起自查一遍，日期题就稳了。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g7a_16",
+   "summary": "钢笔、尺子、橡皮都能用英语叫出名字：What's this? It's a ruler. 认得清、答得对，物品归位才 keep tidy。",
+   "explanation": [
+    "开学第二课，教室里的主角换成了桌面上的东西：钢笔、铅笔、尺子、橡皮、书、书包。Starter Unit 2 Keep Tidy! 的主线就是认物和整理：同学之间互相问 What's this?（这是什么）What's that?（那是什么），用 It's a/an... 回答；再问 Is this your schoolbag?（这是你的书包吗）用 Yes, it is. / No, it isn't. 回答。把每样东西叫得出名字、放得回原位——桌上 on the desk、包里 in the schoolbag——桌面书包才真正 keep tidy（保持整洁）。这批学习用品词是初中英语的第一批『实物词汇』，后面借东西、买东西全都离不开它们。",
+    "先把词认全：pen 钢笔、pencil 铅笔、ruler 尺子、eraser 橡皮、book 书、schoolbag 书包，再加上 pencil box 铅笔盒。名词前面要戴『帽子』：a pen、a ruler，但 eraser 前面要用 an——eraser 的第一个音是元音 /ɪ/，an eraser 连读才顺口。判断规则看发音不看字母：元音音素开头的单词配 an（an eraser、an egg），辅音音素开头的配 a（a pen、a book）。这一条小规则在后面的课文里会一遍遍遇到，第一次就记牢最省事。",
+    "问答有两条铁律。第一，this 指『近处的这个』，that 指『远处的那个』，但回答一律用 It's 开头：What's this? It's a pen. What's that? It's an eraser.——回答不跟着问句换 this/that，统一 It's 最规范。第二，问别人的东西用 Is this your...?，回答 Yes, it is. / No, it isn't.；my、your 是『形容词性物主代词』，后面必须跟名词：my ruler 我的尺子、your schoolbag 你的书包。缩写也别丢：What is 缩成 What's，it is 缩成 it's，撇号一个不能少。",
+    "认物三步走：第一步听问题抓关键词，What's this? 还是 What's that?，先判断东西在近处还是远处；第二步看着实物想单词，先想首音再想全词；第三步张口用 It's a/an... 回答，能补一句 my 或 your 就更完整，比如 It's my pen.。练熟以后玩『归位游戏』：听到 Put the pen in the pencil box. 就照做，放对了再报一遍名字——keep tidy 的秘诀就是每样东西都有固定的 in/on 位置。",
+    "这个单元还接着 Starter Unit 1 认过的字母往下走：Aa 到 Hh 之前学过，本单元认 Ii 到 Rr，到 Starter Unit 3 就把最后一批 Ss 到 Zz 收齐，26 个字母全部到位。学习用品词汇也是后面单元的地基：Unit 1 You and Me 要介绍自己的物品，Unit 2 We're Family! 要学完整的物主代词，Unit 3 My School 还要说 I have a...。现在把 What's this? 问顺口了，后面每一课都省力。"
+   ],
+   "methods": [
+    {
+     "name": "认物三步法",
+     "steps": [
+      "第一步：听清问题里的 this 还是 that，判断东西在近处还是远处",
+      "第二步：看着实物想单词，先想首音再想全词",
+      "第三步：用 It's a/an... 回答，能补一句 my/your 就补",
+      "第四步：互相『点过堂』——指到哪儿问到哪儿，两分钟扫完一教室"
+     ],
+     "tip": "this 近 that 远，回答统一 It's 开头。"
+    },
+    {
+     "name": "a/an 看首音法",
+     "steps": [
+      "第一步：把单词的首音读出来：pen /p/、eraser /ɪ/",
+      "第二步：首音是元音音素就配 an：an eraser、an apple",
+      "第三步：首音是辅音音素就配 a：a pen、a book",
+      "第四步：连读一遍检查是否顺口"
+     ],
+     "tip": "看首音不看首字母，元音开头用 an。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：Look! This is ____ eraser.（a / an）",
+     "solution": "填 an。eraser 的首音是元音 /ɪ/，元音音素开头用 an。",
+     "difficulty": 1,
+     "pitfall": "看见 e 就以为要看字母——规则看的是读音，不是字母。"
+    },
+    {
+     "question": "—What's that? —____\nA. It's a ruler. B. That's a ruler. C. This is ruler. D. It's an ruler.",
+     "solution": "答案：A。问 this 还是 that，回答都用 It's a/an... 开头；ruler 首音 /r/ 是辅音，用 a。",
+     "difficulty": 1,
+     "pitfall": "回答跟着问句换成 That's——统一用 It's 才规范。"
+    },
+    {
+     "question": "同桌指着远处的一本书问 Is that your book? 书不是你的，该怎么回答？",
+     "solution": "No, it isn't. 意思是『不是，它不是』。否定回答用 it isn't，it 指的就是那本书。",
+     "difficulty": 2,
+     "pitfall": "漏掉 it，直接说 No, isn't——主语 it 不能丢。"
+    }
+   ],
+   "mistakes": [
+    "What's this? 回答 This is a pen.——标准回答是 It's a pen.，问 this、问 that 都用 It's 开头。",
+    "a eraser——eraser 首音是元音 /ɪ/，要用 an eraser。",
+    "Whats this? 漏了撇号——What is 缩写成 What's，撇号不能丢。",
+    "It's my the pen.——my 和 the 不能同时用，说了 my pen 就别再加 the。"
+   ],
+   "source": {
+    "unit": "Starter Unit 2 Keep Tidy!",
+    "pages": [
+     7,
+     12
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "选出正确的一项：This is ____ eraser.",
+     "options": [
+      "a",
+      "an",
+      "the",
+      "two"
+     ],
+     "answer": "B",
+     "solution": "eraser 首音是元音 /ɪ/，用 an；an eraser 连读顺口。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教新目标七上 P9·学习用品认读（What's this? It's an eraser.）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全问答：—What's this? —____",
+     "options": [
+      "It's a pencil.",
+      "It's my a pencil.",
+      "This is pencil.",
+      "Yes, it is."
+     ],
+     "answer": "A",
+     "solution": "What's this? 用 It's a/an ＋ 单词回答；pencil 首音 /p/ 配 a。Yes, it is. 是回答一般疑问句的。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教新目标七上 P10·认物问答（What's this? It's a pencil.）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：把问句里的 this 换成 that，再写出回答。原句：What's this? It's a ruler. 新句：What's ____? ____",
+     "answer": "that; It's a ruler.",
+     "solution": "this 变 that 只改问句，回答不变：问近处问远处都用 It's a ruler. 开头。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教新目标七上 P11·this/that 认物问答变式（What's that? It's a ruler.）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "书包整理时间：请用 It's a/an... 各写三句话，介绍书包里的三样学习用品，其中至少一句加上 my。",
+     "answer": "示例：It's a pen. It's my pen. It's an eraser. It's a ruler.",
+     "solution": "句式：It's a/an ＋ 学习用品；加上 my 表示『我的』。介绍完记得把东西放回书包——keep tidy！",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g7a_17",
+   "summary": "新同学进班，先说 Welcome to our class!，再补一句 Nice to meet you.；S 到 Z 收官，26 个字母全部认齐。",
+   "explanation": [
+    "Starter Unit 3 Welcome! 是初中英语的『迎新现场』：有人来到新学校、新班级，大家用英语欢迎他。核心表达有三组：Welcome to our school!（欢迎来到我们学校）、Welcome to our class!（欢迎来到我们班）、Nice to meet you.（很高兴认识你）——回答要补 too：Nice to meet you, too.。介绍教室、操场这些场所用 This is...：This is our classroom.（这是我们的教室）。会欢迎人、会介绍地方，新生第一天的英语就够用了。",
+    "用法各有讲究。Welcome to 后面直接跟地点词：Welcome to our school.，中间不加别的介词。Nice to meet you 用于初次见面，回答记得加 too；若是再见面，可以说 Nice to see you again.（又见面啦）——这也是开学季的常客。欢迎之后常接一句介绍：This is our classroom.，指远处则用 That is the library.——this 指近处、that 指远处，正好把上一个单元学的 this/that 搬到介绍场所上来。",
+    "字母在本单元收官：Starter Unit 1 学了 Aa 到 Hh，Starter Unit 2 学了 Ii 到 Rr，这里把 Ss、Tt、Uu、Vv、Ww、Xx、Yy、Zz 学完，26 个字母全部到齐。每个字母都要会认大小写、会按顺序背、会读：Ss 读 /es/，Ww 读 /ˈdʌbljuː/ 是最长的字母名，Zz 有英式 /zed/ 和美式 /ziː/ 两种读法，两种都对。字母认读是查字典、拼单词的基本功，26 个字母一个都不能含糊。",
+    "迎新三步走：第一步打招呼，Hi! / Hello! / Good morning!；第二步表欢迎，Welcome to our class!；第三步互致问候，Nice to meet you. — Nice to meet you, too.。加上一句介绍就更完整：This is our classroom. / That is the library.。在家练法很简单：玩具娃娃当新同学，走一遍三步，再把家里的『书房』『客厅』当场所练 This is...，一周就把这套表达用顺了。",
+    "三个 Starter Unit 到这里全部完成：问候（Starter Unit 1）、认物（Starter Unit 2）、迎新介绍（Starter Unit 3），初中英语的入场券都拿到手。接下来 Unit 1 You and Me 就要用这些本领做正式的自我介绍和交友对话；以后带同学参观学校、介绍班级，Welcome to... 和 This is... 每次都用得上。"
+   ],
+   "methods": [
+    {
+     "name": "迎新三步法",
+     "steps": [
+      "第一步打招呼：Hi! / Hello! / Good morning!",
+      "第二步表欢迎：Welcome to our class!",
+      "第三步互认识：Nice to meet you. — Nice to meet you, too.",
+      "顺手加一句介绍：This is our classroom."
+     ],
+     "tip": "一打招呼、二说欢迎、三 nice to meet you，迎新三步不能少。"
+    },
+    {
+     "name": "字母收官三查法",
+     "steps": [
+      "查顺序：从 A 背到 Z，S 后面是 T，Y 后面是 Z",
+      "查大小写：Ss、Ww、Zz，小写别写成大写",
+      "查读音：Ww 读 /ˈdʌbljuː/ 最长，Zz 有 /zed/ 和 /ziː/ 两种读法",
+      "听写抽查：报字母，大小写各写一行"
+     ],
+     "tip": "S 到 Z 收好尾，二十六个字母一个不缺。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "班里来了新同学，下面哪句是用来欢迎他的？\nA. Welcome to our class! B. I'm fine, thanks. C. Good evening. D. What's this?",
+     "solution": "答案：A。Welcome to... 是欢迎用语，后面跟地点；I'm fine 回答身体好不好，What's this 是认物问答，场景都不对。",
+     "difficulty": 1,
+     "pitfall": "把欢迎和问候混为一谈——Welcome to 后面要跟地点。"
+    },
+    {
+     "question": "—Nice to meet you. —____\nA. Nice to meet you, too. B. You're welcome. C. Thank you. D. I'm OK.",
+     "solution": "答案：A。初次见面互致 Nice to meet you，回答补上 too；You're welcome. 是回答感谢的。",
+     "difficulty": 1,
+     "pitfall": "漏掉 too，或错答 You're welcome."
+    },
+    {
+     "question": "写出字母表最后四个字母的大写和小写。",
+     "solution": "Ww、Xx、Yy、Zz。注意 Ww 的小写是 w，笔画要写到位，别和 v 混淆。",
+     "difficulty": 2,
+     "pitfall": "小写 w 和 v 长得像，四线三格里占格也不同。"
+    }
+   ],
+   "mistakes": [
+    "Nice to meet you. 回答漏掉 too——对方说 Nice to meet you，你要说 Nice to meet you, too.。",
+    "Welcome in our school——介词用 to：Welcome to our school.。",
+    "以为 Zz 只能读 /zed/——英式读 /zed/、美式读 /ziː/，两种都对。",
+    "This are our classroom.——this 单数配 is：This is our classroom.。"
+   ],
+   "source": {
+    "unit": "Starter Unit 3 Welcome!",
+    "pages": [
+     13,
+     18
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "新同学第一次来到你们班。选择最合适的一句话：____",
+     "options": [
+      "Welcome to our class!",
+      "What's that?",
+      "Is this your pen?",
+      "How are you?"
+     ],
+     "answer": "A",
+     "solution": "欢迎新同学用 Welcome to...；其他三项分别是认物、认物和日常问候，场景不对。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教新目标七上 P14·迎新表达（Welcome to our school!）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "把对话补充完整：—Nice to meet you. —Nice to meet you, ____.",
+     "options": [
+      "two",
+      "too",
+      "to",
+      "also"
+     ],
+     "answer": "B",
+     "solution": "too 是『也』，放句尾；two 是数字二，to 是介词，读音相同但意思不同。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教新目标七上 P15·问候对话（Nice to meet you, too.）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：带新同学参观学校，指着远处的图书馆介绍一句。（library）That is the ____. 再写出指近处教室的那句：____",
+     "answer": "library; This is our classroom.",
+     "solution": "远处的场所用 That is... 介绍；近处的用 This is...：This is our classroom.。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教新目标七上 P16·介绍校园场所变式（This is... / That is...）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "给你的新同桌写两句欢迎语：一句用 Welcome to...，一句用 Nice to meet you.，注意首字母大写和标点。",
+     "answer": "示例：Welcome to our class! Nice to meet you, too.",
+     "solution": "欢迎语两句连用最自然；句首字母大写，感叹号收尾。写完读给同桌听一听，互相再答一句。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g7a_18",
+   "summary": "一天作息用英语报得出：What time do you usually get up? I get up at 6:30. 三单主语记得给动词加 s。",
+   "explanation": [
+    "Unit 6 A Day in the Life 把镜头对准一天的生活：几点起床、几点上学、几点睡觉。核心问句是 What time do you usually get up?（你通常几点起床），回答 I usually get up at 6:30.。教材里的人物把一天从早到晚排成时间表，常用作息短语有：get up 起床、go to school 去上学、do homework 做作业、go to bed 上床睡觉，中间还有吃早餐、吃晚饭这些『节点』。这些短语加上时刻，一天的日程就能用英语完整报出来。",
+    "时间表达两条规则：具体时刻用 at——at 6:30（六点半）、at 9:00；一天中的时段用 in——in the morning（在早上）、in the afternoon、in the evening；上学日说 on school days。还要分清两种提问：What time is it? 问的是『现在几点』，看钟表回答；What time do you...? 问的是『你通常几点做某事』，回答 at ＋ 时刻。一个问此刻钟点，一个问每天规律，用错场景就会答非所问。",
+    "一般现在时的分工：主语是 I、you、we、they 时动词用原形——I go to school at 7:30.；主语是 he、she、it 或人名单数时动词要加 s——She goes to school at 7:30.。提问也跟着换：Do you go to school at 7:30? / Does she go to school at 7:30?——does 已经扛了三单任务，后面的动词必须还原成原形。usually（通常）这类频度词放在动词前面：I usually get up at 6:30.，别挪到句尾去。",
+    "时间轴一天法：先画一条时间轴，把起床、上学、做作业、睡觉四个点标上去，每个点配一句 I ＋ 动词 ＋ at ＋ 时刻；然后升级成问答，同桌报一个作息，你问 What time do you...?；最后练三单：把 I 换成 My mother 或 He，动词加 s、提问换 does。一套流程走完，一般现在时和三单就都稳了。",
+    "一般现在时和三单规则在 Unit 5 Fun Clubs 的 like 句型里刚练过——do/does 一套规则走天下，这里换到作息动词上再巩固一遍。到了 Unit 7 Happy Birthday! 还要说日期和年龄，时间表达从『几点』扩展到『几月几日』。写作上，『我的一天』小语篇就是把本课的时间轴抄成五句话，每一句都用得上。"
+   ],
+   "methods": [
+    {
+     "name": "时间轴一天法",
+     "steps": [
+      "第一步：画时间轴，标出起床、上学、做作业、睡觉四个点",
+      "第二步：每个点写一句 I ＋ 动词 ＋ at ＋ 时刻",
+      "第三步：和同桌互问 What time do you...? 完成问答",
+      "第四步：把 I 换成 he/she，动词加 s 再说一遍"
+     ],
+     "tip": "时间轴上四句话，一天作息全拿下。"
+    },
+    {
+     "name": "三单换装检查法",
+     "steps": [
+      "第一步：看主语，I、you、we、they 用原形",
+      "第二步：he、she、it 和人名单数，动词加 s",
+      "第三步：Does 提问后动词还原成原形",
+      "第四步：usually 放在动词前面，别放到句尾"
+     ],
+     "tip": "三单动词加 s，does 后面还原形。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "选词填空：She ____ up at 6:30 every day.（get / gets）",
+     "solution": "填 gets。she 是三单，get 要加 s 变 gets。",
+     "difficulty": 1,
+     "pitfall": "只顾读顺口没看主语，或把 gets 误写成 getes——直接加 s 就行。"
+    },
+    {
+     "question": "补全问句：—____ does he go to bed? —At 9:00.\nA. What time B. What C. Where D. How",
+     "solution": "答案：A。问作息时刻用 What time；回答 at 9:00 也印证了问的是时刻。",
+     "difficulty": 1,
+     "pitfall": "只记得 what 忘了 time——问钟点要说 What time。"
+    },
+    {
+     "question": "把 I do my homework at 7:00 in the evening. 改成说 Jim 的句子。",
+     "solution": "Jim does his homework at 7:00 in the evening. 主语换成三单，do 变 does，my 换成 his。",
+     "difficulty": 2,
+     "pitfall": "动词变了，物主代词忘了跟着变——my 也要换成 his。"
+    }
+   ],
+   "mistakes": [
+    "He get up at 6:30. 漏掉三单 s——he、she、it 后面用 gets。",
+    "Does he gets up early?——does 已经是三单，后面动词还原成 get。",
+    "at the morning——时段用 in：in the morning；具体时刻才用 at。",
+    "What time do she go to school?——she 是三单，要问 What time does she go to school?"
+   ],
+   "source": {
+    "unit": "Unit 6·A Day in the Life",
+    "pages": [
+     59,
+     66
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "用所给动词的适当形式填空：He ____ (go) to school at 7:30 on school days.",
+     "answer": "goes",
+     "solution": "he 是三单主语，go 加 es 变 goes；on school days 表明是每天的惯例，用一般现在时。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教新目标七上 P61·作息动词三单填空（He goes to school at 7:30.）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "补全对话：—What time do you usually get up? —____",
+     "options": [
+      "At 6:30.",
+      "In the morning.",
+      "Yes, I do.",
+      "I'm fine."
+     ],
+     "answer": "A",
+     "solution": "问几点起床，回答用 at ＋ 时刻；Yes, I do. 是回答一般疑问句的。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教新目标七上 P60·作息问答（What time do you usually get up? At 6:30.）·页码待复核"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式挑战：把陈述句改成疑问句。原句：He goes to bed at 9:00. 改成：____ he ____ to bed at 9:00?",
+     "answer": "Does; go",
+     "solution": "三单陈述句变疑问句用 Does 提前，动词还原成 go：Does he go to bed at 9:00?。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教新目标七上 P63·一般现在时疑问句变式（Does he go to bed at 9:00?）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "写一段『我的一天』：起床、上学、睡觉各一句，每句都用 at ＋ 时刻；写完把主语换成 he 再写一遍，动词记得加 s。",
+     "answer": "示例：I get up at 6:30. I go to school at 7:30. I go to bed at 9:30. / He gets up at 6:30. He goes to school at 7:30. He goes to bed at 9:30.",
+     "solution": "一般现在时说习惯动作；主语换成 he 时三个动词都要加 s——这正是 A Day in the Life 时间轴的写法。",
      "difficulty": 3
     }
    ]
@@ -24830,7 +25880,7 @@
      "solution": "动词短语 taking part in... 位于谓语 was 之前作主语，动名词开头大写，谓语按单数处理。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P10·圈出正确单词（Taking part in the celebration was a satisfying/satisfied experience for us）"
+      "label": "人教必修三 P97·圈出正确单词（Taking part in the celebration was a satisfying/satisfied experience for us）"
      }
     },
     {
@@ -24846,7 +25896,7 @@
      "solution": "介词 in 后面接动名词 tending 作宾语，与后面的 publishing、training 三个并列。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P17·语篇续文（She was more interested in tending patients, publishing medical research…）"
+      "label": "人教必修三 P17·语篇续文（She was more interested in tending patients, publishing medical research…）·页码待复核"
      }
     },
     {
@@ -24862,7 +25912,7 @@
      "solution": "A 句 -ing 短语站在谓语 is 之前作主语；B 句是宾语补足语，C 句 dressed 是定语，D 句 watching 是宾语。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P42·用所给动词的适当形式补全语篇变式（Sending people to other planets…is not an easy goal to achieve）"
+      "label": "人教必修三 P93·用所给动词的适当形式补全语篇变式（Sending people to other planets…is not an easy goal to achieve）"
      }
     },
     {
@@ -24952,7 +26002,7 @@
      "solution": "不定式 to go 作定语修饰 the first person，相当于 the first person who went into space。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P42·观察不定式例句（Yuri Gagarin became the first person in the world to go into space）"
+      "label": "人教必修三 P42·观察不定式例句（Yuri Gagarin became the first person in the world to go into space）·页码待复核"
      }
     },
     {
@@ -24962,7 +26012,7 @@
      "solution": "be 动词 is 后接不定式短语作表语，说明梦想的具体内容。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P34·词汇语法填空（My dream is to live a more meaningful life）"
+      "label": "人教必修三 P93·词汇语法填空（My dream is to live a more meaningful life）"
      }
     },
     {
@@ -24978,7 +26028,7 @@
      "solution": "句型是 It is + adj. + to do sth.：it 作形式主语，is 后接形容词，不定式短语整体后移。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P42·语篇填空变式（Is it possible to travel faster than light?）"
+      "label": "人教必修三 P96·语篇填空变式（Is it possible to travel faster than light?）"
      }
     },
     {
@@ -25068,7 +26118,7 @@
      "solution": "人“感到惊讶”用 -ed 形式的 amazed；amazing 意为“令人惊讶的”，主语通常是事物。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P10·圈出正确单词（Most of the people were amazing/amazed by the lion dances during the new year celebrations）"
+      "label": "人教必修三 P10·圈出正确单词（Most of the people were amazing/amazed by the lion dances during the new year celebrations）·页码待复核"
      }
     },
     {
@@ -25078,7 +26128,7 @@
      "solution": "奖项是“被颁发”的，用 -ed 短语 given to graduates 作后置定语，相当于 the prize that was given to graduates。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P16·人物语篇（the Wenhai Scholarship, the highest prize given to graduates）"
+      "label": "人教必修三 P97·人物语篇（the Wenhai Scholarship, the highest prize given to graduates）"
      }
     },
     {
@@ -25094,7 +26144,7 @@
      "solution": "叶子与 fall 是完成关系，已落在地上被风吹动，用 -ed 分词 fallen 作定语；falling leaves 指“正在飘落的叶子”。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P10·圈出正确单词变式（dressing/dressed、frightening/frightened、flying/flown 分词辨析）"
+      "label": "人教必修三 P10·圈出正确单词变式（dressing/dressed、frightening/frightened、flying/flown 分词辨析）·页码待复核"
      }
     },
     {
@@ -25184,7 +26234,7 @@
      "solution": "原句明确说 during the springtime——the Egyptian harvest season（埃及的收获季节在春天），活动包括游行和有音乐、舞蹈与体育的盛宴。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P4·Why Do We Celebrate Festivals?（In ancient Egypt, the harvest festival was celebrated during the springtime…）"
+      "label": "人教必修三 P92·Why Do We Celebrate Festivals?（In ancient Egypt, the harvest festival was celebrated during the springtime…）"
      }
     },
     {
@@ -25200,7 +26250,7 @@
      "solution": "段首主旨句：Of all the traditional festivals, the harvest festival can be found in almost every culture.——在几乎所有文化中都能找到丰收节；古埃及、欧洲、中秋都只是例子。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P4·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
+      "label": "人教必修三 P91·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
      }
     },
     {
@@ -25216,7 +26266,7 @@
      "solution": "逛灯会、猜灯谜是元宵灯节的活动；里约狂欢节对应 dress up in carnival costumes、watch samba dance；成人节对应 attend the ceremony、receive congratulations。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P2·听说板块节日活动词块（visit a lantern fair / guess riddles / Chinese Lantern Festival）变式（节日活动配对）"
+      "label": "人教必修三 P62·听说板块节日活动词块（visit a lantern fair / guess riddles / Chinese Lantern Festival）变式（节日活动配对）"
      }
     },
     {
@@ -25306,7 +26356,7 @@
      "solution": "她不走传统婚嫁老路而选择学医；面对哥哥为学费的抱怨，她回答 I'd rather stay single to study all my life!（我宁愿终身不嫁也要读书）。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P16·Reading and Thinking（At age 18…she chose to study medicine…I'd rather stay single to study all my life!）"
+      "label": "人教必修三 P93·Reading and Thinking（At age 18…she chose to study medicine…I'd rather stay single to study all my life!）"
      }
     },
     {
@@ -25322,7 +26372,7 @@
      "solution": "原句后半：having delivered over 50,000 babies in her lifetime.——一生接生了五万多个婴儿；她积蓄留给的幼儿园是身后捐赠，与称呼无关。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P17·Reading and Thinking（mother of ten thousand babies…delivered over 50,000 babies in her lifetime）"
+      "label": "人教必修三 P17·Reading and Thinking（mother of ten thousand babies…delivered over 50,000 babies in her lifetime）·页码待复核"
      }
     },
     {
@@ -25338,7 +26388,7 @@
      "solution": "放弃国外优渥条件回国服务妇女儿童，战时坚持为穷人看病下乡送医——都是把病人放在自己前面的奉献与爱国；美德词清单里的 patriotism（爱国）正可用在这里。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P16·Reading and Thinking（She wanted to serve the women and children at home…riding a donkey to faraway villages）变式（人物品质配对）"
+      "label": "人教必修三 P93·Reading and Thinking（She wanted to serve the women and children at home…riding a donkey to faraway villages）变式（人物品质配对）"
      }
     },
     {
@@ -25429,7 +26479,7 @@
      "solution": "笔记表里 nachos 一栏：chips covered in cheese；made by a Mexican cook——盖满奶酪的玉米片，墨西哥厨师为美国人所创。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P27·美国饮食访谈笔记表（nachos…chips covered in cheese…made by a Mexican cook）"
+      "label": "人教必修三 P97·美国饮食访谈笔记表（nachos…chips covered in cheese…made by a Mexican cook）"
      }
     },
     {
@@ -25445,7 +26495,7 @@
      "solution": "笔记表写 hamburger 是 mix of German + American cultures，并非“发明于德国”；这也印证了主线句：美国烹饪常把世界各地元素混成新东西。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P26·美国饮食访谈判断题（Hamburgers were invented in Germany.）"
+      "label": "人教必修三 P96·美国饮食访谈判断题（Hamburgers were invented in Germany.）"
      }
     },
     {
@@ -25461,7 +26511,7 @@
      "solution": "使命区居民多来自墨西哥或中美洲，一道 Mexican-Chinese noodles 却同时带着两种文化的影子——“混”指的是文化融合；下文的移民句 carried a bit of home in their hearts 也印证这一点。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P28·Reading and Thinking（Mexican-Chinese noodles…A real mix of cultures here!）变式（饮食与文化）"
+      "label": "人教必修三 P28·Reading and Thinking（Mexican-Chinese noodles…A real mix of cultures here!）变式（饮食与文化）·页码待复核"
      }
     },
     {
@@ -25551,7 +26601,7 @@
      "solution": "谓语是 saw，往前找主语是 The new People's Republic of China（新生的中国见证了林巧稚医生发挥重要作用）；Dr Lin Qiaozhi 是 saw 的宾语，playing a key role 是宾语补足语。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P17·Reading and Thinking（The new People's Republic of China saw Dr Lin Qiaozhi playing a key role.）"
+      "label": "人教必修三 P96·Reading and Thinking（The new People's Republic of China saw Dr Lin Qiaozhi playing a key role.）"
      }
     },
     {
@@ -25567,7 +26617,7 @@
      "solution": "谓语是 can be found，主语是 the harvest festival；Of all the traditional festivals 是介词短语作状语前置。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P4·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
+      "label": "人教必修三 P96·Why Do We Celebrate Festivals?（Of all the traditional festivals, the harvest festival can be found in almost every culture.）"
      }
     },
     {
@@ -25583,7 +26633,7 @@
      "solution": "句首的 Thinking of… 是 -ing 短语作状语（“想到还有许多需要帮助的人”），真正的主语是 Dr Lin，谓语是 opened——先找谓语再回找主语就不会被句首挂件骗到。",
      "difficulty": 3,
      "source": {
-      "label": "人教必修三 P16·Reading and Thinking（Thinking of all the people still in need of help, Dr Lin opened a private clinic.）变式（主谓定位）"
+      "label": "人教必修三 P96·Reading and Thinking（Thinking of all the people still in need of help, Dr Lin opened a private clinic.）变式（主谓定位）"
      }
     },
     {
@@ -25675,7 +26725,7 @@
      "solution": "b 是时间段（falls on ＋ 日期），a 是活动段（people do），c 是意义段（in memory of / showing ...），所以顺序是 b—a—c。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P9·写作提纲（Name of the festival；The topic and my feeling；The festival activities；A summary）"
+      "label": "人教必修三 P92·写作提纲（Name of the festival；The topic and my feeling；The festival activities；A summary）"
      }
     },
     {
@@ -25690,7 +26740,7 @@
      "solution": "③用 symbolises（象征）点出团圆与和谐，回答了为什么吃圆子、为什么庆祝，属于意义段；①是时间句，②是活动句。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P12·Video Time 元宵节语料（the 15th day of the first month of the lunar year；looking at lanterns, guessing riddles, eating yuanxiao or tangyuan；symbolises reunion, harmony）"
+      "label": "人教必修三 P91·Video Time 元宵节语料（the 15th day of the first month of the lunar year；looking at lanterns, guessing riddles, eating yuanxiao or tangyuan；symbolises reunion, harmony）"
      }
     },
     {
@@ -25705,7 +26755,7 @@
      "solution": "句式 This was my first time doing ... and it was an enjoyable and exciting experience for me：first time 后接动名词 experiencing；experience 作名词时前面加冠词与形容词，用 an enjoyable and exciting experience。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P9·开头句式改写变式（This was my first time spending ... and it was an enjoyable and exciting experience for me.）"
+      "label": "人教必修三 P93·开头句式改写变式（This was my first time spending ... and it was an enjoyable and exciting experience for me.）"
      }
     },
     {
@@ -25796,7 +26846,7 @@
      "solution": "书上原对话正是这样回应的：先 I can see your point there! 认可对方的感受，再用 But 转出传统这层理由；A 太直接，C 回避了交流。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P7·Listening and Talking 对话（I can see your point there! But it's all part of the tradition...）"
+      "label": "人教必修三 P7·Listening and Talking 对话（I can see your point there! But it's all part of the tradition...）·页码待复核"
      }
     },
     {
@@ -25811,7 +26861,7 @@
      "solution": "书上讨论示例的原句就是 I'm afraid I disagree. They shouldn't be making a bet on him.——委婉否定＋具体理由，正好接得住后面的讨论。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P54·观点交流示例对话（I'm afraid I disagree. They shouldn't be making a bet on him.）"
+      "label": "人教必修三 P54·观点交流示例对话（I'm afraid I disagree. They shouldn't be making a bet on him.）·页码待复核"
      }
     },
     {
@@ -25826,7 +26876,7 @@
      "solution": "A 先认可（That's a good idea.）再用 However 转折并给出理由；C 的错误在于 however 前只用逗号连接两个分句，正确写法是句号或分号＋However,；B 生硬且没有理由。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P43·课堂讨论示例变式（That sounds like a good question. But I'd also like to know about...）"
+      "label": "人教必修三 P96·课堂讨论示例变式（That sounds like a good question. But I'd also like to know about...）"
      }
     },
     {
@@ -25917,7 +26967,7 @@
      "solution": "主语是 the horses（马），赛马场景里骑手是孩子、马跑得比驮着成年人更快更远，run 取本义『奔跑』。",
      "difficulty": 1,
      "source": {
-      "label": "人教必修三 P8·Naadam 游记语篇（the horses can run faster and farther）"
+      "label": "人教必修三 P95·Naadam 游记语篇（the horses can run faster and farther）"
      }
     },
     {
@@ -25932,7 +26982,7 @@
      "solution": "resources（资源）作主语，整句谈的是为人类在太空找新家，run out 指『用完；耗尽』——靠前后搭配与主题场景双重锁定。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P45·议论文观点句（the resources on Earth will run out）"
+      "label": "人教必修三 P95·议论文观点句（the resources on Earth will run out）"
      }
     },
     {
@@ -25947,7 +26997,7 @@
      "solution": "show interest in their work 与 eager to learn（渴望学习）并列，说的是年轻人对工作有热情、有兴趣——取『兴趣』义。",
      "difficulty": 2,
      "source": {
-      "label": "人教必修三 P17·词汇练习变式（tend to show interest in their work and they are eager to learn）"
+      "label": "人教必修三 P91·词汇练习变式（tend to show interest in their work and they are eager to learn）"
      }
     },
     {
@@ -25960,6 +27010,378 @@
      ],
      "answer": "A",
      "solution": "harvest 处在农耕庆祝的场景里，crops / gathered in / supply of food 都是场景证据——主题场景线索最有效；猜出『收获；收割』后代回原句通顺。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11a_11",
+   "summary": "美食会说话：Tell me what you eat, and I will tell you what you are——一道菜背后是地域与文化，左宗棠鸡就是饮食文化融合的活标本。",
+   "explanation": [
+    "必修三 Unit 3 的听说板块先带你做一次「美食考古」：访谈里追查美国食物的来历——nachos（墨西哥玉米片配奶酪）出自一位墨西哥厨师之手，汉堡与德国城市 Hamburg 有渊源，而许多人以为是中式点心的幸运饼干（fortune cookies），其实是美国的发明。到了 Reading and Thinking，语篇 Culture and Cuisine 用法国美食家布里亚-萨瓦兰的名句开场：Tell me what you eat, and I will tell you what you are.（告诉我你吃什么，我就能说出你是什么样的人。）一句名言立起全文论点：菜肴不只是吃，它承载着一个文化的复杂特征。",
+    "作者用在中国吃饭的亲身经历当证据：从北京到山东再到四川，同样的食材在不同地方被做成完全不同的味道——北方面食实在管饱，四川火锅麻辣热烈，就像不同地方的人脾气各异。同是中国菜，一方水土养一方味；把镜头拉远，一个文化的性格也会写在餐桌上。这就是「You are what you eat」的深层含义：吃什么、怎么吃，说的其实是一个地方的人是谁。",
+    "本单元词族围绕「吃」展开：cuisine 指菜肴与烹饪风味（Sichuan cuisine 川菜）、recipe 是食谱、personality 是性格、characteristic 是特征——课文里 food and personality 的搭配正来自名句的引申。文章结尾还有一记妙笔：文化是双向流动的，中餐传到美国后为适应当地口味，被改造出 General Tso's chicken（左宗棠鸡）这样的「美式中餐」，它在中国反而少见。一道菜就是一部移民史，就像给外国朋友做菜时主动调成微辣版——菜单上写满了文化妥协与融合。",
+    "这类夹叙夹议的语篇要抓三层：先抓论点——首段的名言与「美食反映文化」的主题句；再列论据——作者每段讲一段经历（在哪里、吃了什么、发现了什么）；最后看结论——文化随人的迁徙而双向流动。考试里的作者意图题常问「作者引用布里亚-萨瓦兰的话想说明什么」，答案就藏在论点句里。听力访谈也有技巧：Showing you are listening 就是边听边用 I see. / Really? / That's interesting! 给对方反馈，让对方知道你真的在听。",
+    "单元收尾的视频板块把镜头带去旧金山，唐人街的餐桌又是一次文化大混合。学完本单元，再跟 Unit 1「节日餐桌上的团圆」、Unit 2「美德与选择」连起来看：节日讲为什么聚、美德讲如何做人、美食讲吃什么像谁——话题不同，读法相通：抓论点、找证据、品文化。下一单元，我们把目光从餐桌抬向星空。"
+   ],
+   "methods": [
+    {
+     "name": "美食语篇三问读法",
+     "steps": [
+      "第一问：论点是什么？在首段找名言与主题句（美食反映文化）",
+      "第二问：证据有哪些？把每段经历压缩成「地点＋食物＋发现」",
+      "第三问：结论说了什么？看文化如何流动与融合",
+      "答作者意图题时先回论点句，再看证据支持哪一项"
+     ],
+     "tip": "一句名言立论点，几段经历做证据。"
+    },
+    {
+     "name": "饮食词块场景记",
+     "steps": [
+      "把 cuisine 配上地名造句：Sichuan cuisine / Cantonese cuisine",
+      "用 recipe 说做法：follow a recipe（照着食谱做）",
+      "用 personality / characteristic 说说「吃与性格」的关联",
+      "拿一道融合菜讲一句文化故事，如 General Tso's chicken"
+     ],
+     "tip": "cuisine 配地名，recipe 照着做。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "Tell me what you eat, and I will tell you what you are. 这句话表达的核心观点是什么？",
+     "solution": "饮食反映人的性格与文化——作者由此引出全文论点：菜肴承载着一个文化的复杂特征。这是「人如其食」的文化版。",
+     "difficulty": 1,
+     "pitfall": "别只理解成「注意饮食健康」，句子强调的是饮食与人格、文化的关联。"
+    },
+    {
+     "question": "General Tso's chicken（左宗棠鸡）这个例子用来说明什么现象？",
+     "solution": "中餐传入美国后为适应当地口味被改造，说明饮食文化会随人群迁徙而融合、变化——文化流动是双向的。",
+     "difficulty": 2,
+     "pitfall": "别把它当成中国传统名菜，它是诞生在美国的「美式中餐」。"
+    },
+    {
+     "question": "用 cuisine 翻译并造句：「川菜以麻辣闻名。」",
+     "solution": "Sichuan cuisine is famous for its hot and spicy flavour. cuisine 指一个地方的菜肴风味，常与地名连用。",
+     "difficulty": 1,
+     "pitfall": "cuisine 不是厨房，厨房是 kitchen。"
+    }
+   ],
+   "mistakes": [
+    "cuisine 误当「厨房」——cuisine 指菜肴与烹饪风味（Sichuan cuisine 川菜），厨房是 kitchen。",
+    "把左宗棠鸡当成中国传统名菜——它诞生在美国，是中餐适应美国口味的产物，恰好是文化融合的例证。",
+    "把「You are what you eat」只理解成健康饮食口号——语篇用它讲饮食反映性格与文化。",
+    "听力只顾记菜名不作回应——Showing you are listening 要用 I see. / Really? 及时反馈，让对方知道你在听。"
+   ],
+   "source": {
+    "unit": "必修三 Unit 3 Food and Culture",
+    "pages": [
+     25,
+     36
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "根据听力访谈，幸运饼干（fortune cookies）其实诞生于哪里？",
+     "options": [
+      "美国",
+      "中国",
+      "墨西哥",
+      "德国"
+     ],
+     "answer": "A",
+     "solution": "访谈澄清：许多人以为幸运饼干来自中国，其实它是美国的发明——美国食物本身就是文化融合的产物。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教必修三 P107·美国饮食访谈（fortune cookies 起源问答）"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "语篇 Culture and Cuisine 中，作者用自己在中国多地的吃饭经历主要是为了说明什么？",
+     "options": [
+      "美食反映一个地方的文化与人的性格",
+      "中国菜比美国菜更好吃",
+      "吃辣能改变一个人的性格",
+      "他想推荐中国的旅游景点"
+     ],
+     "answer": "A",
+     "solution": "首段名言立论点：菜肴承载文化的特征；各地的吃饭经历是支撑论点的证据，不是游记推荐。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教必修三 P93·Culture and Cuisine 阅读理解（作者饮食经历的目的）"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式：下列哪一项最能体现「文化双向流动」？",
+     "options": [
+      "中餐在美国被改造成 General Tso's chicken",
+      "四川火锅越来越辣",
+      "中国家庭晚餐吃米饭",
+      "汉堡诞生于德国"
+     ],
+     "answer": "A",
+     "solution": "「双向流动」指饮食随人群迁徙而融合改造：中餐进入美国并本土化是最典型的例子；B、C 只是饮食现象，D 是单一来源。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教必修三 P29·Culture and Cuisine 语篇变式（General Tso's chicken 与文化融合）·页码待复核"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "向外国朋友介绍一道你家乡的菜：写两三句英语，先用 a dish called... 或「地名+cuisine」报出菜名，再说一句它体现了什么。",
+     "answer": "示例：My hometown is famous for a dish called Mapo Tofu. Sichuan cuisine is hot and spicy, and it shows the warm-hearted character of the local people.",
+     "solution": "句式：be famous for a dish called... / ... cuisine is...；结尾用 it shows... 把菜和当地人的性格连起来，正好呼应课文论点「美食反映文化」。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11a_12",
+   "summary": "从加加林到杨利伟：一部压缩的人类飞天史——先记时间轴，再答观点题：探索太空又贵又险，但值得。",
+   "explanation": [
+    "Unit 4 的听说板块聊一个帅气的职业理想：How to become an astronaut（怎样成为航天员）——过硬的身体素质、扎实的科学知识、日复一日的训练缺一不可；功能句学「表达好奇」：I wonder... / I'm curious about... / I'd love to know...。而全单元的重头戏是阅读语篇 Space: The Final Frontier（太空：最后的疆域），它用短短几段讲完人类几十年的飞天史，也回答一个更难的问题：我们为什么要花这么多钱去太空？",
+    "先记时间轴：1957 年，苏联发射第一颗人造卫星 Sputnik；1961 年，Yuri Gagarin 成为进入太空第一人——课文原句：Yuri Gagarin became the first person in the world to go into space.；1969 年，Neil Armstrong 踏上月球，留下名言 That's one small step for a man, one giant leap for mankind.（个人一小步，人类一大步。）此后中国的脚步不断加速：2003 年杨利伟乘神舟五号飞天，成为进入太空的中国第一人，探月工程又把足迹一步步印向月球。",
+    "飞天不是免费的。读写板块把一个真实争议摆上桌：探索太空值不值？支持者说：卫星让通讯、导航、天气预报走进日常生活；地球资源终会用尽——课文议论文里就有这样的观点句 the resources on Earth will run out；而且探索未知本就是人类天性。反对者说：花费巨大，地球上还有许多问题等着解决。好的议论文两面都写：先亮观点，再摆理由，然后用 Although 让步、再反驳——Although exploring space costs a lot, the benefits are worth it.",
+    "本单元的语法高地是不定式 to do：既能当主语（To explore space costs a lot.），也能当宾语与表语（My dream is to become an astronaut.），还常躲在名词后面当后置定语——the first person to go into space（进入太空的第一人）。读课文时留意这句：Sending people to other planets or even beyond the solar system is not an easy goal to achieve.（把人送上其他行星甚至太阳系之外，绝非易事。）一个 goal to achieve，不定式把「目标」说得更具体。",
+    "三个板块连起来读：听说让你梦想飞天，阅读给你飞天史，写作让你为飞天辩护。学完本单元你会发现：从 Unit 3 餐桌上的文化，到 Unit 4 星空下的梦想，再到 Unit 5 口袋里的钞票——必修三在用三个话题练同一套本领：抓结构、找证据、亮观点。太空是最后的疆域，好奇心是最强的燃料。"
+   ],
+   "methods": [
+    {
+     "name": "航天时间轴记忆法",
+     "steps": [
+      "先画横轴标四个年份：1957、1961、1969、2003",
+      "在每个年份下写人物与事件：卫星—加加林—阿姆斯特朗—杨利伟",
+      "复述时顺着轴讲：谁、哪年、干了什么",
+      "遇到匹配题先回轴核对，别凭印象猜"
+     ],
+     "tip": "先记年，再记人：卫星、加加林、登月、杨利伟。"
+    },
+    {
+     "name": "让步反驳议论文法",
+     "steps": [
+      "观点句先亮明：I think exploring space is worthwhile.",
+      "摆两条理由：资源、卫星服务、人类好奇心",
+      "用 Although 让步：Although it costs a lot...",
+      "紧跟着反驳，把话扳回来"
+     ],
+     "tip": "先让一步，再扳回来，议论文才立体。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "Who became the first person in the world to go into space?",
+     "solution": "Yuri Gagarin（尤里·加加林），1961 年。课文原句：Yuri Gagarin became the first person in the world to go into space.——不定式 to go into space 作后置定语。",
+     "difficulty": 1,
+     "pitfall": "进入太空第一人是加加林，登月第一人才是阿姆斯特朗，别张冠李戴。"
+    },
+    {
+     "question": "That's one small step for a man, one giant leap for mankind. 中 small step 与 giant leap 分别指什么？",
+     "solution": "small step 指阿姆斯特朗踏上月球的那一小步，giant leap 指人类探索太空的一大飞跃——以小见大，正是名言的力量。",
+     "difficulty": 2,
+     "pitfall": "leap 是「跳跃、飞跃」，别看成 leave。"
+    },
+    {
+     "question": "把 To explore space costs a lot of money. 改成 it 作形式主语的句子。",
+     "solution": "It costs a lot of money to explore space. 真正的主语 to explore space 挪到句尾，it 顶在前头，谓语 costs 不变。",
+     "difficulty": 2,
+     "pitfall": "改写后谓语仍是单数 costs，别被长主语带偏。"
+    }
+   ],
+   "mistakes": [
+    "把加加林记成「登月第一人」——加加林是进入太空第一人，登月第一人是阿姆斯特朗。",
+    "人物事件乱配对——Sputnik 是 1957 年的无人卫星，没载人；载人飞天从 1961 年才开始。",
+    "议论文只写一面观点——高分观点文要先让步（Although...）再反驳，两面都顾。",
+    "不定式作主语时谓语误用复数——应说 To explore space costs...，谓语用单数。"
+   ],
+   "source": {
+    "unit": "必修三 Unit 4 Space Exploration",
+    "pages": [
+     37,
+     48
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "Yuri Gagarin became the first person in the world ____ into space.",
+     "options": [
+      "to go",
+      "going",
+      "went",
+      "gone"
+     ],
+     "answer": "A",
+     "solution": "名词后接不定式作后置定语：the first person to do sth（第一个做某事的人）。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教必修三 P42·不定式例句（Yuri Gagarin became the first person in the world to go into space）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "议论文支持太空探索的一条理由是地球资源终将耗尽。下列与课文观点句一致的是？",
+     "options": [
+      "The resources on Earth will run out.",
+      "Space travel costs nothing.",
+      "Rockets are only toys.",
+      "Astronauts never come back."
+     ],
+     "answer": "A",
+     "solution": "run out 意为「用尽、耗尽」——到地球之外寻找新的资源与答案，是支持太空探索的现实理由。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教必修三 P95·议论文观点句（the resources on Earth will run out）"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式：下列「人物—事件」搭配错误的一项是？",
+     "options": [
+      "Yuri Gagarin—the first person in space",
+      "Neil Armstrong—the first man to walk on the moon",
+      "Yang Liwei—China's first astronaut in space",
+      "Sputnik—the first spaceship to carry people into space"
+     ],
+     "answer": "D",
+     "solution": "Sputnik 是 1957 年发射的第一颗人造卫星，无人驾驶；载人航天始于 1961 年的加加林。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教必修三 P95·Space: The Final Frontier 阅读变式（航天里程碑人物事件匹配）"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "用「Although 让步＋反驳」写一句你对太空探索的看法：Although exploring space ______, ______.",
+     "answer": "示例：Although exploring space costs a lot of money, it brings us satellites, weather forecasts and hope for the future.",
+     "solution": "句式：Although + 让步内容, 主句亮观点；让步要真诚（承认花费与风险），反驳要给证据（卫星服务、资源、好奇心）。",
+     "difficulty": 3
+    }
+   ]
+  },
+  {
+   "topicId": "ct_yy_g11a_13",
+   "summary": "两个富兄弟打了个赌：把一张百万英镑钞票交给穷困诚实的亨利——马克·吐温用一场赌局，照出金钱面前的人情冷暖。",
+   "explanation": [
+    "必修三 Unit 5 扉页引了培根的名言：Money is a good servant and a bad master.（金钱是好仆人，也是坏主人。）听说板块先从一个「诚实的清洁工」的故事练复述（retelling）：起因、经过、结果三要素抓牢，故事就立住了。讨论环节同学们还为课文里的人物争起来：I'm afraid I disagree. They shouldn't be making a bet on him.——有人替那位被「下注」的穷小伙抱不平。这个被下注的人，就是马克·吐温笔下的 Henry Adams。",
+    "Reading and Thinking 选的是短篇《The Million Pound Bank Note》的剧本节选（Act 1, Scene 3）。伦敦街头，富商兄弟 Roderick 和 Oliver 注意到衣衫破旧、饥肠辘辘的 Henry Adams，把他请进屋问话。Henry 自述落难经过：出海遇风暴被吹离航道，被一艘船救起，靠在船上做无偿帮工（an unpaid hand）挣得来到伦敦的机会，如今身无分文。兄弟俩听完递给他一个信封，嘱咐过些时候才能打开——里面是一张面值一百万英镑的钞票：他们赌的是，一个又穷又诚实的人拿着这张谁也找不开的巨钞，能不能在伦敦体面地活下去。",
+    "这是高中第一次正式读剧本，读法和记叙文不一样：剧本＝台词＋舞台说明。台词（dialogue）负责推进情节、暴露性格——Henry 说话紧张而诚恳，兄弟俩一唱一和、满是玩味；舞台说明（stage directions）负责交代动作神态：谁进来、谁递信封、脸上什么表情。剧本没有旁白替你总结，一切要靠「谁在说、怎么说」去推断。分角色朗读时把语气读出来，人物就活了。",
+    "兄弟俩为什么偏偏选中 Henry？课文给出了线索：他又穷又饿，却诚实、举止得体——赌局赌的正是金钱与品格哪个说了算。培根那句话在这里兑现：钱可以是仆人，关键时刻救急渡难；也可能变成主人，让旁人以貌取人、以钱待人。故事后续（课文之外）更精彩：亨利拿着巨钞走进饭店与裁缝店，处处被奉承——马克·吐温的讽刺笔法让金钱成了一面照妖镜。",
+    "本单元词块跟着剧情记：spot（注意到、发现——兄弟俩 spot 了街头的 Henry）、unpaid（无报酬的）、earn one's passage（挣得路费）、a large amount of（大量的）、seek one's fortune（闯荡谋生）、on the contrary（相反）。学完本单元回头看：Unit 3 吃出文化、Unit 4 仰望星空、Unit 5 看清金钱——三个话题都落在同一个能力上：读出作者的态度。钱是仆人还是主人？读完这一课，你有自己的答案。"
+   ],
+   "methods": [
+    {
+     "name": "剧本四步读法",
+     "steps": [
+      "第一步看标题：Act 几、Scene 几，知道故事发生在哪一场",
+      "第二步扫舞台说明：人物动作与神态是理解情绪的钥匙",
+      "第三步顺台词抓情节：谁说了什么、事情如何推进",
+      "第四步从语气推断性格：真诚、玩味还是讽刺"
+     ],
+     "tip": "台词是情节，语气是性格。"
+    },
+    {
+     "name": "故事复述三要素法",
+     "steps": [
+      "起因：亨利为什么流落伦敦（风暴、获救、unpaid hand）",
+      "经过：兄弟俩如何发现他、给了他什么",
+      "悬念：一张几乎花不出去的百万英镑，能救他吗",
+      "用自己的话串成三句，别逐句背台词"
+     ],
+     "tip": "复述抓起因、经过、悬念，转述不说「我」。"
+    }
+   ],
+   "examples": [
+    {
+     "question": "Henry Adams 当时处境如何？他靠什么来到伦敦？",
+     "solution": "他身无分文、饥肠辘辘；出海遇风暴被吹离航道，被船救起后靠做 an unpaid hand（无偿帮工）挣得来到伦敦的机会。",
+     "difficulty": 1,
+     "pitfall": "unpaid hand 不是「闲着的手」，指干活不拿报酬的帮工。"
+    },
+    {
+     "question": "兄弟俩为什么偏偏选中 Henry 来做这场赌注？",
+     "solution": "因为他又穷又饿却诚实、举止得体——正好用来检验：一个没钱的人拿着巨钞，人们看的是他还是钱？赌局赌的是人性。",
+     "difficulty": 2,
+     "pitfall": "别把送信封当成善心施舍——兄弟俩是在做一场关于金钱与人性的实验。"
+    },
+    {
+     "question": "翻译并举例说明：Money is a good servant and a bad master.",
+     "solution": "金钱是好仆人，也是坏主人。举例：用它应急渡难，它是仆人；让人以钱取人、见钱眼开，它就成了主人。",
+     "difficulty": 2,
+     "pitfall": "master 在这里是「主人」，别译成「大师」。"
+    }
+   ],
+   "mistakes": [
+    "把节选当小说读——课文是剧本（Act/Scene/台词/舞台说明），没有叙述性旁白替你总结。",
+    "认为兄弟俩在做好事——他们是在打赌验证人性，信封是一场设计好的实验。",
+    "把 Henry 说成英国人——他是流落伦敦的美国人。",
+    "unpaid hand 望文生义——指无偿帮工，与「手」的部位义无关。"
+   ],
+   "source": {
+    "unit": "必修三 Unit 5 The Value of Money",
+    "pages": [
+     49,
+     60
+    ],
+    "alignedAt": "2026-11-08"
+   },
+   "exercises": [
+    {
+     "kind": "textbook",
+     "question": "台词 I earned my passage by working as an unpaid hand. 中，an unpaid hand 指什么？",
+     "options": [
+      "无偿帮工的人",
+      "残缺的手",
+      "闲着的人",
+      "富有的人"
+     ],
+     "answer": "A",
+     "solution": "unpaid 意为「无报酬的」，an unpaid hand 指不拿工钱的帮工——Henry 靠在船上做工换取来到伦敦的机会。",
+     "difficulty": 1,
+     "source": {
+      "label": "人教必修三 P53·Act 1, Scene 3 台词（I earned my passage by working as an unpaid hand）·页码待复核"
+     }
+    },
+    {
+     "kind": "textbook",
+     "question": "Act 1, Scene 3 中，兄弟俩把 Henry 请进屋并送他信封，真正的目的是？",
+     "options": [
+      "同情他想接济他",
+      "用他打一场关于金钱与人性的赌",
+      "想雇他当仆人",
+      "他是他们失散的亲戚"
+     ],
+     "answer": "B",
+     "solution": "兄弟俩腰缠万贯，把百万英镑交给一个穷困诚实的人，观察金钱在他手里的效应——这是一场蓄谋已久的赌局。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教必修三 P96·Act 1, Scene 3 情节理解（兄弟打赌送信封）"
+     }
+    },
+    {
+     "kind": "variant",
+     "question": "变式：把 Act 1, Scene 3 的情节按先后排序：①兄弟俩递上信封并约定时间才能打开 ②兄弟俩发现街头落魄的 Henry ③Henry 讲述落难与 unpaid hand 的经历 ④兄弟俩请他进屋问话",
+     "options": [
+      "②④③①",
+      "②③④①",
+      "④②③①",
+      "③②④①"
+     ],
+     "answer": "A",
+     "solution": "先在街头发现（②），再请进屋（④），听他自述经历（③），最后给信封设悬念（①）——剧本情节同样讲因果顺序。",
+     "difficulty": 2,
+     "source": {
+      "label": "人教必修三 P96-53·Act 1, Scene 3 情节排序变式"
+     }
+    },
+    {
+     "kind": "extension",
+     "question": "为剧本续写一小段：Henry 打开信封发现百万英镑钞票。写一句他的台词，外加一个括号里的舞台说明。",
+     "answer": "示例：Henry: (holding the note, hardly able to believe his eyes) A million pounds? Are you two serious?",
+     "solution": "台词写「说什么」，舞台说明写「怎么做」（holding... / surprised）；语气要贴人物——震惊但依然诚实，不狂喜失态，这正是兄弟俩赌的东西。",
      "difficulty": 3
     }
    ]

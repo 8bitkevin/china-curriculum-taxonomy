@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "version": "2.4.0",
   "note": "微主题库：subject/domain 按学科受控（validate DOMAIN_BY_SUBJECT）；schemaVersion 2 = domain 全局枚举放开为按学科（向后兼容，v1 数据不动）。",
-  "topicCount": 1641,
+  "topicCount": 1693,
   "topics": [
     {
       "id": "ct_g1a_01",
@@ -5315,6 +5315,37 @@
       ]
     },
     {
+      "id": "ct_g4a_31",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "数与代数",
+      "name": "加法模型和乘法模型（含归一、归总问题）",
+      "description": "很多应用题背后都藏着两个万能模型：部分数+部分数=总数（加法模型），每份数×份数=总数（乘法模型）。先判断题目属于哪个模型，再解决先求一份、再求总量的归一问题和先求总量、再重新分配的归总问题，应用题就有了总开关。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "拿到实际问题能先说出它属于加法模型还是乘法模型，再列式计算",
+        "能解决归一、归总问题，并说清先求什么、再求什么"
+      ],
+      "assessmentPrompt": "问{{name}}：「3 个同样的杯子 24 元，买 8 个这样的杯子要多少钱？为什么要先算 24÷3？」",
+      "standards": [
+        "csmath-2022:S1.NA.QR.02",
+        "csmath-2022:S1.NA.QR.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_g3b_10"
+      ]
+    },
+    {
       "id": "ct_g4b_01",
       "type": "CONCEPTUAL",
       "subject": "数学",
@@ -6629,7 +6660,7 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "数学广角：植树问题",
+        "unit": "可能性",
         "editionYear": 2026
       },
       "prerequisites": [
@@ -6659,7 +6690,7 @@
         "publisher": "人教版",
         "grade": 5,
         "volume": "上",
-        "unit": "数学广角：植树问题",
+        "unit": "可能性",
         "editionYear": 2026
       },
       "prerequisites": [
@@ -7061,6 +7092,66 @@
       },
       "prerequisites": [
         "ct_g5a_25"
+      ]
+    },
+    {
+      "id": "ct_g5a_27",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "观察简单组合体（从三个方向还原摆法）",
+      "description": "用几个小正方体拼成的「积木楼」，从前面、右面、上面看过去，各是一张平面「照片」。学会看照片就能还原摆法——空间想象力就是这样练出来的。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出或画出组合体从前面、右面、上面看到的形状",
+        "能根据三个方向看到的形状摆出组合体，并说明有没有被挡住的小正方体"
+      ],
+      "assessmentPrompt": "问{{name}}：「一个组合体从上面看是田字格，从前面和右面看都是横着的 2 个正方形，它一共用了几个小正方体？」",
+      "standards": [
+        "csmath-2022:S2.GS.MT.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 1,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_g4b_05"
+      ]
+    },
+    {
+      "id": "ct_g5a_28",
+      "type": "CONCEPTUAL",
+      "subject": "数学",
+      "domain": "图形与几何",
+      "name": "图形的运动（平移与旋转再认识）",
+      "description": "图形也会搬家和转圈：平移只看方向和距离，旋转要看中心、方向、角度三个要素。在方格纸上把图形精确地平移、旋转，还能看懂花边、地砖等图案是用怎样的运动「变」出来的。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能说出旋转的三个要素，并在方格纸上画出简单图形旋转 90° 后的图形",
+        "能通过数对应点确定平移的距离，并说明图案中基本图形经过了怎样的运动"
+      ],
+      "assessmentPrompt": "问{{name}}：「把图形绕点 O 顺时针旋转 90°，画图时先转哪条边？风车图案的每片风叶是怎样得到的？」",
+      "standards": [
+        "csmath-2022:S3.GS.MT.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": 4,
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_g5a_07"
       ]
     },
     {
@@ -12288,7 +12379,7 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 23,
+        "unit": 22,
         "editionYear": 2025
       },
       "prerequisites": [
@@ -12319,7 +12410,7 @@
         "publisher": "人教版",
         "grade": 8,
         "volume": "下",
-        "unit": 23,
+        "unit": 22,
         "editionYear": 2025
       },
       "prerequisites": [
@@ -13441,7 +13532,7 @@
       "name": "反比例函数的概念",
       "description": "y=k/x（k≠0）：x 与 y 的积恒为 k。矩形面积 12，长 y 与宽 x 的关系就是 y=12/x。小学「积一定成反比例」的规律，正式命名为反比例函数（跨学段衔接：反比例→反比例函数）。",
       "grade": 9,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -13455,9 +13546,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 9,
-        "volume": "下",
-        "unit": 26,
-        "editionYear": 2012
+        "volume": "上",
+        "unit": 27,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g6b_11",
@@ -13472,7 +13563,7 @@
       "name": "反比例函数的图象与性质（双曲线）",
       "description": "图象是双曲线：k>0 在一三象限、每支上 y 随 x 增大而减小；k<0 在二四象限、每支上递增。双曲线无限接近坐标轴却永不相交——「渐近」的直观初体验。",
       "grade": 9,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -13486,9 +13577,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 9,
-        "volume": "下",
-        "unit": 26,
-        "editionYear": 2012
+        "volume": "上",
+        "unit": 27,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g9a_08",
@@ -13503,7 +13594,7 @@
       "name": "反比例函数中 k 的几何意义",
       "description": "双曲线上任一点向两坐标轴作垂线，围成的矩形面积恒等于 |k|，三角形面积等于 |k|/2。点在动、面积不变——「变中不变」的几何锚点，求 k 的快捷通道。",
       "grade": 9,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -13517,9 +13608,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 9,
-        "volume": "下",
-        "unit": 26,
-        "editionYear": 2012
+        "volume": "上",
+        "unit": 27,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g7b_12",
@@ -13534,7 +13625,7 @@
       "name": "反比例函数与一次函数的综合应用",
       "description": "杠杆原理 F₁L₁=F₂L₂、气压与体积……反比例函数建模处处开花。与一次函数联立：交点满足两个方程，双曲线与直线一交还是两交，看图又看数——函数综合题的常驻嘉宾。",
       "grade": 9,
-      "semester": "下",
+      "semester": "上",
       "ageRangeStart": 14,
       "ageRangeEnd": 15,
       "evidence": [
@@ -13548,9 +13639,9 @@
       "textbook": {
         "publisher": "人教版",
         "grade": 9,
-        "volume": "下",
-        "unit": 26,
-        "editionYear": 2012
+        "volume": "上",
+        "unit": 27,
+        "editionYear": 2026
       },
       "prerequisites": [
         "ct_g8b_19",
@@ -22593,6 +22684,37 @@
       },
       "prerequisites": [
         "ct_yw_g3b_23"
+      ]
+    },
+    {
+      "id": "ct_yw_g4a_25",
+      "type": "PROCEDURAL",
+      "subject": "语文",
+      "domain": "阅读与鉴赏",
+      "name": "移步换景：按游览顺序读景物介绍",
+      "description": "《长城》《颐和园》《秦兵马俑》介绍的都是中国的世界文化遗产：跟着「进了大门」「来到长廊」「登上万寿山」这些地点词走，就能理清作者的游览路线；抓住列出的数字和打过的比方，景物的特点就看得见了。",
+      "grade": 4,
+      "semester": "上",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "读景物课文能圈出表示地点转换的词句，连成游览路线并借过渡句分段",
+        "能说出课文用了哪些数字和比方来表现景物的特点"
+      ],
+      "assessmentPrompt": "和{{name}}一起读《颐和园》，各圈一圈表示地点转换的词句，比比谁能先把游览路线说完整。",
+      "standards": [
+        "cschinese-2022:S2.YD.03",
+        "cschinese-2022:S2.YD.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 4,
+        "volume": "上",
+        "unit": "第六单元·阅读",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_yw_g4a_06"
       ]
     },
     {
@@ -32260,6 +32382,68 @@
       ]
     },
     {
+      "id": "ct_yy_g3b_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "礼貌用语：Please / Thank you / Excuse me",
+      "description": "掌握请求、致谢、道歉、打扰四组礼貌表达：Please... / Thank you. / Excuse me. / I'm sorry.，并分清 Excuse me（事前打招呼）和 I'm sorry（事后道歉）。好话配好行为，英语一开口就加分。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能分场景说出 Excuse me. / Thank you. / I'm sorry.",
+        "请求别人做事时句子带 please 不遗漏"
+      ],
+      "assessmentPrompt": "问{{name}}：向同学借铅笔时怎样开口最礼貌？要求用上 Excuse me 和 please；再考他：拿到东西后该说哪句、对方怎么回答。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 2·My words and actions",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_yy_g3b_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g3b_14",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "学习工具与感官动词：see / hear / touch",
+      "description": "掌握学习工具词（ruler、pen、pencil、eraser、book、bag）和感官动词 see（看见）、hear（听见）、touch（触摸）：眼睛看、耳朵听、小手摸，五感齐上阵认识文具。",
+      "grade": 3,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出六种学习工具的英语名",
+        "能用 I see... / I touch... 描述自己的动作"
+      ],
+      "assessmentPrompt": "让{{name}}闭眼从文具盒里摸一样东西并用 I touch... 说出来，睁眼后再用 I see... 确认；看他能不能把 see、hear、touch 三个动词用对。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.LS.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 3,
+        "volume": "下",
+        "unit": "Unit 3·Tools and senses for learning",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_yy_g3b_13"
+      ]
+    },
+    {
       "id": "ct_yy_g4a_01",
       "type": "LANGUAGE",
       "subject": "英语",
@@ -33004,6 +33188,37 @@
       },
       "prerequisites": [
         "ct_yy_g4a_12"
+      ]
+    },
+    {
+      "id": "ct_yy_g4b_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "家规表达：must / have to / should",
+      "description": "掌握家规话题和三个情态动词：must（必须）、have to（不得不）、should（应该），会用 I must finish my homework first. / You have to get up early. 陈述家规——规矩的硬度不同，选词也不同。",
+      "grade": 4,
+      "semester": "下",
+      "ageRangeStart": 9,
+      "ageRangeEnd": 10,
+      "evidence": [
+        "能说出三条自家家规，各带一个情态动词",
+        "三单主语时 have to 变 has to 不出错"
+      ],
+      "assessmentPrompt": "问{{name}}：你家的家规有哪些？要求用 must / have to / should 各说一条，比如 I must go to bed before 9:30.；再考他：说『妈妈不得不早起』该用 have to 还是 has to。",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 4,
+        "volume": "下",
+        "unit": "Unit 2·Family rules",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_yy_g4b_07"
       ]
     },
     {
@@ -34127,6 +34342,37 @@
       ]
     },
     {
+      "id": "ct_yy_g6a_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "零花钱表达：save / spend / buy",
+      "description": "掌握理财动词 save（存）、spend（花）、buy（买）和搭配 spend...on...、buy...for...：用 I usually save half of my pocket money. 说说自己怎么管零花钱——管好小金库是理财的第一课。",
+      "grade": 6,
+      "semester": "上",
+      "ageRangeStart": 11,
+      "ageRangeEnd": 12,
+      "evidence": [
+        "能说出 save / spend / buy 三个动词并配对短语",
+        "能用两句英语描述自己零花钱的去向"
+      ],
+      "assessmentPrompt": "问{{name}}：拿到零花钱你怎么安排？要求用 save、spend、buy 各说一句，spend 那句要带上 on ＋ 东西。",
+      "standards": [
+        "csenglish-2022:S3.VB.01",
+        "csenglish-2022:S3.LS.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 6,
+        "volume": "上",
+        "unit": "Unit 4·Managing money well",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_yy_g6a_03"
+      ]
+    },
+    {
       "id": "ct_yy_g6b_01",
       "type": "LANGUAGE",
       "subject": "英语",
@@ -34901,6 +35147,99 @@
       },
       "prerequisites": [
         "ct_yy_g6b_10"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_16",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "学习用品与 What's this/that? 问答",
+      "description": "掌握学习用品词汇（pen、pencil、ruler、eraser、book、schoolbag）和认物句型 What's this/that? It's a/an...、Is this your...? 开学认物的第一课：叫得出名字，物品才放得回原位，书包课桌自然 keep tidy。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能听认 pen、ruler、eraser 等学习用品词并指认实物",
+        "能用 What's this? It's a/an... 与同伴完成认物问答"
+      ],
+      "assessmentPrompt": "拿起一支笔和一块橡皮问{{name}}：What's this? What's that? 看能否用 It's a pen. / It's an eraser. 回答；再问 Is this your ruler? 看会不会说 Yes, it is. / No, it isn't.",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S2.GR.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Starter Unit 2 Keep Tidy!",
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_yy_g7a_02"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_17",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "听说",
+      "name": "校园欢迎表达：Welcome to our school!",
+      "description": "掌握迎新问候表达 Welcome to...、Nice to meet you. / Nice to meet you, too. 和介绍场所的 This is...；同时认读 Ss–Zz，把 26 个字母全部收齐。新生入学的第一张『英语名片』。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用 Welcome to... / Nice to meet you. 完成一段迎新对话",
+        "能按顺序认读 Ss–Zz 并背出 26 个字母"
+      ],
+      "assessmentPrompt": "问{{name}}：班里来了新同学，怎么用英语欢迎他？要求说出 Welcome to our class! 并接一句 Nice to meet you.；再让他从 S 数到 Z。",
+      "standards": [
+        "csenglish-2022:S2.LS.01",
+        "csenglish-2022:S2.PH.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Starter Unit 3 Welcome!",
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_yy_g7a_16"
+      ]
+    },
+    {
+      "id": "ct_yy_g7a_18",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "日常作息：What time do you...?",
+      "description": "掌握作息短语（get up、go to school、do homework、go to bed）和时间问答 What time do you usually get up? I get up at 6:30.；一般现在时说习惯，三单主语记得给动词加 s。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能用 What time...? 问答自己一天的四个作息",
+        "Does he...? 问他人时动词还原不出错"
+      ],
+      "assessmentPrompt": "问{{name}}：What time do you usually get up? 要求用 at ＋ 时刻完整回答；再问 What time does your dad go to work? 看 Does 和动词原形有没有用对。",
+      "standards": [
+        "csenglish-2022:S3.GR.01",
+        "csenglish-2022:S3.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "Unit 6·A Day in the Life",
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_yy_g7a_08"
       ]
     },
     {
@@ -37845,6 +38184,102 @@
       },
       "prerequisites": [
         "ct_yy_g10b_09"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_11",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：饮食与文化（Culture and Cuisine）",
+      "description": "读人教必修三 Unit 3 饮食文化语篇：美国菜的移民身世（汉堡、幸运饼干都是「混血儿」），以及 Culture and Cuisine 的核心论点——美食反映文化与性格，左宗棠鸡就是中餐「美国化」的活标本。学会用 cuisine、recipe 聊吃，把吃饭吃出文化感。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能用自己的话讲清 Tell me what you eat... 名句的含义并各举一例",
+        "能说出一个中餐美国化的例子并点出文化融合的道理"
+      ],
+      "assessmentPrompt": "给{{name}}读 Culture and Cuisine 节选：问「人如其食」是什么意思，让他举一个美食反映地域文化的例子，再用 cuisine 造一句话。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Unit 3 Food and Culture",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g11a_05"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_12",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：太空探索（Space: The Final Frontier）",
+      "description": "读人教必修三 Unit 4 太空探索语篇：从 1957 年第一颗人造卫星、1961 年加加林进入太空，到 1969 年阿姆斯特朗登月、2003 年杨利伟飞天。再聊议论文老话题——探索太空值不值：贵是事实，但卫星导航、天气预报与人类的好奇心都在为它投票。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按时间轴说出四个航天里程碑（年份+人物+事件）",
+        "能用观点+理由+Although 让步句表达对太空探索的看法"
+      ],
+      "assessmentPrompt": "问{{name}}：谁是进入太空第一人？谁第一个踏上月球？中国第一位航天员是谁？再让他用 Although 让步句说说太空探索值不值。",
+      "standards": [
+        "hsenglish-2017:H5.RD.01",
+        "hsenglish-2017:H1.RD.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Unit 4 Space Exploration",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g11a_11"
+      ]
+    },
+    {
+      "id": "ct_yy_g11a_13",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "阅读",
+      "name": "话题：金钱的价值（The Million Pound Bank Note）",
+      "description": "读人教必修三 Unit 5 马克·吐温《百万英镑》剧本节选（Act 1, Scene 3）：两兄弟把一张几乎花不出去的百万英镑钞票交给穷困诚实的亨利，赌人性也赌金钱的价值。高中第一次正式读剧本：台词推情节，舞台说明藏性格。",
+      "grade": 11,
+      "semester": "上",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能复述打赌的起因与亨利落难的经过",
+        "能分角色读一段台词并说出人物的语气与用意"
+      ],
+      "assessmentPrompt": "给{{name}}读 Act 1, Scene 3 节选：让他讲清两兄弟赌的是什么、亨利当时有多穷；再问他：钱是仆人还是主人？",
+      "standards": [
+        "hsenglish-2017:H3.RD.01",
+        "hsenglish-2017:H1.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 11,
+        "volume": "上",
+        "unit": "必修三 Unit 5 The Value of Money",
+        "book": "必修第三册",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_yy_g11a_12"
       ]
     },
     {
@@ -41842,7 +42277,7 @@
         "publisher": "人教版",
         "grade": 11,
         "volume": "上",
-        "unit": "第十章 静电场中的能量",
+        "unit": "第九章 静电场及其应用",
         "book": "必修第三册",
         "editionYear": 2019
       },
@@ -42455,6 +42890,37 @@
       },
       "prerequisites": [
         "ct_wl_g12a_02"
+      ]
+    },
+    {
+      "id": "ct_wl_g12a_05",
+      "type": "CONCEPTUAL",
+      "subject": "物理",
+      "domain": "电与磁",
+      "name": "电磁振荡与电磁波",
+      "description": "电容器和电感线圈组成 LC 回路，电场能与磁场能像荡秋千一样来回转化，产生振荡电流；周期性变化的电场和磁场相互激发、由近及远传播，就成了电磁波——收音机、手机、Wi-Fi 都靠它传信。",
+      "grade": 12,
+      "semester": "上",
+      "ageRangeStart": 17,
+      "ageRangeEnd": 18,
+      "evidence": [
+        "能描述振荡电路中电荷量、电流与电场能、磁场能的周期性变化关系",
+        "能用 c=λf 计算电磁波的波长，并说明调制与调谐各自的用途"
+      ],
+      "assessmentPrompt": "问{{name}}：「电容器放电完毕的瞬间，LC 回路里电流和电荷量谁最大？收音机「选台」改变的是什么？」",
+      "standards": [
+        "hsphysics-2017:H2.WM.12"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 12,
+        "volume": "上",
+        "unit": "第四章 电磁振荡与电磁波",
+        "book": "选择性必修第二册",
+        "editionYear": 2020
+      },
+      "prerequisites": [
+        "ct_wl_g12a_03"
       ]
     },
     {
@@ -46311,6 +46777,37 @@
       ]
     },
     {
+      "id": "ct_ls_g7a_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "史前时期：从原始人群到文明曙光",
+      "description": "从元谋人、北京人学会用火，到河姆渡、半坡种稻种粟盖房定居，再到炎黄传说与良渚古城——一万年间，人类从追着猎物跑的原始人群，走到会种地、有城池的文明门槛。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出元谋人、北京人、山顶洞人的主要区别",
+        "能对应稻作粟作农业与河姆渡、半坡的定居生活",
+        "能结合炎黄传说和良渚古城讲清文明起源的证据"
+      ],
+      "assessmentPrompt": "问{{name}}：北京人会保存火种有什么用处？河姆渡人为什么住干栏式房屋、半坡人住半地穴式房屋？良渚古城为什么能证明五千年前已有早期国家？",
+      "standards": [
+        "cshistory-2022:S4.AC.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_ls_g7a_01"
+      ]
+    },
+    {
       "id": "ct_ls_g7b_01",
       "type": "CONCEPTUAL",
       "subject": "历史",
@@ -46788,6 +47285,99 @@
       ]
     },
     {
+      "id": "ct_ls_g8b_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "新世纪全面建设小康社会",
+      "description": "2002—2012：十六大把“三个代表”写进党章、立下全面建设小康社会目标，十七大把科学发展观写入党章；北京奥运、上海世博、神舟飞天，经济总量跃居世界第二——新世纪的中国加速奔跑。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出十六大、十七大的主要成果",
+        "能列举新世纪十年的经济、科技与外交成就",
+        "能概括科学发展观的内涵与提出、入章的时间线"
+      ],
+      "assessmentPrompt": "问{{name}}：“全面建设小康社会”和“全面建成”差在哪一步？科学发展观“以人为本”是什么意思？新世纪哪几件大事让世界重新打量中国？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第五单元",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_ls_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_07",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "新时代与中国梦",
+      "description": "2012年十八大擘画中国梦：国家富强、民族振兴、人民幸福；十九大宣告进入新时代、社会主要矛盾转变；“一带一路”与人类命运共同体把中国推向世界舞台中央，脱贫攻坚与总体国家安全观护住复兴底色。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出中国梦的内涵、路径与“两个一百年”",
+        "能讲清十九大的主要成果与“两步走”安排",
+        "能列举“一带一路”、人类命运共同体等大国外交成就"
+      ],
+      "assessmentPrompt": "问{{name}}：中国梦的内涵是什么、靠什么实现？新时代社会主要矛盾怎么表述？“人类命运共同体”主张各国怎么相处？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第六单元",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_ls_g8b_06"
+      ]
+    },
+    {
+      "id": "ct_ls_g8b_08",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "第一个百年奋斗目标与新征程",
+      "description": "2021年脱贫攻坚战全面胜利、全面小康建成——第一个百年奋斗目标如期兑现；二十大提出以中国式现代化全面推进中华民族伟大复兴，向着第二个百年目标吹响新征程的号角。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出脱贫攻坚全面胜利与全面小康建成的标志时间和数据",
+        "能复述二十大明确的中心任务与“两步走”安排",
+        "能举例说明新时代社会生活的巨大变化"
+      ],
+      "assessmentPrompt": "问{{name}}：第一个百年奋斗目标是什么、什么时候实现的？中国式现代化是什么样子？2035年和本世纪中叶各要走到哪一步？",
+      "standards": [
+        "cshistory-2022:S4.MC.04"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第七单元",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_ls_g8b_07"
+      ]
+    },
+    {
       "id": "ct_ls_g9a_01",
       "type": "CONCEPTUAL",
       "subject": "历史",
@@ -46903,6 +47493,99 @@
       "prerequisites": [
         "ct_ls_g8a_01",
         "ct_ls_g9a_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "从原始社会到大河文明",
+      "description": "人类由古猿演化而来，从母系到父系氏族，私有制催生阶级和国家；两河的《汉谟拉比法典》、埃及的金字塔法老、印度的种姓制度与佛教——大河边的早期文明各有章程。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能讲清生产力发展到私有制、阶级、国家产生的先后链条",
+        "能对应两河、埃及、印度三大文明与其代表成就",
+        "能评价《汉谟拉比法典》的地位局限与种姓制度、佛教的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么早期国家多出现在大河边？《汉谟拉比法典》保护的是谁？佛教的“众生平等”和种姓制度矛盾吗？",
+      "standards": [
+        "cshistory-2022:S4.WA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第一单元",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_ls_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "中世纪西欧与拜占庭帝国",
+      "description": "西罗马帝国废墟上长出法兰克王国：克洛维皈依基督教、查理曼加冕称帝、封君封臣层层分封、庄园自给自足；城市与大学破土而出，君士坦丁堡的拜占庭帝国把罗马法编成《罗马民法大全》。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能画出封君封臣的义务关系并说明其契约性",
+        "能说出城市自治斗争、大学兴起与市民阶级的意义",
+        "能列举《罗马民法大全》的构成并作两面评价"
+      ],
+      "assessmentPrompt": "问{{name}}：“我的附庸的附庸，不是我的附庸”说的是什么规矩？西欧城市为什么敢跟领主讨价还价？《罗马民法大全》好在哪里、又保留了什么？",
+      "standards": [
+        "cshistory-2022:S4.WA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第三单元",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_ls_g9a_01"
+      ]
+    },
+    {
+      "id": "ct_ls_g9a_07",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "中古亚洲、非洲与美洲文明",
+      "description": "西欧还在庄园里种地时，东边很热闹：日本学唐制搞大化改新、武士幕府接管实权；穆罕默德创伊斯兰教，阿拉伯帝国地跨三洲还当起东西方文化的“搬运工”；西非的黄金与美洲的玉米，各自精彩。",
+      "grade": 9,
+      "semester": "上",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能说出大化改新的内容、影响与武士幕府的由来",
+        "能对应阿拉伯帝国与伊斯兰教、阿拉伯数字等文化成就",
+        "能列举玛雅、阿兹特克、印加与西非文明的代表特征"
+      ],
+      "assessmentPrompt": "问{{name}}：大化改新学的是谁？日本天皇后来为什么“大权旁落”？阿拉伯数字为什么叫“阿拉伯”数字？美洲三大文明各自长在哪里？",
+      "standards": [
+        "cshistory-2022:S4.WA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 9,
+        "volume": "上",
+        "unit": "第四单元",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_ls_g9a_06"
       ]
     },
     {
@@ -47085,6 +47768,10 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_ls_g10a_03",
+        "ct_ls_g10a_04",
+        "ct_ls_g10a_05",
+        "ct_ls_g10a_06",
         "ct_ls_g7a_03",
         "ct_ls_g7b_01"
       ]
@@ -47117,8 +47804,337 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_ls_g10a_07",
+        "ct_ls_g10a_08",
+        "ct_ls_g10a_09",
+        "ct_ls_g10a_10",
+        "ct_ls_g10a_11",
+        "ct_ls_g10a_12",
         "ct_ls_g8a_01",
         "ct_ls_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "纲要上·从中华文明起源到秦汉统一多民族封建国家",
+      "description": "中华文明从“满天星斗”的史前文化走到秦汉大一统帝国：夏商西周搭起早期国家骨架，春秋战国在变法与百家争鸣中转型，秦汉用皇帝制度与郡县制确立中央集权。看懂“统一多民族封建国家”如何奠基，就看这一单元。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能按顺序说出从夏商周到秦汉的关键制度节点",
+        "能举例说明商鞅变法如何为秦统一铺路",
+        "能概述汉武帝巩固大一统的主要措施"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说中华文明起源是“多元一体”？秦的郡县制比西周分封制强在哪？汉武帝用了哪几招把帝国攥成一个拳头？",
+      "standards": [
+        "hshistory-2017:H1.OA.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第一单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g7a_06"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "纲要上·三国两晋南北朝的民族交融与隋唐统一多民族",
+      "description": "三国两晋南北朝看似分裂，却在民族大交融中攒足了统一的底气；隋唐再度统一并创造三省六部、科举、两税法等制度高峰。“分久必合”靠的不是运气，是交融与制度创新。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能排出三国到隋唐的政权更替时间轴",
+        "能说明孝文帝改革与民族交融的关系",
+        "能说出三省六部制、科举制、两税法的创新点"
+      ],
+      "assessmentPrompt": "问{{name}}：孝文帝为什么要让鲜卑贵族改说汉语、改用汉姓？三省六部把宰相的活拆成了哪三块？隋唐为什么能再度统一并走向盛世？",
+      "standards": [
+        "hshistory-2017:H1.OA.01",
+        "hshistory-2017:H2.CE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第二单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "纲要上·辽宋夏金多民族政权的并立与元朝的统一",
+      "description": "辽宋夏金元像几家政权同台演出：一边并立互市、互相学制度，一边经济重心南移完成、社会面貌一新，最后元朝以行省制把空前版图统一起来。多民族国家从并立走向一体的关键一程。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能画出辽宋夏金元并立到元统一的时间轴",
+        "能分析北宋加强集权措施的利与弊",
+        "能列举两宋经济与社会的新变化"
+      ],
+      "assessmentPrompt": "问{{name}}：北宋为什么“富”却“弱”？元朝的行省制比郡县制新在哪？经济重心南移是什么时候完成的？",
+      "standards": [
+        "hshistory-2017:H1.OA.01",
+        "hshistory-2017:H2.ES.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第三单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国古代史",
+      "name": "纲要上·明清中国版图的奠定与面临的挑战",
+      "description": "明清把君主专制推上顶峰（废丞相、设军机处），也把中国版图撑到今天的规模（台湾府、伊犁将军、驻藏大臣）。可盛世背后人口膨胀、闭关自守，与西方工业革命的差距悄悄拉开。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说出明清强化君主专制的关键措施",
+        "能在地图上指出清朝治理边疆的主要方式",
+        "能用史实分析康乾盛世背后的危机"
+      ],
+      "assessmentPrompt": "问{{name}}：废丞相之后皇帝还设内阁、军机处，为什么说专制反而更强了？清朝怎样治理西藏和新疆？康乾盛世为什么藏着危机？",
+      "standards": [
+        "hshistory-2017:H1.OA.01",
+        "hshistory-2017:H2.CE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第四单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_05"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_07",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "纲要上·晚清时期的内忧外患与救亡图存",
+      "description": "两次鸦片战争、甲午战争、八国联军侵华步步紧逼，条约一签再签，中国一步步沉入半殖民地半封建社会的深渊；师夷长技、洋务自强、维新变法层层递进，救亡的药方越开越深。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能按顺序列出四次侵华战争及对应条约",
+        "能解释协定关税、允许设厂等条款的危害",
+        "能比较洋务运动与戊戌维新的主张差异"
+      ],
+      "assessmentPrompt": "问{{name}}：从《南京条约》到《辛丑条约》，半殖民地化的程度是怎样一步步加深的？师夷长技、洋务自强、维新变法各开了什么药方？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第五单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_06"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_08",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "纲要上·辛亥革命与中华民国的建立",
+      "description": "清末新政与皇族内阁把改良的最后希望烧成灰烬，武昌枪声终结了两千多年帝制，《临时约法》写下“主权属于国民全体”。随后军阀混战中，民族工业迎来短暂春天，《新青年》举起民主与科学。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能对应同盟会纲领与三民主义",
+        "能从功绩与局限两面评价辛亥革命",
+        "能说明民族工业短暂春天的原因与结局"
+      ],
+      "assessmentPrompt": "问{{name}}：三民主义的“创立民国”要解决什么问题？辛亥革命到底算成功还是失败？《新青年》为什么在1915年发声？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第六单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_07"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_09",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "纲要上·中国共产党成立与新民主主义革命兴起",
+      "description": "五四运动让学生与工人第一次并肩上街，中国共产党在南湖红船上诞生；从城市暴动受挫到井冈山星火燎原，从长征濒危到遵义转向——中国革命的新道路在挫折中走出来。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能解释五四运动为什么是新民主主义革命的开端",
+        "能概括工农武装割据的基本内容",
+        "能说明遵义会议的转折意义"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说五四运动是新民主主义革命的开端？“农村包围城市”这条新道路是怎么走出来的？遵义会议转折在哪里？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第七单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_08"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_10",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国近代史",
+      "name": "纲要上·中华民族的抗日战争和人民解放战争",
+      "description": "十四年抗战，正面战场与敌后战场相互配合，中国成为世界反法西斯战争的东方主战场，赢得近代以来抗击外敌入侵的第一次完全胜利；随后的三年解放战争，用人心向背决定了中国的两种命运。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能区分局部抗战与全面抗战的关键事件",
+        "能列举正面战场与敌后战场配合的史实",
+        "能分析解放战争中共获胜的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：西安事变的和平解决改变了什么？正面战场和敌后战场是怎样配合的？解放战争共产党为什么能以弱胜强？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第八单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_09"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_11",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "纲要上·中华人民共和国成立和社会主义革命与建设",
+      "description": "开国大典后，新中国用土改、抗美援朝站稳脚跟，用“一五”计划和三大改造搭起社会主义制度的大厦；探索有“大跃进”“文化大革命”的曲折，也有一穷二白中造出“两弹一星”的奠基之功。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能概述新中国成立初期巩固政权的措施",
+        "能说明“一化三改”的内容与意义",
+        "能用两点论评价探索时期的成就与失误"
+      ],
+      "assessmentPrompt": "问{{name}}：抗美援朝为什么非打不可？“一化三改”改的是什么、立的是什么？怎么评价探索时期的曲折与成就？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第九单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_10"
+      ]
+    },
+    {
+      "id": "ct_ls_g10a_12",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "中国现代史",
+      "name": "纲要上·改革开放与社会主义现代化建设新时期",
+      "description": "真理标准大讨论扫清思想障碍，十一届三中全会开启改革开放：小岗村的红手印、深圳的特区速度、浦东的开发潮一路接力，社会主义市场经济体制逐步建立，港澳回归、全面小康、走近世界舞台中央。",
+      "grade": 10,
+      "semester": "上",
+      "ageRangeStart": 15,
+      "ageRangeEnd": 16,
+      "evidence": [
+        "能说明十一届三中全会的转折意义",
+        "能画出对外开放从点到面的梯度图",
+        "能列举改革开放以来的理论成果与重大成就"
+      ],
+      "assessmentPrompt": "问{{name}}：家庭联产承包责任制为什么能调动农民积极性？“一国两制”下港澳怎样回归？中国特色社会主义理论是怎样一棒接一棒的？",
+      "standards": [
+        "hshistory-2017:H1.OA.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "上",
+        "unit": "第十单元",
+        "book": "必修 中外历史纲要（上）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10a_11"
       ]
     },
     {
@@ -47150,8 +48166,299 @@
         "editionYear": 2019
       },
       "prerequisites": [
+        "ct_ls_g10b_02",
+        "ct_ls_g10b_03",
+        "ct_ls_g10b_04",
+        "ct_ls_g10b_05",
+        "ct_ls_g10b_06",
+        "ct_ls_g10b_07",
+        "ct_ls_g10b_08",
+        "ct_ls_g10b_09",
+        "ct_ls_g10b_10",
         "ct_ls_g9a_02",
         "ct_ls_g9b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_02",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "纲要下·古代文明的产生与发展",
+      "description": "从种下第一粒麦子到波斯、亚历山大、罗马三大帝国：文明在大河边与海岸边各自发芽，又沿着驿道和字母传播的路线悄悄握手。看懂「文明多元」与「交流互鉴」这两把钥匙，世界史的大门就打开了。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能对应古代各大文明与其代表性成就",
+        "能说出波斯、亚历山大、罗马帝国促进文明交流的表现"
+      ],
+      "assessmentPrompt": "问{{name}}：文明诞生的标志是什么？为什么埃及文明长在大河边而希腊文明长在海边？腓尼基字母传到欧洲变成了什么？",
+      "standards": [
+        "hshistory-2017:H1.OB.01",
+        "hshistory-2017:H2.CE.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第一单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g9a_05"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_03",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界古代史",
+      "name": "纲要下·中古时期的世界",
+      "description": "庄园里的农奴、巴格达的学者、廷巴克图的商队、特诺奇蒂特兰的水上花园——5到15世纪的世界不是一团漆黑的黑暗时代，而是欧亚非美洲多元并存、各有精彩的棋盘。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说出西欧封建社会的主要特征",
+        "能各举一例说明中古时期亚非与美洲文明的成就"
+      ],
+      "assessmentPrompt": "问{{name}}：西欧庄园里领主和农奴是什么关系？为什么说阿拉伯帝国是东西方文化交流的桥梁？中古时期的美洲有哪些文明？",
+      "standards": [
+        "hshistory-2017:H1.OB.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第二单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_02"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_04",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "纲要下·走向整体的世界",
+      "description": "迪亚士向南、哥伦布向西、麦哲伦船队回家：几支帆船队把隔绝的大陆缝成一张网，人口、玉米、马铃薯和白银开始环球流动，人类历史从分散走向整体。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按航线说出主要航海家及其成就",
+        "能举例说明全球物种交换与商品流动的表现和影响"
+      ],
+      "assessmentPrompt": "问{{name}}：迪亚士、哥伦布、达·伽马、麦哲伦各自开辟了哪条航线？马铃薯和玉米的全球旅行带来了什么后果？",
+      "standards": [
+        "hshistory-2017:H1.OB.02",
+        "hshistory-2017:H2.ES.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第三单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_03"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_05",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "纲要下·资本主义制度的确立",
+      "description": "文艺复兴让人抬头，宗教改革让人直信，科学革命让人算账，启蒙运动让人讲理——思想解放四连击之后，英国、美国、法国接连换章程，君主立宪与三权分立成为新时代的通用语法。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按顺序排列文艺复兴、宗教改革、科学革命、启蒙运动并说出核心主张",
+        "能说明《权利法案》《独立宣言》《人权宣言》与各国制度的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：文艺复兴复兴的是旧文化吗？孟德斯鸠的「三权分立」后来在美国怎样落地？英国国王为什么从此不能再随便加税？",
+      "standards": [
+        "hshistory-2017:H1.OB.02",
+        "hshistory-2017:H2.NG.01"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第四单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_04"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_06",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "纲要下·工业革命与马克思主义的诞生",
+      "description": "蒸汽机轰鸣、铁路延展、电灯点亮：两次工业革命把人类推进蒸汽时代、电气时代；而机器旁的贫富鸿沟，让《共产党宣言》应声而出，巴黎公社留下第一次伟大尝试。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能区分两次工业革命的主要标志与特点",
+        "能说明马克思主义诞生的背景、标志与意义"
+      ],
+      "assessmentPrompt": "问{{name}}：第一次和第二次工业革命的时代标志各是什么？为什么工业革命进行得越快，《共产党宣言》越显得必要？",
+      "standards": [
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第五单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_05"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_07",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界近代史",
+      "name": "纲要下·世界殖民体系与亚非拉民族独立运动",
+      "description": "从拉美的银矿到印度的棉田再到非洲的分界线：19世纪末20世纪初，列强把全球纳入自己的账本；海地起义、玻利瓦尔进军、亚洲觉醒、埃塞俄比亚抗意——被压迫者的反击也从未停歇。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能按洲说出资本主义世界殖民体系形成的过程与表现",
+        "能举例说明亚非拉民族独立运动的代表事件与人物"
+      ],
+      "assessmentPrompt": "问{{name}}：1884年柏林会议怎样把非洲「分蛋糕」？玻利瓦尔和圣马丁分别领导哪里的独立运动？「亚洲觉醒」醒在哪里？",
+      "standards": [
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第六单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_06"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_08",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "纲要下·两次世界大战、十月革命与国际秩序的演变",
+      "description": "凡尔登的绞肉机、冬宫的炮声、珍珠港的浓烟：20世纪上半叶两场大战把旧格局打得粉碎；十月革命让社会主义从宣言变成国家，凡尔赛—华盛顿体系与雅尔塔体系先后登场又各领风骚。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明两次世界大战爆发的原因与主要进程",
+        "能比较凡尔赛—华盛顿体系与雅尔塔体系"
+      ],
+      "assessmentPrompt": "问{{name}}：一战为什么被称为帝国主义战争？十月革命和二月革命有什么不同？联合国安理会的「大国一致」原则是怎么回事？",
+      "standards": [
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第七单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_07"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_09",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "纲要下·20世纪下半叶世界的新变化",
+      "description": "铁幕落下，柏林墙竖起又倒塌：杜鲁门主义对上华约北约，导弹危机悬在头顶，两极对峙近半个世纪，其间欧洲联合、日本崛起、万隆与不结盟孕育着多极化；苏联三度改革终至解体，殖民体系随之瓦解。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能列举冷战的主要表现并说出两极格局瓦解的标志",
+        "能概括战后资本主义国家、社会主义国家与殖民体系的新变化"
+      ],
+      "assessmentPrompt": "问{{name}}：冷战为什么「冷」？北约和华约是怎么对峙起来的？苏联解体的标志是什么？1960年为什么被称为「非洲年」？",
+      "standards": [
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第八单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_08"
+      ]
+    },
+    {
+      "id": "ct_ls_g10b_10",
+      "type": "CONCEPTUAL",
+      "subject": "历史",
+      "domain": "世界现代史",
+      "name": "纲要下·当代世界发展的特点与主要趋势",
+      "description": "冷战散场后，世界没有变成一家独大：一超多强下多极化不可逆转，互联网让资本与商品眨眼环球，但南北差距、气候危机、恐怖主义也接踵而至——人类命运共同体给出中国答案。",
+      "grade": 10,
+      "semester": "下",
+      "ageRangeStart": 16,
+      "ageRangeEnd": 17,
+      "evidence": [
+        "能说明世界多极化与经济全球化的表现与影响",
+        "能举例说明构建人类命运共同体的背景与意义"
+      ],
+      "assessmentPrompt": "问{{name}}：为什么说多极化不可逆转？经济全球化带来了哪些问题？「人类命运共同体」要解决什么问题？",
+      "standards": [
+        "hshistory-2017:H1.OB.02"
+      ],
+      "textbook": {
+        "publisher": "统编版",
+        "grade": 10,
+        "volume": "下",
+        "unit": "第九单元",
+        "book": "必修 中外历史纲要（下）",
+        "editionYear": 2019
+      },
+      "prerequisites": [
+        "ct_ls_g10b_09"
       ]
     },
     {
@@ -47458,6 +48765,37 @@
       ]
     },
     {
+      "id": "ct_dl_g7a_08",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "人文地理",
+      "name": "世界的发展差异与国际合作",
+      "description": "同为地球村的一员，有的国家富、有的国家穷——按经济发展水平分成发达国家与发展中国家，差距像长跑中的领跑者与追赶者。国家之间靠贸易、生产协作和国际组织互通有无，这就是国际合作与经济全球化。",
+      "grade": 7,
+      "semester": "上",
+      "ageRangeStart": 12,
+      "ageRangeEnd": 13,
+      "evidence": [
+        "能说出发达国家与发展中国家的划分依据和分布差异",
+        "能举例说明一件商品背后多国协作的生产链",
+        "能说出联合国、世界贸易组织等国际组织的作用"
+      ],
+      "assessmentPrompt": "问{{name}}：发达国家和发展中国家是怎么划分的？为什么一部手机要很多国家一起造？联合国和世贸组织是干什么的？",
+      "standards": [
+        "csgeography-2022:S4.WG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "上",
+        "unit": "第六章 发展与合作",
+        "editionYear": 2024
+      },
+      "prerequisites": [
+        "ct_dl_g7a_07"
+      ]
+    },
+    {
       "id": "ct_dl_g7b_01",
       "type": "CONCEPTUAL",
       "subject": "地理",
@@ -47517,6 +48855,99 @@
       },
       "prerequisites": [
         "ct_dl_g7b_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g7b_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "东半球地区与国家：从西亚到澳大利亚",
+      "description": "跟着地图逛东半球：波斯湾的石油、欧洲西部的牧场、撒哈拉以南非洲的草原、南半球的'活化石'大陆。学会用'位置—环境—物产—生活'四步读懂一个地区。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出西亚石油的分布地区与外运通道",
+        "能解释欧洲西部畜牧业发达的自然原因",
+        "能列举澳大利亚的特有动物并解释其成因"
+      ],
+      "assessmentPrompt": "问{{name}}：西亚的石油从哪里来、往哪里运？欧洲西部的人为什么爱吃牛羊肉？澳大利亚为什么有袋鼠考拉这些'活化石'？",
+      "standards": [
+        "csgeography-2022:S4.WG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第九章 东半球其他的地区和国家",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g7b_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g7b_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "西半球的国家：美国与巴西",
+      "description": "北边是靠移民建国的美国，南边是桑巴故乡巴西——一个农业带像格子铺、一个守着地球之肺。比较着学，发达国家与发展中国家的差异一目了然。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出美国农业地区专业化的特点与主要农业带",
+        "能解释亚马孙热带雨林被称为'地球之肺'的原因",
+        "能比较美国与巴西在发展水平与产业上的差异"
+      ],
+      "assessmentPrompt": "问{{name}}：美国的农业为什么分成一个个'带'？亚马孙雨林为什么叫地球之肺？美国和巴西谁是发达国家？",
+      "standards": [
+        "csgeography-2022:S4.WG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第十章 西半球的国家",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g7b_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g7b_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "世界地理",
+      "name": "极地地区：冰雪世界与科学考察",
+      "description": "地球的南北两端是两座'白色实验室'：北极是冰封的大洋，南极是冰雪覆盖的高原大陆。企鹅住在南极、北极熊住在北极，各国科学家在这里读懂地球的过去与未来。",
+      "grade": 7,
+      "semester": "下",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能比较南北极地区自然环境的差异",
+        "能列举我国的极地科学考察站",
+        "能说明极地环境保护需要国际合作的原因"
+      ],
+      "assessmentPrompt": "问{{name}}：南极和北极有什么不一样？我国在南极建了哪些科考站？为什么各国要一起保护极地环境？",
+      "standards": [
+        "csgeography-2022:S4.WG.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 7,
+        "volume": "下",
+        "unit": "第十一章 极地地区",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g7b_04"
       ]
     },
     {
@@ -47668,6 +49099,38 @@
       ]
     },
     {
+      "id": "ct_dl_g8a_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "建设美丽中国：防灾减灾与绿色发展",
+      "description": "我国是自然灾害多发的国家，台风、地震、洪涝考验着我们；守护绿水青山同样是大考。这一章讲两件事：灾害来了怎么防，家园如何更绿——'美丽中国'不是口号，是每个人的必修课。",
+      "grade": 8,
+      "semester": "上",
+      "ageRangeStart": 13,
+      "ageRangeEnd": 14,
+      "evidence": [
+        "能说出我国主要自然灾害的种类与多发区",
+        "能演示地震、泥石流发生时的正确避险方法",
+        "能举例说明绿色发展与'双碳'目标的身边做法"
+      ],
+      "assessmentPrompt": "问{{name}}：我国哪些地方容易发生地震和泥石流？地震来了该往哪里躲？'双碳'目标是什么、我们能做什么？",
+      "standards": [
+        "csgeography-2022:S4.CG.01",
+        "csgeography-2022:S4.CG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "上",
+        "unit": "第五章 建设美丽中国",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g8a_05"
+      ]
+    },
+    {
       "id": "ct_dl_g8b_01",
       "type": "CONCEPTUAL",
       "subject": "地理",
@@ -47727,6 +49190,130 @@
       "prerequisites": [
         "ct_dl_g7b_02",
         "ct_dl_g8b_01"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_03",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "南方地区：鱼米之乡、港澳与台湾",
+      "description": "秦岭—淮河以南的南方：湿热多雨、水田连片、稻花飘香；这里还有中国的经济引擎长三角、'一国两制'下的港澳和物产丰富的宝岛台湾。跟着河流与海洋读南方。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能分析南方地区发展水田农业的自然条件",
+        "能说明长江三角洲发展经济的区位优势",
+        "能举例说明香港与祖国内地的优势互补"
+      ],
+      "assessmentPrompt": "问{{name}}：南方为什么成为鱼米之乡？长三角凭什么成为我国最大的经济区？香港和内地怎么互相帮忙？",
+      "standards": [
+        "csgeography-2022:S4.CG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第八章 南方地区",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g8b_02"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_04",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "西北地区：干旱环境与农牧业",
+      "description": "离海最远的西北：降水从东向西越来越少，草原退成荒漠，骆驼替了牛羊。干旱是这里的主旋律——但绿洲里种出甜瓜果，沙漠下藏着油气，'干旱的宝地'名副其实。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能解释西北地区干旱的主要成因",
+        "能描述西北植被自东向西的变化规律",
+        "能说明西气东输工程对东西部的意义"
+      ],
+      "assessmentPrompt": "问{{name}}：西北为什么这么干旱？从东到西景观怎么变？西气东输把天然气送到哪里、谁受益？",
+      "standards": [
+        "csgeography-2022:S4.CG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第九章 西北地区",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g8b_03"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_05",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "青藏地区：高寒环境与三江源保护",
+      "description": "平均海拔4000米以上的'世界屋脊'：冷是主旋律，太阳却格外慷慨。牦牛驮着高原人家，青稞长在河谷里，'中华水塔'三江源守护着长江黄河澜沧江。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能解释青藏地区'高寒'特征的形成原因",
+        "能说明河谷农业分布在河谷地带的理由",
+        "能说出三江源地区的生态价值与保护措施"
+      ],
+      "assessmentPrompt": "问{{name}}：青藏高原为什么'高寒'？青稞为什么种在河谷里？三江源保护的是哪三条江？",
+      "standards": [
+        "csgeography-2022:S4.CG.03"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十章 青藏地区",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g8b_04"
+      ]
+    },
+    {
+      "id": "ct_dl_g8b_06",
+      "type": "CONCEPTUAL",
+      "subject": "地理",
+      "domain": "中国地理",
+      "name": "奋进中的中国：发展成就与绿色转型",
+      "description": "把两年地理学到的中国拼成一幅'全景图'：脱贫攻坚、高铁航天、南水北调，成就斐然；区域不平衡、资源环境压力仍是考题。看中国如何转型迈向高质量发展。",
+      "grade": 8,
+      "semester": "下",
+      "ageRangeStart": 14,
+      "ageRangeEnd": 15,
+      "evidence": [
+        "能列举我国新时代的重大发展成就",
+        "能说出区域协调发展战略的主要方向",
+        "能结合实例说明绿色发展与高质量发展的关系"
+      ],
+      "assessmentPrompt": "问{{name}}：新时代中国有哪些了不起的发展成就？区域协调发展战略是干什么的？为什么说我国仍是发展中国家？",
+      "standards": [
+        "csgeography-2022:S4.CG.02"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 8,
+        "volume": "下",
+        "unit": "第十一章 奋进中的中国",
+        "editionYear": 2025
+      },
+      "prerequisites": [
+        "ct_dl_g8b_05"
       ]
     },
     {
@@ -49355,6 +50942,68 @@
       },
       "prerequisites": [
         "ct_yy_g5a_07"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_14",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "词汇",
+      "name": "情绪词与 Why...? Because...",
+      "description": "掌握情绪形容词（happy、sad、angry、worried）和问因句 Why are you...? Because...：说出情绪还要说出原因，情绪表达从『我开心』升级到『我为什么开心』。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能用四个情绪词描述自己一天的心情",
+        "能用 Why are you...? Because... 问答情绪原因"
+      ],
+      "assessmentPrompt": "问{{name}}：Why are you happy today? 要求先用情绪词回答再补一句 Because...；再让他用 worried 造一句带原因的话。",
+      "standards": [
+        "csenglish-2022:S2.VB.01",
+        "csenglish-2022:S3.GR.06"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 2·My feelings",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_yy_g5a_01"
+      ]
+    },
+    {
+      "id": "ct_yy_g5a_15",
+      "type": "LANGUAGE",
+      "subject": "英语",
+      "domain": "语法",
+      "name": "健康习惯建议：You should...",
+      "description": "掌握健康习惯话题（早睡、吃好、多运动）和建议句型 You should... / You shouldn't...：should 后面跟动词原形，把关心别人（也提醒自己）的话说成可执行的建议。",
+      "grade": 5,
+      "semester": "上",
+      "ageRangeStart": 10,
+      "ageRangeEnd": 11,
+      "evidence": [
+        "能对作息、饮食、运动各提一条 You should... 建议",
+        "should 后面的动词保持原形不出错"
+      ],
+      "assessmentPrompt": "问{{name}}：同桌经常熬夜，你怎么用英语劝他？要求说出 You should go to bed early. 这类完整建议句，再问一句劝阻的说法。",
+      "standards": [
+        "csenglish-2022:S3.GR.04",
+        "csenglish-2022:S2.VB.01"
+      ],
+      "textbook": {
+        "publisher": "人教版",
+        "grade": 5,
+        "volume": "上",
+        "unit": "Unit 4·Healthy habits",
+        "editionYear": 2026
+      },
+      "prerequisites": [
+        "ct_yy_g5a_02"
       ]
     },
     {

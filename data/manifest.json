@@ -3,36 +3,36 @@
   "version": "2.4.0",
   "generatedAt": "2026-11-08",
   "counts": {
-    "topics": 1641,
-    "dependencies": 2269,
+    "topics": 1693,
+    "dependencies": 2340,
     "standards": 532,
     "deprecated": 0,
-    "lessons": 1641,
-    "lessonExercises": 6564,
+    "lessons": 1693,
+    "lessonExercises": 6772,
     "byGrade": {
       "1年级上": 49,
       "2年级下": 50,
       "1年级下": 50,
       "2年级上": 44,
       "3年级上": 66,
-      "3年级下": 63,
-      "4年级上": 74,
-      "5年级上": 65,
-      "4年级下": 66,
-      "6年级上": 64,
+      "3年级下": 65,
+      "4年级上": 76,
+      "5年级上": 69,
+      "4年级下": 67,
+      "6年级上": 65,
       "5年级下": 62,
       "6年级下": 57,
-      "7年级上": 84,
-      "7年级下": 86,
-      "8年级上": 104,
-      "8年级下": 93,
-      "9年级上": 109,
-      "9年级下": 64,
-      "10年级上": 87,
-      "10年级下": 73,
-      "11年级上": 75,
+      "7年级上": 89,
+      "7年级下": 89,
+      "8年级上": 105,
+      "8年级下": 100,
+      "9年级上": 116,
+      "9年级下": 60,
+      "10年级上": 97,
+      "10年级下": 82,
+      "11年级上": 78,
       "11年级下": 60,
-      "12年级上": 61,
+      "12年级上": 62,
       "12年级下": 35
     }
   },
@@ -82,20 +82,20 @@
       "统编版·2026 年版"
     ],
     "lessonCoverage": {
-      "topics": 1641,
-      "of": 1641,
-      "aligned": 1641
+      "topics": 1693,
+      "of": 1693,
+      "aligned": 1693
     },
     "note": "覆盖 数学、语文、英语、物理、化学、生物学、历史、地理、道德与法治、思想政治（人教系/统编教材）；进度详见 CHANGELOG。"
   },
   "files": {
     "topics.json": {
-      "bytes": 1886906,
-      "sha256": "54c20f30217c089a468b2164b9a2b3b1f0a27d43288db583b7c5937ccb2699dd"
+      "bytes": 1953712,
+      "sha256": "8b66b4a5ba5bade0b1819cdc1ab4286d6d52e2dd9e3d51b06b1d96f318d6a011"
     },
     "dependencies.json": {
-      "bytes": 405402,
-      "sha256": "bd791ffc65d7fb0aa8ce8a64dcc5c2aad1c874258652276dbe0eb4b79acf74e6"
+      "bytes": 414081,
+      "sha256": "74310a28c8f83ac6798875ef46ef9b6af2f7a469664d9bca1924d8ae757819dd"
     },
     "curriculum-standards.json": {
       "bytes": 126092,
@@ -106,20 +106,20 @@
       "sha256": "8a56e3051a58d18224a5ddd78bf8c9e8b68be9d2710340dba887a9391dd3aa07"
     },
     "lessons/dl.json": {
-      "bytes": 255899,
-      "sha256": "585e5c486e18f6cea74a4f4adc7a414df152f05b3a4d02796d2c02a7dde6193f"
+      "bytes": 344818,
+      "sha256": "9b0c65d6aabbf7edb0e8a2cb0066179c4f7b8163a1c5ad0e89419b73dc6f8034"
     },
     "lessons/hx.json": {
       "bytes": 695692,
       "sha256": "f2be9aa4edab62cf0c427deead4d771a53789f870b0beb6e04b33ff80c72f9e0"
     },
     "lessons/ls.json": {
-      "bytes": 761091,
-      "sha256": "9b7867d03752e104ea7d03013bcd8acecc5826b79108f1828267215b3bdb040a"
+      "bytes": 1079444,
+      "sha256": "df869496a5abdb255462929fb8d77d3983e54daf0a6c3731f31c844c2ace0e74"
     },
     "lessons/math.json": {
-      "bytes": 5362576,
-      "sha256": "361f5d8b6c63e1fe50d921b97006f811c097396ae0fa98d64feb77fd21d110fd"
+      "bytes": 5326366,
+      "sha256": "a2fed936508120ad1b43927962cd08c1ed3fc2640d59d7d690c6e91ff731c183"
     },
     "lessons/sw.json": {
       "bytes": 712513,
@@ -130,16 +130,16 @@
       "sha256": "f123f0eda09510f5ccd30fd946db33063b3d2f96ab40e9d5dc5c274a739c4ae6"
     },
     "lessons/wl.json": {
-      "bytes": 1239952,
-      "sha256": "93fc1ffcc0f9de8b6a5a979b73e1d753863f8d739017256e53d4ed33e6adb54f"
+      "bytes": 1237068,
+      "sha256": "f44aeea3a4a989be6fa0c2a772a81fc2547e0ce549f25e9a900bd9cede29fd27"
     },
     "lessons/yw.json": {
-      "bytes": 5108695,
-      "sha256": "1561a78f6fcc1f28eed8cca90c5ee3723049cc2f344a8679650cee955b686070"
+      "bytes": 5063333,
+      "sha256": "d5073efe7e4656f19b3f03836acfd0145440f891d66bf64486f6526d27e8d52e"
     },
     "lessons/yy.json": {
-      "bytes": 2071927,
-      "sha256": "5ed45c581057ee85d05b71910e4504af7f9baf48a3687bb024fbd02460d7d413"
+      "bytes": 2125868,
+      "sha256": "3c9fcce5d61c1b50777a06481b086775567ff9634f3130fa0d7320d971f25ae9"
     },
     "lessons/zz.json": {
       "bytes": 359113,

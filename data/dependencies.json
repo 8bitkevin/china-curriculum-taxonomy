@@ -2,7 +2,7 @@
  "schemaVersion": 1,
  "version": "2.3.0",
  "note": "topicId 依赖 prerequisiteId（先学 prerequisiteId 才能顺利学 topicId）。strength：hard=缺了就学不动；soft=有助但非必需。",
- "edgeCount": 2269,
+ "edgeCount": 2340,
  "dependencies": [
   {
    "topicId": "ct_g1a_04",
@@ -13617,6 +13617,386 @@
    "prerequisiteId": "ct_ls_g11b_04",
    "strength": "soft",
    "reason": "书籍作为商品流通的历史，为文化传承专题提供经济史视角"
+  },
+  {
+   "topicId": "ct_g4a_31",
+   "prerequisiteId": "ct_g3b_10",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_g5a_27",
+   "prerequisiteId": "ct_g4b_05",
+   "strength": "hard",
+   "reason": "观察简单组合体承接四年级「观察物体(二)」"
+  },
+  {
+   "topicId": "ct_g5a_28",
+   "prerequisiteId": "ct_g5a_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_wl_g12a_05",
+   "prerequisiteId": "ct_wl_g12a_03",
+   "strength": "hard",
+   "reason": "电磁振荡承接交变电流（LC 回路源于正弦交流）"
+  },
+  {
+   "topicId": "ct_yw_g4a_25",
+   "prerequisiteId": "ct_yw_g4a_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g7a_06",
+   "prerequisiteId": "ct_ls_g7a_01",
+   "strength": "hard",
+   "reason": "史前时期先于夏商周（同册单元序）"
+  },
+  {
+   "topicId": "ct_ls_g9a_05",
+   "prerequisiteId": "ct_ls_g8b_04",
+   "strength": "hard",
+   "reason": "九年级世界史承接八年级中国现代史"
+  },
+  {
+   "topicId": "ct_ls_g9a_06",
+   "prerequisiteId": "ct_ls_g9a_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g9a_07",
+   "prerequisiteId": "ct_ls_g9a_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g8b_06",
+   "prerequisiteId": "ct_ls_g8b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g8b_07",
+   "prerequisiteId": "ct_ls_g8b_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g8b_08",
+   "prerequisiteId": "ct_ls_g8b_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_03",
+   "prerequisiteId": "ct_ls_g7a_06",
+   "strength": "hard",
+   "reason": "中华文明起源承接初中史前时期"
+  },
+  {
+   "topicId": "ct_ls_g10a_01",
+   "prerequisiteId": "ct_ls_g10a_03",
+   "strength": "hard",
+   "reason": "纲要上前三单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_01",
+   "prerequisiteId": "ct_ls_g10a_04",
+   "strength": "hard",
+   "reason": "纲要上前三单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_01",
+   "prerequisiteId": "ct_ls_g10a_05",
+   "strength": "hard",
+   "reason": "纲要上前三单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_01",
+   "prerequisiteId": "ct_ls_g10a_06",
+   "strength": "hard",
+   "reason": "纲要上前三单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_07",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_08",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_09",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_10",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_11",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10a_02",
+   "prerequisiteId": "ct_ls_g10a_12",
+   "strength": "hard",
+   "reason": "纲要上后六单元聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_02",
+   "prerequisiteId": "ct_ls_g9a_05",
+   "strength": "hard",
+   "reason": "纲要下世界古代史承接九上世界古代史单元"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_02",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_03",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_04",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_05",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_06",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_07",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_08",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_09",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_ls_g10b_01",
+   "prerequisiteId": "ct_ls_g10b_10",
+   "strength": "hard",
+   "reason": "纲要下全册聚合复习点挂接单元点"
+  },
+  {
+   "topicId": "ct_dl_g7a_08",
+   "prerequisiteId": "ct_dl_g7a_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g7b_03",
+   "prerequisiteId": "ct_dl_g7b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g7b_04",
+   "prerequisiteId": "ct_dl_g7b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g7b_05",
+   "prerequisiteId": "ct_dl_g7b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g8a_06",
+   "prerequisiteId": "ct_dl_g8a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g8b_03",
+   "prerequisiteId": "ct_dl_g8b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g8b_04",
+   "prerequisiteId": "ct_dl_g8b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g8b_05",
+   "prerequisiteId": "ct_dl_g8b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_dl_g8b_06",
+   "prerequisiteId": "ct_dl_g8b_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g7a_16",
+   "prerequisiteId": "ct_yy_g7a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g7a_17",
+   "prerequisiteId": "ct_yy_g7a_16",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g7a_18",
+   "prerequisiteId": "ct_yy_g7a_08",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g3b_13",
+   "prerequisiteId": "ct_yy_g3b_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g3b_14",
+   "prerequisiteId": "ct_yy_g3b_13",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g5a_14",
+   "prerequisiteId": "ct_yy_g5a_01",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g5a_15",
+   "prerequisiteId": "ct_yy_g5a_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g6a_13",
+   "prerequisiteId": "ct_yy_g6a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g4b_13",
+   "prerequisiteId": "ct_yy_g4b_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11a_11",
+   "prerequisiteId": "ct_yy_g11a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11a_12",
+   "prerequisiteId": "ct_yy_g11a_11",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_yy_g11a_13",
+   "prerequisiteId": "ct_yy_g11a_12",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_04",
+   "prerequisiteId": "ct_ls_g10a_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_05",
+   "prerequisiteId": "ct_ls_g10a_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_06",
+   "prerequisiteId": "ct_ls_g10a_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_07",
+   "prerequisiteId": "ct_ls_g10a_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_08",
+   "prerequisiteId": "ct_ls_g10a_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_09",
+   "prerequisiteId": "ct_ls_g10a_08",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_10",
+   "prerequisiteId": "ct_ls_g10a_09",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_11",
+   "prerequisiteId": "ct_ls_g10a_10",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10a_12",
+   "prerequisiteId": "ct_ls_g10a_11",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_03",
+   "prerequisiteId": "ct_ls_g10b_02",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_04",
+   "prerequisiteId": "ct_ls_g10b_03",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_05",
+   "prerequisiteId": "ct_ls_g10b_04",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_06",
+   "prerequisiteId": "ct_ls_g10b_05",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_07",
+   "prerequisiteId": "ct_ls_g10b_06",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_08",
+   "prerequisiteId": "ct_ls_g10b_07",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_09",
+   "prerequisiteId": "ct_ls_g10b_08",
+   "strength": "hard"
+  },
+  {
+   "topicId": "ct_ls_g10b_10",
+   "prerequisiteId": "ct_ls_g10b_09",
+   "strength": "hard"
   }
  ]
 }
