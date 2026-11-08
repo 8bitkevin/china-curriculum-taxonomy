@@ -236,7 +236,8 @@ test('source.unit 与 topic.textbook.unit 不一致应被拒绝', () => {
     patchFirstLesson(root, { source: { unit: 9, alignedAt: '2026-10-26' } });
     const result = runValidate(root);
     assert.equal(result.status, 1);
-    assert.match(result.stderr, /source\.unit 9 与 topic\.textbook\.unit \d 不一致/);
+    // 单元值格式随版本演进（数字/「数学游戏」/「第N单元·X」/「Unit N·X」），只断言不一致报错本身
+    assert.match(result.stderr, /source\.unit 9 与 topic\.textbook\.unit .+ 不一致/);
   } finally {
     rmSync(root, { recursive: true, force: true });
   }
