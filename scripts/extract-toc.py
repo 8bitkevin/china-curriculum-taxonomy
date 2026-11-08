@@ -98,7 +98,7 @@ ALL_VOLUMES = list(VOLUME_MODE)
 
 CN_NUM = "一二三四五六七八九十百"
 CN_DIGIT_TABLE = {c: i for i, c in enumerate("一二三四五六七八九", 1)}
-RE_CHAPTER = re.compile(r"^第([0-9０-９一二三四五六七八九十百]+)章\s*(\S.*)?$")   # 第X章（中/阿数字）
+RE_CHAPTER = re.compile(r"^第([0-9０-９一二三四五六七八九十百]+)\s*章\s*(\S.*)?$")   # 第X章（中/阿数字；生物学新版目录「第1 章」号与章字间有空格）
 RE_SECTION = re.compile(r"^(\d{1,2})[.．](\d{1,2})\s*(\S.*)?$")
 RE_UNIT_HEAD = re.compile(r"^([0-9０-９]{1,2}|[一二三四五六七八九十]{1,3})[\s　]+(.+)$")  # 号在标题前：「1 准备课」「一 数学游戏」
 RE_PAGE_TAIL = re.compile(r"(?<![0-9.~%％])(\d{1,3})$")   # 行尾页码（允许紧贴标题）
@@ -236,8 +236,9 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         dots = " ".join(lines).count("…") + " ".join(lines).count("....")
         chapters = sum(1 for l in compacts if RE_CHAPTER.match(l))
         # 续页：紧邻已命中页 + 页码行多 + 行短而少（目录排版特征，
-        # 排除正文中数字密集的页面）
-        lens = [len(l) for l in lines if l]
+        # 排除正文中数字密集的页面）。行长按剥掉点引导线后的正文计
+        # （生物学新版目录行点线占比过半，会把 avg_len 撑过 40 误杀尾页）
+        lens = [len(re.sub(r"[.…·]{2,}", "", l)) for l in lines if l]
         avg_len = sum(lens) / len(lens) if lens else 0
         cont = (hits and i == hits[-1] + 1 and (numbered >= 2 or chapters >= 1)
                 and avg_len <= 40)
@@ -249,8 +250,9 @@ def find_toc_pages(doc: "fitz.Document", limit: int = 12) -> list[int]:
         unit_rows += sum(len(re.findall(r"第[一二三四五六七八九十\d]{1,3}课", l))
                          for l in compacts)
         unit_rows += sum(1 for l in compacts if RE_UNIT_EN.match(l))
-        is_toc = ("目" in head and "录" in head and numbered >= 3) or (
+        is_toc = ("目" in head and "录" in head and (numbered >= 3 or dots >= 2)) or (
             numbered >= 5 and (dots >= 2 or chapters >= 2)) or (
+            chapters >= 2 and dots >= 2) or (  # 章行页码紧贴点线无法按页码行计数（生物学新版）
             unit_rows >= 3) or (
             "CONTENTS" in " ".join(lines).upper() and len(lines) >= 6) or cont
         if is_toc:
@@ -364,6 +366,10 @@ def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
                 units[-1]["sections"].append(
                     {"no": sm.group(1), "title": title, "page": page})
                 continue
+        # 章结构书（math 模式：章+节）中「N 标题」行是节内小节（生物学新版目录），
+        # 不是单元：跳过，防止误判为单元并触发序号回退提前终止目录
+        if units and "sections" in units[-1] and RE_UNIT_HEAD.match(line):
+            continue
         # 小学单元行：「1 准备课 2」「认识图形（一）4 34」（标题可为单字：比、圆）
         title, page = strip_page(line)
         m = RE_UNIT_HEAD.match(title)
@@ -392,11 +398,16 @@ def parse_toc_rows(rows: list[list[str]], mode: str = "math") -> list[dict]:
     return units
 
 
+RE_DOT_PAGE = re.compile(r"[.…·]{2,}(\d{1,3})$")   # 目录点引导线紧贴页码（生物学新版「……39」）
+
 def strip_page(line: str) -> tuple[str, int | None]:
     m = RE_PAGE_TAIL.search(line)
     if m:
         return line[: m.start()].strip(), int(m.group(1))
-    return line, None
+    m = RE_DOT_PAGE.search(line)  # 点线紧贴页码：连点带页码一起剥离
+    if m:
+        return line[: m.start()].strip(), int(m.group(1))
+    return re.sub(r"[.…·\s]+$", "", line), None  # 无页码行也要剥掉尾部点线残留
 
 
 def _unit_index(s: str) -> int | None:

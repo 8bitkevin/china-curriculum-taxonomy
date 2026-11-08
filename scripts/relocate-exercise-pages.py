@@ -88,6 +88,10 @@ def stem_of(t: dict) -> str | None:
         if subject == "物理" and grade == 9:
             return "初中物理九年级全一册"
         return f"初中{subject}{g}年级{v}"
+    # 高中：book（validate HS_BOOKS_BY_SUBJECT 口径）+ 去空格 = PDF 文件名
+    book = t["textbook"].get("book")
+    if book:
+        return f"高中{subject}{book}".replace(" ", "")
     return None
 
 
@@ -251,7 +255,7 @@ def main() -> int:
             changed = False
             for l in j.get("lessons") or []:
                 t = topic_by_id.get(l.get("topicId") or "")
-                if not t or t["grade"] > 9 or stem_of(t) != stem:
+                if not t or stem_of(t) != stem:
                     continue
                 lo, hi = unit_range.get(unit_key(t["textbook"]["unit"]), (1, 10**4))
                 for e in l.get("exercises") or []:
