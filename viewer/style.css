@@ -889,6 +889,13 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
   cursor: pointer; padding: 2px 8px; border-radius: 6px;
 }
 .lesson-close:hover { color: var(--ink); background: var(--bg); }
+/* ⤢ 完整页面：新标签页打开独立学习页 lesson.html（完整阅读入口） */
+.lesson-fullpage {
+  flex: none; font: inherit; font-size: 12px; font-weight: 600; color: var(--accent-ink);
+  background: var(--accent-weak); border: 0; border-radius: 8px;
+  padding: 4px 10px; cursor: pointer; white-space: nowrap;
+}
+.lesson-fullpage:hover { background: var(--accent-line); }
 
 .lesson-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 16px 18px 26px; }
 .lesson-body::-webkit-scrollbar { width: 10px; }
@@ -965,6 +972,9 @@ table.qt th.barcell-h, table.qt td.barcell { width: 44%; }
   box-shadow: var(--shadow-accent);
 }
 .lesson-entry:hover { background: var(--accent-press); }
+/* ↗ 完整页面：详情页直达独立学习页 lesson.html 的次级文字链接 */
+.lesson-fullpage-link { font-size: 13px; font-weight: 600; color: var(--accent-ink); text-decoration: none; }
+.lesson-fullpage-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 @media (max-width: 900px) {
   .lesson-drawer { width: 100%; border-left: 0; }

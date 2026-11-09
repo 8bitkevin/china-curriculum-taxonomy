@@ -1,0 +1,112 @@
+/* viewer/lesson-page.css — 独立学习页（lesson.html）阅读排版。
+   复用 style.css 的设计令牌与 .lesson-* 内容组件（D-030/D-031 结构不变），
+   本文件只负责页面骨架（双 sticky 条）与阅读字号/行距的覆盖升级：
+   独立页定位 = 完整阅读 + 做题，正文列 760px 居中，比 540px 抽屉更舒展。 */
+
+.lp {
+  --lp-top-h: 46px;
+  scroll-behavior: smooth;
+}
+/* style.css 的 body 是 height:100% + flex 的「内部容器滚动」布局（主站
+   .list/.detail 各自滚）；独立页是整页文档流滚动，sticky 条才能钉在视口。 */
+body.lp {
+  height: auto;
+  min-height: 100vh;
+  display: block;
+}
+@media (prefers-reduced-motion: reduce) {
+  .lp { scroll-behavior: auto; }
+}
+
+/* ---- 顶栏：返回图谱 · 知识点名 · 在图谱中查看 ---- */
+.lp-top {
+  position: sticky; top: 0; z-index: 30;
+  display: flex; align-items: center; gap: 14px;
+  height: var(--lp-top-h); padding: 0 18px;
+  background: var(--panel); border-bottom: 1px solid var(--line);
+}
+.lp-back {
+  flex: none; font-size: 13px; font-weight: 600; color: var(--accent-ink);
+  text-decoration: none; white-space: nowrap;
+}
+.lp-back:hover { text-decoration: underline; text-underline-offset: 3px; }
+.lp-top-name {
+  flex: 1; min-width: 0; font-size: 13.5px; font-weight: 600; color: var(--ink);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.lp-ingraph {
+  flex: none; font-size: 12.5px; color: var(--muted);
+  text-decoration: none; white-space: nowrap;
+}
+.lp-ingraph:hover { color: var(--accent-ink); }
+
+/* ---- 锚点导航条（sticky 排在顶栏之下；移动端横向滚动） ----
+   注意：这里刻意不用 display:flex + overflow-x:auto——Chrome 下 flex 容器
+   配横向滚动会把 auto 高度算错（内容被压扁）。inline-block + nowrap 稳定。 */
+.lp-nav {
+  position: sticky; top: var(--lp-top-h); z-index: 29;
+  white-space: nowrap; overflow-x: auto;
+  padding: 7px 18px;
+  background: var(--panel); border-bottom: 1px solid var(--line);
+  scrollbar-width: none;
+}
+.lp-nav::-webkit-scrollbar { display: none; }
+.lp-nav a {
+  display: inline-block; margin-right: 6px;
+  font-size: 13px; font-weight: 600; color: var(--muted);
+  text-decoration: none; padding: 4px 12px; border-radius: 999px;
+}
+.lp-nav a:hover { color: var(--accent-ink); background: var(--accent-weak); }
+.lp-nav a.on { color: var(--accent-ink); background: var(--accent-weak); }
+
+/* 锚点跳转落点让出双 sticky 条 */
+.lp [id^="sec-"] { scroll-margin-top: calc(var(--lp-top-h) + 44px); }
+
+/* ---- 正文列：阅读排版（覆盖抽屉的小栏字号） ---- */
+.lp-main { max-width: 760px; margin: 0 auto; padding: 26px 20px 64px; }
+
+.lp-head {
+  display: flex; align-items: flex-start; gap: 12px;
+  padding: 18px 20px; margin-bottom: 18px;
+  background: linear-gradient(135deg, #ffffff 55%, #f0faf5 100%);
+  border: 1px solid var(--line); border-radius: var(--radius, 14px);
+}
+.lp-head-title { flex: 1; min-width: 0; }
+.lp-name { margin: 0; font-size: 21px; line-height: 1.4; }
+.lp-meta { margin: 5px 0 0; font-size: 13px; color: var(--muted); }
+
+.lp .lesson-summary { font-size: 15px; line-height: 1.8; padding: 12px 16px; }
+.lp .lesson-sec { margin-bottom: 26px; }
+.lp .lesson-sec > h4 { font-size: 13px; margin-bottom: 12px; }
+.lp .lesson-sec p { font-size: 15.5px; line-height: 1.85; }
+.lp .lesson-method { padding: 13px 16px; }
+.lp .lesson-method-name { font-size: 15px; }
+.lp .lesson-steps li { font-size: 15px; line-height: 1.8; }
+.lp .lesson-tip { font-size: 13.5px; line-height: 1.7; }
+.lp .lesson-q { font-size: 15.5px; line-height: 1.8; }
+.lp .lesson-opts li { font-size: 15px; line-height: 1.8; }
+.lp .lesson-sol summary { font-size: 13.5px; }
+.lp .lesson-sol-text { font-size: 15px; line-height: 1.85; }
+.lp .lesson-ans { font-size: 15px; }
+.lp .lesson-pit { font-size: 13.5px; line-height: 1.7; }
+.lp .lesson-warn li { font-size: 15px; line-height: 1.8; }
+.lp .lesson-ex + .lesson-ex { margin-top: 16px; }
+
+/* ---- 错误态 / 空态 ---- */
+.lp-error { padding: 48px 20px; text-align: center; }
+.lp-error-title { font-size: 17px; font-weight: 700; margin: 0 0 8px; }
+.lp-error-detail { font-size: 13.5px; color: var(--muted); margin: 0 0 18px; line-height: 1.7; }
+.lp-error-back { font-weight: 600; color: var(--accent-ink); text-decoration: none; }
+.lp-error-back:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---- 移动端 ---- */
+@media (max-width: 640px) {
+  .lp-main { padding: 18px 14px 48px; }
+  .lp-head { padding: 14px 16px; }
+  .lp-name { font-size: 18px; }
+}
+
+/* ---- 打印：隐藏双 sticky 条 ---- */
+@media print {
+  .lp-top, .lp-nav { display: none; }
+}

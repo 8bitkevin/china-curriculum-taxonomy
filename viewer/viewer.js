@@ -7,7 +7,7 @@ import {
 } from './logic.js';
 import { Graph3D, buildLayout, subjectDeep } from './graph3d.js';
 import { PathMap } from './pathmap.js';
-import { initLessonDrawer } from './lesson.js?v=ui10';
+import { initLessonDrawer } from './lesson.js?v=ui11';
 
 const DATA_BASE = '../data/';
 const TYPE_ZH = {
@@ -455,7 +455,8 @@ function renderDetail() {
 
     <div class="lesson-entry-row">
       <button class="lesson-entry" type="button">📖 查看讲解与例题</button>
-      <span class="muted">讲解 · 方法 · 例题，几分钟快速掌握</span>
+      <a class="lesson-fullpage-link" href="lesson.html?id=${esc(t.id)}" target="_blank" rel="noopener">↗ 完整页面</a>
+      <span class="muted">抽屉速览，完整阅读请开新页面</span>
     </div>
 
     <div class="sec">

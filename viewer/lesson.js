@@ -1,20 +1,15 @@
 // viewer/lesson.js — 知识点学习内容抽屉（D-030：讲解 / 方法 / 例题；D-031：练习）。
 // 零构建组件：initLessonDrawer 挂到 index.html 的 #lesson-mount 上。
+// 渲染函数抽至 lesson-render.js（独立学习页 lesson.html 共用同一套 DOM）。
 // 数据懒加载：首次打开某学科的知识点时才 fetch data/lessons/<code>.json
-// （Map 缓存；404 = 该学科暂无内容，显示空态）。渲染全部走 esc() 纯文本，
-// 例题解答与练习答案均用 <details> 折叠（先想再看）。URL 由 viewer.js 的路由
+// （Map 缓存；404 = 该学科暂无内容，显示空态）。URL 由 viewer.js 的路由
 // 统一管理：open/close 只改 UI，通过 onClose 回调让 viewer 同步 hash（#lesson=）。
+// 抽屉定位 = 图谱旁的轻量速览；完整阅读走头部「⤢ 完整页面」新标签打开
+// lesson.html?id=…。
 
 import { lessonFileOf } from './logic.js';
 import { subjectDeep } from './graph3d.js';
-
-const esc = (s) => String(s ?? '').replace(/[&<>"']/g,
-  (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-
-const DIFF_ZH = { 1: '基础', 2: '提高', 3: '挑战' };
-// D-031/D-033 练习题分类徽标（面向用户不提来源，textbook=与课堂同步的基础题）
-const KIND_ZH = { textbook: '同步', variant: '变式', extension: '扩展' };
-const CONTRIB_URL = 'https://github.com/8bitkevin/china-curriculum-taxonomy/blob/main/CONTRIBUTING.md';
+import { lessonSectionsHtml, emptyHtml } from './lesson-render.js';
 
 /**
  * @param {{ index, dataBase?: string, onClose?: () => void }} opts  index = logic.buildIndex 产物
@@ -34,6 +29,7 @@ export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {})
           <h3 class="lesson-name"></h3>
           <p class="lesson-meta"></p>
         </div>
+        <button class="lesson-fullpage" type="button" title="在新标签页完整阅读">⤢ 完整页面</button>
         <button class="lesson-close" type="button" title="关闭 (Esc)">×</button>
       </header>
       <div class="lesson-body"></div>
@@ -43,6 +39,7 @@ export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {})
   const drawer = mount.querySelector('.lesson-drawer');
   const body = mount.querySelector('.lesson-body');
   let lastFocus = null;
+  let currentId = null;   // 当前抽屉知识点（⤢ 完整页面按钮跳转用）
 
   const loadSubject = (subject) => {
     const code = lessonFileOf(subject);
@@ -57,83 +54,11 @@ export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {})
     return subjectCache.get(code);
   };
 
-  const methodHtml = (m) => `
-    <div class="lesson-method">
-      <b class="lesson-method-name">${esc(m.name)}</b>
-      <ol class="lesson-steps">${m.steps.map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
-      ${m.tip ? `<p class="lesson-tip">💡 ${esc(m.tip)}</p>` : ''}
-    </div>`;
-
-  const exampleHtml = (ex, i) => `
-    <div class="lesson-ex">
-      <div class="lesson-q">
-        <span class="lesson-diff d${ex.difficulty}">${DIFF_ZH[ex.difficulty] ?? ''}</span>
-        <span>例 ${i + 1} · ${esc(ex.question)}</span>
-      </div>
-      <details class="lesson-sol">
-        <summary>查看解答</summary>
-        <p class="lesson-sol-text">${esc(ex.solution)}</p>
-        ${ex.pitfall ? `<p class="lesson-pit">⚠ 本题易错：${esc(ex.pitfall)}</p>` : ''}
-      </details>
-    </div>`;
-
-  const exerciseHtml = (e, i) => `
-    <div class="lesson-ex lesson-exr">
-      <div class="lesson-q">
-        <span class="lesson-kind k-${e.kind}">${KIND_ZH[e.kind] ?? '练习'}</span>
-        <span class="lesson-diff d${e.difficulty}">${DIFF_ZH[e.difficulty] ?? ''}</span>
-        <span>${i + 1}. ${esc(e.question)}</span>
-      </div>
-      ${e.options ? `<ol class="lesson-opts" type="A">${e.options.map((o) => `<li>${esc(o)}</li>`).join('')}</ol>` : ''}
-      <details class="lesson-sol">
-        <summary>对答案 · 看解析</summary>
-        <p class="lesson-ans">答案：<b>${esc(e.answer)}</b></p>
-        <p class="lesson-sol-text">${esc(e.solution)}</p>
-      </details>
-    </div>`;
-
-  const emptyHtml = (t) => `
-    <div class="lesson-empty">
-      <p class="lesson-empty-title">「${esc(t.name)}」的讲解还在建设中</p>
-      <p>学习内容按学科分批编写。现阶段可以先看它的通俗描述、掌握证据与先修关系；
-        这是一个开放图谱，也欢迎你一起贡献讲解与例题。</p>
-      <a href="${CONTRIB_URL}" target="_blank" rel="noopener">如何贡献学习内容 →</a>
-    </div>`;
-
-  const renderLesson = (t, lesson) => {
-    const head = `
-      <p class="lesson-summary">${esc(lesson.summary)}</p>
-      <section class="lesson-sec">
-        <h4>📖 讲解</h4>
-        ${lesson.explanation.map((p) => `<p>${esc(p)}</p>`).join('')}
-      </section>`;
-    const methods = lesson.methods?.length ? `
-      <section class="lesson-sec">
-        <h4>🧰 方法</h4>
-        ${lesson.methods.map(methodHtml).join('')}
-      </section>` : '';
-    const examples = lesson.examples?.length ? `
-      <section class="lesson-sec">
-        <h4>✏️ 例题（先想再看解答）</h4>
-        ${lesson.examples.map(exampleHtml).join('')}
-      </section>` : '';
-    const mistakes = lesson.mistakes?.length ? `
-      <section class="lesson-sec lesson-warn">
-        <h4>⚠️ 易错提醒</h4>
-        <ul>${lesson.mistakes.map((m) => `<li>${esc(m)}</li>`).join('')}</ul>
-      </section>` : '';
-    const exercises = lesson.exercises?.length ? `
-      <section class="lesson-sec">
-        <h4>📝 练习（先做再看答案）</h4>
-        ${lesson.exercises.map(exerciseHtml).join('')}
-      </section>` : '';
-    body.innerHTML = head + methods + examples + mistakes + exercises;
-  };
-
   const open = async (topicId) => {
     const t = index.byId.get(topicId);
     if (!t) return;
     lastFocus = document.activeElement;
+    currentId = topicId;
     mount.querySelector('.lesson-dot').style.background = subjectDeep(t.subject);
     mount.querySelector('.lesson-name').textContent = t.name;
     mount.querySelector('.lesson-meta').textContent =
@@ -146,8 +71,7 @@ export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {})
     const byId = await loadSubject(t.subject);
     if (mount.hidden) return;   // 等待期间已关闭
     const lesson = byId?.get(topicId);
-    if (lesson) renderLesson(t, lesson);
-    else body.innerHTML = emptyHtml(t);
+    body.innerHTML = lesson ? lessonSectionsHtml(lesson).html : emptyHtml(t);
   };
 
   const close = () => {
@@ -157,6 +81,11 @@ export function initLessonDrawer({ index, dataBase = '../data/', onClose } = {})
     lastFocus = null;
     onClose?.();   // URL 同步交给 viewer 的统一路由（#lesson= → #id=…）
   };
+
+  // 新标签页打开完整学习页（lesson.html 与本页同目录）
+  mount.querySelector('.lesson-fullpage').addEventListener('click', () => {
+    if (currentId) window.open(`lesson.html?id=${encodeURIComponent(currentId)}`, '_blank', 'noopener');
+  });
 
   veil.addEventListener('click', close);
   mount.querySelector('.lesson-close').addEventListener('click', close);

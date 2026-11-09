@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>中国 K12 课程知识图谱</title>
 <meta name="description" content="知识点 + 先修依赖 + 课标对齐的开放知识图谱：查孩子学什么、先学什么、怎么判断学会了。覆盖数学、语文、英语等 K12 学科。">
-<link rel="stylesheet" href="style.css?v=ui10">
+<link rel="stylesheet" href="style.css?v=ui11">
 </head>
 <body>
 <header class="topbar">
@@ -97,20 +97,32 @@
             <span class="step-num">2</span>
             <h4>看「学习旅程」</h4>
             <p>一张图看清：我在哪、先学什么、通向哪里——底部热条显示该点被多少后续知识点依赖。</p>
-            <svg viewBox="0 0 260 64" role="img" aria-label="先修链示意：必需先修指向当前知识点，再解锁后续">
-              <line x1="52" y1="20" x2="106" y2="20" style="stroke:var(--hard)" stroke-width="2"/>
-              <line x1="138" y1="20" x2="196" y2="20" style="stroke:var(--line-strong)" stroke-width="2"/>
-              <line x1="60" y1="46" x2="110" y2="25" style="stroke:var(--soft)" stroke-width="1.6" stroke-dasharray="4 3"/>
-              <circle cx="34" cy="20" r="11" style="fill:var(--hard-weak);stroke:#f3c6da"/>
-              <circle cx="122" cy="20" r="14" style="fill:var(--accent)"/>
-              <circle cx="212" cy="20" r="11" style="fill:var(--bg);stroke:var(--line-strong)"/>
-              <circle cx="46" cy="46" r="9" style="fill:var(--soft-weak);stroke:#e2b96b"/>
-              <text x="34" y="24" text-anchor="middle" font-size="9" style="fill:var(--hard-ink)" font-weight="600">先</text>
-              <text x="122" y="24" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">今</text>
-              <text x="212" y="24" text-anchor="middle" font-size="9" style="fill:var(--muted)">后</text>
-              <text x="8" y="14" font-size="9.5" style="fill:var(--hard-ink)">必需先修</text>
-              <text x="198" y="42" font-size="9.5" style="fill:var(--muted)">解锁</text>
-              <text x="20" y="63" font-size="9.5" style="fill:var(--soft-ink)">有益先修（虚线）</text>
+            <svg viewBox="0 0 260 70" role="img" aria-label="先修链示意：必需先修指向当前知识点，再解锁后续；有益先修以虚线汇入当前知识点">
+              <defs>
+                <marker id="obArrHard" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto">
+                  <path d="M0 0 L8 4 L0 8 Z" style="fill:var(--hard)"/>
+                </marker>
+                <marker id="obArrSoft" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
+                  <path d="M0 0 L8 4 L0 8 Z" style="fill:var(--soft)"/>
+                </marker>
+                <marker id="obArrUnl" viewBox="0 0 8 8" refX="8" refY="4" markerWidth="7" markerHeight="7" markerUnits="userSpaceOnUse" orient="auto">
+                  <path d="M0 0 L8 4 L0 8 Z" style="fill:var(--line-strong)"/>
+                </marker>
+              </defs>
+              <line x1="47" y1="23" x2="110" y2="23" style="stroke:var(--hard)" stroke-width="2" marker-end="url(#obArrHard)"/>
+              <line x1="138" y1="23" x2="203" y2="23" style="stroke:var(--line-strong)" stroke-width="2" marker-end="url(#obArrUnl)"/>
+              <line x1="56.5" y1="45.2" x2="110.7" y2="27.4" style="stroke:var(--soft)" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#obArrSoft)"/>
+              <circle cx="36" cy="23" r="11" style="fill:var(--hard-weak);stroke:#f3c6da"/>
+              <circle cx="124" cy="23" r="14" style="fill:var(--accent)"/>
+              <circle cx="214" cy="23" r="11" style="fill:var(--bg);stroke:var(--line-strong)"/>
+              <circle cx="48" cy="48" r="9" style="fill:var(--soft-weak);stroke:#e2b96b"/>
+              <text x="36" y="27" text-anchor="middle" font-size="9" style="fill:var(--hard-ink)" font-weight="600">先</text>
+              <text x="124" y="27" text-anchor="middle" font-size="9" fill="#fff" font-weight="700">今</text>
+              <text x="214" y="27" text-anchor="middle" font-size="9" style="fill:var(--muted)">后</text>
+              <text x="48" y="52" text-anchor="middle" font-size="9" style="fill:var(--soft-ink)" font-weight="600">益</text>
+              <text x="36" y="9" text-anchor="middle" font-size="9.5" style="fill:var(--hard-ink)">必需先修</text>
+              <text x="214" y="45" text-anchor="middle" font-size="9.5" style="fill:var(--muted)">解锁</text>
+              <text x="48" y="67" text-anchor="middle" font-size="9.5" style="fill:var(--soft-ink)">有益先修（虚线）</text>
             </svg>
           </div>
           <div class="step">
@@ -171,6 +183,6 @@
 
 <div id="lesson-mount" class="lesson-mount" hidden></div>
 
-<script type="module" src="viewer.js?v=ui10"></script>
+<script type="module" src="viewer.js?v=ui11"></script>
 </body>
 </html>
