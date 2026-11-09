@@ -1,7 +1,9 @@
 /* viewer/lesson-page.css — 独立学习页（lesson.html）阅读排版。
    复用 style.css 的设计令牌与 .lesson-* 内容组件（D-030/D-031 结构不变），
-   本文件只负责页面骨架（双 sticky 条）与阅读字号/行距的覆盖升级：
-   独立页定位 = 完整阅读 + 做题，正文列 760px 居中，比 540px 抽屉更舒展。 */
+   本文件只负责页面骨架（双 sticky 条）与独立页布局覆盖。
+   宽屏布局（v4）：正文容器加宽至 1220px——讲解全宽通读；方法 / 例题 /
+   练习 = 两列卡片 grid 左右对称（刻意不用 multicol，卡片会被栏间截断）；
+   易错提醒 = 单列块级占满两列总宽。≤960px 两列降单列。 */
 
 .lp {
   --lp-top-h: 46px;
@@ -62,8 +64,8 @@ body.lp {
 /* 锚点跳转落点让出双 sticky 条 */
 .lp [id^="sec-"] { scroll-margin-top: calc(var(--lp-top-h) + 44px); }
 
-/* ---- 正文列：阅读排版（覆盖抽屉的小栏字号） ---- */
-.lp-main { max-width: 760px; margin: 0 auto; padding: 26px 20px 64px; }
+/* ---- 正文容器：宽屏（讲解全宽通读，两列分节同住此容器，宽度天然对齐） ---- */
+.lp-main { max-width: 1220px; margin: 0 auto; padding: 26px 26px 64px; }
 
 .lp-head {
   display: flex; align-items: flex-start; gap: 12px;
@@ -78,8 +80,54 @@ body.lp {
 .lp .lesson-summary { font-size: 15px; line-height: 1.8; padding: 12px 16px; }
 .lp .lesson-sec { margin-bottom: 26px; }
 .lp .lesson-sec > h4 { font-size: 13px; margin-bottom: 12px; }
+
+/* ---- 分区列布局：方法 / 例题 / 练习 = 两列卡片，易错 = 单列占满两列总宽 ----
+   grid 每卡一格（非 multicol 流式分栏，卡片绝不栏间截断）；h4 跨全列；
+   gap 统一接管卡片间距，清掉 style.css 的纵向堆叠 margin；
+   align-items:start——展开某张卡的解答时不把同行邻卡拉高。 */
+.lp #sec-methods,
+.lp #sec-examples,
+.lp #sec-exercises {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px 18px;
+  align-items: start;
+}
+.lp #sec-methods > h4,
+.lp #sec-examples > h4,
+.lp #sec-exercises > h4 {
+  grid-column: 1 / -1;
+  margin-bottom: 0;               /* 标题与首行卡片的间距由 gap 提供 */
+}
+.lp #sec-methods .lesson-method { margin-bottom: 0; }
+.lp #sec-examples .lesson-ex + .lesson-ex,
+.lp #sec-exercises .lesson-ex + .lesson-ex { margin-top: 0; }
+
+/* ---- 卡片化 + 呼吸感 + hover 反馈 ----
+   例题/练习套用与方法卡同一套卡片语言（近白底 #fdfefe + 细边 + 小圆角）；
+   hover：描边转品牌绿浅档 --accent-line，浮起 --shadow-1（K12 极浅大扩散影）。
+   只过渡颜色/阴影、不做位移——不触碰 reduced-motion 红线。 */
+.lp .lesson-ex {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  padding: 14px 18px;
+  background: #fdfefe;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.lp .lesson-method,
+.lp .lesson-warn {
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.lp .lesson-method:hover,
+.lp .lesson-ex:hover {
+  border-color: var(--accent-line);
+  box-shadow: var(--shadow-1);
+}
+/* 易错提醒：块级默认已占满两列总宽；警示语义，hover 反馈走琥珀系 */
+.lp .lesson-warn { padding: 14px 18px; }
+.lp .lesson-warn:hover { border-color: var(--soft-line); box-shadow: var(--shadow-1); }
 .lp .lesson-sec p { font-size: 15.5px; line-height: 1.85; }
-.lp .lesson-method { padding: 13px 16px; }
+.lp .lesson-method { padding: 14px 18px; }
 .lp .lesson-method-name { font-size: 15px; }
 .lp .lesson-steps li { font-size: 15px; line-height: 1.8; }
 .lp .lesson-tip { font-size: 13.5px; line-height: 1.7; }
@@ -90,7 +138,6 @@ body.lp {
 .lp .lesson-ans { font-size: 15px; }
 .lp .lesson-pit { font-size: 13.5px; line-height: 1.7; }
 .lp .lesson-warn li { font-size: 15px; line-height: 1.8; }
-.lp .lesson-ex + .lesson-ex { margin-top: 16px; }
 
 /* ---- 错误态 / 空态 ---- */
 .lp-error { padding: 48px 20px; text-align: center; }
@@ -99,6 +146,13 @@ body.lp {
 .lp-error-back { font-weight: 600; color: var(--accent-ink); text-decoration: none; }
 .lp-error-back:hover { text-decoration: underline; text-underline-offset: 3px; }
 
+/* ---- 中屏：两列降单列（讲解随之自然收窄） ---- */
+@media (max-width: 960px) {
+  .lp #sec-methods,
+  .lp #sec-examples,
+  .lp #sec-exercises { grid-template-columns: 1fr; }
+}
+
 /* ---- 移动端 ---- */
 @media (max-width: 640px) {
   .lp-main { padding: 18px 14px 48px; }
@@ -106,7 +160,10 @@ body.lp {
   .lp-name { font-size: 18px; }
 }
 
-/* ---- 打印：隐藏双 sticky 条 ---- */
+/* ---- 打印：隐藏双 sticky 条，两列降单列（A4 纸宽两列太挤） ---- */
 @media print {
   .lp-top, .lp-nav { display: none; }
+  .lp #sec-methods,
+  .lp #sec-examples,
+  .lp #sec-exercises { grid-template-columns: 1fr; }
 }
